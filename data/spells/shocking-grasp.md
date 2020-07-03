@@ -29,7 +29,7 @@ advancementOptions:
 ---
 Send an electric shock from your omni-tool to a creature you try to touch. Make a melee spell attack against the target.
 You have advantage on the attack roll if the target is wearing armor. On a hit, the target becomes
-<condition id="primed" sub="lightning"/> until the end of your next turn and takes 1d6 lightning damage.
+<me-condition id="primed" sub="lightning"/> until the end of your next turn and takes 1d6 lightning damage.
 Then the target must succeed on a Constitution saving throw or become stunned until the end of your next turn. A target
 with at least 1 shield point has advantage on this saving throw.
 

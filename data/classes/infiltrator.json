@@ -1,5 +1,4 @@
 {
-  "id": "infiltrator",
   "name": "Infiltrator",
   "description": "The Infiltrator is a tech-savvy warrior, able to win battles by quickly disabling and killing enemies. These soldiers focus on unlocking alternate routes, gaining access to good equipment, and obtaining an advantageous position over enemies in combat.\n",
   "snippet": "Infiltrators are tech and combat specialists with the unique ability to cloak themselves.\n",
@@ -93,9 +92,9 @@
       "proficiencyBonus": 2,
       "sneakAttack": "1d6",
       "features": [
-        "tactical_cloak",
+        "tactical-cloak",
         "expertise",
-        "sneak_attack"
+        "sneak-attack"
       ],
       "tacticalCloakUses": 2,
       "cantrips": "-",
@@ -107,8 +106,8 @@
       "proficiencyBonus": 2,
       "sneakAttack": "1d6",
       "features": [
-        "cunning_action",
-        "combat_power"
+        "cunning-action",
+        "combat-power"
       ],
       "tacticalCloakUses": 2,
       "cantrips": 1,
@@ -132,7 +131,7 @@
       "proficiencyBonus": 2,
       "sneakAttack": "2d6",
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "tacticalCloakUses": 2,
       "cantrips": 1,
@@ -144,7 +143,7 @@
       "proficiencyBonus": 3,
       "sneakAttack": "3d6",
       "features": [
-        "uncanny_dodge"
+        "uncanny-dodge"
       ],
       "tacticalCloakUses": 2,
       "cantrips": 1,
@@ -180,7 +179,7 @@
       "proficiencyBonus": 3,
       "sneakAttack": "4d6",
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "tacticalCloakUses": 3,
       "cantrips": 2,
@@ -204,7 +203,7 @@
       "proficiencyBonus": 4,
       "sneakAttack": "5d6",
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "tacticalCloakUses": 3,
       "cantrips": 2,
@@ -216,7 +215,7 @@
       "proficiencyBonus": 4,
       "sneakAttack": "6d6",
       "features": [
-        "reliable_talent"
+        "reliable-talent"
       ],
       "tacticalCloakUses": 4,
       "cantrips": 3,
@@ -228,7 +227,7 @@
       "proficiencyBonus": 4,
       "sneakAttack": "6d6",
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "tacticalCloakUses": 4,
       "cantrips": 3,
@@ -264,7 +263,7 @@
       "proficiencyBonus": 5,
       "sneakAttack": "8d6",
       "features": [
-        "slippery_mind"
+        "slippery-mind"
       ],
       "tacticalCloakUses": 4,
       "cantrips": 3,
@@ -276,7 +275,7 @@
       "proficiencyBonus": 5,
       "sneakAttack": "8d6",
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "tacticalCloakUses": 4,
       "cantrips": 4,
@@ -312,7 +311,7 @@
       "proficiencyBonus": 6,
       "sneakAttack": "10d6",
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "tacticalCloakUses": 5,
       "cantrips": 4,
@@ -324,7 +323,7 @@
       "proficiencyBonus": 6,
       "sneakAttack": "10d6",
       "features": [
-        "stroke_of_luck"
+        "stroke-of-luck"
       ],
       "tacticalCloakUses": 5,
       "cantrips": 4,
@@ -338,17 +337,17 @@
       "description": "Shadow Infiltrators are melee specialists that make heavy use of their tactical cloak and stealth to close the distance between themselves and their target.",
       "features": [
         [
-          "up_close_and_personal"
+          "up-close-and-personal"
         ],
         [
-          "silent_cloak",
-          "melee_prowess"
+          "silent-cloak",
+          "melee-prowess"
         ],
         [
-          "shadow_strike"
+          "shadow-strike"
         ],
         [
-          "death_strike"
+          "death-strike"
         ]
       ]
     },
@@ -357,10 +356,10 @@
       "description": "Snipers are ranged specialists that have an affinity for sniper rifles.",
       "features": [
         [
-          "steady_aim"
+          "steady-aim"
         ],
         [
-          "careful_eyes"
+          "careful-eyes"
         ],
         [
           "overwatch"
@@ -375,17 +374,17 @@
       "description": "Saboteurs are tech savvy infiltrators that use cloak and dagger tactics to control the outcome of battles.",
       "features": [
         [
-          "saboteurs_touch",
-          "combat_heuristics"
+          "saboteurs-touch",
+          "combat-heuristics"
         ],
         [
-          "tactical_ambush"
+          "tactical-ambush"
         ],
         [
           "misdirection"
         ],
         [
-          "saboteurs_reflexes"
+          "saboteurs-reflexes"
         ]
       ]
     }

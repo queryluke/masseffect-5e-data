@@ -30,7 +30,7 @@ advancementOptions:
   description: Increase the damage die type to d12.
 ---
 Make a ranged spell attack on a target you can see within range. On a hit, the target takes 4d8 force damage and becomes
-<condition id="grappled"/>. While grappled the creature is <condition id="primed" sub="force"/>. To escape the grapple,
+<me-condition id="grappled"/>. While grappled the creature is <me-condition id="primed" sub="force"/>. To escape the grapple,
 the creature must succeed on a contested Strength (Athletics) check against your Constitution. This spell also ends if
 the creature is hit with a detonating attack or if you move more than 20m away from the target.
 

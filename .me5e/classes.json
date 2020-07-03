@@ -1,0 +1,2916 @@
+[
+  {
+    "name": "Adept",
+    "description": "Adepts are biotic specialists, capable of disabling and killing enemies with raw biotic power. While they lack advanced combat training, they are the best at defeating enemies without firing a shot. They are outfitted with L5x implants that can spawn a micro-singularity, damaging enemies and pulling them into the air.",
+    "snippet": "The Adept is the ultimate biotic, able to affect the physical world with the power of the mind.",
+    "primaryAbility": "Wisdom",
+    "hitDie": 6,
+    "minHitDieRoll": 4,
+    "armorProficiencies": [
+      "Light"
+    ],
+    "weaponProficiencyChoices": 1,
+    "weaponProficiencies": {
+      "required": [
+        "Heavy Pistols"
+      ],
+      "optional": [
+        "Melee",
+        "SMGs"
+      ]
+    },
+    "savingThrows": [
+      "Charisma",
+      "Wisdom"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Acrobatics",
+      "Deception",
+      "History",
+      "Insight",
+      "Intimidation",
+      "Performance",
+      "Sleight of hand",
+      "Survival"
+    ],
+    "startingRangedWeaponChoices": 1,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Blade",
+      "Monomolecular Blade"
+    ],
+    "startingArmor": [
+      "Stock Light Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Barrier Uses"
+      },
+      {
+        "title": "Barrier Ticks"
+      },
+      {
+        "title": "Cantrips"
+      },
+      {
+        "title": "Spells Known"
+      }
+    ],
+    "spellSlots": true,
+    "maxSpellSlot": 5,
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "barrier",
+          "biotic-recovery"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 2,
+        "cantrips": 4,
+        "spellsKnown": 3,
+        "spellSlots": {
+          "1": "2",
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 2,
+        "cantrips": 4,
+        "spellsKnown": 4,
+        "spellSlots": {
+          "1": "4",
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "barrierUses": 3,
+        "barrierTicks": 2,
+        "cantrips": 5,
+        "spellsKnown": 5,
+        "spellSlots": {
+          "1": "6",
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 2,
+        "cantrips": 5,
+        "spellsKnown": 6,
+        "spellSlots": {
+          "1": "7",
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [],
+        "barrierUses": 3,
+        "barrierTicks": 2,
+        "cantrips": 5,
+        "spellsKnown": 7,
+        "spellSlots": {
+          "1": "7",
+          "2": "2",
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 2,
+        "cantrips": 5,
+        "spellsKnown": 8,
+        "spellSlots": {
+          "1": "7",
+          "2": "3",
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "barrierUses": 4,
+        "barrierTicks": 3,
+        "cantrips": 6,
+        "spellsKnown": 9,
+        "spellSlots": {
+          "1": "7",
+          "2": "4",
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 3,
+        "cantrips": 6,
+        "spellsKnown": 10,
+        "spellSlots": {
+          "1": "7",
+          "2": "5",
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "barrierUses": 4,
+        "barrierTicks": 3,
+        "cantrips": 6,
+        "spellsKnown": 11,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "1",
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 3,
+        "cantrips": 6,
+        "spellsKnown": 12,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "2",
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "barrierUses": 4,
+        "barrierTicks": 3,
+        "cantrips": 7,
+        "spellsKnown": 13,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 3,
+        "cantrips": 7,
+        "spellsKnown": 14,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": null,
+          "5": null
+        }
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "barrierUses": 5,
+        "barrierTicks": 4,
+        "cantrips": 7,
+        "spellsKnown": 15,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": "1",
+          "5": null
+        }
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 4,
+        "cantrips": 7,
+        "spellsKnown": 16,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": "1",
+          "5": null
+        }
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "barrierUses": 5,
+        "barrierTicks": 4,
+        "cantrips": 8,
+        "spellsKnown": 17,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": "2",
+          "5": null
+        }
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 4,
+        "cantrips": 8,
+        "spellsKnown": 18,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": "2",
+          "5": null
+        }
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "empowered-biotics"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 4,
+        "cantrips": 8,
+        "spellsKnown": 19,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "3",
+          "4": "2",
+          "5": "1"
+        }
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "biotic-mastery"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 4,
+        "cantrips": 8,
+        "spellsKnown": 20,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "4",
+          "4": "2",
+          "5": "1"
+        }
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 5,
+        "cantrips": 8,
+        "spellsKnown": 21,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "5",
+          "4": "2",
+          "5": "1"
+        }
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "signature-biotics"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 5,
+        "cantrips": 8,
+        "spellsKnown": 22,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "5",
+          "4": "3",
+          "5": "1"
+        }
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Commando",
+        "description": "Commandos don't need heavy weapons because they ARE the heavy weapon. Their features improve both the damage potential and throughput of their biotic spells, making them a deadly force.",
+        "features": [
+          [
+            "pure-biotics"
+          ],
+          [
+            "expert-biotic"
+          ],
+          [
+            "biotic-split"
+          ],
+          [
+            "overchannel"
+          ]
+        ]
+      },
+      {
+        "name": "Blackstar",
+        "description": "Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting friends and gain unique benefits to biotic control spells like Lift, Singularity, and Stasis.",
+        "features": [
+          [
+            "sculpt-biotics"
+          ],
+          [
+            "bend-luck"
+          ],
+          [
+            "focused-biotics"
+          ],
+          [
+            "biotic-control"
+          ]
+        ]
+      },
+      {
+        "name": "Disruptor",
+        "description": "Disruptors have learned to tap into dark energy, improving biotic abilities that tear apart their adversaries from within. They also specialize in maintaining spells with intense focus.",
+        "features": [
+          [
+            "dark-biotics"
+          ],
+          [
+            "biotic-surge"
+          ],
+          [
+            "potent-biotics"
+          ],
+          [
+            "biotic-concentration"
+          ]
+        ]
+      }
+    ],
+    "id": "adept"
+  },
+  {
+    "name": "Sentinel (Alternative)",
+    "description": "The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking cover much less necessary and rushing their enemies much more productive. Because Sentinels have access to both biotic spells and tech powers, they have two Spellcasting Skills, Spell Attack Modifiers, and Spell Save DCs. Intelligence is the skill used for all tech powers, and Wisdom is used as the skill for all biotic powers.\n",
+    "snippet": "Sentinels are unique, bringing both tech and biotic abilities to the battlefield.\n",
+    "primaryAbility": "Int or Wis",
+    "hitDie": 10,
+    "minHitDieRoll": 6,
+    "armorProficiencies": [
+      "Light",
+      "Medium",
+      "Heavy"
+    ],
+    "weaponProficiencyChoices": 2,
+    "weaponProficiencies": {
+      "required": [
+        "Heavy Pistols"
+      ],
+      "optional": [
+        "Assault Rifles",
+        "Melee",
+        "Shotguns",
+        "SMGs"
+      ]
+    },
+    "savingThrows": [
+      "Charisma",
+      "Constitution"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Athletics",
+      "Engineering",
+      "Insight",
+      "Intimidation",
+      "Medicine",
+      "Persuasion",
+      "Science",
+      "Survival"
+    ],
+    "startingRangedWeaponChoices": 1,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken",
+      "M-8 Avenger"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Blade",
+      "Omni-Hammer",
+      "Monomolecular Blade",
+      "Riot Shield"
+    ],
+    "startingArmor": [
+      "Stock Light Armor",
+      "Stock Medium Armor",
+      "Stock Heavy Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Barrier Uses"
+      },
+      {
+        "title": "Barrier Ticks"
+      },
+      {
+        "title": "Cantrips"
+      },
+      {
+        "title": "Spells Known"
+      },
+      {
+        "title": "Tech Points"
+      },
+      {
+        "title": "Tech Point Limit"
+      }
+    ],
+    "spellSlots": true,
+    "maxSpellSlot": 3,
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "tech-armor",
+          "barrier"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 3,
+        "cantrips": 2,
+        "spellsKnown": 3,
+        "techPoints": 2,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": null,
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "fighting-style"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 3,
+        "cantrips": 2,
+        "spellsKnown": 4,
+        "techPoints": 2,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "2",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 3,
+        "cantrips": 2,
+        "spellsKnown": 5,
+        "techPoints": 3,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "3",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 3,
+        "cantrips": 3,
+        "spellsKnown": 6,
+        "techPoints": 4,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "4",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [],
+        "barrierUses": 3,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 7,
+        "techPoints": 6,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "6",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "quick-cast"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 8,
+        "techPoints": 6,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "6",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 9,
+        "techPoints": 7,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "7",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 10,
+        "techPoints": 7,
+        "techPointLimit": 1,
+        "spellSlots": {
+          "1": "7",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 3,
+        "spellsKnown": 11,
+        "techPoints": 11,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "2",
+          "3": null
+        }
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 4,
+        "spellsKnown": 12,
+        "techPoints": 11,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "2",
+          "3": null
+        }
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 4,
+        "spellsKnown": 13,
+        "techPoints": 13,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "3",
+          "3": null
+        }
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 5,
+        "cantrips": 4,
+        "spellsKnown": 14,
+        "techPoints": 13,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "3",
+          "3": null
+        }
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 15,
+        "techPoints": 15,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "4",
+          "3": null
+        }
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 16,
+        "techPoints": 15,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "4",
+          "3": null
+        }
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 17,
+        "techPoints": 17,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "5",
+          "3": null
+        }
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 18,
+        "techPoints": 17,
+        "techPointLimit": 2,
+        "spellSlots": {
+          "1": "7",
+          "2": "5",
+          "3": null
+        }
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "barrierUses": 6,
+        "barrierTicks": 7,
+        "cantrips": 4,
+        "spellsKnown": 19,
+        "techPoints": 20,
+        "techPointLimit": 3,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "1"
+        }
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 7,
+        "cantrips": 4,
+        "spellsKnown": 20,
+        "techPoints": 20,
+        "techPointLimit": 3,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "1"
+        }
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 8,
+        "cantrips": 4,
+        "spellsKnown": 21,
+        "techPoints": 23,
+        "techPointLimit": 3,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "2"
+        }
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "reset"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 8,
+        "cantrips": 4,
+        "spellsKnown": 22,
+        "techPoints": 25,
+        "techPointLimit": 3,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "2"
+        }
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Bastion",
+        "description": "Bastion sentinels are battlefield leaders. They can easily turn the tides by calling out orders, inspiring troops, and synchronizing troop movements.",
+        "features": [
+          [
+            "tactical-focus",
+            "master-tactician"
+          ],
+          [
+            "ever-ready",
+            "tactical-focus-2",
+            "tactical-range-1"
+          ],
+          [
+            "call-shots",
+            "tactical-range-2"
+          ],
+          [
+            "tactical-maneuvers",
+            "tactical-focus-2"
+          ],
+          [
+            "synchronized-assault"
+          ]
+        ]
+      },
+      {
+        "name": "Juggernaut",
+        "description": "Juggernauts are living tanks and nearly impossible to take down. Their tech armor upgrades make sure they can take a hit, or one hundred, without so much as a scratch.",
+        "features": [
+          [
+            "assault-armor"
+          ],
+          [
+            "hardened-tech-armor"
+          ],
+          [
+            "advanced-tech-armor"
+          ],
+          [
+            "unyielding-assault"
+          ],
+          [
+            "adaptive-tech-armor"
+          ]
+        ]
+      },
+      {
+        "name": "Guardian",
+        "description": "Guardians support and buff party members by utilizing different AI packages from their Tech Armor ability and protecting them with their Omni-Shield. They're also one of the most skilled classes, gaining the Expertise feature twice.",
+        "features": [
+          [
+            "expertise",
+            "omni-shield-1"
+          ],
+          [
+            "tech-aura-1"
+          ],
+          [
+            "expertise",
+            "sculpt-spells"
+          ],
+          [
+            "tech-aura-2",
+            "omni-shield-2"
+          ],
+          [
+            "tech-aura-3"
+          ]
+        ]
+      }
+    ],
+    "id": "alt-sentinel"
+  },
+  {
+    "name": "Engineer",
+    "description": "The Engineer is a tech specialist, able to quickly and easily manipulate the environment with specific talents, and repair or modify technical equipment. Gameplay focus is on shaping the battlefield during combat, healing the party, and debuffing enemies (disabling weapons and lowering shields).\n",
+    "snippet": "Engineers are tech specialists, the only class able to employ combat drones on the battlefield.\n",
+    "primaryAbility": "Intelligence",
+    "hitDie": 8,
+    "minHitDieRoll": 5,
+    "armorProficiencies": [
+      "Light",
+      "Medium"
+    ],
+    "toolProficiencies": [
+      "Armorsmith's Workbench",
+      "Tailor's Tools",
+      "Tinker's Tools",
+      "Weaponsmith's Workbench"
+    ],
+    "weaponProficiencyChoices": 1,
+    "weaponProficiencies": {
+      "required": [
+        "Heavy Pistols"
+      ],
+      "optional": [
+        "Assault Rifles",
+        "Melee",
+        "SMGs"
+      ]
+    },
+    "savingThrows": [
+      "Constitution",
+      "Intelligence"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Athletics",
+      "Electronics",
+      "Engineering",
+      "History",
+      "Investigation",
+      "Medicine",
+      "Science",
+      "Vehicle Handling"
+    ],
+    "startingRangedWeaponChoices": 1,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken",
+      "M-8 Avenger"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Taser",
+      "Omni-Blade",
+      "Omni-Torch"
+    ],
+    "startingArmor": [
+      "Stock Light Armor",
+      "Stock Medium Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Tech Points"
+      },
+      {
+        "title": "Tech Point Limit"
+      }
+    ],
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "drone"
+        ],
+        "barrierTicks": null,
+        "techPoints": 2,
+        "techPointLimit": 1
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "subclass"
+        ],
+        "techPoints": 4,
+        "techPointLimit": 1
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [
+          "engineers-efficiency"
+        ],
+        "techPoints": 5,
+        "techPointLimit": 1
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "techPoints": 7,
+        "techPointLimit": 1
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [],
+        "techPoints": 11,
+        "techPointLimit": 2
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "subclass"
+        ],
+        "techPoints": 13,
+        "techPointLimit": 2
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [
+          "recharge"
+        ],
+        "techPoints": 15,
+        "techPointLimit": 2
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "techPoints": 17,
+        "techPointLimit": 2
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "techPoints": 20,
+        "techPointLimit": 3
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "subclass"
+        ],
+        "techPoints": 23,
+        "techPointLimit": 3
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [
+          "recharge-2",
+          "improved-efficiency"
+        ],
+        "techPoints": 26,
+        "techPointLimit": 3
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "techPoints": 26,
+        "techPointLimit": 3
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "techPoints": 30,
+        "techPointLimit": 4
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "subclass"
+        ],
+        "techPoints": 30,
+        "techPointLimit": 4
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [
+          "recharge-3"
+        ],
+        "techPoints": 34,
+        "techPointLimit": 4
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "techPoints": 34,
+        "techPointLimit": 4
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "techPoints": 39,
+        "techPointLimit": 5
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "subclass"
+        ],
+        "techPoints": 42,
+        "techPointLimit": 5
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "techPoints": 45,
+        "techPointLimit": 6
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "invention"
+        ],
+        "techPoints": 50,
+        "techPointLimit": 6
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Mastermind",
+        "description": "Masterminds are highly-intellectual and skilled individuals, using strategy and perfectly timed attacks to win in battle.",
+        "features": [
+          [
+            "enfilade",
+            "jack-of-all-trades"
+          ],
+          [
+            "extra-attack-1"
+          ],
+          [
+            "disrupting-attack"
+          ],
+          [
+            "tactical-advantage"
+          ],
+          [
+            "spell-steal"
+          ]
+        ]
+      },
+      {
+        "name": "Drone Jockey",
+        "description": "A drone jockey forms a bond with their mechanical companion, giving it a body, name and increasing its potency on the battlefield.",
+        "features": [
+          [
+            "drone-companion",
+            "drones-bond"
+          ],
+          [
+            "coordinated-attack"
+          ],
+          [
+            "drones-defense-1"
+          ],
+          [
+            "assault-protocol"
+          ],
+          [
+            "drones-defense-2"
+          ]
+        ]
+      },
+      {
+        "name": "Medic",
+        "description": "The name says it all. As a medic, you'll be one on the field that can dress a wound and get your comrades back into fighting shape.",
+        "features": [
+          [
+            "repair-drone-1"
+          ],
+          [
+            "medi-gel-enhancements"
+          ],
+          [
+            "shield-boost"
+          ],
+          [
+            "repair-drone-2"
+          ],
+          [
+            "supply-pylon"
+          ]
+        ]
+      }
+    ],
+    "id": "engineer"
+  },
+  {
+    "name": "Infiltrator",
+    "description": "The Infiltrator is a tech-savvy warrior, able to win battles by quickly disabling and killing enemies. These soldiers focus on unlocking alternate routes, gaining access to good equipment, and obtaining an advantageous position over enemies in combat.\n",
+    "snippet": "Infiltrators are tech and combat specialists with the unique ability to cloak themselves.\n",
+    "primaryAbility": "Dexterity",
+    "hitDie": 8,
+    "minHitDieRoll": 5,
+    "armorProficiencies": [
+      "Light"
+    ],
+    "toolProficiencies": [
+      "Hacking Tools",
+      "Thieves' Tools"
+    ],
+    "weaponProficiencyChoices": 2,
+    "weaponProficiencies": {
+      "required": [
+        "Heavy Pistols"
+      ],
+      "optional": [
+        "Assault Rifles",
+        "Melee",
+        "SMGs",
+        "Sniper Rifles"
+      ]
+    },
+    "savingThrows": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Athletics",
+      "Acrobatics",
+      "Deception",
+      "Electronics",
+      "History",
+      "Insight",
+      "Investigation",
+      "Perception",
+      "Persuasion",
+      "Sleight of Hand",
+      "Stealth",
+      "Vehicle Handling"
+    ],
+    "startingRangedWeaponChoices": 1,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken",
+      "M-92 Mantis"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Taser",
+      "Omni-Blade",
+      "Monomolecular Blade"
+    ],
+    "startingArmor": [
+      "Stock Light Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Sneak Attack Damage",
+        "key": "sneakAttack"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Tactical Cloak Uses"
+      },
+      {
+        "title": "Combat Powers",
+        "key": "cantrips"
+      },
+      {
+        "title": "Tech Points"
+      },
+      {
+        "title": "Tech Point Limit"
+      }
+    ],
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "sneakAttack": "1d6",
+        "features": [
+          "tactical-cloak",
+          "expertise",
+          "sneak-attack"
+        ],
+        "tacticalCloakUses": 2,
+        "cantrips": "-",
+        "techPoints": 2,
+        "techPointLimit": 1
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "sneakAttack": "1d6",
+        "features": [
+          "cunning-action",
+          "combat-power"
+        ],
+        "tacticalCloakUses": 2,
+        "cantrips": 1,
+        "techPoints": 2,
+        "techPointLimit": 1
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "sneakAttack": "2d6",
+        "features": [
+          "subclass"
+        ],
+        "tacticalCloakUses": 2,
+        "cantrips": 1,
+        "techPoints": 3,
+        "techPointLimit": 1
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "sneakAttack": "2d6",
+        "features": [
+          "ability-score-improvement"
+        ],
+        "tacticalCloakUses": 2,
+        "cantrips": 1,
+        "techPoints": 4,
+        "techPointLimit": 1
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "sneakAttack": "3d6",
+        "features": [
+          "uncanny-dodge"
+        ],
+        "tacticalCloakUses": 2,
+        "cantrips": 1,
+        "techPoints": 6,
+        "techPointLimit": 1
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "sneakAttack": "3d6",
+        "features": [
+          "expertise"
+        ],
+        "tacticalCloakUses": 3,
+        "cantrips": 2,
+        "techPoints": 6,
+        "techPointLimit": 1
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "sneakAttack": "4d6",
+        "features": [
+          "evasion"
+        ],
+        "tacticalCloakUses": 3,
+        "cantrips": 2,
+        "techPoints": 7,
+        "techPointLimit": 1
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "sneakAttack": "4d6",
+        "features": [
+          "ability-score-improvement"
+        ],
+        "tacticalCloakUses": 3,
+        "cantrips": 2,
+        "techPoints": 7,
+        "techPointLimit": 1
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "sneakAttack": "5d6",
+        "features": [
+          "subclass"
+        ],
+        "tacticalCloakUses": 3,
+        "cantrips": 2,
+        "techPoints": 11,
+        "techPointLimit": 2
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "sneakAttack": "5d6",
+        "features": [
+          "ability-score-improvement"
+        ],
+        "tacticalCloakUses": 3,
+        "cantrips": 2,
+        "techPoints": 11,
+        "techPointLimit": 2
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "sneakAttack": "6d6",
+        "features": [
+          "reliable-talent"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 3,
+        "techPoints": 13,
+        "techPointLimit": 2
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "sneakAttack": "6d6",
+        "features": [
+          "ability-score-improvement"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 3,
+        "techPoints": 13,
+        "techPointLimit": 2
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "sneakAttack": "7d6",
+        "features": [
+          "subclass"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 3,
+        "techPoints": 15,
+        "techPointLimit": 2
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "sneakAttack": "7d6",
+        "features": [
+          "blindsense"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 3,
+        "techPoints": 15,
+        "techPointLimit": 2
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "sneakAttack": "8d6",
+        "features": [
+          "slippery-mind"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 3,
+        "techPoints": 17,
+        "techPointLimit": 2
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "sneakAttack": "8d6",
+        "features": [
+          "ability-score-improvement"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 4,
+        "techPoints": 17,
+        "techPointLimit": 2
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "sneakAttack": "9d6",
+        "features": [
+          "subclass"
+        ],
+        "tacticalCloakUses": 4,
+        "cantrips": 4,
+        "techPoints": 20,
+        "techPointLimit": 3
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "sneakAttack": "9d6",
+        "features": [
+          "elusive"
+        ],
+        "tacticalCloakUses": 5,
+        "cantrips": 4,
+        "techPoints": 20,
+        "techPointLimit": 3
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "sneakAttack": "10d6",
+        "features": [
+          "ability-score-improvement"
+        ],
+        "tacticalCloakUses": 5,
+        "cantrips": 4,
+        "techPoints": 23,
+        "techPointLimit": 3
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "sneakAttack": "10d6",
+        "features": [
+          "stroke-of-luck"
+        ],
+        "tacticalCloakUses": 5,
+        "cantrips": 4,
+        "techPoints": 25,
+        "techPointLimit": 3
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Shadow",
+        "description": "Shadow Infiltrators are melee specialists that make heavy use of their tactical cloak and stealth to close the distance between themselves and their target.",
+        "features": [
+          [
+            "up-close-and-personal"
+          ],
+          [
+            "silent-cloak",
+            "melee-prowess"
+          ],
+          [
+            "shadow-strike"
+          ],
+          [
+            "death-strike"
+          ]
+        ]
+      },
+      {
+        "name": "Sniper",
+        "description": "Snipers are ranged specialists that have an affinity for sniper rifles.",
+        "features": [
+          [
+            "steady-aim"
+          ],
+          [
+            "careful-eyes"
+          ],
+          [
+            "overwatch"
+          ],
+          [
+            "killshot"
+          ]
+        ]
+      },
+      {
+        "name": "Saboteur",
+        "description": "Saboteurs are tech savvy infiltrators that use cloak and dagger tactics to control the outcome of battles.",
+        "features": [
+          [
+            "saboteurs-touch",
+            "combat-heuristics"
+          ],
+          [
+            "tactical-ambush"
+          ],
+          [
+            "misdirection"
+          ],
+          [
+            "saboteurs-reflexes"
+          ]
+        ]
+      }
+    ],
+    "id": "infiltrator"
+  },
+  {
+    "name": "Sentinel",
+    "description": "The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking cover much less necessary and rushing their enemies much more productive. Because Sentinels have access to both biotic spells and tech powers and use Charisma as their spellcasting modifier.\n",
+    "snippet": "Sentinels are unique, bringing both tech and biotic abilities to the battlefield.\n",
+    "primaryAbility": "Charisma",
+    "hitDie": 10,
+    "minHitDieRoll": 6,
+    "armorProficiencies": [
+      "Light",
+      "Medium",
+      "Heavy"
+    ],
+    "weaponProficiencyChoices": 2,
+    "weaponProficiencies": {
+      "required": [
+        "Heavy Pistols"
+      ],
+      "optional": [
+        "Assault Rifles",
+        "Melee",
+        "Shotguns",
+        "SMGs"
+      ]
+    },
+    "savingThrows": [
+      "Charisma",
+      "Constitution"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Athletics",
+      "Engineering",
+      "Insight",
+      "Intimidation",
+      "Medicine",
+      "Persuasion",
+      "Science",
+      "Survival"
+    ],
+    "startingRangedWeaponChoices": 1,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken",
+      "M-8 Avenger"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Blade",
+      "Omni-Hammer",
+      "Monomolecular Blade",
+      "Riot Shield"
+    ],
+    "startingArmor": [
+      "Stock Light Armor",
+      "Stock Medium Armor",
+      "Stock Heavy Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Barrier Uses"
+      },
+      {
+        "title": "Barrier Ticks"
+      },
+      {
+        "title": "Cantrips"
+      },
+      {
+        "title": "Spells Known"
+      },
+      {
+        "title": "Spell Slots"
+      },
+      {
+        "title": "Spell Level"
+      }
+    ],
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "tech-armor",
+          "barrier"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 3,
+        "cantrips": 2,
+        "spellsKnown": 2,
+        "spellSlots": 1,
+        "spellLevel": 1
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "fighting-style"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 3,
+        "cantrips": 2,
+        "spellsKnown": 3,
+        "spellSlots": 2,
+        "spellLevel": 1
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 3,
+        "cantrips": 2,
+        "spellsKnown": 4,
+        "spellSlots": 2,
+        "spellLevel": 1
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 3,
+        "cantrips": 3,
+        "spellsKnown": 5,
+        "spellSlots": 2,
+        "spellLevel": 1
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [],
+        "barrierUses": 3,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 6,
+        "spellSlots": 2,
+        "spellLevel": 2
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "quick-cast"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 7,
+        "spellSlots": 2,
+        "spellLevel": 2
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 8,
+        "spellSlots": 2,
+        "spellLevel": 2
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 3,
+        "spellsKnown": 9,
+        "spellSlots": 2,
+        "spellLevel": 2
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 3,
+        "spellsKnown": 10,
+        "spellSlots": 2,
+        "spellLevel": 3
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 4,
+        "spellsKnown": 10,
+        "spellSlots": 2,
+        "spellLevel": 3
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [
+          "l5t-1"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 4,
+        "spellsKnown": 11,
+        "spellSlots": 3,
+        "spellLevel": 3
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 5,
+        "cantrips": 4,
+        "spellsKnown": 11,
+        "spellSlots": 3,
+        "spellLevel": 3
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [
+          "l5t-2"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 12,
+        "spellSlots": 3,
+        "spellLevel": 3
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 12,
+        "spellSlots": 3,
+        "spellLevel": 3
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [
+          "l5t-3"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 13,
+        "spellSlots": 3,
+        "spellLevel": 3
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 4,
+        "spellsKnown": 13,
+        "spellSlots": 3,
+        "spellLevel": 3
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "l5t-4"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 7,
+        "cantrips": 4,
+        "spellsKnown": 14,
+        "spellSlots": 4,
+        "spellLevel": 3
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 7,
+        "cantrips": 4,
+        "spellsKnown": 14,
+        "spellSlots": 4,
+        "spellLevel": 3
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 8,
+        "cantrips": 4,
+        "spellsKnown": 15,
+        "spellSlots": 4,
+        "spellLevel": 3
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "reset"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 8,
+        "cantrips": 4,
+        "spellsKnown": 15,
+        "spellSlots": 4,
+        "spellLevel": 3
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Bastion",
+        "description": "Bastion sentinels are battlefield leaders. They can easily turn the tides by calling out orders, inspiring troops, and synchronizing troop movements.",
+        "features": [
+          [
+            "tactical-focus",
+            "master-tactician"
+          ],
+          [
+            "ever-ready",
+            "tactical-focus-2",
+            "tactical-range-1"
+          ],
+          [
+            "call-shots",
+            "tactical-range-2"
+          ],
+          [
+            "tactical-maneuvers",
+            "tactical-focus-2"
+          ],
+          [
+            "synchronized-assault"
+          ]
+        ]
+      },
+      {
+        "name": "Juggernaut",
+        "description": "Juggernauts are living tanks and nearly impossible to take down. Their tech armor upgrades make sure they can take a hit, or one hundred, without so much as a scratch.",
+        "features": [
+          [
+            "assault-armor"
+          ],
+          [
+            "hardened-tech-armor"
+          ],
+          [
+            "advanced-tech-armor"
+          ],
+          [
+            "unyielding-assault"
+          ],
+          [
+            "adaptive-tech-armor"
+          ]
+        ]
+      },
+      {
+        "name": "Guardian",
+        "description": "Guardians support and buff party members by utilizing different AI packages from their Tech Armor ability and protecting them with their Omni-Shield. They're also one of the most skilled classes, gaining the Expertise feature twice.",
+        "features": [
+          [
+            "expertise",
+            "omni-shield-1"
+          ],
+          [
+            "tech-aura-1"
+          ],
+          [
+            "expertise",
+            "sculpt-spells"
+          ],
+          [
+            "tech-aura-2",
+            "omni-shield-2"
+          ],
+          [
+            "tech-aura-3"
+          ]
+        ]
+      }
+    ],
+    "id": "sentinel"
+  },
+  {
+    "name": "Soldier",
+    "description": "The Soldier is a tough warrior, able to deal with a range of combat situations. The Soldier gets improved health and has the widest selection of weapons. No one is tougher or more effective at taking down enemies with gunfire.\n",
+    "snippet": "Soldiers are pure combat specialists effective at taking down enemies with gunfire.\n",
+    "primaryAbility": "Strength or Dexterity",
+    "hitDie": 10,
+    "minHitDieRoll": 6,
+    "armorProficiencies": [
+      "Light",
+      "Medium",
+      "Heavy"
+    ],
+    "weaponProficiencyChoices": 0,
+    "weaponProficiencies": {
+      "required": [
+        "Assault Rifles",
+        "Heavy Pistols",
+        "Melee",
+        "Shotguns",
+        "SMGs",
+        "Sniper Rifles"
+      ]
+    },
+    "savingThrows": [
+      "Strength",
+      "Dexterity"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Acrobatics",
+      "Athletics",
+      "History",
+      "Intimidation",
+      "Medicine",
+      "Perception",
+      "Persuasion",
+      "Stealth",
+      "Survival",
+      "Vehicle Handling"
+    ],
+    "startingRangedWeaponChoices": 2,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken",
+      "M-8 Avenger",
+      "M-92 Mantis",
+      "M-23 Katana"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Blade",
+      "Omni-Hammer"
+    ],
+    "startingArmor": [
+      "Stock Light Armor",
+      "Stock Medium Armor",
+      "Stock Heavy Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Combat Powers",
+        "key": "cantrips"
+      }
+    ],
+    "spellSlots": false,
+    "maxSpellSlot": 0,
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "fighting-style"
+        ],
+        "cantrips": 1
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "adrenaline-rush-1"
+        ],
+        "cantrips": 1
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [
+          "subclass"
+        ],
+        "cantrips": 1
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 2
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "extra-attack-1"
+        ],
+        "cantrips": 2
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 2
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [
+          "subclass",
+          "tactical-reload"
+        ],
+        "cantrips": 2
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 3
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "indomitable-1"
+        ],
+        "cantrips": 3
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "subclass"
+        ],
+        "cantrips": 3
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [
+          "extra-attack-2"
+        ],
+        "cantrips": 3
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 4
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [
+          "indomitable-2"
+        ],
+        "cantrips": 4
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 4
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [
+          "subclass"
+        ],
+        "cantrips": 5
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 5
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "adrenaline-rush-2",
+          "indomitable-3"
+        ],
+        "cantrips": 5
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "subclass"
+        ],
+        "cantrips": 6
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "cantrips": 6
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "extra-attack-3"
+        ],
+        "cantrips": 6
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Havoc",
+        "description": "GUNS!!! GRENADES!!! EXPLOSIONS!!!",
+        "features": [
+          [
+            "advanced-weapon-holsters",
+            "makeshift-grenades-1"
+          ],
+          [
+            "advanced-combat-powers"
+          ],
+          [
+            "heavy-weapon-hack"
+          ],
+          [
+            "makeshift-grenades-2"
+          ],
+          [
+            "paint-by-number"
+          ]
+        ]
+      },
+      {
+        "name": "Weapon Master",
+        "description": "Weapon masters train extensively in the art of a single weapon, giving them powerful advantages when using a weapon of that type.",
+        "features": [
+          [
+            "weapon-of-choice-1"
+          ],
+          [
+            "strafe"
+          ],
+          [
+            "weapon-of-choice-2"
+          ],
+          [
+            "devastating-critical"
+          ],
+          [
+            "weapon-of-choice-3"
+          ]
+        ]
+      },
+      {
+        "name": "Gladiator",
+        "description": "Gladiators are pure-combatants, focused on winning at all costs and being nearly impossible to take down.",
+        "features": [
+          [
+            "fighting-spirit"
+          ],
+          [
+            "vengeance"
+          ],
+          [
+            "tireless-spirit",
+            "additional-fighting-style"
+          ],
+          [
+            "rapid-strike"
+          ],
+          [
+            "strength-before-death"
+          ]
+        ]
+      }
+    ],
+    "id": "soldier"
+  },
+  {
+    "name": "Vanguard",
+    "description": "Vanguards are feared for their high-risk high-reward combat style, closing quickly on enemies and destroying them at close range with weapons and biotic abilities. They are outfitted with L5n implants, enabling them to perform a biotic charge that strikes the opponent with incredible force while closing distance.\n",
+    "snippet": "Vanguards have a high-risk high-reward combat style, using biotics and melee strikes.\n",
+    "primaryAbility": "Strength or Wisdom",
+    "hitDie": 12,
+    "minHitDieRoll": 7,
+    "armorProficiencies": [
+      "Light",
+      "Medium"
+    ],
+    "weaponProficiencyChoices": 1,
+    "weaponProficiencies": {
+      "required": [
+        "Heavy Pistols",
+        "Melee"
+      ],
+      "optional": [
+        "Shotguns",
+        "SMGs"
+      ]
+    },
+    "savingThrows": [
+      "Strength",
+      "Wisdom"
+    ],
+    "skillChoices": 3,
+    "skillProficiencies": [
+      "Acrobatics",
+      "Athletics",
+      "Deception",
+      "Insight",
+      "Intimidation",
+      "Performance",
+      "Persuasion",
+      "Sleight of Hand",
+      "Survival"
+    ],
+    "startingRangedWeaponChoices": 1,
+    "startingRangedWeapons": [
+      "M-3 Predator",
+      "M-4 Shuriken",
+      "M-23 Katana"
+    ],
+    "startingMeleeWeaponChoices": 1,
+    "startingMeleeWeapons": [
+      "Omni-Blade",
+      "Omni-Hammer",
+      "Monomolecular Blade",
+      "Riot Shield"
+    ],
+    "startingArmor": [
+      "Stock Light Armor",
+      "Stock Medium Armor"
+    ],
+    "progressionHeaders": [
+      {
+        "title": "Level"
+      },
+      {
+        "title": "Proficiency Bonus"
+      },
+      {
+        "title": "Features"
+      },
+      {
+        "title": "Barrier Uses"
+      },
+      {
+        "title": "Barrier Ticks"
+      },
+      {
+        "title": "Cantrips"
+      },
+      {
+        "title": "Spells Known"
+      }
+    ],
+    "spellSlots": true,
+    "maxSpellSlot": 3,
+    "progression": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "barrier",
+          "fighting-style"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 3,
+        "cantrips": 4,
+        "spellsKnown": "-",
+        "spellSlots": {
+          "1": null,
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "danger-sense",
+          "zero-sum"
+        ],
+        "barrierUses": 2,
+        "barrierTicks": 3,
+        "cantrips": 4,
+        "spellsKnown": 2,
+        "spellSlots": {
+          "1": "2",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 3,
+        "cantrips": 4,
+        "spellsKnown": 3,
+        "spellSlots": {
+          "1": "3",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 4,
+        "cantrips": 5,
+        "spellsKnown": 3,
+        "spellSlots": {
+          "1": "4",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "extra-attack-1"
+        ],
+        "barrierUses": 3,
+        "barrierTicks": 4,
+        "cantrips": 5,
+        "spellsKnown": 4,
+        "spellSlots": {
+          "1": "6",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 4,
+        "cantrips": 5,
+        "spellsKnown": 4,
+        "spellSlots": {
+          "1": "6",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [
+          "tactical-barrier"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 5,
+        "spellsKnown": 5,
+        "spellSlots": {
+          "1": "7",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 5,
+        "spellsKnown": 5,
+        "spellSlots": {
+          "1": "7",
+          "2": null,
+          "3": null
+        }
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "brutal-critical-1"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 5,
+        "cantrips": 5,
+        "spellsKnown": 6,
+        "spellSlots": {
+          "1": "7",
+          "2": "2",
+          "3": null
+        }
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 6,
+        "cantrips": 6,
+        "spellsKnown": 6,
+        "spellSlots": {
+          "1": "7",
+          "2": "2",
+          "3": null
+        }
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [
+          "heavy-barrier"
+        ],
+        "barrierUses": 4,
+        "barrierTicks": 6,
+        "cantrips": 6,
+        "spellsKnown": 6,
+        "spellSlots": {
+          "1": "7",
+          "2": "3",
+          "3": null
+        }
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 6,
+        "cantrips": 6,
+        "spellsKnown": 7,
+        "spellSlots": {
+          "1": "7",
+          "2": "3",
+          "3": null
+        }
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [
+          "brutal-critical-2"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 7,
+        "cantrips": 6,
+        "spellsKnown": 8,
+        "spellSlots": {
+          "1": "7",
+          "2": "4",
+          "3": null
+        }
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 7,
+        "cantrips": 6,
+        "spellsKnown": 8,
+        "spellSlots": {
+          "1": "7",
+          "2": "4",
+          "3": null
+        }
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [
+          "retaliation"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 7,
+        "cantrips": 6,
+        "spellsKnown": 9,
+        "spellSlots": {
+          "1": "7",
+          "2": "5",
+          "3": null
+        }
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 5,
+        "barrierTicks": 8,
+        "cantrips": 6,
+        "spellsKnown": 9,
+        "spellSlots": {
+          "1": "7",
+          "2": "5",
+          "3": null
+        }
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "brutal-critical-3"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 8,
+        "cantrips": 6,
+        "spellsKnown": 10,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "1"
+        }
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "subclass"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 9,
+        "cantrips": 6,
+        "spellsKnown": 10,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "1"
+        }
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [
+          "ability-score-improvement"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 9,
+        "cantrips": 6,
+        "spellsKnown": 11,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "2"
+        }
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "primal-biotics"
+        ],
+        "barrierUses": 6,
+        "barrierTicks": 10,
+        "cantrips": 6,
+        "spellsKnown": 11,
+        "spellSlots": {
+          "1": "7",
+          "2": "6",
+          "3": "2"
+        }
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Battle Master",
+        "description": "Battle masters use their barrier to execute unique maneuvers on the battlefield, controlling and harrying enemy forces.",
+        "features": [
+          [
+            "biotic-maneuvers-1"
+          ],
+          [
+            "biotic-focus"
+          ],
+          [
+            "improved-barrier-1",
+            "biotic-maneuvers-2"
+          ],
+          [
+            "biotic-maneuvers-2",
+            "extra-attack-2"
+          ],
+          [
+            "improved-barrier-2",
+            "opportunist"
+          ]
+        ]
+      },
+      {
+        "name": "Shock Trooper",
+        "description": "Shock troopers like to fight up close and personal, using charge to dash around the battlefield and ripping enemies apart with shotgun blasts.",
+        "features": [
+          [
+            "biotic-bull-rush"
+          ],
+          [
+            "stunning-strike"
+          ],
+          [
+            "shotgun-savvy",
+            "onslaught"
+          ],
+          [
+            "a-touch-of-force"
+          ],
+          [
+            "blitz"
+          ]
+        ]
+      },
+      {
+        "name": "Nemesis",
+        "description": "Nemesis vanguards prefer distance and using biotic powers. While they lack the raw power of an adept, they're more crafty and harder to take down.",
+        "features": [
+          [
+            "biotic-recovery-nemesis",
+            "metabiotics-1"
+          ],
+          [
+            "biotic-attacks"
+          ],
+          [
+            "metabiotics-2",
+            "biotic-fury"
+          ],
+          [
+            "teleporting-dodge",
+            "metabiotics-2"
+          ],
+          [
+            "bombardment"
+          ]
+        ]
+      }
+    ],
+    "id": "vanguard"
+  }
+]

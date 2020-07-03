@@ -35,7 +35,7 @@ advancementOptions:
 ---
 Fire a mass of supercooled, subatomic particles that explode in a 2m-radius sphere centered on a point within
 range. Each creature within the sphere has its movement reduced by 4m until the start of your next turn and must make a
-Strength saving throw. On a failed saved, a creature becomes <condition id="frozen"/> until the start of your next turn.
+Strength saving throw. On a failed saved, a creature becomes <me-condition id="frozen"/> until the start of your next turn.
 A target with shield points has advantage on this saving throw.
 
 If the blast strikes a body of water or a liquid that is principally water (not including water-based creatures), it

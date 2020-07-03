@@ -29,7 +29,7 @@ advancementOptions:
 ---
 Expend all of your remaining barrier ticks to create a negative mass effect field in a 2m sphere originating from you.
 Each Medium or smaller creature or object within the sphere must succeed on Strength saving throw or becomes
-<condition id="lifted"/> until the end of your next turn. If you expend at least 4 barrier ticks, Large targets must make
+<me-condition id="lifted"/> until the end of your next turn. If you expend at least 4 barrier ticks, Large targets must make
 the saving throw. Creatures with at least 1 shield point have advantage on this saving throw.
 
 Increase the range of the sphere by 2m at 5th level (4m), 11th level (6m), and 17th level (8m).

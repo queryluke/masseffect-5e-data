@@ -33,7 +33,7 @@ advancementOptions:
 
 A spray of chemical pheromones lets you convince a beast that you mean it no harm. Choose an organic creature that you can see 
 within range. It must see you and be capable of smelling. If the creature's Intelligence is 4 or higher, the spell fails. 
-Otherwise, the beast must succeed on a Wisdom saving throw or be <condition id="charmed"/> by you for the ability's duration. 
+Otherwise, the beast must succeed on a Wisdom saving throw or be <me-condition id="charmed"/> by you for the ability's duration. 
 If you or one of your companions harms the creature, the effect ends.
 
 __At Higher Levels__. When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional 

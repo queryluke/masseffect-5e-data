@@ -30,7 +30,7 @@ advancementOptions:
     obscured until the end of your next turn.
 ---
 Overload your omni-tool's acetylene torch, spewing flames in front of you. Each creature within an 8m cone is
-<condition id="primed" sub="fire"/> until the start of your next turn and must make a Dexterity saving throw. A creature
+<me-condition id="primed" sub="fire"/> until the start of your next turn and must make a Dexterity saving throw. A creature
 takes 6d10 fire damage on a failed save or half as much damage on a successful one.
 
 At the start of your turn, you may spend your action and 1 additional tech point to continue casting this power. Your

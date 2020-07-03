@@ -34,7 +34,7 @@ advancementOptions:
 ---
 Shoot a swarm of miniature pylons to a target location within 30m. Each creature within a 4m cylinder of the target
 location must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,
-becoming <condition id="restrained"/> and cannot cast tech spells.
+becoming <me-condition id="restrained"/> and cannot cast tech spells.
 
 Until the spell ends, the area is considered difficult terrain. A creature that enters the cylinder for the first time
 on its turn or ends its turn there must also make the Dexterity saving throw.

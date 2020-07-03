@@ -1,5 +1,4 @@
 {
-  "id": "vanguard",
   "name": "Vanguard",
   "description": "Vanguards are feared for their high-risk high-reward combat style, closing quickly on enemies and destroying them at close range with weapons and biotic abilities. They are outfitted with L5n implants, enabling them to perform a biotic charge that strikes the opponent with incredible force while closing distance.\n",
   "snippet": "Vanguards have a high-risk high-reward combat style, using biotics and melee strikes.\n",
@@ -85,7 +84,7 @@
       "proficiencyBonus": 2,
       "features": [
         "barrier",
-        "fighting_style"
+        "fighting-style"
       ],
       "barrierUses": 2,
       "barrierTicks": 3,
@@ -101,7 +100,7 @@
       "level": 2,
       "proficiencyBonus": 2,
       "features": [
-        "danger_sense",
+        "danger-sense",
         "zero-sum"
       ],
       "barrierUses": 2,
@@ -134,7 +133,7 @@
       "level": 4,
       "proficiencyBonus": 2,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 3,
       "barrierTicks": 4,
@@ -150,7 +149,7 @@
       "level": 5,
       "proficiencyBonus": 3,
       "features": [
-        "extra_attack_1"
+        "extra-attack-1"
       ],
       "barrierUses": 3,
       "barrierTicks": 4,
@@ -182,7 +181,7 @@
       "level": 7,
       "proficiencyBonus": 3,
       "features": [
-        "tactical_barrier"
+        "tactical-barrier"
       ],
       "barrierUses": 4,
       "barrierTicks": 5,
@@ -198,7 +197,7 @@
       "level": 8,
       "proficiencyBonus": 3,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 4,
       "barrierTicks": 5,
@@ -214,7 +213,7 @@
       "level": 9,
       "proficiencyBonus": 4,
       "features": [
-        "brutal_critical_1"
+        "brutal-critical-1"
       ],
       "barrierUses": 4,
       "barrierTicks": 5,
@@ -246,7 +245,7 @@
       "level": 11,
       "proficiencyBonus": 4,
       "features": [
-        "heavy_barrier"
+        "heavy-barrier"
       ],
       "barrierUses": 4,
       "barrierTicks": 6,
@@ -262,7 +261,7 @@
       "level": 12,
       "proficiencyBonus": 4,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 5,
       "barrierTicks": 6,
@@ -278,7 +277,7 @@
       "level": 13,
       "proficiencyBonus": 5,
       "features": [
-        "brutal_critical_2"
+        "brutal-critical-2"
       ],
       "barrierUses": 5,
       "barrierTicks": 7,
@@ -326,7 +325,7 @@
       "level": 16,
       "proficiencyBonus": 5,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 5,
       "barrierTicks": 8,
@@ -342,7 +341,7 @@
       "level": 17,
       "proficiencyBonus": 6,
       "features": [
-        "brutal_critical_3"
+        "brutal-critical-3"
       ],
       "barrierUses": 6,
       "barrierTicks": 8,
@@ -374,7 +373,7 @@
       "level": 19,
       "proficiencyBonus": 6,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 6,
       "barrierTicks": 9,
@@ -390,7 +389,7 @@
       "level": 20,
       "proficiencyBonus": 6,
       "features": [
-        "primal_biotics"
+        "primal-biotics"
       ],
       "barrierUses": 6,
       "barrierTicks": 10,
@@ -409,21 +408,21 @@
       "description": "Battle masters use their barrier to execute unique maneuvers on the battlefield, controlling and harrying enemy forces.",
       "features": [
         [
-          "biotic_maneuvers_1"
+          "biotic-maneuvers-1"
         ],
         [
-          "biotic_focus"
+          "biotic-focus"
         ],
         [
-          "improved_barrier_1",
-          "biotic_maneuvers_2"
+          "improved-barrier-1",
+          "biotic-maneuvers-2"
         ],
         [
-          "biotic_maneuvers_2",
-          "extra_attack_2"
+          "biotic-maneuvers-2",
+          "extra-attack-2"
         ],
         [
-          "improved_barrier_2",
+          "improved-barrier-2",
           "opportunist"
         ]
       ]
@@ -433,17 +432,17 @@
       "description": "Shock troopers like to fight up close and personal, using charge to dash around the battlefield and ripping enemies apart with shotgun blasts.",
       "features": [
         [
-          "biotic_bull_rush"
+          "biotic-bull-rush"
         ],
         [
-          "stunning_strike"
+          "stunning-strike"
         ],
         [
-          "shotgun_savvy",
+          "shotgun-savvy",
           "onslaught"
         ],
         [
-          "a_touch_of_force"
+          "a-touch-of-force"
         ],
         [
           "blitz"
@@ -455,19 +454,19 @@
       "description": "Nemesis vanguards prefer distance and using biotic powers. While they lack the raw power of an adept, they're more crafty and harder to take down.",
       "features": [
         [
-          "biotic_recovery_nemesis",
-          "metabiotics_1"
+          "biotic-recovery-nemesis",
+          "metabiotics-1"
         ],
         [
-          "biotic_attacks"
+          "biotic-attacks"
         ],
         [
-          "metabiotics_2",
-          "biotic_fury"
+          "metabiotics-2",
+          "biotic-fury"
         ],
         [
-          "teleporting_dodge",
-          "metabiotics_2"
+          "teleporting-dodge",
+          "metabiotics-2"
         ],
         [
           "bombardment"

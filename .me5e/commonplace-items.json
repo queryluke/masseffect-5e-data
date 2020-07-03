@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Artisan Meal",
+    "cost": "100-200",
+    "type": "Food",
+    "id": "artisan-meal"
+  },
+  {
+    "name": "Beer (pint)",
+    "cost": "5",
+    "type": "Drinks",
+    "id": "beer-pint"
+  },
+  {
+    "name": "Beer (pitcher)",
+    "cost": "20",
+    "type": "Drinks",
+    "id": "beer-pitcher"
+  },
+  {
+    "name": "Comfortable",
+    "cost": "300",
+    "type": "Lodging",
+    "id": "comfortable"
+  },
+  {
+    "name": "Creeper, 1 dose",
+    "cost": "50",
+    "type": "Drugs",
+    "id": "creeper-1-dose"
+  },
+  {
+    "name": "Eximo, 30 pills",
+    "cost": "25",
+    "type": "Drugs",
+    "id": "eximo-30-pills"
+  },
+  {
+    "name": "Exotic Drink",
+    "cost": "20",
+    "type": "Drinks",
+    "id": "exotic-drink"
+  },
+  {
+    "name": "Flavored Nutrient Bar",
+    "cost": "10",
+    "type": "Food",
+    "id": "flavored-nutrient-bar"
+  },
+  {
+    "name": "Hallex, 10 pills",
+    "cost": "50",
+    "type": "Drugs",
+    "id": "hallex-10-pills"
+  },
+  {
+    "name": "High-Grade Provisions",
+    "cost": "500",
+    "type": "Food",
+    "id": "high-grade-provisions"
+  },
+  {
+    "name": "Hireling (Skilled)",
+    "cost": "500 per day, minimum",
+    "type": "Services",
+    "id": "hireling-skilled"
+  },
+  {
+    "name": "Hireling (Unskilled)",
+    "cost": "200 per day",
+    "type": "Services",
+    "id": "hireling-unskilled"
+  },
+  {
+    "name": "Interplanetary Shuttle",
+    "cost": "500",
+    "type": "Services",
+    "id": "interplanetary-shuttle"
+  },
+  {
+    "name": "Lavish",
+    "cost": "1500",
+    "type": "Lodging",
+    "id": "lavish"
+  },
+  {
+    "name": "Low-Grade Provisions",
+    "cost": "100",
+    "type": "Food",
+    "id": "low-grade-provisions"
+  },
+  {
+    "name": "Mid-Grade Provisions",
+    "cost": "200",
+    "type": "Food",
+    "id": "mid-grade-provisions"
+  },
+  {
+    "name": "Minagen X3, 1 dose",
+    "cost": "100",
+    "type": "Drugs",
+    "id": "minagen-x-3-1-dose"
+  },
+  {
+    "name": "Mixed Drink",
+    "cost": "10",
+    "type": "Drinks",
+    "id": "mixed-drink"
+  },
+  {
+    "name": "Modest",
+    "cost": "100",
+    "type": "Lodging",
+    "id": "modest"
+  },
+  {
+    "name": "Nutrient Bar",
+    "cost": "5",
+    "type": "Food",
+    "id": "nutrient-bar"
+  },
+  {
+    "name": "Oblivion, 10 doses",
+    "cost": "10",
+    "type": "Drugs",
+    "id": "oblivion-10-doses"
+  },
+  {
+    "name": "Poor",
+    "cost": "25",
+    "type": "Lodging",
+    "id": "poor"
+  },
+  {
+    "name": "Red Sand, 1 gram",
+    "cost": "200",
+    "type": "Drugs",
+    "id": "red-sand-1-gram"
+  },
+  {
+    "name": "Shuttle, within planet",
+    "cost": "50",
+    "type": "Services",
+    "id": "shuttle-within-planet"
+  },
+  {
+    "name": "Standard Meal",
+    "cost": "10-50",
+    "type": "Food",
+    "id": "standard-meal"
+  },
+  {
+    "name": "Starship's Passage",
+    "cost": "100 per day",
+    "type": "Services",
+    "id": "starships-passage"
+  },
+  {
+    "name": "Synthetic Meal Facsimile",
+    "cost": "30",
+    "type": "Food",
+    "id": "synthetic-meal-facsimile"
+  },
+  {
+    "name": "Taxi, within town/city",
+    "cost": "1 per kilometer",
+    "type": "Services",
+    "id": "taxi-within-town-city"
+  },
+  {
+    "name": "Upscale",
+    "cost": "750",
+    "type": "Lodging",
+    "id": "upscale"
+  },
+  {
+    "name": "Weapon or Armor Detailing",
+    "cost": "100-500",
+    "type": "Services",
+    "id": "weapon-or-armor-detailing"
+  },
+  {
+    "name": "Wine (bottle)",
+    "cost": "20-100",
+    "type": "Drinks",
+    "id": "wine-bottle"
+  },
+  {
+    "name": "Wine (glass)",
+    "cost": "5-20",
+    "type": "Drinks",
+    "id": "wine-glass"
+  }
+]

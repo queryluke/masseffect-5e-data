@@ -11,7 +11,7 @@ damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage 
 Immediately after hitting, you can try to grapple the target as a bonus action.
 
 As an action, you can secrete a natural toxin from one of your tentacles. If a creature is grappled by the tentacle,
-it must succeed a DC 11 Constitution saving throw of becomes <condition id="poisoned"/> for 1 hour. The DC of this
+it must succeed a DC 11 Constitution saving throw of becomes <me-condition id="poisoned"/> for 1 hour. The DC of this
 saving throw increases with your level: DC 13 at the 5th level, DC 15 at the 11th level, and DC 17 at the 17th level.
 
 

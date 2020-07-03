@@ -1,65 +1,79 @@
-/*****
- * Static Files
- */
+
 const fs = require('fs')
 const fm = require('front-matter')
+const _ = require('lodash')
+
+// Markdown it options
+const MarkdownIt = require('markdown-it')
+const md = new MarkdownIt({ html: true })
+md.renderer.rules.table_open = function () {
+  return '<v-simple-table><template v-slot:default>'
+}
+md.renderer.rules.table_close = function () {
+  return '</template></v-simple-table>'
+}
+
+const target = './.me5e'
+
 const mdDirs = [
   'backgrounds',
-  'rules',
-  'grenades',
-  'tools',
-  'conditions',
-  'class_features',
   'changelog',
-  'races',
+  'class-features',
+  'class-spellcasting',
+  'conditions',
   'feats',
-  'spells',
+  'grenades',
   'programs',
+  'races',
+  'rules',
+  'spells',
+  'subraces',
+  'tools',
+  'traits',
   'vehicles'
 ]
 for (let dir of mdDirs) {
-  const path = `./static/data/${dir}`
+  const path = `./data/${dir}`
   const files = fs.readdirSync(path)
 
   const items = files.map((file) => {
     const fc = fm(fs.readFileSync(`${path}/${file}`, 'utf8'))
     let item = Object.assign(fc.attributes, {})
-    switch (dir) {
-      case 'changelog':
-        item.date = new Date(item.date)
-        item.slug = file.replace(/.md$/, '')
-        item.url = `/changelog/${item.slug}`
-        break
-      case 'rules':
-        const fileParts = file.split('-')
-        item.section = Number.parseInt(fileParts[0])
-        item.subSection = Number.parseInt(fileParts[1])
-        item.id = file.replace(/\.md$/g, '')
-        item.hash = fileParts.splice(2).join('-').replace(/\.md$/g, '')
-        break
-      case 'vehicles':
-        item.id = file.replace(/.md$/, '')
-        break
-      default:
-        break
+    item.html = md.render(fc.body)
+    item.id = file.replace(/.md$/, '')
+    if (dir === 'changelog') {
+      item.date = new Date(item.date)
+      item.url = `/changelog/${item.slug}`
     }
     return item
   })
-
-  switch (dir) {
-    case 'changelog':
-      items.reverse()
-      break
-    default:
-      break
-  }
-  fs.writeFileSync(`${path}.json`, JSON.stringify(items, null, 2))
+  fs.writeFileSync(`${target}/${dir}.json`, JSON.stringify(items, null, 2))
 }
 // process jsDirs
-const jsonDirs = ['classes', 'bestiary']
+const jsonDirs = [
+  'armor-mechanics',
+  'armor-mods',
+  'armor',
+  'attributions',
+  'bestiary',
+  'character-progression',
+  'classes',
+  'commonplace-items',
+  'random-height-weight',
+  'ship-upgrades',
+  'skills',
+  'stats-by-cr',
+  'weapon-mods',
+  'weapon-properties',
+  'weapons'
+]
 for (let dir of jsonDirs) {
-  const path = `./static/data/${dir}`
+  const path = `./data/${dir}`
   const files = fs.readdirSync(path)
-  let items = files.map(file => JSON.parse(fs.readFileSync(`${path}/${file}`, 'utf8')))
-  fs.writeFileSync(`${path}.json`, JSON.stringify(items, null, 2))
+  let items = files.map((file) => {
+    const item = JSON.parse(fs.readFileSync(`${path}/${file}`, 'utf8'))
+    item.id = file.replace(/.json$/, '')
+    return item
+  })
+  fs.writeFileSync(`${target}/${dir}.json`, JSON.stringify(items, null, 2))
 }

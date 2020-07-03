@@ -30,7 +30,7 @@ advancementOptions:
 ---
 Load a specialized thermal clip into the weapon you are currently holding. Until you reload, any successful ranged
 attacks deal an additional 1d8 bludgeoning damage and medium-sized or smaller creatures must pass a Strength saving
-throw (DC 8 + proficiency bonus + DEX modifier) or are knocked <condition id="prone"/>.
+throw (DC 8 + proficiency bonus + DEX modifier) or are knocked <me-condition id="prone"/>.
 
 The damage increases by 1d8 when you reach the 5th level (2d8), 11th level (3d8) and 17th level (4d8).
 

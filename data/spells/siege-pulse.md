@@ -30,9 +30,9 @@ advancementOptions:
     attack rolls until the start of your next turn.
 ---
 Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a 4m-radius 
-sphere centered on you. Each creature within the sphere becomes <condition id="deafened"/> and must
+sphere centered on you. Each creature within the sphere becomes <me-condition id="deafened"/> and must
 make a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes
-2d8 psychic damage and is <condition id="stunned"/> until the end of your next turn. On a successful save, a creature 
+2d8 psychic damage and is <me-condition id="stunned"/> until the end of your next turn. On a successful save, a creature 
 takes half as much damage. Synthetic creatures have advantage on this saving throw.
 
 The first time you use siege pulse, your armor suffers no adverse effect. If you use this spell again before you

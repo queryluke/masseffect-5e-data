@@ -31,7 +31,7 @@ advancementOptions:
 ---
 
 Blast a continuous stream of liquid hydrogen from your omni-tool in an 8m long by 2m wide line. Each creature in the beam
-must make a Strength saving throw. On a failed save, a creature takes 5d8 cold damage and then becomes <condition id="frozen"/>
+must make a Strength saving throw. On a failed save, a creature takes 5d8 cold damage and then becomes <me-condition id="frozen"/>
 until the start of your next turn. On a successful save, a creature takes half as much damage and isn't frozen by this spell.
 Creatures with at least 1 shield point have advantage on this saving throw.
 

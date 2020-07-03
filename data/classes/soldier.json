@@ -1,5 +1,4 @@
 {
-  "id": "soldier",
   "name": "Soldier",
   "description": "The Soldier is a tough warrior, able to deal with a range of combat situations. The Soldier gets improved health and has the widest selection of weapons. No one is tougher or more effective at taking down enemies with gunfire.\n",
   "snippet": "Soldiers are pure combat specialists effective at taking down enemies with gunfire.\n",
@@ -79,7 +78,7 @@
       "level": 1,
       "proficiencyBonus": 2,
       "features": [
-        "fighting_style"
+        "fighting-style"
       ],
       "cantrips": 1
     },
@@ -87,7 +86,7 @@
       "level": 2,
       "proficiencyBonus": 2,
       "features": [
-        "adrenaline_rush_1"
+        "adrenaline-rush-1"
       ],
       "cantrips": 1
     },
@@ -103,7 +102,7 @@
       "level": 4,
       "proficiencyBonus": 2,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 2
     },
@@ -111,7 +110,7 @@
       "level": 5,
       "proficiencyBonus": 3,
       "features": [
-        "extra_attack_1"
+        "extra-attack-1"
       ],
       "cantrips": 2
     },
@@ -119,7 +118,7 @@
       "level": 6,
       "proficiencyBonus": 3,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 2
     },
@@ -128,7 +127,7 @@
       "proficiencyBonus": 3,
       "features": [
         "subclass",
-        "tactical_reload"
+        "tactical-reload"
       ],
       "cantrips": 2
     },
@@ -136,7 +135,7 @@
       "level": 8,
       "proficiencyBonus": 3,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 3
     },
@@ -144,7 +143,7 @@
       "level": 9,
       "proficiencyBonus": 4,
       "features": [
-        "indomitable_1"
+        "indomitable-1"
       ],
       "cantrips": 3
     },
@@ -160,7 +159,7 @@
       "level": 11,
       "proficiencyBonus": 4,
       "features": [
-        "extra_attack_2"
+        "extra-attack-2"
       ],
       "cantrips": 3
     },
@@ -168,7 +167,7 @@
       "level": 12,
       "proficiencyBonus": 4,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 4
     },
@@ -176,7 +175,7 @@
       "level": 13,
       "proficiencyBonus": 5,
       "features": [
-        "indomitable_2"
+        "indomitable-2"
       ],
       "cantrips": 4
     },
@@ -184,7 +183,7 @@
       "level": 14,
       "proficiencyBonus": 5,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 4
     },
@@ -200,7 +199,7 @@
       "level": 16,
       "proficiencyBonus": 5,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 5
     },
@@ -208,8 +207,8 @@
       "level": 17,
       "proficiencyBonus": 6,
       "features": [
-        "adrenaline_rush_2",
-        "indomitable_3"
+        "adrenaline-rush-2",
+        "indomitable-3"
       ],
       "cantrips": 5
     },
@@ -225,7 +224,7 @@
       "level": 19,
       "proficiencyBonus": 6,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "cantrips": 6
     },
@@ -233,7 +232,7 @@
       "level": 20,
       "proficiencyBonus": 6,
       "features": [
-        "extra_attack_3"
+        "extra-attack-3"
       ],
       "cantrips": 6
     }
@@ -244,20 +243,20 @@
       "description": "GUNS!!! GRENADES!!! EXPLOSIONS!!!",
       "features": [
         [
-          "advanced_weapon_holsters",
-          "makeshift_grenades_1"
+          "advanced-weapon-holsters",
+          "makeshift-grenades-1"
         ],
         [
-          "advanced_combat_powers"
+          "advanced-combat-powers"
         ],
         [
-          "heavy_weapon_hack"
+          "heavy-weapon-hack"
         ],
         [
-          "makeshift_grenades_2"
+          "makeshift-grenades-2"
         ],
         [
-          "paint_by_number"
+          "paint-by-number"
         ]
       ]
     },
@@ -266,19 +265,19 @@
       "description": "Weapon masters train extensively in the art of a single weapon, giving them powerful advantages when using a weapon of that type.",
       "features": [
         [
-          "weapon_of_choice_1"
+          "weapon-of-choice-1"
         ],
         [
           "strafe"
         ],
         [
-          "weapon_of_choice_2"
+          "weapon-of-choice-2"
         ],
         [
-          "devastating_critical"
+          "devastating-critical"
         ],
         [
-          "weapon_of_choice_3"
+          "weapon-of-choice-3"
         ]
       ]
     },
@@ -287,20 +286,20 @@
       "description": "Gladiators are pure-combatants, focused on winning at all costs and being nearly impossible to take down.",
       "features": [
         [
-          "fighting_spirit"
+          "fighting-spirit"
         ],
         [
           "vengeance"
         ],
         [
-          "tireless_spirit",
-          "additional_fighting_style"
+          "tireless-spirit",
+          "additional-fighting-style"
         ],
         [
-          "rapid_strike"
+          "rapid-strike"
         ],
         [
-          "strength_before_death"
+          "strength-before-death"
         ]
       ]
     }

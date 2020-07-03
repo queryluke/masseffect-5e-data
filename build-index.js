@@ -1,11 +1,4 @@
 const fs = require('fs')
-const fm = require('front-matter')
-const md = require('markdown-it')({
-  html: true,
-})
-
-import phbStore from './store/phb_pages/state.js'
-const pages = Object.entries(phbStore.pages)
 
 function ordinal (value) {
   const j = value % 10
@@ -27,7 +20,7 @@ function ordinal (value) {
 function setType(dir) {
   const types = [
     { type: 'character', items: ['backgrounds', 'feats', 'races', 'traits', 'subraces'] },
-    { type: 'equipment', items: ['grenades', 'programs', 'tools', 'vehicles', 'armor_mods', 'armor_sets', 'weapon_mods', 'weapons'] },
+    { type: 'equipment', items: ['grenades', 'programs', 'tools', 'vehicles', 'armor-mods', 'armor', 'weapon-mods', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
     { type: 'spell', items: ['spells'] },
     { type: 'bestiary', items: ['bestiary'] },
@@ -36,23 +29,17 @@ function setType(dir) {
   return types.find(t => t.items.includes(dir)).type
 }
 
-function nameToId(string) {
- return string.toLowerCase().replace(/[^\w-]/g,'_')
-}
-
 function cleanBody(text) {
-  let returnText = text.replace(/<condition(.*)\/>/g, (match) => {
+  let returnText = text.replace(/<me-condition(.*)\/>/g, (match) => {
     const condition = match.match(/id="(.*?)"/)
     const sub = match.match(/sub="(.*?)"/)
     return sub && sub[1] ? `${condition[1]}-${sub[1]}` : condition[1]
   })
-  returnText = md.render(returnText)
   returnText = returnText.replace(/<\/?.*?\/?>/g,'')
   return returnText
 }
 
-// "bestiary"
-const mdDirs = [
+const files = [
   // must go first
   'traits',
   'subraces',
@@ -65,18 +52,11 @@ const mdDirs = [
   'races',
   'spells',
   'tools',
-  'vehicles'
-]
-
-
-// classes
-// class_features
-
-const jsonFiles = [
-  'armor_mods',
-  'armor_sets',
+  'vehicles',
+  'armor-mods',
+  'armor',
   'bestiary',
-  'weapon_mods',
+  'weapon-mods',
   'weapons',
   'rules'
 ]
@@ -87,140 +67,93 @@ const searchItems = []
 /******************
   MD Dirs
  */
-for (let dir of mdDirs) {
-  const path = `./static/data/${dir}`
-  const files = fs.readdirSync(path)
-
-  for (let file of files) {
-    // read the file
-    const fc = fm(fs.readFileSync(`${path}/${file}`, 'utf8'))
+for (const file of files) {
+  const items = require(`./.me5e/${file}.json`)
+  for (let item of items) {
 
     // set the type and subtype
-    let item = {
-      type: setType(dir),
-      subType: dir,
-      qualifiers: [],
-      link: null
-    }
-
-    // create normalized content
-    switch (dir) {
-      case 'races':
-        item.id = fc.attributes.id
-        item.title = fc.attributes.name
-        const body = [cleanBody(fc.body)]
-        body.push(fc.attributes.age)
-        body.push(fc.attributes.alignment)
-        body.push(fc.attributes.size)
-        body.push(fc.attributes.speed)
-        body.push(fc.attributes.startingCredits)
-        item.body = body.join(' ')
-        item.link = `/phb/races/${fc.attributes.id}`
-        if (fc.attributes.traits) {
-          for (let trait of fc.attributes.traits) {
-            const index = searchItems.findIndex(si => si.id === trait)
-            if (index > -1) {
-              if (searchItems[index].qualifiers.length > 0) {
-                searchItems[index].qualifiers[0] += ` + ${fc.attributes.name}`
-              } else {
-                searchItems[index].qualifiers.push(fc.attributes.name)
-              }
-            }
-          }
-        }
-        if (fc.attributes.variants) {
-          for (let subrace of fc.attributes.variants) {
-            const index = searchItems.findIndex(si => si.id.replace('_','-') === subrace)
-            if (index > -1) {
-              searchItems[index].qualifiers.push(fc.attributes.name)
-              searchItems[index].qualifiers.push('Variant')
-              searchItems[index].link = `/phb/races/${fc.attributes.id}`
-            }
-          }
-        }
-        break
-      case 'spells':
-        item.qualifiers.push(fc.attributes.type)
-        item.title = fc.attributes.name
-        item.id = fc.attributes.id
-        item.body = cleanBody(fc.body)
-        if (fc.attributes.advancementOptions) {
-          item.body += ` ${fc.attributes.advancementOptions[0].description}`
-          item.body += ` ${fc.attributes.advancementOptions[1].description}`
-        }
-        break
-      case 'vehicles':
-        item.title = fc.attributes.name
-        item.id = file.replace(/.md$/, '')
-        item.body = cleanBody(fc.body)
-        if (fc.attributes.weapons) {
-          for (let attack of fc.attributes.weapons) {
-            item.body += ` ${attack.damage}`
-          }
-        }
-        break
-      default:
-        item.title = fc.attributes.name || fc.attributes.title
-        item.id = fc.attributes.id || nameToId(item.title)
-        item.body = cleanBody(fc.body)
-        break
-    }
-    searchItems.push(item)
-  }
-}
-
-/******************
- Json Files
- */
-
-for (let file of jsonFiles) {
-  const things = JSON.parse(fs.readFileSync(`./static/data/${file}.json`, 'utf8'))
-  for (let thing of things) {
-
-    // set the type and subtype
-    let item = {
-      id: thing.id,
-      title: thing.name,
+    let searchItem = {
+      id: item.id,
+      title: item.name || item.title,
       type: setType(file),
       subType: file,
       qualifiers: [],
       link: null
     }
 
+    // create normalized content
     switch (file) {
-      case 'rules':
-        const page = pages.find(p => p[1].rules && p[1].rules === thing.section)
-        item.title = thing.title
-        const splits = page[0].split('-')
-        let link = `/${splits[0]}/${splits[1]}`
-        if (splits[2]) {
-          link += `/${splits.slice(2).join('-')}`
+
+      case 'races':
+        const body = [cleanBody(item.html)]
+        body.push(item.age)
+        body.push(item.alignment)
+        body.push(item.size)
+        body.push(item.speed)
+        searchItem.body = body.join(' ')
+        searchItem.link = `/races/${item.id}`
+        if (item.traits) {
+          for (let trait of item.traits) {
+            const index = searchItems.findIndex(si => si.id === trait)
+            if (index > -1) {
+              if (searchItems[index].qualifiers.length > 0) {
+                searchItems[index].qualifiers[0] += ` + ${item.name}`
+              } else {
+                searchItems[index].qualifiers.push(item.name)
+              }
+            }
+          }
         }
-        link += `#${thing.hash}`
-        item.link = link
-        item.qualifiers.push(page[1].name)
-        const fc = fm(fs.readFileSync(`./static/data/rules/${thing.id}.md`, 'utf8'))
-        item.body = cleanBody(fc.body)
+        if (item.variants) {
+          for (let subrace of item.variants) {
+            const index = searchItems.findIndex(si => si.id.replace('_','-') === subrace)
+            if (index > -1) {
+              searchItems[index].qualifiers.push(item.name)
+              searchItems[index].qualifiers.push('Variant')
+              searchItems[index].link = `/races/${item.id}`
+            }
+          }
+        }
+        break
+      case 'spells':
+        searchItem.qualifiers.push(item.type)
+        searchItem.body = cleanBody(item.html)
+        if (item.advancementOptions) {
+          searchItem.body += ` ${item.advancementOptions[0].description}`
+          searchItem.body += ` ${item.advancementOptions[1].description}`
+        }
+        break
+      case 'vehicles':
+        searchItem.body = cleanBody(item.html)
+        if (item.weapons) {
+          for (let attack of item.weapons) {
+            item.body += ` ${attack.damage}`
+          }
+        }
+        break
+      case 'rules':
+        searchItem.link = `manual/${item.section}#${item.id}`
+        searchItem.body = cleanBody(item.html)
         break
       case 'weapons':
-        item.body = ''
-        if (thing.properties.length > 0) {
-          item.body += thing.properties.join(', ')
+        searchItem.body = ''
+        if (item.properties.length > 0) {
+          searchItem.body += item.properties.join(', ')
         }
-        if (thing.notes) {
-          item.body += ` ${thing.notes}`
+        if (item.notes) {
+          searchItem.body += ` ${item.notes}`
         }
         break
       case 'bestiary':
-        item.subType = 'bestiary'
-        item.qualifiers.push(thing.unit)
-        item.body = ''
+        searchItem.subType = 'bestiary'
+        searchItem.qualifiers.push(item.unit)
+        searchItem.body = ''
         for (let key of ['Actions', 'Features', 'Reactions', 'Lair Actions', 'Legendary Actions']) {
           const splitKey = key.split(' ')
           const attrKey = `${splitKey[0].toLowerCase()}${splitKey[1] || ''}`
-          if (thing[attrKey].length > 0) {
+          if (item[attrKey].length > 0) {
             let groupString = ` ${key}`
-            for (let v  of thing[attrKey]) {
+            for (let v  of item[attrKey]) {
               let string = ` ${v.name}`
               switch(v.type) {
                 case 'weapon':
@@ -246,30 +179,37 @@ for (let file of jsonFiles) {
               }
               groupString += `${string} `
             }
-            item.body += `${groupString} `
+            searchItem.body += `${groupString} `
           }
         }
         break
       default:
-        item.body = ''
-        if (thing.feature) {
-          item.body += `${thing.feature} `
+        searchItem.body = cleanBody((item.html || ''))
+        if (item.feature) {
+          searchItem.body += `${item.feature} `
         }
-        if (thing.setBonus) {
-          item.body += `${thing.setBonus} `
+        if (item.setBonus) {
+          searchItem.body += `${item.setBonus} `
         }
-        item.body += `${thing.description}`
+        searchItem.body += `${item.description}`
         break
     }
-    searchItems.push(item)
+    searchItems.push(searchItem)
   }
 }
+
+/******************
+ Json Files
+ */
+
 
 /******************
  Classes
  */
 
-const classes = JSON.parse(fs.readFileSync(`./static/data/classes.json`, 'utf8'))
+const classes = require(`./.me5e/classes.json`)
+const spellcastings = require(`./.me5e/class-spellcasting.json`)
+const classFeatures = require(`./.me5e/class-features.json`)
 for (let klass of classes) {
 
   let item = {
@@ -279,11 +219,11 @@ for (let klass of classes) {
     subType: 'classes',
     qualifiers: [klass.name],
     body: klass.description,
-    link: `/phb/classes/${klass.id}`
+    link: `/classes/${klass.id}`
   }
 
-  const spellcasting = fm(fs.readFileSync(`./static/data/class_spellcasting/${klass.id}.md`, 'utf8'))
-  item.body += ` Spell Casting ${spellcasting.body}`
+  const spellcasting = spellcastings.find(i => i.id === klass.id)
+  item.body += ` Spell Casting ${spellcasting.html}`
 
   searchItems.push(item)
 
@@ -308,24 +248,27 @@ for (let klass of classes) {
 }
 
 function createScfItem(id, level, qualifiers) {
-  const cf = fm(fs.readFileSync(`./static/data/class_features/${id}.md`, 'utf8'))
-  const nthLevel = ordinal(level)
-  qualifiers.push(`${nthLevel}-level`)
-  return {
-    id: `${cf.attributes.id}---${qualifiers[0]}`,
-    title: cf.attributes.name,
-    type: 'character',
-    subType: 'class_features',
-    qualifiers: qualifiers,
-    body: cleanBody(cf.body.replace('{{ level }}', nthLevel))
+  const cf = classFeatures.find(i => i.id === id)
+  if (typeof cf !== 'undefined') {
+    const nthLevel = ordinal(level)
+    qualifiers.push(`${nthLevel}-level`)
+    return {
+      id: `${cf.id}---${qualifiers[0]}`,
+      title: cf.name,
+      type: 'character',
+      subType: 'class_features',
+      qualifiers: qualifiers,
+      body: cleanBody(cf.html.replace('{{ level }}', nthLevel))
+    }
+  } else {
+    console.log(`could not find ${id}`)
   }
 }
 
-searchItems.forEach((i) => {
-  if (!i.id) {
+for (const i of searchItems) {
+  if (typeof i.id === 'undefined') {
     console.log(i)
   }
-})
+}
 
-fs.writeFileSync(`./static/data/search/documents.json`, JSON.stringify(searchItems, null, 2))
-// fs.writeFileSync(`./static/data/search/index.json`, JSON.stringify(idx, null, 2))
+fs.writeFileSync(`./.me5e/search-index.json`, JSON.stringify(searchItems, null, 2))

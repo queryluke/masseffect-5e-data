@@ -33,6 +33,6 @@ Each creature within the sphere must make a Constitution saving throw. A creatur
 save or half as much damage on a successful one. A creature must also make the saving throw when it enters the field's
 space for the first time on a turn or ends its turn there.
 
-Any creature within the sphere is <condition id="primed" sub="necrotic"/>. This condition ends immediately if the creature leaves the sphere.
+Any creature within the sphere is <me-condition id="primed" sub="necrotic"/>. This condition ends immediately if the creature leaves the sphere.
 
 __At Higher Levels__: When you cast this spell using a spell slot of 5th level, increase the radius by 4m.

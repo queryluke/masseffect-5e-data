@@ -1,0 +1,262 @@
+[
+  {
+    "id": "adaptation",
+    "name": "Adaptation",
+    "html": "<p>Growing up in a harsh environment, your body evolved so you could survive. Choose one of the following environments:</p>\n<ul>\n<li><strong>Aquatic</strong>: Amphibious. Swim speed 10m.</li>\n<li><strong>Desert</strong>: Constitution +1. Ignore one level of exhaustion.</li>\n<li><strong>Frozen</strong>: Resistance to cold damage.</li>\n<li><strong>High-gravity</strong>: Strength +1.</li>\n<li><strong>Underground</strong>: Darkvision 60m. Blindsight 10m.</li>\n<li><strong>Volcanic</strong>: Resistance to fire damage.</li>\n<li><strong>Zero-gravity</strong>: While lifted or in zero-g, your speed is 2m and you do not have disadvantage on your attack rolls.</li>\n</ul>\n"
+  },
+  {
+    "id": "all-seeing-eyes",
+    "name": "All-seeing Eyes",
+    "html": "<p>Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to 10m and proficiency in Perception.</p>\n"
+  },
+  {
+    "id": "amphibious",
+    "name": "Amphibious",
+    "html": "<p>Can breathe both air and water.</p>\n"
+  },
+  {
+    "id": "bio-electric-focus",
+    "name": "Bio-Electric Focus",
+    "html": "<p>You can cast a 1st-level version of shocking grasp without expending a spell slot or tech point. Charisma is your\nspellcasting modifier for this ability. This does not count against your max number of cantrips known or spells prepared.</p>\n<p>If you wish to cast an advanced version of shocking grasp or cast it at a higher level, you must prepare it and/or\nexpend spell slots/tech points as normal.</p>\n"
+  },
+  {
+    "id": "bio-electric-ward",
+    "name": "Bio-electric Ward",
+    "html": "<p>Increase your AC by 1. You have a resistance to lightning damage, but this resistance does not apply to damage\ndone to your shields.</p>\n"
+  },
+  {
+    "id": "bioluminescence",
+    "name": "Bioluminescence",
+    "html": "<p>You can shed dim light in a 10m radius.</p>\n"
+  },
+  {
+    "id": "bite",
+    "name": "Bite",
+    "html": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>\n"
+  },
+  {
+    "id": "blood-rage",
+    "name": "Blood Rage",
+    "html": "<p>When you kill an enemy, you can use a bonus action to enter a mindless blood rage. Blood rage lasts for 1 minute or\nuntil you end it as a bonus action. For the duration, you must move towards and attack an enemy on your turn and\nyou cannot concentrate on spells. While in blood rage, are immune to being charmed or frightened and you gain\ntemporary hit points equal to your Constitution modifier at the start of each of your turns. When blood rage ends,\nyou lose any remaining temporary hit points from blood rage.</p>\n<p>You must finish a long rest before you can enter blood rage again.</p>\n"
+  },
+  {
+    "id": "brothers-in-arms",
+    "name": "Brothers-in-Arms",
+    "html": "<p>Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within 2 meters of the creature and the ally isn’t incapacitated.</p>\n"
+  },
+  {
+    "id": "careful",
+    "name": "Careful",
+    "html": "<p>You have proficiency in Insight and Perception. But your careful nature makes you slow to act, giving you disadvantage on\nInitiative rolls.</p>\n"
+  },
+  {
+    "id": "contra-gravitic-levitation",
+    "name": "Contra-gravitic Levitation",
+    "html": "<p>When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of 10m, though\nyou actually hover between 1 and 2 meters from the ground. You are immune to becoming <me-condition id=\"prone\"/> and you ignore any penalties\ncaused by difficult terrain.</p>\n<p>However, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered <me-condition id=\"prone\"/>. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.</p>\n"
+  },
+  {
+    "id": "cybernetic-augmentation",
+    "name": "Cybernetic Augmentation",
+    "html": "<p>You have a cybernetic augmentation. Choose one of the following:</p>\n<h3>Cerebral</h3>\n<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n<p><strong>Ability Score Increase</strong>. Your Intelligence score increases by 1.</p>\n<p><strong>Mind Shielding Unit</strong>. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by spells. In addition, your mind cannot be read by an Asari's mind meld.</p>\n<p><strong>Scientific Aptitude</strong>. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.</p>\n<br>\n<h3>Muscular</h3>\n<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n<p><strong>Ability Score Increase</strong>. Your Dexterity score increases by 1.</p>\n<p><strong>Overclock Unit</strong>. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving 0 meters on one of your turns.</p>\n<p><strong>Peak Fitness</strong>. You have proficiency in either the Acrobatics or Athletics skill.</p>\n<br>\n<h3>Ocular</h3>\n<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n<p><strong>Darkvision</strong>. You can see in dim light within 20 meters of you as if it were bright light, and in darkness as if it were\ndim light. You can’t discern color in darkness, only shades of gray.</p>\n<p><strong>Clarity Unit</strong>. You have advantage on saving throws against being blinded.</p>\n<p><strong>Keen Eyesight</strong>. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within 10 meters of you that is lightly obscured as if it were unobscured and can see in an area within 6 meters of\nyou that is heavily obscured as if it were only lightly obscured.</p>\n<br>\n<h3>Visceral</h3>\n<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n<p><strong>Ability Score Increase</strong>. Your Constitution score increases by 2.</p>\n<p><strong>Revival Unit</strong>. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.</p>\n"
+  },
+  {
+    "id": "eidetic-memory",
+    "name": "Eidetic Memory",
+    "html": "<p>You can recall memories in intricate detail, including details from all your senses. Distant or inconsequential\nmemories require a DC 14 Wisdom check. On a failure, you can only recall details from one or two senses.</p>\n"
+  },
+  {
+    "id": "esprit-de-corps",
+    "name": "Esprit De Corps",
+    "html": "<p>Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within 2 meters of the creature and the ally isn’t incapacitated.</p>\n"
+  },
+  {
+    "id": "extremophile",
+    "name": "Extremophile",
+    "html": "<p>Your body is naturally acclimated to live in the harshest environments. You have advantage on Constitution saving\nthrows to resist exhaustion due to environmental hazards such as extreme heat or cold. Additionally, you can go\ntwice as long without food or water before you suffer exhaustion.</p>\n"
+  },
+  {
+    "id": "four-eyes",
+    "name": "Four Eyes",
+    "html": "<p>You have proficiency in the Perception skill and you can take the Search action as a bonus action on each of your turns.</p>\n"
+  },
+  {
+    "id": "fragile",
+    "name": "Fragile",
+    "html": "<p>Your hit point maximum is decreased by 1. Every time you gain a level you gain 1 less hit point.</p>\n"
+  },
+  {
+    "id": "fury-of-the-small",
+    "name": "Fury of the Small",
+    "html": "<p>When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the\nattack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you\ncan't use it again until you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "hermetic-suit-volus",
+    "name": "Hermetic Suit",
+    "html": "<p>Your suit is your lifeblood and consists of a reinforced, pressurized body suit and helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals puncture or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of their starting equipment.</p>\n<p>If you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus-appropriate environment within 10 minutes, you die.</p>\n"
+  },
+  {
+    "id": "hermetic-suit",
+    "name": "Hermetic Suit",
+    "html": "<p>Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals puncture or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of their starting equipment.</p>\n<p>For each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.</p>\n"
+  },
+  {
+    "id": "high-speed-metabolism",
+    "name": "High-Speed Metabolism",
+    "html": "<p>Salarians don't need to sleep for as long as other races. Instead, their unique biology requires that they only need to\nsleep for 1 hour a day to gain the same benefit that a human does from 8 hours of sleep. Because of this, Salarains\nonly need 4 hours for a long rest.</p>\n"
+  },
+  {
+    "id": "hunter-mode",
+    "name": "Hunter Mode",
+    "html": "<p>Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.</p>\n<p>As an action, you can activate Hunter Mode, gaining the following benefits:</p>\n<ul>\n<li>Increase movement by 2m.</li>\n<li>+1 bonus to ranged and melee weapon attack rolls.</li>\n</ul>\n<br>\n<p>This effect lasts 1 min. You can only use Hunter Mode once per long rest.</p>\n<p>At 11th level, you gain an additional benefit based on your class:</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Class</th>\n<th>Benefit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Engineer</td>\n<td>When you cast a spell, the die type of that spell increases by 1 die type (max d12). If the die type is already d12, add +1 for each die rolled instead.</td>\n</tr>\n<tr>\n<td>Soldier</td>\n<td>Your extra attack features grants you 1 additional attack the first time you take the Attack action on your turn.</td>\n</tr>\n<tr>\n<td>Infiltrator</td>\n<td>Increase your sneak attack die type to d8 (if you are a Shadow Infiltrator, your sneak attack for melee weapons attacks is a d10).</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "innate-biotics",
+    "name": "Innate Biotics",
+    "html": "<p>Asari do not require biotic implants to control their abilities. Instead, their biotic talents rely on their ability\nto project their will onto the world. As an Asari, you use your Charisma whenever a spell refers to your spellcasting\nability. In addition, you use your Charisma modifier when setting the saving throw DC for a biotic spell you cast and\nwhen making an attack roll with one.</p>\n<p>Choose a class: Adept or Vanguard. You learn two biotic cantrips of your choice from that class’s spell list. In addition,\nchoose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast\nit, you must finish a long rest before you can cast it again.</p>\n<p>Neither of the cantrips nor the spell can be an advanced version. But you can learn or prepare an advanced version of\nthe spell as your class permits.</p>\n"
+  },
+  {
+    "id": "integrated-protection",
+    "name": "Integrated Protection",
+    "html": "<p>Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor,\nbut if you are wielding a weapon or shield that provides additional AC, you apply its bonus as normal.</p>\n<p>You can alter your armor type for 2 omni-gel each time you finish a long rest. Choose one mode to adopt from the\nIntegrated Protection table, provided you meet the mode’s prerequisite.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mode</th>\n<th>Prerequisite</th>\n<th>AC</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lithe</td>\n<td>None</td>\n<td>11 + your Dexterity Modifier. Advantage on Dexterity (Stealth) checks.</td>\n</tr>\n<tr>\n<td>Composite Plating</td>\n<td>Medium armor proficiency</td>\n<td>12 + your Dexterity modifier (maximum of 2) + proficiency bonus</td>\n</tr>\n<tr>\n<td>Asymmetric Defense Plating</td>\n<td>Heavy armor proficiency</td>\n<td>15 + proficiency bonus. Disadvantage on Dexterity (Stealth) checks.</td>\n</tr>\n</tbody>\n</template></v-simple-table><br>\n<h3>Innate Shielding</h3>\n<p>You have 5 shields (regen 5). You can upgrade these by using armor mods.</p>\n<h3>Armor Mods</h3>\n<p>You can augment your armor by integrating armor mods into your system. You can spend 8 hours removing, adding, or\nreplacing a mod. When you remove or replace a mod in this way, the replaced or removed mod is lost. The mod cannot be salvaged,\nnot even with the assistance of Armorsmith's or Tailor's tools.</p>\n<p>You have 2 chest mod slots, 1 mod slot in your arms, legs, and head each. You cannot add new slots in any way.</p>\n"
+  },
+  {
+    "id": "limited-regeneration",
+    "name": "Limited Regeneration",
+    "html": "<p>You regain all your Hit Dice on a long rest. Additionally, if you lose a body part, the missing part will regrow\nand return to full functionality after a passing of time, based on the body part:</p>\n<ul>\n<li><strong>Fingers &amp; toes</strong>: 1 week</li>\n<li><strong>Hands &amp; Feet</strong>: 2 weeks</li>\n<li><strong>Arm (to elbow) &amp; Leg (to knee)</strong>: 4 weeks</li>\n<li><strong>Eye</strong>: 6 weeks</li>\n<li><strong>Arm (to shoulder) &amp; Leg (to hip)</strong>: 8 weeks</li>\n</ul>\n"
+  },
+  {
+    "id": "living-construct",
+    "name": "Living Construct",
+    "html": "<p>You are immune to psychic and poison damage, the poisoned condition, and disease. You do not need to eat, drink, or breathe.\nWhen you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping.\nIn this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>\n"
+  },
+  {
+    "id": "lucky",
+    "name": "Lucky",
+    "html": "<p>You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one\nluck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die,\nbut before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</p>\n<p>You can also spend one luck point when an attack roll is made against you. Roll a d20, and then\nchoose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to\ninfluence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</p>\n<p>You regain your expended luck points when you finish a long rest.</p>\n"
+  },
+  {
+    "id": "martial-training",
+    "name": "Martial Training",
+    "html": "<p>You are proficient in the Athletics skill and one additional weapon type (Assault Rifle, Heavy Pistol, Melee, Shotgun, SMG,\nor Sniper Rifle). The additional weapon type proficiency is not limited by your selected class.</p>\n"
+  },
+  {
+    "id": "menacing",
+    "name": "Menacing",
+    "html": "<p>You gain proficiency in the Intimidation skill.</p>\n"
+  },
+  {
+    "id": "mind-meld",
+    "name": "Mind Meld",
+    "html": "<p>You can transfer and receive thoughts to another creature. You must concentrate and if the creature is not willing,\nthe thoughts become jumbled and disjointed. Unintelligent creatures have unpredictable results.</p>\n"
+  },
+  {
+    "id": "natural-diplomat",
+    "name": "Natural Diplomat",
+    "html": "<p>You have proficiency in the Persuasion skill.</p>\n"
+  },
+  {
+    "id": "natural-hunters",
+    "name": "Natural Hunters",
+    "html": "<p>You gain proficiency with two of the following skills of your choice: Athletics, Perception, Stealth, and Survival.</p>\n"
+  },
+  {
+    "id": "no-feats",
+    "name": "No Feats",
+    "html": "<p>Geth cannot take any feats.</p>\n"
+  },
+  {
+    "id": "non-differentiated-cells",
+    "name": "Non-Differentiated Cells",
+    "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage</p>\n"
+  },
+  {
+    "id": "photographic-memory",
+    "name": "Photographic Memory",
+    "html": "<p>Whenever you make an Intelligence (Engineering, Electronics, History, or Science) check to recall information, add\ntwice your proficiency bonus even if you are not proficient in that skill.</p>\n"
+  },
+  {
+    "id": "powerful-build",
+    "name": "Powerful Build",
+    "html": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>\n"
+  },
+  {
+    "id": "psychometry",
+    "name": "Psychometry",
+    "html": "<p>While in physical contact with a creature or object, a Prothean can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within 10 meters of the object or creature within\nthe past 24 hours. If in contact with an object, you see the last creature to hold the object, regardless of how long\nago it was last handled. This ability may only be used once per long rest.</p>\n"
+  },
+  {
+    "id": "quad-strand-dna",
+    "name": "Quad-Strand DNA",
+    "html": "<p>Your unique quad-strand DNA helps to protect you against radiation and cold. You have radiant and cold damage resistance.</p>\n"
+  },
+  {
+    "id": "quadrupedal",
+    "name": "Quadrupedal",
+    "html": "<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>\n<p>In addition, any climb that requires hands and feet is especially difficult for you because of your size and weight.\nWhen you make such a climb, each foot of movement costs you 4 extra meters, instead of the normal 2 extra meters.</p>\n<p>Finally, a Medium or smaller creature can ride on your back if you allow it. In such a situation, you continue\nto act independently, not as a controlled mount.</p>\n"
+  },
+  {
+    "id": "raw-agility",
+    "name": "Raw Agility",
+    "html": "<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can\ndouble your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 meters on\none of your turns.</p>\n"
+  },
+  {
+    "id": "repair-matrix",
+    "name": "Repair Matrix",
+    "html": "<p>As a construct, you cannot be healed by medi-gel or spells that heal organic creatures (such as the <em>first aid</em> spell).</p>\n<p>Instead, you can use your Action to expend a Hit Die. Roll the die and add your Constitution modifier to it. You regain\nhit points equal to the total. You also regain all spent hit dice at the end of a long rest, instead of the usual amount.</p>\n<p>If you drop to 0 hit points, you must be stabilized with an Intelligence (Engineering) or Intelligence (Electronics) check,\ninstead of a Wisdom (Medicine) check.</p>\n<p>At the 4th level, you gain an additional number of hit dice equal to your character level divided by 4 (minimum 1).\nThese bonus hit dice are d8s, regardless of your class.</p>\n"
+  },
+  {
+    "id": "saving-face",
+    "name": "Saving Face",
+    "html": "<p>Batarians are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an\nattack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies\nyou can see (maximum bonus of +5). Once you use this trait, you can't use it again until you finish\na short or long rest.</p>\n"
+  },
+  {
+    "id": "savvy-dealings",
+    "name": "Savvy Dealings",
+    "html": "<p>You have proficiency in the Persuasion skill.</p>\n"
+  },
+  {
+    "id": "shoulder-mounts",
+    "name": "Shoulder Mounts",
+    "html": "<p>Your ranged weapons are shoulder mounted to your armor or in holsters and use a VI to aim and fire. When you make a\nranged weapon attack, use your Intelligence modifier instead of your Dexterity modifier.</p>\n<p>You can have one ranged weapon mounted on each shoulder. Mounting a ranged weapon requires you to be proficient with\nthe weapon type and takes at least 10 minutes of work during a short or long rest.</p>\n"
+  },
+  {
+    "id": "shrewd-negotiator",
+    "name": "Shrewd Negotiator",
+    "html": "<p>Gain proficiency in either Insight or Intimidation.</p>\n"
+  },
+  {
+    "id": "solar-dependency",
+    "name": "Solar Dependency",
+    "html": "<p>If you fail to immerse yourself in sunlight for at least 1 hour during a day, you suffer one level of exhaustion at the\nend of that day.</p>\n"
+  },
+  {
+    "id": "survivalist",
+    "name": "Survivalist",
+    "html": "<p>Angara have a knack for living in harsh environments. You have proficiency in Survival.</p>\n"
+  },
+  {
+    "id": "tentacles",
+    "name": "Tentacles",
+    "html": "<p>You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms, meaning\nyou can only wield weapons with the <em>light</em> property.</p>\n<p>As an action, you can use one of your tentacles to try to grapple a creature. Each one is also a\nnatural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\nImmediately after hitting, you can try to grapple the target as a bonus action.</p>\n<p>As an action, you can secrete a natural toxin from one of your tentacles. If a creature is grappled by the tentacle,\nit must succeed a DC 11 Constitution saving throw of becomes <me-condition id=\"poisoned\"/> for 1 hour. The DC of this\nsaving throw increases with your level: DC 13 at the 5th level, DC 15 at the 11th level, and DC 17 at the 17th level.</p>\n"
+  },
+  {
+    "id": "thick-hide",
+    "name": "Thick Hide",
+    "html": "<p>Your base AC is 12 and you determine your AC using your Constitution modifier instead of your Dexterity modifier.</p>\n"
+  },
+  {
+    "id": "thulium-skin",
+    "name": "Thulium Skin",
+    "html": "<p>Resistance to radiant damage and immunity to diseases caused by radiation.</p>\n"
+  },
+  {
+    "id": "toughness",
+    "name": "Toughness",
+    "html": "<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>\n"
+  },
+  {
+    "id": "twice-as-bright",
+    "name": "Twice as Bright",
+    "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n"
+  }
+]

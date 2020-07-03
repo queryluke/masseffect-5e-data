@@ -1,5 +1,4 @@
 {
-  "id": "engineer",
   "name": "Engineer",
   "description": "The Engineer is a tech specialist, able to quickly and easily manipulate the environment with specific talents, and repair or modify technical equipment. Gameplay focus is on shaping the battlefield during combat, healing the party, and debuffing enemies (disabling weapons and lowering shields).\n",
   "snippet": "Engineers are tech specialists, the only class able to employ combat drones on the battlefield.\n",
@@ -99,7 +98,7 @@
       "level": 3,
       "proficiencyBonus": 2,
       "features": [
-        "engineers_efficiency"
+        "engineers-efficiency"
       ],
       "techPoints": 5,
       "techPointLimit": 1
@@ -108,7 +107,7 @@
       "level": 4,
       "proficiencyBonus": 2,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "techPoints": 7,
       "techPointLimit": 1
@@ -142,7 +141,7 @@
       "level": 8,
       "proficiencyBonus": 3,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "techPoints": 17,
       "techPointLimit": 2
@@ -167,8 +166,8 @@
       "level": 11,
       "proficiencyBonus": 4,
       "features": [
-        "recharge_2",
-        "improved_efficiency"
+        "recharge-2",
+        "improved-efficiency"
       ],
       "techPoints": 26,
       "techPointLimit": 3
@@ -177,7 +176,7 @@
       "level": 12,
       "proficiencyBonus": 4,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "techPoints": 26,
       "techPointLimit": 3
@@ -202,7 +201,7 @@
       "level": 15,
       "proficiencyBonus": 5,
       "features": [
-        "recharge_3"
+        "recharge-3"
       ],
       "techPoints": 34,
       "techPointLimit": 4
@@ -211,7 +210,7 @@
       "level": 16,
       "proficiencyBonus": 5,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "techPoints": 34,
       "techPointLimit": 4
@@ -236,7 +235,7 @@
       "level": 19,
       "proficiencyBonus": 6,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "techPoints": 45,
       "techPointLimit": 6
@@ -258,19 +257,19 @@
       "features": [
         [
           "enfilade",
-          "jack_of_all_trades"
+          "jack-of-all-trades"
         ],
         [
-          "extra_attack_1"
+          "extra-attack-1"
         ],
         [
-          "disrupting_attack"
+          "disrupting-attack"
         ],
         [
-          "tactical_advantage"
+          "tactical-advantage"
         ],
         [
-          "spell_steal"
+          "spell-steal"
         ]
       ]
     },
@@ -279,20 +278,20 @@
       "description": "A drone jockey forms a bond with their mechanical companion, giving it a body, name and increasing its potency on the battlefield.",
       "features": [
         [
-          "drone_companion",
-          "drones_bond"
+          "drone-companion",
+          "drones-bond"
         ],
         [
-          "coordinated_attack"
+          "coordinated-attack"
         ],
         [
-          "drones_defense_1"
+          "drones-defense-1"
         ],
         [
-          "assault_protocol"
+          "assault-protocol"
         ],
         [
-          "drones_defense_2"
+          "drones-defense-2"
         ]
       ]
     },
@@ -301,19 +300,19 @@
       "description": "The name says it all. As a medic, you'll be one on the field that can dress a wound and get your comrades back into fighting shape.",
       "features": [
         [
-          "repair_drone_1"
+          "repair-drone-1"
         ],
         [
-          "medi-gel_enhancements"
+          "medi-gel-enhancements"
         ],
         [
-          "shield_boost"
+          "shield-boost"
         ],
         [
-          "repair_drone_2"
+          "repair-drone-2"
         ],
         [
-          "supply_pylon"
+          "supply-pylon"
         ]
       ]
     }

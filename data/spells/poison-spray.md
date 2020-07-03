@@ -31,7 +31,7 @@ advancementOptions:
     there must make the Constitution saving throw.
 ---
 Shoot an aerosol spray of noxious chemicals from your omni-tool at a creature within melee range. The creature must
-succeed on a Constitution saving throw or take 2d12 poison damage and becomes <condition id="poisoned"/> until the end
+succeed on a Constitution saving throw or take 2d12 poison damage and becomes <me-condition id="poisoned"/> until the end
 of your next turn.
 
 __At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the damage increases

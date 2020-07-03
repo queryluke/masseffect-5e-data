@@ -28,7 +28,7 @@ advancementOptions:
   description: Add 1d8 to the detonation damage for each 4m the sphere travels.
 ---
 Launch a slow-moving, 4m wide sphere of dark energy in a straight line. It moves 4m at the end of each of your turns.
-A creature caught in the sphere's path becomes <condition id="primed" sub="necrotic"/> until the end of its next turn and 
+A creature caught in the sphere's path becomes <me-condition id="primed" sub="necrotic"/> until the end of its next turn and 
 must make a Constitution saving throw. On a failed save, a creature takes necrotic damage equal to 6d8 +
 your spellcasting ability modifier, or half as much on a successful one.
 

@@ -32,7 +32,7 @@ advancementOptions:
 ---
 You fill the air with a highly concentrated warp field 2 meters on each side at a point within range.  A creature takes
 4d4 necrotic damage when it enters the spell area for the first time on a turn or starts its turn there. A creature
-within the cloud is <condition id="primed" sub="necrotic"/>.
+within the cloud is <me-condition id="primed" sub="necrotic"/>.
 
 __At Higher Levels__. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 4d4 
 for each slot level above 1st.

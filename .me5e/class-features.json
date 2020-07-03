@@ -1,0 +1,847 @@
+[
+  {
+    "id": "a-touch-of-force",
+    "name": "A Touch of Force",
+    "html": "<p>At {{ level }} level, you gain the ability to augment your weapons with your barrier. As a bonus action, you can expend\nup to 3 barrier ticks to grant one weapon you're carrying a bonus to damage rolls equal to the number\nof barrier ticks spent. The additional damage is force damage and can detonate primed targets. This effect lasts\n1 minute.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "ability-score-improvement",
+    "name": "Ability Score Improvement",
+    "html": "<p>At {{ level }} level, you can increase one ability score of your choice by 2, or you can increase two ability scores\nof your choice by 1. You can't increase an ability score above 20 using this feature.</p>\n<p>You may instead take a Feat.</p>\n"
+  },
+  {
+    "id": "adaptive-tech-armor",
+    "name": "Adaptive Tech Armor",
+    "html": "<p>At {{ level }} level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.</p>\n"
+  },
+  {
+    "id": "additional-fighting-style",
+    "name": "Additional Fighting Style",
+    "html": "<p>At {{ level }} level, you can choose a second option from the Fighting Style class feature.</p>\n"
+  },
+  {
+    "id": "adrenaline-rush-1",
+    "name": "Adrenaline Rush",
+    "html": "<p>You can inject yourself with a shot of adrenaline, pushing yourself beyond your normal limits for a moment.\nAt {{ level }} level, you can take one additional action this turn on top of your regular action and a possible\nbonus action.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n"
+  },
+  {
+    "id": "adrenaline-rush-2",
+    "name": "Adrenaline Rush",
+    "html": "<p>Starting at {{ level }} level, you can use Adrenaline Rush twice per short rest but not more than once in a single turn.</p>\n"
+  },
+  {
+    "id": "advanced-combat-powers",
+    "name": "Advanced Combat Powers",
+    "html": "<p>Starting at {{ level }} level, when you learn a new combat power, you automatically learn one of the advanced\noptions for it. For each combat power you have already learned, pick an advanced option for it. If you have already learned\nan advanced option, you may learn and advance a new combat power.</p>\n"
+  },
+  {
+    "id": "advanced-tech-armor",
+    "name": "Advanced Tech Armor",
+    "html": "<p>Starting at {{ level }} level, your tech armor benefits from the energy used to cast biotic and tech powers. Whenever you\ncast a spell of 1st-level or higher, your tech armor gains 10 hit points. When you cast a cantrip, you tech armor gains 3 hit points.</p>\n"
+  },
+  {
+    "id": "advanced-weapon-holsters",
+    "name": "Advanced Weapon Holsters",
+    "html": "<p>You've outfitted your armor with special rigs that make carrying weapons a cinch.</p>\n<p>At {{ level }} level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.</p>\n"
+  },
+  {
+    "id": "assault-armor",
+    "name": "Assault Armor",
+    "html": "<p>Starting at {{ level }} level, your Tech Armor is rigged for keeping the action on you. When\nyou activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within 20m\nthat can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + spellcasting modifier). On a failure,\na creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always\ntargets you when it makes a weapon or spell attack.</p>\n<p>Each time a creature that is compelled to attack you takes damage from a source other than you, it makes a new Wisdom saving\nthrow against the spell. If the saving throw succeeds, the creature is no longer compelled to attack you and is immune to\nAssault Armor for the next 24 hours.</p>\n<p>Synthetic creatures have advantage on the Wisdom saving throw.</p>\n"
+  },
+  {
+    "id": "assault-protocol",
+    "name": "Assault Protocol",
+    "html": "<p>At {{ level }} level, your companion can use its action to make an attack against each creature within 2m of it or each\ncreature within 2m of you. It makes a separate attack roll for each target.</p>\n"
+  },
+  {
+    "id": "barrier",
+    "name": "Barrier",
+    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. You total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n"
+  },
+  {
+    "id": "bend-luck",
+    "name": "Bend Luck",
+    "html": "<p>You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions. It\nmight be a small burst under the muzzle of a gun to throw off the attacker's aim. Or negative field around a friendly\ncreature as leaps away from a grenade, moving it out of damage's way.</p>\n<p>At {{ level }} level, when another creature you can see makes an attack roll, an ability check, or a saving throw, you\ncan use your reaction to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.\nYou can do so after the creature rolls but before any effects of the roll occur.</p>\n<p>You can use Bend Luck a number of times equal to half of your Adept level (minimum 1) before you finish a long rest.</p>\n"
+  },
+  {
+    "id": "biometric-feedback",
+    "name": "Biometric Feedback",
+    "html": "<p>At {{ level }} level, your tech armor provides biometric feedback, during combat. If you fail a saving throw while\ntech armor is active, you can reroll it, and you must use the new roll.</p>\n"
+  },
+  {
+    "id": "biotic-attacks",
+    "name": "Biotic Attacks",
+    "html": "<p>At {{ level }} level, you choose one biotic cantrip you know and one biotic spell of 1st level you know.\nYou may cast either spell as an attack.</p>\n<p>By spending 8 hours training, you can exchange one or both of the spells you chose for different spells of the same levels.</p>\n"
+  },
+  {
+    "id": "biotic-bull-rush",
+    "name": "Biotic Bull Rush",
+    "html": "<p>At {{ level }} level, you learn the charge cantrip. If you have already learned it, you may learn a new cantrip instead.</p>\n<p>The distance of charge is now 20m. When you use your action to cast charge, you may use a bonus action to shove or make one\nweapon attack against the target. You gain +5 to the attack’s damage roll or shove the target 6m. To shove a target this\nway, it must be no more than one size larger than you.</p>\n"
+  },
+  {
+    "id": "biotic-concentration",
+    "name": "Biotic Concentration",
+    "html": "<p>Starting at {{ level }} level, you can push your biotic implant to the limit. If you are already maintaining a concentration\nspell, you can cast another spell that requires concentration and maintain it. If you take damage you must make a separate Constitution\nsaving throw to maintain each spell.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "biotic-control",
+    "name": "Biotic Control",
+    "html": "<p>At {{ level }} level, you've increased your mastery with biotic spells that control the battlefield. Gain the following\nbenefits to the spells below:</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Spell</th>\n<th>Improvement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lift</td>\n<td>When casting Lift, you are considered to have both advancement options.</td>\n</tr>\n<tr>\n<td>Pull</td>\n<td>When you cast pull, you may target 2 creatures. Make a ranged spell attack for each target.</td>\n</tr>\n<tr>\n<td>Singularity</td>\n<td>Large or smaller objects and creatures are affected by singularity.</td>\n</tr>\n<tr>\n<td>Stasis</td>\n<td>Targets have disadvantage on their saving throw.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "biotic-focus",
+    "name": "Biotic Focus",
+    "html": "<p>At {{ level }} level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your speed is doubled.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+  },
+  {
+    "id": "biotic-fury",
+    "name": "Biotic Fury",
+    "html": "<p>Starting at {{ level }} level, the effects of brutal critical and zero-sum can be applied to your biotic spells\nthat require a spell attack roll.</p>\n"
+  },
+  {
+    "id": "biotic-maneuvers-1",
+    "name": "Biotic Maneuvers",
+    "html": "<p>At {{ level }} level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your spellcasting ability modifier.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within 2m of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 8m away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within 2m of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "biotic-maneuvers-2",
+    "name": "Biotic Maneuvers",
+    "html": "<p>At {{ level }} level, learn 2 additional biotic maneuvers.</p>\n"
+  },
+  {
+    "id": "biotic-mastery",
+    "name": "Biotic Mastery",
+    "html": "<p>At {{ level }} level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic spells that you have learned. You can cast those spells at 1st level without\nexpending a spell slot. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the spells you chose for different spells of the same levels.</p>\n"
+  },
+  {
+    "id": "biotic-recovery-nemesis",
+    "name": "Biotic Recovery",
+    "html": "<p>At {{ level }} level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal\nto or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of spell slots. You can recover either\ntwo 2nd-level spell slots, one 2nd-level and two 1st-level spell slots, or four first-level spell slots.</p>\n"
+  },
+  {
+    "id": "biotic-recovery",
+    "name": "Biotic Recovery",
+    "html": "<p>You have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal\nto or less than half your adept level (rounded up), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 4th-level adept, you can recover up to two levels worth of spell slots. You can recover either\na 2nd-level spell slot or two 1st-level spell slots.</p>\n"
+  },
+  {
+    "id": "biotic-split",
+    "name": "Biotic Split",
+    "html": "<p>At {{ level }} level, when you cast a biotic spell that targets only one creature, you can have it target a second creature.</p>\n"
+  },
+  {
+    "id": "biotic-surge",
+    "name": "Biotic Surge",
+    "html": "<p>Starting at {{ level }} level, you can empower your biotics that unleash harm on groups of foes. When you force multiple\ncreatures to make saving throws against the damage of one of your spells, you can increase the spell's damage by rolling\ntwo more of its damage dice. This increase occurs only on the turn you cast the spell.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "blindsense",
+    "name": "Blindsense",
+    "html": "<p>Starting at {{ level }} level, if you are able to hear, you are aware of the location of any hidden or invisible\ncreature within 4 meters of you.</p>\n"
+  },
+  {
+    "id": "blitz",
+    "name": "Blitz",
+    "html": "<p>Starting at {{ level }} level, whenever a creature within 20m that you can see makes a weapon attack or casts a spell, you can use your reaction to\ncast charge, targeting that creature. Resolve any effects caused by charge before the creature takes its action. The creature\nmay choose to make a different action this turn.</p>\n"
+  },
+  {
+    "id": "bombardment",
+    "name": "Bombardment",
+    "html": "<p>Beginning at {{ level }} level, the harmful energy of your biotics intensifies. When you roll damage for a spell and roll the\nhighest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.\nYou can use the feature only once per turn.</p>\n"
+  },
+  {
+    "id": "brutal-critical-1",
+    "name": "Brutal Critical",
+    "html": "<p>Beginning at {{ level }}, you can roll one additional damage die when determining the extra damage for a critical hit with a melee attack.</p>\n"
+  },
+  {
+    "id": "brutal-critical-2",
+    "name": "Brutal Critical",
+    "html": "<p>At {{ level }} level, you can roll two additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n"
+  },
+  {
+    "id": "brutal-critical-3",
+    "name": "Brutal Critical",
+    "html": "<p>At {{ level }} level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n"
+  },
+  {
+    "id": "call-shots",
+    "name": "Call the Shots",
+    "html": "<p>Starting at {{ level }} level, you can use your action to focus all of your attention on your tactical focus, calling out\nthreats, troop movements, and enemy weaknesses.</p>\n<p>Until the start of your next turn:</p>\n<ul>\n<li>Whenever a friendly creature makes an attack roll or saving throw, it rolls 1d6 and adds the result to its attack roll or saving throw.</li>\n<li>Whenever a hostile creature makes an attack roll or saving throw, it rolls 1d6 and subtracts the result to its attack roll or saving throw.</li>\n</ul>\n<br>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended\nuses when you finish a long rest.</p>\n"
+  },
+  {
+    "id": "careful-eyes",
+    "name": "Careful Eyes",
+    "html": "<p>Starting at {{ level }} level, you excel at picking out hidden enemies and other threats. You can take the Search action\nas a bonus action.</p>\n<p>You also gain proficiency in the Perception, Investigation, or Survival skill (choose one).</p>\n"
+  },
+  {
+    "id": "combat-heuristics",
+    "name": "Combat Heuristics",
+    "html": "<p>Starting at {{ level }} level, every time you bring an enemy to 0 hit points or score a critical hit, your HUD updates your tactical\nfeedback, restoring 1 tech point.</p>\n"
+  },
+  {
+    "id": "combat-power",
+    "name": "Combat Power",
+    "html": "<p>At {{ level }} level, you know one combat power of your choice from the infiltrator spell list. You learn additional\ncombat powers of your choice at higher levels, as shown in the Combat Powers column of the Infiltrator table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n"
+  },
+  {
+    "id": "coordinated-attack",
+    "name": "Coordinated Attack",
+    "html": "<p>Beginning at {{ level }} level, you and your drone companion form a more potent fighting force. When you use the Attack\naction on your turn, if your companion can see you, it can use its reaction to make an attack.</p>\n"
+  },
+  {
+    "id": "cunning-action",
+    "name": "Cunning Action",
+    "html": "<p>At {{ level }} level, you can take a bonus action on each of your turns in combat. This action can be used only to Dash, Disengage, Hide, or\nactivate Tactical Cloak.</p>\n"
+  },
+  {
+    "id": "danger-sense",
+    "name": "Danger Sense",
+    "html": "<p>Starting at {{ level }}, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.\nYou have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this\nbenefit, you can't be blinded, deafened, or incapacitated.</p>\n"
+  },
+  {
+    "id": "dark-biotics",
+    "name": "Dark Biotics",
+    "html": "<p>At {{ level }} level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to all necrotic damage\ndealt by your biotic spells.</p>\n"
+  },
+  {
+    "id": "death-strike",
+    "name": "Death Strike",
+    "html": "<p>Starting at {{ level }} level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.</p>\n"
+  },
+  {
+    "id": "devastating-critical",
+    "name": "Devastating Critical",
+    "html": "<p>Starting at the {{ level }} level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.</p>\n"
+  },
+  {
+    "id": "disrupting-attack",
+    "name": "Disrupting Attack",
+    "html": "<p>At {{ level }} level, you learn how to make your weapon strikes undercut a creature's resistance to your tech spells.\nWhen you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against\na spell you cast before the end of your next turn.</p>\n"
+  },
+  {
+    "id": "drone-companion",
+    "name": "Drone Companion",
+    "html": "<p>At {{ level }} level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.</p>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n"
+  },
+  {
+    "id": "drone",
+    "name": "Drone",
+    "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <a href=\"/phb/bestiary\">bestiary</a>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your intelligence, not the drone's.\nThe drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n"
+  },
+  {
+    "id": "drones-bond",
+    "name": "Drone's Bond",
+    "html": "<p>Your drone companion gains a variety of benefits while it is linked to you.</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<h3>Choose your companion's trait, or roll on the table below.</h3>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h3>Choose your companion's flaw, or roll on the table below.</h3>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "drones-defense-1",
+    "name": "Drone's Defense",
+    "html": "<p>At {{ level }} level, your companion gains 10 shield points and 5 regen. Additionally, while your companion can see you,\nit has advantage on all saving throws.</p>\n"
+  },
+  {
+    "id": "drones-defense-2",
+    "name": "Drone's Defense",
+    "html": "<p>At {{ level }} level, your companion gains 10 shield points and 5 regen. Additionally, whenever an attacker that your\ncompanion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.</p>\n"
+  },
+  {
+    "id": "elusive",
+    "name": "Elusive",
+    "html": "<p>At {{ level }} level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.</p>\n"
+  },
+  {
+    "id": "empowered-biotics",
+    "name": "Empowered Biotics",
+    "html": "<p>At {{ level }} level, whenever you roll a 1 on a damage roll for a biotic spell or cantrip you cast, you can reroll the die and must use the\nnew roll.</p>\n"
+  },
+  {
+    "id": "enfilade",
+    "name": "Enfilade",
+    "html": "<p>Starting at {{ level }} level, if an ally uses a power that primes an enemy within 10m, you may use your reaction to detonate the primed enemy with a\nquick tech burst that cannot miss.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any\nexpended uses when you finish a long rest.</p>\n"
+  },
+  {
+    "id": "engineers-efficiency",
+    "name": "Engineer's Efficiency",
+    "html": "<p>Starting at {{ level }} level, you're able to optimize a basic tech spell. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this spell prepared. You may cast a 1 tech point version\nof this spell without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected spell at the cost of 1 prepared spell.</p>\n<p>At 11th level, you can cast a 2 tech point version of this spell without expending any tect points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected spell with either Cryo Blast, Incinerate, or Overload.</p>\n"
+  },
+  {
+    "id": "evasion",
+    "name": "Evasion",
+    "html": "<p>At {{ level }} level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>\n"
+  },
+  {
+    "id": "ever-ready",
+    "name": "Ever Ready",
+    "html": "<p>By {{ level }} level, you've learned to never let your guard down. You have advantage on initiative rolls.</p>\n<p>Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your\nfirst turn, but only if you activate your tactical focus, selecting an area that encompasses your location, before doing\nanything else on that turn.</p>\n"
+  },
+  {
+    "id": "expert-biotic",
+    "name": "Expert Biotic",
+    "html": "<p>By {{ level }} level, casting biotic spells comes so easily to you that it expends only a fraction of your efforts. When you cast a biotic spell\nof 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level\nlower than the spell you cast.</p>\n"
+  },
+  {
+    "id": "expertise",
+    "name": "Expertise",
+    "html": "<p>At {{ level }} level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n"
+  },
+  {
+    "id": "extra-attack-1",
+    "name": "Extra Attack",
+    "html": "<p>Beginning at {{ level }} level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n"
+  },
+  {
+    "id": "extra-attack-2",
+    "name": "Extra Attack",
+    "html": "<p>Beginning at {{ level }} level, you can attack three times instead of once whenever you take the Attack action on your turn.</p>\n"
+  },
+  {
+    "id": "extra-attack-3",
+    "name": "Extra Attack",
+    "html": "<p>Beginning at {{ level }} level, you can attack four times instead of once whenever you take the Attack action on your turn.</p>\n"
+  },
+  {
+    "id": "fighting-spirit",
+    "name": "Fighting Spirit",
+    "html": "<p>Starting at {{ level }} level, your intensity in battle can shield you and help you strike true. As a bonus action on\nyour turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,\nyou also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this\nclass, increasing to 10 at 10th level and 15 at 15th level.</p>\n<p>You can use this feature three times, and you regain all expended uses of it when you finish a long rest.</p>\n"
+  },
+  {
+    "id": "fighting-style",
+    "name": "Fighting Style",
+    "html": "<p>At {{ level }} level, choose a fighting style from the list below.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Style</th>\n<th>Perk</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Assault</td>\n<td>When you make a Burst Fire attack, the DC of the saving throw is 17.</td>\n</tr>\n<tr>\n<td>Brawler</td>\n<td>Add your proficiency bonus to your melee attack damage rolls.</td>\n</tr>\n<tr>\n<td>Carnage</td>\n<td>When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</td>\n</tr>\n<tr>\n<td>Close-Quarters Shooter</td>\n<td>When making a ranged attack while you are within 2m of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within 10m of you.</td>\n</tr>\n<tr>\n<td>Defense</td>\n<td>+1 AC</td>\n</tr>\n<tr>\n<td>Gunslinger</td>\n<td>When you take the Attack action and attack with a light ranged weapon that you’re holding in one hand, you can use a bonus action to attack with a different light ranged weapon that you’re holding in the other hand.</td>\n</tr>\n<tr>\n<td>The Free Hand</td>\n<td>When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged spell attacks</td>\n</tr>\n<tr>\n<td>Protection</td>\n<td>When a creature you can see attacks a target other than you that is within 2m of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.</td>\n</tr>\n<tr>\n<td>Sniper</td>\n<td>If no hostile creature is within 10m of you, gain +2 to damage rolls on attacks made with a sniper rifle.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "focused-biotics",
+    "name": "Focused Biotics",
+    "html": "<p>Beginning at {{ level }} level, while you are concentrating on a biotic spell, your concentration can't be broken as a result of taking damage.</p>\n"
+  },
+  {
+    "id": "hardened-tech-armor",
+    "name": "Hardened Tech Armor",
+    "html": "<p>At {{ level }} level, you're able to shrug off hits that would normally devastate others. While your tech armor\nis active, you have +1 AC and any critical hit against you becomes a normal hit.</p>\n"
+  },
+  {
+    "id": "heavy-barrier",
+    "name": "Heavy Barrier",
+    "html": "<p>At {{ level }} level, when you expend a barrier tick to reduce damage, each barrier tick reduces the damage by 2d8.</p>\n"
+  },
+  {
+    "id": "heavy-weapon-hack",
+    "name": "Heavy Weapon Hack",
+    "html": "<p>Starting at {{ level }} level, when your heavy weapon runs out of ammo, you can jerry-rig an additional charge for 2 omni-gel.</p>\n"
+  },
+  {
+    "id": "improved-barrier-1",
+    "name": "Improved Barrier",
+    "html": "<p>At the {{ level }} level, increase the die type of your barrier ticks to d10.</p>\n"
+  },
+  {
+    "id": "improved-barrier-2",
+    "name": "Improved Barrier",
+    "html": "<p>At the {{ level }} level, increase the die type of your barrier ticks to d12.</p>\n"
+  },
+  {
+    "id": "improved-efficiency",
+    "name": "Improved Efficiency",
+    "html": "<p>At {{ level }} level, you can cast a 2 tech point version of your selected Engineer's Efficiency spell without expending\nany tech points.</p>\n"
+  },
+  {
+    "id": "indomitable-1",
+    "name": "Indomitable",
+    "html": "<p>At {{ level }} level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.</p>\n"
+  },
+  {
+    "id": "indomitable-2",
+    "name": "Indomitable",
+    "html": "<p>At {{ level }} level, you can use Indomitable twice between long rests.</p>\n"
+  },
+  {
+    "id": "indomitable-3",
+    "name": "Indomitable",
+    "html": "<p>At {{ level }} level, you can use Indomitable three times between long rests.</p>\n"
+  },
+  {
+    "id": "invention",
+    "name": "Invention",
+    "html": "<p>At {{ level }}, you create an invention. Work with your GM to decide on what the invention should be. Some ideas\ninclude a drone upgrade (weapon, armor, shield, etc), a new spell, an improved omni-tool battery, etc.</p>\n"
+  },
+  {
+    "id": "jack-of-all-trades",
+    "name": "Jack of All Trades",
+    "html": "<p>Starting at {{ level }} level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.</p>\n"
+  },
+  {
+    "id": "killshot",
+    "name": "Killshot",
+    "html": "<p>At {{ level }} level, your proficiency with sniper rifles is beyond measure allowing you to target the weakest points of your enemy.\nWhen you apply your sneak attack damage to an attack made with a sniper rifle, add 3d6 to the damage roll.</p>\n"
+  },
+  {
+    "id": "l5t-1",
+    "name": "L5t Implant (3rd-level)",
+    "html": "<p>At the {{ level }} level, choose one spell and an advancement for that spell of 3rd-level or less. You can cast this\nspell once as a 3rd-level spell without expending a spell slot. You must finish a long rest before you can do so again.</p>\n"
+  },
+  {
+    "id": "l5t-2",
+    "name": "L5t Implant (4th-level)",
+    "html": "<p>At the {{ level }} level, choose one spell and an advancement for that spell of 4th-level or less. You can cast this\nspell once as a 4th-level spell without expending a spell slot. You must finish a long rest before you can do so again.</p>\n"
+  },
+  {
+    "id": "l5t-3",
+    "name": "L5t Implant (4th-level)",
+    "html": "<p>At the {{ level }} level, choose one spell and an advancement for that spell of 4th-level or less. You can cast this\nspell once as a 4th-level spell without expending a spell slot. You must finish a long rest before you can do so again.</p>\n"
+  },
+  {
+    "id": "l5t-4",
+    "name": "L5t Implant (5th-level)",
+    "html": "<p>At the {{ level }} level, choose one spell and an advancement for that spell of 5th-level or less. You can cast this\nspell once as a 5th-level spell without expending a spell slot. You must finish a long rest before you can do so again.</p>\n"
+  },
+  {
+    "id": "makeshift-grenades-1",
+    "name": "Makeshift Grenades",
+    "html": "<p>When you reach {{ level }} level, you can program your omni-tool to transform omni-gel into grenades. Choose two grenades from the grenade\nlist. As an action, you can spend 1 omni-gel to create and use a grenade of that type. The Mark of the grenade you create\nis equal to your soldier level divided by 3 (rounded down).</p>\n<p>You can spend 8 hours of programming to exchange a selected grenade with a different one.</p>\n"
+  },
+  {
+    "id": "makeshift-grenades-2",
+    "name": "Makeshift Grenades",
+    "html": "<p>At {{ level }} level, you can have 4 grenades programmed into your Omni-tool at once.</p>\n<p>In addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.</p>\n"
+  },
+  {
+    "id": "master-tactician",
+    "name": "Master Tactician",
+    "html": "<p>At {{ level }} level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking\na creature, the target of that attack can be within 20m of you, rather than 2m of you, if the target can see or hear you.</p>\n"
+  },
+  {
+    "id": "medi-gel-enhancements",
+    "name": "Medi-gel Enhancements",
+    "html": "<p>At {{ level }} level, you can spend 6 hours in a lab, or similar environment, using drugs to enhance the capabilities of standard medi-gel. It\ntakes 2 hours to craft a single enhancement, but you can apply that benefit to any number of medi-gel cartridges. To craft\nanother enhancement takes an additional 6 hours. Instead of using time to limit this feature, your GM can choose to allow\nyou to add X divided by 2 (rounded up) enhancements, where X is your Intelligence modifier; then, you must finish a long\nrest before you can create new enhancements. Only one enhancement can be added to a medi-gel cartridge.</p>\n<p>When creating an enhancement, choose from the list below:</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Enhancement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Stimulant</td>\n<td>After using this medi-gel, you have advantage on the next saving throw or attack roll you make within 1 minute.</td>\n</tr>\n<tr>\n<td>Opioid</td>\n<td>Within 1 minute of using this medi-gel, the next time you take damage that reduces you to 0 hit points but doesn't kill you outright, you are reduced to 1 hit point instead.</td>\n</tr>\n<tr>\n<td>Steroid</td>\n<td>After using this medi-gel, add +2 damage to all melee damage for 1 minute.</td>\n</tr>\n<tr>\n<td>Minagen X3</td>\n<td>After using this medi-gel, gain +2 damage to all biotic spells and cantrips for 1 minute.</td>\n</tr>\n<tr>\n<td>Videlicet</td>\n<td>After using this medi-gel, gain +2 bonus to all ranged tech attacks for 1 minute.</td>\n</tr>\n<tr>\n<td>Styptic</td>\n<td>Increase the potency of the medi-gel by 1 level (maximum level is Superior)</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "melee-prowess",
+    "name": "Melee Prowess",
+    "html": "<p>Starting at {{ level }} level, your skill with melee weapons becomes unmatched. You have +1 to melee weapon attack and damage rolls.</p>\n"
+  },
+  {
+    "id": "metabiotics-1",
+    "name": "Metabiotics",
+    "html": "<p>At {{ level }} level, you gain the ability to use the power stored in your barrier to twist your spells to suit your needs.\nYou gain two of the following Metabiotic options of your choice.</p>\n<p>Metabiotics can only be applied to spells of 1st level or higher.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Enhancement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Careful Spell</td>\n<td>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 barrier tick and choose a number of those creatures up to your spellcasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</td>\n</tr>\n<tr>\n<td>Distant Spell</td>\n<td>When you cast a spell that has a range of 2m or greater, you can spend 1 barrier tick to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 barrier tick to make the range of the spell 10m.</td>\n</tr>\n<tr>\n<td>Empowered Spell</td>\n<td>When you roll damage for a spell, you can spend 1 barrier tick to reroll a number of the damage dice up to your spellcasting ability modifier (minimum of one). You must use the new rolls. You can use Empowered Spell even if you have already used a different Metabiotic option during the casting of the spell.</td>\n</tr>\n<tr>\n<td>Heightened Spell</td>\n<td>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 barrier ticks to give one target of the spell disadvantage on its first saving throw made against the spell.</td>\n</tr>\n<tr>\n<td>Quickened Spell</td>\n<td>When you cast a spell that has a casting time of 1 action, you can spend 2 barrier ticks to change the casting time to 1 bonus action for this casting.</td>\n</tr>\n<tr>\n<td>Twinned Spell</td>\n<td>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of barrier ticks equal to the spell's level to target a second creature in range with the same spell.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "metabiotics-2",
+    "name": "Metabiotics",
+    "html": "<p>At {{ level }} level, learn an additional metabiotic option.</p>\n"
+  },
+  {
+    "id": "misdirection",
+    "name": "Misdirection",
+    "html": "<p>Starting at {{ level }} level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within 2m of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.</p>\n"
+  },
+  {
+    "id": "omni-shield-1",
+    "name": "Omni-Shield",
+    "html": "<p>Starting at {{ level }} level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.</p>\n<p>While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within 2m of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a\nhit creature backward 2m.</li>\n</ul>\n<br>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n"
+  },
+  {
+    "id": "omni-shield-2",
+    "name": "Omni-Shield",
+    "html": "<p>Starting at {{ level }} level, you can transform your omni-shield into a fire shield or cryo shield.</p>\n<p><strong>Fire Shield</strong>. Gain all the benefits of Omni-Shield. In addition, a target hit by a Fire Shield attack takes 3d10 fire damage.\nThis damage detonates primed targets, but you are immune to any detonating effects.</p>\n<p><strong>Cryo Shield</strong>. Gain all the benefits of Omni-Shield. In addition, a target hit by a Cryo Shield attack takes 1d8 cold\ndamage and must succeed on a DC 13 Strength saving throw or become <me-condition id=\"frozen\"/> until the end its next turn.</p>\n"
+  },
+  {
+    "id": "onslaught",
+    "name": "Onslaught",
+    "html": "<p>At {{ level }} level, you've mastered your charge spell, maximizing its damage. The damage of charge becomes d10 +\nyour spellcasting modifier.</p>\n"
+  },
+  {
+    "id": "opportunist",
+    "name": "Opportunist",
+    "html": "<p>At {{ level }} level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature\nwithin 2m of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack\nagainst that creature.</p>\n"
+  },
+  {
+    "id": "overchannel",
+    "name": "Overchannel",
+    "html": "<p>Beginning at {{ level }} level, you can increase the power of your simpler biotics. When you cast a biotic spell of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that spell.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you\ntake 2d12 psychic damage for each level of the spell, immediately after you cast it. Each time you use this feature again\nbefore finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and\nimmunity.</p>\n"
+  },
+  {
+    "id": "overwatch",
+    "name": "Overwatch",
+    "html": "<p>At {{ level }} level, you've become attuned to monitoring the movements of the battlefield, taking advantage of\nwhen enemies break cover.</p>\n<p>At the end of each of your turns, you may ready the following action. Choose up to 5 creatures you can see that are behind\nhalf or three-quarter cover. Until the start of your next turn, if any of those creatures move into an area providing\nno cover, you may use your reaction to make a ranged weapon attack targeting that creature. This attack can benefit from\nyour Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target\nmore than once in a turn.</p>\n"
+  },
+  {
+    "id": "paint-by-number",
+    "name": "Paint by Number",
+    "html": "<p>At {{ level }} level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\n<me-condition id=\"targeting\" />, you may target and fire on the same turn.</p>\n"
+  },
+  {
+    "id": "potent-biotics",
+    "name": "Potent Biotics",
+    "html": "<p>At {{ level }} level, when you roll a 1 or 2 on a damage die for a spell that deals necrotic damage, you can reroll the die and must use the new roll.</p>\n"
+  },
+  {
+    "id": "primal-biotics",
+    "name": "Primal Biotics",
+    "html": "<p>At {{ level }} level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n"
+  },
+  {
+    "id": "pure-biotics",
+    "name": "Pure Biotics",
+    "html": "<p>At {{ level }} level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to all force damage dealt\nby your biotic spells.</p>\n"
+  },
+  {
+    "id": "quick-cast",
+    "name": "Quick Cast",
+    "html": "<p>At {{ level }} level, when you use your action to cast a spell, you may make a weapon attack as a\nbonus action.</p>\n"
+  },
+  {
+    "id": "rapid-strike",
+    "name": "Rapid Strike",
+    "html": "<p>Starting at {{ level }} level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.</p>\n"
+  },
+  {
+    "id": "recharge-2",
+    "name": "Recharge (1d6)",
+    "html": "<p>At {{ level }} level, when you use your recharge feature, you gain tech points equal to 1d6 + your Intelligence modifier.</p>\n"
+  },
+  {
+    "id": "recharge-3",
+    "name": "Recharge (1d8)",
+    "html": "<p>At {{ level }} level, when you use your recharge feature, you gain tech points equal to 1d8 + your Intelligence modifier.</p>\n"
+  },
+  {
+    "id": "recharge",
+    "name": "Recharge (1d4)",
+    "html": "<p>Beginning at {{ level }} level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).</p>\n"
+  },
+  {
+    "id": "reliable-talent",
+    "name": "Reliable Talent",
+    "html": "<p>At {{ level }} level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add\nyour proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</p>\n"
+  },
+  {
+    "id": "repair-drone-1",
+    "name": "Repair Drone",
+    "html": "<p>At {{ level }} level, you gain proficiency in Medicine. If you are already proficient in Medicine, you may choose\nanother skill to become proficient in.</p>\n<p>Add the Repair drone to the list of drones available for you to summon.</p>\n"
+  },
+  {
+    "id": "repair-drone-2",
+    "name": "Repair Drone",
+    "html": "<p>At {{ level }} level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.</p>\n"
+  },
+  {
+    "id": "reset",
+    "name": "Reset",
+    "html": "<p>At {{ level }} level, you can draw power from the depths of exhaustion. If you spend one minute calming your mind or recalibrating\nyour armor you can regain all of your expended spell slots or all spent uses of your tech armor. Once you use this feature,\nyou must finish a long rest before you can do so again.</p>\n"
+  },
+  {
+    "id": "retaliation",
+    "name": "Retaliation",
+    "html": "<p>At {{ level }} level, when you take damage from a creature that is within 2m of you, you can use your reaction to make a melee weapon attack\nagainst that creature.</p>\n"
+  },
+  {
+    "id": "sabotage",
+    "name": "Sabotage",
+    "html": "<p>Starting at {{ level }} level, you know the sabotage spell and can cast it for 0 tech points. It does not count against your list of prepared spells.</p>\n"
+  },
+  {
+    "id": "saboteurs-reflexes",
+    "name": "Saboteur's Reflexes",
+    "html": "<p>When you reach {{ level }} level, you have become adept at laying ambushes and quickly escaping danger. You can take\ntwo turns during the first round of any combat. You take your first turn at your normal initiative and your second turn\nat your initiative minus 10. You can't use this feature when you are surprised.</p>\n"
+  },
+  {
+    "id": "saboteurs-touch",
+    "name": "Saboteur's Touch",
+    "html": "<p>At {{ level }} level, you always have the sabotage spell prepared (it does not count against your list of prepared spells). Preparing the advanced\nversion of the spell counts as one spell, not two.</p>\n<p>You can cast sabotage as a bonus action or as a reaction to a ranged weapon attack you can see.</p>\n"
+  },
+  {
+    "id": "sculpt-biotics",
+    "name": "Sculpt Biotics",
+    "html": "<p>Starting at {{ level }} level, You can create pockets of relative safety within the effects of your biotic spells. When you cast a biotic spell that\naffects other creatures that you can see, you can choose a number of them equal to 1+the spell's level. The chosen creatures\nautomatically succeed on their saving throws against the spell, and they take no damage if they would normally take half\ndamage on a successful save.</p>\n"
+  },
+  {
+    "id": "sculpt-spells",
+    "name": "Sculpt Spells",
+    "html": "<p>Starting at {{ level }}, you can create pockets of relative safety within the effects of your spells. When you cast a spell that\naffects other creatures that you can see, you can choose a number of them equal to 1+the spell's level. The chosen creatures\nautomatically succeed on their saving throws against the spell, and they take no damage if they would normally take half\ndamage on a successful save.</p>\n"
+  },
+  {
+    "id": "shadow-strike",
+    "name": "Shadow Strike",
+    "html": "<p>At {{ level }} level, whenever you activate Tactical Cloak you may teleport to a target location within 10m. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.</p>\n<p>When you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.</p>\n<p>The teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.</p>\n"
+  },
+  {
+    "id": "shield-boost",
+    "name": "Shield Boost",
+    "html": "<p>At {{ level }} level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n"
+  },
+  {
+    "id": "shotgun-savvy",
+    "name": "Shotgun Savvy",
+    "html": "<p>At {{ level }} level, Brutal critical and Zero-sum can be applied to shotgun weapon attacks.</p>\n"
+  },
+  {
+    "id": "signature-biotics",
+    "name": "Signature Biotics",
+    "html": "<p>When you reach {{ level }} level, you gain mastery over two powerful spells and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic spells you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a spell slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either spell at 3rd-level or higher, you must expend a spell slot as normal.</p>\n"
+  },
+  {
+    "id": "silent-cloak",
+    "name": "Silent Cloak",
+    "html": "<p>At {{ level }} level, your Tactical Cloak dampens noise. You have advantage on a Dexterity (Stealth) check if you move no more than half your\nspeed on the same turn.</p>\n"
+  },
+  {
+    "id": "slippery-mind",
+    "name": "Slippery Mind",
+    "html": "<p>By {{ level }} level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</p>\n"
+  },
+  {
+    "id": "sneak-attack",
+    "name": "Sneak Attack",
+    "html": "<p>Beginning at {{ level }} level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.</p>\n<p>You don't need advantage on the attack roll if another enemy of the target is within 2m of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.</p>\n<p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.</p>\n"
+  },
+  {
+    "id": "spell-steal",
+    "name": "Spell Steal",
+    "html": "<p>At {{ level }} level, you gain the ability to clone spell effects onto your omni-tool.</p>\n<p>Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your\nreaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell\nsave DC. On a failed save, you negate the spell's effect on you and you copy a temporary version of the spell onto\nyour omni-tool if it is at least 1st level and of a level you can cast (it does not have to be a tech spell). For the\nnext 8 hours, you know the spell and can cast it using your tech points. The creature can't cast that spell until the\n8 hours have passed.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+  },
+  {
+    "id": "steady-aim",
+    "name": "Steady Aim",
+    "html": "<p>At the {{ level }} level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:</p>\n<ul>\n<li>The attacks ignore half and three-quarters cover.</li>\n<li>On a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.</li>\n</ul>\n<br>\n<p>This effect lasts 1 minute or until you use Steady Aim on a different target.</p>\n<p>You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "strafe",
+    "name": "Strafe",
+    "html": "<p>At {{ level }} level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n"
+  },
+  {
+    "id": "strength-before-death",
+    "name": "Strength before Death",
+    "html": "<p>Starting at {{ level }} level, your fighting spirit can delay the grasp of death. If you take damage that reduces you\nto 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious, and you can\nimmediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking\ndamage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the\nextra turn ends, you fall unconscious if you still have 0 hit points.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+  },
+  {
+    "id": "stroke-of-luck",
+    "name": "Stroke of Luck",
+    "html": "<p>At {{ level }} level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within\nrange, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\nOnce you use this feature, you can't use it again until you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "stunning-strike",
+    "name": "Stunning Strike",
+    "html": "<p>Starting at {{ level }} level, you can focus your barrier into the impact of your charge spell. When you hit a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n"
+  },
+  {
+    "id": "subclass",
+    "name": "Subclass Feature",
+    "html": "<p>At {{ level }} level, gain the features for your selected subclass.</p>\n"
+  },
+  {
+    "id": "supply-pylon",
+    "name": "Supply Pylon",
+    "html": "<p>By {{ level }} level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is\nstanding in the targeted location, the creature must make a Dexterity saving throw with advantage.\nOn a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.</p>\n<p>The pylon contains 5 resources from the following list, which you choose when you call the pylon:</p>\n<ul>\n<li>1 heavy weapon ammo charges</li>\n<li>10 thermal clips</li>\n<li>A battery capable to quickly recharging your Omni-tool, recovering 5 tech points</li>\n<li>A stim pack capable of staving off biotic fatigue, recovering 5 levels worth of spell slots</li>\n<li>4 enhanced medi-gel</li>\n<li>2 Mk II Frag grenades</li>\n<li>2 Mk II Lift Grenades</li>\n<li>2 Mk IV Flashbang</li>\n<li>2 Mk IV Smoke grenades</li>\n</ul>\n<p>Once the pylon has landed, friendly creatures (including you) within melee range of the pylon can use their action to collect\none of the resources you chose.</p>\n<p>Once you use this feature, you cannot use it again until you finish a long rest and restock the pylon with 5 omni-gel.</p>\n"
+  },
+  {
+    "id": "synchronized-assault",
+    "name": "Synchronized Assault",
+    "html": "<p>Starting at {{ level }} level, you gain the ability to unleash a devastating combination of your allies' abilities. As a\nbonus action, select up to five allies within 60m. They can use their reactions to immediately take actions.</p>\n<p>Once you use this ability, you cannot use it again until you complete a long rest.</p>\n"
+  },
+  {
+    "id": "tactical-advantage",
+    "name": "Tactical Advantage",
+    "html": "<p>Starting at {{ level }} level, when you prepare an advanced version of a spell you prepare both advancements. When you\ncast an advanced spell you can choose to cast either advancement option.</p>\n"
+  },
+  {
+    "id": "tactical-ambush",
+    "name": "Tactical Ambush",
+    "html": "<p>Starting at {{ level }} level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage\nof any saving throw against the spell this turn.</p>\n"
+  },
+  {
+    "id": "tactical-barrier",
+    "name": "Tactical Barrier",
+    "html": "<p>At {{ level }} level, whenever you take damage while barrier is active, you choose how many barrier ticks to spend. You may choose to spend 0\nbarrier ticks.</p>\n"
+  },
+  {
+    "id": "tactical-cloak",
+    "name": "Tactical Cloak",
+    "html": "<p>As an action, you activate your tactical cloak, becoming <me-condition id=\"invisible\"/>. Tactical cloak lasts 1 minute or\nuntil you make an attack, cast a spell, use a grenade or mine, or fire a heavy weapon.</p>\n<p>Once you have used tactical cloak the maximum number of times for your Infiltrator level,\nyou must finish a short rest before you can use it again. You may use tactical 2 times at 1st level, 3 at 6th, 4 at 11th,\nand 5 at 18th.</p>\n"
+  },
+  {
+    "id": "tactical-focus-2",
+    "name": "Additional Tactic",
+    "html": "<p>At {{ level }} level, you learn an additional tactic of your choice.</p>\n"
+  },
+  {
+    "id": "tactical-focus",
+    "name": "Tactical Focus",
+    "html": "<p>At {{ level }} level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.</p>\n<p>As a bonus action, you can select an area within 30m on the ground that measures 6m on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become <me-condition id=\"incapacitated\"/>.</p>\n<p>When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.</p>\n<h4>Tactics</h4>\n<p><strong>Advance</strong>.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n<p><strong>Analysis</strong>.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points</p>\n<p><strong>Clear the area</strong>.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature 2m.</p>\n<p><strong>Heads up</strong>.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n<p><strong>Pin down</strong>.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n<p><strong>Recon</strong>.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n"
+  },
+  {
+    "id": "tactical-maneuvers",
+    "name": "Tactical Maneuvers",
+    "html": "<p>At {{ level }} level, you can provide leadership that allows your allies to move in perfect harmony.</p>\n<p>In place of moving, you can instead allow up to three allies within 30m move up to half their speed. The chosen allies\nmust be capable of taking actions in order to move in this manner.</p>\n"
+  },
+  {
+    "id": "tactical-range-1",
+    "name": "Tactical Focus Range",
+    "html": "<p>At {{ level }} level, your tactical focus increases to 8m per side.</p>\n"
+  },
+  {
+    "id": "tactical-range-2",
+    "name": "Tactical Focus Range",
+    "html": "<p>At {{ level }} level, your tactical focus increases to 10m per side.</p>\n"
+  },
+  {
+    "id": "tactical-reload",
+    "name": "Tactical Reload",
+    "html": "<p>By {{ level }} level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.</p>\n"
+  },
+  {
+    "id": "tech-armor",
+    "name": "Tech Armor",
+    "html": "<p>You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,\nactivate your Tech Armor.</p>\n<p>When activated, tech armor creates a new kinetic barrier with additional hit points equal to the sum of your sentinel level\nand spellcasting modifier, multiplied by 2. When you have tech armor hit points and take damage, the tech armor hit points\nare lost first, and any leftover damage carries over to your shields and/or normal hit points. Tech armor lasts 1 minute\nor until it has 0 hit points remaining.</p>\n<p>While tech armor is active, you can use your action to overload it. Each creature within 4m must make a Constitution\nsaving throw. On a failed save, a creature takes force damage equal to the remaining hit points of your tech armor,\nor half as much on a successful one.</p>\n<p>You can use Tech Armor twice between long rests.</p>\n"
+  },
+  {
+    "id": "tech-aura-1",
+    "name": "Tech Aura",
+    "html": "<p>In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.\nAt {{ level }} level, when you activate\ntech armor, you can choose to run a different VI package instead. When you activate an alternate package, you\ndo not gain hit points, instead, you and any friendly creature within 10m of you gain\nthe effect of the package for 1 hour. You may only have one tech armor active at once.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Package</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Defensive</td>\n<td>This is the standard Tech Armor package. It does not affect allies.</td>\n</tr>\n<tr>\n<td>Anti-biotic</td>\n<td>Resistance to force and necrotic damage.</td>\n</tr>\n<tr>\n<td>Anti-tech</td>\n<td>Resistance to fire and cold damage.</td>\n</tr>\n<tr>\n<td>Grounded</td>\n<td>Resistance to lightning damage.</td>\n</tr>\n<tr>\n<td>Reactive</td>\n<td>Add your spellcasting modifier to Strength or Dexterity saving throws.</td>\n</tr>\n<tr>\n<td>Speed</td>\n<td>Increase speed by 6m. Can take the Disengage action as a bonus action.</td>\n</tr>\n<tr>\n<td>Regen</td>\n<td>Regenerate shield points equal to your spellcasting modifier on the start of each of your turns.</td>\n</tr>\n<tr>\n<td>Inspiring Music</td>\n<td>Advantage on saving throws against becoming frightened or charmed.</td>\n</tr>\n<tr>\n<td>Brute force</td>\n<td>Creatures within your aura deal an additional 1d8 bludgeoning damage with melee attacks.</td>\n</tr>\n<tr>\n<td>Negation Field</td>\n<td>Creatures within your aura can't be primed.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "id": "tech-aura-2",
+    "name": "Tech Aura",
+    "html": "<p>At {{ level }} level, if you have no remaining uses of Tech Armor, you can expend a spell slot to activate it.</p>\n"
+  },
+  {
+    "id": "tech-aura-3",
+    "name": "Tech Aura",
+    "html": "<p>At {{ level }} level, increase the distance of your Tech Aura packages to 20m.</p>\n"
+  },
+  {
+    "id": "tech-points",
+    "name": "Tech Points",
+    "html": "<p>You have 2 tech points, and you gain more as you reach higher levels, as shown in the Tech Points column of the Engineer table.\nYou can never have more tech points than shown on the table for your level. You regain all spent sorcery points when you\nfinish a long rest.</p>\n"
+  },
+  {
+    "id": "teleporting-dodge",
+    "name": "Teleporting Dodge",
+    "html": "<p>At {{ level }} level, as a reaction to an effect that causes you to make a Dexterity saving throw, you can use 2 Barrier ticks to automatically\npass the saving throw.</p>\n"
+  },
+  {
+    "id": "tireless-spirit",
+    "name": "Tireless Spirit",
+    "html": "<p>Starting at {{ level }} level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>\n"
+  },
+  {
+    "id": "uncanny-dodge",
+    "name": "Uncanny Dodge",
+    "html": "<p>At {{ level }} level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>\n"
+  },
+  {
+    "id": "unyielding-assault",
+    "name": "Unyielding Assault",
+    "html": "<p>Starting at {{ level }} level, you have advantage on saving throws to avoid becoming paralyzed, stunned, or frozen.\nWhile tech armor is active, you are immune to becoming paralyzed, stunned, or frozen.</p>\n"
+  },
+  {
+    "id": "up-close-and-personal",
+    "name": "Up Close and Personal",
+    "html": "<p>At {{ level }} level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.</p>\n"
+  },
+  {
+    "id": "vengeance",
+    "name": "Vengeance",
+    "html": "<p>Starting at {{ level }} level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.</p>\n<p>If the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+  },
+  {
+    "id": "weapon-of-choice-1",
+    "name": "Weapon of Choice",
+    "html": "<p>By {{ level }} level, you have undergone extensive training with a single weapon type. Choose a weapon type which becomes your Weapon of Choice.\nWhen you are holding your Weapon of Choice you gain a set of abilities that are fueled by special dice called superiority dice.\nYou may spend 1 month of intensive training to exchange your Weapon of Choice with another weapon type.</p>\n<p><strong>Superiority Dice</strong>: You have four superiority dice, which are d8s. A superiority die is expended when you use it.\nYou regain all of your expended superiority dice when you finish a short or long rest.</p>\n<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with your Weapon of Choice, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a weapon attack from your Weapon of Choice, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding your Weapon of Choice, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n"
+  },
+  {
+    "id": "weapon-of-choice-2",
+    "name": "Weapon of Choice",
+    "html": "<p>You gain another superiority die (5 total) at {{ level }} level and the die type becomes a d10.</p>\n"
+  },
+  {
+    "id": "weapon-of-choice-3",
+    "name": "Weapon of Choice",
+    "html": "<p>You gain another superiority die (6 total) at {{ level }} level and the die type becomes a d12.</p>\n"
+  },
+  {
+    "id": "zero-sum",
+    "name": "Zero-Sum",
+    "html": "<p>At {{ level }} level, when you make a melee attack, instead of rolling a dice, you can flip a coin. On heads, it's a critical hit. On tails,\nit's a critical miss. You can use this ability once per short rest.</p>\n"
+  },
+  {
+    "id": "zz-biotic-enfilade",
+    "name": "Biotic Enfilade",
+    "html": "<p>At {{ level }} level, If an ally within 10m uses a power that primes an enemy, you may use your reaction to detonate the primed enemy with a\nquick biotic bolt that cannot miss.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n"
+  },
+  {
+    "id": "zz-close-quarters-shooter",
+    "name": "Close-quarters Shooter",
+    "html": "<p>At {{ level }} level, you learn to handle yourself in close combat. Making a ranged attack roll while within 2m of an enemy doesn't impose disadvantage on your roll.</p>\n<p>In addition, if you hit a creature within 2m of you with a ranged attack on your turn, that creature can't take reactions until the end of this turn.</p>\n"
+  },
+  {
+    "id": "zz-combat-heuristics",
+    "name": "Combat Heuristics",
+    "html": "<p>At {{ level }} level, every time you bring an enemy to 0 HP or score a critical hit on them with a Sniper Rifle, your HUD updates your tactical feedback, restoring 1 TP.</p>\n"
+  },
+  {
+    "id": "zz-deadeye",
+    "name": "Deadeye",
+    "html": "<p>At {{ level }} level, you may spend a bonus action to gain advantage on an attack made with a Sniper Rifle by overclocking your scope's targeting technology.</p>\n<p>You may use this feature 3 times per long rest.</p>\n"
+  },
+  {
+    "id": "zz-dropshot",
+    "name": "Dropshot",
+    "html": "<p>At {{ level }} level, you have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</p>\n"
+  },
+  {
+    "id": "zz-eye-for-weakness",
+    "name": "Eye for Weakness",
+    "html": "<p>At {{ level }} level, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by 3d6.</p>\n"
+  },
+  {
+    "id": "zz-infiltration",
+    "name": "Infiltration",
+    "html": "<p>At {{ level }} level, you can unfailingly create false identities for yourself, but you can't establish an identity\nthat belongs to someone else. For example, you might establish yourself within a mercenary gang to gain access to their supplies or armory, or a rich colonist to gain access to a fancy party. Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to. You have advantage on persuasion rolls when using this disguise and advantage on deception rolls on an opposed insight check.</p>\n"
+  },
+  {
+    "id": "zz-insightful-fighting",
+    "name": "Insightful Fighting",
+    "html": "<h3>Ear for Deceit</h3>\n<p>At {{ level }} level, you develop a talent for picking out lies. Whenever you make a Wisdom (Insight) check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8.</p>\n<h3>Eye for Detail</h3>\n<p>Starting at {{ level }} level, you can use a bonus action to make a Wisdom (Perception) check to spot a hidden creature or object or to make an Intelligence (Investigation) check to uncover or decipher clues.</p>\n<h3>Insightful Fighting</h3>\n<p>At {{ level }} level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action,\nyou can make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, contested by the target's\nCharisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don't have\nadvantage on the attack roll, but not if you have disadvantage on it.</p>\n<p>This benefit lasts for 1 minute or until you successfully use this feature against a different target.</p>\n"
+  },
+  {
+    "id": "zz-killshot",
+    "name": "Killshot",
+    "html": "<p>At {{ level }} level, when you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</p>\n"
+  },
+  {
+    "id": "zz-master-duelist",
+    "name": "Master Duelist",
+    "html": "<p>At {{ level }} level, your mastery of combat lets you turn failure to success in combat. If you miss with an attack roll, you can choose to roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "zz-saboteurs-touch",
+    "name": "Saboteur's Touch",
+    "html": "<p>At {{ level }} level, when an enemy makes a saving throw against one of your abilities that imposes one, you can make them fail the saving throw.</p>\n<p>You can use this feature once per long rest.</p>\n"
+  },
+  {
+    "id": "zz-snap-shot",
+    "name": "Snap shot",
+    "html": "<p>Starting at {{ level }} level, you are ever ready to spring into action. If you take the Attack action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action.</p>\n"
+  },
+  {
+    "id": "zz-steady-aim",
+    "name": "Steady Aim",
+    "html": "<p>At {{ level }} level, your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature\nyou can see that is within range of a ranged weapon you're wielding. Until the end of this turn, your ranged\nattacks with that weapon gain two benefits against the target:</p>\n<ul>\n<li>The attacks ignore half and three-quarters cover.</li>\n<li>On each hit, the weapon deals additional damage to the target equal to 2 + half your soldier level.</li>\n</ul>\n<br>\n<p>You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "zz-synchronized-assault",
+    "name": "Synchronized Assault",
+    "html": "<p>At {{ level }} level, you may use a reaction to sync the targeting computers of all your allies who are not incapacitated. You target an enemy, painting them with an infrared beam that lets all of your affected allies (and yourself) make an attack roll on that target using their weapon during your turn. If your affected ally has already taken their turn, they may still make an attack on the designated enemy, and if they have not yet taken their turn, they make the attack with advantage.</p>\n<p>Once you use Synchronized Assault, you must finish a long rest before you can use it again.</p>\n"
+  },
+  {
+    "id": "zz-tactical-advantage",
+    "name": "Tactical Advantage",
+    "html": "<p>Starting at {{ level }} level, when you cast a cantrip, biotic spell, or tech power you can choose either advancement option.</p>\n"
+  },
+  {
+    "id": "zz-weapon-training",
+    "name": "Weapon Training",
+    "html": "<p>At {{ level }} level, gain proficiency with an additional weapon type.</p>\n"
+  }
+]

@@ -1,5 +1,4 @@
 {
-  "id": "adept",
   "name": "Adept",
   "description": "Adepts are biotic specialists, capable of disabling and killing enemies with raw biotic power. While they lack advanced combat training, they are the best at defeating enemies without firing a shot. They are outfitted with L5x implants that can spawn a micro-singularity, damaging enemies and pulling them into the air.",
   "snippet": "The Adept is the ultimate biotic, able to affect the physical world with the power of the mind.",
@@ -78,7 +77,7 @@
       "proficiencyBonus": 2,
       "features": [
         "barrier",
-        "biotic_recovery"
+        "biotic-recovery"
       ],
       "barrierUses": 2,
       "barrierTicks": 2,
@@ -130,7 +129,7 @@
       "level": 4,
       "proficiencyBonus": 2,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 3,
       "barrierTicks": 2,
@@ -198,7 +197,7 @@
       "level": 8,
       "proficiencyBonus": 3,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 4,
       "barrierTicks": 3,
@@ -266,7 +265,7 @@
       "level": 12,
       "proficiencyBonus": 4,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 5,
       "barrierTicks": 3,
@@ -334,7 +333,7 @@
       "level": 16,
       "proficiencyBonus": 5,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 5,
       "barrierTicks": 4,
@@ -352,7 +351,7 @@
       "level": 17,
       "proficiencyBonus": 6,
       "features": [
-        "empowered_biotics"
+        "empowered-biotics"
       ],
       "barrierUses": 6,
       "barrierTicks": 4,
@@ -370,7 +369,7 @@
       "level": 18,
       "proficiencyBonus": 6,
       "features": [
-        "biotic_mastery"
+        "biotic-mastery"
       ],
       "barrierUses": 6,
       "barrierTicks": 4,
@@ -388,7 +387,7 @@
       "level": 19,
       "proficiencyBonus": 6,
       "features": [
-        "ability_score_improvement"
+        "ability-score-improvement"
       ],
       "barrierUses": 6,
       "barrierTicks": 5,
@@ -406,7 +405,7 @@
       "level": 20,
       "proficiencyBonus": 6,
       "features": [
-        "signature_biotics"
+        "signature-biotics"
       ],
       "barrierUses": 6,
       "barrierTicks": 5,
@@ -427,13 +426,13 @@
       "description": "Commandos don't need heavy weapons because they ARE the heavy weapon. Their features improve both the damage potential and throughput of their biotic spells, making them a deadly force.",
       "features": [
         [
-          "pure_biotics"
+          "pure-biotics"
         ],
         [
-          "expert_biotic"
+          "expert-biotic"
         ],
         [
-          "biotic_split"
+          "biotic-split"
         ],
         [
           "overchannel"
@@ -445,16 +444,16 @@
       "description": "Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting friends and gain unique benefits to biotic control spells like Lift, Singularity, and Stasis.",
       "features": [
         [
-          "sculpt_biotics"
+          "sculpt-biotics"
         ],
         [
-          "bend_luck"
+          "bend-luck"
         ],
         [
-          "focused_biotics"
+          "focused-biotics"
         ],
         [
-          "biotic_control"
+          "biotic-control"
         ]
       ]
     },
@@ -463,16 +462,16 @@
       "description": "Disruptors have learned to tap into dark energy, improving biotic abilities that tear apart their adversaries from within. They also specialize in maintaining spells with intense focus.",
       "features": [
         [
-          "dark_biotics"
+          "dark-biotics"
         ],
         [
-          "biotic_surge"
+          "biotic-surge"
         ],
         [
-          "potent_biotics"
+          "potent-biotics"
         ],
         [
-          "biotic_concentration"
+          "biotic-concentration"
         ]
       ]
     }

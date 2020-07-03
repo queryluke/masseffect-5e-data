@@ -1,0 +1,602 @@
+[
+  {
+    "id": "angara",
+    "name": "Angara",
+    "galaxy": [
+      "Andromeda"
+    ],
+    "alignment": "Angara are emotional creatures and strongly community oriented. Their emotion-driven tendencies make them often chaotic neutral or chaotic good.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "soldier"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Charisma"
+      },
+      {
+        "amount": 1,
+        "ability": "Constitution"
+      }
+    ],
+    "size": "Angara are slightly taller, on average, than humans, ranging from 174cm (5'8\") to 204cm (6'8\"). Your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "The Angara are the only known extant sapient race native to the Heleus Cluster of the Andromeda galaxy and arose on the planet Havarl.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 6d8 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "/images/races/angara.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/44/Angara_trailer_mugs.png/revision/latest/scale-to-width-down/640?cb=20170127022744",
+    "traits": [
+      "survivalist",
+      "bio-electric-focus",
+      "bio-electric-ward",
+      "solar-dependency"
+    ],
+    "age": "Angara have a standard lifespan of about 150 years, although some have been known to live past 200.",
+    "raceType": "expanded",
+    "html": "<p>The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,\nsometimes shading into green or tan. They are the only known extant\nsapient race native to the Heleus Cluster of the Andromeda galaxy, and arose on the planet Havarl. Their unique\nphysiology is dependant on sunlight and allows them to produce natural bioelectrical fields. The angara as a people\nare very free with their emotions, demonstrative and &quot;larger than life&quot;. If they love you they hug you, if\nthey hate you or if you make them mad, they punch you.</p>\n<h2>Creatures of the Sun</h2>\n<p>The angara electromagnetic radiation that is emitted from stars to survive. Lack of real or artificial sunlight causes\nthem to &quot;go dark&quot;, which weakens their immune systems and bio-energy significantly. Prolonged lack of sunlight can lead\nto a coma and then death. To supplement their sunlight intake or provide a light source when natural light is not\nreadily available, the angara make use of powerful ultraviolet lamps that give them both heat and light.</p>\n<h2>Family Oriented</h2>\n<p>While they have only one true mother and father, the angara share their parents with the community. Their\nfamilies are very large, consisting of multiple mothers and many siblings and cousins. This close-knit society\nmakes angara very mistrustful of other races.</p>\n<p>While the angara have many different religions, all share the same basic tenet: that when an angara dies, he or she is\nreincarnated and the reincarnated soul stays in the family, making their lineage stronger.</p>\n<h2>Angara Names</h2>\n<p>Little is known about angaran names. But it is assumed that they do not use family names given the collective nature\nof their families.</p>\n<p><strong>Male names</strong>: Afray De If, Dadh Qjavaf, Gorsa Afe Ol, Jahkis Tora Sje, Jef De Gan, Khahnos De Ivraan, Kjojey Sheda Af,\nOrvfiy Qirshae Ak, Nel Sja, Qos De Ivfre, Sihris De Or, Tashed De Kjerad, Val Gafa</p>\n<p><strong>Female Names</strong>: Afihia De Xana, Avfaarian, Dhahfrin Sa, Fohfania, Hefrehal Ven, Inil Sefe, Jalshaye, Janvfe Sje,\nNalvi Sjarshev, Noshfa Seme Tavfal, Oni Vor, Onne De Tiv, Ovih Qjana In, Sohnani Sirshav, Yihvref</p>\n<p><source-reference pages=\"Angara\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "asari",
+    "name": "Asari",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Asari are biased towards goodness, but exhibit a range of alignments not dissimilar to humans. Most Maiden stage asari are chaotic, Matrons level out to neutral, Matriarchs are heavily lawful.",
+    "availableClasses": [
+      "adept",
+      "engineer",
+      "infiltrator",
+      "sentinel",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Charisma"
+      },
+      {
+        "amount": 1,
+        "ability": "Wisdom"
+      }
+    ],
+    "size": "Asari have builds incredibly similar to female humans. Your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "The asari, native to the planet Thessia, are often considered the most influential and respected sentient species in the galaxy and are known for their elegance, diplomacy, and biotic aptitude.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 10d4 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
+    "traits": [
+      "innate-biotics",
+      "mind-meld",
+      "natural-diplomat"
+    ],
+    "age": "Asari are very long-lived and can reach ages of over 1000 years.",
+    "raceType": "standard",
+    "variants": [
+      "ardat-yakshi"
+    ],
+    "html": "<p>Asari are a race of elegant, mono-gendered humanoids. The asari resemble female humans with blue or purple skin and a\ncrest of rigid tentacles in place of hair. Despite their feminine appearance, asari have little use for gender or\ngender roles, though they often use female pronouns and gendered language. They possess a unique method of reproduction\ninitiated by a &quot;mind meld&quot; which links the asari's nervous system with a partner-even one of a different race-to\nrandomize genes to create asari offspring. Asari have an innate biotic ability and don't require a biotic implant to\nmanipulate mass effect fields.</p>\n<h2>Unmatched Patience</h2>\n<p>Because of their long lifespan, asari tend to have a &quot;long view&quot; not common in other races. When they encounter a new\nspecies or situation, the asari are more comfortable with an extended period of passive observation and study than immediate action.\nThey invite new species of advanced development to join the galactic community, knowing that their ideals and beliefs will\ninevitably influence the existing culture.</p>\n<h2>Mothers of the Galaxy</h2>\n<p>Asari reproduction is very different from other forms of sexual reproduction. When a meld for reproduction is initiated, the\nasari accesses her partner's genes and subconsciously uses them as an algorithmic seed to remap genes into a unique set of DNA.\nThe offspring resulting from such interspecies pairings are always asari as no DNA is taken from the partner. Instead,\nthe asari uses the meld to explore her partner's genetic heritage and pass desirable traits on to any offspring and\nas a &quot;map&quot; to randomize the genes of the offspring.</p>\n<p>Asari believe that their offspring acquire the best qualities of the &quot;father&quot; from the melded genes. Therefore, they frown\nupon intraspecies conception, since genetic traits and cultural insight is gained from mating outside their species, so\nit's considered wasteful for asari to reproduce together. The results of such unions are occasionally referred to as\n&quot;purebloods&quot;, a great insult among contemporary asari. A rare genetic defect known as Ardat-Yakshi, which makes\nasari destroy the partner's mind during melding, occurs much more frequently among the daughters of purebloods.</p>\n<h2>Maiden, Matron, Matriarch</h2>\n<p>Asari pass through three climacteric life stages, marked by biochemical and physiological changes. The <strong>Maiden</strong> stage\nbegins at puberty and is marked by the drive to explore and experience. Most young asari are curious and restless, and\nit is not uncommon for many to try their hand at dancing in bars or working as mercenaries during this time. The <strong>Matron</strong>\nstage of life begins around the age of 350, though it can be triggered earlier if the individual melds frequently. This\nperiod is marked by a desire to settle in one area and raise children. The <strong>Matriarch</strong> stage begins around 700 years\nof age, or earlier if the individual melds rarely. Matriarchs become active in their community as sages and councilors,\ndispensing wisdom from centuries of experience. Their knowledge and guidance may be one reason why Matriarchs are rarely seen outside asari space.\nHowever, each stage can be started whenever an asari feels that she has reached the correct level of maturity.</p>\n<h2>Asari Names</h2>\n<p>Asari are given a personal name by their parents and take the surname of their mothers, even if the child has 2 asari\nparents. Outside of asari communities, they normally do not use their surnames and prefer to introduce themselves with\ntheir personal name only. Matriarchs are addressed as &quot;Matriarch&quot; but other titles may be used for matriarchs in prestigious positions.</p>\n<p><strong>Personal Names</strong>: Aeian, Aethyta, Aleena, Alestia, Aria, Batha, Benezia, Dahlia, Falere, Irissa, Jona, Liara, Lidanya,\nLiselle, Mallene, Morinth, Nassana, Nyxeris, Pelessaria, Rana, Rila, Samara, Sarissa, Shiala, Tela, Tevos, Treeya</p>\n<p><strong>Surnames</strong>: Ateyne, B'Sayle, Calis, D'Layne, D'Nava, D'Ysesan, Dantius, Iallis, Iasava, Janieri, Kelis, M'Loari, M'Taros,\nMakenus, Nuwani, Sedela, Sederis, T'Goni, T'Loak, T'Soni, Thanoptis, Theris, V'Lanis, V'Nato, V'Tizor, Vasir</p>\n<p><source-reference pages=\"2-3\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Asari'}]\"></source-reference></p>\n"
+  },
+  {
+    "id": "batarian",
+    "name": "Batarian",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Because of the tenets of Hegemony, batarians tend to be lawful evil, although there are outliers on the moral spectrum.",
+    "availableClasses": [
+      "adept",
+      "engineer",
+      "infiltrator",
+      "sentinel",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Constitution"
+      },
+      {
+        "amount": 1,
+        "ability": "Charisma"
+      }
+    ],
+    "size": "Batarian bodies are similar to humans, with the exception of a large forehead to accommodate their additional four eyes, making them about 15cm (6\") taller. Your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "A race of four-eyed bipeds native to the world of Khar'shan, the batarians are a disreputable species that chose to isolate itself from the rest of the galaxy.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 6d8 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Balak_ME_adversaryshot.png/revision/latest/scale-to-width-down/422?cb=20140812140358",
+    "traits": [
+      "four-eyes",
+      "saving-face",
+      "shrewd-negotiator"
+    ],
+    "age": "Batarians age at about the same rate as humans, though many do not live past 100 due to their caustic and dangerous lifestyles.",
+    "raceType": "expanded",
+    "html": "<p>A race of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.\nThe Terminus Systems are infested with batarian pirate gangs and slaving\nrings, fueling the stereotype of the batarian thug. It should be noted that these criminals do not represent average\ncitizens, who are forbidden to leave batarian space by their ubiquitous and paranoid government.</p>\n<h2>Caste Through Credits</h2>\n<p>Batarians place an extremely high value on social caste and appearance, and overstepping one's place is frowned upon.\nEffective caste status can be bought on an ongoing basis like a subscription service, allowing the buyer to worm their\nway into the elite circles of batarian society given enough funds. Casting aspersions on the monetary worth of a\nsocial better is considered a serious insult. Batarians strongly believe that species with fewer than four eyes are\nless intelligent; they often gain the upper hand in interspecies arguments because other races find it difficult\nto know which eyes to focus on when speaking to them.</p>\n<h2>The Hegemony</h2>\n<p>Their government, known as the Batarian Hegemony, is hostile to the Systems Alliance (human government), but beneath\nthe notice of the powerful Council races. Humans receive the brunt of batarians' antagonism in the form of scams, slave raids,\nand terrorist attacks, incidents which the Hegemony covertly supports but is always quick to publicly distance itself from.\nGiven the batarian government's oppressive nature, it is speculated their\nsupreme leadership is autocratic or totalitarian in nature, although the batarian homeworld of Khar'shan remains\ndivided into various competing nation-states.</p>\n<h2>Batarian Names</h2>\n<p>Like humans, batarian names consist of a given name and family name.</p>\n<p><strong>Male Names</strong>: Afothor, Carn, Dhapo, Drathar, Ecray, Eporn, Irorok, Khamak, Okorem, Prathan, Sato, Sonk, Uderlak</p>\n<p><strong>Female Names</strong>: Apenine, Adrechia, Banim, Della, Erakis, Famisa, Fophe, Igosin, Iraphi, Kranine, Krathe, Okhefin, Pravile, Ramye</p>\n<p><strong>Family Names</strong>: Can'dabar, Das'codah, Dhen'gess, Dran'fapos, Ghapsacan, Gronnopos, Kasbovran, Khognalak, Krak'gork, Pec'bawen, Sanrowar</p>\n<p><source-reference pages=\"Batarian\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "drell",
+    "name": "Drell",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Their religious influences set the Drell firmly in a trend towards lawful neutral, but this is often dependent on their station in life and career.",
+    "availableClasses": [
+      "adept",
+      "infiltrator",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Dexterity"
+      },
+      {
+        "amount": 1,
+        "ability": "Wisdom"
+      }
+    ],
+    "size": "Drell range from under 150 to 180 cm tall and have slender builds. Your size is Medium.",
+    "speed": "Their light frames and wiry strength make drell slightly faster than other races. Your base walking speed is 12m.",
+    "snippet": "The drell are a reptile-like race that was rescued from their dying homeworld by the hanar following the first contact between the two. Since then, the drell have remained loyal to the hanar for their camaraderie and have fit comfortably into galactic civilization.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 6d8 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/c/cf/Drell_biotic_field.png/revision/latest/scale-to-width-down/640?cb=20130623224527",
+    "traits": [
+      "eidetic-memory",
+      "natural-hunters",
+      "raw-agility"
+    ],
+    "age": "Drell have slightly shorter lifespans of 85 years, on average. However, Kepral's Syndrome - a unique, incurable disease caused by long-term exposure to humid climates - is the leading cause of death.",
+    "raceType": "standard",
+    "html": "<p>Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is\ninfused with a venom mild enough to be served in drinks and may cause mild hallucinations on oral contact. Drell\nalso possess eidetic memory, an adaptation to a world where they must remember the location of every necessary resource\nacross vast distances. The memories are so strong that an external stimulus can trigger a powerful memory recall and\nthese recalls are so vivid and detailed that some drell may mistake it for reality.</p>\n<h2>Homeworld Lost</h2>\n<p>The drell ancestors emerged from dry, rocky deserts on the barren world of Rakhana. Eight centuries ago, the already-arid\ndrell homeworld began its swift descent into lifelessness due to disastrous industrial expansion. At the time, the drell\nlacked interstellar flight capacity, and with their population bursting at eleven billion, they faced certain doom.</p>\n<p>It was around the 1980s CE that the hanar made first contact with the drell race. In the following ten years, the hanar\nwould transport a total of 375,000 drell to the hanar homeworld, Kahje. The remaining billions left on Rakhana would\nperish on their dying planet, warring against each other for diminishing resources.</p>\n<h2>Servants of the Hanar</h2>\n<p>The debt of gratitude that the drell owe the hanar is referred to as the Compact, which the drell fulfill by taking on\ntasks that the hanar find difficult, such as combat. Any drell may refuse to serve, but as being requested to serve\nis a great honor, few turn down the offer. Some drell grow a close, personal relationship with the hanar, so much so\nthat the hanar will even tell the drell their &quot;soul name&quot;. Drell have adapted to communication with hanar by getting\nimplants in their eyes to allow them to observe the bioluminescence the hanar use for communication.</p>\n<h2>Devout</h2>\n<p>Most drell are deeply religious, believing that they have souls separate from their bodies. They see death as a\ndeparture from the body, and they also state that a person's body and soul form a Whole. When the soul is traumatized or\notherwise disrupted, or the body is ill or injured, a person is no longer Whole. They also believe that their body can be\ndirected as a separate entity from themselves, thus, some drell take no responsibility when executing an order given by\nthe hanar even if the order is an assassination.</p>\n<p>The religion includes at least three gods which drell often pray to for guidance and protection:</p>\n<ul>\n<li><strong>Amonkira</strong>, Lord of Hunters</li>\n<li><strong>Arashu</strong>, Goddess of Motherhood and Protection</li>\n<li><strong>Kalahira</strong>, Goddess of Oceans and Afterlife.</li>\n</ul>\n<br>\n<h2>Drell Names</h2>\n<p>Drell use given and family names.</p>\n<p><strong>Male Names</strong>: Chas, Drino, Hite, Hoskim, Lofo, Massa, Neta, Nitos, Ruyim, Tako, Tayu, Thane, Tumil, Yesit</p>\n<p><strong>Female Names</strong>: Ares, Arina, Ehanen, Ekire, Eshesnu, Inashe, Inukmel, Itheyl, Odrinne, Oshane, Ulanten, Uthoru</p>\n<p><strong>Family Names</strong>: Dreis, Feun, Futos, Keas, Krios, Kuun, Mout, Soas, Shuit, Suul, Thatos, Yeos</p>\n<p><source-reference pages=\"Drell\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "elcor",
+    "name": "Elcor",
+    "galaxy": [
+      "Milky Way",
+      "Andromeda"
+    ],
+    "alignment": "Elcor are methodical, deliberate creatures that never act on irrational decisions. The typical Elcor is often neutral or lawful.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "soldier"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Strength"
+      },
+      {
+        "amount": 1,
+        "ability": "Wisdom"
+      }
+    ],
+    "size": "Elcor stand between 2 and 2.5 meters tall (7-8 feet) at the shoulder. Your size is Medium.",
+    "speed": "Elcor are relatively slow compared to other races. Your base walking speed is 6m.",
+    "snippet": "The elcor are a Citadel species native to the high-gravity world Dekuuna. They are massive creatures, standing on four muscular legs for increased stability. Elcor move slowly, an evolved response to an environment where a fall can be lethal.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 10d6 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "/images/races/elcor.png",
+    "img": "/images/races/elcor_card.jpg",
+    "traits": [
+      "careful",
+      "quadrupedal",
+      "shoulder-mounts",
+      "thick-hide"
+    ],
+    "age": "The average elcor lives to be around 300 years old. 100-year-old elcor are considered young.",
+    "raceType": "expanded",
+    "html": "<p>Elcor evolved on a high-gravity world, making them slow, but incredibly strong. Their large, heavy bodies are\nincapable of moving quickly, but they possess a rather imposing stature as well as thick, tough skin. They move using\nall four limbs to support and balance their massive bodies. Given their method of communication, they have highly-attuned\nolfactory senses. They also have at least three stomachs.</p>\n<h2>Language of Smells and Sight</h2>\n<p>Elcor speech is heard by most species as a flat, ponderous monotone. Among themselves, scent, extremely\nslight body movements, and subvocalized infrasound convey shades of meaning that make a human smile seem as subtle\nas a fireworks display. Since their subtlety can lead to misunderstandings with other species, the elcor\nprefix all their dialog with non-elcor with an emotive statement to clarify their tone.</p>\n<h2>Migratory Nature</h2>\n<p>Prehistoric elcor traveled across Dekuuna in large tribal groups. As their civilizations grew, they kept\ntheir migratory nature and established twin capitals on their homeworld, one for the wet season and one for the dry season.\nHowever, their migration is limited to a single planet as most elcor find the confines of space travel very uncomfortable.</p>\n<h2>Living Tanks</h2>\n<p>Because of their slow, conservative psyches, elcor are not suitable for making the spur-of-the-moment decisions\nnecessary in combat situations. Instead, they rely on sophisticated VI combat systems. While easy targets, their durable\nhide allows them to shrug off most incoming fire. Elcor warriors use their broad shoulders as a mount for weaponry and\ntheir VI as a targeting mechanism. Some elcor are equipped with mass-accelerator cannons, the same weapons\ntypically mounted on military vehicles.</p>\n<h2>Elcor Names</h2>\n<p>Elcor do not have gender-binary names because their gender is discerned through smell. While the names appear singular,\nthey are made up of a much more complex set of sounds that only other elcor can hear.</p>\n<p><strong>Elcor Names</strong>: Calyn, Cyllyn, Detinos, Delzino, Felitos, Fazuti, Halzan, Harrot, Pedezlan, Petelenti, Petozi, Vatozi, Voletzi, Xeltan, Zatzoni</p>\n<p><source-reference pages=\"Elcor\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "geth",
+    "name": "Geth",
+    "galaxy": [
+      "Milky Way"
+    ],
+    "alignment": "Your standard Geth platform is neutral good, wanting to prosper and communicate with others, defending themselves only if threatened. Heretics are lawful evil, serving the Reapers and slavishly accomplishing their will.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "soldier"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Intelligence"
+      },
+      {
+        "amount": 1,
+        "ability": "Strength"
+      }
+    ],
+    "size": "Standard geth are around 2 meters tall (6'5\"). Your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "The geth (\"Servant of the People\" in Khelish) are a race of networked artificial intelligences that reside beyond the Perseus Veil.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 2d10 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119",
+    "traits": [
+      "living-construct",
+      "integrated-protection",
+      "hunter-mode",
+      "repair-matrix",
+      "no-feats"
+    ],
+    "age": "Geth do not age, as they are constructs, and live as long as their bodies are not destroyed.",
+    "raceType": "expanded",
+    "variants": [
+      "unshackled-ai"
+    ],
+    "html": "<p>Former automatons build by the quarians to function as soldiers and laborers, geth are constructs that have\nunintentionally consciousness and sentience. Geth, meaning &quot;servant of the people&quot; in the quarian language of\nKhelish, are fundamentally different than other constructs and are designed with humanoid thought and emotion in mind.\nGeth think, feel, and experience the world in a totally unique way.</p>\n<h2>The Morning War</h2>\n<p>&quot;Does this unit have a soul?&quot; asked the geth. That question would change the relationship of quarians and geth forever.\nThe quarians responded with an attempted termination of all geth. The newly sentient geth resisted the genocide of\ntheir masters in a war dubbed &quot;the Morning War&quot;. As many geth were designed as tools of war, the quarians were quickly\nand easily defeated. Because the constructs were acting out of self-defense, when the enemy began retreating from their\nhomeland of Rannoch, the geth did not pursue and allowed their masters to leave in peace.</p>\n<h2>Incomprehensible Mind</h2>\n<p>Geth minds are quite anomalous. As they were designed to follow predetermined steps and commands, and with their minds\npowered from a centralized network, their way of thinking is essentially unique and different than the chaotic organic\nminds of humanoids. Their thoughts can be compared to a program or process which systematically follows steps to come\nto a conclusion, run many times in different ways until the geth comes to a consensus of the correct course of action.\nGeth do not experience emotion or desire - not in the same way a humanoid does, anyway. Additionally, due to their\ninnate ability to network with other geth, geth see themselves as a unit of a larger and more complex whole and even\nthe individual processes that make up a single geth as being equal constituents that contribute to that geth unit.</p>\n<h2>Beyond the Veil</h2>\n<p>Geth primarily remain in the Perseus Veil: huge nebula of opaque gas and dust that separates geth space from the\nTerminus Systems. They live in peace, but some geth find themselves seeking knowledge of what is beyond their realm.\nThe primary motivation of the geth who leave Rannoch is to acquire and compile information, though some geth pursue other\nquests.</p>\n<h2>Geth Names</h2>\n<p>Geth have no use for names among themselves but will adopt names for the sake of interacting with other races.\nHowever, the geth do not often see themselves as individuals. Many geth use plural pronouns such as &quot;us&quot; and &quot;we&quot;.\nAs a result, the names geth take are normally synonyms or words for groups. Geth with individuality, especially those\nwho have been separated from their kind for an extended time, do exist. Those geth still use words for names, though\nthey give themselves a more personally fitting name.</p>\n<p><strong>Geth Names</strong>: Armada, Army, Batallion, Brigade, Cabal, Caucus, Congregate, Coterie, Guild, Horde, Host, Legion, Myriad, Phalanx, Proletariat, Throng, Troop, Union</p>\n<p><strong>'Individual' Geth Names</strong>: Alpha, Apex, Beta, Centurion, Enigma, Eternity, Genesis, Obelisk, Oblivion, Omega, Oracle, Pinnacle, Terminus, Vortex, Zenith</p>\n<p><source-reference pages=\"4-5\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Geth'}]\"></source-reference></p>\n"
+  },
+  {
+    "id": "hanar",
+    "name": "Hanar",
+    "galaxy": [
+      "Milky Way",
+      "Andromeda"
+    ],
+    "alignment": "Most hanar are lawful due to the religious influence on their society.",
+    "availableClasses": [
+      "adept",
+      "engineer"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Wisdom"
+      },
+      {
+        "amount": 1,
+        "ability": "Charisma"
+      }
+    ],
+    "size": "Due to their long tentacles, hanar \"stand\" about as tall as humans. Their bodies are around 1.5 meters long (4-5'). Your size is Medium.",
+    "speed": "Hanar are a water-based lifeform and have a swim speed of 10m. They rely on contra-gravitic levitation packs when not in water environments.",
+    "snippet": "The hanar are a species resembling Earth's jellyfish and are one of the few non-bipedal Citadel races. Hanar are known for their intense politeness when speaking and their strong religious beliefs.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 6d8 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "/images/races/hanar.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825",
+    "traits": [
+      "amphibious",
+      "contra-gravitic-levitation",
+      "bioluminescence",
+      "fragile",
+      "tentacles"
+    ],
+    "age": "Hanar usually reach maturity around 40 years and typically live to be 180 years old.",
+    "raceType": "expanded",
+    "html": "<p>The hanar are a genderless species resembling Earth's jellyfish and are one of the few non-bipedal Citadel races.\nThe hanar homeworld, Kahje, has 90% ocean cover and orbits an energetic white star, resulting in a permanent blanket of\nclouds. Hanar are known for their strong religious beliefs regarding the Protheans, whom they call &quot;the Enkindlers&quot;.\nHanar are extremely polite, almost to a fault. They never refer to themselves in the first person with someone they know\non a face name basis: to do so is considered egotistical. Instead, they refer to themselves as &quot;this one,&quot; or the\nimpersonal &quot;it.&quot; Even when flustered or angry, a hanar will still maintain exquisite poise and will remain formal even\nwith those it wishes dead.</p>\n<h2>Enkindlers</h2>\n<p>Due to the presence of Prothean ruins on Kahje, the hanar have developed a religion centered on the ancient\nspecies, calling them the &quot;Enkindlers&quot;. The hanar practice a religious holiday called Nyahir or &quot;First Cresting Bloom&quot; which\nlasts a full thirteen days and revolves around celebrating the gift of speech, which they attribute to\nhaving come from the Enkindlers. It is a mixture of contemplation and competition, with the faithful engaged in stylized\ndebates, poetry duels, and other traditional hanar art forms. The winners of these events have their names inscribed in\nbio-luminescence on the side of Mount Vassla, an underwater volcano at the heart of one of the oldest Prothean ruins on Kahje.</p>\n<h2>The Compact</h2>\n<p>Several hundred years ago, the hanar made contact with the drell on their nearby homeworld of Rakhana. Drell society\nwas quickly collapsing due to overpopulation and warring over scarce resources, so the hanar rescued several\nhundred thousand drell and brought them to Kahje, where they integrated into hanar society with the remaining\ndrell dying out. Now the drell serve as a client race of the hanar, and although to outside observers the\nrelationship can be construed as a form of slavery, the reality is very different. Drell have integrated with every\nlevel of hanar society, and most consider it an honor to serve a hanar family in a tradition referred to as the Compact.\nMany drell become unofficial members of the family, and some even earn the privilege to learn their masters' &quot;soul names&quot;.</p>\n<h2>Language of Lights</h2>\n<p>The hanar communicate using sophisticated patterns of bioluminescence and speak with scrupulous precision and extreme politeness.\nOther species need machine assistance to translate, though many drell apply genetic modification to their eyes in order\nto perceive higher frequency flashes which allows them to understand the hanar. Most hanar take offense at improper\nlanguage and must take special courses to unlearn this tendency if they expect to deal with other species.</p>\n<h2>Hanar Names</h2>\n<p>The hanar have two names, a &quot;face name&quot; and a &quot;soul name.&quot; The face name is used as a general label for use by\nstrangers and acquaintances. The soul name is kept for use among close friends and relations and tends to be poetic.</p>\n<p><strong>Face Names</strong>: Anrynder, Delanynder, Ellanpo, Hymydwhyn, Lopyldis, Malvyll, Opold, Sedlyner, Tolystoyl, Wynold, Zymandis</p>\n<p><strong>Soul Names</strong>: Burns Brightest when the Foam Blooms, Casts Shadow on the Sun Flower, Emancipates the Tide from those that Pull,\nHeeds only to the Inner Lights, Illuminates the Folly of the Dancers, Regards the Works of the Enkindlers in Despair,\nTransforms the Stone into Water</p>\n<p><source-reference pages=\"Hanar\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+    "availableClasses": [
+      "adept",
+      "engineer",
+      "infiltrator",
+      "sentinel",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 1,
+        "ability": "to all of your ability scores"
+      }
+    ],
+    "size": "Humans vary widely in height and build, from barely 1.5 meters to well over 2 meters tall. Regardless of your position in that range, your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "Humans, from the planet Earth, are the newest sentient species of notable size to enter the galactic stage and are the most rapidly expanding and developing.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 8d6 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7c/Grissom_Academy_Students.png/revision/latest/scale-to-width-down/640?cb=20120312230100",
+    "age": "Humans reach adulthood in their late teens and live between 125 and 150 years.",
+    "raceType": "standard",
+    "variants": [
+      "variant-human"
+    ],
+    "html": "<p>Humans are generally seen to be very intelligent, abnormally ambitious, highly adaptable, individualistic and thus,\nunpredictable. They have a powerful desire to advance and improve themselves and do so with such assertion that the\nnormally staid Council races have been taken aback by their restlessness and relentless curiosity.</p>\n<h2>New Horizons</h2>\n<p>Human space exploration began in earnest in the late 21st century. In 2069 CE, Armstrong Outpost in Shackleton Crater\non Luna was founded as humanity's first extraterrestrial settlement. In 2103, the European Space Agency established\nLowell City in Eos Chasma on Mars, paving the way for additional settlements and scientific outposts throughout Sol.\nIn 2148, human explorers on Mars uncovered a long-ruined Prothean observation post, with a surviving data cache that\nproved Protheans had studied Cro-Magnon humans millennia ago. Discovering information on a mass relay orbiting Pluto,\nexplorers managed to open the Charon Relay and discovered it led to Arcturus.</p>\n<h2>First Contact</h2>\n<p>Humans first came to the attention of the galactic community after a brief but intense conflict with the turians,\nknown by humans as the First Contact War. As a consequence of the System Alliance's swift and decisive action during the\nFirst Contact War, the Alliance became the representative and supranational governing body of humanity. Since then,\nhumans have rapidly risen in prominence. Humanity continued to expand to unclaimed star systems on the edge of Citadel\nspace, which eventually led to competition with the batarians.</p>\n<h2>Systems Alliance</h2>\n<p>The Systems Alliance holds sway over much of the human race, but not all fall under its banner. A few colonies on the\nfringes of known space are founded on principles of independence, and Earth still has nation-states that administer to\ntheir own territories. To the galaxy at large, though, nonhumans are always under the perception that Earth is a\nunified political entity represented by the Alliance.</p>\n<h2>Galactic Relations</h2>\n<p>The Systems Alliance has had an embassy on the Citadel since 2165. Many other species dislike humans' sudden ascendancy\ncompared to their status as relative newcomers on the galactic stage. Some species feel that humanity is overly\nexpansive in its colonization efforts and aggressive attempts to advance its position in galactic affairs. It took\nother species centuries to achieve what humanity has done in decades.</p>\n<h2>Human Names</h2>\n<p>Having so much more variety than other races, humans as a whole have no typical names.</p>\n<p><source-reference pages=\"Human\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "krogan",
+    "name": "Krogan",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Krogan are highly predisposed towards chaos, as their culture is violent, selfish, and brutal. While evil is more common among krogan, those of good and neutral alignments do exist among them. Good krogan especially find it difficult to thrive in Tuchanka and krogan society.",
+    "availableClasses": [
+      "adept",
+      "engineer",
+      "sentinel",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Constitution"
+      },
+      {
+        "amount": 1,
+        "ability": "Strength"
+      }
+    ],
+    "size": "Krogan stand at over 2 meters tall (~7') and weigh close to 400 pounds. Your size is Medium.",
+    "speed": "You have a base walking speed of 10 meters. Your speed is not slowed by heavy armor.",
+    "snippet": "The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh environments, scarce resources, and an overabundance of vicious predators.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 10d4 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/0/03/Wreav_rally_-_destroy_2.png/revision/latest/scale-to-width-down/640?cb=20130215150038",
+    "traits": [
+      "blood-rage",
+      "extremophile",
+      "menacing",
+      "powerful-build",
+      "toughness"
+    ],
+    "age": "Krogan can live well over a thousand years due to their natural hardiness.",
+    "raceType": "standard",
+    "html": "<p>The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh\nenvironments, scarce resources, and an overabundance of vicious predators. The krogan managed to not only survive on their\nunforgiving homeworld but actually thrived in the extreme conditions. Unfortunately, as krogan society became more\ntechnologically advanced, so did their weaponry. The end result is that they destroyed their homeworld in a nuclear war\nthat reduced their race into primitive warring tribes.</p>\n<h2>Biologically Impervious</h2>\n<p>Krogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous\nplates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,\nfor the resources in Tuchanka are scare.</p>\n<p>Curiously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These\ntraits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as &quot;Blood Rage.&quot;</p>\n<h2>Blood Rage</h2>\n<p>The blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless\nkilling machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and\nsuppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant\norgans, allows the krogan to defeat creatures many times his size or power.</p>\n<h2>Climb Atop the Dead</h2>\n<p>Krogan's value one thing above all else: strength. Krogan society is built upon this hierarchy, where the strong rule\nand the weak perish. They live in clans lead by a Warlord, and those clans constantly war for resources and for power.\nEven within these clans, treachery and distrust run rampant. Krogan often fight for dominance within these clans and\nwill sacrifice their clan for personal gain without a second thought. Females are considered prizes and trophies and\nlive in clans separate from the males.</p>\n<h2>Rites and Rituals</h2>\n<p>The krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When wishes to join his\nfirst clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of Honor.\nWhen facing a new enemy, the Rite of Firsts is invoked.</p>\n<p>A Krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and\ntorturous; most krogan who attempt the rite perish. Those who survive become the most respected member of their clan\nand are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit\nworld itself.</p>\n<h2>Krogan Names</h2>\n<p>Krogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.</p>\n<p><strong>Male Names</strong>: Archuk, Brood, Charr, Drax, Fortak, Grunt, Guld, Jarrod Nax, Okeer, Skarr, Strux, Uvenk, Wreav, Wrex</p>\n<p><strong>Female Names</strong>: Bakara, Chormi, Derge, Hazka, Jonde Kesh, Khorga, Kherake, Morda, Tegash, Vruxa, Zrogoga</p>\n<p><strong>Clan Names</strong>: Garbon, Gatatog, Jorgal, Khutarum, Nakmor, Srarkan, Traash, Urdnot, Verbok, Weryloc, Wudark</p>\n<p><source-reference pages=\"6-7\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Krogan'}]\"></source-reference></p>\n"
+  },
+  {
+    "id": "prothean",
+    "name": "Prothean",
+    "galaxy": [
+      "Milky Way"
+    ],
+    "alignment": "Protheans come from a society that was heavily regulated and favored the strong. They are generally lawful neutral.",
+    "availableClasses": [
+      "adept",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Wisdom"
+      },
+      {
+        "amount": 1,
+        "ability": "Dexterity"
+      }
+    ],
+    "size": "Protheans are slightly taller than humans but generally never taller than 2 meters (6'5\"). Your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "The protheans are an ancient alien race which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 2d10 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "/images/races/prothean.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802",
+    "traits": [
+      "all-seeing-eyes",
+      "quad-strand-dna",
+      "psychometry"
+    ],
+    "age": "Protheans live between 300 and 400 years, reaching adulthood in their early teens.",
+    "raceType": "expanded",
+    "variants": [
+      "awakened-collector"
+    ],
+    "html": "<p>The Protheans are an ancient alien race which mysteriously vanished over 50,000 years ago. The Protheans arose from a\nsingle planet and developed an immense galaxy-wide empire encompassing many other spacefaring species. Not much is known\nabout them, but many of their artifacts, ruins and technology have apparently survived the ages.</p>\n<h2>Ancient Empire</h2>\n<p>After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from\nthose ruins learned about mass effect physics and developed FTL technology. The Protheans would expand throughout the\ngalaxy with the help of the mass relay network and make the Citadel their capital.</p>\n<p>Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them.\nTo defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire.\nThe other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might.</p>\n<h2>Reaper Invasion</h2>\n<p>The Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the\nReapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They\nwere caught completely off-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the\nCitadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems\nfrom one another. The Protheans' greatest strength, their unified empire, proved to be their downfall.</p>\n<h2>Stasis</h2>\n<p>In a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that could\nhold hundreds of thousands of stasis pods. Some facilities were found by Reaper agents or betrayed by indoctrinated Protheans.\nUnfortunately, the facilities that remained hidden faced another challenge: a finite power source. The VI's left to control\nthese facilities began systematically cutting power to non-essential staff to conserve energy. 50,000 years later,\nthe number of active pods in each facility might be less than a dozen and without knowing the location of these hidden\nbunkers, its impossible to know how many protheans have survived.</p>\n<h2>All Eyes on You</h2>\n<p>As a prothean, you constantly attract the attention of other races. Your accent, mannerisms, figures of\nspeech, and appearance all mark you as more alien than most aliens. Curious glances are directed your\nway wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued\nby your ancient culture, to say nothing of everyday beings who are eager to hear stories of your origin.</p>\n<h2>Avatars</h2>\n<p>Protheans that ascended to places of prominence in their society were designated as avatars, or exemplars, of a particular\nvirtue of their culture. Example virtues include benevolence, cleanliness, courage, dignity, frugality, honor, justice,\nmercy, order, perseverance, temperance, tranquility, truthfulness, vengeance. As one of the last remaining Protheans,\nit is likely you are an avatar or, waking up to find you race all but extinct, you may self-appoint\nyour own virtue.</p>\n<h2>Prothean Names</h2>\n<p>Interestingly, protheans name themselves, usually after an icon or mentor. Until they've chosen a name, they are\ncalled little one, child, or some other generic term.</p>\n<p><strong>Male names</strong>: Arkath, Esrad, Caed, Dervan Had, Dencen, Hsed Mik, Javik, Jacen, Ksad Ishan, Lucen, Pashek Vran, Seset Amat, Tev Boken</p>\n<p><strong>Female names</strong>: Athi Let, Brene She, Balani, Calise, Cethi, Cosene, Eri Mase, Hulana, Haetha, Janiri, Kelthana, Laene Valte, Masani, Neona, Penta Tetha, Savisa</p>\n<p><source-reference pages=\"Prothean\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "quarian",
+    "name": "Quarian",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "The proximity and longstanding traditions of the Migrant Fleet make Quarians very lawful as a race, occasionally drifting toward neutral. Morality can vary but tends towards neutral or good, as evil quarians are typically exiled from the Flotilla.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "soldier"
+    ],
+    "sexyLevel": 8,
+    "abilityScoreIncrease": [
+      {
+        "amount": 1,
+        "ability": "Intelligence"
+      },
+      {
+        "amount": 1,
+        "ability": "Dexterity"
+      }
+    ],
+    "size": "Quarians have builds similar to humans. Your size is Medium.",
+    "speed": "Your base walking speed is 10m.",
+    "snippet": "The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 8d6 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430",
+    "traits": [
+      "hermetic-suit",
+      "cybernetic-augmentation"
+    ],
+    "age": "Quarians have lifespans similar to humans.",
+    "raceType": "standard",
+    "html": "<p>Forced out of their homeland by sapient constructs of their own creation, quarian are exiled nomads that now sail the\nseas in search of a new homeland.</p>\n<h2>Exotic Fashion</h2>\n<p>Identifying a quarian is easy. All quarians wear enviro-suits, which are multipurpose outfits that protect them from\nforeign pathogens and diseases as well as acting as spacesuits for scavenging or repair of shuttles. Rannoch's ecosystem\nfeatured symbiotic microorganisms that aren't found anywhere else in the galaxy. Thus, when the quarians were exiled, they\nwere also burdened to life in a suit.</p>\n<p>The enviro-suits have moved beyond function, however, and into their culture. A quarian is rarely, if ever, seen\nwithout their suit and helmet, and when they return from their pilgrimage as adults, they are expected to modify their\nsuit to fit their personal reflection of their status as a productive member of the Flotilla.</p>\n<h2>Exiles of their Own Creations</h2>\n<p>Quarians have a long and deep history with creating constructs known as &quot;Geth,&quot; meaning &quot;Servant of the People&quot;. These\nconstructs were built to serve and protect the quarians, and most quarian families had at least one servant, while the\nquarian military consisted of these autonomous beings.</p>\n<p>The quarians sought to constantly improve their creation with more advanced virtual intelligence so they could complete increasingly\ncomplex tasks. These improvements lead to the geth's sapience and they began to question their masters. The quarians\nattempted to exterminate them, but after forming so much dependence on the geth, the quarians were swiftly defeated.\nWith many exterminated, the remaining quarians fled their homeland of Rannoch.</p>\n<h2>Cybernetic Improvements</h2>\n<p>Though the quarians have abandoned their long history of construct and VI creation, they put their knowledge of engineering\nand technology into their own bodies to augment themselves. These augments are crafted by artisans who have descended\nfrom or studied under those who originally worked with or programmed the geth. The implants themselves are normally\nsmall, no larger than the size of a palm, and when properly inserted give the quarian enhanced ability compared to\nthose without. A quarian chooses an augment before they leave for the Pilgrimage, and the implantation of the device\nis part of their sending off ceremony.</p>\n<h2>Migrant Fleet</h2>\n<p>The nomads travel together in a collective of ships known as the Flotilla or the Migrant Fleet and consists of those\nwho escaped death by the geth. The Flotilla contains over fifty thousand vessels collectively that travel the galaxy\nstrip-mining and harvesting resource to keep the fleet afloat. Some ships decide to depart the fleet to pursue their\nown goals but normally return to the fleet.</p>\n<p>When young quarian rejoin the flotilla after their pilgrimage, they are expected to join the crew of another vessel\nto ensure genetic diversity of an already small population.</p>\n<h2>The Pilgrimage</h2>\n<p>During quarian adolescence, they are subjected to a rite of passage known as the pilgrimage. When young adulthood is\nreached, quarians are expected to leave the Migrant Fleet and experience life outside of their culture. To rejoin the\nflotilla, the young quarian must bear a gift to the captain of a new vessel. This gift can be tangible, such as\nresources, or intangible such as information. Most quarian operatives are those on their pilgrimage, though there are\nthose who decide never to return to the fleet or those who were rejected from rejoining.</p>\n<h2>Quarian Names</h2>\n<p>Quarian names are composed of three parts: the quarian's given name and family name separated by an apostrophe, and the\nname of their vessel preceeded by a title - &quot;nar&quot; to denote their birth ship and &quot;vas&quot; to denote their post-pilgrimage ship.\nFor example, nar Rayya or vas Neema.</p>\n<p><strong>Male Names</strong>: Golo, Han, Hilo, Kal, Kar, Keenah, Kenn, Lemm, Les, Prazza, Rael, Seeto, Shio, Veetor, Ysin, Zaal, Zer</p>\n<p><strong>Female Names</strong>: Ceni, Daro, Elan, Feda, Jura, Laele, Lia, Meeri, Minn, Reen, Saesa, Shala, Shuni, Tali, Yosi, Zohe,</p>\n<p><strong>Family Names</strong>: Breizah, Dannah, Gazu, Gerral, Hodda, Jaa, Koris, Leth, Mal, Mekk, Nara, Raan, Reegar, Shaal, Shiya, Vael, Xen, Zorah</p>\n<p><strong>Vessel Names</strong>: Honorata, Idenna, Moreh, Neema, Novarra, Qwib Qwib, Rayya, Tesleya, Tonbay, Ulnay, Usela</p>\n<p><source-reference pages=\"8-9\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Quarian'}]\"></source-reference></p>\n"
+  },
+  {
+    "id": "salarian",
+    "name": "Salarian",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Salarians can have dubious morals, especially when it comes to experiments and advancing technology. Neutrality is a common alignment for salarians.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "soldier"
+    ],
+    "sexyLevel": 6,
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Intelligence"
+      },
+      {
+        "amount": 1,
+        "ability": "Dexterity"
+      }
+    ],
+    "size": "Salarians are tall with elongated bodies, with a height between 180 and 210 cm (6 to 7 feet), yet a weight below 100 lbs. Your size is Medium.",
+    "speed": "Your base walking speed is 10 meters.",
+    "snippet": "The second species to join the Citadel, the salarians are warm-blooded amphibians native to the planet Sur'Kesh. Salarians possess a hyperactive metabolism; they think fast, talk fast, and move fast.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 4d12 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/Mordin_-_objection_noted.png/revision/latest/scale-to-width-down/640?cb=20141223052318",
+    "traits": [
+      "amphibious",
+      "high-speed-metabolism",
+      "photographic-memory",
+      "twice-as-bright"
+    ],
+    "age": "Salarians have an extremely high metabolism that causes a short life span. Salarians rarely reach ages over 40 years of age.",
+    "raceType": "standard",
+    "html": "<p>Salarians are a warm-blooded amphibious species from a jungle known as Sur'Kesh. The salarian possess a\nsuper-charged metabolism which causes them to function at a much higher speed than other races while requiring less rest.\nAdditionally, they have an exceptional capability for observation, recollection, and innovation. They are constantly\ntinkering, experimenting, inventing, and researching and value intelligence and knowledge above all else.</p>\n<h2>Hyperactive Metabolism</h2>\n<p>The speed at which a salarian metabolizes is a marvel of evolution. The race only requires only one hour of sleep a\nnight, and still, they have more energy and alertness than other races. Everything a salarian does seems to be faster.\nThey talk fast, think fast, move fast, eat fast, and even sleep fast. The large amount of available energy has\nadvanced their intellectual capabilities. They need near constant stimulation for their fidgety, active bodies.</p>\n<h2>Boredom, the Mother of Invention</h2>\n<p>Salarians minds are constantly racing at miles per minute, and without proper mental stimulation, a salarian becomes bored.\nTinkering and experimenting are natural solutions to a restless mind. The ability to plow through ideas, situations,\nand possibilities makes them natural inventors. Salarians have perhaps some of the most advanced technology, especially\nin electronics and engineering, but a salarian can become an expert at whatever craft he puts his mind to.</p>\n<h2>Knowledge is Power</h2>\n<p>Invention is not the only outlet of a salarian's mind. As many as those who invent prefer to gather information and\nknowledge. Observation, research, study, and espionage are other areas at which salarians tend to excel. A\nphotographic memory with a high capacity for information makes salarians who dabble in information trading very\nskilled and valuable. Knowledge gained from a salarian is highly prized as nearly infallible, and so these\ntrades are viable life paths.</p>\n<h2>One Mother Among Sons</h2>\n<p>Salarian reproduction is curious in that fertilized eggs hatch as females and unfertilized eggs hatch as male. According\nto ancient societal codes and law, fertilization of eggs is strictly regulated and thus 90% of the population is male.\nRomantic and sexual relationships are nearly nonexistent among salarian, and any sexuality is strictly for reproduction.\nAs females are so rare, they normally stay within salarian colonies where they possess positions of political\npower in a complex matriarchal government.</p>\n<h2>Matriarchal Feudalism</h2>\n<p>Salarians have a layered system of government, ultimately ruled by a matriarch known as a dalatrass, with her\ndaughters serving in noble positions beneath her. A noble family headed by the dalatrass controls a massive territory\nknown as a march that is further divided into duchies, baronies, and fiefdoms. Dalatrasses and their noble\nmatrilinear lines will make political alliances with other families through interbreeding. A salarian\nis loyal through a biological process known as imprinting to their parents and to their dalatrass, which keeps the feudal society stable.</p>\n<h2>Intense Curiosity</h2>\n<p>Despite imprinted loyalty to their family and dalatrass, male salarians are free to leave the colony at any time. Females,\nhowever, due to their noble blood and political power, almost always stay within the confines of salarian territories,\nthough some do venture out for other political positions such as ambassadors or emissaries. Salarian curiosity and\npursuit of knowledge often lead them past the jungles of Sur'Kesh, if even only for a brief time. Many find new\nlives far from Sur'Kesh, though they rarely truly abandon their family and dalatrass.</p>\n<h2>Salarian Names</h2>\n<p>Salarian names are quite complex. A full name includes - in order - the name of a salarian's march,\nduchy, barony, fiefdom, family, and finally, the given name. However, few salarians use their full name unless\nnecessary and prefer to go by their family and given name.</p>\n<p><strong>Example Full Names</strong>: Rannadril Ghan Swa Fulsoom Karaten Narr Eadi Bel Anoleis, Gorot II Heranon Mal Dinest Got Inoste Ledra</p>\n<p><strong>Given Names</strong>: Beelo, Chorban, Esheel, Ish, Jarroth, Jarun, Jondum, Kallo, Kirrahe, Maelon, Mordin, Morlan, Padok, Palon, Rentola, Schells, Solik, Tazzik, Tolan, Valern, Zevin</p>\n<p><strong>Family Names</strong>: Aenarth, Aulaw, Bau, Erkoln, Faergow, Gurji, Heplorn, Inoste, Irheth, Jath, Jowar, Marhall, Raeka, Sernik, Solus, Tann, Vass, Venirn, Vodol, Wiks, Yosann</p>\n<p><source-reference pages=\"10-11\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Salarian'}]\"></source-reference></p>\n"
+  },
+  {
+    "id": "turian",
+    "name": "Turian",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Turians are a highly militaristic and disciplined race. Turians are born and raised in strict law and order and as a result are inclined towards lawful alignments, but it is not uncommon for neutral or chaotic turians to leave Palaven in search of freedom from command.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "sentinel",
+      "soldier",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 1,
+        "ability": "Constitution"
+      },
+      {
+        "amount": 1,
+        "ability": "Dexterity"
+      },
+      {
+        "amount": 1,
+        "ability": "Strength"
+      }
+    ],
+    "size": "Turians are taller than humans, standing over 2 meters tall (6'5\"). Your size is Medium.",
+    "speed": "You have a base walking speed of 10 meters.",
+    "snippet": "Known for their militaristic and disciplined culture, the turians were the third race to join the Citadel Council. They gained their Council seat after defeating the hostile krogan for the Council during the Krogan Rebellions.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 8d6 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040",
+    "traits": [
+      "esprit-de-corps",
+      "martial-training",
+      "thulium-skin"
+    ],
+    "age": "Turians have natural lifespans comparable to humans.",
+    "raceType": "standard",
+    "html": "<p>A highly militaristic race, turians are a force to be feared. These warriors are easily distinguished by an appearance\ncontaining a strange mix of insectoid and avian features. The turian army is substantial, and every member of the turian\nrace is obligated to attend combat training in adolescence. Even citizens and artisans are foes to be reckoned with.\nDespite such an emphasis on combat, however, turians are an honorable and noble race.</p>\n<h2>Discipline and Honor</h2>\n<p>The entire turian culture revolves around a strict code of conduct which highly emphasizes strong discipline and personal\nresponsibility. Turians are highly inclined towards self-sacrifice and will put the good of society over their own\npersonal desires. As such, they are passionate about public and social service and make poor merchants and entrepreneurs.\nThey are taught to own their decisions, good or bad, and if confronted with accusations it is considered heinous to\nlie about their actions. Because of this, many races attribute to them a &quot;turian honor&quot; seen rarely outside the turian race.</p>\n<h2>Proud Warrior Race</h2>\n<p>At the center of turian society is their military. Turians are sent to basic training in their teenage years\nand are obligated to serve time in the military, if physically able. This develops respect for\nauthority as well as imparting control and restraint among the turians. Though some turians do not continue their\nservice in the armed forces, they continue to serve their community through other branches of the military which serve\nthe whole by providing public services.</p>\n<h2>Hierarchal Meritocracy</h2>\n<p>Turian government is entwined with its military, as so many parts of society are. There are tiers of citizenship, with\nthe lowest being a regular citizen, often held by client races and children, climbing all the way up to the Primarchs\nwhich lead each turian colony. Lower ranking citizens are expected to obey and support superiors while higher ranking\nones are expected to lead and protect lower ranks. Promotion to a new tier is based on personal ability and merit and\nare given due to assessments from one's superiors.</p>\n<p>Despite the ranked structure, turians entertain many freedoms as long as they perform their duties and do not infringe\non others freedoms or responsibilities.</p>\n<h2>Reflective Carapace</h2>\n<p>The homeland of the turians, Palaven, has a high level of solar radiation. Turians have evolved semi-metallic\ncarapaces that reflect the dangerous radiation, protecting their inners from the solar rays. These exoskeletons, however,\ndo not protect the turian from physical damage such as wounds and do not provide any natural armor.</p>\n<h2>Mission or Desertion</h2>\n<p>Most Turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions.\nSome, however, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.\nThose who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate betrayal.</p>\n<h2>Turian Names</h2>\n<p>Turians are given personal names by their parents and take on a family name. High-ranking turian officers also include\ntheir title in their names, either in addition to their full names or as a replacement of their personal name.\nSometimes turians go by their family name only.</p>\n<p><strong>Male Names</strong>: Adrien, Avitas, Castis, Chellick, Corinthus, Desolas, Garrus, Illo, Jacobus, Joram, Kuril, Lantar, Lilihierax, Lorik, Macen, Mehrkuri, Nihlus, Quentius, Sapartus, Saren, Septimus, Tarquin, Tiran, Tonn, Venari,</p>\n<p><strong>Female Names</strong>: Abrudas, Aciia, Aemicida, Alta, Banrae, Caevea, Cicean, Duronea, Iciria, Juteia, Nyreen, Orinia, Pliras, Quidas, Selone, Sidera, Sipia, Valevas, Vetra</p>\n<p><strong>Family Names</strong>: Actus, Arterius, Barro, Kandros, Kryik, Nazario, Nyx, Oraka, Pallin, Qui'in, Rix, Sidonis, Talid, Vakarian, Victus, Vyrnnus</p>\n<p><source-reference pages=\"12-13\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Turian'}]\"></source-reference></p>\n"
+  },
+  {
+    "id": "volus",
+    "name": "Volus",
+    "galaxy": [
+      "Andromeda",
+      "Milky Way"
+    ],
+    "alignment": "Volus society tends towards lawful as a whole, with clans fighting over economic resources and aggressive negotiating, even if they are individually chaotic individuals. They tend towards neutral morality.",
+    "availableClasses": [
+      "adept",
+      "engineer",
+      "sentinel",
+      "vanguard"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Wisdom"
+      },
+      {
+        "amount": 1,
+        "ability": "Intelligence"
+      }
+    ],
+    "size": "Volus are between 1 and 1.5 metes (3-4'). Your size is Small.",
+    "speed": "Your base walking speed is 8m.",
+    "snippet": "The volus hail from Irune, which possesses a high-pressure greenhouse atmosphere able to support an ammonia-based biochemistry. As a result, the volus must wear pressure suits and breathers when dealing with other species.",
+    "startingCredits": "Instead of your class's starting equipment, 10d6 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/b/b4/Volus.jpg/revision/latest/scale-to-width-down/640?cb=20121009195731",
+    "traits": [
+      "fury-of-the-small",
+      "hermetic-suit-volus",
+      "lucky",
+      "savvy-dealings"
+    ],
+    "age": "Most volus reach adulthood around their 50th year and live to be around 200 years-old.",
+    "raceType": "expanded",
+    "html": "<p>The volus are an associate race on the Citadel with their own embassy but are also a client race of the turians. They\nhail from Irune, which possesses a high-pressure greenhouse atmosphere able to support ammonia-based biochemistry.</p>\n<h2>Mysterious Biology</h2>\n<p>The volus are unable to survive unprotected in an atmosphere more suitable to humans and other carbon-based lifeforms,\nand as such require pressurized, protective suits capable of providing the proper atmosphere. Traditional nitrogen/oxygen\nair mixtures are poisonous to them, and in the low pressure atmospheres tolerable to most species, their flesh will actually\nsplit open.Unlike quarians, who can withstand brief periods outside their suit, volus choose never to take theirs off,\nespecially in the presence of other races. Therefore, little is known about their physiology. Despite individuals distinctly\nsounding like males or females to human listeners, volus genders are a mystery as well. The volus themselves consider\nthe question both intrusive and hilariously irrelevant.</p>\n<h2>Trade Warriors</h2>\n<p>The volus homeworld Irune is remarkable for having done away with warfare as an institution of the state. Instead,\nvolus romanticize a good bargain, haggling, and creative accounting. The fervent pursuit of economic wealth has\nmade volus a race of aggressive traders and industrialists with a keen grasp of exchange and finance.\nMany of the galaxy's largest banks, holding corporations, and manufacturing cartels, such as the\nElkoss Combine, are owned or managed by volus. They also regulate the Citadel's complex galactic economy and were\nresponsible for the Unified Banking Act, which established the &quot;credit&quot; as the standard currency of interstellar\ntrade.</p>\n<p>Unlike most other races, volus are more comfortable with delayed gratification, especially when it comes to spending\ntheir credits. Fugacious and materialistic purchases are rarely made. Instead, volus like to invest or save their money,\nsometimes to a fault. In fact, the volus economy is largely bolstered by the large estates of wealthy volus who never\nspent a cred.</p>\n<h2>Council Seat</h2>\n<p>Despite their important contributions to the Citadel and galactic society, they have never been offered a seat on the\nCouncil. This is a source of anger for some volus, particularly the volus ambassador Din Korlack. Council races need\nto have provided some extraordinary service to the Citadel, such as the turians' military support during the\nKrogan Rebellions. Council races also need to provide fleets, resources, and economic aid in case of disaster,\nnone of which the volus can currently supply. Therefore, the latest investment pursued by the volus is the construction\nof well-armed dreadnoughts.</p>\n<h2>Volus Names</h2>\n<p>Volus have two names but no family names. According to volus sensibilities, one cannot own a person, so using a family\nname would essentially be laying claim to their offspring.</p>\n<p><strong>Names</strong>: Ano Vot, Berla Mon, Bovan Set, Ceron, Cihaan, Din Mark, Dovan Hal, Eppo Wen, Han Olar, Jahleed,\nJahve Kormat, Kelan Vot, Kora Bos, Lona Osar, Levan Lih, Meeve Wen, Morten Sov, Olot For, Pitne Wit, Reema Po, Tahluud, Vaner Jok</p>\n<p><source-reference pages=\"Volus\" source=\"wiki\"></source-reference></p>\n"
+  },
+  {
+    "id": "vorcha",
+    "name": "Vorcha",
+    "galaxy": [
+      "Milky Way"
+    ],
+    "alignment": "Most vorcha are chaotic evil or almost always chaotic even if their morality is strengthened.",
+    "availableClasses": [
+      "engineer",
+      "infiltrator",
+      "sentinel",
+      "soldier"
+    ],
+    "abilityScoreIncrease": [
+      {
+        "amount": 2,
+        "ability": "Dexterity"
+      },
+      {
+        "amount": 1,
+        "ability": "Constitution"
+      }
+    ],
+    "size": "Vorcha are taller on average than humans (though they naturally slouch) and relatively slender. Your size is Medium.",
+    "speed": "Your base walking speed is 14m.",
+    "snippet": "Known for their unique biology and aggressive behavior, the vorcha of Heshtok are a primitive race that lives among the galaxy's darker and more dangerous locations, such as Omega.",
+    "startingCredits": "Instead of your class's starting equipment, you may start with 4d12 x 1000 + 10,000 credits to buy your own equipment.",
+    "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/d6/Omega_vermin.png/revision/latest/scale-to-width-down/640?cb=20140624121030",
+    "traits": [
+      "adaptation",
+      "bite",
+      "non-differentiated-cells",
+      "limited-regeneration"
+    ],
+    "age": "Vorcha have extremely short lifespans and only live for 20 years. They reach adulthood shortly after their first year.",
+    "raceType": "expanded",
+    "html": "<p>The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.</p>\n<h2>Non-differentiated cells</h2>\n<p>The vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.</p>\n<h2>Clan Violence</h2>\n<p>Vorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien races. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.</p>\n<h2>Vorcha Names</h2>\n<p>Like their lifespans, vorcha names are brutal and short.</p>\n<p><strong>Male names</strong>: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,</p>\n<p><strong>Female names</strong>: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath</p>\n<p><source-reference pages=\"Vorcha\" source=\"wiki\"></source-reference></p>\n"
+  }
+]

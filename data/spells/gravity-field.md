@@ -32,7 +32,7 @@ advancementOptions:
 You create an field of unstable gravity in a 6-meter cube starting from a point within range.  For the duration, this 
 space becomes difficult terrain.  
 
-A creature in the area when you cast the spell must succeed on a Strength saving throw or be <condition id="restrained"/> 
+A creature in the area when you cast the spell must succeed on a Strength saving throw or be <me-condition id="restrained"/> 
 until the spell ends. A creature restrained by this spell can use its action to make a Strength check against your 
 spell save DC. On a success, it frees itself.  
 
