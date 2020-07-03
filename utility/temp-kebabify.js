@@ -12,6 +12,7 @@ for (const dir of dirs) {
             const md = /\.md$/gm.test(file)
             const ext = md ? '.md' : '.json'
             fs.writeFileSync(`${path}/${dir}/${kebabed}${ext}`, data)
+            fs.unlinkSync(`${path}/${dir}/${file}`)
         }
     }
 }
