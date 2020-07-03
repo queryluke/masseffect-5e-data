@@ -1,5 +1,4 @@
 ---
-length: 1140
 title: 'Selling Items'
 ---
 

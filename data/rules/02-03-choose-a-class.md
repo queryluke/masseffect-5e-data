@@ -1,5 +1,4 @@
 ---
-length: 4948
 title: '2. Choose a Class'
 ---
 

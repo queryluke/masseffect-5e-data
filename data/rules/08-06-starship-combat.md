@@ -1,5 +1,4 @@
 ---
-length: 794
 title: 'Starship Combat'
 ---
 

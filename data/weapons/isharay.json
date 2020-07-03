@@ -1,0 +1,22 @@
+{
+  "name": "Isharay",
+  "rarity": "Rare",
+  "type": "Sniper Rifle",
+  "cost": "43500",
+  "manufacturer": "Taravay Industries",
+  "weight": "9",
+  "heat": "1",
+  "damage": "3d8",
+  "range": "80",
+  "notes": "This weapon cannot be reloaded with a bonus action.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "piercing",
+  "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2b/MEA_Isharay_MP.png/revision/latest?cb=20180602003240",
+  "andromeda": "x",
+  "createdBy": null,
+  "properties": [
+    "Two-handed",
+    "Heavy"
+  ]
+}

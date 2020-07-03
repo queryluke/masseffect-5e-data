@@ -1,5 +1,4 @@
 ---
-length: 4573
 title: 'Cost of things'
 change: true
 ---

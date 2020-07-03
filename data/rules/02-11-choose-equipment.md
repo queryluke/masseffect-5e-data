@@ -1,5 +1,4 @@
 ---
-length: 3555
 change: true
 title: '5. Choose Equipment'
 ---

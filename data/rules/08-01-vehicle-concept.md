@@ -1,5 +1,4 @@
 ---
-length: 539
 title: 'Concept'
 ---
 

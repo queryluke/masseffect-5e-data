@@ -1,5 +1,4 @@
 ---
-length: 3178
 new: true
 title: 'Variant: Paragon & Renegade'
 ---

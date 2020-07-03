@@ -1,0 +1,24 @@
+{
+  "name": "AT-12 Raider",
+  "rarity": "Uncommon",
+  "type": "Shotgun",
+  "cost": "19000",
+  "manufacturer": "Batarian",
+  "weight": "6",
+  "heat": "2",
+  "damage": "2d8",
+  "range": "2",
+  "notes": null,
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "piercing",
+  "image": "http://vignette2.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png/revision/latest?cb=20120317200919",
+  "andromeda": null,
+  "createdBy": null,
+  "properties": [
+    "Double Tap",
+    "Hip Fire",
+    "Two-handed",
+    "Recoil"
+  ]
+}

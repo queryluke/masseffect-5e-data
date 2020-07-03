@@ -1,0 +1,22 @@
+{
+  "name": "masseffect-5e-data",
+  "version": "1.2.0",
+  "description": "Contains all data for the Mass Effect 5e TTRPG system",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queryluke/masseffect-5e-data.git"
+  },
+  "author": "Luke Aeschleman",
+  "bugs": {
+    "url": "https://github.com/queryluke/masseffect-5e-data/issues"
+  },
+  "homepage": "https://github.com/queryluke/masseffect-5e-data#readme",
+  "devDependencies": {
+    "front-matter": "^4.0.2",
+    "lodash": "^4.17.15",
+    "markdown-it": "^11.0.0"
+  }
+}

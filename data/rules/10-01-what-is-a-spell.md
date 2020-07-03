@@ -1,5 +1,4 @@
 ---
-length: 449
 title: 'What is a Spell?'
 change: true
 ---

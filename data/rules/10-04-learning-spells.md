@@ -1,5 +1,4 @@
 ---
-length: 1465
 title: 'Learning Spells'
 change: true
 ---

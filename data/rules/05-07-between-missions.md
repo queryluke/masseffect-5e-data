@@ -1,5 +1,4 @@
 ---
-length: 6127
 title: 'Between Missions'
 ---
 

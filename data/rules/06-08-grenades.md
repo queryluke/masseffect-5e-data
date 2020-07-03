@@ -1,5 +1,4 @@
 ---
-length: 818
 title: 'Grenades & Mines'
 new: true
 ---

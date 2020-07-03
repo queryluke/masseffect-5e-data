@@ -1,0 +1,22 @@
+{
+  "name": "Pathfinder Pioneer",
+  "rarity": "Rare",
+  "type": "Assault Rifle",
+  "cost": "37000",
+  "manufacturer": "Andromeda Initiative",
+  "weight": "2",
+  "heat": "8",
+  "damage": "2d6",
+  "range": "40",
+  "notes": "Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to subsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus resets to 0.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "piercing",
+  "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2e/Pathfinder-Pioneer.png/revision/latest/scale-to-width-down/350?cb=20180224004738",
+  "andromeda": null,
+  "createdBy": null,
+  "properties": [
+    "Burst Fire",
+    "Two-handed"
+  ]
+}

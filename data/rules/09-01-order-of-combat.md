@@ -1,5 +1,4 @@
 ---
-length: 6137
 title: 'The Order of Combat'
 ---
 

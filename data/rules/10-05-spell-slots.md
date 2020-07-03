@@ -1,5 +1,4 @@
 ---
-length: 2278
 title: 'Spell Slots'
 change: true
 ---

@@ -1,5 +1,4 @@
 ---
-length: 4573
 title: 'Discounts'
 new: true
 ---

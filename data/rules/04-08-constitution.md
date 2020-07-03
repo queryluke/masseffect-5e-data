@@ -1,5 +1,4 @@
 ---
-length: 1688
 title: 'Constitution'
 ---
 

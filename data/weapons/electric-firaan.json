@@ -1,0 +1,22 @@
+{
+  "name": "Electric Firaan",
+  "rarity": "Rare",
+  "type": "Melee",
+  "cost": "32500",
+  "manufacturer": "Taravay Industries",
+  "weight": "1",
+  "heat": null,
+  "damage": "1d4",
+  "range": "2",
+  "notes": "When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage. If the target maintaining a concentration spell, it automatically fails its saving throw to maintain that spell. An angara wielding this weapon deals an additional 2d4 lightning damage instead of 1d4.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "piercing",
+  "image": null,
+  "andromeda": "x",
+  "createdBy": null,
+  "properties": [
+    "Finesse",
+    "Light"
+  ]
+}

@@ -1,5 +1,4 @@
 ---
-length: 9433
 title: 'Damage and Healing'
 ---
 

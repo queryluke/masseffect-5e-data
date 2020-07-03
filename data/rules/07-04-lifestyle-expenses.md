@@ -1,5 +1,4 @@
 ---
-length: 5512
 title: 'Lifestyle Expenses'
 ---
 

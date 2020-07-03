@@ -1,5 +1,4 @@
 ---
-length: 980
 title: 'Wealth'
 change: true
 ---

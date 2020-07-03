@@ -1,5 +1,4 @@
 ---
-length: 1882
 title: '4.c Background'
 ---
 

@@ -1,5 +1,4 @@
 ---
-length: 4840
 change: true
 title: 'Strength'
 ---

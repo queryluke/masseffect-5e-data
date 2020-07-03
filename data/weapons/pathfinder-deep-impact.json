@@ -1,0 +1,23 @@
+{
+  "name": "Pathfinder Deep Impact",
+  "rarity": "Rare",
+  "type": "Shotgun",
+  "cost": "37000",
+  "manufacturer": "Andromeda Initiative",
+  "weight": "6",
+  "heat": "6",
+  "damage": "2d6",
+  "range": "4",
+  "notes": "Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to subsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus resets to 0.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "piercing",
+  "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/77/Pathfinder-Deep_Impact.png/revision/latest?cb=20180224220127",
+  "andromeda": null,
+  "createdBy": null,
+  "properties": [
+    "Two-handed",
+    "Hip Fire",
+    "Recoil"
+  ]
+}

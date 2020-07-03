@@ -1,5 +1,4 @@
 ---
-length: 6893
 title: 'Actions in Combat'
 change: true
 ---

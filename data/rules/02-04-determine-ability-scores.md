@@ -1,5 +1,4 @@
 ---
-length: 3730
 title: '3. Determine Ability Scores'
 ---
 

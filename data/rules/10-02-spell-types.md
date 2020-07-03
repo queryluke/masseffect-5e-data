@@ -1,10 +1,8 @@
 ---
-length: 1317
-title: 'What is a Spell?'
+title: 'Spell Types'
 new: true
 ---
 
-### Spell Types
 Mass Effect divided spells into 3 distinct categories:
 
 #### Biotics

@@ -1,5 +1,4 @@
 ---
-length: 9095
 title: 'Making an Attack'
 ---
 

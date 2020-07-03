@@ -1,5 +1,4 @@
 ---
-length: 3102
 title: 'Wisdom'
 ---
 

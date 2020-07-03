@@ -1,5 +1,4 @@
 ---
-length: 1240
 title: 'Spell Level'
 change: true
 ---

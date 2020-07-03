@@ -1,5 +1,4 @@
 ---
-length: 885
 title: 'Ability Scores and Modifiers'
 ---
 

@@ -1,5 +1,4 @@
 ---
-length: 1689
 title: 'Advantage and Disadvantage'
 ---
 

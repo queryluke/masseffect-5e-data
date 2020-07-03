@@ -1,5 +1,4 @@
 ---
-length: 1750
 title: 'Proficiency Bonus'
 ---
 

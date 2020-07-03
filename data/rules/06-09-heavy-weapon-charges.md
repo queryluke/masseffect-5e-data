@@ -1,5 +1,4 @@
 ---
-length: 819
 title: 'Heavy Weapon Charges'
 new: true
 ---

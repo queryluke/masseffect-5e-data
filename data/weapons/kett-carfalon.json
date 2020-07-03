@@ -1,0 +1,21 @@
+{
+  "name": "Kett Carfalon",
+  "rarity": "Rare",
+  "type": "Melee",
+  "cost": "34500",
+  "manufacturer": "Kett",
+  "weight": "2",
+  "heat": null,
+  "damage": "1d8",
+  "range": "2",
+  "notes": "Versatile (1d10). When you deal damage with this weapon, you gain hit points equal to half the damage dealt. Hit point gained this way cannot be more than your hit point maximum.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "slashing",
+  "image": null,
+  "andromeda": "x",
+  "createdBy": null,
+  "properties": [
+    "Versatile*"
+  ]
+}

@@ -1,5 +1,4 @@
 ---
-length: 654
 title: 'Coming Together'
 ---
 

@@ -1,0 +1,21 @@
+{
+  "name": "Kishock Harpoon Gun",
+  "rarity": "Rare",
+  "type": "Sniper Rifle",
+  "cost": "40500",
+  "manufacturer": "Batarian State Arms",
+  "weight": "7",
+  "heat": "1",
+  "damage": "3d6",
+  "range": "80",
+  "notes": "A target hit by this weapon makes a Constitution (DC 13) saving throw. On a failed save, the target takes an additional 3d6 damage at the start of their turn due to blood loss (this damage bypasses shields).",
+  "npcHit": "the target makes a Constitution (DC 13) saving throw. On a failed save, the target takes an additional 10 (3d6) damage at the start of their turn due to blood loss. (this damage bypasses shields)",
+  "npcMiss": null,
+  "dmgType": "piercing",
+  "image": "http://vignette4.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png/revision/latest?cb=20120411201323",
+  "andromeda": null,
+  "createdBy": null,
+  "properties": [
+    "Two-handed"
+  ]
+}

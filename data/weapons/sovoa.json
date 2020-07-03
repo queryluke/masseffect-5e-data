@@ -1,0 +1,22 @@
+{
+  "name": "Sovoa",
+  "rarity": "Spectre",
+  "type": "Assault Rifle",
+  "cost": "59000",
+  "manufacturer": "Taravay Industries",
+  "weight": "6",
+  "heat": "3",
+  "damage": "2d8",
+  "range": "10",
+  "notes": "Instead of making a ranged weapon attack, target an area within normal or long range of this weapon. Each creature within a 4m radius of the target makes a Dexterity saving throw. The DC of this saving throw equals 8 + your Dexterity modifier + your proficiency bonus (if you are proficient with Assault Rifles). A creature takes thunder damage equal to the weapon's damage on a failed save or half as much on a successful one. Each creature within the radius has advantage on the saving throw the target area is beyond the normal range of this weapon.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "thunder",
+  "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sovoa_MP.png/revision/latest?cb=20180530232548",
+  "andromeda": "x",
+  "createdBy": null,
+  "properties": [
+    "Two-handed",
+    "Special"
+  ]
+}

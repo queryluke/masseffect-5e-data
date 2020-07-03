@@ -1,5 +1,4 @@
 ---
-length: 794
 title: 'Transports vs Starships'
 ---
 

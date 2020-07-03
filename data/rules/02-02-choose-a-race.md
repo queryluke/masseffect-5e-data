@@ -1,5 +1,4 @@
 ---
-length: 4361
 change: true
 title: '1. Choose a Race'
 ---

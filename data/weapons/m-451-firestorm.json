@@ -1,0 +1,22 @@
+{
+  "name": "M-451 Firestorm",
+  "rarity": "Uncommon",
+  "type": "Heavy Weapon",
+  "cost": "24000",
+  "manufacturer": null,
+  "weight": "6",
+  "heat": "10",
+  "damage": "4d6",
+  "range": "6",
+  "notes": "Sweep fire across the battlefield. Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage, or half as much damage on a successful one.",
+  "npcHit": null,
+  "npcMiss": null,
+  "dmgType": "fire",
+  "image": "http://vignette2.wikia.nocookie.net/masseffect/images/5/5a/ME3_Firestorm_Heavy_Weapon.png/revision/latest?cb=20120317194412",
+  "andromeda": null,
+  "createdBy": null,
+  "properties": [
+    "Special",
+    "Two-handed"
+  ]
+}
