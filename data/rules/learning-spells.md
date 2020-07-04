@@ -18,7 +18,7 @@ takes a superior intellect. More programs cause more confusion, and without the 
 tech users are limited in the number of spells they can bring into combat. This limit increases as tech users level, detailed
 in the class's description.
 
-### Advancing Spells <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Advancing Spells <v-chip color="info" small>new</v-chip>
 The class progression tables indicate when a class learns a new spell. In Mass Effect 5e, characters can choose
 to augment a spell they've already learned rather than learning a new one. You may only have one advancement of a spell at a time.
 

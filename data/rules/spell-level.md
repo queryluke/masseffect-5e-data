@@ -13,7 +13,7 @@ be to use that spell. All combat powers are considered cantrips.
 Spell level and character level don't correspond directly. Typically, a character has to be at least 17th level,
 not 5th level, to cast a 5th-level spell.
 
-### Combat Cantrips <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Combat Cantrips <v-chip color="info" small>new</v-chip>
 Combat powers are a special type of cantrip, that are more powerful than biotic cantrips. Combat powers have limitations
 in the number of times you can use them per short and long rest. Certain classes (infiltrators and vanguards) have the
 option of learning combat powers instead of cantrips, as indicated in their class descriptions.

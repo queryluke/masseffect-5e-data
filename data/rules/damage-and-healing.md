@@ -44,7 +44,7 @@ For example, if you score a critical hit with a monomolecular blade, roll 2d10 f
 add your relevant ability modifier. If the attack involves other damage dice, such as from the infiltrator's Sneak Attack feature,
 you roll those dice twice as well.
 
-#### Damage Types <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip>
+#### Damage Types <v-chip color="warning" small>change</v-chip>
 Different attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules
 of their own, but other rules, such as damage resistance, rely on the types.
 

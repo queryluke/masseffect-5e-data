@@ -22,7 +22,7 @@ points or be stabilized until it can breathe again.
 For example, a creature with a Constitution of 14 can hold its breath for 3 minutes. If it starts suffocating, it has 2
 rounds to reach air before it drops to 0 hit points.
 
-### Space <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Space <v-chip color="info" small>new</v-chip>
 The vacuum of space will kill any organic (and most synthorganic creatures) in a matter of minutes unless that creature
 has some specific resilience to surviving in a vacuum. A creature in the vacuum of space without an appropriate environmental
 suit will remain conscious for a number of rounds equal to 1 + its Constitution modifier (minimum 1). After that time passes,
@@ -63,11 +63,11 @@ Some creatures have darkvision and some gear can provide darkvision. Within a sp
 can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that
 creature is concerned. However, the creature can't discern color in darkness, only shades of gray.
 
-#### Truesight <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip>
+#### Truesight <v-chip color="warning" small>change</v-chip>
 A creature with truesight can, out to a specific range, see in normal darkness, see invisible creatures and objects that
 are hidden by technological means (such as tactical cloak).
 
-#### Infrared vision <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+#### Infrared vision <v-chip color="info" small>new</v-chip>
 A creature with infrared vision, out to a specific range, can see in darkness, is unaffected by lightly or heavily obscured
 areas, and see invisible and hidden creatures and objects that give off heat.
 

@@ -18,13 +18,13 @@ proficiency with, you cannot cast spells.
 
 __Armor Class (AC)__. Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.
 
-__Shield Points__. <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip> All armor chest pieces
+__Shield Points__. <v-chip color="info" small>new</v-chip> All armor chest pieces
 provide some amount of shield points. See the <nuxt-link to="/phb/rules/combat#shields">Shields</nuxt-link> of the combat section for
 more information.
 
 
 
-### Mix & Match <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Mix & Match <v-chip color="info" small>new</v-chip>
 Unlike D&D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:
 __Head__, __Chest__, __Arms__, and __Legs__.
 
@@ -52,7 +52,7 @@ use the Armor Piece Weights table to determine the total weight of the armor you
 
 
 
-### Armor Sets <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Armor Sets <v-chip color="info" small>new</v-chip>
 Most armor you buy in the galaxy has been mass-produced, these are called __armor sets__. A set is not required to be
 multiple pieces of armor. For example, the Capacitor Helmet is a single piece of head armor. The unique aspect of armor
 sets is that they have benefits and attributes that are pre-installed due to their mass-production. Thus, you cannot
@@ -83,7 +83,7 @@ for the head _and_ +1 AC for the chest. As soon as you remove either the helmet 
 apiece, you loose the +1 AC bonus.
 
 
-### Environmental Protection <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Environmental Protection <v-chip color="info" small>new</v-chip>
 All armor provides basic environmental protection from the vacuum of space or hazardous atmospheres. Armor supplies enough
 air and heat to the wearer for 8 hours of activity or 16 hours if the operative remains motionless. Your GM may require
 that your character wear a helmet to gain this benefit, or they may use the __bubble rule__ and claim that all armor suits

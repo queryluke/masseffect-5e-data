@@ -15,7 +15,7 @@ a distance.
 
 
 
-### Weapon Proficiency <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip>
+### Weapon Proficiency <v-chip color="warning" small>change</v-chip>
 You must be proficient with a weapon type to add your proficiency modifier to the attack roll. There are 7 distinct weapon
 types and all weapons fall into one of the following types.
 
@@ -50,13 +50,13 @@ it also deals 1d4 damage. An improvised thrown weapon has a normal range of 6 me
 
 
 
-### Thermal Clips <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Thermal Clips <v-chip color="info" small>new</v-chip>
 Ranged weapons (guns) use thermal clips to abate heat. All thermal clips are interchangeable between weapons. More information
 about using thermal clips can be found below.
 
 
 
-### Heavy Weapons <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Heavy Weapons <v-chip color="info" small>new</v-chip>
 Heavy Weapons use Charges to track the number of times they can be fired. If you run out of Charges your weapon is nothing more than a hunk of metal.
 
 #### Targeting
@@ -65,7 +65,7 @@ or more creatures for a single round of combat. More information about targeting
 
 
 
-### Carrying, Holstering, and Drawing Weapons <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Carrying, Holstering, and Drawing Weapons <v-chip color="info" small>new</v-chip>
 You have 4 weapon slots unless a feature or armor mod allows you to have more. __Two-handed__ weapons take up 2 slots. 
 If using the Variant: Encumbrance rule, you can carry as many weapons as your carry capacity will allow.
 

@@ -25,7 +25,7 @@ Effectively, the spell expands to fill the slot it is put into.
 Some spells, such as lance and first ait, have more powerful effects when cast at a higher level, as detailed in a
 spell's description.
 
-### Tech Points <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Tech Points <v-chip color="info" small>new</v-chip>
 In Mass Effect 5e, certain classes can use tech points to cast spells. Tech points represent the internal power of
 the operative's omni-tool. As the operative levels, the gain more tech points, representing the time they spend
 modifying their omni-tool and optimizing subroutines.

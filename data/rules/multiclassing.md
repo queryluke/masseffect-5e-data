@@ -53,7 +53,7 @@ proficiencies, as shown in the Multiclassing Proficiencies table.
 When you gain a new level in a class, you get its features for that level. You don't, however, receive the class's
 starting equipment, and a few features have additional rules when you're multiclassing: Barrier, Extra Attack, and Spellcasting.
 
-<h4 class="mt-3 subheading">Barrier <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip></h4>
+<h4 class="mt-3 subheading">Barrier <v-chip color="info" small>new</v-chip></h4>
 Your barrier capacity depends partly on your combined levels in all your spellcasting classes and partly on your
 individual levels in those classes. You determine your barrier capacity by adding together all your levels in the
 vanguard class and half your levels (rounded down) in the adept and sentinel classes. Use this total to determine your
@@ -65,7 +65,7 @@ barrier capacity by consulting the Multiclassing Barrier table.
 If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make
 more than two attacks with this feature unless it says you do (as the soldier's version of Extra Attack does).
 
-<h4 class="mt-3 subheading">Spellcasting <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip></h4>
+<h4 class="mt-3 subheading">Spellcasting <v-chip color="warning" small>change</v-chip></h4>
 
 __Spells known and prepared__: You determine what spells you know and can prepare for each class individually as if you were a single-classed member
 of that class. If you are an adept 4/engineer 3, for example, you know six 1st-level adept spells and five adept cantrips

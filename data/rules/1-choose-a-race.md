@@ -20,7 +20,7 @@ remember to apply them later.
 
 Record the traits granted by your race on your character sheet. Be sure to note your base speed and size as well.
 
-<h3>Galaxy Restrictions <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip></h3>
+<h3>Galaxy Restrictions <v-chip color="info" small>new</v-chip></h3>
 The available races to play are restricted to the Galaxy in which you set your campaign. The distinctions are based on
 Bioware's lore. All races, with the exception of Angara, originated from the Milky Way Galaxy. And most races had an
 <a href="http://masseffect.wikia.com/wiki/Ark#Arks" target="_blank">Ark</a> for transportation to the Andromeda galaxy.
@@ -30,7 +30,7 @@ as security assets on Ark Paarchero. Therefore, most races are available in eith
 we've deemed inappropriate for Andromeda settings, but the final ruling is at the discretion of your Galaxy Master.
 See the <nuxt-link to="/phb/intro#universe-to-explore">A Universe to Explore</nuxt-link> section for more information about the two Galaxies.
 
-<h3 class="mt-3">Class Restrictions <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip></h3>
+<h3 class="mt-3">Class Restrictions <v-chip color="info" small>new</v-chip></h3>
 In Mass Effect 5e, class options are restricted by the selected race because biotic abilities available to Adepts, Vanguards, and Sentinels are either rare or non-existent in certain races. Instead of making our own distinctions
 about what races can play what classes, we used the race/class combinations available in the
 <a href="http://masseffect.wikia.com/wiki/Mass_Effect_3_Multiplayer/Character_Customization" target="_blank">Mass Effect 3</a>

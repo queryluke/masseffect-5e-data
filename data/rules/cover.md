@@ -24,7 +24,7 @@ if about three-quarters of it is covered by an obstacle. The obstacle might be a
 A target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a
 target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
 
-### Variant: Additional Cover Rules <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+### Variant: Additional Cover Rules <v-chip color="info" small>new</v-chip>
 
 #### Size
 Size matters. If the target is one size larger than the creature providing cover, the target has no cover. If the target

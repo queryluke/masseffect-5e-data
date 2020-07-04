@@ -10,7 +10,7 @@ a security system. Your race, class, background, or feats give you proficiency w
 tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to
 a single ability since proficiency with a tool represents broader knowledge of its use.
 
-### Tool Proficiency <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip>
+### Tool Proficiency <v-chip color="warning" small>change</v-chip>
 
 Mass Effect 5e utilizes the Tool Proficiency rules found in Xanathar's Guide to Everything (pg. 78). In summary, it's
 unclear when a player should use a tool proficiency and a skill proficiency. The rule of thumb is that tools have

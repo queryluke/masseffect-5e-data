@@ -17,7 +17,7 @@ Sometimes it's important, though, to know how long it takes to get from one spot
 days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the
 creatures moving and the terrain they're moving over.
 
-### Speed <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip>
+### Speed <v-chip color="warning" small>change</v-chip>
 Every character and monster has a speed, which is the distance in meters that the character or monster can walk in 1 round.
 This number assumes short bursts of energetic movement in the midst of a life-threatening situation. The following rules
 determine how far a character or monster can move in a minute, an hour, or a day.
@@ -72,7 +72,7 @@ creature has a climbing or swimming speed. At the GM’s option, climbing a slip
 handholds requires a successful Strength (Athletics) check. Similarly, gaining any distance in rough water might require
 a successful Strength (Athletics) check.
 
-#### Jumping <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip>
+#### Jumping <v-chip color="warning" small>change</v-chip>
 Your Strength determines how far you can jump.
 
 __Long Jump__. When you make a long jump, you cover a number of meters up to your Strength score divided by three (rounded up)
@@ -93,7 +93,7 @@ your GM might allow you to make a Strength (Athletics) check to jump higher than
 You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal
 to the height of the jump plus 1 1/2 times your height.
 
-#### +/- Gravity <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip>
+#### +/- Gravity <v-chip color="info" small>new</v-chip>
 Operatives may find themselves in an environment with little, no, or increased gravity. For any increase (or decrease) that
 is twice as more (or less) than your operatives normal working gravity, use the difficult terrain rules. I.e., if your
 operative normally works in a 1g environment, and enters a .5g or 2g environment, they are considered to be in difficult terrain.

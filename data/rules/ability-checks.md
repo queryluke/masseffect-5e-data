@@ -41,7 +41,7 @@ In a contest between a monster trying to open a door and an operative trying to 
 the door remains shut.
 
 
-<h3>Skills <v-chip color="orange accent-2" text-color="black" class="v-chip--x-small">change</v-chip></h3>
+<h3>Skills <v-chip color="warning" small>change</v-chip></h3>
 Mass Effect 5e is a sci-fi setting, thus some of the fantasy skills (like religion and arcana) have been replaced with new
 skills.
 
@@ -100,7 +100,7 @@ For example, if a character attempts to climb up a dangerous cliff, the GM might
 the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character
 lacks that proficiency, he or she just makes a Strength check.
 
-<h4 class="m-3 subheading">Variant: Paragon & Renegade <v-chip color="secondary" text-color="white" class="v-chip--x-small">new</v-chip></h4>
+<h4 class="m-3 subheading">Variant: Paragon & Renegade <v-chip color="info" small>new</v-chip></h4>
 In Mass Effect 5e, you may also choose to use the <nuxt-link to="/phb/rules/beyond-first-level#paragon-renegade">Variant: Paragon & Renegade</nuxt-link>.
 This new rule allows you to apply another bonus to your ability checks, pending the context of your action is "Paragon-ish"
 or "Renegade-ish".
