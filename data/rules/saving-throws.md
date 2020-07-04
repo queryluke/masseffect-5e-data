@@ -23,4 +23,4 @@ throw allowed by a spell is determined by the caster’s spellcasting ability an
 The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a
 successful save means that a creature suffers no harm, or reduced harm, from an effect.
 
-<source-reference pages="83"></source-reference>
+<me-source-reference pages="83"></me-source-reference>

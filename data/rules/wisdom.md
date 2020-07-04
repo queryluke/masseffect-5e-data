@@ -22,4 +22,4 @@ in certain kinds of Wisdom checks.
 Adepts, vanguards, and sentinels use Wisdom as their spellcasting ability, which helps determine the saving
 throw DCs of spells they cast.
 
-<source-reference pages="82"></source-reference>
+<me-source-reference pages="82"></me-source-reference>

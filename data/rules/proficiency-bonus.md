@@ -24,4 +24,4 @@ Intelligence (History) checks.
 In general, you don’t multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows
 you to do so, these same rules apply.
 
-<source-reference pages="77"></source-reference>
+<me-source-reference pages="77"></me-source-reference>

@@ -111,4 +111,4 @@ they are immune to effects that require other saves. When an object drops to 0 h
 
 A character can also attempt a Strength check to break an object. The GM sets the DC for any such check.
 
-<source-reference pages="86-87"></source-reference>
+<me-source-reference pages="86-87"></me-source-reference>

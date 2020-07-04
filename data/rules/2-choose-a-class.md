@@ -71,4 +71,4 @@ Sam notes this and will record the final number after she determines Kaleem’s 
 notes the proficiency bonus for a 1st-level character, which is +2.
 </v-alert>
 
-<source-reference pages="6-7" source="basic"></source-reference>
+<me-source-reference pages="6-7" source="basic"></me-source-reference>

@@ -53,4 +53,4 @@ between those extremes.
 
 <ai-dialog title="Ability Score Point Cost" component="ability-score-point-cost"></ai-dialog>
 
-<source-reference pages="7-8" source="basic"></source-reference>
+<me-source-reference pages="7-8" source="basic"></me-source-reference>

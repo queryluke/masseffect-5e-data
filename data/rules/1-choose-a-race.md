@@ -53,4 +53,4 @@ classes for the salarian race. She notes all the racial traits of salarians on h
 of 10m and Medium size.
 </v-alert>
 
-<source-reference pages="6" source="basic"></source-reference>
+<me-source-reference pages="6" source="basic"></me-source-reference>

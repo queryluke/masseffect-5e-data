@@ -17,4 +17,4 @@ the operatives spend four uneventful days before a batarian ambush interrupts th
 
 In combat and other fast-paced situations, the game relies on rounds, a 6-second span of time.
 
-<source-reference pages="84"></source-reference>
+<me-source-reference pages="84"></me-source-reference>

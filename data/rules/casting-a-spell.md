@@ -170,4 +170,4 @@ if you are within 2 meters of a hostile creature that can see you and that isn't
 Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the
 armor you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting.
 
-<source-reference pages="101-104"></source-reference>
+<me-source-reference pages="101-104"></me-source-reference>

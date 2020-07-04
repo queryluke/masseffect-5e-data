@@ -45,4 +45,4 @@ Sam picks a lawful alignment for Kaleem, as she buys into the tradition of the B
 lack of empathy makes her neutral in her disposition for moral codes.
 </v-alert>
 
-<source-reference pages="8-9, 33-34" source="basic"></source-reference>
+<me-source-reference pages="8-9, 33-34" source="basic"></me-source-reference>

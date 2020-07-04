@@ -61,4 +61,4 @@ Omni-torch, a melee weapon, Kaleem adds her Strength modifier (+1) to the attack
 she is not proficient with melee weapons, she does not add her proficiency bonus to the attack roll.
 </v-alert>
 
-<source-reference pages="9" source="basic"></source-reference>
+<me-source-reference pages="9" source="basic"></me-source-reference>

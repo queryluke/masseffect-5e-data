@@ -38,4 +38,4 @@ Don't hit your friends! If the creature providing cover is friendly and the atta
 50% chance to hit the friendly target. Roll a die and if the result is odd the attack hits, even the attack misses both
 creatures. Or you can use the friendly creature's AC to decide if the attack hits or misses.
 
-<source-reference pages="96"></source-reference>
+<me-source-reference pages="96"></me-source-reference>

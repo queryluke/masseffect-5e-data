@@ -32,4 +32,4 @@ has eight Hit Dice, he or she can regain four spent Hit Dice upon finishing a lo
 A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit
 point at the start of the rest to gain its benefits.
 
-<source-reference pages="87"></source-reference>
+<me-source-reference pages="87"></me-source-reference>

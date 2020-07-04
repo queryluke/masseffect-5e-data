@@ -24,4 +24,4 @@ from the Blue Suns, the general spared her life but put her to work scrapping an
 Sam chooses the scrapper background fro Kaleem. She notes the proficiencies and special feature this background gives her.
 </v-alert>
 
-<source-reference pages="8-9, 36" source="basic"></source-reference>
+<me-source-reference pages="8-9, 36" source="basic"></me-source-reference>

@@ -10,7 +10,7 @@ its clusters, star systems, and planets have been charted and explored. It's als
 all with their own culture, planets, and colonies, making up a vast galactic community. If you aren't familiar
 with the first Mass Effect video games, you can read about major events and lore at the
 <a href="http://masseffect.wikia.com/wiki/Mass_Effect_Wiki" target="_blank">Mass Effect Wiki</a>. Specifically, the
-<A href="http://masseffect.wikia.com/wiki/Timeline" target="_blank">timeline</a> can get you quickly up to speed to on the events
+<a href="http://masseffect.wikia.com/wiki/Timeline" target="_blank">timeline</a> can get you quickly up to speed to on the events
 of the galaxy.
 
 The Andromeda Galaxy has a very different feeling. An ancient civilization of "Remnant" seem to exist on every planet, connected

@@ -8,4 +8,4 @@ for a common purpose. Teamwork and cooperation greatly improve your party’s ch
 Talk to your fellow players and your GM to decide whether your characters know one another, how they met, and what sorts
 of assignments the group might undertake.
 
-<source-reference pages="9" source="basic"></source-reference>
+<me-source-reference pages="9" source="basic"></me-source-reference>

@@ -149,4 +149,4 @@ Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkho
 environment. If at least half the group succeeds, the successful characters are able to guide their companions out of
 danger. Otherwise, the group stumbles into one of these hazards.
 
-<source-reference pages="77-79"></source-reference>
+<me-source-reference pages="77-79"></me-source-reference>

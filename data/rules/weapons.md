@@ -73,4 +73,4 @@ You can holster one weapon you're wielding or draw one weapon you're carrying as
 However, to holster one weapon *then* draw a second weapon would require an action.
 But the GM might allow a Sleight of Hand check to see if you can holster and draw at the cost of your bonus action.
 
-<source-reference pages="64-68"></source-reference>
+<me-source-reference pages="64-68"></me-source-reference>

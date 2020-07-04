@@ -16,4 +16,4 @@ generation to generation until your character finally took up the mantle and fol
 When you optionally choose to use your racial starting credits, you do not gain any recommended equipment packages
 from your chosen class nor your chosen background.
 
-<source-reference pages="43" source="basic"></source-reference>
+<me-source-reference pages="43" source="basic"></me-source-reference>

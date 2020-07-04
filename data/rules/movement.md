@@ -104,4 +104,4 @@ gravity.
 When in a 0g environment, your speed becomes 0, unless you have a means of propelling yourself. Additional rules, such as
 disadvantage on Dexterity saving throws or melee attacks, are decided by the GM based on the context of your environment.
 
-<source-reference pages="84-85"></source-reference>
+<me-source-reference pages="84-85"></me-source-reference>

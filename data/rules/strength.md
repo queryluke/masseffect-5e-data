@@ -65,4 +65,4 @@ When you use this variant, ignore the minimum Strength column of the Armor table
   __heavily encumbered__, which means your speed drops by 10m and you have disadvantage on ability
   checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 
-<source-reference pages="79-80"></source-reference>
+<me-source-reference pages="79-80"></me-source-reference>

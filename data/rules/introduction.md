@@ -76,4 +76,4 @@ the other operatives can search for breaking-edge medical experiments to revive 
 player might choose to create a new character to carry on. The group might fail to complete a mission successfully,
 but if everyone had a good time and created a memorable story, they all win.
 
-<source-reference pages="2" source="basic"></source-reference>
+<me-source-reference pages="2" source="basic"></me-source-reference>

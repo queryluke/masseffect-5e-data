@@ -117,4 +117,4 @@ can squeeze through a passage that's only 2 meters wide. While squeezing through
 meter for every meter it moves there, and it has disadvantage on attack rolls and Dexterity saving throws. Attack rolls
 against the creature have advantage while it's in the smaller space.
 
-<source-reference pages="91-92"></source-reference>
+<me-source-reference pages="91-92"></me-source-reference>

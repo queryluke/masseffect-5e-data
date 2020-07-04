@@ -38,5 +38,5 @@ check instead.
 
 <v-btn to="/phb/tools-kits" color="primary">Tools & Kits</v-btn>
 
-<source-reference pages="70"></source-reference>
+<me-source-reference pages="70"></me-source-reference>
 

@@ -74,4 +74,4 @@ your favor by using an approach that relies on your best bonuses and skills. If 
 into letting them into a classified area, the infiltrator who is proficient in Deception is the best bet to lead the
 discussion. When negotiating for a hostage’s release, the sentinel with Persuasion should do most of the talking.
 
-<source-reference pages="66-67" source="basic"></source-reference>
+<me-source-reference pages="66-67" source="basic"></me-source-reference>

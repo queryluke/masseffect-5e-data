@@ -31,4 +31,4 @@ increases from +1 to +2, you adjust your hit point maximum as though the modifie
 Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1,
 your hit point maximum is reduced by 7.
 
-<source-reference pages="81"></source-reference>
+<me-source-reference pages="81"></me-source-reference>

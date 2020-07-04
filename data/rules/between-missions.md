@@ -93,4 +93,4 @@ ability checks are required.
 The training lasts for 250 days and costs 100 credits per day. After you spend the requisite amount of time and money,
 you gain proficiency with the new tool.
 
-<source-reference pages="88-89"></source-reference>
+<me-source-reference pages="88-89"></me-source-reference>

@@ -41,7 +41,7 @@ mind, higher Strength and Constitution suggest a healthy, athletic body, and her
 awkward social decorum.
 </v-alert>
 
-<source-reference pages="8-9" source="basic"></source-reference>
+<me-source-reference pages="8-9" source="basic"></me-source-reference>
 
 
 

@@ -23,4 +23,4 @@ and Persuasion skills reflect aptitude in certain kinds of Charisma checks.
 Asari and some other subraces use Charisma as their spellcasting ability, which helps determine the saving
 throw DCs of spells they cast.
 
-<source-reference pages="82-83"></source-reference>
+<me-source-reference pages="82-83"></me-source-reference>

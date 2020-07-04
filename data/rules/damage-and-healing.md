@@ -162,4 +162,4 @@ still absorb damage directed at you while you're in that state, but only true he
 
 Unless a feature that grants you temporary hit points has a duration, they last until they're depleted or you finish a long rest.
 
-<source-reference pages="96-98"></source-reference>
+<me-source-reference pages="96-98"></me-source-reference>

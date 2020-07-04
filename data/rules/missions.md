@@ -56,4 +56,4 @@ pitched battle, there’s still plenty of opportunity for operatives to attempt 
 to examine the environment (perhaps by pushing a very large red button), and to interact with other creatures,
 including allies, enemies, and neutral parties.
 
-<source-reference pages="4-5" source="basic"></source-reference>
+<me-source-reference pages="4-5" source="basic"></me-source-reference>

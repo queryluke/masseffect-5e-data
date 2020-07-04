@@ -17,4 +17,4 @@ from 1 to 30.
 
 <ai-dialog title="Ability Scores and Modifiers" component="ability-score-modifiers"></ai-dialog>
 
-<source-reference pages="76"></source-reference>
+<me-source-reference pages="76"></me-source-reference>

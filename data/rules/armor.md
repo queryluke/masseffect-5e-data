@@ -104,4 +104,4 @@ Light Armor | 1 minute | 1 minute
 Medium Armor | 5 minutes | 1 minute
 Heavy Armor | 10 minutes | 5 minutes
 
-<source-reference pages="62-63"></source-reference>
+<me-source-reference pages="62-63"></me-source-reference>

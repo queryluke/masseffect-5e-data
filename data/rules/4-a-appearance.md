@@ -32,4 +32,4 @@ Sam fills in some of Kaleem’s basic details: her name, her sex (female), her h
 is missing a cranial ridge (making her unattractive being by salarian standards).
 </v-alert>
 
-<source-reference pages="8-9, 33" source="basic"></source-reference>
+<me-source-reference pages="8-9, 33" source="basic"></me-source-reference>

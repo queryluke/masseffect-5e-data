@@ -123,4 +123,4 @@ You normally interact with an object while doing something else, such as when yo
 When an object requires your action for its use (such as throwing a grenade), you take the Use an Object action.
 This action is also useful when you want to interact with more than one object on your turn.
 
-<source-reference pages="91-92"></source-reference>
+<me-source-reference pages="91-92"></me-source-reference>

@@ -94,4 +94,4 @@ total to determine your tech points and memory by consulting the Multiclassing T
 
 <ai-dialog title="Multiclassing Tech table" component="multiclassing-Tech-table"></ai-dialog>
 
-<source-reference pages="56-58"></source-reference>
+<me-source-reference pages="56-58"></me-source-reference>

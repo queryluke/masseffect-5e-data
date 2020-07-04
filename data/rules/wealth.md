@@ -18,4 +18,4 @@ Effect 5e is:
 
 <p class="headline">1 gp ~= 100 credits</p>.
 
-<source-reference pages="43" source="basic"></source-reference>
+<me-source-reference pages="43" source="basic"></me-source-reference>
