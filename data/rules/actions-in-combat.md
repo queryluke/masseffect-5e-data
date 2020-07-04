@@ -39,13 +39,13 @@ is reduced to 6 meters, for instance, you can move up to 12 meters this turn if 
 
 
 
-### Disengage <v-chip color="warning" small>change</v-chip>
+### Disengage <v-chip color="warning" text-color="black" small>change</v-chip>
 If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn. In  Mass Effect 5e,
 the Disengage action can also kick off your shield regeneration, detailed later.
 
 
 
-### Dodge <v-chip color="warning" small>change</v-chip></h4>
+### Dodge <v-chip color="warning" text-color="black" small>change</v-chip></h4>
 When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack
 roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.
 You lose this benefit if you are incapacitated or if your speed drops to 0.
@@ -65,7 +65,7 @@ your next turn, the first attack roll is made with advantage.
 
 
 
-### Hide <v-chip color="warning" small>change</v-chip></h4>
+### Hide <v-chip color="warning" text-color="black" small>change</v-chip></h4>
 When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for
 <nuxt-link to="/phb/rules/using-ability-scores#dexterity">hiding</nuxt-link>.
 

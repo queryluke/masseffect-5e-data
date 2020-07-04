@@ -15,7 +15,7 @@ a distance.
 
 
 
-### Weapon Proficiency <v-chip color="warning" small>change</v-chip>
+### Weapon Proficiency <v-chip color="warning" text-color="black" small>change</v-chip>
 You must be proficient with a weapon type to add your proficiency modifier to the attack roll. There are 7 distinct weapon
 types and all weapons fall into one of the following types.
 

@@ -65,7 +65,7 @@ barrier capacity by consulting the Multiclassing Barrier table.
 If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make
 more than two attacks with this feature unless it says you do (as the soldier's version of Extra Attack does).
 
-<h4 class="mt-3 subheading">Spellcasting <v-chip color="warning" small>change</v-chip></h4>
+<h4 class="mt-3 subheading">Spellcasting <v-chip color="warning" text-color="black" small>change</v-chip></h4>
 
 __Spells known and prepared__: You determine what spells you know and can prepare for each class individually as if you were a single-classed member
 of that class. If you are an adept 4/engineer 3, for example, you know six 1st-level adept spells and five adept cantrips

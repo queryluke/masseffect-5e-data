@@ -41,7 +41,7 @@ In a contest between a monster trying to open a door and an operative trying to 
 the door remains shut.
 
 
-<h3>Skills <v-chip color="warning" small>change</v-chip></h3>
+<h3>Skills <v-chip color="warning" text-color="black" small>change</v-chip></h3>
 Mass Effect 5e is a sci-fi setting, thus some of the fantasy skills (like religion and arcana) have been replaced with new
 skills.
 

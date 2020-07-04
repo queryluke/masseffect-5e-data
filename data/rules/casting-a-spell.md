@@ -53,7 +53,7 @@ Once a spell is cast, its effects aren't limited by its range, unless the spell'
 
 
 
-### Components <v-chip color="warning" small>change</v-chip>
+### Components <v-chip color="warning" text-color="black" small>change</v-chip>
 In Mass Effect 5e, all spells are Somatic, meaning they require some amount of gesturing. To cast any of the spell types
 a caster must have free use of at least one hand to perform these gestures.
 

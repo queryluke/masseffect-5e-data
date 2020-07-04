@@ -63,7 +63,7 @@ Some creatures have darkvision and some gear can provide darkvision. Within a sp
 can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that
 creature is concerned. However, the creature can't discern color in darkness, only shades of gray.
 
-#### Truesight <v-chip color="warning" small>change</v-chip>
+#### Truesight <v-chip color="warning" text-color="black" small>change</v-chip>
 A creature with truesight can, out to a specific range, see in normal darkness, see invisible creatures and objects that
 are hidden by technological means (such as tactical cloak).
 

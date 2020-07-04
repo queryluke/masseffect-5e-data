@@ -29,7 +29,7 @@ an omni-hammer, a monomolecular blade, or a krogan warhammer. Additionally, rang
 allow you to overcome the kickback of the weapon with brute force. You may apply your Strength modifier to your attack roll
 and damage roll when attacking with _Recoil_ weapons.
 
-### Lifting and Carrying <v-chip color="warning" small>change</v-chip>
+### Lifting and Carrying <v-chip color="warning" text-color="black" small>change</v-chip>
 
 Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
 These weights have been adjusted from 5th Edition to work with kilograms (kg) instead of pounds (lbs).
@@ -52,7 +52,7 @@ must meet or exceed that score.
 
 <ai-dialog title="Armor Bonuses and Limitations" component="armor-bonuses-limitations"></ai-dialog>
 
-### Variant: Encumbrance <v-chip color="warning" small>change</v-chip>
+### Variant: Encumbrance <v-chip color="warning" text-color="black" small>change</v-chip>
 
 The lifting and carrying rules attempt to keep the simplicity of 5th edition, with the added restrictions of weapon capacity.
 Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment.

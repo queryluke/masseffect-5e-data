@@ -9,7 +9,7 @@ with D&D 5th edition rules but set in the Mass Effect Universe. If you have play
 and rule syntaxes will feel familiar to you. For your convenience, completely new rules will be tagged with a
 <v-chip color="info" small>new</v-chip> badge. This indicates an entirely new
 rule or mechanic. Changes to rules will be tagged with a
-<v-chip color="warning" small>change</v-chip> badge. This indicates a rule
+<v-chip color="warning" text-color="black" small>change</v-chip> badge. This indicates a rule
 change, augmentation, or extension.
 
 For entirely new players (i.e., players who have not played 5th edition), you will find the entirety of 5th edition's

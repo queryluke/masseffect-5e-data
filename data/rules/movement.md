@@ -17,7 +17,7 @@ Sometimes it's important, though, to know how long it takes to get from one spot
 days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the
 creatures moving and the terrain they're moving over.
 
-### Speed <v-chip color="warning" small>change</v-chip>
+### Speed <v-chip color="warning" text-color="black" small>change</v-chip>
 Every character and monster has a speed, which is the distance in meters that the character or monster can walk in 1 round.
 This number assumes short bursts of energetic movement in the midst of a life-threatening situation. The following rules
 determine how far a character or monster can move in a minute, an hour, or a day.
@@ -72,7 +72,7 @@ creature has a climbing or swimming speed. At the GM’s option, climbing a slip
 handholds requires a successful Strength (Athletics) check. Similarly, gaining any distance in rough water might require
 a successful Strength (Athletics) check.
 
-#### Jumping <v-chip color="warning" small>change</v-chip>
+#### Jumping <v-chip color="warning" text-color="black" small>change</v-chip>
 Your Strength determines how far you can jump.
 
 __Long Jump__. When you make a long jump, you cover a number of meters up to your Strength score divided by three (rounded up)

@@ -12,7 +12,7 @@ Members of the upper-class trade either in legal rights, such as the rights to a
 land on an eezo rich planet or in equipment and tech, measuring tech by profitability rather than the credits. Only
 shopkeepers, operatives, and those offering professional services for hire commonly deal in credits.
 
-### Currency <v-chip color="warning" small>change</v-chip>
+### Currency <v-chip color="warning" text-color="black" small>change</v-chip>
 __Credits__ are the only type of currency in Mass Effect. The guideline conversion rate from D&D 5th Edition to Mass
 Effect 5e is:
 
