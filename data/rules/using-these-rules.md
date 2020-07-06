@@ -42,7 +42,7 @@ __GM Tools__ contains a number of interesting tools to assist Galaxy Masters in 
 __VARIANT RULES__
 Occasionally, you'll see a rule preceded by the word "Variant". This means the rule is optional. In some cases,
 it may replace an existing rule. For example, the Variant: Encumbrance rule replaces the standard Lifting & Carrying rules.
-\
+<br>
 In other instances, the rule may be completely ignored. For example, the Paragon & Renegade system adds rules for utilizing
 paragon and renegade points. While this adds a nice touch of flavor from the original _Mass Effect_ trilogy, it is not required
 for this system to work, and it can safely be left out of your campaign if desired.
