@@ -21,4 +21,4 @@ As long as you're in a relatively civilized environment, you can easily resupply
 However, you would need insider or black-market connections to get Superior or Ultimate medi-gel. Since Ultimate medi-gel
 is so rare, the cost is entirely dependent on the people you know, favors your owed, or ability to break into a medical facility.
 
-<ai-dialog title="Medi-gel Types" component="medi-gel-types"></ai-dialog>
+<me-more-info title="Medi-gel Types" component="medi-gel-types" />

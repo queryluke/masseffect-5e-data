@@ -26,10 +26,10 @@ A strong and tough character might be tall or just heavy.
 You choose your character’s age and the color of his or her hair, eyes, and skin. To add a touch of distinctiveness,
 you might want to give your character an unusual or memorable physical characteristic, such as a scar, a limp, or a tattoo.
 
-<v-alert type="info" :value="true">
-<strong>BUILDING KALEEM, STEP 4.A</strong><br>
+::: alert
+__BUILDING KALEEM, STEP 4.A__
 Sam fills in some of Kaleem’s basic details: her name, her sex (female), her height and weight, and the fact that she
 is missing a cranial ridge (making her unattractive being by salarian standards).
-</v-alert>
+:::
 
 <me-source-reference pages="8-9, 33" source="basic"></me-source-reference>

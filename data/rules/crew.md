@@ -19,8 +19,6 @@ do not require a proficiency and __combined systems__ only require to be profici
 
 > #### __An operative that chooses to take on the role of a crew member must spend at least 1 long rest per month maintaining the system__.
 
-<br>
-
 ### Paying Crew
 Your crew expects to live a modest lifestyle. The owner(s) of the ship must pay each crew member 150 credits per day. At the
 end of each month, multiply your required crew by 150 and again by 30. If you cannot pay the total amount, you either
@@ -40,9 +38,7 @@ Disgruntled crew cause problems. They get in fights, slack off, leave for better
 start a long rest on board your ship, if you have at least 1 disgruntled crew member, roll a d20, add the number of
 disgruntled crew on board to the roll. Then consult the Disgruntled Crew table.
 
-<ai-dialog title="Disgruntled Crew" component="disgruntled-crew"/>
-
-<br>
+<me-more-info title="Disgruntled Crew" component="disgruntled-crew"/>
 
 #### Dealing with disgruntled crew
 You reduce the number of disgruntled crew in the following ways:
@@ -54,8 +50,6 @@ You reduce the number of disgruntled crew in the following ways:
   in these situations and hiring entirely new crew at a port_.
 - Provide bonus pay equal to one week's salary (1,050 credits)
 - Provide an extended stay at a port (2 long rests worth)
-
-<br>
 
 If your group has created NPCs for each of your crew, the GM might add new ways for the crew to become disgruntled. If
 you ignore a distress signal, a good crew member might become disgruntled. Of if you hand over a large cache to the

@@ -73,8 +73,6 @@ Around You Here are a few examples of the sorts of thing you can do in tandem wi
 - tap the floor with your weapon
 - hand an item to another character
 
-<br>
-
 ### Moving Around Other Creatures
 You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if
 the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you.
@@ -94,9 +92,7 @@ it has the ability to hover or it is being held aloft by biotics, such as by the
 Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a
 particular size controls in combat. Objects sometimes use the same size categories.
 
-<ai-dialog title="Size Category" component="size-category"></ai-dialog>
-
-<br>
+<me-more-info title="Size Category" component="size-category" />
 
 #### Space
 A creature's space is the area in meters that it effectively controls in combat, not an expression of its physical

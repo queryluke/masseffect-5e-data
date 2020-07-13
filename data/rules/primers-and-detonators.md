@@ -17,4 +17,4 @@ There are five primed types: Force, Necrotic, Fire, Cold, or Lightning each with
 A creature can suffer from multiple primed types simultaneously as long as each type is different. When detonated, all
 explosions happen at once centered on the location of the primed target. The GM decides which effects happen in which order.
 
-<ai-dialog title="Primed Condition" mdFile="conditions/primed"></ai-dialog>
+<me-more-info title="Primed Condition" mdFile="conditions/primed" />

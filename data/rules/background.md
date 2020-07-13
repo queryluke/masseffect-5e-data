@@ -17,11 +17,11 @@ A background also gives your character a background feature (a general benefit) 
 also give you additional proficiency with certain kinds of tools. Record this information, along with the personality
 information you develop, on your character sheet.
 
-<v-alert type="info" :value="true">
-<strong>BUILDING KALEEM, STEP 4.C</strong><br>
+::: alert
+__BUILDING KALEEM, STEP 4.C__
 Sam decides that Kaleem comes from a lowly background, rummaging the slums of Omega. When she was caught stealing equipment
 from the Blue Suns, the general spared her life but put her to work scrapping and repairing weapons, mechs, and other tech.
 Sam chooses the scrapper background fro Kaleem. She notes the proficiencies and special feature this background gives her.
-</v-alert>
+:::
 
 <me-source-reference pages="8-9, 36" source="basic"></me-source-reference>

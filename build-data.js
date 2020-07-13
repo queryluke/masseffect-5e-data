@@ -6,6 +6,9 @@ const _ = require('lodash')
 // Markdown it options
 const MarkdownIt = require('markdown-it')
 const md = new MarkdownIt({ html: true })
+
+md.use(require('markdown-it-container'), 'alert')
+
 md.renderer.rules.table_open = function () {
   return '<v-simple-table><template v-slot:default>'
 }
@@ -13,9 +16,47 @@ md.renderer.rules.table_close = function () {
   return '</template></v-simple-table>'
 }
 
+md.renderer.rules.blockquote_open = function () {
+  return '<v-card class="blockquote-card"><v-card-text>'
+}
+md.renderer.rules.blockquote_close = function () {
+  return '</v-card-text></v-card>'
+}
+
+md.renderer.rules.link_open = function () {
+  return '</v-card-text></v-card>'
+}
+
+md.renderer.rules.container_alert_open = function () {
+  return '<v-alert value type="info">';
+}
+md.renderer.rules.container_alert_close = function () {
+  return '</v-alert>';
+}
+
+md.renderer.rules.link_open = function(tokens, idx) {
+  const token = tokens[idx]
+  const href = token.attrs[0][1]
+  if (/^\//.test(href)) {
+    return `<nuxt-link to="${href}">`
+  } else {
+    return `<a href="${href}" target="_blank">`
+  }
+}
+md.renderer.rules.link_close = function(tokens, idx) {
+  const pToken = tokens[idx - 2]
+  const href = pToken.attrs[0][1]
+  if (/^\//.test(href)) {
+    return `</nuxt-link>`
+  } else {
+    return '</a>'
+  }
+}
+
 const target = './.me5e'
 
 const mdDirs = [
+  'rules',
   'backgrounds',
   'changelog',
   'class-features',
@@ -25,8 +66,7 @@ const mdDirs = [
   'grenades',
   'programs',
   'races',
-  'rules',
-  'spells',
+  'powers',
   'subraces',
   'tools',
   'traits',

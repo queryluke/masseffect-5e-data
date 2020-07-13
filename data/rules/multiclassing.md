@@ -23,7 +23,7 @@ the infiltrator class must have both Dexterity and Intelligence scores of 13 or 
 that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that
 is reflected by higher-than-average ability scores.
 
-<ai-dialog title="Multiclassing Prerequisites table" component="multiclassing-prereqs-table"></ai-dialog>
+<me-more-info title="Multiclassing Prerequisites table" component="multiclassing-prereqs-table" />
 
 ### Experience Points
 The experience point cost to gain a level is always based on your total character level, as shown in the Character
@@ -47,25 +47,25 @@ if you are a soldier 3/infiltrator 2, you have the proficiency bonus of a 5th-le
 When you gain your first level in a class other than your initial class, you gain only some of new class's starting
 proficiencies, as shown in the Multiclassing Proficiencies table.
 
-<ai-dialog title="Multiclassing Proficiencies table" component="multiclassing-profs-table"></ai-dialog>
+<me-more-info title="Multiclassing Proficiencies table" component="multiclassing-profs-table" />
 
 ### Class Features
 When you gain a new level in a class, you get its features for that level. You don't, however, receive the class's
 starting equipment, and a few features have additional rules when you're multiclassing: Barrier, Extra Attack, and Spellcasting.
 
-<h4 class="mt-3 subheading">Barrier <v-chip color="info" small>new</v-chip></h4>
+#### Barrier <v-chip color="info" small>new</v-chip>
 Your barrier capacity depends partly on your combined levels in all your spellcasting classes and partly on your
 individual levels in those classes. You determine your barrier capacity by adding together all your levels in the
 vanguard class and half your levels (rounded down) in the adept and sentinel classes. Use this total to determine your
 barrier capacity by consulting the Multiclassing Barrier table.
 
-<ai-dialog title="Multiclassing Barrier table" component="multiclassing-barrier-table"></ai-dialog>
+<me-more-info title="Multiclassing Barrier table" component="multiclassing-barrier-table" />
 
-<h4 class="mt-3 subheading">Extra Attack</h4>
+#### Extra Attack
 If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make
 more than two attacks with this feature unless it says you do (as the soldier's version of Extra Attack does).
 
-<h4 class="mt-3 subheading">Spellcasting <v-chip color="warning" text-color="black" small>change</v-chip></h4>
+#### Spellcasting <v-chip color="warning" text-color="black" small>change</v-chip>
 
 __Spells known and prepared__: You determine what spells you know and can prepare for each class individually as if you were a single-classed member
 of that class. If you are an adept 4/engineer 3, for example, you know six 1st-level adept spells and five adept cantrips
@@ -78,20 +78,16 @@ class when you cast the spell.
 You can only use spell slots to cast biotic spells and you can only use tech points to cast tech spells. The exception
 is Sentinels that can use their spell slots to cast biotic or tech spells.
 
-<br>
-
 __Biotic Spell Slots__: You determine your available spell slots and cantrips by adding together all your
 levels in the adept class and half your levels (rounded down) in the sentinel and vanguard classes. Use this total to determine
 your spell slots and cantrips by consulting the Multiclassing Biotics table.
 
-<ai-dialog title="Multiclassing Biotics table" component="multiclassing-biotics-table"></ai-dialog>
-
-<br>
+<me-more-info title="Multiclassing Biotics table" component="multiclassing-biotics-table" />
 
 __Tech Points & Tech Point Limit__ You determine your tech points and tech point limit by adding together all
 your levels in the engineer class and half your levels (rounded down) in the infiltrator class. Use this
 total to determine your tech points and memory by consulting the Multiclassing Tech table.
 
-<ai-dialog title="Multiclassing Tech table" component="multiclassing-Tech-table"></ai-dialog>
+<me-more-info title="Multiclassing Tech table" component="multiclassing-Tech-table" />
 
 <me-source-reference pages="56-58"></me-source-reference>

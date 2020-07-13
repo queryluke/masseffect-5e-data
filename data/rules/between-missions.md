@@ -19,7 +19,7 @@ Living a particular lifestyle doesn't have a huge effect on your character, but 
 individuals and groups react to you. For example, when you lead an aristocratic lifestyle, it might be easier for you to
 influence the officials of the city than if you live in poverty.
 
-<ai-dialog title="Lifestyle Expenses" component="lifestyle-expenses"></ai-dialog>
+<me-more-info title="Lifestyle Expenses" component="lifestyle-expenses" />
 
 ### Downtime Activities
 Between missions, the GM might ask you what your character is doing during his or her downtime. Periods of downtime can
@@ -66,8 +66,6 @@ you can choose one of the following results:
 
 - End one effect on you that prevents you from regaining hit points.
 - For the next 24 hours, gain advantage on saving throws against one disease or poison currently affecting you.
-
-<br>
 
 #### Researching
 The time between missions is a great chance to perform research, gaining insight into mysteries that have unfurled over

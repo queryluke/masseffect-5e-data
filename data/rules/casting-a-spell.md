@@ -87,8 +87,6 @@ damage from multiple sources, such as a bullet and an engineer's salvo, you make
 - The GM might also decide that certain environmental phenomena, such as getting sucked out of an airlock, require you
 to succeed on a DC 10 Constitution saving throw to maintain concentration on a spell.
 
-<br>
-
 ### Targets
 A typical spell requires you to pick one or more targets to be affected by the spell's magic. A spell's description
 tells you whether the spell targets creatures, objects, or a point of origin for an area of effect (described below).

@@ -40,14 +40,12 @@ can also be upgraded. The Ship Upgrades table provides a list of common systems 
 
 Some systems provide a list of Downtime Activities, meaning players can participate in one of the Downtime Activity
 listed while on board the ship during a long rest. The Downtime Training has a list of tool and/or weapon proficiencies
-that can be learned from participating in the <nuxt-link to="/phb/rules/missions#between-missions">Downtime Activity: Training</nuxt-link>.
+that can be learned from participating in the [Downtime Activity: Training](/manual/missions#between-missions).
 
 Adding a new system or installing an upgrade takes 8 hours of uninterrupted work. You can either pay a skilled
 hireling for a days work or you can make the upgrades yourself.
 
-<ai-dialog title="Ship Upgrades" component="ship-upgrades"/>
-
-<br>
+<me-more-info title="Ship Upgrades" component="ship-upgrades"/>
 
 ### Maintaining Systems
 Every system requires maintenance, and vehicle systems are no different. For larger vehicles, like starships,
@@ -59,4 +57,4 @@ member (as discussed below).
 If a system breaks and must be replaced, you lose any benefits that system provides until your replace it. Replacing a 
 broken system costs 300,000 or the price of the system in the ship upgrades table, whichever is lower.
 
-<ai-dialog title="Months Without Maintenance" component="without-maintenance"/>
+<me-more-info title="Months Without Maintenance" component="without-maintenance"/>

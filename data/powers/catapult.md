@@ -10,7 +10,7 @@ effect:
 damageType:
 - bludgeoning
 castingTime: Action
-duration: 
+duration: Instant
 concentration: false
 distance:
   range: 20m

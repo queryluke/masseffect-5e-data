@@ -5,7 +5,7 @@ order: 1
 ---
 When you create your character, you receive equipment based on a combination of your class and background. Alternatively,
 you can start with a number of credits based on your race and spend them on items from the lists in this section. See
-the <nuxt-link to="/phb/rules/character-creation#choose-equipment">Choose Equipment</nuxt-link> section of __Step-by-step Characters__
+the [Choose Equipment](/manual/character-creation#choose-equipment) section of __Step-by-step Characters__
 for more information on using racial starting credits.
 
 You decide how your character came by this starting equipment. It might have been an inheritance or goods that the

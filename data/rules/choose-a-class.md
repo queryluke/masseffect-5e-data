@@ -37,7 +37,7 @@ you’ll determine in step 3.) This is also your hit point maximum.
 
 Record your character’s hit points on your character sheet. Also, record the type of Hit Die your character uses and the
 number of Hit Dice you have. After you rest, you can spend Hit Dice to regain hit points (see
-<nuxt-link to="/phb/rules/missions#resting">Resting</nuxt-link> in the Missions section).
+[Resting](/manual/missions#resting) in the Missions section).
 
 ### Proficiency Bonus
 The table that appears in your class description shows your proficiency bonus, which is +2 for a 1st-level character.
@@ -51,8 +51,8 @@ Your proficiency bonus applies to many of the numbers you’ll be recording on y
 - Saving throw DCs for spells you cast (explained in each spellcasting class)
 
 Your class determines your weapon proficiencies, your saving throw proficiencies, and some of your skill and tool proficiencies.
-(Skills are described in <nuxt-link to="/phb/rules/using-ability-scores">Using Ability Scores</nuxt-link>, tools
-in <nuxt-link to="/phb/rules/equipment#tools-kits">Equipment</nuxt-link>.) Your background gives you additional skill and
+(Skills are described in [Using Ability Scores](/manual/using-ability-scores), tools
+in [Equipment](/manual/equipment#tools-kits).) Your background gives you additional skill and
 tool proficiencies, and some races give you more proficiencies. Be sure to note all of
 these proficiencies, as well as your proficiency bonus, on your character sheet.
 
@@ -61,14 +61,15 @@ bonus might be modified (doubled or halved, for example) before you apply it. If
 proficiency bonus applies more than once to the same roll or that it should be multiplied more than once, you nevertheless
 add it only once, multiply it only once, and halve it only once.
 
-<v-alert type="info" :value="true">
-<strong>BUILDING KALEEM, STEP 2</strong><br>
+::: alert
+__BUILDING KALEEM, STEP 2__
+
 Sam imagines Keleem firing tech spells from the safety of cover. She makes Kaleem an engineer and notes the engineers’
 proficiencies and 1st-level class features on her character sheet.
 
 As a 1st-level engineer, Kaleem has 1 Hit Die, a d8, and starts with hit points equal to 8 + her Constitution modifier.
 Sam notes this and will record the final number after she determines Kaleem’s Constitution score (see step 3). Sam also
 notes the proficiency bonus for a 1st-level character, which is +2.
-</v-alert>
+:::
 
-<me-source-reference pages="6-7" source="basic"></me-source-reference>
+<me-source-reference pages="6-7" source="basic" />

@@ -19,7 +19,7 @@ proficiency with, you cannot cast spells.
 __Armor Class (AC)__. Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.
 
 __Shield Points__. <v-chip color="info" small>new</v-chip> All armor chest pieces
-provide some amount of shield points. See the <nuxt-link to="/phb/rules/combat#shields">Shields</nuxt-link> of the combat section for
+provide some amount of shield points. See the [Shields](/manual/combat#shields) of the combat section for
 more information.
 
 
@@ -39,18 +39,14 @@ reduces the wearer’s speed by 4m unless the wearer has a Strength score equal 
 For simplicity's sake, you cannot mix armor *within* placements. I.e., you cannot have a heavy piece of on your right arm
 and a light piece of armor on your left.
 
-<ai-dialog title="Armor / AC" component="armor-ac"></ai-dialog>
-<ai-dialog title="Armor Bonuses and Limitations" component="armor-bonuses-limitations"></ai-dialog>
-
-<br>
+<me-more-info title="Armor / AC" component="armor-ac" />
+<me-more-info title="Armor Bonuses and Limitations" component="armor-bonuses-limitations" />
 
 #### Variant: Encumbrance
-If you are using the <nuxt-link to="/phb/rules/using-ability-scores#strength">Variant: Encumbrance</nuxt-link> rules,
+If you are using the [Variant: Encumbrance](/manual/using-ability-scores#strength) rules,
 use the Armor Piece Weights table to determine the total weight of the armor you're wearing.
 
-<ai-dialog title="Armor Piece Weights" component="armor-piece-weights"></ai-dialog>
-
-
+<me-more-info title="Armor Piece Weights" component="armor-piece-weights" />
 
 ### Armor Sets <v-chip color="info" small>new</v-chip>
 Most armor you buy in the galaxy has been mass-produced, these are called __armor sets__. A set is not required to be

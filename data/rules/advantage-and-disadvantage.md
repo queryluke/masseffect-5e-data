@@ -20,7 +20,7 @@ d20, you can reroll only one of the dice. You choose which one. For example, if 
 an ability check and rolls a 1 and a 13, the volus could use the Lucky trait to reroll the 1.
 
 You usually gain advantage or disadvantage through the use of special abilities, actions, or spells.
-[Inspiration](/phb/rules/beyond-first-level#inspiration) can also give a character advantage. The GM can also decide
+[Inspiration](/manual/beyond-first-level#inspiration) can also give a character advantage. The GM can also decide
 that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 
 <me-source-reference pages="76-77"></me-source-reference>

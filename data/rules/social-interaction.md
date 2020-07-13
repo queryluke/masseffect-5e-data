@@ -39,8 +39,6 @@ When using descriptive roleplaying, keep the following things in mind:
 - Don’t worry about getting things exactly right. Just focus on thinking about what your character would do and describing
 what you see in your mind.
 
-<br>
-
 #### Active Approach to Roleplaying
 If descriptive roleplaying tells your GM and your fellow players what your character thinks and does, active roleplaying
 shows them.

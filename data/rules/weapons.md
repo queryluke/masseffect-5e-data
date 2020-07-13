@@ -8,7 +8,7 @@ Your class grants proficiency in certain weapons, reflecting both the class's fo
 use. Whether you favor an assault rifle or a sword, your weapon and your ability to wield it effectively can mean the
 difference between life and death while on a mission.
 
-The <nuxt-link to="/phb/weapons">Weapons List</nuxt-link> shows the available weapons, their price and weight, the damage
+The [Weapons List](/phb/weapons) shows the available weapons, their price and weight, the damage
 they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged.
 A melee weapon is used to attack a target within 2 meters of you, whereas a ranged weapon is used to attack a target at
 a distance.
@@ -27,14 +27,10 @@ types and all weapons fall into one of the following types.
 - __Melee__. Used in close-quarters combat. _Damage resulting from melee weapon attacks by-pass shields_.
 - __Heavy Weapons__. Specialty weapons that deal massive amounts of damage. _Heavy Weapons do not have a proficiency requirement_.
 
-<br>
-
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons List.
 
-<ai-dialog title="Weapon Properties" component="weapon-properties"></ai-dialog>
-
-<br>
+<me-more-info title="Weapon Properties" component="weapon-properties" />
 
 ### Improvised Weapons
 Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes
@@ -61,7 +57,7 @@ Heavy Weapons use Charges to track the number of times they can be fired. If you
 
 #### Targeting
 Most Heavy Weapons also use the Targeting condition. Targeting means painting the battlefield or keeping a lock on one 
-or more creatures for a single round of combat. More information about targeting can be found in <nuxt-link to="/phb/appendix/conditions">conditions appendix</nuxt-link>.
+or more creatures for a single round of combat. More information about targeting can be found in [conditions appendix](/phb/appendix/conditions).
 
 
 

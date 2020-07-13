@@ -23,8 +23,11 @@ This number assumes short bursts of energetic movement in the midst of a life-th
 determine how far a character or monster can move in a minute, an hour, or a day.
 
 Mass Effect 5e uses meters instead of feet.
-<p class="headline">5ft = 2m</p>
-<p class="headline">On a playmat: 2m = 1 square</p>
+
+::: alert
+### 5ft = 2m
+### On a playmat: 2m = 1 square
+:::
 
 ### Travel Pace
 
@@ -50,9 +53,9 @@ travel in a 24 hour period for a _normal_ pace. If you're moving at a fast pace,
 slow pace. Transports do not suffer exhaustion as a living mount would, but characters still need to pilot the vehicle.
 In general, characters can only pilot vehicle for 16 hours at a time before needing to rest.
 
-More details about traveling in transports and starships are provided in the <nuxt-link to="/phb/rules/vehicles">vehicles</nuxt-link> section.
+More details about traveling in transports and starships are provided in the [vehicles](/manual/vehicles) section.
 
-<ai-dialog title="Travel Pace table" component="travel-pace"></ai-dialog>
+<me-more-info title="Travel Pace table" component="travel-pace" />
 
 ### Difficult Terrain
 The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear corridors.

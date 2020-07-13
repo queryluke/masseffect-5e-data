@@ -18,8 +18,6 @@ order or their stated positions in the room or other location, the GM figures ou
 4. __Take turns__. Each participant in the battle takes a turn in initiative order.
 5. __Begin the next round__. When everyone involved in the combat has had a turn, the round ends. Repeat step 4 until the fighting stops.
 
-<br>
-
 ### Surprise
 A team of operatives sneaks up on a patrolling cerberus squad, springing from behind cargo crates to attack them. A varren
 slinks in the shadows, unnoticed by the operatives until the varren attacks one of them. In these situations, one side of

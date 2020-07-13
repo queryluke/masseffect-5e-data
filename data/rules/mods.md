@@ -28,4 +28,4 @@ Installing armor mods requires you to craft or purchase a piece of customizable 
 the Creating Armor section above. Each piece of customizable armor
 has a set number of mod slots. You must select a mod with a matching armor piece, i.e. chest, head, legs, or arms.
 
-<v-btn to="/phb/armor/mods" color="primary">Armor Mods</v-btn> <v-btn to="/phb/weapon-mods" color="primary" class="ml-3">Weapon Mods</v-btn>
+<v-btn to="/armor-mods" color="secondary" nuxt>Armor Mods</v-btn> <v-btn to="/weapon-mods" color="secondary" class="ml-3" nuxt>Weapon Mods</v-btn>

@@ -27,8 +27,6 @@ DC of this check is determined by how "rich" the planet is.
 On a success, you can spend a long rest mining the area. Roll a die based on how rich the planet is, and gain that many
 units of the element.
 
-<div class="markdown-content">
-
 ### Elements
 
 Rarity | Elements | Credits / Unit
@@ -37,8 +35,6 @@ Common | Aluminium, Beryllium, Copper, Graphite, Iron, Magnesium, Silicon | 100
 Uncommon | Cadmium, Fluorite, Iridium, Lithium, Nickel, Uranium | 250
 Rare | Palladium, Platinum, Titanium, Vanadium | 500
 Very Rare | Element Zero | 1500
-
-<br>
 
 ### Mining Results
 
@@ -50,9 +46,6 @@ Moderate | d8
 Abundant | d10
 Rich | d12
 
-</div>
-
-<br>
 
 ### Variant: Fuel
 Fuel in Mass Effect 5e is an abstract concept. Most ships can mine and create fuel using on-board fabricators as it travels
@@ -66,4 +59,4 @@ fuel use the Variant: Mining rules above. On a success, roll a d8 and regain tha
 Alternatively, you can pay to refuel at a spaceport. The average rate is 1,000 credits per charge in your tank, but this
 might increase or decrease based on the port.
 
-<v-btn to="/phb/vehicles" color="primary">Vehicle List</v-btn>
+<v-btn to="/vehicles" color="secondary" nuxt>Vehicle List</v-btn>

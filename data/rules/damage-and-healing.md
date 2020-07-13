@@ -50,9 +50,8 @@ of their own, but other rules, such as damage resistance, rely on the types.
 
 The damage types follow, with examples to help a GM assign a damage type to a new effect.
 
-<ai-dialog title="Damage Types" component="damage-types"></ai-dialog>
+<me-more-info title="Damage Types" component="damage-types" />
 
-<br>
 
 ### Damage Resistance and Vulnerability
 Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.

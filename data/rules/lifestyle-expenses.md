@@ -16,7 +16,7 @@ Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle mig
 rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid
 criminals, but you are unlikely to make powerful connections.
 
-<ai-dialog title="Lifestyle Expenses" component="lifestyle-expenses"></ai-dialog>
+<me-more-info title="Lifestyle Expenses" component="lifestyle-expenses" />
 
 __Wretched__. You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into
 transit tunnels, huddling in alleyways, and relying on the good graces of people better off than you. A

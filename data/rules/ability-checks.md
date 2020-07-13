@@ -14,7 +14,7 @@ table shows the most common DCs.
 
 
 ### Typical Difficulty Classes
-<ai-dialog title="Typical Difficulty Classes table" component="typical-difficulty-classes-table"></ai-dialog>
+<me-more-info title="Typical Difficulty Classes table" component="typical-difficulty-classes-table" />
 
 To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and
 penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success -
@@ -41,7 +41,7 @@ In a contest between a monster trying to open a door and an operative trying to 
 the door remains shut.
 
 
-<h3>Skills <v-chip color="warning" text-color="black" small>change</v-chip></h3>
+### Skills <v-chip color="warning" text-color="black" small>change</v-chip>
 Mass Effect 5e is a sci-fi setting, thus some of the fantasy skills (like religion and arcana) have been replaced with new
 skills.
 
@@ -60,7 +60,7 @@ respectively. So a character who has proficiency in the Stealth skill is particu
 to sneaking and hiding.
 
 The skills related to each ability score are shown in the following list. No skills are related to Constitution. See an
-ability's description in the <nuxt-link to="/phb/appendix/skills">Appendix: Skills</nuxt-link> for examples of how to use a skill associated with an ability.
+ability's description in the [Appendix: Skills](/phb/appendix/skills) for examples of how to use a skill associated with an ability.
 
 #### Strength
 - Athletics
@@ -100,11 +100,10 @@ For example, if a character attempts to climb up a dangerous cliff, the GM might
 the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character
 lacks that proficiency, he or she just makes a Strength check.
 
-<h4 class="m-3 subheading">Variant: Paragon & Renegade <v-chip color="info" small>new</v-chip></h4>
-In Mass Effect 5e, you may also choose to use the <nuxt-link to="/phb/rules/beyond-first-level#paragon-renegade">Variant: Paragon & Renegade</nuxt-link>.
+#### Variant: Paragon & Renegade <v-chip color="info" small>new</v-chip>
+In Mass Effect 5e, you may also choose to use the [Variant: Paragon & Renegade](/manual/beyond-first-level#paragon-renegade).
 This new rule allows you to apply another bonus to your ability checks, pending the context of your action is "Paragon-ish"
 or "Renegade-ish".
-<p></p>
 
 ### Passive Checks
 A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the

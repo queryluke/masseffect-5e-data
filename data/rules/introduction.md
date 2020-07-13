@@ -8,14 +8,11 @@ takes that storytelling to the stars. Both shares elements with childhood games 
 D&D is driven by imagination. It’s about picturing the alien landscape beneath the two-sunned sky and imagining how an
 N7 soldier might react to the challenges that scene presents.
 
-<v-alert :value="true" type="info">
+::: alert
 In Mass Effect 5e, the Dungeon Master is called the Galaxy Master (tm tm tm)
-</v-alert>
+:::
 
-<br>
-
-<v-card><v-card-text>
-__Galaxy Master (GM)__: You arrived on Asteroid 2179 JK178 on a UT-47 Kodiak. Approaching the station’s hangar, a missile
+> __Galaxy Master (GM)__: You arrived on Asteroid 2179 JK178 on a UT-47 Kodiak. Approaching the station’s hangar, a missile
 lock alarm sounds in the cockpit. Your pilot, Harcourt Finn, immediately took evasive action and put down on the opposite
 side of the asteroid. Scans indicate the automated defense system should extend around the entire asteroid but appears
 to be dormant on the side opposite the station entrance. Having no other options, you double-checked the pressure seals
@@ -26,15 +23,14 @@ __Amanda (playing Melphine)__: I want to scan the area for movement or any immed
 \
 __Amie (playing Telos)__: The drop to the hanger door looks pretty far? I want to test how much gravity the asteroid has.
 Do I think we can easily drop down to it without injuring ourselves or flying off into space?
-</v-card-text></v-card>
 
 Unlike a game of make-believe, D&D gives structure to the stories, a way of determining the consequences of the operatives’
 action. Players roll dice to resolve whether their attacks hit or miss or whether their operatives can scale a cliff,
 roll away from the strike of a biotic attack, or pull off some other dangerous task. Anything is possible,
 but the dice make some outcomes more probable than others.
 
-<v-card><v-card-text>
-__Galaxy Master (GM)__: OK, one at a time. Amanda, you’re looking for threats?
+
+>__Galaxy Master (GM)__: OK, one at a time. Amanda, you’re looking for threats?
 \
 __Amanda__: Yeah. Is there any movement in the area?
 \
@@ -47,7 +43,6 @@ __GM__: Of course!
 __Amanda (rolling a d20)__: Rats. I rolled a six, plus two for my perception skill modifier. So, Eight.
 \
 __GM__: No movement that you can see. And Amie, Telos is assessing the drop to the hanger bay?
-</v-card-text></v-card>
 
 In the Mass Effect 5e game, each player creates an operative (also called a character) and teams up with other
 operatives (played by friends). Working together, the group might explore a derelict starship, the slums of an inhabited asteroid,
@@ -76,4 +71,4 @@ the other operatives can search for breaking-edge medical experiments to revive 
 player might choose to create a new character to carry on. The group might fail to complete a mission successfully,
 but if everyone had a good time and created a memorable story, they all win.
 
-<me-source-reference pages="2" source="basic"></me-source-reference>
+<me-source-reference pages="2" source="basic" />

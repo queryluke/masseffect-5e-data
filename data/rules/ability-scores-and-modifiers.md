@@ -15,6 +15,6 @@ Each ability also has a modifier, derived from the score and ranging from -5 (fo
 score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores,
 from 1 to 30.
 
-<ai-dialog title="Ability Scores and Modifiers" component="ability-score-modifiers"></ai-dialog>
+<me-more-info title="Ability Scores and Modifiers" component="ability-score-modifiers" />
 
 <me-source-reference pages="76"></me-source-reference>

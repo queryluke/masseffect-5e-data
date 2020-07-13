@@ -50,7 +50,7 @@ Weapons equipped in a slot do not affect your carry capacity. Any additional wea
 __Armor__. The Armor Bonuses and Limitations table has a minimum Strength score for the combination of armor types. You
 must meet or exceed that score.
 
-<ai-dialog title="Armor Bonuses and Limitations" component="armor-bonuses-limitations"></ai-dialog>
+<me-more-info title="Armor Bonuses and Limitations" component="armor-bonuses-limitations" />
 
 ### Variant: Encumbrance <v-chip color="warning" text-color="black" small>change</v-chip>
 

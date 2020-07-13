@@ -589,7 +589,7 @@
       "bludgeoning"
     ],
     "castingTime": "Action",
-    "duration": null,
+    "duration": "Instant",
     "concentration": false,
     "distance": {
       "range": "20m",
@@ -979,7 +979,7 @@
     ],
     "damageType": [],
     "castingTime": "Reaction, which you take when you see a creature casting a biotic spell",
-    "duration": null,
+    "duration": "Instant",
     "concentration": false,
     "distance": {
       "range": "30m",

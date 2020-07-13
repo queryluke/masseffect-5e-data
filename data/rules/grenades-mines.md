@@ -34,4 +34,4 @@ It is recommended that each higher mark costs at least 1.5 times more credits th
 - IX: 13,000
 - X: 20,000
 
-<v-btn to="/phb/grenades" color="primary">Grenades & Mines</v-btn>
+<v-btn to="/grenades" color="secondary" nuxt>Grenades & Mines</v-btn>

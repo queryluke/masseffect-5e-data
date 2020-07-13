@@ -56,8 +56,8 @@ Then, if you take no damage until the start of your next turn, your shields begi
 points equal to your armor's regen stat. You continue to gain shield points equal to your regen stat at the start of each
 of your turns. If you take damage or you reach your maximum shield point capacity, the regeneration ends.
 
-<v-alert :value="true" type="info">
-<p><strong>SHIELD REGENERATION EXAMPLE</strong></p>
+::: alert
+___SHIELD REGENERATION EXAMPLE___
 Todd is playing human vanguard name Todd who has invested heavily in his armor's shields, giving him 20 shield points
 with a regen of 10. Todd rushes into a Reaper hoard of marauders who unleash a volley of bullets at him, bringing his
 shields to 4. On his turn, Todd thinks better of his actions and decides to take the Dodge action, ducking behind a crate.
@@ -72,9 +72,7 @@ regeneration would have ended.
 
 On Todd's next turn, he gains another 10 shield points, putting him back to his maximum capacity of 20 and the regeneration
 ends.
-</v-alert>
-
-<br>
+:::
 
 ### Lightning Damage
 All shields are vulnerable to lightning damage. In the event that a lighting attack removes all shield points, the

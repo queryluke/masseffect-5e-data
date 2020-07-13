@@ -45,7 +45,7 @@ the Disengage action can also kick off your shield regeneration, detailed later.
 
 
 
-### Dodge <v-chip color="warning" text-color="black" small>change</v-chip></h4>
+### Dodge <v-chip color="warning" text-color="black" small>change</v-chip>
 When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack
 roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.
 You lose this benefit if you are incapacitated or if your speed drops to 0.
@@ -65,9 +65,9 @@ your next turn, the first attack roll is made with advantage.
 
 
 
-### Hide <v-chip color="warning" text-color="black" small>change</v-chip></h4>
+### Hide <v-chip color="warning" text-color="black" small>change</v-chip>
 When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for
-<nuxt-link to="/phb/rules/using-ability-scores#dexterity">hiding</nuxt-link>.
+[hiding](/manual/using-ability-scores#dexterity).
 
 If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later.
 

@@ -39,10 +39,11 @@ __Chaotic evil (CE)__ creatures act with arbitrary violence, spurred by their gr
 Some Krogan, batarians, and some Vorcha are chaotic evil.
 
 
-<v-alert type="info" :value="true">
-<strong>BUILDING KALEEM, STEP 4.B</strong><br>
+::: alert
+__BUILDING KALEEM, STEP 4.B__
+
 Sam picks a lawful alignment for Kaleem, as she buys into the tradition of the Blue Suns and respects their codes. Kaleem's
 lack of empathy makes her neutral in her disposition for moral codes.
-</v-alert>
+:::
 
 <me-source-reference pages="8-9, 33-34" source="basic"></me-source-reference>

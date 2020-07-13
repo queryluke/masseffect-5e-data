@@ -54,8 +54,6 @@ your next turn. While hardened, any attempt to sabotage your ship will have disa
 Choose a target from the table below and make an Intelligence (Electronics) check. The DC of this check and its effect
 on a success is determined by the chosen target. You must choose your target before making your Intelligence check.
 
-<div class="markdown-content">
-
 Target | DC | Effect
 --- | --- | ---
 SSC | 10 | Target cannot take the Scan action until the start of your next turn.
@@ -63,10 +61,6 @@ Helm | 12 | Target has disadvantage on Maneuver and Hard Maneuver checks until t
 Shields | 15 | Reduce the targets shields by 1d4 (x50)
 Navigation | 18 | The target ship cannot Flee.
 Weapons | 20 | Target has disadvantage on Attack and Targeted attack rolls until the start of your next turn.
-
-</div>
-
-<br>
 
 #### Scan - SSC
 Make a DC 15 Intelligence (Investigation) check as your peruse the logs of incoming ship data. On a success, you may

@@ -22,7 +22,7 @@ function setType(dir) {
     { type: 'character', items: ['backgrounds', 'feats', 'races', 'traits', 'subraces'] },
     { type: 'equipment', items: ['grenades', 'programs', 'tools', 'vehicles', 'armor-mods', 'armor', 'weapon-mods', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
-    { type: 'spell', items: ['spells'] },
+    { type: 'power', items: ['powers'] },
     { type: 'bestiary', items: ['bestiary'] },
   ]
 
@@ -50,7 +50,7 @@ const files = [
   'grenades',
   'programs',
   'races',
-  'spells',
+  'powers',
   'tools',
   'vehicles',
   'armor-mods',

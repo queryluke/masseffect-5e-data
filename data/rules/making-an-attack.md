@@ -12,8 +12,6 @@ against the target. In addition, spells, special abilities, and other effects ca
 3. __Resolve the attack__. You make the attack roll. On a hit, you roll damage, unless the particular attack has rules
 that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
 
-<br>
-
 If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an
 attack roll, you're making an attack.
 

@@ -8,9 +8,7 @@ name, physical description, and personality might be the first things that the o
 It’s worth thinking about how these characteristics reflect the character you have in mind. Or you can randomize you 
 characters height and weight.
 
-<ai-dialog title="Random Height & Weight Table" component="random-height-weight" />
-
-<br>
+<me-more-info title="Random Height & Weight Table" component="random-height-weight" />
 
 ### Your Character's Abilities
 Take your character’s ability scores and race into account as you flesh out his or her appearance and personality. A very
@@ -34,12 +32,12 @@ low Wisdom might be absent-minded, foolhardy, or oblivious.
 A character with high Charisma exudes confidence, which is usually mixed with a graceful or intimidating presence. A
 character with a low Charisma might come across as abrasive, inarticulate, or timid.
 
-<v-alert type="info" :value="true">
-<strong>BUILDING KALEEM, STEP 4</strong><br>
+::: alert
+__BUILDING KALEEM, STEP 4__
 Sam lets her ability scores influence the type of character Kaleem is: her high Intelligence suggests a rapid, focused
 mind, higher Strength and Constitution suggest a healthy, athletic body, and her low Charisma suggests stand-offish or
 awkward social decorum.
-</v-alert>
+:::
 
 <me-source-reference pages="8-9" source="basic"></me-source-reference>
 

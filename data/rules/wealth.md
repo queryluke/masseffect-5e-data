@@ -16,6 +16,8 @@ shopkeepers, operatives, and those offering professional services for hire commo
 __Credits__ are the only type of currency in Mass Effect. The guideline conversion rate from D&D 5th Edition to Mass
 Effect 5e is:
 
-<p class="headline">1 gp ~= 100 credits</p>.
+::: alert
+### 1 gp ~= 100 credits
+:::
 
 <me-source-reference pages="43" source="basic"></me-source-reference>

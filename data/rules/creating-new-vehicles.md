@@ -11,7 +11,7 @@ when creating your vehicle.
 First, you'll want to create a concept for your vehicle. What is its main purpose (defense, offense, transport, smuggling, etc)?
 What race(s) are associated with the vehicle? Is it unique or mass produced? What does it look like? What size is it?
 
-If you're looking for inspiration, check out <a href="https://www.deviantart.com/euderion/gallery/40849119/MASS-EFFECT" target="_blank">Euderion's vehicle creations on DeviantArt</a>.
+If you're looking for inspiration, check out [Euderion's vehicle creations on DeviantArt](https://www.deviantart.com/euderion/gallery/40849119/MASS-EFFECT).
 
 ### Name
 Next, you'll need a good name for your vehicle. Mass produced vehicles typically have some sort of manufacturing number
@@ -50,8 +50,6 @@ How durable is your vehicle's armor? Or how difficult is it to hit? ACs for vehi
 Use the following table to find the average hull points and shield points. You should adjust the average based on the
 concept of your vehicle. Was it made for defense? Add more HP. Does it has a state-of-the-art drive, add more SP.
 
-<div class="markdown-content">
-
 Type | HP | SP
 --- | --- | ---
 Transport | 150 | 50
@@ -59,10 +57,6 @@ Frigate | 1200 | 250
 Cruiser | 2000 | 500
 Carrier | 3500 | 750
 Dreadnought | 6000 | 1500
-
-</div>
-
-<br>
 
 ### Systems
 Next, you'll want to decide how many systems your vehicle has. You can either make combined systems (for smaller vehicles)
@@ -77,7 +71,6 @@ To find the minimum crew, add the number of crew needed for each of the systems.
 #### Maximum
 The maximum crew is generally based on the size of the vehicle
 
-<div class="markdown-content">
 
 Type | Max Crew
 --- | ---
@@ -89,10 +82,6 @@ Frigate | 20-30
 Cruiser | 30-100
 Carrier | 100-1000
 Dreadnought | 1000+
-
-</div>
-
-<br>
 
 ### Weapons
 
@@ -150,4 +139,4 @@ or available system slots.
 ### Share with Us!
 
 If you'd like to have your creation added, feel free to share it with us! Check out the
-<nuxt-link to="/contributing">contributing section</nuxt-link> for more details.
+[contributing section](/contributing) for more details.

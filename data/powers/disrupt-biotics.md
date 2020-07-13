@@ -8,7 +8,7 @@ effect:
 - control
 damageType: []
 castingTime: Reaction, which you take when you see a creature casting a biotic spell
-duration: 
+duration: Instant
 concentration: false
 distance:
   range: 30m

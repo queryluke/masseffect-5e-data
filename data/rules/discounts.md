@@ -18,7 +18,6 @@ Intimidation checks or Paragon modifier for Persuasion checks. The result of thi
 - __Success__: +20
 - __Critical Success__: +50
 
-<br>
 
 Finally, the GM or player rolls a d100 adding the modifier from the previous step. Consult the following table for the resolution.
 

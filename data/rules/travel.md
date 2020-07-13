@@ -21,8 +21,6 @@ figure, turn-of-phase, or mystical entity that is best represented as Athena in 
 
 ### Traveling between clusters, systems, and planets
 
-<br>
-
 #### Space Transports
 There four types of transports in the game: land, water, air, and space. To leave a planet or move between planets in a 
 system requires a space transport. For simplicity's sake, travel within a system (from any celestial body to 
@@ -57,7 +55,7 @@ the system that contains the mass effect relay. Then you can jump to another clu
 Mass Relays are connected as a network, but travel between relays might require additional jumps. I.e., unlike travel
 between planets and systems, you can only move between clusters following the lines on the map.
 
-<v-alert type="info" :value="true">
+::: alert
 
 __EXAMPLE TRAVEL__
 
@@ -69,4 +67,4 @@ Phoenix system to the Hydra system which contains the Mass Relay for the Argos R
 Relay jumps (Argos Rho > Horse Head Nebula > Serpent Nebula), arriving in the Widow system where the Citadel is located.
 For our group, this would take as little as 24 but no more than 48 hours to complete the journey.
 
-</v-alert>
+:::
