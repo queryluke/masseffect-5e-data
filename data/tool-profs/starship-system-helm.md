@@ -1,8 +1,6 @@
 ---
-id: starship_system_helm
 name: "Starship System (Helm)"
 type: starship
-cost: 0
 ---
 
 A Starship's helm is the pilot seat. While most ships can be piloted by VI, the pilot monitors an array of sensors

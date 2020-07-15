@@ -1,8 +1,6 @@
 ---
-id: starship_system_ews
 name: "Starship System (EWS)"
 type: starship
-cost: 0
 ---
 
 The ability to temporarily disable maneuverability or targeting systems on a ship can be the difference between winning

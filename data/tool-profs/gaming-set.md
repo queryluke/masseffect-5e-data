@@ -1,15 +1,8 @@
 ---
-id: gaming_set
 name: "Gaming Set"
-type: gaming
-cost: 100
 ---
 
-
 Proficiency with a gaming set applies to one type of game, such as Skyllian-5 or games of chance that use dice.
-
-__Components__. A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck
-of cards or a board and tokens.
 
 __History__. Your mastery of a game includes knowledge of its history, as well as of important events it was connected
 to or prominent historical figures involved with it.

@@ -1,13 +1,9 @@
 ---
-id: cooks_utensils
 name: "Cook's Utensils"
 type: artisan
-cost: 1000
 ---
 
 With a cook in your party, your meals will be much better than the typical mix of nutrient bars and protein soup.
-
-__Components__. A metal pot, knives, forks, a stirring spoon, and a ladle.
 
 __History__. Your knowledge of cooking techniques allows you to assess the social patterns involved in a culture's eating habits.
 

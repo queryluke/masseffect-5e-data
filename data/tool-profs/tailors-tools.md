@@ -1,14 +1,10 @@
 ---
-id: tailors_tools
 name: "Tailor's Tools"
 type: artisan
-cost: 6000
 ---
 
 Tailor's tools allow you to work with fabrics and nano-materials to reshape armor for different races,
 repair damage, or install armor mods.
-
-__Components__. All the necessary tools to work with light armor.
 
 __History__. Your expertise lends you additional insight when examining light armor.
 
@@ -30,5 +26,5 @@ section of armor for more information.
 * __Create omni-gel__. Break down a piece of light armor, gaining omni-gel equal to the amount listed on the
 omni-gel yield table.
 
-<ai-dialog title="Omni-gel Yield" component="omni-gel-yield"></ai-dialog>
+<me-more-info title="Omni-gel Yield" component="omni-gel-yield" />
 

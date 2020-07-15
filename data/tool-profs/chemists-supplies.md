@@ -1,14 +1,9 @@
 ---
-id: chemists_supplies
 name: "Chemist's Supplies"
 type: artisan
-cost: 4000
 ---
 
 Chemists can create helpful drugs such as NSAIDs but can also create powerful concoctions of mind-altering drugs and even poisons.
-
-__Components__. A small bunsen burner, a set of glass vials and beakers, a small metal frame for holding vials over heat,
-a centrifuge, and a collection of chemicals.
 
 __History__. Your training in chemistry can help you when you try to recall facts about drug -elated events, medical breakthroughs,
  and infamous poisonings.

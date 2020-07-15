@@ -1,14 +1,8 @@
 ---
-id: medical_kit
 name: "Medical Kit"
-type: null
-cost: 5000
 ---
 
 Medical Kits contain the necessary tools and supplies to triage injuries and treat diseases.
-
-__Components__. A bio-scanner, medical foam, quick-hardening cast tape, a scalpel with 10 blades, a bone saw,
-and a pouch that can carry up to 4 medi-gel.
 
 __Insight__. When you spend 1 minute observing an organic creature, you gain additional insight on if the creature is injured or weakened.
 

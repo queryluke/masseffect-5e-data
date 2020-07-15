@@ -1,15 +1,10 @@
 ---
-id: tinkers_tools
 name: "Tinker's Tools"
 type: artisan
-cost: 3000
 ---
 
 A set of tinker's tools is designed to create small, inventive devices from omni-gel. Some examples include a motion sensor,
 a desalinator, a compass, a light source, or a small EMP device.
-
-__Components__. Tinker's tools include a variety of hand tools, wires, scraps of metal, batteries, microcircuit boards,
-adhesives, paint, and a pouch that can hold up to 10 omni-gel canisters.
 
 __History__. You can determine the age and origin of objects, even if you have only a few pieces remaining from the original.
 
@@ -20,7 +15,7 @@ As long as the break or tear is no larger than 30 cm (~ 1 foot) in any dimension
 
 __Repair__. You can restore 10 hit points to a damaged object for 1 omni-gel and an hour of work.
 
-__Craft Armor or Weapon Mod__. See the <nuxt-link to="/phb/rules/missions#between-missions">crafting</nuxt-link> section
+__Craft Armor or Weapon Mod__. See the [crafting](/rules/missions#between-missions) section
 of downtime activities for more information.
 
 Activity | DC

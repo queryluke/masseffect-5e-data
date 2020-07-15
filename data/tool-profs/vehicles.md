@@ -1,8 +1,5 @@
 ---
-id: vehicles
 name: "Vehicles"
-type: null
-cost: null
 ---
 
 Proficiency with a vehicle applies to one type of environment. The proficiency reflects the ability to navigate and maneuver

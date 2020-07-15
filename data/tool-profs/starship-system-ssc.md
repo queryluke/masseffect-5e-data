@@ -1,8 +1,6 @@
 ---
-id: starship_system_ssc
 name: "Starship System (SSC)"
 type: starship
-cost: 0
 ---
 
 Proficiency with a ships SSC equipment represents your ability to quickly analyze scanning logs and make long distance telemetry

@@ -1,13 +1,9 @@
 ---
-id: weaponsmiths_workbench
 name: "Weaponsmith's Workbench"
 type: artisan
-cost: 6000
 ---
 
 A weaponsmith's workbench allows you to customize, craft, and repair weapons.
-
-__Components__. All the necessary tools to work with weapons.
 
 __History__. Your expertise lends you additional insight when examining weapons.
 
@@ -29,5 +25,5 @@ A customized weapon becomes Special and any installed mods are removed.
   * +1 to hit on attack rolls
 * __Create omni-gel__. Break down a weapon, gaining omni-gel equal to the amount listed on the omni-gel yield table.
 
-<ai-dialog title="Omni-gel Yield" component="omni-gel-yield"></ai-dialog>
+<me-more-info title="Omni-gel Yield" component="omni-gel-yield" />
 

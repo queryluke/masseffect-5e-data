@@ -1,13 +1,8 @@
 ---
-id: disguise_kit
 name: "Disguise Kit"
-type: null
-cost: 2500
 ---
 
 The perfect tool for anyone who wants to engage in trickery, a disguise kit enables its owner to adopt a false identity.
-
-__Components__. A pouch of cosmetics, dyes, and a micro-fabricator.
 
 __Deception__. In certain cases, a disguise can improve your ability to weave convincing lies.
 

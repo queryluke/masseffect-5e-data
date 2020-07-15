@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Arcade Game",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 100,
+    "weight": 0,
+    "html": "<p>These small programs can be installed onto omni-tools and played with nearby players. Popular games include\n<em>Alliance Corsair</em>, <em>Relay Defense</em>, <em>Shattered Eezo</em>, and <em>N7 Code of Honor: Medal of Duty</em>.</p>\n",
+    "id": "arcade-game"
+  },
+  {
+    "name": "Armorsmith's Workbench",
+    "type": "Tool",
+    "subType": "Artisan",
+    "cost": 6000,
+    "weight": 30,
+    "html": "<p>All the necessary tools to work with medium and heavy armor.</p>\n",
+    "id": "armorsmiths-workbench"
+  },
+  {
+    "name": "Brewer's Supplies",
+    "type": "Tool",
+    "subType": "Artisan",
+    "cost": 1000,
+    "weight": 9,
+    "html": "<p>A large glass jug, a quantity of hops, a siphon, and several meters of tubing, bottles, and a distiller.</p>\n",
+    "id": "brewers-supplies"
+  },
+  {
+    "name": "Chemist's Supplies",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 4000,
+    "weight": 8,
+    "html": "<p>A small bunsen burner, a set of glass vials and beakers, a small metal frame for holding vials over heat,\na centrifuge, and a collection of chemicals.</p>\n",
+    "id": "chemists-supplies"
+  },
+  {
+    "name": "Chess Set",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 200,
+    "weight": 1,
+    "html": "<p>A game developed on Earth in the 11th century. Chess became popular with elcor after the Alliance established an\nembassy on the Citadel.</p>\n",
+    "id": "chess-set"
+  },
+  {
+    "name": "Cook's Utensils",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 1000,
+    "weight": 8,
+    "html": "<p>A metal pot, knives, forks, a stirring spoon, and a ladle.</p>\n",
+    "id": "cooks-utensils"
+  },
+  {
+    "name": "Disguise Kit",
+    "type": "Tool",
+    "cost": 2500,
+    "weight": 3,
+    "html": "<p>A pouch of cosmetics, dyes, and a micro-fabricator.</p>\n",
+    "id": "disguise-kit"
+  },
+  {
+    "name": "Firebreathing Thresher Maws of Doom Set",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 1000,
+    "weight": 5,
+    "html": "<p>What began as (and still is) a krogan childrens' game where miniature flamethrowers are used to burn each others'\npieces on a map, grew into a complex and popular miniature wargame. The flamethrowers are still used.</p>\n",
+    "id": "fbtmd"
+  },
+  {
+    "name": "Galaxy of Fantasy Link",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 250,
+    "weight": 0,
+    "html": "<p>A massively multiplayer extranet role-playing game based on turian mythology. It has over 11 billion players. The\nrecently released expansion Waters of Kolono dominated sales charts and adds 200-300 hours of gameplay. Skilled\nplayers can earn favors by gathering and trading virtual valuables.</p>\n",
+    "id": "galaxy-of-fantasy-link"
+  },
+  {
+    "name": "Hacking Tools",
+    "type": "Tool",
+    "cost": 5000,
+    "weight": 1,
+    "html": "<p>A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of\nsecurity counter-measure scripts, and an air-gapped computer interface.</p>\n",
+    "id": "hacking-tools"
+  },
+  {
+    "name": "Kepesh-Yakshi Board",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 200,
+    "weight": 5,
+    "html": "<p>An asari game that has been translated into portable, virtual form. This complex game requires strategy and incisive thinking\nto command a small fleet to take your opponent's &quot;homeworld.&quot; Some versions include &quot;neural feedback&quot; which\ndelivers a mild shock to the player when they lose a piece, which serves to disincentive casually sacrificing pieces.</p>\n",
+    "id": "kepesh-yakshi"
+  },
+  {
+    "name": "Medical Kit",
+    "type": "Tool",
+    "cost": 5000,
+    "weight": 5,
+    "html": "<p>A bio-scanner, medical foam, quick-hardening cast tape, a scalpel with 10 blades, a bone saw,\nand a pouch that can carry up to 4 medi-gel.</p>\n",
+    "id": "medical-kit"
+  },
+  {
+    "id": "musical-instrument",
+    "name": "Musical Instrument",
+    "type": "artisan",
+    "cost": 1000,
+    "html": "<p>Proficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have\nknowledge of some songs commonly performed with that instrument.</p>\n<p><strong>History</strong>. Your expertise aids you in recalling lore related to your instrument.</p>\n<p><strong>Performance</strong>. Your ability to put on a good show is improved when you incorporate an instrument into your act.</p>\n<p><strong>Compose a Tune</strong>. As part of a long rest, you can compose a new tune and lyrics for your instrument.</p>\n<p><strong>Distracting Performance</strong>. While performing with your instrument, you can try to distract one humanoid you can see who\ncan see and hear you. Make a Charisma (Performance) check with your instrument contested by the humanoid's Wisdom (Insight)\ncheck. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom (Perception) and\nIntelligence (Investigation) checks with disadvantage until you stop performing.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Activity</th>\n<th>DC</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Identify a tune</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Improvise a tune</td>\n<td>20</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
+    "name": "Painter's Supplies",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 500,
+    "weight": 5,
+    "html": "<p>Electronic design tablet with a number of software, a holographic projector, and a variety of tangible painting\ndevices (oils, charcoal, colored pencils, etc).</p>\n",
+    "id": "painters-supplies"
+  },
+  {
+    "name": "Playing Cards",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 10,
+    "weight": 0,
+    "html": "<p>A deck of cards used to play a variety of different card games. A human deck would allow you to play games like\nSolitaire and Skyllian-5 Poker.</p>\n",
+    "id": "playing-cards"
+  },
+  {
+    "name": "Tailor's Tools",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 6000,
+    "weight": 10,
+    "html": "<p>All the necessary tools to work with light armor.</p>\n",
+    "id": "tailors-tools"
+  },
+  {
+    "name": "Thieves' tools",
+    "type": "Tool",
+    "cost": 3000,
+    "weight": 5,
+    "html": "<p>A cordless screwdriver, a set of common security panel slicers, a 1m long endoscope, a spray can of liquid nitrogen,\nand a pair of pliers with wire-cutter insets.</p>\n",
+    "id": "thieves-tools"
+  },
+  {
+    "name": "Tinker's Tools",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 3000,
+    "weight": 10,
+    "html": "<p>Tinker's tools include a variety of hand tools, wires, scraps of metal, batteries, microcircuit boards,\nadhesives, paint, and a pouch that can hold up to 10 omni-gel canisters.</p>\n",
+    "id": "tinkers-tools"
+  },
+  {
+    "name": "Weaponsmith's Workbench",
+    "type": "Tool",
+    "subType": "Artisan",
+    "cost": 6000,
+    "weight": 30,
+    "html": "<p>All the necessary tools to work with weapons.</p>\n",
+    "id": "weaponsmiths-workbench"
+  }
+]

@@ -1,11 +1,9 @@
 ---
-id: starship_system_drive
 name: "Starship System (Drive)"
 type: starship
-cost: 0
 ---
 
-Proficiency with a starships drive core represents your ability to maintain, repair, and improve the drive of a starship.
+Proficiency with a starship's drive core represents your ability to maintain, repair, and improve the drive of a starship.
 
 __Engineering__. Gain additional insight when taking the Repair, Advanced Repair, System Repair, or Restore actions 
 during starship combat.

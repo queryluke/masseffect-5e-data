@@ -1,14 +1,10 @@
 ---
-id: painters_supplies
 name: "Painter's Supplies"
 type: artisan
-cost: 500
 ---
 
 Proficiency with painter's supplies represents your ability to paint and draw, design decals and paint jobs for armor and vehicles,
 and create propaganda. You also acquire an understanding of art history, which can aid you in examining works of art.
-
-__Components__. Electronic design tablet with a number of software, a holographic projector, and a variety of tangible painting devices (oils, charcoal, colored pencils, etc).
 
 __Insight__. Your expertise allows you to glimpse the emotional states of other artists by viewing their works of art.
 

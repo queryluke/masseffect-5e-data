@@ -1,19 +1,14 @@
 ---
-id: armorsmiths_workbench
 name: "Armorsmith's Workbench"
 type: artisan
-cost: 6000
 ---
 
 An armorsmith's workbench allows you to work with alloys and ceramic plates, letting you reshape armor for different races,
 repair damage, or install armor mods.
 
-__Components__. All the necessary tools to work with medium and heavy armor.
-
 __History__. Your expertise lends you additional insight when examining heavy and medium armor.
 
 __Investigation__. You can spot clues and make deductions that others might overlook when an investigation involves heavy or medium armor.
-
 
 ### Activities
 With access to your workbench, you can perform one of the following activities as part of a long rest.
@@ -31,5 +26,4 @@ section of armor for more information.
 * __Create omni-gel__. Break down a piece of heavy or medium armor, gaining omni-gel equal to the amount listed on the
 omni-gel yield table.
 
-<ai-dialog title="Omni-gel Yield" component="omni-gel-yield"></ai-dialog>
-
+<me-more-info title="Omni-gel Yield" component="omni-gel-yield" />

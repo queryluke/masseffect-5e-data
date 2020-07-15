@@ -1,17 +1,11 @@
 ---
-id: thieves_tools
 name: "Thieves' tools"
-type: null
-cost: 3000
 ---
 
 Thieves' tools are used to _manually_ disarm traps, breach security doors, and open locked containers. Criminals prefer thieves'
 tools over hacking tools because they're cheaper and more reliable. For most, trying to outsmart a security VI can be near impossible,
 but snipping a few wires is easy if you know the right ones to cut. Proficiency with the tools also grants you a general knowledge
 of traps, security systems, and locks.
-
-__Components__. A cordless screwdriver, a set of common security panel slicers, a 1m long endoscope, a spray can of liquid nitrogen,
-and a pair of pliers with wire-cutter insets.
 
 __History__. Your knowledge of security systems grants you insight when answering questions about locations that are renowned for their
 security.

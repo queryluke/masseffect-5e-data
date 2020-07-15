@@ -63,12 +63,13 @@ const mdDirs = [
   'class-spellcasting',
   'conditions',
   'feats',
+  'items',
   'grenades',
   'programs',
   'races',
   'powers',
   'subraces',
-  'tools',
+  'tool-profs',
   'traits',
   'vehicles'
 ]

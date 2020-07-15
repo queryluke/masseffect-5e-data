@@ -1,16 +1,10 @@
 ---
-id: hacking_tools
 name: "Hacking Tools"
-type: null
-cost: 5000
 ---
 
 Hacking tools are used to override security systems in order to gain access to encrypted files, open locked doors, or
 sabotage security devices such as cameras, turrets, or mechs. Proficiency with the tools also grants you a general knowledge
 of VIs, encryption techniques, and cryptography.
-
-__Components__. A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of
-security counter-measure scripts, and an air-gapped computer interface.
 
 __Perception__. You're understanding of patterns and cryptography gives you insight when discerning information from unknown languages.
 
