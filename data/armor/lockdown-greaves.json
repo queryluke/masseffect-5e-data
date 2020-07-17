@@ -4,11 +4,15 @@
   "type": "Legs",
   "armorType": "Heavy",
   "description": "A pair of leg armor pieces that connect the wearer's boots to the suit's power supply, turning the boots into a powerful electromagnet.",
-  "feature": "As a bonus action, the wearer can activate the effect of the greaves to stick to the surface they are walking on, provided it's made of metal. This can aid them in walking up walls, upside down, etc. If the surface is metal, the user is immune to being lifted, otherwise, they have advantage on saving throws against being lifted. The effect lasts for 1 minute and can only be used once per short rest.",
-  "setBonus": null,
-  "cost": "18700",
+  "setBonus": [],
+  "cost": 18700,
   "manu": "Hahne-Kedar",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/09/ME3_hahne_kedar_legs.png/revision/latest/scale-to-width-down/100?cb=20120314172009",
-  "notes": "Special",
-  "andromeda": null
+  "notes": [
+    "Special"
+  ],
+  "andromeda": false,
+  "features": [
+    "As a bonus action, the wearer can activate the effect of the greaves to stick to the surface they are walking on, provided it's made of metal. This can aid them in walking up walls, upside down, etc. If the surface is metal, the user is immune to being lifted, otherwise, they have advantage on saving throws against being lifted. The effect lasts for 1 minute and can only be used once per short rest."
+  ]
 }

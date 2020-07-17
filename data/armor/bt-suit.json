@@ -4,11 +4,15 @@
   "type": "Body Armor",
   "armorType": "Light",
   "description": "Equipped with a full battle telemetry system to increase Omni-tool power efficiency.",
-  "feature": "You can regain 2d4 tech points every short rest.",
-  "setBonus": null,
-  "cost": "73950",
+  "setBonus": [],
+  "cost": 73950,
   "manu": "Rosenkov Materials",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0d/Light-human-Titan.png/revision/latest/scale-to-width-down/160?cb=20100209143517",
-  "notes": "Spell Regen",
-  "andromeda": null
+  "notes": [
+    "Spell Regen"
+  ],
+  "andromeda": false,
+  "features": [
+    "You can regain 2d4 tech points every short rest."
+  ]
 }

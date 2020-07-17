@@ -4,11 +4,15 @@
   "type": "Arms",
   "armorType": "Medium",
   "description": "Arm gauntlets that contain power cells that fuel a miniature version of a starship's standard GARDIAN point defense lasers.",
-  "feature": "When you are forced to make a saving throw from a heavy weapon attack that required targeting, you may use your reaction to reduce the damage done to you to 0. You may use this feature once per long rest.",
-  "setBonus": null,
-  "cost": "40800",
+  "setBonus": [],
+  "cost": 40800,
   "manu": "Hahne-Kedar",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/07/ME3_hahne_kedar_arms.png/revision/latest/scale-to-width-down/130?cb=20120311003749",
-  "notes": "Special",
-  "andromeda": null
+  "notes": [
+    "Special"
+  ],
+  "andromeda": false,
+  "features": [
+    "When you are forced to make a saving throw from a heavy weapon attack that required targeting, you may use your reaction to reduce the damage done to you to 0. You may use this feature once per long rest."
+  ]
 }

@@ -4,11 +4,18 @@
   "type": "Body Armor",
   "armorType": "Medium",
   "description": "Built specifically for Cerberus field officers, the Inferno armor has a VI dedicated to recognizing signs of stress and medical trauma. This application helps assess soldiers but can be useful in any high-risk situations. The Inferno's microframe computer also manages biotic amp and omni-tool power, and microservos help the wearer's movements to counteract the armor's weight.",
-  "feature": "+1 bonus to spell attack rolls and spell saving throw DCs.",
-  "setBonus": "Set bonus (2 of 2): When you lose hit points, as a reaction, you may expend a charge of medi-gel.",
-  "cost": "31600",
+  "setBonus": [
+    "Set bonus (2 of 2): When you lose hit points, as a reaction, you may expend a charge of medi-gel."
+  ],
+  "cost": 31600,
   "manu": "Cerberus Skunkworks",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/96/ME3_Inferno_Armor.png/revision/latest?cb=20120314170848",
-  "notes": "Attack Bonus, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Attack Bonus",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "+1 bonus to spell attack rolls and spell saving throw DCs."
+  ]
 }

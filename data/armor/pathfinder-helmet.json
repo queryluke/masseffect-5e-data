@@ -4,11 +4,19 @@
   "type": "Head",
   "armorType": "Medium",
   "description": "Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.",
-  "feature": "+1 bonus to weapon attack rolls",
-  "setBonus": "Set bonus (3 of 4): Any critical hit against you becomes a normal hit. --Set bonus (4 of 4): You gain a +5 bonus to initiative as long as you aren't incapacitated.",
-  "cost": "34750",
+  "setBonus": [
+    "Set bonus (3 of 4): Any critical hit against you becomes a normal hit.",
+    "Set bonus (4 of 4): You gain a +5 bonus to initiative as long as you aren't incapacitated."
+  ],
+  "cost": 34750,
   "manu": "Andromeda Initiative",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/88/MEA_Pathfinder_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180508010309",
-  "notes": "Attack Bonus, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Attack Bonus",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "+1 bonus to weapon attack rolls"
+  ]
 }

@@ -4,11 +4,19 @@
   "type": "Arms",
   "armorType": "Medium",
   "description": "Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.",
-  "feature": "When you roll a 1 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1.",
-  "setBonus": "Set bonus (3 of 4): Any critical hit against you becomes a normal hit. --Set bonus (4 of 4): You gain a +5 bonus to initiative as long as you aren't incapacitated.",
-  "cost": "24550",
+  "setBonus": [
+    "Set bonus (3 of 4): Any critical hit against you becomes a normal hit.",
+    "Set bonus (4 of 4): You gain a +5 bonus to initiative as long as you aren't incapacitated."
+  ],
+  "cost": 24550,
   "manu": "Andromeda Initiative",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/89/MEA_Pathfinder_Vigilant_Arms.png/revision/latest/scale-to-width-down/350?cb=20180507232659",
-  "notes": "Extra Damage, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Extra Damage",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "When you roll a 1 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1."
+  ]
 }

@@ -4,11 +4,17 @@
   "type": "Body Armor",
   "armorType": "Light",
   "description": "Devlon Industries' Liberator Armor is a simple upgrade to most light armor.",
-  "feature": "10 shields (regen 5). --+1 AC",
-  "setBonus": null,
-  "cost": "37500",
+  "setBonus": [],
+  "cost": 37500,
   "manu": "Devlon Industries",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/86/Light-human-Liberator.png/revision/latest/scale-to-width-down/160?cb=20100209143513",
-  "notes": "Shields, AC",
-  "andromeda": null
+  "notes": [
+    "Shields",
+    "AC"
+  ],
+  "andromeda": false,
+  "features": [
+    "10 shields (regen 5).",
+    "+1 AC"
+  ]
 }

@@ -4,11 +4,18 @@
   "type": "Body Armor",
   "armorType": "Medium",
   "description": "The Andromeda Initiative's mission is one of discovery and exploration, as well as colonization. Readying personnel to journey into harsh environments-and even the void of space was always part of the plan. Thus, the Initiative's custom Deep Space Explorer (DSE) hardsuit is equipped with multiple environment seals, failsafes, a hefty liquid oxygen supply, a formidable kinetic barrier generator, and an array of scientific instruments. Although many were built, most were mysteriously lost en route to Andromeda.",
-  "feature": "Resistance to cold and fire damage.",
-  "setBonus": "Set bonus (2 of 2): Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours.",
-  "cost": "56100",
+  "setBonus": [
+    "Set bonus (2 of 2): Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours."
+  ],
+  "cost": 56100,
   "manu": "Andromeda Initiative",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/59/MEA_Deep_Space_Explorer_Armor.png/revision/latest?cb=20180513201310",
-  "notes": "Resistance, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Resistance",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "Resistance to cold and fire damage."
+  ]
 }

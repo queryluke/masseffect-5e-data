@@ -4,11 +4,15 @@
   "type": "Body Armor",
   "armorType": "Light",
   "description": "Basic armor offering a minor upgrade to shield capacitors.",
-  "feature": "10 shields (regen 5)",
-  "setBonus": null,
-  "cost": "18700",
+  "setBonus": [],
+  "cost": 18700,
   "manu": "Ariake Technologies",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/d/d5/Medium-human-Mercenary.png/revision/latest/scale-to-width-down/160?cb=20100209162437",
-  "notes": "Shields",
-  "andromeda": null
+  "notes": [
+    "Shields"
+  ],
+  "andromeda": false,
+  "features": [
+    "10 shields (regen 5)"
+  ]
 }

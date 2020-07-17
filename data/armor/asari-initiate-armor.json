@@ -4,11 +4,15 @@
   "type": "Body Armor",
   "armorType": "Light",
   "description": "Standard issue armor for all Asari infantry. Build-in biotic amps provide a minor boost to biotic powers.",
-  "feature": "While wearing this armor, your cantrips are considered to be 1 step higher in their progression. For example, a 1st level player casts a cantrip as if they were at the 5th level. 5th -> 11th. 11th -> 17th. There is no additional effect at the 17th level.",
-  "setBonus": null,
-  "cost": "42500",
+  "setBonus": [],
+  "cost": 42500,
   "manu": "Serrice Council",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/51/Light-human-Phoenix.png/revision/latest/scale-to-width-down/160?cb=20100209134257",
-  "notes": "Extra Damage",
-  "andromeda": null
+  "notes": [
+    "Extra Damage"
+  ],
+  "andromeda": false,
+  "features": [
+    "While wearing this armor, your cantrips are considered to be 1 step higher in their progression. For example, a 1st level player casts a cantrip as if they were at the 5th level. 5th -> 11th. 11th -> 17th. There is no additional effect at the 17th level."
+  ]
 }

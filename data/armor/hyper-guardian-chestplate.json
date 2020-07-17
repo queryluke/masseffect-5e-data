@@ -4,11 +4,22 @@
   "type": "Chest",
   "armorType": "Heavy",
   "description": "HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.",
-  "feature": "10 shields (regen 5). --You are considered proficient with this armor even if you lack proficiency with heavy armor.",
-  "setBonus": "Set bonus (2 of 4): +1 AC. --Set bonus (3 of 4): +10 Shields, +5 Shield Regen. --Set bonus (4 of 4): Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.",
-  "cost": "69700",
+  "setBonus": [
+    "Set bonus (2 of 4): +1 AC.",
+    "Set bonus (3 of 4): +10 Shields, +5 Shield Regen.",
+    "Set bonus (4 of 4): Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount."
+  ],
+  "cost": 69700,
   "manu": "Kassa Fabrication",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/60/MEA_HyperGuardian_Chest.png/revision/latest/scale-to-width-down/350?cb=20180505022848",
-  "notes": "Shields, Special, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Shields",
+    "Special",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "10 shields (regen 5).",
+    "You are considered proficient with this armor even if you lack proficiency with heavy armor."
+  ]
 }

@@ -4,11 +4,15 @@
   "type": "Head",
   "armorType": "Light",
   "description": "The Kestrel armor system's helmet forgoes traditional transparent visors in favor of a reinforced faceplate with an internal heads-up display. The display connects to redundant micro cameras to allow naturalistic vision inside the well-padded interior. ",
-  "feature": "+2 AC",
-  "setBonus": null,
-  "cost": "46750",
+  "setBonus": [],
+  "cost": 46750,
   "manu": "Hahne-Kedar",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/71/ME3_kestrel_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312190815",
-  "notes": "AC",
-  "andromeda": null
+  "notes": [
+    "AC"
+  ],
+  "andromeda": false,
+  "features": [
+    "+2 AC"
+  ]
 }

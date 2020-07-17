@@ -4,11 +4,20 @@
   "type": "Chest",
   "armorType": "Medium",
   "description": "Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.",
-  "feature": "10 shields (regen 10).",
-  "setBonus": "Set bonus (2 of 4): Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount. --Set bonus (4 of 4): +10 shields. +10 shield regen.",
-  "cost": "31300",
+  "setBonus": [
+    "Set bonus (2 of 4): Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.",
+    "Set bonus (4 of 4): +10 shields. +10 shield regen."
+  ],
+  "cost": 31300,
   "manu": "Cerberus Skunkworks",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524",
-  "notes": "Shields, Shield Regen, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Shields",
+    "Shield Regen",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "10 shields (regen 10)."
+  ]
 }

@@ -4,11 +4,20 @@
   "type": "Head",
   "armorType": "Light",
   "description": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
-  "feature": "+1 bonus to melee weapon attack and damage rolls.",
-  "setBonus": "Set bonus (2 of 4): +1 bonus to melee attack and damage rolls. --Set bonus (3 of 4): +1 bonus to melee attack and damage rolls. --Set bonus (4 of 4): +1 bonus to melee attack and damage rolls.",
-  "cost": "21950",
+  "setBonus": [
+    "Set bonus (2 of 4): +1 bonus to melee attack and damage rolls.",
+    "Set bonus (3 of 4): +1 bonus to melee attack and damage rolls.",
+    "Set bonus (4 of 4): +1 bonus to melee attack and damage rolls."
+  ],
+  "cost": 21950,
   "manu": "Cerberus Skunkworks",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest?cb=20160619125819",
-  "notes": "Attack Bonus, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Attack Bonus",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "+1 bonus to melee weapon attack and damage rolls."
+  ]
 }

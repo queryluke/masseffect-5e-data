@@ -4,11 +4,20 @@
   "type": "Head",
   "armorType": "Heavy",
   "description": "The Collectors' chitinous armor is flexible and even tougher than ballistic fibers. Its organic construction allows it to be self-healing, and the muscle-like tissue that assists movement ensures it is comfortable to wear despite its weight. This suit was originally adapted out of salvaged Collector technology by Cerberus and is incredibly difficult to find on the galactic market.",
-  "feature": "+1 AC. --Darkvision: 20m",
-  "setBonus": "Set bonus (2 of 2): Once per long rest, when you fall below 0 hit points, you immediately become stabilized.",
-  "cost": "27325",
+  "setBonus": [
+    "Set bonus (2 of 2): Once per long rest, when you fall below 0 hit points, you immediately become stabilized."
+  ],
+  "cost": 27325,
   "manu": "Cerberus Skunkworks",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/ME3_Collector_Armor.png/revision/latest/scale-to-width-down/350?cb=20120314183021",
-  "notes": "AC, Vision, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "AC",
+    "Vision",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "+1 AC.",
+    "Darkvision: 20m"
+  ]
 }

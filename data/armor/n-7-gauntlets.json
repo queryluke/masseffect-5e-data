@@ -4,11 +4,19 @@
   "type": "Arms",
   "armorType": "Medium",
   "description": "A combination of fabric armor with kinetic padding and plates of ablative ceramic for protection.",
-  "feature": "You are considered proficient with this armor even if you lack proficiency with medium armor.",
-  "setBonus": "Set bonus (3 of 4): Increase your hit points by 1 for each level you have gained. --Set bonus (4 of 4): Increase your hit points by 1 for each level you have gained.",
-  "cost": "25800",
+  "setBonus": [
+    "Set bonus (3 of 4): Increase your hit points by 1 for each level you have gained.",
+    "Set bonus (4 of 4): Increase your hit points by 1 for each level you have gained."
+  ],
+  "cost": 25800,
   "manu": "Hahne-Kedar",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/94/MEA_N7_Arms.png/revision/latest?cb=20180507215258",
-  "notes": "Special, Set Bonus",
-  "andromeda": null
+  "notes": [
+    "Special",
+    "Set Bonus"
+  ],
+  "andromeda": false,
+  "features": [
+    "You are considered proficient with this armor even if you lack proficiency with medium armor."
+  ]
 }

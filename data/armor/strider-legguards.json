@@ -4,11 +4,17 @@
   "type": "Legs",
   "armorType": "Medium",
   "description": "Greaves that use a set of mass effect field generators to alter the wearer's gravity, making certain maneuvers much more manageable.",
-  "feature": "Advantage on Acrobatics checks. --Speed +6m.",
-  "setBonus": null,
-  "cost": "28050",
+  "setBonus": [],
+  "cost": 28050,
   "manu": "Ariake Technologies",
   "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f4/ME3_ariake_technologies_legs.png/revision/latest/scale-to-width-down/100?cb=20120314171912",
-  "notes": "Ability/Skill Bonus, Movement",
-  "andromeda": null
+  "notes": [
+    "Ability/Skill Bonus",
+    "Movement"
+  ],
+  "andromeda": false,
+  "features": [
+    "Advantage on Acrobatics checks.",
+    "Speed +6m."
+  ]
 }

@@ -4,11 +4,16 @@
   "type": "None",
   "armorType": "-",
   "description": "A personal shield generator that offers shields outside of wearing armor.",
-  "feature": "10 shields (regen 5). --Improved models can be purchased. 10,000 for each 5 shield points, and 8,000 for 5 additional regen. Max is 30 shield points and 15 regen. These additional shields do not stack with your armor's shields.",
-  "setBonus": null,
-  "cost": "15000",
+  "setBonus": [],
+  "cost": 15000,
   "manu": "Hahne-Kedar",
   "image": null,
-  "notes": "Shields",
-  "andromeda": null
+  "notes": [
+    "Shields"
+  ],
+  "andromeda": false,
+  "features": [
+    "10 shields (regen 5).",
+    "Improved models can be purchased. 10,000 for each 5 shield points, and 8,000 for 5 additional regen. Max is 30 shield points and 15 regen. These additional shields do not stack with your armor's shields."
+  ]
 }
