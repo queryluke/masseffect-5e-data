@@ -93,18 +93,17 @@ for (let dir of mdDirs) {
 // process jsDirs
 const jsonDirs = [
   'armor-mechanics',
-  'armor-mods',
   'armor',
   'attributions',
   'bestiary',
   'character-progression',
   'classes',
   'commonplace-items',
+  'mods',
   'random-height-weight',
   'ship-upgrades',
   'skills',
   'stats-by-cr',
-  'weapon-mods',
   'weapon-properties',
   'weapons'
 ]

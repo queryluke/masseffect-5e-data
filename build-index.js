@@ -20,7 +20,7 @@ function ordinal (value) {
 function setType(dir) {
   const types = [
     { type: 'character', items: ['backgrounds', 'feats', 'races', 'traits', 'subraces'] },
-    { type: 'equipment', items: ['grenades', 'programs', 'tools', 'vehicles', 'armor-mods', 'armor', 'weapon-mods', 'weapons'] },
+    { type: 'equipment', items: ['grenades', 'programs', 'tools', 'vehicles', 'mods', 'armor', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
     { type: 'power', items: ['powers'] },
     { type: 'bestiary', items: ['bestiary'] },
@@ -53,10 +53,9 @@ const files = [
   'powers',
   'tools',
   'vehicles',
-  'armor-mods',
   'armor',
+  'mods',
   'bestiary',
-  'weapon-mods',
   'weapons',
   'rules'
 ]
@@ -197,10 +196,6 @@ for (const file of files) {
     searchItems.push(searchItem)
   }
 }
-
-/******************
- Json Files
- */
 
 
 /******************
