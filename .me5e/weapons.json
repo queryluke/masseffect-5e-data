@@ -235,30 +235,6 @@
     "id": "charger"
   },
   {
-    "name": "Cobra Missile Launcher",
-    "rarity": "Rare",
-    "type": "Heavy Weapon",
-    "cost": 82000,
-    "manufacturer": null,
-    "weight": 12,
-    "heat": 4,
-    "damage": "8d12",
-    "range": 120,
-    "notes": "As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "thunder",
-    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "cobra-missile-launcher"
-  },
-  {
     "name": "Collector Assault Rifle",
     "rarity": "Spectre",
     "type": "Assault Rifle",
@@ -540,30 +516,6 @@
       "Two-handed"
     ],
     "id": "geth-pulse-rifle"
-  },
-  {
-    "name": "Geth Spitfire",
-    "rarity": "Uncommon",
-    "type": "Heavy Weapon",
-    "cost": 40000,
-    "manufacturer": null,
-    "weight": 7,
-    "heat": 3,
-    "damage": "12d4",
-    "range": 20,
-    "notes": "As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "radiant",
-    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/b/b6/ME3_Geth_Antivirus_Heavy_Weapon.png/revision/latest?cb=20120317195710",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "geth-spitfire"
   },
   {
     "name": "Graal Spike Thrower",
@@ -867,30 +819,6 @@
       "Special"
     ],
     "id": "lanat"
-  },
-  {
-    "name": "M-100 Grenade Launcher",
-    "rarity": "Uncommon",
-    "type": "Heavy Weapon",
-    "cost": 20500,
-    "manufacturer": null,
-    "weight": 6,
-    "heat": 12,
-    "damage": "3d6",
-    "range": 30,
-    "notes": "Choose an area within 30m that you can see and fire a grenade at it. Each creature within a 4-meter radius sphere must make a DC 14 Dexterity saving throw. On a failed save a creature takes 3d6 thunder damage or half as much on a successful one.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "thunder",
-    "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png/revision/latest?cb=20140823054132",
-    "andromeda": false,
-    "createdBy": "Taylor C",
-    "properties": [
-      "Two-handed",
-      "Special",
-      "Heavy"
-    ],
-    "id": "m-100-grenade-launcher"
   },
   {
     "name": "M-11 Suppressor",
@@ -1251,29 +1179,6 @@
     "id": "m-4-shuriken"
   },
   {
-    "name": "M-451 Firestorm",
-    "rarity": "Uncommon",
-    "type": "Heavy Weapon",
-    "cost": 24000,
-    "manufacturer": null,
-    "weight": 6,
-    "heat": 10,
-    "damage": "4d6",
-    "range": 6,
-    "notes": "Sweep fire across the battlefield. Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage, or half as much damage on a successful one.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "fire",
-    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/5/5a/ME3_Firestorm_Heavy_Weapon.png/revision/latest?cb=20120317194412",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed"
-    ],
-    "id": "m-451-firestorm"
-  },
-  {
     "name": "M-5 Phalanx",
     "rarity": "Common",
     "type": "Heavy Pistol",
@@ -1320,54 +1225,6 @@
       "Two-handed"
     ],
     "id": "m-55-argus"
-  },
-  {
-    "name": "M-560 Hydra",
-    "rarity": "Spectre",
-    "type": "Heavy Weapon",
-    "cost": 76000,
-    "manufacturer": null,
-    "weight": 12,
-    "heat": 1,
-    "damage": "4d12",
-    "range": 120,
-    "notes": "As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a unique missile that automatically hits the target . The missile deploys 3 shaped charges. The first disrupts any barriers or shields, completely removing all barrier ticks and shield points. The second charge cripples armor; the creature's is reduced by 3 for the next hour. The final charge explodes and the creature must make a DC 18 Constitution saving throw. On a failed save the creature takes 4d12 thunder damage or half as much on a successful one.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "thunder",
-    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "m-560-hydra"
-  },
-  {
-    "name": "M-597 Landon",
-    "rarity": "Spectre",
-    "type": "Heavy Weapon",
-    "cost": 68000,
-    "manufacturer": null,
-    "weight": 11,
-    "heat": 10,
-    "damage": "4d8",
-    "range": 120,
-    "notes": "As an Attack, begin targeting, choosing up to 10 creatures within 120 meters. If you remain targeting until the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile used consumes a weapon charge.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "thunder",
-    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/6/61/ME3_Ladon_Codex_Rip.png/revision/latest?cb=20140106114047",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "m-597-landon"
   },
   {
     "name": "M-6 Carnifex",
@@ -1554,30 +1411,6 @@
     "id": "m-92-mantis"
   },
   {
-    "name": "M-920 Cain",
-    "rarity": "Spectre",
-    "type": "Heavy Weapon",
-    "cost": 82500,
-    "manufacturer": null,
-    "weight": 11,
-    "heat": 5,
-    "damage": "5d12",
-    "range": 120,
-    "notes": "As an Attack, choose a location within 120m and begin targeting. If you remain targeting until the start of your next turn, you can choose to continue targeting, consuming another charge, or you may use an Attack to fire the Cain. When fired, any creature within 2m of the target location automatically fails the saving throw. Creatures within 10m of the target make a DC 18 Dexterity saving throw. On a failed save, a creature takes X + 5d12 radient damage where X is the number of charges you used multiplied by 2. On a success, a creature takes half damage.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "radiant",
-    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/b/bf/ME3_Cain_Heavy_Weapon.png/revision/latest?cb=20120317195513",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "m-920-cain"
-  },
-  {
     "name": "M-96 Mattock",
     "rarity": "Uncommon",
     "type": "Assault Rifle",
@@ -1669,30 +1502,6 @@
       "Two-handed"
     ],
     "id": "m-99-saber"
-  },
-  {
-    "name": "ML-77 Missile Launcher",
-    "rarity": "Uncommon",
-    "type": "Heavy Weapon",
-    "cost": 29500,
-    "manufacturer": "Systems Alliance",
-    "weight": 10,
-    "heat": 6,
-    "damage": "3d12",
-    "range": 60,
-    "notes": "As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a missile at the target. Each creature within a 4m cube centered on the target must make a DC 14 Dexterity saving throw. On a failed save a creature takes 6d12 thunder damage or half as much on a successful one.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "thunder",
-    "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e7/Codex_ME2_-_Missile_Launcher.png/revision/latest/scale-to-width-down/200?cb=20140823053914",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "ml-77-missile-launcher"
   },
   {
     "name": "Monomolecular Blade",
@@ -2189,30 +1998,6 @@
     "id": "phaeston"
   },
   {
-    "name": "Reaper Blackstar",
-    "rarity": "Spectre",
-    "type": "Heavy Weapon",
-    "cost": 132500,
-    "manufacturer": null,
-    "weight": 12,
-    "heat": 1,
-    "damage": "15d10",
-    "range": 120,
-    "notes": "As an Attack, choose a creature within 120m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a sub-atomic particle beam at the target, dealing 15d10 necrotic damage. This weapon counts as a Small Reaper Tech and can cause creatures to become indoctrinated.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "necrotic",
-    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/6/69/ME3_Reaper_Blackstar_Heavy_Weapon.png/revision/latest?cb=20120317194848",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "reaper-blackstar"
-  },
-  {
     "name": "Reegar Carbine",
     "rarity": "Rare",
     "type": "Shotgun",
@@ -2627,30 +2412,6 @@
       "Burst Fire"
     ],
     "id": "sweeper"
-  },
-  {
-    "name": "Sync Laser",
-    "rarity": "Rare",
-    "type": "Heavy Weapon",
-    "cost": 82000,
-    "manufacturer": null,
-    "weight": 9,
-    "heat": 2,
-    "damage": "8d12",
-    "range": 120,
-    "notes": "As an Attack, choose a10m x 20m rectangle begin targeting. If you remain targeting until the start of your next turn, call down an orbital strike at the target location. Each creature within the rectangle must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 8d12 thunder damage. On a success, a creature takes half damage.",
-    "npcHit": null,
-    "npcMiss": null,
-    "dmgType": "thunder",
-    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/3/3d/ME3_Sync_Laser_Heavy_Weapon.png/revision/latest?cb=20120317195655",
-    "andromeda": false,
-    "createdBy": null,
-    "properties": [
-      "Special",
-      "Two-handed",
-      "Heavy"
-    ],
-    "id": "sync-laser"
   },
   {
     "name": "Thokin",

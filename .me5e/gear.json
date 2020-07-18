@@ -1,0 +1,772 @@
+[
+  {
+    "name": "Active_Camo.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use an action toggle this effect off or on as a free action.</p>\n",
+    "id": "active-camo-exe"
+  },
+  {
+    "name": "All_Terrain.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>\n",
+    "id": "all-terrain-exe"
+  },
+  {
+    "id": "arc-grenade",
+    "name": "Arc Grenade",
+    "stats": {
+      "damage": "3d6",
+      "range": 25,
+      "blast": 10,
+      "damageType": "lightning"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw.\nA creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Arcade Game",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 100,
+    "weight": 0,
+    "rarity": "Common",
+    "html": "<p>These small programs can be installed onto omni-tools and played with nearby players. Popular games include\n<em>Alliance Corsair</em>, <em>Relay Defense</em>, <em>Shattered Eezo</em>, and <em>N7 Code of Honor: Medal of Duty</em>.</p>\n",
+    "id": "arcade-game"
+  },
+  {
+    "name": "Armorsmith's Workbench",
+    "type": "Tool",
+    "subType": "Artisan",
+    "cost": 6000,
+    "weight": 30,
+    "rarity": "Common",
+    "html": "<p>All the necessary tools to work with medium and heavy armor.</p>\n",
+    "id": "armorsmiths-workbench"
+  },
+  {
+    "name": "Brewer's Supplies",
+    "type": "Tool",
+    "subType": "Artisan",
+    "cost": 1000,
+    "weight": 9,
+    "rarity": "Common",
+    "html": "<p>A large glass jug, a quantity of hops, a siphon, and several meters of tubing, bottles, and a distiller.</p>\n",
+    "id": "brewers-supplies"
+  },
+  {
+    "id": "cain-trip-mine",
+    "name": "Cain Trip Mine",
+    "stats": {
+      "damage": "2d12",
+      "range": 50,
+      "blast": 5,
+      "damageType": "thunder"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Launch a Cain Trip Mine to a point you can see within 20m. The mine affixes to a solid surface and projects\na beam 6m tripwire. When a creature or object passes through the tripwire, the mine explodes. Any creature within a 2m\nsphere must make a DC 13 Dexterity saving throw. A creature takes 2d12 thunder damage on a failed save or half as much\ndamage on a successful one.</p>\n<p>Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.</p>\n<p>To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.</p>\n<p>A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within 2m of the mine takes 2d12 thunder damage.</p>\n<p><strong>At higher marks</strong>: When you use this mine at Mark II or higher, the damage increases by 1d12 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Cardio_Muscular_Optimizer.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>A program that syncs up with the user's VI to run a full-body performance optimizer. Your Constitution score is 19 while\nyou are running this program. It has no effect if your Constitution score is already 19 or higher.</p>\n",
+    "id": "cardio-muscular-optimizer-exe"
+  },
+  {
+    "name": "Chemist's Supplies",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 4000,
+    "weight": 8,
+    "rarity": "Common",
+    "html": "<p>A small bunsen burner, a set of glass vials and beakers, a small metal frame for holding vials over heat,\na centrifuge, and a collection of chemicals.</p>\n",
+    "id": "chemists-supplies"
+  },
+  {
+    "name": "Chess Set",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 200,
+    "weight": 1,
+    "rarity": "Common",
+    "html": "<p>A game developed on Earth in the 11th century. Chess became popular with elcor after the Alliance established an\nembassy on the Citadel.</p>\n",
+    "id": "chess-set"
+  },
+  {
+    "id": "cluster-grenade",
+    "name": "Cluster Grenade",
+    "stats": {
+      "damage": "2d6",
+      "range": 25,
+      "blast": 15,
+      "damageType": "thunder"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. Each creature within 6m of the target must make a DC 16 Dexterity saving throw.\nA creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Cobra Missile Launcher",
+    "rarity": "Rare",
+    "type": "Heavy Weapon",
+    "cost": 82000,
+    "weight": 24,
+    "stats": {
+      "damage": "8d12",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 4,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543"
+    },
+    "html": "<p>As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.</p>\n",
+    "id": "cobra-missile-launcher"
+  },
+  {
+    "name": "Cognition_Booster.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>This program diverts positive energy from your omni-tool to the nerve clusters in your brain, accelerating your thought\nprocesses and critical thinking. Your Intelligence score becomes 19 while this program is active. If your Intelligence\nis equal to or higher than 19, this program has no effect.</p>\n",
+    "id": "cognition-booster-exe"
+  },
+  {
+    "name": "Cook's Utensils",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 1000,
+    "weight": 8,
+    "rarity": "Common",
+    "html": "<p>A metal pot, knives, forks, a stirring spoon, and a ladle.</p>\n",
+    "id": "cooks-utensils"
+  },
+  {
+    "name": "Deflector_Array.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.</p>\n<p>The user gains +2 to AC while not wearing Medium or Heavy Armor, or using a Riot Shield. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)</p>\n",
+    "id": "deflector-array-exe"
+  },
+  {
+    "name": "Disguise Kit",
+    "type": "Tool",
+    "cost": 2500,
+    "weight": 3,
+    "rarity": "Common",
+    "html": "<p>A pouch of cosmetics, dyes, and a micro-fabricator.</p>\n",
+    "id": "disguise-kit"
+  },
+  {
+    "name": "Distortion_Veil.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>While this program is active, highly-synced, micro-holo projectors blur the user's visual image and electromagnetic\npresence on non-IFF'd sensors. This causes attack rolls against the user to have disadvantage. If the user takes damage,\nthis property ceases to function until the start of their next turn (due to the projectors re-routing power and re-compensating).\nThis property is suppressed while the user is incapacitated, restrained, or otherwise unable to move.</p>\n",
+    "id": "distortion-veil-exe"
+  },
+  {
+    "name": "Double_Time.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. You double your walking speed, and any attack of\nopportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.</p>\n<p>(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)</p>\n",
+    "id": "double-time-exe"
+  },
+  {
+    "name": "EM_Trail_Scrambler.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>As an action, activate an ionized laser that targets the environment behind you. This makes attempts to track the user\nvia traditional or electromagnetic signal tracing harder, and Survival/Science checks made to do so are made at\ndisadvantage. One installation of this program lasts for 1 hour.</p>\n",
+    "id": "em-trail-scrambler-exe"
+  },
+  {
+    "name": "Experimental_Barrier_Generator.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": false
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>Convert 10 omni-gel into 1d4+4 black beads that measure 2 centimeters in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.</p>\n<p>As an action, you can launch a bead at a target location within 30m. The bead explodes on impact and is destroyed. Each\ncreature within a 6m radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.</p>\n<p>Only breathable air can pass through the sphere's wall. No attack or other effect penetrate it.</p>\n<p>An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.</p>\n<p>The sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.</p>\n<p><strong>Single-use</strong>: Once you use this program, it deletes itself from your omni-tool.</p>\n",
+    "id": "experimental-barrier-generator-exe"
+  },
+  {
+    "name": "Expert_Hand.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.</p>\n",
+    "id": "expert-hand-exe"
+  },
+  {
+    "name": "Firebreathing Thresher Maws of Doom Set",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 1000,
+    "weight": 5,
+    "rarity": "Common",
+    "html": "<p>What began as (and still is) a krogan childrens' game where miniature flamethrowers are used to burn each others'\npieces on a map, grew into a complex and popular miniature wargame. The flamethrowers are still used.</p>\n",
+    "id": "fire-breathing-thresher-maws-of-doom-set"
+  },
+  {
+    "name": "Flash_Hypno.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to cast the 'Charm Person' spell (save DC 13) on an organic creature within 10m of you, provided that you and the\ntarget can see each other. Your omni-tool regains all expended charges after a long rest, provided that the program is\nActive.</p>\n",
+    "id": "flash-hypno-exe"
+  },
+  {
+    "id": "flashbang-grenade",
+    "name": "Flashbang Grenade",
+    "stats": {
+      "damage": "none",
+      "range": 25,
+      "blast": 10,
+      "damageType": "utility"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. Each creature within 4m of the target must make a DC 13 Constitution saving throw.\nOn a failed save, a creature is <me-condition id=\"blinded\"/> until the end of your next turn.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the DC of the Constitution saving throw increases\nby 1 for each mark above the first.</p>\n"
+  },
+  {
+    "id": "frag-grenade",
+    "name": "Frag Grenade",
+    "stats": {
+      "damage": "3d12",
+      "range": 25,
+      "blast": 10,
+      "damageType": "piercing"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d12 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Galaxy of Fantasy Link",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 250,
+    "weight": 0,
+    "rarity": "Common",
+    "html": "<p>A massively multiplayer extranet role-playing game based on turian mythology. It has over 11 billion players. The\nrecently released expansion Waters of Kolono dominated sales charts and adds 200-300 hours of gameplay. Skilled\nplayers can earn favors by gathering and trading virtual valuables.</p>\n",
+    "id": "galaxy-of-fantasy-link"
+  },
+  {
+    "name": "Geth Spitfire",
+    "rarity": "Uncommon",
+    "type": "Heavy Weapon",
+    "cost": 40000,
+    "weight": 14,
+    "stats": {
+      "damage": "12d4",
+      "range": 50,
+      "damageType": "radiant",
+      "rounds": 3,
+      "image": "http://vignette3.wikia.nocookie.net/masseffect/images/b/b6/ME3_Geth_Antivirus_Heavy_Weapon.png/revision/latest?cb=20120317195710"
+    },
+    "html": "<p>As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.</p>\n",
+    "id": "geth-spitfire"
+  },
+  {
+    "name": "Hacking Tools",
+    "type": "Tool",
+    "cost": 5000,
+    "weight": 1,
+    "rarity": "Common",
+    "html": "<p>A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of\nsecurity counter-measure scripts, and an air-gapped computer interface.</p>\n",
+    "id": "hacking-tools"
+  },
+  {
+    "id": "homing-grenade",
+    "name": "Homing Grenade",
+    "stats": {
+      "damage": "1d6",
+      "range": 25,
+      "blast": 5,
+      "damageType": "thunder"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target a creature you can see within 10m. The target creature takes 1d6 thunder damage. Each other creature\nwithin 2m of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature takes 1d6 thunder damage\nor half as much on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+  },
+  {
+    "id": "inferno-grenade",
+    "name": "Inferno Grenade",
+    "stats": {
+      "damage": "3d4",
+      "range": 25,
+      "blast": 10,
+      "damageType": "fire"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 3d4 fire or half as much on a successful one. The 4m area continues to burn for 1 minute.\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d4 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Kepesh-Yakshi Board",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 200,
+    "weight": 5,
+    "rarity": "Common",
+    "html": "<p>An asari game that has been translated into portable, virtual form. This complex game requires strategy and incisive thinking\nto command a small fleet to take your opponent's &quot;homeworld.&quot; Some versions include &quot;neural feedback&quot; which\ndelivers a mild shock to the player when they lose a piece, which serves to disincentive casually sacrificing pieces.</p>\n",
+    "id": "kepesh-yakshi"
+  },
+  {
+    "id": "lift-grenade",
+    "name": "Lift Grenade",
+    "stats": {
+      "damage": "none",
+      "range": 25,
+      "blast": 10,
+      "damageType": "utility"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. Each creature within 4m of the target must make a DC 13 Strength saving throw.\nOn a failed save, a creature is <me-condition id=\"lifted\"/> until the end of your next turn.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the DC of the Strength saving throw increases\nby 1 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "M-100 Grenade Launcher",
+    "rarity": "Uncommon",
+    "type": "Heavy Weapon",
+    "cost": 20500,
+    "weight": 12,
+    "stats": {
+      "damage": "3d6",
+      "range": 75,
+      "damageType": "thunder",
+      "rounds": 12,
+      "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png/revision/latest?cb=20140823054132"
+    },
+    "html": "<p>Choose an area within 30m that you can see and fire a grenade at it. Each creature within a 4-meter radius sphere must make a DC 14 Dexterity saving throw. On a failed save a creature takes 3d6 thunder damage or half as much on a successful one.</p>\n",
+    "id": "m-100-grenade-launcher"
+  },
+  {
+    "name": "M-451 Firestorm",
+    "rarity": "Uncommon",
+    "type": "Heavy Weapon",
+    "cost": 24000,
+    "weight": 12,
+    "stats": {
+      "damage": "4d6",
+      "range": 15,
+      "damageType": "fire",
+      "rounds": 10,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/5/5a/ME3_Firestorm_Heavy_Weapon.png/revision/latest?cb=20120317194412"
+    },
+    "html": "<p>Sweep fire across the battlefield. Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage, or half as much damage on a successful one.</p>\n",
+    "id": "m-451-firestorm"
+  },
+  {
+    "name": "M-560 Hydra",
+    "rarity": "Spectre",
+    "type": "Heavy Weapon",
+    "cost": 76000,
+    "weight": 24,
+    "stats": {
+      "damage": "4d12",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 1,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543"
+    },
+    "html": "<p>As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a unique missile that automatically hits the target . The missile deploys 3 shaped charges. The first disrupts any barriers or shields, completely removing all barrier ticks and shield points. The second charge cripples armor; the creature's is reduced by 3 for the next hour. The final charge explodes and the creature must make a DC 18 Constitution saving throw. On a failed save the creature takes 4d12 thunder damage or half as much on a successful one.</p>\n",
+    "id": "m-560-hydra"
+  },
+  {
+    "name": "M-597 Landon",
+    "rarity": "Spectre",
+    "type": "Heavy Weapon",
+    "cost": 68000,
+    "weight": 22,
+    "stats": {
+      "damage": "4d8",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 10,
+      "image": "http://vignette4.wikia.nocookie.net/masseffect/images/6/61/ME3_Ladon_Codex_Rip.png/revision/latest?cb=20140106114047"
+    },
+    "html": "<p>As an Attack, begin targeting, choosing up to 10 creatures within 120 meters. If you remain targeting until the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile used consumes a weapon charge.</p>\n",
+    "id": "m-597-landon"
+  },
+  {
+    "name": "M-920 Cain",
+    "rarity": "Spectre",
+    "type": "Heavy Weapon",
+    "cost": 82500,
+    "weight": 22,
+    "stats": {
+      "damage": "5d12",
+      "range": 300,
+      "damageType": "radiant",
+      "rounds": 5,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/b/bf/ME3_Cain_Heavy_Weapon.png/revision/latest?cb=20120317195513"
+    },
+    "html": "<p>As an Attack, choose a location within 120m and begin targeting. If you remain targeting until the start of your next turn, you can choose to continue targeting, consuming another charge, or you may use an Attack to fire the Cain. When fired, any creature within 2m of the target location automatically fails the saving throw. Creatures within 10m of the target make a DC 18 Dexterity saving throw. On a failed save, a creature takes X + 5d12 radient damage where X is the number of charges you used multiplied by 2. On a success, a creature takes half damage.</p>\n",
+    "id": "m-920-cain"
+  },
+  {
+    "name": "Medical Kit",
+    "type": "Tool",
+    "cost": 5000,
+    "weight": 5,
+    "rarity": "Common",
+    "html": "<p>A bio-scanner, medical foam, quick-hardening cast tape, a scalpel with 10 blades, a bone saw,\nand a pouch that can carry up to 4 medi-gel.</p>\n",
+    "id": "medical-kit"
+  },
+  {
+    "name": "ML-77 Missile Launcher",
+    "rarity": "Uncommon",
+    "type": "Heavy Weapon",
+    "cost": 29500,
+    "weight": 20,
+    "stats": {
+      "damage": "3d12",
+      "range": 150,
+      "damageType": "thunder",
+      "rounds": 6,
+      "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e7/Codex_ME2_-_Missile_Launcher.png/revision/latest/scale-to-width-down/200?cb=20140823053914"
+    },
+    "html": "<p>As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a missile at the target. Each creature within a 4m cube centered on the target must make a DC 14 Dexterity saving throw. On a failed save a creature takes 6d12 thunder damage or half as much on a successful one.</p>\n",
+    "id": "ml-77-missile-launcher"
+  },
+  {
+    "id": "multi-frag-grenade",
+    "name": "Multi-frag Grenade",
+    "stats": {
+      "damage": "1d4",
+      "range": 25,
+      "blast": 10,
+      "damageType": "piercing"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target 3 areas within 10m. Each creature within 4m of each target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 1d4 piercing damage or half as much on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, you may target one additional area for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Musical Instrument",
+    "subType": "Instrument",
+    "type": "Tool",
+    "cost": 500,
+    "rarity": "Common",
+    "weight": 3,
+    "html": "<p>The plethora of types of musical instrument are too varied to count. The cost of an instrument\nlargely depends on the size, shape, construction, and quality (i.e. fabricated or hand-made). 500 credits is the\naverage price for a mid-range, pre-fabricated instrument.</p>\n",
+    "id": "musical-instrument"
+  },
+  {
+    "name": "Painter's Supplies",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 500,
+    "weight": 5,
+    "rarity": "Common",
+    "html": "<p>Electronic design tablet with a number of software, a holographic projector, and a variety of tangible painting\ndevices (oils, charcoal, colored pencils, etc).</p>\n",
+    "id": "painters-supplies"
+  },
+  {
+    "name": "Playing Cards",
+    "type": "Tool",
+    "subType": "Gaming Set",
+    "cost": 10,
+    "weight": 0,
+    "rarity": "Common",
+    "html": "<p>A deck of cards used to play a variety of different card games. A human deck would allow you to play games like\nSolitaire and Skyllian-5 Poker.</p>\n",
+    "id": "playing-cards"
+  },
+  {
+    "name": "Primal_Tap.exe",
+    "rarity": "Varies",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>While this program is active, your omni-tool perfectly balances your adrenal, muscular, skeletal and cardio systems to\noptimize physical power. Depending on what Mark program you have active, your Strength score increases to a certain amount.\nThis has no effect if your Strength score is already equal to or higher than that value. Many military groups equip\ntheir combat-ready infantry with a version or Mark I or II, but more up-to-date versions of the program are incredibly\nrare to find, the bleeding edge of military technology that only the best can afford.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Version</th>\n<th>STR Score</th>\n<th>Rarity</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Mark I</td>\n<td>19</td>\n<td>Uncommon</td>\n</tr>\n<tr>\n<td>Mark II</td>\n<td>21</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Mark III</td>\n<td>23</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Mark IV</td>\n<td>26</td>\n<td>Spectre</td>\n</tr>\n<tr>\n<td>Mark V</td>\n<td>29</td>\n<td>Spectre</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "primal-tap-exe"
+  },
+  {
+    "id": "proximity-mine",
+    "name": "Proximity Mine",
+    "stats": {
+      "damage": "1d8",
+      "range": null,
+      "blast": 5,
+      "damageType": "thunder"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Place a proximity mine within 2m. The first creature, besides yourself, that comes within 2m of the mine\ntakes 1d8 thunder damage.</p>\n<p>Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.</p>\n<p>To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.</p>\n<p>A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within 2m of the mine takes 1d8 thunder damage.</p>\n<p><strong>At higher marks</strong>: When you use this mine at Mark II or higher, the damage increases by 1d8 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Quantum_Displacer.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>Your omni-tool is equipped with a highly experimental quantum device. You can spend a bonus action and 3 omni-gel to designate\nan open space within 60m, and instantly teleport there.</p>\n<p>You project one invisibly small molecule into that space, which is quantum entangled with a molecule in your armor.\nSending an energy current through the device will re-unite the molecules instantly, effectively teleporting you to your\ndesignated location. The device is then offline until the end of your next long rest.</p>\n",
+    "id": "quantum-displacer-exe"
+  },
+  {
+    "name": "Reaper Blackstar",
+    "rarity": "Spectre",
+    "type": "Heavy Weapon",
+    "cost": 132500,
+    "weight": 24,
+    "stats": {
+      "damage": "15d10",
+      "range": 300,
+      "damageType": "necrotic",
+      "rounds": 1,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/6/69/ME3_Reaper_Blackstar_Heavy_Weapon.png/revision/latest?cb=20120317194848"
+    },
+    "html": "<p>As an Attack, choose a creature within 120m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a sub-atomic particle beam at the target, dealing 15d10 necrotic damage. This weapon counts as a Small Reaper Tech and can cause creatures to become indoctrinated.</p>\n",
+    "id": "reaper-blackstar"
+  },
+  {
+    "id": "recon-mine",
+    "name": "Recon Mine",
+    "stats": {
+      "damage": "2d4",
+      "range": 25,
+      "blast": 5,
+      "damageType": "thunder"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Launch a recon mine to a location of your choice within 10m. It first sticks to the target location then\nscans enemies within a 10m cone, relaying tactical weak points about the enemy's armor and location. After your turn ends,\nany hostile that walks through the scanning cone loses 1 AC. Each creature can only be affected by this debuff once.</p>\n<p>You may spend another action to detonate the mine. Each creature within 2m must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 2d4 thunder damage, or half as much damage on a successful one.</p>\n<p>Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.</p>\n<p>To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.</p>\n<p>A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within 2m of the mine takes 2d4 thunder damage.</p>\n<p><strong>At higher marks</strong>: When you use this mine at Mark II or higher, the range increases by 2m for each mark above the first</p>\n"
+  },
+  {
+    "name": "Show_Stopper.exe",
+    "rarity": "Uncommon",
+    "activation": false,
+    "stats": {
+      "installation": null
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>This suite of programs contains a subset of holographic displays. A full suite has 20 displays. A used program is usually\nmissing 1d20 − 1 displays.</p>\n<p>The creator of this program, a human hacker, known as Gahri Gi'gax, wrote a randomization algorithm into its use. You can use\nan action to activate a display at random from the program, spawning a holographic image within 12m of you.</p>\n<p>The image of one or more creatures forms over the targeted area and remains until dispelled. The holographic creature\nappears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While\nyou are within 50m of the hologram and can see it, you can use an action to move it anywhere within 12m of the initial\nlocation. Any physical interaction with the hologram reveals it to be an illusion because objects pass through it.\nSomeone who uses an action to visually inspect the creature identifies it as a hologram with a successful DC 15\nIntelligence (Investigation) check. The creature then appears translucent.</p>\n<p>The hologram lasts 1 hour or until you cancel the display. At which point, the display removes itself from the suite.\nOnce you have used all of the displays, the program deletes itself from your omni-tool.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>1d20</th>\n<th>Illusion</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>An asari dancer</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2 hanar</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3 belligerent Krogan</td>\n</tr>\n<tr>\n<td>4</td>\n<td>A batarian with 3 varren on leashes</td>\n</tr>\n<tr>\n<td>5</td>\n<td>A pod crab</td>\n</tr>\n<tr>\n<td>6</td>\n<td>6 zombies</td>\n</tr>\n<tr>\n<td>7</td>\n<td>7 dwarves</td>\n</tr>\n<tr>\n<td>8</td>\n<td>8 pyjaks wearing fez hats</td>\n</tr>\n<tr>\n<td>9</td>\n<td>A drell assassin</td>\n</tr>\n<tr>\n<td>10</td>\n<td>A large fantasy dragon</td>\n</tr>\n<tr>\n<td>11</td>\n<td>A swarm of beetles</td>\n</tr>\n<tr>\n<td>12</td>\n<td>A wizard</td>\n</tr>\n<tr>\n<td>13</td>\n<td>An elcor</td>\n</tr>\n<tr>\n<td>14</td>\n<td>A yahg</td>\n</tr>\n<tr>\n<td>15</td>\n<td>3 gas bags</td>\n</tr>\n<tr>\n<td>16</td>\n<td>A white tiger</td>\n</tr>\n<tr>\n<td>17</td>\n<td>A unicorn</td>\n</tr>\n<tr>\n<td>18</td>\n<td>An armored knight</td>\n</tr>\n<tr>\n<td>19</td>\n<td>Tyrannosaurus Rex</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Gahri Gi'gax</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "show-stopper-exe"
+  },
+  {
+    "id": "smoke-grenade",
+    "name": "Smoke Grenade",
+    "stats": {
+      "damage": "none",
+      "range": 25,
+      "blast": 10,
+      "damageType": null
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. A cloud of thick smoke erupts out in a 4m radius from the target location. The\ncloud's area is heavily obscured. The cloud persists for 30 seconds. A moderate wind (11 to 20 miles per hour) can\ndisperse the smoke after 1 round, and a strong wind (21 or more miles per hour) can do so immediately.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the radius increases by 2m for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Spotter_Support_System.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>While this program is Active, your omni-tool links up to your armor's gauntlets, scanners, and weapon systems. Roughly\na third of its processing power is diverted into calculating micro-corrections when you fire at a target, generating\nminuscule magnetic fields to align your aim more correctly. You are considered proficient with Sniper Rifles while this\nprogram is Active, and gain a +2 to damage rolls with such weapons.</p>\n",
+    "id": "spotter-support-system-exe"
+  },
+  {
+    "id": "sticky-grenade",
+    "name": "Sticky Grenade",
+    "stats": {
+      "damage": "3d6",
+      "range": 25,
+      "blast": 10,
+      "damageType": "thunder"
+    },
+    "type": "Grenade",
+    "cost": 500,
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>Target an area within 10m. At the beginning of your next turn, creatures within 4m of the target must make\na DC 13 Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much damage on a\nsuccessful one.</p>\n<p>With a sticky grenade, you may choose to make a melee weapon attack on a target creature within 2m instead or a ranged\nweapon attack on a target creature within 10m instead. Add your Dexterity modifier to the attack. Do not add your\nproficiency bonus to the attack unless you have the Grenadier feat. On a hit, the grenade hits and sticks to the target,\nand when it explodes, the target automatically fails its saving throw. On a miss, the grenade lands in the creature's square.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+  },
+  {
+    "name": "Sync Laser",
+    "rarity": "Rare",
+    "type": "Heavy Weapon",
+    "cost": 82000,
+    "weight": 18,
+    "stats": {
+      "damage": "8d12",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 2,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/3/3d/ME3_Sync_Laser_Heavy_Weapon.png/revision/latest?cb=20120317195655"
+    },
+    "html": "<p>As an Attack, choose a10m x 20m rectangle begin targeting. If you remain targeting until the start of your next turn, call down an orbital strike at the target location. Each creature within the rectangle must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 8d12 thunder damage. On a success, a creature takes half damage.</p>\n",
+    "id": "sync-laser"
+  },
+  {
+    "name": "Tailor's Tools",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 6000,
+    "weight": 10,
+    "rarity": "Common",
+    "html": "<p>All the necessary tools to work with light armor.</p>\n",
+    "id": "tailors-tools"
+  },
+  {
+    "name": "Terra_Angelis.exe",
+    "rarity": "Spectre",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p><em>Can only be used by humans</em></p>\n<p>This is an experimental, Cerberus-funded VI was created in the pursuit of a perfect AI that will put the protection of\nhumanity first and foremost. While it never achieved true AI status, this VI is highly advanced and single-mindedly\ndevoted to protecting &amp; enabling humanity.</p>\n<p>When you activate this program, designate one ranged weapon to install Terra Angelis onto. This weapon now has +3 to\nattack and damage rolls. The first time you attack with this weapon on each of your turns, you can choose to transfer\nsome or all of the weapon's bonus to your AC, instead of using the bonus on any of your attacks for that turn\n(i.e., add +2 to AC and +1 to attack/damage rolls). The adjusted bonuses remain until the start of your next turn,\nalthough you must be wielding the weapon to gain the benefits.</p>\n",
+    "id": "terra-angelis-exe"
+  },
+  {
+    "name": "Thermic_Overvent.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": false
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>You can use an action to spend 1 omni-gel and overheat every heat-generating element within your omni-tool, overriding\nsafety protocols and using the omni-gel as propellant. You create three fire rays from your outstretched hand, each\nwith a range of 240m. You can hurl them at one target or several. Make a ranged spell attack for each ray. On a hit,\nthe target takes 2d6 fire damage. When you make the attacks, make them with a modifier of +5 to the attack roll. The\nomni-tool then needs time to compensate and repair itself, rendering this program inoperative until the end of a long rest.</p>\n<p><strong>Unstable</strong>: When you acquire this program, it can be used 1d6 times before the code becomes too unstable to use.</p>\n",
+    "id": "thermic-overvent-exe"
+  },
+  {
+    "name": "Thieves' tools",
+    "type": "Tool",
+    "cost": 3000,
+    "weight": 5,
+    "rarity": "Common",
+    "html": "<p>A cordless screwdriver, a set of common security panel slicers, a 1m long endoscope, a spray can of liquid nitrogen,\nand a pair of pliers with wire-cutter insets.</p>\n",
+    "id": "thieves-tools"
+  },
+  {
+    "name": "Threat_Assessment.exe",
+    "rarity": "Rare",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>Your omni-tool powers a specialized VI whose purpose is to detect incoming threats and identify them for the user. This\ndata appears as audio and visual warnings on the user's HUD and gives the user +1 to their AC and all Saving Throws.</p>\n",
+    "id": "threat-assessment-exe"
+  },
+  {
+    "name": "Tinker's Tools",
+    "subType": "Artisan",
+    "type": "Tool",
+    "cost": 3000,
+    "weight": 10,
+    "rarity": "Common",
+    "html": "<p>Tinker's tools include a variety of hand tools, wires, scraps of metal, batteries, microcircuit boards,\nadhesives, paint, and a pouch that can hold up to 10 omni-gel canisters.</p>\n",
+    "id": "tinkers-tools"
+  },
+  {
+    "name": "Trace_Signal_Jammer.exe",
+    "rarity": "Uncommon",
+    "stats": {
+      "installation": true
+    },
+    "type": "Omni-tool Program",
+    "cost": 0,
+    "weight": 0,
+    "html": "<p>While this program is Activated, the user is hidden from long-range sensors. You cannot be targeted by any tracking\ndevice that functions by receiving a tracking device's signal, and targeting lasers cannot pinpoint your precise\nlocation, giving you advantage on any saving throws against Heavy Weapons that require Targeting to fire.</p>\n",
+    "id": "trace-signal-jammer-exe"
+  },
+  {
+    "name": "Weaponsmith's Workbench",
+    "type": "Tool",
+    "subType": "Artisan",
+    "cost": 6000,
+    "weight": 30,
+    "rarity": "Common",
+    "html": "<p>All the necessary tools to work with weapons.</p>\n",
+    "id": "weaponsmiths-workbench"
+  }
+]

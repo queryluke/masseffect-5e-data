@@ -20,7 +20,7 @@ function ordinal (value) {
 function setType(dir) {
   const types = [
     { type: 'character', items: ['backgrounds', 'feats', 'races', 'traits', 'subraces'] },
-    { type: 'equipment', items: ['grenades', 'programs', 'tools', 'vehicles', 'mods', 'armor', 'weapons'] },
+    { type: 'equipment', items: ['gear', 'vehicles', 'mods', 'armor', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
     { type: 'power', items: ['powers'] },
     { type: 'bestiary', items: ['bestiary'] },
@@ -47,11 +47,9 @@ const files = [
   'backgrounds',
   'conditions',
   'feats',
-  'grenades',
-  'programs',
+  'gear',
   'races',
   'powers',
-  'tools',
   'vehicles',
   'armor',
   'mods',
@@ -63,9 +61,6 @@ const files = [
 
 const searchItems = []
 
-/******************
-  MD Dirs
- */
 for (const file of files) {
   const items = require(`./.me5e/${file}.json`)
   for (let item of items) {
