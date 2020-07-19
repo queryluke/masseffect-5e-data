@@ -11,11 +11,11 @@
   "actions": [
     {
       "type": "weapon",
-      "id": "m-92_mantis"
+      "id": "m-92-mantis"
     },
     {
       "type": "weapon",
-      "id": "m-4_shuriken"
+      "id": "m-4-shuriken"
     }
   ],
   "alignment": "Neutral",
@@ -52,7 +52,8 @@
   ],
   "size": "Medium",
   "skills": [
-    "perception", "stealth"
+    "perception",
+    "stealth"
   ],
   "speed": [
     {

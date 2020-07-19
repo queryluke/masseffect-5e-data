@@ -227,7 +227,7 @@
   {
     "length": null,
     "title": "Getting Monsters",
-    "section": "monsters",
+    "section": "bestiary",
     "order": 3,
     "html": "<h3>Mass Effect 5e Bestiary</h3>\n<p>There is a growing collection of unique Mass Effect monsters in the <nuxt-link to=\"/phb/bestiary\">Bestiary</nuxt-link>,\nbut you might be at a loss when it comes to finding the perfect creature for part of a mission. Feel free to tweak an\nexisting creature to make it into something more useful for you, perhaps by borrowing a trait or two from a different\nmonster or by creating your own!</p>\n<h3>Using 5th Edition Monsters</h3>\n<p>You can also include any of the monsters from 5th Edition core rulebooks in any of your campaigns. However, some may require\n&quot;re-skinning,&quot; meaning you alter the monster's stat block, replacing 5th edition spells with biotics or tech, or\nre-conceptualize the animal into some newly-discovered alien.</p>\n<h3>Sharing your creations</h3>\n<p>If you are interested in creating new monsters for this system or would like to share your own creations, see\nour <nuxt-link to=\"/contributing\">Contributing Guide</nuxt-link>.</p>\n",
     "id": "getting-monsters"
@@ -334,7 +334,7 @@
     "length": null,
     "title": "Monster Types",
     "change": true,
-    "section": "monsters",
+    "section": "bestiary",
     "order": 2,
     "html": "<p>There aren't enough spells and powers to justify making bonuses like &quot;double damage to beast&quot;. In addition, many of\nthe 5th Edition monster types don't make sense in the sci-fi setting (celestials, undead, fey, elemental, etc.). Instead,\nthere are only three monster types: <strong>Organic</strong>, <strong>Synthetic</strong>, and <strong>Synthorganic</strong>.</p>\n",
     "id": "monster-types"
@@ -382,7 +382,7 @@
   {
     "length": null,
     "title": "Overview",
-    "section": "monsters",
+    "section": "bestiary",
     "order": 1,
     "html": "<p>A monster's statistics, sometimes referred to as its <strong>stat block</strong>, provide the essential information that you need to run\nthe monster. The majority of this section is unchanged from the rules in 5th Edition. You can read the official rules\nabout monsters in a number of places:</p>\n<ul>\n<li><a href=\"https://media.wizards.com/2016/downloads/DND/PlayerBasicRulesV03.pdf\" target=\"_blank\">SRD</a> (p. 254) (downloadable)</li>\n<li><a href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Monsters\" target=\"_blank\">D&amp;D Beyond</a> (electronic)</li>\n</ul>\n",
     "id": "overview"

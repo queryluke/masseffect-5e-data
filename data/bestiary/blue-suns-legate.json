@@ -16,11 +16,11 @@
     },
     {
       "type": "weapon",
-      "id": "m-76_revenant"
+      "id": "m-76-revenant"
     },
     {
       "type": "weapon",
-      "id": "m-300_claymore"
+      "id": "m-300-claymore"
     }
   ],
   "alignment": "Neutral",
@@ -71,7 +71,9 @@
   "senses": [],
   "size": "Medium",
   "skills": [
-    "survival", "perception", "athletics"
+    "survival",
+    "perception",
+    "athletics"
   ],
   "speed": [
     {

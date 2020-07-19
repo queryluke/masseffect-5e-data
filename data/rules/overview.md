@@ -1,7 +1,7 @@
 ---
 length: null
 title: Overview
-section: monsters
+section: bestiary
 order: 1
 ---
 A monster's statistics, sometimes referred to as its __stat block__, provide the essential information that you need to run

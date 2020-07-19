@@ -1,7 +1,7 @@
 ---
 length: null
 title: Getting Monsters
-section: monsters
+section: bestiary
 order: 3
 ---
 ### Mass Effect 5e Bestiary

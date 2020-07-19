@@ -20,7 +20,7 @@
     },
     {
       "type": "grenade",
-      "id": "flashbang_grenade"
+      "id": "flashbang-grenade"
     },
     {
       "type": "standard",
@@ -57,10 +57,11 @@
   "savingThrows": [
     "int"
   ],
-  "senses":  [],
+  "senses": [],
   "size": "Medium",
   "skills": [
-    "stealth", "survival"
+    "stealth",
+    "survival"
   ],
   "speed": [
     {

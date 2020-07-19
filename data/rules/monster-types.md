@@ -2,7 +2,7 @@
 length: null
 title: Monster Types
 change: true
-section: monsters
+section: bestiary
 order: 2
 ---
 There aren't enough spells and powers to justify making bonuses like "double damage to beast". In addition, many of
