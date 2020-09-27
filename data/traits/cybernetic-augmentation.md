@@ -1,6 +1,6 @@
 ---
-id: cybernetic-augmentation
 name: Cybernetic Augmentation
+species: quarian
 ---
 You have a cybernetic augmentation. Choose one of the following:
 
@@ -25,7 +25,7 @@ __Ability Score Increase__. Your Dexterity score increases by 1.
 
 __Overclock Unit__. You can activate your muscular augments for a burst of speed. When you move on your turn in 
 combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you 
-recharge the unit by moving 0 meters on one of your turns.
+recharge the unit by moving <me-distance length="0" /> on one of your turns.
 
 __Peak Fitness__. You have proficiency in either the Acrobatics or Athletics skill.
 
@@ -35,14 +35,14 @@ __Peak Fitness__. You have proficiency in either the Acrobatics or Athletics ski
 Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most 
 unfavorable conditions.
 
-__Darkvision__. You can see in dim light within 20 meters of you as if it were bright light, and in darkness as if it were 
-dim light. You can’t discern color in darkness, only shades of gray.
+__Darkvision__. You can see in dim light within <me-distance length="60" /> of you as if it were bright light, and in 
+darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
 
 __Clarity Unit__. You have advantage on saving throws against being blinded.
 
 __Keen Eyesight__. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an 
-area within 10 meters of you that is lightly obscured as if it were unobscured and can see in an area within 6 meters of 
-you that is heavily obscured as if it were only lightly obscured.
+area within <me-distance length="30" /> of you that is lightly obscured as if it were unobscured and can see in an 
+area within <me-distance length="15" /> of you that is heavily obscured as if it were only lightly obscured.
 
 <br>
 

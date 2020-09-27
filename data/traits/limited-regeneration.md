@@ -1,6 +1,6 @@
 ---
-id: limited-regeneration
 name: Limited Regeneration
+species: vorcha
 ---
 You regain all your Hit Dice on a long rest. Additionally, if you lose a body part, the missing part will regrow
 and return to full functionality after a passing of time, based on the body part:

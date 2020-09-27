@@ -1,6 +1,15 @@
 ---
-id: shoulder-mounts
 name: Shoulder Mounts
+species: elcor
+mechanics:
+  - type: modOverride
+    options:
+      modType: rangedAttack
+      mod: int
+  - type: modOverride
+    options:
+      modType: rangedDamage
+      mod: int
 ---
 Your ranged weapons are shoulder mounted to your armor or in holsters and use a VI to aim and fire. When you make a
 ranged weapon attack, use your Intelligence modifier instead of your Dexterity modifier.

@@ -1,6 +1,6 @@
 ---
-id: lucky
 name: Lucky
+species: volus
 ---
 You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one 
 luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, 

@@ -57,6 +57,7 @@ const target = './.me5e'
 
 const mdDirs = [
   'rules',
+  'gmg',
   'backgrounds',
   'changelog',
   'class-features',
@@ -64,11 +65,12 @@ const mdDirs = [
   'conditions',
   'feats',
   'gear',
-  'races',
+  'species-variants', // before species
+  'subspecies', // before species
+  'traits', // before species
+  'species',
   'powers',
-  'subraces',
   'tool-profs',
-  'traits',
   'vehicles'
 ]
 for (let dir of mdDirs) {
@@ -83,6 +85,12 @@ for (let dir of mdDirs) {
     if (dir === 'changelog') {
       item.date = new Date(item.date)
       item.url = `/changelog/${item.slug}`
+    }
+    if (dir === 'species') {
+      const traits = require(`${target}/traits.json`)
+      const variants = require(`${target}/species-variants.json`)
+      item.traits = traits.filter(i => i.species === item.id)
+      item.variants = variants.filter(i => i.species === item.id)
     }
     return item
   })

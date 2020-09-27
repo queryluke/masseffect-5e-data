@@ -1,12 +1,12 @@
 ---
-id: hunter-mode
 name: Hunter Mode
+species: geth 
 ---
 Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.
 
 As an action, you can activate Hunter Mode, gaining the following benefits:
 
-- Increase movement by 2m.
+- Increase movement by <me-distance length="5" />.
 - +1 bonus to ranged and melee weapon attack rolls.
 
 <br>

@@ -1,6 +1,15 @@
 ---
-id: bio-electric-focus
 name: Bio-Electric Focus
+species: angara
+mechanics:
+  - type: innateSpell
+    options:
+      mod: cha
+      limit:
+        amount: 0
+        refresh: at-will
+      level: 1
+      power: shocking-grasp
 ---
 You can cast a 1st-level version of shocking grasp without expending a spell slot or tech point. Charisma is your
 spellcasting modifier for this ability. This does not count against your max number of cantrips known or spells prepared.

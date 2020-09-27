@@ -1,5 +1,5 @@
 ---
-id: quad-strand-dna
 name: Quad-Strand DNA
+species: prothean
 ---
-Your unique quad-strand DNA helps to protect you against radiation and cold. You have radiant and cold damage resistance.
+Your unique quad-strand DNA helps to protect you against radiation and cold. You have resistance to radiant and cold damage.

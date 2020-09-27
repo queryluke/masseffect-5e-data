@@ -19,7 +19,7 @@ function ordinal (value) {
 
 function setType(dir) {
   const types = [
-    { type: 'character', items: ['backgrounds', 'feats', 'races', 'traits', 'subraces'] },
+    { type: 'character', items: ['backgrounds', 'feats', 'species', 'traits', 'subspecies'] },
     { type: 'equipment', items: ['gear', 'vehicles', 'mods', 'armor', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
     { type: 'power', items: ['powers'] },
@@ -42,13 +42,13 @@ function cleanBody(text) {
 const files = [
   // must go first
   'traits',
-  'subraces',
+  'subspecies',
   // can go in any order
   'backgrounds',
   'conditions',
   'feats',
   'gear',
-  'races',
+  'species',
   'powers',
   'vehicles',
   'armor',
@@ -78,14 +78,14 @@ for (const file of files) {
     // create normalized content
     switch (file) {
 
-      case 'races':
+      case 'species':
         const body = [cleanBody(item.html)]
         body.push(item.age)
         body.push(item.alignment)
         body.push(item.size)
         body.push(item.speed)
         searchItem.body = body.join(' ')
-        searchItem.link = `/races/${item.id}`
+        searchItem.link = `/species/${item.id}`
         if (item.traits) {
           for (let trait of item.traits) {
             const index = searchItems.findIndex(si => si.id === trait)
@@ -99,12 +99,12 @@ for (const file of files) {
           }
         }
         if (item.variants) {
-          for (let subrace of item.variants) {
-            const index = searchItems.findIndex(si => si.id.replace('_','-') === subrace)
+          for (let sub of item.variants) {
+            const index = searchItems.findIndex(si => si.id.replace('_','-') === sub)
             if (index > -1) {
               searchItems[index].qualifiers.push(item.name)
               searchItems[index].qualifiers.push('Variant')
-              searchItems[index].link = `/races/${item.id}`
+              searchItems[index].link = `/species/${item.id}`
             }
           }
         }

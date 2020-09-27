@@ -1,6 +1,6 @@
 ---
-id: integrated-protection
 name: Integrated Protection
+species: geth
 ---
 Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor,
 but if you are wielding a weapon or shield that provides additional AC, you apply its bonus as normal.

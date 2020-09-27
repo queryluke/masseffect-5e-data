@@ -1,6 +1,6 @@
 ---
-id: repair-matrix
 name: Repair Matrix
+species: geth
 ---
 As a construct, you cannot be healed by medi-gel or spells that heal organic creatures (such as the _first aid_ spell).
 

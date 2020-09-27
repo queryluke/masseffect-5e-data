@@ -1,5 +1,5 @@
 ---
-id: thulium-skin
 name: Thulium Skin
+species: turian
 ---
-Resistance to radiant damage and immunity to diseases caused by radiation.
+You have resistance to radiant damage and immunity to diseases caused by radiation.

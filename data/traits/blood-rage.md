@@ -1,6 +1,6 @@
 ---
-id: blood-rage
 name: Blood Rage
+species: krogan
 ---
 When you kill an enemy, you can use a bonus action to enter a mindless blood rage. Blood rage lasts for 1 minute or 
 until you end it as a bonus action. For the duration, you must move towards and attack an enemy on your turn and 

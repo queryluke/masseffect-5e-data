@@ -1,6 +1,12 @@
 ---
-id: saving-face
 name: Saving Face
+species: batarian
+mechanics:
+  - type: feature
+    options:
+      limit:
+        amount: 1
+        refresh: short
 ---
 Batarians are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an
 attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies

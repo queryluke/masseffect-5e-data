@@ -1,6 +1,11 @@
 ---
-id: innate-biotics
 name: Innate Biotics
+species: asari
+mechanics:
+  - type: modOverride
+    options:
+      modType: powercasting
+      mod: cha
 ---
 Asari do not require biotic implants to control their abilities. Instead, their biotic talents rely on their ability
 to project their will onto the world. As an Asari, you use your Charisma whenever a spell refers to your spellcasting

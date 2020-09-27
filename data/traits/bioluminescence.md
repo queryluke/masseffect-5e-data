@@ -1,5 +1,5 @@
 ---
-id: bioluminescence
 name: Bioluminescence
+species: hanar
 ---
-You can shed dim light in a 10m radius.
+You can shed dim light in a <me-distance length="30" /> radius.

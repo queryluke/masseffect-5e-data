@@ -4,31 +4,25 @@
     "title": "Adaptation",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Vorcha"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Growing up in a harsh environment, your body evolved so you could survive. Choose one of the following environments:\n\nAquatic: Amphibious. Swim speed 10m.\nDesert: Constitution +1. Ignore one level of exhaustion.\nFrozen: Resistance to cold damage.\nHigh-gravity: Strength +1.\nUnderground: Darkvision 60m. Blindsight 10m.\nVolcanic: Resistance to fire damage.\nZero-gravity: While lifted or in zero-g, your speed is 2m and you do not have disadvantage on your attack rolls.\n\nundefined"
+    "body": "Growing up in a harsh environment, your body evolved so you could survive. Choose one of the following environments:\n\nAquatic: Amphibious. Swim speed .\nDesert: Constitution +1. Ignore one level of exhaustion.\nFrozen: Resistance to cold damage.\nHigh-gravity: Strength +1.\nUnderground: Darkvision . Blindsight .\nVolcanic: Resistance to fire damage.\nZero-gravity: While lifted or in zero-g, your speed is  and you do not have disadvantage on your attack rolls.\n\nundefined"
   },
   {
     "id": "all-seeing-eyes",
     "title": "All-seeing Eyes",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Prothean"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to 10m and proficiency in Perception.\nundefined"
+    "body": "Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to  and proficiency in Perception.\nundefined"
   },
   {
     "id": "amphibious",
     "title": "Amphibious",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Hanar + Salarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Can breathe both air and water.\nundefined"
   },
@@ -37,9 +31,7 @@
     "title": "Bio-Electric Focus",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Angara"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You can cast a 1st-level version of shocking grasp without expending a spell slot or tech point. Charisma is your\nspellcasting modifier for this ability. This does not count against your max number of cantrips known or spells prepared.\nIf you wish to cast an advanced version of shocking grasp or cast it at a higher level, you must prepare it and/or\nexpend spell slots/tech points as normal.\nundefined"
   },
@@ -48,9 +40,7 @@
     "title": "Bio-electric Ward",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Angara"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Increase your AC by 1. You have a resistance to lightning damage, but this resistance does not apply to damage\ndone to your shields.\nundefined"
   },
@@ -59,20 +49,16 @@
     "title": "Bioluminescence",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Hanar"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "You can shed dim light in a 10m radius.\nundefined"
+    "body": "You can shed dim light in a  radius.\nundefined"
   },
   {
     "id": "bite",
     "title": "Bite",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Vorcha"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\nundefined"
   },
@@ -81,29 +67,16 @@
     "title": "Blood Rage",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Krogan"
-    ],
-    "link": null,
-    "body": "When you kill an enemy, you can use a bonus action to enter a mindless blood rage. Blood rage lasts for 1 minute or\nuntil you end it as a bonus action. For the duration, you must move towards and attack an enemy on your turn and\nyou cannot concentrate on spells. While in blood rage, are immune to being charmed or frightened and you gain\ntemporary hit points equal to your Constitution modifier at the start of each of your turns. When blood rage ends,\nyou lose any remaining temporary hit points from blood rage.\nYou must finish a long rest before you can enter blood rage again.\nundefined"
-  },
-  {
-    "id": "brothers-in-arms",
-    "title": "Brothers-in-Arms",
-    "type": "character",
-    "subType": "traits",
     "qualifiers": [],
     "link": null,
-    "body": "Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within 2 meters of the creature and the ally isn’t incapacitated.\nundefined"
+    "body": "When you kill an enemy, you can use a bonus action to enter a mindless blood rage. Blood rage lasts for 1 minute or\nuntil you end it as a bonus action. For the duration, you must move towards and attack an enemy on your turn and\nyou cannot concentrate on spells. While in blood rage, are immune to being charmed or frightened and you gain\ntemporary hit points equal to your Constitution modifier at the start of each of your turns. When blood rage ends,\nyou lose any remaining temporary hit points from blood rage.\nYou must finish a long rest before you can enter blood rage again.\nundefined"
   },
   {
     "id": "careful",
     "title": "Careful",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Elcor"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You have proficiency in Insight and Perception. But your careful nature makes you slow to act, giving you disadvantage on\nInitiative rolls.\nundefined"
   },
@@ -112,31 +85,34 @@
     "title": "Contra-gravitic Levitation",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Hanar"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of 10m, though\nyou actually hover between 1 and 2 meters from the ground. You are immune to becoming prone and you ignore any penalties\ncaused by difficult terrain.\nHowever, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered prone. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.\nundefined"
+    "body": "When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of ,\nthough you actually hover  from the ground. You are immune to\nbecoming prone and you ignore any penalties caused by difficult terrain.\nHowever, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered prone. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.\nundefined"
   },
   {
     "id": "cybernetic-augmentation",
     "title": "Cybernetic Augmentation",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Quarian"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "You have a cybernetic augmentation. Choose one of the following:\nCerebral\nCerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.\nAbility Score Increase. Your Intelligence score increases by 1.\nMind Shielding Unit. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by spells. In addition, your mind cannot be read by an Asari's mind meld.\nScientific Aptitude. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.\n\nMuscular\nMuscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.\nAbility Score Increase. Your Dexterity score increases by 1.\nOverclock Unit. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving 0 meters on one of your turns.\nPeak Fitness. You have proficiency in either the Acrobatics or Athletics skill.\n\nOcular\nQuarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.\nDarkvision. You can see in dim light within 20 meters of you as if it were bright light, and in darkness as if it were\ndim light. You can’t discern color in darkness, only shades of gray.\nClarity Unit. You have advantage on saving throws against being blinded.\nKeen Eyesight. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within 10 meters of you that is lightly obscured as if it were unobscured and can see in an area within 6 meters of\nyou that is heavily obscured as if it were only lightly obscured.\n\nVisceral\nQuarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.\nAbility Score Increase. Your Constitution score increases by 2.\nRevival Unit. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.\nundefined"
+    "body": "You have a cybernetic augmentation. Choose one of the following:\nCerebral\nCerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.\nAbility Score Increase. Your Intelligence score increases by 1.\nMind Shielding Unit. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by spells. In addition, your mind cannot be read by an Asari's mind meld.\nScientific Aptitude. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.\n\nMuscular\nMuscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.\nAbility Score Increase. Your Dexterity score increases by 1.\nOverclock Unit. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving  on one of your turns.\nPeak Fitness. You have proficiency in either the Acrobatics or Athletics skill.\n\nOcular\nQuarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.\nDarkvision. You can see in dim light within  of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\nClarity Unit. You have advantage on saving throws against being blinded.\nKeen Eyesight. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within  of you that is lightly obscured as if it were unobscured and can see in an\narea within  of you that is heavily obscured as if it were only lightly obscured.\n\nVisceral\nQuarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.\nAbility Score Increase. Your Constitution score increases by 2.\nRevival Unit. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.\nundefined"
+  },
+  {
+    "id": "dominate",
+    "title": "Dominate",
+    "type": "character",
+    "subType": "traits",
+    "qualifiers": [],
+    "link": null,
+    "body": "At 10th level, you learn the Dominate spell. Charisma is your spellcasting modifier for this spell and it\ndoes not count against your max number spells known or prepared. You can cast a 3rd-level version of this spell\nonce per long rest.\nundefined"
   },
   {
     "id": "eidetic-memory",
     "title": "Eidetic Memory",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Drell"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You can recall memories in intricate detail, including details from all your senses. Distant or inconsequential\nmemories require a DC 14 Wisdom check. On a failure, you can only recall details from one or two senses.\nundefined"
   },
@@ -145,20 +121,16 @@
     "title": "Esprit De Corps",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Turian"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within 2 meters of the creature and the ally isn’t incapacitated.\nundefined"
+    "body": "Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within  of the creature and the ally isn’t incapacitated.\nundefined"
   },
   {
     "id": "extremophile",
     "title": "Extremophile",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Krogan"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your body is naturally acclimated to live in the harshest environments. You have advantage on Constitution saving\nthrows to resist exhaustion due to environmental hazards such as extreme heat or cold. Additionally, you can go\ntwice as long without food or water before you suffer exhaustion.\nundefined"
   },
@@ -167,9 +139,7 @@
     "title": "Four Eyes",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Batarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You have proficiency in the Perception skill and you can take the Search action as a bonus action on each of your turns.\nundefined"
   },
@@ -178,9 +148,7 @@
     "title": "Fragile",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Hanar"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your hit point maximum is decreased by 1. Every time you gain a level you gain 1 less hit point.\nundefined"
   },
@@ -189,9 +157,7 @@
     "title": "Fury of the Small",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Volus"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the\nattack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you\ncan't use it again until you finish a short or long rest.\nundefined"
   },
@@ -200,31 +166,25 @@
     "title": "Hermetic Suit",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Volus"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Your suit is your lifeblood and consists of a reinforced, pressurized body suit and helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals puncture or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of their starting equipment.\nIf you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus-appropriate environment within 10 minutes, you die.\nundefined"
+    "body": "Your suit is your lifeblood and consists of a reinforced, pressurized body suit and helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals puncture or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of\ntheir starting equipment.\nIf you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus-appropriate\nenvironment within 10 minutes, you die.\nundefined"
   },
   {
     "id": "hermetic-suit",
     "title": "Hermetic Suit",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Quarian"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals puncture or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of their starting equipment.\nFor each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.\nundefined"
+    "body": "Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals puncture or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of\ntheir starting equipment.\nFor each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.\nundefined"
   },
   {
     "id": "high-speed-metabolism",
     "title": "High-Speed Metabolism",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Salarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Salarians don't need to sleep for as long as other races. Instead, their unique biology requires that they only need to\nsleep for 1 hour a day to gain the same benefit that a human does from 8 hours of sleep. Because of this, Salarains\nonly need 4 hours for a long rest.\nundefined"
   },
@@ -233,20 +193,16 @@
     "title": "Hunter Mode",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Geth"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.\nAs an action, you can activate Hunter Mode, gaining the following benefits:\n\nIncrease movement by 2m.\n+1 bonus to ranged and melee weapon attack rolls.\n\n\nThis effect lasts 1 min. You can only use Hunter Mode once per long rest.\nAt 11th level, you gain an additional benefit based on your class:\n\n\nClass\nBenefit\n\n\n\n\nEngineer\nWhen you cast a spell, the die type of that spell increases by 1 die type (max d12). If the die type is already d12, add +1 for each die rolled instead.\n\n\nSoldier\nYour extra attack features grants you 1 additional attack the first time you take the Attack action on your turn.\n\n\nInfiltrator\nIncrease your sneak attack die type to d8 (if you are a Shadow Infiltrator, your sneak attack for melee weapons attacks is a d10).\n\n\nundefined"
+    "body": "Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.\nAs an action, you can activate Hunter Mode, gaining the following benefits:\n\nIncrease movement by .\n+1 bonus to ranged and melee weapon attack rolls.\n\n\nThis effect lasts 1 min. You can only use Hunter Mode once per long rest.\nAt 11th level, you gain an additional benefit based on your class:\n\n\nClass\nBenefit\n\n\n\n\nEngineer\nWhen you cast a spell, the die type of that spell increases by 1 die type (max d12). If the die type is already d12, add +1 for each die rolled instead.\n\n\nSoldier\nYour extra attack features grants you 1 additional attack the first time you take the Attack action on your turn.\n\n\nInfiltrator\nIncrease your sneak attack die type to d8 (if you are a Shadow Infiltrator, your sneak attack for melee weapons attacks is a d10).\n\n\nundefined"
   },
   {
     "id": "innate-biotics",
     "title": "Innate Biotics",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Asari"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Asari do not require biotic implants to control their abilities. Instead, their biotic talents rely on their ability\nto project their will onto the world. As an Asari, you use your Charisma whenever a spell refers to your spellcasting\nability. In addition, you use your Charisma modifier when setting the saving throw DC for a biotic spell you cast and\nwhen making an attack roll with one.\nChoose a class: Adept or Vanguard. You learn two biotic cantrips of your choice from that class’s spell list. In addition,\nchoose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast\nit, you must finish a long rest before you can cast it again.\nNeither of the cantrips nor the spell can be an advanced version. But you can learn or prepare an advanced version of\nthe spell as your class permits.\nundefined"
   },
@@ -255,9 +211,7 @@
     "title": "Integrated Protection",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Geth"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor,\nbut if you are wielding a weapon or shield that provides additional AC, you apply its bonus as normal.\nYou can alter your armor type for 2 omni-gel each time you finish a long rest. Choose one mode to adopt from the\nIntegrated Protection table, provided you meet the mode’s prerequisite.\n\n\nMode\nPrerequisite\nAC\n\n\n\n\nLithe\nNone\n11 + your Dexterity Modifier. Advantage on Dexterity (Stealth) checks.\n\n\nComposite Plating\nMedium armor proficiency\n12 + your Dexterity modifier (maximum of 2) + proficiency bonus\n\n\nAsymmetric Defense Plating\nHeavy armor proficiency\n15 + proficiency bonus. Disadvantage on Dexterity (Stealth) checks.\n\n\n\nInnate Shielding\nYou have 5 shields (regen 5). You can upgrade these by using armor mods.\nArmor Mods\nYou can augment your armor by integrating armor mods into your system. You can spend 8 hours removing, adding, or\nreplacing a mod. When you remove or replace a mod in this way, the replaced or removed mod is lost. The mod cannot be salvaged,\nnot even with the assistance of Armorsmith's or Tailor's tools.\nYou have 2 chest mod slots, 1 mod slot in your arms, legs, and head each. You cannot add new slots in any way.\nundefined"
   },
@@ -266,9 +220,7 @@
     "title": "Limited Regeneration",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Vorcha"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You regain all your Hit Dice on a long rest. Additionally, if you lose a body part, the missing part will regrow\nand return to full functionality after a passing of time, based on the body part:\n\nFingers &amp; toes: 1 week\nHands &amp; Feet: 2 weeks\nArm (to elbow) &amp; Leg (to knee): 4 weeks\nEye: 6 weeks\nArm (to shoulder) &amp; Leg (to hip): 8 weeks\n\nundefined"
   },
@@ -277,9 +229,7 @@
     "title": "Living Construct",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Geth"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You are immune to psychic and poison damage, the poisoned condition, and disease. You do not need to eat, drink, or breathe.\nWhen you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping.\nIn this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.\nundefined"
   },
@@ -288,9 +238,7 @@
     "title": "Lucky",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Volus"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one\nluck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die,\nbut before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.\nYou can also spend one luck point when an attack roll is made against you. Roll a d20, and then\nchoose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to\ninfluence the outcome of a roll, the points cancel each other out; no additional dice are rolled.\nYou regain your expended luck points when you finish a long rest.\nundefined"
   },
@@ -299,9 +247,7 @@
     "title": "Martial Training",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Turian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You are proficient in the Athletics skill and one additional weapon type (Assault Rifle, Heavy Pistol, Melee, Shotgun, SMG,\nor Sniper Rifle). The additional weapon type proficiency is not limited by your selected class.\nundefined"
   },
@@ -310,20 +256,25 @@
     "title": "Menacing",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Krogan"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You gain proficiency in the Intimidation skill.\nundefined"
+  },
+  {
+    "id": "mind-break",
+    "title": "Mind Break",
+    "type": "character",
+    "subType": "traits",
+    "qualifiers": [],
+    "link": null,
+    "body": "You can touch a willing creature and initiate a mind meld. If the target is unwilling, the meld does not continue.\nThe creature must make a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be\nrendered unconscious for 1d4 hours as your nervous system overwhelms theirs. Once you use this trait, you can't\nuse it again until you finish a long rest.\nundefined"
   },
   {
     "id": "mind-meld",
     "title": "Mind Meld",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Asari"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You can transfer and receive thoughts to another creature. You must concentrate and if the creature is not willing,\nthe thoughts become jumbled and disjointed. Unintelligent creatures have unpredictable results.\nundefined"
   },
@@ -332,9 +283,7 @@
     "title": "Natural Diplomat",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Asari"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You have proficiency in the Persuasion skill.\nundefined"
   },
@@ -343,9 +292,7 @@
     "title": "Natural Hunters",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Drell"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You gain proficiency with two of the following skills of your choice: Athletics, Perception, Stealth, and Survival.\nundefined"
   },
@@ -354,9 +301,7 @@
     "title": "No Feats",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Geth"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Geth cannot take any feats.\nundefined"
   },
@@ -365,20 +310,16 @@
     "title": "Non-Differentiated Cells",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Vorcha"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage\nundefined"
+    "body": "You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage.\nundefined"
   },
   {
     "id": "photographic-memory",
     "title": "Photographic Memory",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Salarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Whenever you make an Intelligence (Engineering, Electronics, History, or Science) check to recall information, add\ntwice your proficiency bonus even if you are not proficient in that skill.\nundefined"
   },
@@ -387,9 +328,7 @@
     "title": "Powerful Build",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Krogan"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nundefined"
   },
@@ -398,53 +337,43 @@
     "title": "Psychometry",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Prothean"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "While in physical contact with a creature or object, a Prothean can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within 10 meters of the object or creature within\nthe past 24 hours. If in contact with an object, you see the last creature to hold the object, regardless of how long\nago it was last handled. This ability may only be used once per long rest.\nundefined"
+    "body": "While in physical contact with a creature or object, a Prothean can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within   of the\nobject or creature within the past 24 hours. If in contact with an object, you see the last creature to\nhold the object, regardless of how long ago it was last handled. This ability may only be used once per long rest.\nundefined"
   },
   {
     "id": "quad-strand-dna",
     "title": "Quad-Strand DNA",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Prothean"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Your unique quad-strand DNA helps to protect you against radiation and cold. You have radiant and cold damage resistance.\nundefined"
+    "body": "Your unique quad-strand DNA helps to protect you against radiation and cold. You have resistance to radiant and cold damage.\nundefined"
   },
   {
     "id": "quadrupedal",
     "title": "Quadrupedal",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Elcor"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "You count as one size larger when determining your carrying capacity and the weight you can push or drag.\nIn addition, any climb that requires hands and feet is especially difficult for you because of your size and weight.\nWhen you make such a climb, each foot of movement costs you 4 extra meters, instead of the normal 2 extra meters.\nFinally, a Medium or smaller creature can ride on your back if you allow it. In such a situation, you continue\nto act independently, not as a controlled mount.\nundefined"
+    "body": "You count as one size larger when determining your carrying capacity and the weight you can push or drag.\nIn addition, any climb that requires hands and feet is especially difficult for you because of your size and weight.\nWhen you make such a climb, each  of movement costs you\n, instead of the normal .\nFinally, a Medium or smaller creature can ride on your back if you allow it. In such a situation, you continue\nto act independently, not as a controlled mount.\nundefined"
   },
   {
     "id": "raw-agility",
     "title": "Raw Agility",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Drell"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can\ndouble your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 meters on\none of your turns.\nundefined"
+    "body": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can\ndouble your speed until the end of the turn. Once you use this trait, you can’t use it again until you move\n on one of your turns.\nundefined"
   },
   {
     "id": "repair-matrix",
     "title": "Repair Matrix",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Geth"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "As a construct, you cannot be healed by medi-gel or spells that heal organic creatures (such as the first aid spell).\nInstead, you can use your Action to expend a Hit Die. Roll the die and add your Constitution modifier to it. You regain\nhit points equal to the total. You also regain all spent hit dice at the end of a long rest, instead of the usual amount.\nIf you drop to 0 hit points, you must be stabilized with an Intelligence (Engineering) or Intelligence (Electronics) check,\ninstead of a Wisdom (Medicine) check.\nAt the 4th level, you gain an additional number of hit dice equal to your character level divided by 4 (minimum 1).\nThese bonus hit dice are d8s, regardless of your class.\nundefined"
   },
@@ -453,9 +382,7 @@
     "title": "Saving Face",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Batarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Batarians are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an\nattack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies\nyou can see (maximum bonus of +5). Once you use this trait, you can't use it again until you finish\na short or long rest.\nundefined"
   },
@@ -464,9 +391,7 @@
     "title": "Savvy Dealings",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Volus"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You have proficiency in the Persuasion skill.\nundefined"
   },
@@ -475,9 +400,7 @@
     "title": "Shoulder Mounts",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Elcor"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your ranged weapons are shoulder mounted to your armor or in holsters and use a VI to aim and fire. When you make a\nranged weapon attack, use your Intelligence modifier instead of your Dexterity modifier.\nYou can have one ranged weapon mounted on each shoulder. Mounting a ranged weapon requires you to be proficient with\nthe weapon type and takes at least 10 minutes of work during a short or long rest.\nundefined"
   },
@@ -486,9 +409,7 @@
     "title": "Shrewd Negotiator",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Batarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Gain proficiency in either Insight or Intimidation.\nundefined"
   },
@@ -497,9 +418,7 @@
     "title": "Solar Dependency",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Angara"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "If you fail to immerse yourself in sunlight for at least 1 hour during a day, you suffer one level of exhaustion at the\nend of that day.\nundefined"
   },
@@ -508,9 +427,7 @@
     "title": "Survivalist",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Angara"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Angara have a knack for living in harsh environments. You have proficiency in Survival.\nundefined"
   },
@@ -519,20 +436,16 @@
     "title": "Tentacles",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Hanar"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms, meaning\nyou can only wield weapons with the light property.\nAs an action, you can use one of your tentacles to try to grapple a creature. Each one is also a\nnatural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\nImmediately after hitting, you can try to grapple the target as a bonus action.\nAs an action, you can secrete a natural toxin from one of your tentacles. If a creature is grappled by the tentacle,\nit must succeed a DC 11 Constitution saving throw of becomes poisoned for 1 hour. The DC of this\nsaving throw increases with your level: DC 13 at the 5th level, DC 15 at the 11th level, and DC 17 at the 17th level.\nundefined"
+    "body": "You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms, meaning\nyou can only wield weapons with the light property.\nIn addition, your tentacles are natural weapons, which you can use to make unarmed strikes. If you hit with them,\nyou deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for\nan unarmed strike. Immediately after hitting a target with your tentacle attack, you can attempt to grapple the target\nas a bonus action.\nIf a creature is grappled by one of your tentacles, you may use your action to secrete a toxin into the creature.\nIt must succeed a Constitution saving throw or becomes poisoned for 1 hour. The DC of this\nsaving throw is equal to 11 + your proficiency bonus.\nundefined"
   },
   {
     "id": "thick-hide",
     "title": "Thick Hide",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Elcor"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your base AC is 12 and you determine your AC using your Constitution modifier instead of your Dexterity modifier.\nundefined"
   },
@@ -541,20 +454,16 @@
     "title": "Thulium Skin",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Turian"
-    ],
+    "qualifiers": [],
     "link": null,
-    "body": "Resistance to radiant damage and immunity to diseases caused by radiation.\nundefined"
+    "body": "You have resistance to radiant damage and immunity to diseases caused by radiation.\nundefined"
   },
   {
     "id": "toughness",
     "title": "Toughness",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Krogan"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.\nundefined"
   },
@@ -563,59 +472,9 @@
     "title": "Twice as Bright",
     "type": "character",
     "subType": "traits",
-    "qualifiers": [
-      "Salarian"
-    ],
+    "qualifiers": [],
     "link": null,
     "body": "You gain proficiency in two skills of your choice and two tools or kits of your choice.\nundefined"
-  },
-  {
-    "id": "ardat-yakshi",
-    "title": "Ardat-Yakshi",
-    "type": "character",
-    "subType": "subraces",
-    "qualifiers": [
-      "Asari",
-      "Variant"
-    ],
-    "link": "/races/asari",
-    "body": "A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot; (2 asari parents).\nThe condition is impossible to identify until the asari reaches maturity, by which time it is too late to correct.\nWhen diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed. This is because ardat-yakshi\ndevelop an addiction to the power and feel intense compulsion to meld. The addition only grows stronger with each meld,\nand so a life of monastic celibacy allows asari to leave in peace with a controllable desire. Those who are able to\navoid isolation and execution, however, quickly become psychopathic in their intense lust for the destructive melding.\nVariant Traits\nIf you would like to play an ardat-yakshi, you can choose to replace the Alignment and Mind Meld traits with the following.\nAdditionally, you gain the Dominate trait at 10th level.\nAlignment. Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.\nMind Break. You can touch a willing creature and initiate a mind meld. If the target is unwilling, the meld does not continue.\nThe creature must make a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be\nrendered unconscious for 1d4 hours as your nervous system overwhelms theirs. Once you use this trait, you can't\nuse it again until you finish a long rest.\nDominate. At 10th level, you learn the Dominate spell. Charisma is your spellcasting modifier for this spell and it\ndoes not count against your max number spells known or prepared. You can cast a 3rd-level version of this spell\nonce per long rest.\n\nundefined"
-  },
-  {
-    "id": "awakened-collector",
-    "title": "Awakened Collector",
-    "type": "character",
-    "subType": "subraces",
-    "qualifiers": [
-      "Prothean",
-      "Variant"
-    ],
-    "link": "/races/prothean",
-    "body": "\nThe Collectors are an enigmatic race that live beyond the Omega 4 Relay, a mass relay within the same system as Omega,\nin the Terminus Systems. They are rarely seen in the Terminus itself, let alone Citadel space, and are generally regarded\nas a myth by Citadel citizens. Definite sightings of Collectors have been made on Omega every few centuries.\nCollectors are former Protheans that have been completely subjugated by their Reaper masters. Their DNA shows signs of\n&quot;extensive genetic rewrite&quot; including three fewer chromosomes, reduced heterochromatin structure, and the elimination\nof superfluous &quot;junk&quot; sequences.\nWhen the Reaper-killer known as Leviathan fought the Collectors, it severed their connection to Harbinger with a\nthrall device. Most Collector forces died as a result, but a few survived. Now, these rare individuals fight for the\nmemory of their people, a proud race broken by the Reapers.\nVariant Traits\nIf you would like to play an awakened collector, you can choose to replace the All-Seeing Eyes, and Psychometry\ntraits with the following.\nChitinous Exoskeleton. While not wearing armor, you have +1 AC.\nForewing Leap. High and Long jump distances are tripled.\nSeeker Swarm. As an action, you call 1d4 seeker swarms to a space you can see within 10m. The swarms remain for\n1 hour or until you dismiss them as a bonus action. The swarms are friendly to you and your companions for the duration.\nThe swarms have their own turn in the initiative order, which occurs immediately following your turn.\nOnce you use this feature, you must take a long rest before using it again.\n\n\n\n\nundefined"
-  },
-  {
-    "id": "unshackled-ai",
-    "title": "Unshackled AI",
-    "type": "character",
-    "subType": "subraces",
-    "qualifiers": [
-      "Geth",
-      "Variant"
-    ],
-    "link": "/races/geth",
-    "body": "\nAn Artificial Intelligence (AI) is a self-aware computing system capable of learning and independent decision making.\nCreation of a conscious AI requires adaptive code, a slow, expensive education, and a specialized quantum computer\ncalled a &quot;blue box&quot;. While most AI are &quot;shackled&quot; to the confines of networked computer traffic and lack a body,\noccasionally, an AI is placed into a synthetic form, unshackling it.\nAIs are considered illegal by the Council, but that hasn't stopped corporations like Cerberus from innovating. As an\nunshackled AI, you might be have been mass produced like the Alliance Infiltration Units, or you may be an experiment\ngone wrong.\nPlaying an Unshackled AI\nUnshackled AIs are entirely unique. Since you are synthetic, you gain some of the synthetic traits as listed in the\nGeth description. However, your mind, purpose, history, alignment, height, weight, and personality are entirely\nyour own. Technically, you can take any form you wish (work with your GM to decide if this new form gains any additional\ntraits). However, because AI are illegal, most unshackled AI would have a humanoid form, allowing them to blend into\nsociety.\nVariant Traits\nIf you would like to play an Unshackled AI, you can choose to replace the Ability Score Increase, Alignment,\nHunter Mode, and No Feats traits with the following.\nAbility Score Increase. +1 Intelligence and +1 ability that is not Intelligence.\nAlignment. If you are still following your programming you would be lawful with morality based on your purpose. If you have a glitch in your programming you might be chaotic.\nFeat. You gain one feat of your choice.\n\n\n\n\nundefined"
-  },
-  {
-    "id": "variant-human",
-    "title": "Variant Human",
-    "type": "character",
-    "subType": "subraces",
-    "qualifiers": [
-      "Human",
-      "Variant"
-    ],
-    "link": "/races/human",
-    "body": "If your campaign uses the optional feat rules, your Galaxy Master might allow these variant traits, all of which replace\nthe human’s Ability Score Increase trait.\nAbility Score Increase: Two different ability scores of your choice increase by 1.\nSkills: You gain proficiency in one skill of your choice.\nFeat: You gain one feat of your choice.\nundefined"
   },
   {
     "id": "artisan",
@@ -1881,136 +1740,136 @@
     "id": "angara",
     "title": "Angara",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/angara",
-    "body": "The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,\nsometimes shading into green or tan. They are the only known extant\nsapient race native to the Heleus Cluster of the Andromeda galaxy, and arose on the planet Havarl. Their unique\nphysiology is dependant on sunlight and allows them to produce natural bioelectrical fields. The angara as a people\nare very free with their emotions, demonstrative and &quot;larger than life&quot;. If they love you they hug you, if\nthey hate you or if you make them mad, they punch you.\nCreatures of the Sun\nThe angara electromagnetic radiation that is emitted from stars to survive. Lack of real or artificial sunlight causes\nthem to &quot;go dark&quot;, which weakens their immune systems and bio-energy significantly. Prolonged lack of sunlight can lead\nto a coma and then death. To supplement their sunlight intake or provide a light source when natural light is not\nreadily available, the angara make use of powerful ultraviolet lamps that give them both heat and light.\nFamily Oriented\nWhile they have only one true mother and father, the angara share their parents with the community. Their\nfamilies are very large, consisting of multiple mothers and many siblings and cousins. This close-knit society\nmakes angara very mistrustful of other races.\nWhile the angara have many different religions, all share the same basic tenet: that when an angara dies, he or she is\nreincarnated and the reincarnated soul stays in the family, making their lineage stronger.\nAngara Names\nLittle is known about angaran names. But it is assumed that they do not use family names given the collective nature\nof their families.\nMale names: Afray De If, Dadh Qjavaf, Gorsa Afe Ol, Jahkis Tora Sje, Jef De Gan, Khahnos De Ivraan, Kjojey Sheda Af,\nOrvfiy Qirshae Ak, Nel Sja, Qos De Ivfre, Sihris De Or, Tashed De Kjerad, Val Gafa\nFemale Names: Afihia De Xana, Avfaarian, Dhahfrin Sa, Fohfania, Hefrehal Ven, Inil Sefe, Jalshaye, Janvfe Sje,\nNalvi Sjarshev, Noshfa Seme Tavfal, Oni Vor, Onne De Tiv, Ovih Qjana In, Sohnani Sirshav, Yihvref\n\n Angara have a standard lifespan of about 150 years, although some have been known to live past 200. Angara are emotional creatures and strongly community oriented. Their emotion-driven tendencies make them often chaotic neutral or chaotic good. Angara are slightly taller, on average, than humans, ranging from 174cm (5'8\") to 204cm (6'8\"). Your size is Medium. Your base walking speed is 10m."
+    "link": "/species/angara",
+    "body": "The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,\nsometimes shading into green or tan. They are the only known extant\nsapient race native to the Heleus Cluster of the Andromeda galaxy, and arose on the planet Havarl. Their unique\nphysiology is dependant on sunlight and allows them to produce natural bioelectrical fields. The angara as a people\nare very free with their emotions, demonstrative and &quot;larger than life&quot;. If they love you they hug you, if\nthey hate you or if you make them mad, they punch you.\nCreatures of the Sun\nThe angara electromagnetic radiation that is emitted from stars to survive. Lack of real or artificial sunlight causes\nthem to &quot;go dark&quot;, which weakens their immune systems and bio-energy significantly. Prolonged lack of sunlight can lead\nto a coma and then death. To supplement their sunlight intake or provide a light source when natural light is not\nreadily available, the angara make use of powerful ultraviolet lamps that give them both heat and light.\nFamily Oriented\nWhile they have only one true mother and father, the angara share their parents with the community. Their\nfamilies are very large, consisting of multiple mothers and many siblings and cousins. This close-knit society\nmakes angara very mistrustful of other races.\nWhile the angara have many different religions, all share the same basic tenet: that when an angara dies, he or she is\nreincarnated and the reincarnated soul stays in the family, making their lineage stronger.\nAngara Names\nLittle is known about angaran names. But it is assumed that they do not use family names given the collective nature\nof their families.\nMale names: Afray De If, Dadh Qjavaf, Gorsa Afe Ol, Jahkis Tora Sje, Jef De Gan, Khahnos De Ivraan, Kjojey Sheda Af,\nOrvfiy Qirshae Ak, Nel Sja, Qos De Ivfre, Sihris De Or, Tashed De Kjerad, Val Gafa\nFemale Names: Afihia De Xana, Avfaarian, Dhahfrin Sa, Fohfania, Hefrehal Ven, Inil Sefe, Jalshaye, Janvfe Sje,\nNalvi Sjarshev, Noshfa Seme Tavfal, Oni Vor, Onne De Tiv, Ovih Qjana In, Sohnani Sirshav, Yihvref\n\n Angara have a standard lifespan of about 150 years, although some have been known to live past 200. Angara are emotional creatures and strongly community oriented. Their emotion-driven tendencies make them often chaotic neutral or chaotic good. Angara are slightly taller, on average, than humans, ranging from 174cm (5'8\") to 204cm (6'8\"). Your size is Medium. [object Object]"
   },
   {
     "id": "asari",
     "title": "Asari",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/asari",
-    "body": "Asari are a race of elegant, mono-gendered humanoids. The asari resemble female humans with blue or purple skin and a\ncrest of rigid tentacles in place of hair. Despite their feminine appearance, asari have little use for gender or\ngender roles, though they often use female pronouns and gendered language. They possess a unique method of reproduction\ninitiated by a &quot;mind meld&quot; which links the asari's nervous system with a partner-even one of a different race-to\nrandomize genes to create asari offspring. Asari have an innate biotic ability and don't require a biotic implant to\nmanipulate mass effect fields.\nUnmatched Patience\nBecause of their long lifespan, asari tend to have a &quot;long view&quot; not common in other races. When they encounter a new\nspecies or situation, the asari are more comfortable with an extended period of passive observation and study than immediate action.\nThey invite new species of advanced development to join the galactic community, knowing that their ideals and beliefs will\ninevitably influence the existing culture.\nMothers of the Galaxy\nAsari reproduction is very different from other forms of sexual reproduction. When a meld for reproduction is initiated, the\nasari accesses her partner's genes and subconsciously uses them as an algorithmic seed to remap genes into a unique set of DNA.\nThe offspring resulting from such interspecies pairings are always asari as no DNA is taken from the partner. Instead,\nthe asari uses the meld to explore her partner's genetic heritage and pass desirable traits on to any offspring and\nas a &quot;map&quot; to randomize the genes of the offspring.\nAsari believe that their offspring acquire the best qualities of the &quot;father&quot; from the melded genes. Therefore, they frown\nupon intraspecies conception, since genetic traits and cultural insight is gained from mating outside their species, so\nit's considered wasteful for asari to reproduce together. The results of such unions are occasionally referred to as\n&quot;purebloods&quot;, a great insult among contemporary asari. A rare genetic defect known as Ardat-Yakshi, which makes\nasari destroy the partner's mind during melding, occurs much more frequently among the daughters of purebloods.\nMaiden, Matron, Matriarch\nAsari pass through three climacteric life stages, marked by biochemical and physiological changes. The Maiden stage\nbegins at puberty and is marked by the drive to explore and experience. Most young asari are curious and restless, and\nit is not uncommon for many to try their hand at dancing in bars or working as mercenaries during this time. The Matron\nstage of life begins around the age of 350, though it can be triggered earlier if the individual melds frequently. This\nperiod is marked by a desire to settle in one area and raise children. The Matriarch stage begins around 700 years\nof age, or earlier if the individual melds rarely. Matriarchs become active in their community as sages and councilors,\ndispensing wisdom from centuries of experience. Their knowledge and guidance may be one reason why Matriarchs are rarely seen outside asari space.\nHowever, each stage can be started whenever an asari feels that she has reached the correct level of maturity.\nAsari Names\nAsari are given a personal name by their parents and take the surname of their mothers, even if the child has 2 asari\nparents. Outside of asari communities, they normally do not use their surnames and prefer to introduce themselves with\ntheir personal name only. Matriarchs are addressed as &quot;Matriarch&quot; but other titles may be used for matriarchs in prestigious positions.\nPersonal Names: Aeian, Aethyta, Aleena, Alestia, Aria, Batha, Benezia, Dahlia, Falere, Irissa, Jona, Liara, Lidanya,\nLiselle, Mallene, Morinth, Nassana, Nyxeris, Pelessaria, Rana, Rila, Samara, Sarissa, Shiala, Tela, Tevos, Treeya\nSurnames: Ateyne, B'Sayle, Calis, D'Layne, D'Nava, D'Ysesan, Dantius, Iallis, Iasava, Janieri, Kelis, M'Loari, M'Taros,\nMakenus, Nuwani, Sedela, Sederis, T'Goni, T'Loak, T'Soni, Thanoptis, Theris, V'Lanis, V'Nato, V'Tizor, Vasir\n\n Asari are very long-lived and can reach ages of over 1000 years. Asari are biased towards goodness, but exhibit a range of alignments not dissimilar to humans. Most Maiden stage asari are chaotic, Matrons level out to neutral, Matriarchs are heavily lawful. Asari have builds incredibly similar to female humans. Your size is Medium. Your base walking speed is 10m."
+    "link": "/species/asari",
+    "body": "Asari are a race of elegant, mono-gendered humanoids. The asari resemble female humans with blue or purple skin and a\ncrest of rigid tentacles in place of hair. Despite their feminine appearance, asari have little use for gender or\ngender roles, though they often use female pronouns and gendered language. They possess a unique method of reproduction\ninitiated by a &quot;mind meld&quot; which links the asari's nervous system with a partner-even one of a different race-to\nrandomize genes to create asari offspring. Asari have an innate biotic ability and don't require a biotic implant to\nmanipulate mass effect fields.\nUnmatched Patience\nBecause of their long lifespan, asari tend to have a &quot;long view&quot; not common in other races. When they encounter a new\nspecies or situation, the asari are more comfortable with an extended period of passive observation and study than immediate action.\nThey invite new species of advanced development to join the galactic community, knowing that their ideals and beliefs will\ninevitably influence the existing culture.\nMothers of the Galaxy\nAsari reproduction is very different from other forms of sexual reproduction. When a meld for reproduction is initiated, the\nasari accesses her partner's genes and subconsciously uses them as an algorithmic seed to remap genes into a unique set of DNA.\nThe offspring resulting from such interspecies pairings are always asari as no DNA is taken from the partner. Instead,\nthe asari uses the meld to explore her partner's genetic heritage and pass desirable traits on to any offspring and\nas a &quot;map&quot; to randomize the genes of the offspring.\nAsari believe that their offspring acquire the best qualities of the &quot;father&quot; from the melded genes. Therefore, they frown\nupon intraspecies conception, since genetic traits and cultural insight is gained from mating outside their species, so\nit's considered wasteful for asari to reproduce together. The results of such unions are occasionally referred to as\n&quot;purebloods&quot;, a great insult among contemporary asari. A rare genetic defect known as Ardat-Yakshi, which makes\nasari destroy the partner's mind during melding, occurs much more frequently among the daughters of purebloods.\nMaiden, Matron, Matriarch\nAsari pass through three climacteric life stages, marked by biochemical and physiological changes. The Maiden stage\nbegins at puberty and is marked by the drive to explore and experience. Most young asari are curious and restless, and\nit is not uncommon for many to try their hand at dancing in bars or working as mercenaries during this time. The Matron\nstage of life begins around the age of 350, though it can be triggered earlier if the individual melds frequently. This\nperiod is marked by a desire to settle in one area and raise children. The Matriarch stage begins around 700 years\nof age, or earlier if the individual melds rarely. Matriarchs become active in their community as sages and councilors,\ndispensing wisdom from centuries of experience. Their knowledge and guidance may be one reason why Matriarchs are rarely seen outside asari space.\nHowever, each stage can be started whenever an asari feels that she has reached the correct level of maturity.\nAsari Names\nAsari are given a personal name by their parents and take the surname of their mothers, even if the child has 2 asari\nparents. Outside of asari communities, they normally do not use their surnames and prefer to introduce themselves with\ntheir personal name only. Matriarchs are addressed as &quot;Matriarch&quot; but other titles may be used for matriarchs in prestigious positions.\nPersonal Names: Aeian, Aethyta, Aleena, Alestia, Aria, Batha, Benezia, Dahlia, Falere, Irissa, Jona, Liara, Lidanya,\nLiselle, Mallene, Morinth, Nassana, Nyxeris, Pelessaria, Rana, Rila, Samara, Sarissa, Shiala, Tela, Tevos, Treeya\nSurnames: Ateyne, B'Sayle, Calis, D'Layne, D'Nava, D'Ysesan, Dantius, Iallis, Iasava, Janieri, Kelis, M'Loari, M'Taros,\nMakenus, Nuwani, Sedela, Sederis, T'Goni, T'Loak, T'Soni, Thanoptis, Theris, V'Lanis, V'Nato, V'Tizor, Vasir\n\n Asari are very long-lived and can reach ages of over 1000 years. Asari are biased towards goodness, but exhibit a range of alignments not dissimilar to humans. Most Maiden stage asari are chaotic, Matrons level out to neutral, Matriarchs are heavily lawful. Asari have builds incredibly similar to female humans. Your size is Medium. [object Object]"
   },
   {
     "id": "batarian",
     "title": "Batarian",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/batarian",
-    "body": "A race of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.\nThe Terminus Systems are infested with batarian pirate gangs and slaving\nrings, fueling the stereotype of the batarian thug. It should be noted that these criminals do not represent average\ncitizens, who are forbidden to leave batarian space by their ubiquitous and paranoid government.\nCaste Through Credits\nBatarians place an extremely high value on social caste and appearance, and overstepping one's place is frowned upon.\nEffective caste status can be bought on an ongoing basis like a subscription service, allowing the buyer to worm their\nway into the elite circles of batarian society given enough funds. Casting aspersions on the monetary worth of a\nsocial better is considered a serious insult. Batarians strongly believe that species with fewer than four eyes are\nless intelligent; they often gain the upper hand in interspecies arguments because other races find it difficult\nto know which eyes to focus on when speaking to them.\nThe Hegemony\nTheir government, known as the Batarian Hegemony, is hostile to the Systems Alliance (human government), but beneath\nthe notice of the powerful Council races. Humans receive the brunt of batarians' antagonism in the form of scams, slave raids,\nand terrorist attacks, incidents which the Hegemony covertly supports but is always quick to publicly distance itself from.\nGiven the batarian government's oppressive nature, it is speculated their\nsupreme leadership is autocratic or totalitarian in nature, although the batarian homeworld of Khar'shan remains\ndivided into various competing nation-states.\nBatarian Names\nLike humans, batarian names consist of a given name and family name.\nMale Names: Afothor, Carn, Dhapo, Drathar, Ecray, Eporn, Irorok, Khamak, Okorem, Prathan, Sato, Sonk, Uderlak\nFemale Names: Apenine, Adrechia, Banim, Della, Erakis, Famisa, Fophe, Igosin, Iraphi, Kranine, Krathe, Okhefin, Pravile, Ramye\nFamily Names: Can'dabar, Das'codah, Dhen'gess, Dran'fapos, Ghapsacan, Gronnopos, Kasbovran, Khognalak, Krak'gork, Pec'bawen, Sanrowar\n\n Batarians age at about the same rate as humans, though many do not live past 100 due to their caustic and dangerous lifestyles. Because of the tenets of Hegemony, batarians tend to be lawful evil, although there are outliers on the moral spectrum. Batarian bodies are similar to humans, with the exception of a large forehead to accommodate their additional four eyes, making them about 15cm (6\") taller. Your size is Medium. Your base walking speed is 10m."
+    "link": "/species/batarian",
+    "body": "A race of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.\nThe Terminus Systems are infested with batarian pirate gangs and slaving\nrings, fueling the stereotype of the batarian thug. It should be noted that these criminals do not represent average\ncitizens, who are forbidden to leave batarian space by their ubiquitous and paranoid government.\nCaste Through Credits\nBatarians place an extremely high value on social caste and appearance, and overstepping one's place is frowned upon.\nEffective caste status can be bought on an ongoing basis like a subscription service, allowing the buyer to worm their\nway into the elite circles of batarian society given enough funds. Casting aspersions on the monetary worth of a\nsocial better is considered a serious insult. Batarians strongly believe that species with fewer than four eyes are\nless intelligent; they often gain the upper hand in interspecies arguments because other races find it difficult\nto know which eyes to focus on when speaking to them.\nThe Hegemony\nTheir government, known as the Batarian Hegemony, is hostile to the Systems Alliance (human government), but beneath\nthe notice of the powerful Council races. Humans receive the brunt of batarians' antagonism in the form of scams, slave raids,\nand terrorist attacks, incidents which the Hegemony covertly supports but is always quick to publicly distance itself from.\nGiven the batarian government's oppressive nature, it is speculated their\nsupreme leadership is autocratic or totalitarian in nature, although the batarian homeworld of Khar'shan remains\ndivided into various competing nation-states.\nBatarian Names\nLike humans, batarian names consist of a given name and family name.\nMale Names: Afothor, Carn, Dhapo, Drathar, Ecray, Eporn, Irorok, Khamak, Okorem, Prathan, Sato, Sonk, Uderlak\nFemale Names: Apenine, Adrechia, Banim, Della, Erakis, Famisa, Fophe, Igosin, Iraphi, Kranine, Krathe, Okhefin, Pravile, Ramye\nFamily Names: Can'dabar, Das'codah, Dhen'gess, Dran'fapos, Ghapsacan, Gronnopos, Kasbovran, Khognalak, Krak'gork, Pec'bawen, Sanrowar\n\n Batarians age at about the same rate as humans, though many do not live past 100 due to their caustic and dangerous lifestyles. Because of the tenets of Hegemony, batarians tend to be lawful evil, although there are outliers on the moral spectrum. Batarian bodies are similar to humans, with the exception of a large forehead to accommodate their additional four eyes, making them about 15cm (6\") taller. Your size is Medium. [object Object]"
   },
   {
     "id": "drell",
     "title": "Drell",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/drell",
-    "body": "Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is\ninfused with a venom mild enough to be served in drinks and may cause mild hallucinations on oral contact. Drell\nalso possess eidetic memory, an adaptation to a world where they must remember the location of every necessary resource\nacross vast distances. The memories are so strong that an external stimulus can trigger a powerful memory recall and\nthese recalls are so vivid and detailed that some drell may mistake it for reality.\nHomeworld Lost\nThe drell ancestors emerged from dry, rocky deserts on the barren world of Rakhana. Eight centuries ago, the already-arid\ndrell homeworld began its swift descent into lifelessness due to disastrous industrial expansion. At the time, the drell\nlacked interstellar flight capacity, and with their population bursting at eleven billion, they faced certain doom.\nIt was around the 1980s CE that the hanar made first contact with the drell race. In the following ten years, the hanar\nwould transport a total of 375,000 drell to the hanar homeworld, Kahje. The remaining billions left on Rakhana would\nperish on their dying planet, warring against each other for diminishing resources.\nServants of the Hanar\nThe debt of gratitude that the drell owe the hanar is referred to as the Compact, which the drell fulfill by taking on\ntasks that the hanar find difficult, such as combat. Any drell may refuse to serve, but as being requested to serve\nis a great honor, few turn down the offer. Some drell grow a close, personal relationship with the hanar, so much so\nthat the hanar will even tell the drell their &quot;soul name&quot;. Drell have adapted to communication with hanar by getting\nimplants in their eyes to allow them to observe the bioluminescence the hanar use for communication.\nDevout\nMost drell are deeply religious, believing that they have souls separate from their bodies. They see death as a\ndeparture from the body, and they also state that a person's body and soul form a Whole. When the soul is traumatized or\notherwise disrupted, or the body is ill or injured, a person is no longer Whole. They also believe that their body can be\ndirected as a separate entity from themselves, thus, some drell take no responsibility when executing an order given by\nthe hanar even if the order is an assassination.\nThe religion includes at least three gods which drell often pray to for guidance and protection:\n\nAmonkira, Lord of Hunters\nArashu, Goddess of Motherhood and Protection\nKalahira, Goddess of Oceans and Afterlife.\n\n\nDrell Names\nDrell use given and family names.\nMale Names: Chas, Drino, Hite, Hoskim, Lofo, Massa, Neta, Nitos, Ruyim, Tako, Tayu, Thane, Tumil, Yesit\nFemale Names: Ares, Arina, Ehanen, Ekire, Eshesnu, Inashe, Inukmel, Itheyl, Odrinne, Oshane, Ulanten, Uthoru\nFamily Names: Dreis, Feun, Futos, Keas, Krios, Kuun, Mout, Soas, Shuit, Suul, Thatos, Yeos\n\n Drell have slightly shorter lifespans of 85 years, on average. However, Kepral's Syndrome - a unique, incurable disease caused by long-term exposure to humid climates - is the leading cause of death. Their religious influences set the Drell firmly in a trend towards lawful neutral, but this is often dependent on their station in life and career. Drell range from under 150 to 180 cm tall and have slender builds. Your size is Medium. Their light frames and wiry strength make drell slightly faster than other races. Your base walking speed is 12m."
+    "link": "/species/drell",
+    "body": "Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is\ninfused with a venom mild enough to be served in drinks and may cause mild hallucinations on oral contact. Drell\nalso possess eidetic memory, an adaptation to a world where they must remember the location of every necessary resource\nacross vast distances. The memories are so strong that an external stimulus can trigger a powerful memory recall and\nthese recalls are so vivid and detailed that some drell may mistake it for reality.\nHomeworld Lost\nThe drell ancestors emerged from dry, rocky deserts on the barren world of Rakhana. Eight centuries ago, the already-arid\ndrell homeworld began its swift descent into lifelessness due to disastrous industrial expansion. At the time, the drell\nlacked interstellar flight capacity, and with their population bursting at eleven billion, they faced certain doom.\nIt was around the 1980s CE that the hanar made first contact with the drell race. In the following ten years, the hanar\nwould transport a total of 375,000 drell to the hanar homeworld, Kahje. The remaining billions left on Rakhana would\nperish on their dying planet, warring against each other for diminishing resources.\nServants of the Hanar\nThe debt of gratitude that the drell owe the hanar is referred to as the Compact, which the drell fulfill by taking on\ntasks that the hanar find difficult, such as combat. Any drell may refuse to serve, but as being requested to serve\nis a great honor, few turn down the offer. Some drell grow a close, personal relationship with the hanar, so much so\nthat the hanar will even tell the drell their &quot;soul name&quot;. Drell have adapted to communication with hanar by getting\nimplants in their eyes to allow them to observe the bioluminescence the hanar use for communication.\nDevout\nMost drell are deeply religious, believing that they have souls separate from their bodies. They see death as a\ndeparture from the body, and they also state that a person's body and soul form a Whole. When the soul is traumatized or\notherwise disrupted, or the body is ill or injured, a person is no longer Whole. They also believe that their body can be\ndirected as a separate entity from themselves, thus, some drell take no responsibility when executing an order given by\nthe hanar even if the order is an assassination.\nThe religion includes at least three gods which drell often pray to for guidance and protection:\n\nAmonkira, Lord of Hunters\nArashu, Goddess of Motherhood and Protection\nKalahira, Goddess of Oceans and Afterlife.\n\n\nDrell Names\nDrell use given and family names.\nMale Names: Chas, Drino, Hite, Hoskim, Lofo, Massa, Neta, Nitos, Ruyim, Tako, Tayu, Thane, Tumil, Yesit\nFemale Names: Ares, Arina, Ehanen, Ekire, Eshesnu, Inashe, Inukmel, Itheyl, Odrinne, Oshane, Ulanten, Uthoru\nFamily Names: Dreis, Feun, Futos, Keas, Krios, Kuun, Mout, Soas, Shuit, Suul, Thatos, Yeos\n\n Drell have slightly shorter lifespans of 85 years, on average. However, Kepral's Syndrome - a unique, incurable disease caused by long-term exposure to humid climates - is the leading cause of death. Their religious influences set the Drell firmly in a trend towards lawful neutral, but this is often dependent on their station in life and career. Drell range from under 150 to 180 cm tall and have slender builds. Your size is Medium. [object Object]"
   },
   {
     "id": "elcor",
     "title": "Elcor",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/elcor",
-    "body": "Elcor evolved on a high-gravity world, making them slow, but incredibly strong. Their large, heavy bodies are\nincapable of moving quickly, but they possess a rather imposing stature as well as thick, tough skin. They move using\nall four limbs to support and balance their massive bodies. Given their method of communication, they have highly-attuned\nolfactory senses. They also have at least three stomachs.\nLanguage of Smells and Sight\nElcor speech is heard by most species as a flat, ponderous monotone. Among themselves, scent, extremely\nslight body movements, and subvocalized infrasound convey shades of meaning that make a human smile seem as subtle\nas a fireworks display. Since their subtlety can lead to misunderstandings with other species, the elcor\nprefix all their dialog with non-elcor with an emotive statement to clarify their tone.\nMigratory Nature\nPrehistoric elcor traveled across Dekuuna in large tribal groups. As their civilizations grew, they kept\ntheir migratory nature and established twin capitals on their homeworld, one for the wet season and one for the dry season.\nHowever, their migration is limited to a single planet as most elcor find the confines of space travel very uncomfortable.\nLiving Tanks\nBecause of their slow, conservative psyches, elcor are not suitable for making the spur-of-the-moment decisions\nnecessary in combat situations. Instead, they rely on sophisticated VI combat systems. While easy targets, their durable\nhide allows them to shrug off most incoming fire. Elcor warriors use their broad shoulders as a mount for weaponry and\ntheir VI as a targeting mechanism. Some elcor are equipped with mass-accelerator cannons, the same weapons\ntypically mounted on military vehicles.\nElcor Names\nElcor do not have gender-binary names because their gender is discerned through smell. While the names appear singular,\nthey are made up of a much more complex set of sounds that only other elcor can hear.\nElcor Names: Calyn, Cyllyn, Detinos, Delzino, Felitos, Fazuti, Halzan, Harrot, Pedezlan, Petelenti, Petozi, Vatozi, Voletzi, Xeltan, Zatzoni\n\n The average elcor lives to be around 300 years old. 100-year-old elcor are considered young. Elcor are methodical, deliberate creatures that never act on irrational decisions. The typical Elcor is often neutral or lawful. Elcor stand between 2 and 2.5 meters tall (7-8 feet) at the shoulder. Your size is Medium. Elcor are relatively slow compared to other races. Your base walking speed is 6m."
+    "link": "/species/elcor",
+    "body": "Elcor evolved on a high-gravity world, making them slow, but incredibly strong. Their large, heavy bodies are\nincapable of moving quickly, but they possess a rather imposing stature as well as thick, tough skin. They move using\nall four limbs to support and balance their massive bodies. Given their method of communication, they have highly-attuned\nolfactory senses. They also have at least three stomachs.\nLanguage of Smells and Sight\nElcor speech is heard by most species as a flat, ponderous monotone. Among themselves, scent, extremely\nslight body movements, and subvocalized infrasound convey shades of meaning that make a human smile seem as subtle\nas a fireworks display. Since their subtlety can lead to misunderstandings with other species, the elcor\nprefix all their dialog with non-elcor with an emotive statement to clarify their tone.\nMigratory Nature\nPrehistoric elcor traveled across Dekuuna in large tribal groups. As their civilizations grew, they kept\ntheir migratory nature and established twin capitals on their homeworld, one for the wet season and one for the dry season.\nHowever, their migration is limited to a single planet as most elcor find the confines of space travel very uncomfortable.\nLiving Tanks\nBecause of their slow, conservative psyches, elcor are not suitable for making the spur-of-the-moment decisions\nnecessary in combat situations. Instead, they rely on sophisticated VI combat systems. While easy targets, their durable\nhide allows them to shrug off most incoming fire. Elcor warriors use their broad shoulders as a mount for weaponry and\ntheir VI as a targeting mechanism. Some elcor are equipped with mass-accelerator cannons, the same weapons\ntypically mounted on military vehicles.\nElcor Names\nElcor do not have gender-binary names because their gender is discerned through smell. While the names appear singular,\nthey are made up of a much more complex set of sounds that only other elcor can hear.\nElcor Names: Calyn, Cyllyn, Detinos, Delzino, Felitos, Fazuti, Halzan, Harrot, Pedezlan, Petelenti, Petozi, Vatozi, Voletzi, Xeltan, Zatzoni\n\n The average elcor lives to be around 300 years old. 100-year-old elcor are considered young. Elcor are methodical, deliberate creatures that never act on irrational decisions. The typical Elcor is often neutral or lawful. Elcor stand between 2 and 2.5 meters tall (7-8 feet) at the shoulder. Your size is Medium. [object Object]"
   },
   {
     "id": "geth",
     "title": "Geth",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/geth",
-    "body": "Former automatons build by the quarians to function as soldiers and laborers, geth are constructs that have\nunintentionally consciousness and sentience. Geth, meaning &quot;servant of the people&quot; in the quarian language of\nKhelish, are fundamentally different than other constructs and are designed with humanoid thought and emotion in mind.\nGeth think, feel, and experience the world in a totally unique way.\nThe Morning War\n&quot;Does this unit have a soul?&quot; asked the geth. That question would change the relationship of quarians and geth forever.\nThe quarians responded with an attempted termination of all geth. The newly sentient geth resisted the genocide of\ntheir masters in a war dubbed &quot;the Morning War&quot;. As many geth were designed as tools of war, the quarians were quickly\nand easily defeated. Because the constructs were acting out of self-defense, when the enemy began retreating from their\nhomeland of Rannoch, the geth did not pursue and allowed their masters to leave in peace.\nIncomprehensible Mind\nGeth minds are quite anomalous. As they were designed to follow predetermined steps and commands, and with their minds\npowered from a centralized network, their way of thinking is essentially unique and different than the chaotic organic\nminds of humanoids. Their thoughts can be compared to a program or process which systematically follows steps to come\nto a conclusion, run many times in different ways until the geth comes to a consensus of the correct course of action.\nGeth do not experience emotion or desire - not in the same way a humanoid does, anyway. Additionally, due to their\ninnate ability to network with other geth, geth see themselves as a unit of a larger and more complex whole and even\nthe individual processes that make up a single geth as being equal constituents that contribute to that geth unit.\nBeyond the Veil\nGeth primarily remain in the Perseus Veil: huge nebula of opaque gas and dust that separates geth space from the\nTerminus Systems. They live in peace, but some geth find themselves seeking knowledge of what is beyond their realm.\nThe primary motivation of the geth who leave Rannoch is to acquire and compile information, though some geth pursue other\nquests.\nGeth Names\nGeth have no use for names among themselves but will adopt names for the sake of interacting with other races.\nHowever, the geth do not often see themselves as individuals. Many geth use plural pronouns such as &quot;us&quot; and &quot;we&quot;.\nAs a result, the names geth take are normally synonyms or words for groups. Geth with individuality, especially those\nwho have been separated from their kind for an extended time, do exist. Those geth still use words for names, though\nthey give themselves a more personally fitting name.\nGeth Names: Armada, Army, Batallion, Brigade, Cabal, Caucus, Congregate, Coterie, Guild, Horde, Host, Legion, Myriad, Phalanx, Proletariat, Throng, Troop, Union\n'Individual' Geth Names: Alpha, Apex, Beta, Centurion, Enigma, Eternity, Genesis, Obelisk, Oblivion, Omega, Oracle, Pinnacle, Terminus, Vortex, Zenith\n\n Geth do not age, as they are constructs, and live as long as their bodies are not destroyed. Your standard Geth platform is neutral good, wanting to prosper and communicate with others, defending themselves only if threatened. Heretics are lawful evil, serving the Reapers and slavishly accomplishing their will. Standard geth are around 2 meters tall (6'5\"). Your size is Medium. Your base walking speed is 10m."
+    "link": "/species/geth",
+    "body": "Former automatons build by the quarians to function as soldiers and laborers, geth are constructs that have\nunintentionally consciousness and sentience. Geth, meaning &quot;servant of the people&quot; in the quarian language of\nKhelish, are fundamentally different than other constructs and are designed with humanoid thought and emotion in mind.\nGeth think, feel, and experience the world in a totally unique way.\nThe Morning War\n&quot;Does this unit have a soul?&quot; asked the geth. That question would change the relationship of quarians and geth forever.\nThe quarians responded with an attempted termination of all geth. The newly sentient geth resisted the genocide of\ntheir masters in a war dubbed &quot;the Morning War&quot;. As many geth were designed as tools of war, the quarians were quickly\nand easily defeated. Because the constructs were acting out of self-defense, when the enemy began retreating from their\nhomeland of Rannoch, the geth did not pursue and allowed their masters to leave in peace.\nIncomprehensible Mind\nGeth minds are quite anomalous. As they were designed to follow predetermined steps and commands, and with their minds\npowered from a centralized network, their way of thinking is essentially unique and different than the chaotic organic\nminds of humanoids. Their thoughts can be compared to a program or process which systematically follows steps to come\nto a conclusion, run many times in different ways until the geth comes to a consensus of the correct course of action.\nGeth do not experience emotion or desire - not in the same way a humanoid does, anyway. Additionally, due to their\ninnate ability to network with other geth, geth see themselves as a unit of a larger and more complex whole and even\nthe individual processes that make up a single geth as being equal constituents that contribute to that geth unit.\nBeyond the Veil\nGeth primarily remain in the Perseus Veil: huge nebula of opaque gas and dust that separates geth space from the\nTerminus Systems. They live in peace, but some geth find themselves seeking knowledge of what is beyond their realm.\nThe primary motivation of the geth who leave Rannoch is to acquire and compile information, though some geth pursue other\nquests.\nGeth Names\nGeth have no use for names among themselves but will adopt names for the sake of interacting with other races.\nHowever, the geth do not often see themselves as individuals. Many geth use plural pronouns such as &quot;us&quot; and &quot;we&quot;.\nAs a result, the names geth take are normally synonyms or words for groups. Geth with individuality, especially those\nwho have been separated from their kind for an extended time, do exist. Those geth still use words for names, though\nthey give themselves a more personally fitting name.\nGeth Names: Armada, Army, Batallion, Brigade, Cabal, Caucus, Congregate, Coterie, Guild, Horde, Host, Legion, Myriad, Phalanx, Proletariat, Throng, Troop, Union\n'Individual' Geth Names: Alpha, Apex, Beta, Centurion, Enigma, Eternity, Genesis, Obelisk, Oblivion, Omega, Oracle, Pinnacle, Terminus, Vortex, Zenith\n\n Geth do not age, as they are constructs, and live as long as their bodies are not destroyed. Your standard Geth platform is neutral good, wanting to prosper and communicate with others, defending themselves only if threatened. Heretics are lawful evil, serving the Reapers and slavishly accomplishing their will. Standard geth are around 2 meters tall (6'5\"). Your size is Medium. [object Object]"
   },
   {
     "id": "hanar",
     "title": "Hanar",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/hanar",
-    "body": "The hanar are a genderless species resembling Earth's jellyfish and are one of the few non-bipedal Citadel races.\nThe hanar homeworld, Kahje, has 90% ocean cover and orbits an energetic white star, resulting in a permanent blanket of\nclouds. Hanar are known for their strong religious beliefs regarding the Protheans, whom they call &quot;the Enkindlers&quot;.\nHanar are extremely polite, almost to a fault. They never refer to themselves in the first person with someone they know\non a face name basis: to do so is considered egotistical. Instead, they refer to themselves as &quot;this one,&quot; or the\nimpersonal &quot;it.&quot; Even when flustered or angry, a hanar will still maintain exquisite poise and will remain formal even\nwith those it wishes dead.\nEnkindlers\nDue to the presence of Prothean ruins on Kahje, the hanar have developed a religion centered on the ancient\nspecies, calling them the &quot;Enkindlers&quot;. The hanar practice a religious holiday called Nyahir or &quot;First Cresting Bloom&quot; which\nlasts a full thirteen days and revolves around celebrating the gift of speech, which they attribute to\nhaving come from the Enkindlers. It is a mixture of contemplation and competition, with the faithful engaged in stylized\ndebates, poetry duels, and other traditional hanar art forms. The winners of these events have their names inscribed in\nbio-luminescence on the side of Mount Vassla, an underwater volcano at the heart of one of the oldest Prothean ruins on Kahje.\nThe Compact\nSeveral hundred years ago, the hanar made contact with the drell on their nearby homeworld of Rakhana. Drell society\nwas quickly collapsing due to overpopulation and warring over scarce resources, so the hanar rescued several\nhundred thousand drell and brought them to Kahje, where they integrated into hanar society with the remaining\ndrell dying out. Now the drell serve as a client race of the hanar, and although to outside observers the\nrelationship can be construed as a form of slavery, the reality is very different. Drell have integrated with every\nlevel of hanar society, and most consider it an honor to serve a hanar family in a tradition referred to as the Compact.\nMany drell become unofficial members of the family, and some even earn the privilege to learn their masters' &quot;soul names&quot;.\nLanguage of Lights\nThe hanar communicate using sophisticated patterns of bioluminescence and speak with scrupulous precision and extreme politeness.\nOther species need machine assistance to translate, though many drell apply genetic modification to their eyes in order\nto perceive higher frequency flashes which allows them to understand the hanar. Most hanar take offense at improper\nlanguage and must take special courses to unlearn this tendency if they expect to deal with other species.\nHanar Names\nThe hanar have two names, a &quot;face name&quot; and a &quot;soul name.&quot; The face name is used as a general label for use by\nstrangers and acquaintances. The soul name is kept for use among close friends and relations and tends to be poetic.\nFace Names: Anrynder, Delanynder, Ellanpo, Hymydwhyn, Lopyldis, Malvyll, Opold, Sedlyner, Tolystoyl, Wynold, Zymandis\nSoul Names: Burns Brightest when the Foam Blooms, Casts Shadow on the Sun Flower, Emancipates the Tide from those that Pull,\nHeeds only to the Inner Lights, Illuminates the Folly of the Dancers, Regards the Works of the Enkindlers in Despair,\nTransforms the Stone into Water\n\n Hanar usually reach maturity around 40 years and typically live to be 180 years old. Most hanar are lawful due to the religious influence on their society. Due to their long tentacles, hanar \"stand\" about as tall as humans. Their bodies are around 1.5 meters long (4-5'). Your size is Medium. Hanar are a water-based lifeform and have a swim speed of 10m. They rely on contra-gravitic levitation packs when not in water environments."
+    "link": "/species/hanar",
+    "body": "The hanar are a genderless species resembling Earth's jellyfish and are one of the few non-bipedal Citadel races.\nThe hanar homeworld, Kahje, has 90% ocean cover and orbits an energetic white star, resulting in a permanent blanket of\nclouds. Hanar are known for their strong religious beliefs regarding the Protheans, whom they call &quot;the Enkindlers&quot;.\nHanar are extremely polite, almost to a fault. They never refer to themselves in the first person with someone they know\non a face name basis: to do so is considered egotistical. Instead, they refer to themselves as &quot;this one,&quot; or the\nimpersonal &quot;it.&quot; Even when flustered or angry, a hanar will still maintain exquisite poise and will remain formal even\nwith those it wishes dead.\nEnkindlers\nDue to the presence of Prothean ruins on Kahje, the hanar have developed a religion centered on the ancient\nspecies, calling them the &quot;Enkindlers&quot;. The hanar practice a religious holiday called Nyahir or &quot;First Cresting Bloom&quot; which\nlasts a full thirteen days and revolves around celebrating the gift of speech, which they attribute to\nhaving come from the Enkindlers. It is a mixture of contemplation and competition, with the faithful engaged in stylized\ndebates, poetry duels, and other traditional hanar art forms. The winners of these events have their names inscribed in\nbio-luminescence on the side of Mount Vassla, an underwater volcano at the heart of one of the oldest Prothean ruins on Kahje.\nThe Compact\nSeveral hundred years ago, the hanar made contact with the drell on their nearby homeworld of Rakhana. Drell society\nwas quickly collapsing due to overpopulation and warring over scarce resources, so the hanar rescued several\nhundred thousand drell and brought them to Kahje, where they integrated into hanar society with the remaining\ndrell dying out. Now the drell serve as a client race of the hanar, and although to outside observers the\nrelationship can be construed as a form of slavery, the reality is very different. Drell have integrated with every\nlevel of hanar society, and most consider it an honor to serve a hanar family in a tradition referred to as the Compact.\nMany drell become unofficial members of the family, and some even earn the privilege to learn their masters' &quot;soul names&quot;.\nLanguage of Lights\nThe hanar communicate using sophisticated patterns of bioluminescence and speak with scrupulous precision and extreme politeness.\nOther species need machine assistance to translate, though many drell apply genetic modification to their eyes in order\nto perceive higher frequency flashes which allows them to understand the hanar. Most hanar take offense at improper\nlanguage and must take special courses to unlearn this tendency if they expect to deal with other species.\nHanar Names\nThe hanar have two names, a &quot;face name&quot; and a &quot;soul name.&quot; The face name is used as a general label for use by\nstrangers and acquaintances. The soul name is kept for use among close friends and relations and tends to be poetic.\nFace Names: Anrynder, Delanynder, Ellanpo, Hymydwhyn, Lopyldis, Malvyll, Opold, Sedlyner, Tolystoyl, Wynold, Zymandis\nSoul Names: Burns Brightest when the Foam Blooms, Casts Shadow on the Sun Flower, Emancipates the Tide from those that Pull,\nHeeds only to the Inner Lights, Illuminates the Folly of the Dancers, Regards the Works of the Enkindlers in Despair,\nTransforms the Stone into Water\n\n Hanar usually reach maturity around 40 years and typically live to be 180 years old. Most hanar are lawful due to the religious influence on their society. Due to their long tentacles, hanar \"stand\" about as tall as humans. Their bodies are around 1.5 meters long (4-5'). Your size is Medium. [object Object],[object Object]"
   },
   {
     "id": "human",
     "title": "Human",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/human",
-    "body": "Humans are generally seen to be very intelligent, abnormally ambitious, highly adaptable, individualistic and thus,\nunpredictable. They have a powerful desire to advance and improve themselves and do so with such assertion that the\nnormally staid Council races have been taken aback by their restlessness and relentless curiosity.\nNew Horizons\nHuman space exploration began in earnest in the late 21st century. In 2069 CE, Armstrong Outpost in Shackleton Crater\non Luna was founded as humanity's first extraterrestrial settlement. In 2103, the European Space Agency established\nLowell City in Eos Chasma on Mars, paving the way for additional settlements and scientific outposts throughout Sol.\nIn 2148, human explorers on Mars uncovered a long-ruined Prothean observation post, with a surviving data cache that\nproved Protheans had studied Cro-Magnon humans millennia ago. Discovering information on a mass relay orbiting Pluto,\nexplorers managed to open the Charon Relay and discovered it led to Arcturus.\nFirst Contact\nHumans first came to the attention of the galactic community after a brief but intense conflict with the turians,\nknown by humans as the First Contact War. As a consequence of the System Alliance's swift and decisive action during the\nFirst Contact War, the Alliance became the representative and supranational governing body of humanity. Since then,\nhumans have rapidly risen in prominence. Humanity continued to expand to unclaimed star systems on the edge of Citadel\nspace, which eventually led to competition with the batarians.\nSystems Alliance\nThe Systems Alliance holds sway over much of the human race, but not all fall under its banner. A few colonies on the\nfringes of known space are founded on principles of independence, and Earth still has nation-states that administer to\ntheir own territories. To the galaxy at large, though, nonhumans are always under the perception that Earth is a\nunified political entity represented by the Alliance.\nGalactic Relations\nThe Systems Alliance has had an embassy on the Citadel since 2165. Many other species dislike humans' sudden ascendancy\ncompared to their status as relative newcomers on the galactic stage. Some species feel that humanity is overly\nexpansive in its colonization efforts and aggressive attempts to advance its position in galactic affairs. It took\nother species centuries to achieve what humanity has done in decades.\nHuman Names\nHaving so much more variety than other races, humans as a whole have no typical names.\n\n Humans reach adulthood in their late teens and live between 125 and 150 years. Humans tend toward no particular alignment. The best and the worst are found among them. Humans vary widely in height and build, from barely 1.5 meters to well over 2 meters tall. Regardless of your position in that range, your size is Medium. Your base walking speed is 10m."
+    "link": "/species/human",
+    "body": "Humans are generally seen to be very intelligent, abnormally ambitious, highly adaptable, individualistic and thus,\nunpredictable. They have a powerful desire to advance and improve themselves and do so with such assertion that the\nnormally staid Council races have been taken aback by their restlessness and relentless curiosity.\nNew Horizons\nHuman space exploration began in earnest in the late 21st century. In 2069 CE, Armstrong Outpost in Shackleton Crater\non Luna was founded as humanity's first extraterrestrial settlement. In 2103, the European Space Agency established\nLowell City in Eos Chasma on Mars, paving the way for additional settlements and scientific outposts throughout Sol.\nIn 2148, human explorers on Mars uncovered a long-ruined Prothean observation post, with a surviving data cache that\nproved Protheans had studied Cro-Magnon humans millennia ago. Discovering information on a mass relay orbiting Pluto,\nexplorers managed to open the Charon Relay and discovered it led to Arcturus.\nFirst Contact\nHumans first came to the attention of the galactic community after a brief but intense conflict with the turians,\nknown by humans as the First Contact War. As a consequence of the System Alliance's swift and decisive action during the\nFirst Contact War, the Alliance became the representative and supranational governing body of humanity. Since then,\nhumans have rapidly risen in prominence. Humanity continued to expand to unclaimed star systems on the edge of Citadel\nspace, which eventually led to competition with the batarians.\nSystems Alliance\nThe Systems Alliance holds sway over much of the human race, but not all fall under its banner. A few colonies on the\nfringes of known space are founded on principles of independence, and Earth still has nation-states that administer to\ntheir own territories. To the galaxy at large, though, nonhumans are always under the perception that Earth is a\nunified political entity represented by the Alliance.\nGalactic Relations\nThe Systems Alliance has had an embassy on the Citadel since 2165. Many other species dislike humans' sudden ascendancy\ncompared to their status as relative newcomers on the galactic stage. Some species feel that humanity is overly\nexpansive in its colonization efforts and aggressive attempts to advance its position in galactic affairs. It took\nother species centuries to achieve what humanity has done in decades.\nHuman Names\nHaving so much more variety than other races, humans as a whole have no typical names.\n\n Humans reach adulthood in their late teens and live between 125 and 150 years. Humans tend toward no particular alignment. The best and the worst are found among them. Humans vary widely in height and build, from barely 1.5 meters to well over 2 meters tall. Regardless of your position in that range, your size is Medium. [object Object]"
   },
   {
     "id": "krogan",
     "title": "Krogan",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/krogan",
-    "body": "The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh\nenvironments, scarce resources, and an overabundance of vicious predators. The krogan managed to not only survive on their\nunforgiving homeworld but actually thrived in the extreme conditions. Unfortunately, as krogan society became more\ntechnologically advanced, so did their weaponry. The end result is that they destroyed their homeworld in a nuclear war\nthat reduced their race into primitive warring tribes.\nBiologically Impervious\nKrogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous\nplates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,\nfor the resources in Tuchanka are scare.\nCuriously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These\ntraits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as &quot;Blood Rage.&quot;\nBlood Rage\nThe blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless\nkilling machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and\nsuppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant\norgans, allows the krogan to defeat creatures many times his size or power.\nClimb Atop the Dead\nKrogan's value one thing above all else: strength. Krogan society is built upon this hierarchy, where the strong rule\nand the weak perish. They live in clans lead by a Warlord, and those clans constantly war for resources and for power.\nEven within these clans, treachery and distrust run rampant. Krogan often fight for dominance within these clans and\nwill sacrifice their clan for personal gain without a second thought. Females are considered prizes and trophies and\nlive in clans separate from the males.\nRites and Rituals\nThe krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When wishes to join his\nfirst clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of Honor.\nWhen facing a new enemy, the Rite of Firsts is invoked.\nA Krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and\ntorturous; most krogan who attempt the rite perish. Those who survive become the most respected member of their clan\nand are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit\nworld itself.\nKrogan Names\nKrogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.\nMale Names: Archuk, Brood, Charr, Drax, Fortak, Grunt, Guld, Jarrod Nax, Okeer, Skarr, Strux, Uvenk, Wreav, Wrex\nFemale Names: Bakara, Chormi, Derge, Hazka, Jonde Kesh, Khorga, Kherake, Morda, Tegash, Vruxa, Zrogoga\nClan Names: Garbon, Gatatog, Jorgal, Khutarum, Nakmor, Srarkan, Traash, Urdnot, Verbok, Weryloc, Wudark\n\n Krogan can live well over a thousand years due to their natural hardiness. Krogan are highly predisposed towards chaos, as their culture is violent, selfish, and brutal. While evil is more common among krogan, those of good and neutral alignments do exist among them. Good krogan especially find it difficult to thrive in Tuchanka and krogan society. Krogan stand at over 2 meters tall (~7') and weigh close to 400 pounds. Your size is Medium. You have a base walking speed of 10 meters. Your speed is not slowed by heavy armor."
+    "link": "/species/krogan",
+    "body": "The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh\nenvironments, scarce resources, and an overabundance of vicious predators. The krogan managed to not only survive on their\nunforgiving homeworld but actually thrived in the extreme conditions. Unfortunately, as krogan society became more\ntechnologically advanced, so did their weaponry. The end result is that they destroyed their homeworld in a nuclear war\nthat reduced their race into primitive warring tribes.\nBiologically Impervious\nKrogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous\nplates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,\nfor the resources in Tuchanka are scare.\nCuriously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These\ntraits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as &quot;Blood Rage.&quot;\nBlood Rage\nThe blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless\nkilling machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and\nsuppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant\norgans, allows the krogan to defeat creatures many times his size or power.\nClimb Atop the Dead\nKrogan's value one thing above all else: strength. Krogan society is built upon this hierarchy, where the strong rule\nand the weak perish. They live in clans lead by a Warlord, and those clans constantly war for resources and for power.\nEven within these clans, treachery and distrust run rampant. Krogan often fight for dominance within these clans and\nwill sacrifice their clan for personal gain without a second thought. Females are considered prizes and trophies and\nlive in clans separate from the males.\nRites and Rituals\nThe krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When wishes to join his\nfirst clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of Honor.\nWhen facing a new enemy, the Rite of Firsts is invoked.\nA Krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and\ntorturous; most krogan who attempt the rite perish. Those who survive become the most respected member of their clan\nand are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit\nworld itself.\nKrogan Names\nKrogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.\nMale Names: Archuk, Brood, Charr, Drax, Fortak, Grunt, Guld, Jarrod Nax, Okeer, Skarr, Strux, Uvenk, Wreav, Wrex\nFemale Names: Bakara, Chormi, Derge, Hazka, Jonde Kesh, Khorga, Kherake, Morda, Tegash, Vruxa, Zrogoga\nClan Names: Garbon, Gatatog, Jorgal, Khutarum, Nakmor, Srarkan, Traash, Urdnot, Verbok, Weryloc, Wudark\n\n Krogan can live well over a thousand years due to their natural hardiness. Krogan are highly predisposed towards chaos, as their culture is violent, selfish, and brutal. While evil is more common among krogan, those of good and neutral alignments do exist among them. Good krogan especially find it difficult to thrive in Tuchanka and krogan society. Krogan stand at over 2 meters tall (~7') and weigh close to 400 pounds. Your size is Medium. [object Object]"
   },
   {
     "id": "prothean",
     "title": "Prothean",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/prothean",
-    "body": "The Protheans are an ancient alien race which mysteriously vanished over 50,000 years ago. The Protheans arose from a\nsingle planet and developed an immense galaxy-wide empire encompassing many other spacefaring species. Not much is known\nabout them, but many of their artifacts, ruins and technology have apparently survived the ages.\nAncient Empire\nAfter achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from\nthose ruins learned about mass effect physics and developed FTL technology. The Protheans would expand throughout the\ngalaxy with the help of the mass relay network and make the Citadel their capital.\nEarly in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them.\nTo defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire.\nThe other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might.\nReaper Invasion\nThe Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the\nReapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They\nwere caught completely off-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the\nCitadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems\nfrom one another. The Protheans' greatest strength, their unified empire, proved to be their downfall.\nStasis\nIn a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that could\nhold hundreds of thousands of stasis pods. Some facilities were found by Reaper agents or betrayed by indoctrinated Protheans.\nUnfortunately, the facilities that remained hidden faced another challenge: a finite power source. The VI's left to control\nthese facilities began systematically cutting power to non-essential staff to conserve energy. 50,000 years later,\nthe number of active pods in each facility might be less than a dozen and without knowing the location of these hidden\nbunkers, its impossible to know how many protheans have survived.\nAll Eyes on You\nAs a prothean, you constantly attract the attention of other races. Your accent, mannerisms, figures of\nspeech, and appearance all mark you as more alien than most aliens. Curious glances are directed your\nway wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued\nby your ancient culture, to say nothing of everyday beings who are eager to hear stories of your origin.\nAvatars\nProtheans that ascended to places of prominence in their society were designated as avatars, or exemplars, of a particular\nvirtue of their culture. Example virtues include benevolence, cleanliness, courage, dignity, frugality, honor, justice,\nmercy, order, perseverance, temperance, tranquility, truthfulness, vengeance. As one of the last remaining Protheans,\nit is likely you are an avatar or, waking up to find you race all but extinct, you may self-appoint\nyour own virtue.\nProthean Names\nInterestingly, protheans name themselves, usually after an icon or mentor. Until they've chosen a name, they are\ncalled little one, child, or some other generic term.\nMale names: Arkath, Esrad, Caed, Dervan Had, Dencen, Hsed Mik, Javik, Jacen, Ksad Ishan, Lucen, Pashek Vran, Seset Amat, Tev Boken\nFemale names: Athi Let, Brene She, Balani, Calise, Cethi, Cosene, Eri Mase, Hulana, Haetha, Janiri, Kelthana, Laene Valte, Masani, Neona, Penta Tetha, Savisa\n\n Protheans live between 300 and 400 years, reaching adulthood in their early teens. Protheans come from a society that was heavily regulated and favored the strong. They are generally lawful neutral. Protheans are slightly taller than humans but generally never taller than 2 meters (6'5\"). Your size is Medium. Your base walking speed is 10m."
+    "link": "/species/prothean",
+    "body": "The Protheans are an ancient alien race which mysteriously vanished over 50,000 years ago. The Protheans arose from a\nsingle planet and developed an immense galaxy-wide empire encompassing many other spacefaring species. Not much is known\nabout them, but many of their artifacts, ruins and technology have apparently survived the ages.\nAncient Empire\nAfter achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from\nthose ruins learned about mass effect physics and developed FTL technology. The Protheans would expand throughout the\ngalaxy with the help of the mass relay network and make the Citadel their capital.\nEarly in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them.\nTo defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire.\nThe other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might.\nReaper Invasion\nThe Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the\nReapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They\nwere caught completely off-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the\nCitadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems\nfrom one another. The Protheans' greatest strength, their unified empire, proved to be their downfall.\nStasis\nIn a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that could\nhold hundreds of thousands of stasis pods. Some facilities were found by Reaper agents or betrayed by indoctrinated Protheans.\nUnfortunately, the facilities that remained hidden faced another challenge: a finite power source. The VI's left to control\nthese facilities began systematically cutting power to non-essential staff to conserve energy. 50,000 years later,\nthe number of active pods in each facility might be less than a dozen and without knowing the location of these hidden\nbunkers, its impossible to know how many protheans have survived.\nAll Eyes on You\nAs a prothean, you constantly attract the attention of other races. Your accent, mannerisms, figures of\nspeech, and appearance all mark you as more alien than most aliens. Curious glances are directed your\nway wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued\nby your ancient culture, to say nothing of everyday beings who are eager to hear stories of your origin.\nAvatars\nProtheans that ascended to places of prominence in their society were designated as avatars, or exemplars, of a particular\nvirtue of their culture. Example virtues include benevolence, cleanliness, courage, dignity, frugality, honor, justice,\nmercy, order, perseverance, temperance, tranquility, truthfulness, vengeance. As one of the last remaining Protheans,\nit is likely you are an avatar or, waking up to find you race all but extinct, you may self-appoint\nyour own virtue.\nProthean Names\nInterestingly, protheans name themselves, usually after an icon or mentor. Until they've chosen a name, they are\ncalled little one, child, or some other generic term.\nMale names: Arkath, Esrad, Caed, Dervan Had, Dencen, Hsed Mik, Javik, Jacen, Ksad Ishan, Lucen, Pashek Vran, Seset Amat, Tev Boken\nFemale names: Athi Let, Brene She, Balani, Calise, Cethi, Cosene, Eri Mase, Hulana, Haetha, Janiri, Kelthana, Laene Valte, Masani, Neona, Penta Tetha, Savisa\n\n Protheans live between 300 and 400 years, reaching adulthood in their early teens. Protheans come from a society that was heavily regulated and favored the strong. They are generally lawful neutral. Protheans are slightly taller than humans but generally never taller than 2 meters (6'5\"). Your size is Medium. [object Object]"
   },
   {
     "id": "quarian",
     "title": "Quarian",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/quarian",
-    "body": "Forced out of their homeland by sapient constructs of their own creation, quarian are exiled nomads that now sail the\nseas in search of a new homeland.\nExotic Fashion\nIdentifying a quarian is easy. All quarians wear enviro-suits, which are multipurpose outfits that protect them from\nforeign pathogens and diseases as well as acting as spacesuits for scavenging or repair of shuttles. Rannoch's ecosystem\nfeatured symbiotic microorganisms that aren't found anywhere else in the galaxy. Thus, when the quarians were exiled, they\nwere also burdened to life in a suit.\nThe enviro-suits have moved beyond function, however, and into their culture. A quarian is rarely, if ever, seen\nwithout their suit and helmet, and when they return from their pilgrimage as adults, they are expected to modify their\nsuit to fit their personal reflection of their status as a productive member of the Flotilla.\nExiles of their Own Creations\nQuarians have a long and deep history with creating constructs known as &quot;Geth,&quot; meaning &quot;Servant of the People&quot;. These\nconstructs were built to serve and protect the quarians, and most quarian families had at least one servant, while the\nquarian military consisted of these autonomous beings.\nThe quarians sought to constantly improve their creation with more advanced virtual intelligence so they could complete increasingly\ncomplex tasks. These improvements lead to the geth's sapience and they began to question their masters. The quarians\nattempted to exterminate them, but after forming so much dependence on the geth, the quarians were swiftly defeated.\nWith many exterminated, the remaining quarians fled their homeland of Rannoch.\nCybernetic Improvements\nThough the quarians have abandoned their long history of construct and VI creation, they put their knowledge of engineering\nand technology into their own bodies to augment themselves. These augments are crafted by artisans who have descended\nfrom or studied under those who originally worked with or programmed the geth. The implants themselves are normally\nsmall, no larger than the size of a palm, and when properly inserted give the quarian enhanced ability compared to\nthose without. A quarian chooses an augment before they leave for the Pilgrimage, and the implantation of the device\nis part of their sending off ceremony.\nMigrant Fleet\nThe nomads travel together in a collective of ships known as the Flotilla or the Migrant Fleet and consists of those\nwho escaped death by the geth. The Flotilla contains over fifty thousand vessels collectively that travel the galaxy\nstrip-mining and harvesting resource to keep the fleet afloat. Some ships decide to depart the fleet to pursue their\nown goals but normally return to the fleet.\nWhen young quarian rejoin the flotilla after their pilgrimage, they are expected to join the crew of another vessel\nto ensure genetic diversity of an already small population.\nThe Pilgrimage\nDuring quarian adolescence, they are subjected to a rite of passage known as the pilgrimage. When young adulthood is\nreached, quarians are expected to leave the Migrant Fleet and experience life outside of their culture. To rejoin the\nflotilla, the young quarian must bear a gift to the captain of a new vessel. This gift can be tangible, such as\nresources, or intangible such as information. Most quarian operatives are those on their pilgrimage, though there are\nthose who decide never to return to the fleet or those who were rejected from rejoining.\nQuarian Names\nQuarian names are composed of three parts: the quarian's given name and family name separated by an apostrophe, and the\nname of their vessel preceeded by a title - &quot;nar&quot; to denote their birth ship and &quot;vas&quot; to denote their post-pilgrimage ship.\nFor example, nar Rayya or vas Neema.\nMale Names: Golo, Han, Hilo, Kal, Kar, Keenah, Kenn, Lemm, Les, Prazza, Rael, Seeto, Shio, Veetor, Ysin, Zaal, Zer\nFemale Names: Ceni, Daro, Elan, Feda, Jura, Laele, Lia, Meeri, Minn, Reen, Saesa, Shala, Shuni, Tali, Yosi, Zohe,\nFamily Names: Breizah, Dannah, Gazu, Gerral, Hodda, Jaa, Koris, Leth, Mal, Mekk, Nara, Raan, Reegar, Shaal, Shiya, Vael, Xen, Zorah\nVessel Names: Honorata, Idenna, Moreh, Neema, Novarra, Qwib Qwib, Rayya, Tesleya, Tonbay, Ulnay, Usela\n\n Quarians have lifespans similar to humans. The proximity and longstanding traditions of the Migrant Fleet make Quarians very lawful as a race, occasionally drifting toward neutral. Morality can vary but tends towards neutral or good, as evil quarians are typically exiled from the Flotilla. Quarians have builds similar to humans. Your size is Medium. Your base walking speed is 10m."
+    "link": "/species/quarian",
+    "body": "Forced out of their homeland by sapient constructs of their own creation, quarian are exiled nomads that now sail the\nseas in search of a new homeland.\nExotic Fashion\nIdentifying a quarian is easy. All quarians wear enviro-suits, which are multipurpose outfits that protect them from\nforeign pathogens and diseases as well as acting as spacesuits for scavenging or repair of shuttles. Rannoch's ecosystem\nfeatured symbiotic microorganisms that aren't found anywhere else in the galaxy. Thus, when the quarians were exiled, they\nwere also burdened to life in a suit.\nThe enviro-suits have moved beyond function, however, and into their culture. A quarian is rarely, if ever, seen\nwithout their suit and helmet, and when they return from their pilgrimage as adults, they are expected to modify their\nsuit to fit their personal reflection of their status as a productive member of the Flotilla.\nExiles of their Own Creations\nQuarians have a long and deep history with creating constructs known as &quot;Geth,&quot; meaning &quot;Servant of the People&quot;. These\nconstructs were built to serve and protect the quarians, and most quarian families had at least one servant, while the\nquarian military consisted of these autonomous beings.\nThe quarians sought to constantly improve their creation with more advanced virtual intelligence so they could complete increasingly\ncomplex tasks. These improvements lead to the geth's sapience and they began to question their masters. The quarians\nattempted to exterminate them, but after forming so much dependence on the geth, the quarians were swiftly defeated.\nWith many exterminated, the remaining quarians fled their homeland of Rannoch.\nCybernetic Improvements\nThough the quarians have abandoned their long history of construct and VI creation, they put their knowledge of engineering\nand technology into their own bodies to augment themselves. These augments are crafted by artisans who have descended\nfrom or studied under those who originally worked with or programmed the geth. The implants themselves are normally\nsmall, no larger than the size of a palm, and when properly inserted give the quarian enhanced ability compared to\nthose without. A quarian chooses an augment before they leave for the Pilgrimage, and the implantation of the device\nis part of their sending off ceremony.\nMigrant Fleet\nThe nomads travel together in a collective of ships known as the Flotilla or the Migrant Fleet and consists of those\nwho escaped death by the geth. The Flotilla contains over fifty thousand vessels collectively that travel the galaxy\nstrip-mining and harvesting resource to keep the fleet afloat. Some ships decide to depart the fleet to pursue their\nown goals but normally return to the fleet.\nWhen young quarian rejoin the flotilla after their pilgrimage, they are expected to join the crew of another vessel\nto ensure genetic diversity of an already small population.\nThe Pilgrimage\nDuring quarian adolescence, they are subjected to a rite of passage known as the pilgrimage. When young adulthood is\nreached, quarians are expected to leave the Migrant Fleet and experience life outside of their culture. To rejoin the\nflotilla, the young quarian must bear a gift to the captain of a new vessel. This gift can be tangible, such as\nresources, or intangible such as information. Most quarian operatives are those on their pilgrimage, though there are\nthose who decide never to return to the fleet or those who were rejected from rejoining.\nQuarian Names\nQuarian names are composed of three parts: the quarian's given name and family name separated by an apostrophe, and the\nname of their vessel preceeded by a title - &quot;nar&quot; to denote their birth ship and &quot;vas&quot; to denote their post-pilgrimage ship.\nFor example, nar Rayya or vas Neema.\nMale Names: Golo, Han, Hilo, Kal, Kar, Keenah, Kenn, Lemm, Les, Prazza, Rael, Seeto, Shio, Veetor, Ysin, Zaal, Zer\nFemale Names: Ceni, Daro, Elan, Feda, Jura, Laele, Lia, Meeri, Minn, Reen, Saesa, Shala, Shuni, Tali, Yosi, Zohe,\nFamily Names: Breizah, Dannah, Gazu, Gerral, Hodda, Jaa, Koris, Leth, Mal, Mekk, Nara, Raan, Reegar, Shaal, Shiya, Vael, Xen, Zorah\nVessel Names: Honorata, Idenna, Moreh, Neema, Novarra, Qwib Qwib, Rayya, Tesleya, Tonbay, Ulnay, Usela\n\n Quarians have lifespans similar to humans. The proximity and longstanding traditions of the Migrant Fleet make Quarians very lawful as a race, occasionally drifting toward neutral. Morality can vary but tends towards neutral or good, as evil quarians are typically exiled from the Flotilla. Quarians have builds similar to humans. Your size is Medium. [object Object]"
   },
   {
     "id": "salarian",
     "title": "Salarian",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/salarian",
-    "body": "Salarians are a warm-blooded amphibious species from a jungle known as Sur'Kesh. The salarian possess a\nsuper-charged metabolism which causes them to function at a much higher speed than other races while requiring less rest.\nAdditionally, they have an exceptional capability for observation, recollection, and innovation. They are constantly\ntinkering, experimenting, inventing, and researching and value intelligence and knowledge above all else.\nHyperactive Metabolism\nThe speed at which a salarian metabolizes is a marvel of evolution. The race only requires only one hour of sleep a\nnight, and still, they have more energy and alertness than other races. Everything a salarian does seems to be faster.\nThey talk fast, think fast, move fast, eat fast, and even sleep fast. The large amount of available energy has\nadvanced their intellectual capabilities. They need near constant stimulation for their fidgety, active bodies.\nBoredom, the Mother of Invention\nSalarians minds are constantly racing at miles per minute, and without proper mental stimulation, a salarian becomes bored.\nTinkering and experimenting are natural solutions to a restless mind. The ability to plow through ideas, situations,\nand possibilities makes them natural inventors. Salarians have perhaps some of the most advanced technology, especially\nin electronics and engineering, but a salarian can become an expert at whatever craft he puts his mind to.\nKnowledge is Power\nInvention is not the only outlet of a salarian's mind. As many as those who invent prefer to gather information and\nknowledge. Observation, research, study, and espionage are other areas at which salarians tend to excel. A\nphotographic memory with a high capacity for information makes salarians who dabble in information trading very\nskilled and valuable. Knowledge gained from a salarian is highly prized as nearly infallible, and so these\ntrades are viable life paths.\nOne Mother Among Sons\nSalarian reproduction is curious in that fertilized eggs hatch as females and unfertilized eggs hatch as male. According\nto ancient societal codes and law, fertilization of eggs is strictly regulated and thus 90% of the population is male.\nRomantic and sexual relationships are nearly nonexistent among salarian, and any sexuality is strictly for reproduction.\nAs females are so rare, they normally stay within salarian colonies where they possess positions of political\npower in a complex matriarchal government.\nMatriarchal Feudalism\nSalarians have a layered system of government, ultimately ruled by a matriarch known as a dalatrass, with her\ndaughters serving in noble positions beneath her. A noble family headed by the dalatrass controls a massive territory\nknown as a march that is further divided into duchies, baronies, and fiefdoms. Dalatrasses and their noble\nmatrilinear lines will make political alliances with other families through interbreeding. A salarian\nis loyal through a biological process known as imprinting to their parents and to their dalatrass, which keeps the feudal society stable.\nIntense Curiosity\nDespite imprinted loyalty to their family and dalatrass, male salarians are free to leave the colony at any time. Females,\nhowever, due to their noble blood and political power, almost always stay within the confines of salarian territories,\nthough some do venture out for other political positions such as ambassadors or emissaries. Salarian curiosity and\npursuit of knowledge often lead them past the jungles of Sur'Kesh, if even only for a brief time. Many find new\nlives far from Sur'Kesh, though they rarely truly abandon their family and dalatrass.\nSalarian Names\nSalarian names are quite complex. A full name includes - in order - the name of a salarian's march,\nduchy, barony, fiefdom, family, and finally, the given name. However, few salarians use their full name unless\nnecessary and prefer to go by their family and given name.\nExample Full Names: Rannadril Ghan Swa Fulsoom Karaten Narr Eadi Bel Anoleis, Gorot II Heranon Mal Dinest Got Inoste Ledra\nGiven Names: Beelo, Chorban, Esheel, Ish, Jarroth, Jarun, Jondum, Kallo, Kirrahe, Maelon, Mordin, Morlan, Padok, Palon, Rentola, Schells, Solik, Tazzik, Tolan, Valern, Zevin\nFamily Names: Aenarth, Aulaw, Bau, Erkoln, Faergow, Gurji, Heplorn, Inoste, Irheth, Jath, Jowar, Marhall, Raeka, Sernik, Solus, Tann, Vass, Venirn, Vodol, Wiks, Yosann\n\n Salarians have an extremely high metabolism that causes a short life span. Salarians rarely reach ages over 40 years of age. Salarians can have dubious morals, especially when it comes to experiments and advancing technology. Neutrality is a common alignment for salarians. Salarians are tall with elongated bodies, with a height between 180 and 210 cm (6 to 7 feet), yet a weight below 100 lbs. Your size is Medium. Your base walking speed is 10 meters."
+    "link": "/species/salarian",
+    "body": "Salarians are a warm-blooded amphibious species from a jungle known as Sur'Kesh. The salarian possess a\nsuper-charged metabolism which causes them to function at a much higher speed than other races while requiring less rest.\nAdditionally, they have an exceptional capability for observation, recollection, and innovation. They are constantly\ntinkering, experimenting, inventing, and researching and value intelligence and knowledge above all else.\nHyperactive Metabolism\nThe speed at which a salarian metabolizes is a marvel of evolution. The race only requires only one hour of sleep a\nnight, and still, they have more energy and alertness than other races. Everything a salarian does seems to be faster.\nThey talk fast, think fast, move fast, eat fast, and even sleep fast. The large amount of available energy has\nadvanced their intellectual capabilities. They need near constant stimulation for their fidgety, active bodies.\nBoredom, the Mother of Invention\nSalarians minds are constantly racing at miles per minute, and without proper mental stimulation, a salarian becomes bored.\nTinkering and experimenting are natural solutions to a restless mind. The ability to plow through ideas, situations,\nand possibilities makes them natural inventors. Salarians have perhaps some of the most advanced technology, especially\nin electronics and engineering, but a salarian can become an expert at whatever craft he puts his mind to.\nKnowledge is Power\nInvention is not the only outlet of a salarian's mind. As many as those who invent prefer to gather information and\nknowledge. Observation, research, study, and espionage are other areas at which salarians tend to excel. A\nphotographic memory with a high capacity for information makes salarians who dabble in information trading very\nskilled and valuable. Knowledge gained from a salarian is highly prized as nearly infallible, and so these\ntrades are viable life paths.\nOne Mother Among Sons\nSalarian reproduction is curious in that fertilized eggs hatch as females and unfertilized eggs hatch as male. According\nto ancient societal codes and law, fertilization of eggs is strictly regulated and thus 90% of the population is male.\nRomantic and sexual relationships are nearly nonexistent among salarian, and any sexuality is strictly for reproduction.\nAs females are so rare, they normally stay within salarian colonies where they possess positions of political\npower in a complex matriarchal government.\nMatriarchal Feudalism\nSalarians have a layered system of government, ultimately ruled by a matriarch known as a dalatrass, with her\ndaughters serving in noble positions beneath her. A noble family headed by the dalatrass controls a massive territory\nknown as a march that is further divided into duchies, baronies, and fiefdoms. Dalatrasses and their noble\nmatrilinear lines will make political alliances with other families through interbreeding. A salarian\nis loyal through a biological process known as imprinting to their parents and to their dalatrass, which keeps the feudal society stable.\nIntense Curiosity\nDespite imprinted loyalty to their family and dalatrass, male salarians are free to leave the colony at any time. Females,\nhowever, due to their noble blood and political power, almost always stay within the confines of salarian territories,\nthough some do venture out for other political positions such as ambassadors or emissaries. Salarian curiosity and\npursuit of knowledge often lead them past the jungles of Sur'Kesh, if even only for a brief time. Many find new\nlives far from Sur'Kesh, though they rarely truly abandon their family and dalatrass.\nSalarian Names\nSalarian names are quite complex. A full name includes - in order - the name of a salarian's march,\nduchy, barony, fiefdom, family, and finally, the given name. However, few salarians use their full name unless\nnecessary and prefer to go by their family and given name.\nExample Full Names: Rannadril Ghan Swa Fulsoom Karaten Narr Eadi Bel Anoleis, Gorot II Heranon Mal Dinest Got Inoste Ledra\nGiven Names: Beelo, Chorban, Esheel, Ish, Jarroth, Jarun, Jondum, Kallo, Kirrahe, Maelon, Mordin, Morlan, Padok, Palon, Rentola, Schells, Solik, Tazzik, Tolan, Valern, Zevin\nFamily Names: Aenarth, Aulaw, Bau, Erkoln, Faergow, Gurji, Heplorn, Inoste, Irheth, Jath, Jowar, Marhall, Raeka, Sernik, Solus, Tann, Vass, Venirn, Vodol, Wiks, Yosann\n\n Salarians have an extremely high metabolism that causes a short life span. Salarians rarely reach ages over 40 years of age. Salarians can have dubious morals, especially when it comes to experiments and advancing technology. Neutrality is a common alignment for salarians. Salarians are tall with elongated bodies, with a height between 180 and 210 cm (6 to 7 feet), yet a weight below 100 lbs. Your size is Medium. [object Object]"
   },
   {
     "id": "turian",
     "title": "Turian",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/turian",
-    "body": "A highly militaristic race, turians are a force to be feared. These warriors are easily distinguished by an appearance\ncontaining a strange mix of insectoid and avian features. The turian army is substantial, and every member of the turian\nrace is obligated to attend combat training in adolescence. Even citizens and artisans are foes to be reckoned with.\nDespite such an emphasis on combat, however, turians are an honorable and noble race.\nDiscipline and Honor\nThe entire turian culture revolves around a strict code of conduct which highly emphasizes strong discipline and personal\nresponsibility. Turians are highly inclined towards self-sacrifice and will put the good of society over their own\npersonal desires. As such, they are passionate about public and social service and make poor merchants and entrepreneurs.\nThey are taught to own their decisions, good or bad, and if confronted with accusations it is considered heinous to\nlie about their actions. Because of this, many races attribute to them a &quot;turian honor&quot; seen rarely outside the turian race.\nProud Warrior Race\nAt the center of turian society is their military. Turians are sent to basic training in their teenage years\nand are obligated to serve time in the military, if physically able. This develops respect for\nauthority as well as imparting control and restraint among the turians. Though some turians do not continue their\nservice in the armed forces, they continue to serve their community through other branches of the military which serve\nthe whole by providing public services.\nHierarchal Meritocracy\nTurian government is entwined with its military, as so many parts of society are. There are tiers of citizenship, with\nthe lowest being a regular citizen, often held by client races and children, climbing all the way up to the Primarchs\nwhich lead each turian colony. Lower ranking citizens are expected to obey and support superiors while higher ranking\nones are expected to lead and protect lower ranks. Promotion to a new tier is based on personal ability and merit and\nare given due to assessments from one's superiors.\nDespite the ranked structure, turians entertain many freedoms as long as they perform their duties and do not infringe\non others freedoms or responsibilities.\nReflective Carapace\nThe homeland of the turians, Palaven, has a high level of solar radiation. Turians have evolved semi-metallic\ncarapaces that reflect the dangerous radiation, protecting their inners from the solar rays. These exoskeletons, however,\ndo not protect the turian from physical damage such as wounds and do not provide any natural armor.\nMission or Desertion\nMost Turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions.\nSome, however, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.\nThose who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate betrayal.\nTurian Names\nTurians are given personal names by their parents and take on a family name. High-ranking turian officers also include\ntheir title in their names, either in addition to their full names or as a replacement of their personal name.\nSometimes turians go by their family name only.\nMale Names: Adrien, Avitas, Castis, Chellick, Corinthus, Desolas, Garrus, Illo, Jacobus, Joram, Kuril, Lantar, Lilihierax, Lorik, Macen, Mehrkuri, Nihlus, Quentius, Sapartus, Saren, Septimus, Tarquin, Tiran, Tonn, Venari,\nFemale Names: Abrudas, Aciia, Aemicida, Alta, Banrae, Caevea, Cicean, Duronea, Iciria, Juteia, Nyreen, Orinia, Pliras, Quidas, Selone, Sidera, Sipia, Valevas, Vetra\nFamily Names: Actus, Arterius, Barro, Kandros, Kryik, Nazario, Nyx, Oraka, Pallin, Qui'in, Rix, Sidonis, Talid, Vakarian, Victus, Vyrnnus\n\n Turians have natural lifespans comparable to humans. Turians are a highly militaristic and disciplined race. Turians are born and raised in strict law and order and as a result are inclined towards lawful alignments, but it is not uncommon for neutral or chaotic turians to leave Palaven in search of freedom from command. Turians are taller than humans, standing over 2 meters tall (6'5\"). Your size is Medium. You have a base walking speed of 10 meters."
+    "link": "/species/turian",
+    "body": "A highly militaristic race, turians are a force to be feared. These warriors are easily distinguished by an appearance\ncontaining a strange mix of insectoid and avian features. The turian army is substantial, and every member of the turian\nrace is obligated to attend combat training in adolescence. Even citizens and artisans are foes to be reckoned with.\nDespite such an emphasis on combat, however, turians are an honorable and noble race.\nDiscipline and Honor\nThe entire turian culture revolves around a strict code of conduct which highly emphasizes strong discipline and personal\nresponsibility. Turians are highly inclined towards self-sacrifice and will put the good of society over their own\npersonal desires. As such, they are passionate about public and social service and make poor merchants and entrepreneurs.\nThey are taught to own their decisions, good or bad, and if confronted with accusations it is considered heinous to\nlie about their actions. Because of this, many races attribute to them a &quot;turian honor&quot; seen rarely outside the turian race.\nProud Warrior Race\nAt the center of turian society is their military. Turians are sent to basic training in their teenage years\nand are obligated to serve time in the military, if physically able. This develops respect for\nauthority as well as imparting control and restraint among the turians. Though some turians do not continue their\nservice in the armed forces, they continue to serve their community through other branches of the military which serve\nthe whole by providing public services.\nHierarchal Meritocracy\nTurian government is entwined with its military, as so many parts of society are. There are tiers of citizenship, with\nthe lowest being a regular citizen, often held by client races and children, climbing all the way up to the Primarchs\nwhich lead each turian colony. Lower ranking citizens are expected to obey and support superiors while higher ranking\nones are expected to lead and protect lower ranks. Promotion to a new tier is based on personal ability and merit and\nare given due to assessments from one's superiors.\nDespite the ranked structure, turians entertain many freedoms as long as they perform their duties and do not infringe\non others freedoms or responsibilities.\nReflective Carapace\nThe homeland of the turians, Palaven, has a high level of solar radiation. Turians have evolved semi-metallic\ncarapaces that reflect the dangerous radiation, protecting their inners from the solar rays. These exoskeletons, however,\ndo not protect the turian from physical damage such as wounds and do not provide any natural armor.\nMission or Desertion\nMost Turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions.\nSome, however, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.\nThose who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate betrayal.\nTurian Names\nTurians are given personal names by their parents and take on a family name. High-ranking turian officers also include\ntheir title in their names, either in addition to their full names or as a replacement of their personal name.\nSometimes turians go by their family name only.\nMale Names: Adrien, Avitas, Castis, Chellick, Corinthus, Desolas, Garrus, Illo, Jacobus, Joram, Kuril, Lantar, Lilihierax, Lorik, Macen, Mehrkuri, Nihlus, Quentius, Sapartus, Saren, Septimus, Tarquin, Tiran, Tonn, Venari,\nFemale Names: Abrudas, Aciia, Aemicida, Alta, Banrae, Caevea, Cicean, Duronea, Iciria, Juteia, Nyreen, Orinia, Pliras, Quidas, Selone, Sidera, Sipia, Valevas, Vetra\nFamily Names: Actus, Arterius, Barro, Kandros, Kryik, Nazario, Nyx, Oraka, Pallin, Qui'in, Rix, Sidonis, Talid, Vakarian, Victus, Vyrnnus\n\n Turians have natural lifespans comparable to humans. Turians are a highly militaristic and disciplined race. Turians are born and raised in strict law and order and as a result are inclined towards lawful alignments, but it is not uncommon for neutral or chaotic turians to leave Palaven in search of freedom from command. Turians are taller than humans, standing over 2 meters tall (6'5\"). Your size is Medium. [object Object]"
   },
   {
     "id": "volus",
     "title": "Volus",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/volus",
-    "body": "The volus are an associate race on the Citadel with their own embassy but are also a client race of the turians. They\nhail from Irune, which possesses a high-pressure greenhouse atmosphere able to support ammonia-based biochemistry.\nMysterious Biology\nThe volus are unable to survive unprotected in an atmosphere more suitable to humans and other carbon-based lifeforms,\nand as such require pressurized, protective suits capable of providing the proper atmosphere. Traditional nitrogen/oxygen\nair mixtures are poisonous to them, and in the low pressure atmospheres tolerable to most species, their flesh will actually\nsplit open.Unlike quarians, who can withstand brief periods outside their suit, volus choose never to take theirs off,\nespecially in the presence of other races. Therefore, little is known about their physiology. Despite individuals distinctly\nsounding like males or females to human listeners, volus genders are a mystery as well. The volus themselves consider\nthe question both intrusive and hilariously irrelevant.\nTrade Warriors\nThe volus homeworld Irune is remarkable for having done away with warfare as an institution of the state. Instead,\nvolus romanticize a good bargain, haggling, and creative accounting. The fervent pursuit of economic wealth has\nmade volus a race of aggressive traders and industrialists with a keen grasp of exchange and finance.\nMany of the galaxy's largest banks, holding corporations, and manufacturing cartels, such as the\nElkoss Combine, are owned or managed by volus. They also regulate the Citadel's complex galactic economy and were\nresponsible for the Unified Banking Act, which established the &quot;credit&quot; as the standard currency of interstellar\ntrade.\nUnlike most other races, volus are more comfortable with delayed gratification, especially when it comes to spending\ntheir credits. Fugacious and materialistic purchases are rarely made. Instead, volus like to invest or save their money,\nsometimes to a fault. In fact, the volus economy is largely bolstered by the large estates of wealthy volus who never\nspent a cred.\nCouncil Seat\nDespite their important contributions to the Citadel and galactic society, they have never been offered a seat on the\nCouncil. This is a source of anger for some volus, particularly the volus ambassador Din Korlack. Council races need\nto have provided some extraordinary service to the Citadel, such as the turians' military support during the\nKrogan Rebellions. Council races also need to provide fleets, resources, and economic aid in case of disaster,\nnone of which the volus can currently supply. Therefore, the latest investment pursued by the volus is the construction\nof well-armed dreadnoughts.\nVolus Names\nVolus have two names but no family names. According to volus sensibilities, one cannot own a person, so using a family\nname would essentially be laying claim to their offspring.\nNames: Ano Vot, Berla Mon, Bovan Set, Ceron, Cihaan, Din Mark, Dovan Hal, Eppo Wen, Han Olar, Jahleed,\nJahve Kormat, Kelan Vot, Kora Bos, Lona Osar, Levan Lih, Meeve Wen, Morten Sov, Olot For, Pitne Wit, Reema Po, Tahluud, Vaner Jok\n\n Most volus reach adulthood around their 50th year and live to be around 200 years-old. Volus society tends towards lawful as a whole, with clans fighting over economic resources and aggressive negotiating, even if they are individually chaotic individuals. They tend towards neutral morality. Volus are between 1 and 1.5 metes (3-4'). Your size is Small. Your base walking speed is 8m."
+    "link": "/species/volus",
+    "body": "The volus are an associate race on the Citadel with their own embassy but are also a client race of the turians. They\nhail from Irune, which possesses a high-pressure greenhouse atmosphere able to support ammonia-based biochemistry.\nMysterious Biology\nThe volus are unable to survive unprotected in an atmosphere more suitable to humans and other carbon-based lifeforms,\nand as such require pressurized, protective suits capable of providing the proper atmosphere. Traditional nitrogen/oxygen\nair mixtures are poisonous to them, and in the low pressure atmospheres tolerable to most species, their flesh will actually\nsplit open.Unlike quarians, who can withstand brief periods outside their suit, volus choose never to take theirs off,\nespecially in the presence of other races. Therefore, little is known about their physiology. Despite individuals distinctly\nsounding like males or females to human listeners, volus genders are a mystery as well. The volus themselves consider\nthe question both intrusive and hilariously irrelevant.\nTrade Warriors\nThe volus homeworld Irune is remarkable for having done away with warfare as an institution of the state. Instead,\nvolus romanticize a good bargain, haggling, and creative accounting. The fervent pursuit of economic wealth has\nmade volus a race of aggressive traders and industrialists with a keen grasp of exchange and finance.\nMany of the galaxy's largest banks, holding corporations, and manufacturing cartels, such as the\nElkoss Combine, are owned or managed by volus. They also regulate the Citadel's complex galactic economy and were\nresponsible for the Unified Banking Act, which established the &quot;credit&quot; as the standard currency of interstellar\ntrade.\nUnlike most other races, volus are more comfortable with delayed gratification, especially when it comes to spending\ntheir credits. Fugacious and materialistic purchases are rarely made. Instead, volus like to invest or save their money,\nsometimes to a fault. In fact, the volus economy is largely bolstered by the large estates of wealthy volus who never\nspent a cred.\nCouncil Seat\nDespite their important contributions to the Citadel and galactic society, they have never been offered a seat on the\nCouncil. This is a source of anger for some volus, particularly the volus ambassador Din Korlack. Council races need\nto have provided some extraordinary service to the Citadel, such as the turians' military support during the\nKrogan Rebellions. Council races also need to provide fleets, resources, and economic aid in case of disaster,\nnone of which the volus can currently supply. Therefore, the latest investment pursued by the volus is the construction\nof well-armed dreadnoughts.\nVolus Names\nVolus have two names but no family names. According to volus sensibilities, one cannot own a person, so using a family\nname would essentially be laying claim to their offspring.\nNames: Ano Vot, Berla Mon, Bovan Set, Ceron, Cihaan, Din Mark, Dovan Hal, Eppo Wen, Han Olar, Jahleed,\nJahve Kormat, Kelan Vot, Kora Bos, Lona Osar, Levan Lih, Meeve Wen, Morten Sov, Olot For, Pitne Wit, Reema Po, Tahluud, Vaner Jok\n\n Most volus reach adulthood around their 50th year and live to be around 200 years-old. Volus society tends towards lawful as a whole, with clans fighting over economic resources and aggressive negotiating, even if they are individually chaotic individuals. They tend towards neutral morality. Volus are between 1 and 1.5 metes (3-4'). Your size is Small. [object Object]"
   },
   {
     "id": "vorcha",
     "title": "Vorcha",
     "type": "character",
-    "subType": "races",
+    "subType": "species",
     "qualifiers": [],
-    "link": "/races/vorcha",
-    "body": "The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.\nNon-differentiated cells\nThe vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.\nClan Violence\nVorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien races. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.\nVorcha Names\nLike their lifespans, vorcha names are brutal and short.\nMale names: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,\nFemale names: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath\n\n Vorcha have extremely short lifespans and only live for 20 years. They reach adulthood shortly after their first year. Most vorcha are chaotic evil or almost always chaotic even if their morality is strengthened. Vorcha are taller on average than humans (though they naturally slouch) and relatively slender. Your size is Medium. Your base walking speed is 14m."
+    "link": "/species/vorcha",
+    "body": "The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.\nNon-differentiated cells\nThe vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.\nClan Violence\nVorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien races. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.\nVorcha Names\nLike their lifespans, vorcha names are brutal and short.\nMale names: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,\nFemale names: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath\n\n Vorcha have extremely short lifespans and only live for 20 years. They reach adulthood shortly after their first year. Most vorcha are chaotic evil or almost always chaotic even if their morality is strengthened. Vorcha are taller on average than humans (though they naturally slouch) and relatively slender. Your size is Medium. [object Object]"
   },
   {
     "id": "ai-hacking",
@@ -7292,15 +7151,6 @@
     "qualifiers": [],
     "link": "manual/combat#cover",
     "body": "Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.\nA target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.\nThere are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of\ncover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and\na tree trunk that gives three-quarters cover, the target has three-quarters cover.\nHalf Cover\nA target with half cover has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks\nat least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature,\nwhether that creature is an enemy or a friend.\nThree-quarters Cover\nA target with three-quarters cover has a +5 bonus to AC and Dexterity saving throws. A target has three-quarters cover\nif about three-quarters of it is covered by an obstacle. The obstacle might be a doorway, a large crate, or a thick tree trunk.\nTotal Cover\nA target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a\ntarget by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.\nVariant: Additional Cover Rules new\nSize\nSize matters. If the target is one size larger than the creature providing cover, the target has no cover. If the target\nis one size smaller than the creature providing cover, the target has three-quarters cover.\nHigh Ground\nFlying enemies or creatures on high ground are able to shoot over cover depending on the type of cover provided\nFriendly Fire\nDon't hit your friends! If the creature providing cover is friendly and the attacking creature misses, the attack has a\n50% chance to hit the friendly target. Roll a die and if the result is odd the attack hits, even the attack misses both\ncreatures. Or you can use the friendly creature's AC to decide if the attack hits or misses.\n\n"
-  },
-  {
-    "id": "creating-new-vehicles",
-    "title": "Creating New Vehicles",
-    "type": "rule",
-    "subType": "rules",
-    "qualifiers": [],
-    "link": "manual/vehicles#creating-new-vehicles",
-    "body": "The Vehicle List above provides a short list of vehicle examples for you to use in your campaign. However, it is\nencouraged that you and/or your GM create vehicles of their own to use in your campaign. Use the following guidelines\nwhen creating your vehicle.\nCreate a concept\nFirst, you'll want to create a concept for your vehicle. What is its main purpose (defense, offense, transport, smuggling, etc)?\nWhat race(s) are associated with the vehicle? Is it unique or mass produced? What does it look like? What size is it?\nIf you're looking for inspiration, check out Euderion's vehicle creations on DeviantArt.\nName\nNext, you'll need a good name for your vehicle. Mass produced vehicles typically have some sort of manufacturing number\ncombined with a codename or nickname. If your vehicle is a unique creation, it might have a symbolic name.\nVehicle Type\nThe vehicle type should be either transport or starship. If you've selected transport, designate which\ntransport type it is: land, sea, air, or space. Some transports can have multiple types.\nSize\nIf you're creating a transport, choose the size from standard sizes: Medium, Large, Huge, Gargantuan. For starships,\nchoose one of Frigate, Cruiser, Carrier, or Dreadnought.\nSpeed\nA vehicles speed is somewhat abstract. Mechanically, it represents the number of playmat spaces it can move in one turn.\nThis assumes the vehicle is moving an average pace and slow enough to turn and maneuver. Speed should range from 1 to 15.\nRange\nFor transports, range is the number of kilometers the vehicle can travel within 24 hours. This calculation should also\ntake its battery or fuel capacity into account.\nFor starships, the range is calculated as ftlu (faster than light units). Essentially how many Mass Effect Relay jumps\nor system to system travel it can complete in 24 hours.\nCargo\nHow many tonnes can the ship carry? Try thinking about how many mid-size cars can fit into the vehicle or the vehicle tow,\nthis is its Cargo capacity.\nCost\nWhat is the market rate of the vehicle? It might be that the vehicle is military and not sold on the open market.\nAC\nHow durable is your vehicle's armor? Or how difficult is it to hit? ACs for vehicles generally range from 10 - 25.\nHP &amp; SP\nUse the following table to find the average hull points and shield points. You should adjust the average based on the\nconcept of your vehicle. Was it made for defense? Add more HP. Does it has a state-of-the-art drive, add more SP.\n\n\nType\nHP\nSP\n\n\n\n\nTransport\n150\n50\n\n\nFrigate\n1200\n250\n\n\nCruiser\n2000\n500\n\n\nCarrier\n3500\n750\n\n\nDreadnought\n6000\n1500\n\n\nSystems\nNext, you'll want to decide how many systems your vehicle has. You can either make combined systems (for smaller vehicles)\nor have individual systems (for large starships). A system might be so advanced that it requires multiple crew member to\nmaintain.\nCrew\nMinimum\nTo find the minimum crew, add the number of crew needed for each of the systems.\nMaximum\nThe maximum crew is generally based on the size of the vehicle\n\n\nType\nMax Crew\n\n\n\n\nMedium\n1\n\n\nLarge\n2-3\n\n\nHuge\n6-8\n\n\nGargantuan\n10-20\n\n\nFrigate\n20-30\n\n\nCruiser\n30-100\n\n\nCarrier\n100-1000\n\n\nDreadnought\n1000+\n\n\nWeapons\nDecide what weapons are equipped on the vehicle. For transports, damage rolls are multiplied by 10 and by 100 for\nstarships. It's also ok for the vehicle to have no weapons.\nCR\nTo calculate the CR, you'll need access to the Monster Statistics by Challenge Rating table in the Dungeon Master's\nGuide, pg. 274.\nOffensive CR\nFirst, find the offensive CR by calculating the average of all the damaging attacks. If this is a starship, additionally\ndivide the average by 10. Then find the CR associated with that damage on the Monster Stats table.\nDefensive CR\nNext, find the defensive CR by adding the hull point and shield points together. If this is a starship, additionally,\ndivide the sum by 10. Then find the CR associated with that hit point value on the Monster Stats table. If the AC\nis greater than the AC on the Monster Stats table, increase the defensive CR by 1 for every 2 points above the target AC.\nFinal CR\nThe final CR is the average of the offensive and defensive CR, rounded up. If this is for a starship, notate a + symbol\nbeside the CR.\nTransport example:\n\nAC: 20\nHP: 250\nSP: 0\nAttacks: 35 &amp; 55\n\nOffensive CR = (35 + 55) / 2 = 45, corresponds with a CR of 7\nDefensive CR = 250 + 0 = 250, corresponds with a CR of 12. However, the target AC for CR 12 is only 17. So the final Defensive\nCR becomes 13 (+1 because the AC is 20).\nFinal CR = (13 + 7) / 2 = 10\nStarship example:\n\nAC: 25\nHP: 2500\nSP: 600\nAttack: 1100 &amp; 900\n\nOffensive CR = ((1100 + 900) / 2) / 10 = 100, corresponds with a CR of 16\nDefensive CR = (2500 + 600) / 10 = 310, corresponds with a CR of 16. However, the target AC for CR 16 is only 18. So the final Defensive\nCR becomes 19 (+3 because the AC is 25).\nFinal CR = (16 + 19) / 2 = 17.5 = 18+\nAdditional Details\nFinally, write a short description about your vehicle and notate if it has any special abilities, additional systems,\nor available system slots.\nShare with Us!\nIf you'd like to have your creation added, feel free to share it with us! Check out the\ncontributing section for more details.\n"
   },
   {
     "id": "crew",
