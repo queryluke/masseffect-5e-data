@@ -1,5 +1,5 @@
 ---
 name: Twice as Bright
-species: salarain
+species: salarian
 ---
 You gain proficiency in two skills of your choice and two tools or kits of your choice.  

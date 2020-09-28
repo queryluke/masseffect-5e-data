@@ -13,7 +13,7 @@ speed:
     speed: 30
 snippet: The Angara are the only known extant sapient race native to the Heleus Cluster of the Andromeda galaxy and arose on the planet Havarl.
 bodyImg: /images/races/angara.png
-img: https://vignette.wikia.nocookie.net/masseffect/images/4/44/Angara_trailer_mugs.png/revision/latest/scale-to-width-down/640?cb=20170127022744
+img: https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351
 age: Angara have a standard lifespan of about 150 years, although some have been known to live past 200.
 traits: []
 subspecies: []

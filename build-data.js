@@ -89,7 +89,7 @@ for (let dir of mdDirs) {
     if (dir === 'species') {
       const traits = require(`${target}/traits.json`)
       const variants = require(`${target}/species-variants.json`)
-      item.traits = traits.filter(i => i.species === item.id)
+      item.traits = traits.filter(i => i.species === item.id || i.species.includes(item.id))
       item.variants = variants.filter(i => i.species === item.id)
     }
     return item

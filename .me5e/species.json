@@ -22,7 +22,7 @@
     ],
     "snippet": "The Angara are the only known extant sapient race native to the Heleus Cluster of the Andromeda galaxy and arose on the planet Havarl.",
     "bodyImg": "/images/races/angara.png",
-    "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/44/Angara_trailer_mugs.png/revision/latest/scale-to-width-down/640?cb=20170127022744",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351",
     "age": "Angara have a standard lifespan of about 150 years, although some have been known to live past 200.",
     "traits": [
       {
@@ -164,7 +164,7 @@
         "name": "Ardat-Yakshi",
         "species": "asari",
         "traits": [],
-        "html": "<p>A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot; (2 asari parents).\nThe condition is impossible to identify until the asari reaches maturity, by which time it is too late to correct.\nWhen diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed. This is because ardat-yakshi\ndevelop an addiction to the power and feel intense compulsion to meld. The addition only grows stronger with each meld,\nand so a life of monastic celibacy allows asari to leave in peace with a controllable desire. Those who are able to\navoid isolation and execution, however, quickly become psychopathic in their intense lust for the destructive melding.</p>\n<p><source-reference pages=\"3\" source=\"races\"></source-reference></p>\n<h2>Variant Traits</h2>\n<p>If you would like to play an ardat-yakshi, replace the <em>Alignment</em> and <em>Mind Meld</em> traits with the following.\nAdditionally, you gain the <em>Dominate</em> trait at 10th level.</p>\n<p><strong>Alignment</strong>. Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.</p>\n<p><strong>Dominate</strong>. At 10th level, you learn the Dominate spell. Charisma is your spellcasting modifier for this spell and it\ndoes not count against your max number spells known or prepared. You can cast a 3rd-level version of this spell\nonce per long rest.</p>\n",
+        "html": "<p>A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot; (2 asari parents).\nThe condition is impossible to identify until the asari reaches maturity, by which time it is too late to correct.\nWhen diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed. This is because ardat-yakshi\ndevelop an addiction to the power and feel intense compulsion to meld. The addition only grows stronger with each meld,\nand so a life of monastic celibacy allows asari to leave in peace with a controllable desire. Those who are able to\navoid isolation and execution, however, quickly become psychopathic in their intense lust for the destructive melding.</p>\n<p><source-reference pages=\"3\" source=\"races\"></source-reference></p>\n<h2>Variant Traits</h2>\n<p>If you would like to play an ardat-yakshi, replace the <em>Alignment</em> and <em>Mind Meld</em> traits with the following.\nAdditionally, you gain the <em>Dominate</em> trait at 10th level.</p>\n<p><strong>Alignment</strong>. Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.</p>\n<p><strong>Mind Break</strong>. You can touch a willing creature and initiate a mind meld. If the target is unwilling, the meld does not continue.\nThe creature must make a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be\nrendered unconscious for 1d4 hours as your nervous system overwhelms theirs. Once you use this trait, you can't\nuse it again until you finish a long rest.</p>\n<p><strong>Dominate</strong>. At 10th level, you learn the Dominate spell. Charisma is your spellcasting modifier for this spell and it\ndoes not count against your max number spells known or prepared. You can cast a 3rd-level version of this spell\nonce per long rest.</p>\n",
         "id": "ardat-yakshi"
       }
     ],
@@ -410,6 +410,27 @@
         ],
         "html": "<p>Your ranged weapons are shoulder mounted to your armor or in holsters and use a VI to aim and fire. When you make a\nranged weapon attack, use your Intelligence modifier instead of your Dexterity modifier.</p>\n<p>You can have one ranged weapon mounted on each shoulder. Mounting a ranged weapon requires you to be proficient with\nthe weapon type and takes at least 10 minutes of work during a short or long rest.</p>\n",
         "id": "shoulder-mounts"
+      },
+      {
+        "name": "Thick Hide",
+        "species": "elcor",
+        "mechanics": [
+          {
+            "type": "ac",
+            "options": {
+              "increase": 2
+            }
+          },
+          {
+            "type": "modOverride",
+            "options": {
+              "modType": "acBonus",
+              "mod": "con"
+            }
+          }
+        ],
+        "html": "<p>Your base AC is 12 and you determine your AC using your Constitution modifier instead of your Dexterity modifier.</p>\n",
+        "id": "thick-hide"
       }
     ],
     "subspecies": [],
@@ -531,6 +552,15 @@
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825",
     "age": "Hanar usually reach maturity around 40 years and typically live to be 180 years old.",
     "traits": [
+      {
+        "name": "Amphibious",
+        "species": [
+          "hanar",
+          "salarian"
+        ],
+        "html": "<p>Can breathe both air and water.</p>\n",
+        "id": "amphibious"
+      },
       {
         "name": "Bioluminescence",
         "species": "hanar",
@@ -715,13 +745,13 @@
       {
         "name": "All-seeing Eyes",
         "species": "prothean",
-        "html": "<p>Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to <me-distance lenght=\"30\" /> and proficiency in Perception.</p>\n",
+        "html": "<p>Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to <me-distance length=\"30\" /> and proficiency in Perception.</p>\n",
         "id": "all-seeing-eyes"
       },
       {
         "name": "Psychometry",
         "species": "prothean",
-        "html": "<p>While in physical contact with a creature or object, a Prothean can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within <me-distance lenght=\"30\" />  of the\nobject or creature within the past 24 hours. If in contact with an object, you see the last creature to\nhold the object, regardless of how long ago it was last handled. This ability may only be used once per long rest.</p>\n",
+        "html": "<p>While in physical contact with a creature or object, a Prothean can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within <me-distance length=\"30\" />  of the\nobject or creature within the past 24 hours. If in contact with an object, you see the last creature to\nhold the object, regardless of how long ago it was last handled. This ability may only be used once per long rest.</p>\n",
         "id": "psychometry"
       },
       {
@@ -813,10 +843,31 @@
     "age": "Salarians have an extremely high metabolism that causes a short life span. Salarians rarely reach ages over 40 years of age.",
     "traits": [
       {
+        "name": "Amphibious",
+        "species": [
+          "hanar",
+          "salarian"
+        ],
+        "html": "<p>Can breathe both air and water.</p>\n",
+        "id": "amphibious"
+      },
+      {
         "name": "High-Speed Metabolism",
         "species": "salarian",
-        "html": "<p>Salarians don't need to sleep for as long as other races. Instead, their unique biology requires that they only need to\nsleep for 1 hour a day to gain the same benefit that a human does from 8 hours of sleep. Because of this, Salarains\nonly need 4 hours for a long rest.</p>\n",
+        "html": "<p>Salarians don't need to sleep for as long as other races. Instead, their unique biology requires that they only need to\nsleep for 1 hour a day to gain the same benefit that a human does from 8 hours of sleep. Because of this, Salarians\nonly need 4 hours for a long rest.</p>\n",
         "id": "high-speed-metabolism"
+      },
+      {
+        "name": "Photographic Memory",
+        "species": "salarian",
+        "html": "<p>Whenever you make an Intelligence (Engineering, Electronics, History, or Science) check to recall information, add\ntwice your proficiency bonus even if you are not proficient in that skill.</p>\n",
+        "id": "photographic-memory"
+      },
+      {
+        "name": "Twice as Bright",
+        "species": "salarian",
+        "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n",
+        "id": "twice-as-bright"
       }
     ],
     "subspecies": [],

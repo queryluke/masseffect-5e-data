@@ -19,6 +19,11 @@ Additionally, you gain the _Dominate_ trait at 10th level.
 
 __Alignment__. Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.
 
+__Mind Break__. You can touch a willing creature and initiate a mind meld. If the target is unwilling, the meld does not continue. 
+The creature must make a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be 
+rendered unconscious for 1d4 hours as your nervous system overwhelms theirs. Once you use this trait, you can't 
+use it again until you finish a long rest.
+
 __Dominate__. At 10th level, you learn the Dominate spell. Charisma is your spellcasting modifier for this spell and it 
 does not count against your max number spells known or prepared. You can cast a 3rd-level version of this spell
 once per long rest.

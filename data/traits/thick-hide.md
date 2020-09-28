@@ -1,6 +1,6 @@
 ---
-id: thick-hide
 name: Thick Hide
+species: elcor
 mechanics:
   - type: ac
     options:
