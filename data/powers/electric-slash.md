@@ -15,7 +15,7 @@ concentration: false
 distance:
   range: Self
   aoeType: cone
-  aoeDistance: 8m
+  aoeDistance: 20
 detonates: x
 primes: 
 availableClasses:
@@ -29,7 +29,7 @@ advancementOptions:
   description: Creatures that fail the saving throw are paralyzed until the end of
     their next turn.
 ---
-Fabricate an electrified whip that lashes out in front of you in an 8m cone. Each creature must make a Constitution saving
+Fabricate an electrified whip that lashes out in front of you in an <me-distance length="20" adj /> cone. Each creature must make a Constitution saving
 throw. On a failed save, a creature takes 6d6 lightning damage or half as much damage on a successful one.
 
 

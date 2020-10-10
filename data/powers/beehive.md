@@ -15,7 +15,7 @@ concentration: false
 distance:
   range: Self
   aoeType: cone
-  aoeDistance: 6m
+  aoeDistance: 15
 detonates: 
 primes: 
 availableClasses:
@@ -29,7 +29,7 @@ advancementOptions:
     it is deployed you can use an Attack action to fire it. You can also fire it as a reaction whenever a creature enters
     its 6m cone.
 ---
-Draw and fire your antipersonnel cannon, colloquially called "the beehive". It ejects superheated shrapnel in a 6m cone,
+Draw and fire your antipersonnel cannon, colloquially called "the beehive". It ejects superheated shrapnel in a <me-distance length="15" adj/> cone,
 originating from you. Each creature caught in the blast must make Dexterity saving throw. The DC of this saving throw is
 8 + your proficiency bonus + your Dexterity modifier. On a failed save, a creature takes 3d6 piercing damage or half as
 much damage on a successful one.

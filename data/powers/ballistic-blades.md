@@ -13,7 +13,7 @@ castingTime: Attack
 duration: Instant
 concentration: false
 distance:
-  range: 10m
+  range: 30
   aoeType: 
   aoeDistance: 
 detonates: 

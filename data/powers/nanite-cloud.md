@@ -21,11 +21,11 @@ availableClasses:
 advancementOptions:
 - name: Nanite Grenade     
   description: While active, use a bonus action to compress the nanites into a grenade. The grenade remains stable for 1 hour before becoming inert.
-    The grenade has a 10m range, 4m blast radius, DC 14 Dexterity saving throw and deals 4d6 damage of the triggering 
+    The grenade has a <me-distance length="30" adj/> range, <me-distance length="10" adj/> blast radius, DC 14 Dexterity saving throw and deals 4d6 damage of the triggering 
     damage type. The grenade deals and additional 2d6 damage for each spell level beyond 1st. 
 - name: Aegis   
-  description: You may cast this spell as a reaction when a creature within 2m of you takes acid, cold, fire, lightning, or thunder damage. 
-    Choose up to 3 creatures including yourself within 2m of you to gain resistance to the chosen damage type until the start of your next turn, 
+  description: You may cast this spell as a reaction when a creature within <me-distance length="5" /> of you takes acid, cold, fire, lightning, or thunder damage. 
+    Choose up to 3 creatures including yourself within <me-distance length="5" /> of you to gain resistance to the chosen damage type until the start of your next turn, 
     including against the triggering attack.
 ---
 

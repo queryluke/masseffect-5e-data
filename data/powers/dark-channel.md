@@ -13,7 +13,7 @@ castingTime: Action
 duration: 1 minute
 concentration: true
 distance:
-  range: 40m
+  range: 120
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -31,6 +31,6 @@ advancementOptions:
 Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent,
 damaging biotic field. The creature is <me-condition id="primed" sub="necrotic"/> and takes 1d6 necrotic damage and 1d6
 necrotic damage at the start of your turn while you maintain the spell. If the creature dies, dark channel transfers to
-the nearest hostile creature within 10m of the target.
+the nearest hostile creature within <me-distance length="30" /> of the target.
 
 The damage increases by 1d6 when you reach the 5th level (2d6), 11th level (3d6) and 17th level (4d6).

@@ -11,7 +11,7 @@ castingTime: Reaction, which you take when you see a creature casting a biotic s
 duration: Instant
 concentration: false
 distance:
-  range: 30m
+  range: 90
   aoeType: 
   aoeDistance: 
 detonates: 

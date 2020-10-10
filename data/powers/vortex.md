@@ -15,7 +15,7 @@ concentration: false
 distance:
   range: Self
   aoeType: cone
-  aoeDistance: 10m
+  aoeDistance: 30
 detonates: 
 primes: 
 availableClasses:
@@ -28,7 +28,7 @@ advancementOptions:
 - name: Damage
   description: Increase the damage to d12
 ---
-You intertwine negative and positive mass effect fields to create a swirling vortex. Creatures within a 10m cone must
+You intertwine negative and positive mass effect fields to create a swirling vortex. Creatures within a <me-distance length="30" adj/> cone must
 make a Strength saving throw. On a failed save a creature takes 6d10 force damage, or half as much damage on a successful one.
 
 Creatures that fail the saving throw are thrown 1d6 + 2m away from you and become prone.

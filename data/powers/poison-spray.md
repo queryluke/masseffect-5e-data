@@ -13,7 +13,7 @@ castingTime: Action
 duration: Instant
 concentration: false
 distance:
-  range: 2m
+  range: 5
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -26,7 +26,7 @@ advancementOptions:
   description: Creatures that fail the Constitution saving throw are also blinded
     for 1 minute.
 - name: Poison Cloud
-  description: Create a 2m-radius cloud of poison that persists for 1 minute. Each
+  description: Create a <me-distance length="5" adj/> radius cloud of poison that persists for 1 minute. Each
     creature that enters the sphere for the first time on a turn or ends its turn
     there must make the Constitution saving throw.
 ---

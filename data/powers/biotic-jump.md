@@ -32,6 +32,6 @@ advancementOptions:
 Your Spellcasting Ability determines how far you can jump.
 
 __Long Jump__. When you make a long jump, you cover a number of meters up to your Spellcasting Ability score. If jumping
-over an obstacle, subtract 1 meter of distance per 2 meters of the obstacle's height.
+over an obstacle, subtract <me-distance length="5" /> of distance per <me-distance length="10" /> of the obstacle's height.
 
 __High Jump__. When you make a high jump, you leap into the air a number of meters equal to 2 + your Spellcasting Modifier.

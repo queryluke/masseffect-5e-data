@@ -15,7 +15,7 @@ concentration: false
 distance:
   range: Self
   aoeType: sphere
-  aoeDistance: 2m
+  aoeDistance: 5
 detonates: x
 primes: 
 availableClasses:
@@ -29,7 +29,7 @@ advancementOptions:
     barrier ticks.
 ---
 Transfer the energy of your barrier into a biotic explosion, consuming your remaining barrier ticks. Creatures within a
-2m sphere centered on you must make a Dexterity saving throw. On a failed save, a creature is knocked prone and takes
+<me-distance length="5" adj/> sphere centered on you must make a Dexterity saving throw. On a failed save, a creature is knocked prone and takes
 force damage equal to Xd8, where X is the number of barrier ticks. On a successful save, a creature takes half as much
 damage.
 

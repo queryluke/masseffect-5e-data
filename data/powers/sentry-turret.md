@@ -20,12 +20,12 @@ availableClasses:
 - engineer
 advancementOptions:
 - name: Cryo Turret
-  description: The turret's mass accelerator machinegun deals 7 (2d6) piercing and
+  description: The turret's mass accelerator machine gun deals 7 (2d6) piercing and
     7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.
 - name: Shields
   description: The turret has 30 shield points (regen 0).
 ---
-Construct a sentry turret in an unoccupied space within 2m. You have complete control over the turret. Any hacking
+Construct a sentry turret in an unoccupied space within <me-distance length="5" />. You have complete control over the turret. Any hacking
 attempts on the turret are rolled against your Intelligence, not the turret's.
 
 The turret has its own turn in the initiative order, which occurs immediately following your turn.

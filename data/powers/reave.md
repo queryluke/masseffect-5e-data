@@ -14,7 +14,7 @@ castingTime: Action
 duration: Instant
 concentration: false
 distance:
-  range: 50m
+  range: 150
   aoeType:
   aoeDistance:
 detonates: 
@@ -24,7 +24,7 @@ availableClasses:
 advancementOptions:
 - name: Area Reave
   description: The orb becomes unstable and explodes when it reaches the target. Hit
-    or miss, the target and each creature within 2m of it must succeed on a Constitution
+    or miss, the target and each creature within <me-distance length="5" /> of it must succeed on a Constitution
     saving throw or take 2d6 necrotic damage. This damage increases by 2d6 for each
     spell slot level above the first.
 - name: Immediate Detonation

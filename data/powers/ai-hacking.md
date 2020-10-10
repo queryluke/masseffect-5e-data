@@ -12,7 +12,7 @@ castingTime: Action
 duration: 1 minute
 concentration: true
 distance:
-  range: 30m
+  range: 90
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -29,7 +29,7 @@ advancementOptions:
     an Intelligence check contested by the hacked creature's Intelligence check. If you win the contest, the creature becomes
     incapacitated for 1 hour and the spell ends.
 ---
-Target a synthetic creature within 30m. It must succeed on an Intelligence saving throw or it becomes Hacked (it is considered
+Target a synthetic creature within <me-distance length="90" />. It must succeed on an Intelligence saving throw or it becomes Hacked (it is considered
 <me-condition id="charmed"/> and can't use spells or abilities). If you or creatures that are friendly to you are fighting it, it has advantage
 on the saving throw.
 

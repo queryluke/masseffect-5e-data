@@ -15,7 +15,7 @@ concentration: true
 distance:
   range: Self
   aoeType: sphere
-  aoeDistance: 4m
+  aoeDistance: 10
 detonates: 
 primes: necrotic
 availableClasses:
@@ -26,7 +26,7 @@ advancementOptions:
 - name: Phasic
   description: Annihilation Field's damage bypasses shields.
 ---
-Spin a field of dark energy originating from you in a 4m radius sphere. The field moves with you and reduces your walking
+Spin a field of dark energy originating from you in a <me-distance length="10" adj /> radius sphere. The field moves with you and reduces your walking
 speed by half.
 
 Each creature within the sphere must make a Constitution saving throw. A creature takes 12d6 necrotic damage on a failed
@@ -35,4 +35,4 @@ space for the first time on a turn or ends its turn there.
 
 Any creature within the sphere is <me-condition id="primed" sub="necrotic"/>. This condition ends immediately if the creature leaves the sphere.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 5th level, increase the radius by 4m.
+__At Higher Levels__: When you cast this spell using a spell slot of 5th level, increase the radius by <me-distance length="10" />.

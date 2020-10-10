@@ -13,7 +13,7 @@ castingTime: Bonus Action
 duration: Instant
 concentration: false
 distance:
-  range: 60m
+  range: 150
   aoeType: 
   aoeDistance: 
 detonates: 

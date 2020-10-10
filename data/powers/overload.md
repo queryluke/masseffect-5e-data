@@ -13,7 +13,7 @@ castingTime: Action
 duration: Instant
 concentration: false
 distance:
-  range: 40m
+  range: 120
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -24,12 +24,12 @@ availableClasses:
 - sentinel
 advancementOptions:
 - name: Extended Leap
-  description: Overload can leap to as many as five other targets within 10m.
+  description: Overload can leap to as many as five other targets within <me-distance length="30" />.
 - name: Heavy Overload
   description: Increase the damage die type to d8.
 ---
 Unleash an electrostatic discharge at a creature or object within range. Three bolts then leap from that target to as
-many as three other targets, each of which must be within 6m of the first target. A target can be a creature or an
+many as three other targets, each of which must be within <me-distance length="15" /> of the first target. A target can be a creature or an
 object and can be targeted by only one of the bolts.
 
 A target becomes <me-condition id="primed" sub="lightning"/> until the start of your next turn and must make a Dexterity

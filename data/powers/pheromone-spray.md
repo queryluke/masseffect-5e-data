@@ -13,7 +13,7 @@ castingTime: Action
 duration: 24 hours
 concentration: false
 distance:
-  range: 10m
+  range: 30
 detonates: 
 primes: 
 availableClasses:

@@ -15,7 +15,7 @@ castingTime: Action
 duration: 1 minute
 concentration: true
 distance:
-  range: 20m
+  range: 60
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -33,7 +33,7 @@ advancementOptions:
     using a spell slot of 2nd level or higher, the number of swarms increases by 1 for each spell slot above the 1st.
 ---
 Unleash a VI-controlled machine swarm at a creature or object within range. Two swarms then spread from that target 
-to as many as two other targets, each of which must be within 6m of the first target. A target can be a creature or an 
+to as many as two other targets, each of which must be within <me-distance length="15" /> of the first target. A target can be a creature or an 
 object and can be targeted by only one of the swarms.
 
 A target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic and has disadvantage on 

@@ -13,7 +13,7 @@ concentration: true
 distance:
   range: Self
   aoeType: sphere
-  aoeDistance: 6m
+  aoeDistance: 15
 detonates: 
 primes: 
 availableClasses:
@@ -25,7 +25,7 @@ advancementOptions:
 - name: Armored
   description: The sphere has resistance to bludgeoning, piercing, slashing, and thunder damage, but only has 75 hit points.
 ---
-A shimmering barrier with 100 hit points extends out from you in a 6m sphere and moves with you, remaining centered on
+A shimmering barrier with 100 hit points extends out from you in a <me-distance length="15" adj /> sphere and moves with you, remaining centered on
 you and hedging out hostile creatures. If a hostile creature is within the sphere when you cast this spell, it is pushed
 outside of the sphere's radius.
 

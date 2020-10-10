@@ -25,7 +25,7 @@ advancementOptions:
 - name: Restoring Shock
   description: Gain shield points equal to half the damage dealt. This cannot increase your shield points beyond their maximum capacity.
 - name: Improved Shock
-  description: Increase the range to 4m and damage to d8.
+  description: Increase the range to <me-distance length="10" /> and damage to d8.
 ---
 Send an electric shock from your omni-tool to a creature you try to touch. Make a melee spell attack against the target.
 You have advantage on the attack roll if the target is wearing armor. On a hit, the target becomes

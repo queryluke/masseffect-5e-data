@@ -14,9 +14,9 @@ castingTime: Action
 duration: 1 minute
 concentration: false
 distance:
-  range: 30m
+  range: 90
   aoeType: cylinder
-  aoeDistance: 4m
+  aoeDistance: 10
 detonates: 
 primes: 
 availableClasses:
@@ -32,7 +32,7 @@ advancementOptions:
   description: If a creature you can see begins to cast a tech spell, you can use
     your reaction to cast submission net.
 ---
-Shoot a swarm of miniature pylons to a target location within 30m. Each creature within a 4m cylinder of the target
+Shoot a swarm of miniature pylons to a target location within range. Each creature within a <me-distance length="10" adj/> cylinder of the target
 location must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,
 becoming <me-condition id="restrained"/> and cannot cast tech spells.
 
@@ -44,4 +44,4 @@ DC to escape the net. On each attempt, the creature takes 1d6 lightning damage a
 success, the creature is no longer restrained.
 
 __At Higher Levels__: When you cast this spell using a spell slot of 3rd level or higher, increase the size of the
-net by 2m for each spell slot about the 2nd.
+net by <me-distance length="5" /> for each spell slot about the 2nd.

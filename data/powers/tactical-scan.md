@@ -11,7 +11,7 @@ castingTime: Action
 duration: 1 minute
 concentration: false
 distance:
-  range: 30m
+  range: 90
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -21,7 +21,7 @@ availableClasses:
 - soldier
 advancementOptions:
 - name: Area Scan
-  description: Scan a 6m cube. Each creature within the cube must make the Charisma (Deception) check against your Wisdom (Insight).
+  description: Scan a <me-distance length="15" adj/> cube. Each creature within the cube must make the Charisma (Deception) check against your Wisdom (Insight).
     This feature only affects a single target, but you can choose one creature from the ones that failed the contested check.
 - name: Telegraphed Attacks
   description: Your HUD alerts you when the creature is about to attack. It has

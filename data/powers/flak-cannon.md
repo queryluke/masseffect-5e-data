@@ -14,9 +14,9 @@ castingTime: Attack
 duration: Instant
 concentration: false
 distance:
-  range: 10m
+  range: 30
   aoeType: sphere
-  aoeDistance: 4m
+  aoeDistance: 10
 detonates: 
 primes: 
 availableClasses:
@@ -34,7 +34,7 @@ advancementOptions:
 ---
 
 As an Attack action, you load and fire krogan-designed shells that burst into shrapnel upon impact. Choose a target location
-within range. Each creature in a 4m-radius sphere centered on the point of impact of the shell must make a Dexterity 
+within range. Each creature in a <me-distance length="10" adj />-radius sphere centered on the point of impact of the shell must make a Dexterity 
 saving throw (DC 8 + proficiency bonus + DEX modifier). A target takes 2d6 piercing damage on a failed save, 
 or half as much damage on a successful one.
 

@@ -11,7 +11,7 @@ castingTime: Bonus Action
 duration: 10 minutes
 concentration: false
 distance:
-  range: 30m
+  range: 90
   aoeType: 
   aoeDistance: 
 detonates: 

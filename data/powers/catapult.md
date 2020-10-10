@@ -13,9 +13,9 @@ castingTime: Action
 duration: Instant
 concentration: false
 distance:
-  range: 20m
+  range: 40
   aoeType: line
-  aoeDistance: 30m
+  aoeDistance: 90
 detonates: 
 primes: 
 availableClasses:
@@ -26,20 +26,20 @@ advancementOptions:
 - name: Salvo
   description: When you cast Salvo, you may target a number of objects equal to or
     less than your spellcasting ability modifier. The combined weight of the objects cannot
-    exceed the maximum weight limit of the spell (10 kilos at 1st level, 12 kilos
+    exceed the maximum weight limit of the spell (<me-weight amount="20"/> at 1st level, <me-weight amount="30"/>
     at 2nd level, etc).
 - name: Counterstrike
-  description: As a reaction, which you take when a creature within 30m you casts a spell or makes an attack. Fling
+  description: As a reaction, which you take when a creature within <me-distance length="90" /> you casts a spell or makes an attack. Fling
     the object toward the creature which fails its Dexterity saving throw. If the creature was casting a 
     spell, it must succeed on a Constitution saving throw or he spell fails (DC 10 or half the Catapult damage, whichever is higher). 
     If the creature was attacking, it has disadvantage on the attack roll.
 ---
-Choose one object weighing 1 to 10 kilos (about 2 to 20 lbs.) within range that isn't being worn or carried. The object
-flies in a straight line up to 30m in a direction you choose before falling to the ground, stopping early if it impacts
+Choose one object weighing <me-weight amount="2"/> to <me-weight amount="20"/> within range that isn't being worn or carried. The object
+flies in a straight line up to <me-distance length="90" /> in a direction you choose before falling to the ground, stopping early if it impacts
 against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a
 failed save, the object strikes the creature and stops moving. When the object strikes something, the object and what it
 strikes each take 3d10 bludgeoning damage.
 
 __At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects
-that you can target with this spell increases by 5 kilos (10lbs), and the damage increases by 2d10, for each slot level
+that you can target with this spell increases by <me-weight amount="10"/>, and the damage increases by 2d10, for each slot level
 above 1st.

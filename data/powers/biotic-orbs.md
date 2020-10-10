@@ -14,7 +14,7 @@ castingTime: Action
 duration: 1 minute
 concentration: true
 distance:
-  range: 40m
+  range: 90
   aoeType: 
   aoeDistance: 
 detonates: x
@@ -30,7 +30,7 @@ advancementOptions:
     make a ranged spell attack on a target you can see within range. You can direct all attacks to hit one creature or several.
 ---
 Summon 3 biotic orbs that float around you, fueling your biotic energies. As an action, you may expend an orb and make a
-ranged spell attack on a creature within 40m. On a hit, deal force damage equal to 2d10 + your spellcasting ability modifier.
+ranged spell attack on a creature within <me-distance length="90" />. On a hit, deal force damage equal to 2d10 + your spellcasting ability modifier.
 
 As an action, you may expend 3 orbs to cast a spell using your highest available spell slot. Casting a spell in this way
 does not consume the spell slot.

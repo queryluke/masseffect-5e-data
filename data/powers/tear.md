@@ -14,7 +14,7 @@ castingTime: Action
 duration: Instant
 concentration: false
 distance:
-  range: 30m
+  range: 90
 detonates: true
 primes: 
 availableClasses:
@@ -34,7 +34,7 @@ A creature targeted by this spell must make a Dexterity saving throw. On a faile
 it is wearing and carrying is ripped apart at the atomic level, reducing it to a mist of radiated atoms.
 
 This spell automatically disintegrates a Large or smaller unshielded object or a biotic creation. If the target is a 
-Huge or larger object or creation of force, this spell disintegrates a 4m cube portion of it.
+Huge or larger object or creation of force, this spell disintegrates a <me-distance length="10" adj/> cube portion of it.
 
 __At Higher Levels__. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 5d6 
 for each slot level above 4th.

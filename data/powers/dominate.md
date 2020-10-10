@@ -12,7 +12,7 @@ castingTime: Action
 duration: 1 minute
 concentration: true
 distance:
-  range: 30m
+  range: 90
   aoeType: 
   aoeDistance: 
 detonates: 
@@ -27,7 +27,7 @@ advancementOptions:
   description: While the creature is dominated, it takes 4d6 psychic damage at the end of its turn. This damage
     bypasses shields and does not proc an opportunity to end Dominate.
 ---
-Target an organic creature within 30m. It must succeed on a Wisdom saving throw or it becomes Dominated (it is considered
+Target an organic creature within <me-distance length="90" />. It must succeed on a Wisdom saving throw or it becomes Dominated (it is considered
 <me-condition id="charmed"/> and can't use spells or abilities). If you or creatures that are friendly to you are fighting it, it has advantage
 on the saving throw.
 

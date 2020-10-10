@@ -23,7 +23,7 @@ availableClasses:
 advancementOptions:
 - name: Reactive
   description: When you are hit by a ranged attack while the this spell is active, you may use your reaction to deal the 
-    cold damage to a creature within 2 meters of you.  
+    cold damage to a creature within <me-distance length="5" /> of you.  
 - name: Cold Aura 
   description: While the BEC field is active, you are immune to the Frozen condition. Creatures that take damage from this spell
     are primed (cold).

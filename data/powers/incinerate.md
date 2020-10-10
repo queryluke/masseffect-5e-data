@@ -13,7 +13,7 @@ castingTime: Acton
 duration: Instant
 concentration: false
 distance:
-  range: 40m
+  range: 120
   aoeType: 
   aoeDistance: 
 detonates: x
