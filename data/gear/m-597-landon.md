@@ -11,4 +11,6 @@ stats:
   rounds: 10
   image: http://vignette4.wikia.nocookie.net/masseffect/images/6/61/ME3_Ladon_Codex_Rip.png/revision/latest?cb=20140106114047
 ---
-As an Attack, begin targeting, choosing up to 10 creatures within 120 meters. If you remain targeting until the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile used consumes a weapon charge.
+As an Attack, begin targeting, choosing up to 10 creatures within <me-distance length="300" />. If you remain targeting 
+until the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile 
+used consumes a weapon charge.

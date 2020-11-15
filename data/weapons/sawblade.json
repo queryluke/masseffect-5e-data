@@ -7,7 +7,7 @@
   "weight": 2,
   "heat": null,
   "damage": "1d10",
-  "range": 2,
+  "range": 5,
   "notes": "When you hit an organic target with an attack, it takes an additional 2d6 damage at the start of its turn due to blood loss (this damage bypasses shields).",
   "npcHit": "if the target is organic, it takes an additional 7 (2d6) damage at the start of its next turn due to blood loss (this damage bypasses shields).",
   "npcMiss": null,

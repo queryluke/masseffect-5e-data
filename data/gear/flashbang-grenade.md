@@ -11,7 +11,7 @@ cost: 500
 weight: 1
 rarity: Uncommon
 ---
-Target an area within 10m. Each creature within 4m of the target must make a DC 13 Constitution saving throw.
+Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a DC 13 Constitution saving throw.
 On a failed save, a creature is <me-condition id="blinded"/> until the end of your next turn.
 
 __At higher marks__: When you use this grenade at Mark II or higher, the DC of the Constitution saving throw increases

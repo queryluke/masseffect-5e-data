@@ -1,5 +1,5 @@
 ---
-name: "Medical Kit"
+name: Medical Kit
 type: Tool
 cost: 5000
 weight: 5

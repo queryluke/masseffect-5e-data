@@ -7,7 +7,7 @@
   "weight": 2,
   "heat": 18,
   "damage": "1d6",
-  "range": 30,
+  "range": 75,
   "notes": "Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an additional 2d6 lightning damage.",
   "npcHit": "deals half of the damage roll as lightning damage to 1 additional creature within 2m of the target.",
   "npcMiss": null,

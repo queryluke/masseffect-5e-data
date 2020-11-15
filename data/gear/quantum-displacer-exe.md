@@ -8,7 +8,7 @@ cost: 0
 weight: 0
 ---
 Your omni-tool is equipped with a highly experimental quantum device. You can spend a bonus action and 3 omni-gel to designate
-an open space within 60m, and instantly teleport there.
+an open space within <me-distance length="150" />, and instantly teleport there.
 
 You project one invisibly small molecule into that space, which is quantum entangled with a molecule in your armor.
 Sending an energy current through the device will re-unite the molecules instantly, effectively teleporting you to your

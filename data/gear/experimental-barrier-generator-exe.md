@@ -10,8 +10,8 @@ weight: 0
 Convert 10 omni-gel into 1d4+4 black beads that measure 2 centimeters in diameter but weigh nothing. These beads are held
 in place on the user's wrist by the omni-tool's hard light field.
 
-As an action, you can launch a bead at a target location within 30m. The bead explodes on impact and is destroyed. Each
-creature within a 6m radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.
+As an action, you can launch a bead at a target location within <me-distance length="75" />. The bead explodes on impact and is destroyed. Each
+creature within a <me-distance length="15" adj /> radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.
 A sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is
 completely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within
 the area are pushed away from the center of the sphere until they are no longer inside it.

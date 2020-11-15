@@ -7,7 +7,7 @@
   "weight": 2,
   "heat": 4,
   "damage": "2d4",
-  "range": 4,
+  "range": 10,
   "notes": "On a hit, the target must make a Constitution saving throw (DC 8) or becomes {stunned}.",
   "npcHit": "the target must make a Constitution saving throw (DC 8) or becomes {stunned}",
   "npcMiss": null,

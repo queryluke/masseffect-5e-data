@@ -65,6 +65,7 @@ const mdDirs = [
   'conditions',
   'feats',
   'gear',
+  'mods',
   'species-variants', // before species
   'subspecies', // before species
   'traits', // before species
@@ -105,7 +106,6 @@ const jsonDirs = [
   'character-progression',
   'classes',
   'commonplace-items',
-  'mods',
   'random-height-weight',
   'ship-upgrades',
   'skills',

@@ -7,7 +7,7 @@
   "weight": 2,
   "heat": 6,
   "damage": "1d6",
-  "range": 20,
+  "range": 50,
   "notes": "Damage done by this weapon cannot be reduced by using barrier ticks. Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an additional 2d6 force damage.",
   "npcHit": "the target cannot use barrier ticks to reduce the attack damage.",
   "npcMiss": null,
