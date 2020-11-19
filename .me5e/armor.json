@@ -485,7 +485,7 @@
     ],
     "andromeda": false,
     "features": [
-      "Walking speed increased by 6m."
+      "Walking speed increased by <me-distance length='15' />."
     ],
     "id": "cerberus-nightmare-boots"
   },
@@ -724,7 +724,7 @@
     "andromeda": false,
     "features": [
       "+1 AC.",
-      "Increase walking speed by 4m."
+      "Increase walking speed by <me-distance length='10' />."
     ],
     "id": "collector-carapace"
   },
@@ -748,7 +748,7 @@
     "andromeda": false,
     "features": [
       "+1 AC.",
-      "Darkvision: 20m"
+      "Darkvision: <me-distance length='50' />"
     ],
     "id": "collector-headpiece"
   },
@@ -934,7 +934,7 @@
     ],
     "andromeda": false,
     "features": [
-      "Darkvision 10m. Infrared Vision 10m. You can toggle between the 2 vision types as a free action."
+      "Darkvision <me-distance length='25' />. Infrared Vision <me-distance length='25' />. You can toggle between the 2 vision types as a free action."
     ],
     "id": "deep-space-explorer-helmet"
   },
@@ -1388,7 +1388,7 @@
     ],
     "andromeda": false,
     "features": [
-      "Infrared Vision 20m. Darkvision 20m. You can toggle between the 2 vision types as a free action.",
+      "Infrared Vision <me-distance length='25' />. Darkvision <me-distance length='25' />. You can toggle between the 2 vision types as a free action.",
       "Noxious air becomes breathable."
     ],
     "id": "initiative-helmet"
@@ -1456,7 +1456,7 @@
     ],
     "andromeda": true,
     "features": [
-      "Increase walking speed by 4m."
+      "Increase walking speed by <me-distance length='10' />."
     ],
     "id": "kett-greaves"
   },
@@ -1525,7 +1525,7 @@
     ],
     "andromeda": false,
     "features": [
-      "As a bonus action, you choose a creature you can see within 30m. For the next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature 3 times per long rest."
+      "As a bonus action, you choose a creature you can see within <me-distance length='75' />. For the next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature 3 times per long rest."
     ],
     "id": "kuwashii-visor"
   },
@@ -1653,7 +1653,7 @@
     ],
     "andromeda": true,
     "features": [
-      "Darkvision 40m."
+      "Darkvision <me-distance length='100' />."
     ],
     "id": "maverick-visor"
   },
@@ -1923,7 +1923,7 @@
     ],
     "andromeda": false,
     "features": [
-      "Darkvision 20m."
+      "Darkvision <me-distance length='50' />."
     ],
     "id": "partisan-helmet"
   },
@@ -2140,7 +2140,7 @@
     "andromeda": false,
     "features": [
       "+1 AC.",
-      "Infrared Vision 60m. Darkvision 60m. You can toggle between vision types as a free action."
+      "Infrared Vision <me-distance length='150' />. Darkvision <me-distance length='150' />. You can toggle between vision types as a free action."
     ],
     "id": "recon-hood"
   },
@@ -2187,7 +2187,7 @@
     ],
     "andromeda": true,
     "features": [
-      "Darkvision 20m. Infrared Vision 20m. You may toggle between vision types as a free action."
+      "Darkvision <me-distance length='50' />. Infrared Vision <me-distance length='50' />. You may toggle between vision types as a free action."
     ],
     "id": "remnant-helmet"
   },
@@ -2439,7 +2439,7 @@
     "andromeda": false,
     "features": [
       "+1 AC.",
-      "Increase your speed by 4m.",
+      "Increase your walking speed by <me-distance length='10' />.",
       "Increase your grenade capacity by 4."
     ],
     "id": "skirmish-armor"
@@ -2525,7 +2525,7 @@
     "andromeda": false,
     "features": [
       "Advantage on Acrobatics checks.",
-      "Speed +6m."
+      "Increase your walking speed by <me-distance length='15' />."
     ],
     "id": "strider-legguards"
   },
@@ -2613,7 +2613,7 @@
     ],
     "andromeda": false,
     "features": [
-      "Speed +4m"
+      "Increase your walking speed by <me-distance length='10' />."
     ],
     "id": "terminus-assault-greaves"
   },

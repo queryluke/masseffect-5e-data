@@ -17,7 +17,7 @@
   ],
   "andromeda": false,
   "features": [
-    "Infrared Vision 20m. Darkvision 20m. You can toggle between the 2 vision types as a free action.",
+    "Infrared Vision <me-distance length='25' />. Darkvision <me-distance length='25' />. You can toggle between the 2 vision types as a free action.",
     "Noxious air becomes breathable."
   ]
 }

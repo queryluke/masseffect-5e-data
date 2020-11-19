@@ -17,6 +17,6 @@
   ],
   "andromeda": true,
   "features": [
-    "Darkvision 20m. Infrared Vision 20m. You may toggle between vision types as a free action."
+    "Darkvision <me-distance length='50' />. Infrared Vision <me-distance length='50' />. You may toggle between vision types as a free action."
   ]
 }

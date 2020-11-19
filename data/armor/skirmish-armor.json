@@ -16,7 +16,7 @@
   "andromeda": false,
   "features": [
     "+1 AC.",
-    "Increase your speed by 4m.",
+    "Increase your walking speed by <me-distance length='10' />.",
     "Increase your grenade capacity by 4."
   ]
 }

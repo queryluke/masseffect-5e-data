@@ -18,6 +18,6 @@
   ],
   "andromeda": true,
   "features": [
-    "Increase walking speed by 4m."
+    "Increase walking speed by <me-distance length='10' />."
   ]
 }
