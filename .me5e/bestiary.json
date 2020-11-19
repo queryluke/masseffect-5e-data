@@ -13,7 +13,7 @@
       {
         "type": "melee",
         "name": "Grapple",
-        "range": 12.5,
+        "range": 5,
         "target": "one target",
         "hit": "The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion.",
         "miss": null,
