@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Defibrillators",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "2 (1d4) lightning damage.",
       "miss": null,
@@ -22,7 +22,7 @@
       "type": "standard",
       "name": "Stabalize",
       "recharge": "Recharges after a Short or Long rest",
-      "description": "The repair drone can stabalize a friendly creature within 2m."
+      "description": "The repair drone can stabalize a friendly creature within <me-distance length='5' />."
     }
   ],
   "alignment": "Neutral",

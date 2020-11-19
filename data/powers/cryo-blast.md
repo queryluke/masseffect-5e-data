@@ -33,7 +33,7 @@ advancementOptions:
     enters the frozen space for the first time on a turn or ends its turn there becomes primed cold until the end of
     its next turn and takes 2d6 cold damage.
 ---
-Fire a mass of supercooled, subatomic particles that explode in a <me-distance length="5" adj/>-radius sphere centered on a point within
+Fire a mass of supercooled, subatomic particles that explode in a <me-distance length="5" adj />-radius sphere centered on a point within
 range. Each creature within the sphere has its movement reduced by <me-distance length="10"/> until the start of your next turn and must make a
 Strength saving throw. On a failed saved, a creature becomes <me-condition id="frozen"/> until the start of your next turn.
 A target with shield points has advantage on this saving throw.

@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Slash",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "6 (2d4 + 1) slashing damage.",
       "miss": null,
@@ -39,7 +39,7 @@
     {
       "name": "Hive Mind",
       "recharge": null,
-      "description": "If the creeper is within 20 meters of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
+      "description": "If the creeper is within <me-distance length='50' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
     }
   ],
   "hp": {

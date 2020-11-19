@@ -33,7 +33,7 @@
   "features": [
     {
       "name": "Post-mortem explosion",
-      "description": "When the disruption drone drops to 0 hit points it explodes. Each creature within a 2m radius must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 13 (2d12) thunder damage, or half as much on a successful one."
+      "description": "When the disruption drone drops to 0 hit points it explodes. Each creature within a <me-distance length='5' /> radius must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 13 (2d12) thunder damage, or half as much on a successful one."
     }
   ],
   "hp": {

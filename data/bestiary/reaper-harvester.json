@@ -18,7 +18,7 @@
       "type": "standard",
       "name": "Harvester Cannon",
       "recharge": null,
-      "description": "The reaper harvester targets a location within 30m. Each creature within a 6m radius must make a Dexterity saving throw. On a failed save a creature takes 3d10 force and 3d10 thunder damage, or half as much damage on a successful one."
+      "description": "The reaper harvester targets a location within <me-distance length='75' />. Each creature within a <me-distance length='15' /> radius must make a Dexterity saving throw. On a failed save a creature takes 3d10 force and 3d10 thunder damage, or half as much damage on a successful one."
     }
   ],
   "alignment": "Lawful evil",

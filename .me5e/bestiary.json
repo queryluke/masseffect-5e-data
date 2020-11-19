@@ -13,7 +13,7 @@
       {
         "type": "melee",
         "name": "Grapple",
-        "range": 2,
+        "range": 12.5,
         "target": "one target",
         "hit": "The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion.",
         "miss": null,
@@ -36,7 +36,7 @@
       {
         "name": "Post-Mortem Explosion",
         "recharge": null,
-        "description": "When the abomination dies, it explodes in a burst of necrotic energy. Each creature within 2m of it must succeed on a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature that is grappled by the abomination automatically fails its saving throw."
+        "description": "When the abomination dies, it explodes in a burst of necrotic energy. Each creature within <me-distance length='5' /> of it must succeed on a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature that is grappled by the abomination automatically fails its saving throw."
       }
     ],
     "hp": {
@@ -90,7 +90,7 @@
       {
         "type": "ranged",
         "name": "Arm Cannon",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "9 (1d10 + 4) piercing damage.",
         "miss": null,
@@ -99,7 +99,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "7 (1d8 + 3) bludgeoning damage.",
         "miss": null,
@@ -108,7 +108,7 @@
       {
         "type": "melee",
         "name": "Reaper Infection",
-        "range": 2,
+        "range": 5,
         "target": "one organic creature that is grappled by the adjutant, incapacitated, or restrained",
         "hit": "6 (1d6 + 3) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. An organic creature slain in this way becomes a Weakened Adjutant and becomes an Adjutant after a long rest.",
         "miss": null,
@@ -193,7 +193,7 @@
       {
         "type": "melee",
         "name": "Gore",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "12 (3d4 + 5) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -202,7 +202,7 @@
       {
         "type": "melee",
         "name": "Maul",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "11 (2d8 + 2) piercing damage.",
         "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.",
@@ -230,7 +230,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       },
       {
         "name": "Grappler",
@@ -306,7 +306,7 @@
       {
         "type": "ranged",
         "name": "Pulse Cannon",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "7 (1d10 + 2) radiant damage.",
         "miss": null,
@@ -430,7 +430,7 @@
       {
         "type": "melee",
         "name": "Smash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "18 (3d8 + 5) bludgeoning damage.",
         "miss": null,
@@ -439,7 +439,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Cannon",
-        "range": 120,
+        "range": 300,
         "target": "one target",
         "hit": "22 (5d8) radiant damage.",
         "miss": null,
@@ -449,7 +449,7 @@
         "type": "standard",
         "name": "Rocket Launcher",
         "recharge": "Recharge 5-6",
-        "description": "The atlas targets an area within 60m. Each creature within 6m of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
+        "description": "The atlas targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
       },
       {
         "type": "grenade",
@@ -492,7 +492,7 @@
       {
         "name": "Eject",
         "cost": 3,
-        "description": "The pilot of the Atlas ejects, landing in an unoccupied space within 40m. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a 6m radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one."
+        "description": "The pilot of the Atlas ejects, landing in an unoccupied space within <me-distance length='100' />. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a 6m radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one."
       },
       {
         "name": "Mass Accelerator Cannon Attack",
@@ -548,7 +548,7 @@
       {
         "type": "melee",
         "name": "Impale",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "13 (3d8) piercing damage.",
         "miss": null,
@@ -558,7 +558,7 @@
         "type": "standard",
         "name": "Wail",
         "recharge": "Recharge 5-6",
-        "description": "The banshee lets out a wail. Each creature within 60m that can hear the wail must make DC 17 Wisdom saving throw. On a failed save a creature is frightened for 1 minute."
+        "description": "The banshee lets out a wail. Each creature within <me-distance length='150' /> that can hear the wail must make DC 17 Wisdom saving throw. On a failed save a creature is frightened for 1 minute."
       }
     ],
     "alignment": "Lawful evil",
@@ -605,7 +605,7 @@
       {
         "name": "Teleporting Dodge",
         "recharge": "1/Turn",
-        "description": "In response to making a Dexterity saving throw, the banshee can use its reaction to teleport up to 4m away. If it is still within the affected area, it has advantage on the saving throw."
+        "description": "In response to making a Dexterity saving throw, the banshee can use its reaction to teleport up to <me-distance length='10' /> away. If it is still within the affected area, it has advantage on the saving throw."
       }
     ],
     "savingThrows": [
@@ -669,7 +669,7 @@
       {
         "type": "melee",
         "name": "Claws",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d6 + 1) slashing damage.",
         "miss": null,
@@ -679,7 +679,7 @@
         "type": "standard",
         "name": "ML-77 Missile Launcher",
         "recharge": "3 charges",
-        "description": "Choose a creature within 60m that you can see and fire a missile at it. Each creature within a 4m cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one."
+        "description": "Choose a creature within <me-distance length='150' /> that you can see and fire a missile at it. Each creature within a <me-distance length='10' adj /> cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one."
       }
     ],
     "alignment": "Chaotic evil",
@@ -741,7 +741,7 @@
       {
         "type": "melee",
         "name": "Claws",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d6 + 1) slashing damage.",
         "miss": null,
@@ -751,7 +751,7 @@
         "type": "standard",
         "name": "M-451 Firestorm",
         "recharge": "10 charges",
-        "description": "Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one."
+        "description": "Creatures within a <me-distance length='15' adj /> cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one."
       }
     ],
     "alignment": "Chaotic evil",
@@ -822,7 +822,7 @@
       {
         "type": "melee",
         "name": "Claws",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d6 + 1) slashing damage.",
         "miss": null,
@@ -1149,7 +1149,7 @@
         "type": "standard",
         "name": "ML-77 Missile Launcher",
         "recharge": "6 charges",
-        "description": "Choose a creature within 60m that you can see and fire a missile at it. Each creature within a 4m cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one."
+        "description": "Choose a creature within <me-distance length='150' /> that you can see and fire a missile at it. Each creature within a <me-distance length='10' adj /> cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one."
       }
     ],
     "alignment": "Neutral",
@@ -1250,7 +1250,7 @@
       {
         "name": "Leadership",
         "recharge": "Recharges after a Short or Long Rest",
-        "description": "For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within 10m of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated."
+        "description": "For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='25' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated."
       }
     ],
     "hp": {
@@ -1401,7 +1401,7 @@
         "type": "standard",
         "name": "M-451 Firestorm",
         "recharge": "10 charges",
-        "description": "Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one."
+        "description": "Creatures within a <me-distance length='15' adj /> cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one."
       }
     ],
     "alignment": "Neutral",
@@ -1527,7 +1527,7 @@
       {
         "type": "melee",
         "name": "Clobber",
-        "range": 2,
+        "range": 5,
         "target": "one prone creature",
         "hit": "37 (5d12 + 5) bludgeoning damage.",
         "miss": null,
@@ -1536,7 +1536,7 @@
       {
         "type": "melee",
         "name": "Smash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "17 (3d8 + 5) bludgeoning damage.",
         "miss": null,
@@ -1563,7 +1563,7 @@
       {
         "name": "Brutal Charge",
         "recharge": null,
-        "description": "If the brute moves at least 6m straight toward a target and then hits it with a smash attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+        "description": "If the brute moves at least <me-distance length='15' /> straight toward a target and then hits it with a smash attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
       }
     ],
     "hp": {
@@ -1620,7 +1620,7 @@
       {
         "type": "ranged",
         "name": "Arm Cannon",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "5 (1d10) piercing damage.",
         "miss": null,
@@ -1629,7 +1629,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "5 (1d8 + 1) bludgeoning damage.",
         "miss": null,
@@ -1643,7 +1643,7 @@
         "type": "standard",
         "name": "Cannibalize",
         "recharge": "1/Day",
-        "description": "The cannibal spends its action consuming a creature with 0 hit points within 2m. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other."
+        "description": "The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other."
       }
     ],
     "alignment": "Lawful evil",
@@ -1657,7 +1657,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       }
     ],
     "hp": {
@@ -1794,7 +1794,7 @@
       {
         "type": "melee",
         "name": "Claw",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "11 (2d6 + 4) slashing damage.",
         "miss": null,
@@ -1886,13 +1886,13 @@
         "type": "standard",
         "name": "Leadership",
         "recharge": "Recharges after a Short or Long rest",
-        "description": "For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within 10m of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated."
+        "description": "For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='25' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated."
       },
       {
         "type": "standard",
         "name": "Summon Seeker Swarm",
         "recharge": "Recharge 5-6",
-        "description": "The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within 10m."
+        "description": "The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within <me-distance length='25' />."
       }
     ],
     "alignment": "Lawful evil",
@@ -1911,7 +1911,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The collector captain has advantage on an attack roll against a creature if at least one of the collector captain's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The collector captain has advantage on an attack roll against a creature if at least one of the collector captain's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       },
       {
         "name": "Possessed Captain",
@@ -1974,7 +1974,7 @@
       {
         "type": "melee",
         "name": "Weapon Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "3 (1d6) bludgeoning damage.",
         "miss": null,
@@ -2056,7 +2056,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "13 (3d8) bludgeoning damage and the target must succeed on a DC 13 Constitution saving throw or become stunned until the end of its next turn.",
         "miss": null,
@@ -2159,7 +2159,7 @@
       {
         "type": "melee",
         "name": "Weapon Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "12 (2d8 + 3) bludgeoning damage.",
         "miss": null,
@@ -2173,7 +2173,7 @@
         "type": "standard",
         "name": "Hex Shield",
         "recharge": "1/Day",
-        "description": "As a bonus action, the collector guardian generates a 2m tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
+        "description": "As a bonus action, the collector guardian generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
       }
     ],
     "alignment": "Lawful evil",
@@ -2252,7 +2252,7 @@
       {
         "type": "melee",
         "name": "Claw",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "9 (2d6 + 2) slashing damage.",
         "miss": null,
@@ -2265,7 +2265,7 @@
       {
         "type": "ranged",
         "name": "Collector Web",
-        "range": 10,
+        "range": 25,
         "target": "one target",
         "hit": "The target is restrained by organic webbing. As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
         "miss": null,
@@ -2347,7 +2347,7 @@
       {
         "type": "ranged",
         "name": "Shock Attack",
-        "range": 10,
+        "range": 25,
         "target": "one target",
         "hit": "5 (1d6 + 2) lightning damage.",
         "miss": null,
@@ -2435,7 +2435,7 @@
         "type": "standard",
         "name": "Repair",
         "recharge": null,
-        "description": "The combat engineer uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points."
+        "description": "The combat engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points."
       }
     ],
     "alignment": "Neutral",
@@ -2449,7 +2449,7 @@
       {
         "name": "Deploy Turret",
         "recharge": null,
-        "description": "The combat engineer is equipped with 1 Turret (see Bestiary). As an action, the combat engineer can deploy the Turret on a level surface within 2m. The Turret is controlled by the combat engineer and takes its turn at the end of the combat engineer's turn. The combat engineer can use an action to stow the Turret, placing it at another location with a subsequent action."
+        "description": "The combat engineer is equipped with 1 Turret (see Bestiary). As an action, the combat engineer can deploy the Turret on a level surface within <me-distance length='5' />. The Turret is controlled by the combat engineer and takes its turn at the end of the combat engineer's turn. The combat engineer can use an action to stow the Turret, placing it at another location with a subsequent action."
       }
     ],
     "hp": {
@@ -2497,7 +2497,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "7 (1d8 + 3) bludgeoning damage.",
         "miss": null,
@@ -2533,7 +2533,7 @@
       {
         "name": "Guard",
         "recharge": null,
-        "description": "When a creature the defense drone can see attacks a target other than itself that is within 2m of it, it can use its reaction to impose disadvantage on the attack roll."
+        "description": "When a creature the defense drone can see attacks a target other than itself that is within <me-distance length='5' /> of it, it can use its reaction to impose disadvantage on the attack roll."
       }
     ],
     "savingThrows": [],
@@ -2589,7 +2589,7 @@
     "features": [
       {
         "name": "Post-mortem explosion",
-        "description": "When the disruption drone drops to 0 hit points it explodes. Each creature within a 2m radius must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 13 (2d12) thunder damage, or half as much on a successful one."
+        "description": "When the disruption drone drops to 0 hit points it explodes. Each creature within a <me-distance length='5' /> radius must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 13 (2d12) thunder damage, or half as much on a successful one."
       }
     ],
     "hp": {
@@ -2782,7 +2782,7 @@
         "type": "standard",
         "name": "Repair",
         "recharge": null,
-        "description": "The engineer uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points."
+        "description": "The engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points."
       },
       {
         "type": "standard",
@@ -2872,7 +2872,7 @@
         "type": "standard",
         "name": "ML-77 Missile Launcher",
         "recharge": "5 charges",
-        "description": "Choose a creature within 60m that you can see and fire a missile at it. Each creature within a 4m cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one."
+        "description": "Choose a creature within <me-distance length='150' /> that you can see and fire a missile at it. Each creature within a <me-distance length='10' adj /> cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one."
       }
     ],
     "alignment": "Neutral",
@@ -2934,7 +2934,7 @@
         "type": "standard",
         "name": "Repair",
         "recharge": null,
-        "description": "The operative uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points."
+        "description": "The operative uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points."
       },
       {
         "type": "standard",
@@ -3042,7 +3042,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       }
     ],
     "hp": {
@@ -3169,7 +3169,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Cannon",
-        "range": 120,
+        "range": 300,
         "target": "one target",
         "hit": "22 (5d8) radiant damage.",
         "miss": null,
@@ -3243,7 +3243,7 @@
       {
         "type": "melee",
         "name": "Pounce",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "8 (2d6 + 1) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -3252,7 +3252,7 @@
       {
         "type": "melee",
         "name": "Stun",
-        "range": 2,
+        "range": 5,
         "target": "one prone target",
         "hit": "9 (2d8) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn.",
         "miss": null,
@@ -3282,7 +3282,7 @@
       {
         "name": "Post-mortem Explosion",
         "recharge": null,
-        "description": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a 4m radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage."
+        "description": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a <me-distance length='10' adj />-radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage."
       }
     ],
     "hp": {
@@ -3346,7 +3346,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Machinegun",
-        "range": 120,
+        "range": 300,
         "target": "one target",
         "hit": "19 (3d12) piercing damage and 19 (3d12) radiant damage. The geth armature can make a burst fire attack instead.",
         "miss": null,
@@ -3356,13 +3356,13 @@
         "type": "standard",
         "name": "Siege Cannon",
         "recharge": null,
-        "description": "The geth armature targets a creature within 60m and launches a homing projectile. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one."
+        "description": "The geth armature targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one."
       },
       {
         "type": "standard",
         "name": "Siege Pulse",
         "recharge": "Recharge 6",
-        "description": "The geth armature releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a 6m radius must make a DC 18 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced."
+        "description": "The geth armature releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 18 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced."
       }
     ],
     "alignment": "Lawful Neutral",
@@ -3398,7 +3398,7 @@
       {
         "name": "Repair Protocol",
         "recharge": "3/Day",
-        "description": "If the geth armature starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes 0m and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points."
+        "description": "If the geth armature starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes <me-distance length='0' /> and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points."
       }
     ],
     "hp": {
@@ -3540,7 +3540,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Machinegun",
-        "range": 120,
+        "range": 300,
         "target": "one target",
         "hit": "19 (3d12) piercing damage and 19 (3d12) radiant damage. The geth colossus can make a burst fire attack instead.",
         "miss": null,
@@ -3550,13 +3550,13 @@
         "type": "standard",
         "name": "Siege Cannon",
         "recharge": null,
-        "description": "The geth colossus targets a creature within 60m and launches a homing projectile. The target must make a DC 20 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one."
+        "description": "The geth colossus targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 20 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one."
       },
       {
         "type": "standard",
         "name": "Siege Pulse",
         "recharge": "Recharge 6",
-        "description": "The geth colossus releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a 6m radius must make a DC 20 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced."
+        "description": "The geth colossus releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 20 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced."
       }
     ],
     "alignment": "Lawful Neutral",
@@ -3592,7 +3592,7 @@
       {
         "name": "Repair Protocol",
         "recharge": "3/Day",
-        "description": "If the geth colossus starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes 0m and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points."
+        "description": "If the geth colossus starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes <me-distance length='0' /> and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points."
       }
     ],
     "hp": {
@@ -3756,7 +3756,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "14 (2d8 + 5) bludgeoning damage.",
         "miss": null,
@@ -3838,7 +3838,7 @@
       {
         "type": "melee",
         "name": "Weapon Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "8 (1d10 + 3) bludgeoning damage.",
         "miss": null,
@@ -3852,7 +3852,7 @@
         "type": "standard",
         "name": "Radar Jamming",
         "recharge": null,
-        "description": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a 10m radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn."
+        "description": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a <me-distance length='25' /> radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn."
       },
       {
         "type": "standard",
@@ -3944,7 +3944,7 @@
       {
         "type": "melee",
         "name": "Claw",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "7 (1d8 + 3) slashing damage.",
         "miss": null,
@@ -3953,7 +3953,7 @@
       {
         "type": "ranged",
         "name": "Eye Cannon",
-        "range": 60,
+        "range": 150,
         "target": "one target",
         "hit": "13 (3d6 + 3) radiant damage.",
         "miss": null,
@@ -4070,7 +4070,7 @@
       {
         "type": "melee",
         "name": "Weapon Strike",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d6 + 1) bludgeoning damage.",
         "miss": null,
@@ -4135,7 +4135,7 @@
       {
         "type": "ranged",
         "name": "Pulse Cannon",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "5 (1d10) radiant damage.",
         "miss": null,
@@ -4145,7 +4145,7 @@
         "type": "standard",
         "name": "Shield Restore",
         "recharge": "Recharge 5-6",
-        "description": "The geth turret restores 9 (2d8) shield points to a friendly creature within 4m."
+        "description": "The geth turret restores 9 (2d8) shield points to a friendly creature within <me-distance length='10' />."
       }
     ],
     "alignment": "Lawful Neutral",
@@ -4277,7 +4277,7 @@
       {
         "type": "melee",
         "name": "Stomp",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "15 (2d6 + 8) piercing damage.",
         "miss": null,
@@ -4286,9 +4286,9 @@
       {
         "type": "ranged",
         "name": "Acid Spit",
-        "range": 60,
+        "range": 150,
         "target": "one target",
-        "hit": "The harvester targets a 6m radius within 60m and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 19 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the harvester's next turn, each creature that enters the area or ends its turn there must also make the saving throw.",
+        "hit": "The harvester targets a <me-distance length='15' /> radius within <me-distance length='150' /> and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 19 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the harvester's next turn, each creature that enters the area or ends its turn there must also make the saving throw.",
         "miss": null,
         "attackMod": 8
       },
@@ -4297,7 +4297,7 @@
         "name": "Drop Klixen",
         "range": null,
         "target": null,
-        "hit": "If the harvester is within a region that contains Klixen, it begins the fight by droping 1d10 Klixen in a 6m by 20m area.",
+        "hit": "If the harvester is within a region that contains Klixen, it begins the fight by droping 1d10 Klixen in a <me-distance length='15' /> by <me-distance length='50' /> area.",
         "miss": null,
         "attackMod": null
       }
@@ -4317,7 +4317,7 @@
       {
         "name": "Frightful Presence",
         "recharge": null,
-        "description": "Each creature of the harvester's choice that is within 60m of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours."
+        "description": "Each creature of the harvester's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours."
       }
     ],
     "hp": {
@@ -4341,7 +4341,7 @@
       {
         "name": "Trample Attack",
         "cost": 2,
-        "description": "The harvester moves 10m in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
+        "description": "The harvester moves <me-distance length='25' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
       }
     ],
     "name": "Harvester",
@@ -4385,7 +4385,7 @@
       {
         "type": "melee",
         "name": "Gore",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "12 (3d4 + 5) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -4394,7 +4394,7 @@
       {
         "type": "melee",
         "name": "Maul",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "11 (2d8 + 2) piercing damage.",
         "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.",
@@ -4404,7 +4404,7 @@
         "type": "standard",
         "name": "Howl",
         "recharge": null,
-        "description": "Each other kath hound within 20m that is not incapacitated gains +2 Dexterity and +1 Wisdom for 1 minute. Kath hounds can only benefit from one Howl at a time."
+        "description": "Each other kath hound within <me-distance length='50' /> that is not incapacitated gains +2 Dexterity and +1 Wisdom for 1 minute. Kath hounds can only benefit from one Howl at a time."
       }
     ],
     "alignment": "Unaligned",
@@ -4423,7 +4423,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       },
       {
         "name": "Grappler",
@@ -4473,7 +4473,7 @@
       {
         "type": "melee",
         "name": "Swipe",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d6 + 1) slashing damage, and the creature is grappled (escape DC 13). A creature that is grappled by the husk takes 11 (3d6) necrotic damage at the start of each of the husk's turns. The husk can't make swipe attacks on any other target while grappling a creature in this way.",
         "miss": null,
@@ -4540,7 +4540,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -4549,7 +4549,7 @@
       {
         "type": "melee",
         "name": "Maul",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "10 (2d8 + 1) piercing damage.",
         "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.",
@@ -4572,7 +4572,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       },
       {
         "name": "Grappler",
@@ -4685,7 +4685,7 @@
       {
         "type": "melee",
         "name": "Pincer",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d4 + 2) piercing damage plus 2 (1d4) fire damage.",
         "miss": null,
@@ -4710,12 +4710,12 @@
       {
         "name": "Death Burst",
         "recharge": null,
-        "description": "When the klixen dies, it explodes in a burst of lava. Each creature within 2m of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+        "description": "When the klixen dies, it explodes in a burst of lava. Each creature within <me-distance length='5' /> of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
       },
       {
         "name": "Heated Body",
         "recharge": null,
-        "description": "A creature that touches the klixen or hits it with a melee attack while within 2m of it takes 3 (1d6) fire damage."
+        "description": "A creature that touches the klixen or hits it with a melee attack while within <me-distance length='5' /> of it takes 3 (1d6) fire damage."
       }
     ],
     "hp": {
@@ -4792,7 +4792,7 @@
       {
         "name": "Post-mortem Explosion",
         "recharge": null,
-        "description": "When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a 2m radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage."
+        "description": "When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='5' adj />-radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage."
       }
     ],
     "hp": {
@@ -4949,13 +4949,13 @@
         "type": "standard",
         "name": "Repair",
         "recharge": null,
-        "description": "The N7 demolisher uses its action to repair a friendly, synthetic target within 2m for 2d8 hit points."
+        "description": "The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points."
       },
       {
         "type": "standard",
         "name": "Deploy Shield Pylon",
         "recharge": "1/Day",
-        "description": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within 2m. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within 4m of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
+        "description": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
       }
     ],
     "alignment": "Lawful Neutral",
@@ -5051,7 +5051,7 @@
       {
         "name": "Omni-Shield",
         "recharge": "1/Day",
-        "description": "As a bonus action, the N7 Paladin deploys its omni-shield, lasting 1 minute. While the shield is deployed, the N7 Paladin gains +2 AC and can make a melee weapon attack with the shield: +5 to hit, 2m reach, 1d12 bludgeoning damage."
+        "description": "As a bonus action, the N7 Paladin deploys its omni-shield, lasting 1 minute. While the shield is deployed, the N7 Paladin gains +2 AC and can make a melee weapon attack with the shield: +5 to hit, <me-distance length='5' /> reach, 1d12 bludgeoning damage."
       },
       {
         "name": "Variant: Fire-Shield",
@@ -5170,7 +5170,7 @@
       {
         "name": "Sneak Attack",
         "recharge": null,
-        "description": "Once per turn, the N7 Shadow deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 2 meters of an ally of the N7 Shadow that isn't incapacitated and the N7 Shadow doesn't have disadvantage on the attack roll."
+        "description": "Once per turn, the N7 Shadow deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within <me-distance length='5' /> of an ally of the N7 Shadow that isn't incapacitated and the N7 Shadow doesn't have disadvantage on the attack roll."
       },
       {
         "name": "Tactical Cloak",
@@ -5358,12 +5358,12 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The nemesis has advantage on an attack roll against a creature if at least one of the nemesis's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The nemesis has advantage on an attack roll against a creature if at least one of the nemesis's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       },
       {
         "name": "Self-Destruct",
         "recharge": null,
-        "description": "When the nemesis dies, it explodes. Each creature within 4m of it must make a DC 15 Dexterity saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one."
+        "description": "When the nemesis dies, it explodes. Each creature within <me-distance length='10' /> of it must make a DC 15 Dexterity saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one."
       },
       {
         "name": "Shadow Cloak",
@@ -5430,12 +5430,12 @@
       {
         "type": "standard",
         "name": "Particle Beam",
-        "description": "The oculus fires a persistent particle beam that is 20m long and 2m wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save."
+        "description": "The oculus fires a persistent particle beam that is <me-distance length='50' /> long and <me-distance length='5' /> wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save."
       },
       {
         "type": "melee",
         "name": "Crush",
-        "range": 10,
+        "range": 25,
         "target": "one target",
         "hit": "17 (4d6 + 3) bludgeoning damage.",
         "miss": null,
@@ -5519,7 +5519,7 @@
       {
         "type": "ranged",
         "name": "Palm Blaster",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "16 (3d10) thunder damage.",
         "miss": null,
@@ -5596,7 +5596,7 @@
       {
         "type": "melee",
         "name": "Claw",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "38 (6d10 + 5) piercing damage.",
         "miss": null,
@@ -5606,13 +5606,13 @@
         "type": "standard",
         "name": "Pounce",
         "recharge": "Recharge 5-6",
-        "description": "The praetorian pounces to a location within 14m and makes a claw attack."
+        "description": "The praetorian pounces to a location within <me-distance length='35' /> and makes a claw attack."
       },
       {
         "type": "standard",
         "name": "Twin Particle Beams",
         "recharge": "Recharge 5-6",
-        "description": "The praetorian shoots particle beams in a 10m line that is 4m wide originating from itself. Each creature within the area must make a DC 18 Dexterity saving throw. On a failed save a creature takes 54 (12d8) radiant damage or half as much on a successful one."
+        "description": "The praetorian shoots particle beams in a <me-distance length='25' adj /> line that is <me-distance length='10' /> wide originating from itself. Each creature within the area must make a DC 18 Dexterity saving throw. On a failed save a creature takes 54 (12d8) radiant damage or half as much on a successful one."
       }
     ],
     "alignment": "Lawful evil",
@@ -5705,7 +5705,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "1 (1d4 - 1) piercing damage.",
         "miss": null,
@@ -5723,7 +5723,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The pyjak has advantage on an attack roll against a creature if at least one of the pyjak's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The pyjak has advantage on an attack roll against a creature if at least one of the pyjak's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       }
     ],
     "hp": {
@@ -5774,7 +5774,7 @@
       {
         "type": "ranged",
         "name": "Acid Spit",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.",
         "miss": null,
@@ -5783,7 +5783,7 @@
       {
         "type": "melee",
         "name": "Impale",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "15 (2d10 + 4) and 5 (1d10) acid damage.",
         "miss": null,
@@ -5884,7 +5884,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "26 (3d12 + 7) piercing damage.",
         "miss": null,
@@ -5893,7 +5893,7 @@
       {
         "type": "melee",
         "name": "Impale",
-        "range": 8,
+        "range": 20,
         "target": "one target",
         "hit": "29 (4d10 + 7) piercing damage.",
         "miss": null,
@@ -5974,7 +5974,7 @@
       {
         "type": "ranged",
         "name": "Acid Spit",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.",
         "miss": null,
@@ -5983,7 +5983,7 @@
       {
         "type": "melee",
         "name": "Impale",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "8 (1d10 + 3) and 2 (1d4) acid damage.",
         "miss": null,
@@ -6060,12 +6060,12 @@
         "type": "standard",
         "name": "Acid Splash",
         "recharge": "Recharge 4-6",
-        "description": "The rachni worker spits acid at one target within 10m or two targets within 10m if both targets are within 2m of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage."
+        "description": "The rachni worker spits acid at one target within <me-distance length='25' /> or two targets within <me-distance length='25' /> if both targets are within <me-distance length='5' /> of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage."
       },
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "3 (1d6) piercing damage.",
         "miss": null,
@@ -6161,7 +6161,7 @@
       {
         "name": "Hex Shield",
         "recharge": "1/Day",
-        "description": "As a bonus action, the rampart mech generates a 2m tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
+        "description": "As a bonus action, the rampart mech generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
       },
       {
         "name": "Tactical Cloak",
@@ -6171,7 +6171,7 @@
       {
         "name": "Post-Mortem Vent",
         "recharge": null,
-        "description": "When the rampart mech dies, it vents excess heat from its weapon and armor in a 2m radius until the start of its next turn. Each creature that enters the radius for the first time or ends its turn there takes 18 (4d8) radiant damage."
+        "description": "When the rampart mech dies, it vents excess heat from its weapon and armor in a <me-distance length='5' /> radius until the start of its next turn. Each creature that enters the radius for the first time or ends its turn there takes 18 (4d8) radiant damage."
       }
     ],
     "hp": {
@@ -6219,12 +6219,12 @@
         "type": "standard",
         "name": "Acid Splash",
         "recharge": "Recharge 5-6",
-        "description": "The ravager spits acid in a 6m cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
+        "description": "The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
       },
       {
         "type": "ranged",
         "name": "Twin Artillery Cannons",
-        "range": 60,
+        "range": 150,
         "target": "one target",
         "hit": "18 (3d10 + 2) piercing damage and 10 (3d6) acid damage.",
         "miss": null,
@@ -6297,7 +6297,7 @@
         "type": "standard",
         "name": "Harvester Cannon",
         "recharge": null,
-        "description": "The reaper harvester targets a location within 30m. Each creature within a 6m radius must make a Dexterity saving throw. On a failed save a creature takes 3d10 force and 3d10 thunder damage, or half as much damage on a successful one."
+        "description": "The reaper harvester targets a location within <me-distance length='75' />. Each creature within a <me-distance length='15' /> radius must make a Dexterity saving throw. On a failed save a creature takes 3d10 force and 3d10 thunder damage, or half as much damage on a successful one."
       }
     ],
     "alignment": "Lawful evil",
@@ -6385,7 +6385,7 @@
       {
         "type": "ranged",
         "name": "Pulse Rifle",
-        "range": 60,
+        "range": 150,
         "target": "one target",
         "hit": "5 (1d4 + 3) radiant damage.",
         "miss": null,
@@ -6464,7 +6464,7 @@
       {
         "type": "melee",
         "name": "Defibrillators",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "2 (1d4) lightning damage.",
         "miss": null,
@@ -6474,7 +6474,7 @@
         "type": "standard",
         "name": "Stabalize",
         "recharge": "Recharges after a Short or Long rest",
-        "description": "The repair drone can stabalize a friendly creature within 2m."
+        "description": "The repair drone can stabalize a friendly creature within <me-distance length='5' />."
       }
     ],
     "alignment": "Neutral",
@@ -6548,7 +6548,7 @@
       {
         "type": "ranged",
         "name": "Distortion Rocket",
-        "range": 30,
+        "range": 75,
         "target": "one target",
         "hit": "9 (2d8) thunder damage.",
         "miss": null,
@@ -6609,7 +6609,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "8 (1d8 + 4) bludgeoning damage.",
         "miss": null,
@@ -6619,7 +6619,7 @@
         "type": "standard",
         "name": "Salvo",
         "recharge": "Recharge 4-6",
-        "description": "The scion targets three locations within 30m and launches an explosive blast to each. The locations can be the same or different. Each creature within a 6m radius of a target location must make a DC 16 Dexterity saving throw. On a failed save a creature takes 15 (3d10) thunder damage or half as much on a successful one."
+        "description": "The scion targets three locations within <me-distance length='75' /> and launches an explosive blast to each. The locations can be the same or different. Each creature within a <me-distance length='15' /> radius of a target location must make a DC 16 Dexterity saving throw. On a failed save a creature takes 15 (3d10) thunder damage or half as much on a successful one."
       }
     ],
     "alignment": "Lawful evil",
@@ -6731,7 +6731,7 @@
       {
         "type": "melee",
         "name": "Plague Sting",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "3 (1d4 + 1) poison damage and 2 (1d4) necrotic damage. The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll.",
         "miss": null,
@@ -6793,7 +6793,7 @@
       {
         "type": "melee",
         "name": "Sting",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "2 (1d4) poison damage and the target must succeed on a DC 13 Constitution saving throw or has disadvantage on its next attack roll.",
         "miss": null,
@@ -6849,7 +6849,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Machinegun",
-        "range": 60,
+        "range": 150,
         "target": "one target",
         "hit": "7 (2d6) piercing damage and 7 (2d6) radiant damage. The sentry turret can make a burst fire attack instead.",
         "miss": null,
@@ -7028,7 +7028,7 @@
         "type": "standard",
         "name": "Explosive Decoy",
         "recharge": null,
-        "description": "As an action, the agent detonates its active Decoy. Each creature within 4m of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one."
+        "description": "As an action, the agent detonates its active Decoy. Each creature within <me-distance length='10' /> of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one."
       }
     ],
     "alignment": "Lawful neutral",
@@ -7116,7 +7116,7 @@
       {
         "type": "melee",
         "name": "Suicide Attack",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "3 (1d6) acid damage and the swarmer explodes (its hit points immediately fall to 0).",
         "miss": null,
@@ -7185,7 +7185,7 @@
       {
         "type": "melee",
         "name": "Slash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "7 (2d4 + 2) slashing damage.",
         "miss": null,
@@ -7217,12 +7217,12 @@
       {
         "name": "Hive Mind Overseer",
         "recharge": null,
-        "description": "The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within 20 meters of it that has the Hive Mind feature. This bonus cannot exceed +5."
+        "description": "The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within <me-distance length='50' /> of it that has the Hive Mind feature. This bonus cannot exceed +5."
       },
       {
         "name": "Indoctrination",
         "recharge": null,
-        "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 100m of it. See the indoctrination condition."
+        "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within <me-distance length='250' /> of it. See the indoctrination condition."
       }
     ],
     "hp": {
@@ -7267,7 +7267,7 @@
       {
         "type": "melee",
         "name": "Slash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "6 (2d4 + 1) slashing damage.",
         "miss": null,
@@ -7294,7 +7294,7 @@
       {
         "name": "Hive Mind",
         "recharge": null,
-        "description": "If the creeper is within 20 meters of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
+        "description": "If the creeper is within <me-distance length='50' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
       }
     ],
     "hp": {
@@ -7338,7 +7338,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "3 (1d4 + 1) piercing damage.",
         "miss": null,
@@ -7347,7 +7347,7 @@
       {
         "type": "ranged",
         "name": "Acid Spit",
-        "range": 10,
+        "range": 25,
         "target": "one target",
         "hit": "7 (2d6) acid and 7 (2d6) necrotic damage.",
         "miss": null,
@@ -7357,7 +7357,7 @@
         "type": "standard",
         "name": "Release Spores",
         "recharge": "1/Day",
-        "description": "The nymph releases spores in a 4m-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn."
+        "description": "The nymph releases spores in a <me-distance length='10' adj />-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn."
       }
     ],
     "alignment": "Lawful evil",
@@ -7410,7 +7410,7 @@
       {
         "type": "ranged",
         "name": "Acid Spit",
-        "range": 10,
+        "range": 25,
         "target": "one target",
         "hit": "7 (2d6) acid and 7 (2d6) necrotic damage.",
         "miss": null,
@@ -7420,7 +7420,7 @@
         "type": "standard",
         "name": "Release Spores",
         "recharge": "1/Day",
-        "description": "The spawn releases spores in a 4m-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn."
+        "description": "The spawn releases spores in a <me-distance length='10' />-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn."
       }
     ],
     "alignment": "Lawful evil",
@@ -7495,7 +7495,7 @@
       {
         "name": "Hive Mind",
         "recharge": null,
-        "description": "If the creeper is within 20 meters of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
+        "description": "If the creeper is within <me-distance length='50' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
       },
       {
         "name": "Enslaved Mind",
@@ -7554,7 +7554,7 @@
         "type": "standard",
         "name": "Indoctrinate",
         "recharge": null,
-        "description": "The thorian targets one creature within 120 meters of it that it or one of its controllers, thralls, or creepers can see. That creature must make a DC 17 Wisdom saving throw or suffer a level of indoctrination."
+        "description": "The thorian targets one creature within <me-distance length='300' /> of it that it or one of its controllers, thralls, or creepers can see. That creature must make a DC 17 Wisdom saving throw or suffer a level of indoctrination."
       },
       {
         "type": "standard",
@@ -7579,7 +7579,7 @@
       {
         "name": "Indoctrination",
         "recharge": null,
-        "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1000m of it. See the indoctrination condition."
+        "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1<me-distance length='0' /> of it. See the indoctrination condition."
       },
       {
         "name": "Root Structure",
@@ -7601,15 +7601,15 @@
     "lairActions": [
       {
         "name": "Create Spawn",
-        "description": "The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within 2m of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn."
+        "description": "The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn."
       },
       {
         "name": "Summon Creeper",
-        "description": "The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within 2m of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn."
+        "description": "The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn."
       },
       {
         "name": "Summon Controller",
-        "description": "The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within 2m of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn."
+        "description": "The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn."
       }
     ],
     "legendaryActions": [],
@@ -7651,16 +7651,16 @@
       {
         "type": "ranged",
         "name": "Acid Spit",
-        "range": 60,
+        "range": 150,
         "target": "one target",
-        "hit": "The thresher maw targets a 6m radius within 60m and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the thresher maw's next turn, each creature that enters the area or ends its turn there must also make the saving throw.",
+        "hit": "The thresher maw targets a <me-distance length='15' /> radius within <me-distance length='150' /> and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the thresher maw's next turn, each creature that enters the area or ends its turn there must also make the saving throw.",
         "miss": null,
         "attackMod": 7
       },
       {
         "type": "melee",
         "name": "Grasp",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "29 (3d12 + 10) bludgeoning damage and 13 (2d12) acid damage. If the target is a creature, it is grappled (escape DC 22). Until this grapple ends, the target is restrained, and the thresher maw can't grasp another target.",
         "miss": null,
@@ -7670,12 +7670,12 @@
         "type": "standard",
         "name": "Swallow",
         "recharge": null,
-        "description": "The thresher maw makes one grasp attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the grasp's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the thresher maw, and it takes 56 (16d6) acid damage at the start of each of the thresher maw's turns.\n--If the thresher maw takes 60 damage or more on a single turn from a creature inside it, the thresher maw must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 4m of the thresher maw. If the thresher maw dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 12m of movement, exiting prone."
+        "description": "The thresher maw makes one grasp attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the grasp's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the thresher maw, and it takes 56 (16d6) acid damage at the start of each of the thresher maw's turns.\n--If the thresher maw takes 60 damage or more on a single turn from a creature inside it, the thresher maw must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within <me-distance length='10' /> of the thresher maw. If the thresher maw dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using <me-distance length='30' /> of movement, exiting prone."
       },
       {
         "type": "melee",
         "name": "Tail",
-        "range": 8,
+        "range": 20,
         "target": "one target",
         "hit": "24 (4d6 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -7714,7 +7714,7 @@
       {
         "name": "Frightful Presence",
         "recharge": null,
-        "description": "Each creature of the thresher maw's choice that is within 60m of the name and aware of it must succeed on a DC 22 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the thresher maw's Frightful Presence for the next 24 hours."
+        "description": "Each creature of the thresher maw's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 22 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the thresher maw's Frightful Presence for the next 24 hours."
       },
       {
         "name": "Legendary Resistance",
@@ -7798,7 +7798,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Machinegun",
-        "range": 60,
+        "range": 150,
         "target": "one target",
         "hit": "7 (2d6) piercing damage and 7 (2d6) radiant damage. The turret can make a burst fire attack instead.",
         "miss": null,
@@ -7871,7 +7871,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "9 (2d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -7894,7 +7894,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The varren alpha has advantage on an attack roll against a creature if at least one of the varren alpha's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The varren alpha has advantage on an attack roll against a creature if at least one of the varren alpha's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       }
     ],
     "hp": {
@@ -7939,7 +7939,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
         "miss": null,
@@ -7962,7 +7962,7 @@
       {
         "name": "Pack Tactics",
         "recharge": null,
-        "description": "The varren has advantage on an attack roll against a creature if at least one of the varren's allies is within 2m of the creature and the ally isn't incapacitated."
+        "description": "The varren has advantage on an attack roll against a creature if at least one of the varren's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
       }
     ],
     "hp": {
@@ -8012,7 +8012,7 @@
       {
         "type": "ranged",
         "name": "Arm Cannon",
-        "range": 20,
+        "range": 50,
         "target": "one target",
         "hit": "8 (1d10 + 3) piercing damage.",
         "miss": null,
@@ -8021,7 +8021,7 @@
       {
         "type": "melee",
         "name": "Bash",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "4 (1d8) bludgeoning damage.",
         "miss": null,
@@ -8030,7 +8030,7 @@
       {
         "type": "melee",
         "name": "Reaper Infection",
-        "range": 2,
+        "range": 5,
         "target": "one organic creature that is grappled by the [name], incapacitated, or restrained",
         "hit": "3 (1d6) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. An organic creature slain in this way becomes a Weakened Adjutant and becomes an Adjutant after a long rest.",
         "miss": null,
@@ -8095,7 +8095,7 @@
       {
         "type": "melee",
         "name": "Bite",
-        "range": 2,
+        "range": 5,
         "target": "one target",
         "hit": "15 (2d10 + 4) piercing damage.",
         "miss": null,
@@ -8104,7 +8104,7 @@
       {
         "type": "melee",
         "name": "Claw",
-        "range": 4,
+        "range": 10,
         "target": "one target",
         "hit": "13 (2d8 + 4) slashing damage.",
         "miss": null,
@@ -8134,7 +8134,7 @@
       {
         "name": "Sneak Attack",
         "recharge": null,
-        "description": "The yahg  deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 2m of an ally of the yahg that isn't incapacitated and the yahg doesn't have disadvantage on the attack roll."
+        "description": "The yahg  deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within <me-distance length='5' /> of an ally of the yahg that isn't incapacitated and the yahg doesn't have disadvantage on the attack roll."
       }
     ],
     "hp": {
@@ -8193,7 +8193,7 @@
       {
         "type": "ranged",
         "name": "Mass Accelerator Machinegun",
-        "range": 60,
+        "range": 150,
         "target": "one target",
         "hit": "16 (3d10) piercing damage and 16 (3d10) radiant damage. The ymir mech can make a burst fire attack instead.",
         "miss": null,
@@ -8203,7 +8203,7 @@
         "type": "standard",
         "name": "Rocket Launcher",
         "recharge": "Recharge 5-6",
-        "description": "The ymir mech targets an area within 60m. Each creature within 6m of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
+        "description": "The ymir mech targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
       }
     ],
     "alignment": "Neutral",
@@ -8230,7 +8230,7 @@
       {
         "name": "Post-mortem Explosion",
         "recharge": null,
-        "description": "When the YMIR mech is reduced to 0 hit points, it self-destructs. Each creature within a 6m radius sphere must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) thunder damage or half as much on a successful one."
+        "description": "When the YMIR mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='15' adj />-radius sphere must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) thunder damage or half as much on a successful one."
       }
     ],
     "hp": {

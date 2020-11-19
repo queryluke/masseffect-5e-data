@@ -47,7 +47,7 @@
     {
       "name": "Post-mortem Explosion",
       "recharge": null,
-      "description": "When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a 2m radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage."
+      "description": "When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='5' adj />-radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage."
     }
   ],
   "hp": {

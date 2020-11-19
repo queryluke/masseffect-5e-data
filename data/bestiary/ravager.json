@@ -18,12 +18,12 @@
       "type": "standard",
       "name": "Acid Splash",
       "recharge": "Recharge 5-6",
-      "description": "The ravager spits acid in a 6m cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
+      "description": "The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
     },
     {
       "type": "ranged",
       "name": "Twin Artillery Cannons",
-      "range": 60,
+      "range": 150,
       "target": "one target",
       "hit": "18 (3d10 + 2) piercing damage and 10 (3d6) acid damage.",
       "miss": null,

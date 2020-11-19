@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Bite",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
       "miss": null,
@@ -35,7 +35,7 @@
     {
       "name": "Pack Tactics",
       "recharge": null,
-      "description": "The varren has advantage on an attack roll against a creature if at least one of the varren's allies is within 2m of the creature and the ally isn't incapacitated."
+      "description": "The varren has advantage on an attack roll against a creature if at least one of the varren's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
     }
   ],
   "hp": {

@@ -12,7 +12,7 @@
     {
       "type": "ranged",
       "name": "Pulse Cannon",
-      "range": 20,
+      "range": 50,
       "target": "one target",
       "hit": "5 (1d10) radiant damage.",
       "miss": null,
@@ -22,7 +22,7 @@
       "type": "standard",
       "name": "Shield Restore",
       "recharge": "Recharge 5-6",
-      "description": "The geth turret restores 9 (2d8) shield points to a friendly creature within 4m."
+      "description": "The geth turret restores 9 (2d8) shield points to a friendly creature within <me-distance length='10' />."
     }
   ],
   "alignment": "Lawful Neutral",

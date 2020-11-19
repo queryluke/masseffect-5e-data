@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Bash",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "8 (1d8 + 4) bludgeoning damage.",
       "miss": null,
@@ -22,7 +22,7 @@
       "type": "standard",
       "name": "Salvo",
       "recharge": "Recharge 4-6",
-      "description": "The scion targets three locations within 30m and launches an explosive blast to each. The locations can be the same or different. Each creature within a 6m radius of a target location must make a DC 16 Dexterity saving throw. On a failed save a creature takes 15 (3d10) thunder damage or half as much on a successful one."
+      "description": "The scion targets three locations within <me-distance length='75' /> and launches an explosive blast to each. The locations can be the same or different. Each creature within a <me-distance length='15' /> radius of a target location must make a DC 16 Dexterity saving throw. On a failed save a creature takes 15 (3d10) thunder damage or half as much on a successful one."
     }
   ],
   "alignment": "Lawful evil",

@@ -25,12 +25,12 @@
     {
       "name": "Pack Tactics",
       "recharge": null,
-      "description": "The nemesis has advantage on an attack roll against a creature if at least one of the nemesis's allies is within 2m of the creature and the ally isn't incapacitated."
+      "description": "The nemesis has advantage on an attack roll against a creature if at least one of the nemesis's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
     },
     {
       "name": "Self-Destruct",
       "recharge": null,
-      "description": "When the nemesis dies, it explodes. Each creature within 4m of it must make a DC 15 Dexterity saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one."
+      "description": "When the nemesis dies, it explodes. Each creature within <me-distance length='10' /> of it must make a DC 15 Dexterity saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one."
     },
     {
       "name": "Shadow Cloak",

@@ -33,7 +33,7 @@ advancementOptions:
   description: While the spell is maintained, the storm's radius grows by <me-distance length="5" /> at the
     start of your turn.
 ---
-An <me-distance length="20" />-radius sphere of rapid shifting mass effect fields springs into existence centered on a point you choose within
+An <me-distance length="20" adj />-radius sphere of rapid shifting mass effect fields springs into existence centered on a point you choose within
 range, creating a dangerous whirlwind of debris and energy. The sphere remains for the spell’s duration. Each creature
 in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw. On a failed save, a
 creature takes 8d10 force damage or half as much on a successful one. The sphere’s space is difficult terrain.

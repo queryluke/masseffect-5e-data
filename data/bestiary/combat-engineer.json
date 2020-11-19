@@ -22,7 +22,7 @@
       "type": "standard",
       "name": "Repair",
       "recharge": null,
-      "description": "The combat engineer uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points."
+      "description": "The combat engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points."
     }
   ],
   "alignment": "Neutral",
@@ -36,7 +36,7 @@
     {
       "name": "Deploy Turret",
       "recharge": null,
-      "description": "The combat engineer is equipped with 1 Turret (see Bestiary). As an action, the combat engineer can deploy the Turret on a level surface within 2m. The Turret is controlled by the combat engineer and takes its turn at the end of the combat engineer's turn. The combat engineer can use an action to stow the Turret, placing it at another location with a subsequent action."
+      "description": "The combat engineer is equipped with 1 Turret (see Bestiary). As an action, the combat engineer can deploy the Turret on a level surface within <me-distance length='5' />. The Turret is controlled by the combat engineer and takes its turn at the end of the combat engineer's turn. The combat engineer can use an action to stow the Turret, placing it at another location with a subsequent action."
     }
   ],
   "hp": {

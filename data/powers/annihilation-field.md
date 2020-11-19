@@ -26,7 +26,7 @@ advancementOptions:
 - name: Phasic
   description: Annihilation Field's damage bypasses shields.
 ---
-Spin a field of dark energy originating from you in a <me-distance length="10" adj /> radius sphere. The field moves with you and reduces your walking
+Spin a field of dark energy originating from you in a <me-distance length="10" adj />-radius sphere. The field moves with you and reduces your walking
 speed by half.
 
 Each creature within the sphere must make a Constitution saving throw. A creature takes 12d6 necrotic damage on a failed

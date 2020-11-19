@@ -13,7 +13,7 @@
       "type": "standard",
       "name": "Indoctrinate",
       "recharge": null,
-      "description": "The thorian targets one creature within 120 meters of it that it or one of its controllers, thralls, or creepers can see. That creature must make a DC 17 Wisdom saving throw or suffer a level of indoctrination."
+      "description": "The thorian targets one creature within <me-distance length='300' /> of it that it or one of its controllers, thralls, or creepers can see. That creature must make a DC 17 Wisdom saving throw or suffer a level of indoctrination."
     },
     {
       "type": "standard",
@@ -38,7 +38,7 @@
     {
       "name": "Indoctrination",
       "recharge": null,
-      "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1000m of it. See the indoctrination condition."
+      "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1<me-distance length='0' /> of it. See the indoctrination condition."
     },
     {
       "name": "Root Structure",
@@ -60,15 +60,15 @@
   "lairActions": [
     {
       "name": "Create Spawn",
-      "description": "The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within 2m of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn."
+      "description": "The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn."
     },
     {
       "name": "Summon Creeper",
-      "description": "The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within 2m of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn."
+      "description": "The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn."
     },
     {
       "name": "Summon Controller",
-      "description": "The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within 2m of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn."
+      "description": "The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn."
     }
   ],
   "legendaryActions": [],

@@ -17,7 +17,7 @@
     {
       "type": "melee",
       "name": "Weapon Bash",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "12 (2d8 + 3) bludgeoning damage.",
       "miss": null,
@@ -31,7 +31,7 @@
       "type": "standard",
       "name": "Hex Shield",
       "recharge": "1/Day",
-      "description": "As a bonus action, the collector guardian generates a 2m tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
+      "description": "As a bonus action, the collector guardian generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
     }
   ],
   "alignment": "Lawful evil",

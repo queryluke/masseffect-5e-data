@@ -12,7 +12,7 @@
     {
       "type": "ranged",
       "name": "Acid Spit",
-      "range": 20,
+      "range": 50,
       "target": "one target",
       "hit": "7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.",
       "miss": null,
@@ -21,7 +21,7 @@
     {
       "type": "melee",
       "name": "Impale",
-      "range": 4,
+      "range": 10,
       "target": "one target",
       "hit": "8 (1d10 + 3) and 2 (1d4) acid damage.",
       "miss": null,

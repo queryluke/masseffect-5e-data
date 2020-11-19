@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Sting",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "2 (1d4) poison damage and the target must succeed on a DC 13 Constitution saving throw or has disadvantage on its next attack roll.",
       "miss": null,

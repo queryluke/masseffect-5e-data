@@ -12,12 +12,12 @@
     {
       "type": "standard",
       "name": "Particle Beam",
-      "description": "The oculus fires a persistent particle beam that is 20m long and 2m wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save."
+      "description": "The oculus fires a persistent particle beam that is <me-distance length='50' /> long and <me-distance length='5' /> wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save."
     },
     {
       "type": "melee",
       "name": "Crush",
-      "range": 10,
+      "range": 25,
       "target": "one target",
       "hit": "17 (4d6 + 3) bludgeoning damage.",
       "miss": null,

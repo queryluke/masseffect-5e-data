@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Claw",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "7 (1d8 + 3) slashing damage.",
       "miss": null,
@@ -21,7 +21,7 @@
     {
       "type": "ranged",
       "name": "Eye Cannon",
-      "range": 60,
+      "range": 150,
       "target": "one target",
       "hit": "13 (3d6 + 3) radiant damage.",
       "miss": null,

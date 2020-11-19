@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Pounce",
-      "range": 4,
+      "range": 10,
       "target": "one target",
       "hit": "8 (2d6 + 1) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
       "miss": null,
@@ -21,7 +21,7 @@
     {
       "type": "melee",
       "name": "Stun",
-      "range": 2,
+      "range": 5,
       "target": "one prone target",
       "hit": "9 (2d8) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn.",
       "miss": null,
@@ -51,7 +51,7 @@
     {
       "name": "Post-mortem Explosion",
       "recharge": null,
-      "description": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a 4m radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage."
+      "description": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a <me-distance length='10' adj />-radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage."
     }
   ],
   "hp": {

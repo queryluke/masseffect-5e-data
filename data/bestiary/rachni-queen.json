@@ -17,7 +17,7 @@
     {
       "type": "melee",
       "name": "Bite",
-      "range": 4,
+      "range": 10,
       "target": "one target",
       "hit": "26 (3d12 + 7) piercing damage.",
       "miss": null,
@@ -26,7 +26,7 @@
     {
       "type": "melee",
       "name": "Impale",
-      "range": 8,
+      "range": 20,
       "target": "one target",
       "hit": "29 (4d10 + 7) piercing damage.",
       "miss": null,

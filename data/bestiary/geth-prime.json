@@ -17,7 +17,7 @@
     {
       "type": "melee",
       "name": "Weapon Bash",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "8 (1d10 + 3) bludgeoning damage.",
       "miss": null,
@@ -31,7 +31,7 @@
       "type": "standard",
       "name": "Radar Jamming",
       "recharge": null,
-      "description": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a 10m radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn."
+      "description": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a <me-distance length='25' /> radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn."
     },
     {
       "type": "standard",

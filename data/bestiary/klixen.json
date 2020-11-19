@@ -18,7 +18,7 @@
     {
       "type": "melee",
       "name": "Pincer",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "4 (1d4 + 2) piercing damage plus 2 (1d4) fire damage.",
       "miss": null,
@@ -43,12 +43,12 @@
     {
       "name": "Death Burst",
       "recharge": null,
-      "description": "When the klixen dies, it explodes in a burst of lava. Each creature within 2m of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+      "description": "When the klixen dies, it explodes in a burst of lava. Each creature within <me-distance length='5' /> of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
     },
     {
       "name": "Heated Body",
       "recharge": null,
-      "description": "A creature that touches the klixen or hits it with a melee attack while within 2m of it takes 3 (1d6) fire damage."
+      "description": "A creature that touches the klixen or hits it with a melee attack while within <me-distance length='5' /> of it takes 3 (1d6) fire damage."
     }
   ],
   "hp": {

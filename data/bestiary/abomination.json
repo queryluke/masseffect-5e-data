@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Grapple",
-      "range": 2,
+      "range": 12.5,
       "target": "one target",
       "hit": "The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion.",
       "miss": null,
@@ -35,7 +35,7 @@
     {
       "name": "Post-Mortem Explosion",
       "recharge": null,
-      "description": "When the abomination dies, it explodes in a burst of necrotic energy. Each creature within 2m of it must succeed on a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature that is grappled by the abomination automatically fails its saving throw."
+      "description": "When the abomination dies, it explodes in a burst of necrotic energy. Each creature within <me-distance length='5' /> of it must succeed on a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature that is grappled by the abomination automatically fails its saving throw."
     }
   ],
   "hp": {

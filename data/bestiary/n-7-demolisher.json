@@ -34,13 +34,13 @@
       "type": "standard",
       "name": "Repair",
       "recharge": null,
-      "description": "The N7 demolisher uses its action to repair a friendly, synthetic target within 2m for 2d8 hit points."
+      "description": "The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points."
     },
     {
       "type": "standard",
       "name": "Deploy Shield Pylon",
       "recharge": "1/Day",
-      "description": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within 2m. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within 4m of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
+      "description": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
     }
   ],
   "alignment": "Lawful Neutral",

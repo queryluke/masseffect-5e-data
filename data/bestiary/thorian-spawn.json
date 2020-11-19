@@ -12,7 +12,7 @@
     {
       "type": "ranged",
       "name": "Acid Spit",
-      "range": 10,
+      "range": 25,
       "target": "one target",
       "hit": "7 (2d6) acid and 7 (2d6) necrotic damage.",
       "miss": null,
@@ -22,7 +22,7 @@
       "type": "standard",
       "name": "Release Spores",
       "recharge": "1/Day",
-      "description": "The spawn releases spores in a 4m-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn."
+      "description": "The spawn releases spores in a <me-distance length='10' />-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn."
     }
   ],
   "alignment": "Lawful evil",

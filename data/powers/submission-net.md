@@ -32,7 +32,7 @@ advancementOptions:
   description: If a creature you can see begins to cast a tech spell, you can use
     your reaction to cast submission net.
 ---
-Shoot a swarm of miniature pylons to a target location within range. Each creature within a <me-distance length="10" adj/> cylinder of the target
+Shoot a swarm of miniature pylons to a target location within range. Each creature within a <me-distance length="10" adj /> cylinder of the target
 location must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,
 becoming <me-condition id="restrained"/> and cannot cast tech spells.
 

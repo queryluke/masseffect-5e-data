@@ -13,7 +13,7 @@
       "type": "standard",
       "name": "M-451 Firestorm",
       "recharge": "10 charges",
-      "description": "Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one."
+      "description": "Creatures within a <me-distance length='15' adj /> cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one."
     }
   ],
   "alignment": "Neutral",

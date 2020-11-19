@@ -12,7 +12,7 @@
     {
       "type": "melee",
       "name": "Slash",
-      "range": 2,
+      "range": 5,
       "target": "one target",
       "hit": "7 (2d4 + 2) slashing damage.",
       "miss": null,
@@ -44,12 +44,12 @@
     {
       "name": "Hive Mind Overseer",
       "recharge": null,
-      "description": "The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within 20 meters of it that has the Hive Mind feature. This bonus cannot exceed +5."
+      "description": "The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within <me-distance length='50' /> of it that has the Hive Mind feature. This bonus cannot exceed +5."
     },
     {
       "name": "Indoctrination",
       "recharge": null,
-      "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 100m of it. See the indoctrination condition."
+      "description": "Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within <me-distance length='250' /> of it. See the indoctrination condition."
     }
   ],
   "hp": {

@@ -12,7 +12,7 @@
     {
       "type": "ranged",
       "name": "Mass Accelerator Machinegun",
-      "range": 60,
+      "range": 150,
       "target": "one target",
       "hit": "16 (3d10) piercing damage and 16 (3d10) radiant damage. The ymir mech can make a burst fire attack instead.",
       "miss": null,
@@ -22,7 +22,7 @@
       "type": "standard",
       "name": "Rocket Launcher",
       "recharge": "Recharge 5-6",
-      "description": "The ymir mech targets an area within 60m. Each creature within 6m of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
+      "description": "The ymir mech targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
     }
   ],
   "alignment": "Neutral",
@@ -49,7 +49,7 @@
     {
       "name": "Post-mortem Explosion",
       "recharge": null,
-      "description": "When the YMIR mech is reduced to 0 hit points, it self-destructs. Each creature within a 6m radius sphere must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) thunder damage or half as much on a successful one."
+      "description": "When the YMIR mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='15' adj />-radius sphere must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) thunder damage or half as much on a successful one."
     }
   ],
   "hp": {

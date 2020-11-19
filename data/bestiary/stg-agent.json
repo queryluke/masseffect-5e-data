@@ -26,7 +26,7 @@
       "type": "standard",
       "name": "Explosive Decoy",
       "recharge": null,
-      "description": "As an action, the agent detonates its active Decoy. Each creature within 4m of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one."
+      "description": "As an action, the agent detonates its active Decoy. Each creature within <me-distance length='10' /> of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one."
     }
   ],
   "alignment": "Lawful neutral",

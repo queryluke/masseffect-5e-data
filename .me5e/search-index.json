@@ -1905,7 +1905,7 @@
     "subType": "powers",
     "qualifiers": [],
     "link": null,
-    "body": "Spin a field of dark energy originating from you in a  radius sphere. The field moves with you and reduces your walking\nspeed by half.\nEach creature within the sphere must make a Constitution saving throw. A creature takes 12d6 necrotic damage on a failed\nsave or half as much damage on a successful one. A creature must also make the saving throw when it enters the field's\nspace for the first time on a turn or ends its turn there.\nAny creature within the sphere is primed-necrotic. This condition ends immediately if the creature leaves the sphere.\nAt Higher Levels: When you cast this spell using a spell slot of 5th level, increase the radius by .\nundefined"
+    "body": "Spin a field of dark energy originating from you in a -radius sphere. The field moves with you and reduces your walking\nspeed by half.\nEach creature within the sphere must make a Constitution saving throw. A creature takes 12d6 necrotic damage on a failed\nsave or half as much damage on a successful one. A creature must also make the saving throw when it enters the field's\nspace for the first time on a turn or ends its turn there.\nAny creature within the sphere is primed-necrotic. This condition ends immediately if the creature leaves the sphere.\nAt Higher Levels: When you cast this spell using a spell slot of 5th level, increase the radius by .\nundefined"
   },
   {
     "id": "backlash",
@@ -2436,7 +2436,7 @@
     "subType": "powers",
     "qualifiers": [],
     "link": null,
-    "body": "Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a  radius\nsphere centered on you. Each creature within the sphere becomes deafened and must\nmake a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes\n2d8 psychic damage and is stunned until the end of your next turn. On a successful save, a creature\ntakes half as much damage. Synthetic creatures have advantage on this saving throw.\nThe first time you use siege pulse, your armor suffers no adverse effect. If you use this spell again before you\nfinish a short rest, roll a d20. On a 5 or lower you shields overload. You lose\nall shield points, take 2d12 lightning damage, and cannot gain shield points unless you repair your armor. Each time you\nuse this feature again before finishing a short rest, you suffer a -5 penalty to the roll.\nThis feature's psychic damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), 17th level (5d8).\nundefined"
+    "body": "Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a -radius\nsphere centered on you. Each creature within the sphere becomes deafened and must\nmake a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes\n2d8 psychic damage and is stunned until the end of your next turn. On a successful save, a creature\ntakes half as much damage. Synthetic creatures have advantage on this saving throw.\nThe first time you use siege pulse, your armor suffers no adverse effect. If you use this spell again before you\nfinish a short rest, roll a d20. On a 5 or lower you shields overload. You lose\nall shield points, take 2d12 lightning damage, and cannot gain shield points unless you repair your armor. Each time you\nuse this feature again before finishing a short rest, you suffer a -5 penalty to the roll.\nThis feature's psychic damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), 17th level (5d8).\nundefined"
   },
   {
     "id": "singularity",
@@ -2580,7 +2580,7 @@
     "subType": "powers",
     "qualifiers": [],
     "link": null,
-    "body": "You intertwine negative and positive mass effect fields to create a swirling vortex. Creatures within a  cone must\nmake a Strength saving throw. On a failed save a creature takes 6d10 force damage, or half as much damage on a successful one.\nCreatures that fail the saving throw are thrown 1d6 + 2m away from you and become prone.\nAt Higher Levels: When you cast this spell using a spell slot of 4th level or higher, increase the damage by 2d10 for\neach slot level above the 3rd.\nundefined"
+    "body": "You intertwine negative and positive mass effect fields to create a swirling vortex. Creatures within a  cone must\nmake a Strength saving throw. On a failed save a creature takes 6d10 force damage, or half as much damage on a successful one.\nCreatures that fail the saving throw are thrown 1d6 +  away from you and become prone.\nAt Higher Levels: When you cast this spell using a spell slot of 4th level or higher, increase the damage by 2d10 for\neach slot level above the 3rd.\nundefined"
   },
   {
     "id": "warp-cloud",
@@ -4913,7 +4913,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Grapple Melee Weapon Attack +3 to hit, reach 2m, one target Hit The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion.   Features Aggressive As a bonus action, the abomination can move up to its speed toward a hostile creature that it can see.  Post-Mortem Explosion When the abomination dies, it explodes in a burst of necrotic energy. Each creature within 2m of it must succeed on a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature that is grappled by the abomination automatically fails its saving throw.  "
+    "body": " Actions Grapple Melee Weapon Attack +3 to hit, reach 12.5m, one target Hit The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion.   Features Aggressive As a bonus action, the abomination can move up to its speed toward a hostile creature that it can see.  Post-Mortem Explosion When the abomination dies, it explodes in a burst of necrotic energy. Each creature within <me-distance length='5' /> of it must succeed on a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature that is grappled by the abomination automatically fails its saving throw.  "
   },
   {
     "id": "adjutant",
@@ -4924,7 +4924,7 @@
       "Cerberus"
     ],
     "link": null,
-    "body": " Actions Multiattack The adjutant makes two Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +7 to hit, range 20/60m, one target Hit 9 (1d10 + 4) piercing damage.  Bash Melee Weapon Attack +5 to hit, reach 2m, one target Hit 7 (1d8 + 3) bludgeoning damage.  Reaper Infection Melee Weapon Attack +5 to hit, reach 2m, one organic creature that is grappled by the adjutant, incapacitated, or restrained Hit 6 (1d6 + 3) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. An organic creature slain in this way becomes a Weakened Adjutant and becomes an Adjutant after a long rest.   Features Barrier When the adjutant is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Grappler The adjutant has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Multiattack The adjutant makes two Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +7 to hit, range 50/150m, one target Hit 9 (1d10 + 4) piercing damage.  Bash Melee Weapon Attack +5 to hit, reach 5m, one target Hit 7 (1d8 + 3) bludgeoning damage.  Reaper Infection Melee Weapon Attack +5 to hit, reach 5m, one organic creature that is grappled by the adjutant, incapacitated, or restrained Hit 6 (1d6 + 3) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. An organic creature slain in this way becomes a Weakened Adjutant and becomes an Adjutant after a long rest.   Features Barrier When the adjutant is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Grappler The adjutant has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "albino-kath-hound",
@@ -4935,7 +4935,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Gore Melee Weapon Attack +4 to hit, reach 2m, one target Hit 12 (3d4 + 5) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.  Maul Melee Weapon Attack +3 to hit, reach 2m, one target Hit 11 (2d8 + 2) piercing damage. Miss: Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.   Features Barrier When the albino kath hound is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Keen Hearing and Smell The kath hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within 2m of the creature and the ally isn't incapacitated.  Grappler The kath hound has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Gore Melee Weapon Attack +4 to hit, reach 5m, one target Hit 12 (3d4 + 5) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.  Maul Melee Weapon Attack +3 to hit, reach 5m, one target Hit 11 (2d8 + 2) piercing damage. Miss: Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.   Features Barrier When the albino kath hound is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Keen Hearing and Smell The kath hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  Grappler The kath hound has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "assault-drone",
@@ -4946,7 +4946,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Pulse Cannon Ranged Weapon Attack +4 to hit, range 20/60m, one target Hit 7 (1d10 + 2) radiant damage.  "
+    "body": " Actions Pulse Cannon Ranged Weapon Attack +4 to hit, range 50/150m, one target Hit 7 (1d10 + 2) radiant damage.  "
   },
   {
     "id": "assault-trooper",
@@ -4968,7 +4968,7 @@
       "Cerberus"
     ],
     "link": null,
-    "body": " Actions Smash Melee Weapon Attack +10 to hit, reach 2m, one target Hit 18 (3d8 + 5) bludgeoning damage.  Mass Accelerator Cannon Ranged Weapon Attack +9 to hit, range 120/360m, one target Hit 22 (5d8) radiant damage.  Rocket Launcher (Recharge 5-6) The atlas targets an area within 60m. Each creature within 6m of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one.   Legendary Actions Eject The pilot of the Atlas ejects, landing in an unoccupied space within 40m. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a 6m radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one.  Mass Accelerator Cannon Attack The atlas makes a Mass Accelerator Cannon attack.  Smash Attack The atlas makes a Smash attack.  "
+    "body": " Actions Smash Melee Weapon Attack +10 to hit, reach 5m, one target Hit 18 (3d8 + 5) bludgeoning damage.  Mass Accelerator Cannon Ranged Weapon Attack +9 to hit, range 300/900m, one target Hit 22 (5d8) radiant damage.  Rocket Launcher (Recharge 5-6) The atlas targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one.   Legendary Actions Eject The pilot of the Atlas ejects, landing in an unoccupied space within <me-distance length='100' />. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a 6m radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one.  Mass Accelerator Cannon Attack The atlas makes a Mass Accelerator Cannon attack.  Smash Attack The atlas makes a Smash attack.  "
   },
   {
     "id": "banshee",
@@ -4979,7 +4979,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Impale Melee Weapon Attack +5 to hit, reach 2m, one target Hit 13 (3d8) piercing damage.  Wail (Recharge 5-6) The banshee lets out a wail. Each creature within 60m that can hear the wail must make DC 17 Wisdom saving throw. On a failed save a creature is frightened for 1 minute.   Features Barrier (3/Day) As an action or bonus action, the banshee gains 20 barrier ticks. When the banshee is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.   Reactions Teleporting Dodge (1/Turn) In response to making a Dexterity saving throw, the banshee can use its reaction to teleport up to 4m away. If it is still within the affected area, it has advantage on the saving throw.   Legendary Actions Cast a Spell The banshee casts a spell from its list of prepared spells, using a spell slot as normal.  Impale Attack The banshee uses its imaple attack.  Wail Attack The banshee uses its wail.  "
+    "body": " Actions Impale Melee Weapon Attack +5 to hit, reach 5m, one target Hit 13 (3d8) piercing damage.  Wail (Recharge 5-6) The banshee lets out a wail. Each creature within <me-distance length='150' /> that can hear the wail must make DC 17 Wisdom saving throw. On a failed save a creature is frightened for 1 minute.   Features Barrier (3/Day) As an action or bonus action, the banshee gains 20 barrier ticks. When the banshee is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.   Reactions Teleporting Dodge (1/Turn) In response to making a Dexterity saving throw, the banshee can use its reaction to teleport up to <me-distance length='10' /> away. If it is still within the affected area, it has advantage on the saving throw.   Legendary Actions Cast a Spell The banshee casts a spell from its list of prepared spells, using a spell slot as normal.  Impale Attack The banshee uses its imaple attack.  Wail Attack The banshee uses its wail.  "
   },
   {
     "id": "blood-pack-boom-squad",
@@ -4990,7 +4990,7 @@
       "Blood Pack"
     ],
     "link": null,
-    "body": " Actions Claws Melee Weapon Attack +1 to hit, reach 2m, one target Hit 4 (1d6 + 1) slashing damage.  ML-77 Missile Launcher (3 charges) Choose a creature within 60m that you can see and fire a missile at it. Each creature within a 4m cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one.   Features Regeneration The vorcha regains 4 hit points at the start of its turn. If the vorcha takes fire damage, this trait doesn't function at the start of the vorcha's next turn. The vorcha dies only if it starts its turn with 0 hit points and doesn't regenerate.  "
+    "body": " Actions Claws Melee Weapon Attack +1 to hit, reach 5m, one target Hit 4 (1d6 + 1) slashing damage.  ML-77 Missile Launcher (3 charges) Choose a creature within <me-distance length='150' /> that you can see and fire a missile at it. Each creature within a <me-distance length='10' adj /> cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one.   Features Regeneration The vorcha regains 4 hit points at the start of its turn. If the vorcha takes fire damage, this trait doesn't function at the start of the vorcha's next turn. The vorcha dies only if it starts its turn with 0 hit points and doesn't regenerate.  "
   },
   {
     "id": "blood-pack-pyro",
@@ -5001,7 +5001,7 @@
       "Blood Pack"
     ],
     "link": null,
-    "body": " Actions Claws Melee Weapon Attack +1 to hit, reach 2m, one target Hit 4 (1d6 + 1) slashing damage.  M-451 Firestorm (10 charges) Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one.   Features Aggressive As a bonus action, the pyro can move up to its speed toward a hostile creature that it can see.  Regeneration The pyro regains 4 hit points at the start of its turn. If the pyro takes fire damage, this trait doesn't function at the start of the pyro's next turn. The pyro dies only if it starts its turn with 0 hit points and doesn't regenerate.   Reactions Fortification (Recharges after a Short or Long Rest) As a reaction to being hit by an attack the pyro can see, it gains a +5 bonus to its AC until the start of its next turn (including against the triggering attack).  "
+    "body": " Actions Claws Melee Weapon Attack +1 to hit, reach 5m, one target Hit 4 (1d6 + 1) slashing damage.  M-451 Firestorm (10 charges) Creatures within a <me-distance length='15' adj /> cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one.   Features Aggressive As a bonus action, the pyro can move up to its speed toward a hostile creature that it can see.  Regeneration The pyro regains 4 hit points at the start of its turn. If the pyro takes fire damage, this trait doesn't function at the start of the pyro's next turn. The pyro dies only if it starts its turn with 0 hit points and doesn't regenerate.   Reactions Fortification (Recharges after a Short or Long Rest) As a reaction to being hit by an attack the pyro can see, it gains a +5 bonus to its AC until the start of its next turn (including against the triggering attack).  "
   },
   {
     "id": "blood-pack-trooper",
@@ -5012,7 +5012,7 @@
       "Blood Pack"
     ],
     "link": null,
-    "body": " Actions Claws Melee Weapon Attack +1 to hit, reach 2m, one target Hit 4 (1d6 + 1) slashing damage.   Features Aggressive As a bonus action, the trooper can move up to its speed toward a hostile creature that it can see.  Regeneration The trooper regains 4 hit points at the start of its turn. If the trooper takes fire damage, this trait doesn't function at the start of the trooper's next turn. The trooper dies only if it starts its turn with 0 hit points and doesn't regenerate.   Reactions Fortification (Recharges after a Short or Long Rest) As a reaction to being hit by an attack the trooper can see, it gains a +5 bonus to its AC until the start of its next turn (including against the triggering attack).  "
+    "body": " Actions Claws Melee Weapon Attack +1 to hit, reach 5m, one target Hit 4 (1d6 + 1) slashing damage.   Features Aggressive As a bonus action, the trooper can move up to its speed toward a hostile creature that it can see.  Regeneration The trooper regains 4 hit points at the start of its turn. If the trooper takes fire damage, this trait doesn't function at the start of the trooper's next turn. The trooper dies only if it starts its turn with 0 hit points and doesn't regenerate.   Reactions Fortification (Recharges after a Short or Long Rest) As a reaction to being hit by an attack the trooper can see, it gains a +5 bonus to its AC until the start of its next turn (including against the triggering attack).  "
   },
   {
     "id": "blood-pack-warlord",
@@ -5056,7 +5056,7 @@
       "Blue Suns"
     ],
     "link": null,
-    "body": " Actions ML-77 Missile Launcher (6 charges) Choose a creature within 60m that you can see and fire a missile at it. Each creature within a 4m cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one.   Features Tech Armor (1/Day) As a bonus action, the heavy can activate its Tech Armor. It immediately gains 10 temporary hit points. While the heavy has at least 1 of these temporary hit points remaining, it has +2 AC.   Reactions Tech Armor As a reaction to taking damage, the heavy can activate its tech armor.  "
+    "body": " Actions ML-77 Missile Launcher (6 charges) Choose a creature within <me-distance length='150' /> that you can see and fire a missile at it. Each creature within a <me-distance length='10' adj /> cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one.   Features Tech Armor (1/Day) As a bonus action, the heavy can activate its Tech Armor. It immediately gains 10 temporary hit points. While the heavy has at least 1 of these temporary hit points remaining, it has +2 AC.   Reactions Tech Armor As a reaction to taking damage, the heavy can activate its tech armor.  "
   },
   {
     "id": "blue-suns-legate",
@@ -5067,7 +5067,7 @@
       "Blue Suns"
     ],
     "link": null,
-    "body": " Actions Multiattack The legate makes 2 attacks with its M-76 Revenant or M-300 Claymore.   Features Tech Armor (1/Day) As a bonus action, the legate can activate its Tech Armor. It immediately gains 30 temporary hit points. While the legate has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage.  Incendiary Ammo When the centurion hits with its M-76 Revenant or M-300 Claymore, the target takes an additional 1d4 fire damage and becomes primed: fire until the end of the legate's next turn.  Leadership (Recharges after a Short or Long Rest) For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within 10m of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated.   Reactions Tech Armor As a reaction to taking damage, the legate can activate its tech armor.  "
+    "body": " Actions Multiattack The legate makes 2 attacks with its M-76 Revenant or M-300 Claymore.   Features Tech Armor (1/Day) As a bonus action, the legate can activate its Tech Armor. It immediately gains 30 temporary hit points. While the legate has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage.  Incendiary Ammo When the centurion hits with its M-76 Revenant or M-300 Claymore, the target takes an additional 1d4 fire damage and becomes primed: fire until the end of the legate's next turn.  Leadership (Recharges after a Short or Long Rest) For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='25' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated.   Reactions Tech Armor As a reaction to taking damage, the legate can activate its tech armor.  "
   },
   {
     "id": "blue-suns-legionnaire",
@@ -5089,7 +5089,7 @@
       "Blue Suns"
     ],
     "link": null,
-    "body": " Actions M-451 Firestorm (10 charges) Creatures within a 6m cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one.   Features Aggressive As a bonus action, the pyro can move up to its speed toward a hostile creature that it can see.  "
+    "body": " Actions M-451 Firestorm (10 charges) Creatures within a <me-distance length='15' adj /> cone must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage, or half as much damage on a successful one.   Features Aggressive As a bonus action, the pyro can move up to its speed toward a hostile creature that it can see.  "
   },
   {
     "id": "blue-suns-trooper",
@@ -5111,7 +5111,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Multiattack The brute makes two Smash attacks or two Clobber attacks.  Clobber Melee Weapon Attack +9 to hit, reach 2m, one prone creature Hit 37 (5d12 + 5) bludgeoning damage.  Smash Melee Weapon Attack +9 to hit, reach 2m, one target Hit 17 (3d8 + 5) bludgeoning damage.   Features Blood Frenzy The brute has advantage on melee attack rolls against any creature that doesn't have all its hit points.  Brutal Charge If the brute moves at least 6m straight toward a target and then hits it with a smash attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.  "
+    "body": " Actions Multiattack The brute makes two Smash attacks or two Clobber attacks.  Clobber Melee Weapon Attack +9 to hit, reach 5m, one prone creature Hit 37 (5d12 + 5) bludgeoning damage.  Smash Melee Weapon Attack +9 to hit, reach 5m, one target Hit 17 (3d8 + 5) bludgeoning damage.   Features Blood Frenzy The brute has advantage on melee attack rolls against any creature that doesn't have all its hit points.  Brutal Charge If the brute moves at least <me-distance length='15' /> straight toward a target and then hits it with a smash attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.  "
   },
   {
     "id": "cannibal",
@@ -5122,7 +5122,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Multiattack The cannibal makes 2 Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +2 to hit, range 20/60m, one target Hit 5 (1d10) piercing damage.  Bash Melee Weapon Attack +3 to hit, reach 2m, one target Hit 5 (1d8 + 1) bludgeoning damage.  Cannibalize (1/Day) The cannibal spends its action consuming a creature with 0 hit points within 2m. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other.   Features Pack Tactics The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within 2m of the creature and the ally isn't incapacitated.  "
+    "body": " Actions Multiattack The cannibal makes 2 Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +2 to hit, range 50/150m, one target Hit 5 (1d10) piercing damage.  Bash Melee Weapon Attack +3 to hit, reach 5m, one target Hit 5 (1d8 + 1) bludgeoning damage.  Cannibalize (1/Day) The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other.   Features Pack Tactics The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  "
   },
   {
     "id": "centurion",
@@ -5144,7 +5144,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Multiattack The collector assassin makes two Particle Rifle.  Claw Melee Weapon Attack +2 to hit, reach 2m, one target Hit 11 (2d6 + 4) slashing damage.   Features Barrier When the collector assassin is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector assassin is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  "
+    "body": " Actions Multiattack The collector assassin makes two Particle Rifle.  Claw Melee Weapon Attack +2 to hit, reach 5m, one target Hit 11 (2d6 + 4) slashing damage.   Features Barrier When the collector assassin is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector assassin is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  "
   },
   {
     "id": "collector-captain",
@@ -5155,7 +5155,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Multiattack The collector captain makes two Collector Assault Rifle attacks.  Leadership (Recharges after a Short or Long rest) For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within 10m of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated.  Summon Seeker Swarm (Recharge 5-6) The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within 10m.   Features Barrier When the collector captain is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Pack Tactics The collector captain has advantage on an attack roll against a creature if at least one of the collector captain's allies is within 2m of the creature and the ally isn't incapacitated.  Possessed Captain When the captain is possessed by a harbinger it gains temporary hit points equal to its total hit points and 8 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. Instead of summoning a seaker swarm, it summons a seeker plague.  "
+    "body": " Actions Multiattack The collector captain makes two Collector Assault Rifle attacks.  Leadership (Recharges after a Short or Long rest) For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='25' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated.  Summon Seeker Swarm (Recharge 5-6) The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within <me-distance length='25' />.   Features Barrier When the collector captain is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Pack Tactics The collector captain has advantage on an attack roll against a creature if at least one of the collector captain's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  Possessed Captain When the captain is possessed by a harbinger it gains temporary hit points equal to its total hit points and 8 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. Instead of summoning a seaker swarm, it summons a seeker plague.  "
   },
   {
     "id": "collector-drone",
@@ -5166,7 +5166,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Weapon Bash Melee Weapon Attack +2 to hit, reach 2m, one target Hit 3 (1d6) bludgeoning damage.   Features Barrier When the collector drone is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector drone is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  "
+    "body": " Actions Weapon Bash Melee Weapon Attack +2 to hit, reach 5m, one target Hit 3 (1d6) bludgeoning damage.   Features Barrier When the collector drone is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector drone is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  "
   },
   {
     "id": "collector-general",
@@ -5177,7 +5177,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Bash Melee Weapon Attack +4 to hit, reach 2m, one target Hit 13 (3d8) bludgeoning damage and the target must succeed on a DC 13 Constitution saving throw or become stunned until the end of its next turn.   Legendary Actions Assume Control The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any spells. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks.  Barrier When the collector general is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Bash Attack The collector general makes one bash attack.  Cast a Spell The collector general casts a spell from its list of prepared spells, using a spell slot as normal.  "
+    "body": " Actions Bash Melee Weapon Attack +4 to hit, reach 5m, one target Hit 13 (3d8) bludgeoning damage and the target must succeed on a DC 13 Constitution saving throw or become stunned until the end of its next turn.   Legendary Actions Assume Control The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any spells. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks.  Barrier When the collector general is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Bash Attack The collector general makes one bash attack.  Cast a Spell The collector general casts a spell from its list of prepared spells, using a spell slot as normal.  "
   },
   {
     "id": "collector-guardian",
@@ -5188,7 +5188,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Multiattack The collector guardian makes two Collector Assault Rifle attacks.  Weapon Bash Melee Weapon Attack +5 to hit, reach 2m, one target Hit 12 (2d8 + 3) bludgeoning damage.  Hex Shield (1/Day) As a bonus action, the collector guardian generates a 2m tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover.   Features Barrier When the collector guardian is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector guardian is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  Warp Ammo Successful ranged attacks on a target with an active barrier will strip away 2 barrier ticks and reduce the damage reduction by half. Warp ammo can detonate primed targets.  "
+    "body": " Actions Multiattack The collector guardian makes two Collector Assault Rifle attacks.  Weapon Bash Melee Weapon Attack +5 to hit, reach 5m, one target Hit 12 (2d8 + 3) bludgeoning damage.  Hex Shield (1/Day) As a bonus action, the collector guardian generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover.   Features Barrier When the collector guardian is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector guardian is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  Warp Ammo Successful ranged attacks on a target with an active barrier will strip away 2 barrier ticks and reduce the damage reduction by half. Warp ammo can detonate primed targets.  "
   },
   {
     "id": "collector-trooper",
@@ -5199,7 +5199,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Claw Melee Weapon Attack +3 to hit, reach 2m, one target Hit 9 (2d6 + 2) slashing damage.  Collector Web Ranged Weapon Attack +4 to hit, range 10/30m, one target Hit The target is restrained by organic webbing. As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).   Features Barrier When the collector trooper is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector trooper is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  "
+    "body": " Actions Claw Melee Weapon Attack +3 to hit, reach 5m, one target Hit 9 (2d6 + 2) slashing damage.  Collector Web Ranged Weapon Attack +4 to hit, range 25/75m, one target Hit The target is restrained by organic webbing. As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).   Features Barrier When the collector trooper is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector trooper is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  "
   },
   {
     "id": "combat-drone",
@@ -5210,7 +5210,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Shock Attack Ranged Weapon Attack +4 to hit, range 10/30m, one target Hit 5 (1d6 + 2) lightning damage.  "
+    "body": " Actions Shock Attack Ranged Weapon Attack +4 to hit, range 25/75m, one target Hit 5 (1d6 + 2) lightning damage.  "
   },
   {
     "id": "combat-engineer",
@@ -5221,7 +5221,7 @@
       "Cerberus"
     ],
     "link": null,
-    "body": " Actions Multiattack The combat engineer makes two M-5 Phalanx attacks.  Repair The combat engineer uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points.   Features Deploy Turret The combat engineer is equipped with 1 Turret (see Bestiary). As an action, the combat engineer can deploy the Turret on a level surface within 2m. The Turret is controlled by the combat engineer and takes its turn at the end of the combat engineer's turn. The combat engineer can use an action to stow the Turret, placing it at another location with a subsequent action.  "
+    "body": " Actions Multiattack The combat engineer makes two M-5 Phalanx attacks.  Repair The combat engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points.   Features Deploy Turret The combat engineer is equipped with 1 Turret (see Bestiary). As an action, the combat engineer can deploy the Turret on a level surface within <me-distance length='5' />. The Turret is controlled by the combat engineer and takes its turn at the end of the combat engineer's turn. The combat engineer can use an action to stow the Turret, placing it at another location with a subsequent action.  "
   },
   {
     "id": "defense-drone",
@@ -5232,7 +5232,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Bash Melee Weapon Attack +4 to hit, reach 2m, one target Hit 7 (1d8 + 3) bludgeoning damage.   Reactions Guard When a creature the defense drone can see attacks a target other than itself that is within 2m of it, it can use its reaction to impose disadvantage on the attack roll.  "
+    "body": " Actions Bash Melee Weapon Attack +4 to hit, reach 5m, one target Hit 7 (1d8 + 3) bludgeoning damage.   Reactions Guard When a creature the defense drone can see attacks a target other than itself that is within <me-distance length='5' /> of it, it can use its reaction to impose disadvantage on the attack roll.  "
   },
   {
     "id": "disruption-drone",
@@ -5243,7 +5243,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Kamikaze Attack The disruption can use its action to immediately reduce its hit points to 0.   Features Post-mortem explosion When the disruption drone drops to 0 hit points it explodes. Each creature within a 2m radius must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 13 (2d12) thunder damage, or half as much on a successful one.  "
+    "body": " Actions Kamikaze Attack The disruption can use its action to immediately reduce its hit points to 0.   Features Post-mortem explosion When the disruption drone drops to 0 hit points it explodes. Each creature within a <me-distance length='5' /> radius must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 13 (2d12) thunder damage, or half as much on a successful one.  "
   },
   {
     "id": "dragoon",
@@ -5276,7 +5276,7 @@
       "Eclipse"
     ],
     "link": null,
-    "body": " Actions Repair The engineer uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points.  Summon Combat Drone (1/Day) The engineer summons a Combat Drone.   Features Tech Armor (1/Day) As a bonus action, the engineer can activate its Tech Armor. It immediately gains 10 temporary hit points. While the engineer has at least 1 of these temporary hit points remaining, it has +2 AC.   Reactions Tech Armor As a reaction to taking damage, the engineer can activate its tech armor.  "
+    "body": " Actions Repair The engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points.  Summon Combat Drone (1/Day) The engineer summons a Combat Drone.   Features Tech Armor (1/Day) As a bonus action, the engineer can activate its Tech Armor. It immediately gains 10 temporary hit points. While the engineer has at least 1 of these temporary hit points remaining, it has +2 AC.   Reactions Tech Armor As a reaction to taking damage, the engineer can activate its tech armor.  "
   },
   {
     "id": "eclipse-heavy",
@@ -5287,7 +5287,7 @@
       "Eclipse"
     ],
     "link": null,
-    "body": " Actions ML-77 Missile Launcher (5 charges) Choose a creature within 60m that you can see and fire a missile at it. Each creature within a 4m cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one.  "
+    "body": " Actions ML-77 Missile Launcher (5 charges) Choose a creature within <me-distance length='150' /> that you can see and fire a missile at it. Each creature within a <me-distance length='10' adj /> cube of the target, including the target, must make a DC 14 Dexterity saving throw. On a failed save a creature takes 39 (6d12) thunder damage or half as much on a successful one.  "
   },
   {
     "id": "eclipse-operative",
@@ -5298,7 +5298,7 @@
       "Eclipse"
     ],
     "link": null,
-    "body": " Actions Repair The operative uses its action to repair a friendly, synthetic target within 2m for 1d8 hit points.  Summon Combat Drone (2/Day) The operative summons a Combat Drone.   Features Tech Armor (1/Day) As a bonus action, the operative can activate its Tech Armor. It immediately gains 10 temporary hit points. While the operative has at least 1 of these temporary hit points remaining, it has +2 AC.   Reactions Tech Armor As a reaction to taking damage, the operative can activate its tech armor.  "
+    "body": " Actions Repair The operative uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points.  Summon Combat Drone (2/Day) The operative summons a Combat Drone.   Features Tech Armor (1/Day) As a bonus action, the operative can activate its Tech Armor. It immediately gains 10 temporary hit points. While the operative has at least 1 of these temporary hit points remaining, it has +2 AC.   Reactions Tech Armor As a reaction to taking damage, the operative can activate its tech armor.  "
   },
   {
     "id": "eclipse-trooper",
@@ -5309,7 +5309,7 @@
       "Eclipse"
     ],
     "link": null,
-    "body": " Actions  Features Pack Tactics The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within 2m of the creature and the ally isn't incapacitated.  "
+    "body": " Actions  Features Pack Tactics The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  "
   },
   {
     "id": "eclipse-vanguard",
@@ -5331,7 +5331,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Mass Accelerator Cannon Ranged Weapon Attack +6 to hit, range 120/360m, one target Hit 22 (5d8) radiant damage.   Features Slow Moving The elcor has disadvantage on all Dexterity saving throws and skill checks.  "
+    "body": " Actions Mass Accelerator Cannon Ranged Weapon Attack +6 to hit, range 300/900m, one target Hit 22 (5d8) radiant damage.   Features Slow Moving The elcor has disadvantage on all Dexterity saving throws and skill checks.  "
   },
   {
     "id": "fenris-mech",
@@ -5342,7 +5342,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Pounce Melee Weapon Attack +3 to hit, reach 4m, one target Hit 8 (2d6 + 1) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.  Stun Melee Weapon Attack +3 to hit, reach 2m, one prone target Hit 9 (2d8) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn.   Features Aggressive As a bonus action, the fenris mech can move up to its speed toward a hostile creature that it can see.  Post-mortem Explosion If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a 4m radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage.  "
+    "body": " Actions Pounce Melee Weapon Attack +3 to hit, reach 10m, one target Hit 8 (2d6 + 1) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.  Stun Melee Weapon Attack +3 to hit, reach 5m, one prone target Hit 9 (2d8) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn.   Features Aggressive As a bonus action, the fenris mech can move up to its speed toward a hostile creature that it can see.  Post-mortem Explosion If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a <me-distance length='10' adj />-radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage.  "
   },
   {
     "id": "geth-armature",
@@ -5353,7 +5353,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +9 to hit, range 120/360m, one target Hit 19 (3d12) piercing damage and 19 (3d12) radiant damage. The geth armature can make a burst fire attack instead.  Siege Cannon The geth armature targets a creature within 60m and launches a homing projectile. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one.  Siege Pulse (Recharge 6) The geth armature releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a 6m radius must make a DC 18 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced.   Features Repair Protocol (3/Day) If the geth armature starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes 0m and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points.  "
+    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +9 to hit, range 300/900m, one target Hit 19 (3d12) piercing damage and 19 (3d12) radiant damage. The geth armature can make a burst fire attack instead.  Siege Cannon The geth armature targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one.  Siege Pulse (Recharge 6) The geth armature releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 18 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced.   Features Repair Protocol (3/Day) If the geth armature starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes <me-distance length='0' /> and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points.  "
   },
   {
     "id": "geth-bomber",
@@ -5375,7 +5375,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +12 to hit, range 120/360m, one target Hit 19 (3d12) piercing damage and 19 (3d12) radiant damage. The geth colossus can make a burst fire attack instead.  Siege Cannon The geth colossus targets a creature within 60m and launches a homing projectile. The target must make a DC 20 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one.  Siege Pulse (Recharge 6) The geth colossus releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a 6m radius must make a DC 20 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced.   Features Repair Protocol (3/Day) If the geth colossus starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes 0m and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points.   Legendary Actions Mass Accelerator Machinegun Attack The geth colossus makes a Mass Accelerator Machinegun attack.  Siege Cannon Attack The geth colossus makes a Siege Cannon attack.  Siege Pulse Attack The geth colossus uses its Siege Pulse  "
+    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +12 to hit, range 300/900m, one target Hit 19 (3d12) piercing damage and 19 (3d12) radiant damage. The geth colossus can make a burst fire attack instead.  Siege Cannon The geth colossus targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 20 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one.  Siege Pulse (Recharge 6) The geth colossus releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 20 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced.   Features Repair Protocol (3/Day) If the geth colossus starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes <me-distance length='0' /> and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points.   Legendary Actions Mass Accelerator Machinegun Attack The geth colossus makes a Mass Accelerator Machinegun attack.  Siege Cannon Attack The geth colossus makes a Siege Cannon attack.  Siege Pulse Attack The geth colossus uses its Siege Pulse  "
   },
   {
     "id": "geth-hunter",
@@ -5397,7 +5397,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Multiattack The geth juggernaut makes two Bash attacks.  Bash Melee Weapon Attack +8 to hit, reach 2m, one target Hit 14 (2d8 + 5) bludgeoning damage.   Features Aggressive As a bonus action, the geth juggernaut can move up to its speed toward a hostile creature that it can see.  "
+    "body": " Actions Multiattack The geth juggernaut makes two Bash attacks.  Bash Melee Weapon Attack +8 to hit, reach 5m, one target Hit 14 (2d8 + 5) bludgeoning damage.   Features Aggressive As a bonus action, the geth juggernaut can move up to its speed toward a hostile creature that it can see.  "
   },
   {
     "id": "geth-prime",
@@ -5408,7 +5408,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Multiattack The geth prime makes two Geth Pulse Rifle attacks.  Weapon Bash Melee Weapon Attack +7 to hit, reach 2m, one target Hit 8 (1d10 + 3) bludgeoning damage.  Radar Jamming The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a 10m radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn.  Summon Combat Drone (3/Day) The geth prime summons a Combat Drone. It can only have 1 Combat Drone active at a time.  Summon Geth Turret (1/Day) The geth prime summons a Geth Turret.   Legendary Actions Activate Radar Jamming The geth prime activates its radar jamming.  Geth Pulse Rifle Attack The geth prime makes a Geth Pulse Rifle attack.  Summon Turret or Drone The geth prime uses its Summon Drone or Summon Geth Turret action.  "
+    "body": " Actions Multiattack The geth prime makes two Geth Pulse Rifle attacks.  Weapon Bash Melee Weapon Attack +7 to hit, reach 5m, one target Hit 8 (1d10 + 3) bludgeoning damage.  Radar Jamming The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a <me-distance length='25' /> radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn.  Summon Combat Drone (3/Day) The geth prime summons a Combat Drone. It can only have 1 Combat Drone active at a time.  Summon Geth Turret (1/Day) The geth prime summons a Geth Turret.   Legendary Actions Activate Radar Jamming The geth prime activates its radar jamming.  Geth Pulse Rifle Attack The geth prime makes a Geth Pulse Rifle attack.  Summon Turret or Drone The geth prime uses its Summon Drone or Summon Geth Turret action.  "
   },
   {
     "id": "geth-stalker",
@@ -5419,7 +5419,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Claw Melee Weapon Attack +3 to hit, reach 2m, one target Hit 7 (1d8 + 3) slashing damage.  Eye Cannon Ranged Weapon Attack +5 to hit, range 60/180m, one target Hit 13 (3d6 + 3) radiant damage.   Features Assassination Once per turn, the geth stalker can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon.  Avoidance If the geth stalker subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  Leap The geth stalker can leap up to one half its speed.  Spider Climb The geth stalker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.  "
+    "body": " Actions Claw Melee Weapon Attack +3 to hit, reach 5m, one target Hit 7 (1d8 + 3) slashing damage.  Eye Cannon Ranged Weapon Attack +5 to hit, range 150/450m, one target Hit 13 (3d6 + 3) radiant damage.   Features Assassination Once per turn, the geth stalker can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon.  Avoidance If the geth stalker subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  Leap The geth stalker can leap up to one half its speed.  Spider Climb The geth stalker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.  "
   },
   {
     "id": "geth-trooper",
@@ -5430,7 +5430,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Multiattack The geth trooper makes two Geth Pulse Rifle attacks.  Weapon Strike Melee Weapon Attack +3 to hit, reach 2m, one target Hit 4 (1d6 + 1) bludgeoning damage.  "
+    "body": " Actions Multiattack The geth trooper makes two Geth Pulse Rifle attacks.  Weapon Strike Melee Weapon Attack +3 to hit, reach 5m, one target Hit 4 (1d6 + 1) bludgeoning damage.  "
   },
   {
     "id": "geth-turret",
@@ -5441,7 +5441,7 @@
       "Geth"
     ],
     "link": null,
-    "body": " Actions Pulse Cannon Ranged Weapon Attack +2 to hit, range 20/60m, one target Hit 5 (1d10) radiant damage.  Shield Restore (Recharge 5-6) The geth turret restores 9 (2d8) shield points to a friendly creature within 4m.  "
+    "body": " Actions Pulse Cannon Ranged Weapon Attack +2 to hit, range 50/150m, one target Hit 5 (1d10) radiant damage.  Shield Restore (Recharge 5-6) The geth turret restores 9 (2d8) shield points to a friendly creature within <me-distance length='10' />.  "
   },
   {
     "id": "guardian",
@@ -5463,7 +5463,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Multiattack The harvester can use its Frightful Presence. It then makes three attacks: one with its acid spit and two with its stomp.  Stomp Melee Weapon Attack +14 to hit, reach 4m, one target Hit 15 (2d6 + 8) piercing damage.  Acid Spit Ranged Weapon Attack +8 to hit, range 60/180m, one target Hit The harvester targets a 6m radius within 60m and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 19 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the harvester's next turn, each creature that enters the area or ends its turn there must also make the saving throw.  Drop Klixen undefined   Features Frightful Presence Each creature of the harvester's choice that is within 60m of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours.   Legendary Actions Detect The harvester makes a Wisdom (Perception) check.  Stomp Attack The harvester makes a stomp attack.  Trample Attack The harvester moves 10m in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature.  "
+    "body": " Actions Multiattack The harvester can use its Frightful Presence. It then makes three attacks: one with its acid spit and two with its stomp.  Stomp Melee Weapon Attack +14 to hit, reach 10m, one target Hit 15 (2d6 + 8) piercing damage.  Acid Spit Ranged Weapon Attack +8 to hit, range 150/450m, one target Hit The harvester targets a <me-distance length='15' /> radius within <me-distance length='150' /> and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 19 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the harvester's next turn, each creature that enters the area or ends its turn there must also make the saving throw.  Drop Klixen undefined   Features Frightful Presence Each creature of the harvester's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours.   Legendary Actions Detect The harvester makes a Wisdom (Perception) check.  Stomp Attack The harvester makes a stomp attack.  Trample Attack The harvester moves <me-distance length='25' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature.  "
   },
   {
     "id": "horned-kath-hound",
@@ -5474,7 +5474,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Gore Melee Weapon Attack +4 to hit, reach 2m, one target Hit 12 (3d4 + 5) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.  Maul Melee Weapon Attack +3 to hit, reach 2m, one target Hit 11 (2d8 + 2) piercing damage. Miss: Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.  Howl Each other kath hound within 20m that is not incapacitated gains +2 Dexterity and +1 Wisdom for 1 minute. Kath hounds can only benefit from one Howl at a time.   Features Keen Hearing and Smell The kath hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within 2m of the creature and the ally isn't incapacitated.  Grappler The kath hound has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Gore Melee Weapon Attack +4 to hit, reach 5m, one target Hit 12 (3d4 + 5) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.  Maul Melee Weapon Attack +3 to hit, reach 5m, one target Hit 11 (2d8 + 2) piercing damage. Miss: Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.  Howl Each other kath hound within <me-distance length='50' /> that is not incapacitated gains +2 Dexterity and +1 Wisdom for 1 minute. Kath hounds can only benefit from one Howl at a time.   Features Keen Hearing and Smell The kath hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  Grappler The kath hound has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "husk",
@@ -5485,7 +5485,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Swipe Melee Weapon Attack +3 to hit, reach 2m, one target Hit 4 (1d6 + 1) slashing damage, and the creature is grappled (escape DC 13). A creature that is grappled by the husk takes 11 (3d6) necrotic damage at the start of each of the husk's turns. The husk can't make swipe attacks on any other target while grappling a creature in this way.   Features Aggressive As a bonus action, the husk can move up to its speed toward a hostile creature that it can see.  "
+    "body": " Actions Swipe Melee Weapon Attack +3 to hit, reach 5m, one target Hit 4 (1d6 + 1) slashing damage, and the creature is grappled (escape DC 13). A creature that is grappled by the husk takes 11 (3d6) necrotic damage at the start of each of the husk's turns. The husk can't make swipe attacks on any other target while grappling a creature in this way.   Features Aggressive As a bonus action, the husk can move up to its speed toward a hostile creature that it can see.  "
   },
   {
     "id": "kath-hound",
@@ -5496,7 +5496,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Bite Melee Weapon Attack +4 to hit, reach 2m, one target Hit 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.  Maul Melee Weapon Attack +3 to hit, reach 2m, one target Hit 10 (2d8 + 1) piercing damage. Miss: Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.   Features Keen Hearing and Smell The kath hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within 2m of the creature and the ally isn't incapacitated.  Grappler The kath hound has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Bite Melee Weapon Attack +4 to hit, reach 5m, one target Hit 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.  Maul Melee Weapon Attack +3 to hit, reach 5m, one target Hit 10 (2d8 + 1) piercing damage. Miss: Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw.   Features Keen Hearing and Smell The kath hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The kath hound has advantage on an attack roll against a creature if at least one of the kath hound's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  Grappler The kath hound has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "kett-chosen",
@@ -5518,7 +5518,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Fire Breath (Recharge 6) The klixen exhales a 6-meter cone of fire. Each creature in that area must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.  Pincer Melee Weapon Attack +4 to hit, reach 2m, one target Hit 4 (1d4 + 2) piercing damage plus 2 (1d4) fire damage.   Features Death Burst When the klixen dies, it explodes in a burst of lava. Each creature within 2m of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.  Heated Body A creature that touches the klixen or hits it with a melee attack while within 2m of it takes 3 (1d6) fire damage.  "
+    "body": " Actions Fire Breath (Recharge 6) The klixen exhales a 6-meter cone of fire. Each creature in that area must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.  Pincer Melee Weapon Attack +4 to hit, reach 5m, one target Hit 4 (1d4 + 2) piercing damage plus 2 (1d4) fire damage.   Features Death Burst When the klixen dies, it explodes in a burst of lava. Each creature within <me-distance length='5' /> of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.  Heated Body A creature that touches the klixen or hits it with a melee attack while within <me-distance length='5' /> of it takes 3 (1d6) fire damage.  "
   },
   {
     "id": "loki-mech",
@@ -5529,7 +5529,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions  Features Chatter (variant) The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging spells. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12.  Limited Tactics The LOKI mech is incapable of complex combat tactics. It never seeks cover and cannot take the Hide, Dodge, Help, or Disengage actions.  Post-mortem Explosion When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a 2m radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage.  "
+    "body": " Actions  Features Chatter (variant) The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging spells. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12.  Limited Tactics The LOKI mech is incapable of complex combat tactics. It never seeks cover and cannot take the Hide, Dodge, Help, or Disengage actions.  Post-mortem Explosion When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='5' adj />-radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage.  "
   },
   {
     "id": "marauder",
@@ -5551,7 +5551,7 @@
       "N7"
     ],
     "link": null,
-    "body": " Actions Multiattack The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade.  Repair The N7 demolisher uses its action to repair a friendly, synthetic target within 2m for 2d8 hit points.  Deploy Shield Pylon (1/Day) The N7 demolisher deploys a Shield Pylon to an unoccupied space within 2m. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within 4m of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points.   Features N7 Training The N7 demolisher has advantage on its first attack roll each turn.  "
+    "body": " Actions Multiattack The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade.  Repair The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points.  Deploy Shield Pylon (1/Day) The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points.   Features N7 Training The N7 demolisher has advantage on its first attack roll each turn.  "
   },
   {
     "id": "n-7-paladin",
@@ -5562,7 +5562,7 @@
       "N7"
     ],
     "link": null,
-    "body": " Actions Multiattack The N7 Paladin makes two N7 Hurricane attacks.   Features Barrier (1/Day) As a bonus action, the N7 Paladin gains 5 barrier ticks.  N7 Training The N7 Paladin has advantage on its first attack roll each turn.  Omni-Shield (1/Day) As a bonus action, the N7 Paladin deploys its omni-shield, lasting 1 minute. While the shield is deployed, the N7 Paladin gains +2 AC and can make a melee weapon attack with the shield: +5 to hit, 2m reach, 1d12 bludgeoning damage.  Variant: Fire-Shield (1/Day) Gain all the benefits of Omni-Shield. In addition, targets hit by the Fire-Shield take 3d10 fire damage. This damage detonates primed targets, but the N7 Sentinel immune by any detonating effects.  Variant: Cryo-Shield (1/Day) Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn.  "
+    "body": " Actions Multiattack The N7 Paladin makes two N7 Hurricane attacks.   Features Barrier (1/Day) As a bonus action, the N7 Paladin gains 5 barrier ticks.  N7 Training The N7 Paladin has advantage on its first attack roll each turn.  Omni-Shield (1/Day) As a bonus action, the N7 Paladin deploys its omni-shield, lasting 1 minute. While the shield is deployed, the N7 Paladin gains +2 AC and can make a melee weapon attack with the shield: +5 to hit, <me-distance length='5' /> reach, 1d12 bludgeoning damage.  Variant: Fire-Shield (1/Day) Gain all the benefits of Omni-Shield. In addition, targets hit by the Fire-Shield take 3d10 fire damage. This damage detonates primed targets, but the N7 Sentinel immune by any detonating effects.  Variant: Cryo-Shield (1/Day) Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn.  "
   },
   {
     "id": "n-7-shadow",
@@ -5573,7 +5573,7 @@
       "N7"
     ],
     "link": null,
-    "body": " Actions Multiattack The N7 Slayer makes three monomolecular blade attacks.   Features Assassinate During its first turn, the N7 Shadow has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the N7 Shadow scores against a surprised creature is a critical hit.  Evasion If the N7 Shadow is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the N7 Shadow instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  N7 Training The N7 Slayer has advantage on its first attack roll each turn.  Sneak Attack Once per turn, the N7 Shadow deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 2 meters of an ally of the N7 Shadow that isn't incapacitated and the N7 Shadow doesn't have disadvantage on the attack roll.  Tactical Cloak (3/Day) As a bonus action, the N7 Shadow activates its tactical cloak, becoming invisible for 1 minute. When the N7 Shadow makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.  "
+    "body": " Actions Multiattack The N7 Slayer makes three monomolecular blade attacks.   Features Assassinate During its first turn, the N7 Shadow has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the N7 Shadow scores against a surprised creature is a critical hit.  Evasion If the N7 Shadow is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the N7 Shadow instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  N7 Training The N7 Slayer has advantage on its first attack roll each turn.  Sneak Attack Once per turn, the N7 Shadow deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within <me-distance length='5' /> of an ally of the N7 Shadow that isn't incapacitated and the N7 Shadow doesn't have disadvantage on the attack roll.  Tactical Cloak (3/Day) As a bonus action, the N7 Shadow activates its tactical cloak, becoming invisible for 1 minute. When the N7 Shadow makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.  "
   },
   {
     "id": "n-7-slayer",
@@ -5595,7 +5595,7 @@
       "Cerberus"
     ],
     "link": null,
-    "body": " Actions  Features Pack Tactics The nemesis has advantage on an attack roll against a creature if at least one of the nemesis's allies is within 2m of the creature and the ally isn't incapacitated.  Self-Destruct When the nemesis dies, it explodes. Each creature within 4m of it must make a DC 15 Dexterity saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one.  Shadow Cloak While in dim light or darkness, the nemesis can take the Hide action as a bonus action.  Surprise Attack If the nemesis surprises a creature and hits it with an attack during the first round of combat, the target takes an extra [dmg] damage from the attack.  "
+    "body": " Actions  Features Pack Tactics The nemesis has advantage on an attack roll against a creature if at least one of the nemesis's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  Self-Destruct When the nemesis dies, it explodes. Each creature within <me-distance length='10' /> of it must make a DC 15 Dexterity saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one.  Shadow Cloak While in dim light or darkness, the nemesis can take the Hide action as a bonus action.  Surprise Attack If the nemesis surprises a creature and hits it with an attack during the first round of combat, the target takes an extra [dmg] damage from the attack.  "
   },
   {
     "id": "oculus",
@@ -5606,7 +5606,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Particle Beam The oculus fires a persistent particle beam that is 20m long and 2m wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save.  Crush Melee Weapon Attack +3 to hit, reach 10m, one target Hit 17 (4d6 + 3) bludgeoning damage.  "
+    "body": " Actions Particle Beam The oculus fires a persistent particle beam that is <me-distance length='50' /> long and <me-distance length='5' /> wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save.  Crush Melee Weapon Attack +3 to hit, reach 25m, one target Hit 17 (4d6 + 3) bludgeoning damage.  "
   },
   {
     "id": "phantom",
@@ -5617,7 +5617,7 @@
       "Cerberus"
     ],
     "link": null,
-    "body": " Actions Multiattack The phantom makes three Monomolecular Blade attacks or one Palm Blaster attack and two Monomolecular  Blade (one-handed) attacks.  Palm Blaster Ranged Weapon Attack +9 to hit, range 4/12m, one target Hit 16 (3d10) thunder damage.   Features Aggressive As a bonus action, the phantom can move up to its speed toward a hostile creature that it can see.  Avoidance If the phantom subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  Barrier (3/Day) As an action or bonus action, the phantom gains 8 barrier ticks. When the phantom is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  "
+    "body": " Actions Multiattack The phantom makes three Monomolecular Blade attacks or one Palm Blaster attack and two Monomolecular  Blade (one-handed) attacks.  Palm Blaster Ranged Weapon Attack +9 to hit, range 10/30m, one target Hit 16 (3d10) thunder damage.   Features Aggressive As a bonus action, the phantom can move up to its speed toward a hostile creature that it can see.  Avoidance If the phantom subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  Barrier (3/Day) As an action or bonus action, the phantom gains 8 barrier ticks. When the phantom is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  "
   },
   {
     "id": "praetorian",
@@ -5628,7 +5628,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Claw Melee Weapon Attack +9 to hit, reach 2m, one target Hit 38 (6d10 + 5) piercing damage.  Pounce (Recharge 5-6) The praetorian pounces to a location within 14m and makes a claw attack.  Twin Particle Beams (Recharge 5-6) The praetorian shoots particle beams in a 10m line that is 4m wide originating from itself. Each creature within the area must make a DC 18 Dexterity saving throw. On a failed save a creature takes 54 (12d8) radiant damage or half as much on a successful one.   Features Barrier When the praetorian is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Praetorian When the praetorian is possessed by a harbinger it gains 10 barrier ticks and while it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. It can use its action to launch 2 missiles at a single or different target creatures within 60m. Each target must make a DC 18 Dexterity saving throw. On a failed save a target takes 33 (6d10) thunder damage, or half as much on a successful one. Once the praetorian fires its missiles, it cannot do so again.   Reactions Negation Barrier (3/Day) When targeted by a biotic spell or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn.  "
+    "body": " Actions Claw Melee Weapon Attack +9 to hit, reach 5m, one target Hit 38 (6d10 + 5) piercing damage.  Pounce (Recharge 5-6) The praetorian pounces to a location within <me-distance length='35' /> and makes a claw attack.  Twin Particle Beams (Recharge 5-6) The praetorian shoots particle beams in a <me-distance length='25' adj /> line that is <me-distance length='10' /> wide originating from itself. Each creature within the area must make a DC 18 Dexterity saving throw. On a failed save a creature takes 54 (12d8) radiant damage or half as much on a successful one.   Features Barrier When the praetorian is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Praetorian When the praetorian is possessed by a harbinger it gains 10 barrier ticks and while it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. It can use its action to launch 2 missiles at a single or different target creatures within 60m. Each target must make a DC 18 Dexterity saving throw. On a failed save a target takes 33 (6d10) thunder damage, or half as much on a successful one. Once the praetorian fires its missiles, it cannot do so again.   Reactions Negation Barrier (3/Day) When targeted by a biotic spell or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn.  "
   },
   {
     "id": "pyjak",
@@ -5639,7 +5639,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Bite Melee Weapon Attack +1 to hit, reach 2m, one target Hit 1 (1d4 - 1) piercing damage.   Features Pack Tactics The pyjak has advantage on an attack roll against a creature if at least one of the pyjak's allies is within 2m of the creature and the ally isn't incapacitated.  "
+    "body": " Actions Bite Melee Weapon Attack +1 to hit, reach 5m, one target Hit 1 (1d4 - 1) piercing damage.   Features Pack Tactics The pyjak has advantage on an attack roll against a creature if at least one of the pyjak's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  "
   },
   {
     "id": "rachni-brood-warrior",
@@ -5650,7 +5650,7 @@
       "Rachni"
     ],
     "link": null,
-    "body": " Actions Multiattack The brood warrior makes two Impale attacks or attempts to grapple a creature and makes an Impale attack.  Acid Spit Ranged Weapon Attack +3 to hit, range 20/60m, one target Hit 7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.  Impale Melee Weapon Attack +6 to hit, reach 4m, one target Hit 15 (2d10 + 4) and 5 (1d10) acid damage.   Features Barrier (3/Day) As an action or bonus action, the rachni brood warrior gains 5 barrier ticks. When the rachni brood warrior is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Grappler The rachni brood warrior has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Multiattack The brood warrior makes two Impale attacks or attempts to grapple a creature and makes an Impale attack.  Acid Spit Ranged Weapon Attack +3 to hit, range 50/150m, one target Hit 7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.  Impale Melee Weapon Attack +6 to hit, reach 10m, one target Hit 15 (2d10 + 4) and 5 (1d10) acid damage.   Features Barrier (3/Day) As an action or bonus action, the rachni brood warrior gains 5 barrier ticks. When the rachni brood warrior is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Grappler The rachni brood warrior has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "rachni-queen",
@@ -5661,7 +5661,7 @@
       "Rachni"
     ],
     "link": null,
-    "body": " Actions Multiattack The rachni queen makes one bite attack and two impale attacks.  Bite Melee Weapon Attack +13 to hit, reach 4m, one target Hit 26 (3d12 + 7) piercing damage.  Impale Melee Weapon Attack +13 to hit, reach 8m, one target Hit 29 (4d10 + 7) piercing damage.   Lair Actions Call Workers The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative.  Call Soldiers The rachni queen summons 1d6 + 1 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative.  Call Brood Warrior The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next turn and takes its turn on the queen's initiative.  "
+    "body": " Actions Multiattack The rachni queen makes one bite attack and two impale attacks.  Bite Melee Weapon Attack +13 to hit, reach 10m, one target Hit 26 (3d12 + 7) piercing damage.  Impale Melee Weapon Attack +13 to hit, reach 20m, one target Hit 29 (4d10 + 7) piercing damage.   Lair Actions Call Workers The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative.  Call Soldiers The rachni queen summons 1d6 + 1 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative.  Call Brood Warrior The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next turn and takes its turn on the queen's initiative.  "
   },
   {
     "id": "rachni-soldier",
@@ -5672,7 +5672,7 @@
       "Rachni"
     ],
     "link": null,
-    "body": " Actions Acid Spit Ranged Weapon Attack +5 to hit, range 20/60m, one target Hit 7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.  Impale Melee Weapon Attack +5 to hit, reach 4m, one target Hit 8 (1d10 + 3) and 2 (1d4) acid damage.   Features Ambusher The rachni soldier has advantage on attack rolls against any creature it has surprised.  Grappler The rachni soldier has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Acid Spit Ranged Weapon Attack +5 to hit, range 50/150m, one target Hit 7 (2d6) acid damage and 7 (2d6) necrotic damage. This damage bypasses shields.  Impale Melee Weapon Attack +5 to hit, reach 10m, one target Hit 8 (1d10 + 3) and 2 (1d4) acid damage.   Features Ambusher The rachni soldier has advantage on attack rolls against any creature it has surprised.  Grappler The rachni soldier has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "rachni-worker",
@@ -5683,7 +5683,7 @@
       "Rachni"
     ],
     "link": null,
-    "body": " Actions Acid Splash (Recharge 4-6) The rachni worker spits acid at one target within 10m or two targets within 10m if both targets are within 2m of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage.  Bite Melee Weapon Attack +2 to hit, reach 2m, one target Hit 3 (1d6) piercing damage.  "
+    "body": " Actions Acid Splash (Recharge 4-6) The rachni worker spits acid at one target within <me-distance length='25' /> or two targets within <me-distance length='25' /> if both targets are within <me-distance length='5' /> of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage.  Bite Melee Weapon Attack +2 to hit, reach 5m, one target Hit 3 (1d6) piercing damage.  "
   },
   {
     "id": "rampart-mech",
@@ -5694,7 +5694,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Multiattack The rampart mech makes two omni-blade attacks.   Features Aggressive As a bonus action, the rampart mech can move up to its speed toward a hostile creature that it can see.  Hex Shield (1/Day) As a bonus action, the rampart mech generates a 2m tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover.  Tactical Cloak (1/Day) As a bonus action, the rampart mech activates its tactical cloak, becoming invisible for 1 minute. When the rampart mech makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.  Post-Mortem Vent When the rampart mech dies, it vents excess heat from its weapon and armor in a 2m radius until the start of its next turn. Each creature that enters the radius for the first time or ends its turn there takes 18 (4d8) radiant damage.  "
+    "body": " Actions Multiattack The rampart mech makes two omni-blade attacks.   Features Aggressive As a bonus action, the rampart mech can move up to its speed toward a hostile creature that it can see.  Hex Shield (1/Day) As a bonus action, the rampart mech generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover.  Tactical Cloak (1/Day) As a bonus action, the rampart mech activates its tactical cloak, becoming invisible for 1 minute. When the rampart mech makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.  Post-Mortem Vent When the rampart mech dies, it vents excess heat from its weapon and armor in a <me-distance length='5' /> radius until the start of its next turn. Each creature that enters the radius for the first time or ends its turn there takes 18 (4d8) radiant damage.  "
   },
   {
     "id": "ravager",
@@ -5705,7 +5705,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Multiattack The ravager makes two twin artillery cannon attacks.  Acid Splash (Recharge 5-6) The ravager spits acid in a 6m cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one.  Twin Artillery Cannons Ranged Weapon Attack +5 to hit, range 60/180m, one target Hit 18 (3d10 + 2) piercing damage and 10 (3d6) acid damage.   Features Egg Sacs (4) If the ravager takes piercing or slashing damage that is not from the result of a critical hit one of its egg sacs explodes, releasing 1d10 swarmers.  "
+    "body": " Actions Multiattack The ravager makes two twin artillery cannon attacks.  Acid Splash (Recharge 5-6) The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one.  Twin Artillery Cannons Ranged Weapon Attack +5 to hit, range 150/450m, one target Hit 18 (3d10 + 2) piercing damage and 10 (3d6) acid damage.   Features Egg Sacs (4) If the ravager takes piercing or slashing damage that is not from the result of a critical hit one of its egg sacs explodes, releasing 1d10 swarmers.  "
   },
   {
     "id": "reaper-harvester",
@@ -5716,7 +5716,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Multiattack The reaper harvester makes two harvester cannon attacks.  Harvester Cannon The reaper harvester targets a location within 30m. Each creature within a 6m radius must make a Dexterity saving throw. On a failed save a creature takes 3d10 force and 3d10 thunder damage, or half as much damage on a successful one.   Legendary Actions Detect The reaper harvester makes a Wisdom (Perception) check.  Harvester Cannon Attack The reaper harvester makes a harvester cannon attack.  Spawn Husks The reaper harvester releases 1d10 Husks from its body.  "
+    "body": " Actions Multiattack The reaper harvester makes two harvester cannon attacks.  Harvester Cannon The reaper harvester targets a location within <me-distance length='75' />. Each creature within a <me-distance length='15' /> radius must make a Dexterity saving throw. On a failed save a creature takes 3d10 force and 3d10 thunder damage, or half as much damage on a successful one.   Legendary Actions Detect The reaper harvester makes a Wisdom (Perception) check.  Harvester Cannon Attack The reaper harvester makes a harvester cannon attack.  Spawn Husks The reaper harvester releases 1d10 Husks from its body.  "
   },
   {
     "id": "recon-drone",
@@ -5727,7 +5727,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Pulse Rifle Ranged Weapon Attack +5 to hit, range 60/180m, one target Hit 5 (1d4 + 3) radiant damage.   Features Tactical Cloak (3/Day) As a bonus action, the recon drone activates its tactical cloak, becoming invisible for 1 minute. When the recon drome makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.  "
+    "body": " Actions Pulse Rifle Ranged Weapon Attack +5 to hit, range 150/450m, one target Hit 5 (1d4 + 3) radiant damage.   Features Tactical Cloak (3/Day) As a bonus action, the recon drone activates its tactical cloak, becoming invisible for 1 minute. When the recon drome makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.  "
   },
   {
     "id": "repair-drone",
@@ -5738,7 +5738,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Defibrillators Melee Weapon Attack +3 to hit, reach 2m, one target Hit 2 (1d4) lightning damage.  Stabalize (Recharges after a Short or Long rest) The repair drone can stabalize a friendly creature within 2m.  "
+    "body": " Actions Defibrillators Melee Weapon Attack +3 to hit, reach 5m, one target Hit 2 (1d4) lightning damage.  Stabalize (Recharges after a Short or Long rest) The repair drone can stabalize a friendly creature within <me-distance length='5' />.  "
   },
   {
     "id": "rocket-drone",
@@ -5749,7 +5749,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Distortion Rocket Ranged Weapon Attack +2 to hit, range 30/90m, one target Hit 9 (2d8) thunder damage.  "
+    "body": " Actions Distortion Rocket Ranged Weapon Attack +2 to hit, range 75/225m, one target Hit 9 (2d8) thunder damage.  "
   },
   {
     "id": "scion",
@@ -5760,7 +5760,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Bash Melee Weapon Attack +8 to hit, reach 2m, one target Hit 8 (1d8 + 4) bludgeoning damage.  Salvo (Recharge 4-6) The scion targets three locations within 30m and launches an explosive blast to each. The locations can be the same or different. Each creature within a 6m radius of a target location must make a DC 16 Dexterity saving throw. On a failed save a creature takes 15 (3d10) thunder damage or half as much on a successful one.  "
+    "body": " Actions Bash Melee Weapon Attack +8 to hit, reach 5m, one target Hit 8 (1d8 + 4) bludgeoning damage.  Salvo (Recharge 4-6) The scion targets three locations within <me-distance length='75' /> and launches an explosive blast to each. The locations can be the same or different. Each creature within a <me-distance length='15' /> radius of a target location must make a DC 16 Dexterity saving throw. On a failed save a creature takes 15 (3d10) thunder damage or half as much on a successful one.  "
   },
   {
     "id": "security-guard",
@@ -5782,7 +5782,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Plague Sting Melee Weapon Attack +3 to hit, reach 2m, one target Hit 3 (1d4 + 1) poison damage and 2 (1d4) necrotic damage. The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll.   Features Barrier When the seaker plague is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  "
+    "body": " Actions Plague Sting Melee Weapon Attack +3 to hit, reach 5m, one target Hit 3 (1d4 + 1) poison damage and 2 (1d4) necrotic damage. The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll.   Features Barrier When the seaker plague is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  "
   },
   {
     "id": "seeker-swarm",
@@ -5793,7 +5793,7 @@
       "Collector"
     ],
     "link": null,
-    "body": " Actions Sting Melee Weapon Attack +2 to hit, reach 2m, one target Hit 2 (1d4) poison damage and the target must succeed on a DC 13 Constitution saving throw or has disadvantage on its next attack roll.  "
+    "body": " Actions Sting Melee Weapon Attack +2 to hit, reach 5m, one target Hit 2 (1d4) poison damage and the target must succeed on a DC 13 Constitution saving throw or has disadvantage on its next attack roll.  "
   },
   {
     "id": "sentry-turret",
@@ -5804,7 +5804,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +2 to hit, range 60/180m, one target Hit 7 (2d6) piercing damage and 7 (2d6) radiant damage. The sentry turret can make a burst fire attack instead.   Features Stationary The sentry turret automatically fails Strength and Dexterity saving throws and skill checks.  "
+    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +2 to hit, range 150/450m, one target Hit 7 (2d6) piercing damage and 7 (2d6) radiant damage. The sentry turret can make a burst fire attack instead.   Features Stationary The sentry turret automatically fails Strength and Dexterity saving throws and skill checks.  "
   },
   {
     "id": "sniper",
@@ -5826,7 +5826,7 @@
       "Archetype"
     ],
     "link": null,
-    "body": " Actions Multiattack The agent makes 2 attacks with its Scorpion.  Explosive Decoy As an action, the agent detonates its active Decoy. Each creature within 4m of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.   Features Surprise Attack If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.  "
+    "body": " Actions Multiattack The agent makes 2 attacks with its Scorpion.  Explosive Decoy As an action, the agent detonates its active Decoy. Each creature within <me-distance length='10' /> of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.   Features Surprise Attack If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.  "
   },
   {
     "id": "swarmer",
@@ -5837,7 +5837,7 @@
       "Reaper"
     ],
     "link": null,
-    "body": " Actions Suicide Attack Melee Weapon Attack +3 to hit, reach 2m, one target Hit 3 (1d6) acid damage and the swarmer explodes (its hit points immediately fall to 0).   Features Aggressive As a bonus action, the swarmer can move up to its speed toward a hostile creature that it can see.  "
+    "body": " Actions Suicide Attack Melee Weapon Attack +3 to hit, reach 5m, one target Hit 3 (1d6) acid damage and the swarmer explodes (its hit points immediately fall to 0).   Features Aggressive As a bonus action, the swarmer can move up to its speed toward a hostile creature that it can see.  "
   },
   {
     "id": "thorian-controller",
@@ -5848,7 +5848,7 @@
       "Thorian"
     ],
     "link": null,
-    "body": " Actions Slash Melee Weapon Attack +4 to hit, reach 2m, one target Hit 7 (2d4 + 2) slashing damage.  Acid Vomit (Recharge 4-6) The creeper regurgitates acid in a 4-meter cone. A creature within the code must succeed on a DC 15 Dexterity saving throw or take 14 (4d6) acid damage.   Features Creeper Resemblance The controller resembles a Thorian creeper. A creature that can see the controller can discern its true nature with a successful DC 15 Intelligence (Science) or Intelligence (Investigation) check.  Hive Mind Overseer The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within 20 meters of it that has the Hive Mind feature. This bonus cannot exceed +5.  Indoctrination Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 100m of it. See the indoctrination condition.  "
+    "body": " Actions Slash Melee Weapon Attack +4 to hit, reach 5m, one target Hit 7 (2d4 + 2) slashing damage.  Acid Vomit (Recharge 4-6) The creeper regurgitates acid in a 4-meter cone. A creature within the code must succeed on a DC 15 Dexterity saving throw or take 14 (4d6) acid damage.   Features Creeper Resemblance The controller resembles a Thorian creeper. A creature that can see the controller can discern its true nature with a successful DC 15 Intelligence (Science) or Intelligence (Investigation) check.  Hive Mind Overseer The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within <me-distance length='50' /> of it that has the Hive Mind feature. This bonus cannot exceed +5.  Indoctrination Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within <me-distance length='250' /> of it. See the indoctrination condition.  "
   },
   {
     "id": "thorian-creeper",
@@ -5859,7 +5859,7 @@
       "Thorian"
     ],
     "link": null,
-    "body": " Actions Slash Melee Weapon Attack +3 to hit, reach 2m, one target Hit 6 (2d4 + 1) slashing damage.  Acid Vomit (Recharge 4-6) The creeper regurgitates acid in a 4-meter cone. A creature within the code must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid damage.   Features Hive Mind If the creeper is within 20 meters of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws.  "
+    "body": " Actions Slash Melee Weapon Attack +3 to hit, reach 5m, one target Hit 6 (2d4 + 1) slashing damage.  Acid Vomit (Recharge 4-6) The creeper regurgitates acid in a 4-meter cone. A creature within the code must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid damage.   Features Hive Mind If the creeper is within <me-distance length='50' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws.  "
   },
   {
     "id": "thorian-nymph",
@@ -5870,7 +5870,7 @@
       "Thorian"
     ],
     "link": null,
-    "body": " Actions Bite Melee Weapon Attack +3 to hit, reach 2m, one target Hit 3 (1d4 + 1) piercing damage.  Acid Spit Ranged Weapon Attack +3 to hit, range 10/30m, one target Hit 7 (2d6) acid and 7 (2d6) necrotic damage.  Release Spores (1/Day) The nymph releases spores in a 4m-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn.  "
+    "body": " Actions Bite Melee Weapon Attack +3 to hit, reach 5m, one target Hit 3 (1d4 + 1) piercing damage.  Acid Spit Ranged Weapon Attack +3 to hit, range 25/75m, one target Hit 7 (2d6) acid and 7 (2d6) necrotic damage.  Release Spores (1/Day) The nymph releases spores in a <me-distance length='10' adj />-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn.  "
   },
   {
     "id": "thorian-spawn",
@@ -5881,7 +5881,7 @@
       "Thorian"
     ],
     "link": null,
-    "body": " Actions Acid Spit Ranged Weapon Attack +3 to hit, range 10/30m, one target Hit 7 (2d6) acid and 7 (2d6) necrotic damage.  Release Spores (1/Day) The spawn releases spores in a 4m-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn.   Features Rooted The spawn in rooted in the ground and cannot be moved. It automatically fails Strength and Dexterity saving throws and skill checks.  "
+    "body": " Actions Acid Spit Ranged Weapon Attack +3 to hit, range 25/75m, one target Hit 7 (2d6) acid and 7 (2d6) necrotic damage.  Release Spores (1/Day) The spawn releases spores in a <me-distance length='10' />-radius sphere lasting until the end of its next turn. A creature that enters the area for the first time on a turn or starts its turn there takes 3 (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a failed save, a creature becomes paralyzed until the start of its next turn.   Features Rooted The spawn in rooted in the ground and cannot be moved. It automatically fails Strength and Dexterity saving throws and skill checks.  "
   },
   {
     "id": "thorian-thrall",
@@ -5892,7 +5892,7 @@
       "Thorian"
     ],
     "link": null,
-    "body": " Actions  Features Hive Mind If the creeper is within 20 meters of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws.  Enslaved Mind The thrall loses all levels of indoctrination reverts to its normal self if the controlling Thorian dies.  Random Thrall (variant) Thralls can be any organic humanoid with an intelligence of 4 or greater. Instead, you may use the stat block of a randomly generated grunt or other organic humanoid from the bestiary.  "
+    "body": " Actions  Features Hive Mind If the creeper is within <me-distance length='50' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws.  Enslaved Mind The thrall loses all levels of indoctrination reverts to its normal self if the controlling Thorian dies.  Random Thrall (variant) Thralls can be any organic humanoid with an intelligence of 4 or greater. Instead, you may use the stat block of a randomly generated grunt or other organic humanoid from the bestiary.  "
   },
   {
     "id": "thorian",
@@ -5903,7 +5903,7 @@
       "Thorian"
     ],
     "link": null,
-    "body": " Actions Indoctrinate The thorian targets one creature within 120 meters of it that it or one of its controllers, thralls, or creepers can see. That creature must make a DC 17 Wisdom saving throw or suffer a level of indoctrination.  Summon Thrall The thorian summons a thrall to its aid. It arrives on initiative count 20 somewhere along the thorian's root structure.   Features Indoctrination Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1000m of it. See the indoctrination condition.  Root Structure One a thorian reaches maturity, it's roots grow at a rate of 2 to 4 meters per year. Over time, these roots create vast tunnel systems and caverns that act as the thorian's lair.  Neural Nodes The thorian has 4 + 1d4 neural nodes located along its root structure, spread throughout its lair. At start of its turn, the thorian gains 2d12 points for each remaining neural node. Each node has AC 10 and 30 (6d6 + 10) hit points.   Lair Actions Create Spawn The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within 2m of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn.  Summon Creeper The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within 2m of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn.  Summon Controller The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within 2m of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn.  "
+    "body": " Actions Indoctrinate The thorian targets one creature within <me-distance length='300' /> of it that it or one of its controllers, thralls, or creepers can see. That creature must make a DC 17 Wisdom saving throw or suffer a level of indoctrination.  Summon Thrall The thorian summons a thrall to its aid. It arrives on initiative count 20 somewhere along the thorian's root structure.   Features Indoctrination Unless a thorian controller is incapacitated, it is a source of indoctrination to all creatures within 1<me-distance length='0' /> of it. See the indoctrination condition.  Root Structure One a thorian reaches maturity, it's roots grow at a rate of 2 to 4 meters per year. Over time, these roots create vast tunnel systems and caverns that act as the thorian's lair.  Neural Nodes The thorian has 4 + 1d4 neural nodes located along its root structure, spread throughout its lair. At start of its turn, the thorian gains 2d12 points for each remaining neural node. Each node has AC 10 and 30 (6d6 + 10) hit points.   Lair Actions Create Spawn The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn.  Summon Creeper The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn.  Summon Controller The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn.  "
   },
   {
     "id": "thresher-maw",
@@ -5914,7 +5914,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Multiattack The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp.  Acid Spit Ranged Weapon Attack +7 to hit, range 60/180m, one target Hit The thresher maw targets a 6m radius within 60m and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the thresher maw's next turn, each creature that enters the area or ends its turn there must also make the saving throw.  Grasp Melee Weapon Attack +17 to hit, reach 4m, one target Hit 29 (3d12 + 10) bludgeoning damage and 13 (2d12) acid damage. If the target is a creature, it is grappled (escape DC 22). Until this grapple ends, the target is restrained, and the thresher maw can't grasp another target.  Swallow The thresher maw makes one grasp attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the grasp's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the thresher maw, and it takes 56 (16d6) acid damage at the start of each of the thresher maw's turns.\n--If the thresher maw takes 60 damage or more on a single turn from a creature inside it, the thresher maw must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 4m of the thresher maw. If the thresher maw dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 12m of movement, exiting prone.  Tail Melee Weapon Attack +17 to hit, reach 8m, one target Hit 24 (4d6 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone.   Features Destroy Terrain When the thresher maw moves via burrowing, the ground it moves through becomes difficult terrain.  Frightful Presence Each creature of the thresher maw's choice that is within 60m of the name and aware of it must succeed on a DC 22 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the thresher maw's Frightful Presence for the next 24 hours.  Legendary Resistance (3/Day) If the thresher maw fails a saving throw, it can choose to succeed instead.  Siege Monster The thresher maw deals double damage to objects and structures.   Legendary Actions Acid Spit Attack The thresher maw makes an acid spit attack.  Move The thresher maw moves up to half its speed.  Tail Attack The thresher maw makes a tail attack.  "
+    "body": " Actions Multiattack The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp.  Acid Spit Ranged Weapon Attack +7 to hit, range 150/450m, one target Hit The thresher maw targets a <me-distance length='15' /> radius within <me-distance length='150' /> and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the thresher maw's next turn, each creature that enters the area or ends its turn there must also make the saving throw.  Grasp Melee Weapon Attack +17 to hit, reach 10m, one target Hit 29 (3d12 + 10) bludgeoning damage and 13 (2d12) acid damage. If the target is a creature, it is grappled (escape DC 22). Until this grapple ends, the target is restrained, and the thresher maw can't grasp another target.  Swallow The thresher maw makes one grasp attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the grasp's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the thresher maw, and it takes 56 (16d6) acid damage at the start of each of the thresher maw's turns.\n--If the thresher maw takes 60 damage or more on a single turn from a creature inside it, the thresher maw must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within <me-distance length='10' /> of the thresher maw. If the thresher maw dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using <me-distance length='30' /> of movement, exiting prone.  Tail Melee Weapon Attack +17 to hit, reach 20m, one target Hit 24 (4d6 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone.   Features Destroy Terrain When the thresher maw moves via burrowing, the ground it moves through becomes difficult terrain.  Frightful Presence Each creature of the thresher maw's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 22 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the thresher maw's Frightful Presence for the next 24 hours.  Legendary Resistance (3/Day) If the thresher maw fails a saving throw, it can choose to succeed instead.  Siege Monster The thresher maw deals double damage to objects and structures.   Legendary Actions Acid Spit Attack The thresher maw makes an acid spit attack.  Move The thresher maw moves up to half its speed.  Tail Attack The thresher maw makes a tail attack.  "
   },
   {
     "id": "turret",
@@ -5925,7 +5925,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +2 to hit, range 60/180m, one target Hit 7 (2d6) piercing damage and 7 (2d6) radiant damage. The turret can make a burst fire attack instead.   Features Stationary The turret automatically fails Strength and Dexterity saving throws and skill checks.  "
+    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +2 to hit, range 150/450m, one target Hit 7 (2d6) piercing damage and 7 (2d6) radiant damage. The turret can make a burst fire attack instead.   Features Stationary The turret automatically fails Strength and Dexterity saving throws and skill checks.  "
   },
   {
     "id": "varren-alpha",
@@ -5936,7 +5936,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Bite Melee Weapon Attack +4 to hit, reach 2m, one target Hit 9 (2d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.   Features Keen Hearing and Smell The varren alpha has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The varren alpha has advantage on an attack roll against a creature if at least one of the varren alpha's allies is within 2m of the creature and the ally isn't incapacitated.  "
+    "body": " Actions Bite Melee Weapon Attack +4 to hit, reach 5m, one target Hit 9 (2d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.   Features Keen Hearing and Smell The varren alpha has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The varren alpha has advantage on an attack roll against a creature if at least one of the varren alpha's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  "
   },
   {
     "id": "varren",
@@ -5947,7 +5947,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Bite Melee Weapon Attack +4 to hit, reach 2m, one target Hit 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.   Features Keen Hearing and Smell The varren has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The varren has advantage on an attack roll against a creature if at least one of the varren's allies is within 2m of the creature and the ally isn't incapacitated.  "
+    "body": " Actions Bite Melee Weapon Attack +4 to hit, reach 5m, one target Hit 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.   Features Keen Hearing and Smell The varren has advantage on Wisdom (Perception) checks that rely on hearing or smell.  Pack Tactics The varren has advantage on an attack roll against a creature if at least one of the varren's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  "
   },
   {
     "id": "weakened-adjutant",
@@ -5958,7 +5958,7 @@
       "Cerberus"
     ],
     "link": null,
-    "body": " Actions Multiattack The adjutant makes two Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +5 to hit, range 20/60m, one target Hit 8 (1d10 + 3) piercing damage.  Bash Melee Weapon Attack +2 to hit, reach 2m, one target Hit 4 (1d8) bludgeoning damage.  Reaper Infection Melee Weapon Attack +2 to hit, reach 2m, one organic creature that is grappled by the [name], incapacitated, or restrained Hit 3 (1d6) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. An organic creature slain in this way becomes a Weakened Adjutant and becomes an Adjutant after a long rest.   Features Grappler The weakened adjutant has advantage on attack rolls against any creature grappled by it.  "
+    "body": " Actions Multiattack The adjutant makes two Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +5 to hit, range 50/150m, one target Hit 8 (1d10 + 3) piercing damage.  Bash Melee Weapon Attack +2 to hit, reach 5m, one target Hit 4 (1d8) bludgeoning damage.  Reaper Infection Melee Weapon Attack +2 to hit, reach 5m, one organic creature that is grappled by the [name], incapacitated, or restrained Hit 3 (1d6) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. An organic creature slain in this way becomes a Weakened Adjutant and becomes an Adjutant after a long rest.   Features Grappler The weakened adjutant has advantage on attack rolls against any creature grappled by it.  "
   },
   {
     "id": "yahg",
@@ -5969,7 +5969,7 @@
       "Alien"
     ],
     "link": null,
-    "body": " Actions Multiattack The yahg makes three attacks: one with its bite and two with its claws.  Bite Melee Weapon Attack +7 to hit, reach 2m, one target Hit 15 (2d10 + 4) piercing damage.  Claw Melee Weapon Attack +7 to hit, reach 4m, one target Hit 13 (2d8 + 4) slashing damage.   Features Assassinate During its first turn, the yahg has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the yahg scores against a surprised creature is a critical hit.  Avoidance If the yahg subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  Sneak Attack The yahg  deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 2m of an ally of the yahg that isn't incapacitated and the yahg doesn't have disadvantage on the attack roll.  "
+    "body": " Actions Multiattack The yahg makes three attacks: one with its bite and two with its claws.  Bite Melee Weapon Attack +7 to hit, reach 5m, one target Hit 15 (2d10 + 4) piercing damage.  Claw Melee Weapon Attack +7 to hit, reach 10m, one target Hit 13 (2d8 + 4) slashing damage.   Features Assassinate During its first turn, the yahg has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the yahg scores against a surprised creature is a critical hit.  Avoidance If the yahg subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.  Sneak Attack The yahg  deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within <me-distance length='5' /> of an ally of the yahg that isn't incapacitated and the yahg doesn't have disadvantage on the attack roll.  "
   },
   {
     "id": "ymir-mech",
@@ -5980,7 +5980,7 @@
       "Mech"
     ],
     "link": null,
-    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +7 to hit, range 60/180m, one target Hit 16 (3d10) piercing damage and 16 (3d10) radiant damage. The ymir mech can make a burst fire attack instead.  Rocket Launcher (Recharge 5-6) The ymir mech targets an area within 60m. Each creature within 6m of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one.   Features Post-mortem Explosion When the YMIR mech is reduced to 0 hit points, it self-destructs. Each creature within a 6m radius sphere must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) thunder damage or half as much on a successful one.  "
+    "body": " Actions Mass Accelerator Machinegun Ranged Weapon Attack +7 to hit, range 150/450m, one target Hit 16 (3d10) piercing damage and 16 (3d10) radiant damage. The ymir mech can make a burst fire attack instead.  Rocket Launcher (Recharge 5-6) The ymir mech targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one.   Features Post-mortem Explosion When the YMIR mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='15' adj />-radius sphere must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) thunder damage or half as much on a successful one.  "
   },
   {
     "id": "acolyte",

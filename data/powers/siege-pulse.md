@@ -29,7 +29,7 @@ advancementOptions:
   description: Each creature that takes psychic damage from siege pulse has disadvantage on its melee or ranged
     attack rolls until the start of your next turn.
 ---
-Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a <me-distance length="10" adj/> radius 
+Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a <me-distance length="10" adj/>-radius 
 sphere centered on you. Each creature within the sphere becomes <me-condition id="deafened"/> and must
 make a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes
 2d8 psychic damage and is <me-condition id="stunned"/> until the end of your next turn. On a successful save, a creature 

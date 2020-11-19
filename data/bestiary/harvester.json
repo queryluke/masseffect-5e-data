@@ -17,7 +17,7 @@
     {
       "type": "melee",
       "name": "Stomp",
-      "range": 4,
+      "range": 10,
       "target": "one target",
       "hit": "15 (2d6 + 8) piercing damage.",
       "miss": null,
@@ -26,9 +26,9 @@
     {
       "type": "ranged",
       "name": "Acid Spit",
-      "range": 60,
+      "range": 150,
       "target": "one target",
-      "hit": "The harvester targets a 6m radius within 60m and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 19 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the harvester's next turn, each creature that enters the area or ends its turn there must also make the saving throw.",
+      "hit": "The harvester targets a <me-distance length='15' /> radius within <me-distance length='150' /> and launches a glob of acid that coats the area. Each creature within the area must succeed on a DC 19 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one. Until the end of the harvester's next turn, each creature that enters the area or ends its turn there must also make the saving throw.",
       "miss": null,
       "attackMod": 8
     },
@@ -37,7 +37,7 @@
       "name": "Drop Klixen",
       "range": null,
       "target": null,
-      "hit": "If the harvester is within a region that contains Klixen, it begins the fight by droping 1d10 Klixen in a 6m by 20m area.",
+      "hit": "If the harvester is within a region that contains Klixen, it begins the fight by droping 1d10 Klixen in a <me-distance length='15' /> by <me-distance length='50' /> area.",
       "miss": null,
       "attackMod": null
     }
@@ -57,7 +57,7 @@
     {
       "name": "Frightful Presence",
       "recharge": null,
-      "description": "Each creature of the harvester's choice that is within 60m of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours."
+      "description": "Each creature of the harvester's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours."
     }
   ],
   "hp": {
@@ -81,7 +81,7 @@
     {
       "name": "Trample Attack",
       "cost": 2,
-      "description": "The harvester moves 10m in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
+      "description": "The harvester moves <me-distance length='25' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
     }
   ],
   "name": "Harvester",
