@@ -41,6 +41,11 @@ startingEquipment:
   - type: mandatory
     items:
       - Stock Light Armor
+powercasting: full
+subclassProgression:
+  label: Subclass Feature
+  level: [2,6,10,14]
+abiLevels: [4,8,12,16,19]
 progressionColumns:
   - name: Features
   - name: Barrier Uses
@@ -51,19 +56,7 @@ progressionColumns:
     values: [4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,8,8]
   - name: Spells Known
     values: [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22]
-  - name: Spell Slots
-    group:
-      - name: 1st
-        values: [2,4,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7]
-      - name: 2nd
-        values: [0,0,0,0,2,3,4,5,6,6,6,6,6,6,6,6,6,6,6,6]
-      - name: 3rd
-        values: [0,0,0,0,0,0,0,0,1,2,3,3,3,3,3,3,3,4,5,5]
-      - name: 4th
-        values: [0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,3]
-      - name: 5th
-        values: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1]  
 ---
-Adepts are biotic specialists, capable of disabling and killing enemies with raw biotic power. While they lack 
-advanced combat training, they are the best at defeating enemies without firing a shot. They are outfitted with L5x 
+Adepts are biotic specialists, capable of disabling and killing enemies with raw biotic power. While they lack
+advanced combat training, they are the best at defeating enemies without firing a shot. They are outfitted with L5x
 implants that can spawn a micro-singularity, damaging enemies and pulling them into the air.

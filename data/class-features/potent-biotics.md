@@ -1,5 +1,8 @@
 ---
-id: potent_biotics
 name: Potent Biotics
+class: adept
+subclass: disruptor
+level: 10
 ---
-At {{ level }} level, when you roll a 1 or 2 on a damage die for a spell that deals necrotic damage, you can reroll the die and must use the new roll.
+At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die
+and must use the new roll.

@@ -12,7 +12,7 @@ abilityScoreIncrease:
 size: Turians are taller than humans, standing over 2 meters tall (6'5"). Your size is Medium.
 speed: 
   - type: walk
-    speed: 30
+    speed: 25
 snippet: Known for their militaristic and disciplined culture, the turians were the third race to join the Citadel Council. They gained their Council seat after defeating the hostile krogan for the Council during the Krogan Rebellions.
 bodyImg: http://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500
 img: https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040

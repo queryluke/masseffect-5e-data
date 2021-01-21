@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Salarians are tall with elongated bodies, with a height between 180 and 210 cm (6 to 7 feet), yet a weight below 100 lbs. Your size is Medium.
 speed: 
   - type: walk
-    speed: 30
+    speed: 25
 snippet: The second species to join the Citadel, the salarians are warm-blooded amphibians native to the planet Sur'Kesh. Salarians possess a hyperactive metabolism; they think fast, talk fast, and move fast.
 bodyImg: http://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500
 img: https://vignette.wikia.nocookie.net/masseffect/images/3/39/Mordin_-_objection_noted.png/revision/latest/scale-to-width-down/640?cb=20141223052318

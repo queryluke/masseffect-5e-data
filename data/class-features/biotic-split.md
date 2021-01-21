@@ -1,5 +1,7 @@
 ---
-id: biotic_split
 name: Biotic Split
+class: adept
+subclass: commando
+level: 10
 ---
-At {{ level }} level, when you cast a biotic spell that targets only one creature, you can have it target a second creature.
+At 10th level, when you cast a biotic power that targets only one creature, you can have it target a second creature.

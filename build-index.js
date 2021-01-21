@@ -1,18 +1,7 @@
 const fs = require('fs')
 
 function ordinal (value) {
-  const j = value % 10
-  const k = value % 100
-  if (j === 1 && k !== 11) {
-    return `${value}st`
-  }
-  if (j === 2 && k !== 12) {
-    return `${value}nd`
-  }
-  if (j === 3 && k !== 13) {
-    return `${value}rd`
-  }
-  return `${value}th`
+  return["st","nd","rd"][((value+90)%100-10)%10-1]||"th"
 }
 
 
@@ -78,6 +67,7 @@ for (const file of files) {
     // create normalized content
     switch (file) {
 
+      // SPECIES
       case 'species':
         const body = [cleanBody(item.html)]
         body.push(item.age)
@@ -109,7 +99,9 @@ for (const file of files) {
           }
         }
         break
-      case 'spells':
+
+      // POWERS
+      case 'powers':
         searchItem.qualifiers.push(item.type)
         searchItem.body = cleanBody(item.html)
         if (item.advancementOptions) {
@@ -117,6 +109,8 @@ for (const file of files) {
           searchItem.body += ` ${item.advancementOptions[1].description}`
         }
         break
+
+      // VEHICLES
       case 'vehicles':
         searchItem.body = cleanBody(item.html)
         if (item.weapons) {
@@ -125,10 +119,14 @@ for (const file of files) {
           }
         }
         break
+
+      // RULES
       case 'rules':
         searchItem.link = `manual/${item.section}#${item.id}`
         searchItem.body = cleanBody(item.html)
         break
+
+      // WEAPONS
       case 'weapons':
         searchItem.body = ''
         if (item.properties.length > 0) {
@@ -138,6 +136,8 @@ for (const file of files) {
           searchItem.body += ` ${item.notes}`
         }
         break
+
+      // BESTIARY
       case 'bestiary':
         searchItem.subType = 'bestiary'
         searchItem.qualifiers.push(item.unit)
@@ -177,6 +177,14 @@ for (const file of files) {
           }
         }
         break
+
+      // CLASSES
+      case 'classes':
+        searchItem.body = cleanBody((item.html || ''))
+        searchItem.link = `/classes/${item.id}`
+        break
+
+      // DEFAULT
       default:
         searchItem.body = cleanBody((item.html || ''))
         if (item.feature) {
@@ -194,64 +202,32 @@ for (const file of files) {
 
 
 /******************
- Classes
+ Class Features
  */
 
-const classes = require(`./.me5e/classes.json`)
-const spellcastings = require(`./.me5e/class-spellcasting.json`)
 const classFeatures = require(`./.me5e/class-features.json`)
-for (let klass of classes) {
-
-  let item = {
-    id: klass.id,
-    title: klass.name,
-    type: 'character',
-    subType: 'classes',
-    qualifiers: [klass.name],
-    body: klass.description,
-    link: `/classes/${klass.id}`
+for (let cf of classFeatures) {
+  if (cf.id === 'ability-score-improvement') {
+    continue
   }
-
-  const spellcasting = spellcastings.find(i => i.id === klass.id)
-  item.body += ` Spell Casting ${spellcasting.html}`
-
-  searchItems.push(item)
-
-  let subclassFeatureIndex = 0;
-  for (let p of klass.progression) {
-    for (let f of p.features) {
-      if (f === 'ability_score_improvement') {
-        continue
-      }
-      if (f === 'subclass') {
-        for (let sc of klass.subclasses) {
-          for (let scf of sc.features[subclassFeatureIndex]) {
-            searchItems.push(createScfItem(scf, p.level, [klass.name, sc.name]))
-          }
-        }
-        subclassFeatureIndex++
-      } else {
-        searchItems.push(createScfItem(f, p.level, [klass.name]))
-      }
-    }
-  }
-}
-
-function createScfItem(id, level, qualifiers) {
-  const cf = classFeatures.find(i => i.id === id)
-  if (typeof cf !== 'undefined') {
-    const nthLevel = ordinal(level)
-    qualifiers.push(`${nthLevel}-level`)
-    return {
-      id: `${cf.id}---${qualifiers[0]}`,
+  if (cf.subclass) {
+    searchItems.push({
+      id: `${cf.id}---${cf['class']}---${cf.subclass}`,
       title: cf.name,
       type: 'character',
       subType: 'class_features',
-      qualifiers: qualifiers,
-      body: cleanBody(cf.html.replace('{{ level }}', nthLevel))
-    }
+      qualifiers: [cf['class'],cf.subclass,`${ordinal(cf.level)}-level`],
+      body: cleanBody((cf.html || ''))
+    })
   } else {
-    console.log(`could not find ${id}`)
+    searchItems.push({
+      id: `${cf.id}---${cf['class']}`,
+      title: cf.name,
+      type: 'character',
+      subType: 'class_features',
+      qualifiers: [cf['class'],`${ordinal(cf.level)}-level`],
+      body: cleanBody((cf.html || ''))
+    })
   }
 }
 

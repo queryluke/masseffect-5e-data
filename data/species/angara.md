@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Angara are slightly taller, on average, than humans, ranging from 174cm (5'8") to 204cm (6'8"). Your size is Medium.
 speed: 
   - type: walk
-    speed: 30
+    speed: 25
 snippet: The Angara are the only known extant sapient race native to the Heleus Cluster of the Andromeda galaxy and arose on the planet Havarl.
 bodyImg: /images/races/angara.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351

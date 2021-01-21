@@ -2,8 +2,8 @@
 id: supply_pylon
 name: Supply Pylon
 ---
-By {{ level }} level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is 
-standing in the targeted location, the creature must make a Dexterity saving throw with advantage. 
+By {{ level }} level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is
+standing in the targeted location, the creature must make a Dexterity saving throw with advantage.
 On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.
 
 The pylon contains 5 resources from the following list, which you choose when you call the pylon:
@@ -11,7 +11,7 @@ The pylon contains 5 resources from the following list, which you choose when yo
 * 1 heavy weapon ammo charges
 * 10 thermal clips
 * A battery capable to quickly recharging your Omni-tool, recovering 5 tech points
-* A stim pack capable of staving off biotic fatigue, recovering 5 levels worth of spell slots 
+* A stim pack capable of staving off biotic fatigue, recovering 5 levels worth of power slots
 * 4 enhanced medi-gel
 * 2 Mk II Frag grenades
 * 2 Mk II Lift Grenades

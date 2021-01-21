@@ -1,9 +1,10 @@
 ---
-id: biotic_mastery
 name: Biotic Mastery
+class: adept
+level: 17
 ---
-At {{ level }} level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level
-biotic spells that you have learned. You can cast those spells at 1st level without
-expending a spell slot. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+At 17th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level
+biotic powers that you have learned. You can cast those powers at 1st level without
+expending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.
 
-By spending 8 hours training, you can exchange one or both of the spells you chose for different spells of the same levels.
+By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.

@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Drell range from under 150 to 180 cm tall and have slender builds. Your size is Medium.
 speed: 
   - type: walk
-    speed: 35
+    speed: 30
     color: Their light frames and wiry strength make drell slightly faster than other races. 
 snippet: The drell are a reptile-like race that was rescued from their dying homeworld by the hanar following the first contact between the two. Since then, the drell have remained loyal to the hanar for their camaraderie and have fit comfortably into galactic civilization.
 bodyImg: http://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500
