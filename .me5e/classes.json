@@ -78,10 +78,12 @@
     ],
     "progressionColumns": [
       {
-        "name": "Features"
+        "name": "Features",
+        "key": "features"
       },
       {
         "name": "Barrier Uses",
+        "key": "barrierUses",
         "values": [
           2,
           2,
@@ -107,6 +109,7 @@
       },
       {
         "name": "Barrier Ticks",
+        "key": "barrierTicks",
         "values": [
           2,
           2,
@@ -132,6 +135,7 @@
       },
       {
         "name": "Cantrips",
+        "key": "cantrips",
         "values": [
           4,
           4,
@@ -157,6 +161,7 @@
       },
       {
         "name": "Spells Known",
+        "key": "spellsKnown",
         "values": [
           3,
           4,
@@ -182,6 +187,7 @@
       },
       {
         "name": "1st",
+        "key": "firstLevelPowerSlots",
         "values": [
           2,
           4,
@@ -212,6 +218,7 @@
       },
       {
         "name": "2nd",
+        "key": "secondLevelPowerSlots",
         "values": [
           0,
           0,
@@ -239,6 +246,7 @@
       },
       {
         "name": "3rd",
+        "key": "thirdLevelPowerSlots",
         "values": [
           0,
           0,
@@ -265,6 +273,7 @@
       },
       {
         "name": "4th",
+        "key": "fourthLevelPowerSlots",
         "values": [
           0,
           0,
@@ -291,6 +300,7 @@
       },
       {
         "name": "5th",
+        "key": "fifthLevelPowerSlots",
         "values": [
           0,
           0,
