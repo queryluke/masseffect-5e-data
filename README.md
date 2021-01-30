@@ -12,3 +12,7 @@ Contains the compiled data for use on the website
 ## compiling
 
 `npm run build`
+
+
+# TODO
+[ ] - "Choose subclass" text for first level of subclass
