@@ -8,6 +8,9 @@ armorProfs:
   text: 'Light Armor'
   items:
     - 'light-armor'
+toolProfs:
+  text: 'None'
+  items: []
 weaponProfs:
   text: 'Heavy Pistols and choose one from Melee of SMGs'
   mandatory:
