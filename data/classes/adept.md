@@ -1,46 +1,56 @@
 ---
 name: Adept
 snippet: The Adept is the ultimate biotic, able to affect the physical world with the power of the mind.
-primaryAbility: Wisdom
+primaryAbility: wisdom
 hitDice: 6
 minHitDiceRoll: 4
 armorProfs:
-  - light
+  text: 'Light Armor'
+  items:
+    - 'light-armor'
 weaponProfs:
+  text: 'Heavy Pistols and choose one from Melee of SMGs'
   mandatory:
-    - Heavy Pistols
+    - 'heavy-pistols'
   options:
-    - Melee
-    - SMGs
-  count: 1
-skillProfs:
-  options:
-    - acrobatics
-    - deception
-    - history
-    - insight
-    - intimidation
-    - performance
-    - sleight-of-hand
-    - survival
-  count: 3
-savingThrows:
-  - charisma
-  - wisdom
-startingEquipment:
-  - type: option
-    options:
-      - M-3 Predator
-      - M-4 Shuriken
-    count: 1
-  - type: option
-    options:
-      - Omni-Blade
-      - Monomolecular Blade
-    count: 1
-  - type: mandatory
     items:
-      - Stock Light Armor
+      - 'melee'
+      - 'smgs'
+    count: 1
+skillProfs:
+  text: 'Choose three from Acrobatics, Deception, History, Insight, Intimidation, Performance, Sleight of Hand, Survival'
+  options:
+    items:
+      - acrobatics
+      - deception
+      - history
+      - insight
+      - intimidation
+      - performance
+      - sleight-of-hand
+      - survival
+    count: 3
+savingThrows:
+  text: 'Charisma, Wisdom'
+  mandatory:
+    - charisma
+    - wisdom
+startingEquipment:
+  - text: '(a) M-3 Predator or (b) M-4 Shuriken'
+    options:
+      items:
+        - m-3-predator
+        - m-4-shuriken
+      count: 1
+  - text: '(a) Omni-Blade or (b) Monomolecular Blade'
+    options:
+      items:
+        - Omni-Blade
+        - Monomolecular Blade
+      count: 1
+  - text: 'Stock Light Armor'
+    mandatory:
+      - 'stock-light-armor'
 powercasting: full
 subclassProgression:
   label: Subclass Feature
