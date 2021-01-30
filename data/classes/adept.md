@@ -21,12 +21,12 @@ skillProfs:
     - insight
     - intimidation
     - performance
-    - sleight of hand
+    - sleight-of-hand
     - survival
   count: 3
 savingThrows:
-  - cha
-  - wis
+  - charisma
+  - wisdom
 startingEquipment:
   - type: option
     options:

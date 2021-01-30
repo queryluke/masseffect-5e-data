@@ -56,6 +56,7 @@ md.renderer.rules.link_close = function(tokens, idx) {
 const target = './.me5e'
 
 const mdDirs = [
+  'abilities',
   'rules',
   'gmg',
   'backgrounds',
