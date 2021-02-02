@@ -1,8 +1,10 @@
 ---
-id: supply_pylon
 name: Supply Pylon
+class: engineer
+level: 18
+subclass: medic
 ---
-By {{ level }} level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is
+By 18th level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is
 standing in the targeted location, the creature must make a Dexterity saving throw with advantage.
 On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.
 

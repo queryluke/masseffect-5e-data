@@ -1,8 +1,9 @@
 ---
-id: engineers_efficiency
 name: Engineer's Efficiency
+class: engineer
+level: 3
 ---
-Starting at {{ level }} level, you're able to optimize a basic tech power. Choose one of the following
+Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following
 tech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version
 of this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.
 

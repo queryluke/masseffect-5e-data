@@ -1,8 +1,10 @@
 ---
-id: power_steal
-name: power Steal
+name: Power Steal
+class: engineer
+level: 18
+subclass: mastermind
 ---
-At {{ level }} level, you gain the ability to clone power effects onto your omni-tool.
+At 18th level, you gain the ability to clone power effects onto your omni-tool.
 
 Immediately after a creature casts a power that targets you or includes you in its area of effect, you can use your
 reaction to force the creature to make a saving throw with its powercasting ability modifier. The DC equals your power

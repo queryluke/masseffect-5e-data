@@ -1,6 +1,8 @@
 ---
-id: drones_bond
 name: Drone's Bond
+class: engineer
+level: 2
+subclass: drone-jockey
 ---
 Your drone companion gains a variety of benefits while it is linked to you.
 

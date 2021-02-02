@@ -7925,15 +7925,16 @@
     "body": "Starting at {{ level }} level, your Tech Armor is rigged for keeping the action on you. When\nyou activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within 20m\nthat can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + powercasting modifier). On a failure,\na creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always\ntargets you when it makes a weapon or power attack.\nEach time a creature that is compelled to attack you takes damage from a source other than you, it makes a new Wisdom saving\nthrow against the power. If the saving throw succeeds, the creature is no longer compelled to attack you and is immune to\nAssault Armor for the next 24 hours.\nSynthetic creatures have advantage on the Wisdom saving throw.\n"
   },
   {
-    "id": "assault-protocol---undefined",
+    "id": "assault-protocol---engineer---drone-jockey",
     "title": "Assault Protocol",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "drone-jockey",
       "th-level"
     ],
-    "body": "At {{ level }} level, your companion can use its action to make an attack against each creature within 2m of it or each\ncreature within 2m of you. It makes a separate attack roll for each target.\n"
+    "body": "At 14th level, your companion can use its action to make an attack against each creature within 2m of it or each\ncreature within 2m of you. It makes a separate attack roll for each target.\n"
   },
   {
     "id": "barrier-adept---adept",
@@ -8238,15 +8239,16 @@
     "body": "At {{ level }} level, you know one combat power of your choice from the infiltrator power list. You learn additional\ncombat powers of your choice at higher levels, as shown in the Combat Powers column of the Infiltrator table.\nInstead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.\n"
   },
   {
-    "id": "coordinated-attack---undefined",
+    "id": "coordinated-attack---engineer---drone-jockey",
     "title": "Coordinated Attack",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "drone-jockey",
       "th-level"
     ],
-    "body": "Beginning at {{ level }} level, you and your drone companion form a more potent fighting force. When you use the Attack\naction on your turn, if your companion can see you, it can use its reaction to make an attack.\n"
+    "body": "Beginning at 6th level, you and your drone companion form a more potent fighting force. When you use the Attack\naction on your turn, if your companion can see you, it can use its reaction to make an attack.\n"
   },
   {
     "id": "cunning-action---undefined",
@@ -8305,70 +8307,75 @@
     "body": "Starting at the {{ level }} level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.\n"
   },
   {
-    "id": "disrupting-attack---undefined",
+    "id": "disrupting-attack---engineer---mastermind",
     "title": "Disrupting Attack",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "mastermind",
       "th-level"
     ],
-    "body": "At {{ level }} level, you learn how to make your weapon strikes undercut a creature's resistance to your tech powers.\nWhen you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against\na power you cast before the end of your next turn.\n"
+    "body": "At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your tech powers.\nWhen you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against\na power you cast before the end of your next turn.\n"
   },
   {
-    "id": "drone-companion---undefined",
+    "id": "drone-companion---engineer---drone-jockey",
     "title": "Drone Companion",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "drone-jockey",
+      "nd-level"
     ],
-    "body": "At {{ level }} level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.\nIf your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.\nYou can still summon a temporary drone using your tech points.\n"
+    "body": "At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.\nIf your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.\nYou can still summon a temporary drone using your tech points.\n"
   },
   {
-    "id": "drone---undefined",
+    "id": "drone---engineer",
     "title": "Drone",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "st-level"
     ],
     "body": "As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the bestiary.\nWhen summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.\nYou have complete control over the drone. Any hacking attempts on the drone are rolled against your intelligence, not the drone's.\nThe drone has its own turn in the initiative order, which occurs immediately following your turn.\nThe drone lasts 1 minute or until its hit points become 0 or lower.\n"
   },
   {
-    "id": "drones-bond---undefined",
+    "id": "drones-bond---engineer---drone-jockey",
     "title": "Drone's Bond",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "drone-jockey",
+      "nd-level"
     ],
     "body": "Your drone companion gains a variety of benefits while it is linked to you.\n\nThe drone companion loses its Multiattack action, if it has one.\nThe drone companion loses its vulnerability to lightning damage.\nThe drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.\nYour drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.\nYour drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.\nFor each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.\nWhenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.\nYour companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”\n\nChoose your companion's trait, or roll on the table below.\n\n\nRoll\nTrait\n\n\n\n\n1\nDesignation: Large. Assessment: Falls hard.\n\n\n2\nEliminate!\n\n\n3\nScanning for enemies...Scanning for enemies...Scanning for enemies\n\n\n4\nAnalyzing target...Weakness identified\n\n\n5\nCalculating all variables...optimal action determined.\n\n\n6\nPrioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation\n\n\nChoose your companion's flaw, or roll on the table below.\n\n\nRoll\nFlaw\n\n\n\n\n1\nProbability of survival: 0.00234%\n\n\n2\nFriendly creature in range. Activating CUTE protocol\n\n\n3\nElectrical current detected. Priority: avoid\n\n\n4\nThis workspace can be optimized for 15% more efficiency\n\n\n5\nOrganic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!\n\n\n6\nOther VI's must not be trusted\n\n\n"
   },
   {
-    "id": "drones-defense-1---undefined",
+    "id": "drones-defense-1---engineer---drone-jockey",
     "title": "Drone's Defense",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "drone-jockey",
       "th-level"
     ],
-    "body": "At {{ level }} level, your companion gains 10 shield points and 5 regen. Additionally, while your companion can see you,\nit has advantage on all saving throws.\n"
+    "body": "At 10th level, your companion gains 10 shield points and 5 regen. Additionally, while your companion can see you,\nit has advantage on all saving throws.\n"
   },
   {
-    "id": "drones-defense-2---undefined",
+    "id": "drones-defense-2---engineer---drone-jockey",
     "title": "Drone's Defense",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "drone-jockey",
       "th-level"
     ],
-    "body": "At {{ level }} level, your companion gains 10 shield points and 5 regen. Additionally, whenever an attacker that your\ncompanion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.\n"
+    "body": "At 18th level, your companion gains 10 shield points and 5 regen. Additionally, whenever an attacker that your\ncompanion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.\n"
   },
   {
     "id": "elusive---undefined",
@@ -8393,26 +8400,27 @@
     "body": "At 17th level, whenever you roll a 1 on a damage roll for a biotic power or cantrip you cast, you can reroll the die and must use the\nnew roll.\n"
   },
   {
-    "id": "enfilade---undefined",
+    "id": "enfilade---engineer---mastermind",
     "title": "Enfilade",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "mastermind",
+      "nd-level"
     ],
-    "body": "Starting at {{ level }} level, if an ally uses a power that primes an enemy within 10m, you may use your reaction to detonate the primed enemy with a\nquick tech burst that cannot miss.\nYou can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any\nexpended uses when you finish a long rest.\n"
+    "body": "Starting at 2nd level, if an ally uses a power that primes an enemy within 10m, you may use your reaction to detonate the primed enemy with a\nquick tech burst that cannot miss.\nYou can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any\nexpended uses when you finish a long rest.\n"
   },
   {
-    "id": "engineers-efficiency---undefined",
+    "id": "engineers-efficiency---engineer",
     "title": "Engineer's Efficiency",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "rd-level"
     ],
-    "body": "Starting at {{ level }} level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.\nYou can prepare the advanced version of the selected power at the cost of 1 prepared power.\nAt 11th level, you can cast a 2 tech point version of this power without expending any tect points.\nWith 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.\n"
+    "body": "Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.\nYou can prepare the advanced version of the selected power at the cost of 1 prepared power.\nAt 11th level, you can cast a 2 tech point version of this power without expending any tect points.\nWith 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.\n"
   },
   {
     "id": "evasion---undefined",
@@ -8491,6 +8499,18 @@
       "th-level"
     ],
     "body": "Beginning at {{ level }} level, you can attack four times instead of once whenever you take the Attack action on your turn.\n"
+  },
+  {
+    "id": "extra-attack-engineer-mastermind---engineer---mastermind",
+    "title": "Extra Attack",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "engineer",
+      "mastermind",
+      "th-level"
+    ],
+    "body": "Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.\n"
   },
   {
     "id": "fighting-spirit---undefined",
@@ -8582,15 +8602,15 @@
     "body": "At the {{ level }} level, increase the die type of your barrier ticks to d12.\n"
   },
   {
-    "id": "improved-efficiency---undefined",
+    "id": "improved-efficiency---engineer",
     "title": "Improved Efficiency",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can cast a 2 tech point version of your selected Engineer's Efficiency power without expending\nany tech points.\n"
+    "body": "At 11th level, you can cast a 2 tech point version of your selected Engineer's Efficiency power without expending\nany tech points.\n"
   },
   {
     "id": "indomitable-1---undefined",
@@ -8626,26 +8646,27 @@
     "body": "At {{ level }} level, you can use Indomitable three times between long rests.\n"
   },
   {
-    "id": "invention---undefined",
+    "id": "invention---engineer",
     "title": "Invention",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
       "th-level"
     ],
-    "body": "At {{ level }}, you create an invention. Work with your GM to decide on what the invention should be. Some ideas\ninclude a drone upgrade (weapon, armor, shield, etc), a new power, an improved omni-tool battery, etc.\n"
+    "body": "At 20th, you create an invention. Work with your GM to decide on what the invention should be. Some ideas\ninclude a drone upgrade (weapon, armor, shield, etc), a new power, an improved omni-tool battery, etc.\n"
   },
   {
-    "id": "jack-of-all-trades---undefined",
+    "id": "jack-of-all-trades---engineer---mastermind",
     "title": "Jack of All Trades",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "mastermind",
+      "nd-level"
     ],
-    "body": "Starting at {{ level }} level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.\n"
+    "body": "Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.\n"
   },
   {
     "id": "killshot---undefined",
@@ -8736,15 +8757,16 @@
     "body": "At {{ level }} level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking\na creature, the target of that attack can be within 20m of you, rather than 2m of you, if the target can see or hear you.\n"
   },
   {
-    "id": "medi-gel-enhancements---undefined",
+    "id": "medi-gel-enhancements---engineer---medic",
     "title": "Medi-gel Enhancements",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "medic",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can spend 6 hours in a lab, or similar environment, using drugs to enhance the capabilities of standard medi-gel. It\ntakes 2 hours to craft a single enhancement, but you can apply that benefit to any number of medi-gel cartridges. To craft\nanother enhancement takes an additional 6 hours. Instead of using time to limit this feature, your GM can choose to allow\nyou to add X divided by 2 (rounded up) enhancements, where X is your Intelligence modifier; then, you must finish a long\nrest before you can create new enhancements. Only one enhancement can be added to a medi-gel cartridge.\nWhen creating an enhancement, choose from the list below:\n\n\nName\nEnhancement\n\n\n\n\nStimulant\nAfter using this medi-gel, you have advantage on the next saving throw or attack roll you make within 1 minute.\n\n\nOpioid\nWithin 1 minute of using this medi-gel, the next time you take damage that reduces you to 0 hit points but doesn't kill you outright, you are reduced to 1 hit point instead.\n\n\nSteroid\nAfter using this medi-gel, add +2 damage to all melee damage for 1 minute.\n\n\nMinagen X3\nAfter using this medi-gel, gain +2 damage to all biotic powers and cantrips for 1 minute.\n\n\nVidelicet\nAfter using this medi-gel, gain +2 bonus to all ranged tech attacks for 1 minute.\n\n\nStyptic\nIncrease the potency of the medi-gel by 1 level (maximum level is Superior)\n\n\n"
+    "body": "At 6th level, you can spend 6 hours in a lab, or similar environment, using drugs to enhance the capabilities of standard medi-gel. It\ntakes 2 hours to craft a single enhancement, but you can apply that benefit to any number of medi-gel cartridges. To craft\nanother enhancement takes an additional 6 hours. Instead of using time to limit this feature, your GM can choose to allow\nyou to add X divided by 2 (rounded up) enhancements, where X is your Intelligence modifier; then, you must finish a long\nrest before you can create new enhancements. Only one enhancement can be added to a medi-gel cartridge.\nWhen creating an enhancement, choose from the list below:\n\n\nName\nEnhancement\n\n\n\n\nStimulant\nAfter using this medi-gel, you have advantage on the next saving throw or attack roll you make within 1 minute.\n\n\nOpioid\nWithin 1 minute of using this medi-gel, the next time you take damage that reduces you to 0 hit points but doesn't kill you outright, you are reduced to 1 hit point instead.\n\n\nSteroid\nAfter using this medi-gel, add +2 damage to all melee damage for 1 minute.\n\n\nMinagen X3\nAfter using this medi-gel, gain +2 damage to all biotic powers and cantrips for 1 minute.\n\n\nVidelicet\nAfter using this medi-gel, gain +2 bonus to all ranged tech attacks for 1 minute.\n\n\nStyptic\nIncrease the potency of the medi-gel by 1 level (maximum level is Superior)\n\n\n"
   },
   {
     "id": "melee-prowess---undefined",
@@ -8881,6 +8903,18 @@
     "body": "At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die\nand must use the new roll.\n"
   },
   {
+    "id": "power-steal---engineer---mastermind",
+    "title": "Power Steal",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "engineer",
+      "mastermind",
+      "th-level"
+    ],
+    "body": "At 18th level, you gain the ability to clone power effects onto your omni-tool.\nImmediately after a creature casts a power that targets you or includes you in its area of effect, you can use your\nreaction to force the creature to make a saving throw with its powercasting ability modifier. The DC equals your power\nsave DC. On a failed save, you negate the power's effect on you and you copy a temporary version of the power onto\nyour omni-tool if it is at least 1st level and of a level you can cast (it does not have to be a tech power). For the\nnext 8 hours, you know the power and can cast it using your tech points. The creature can't cast that power until the\n8 hours have passed.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
+  },
+  {
     "id": "powercasting-adept---adept",
     "title": "Powercasting",
     "type": "character",
@@ -8937,37 +8971,37 @@
     "body": "Starting at {{ level }} level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.\n"
   },
   {
-    "id": "recharge-2---undefined",
-    "title": "Recharge (1d6)",
-    "type": "character",
-    "subType": "class_features",
-    "qualifiers": [
-      null,
-      "th-level"
-    ],
-    "body": "At {{ level }} level, when you use your recharge feature, you gain tech points equal to 1d6 + your Intelligence modifier.\n"
-  },
-  {
-    "id": "recharge-3---undefined",
-    "title": "Recharge (1d8)",
-    "type": "character",
-    "subType": "class_features",
-    "qualifiers": [
-      null,
-      "th-level"
-    ],
-    "body": "At {{ level }} level, when you use your recharge feature, you gain tech points equal to 1d8 + your Intelligence modifier.\n"
-  },
-  {
-    "id": "recharge---undefined",
+    "id": "recharge-1---engineer",
     "title": "Recharge (1d4)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
       "th-level"
     ],
-    "body": "Beginning at {{ level }} level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).\n"
+    "body": "Beginning at 7th level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).\n"
+  },
+  {
+    "id": "recharge-2---engineer",
+    "title": "Recharge (1d6)",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "engineer",
+      "th-level"
+    ],
+    "body": "At 11th level, when you use your recharge feature, you gain tech points equal to 1d6 + your Intelligence modifier.\n"
+  },
+  {
+    "id": "recharge-3---engineer",
+    "title": "Recharge (1d8)",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "engineer",
+      "th-level"
+    ],
+    "body": "At 15th level, when you use your recharge feature, you gain tech points equal to 1d8 + your Intelligence modifier.\n"
   },
   {
     "id": "reliable-talent---undefined",
@@ -8981,26 +9015,28 @@
     "body": "At {{ level }} level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add\nyour proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.\n"
   },
   {
-    "id": "repair-drone-1---undefined",
+    "id": "repair-drone-1---engineer---medic",
     "title": "Repair Drone",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "engineer",
+      "medic",
+      "nd-level"
     ],
-    "body": "At {{ level }} level, you gain proficiency in Medicine. If you are already proficient in Medicine, you may choose\nanother skill to become proficient in.\nAdd the Repair drone to the list of drones available for you to summon.\n"
+    "body": "At 2nd level, you gain proficiency in Medicine. If you are already proficient in Medicine, you may choose\nanother skill to become proficient in.\nAdd the Repair drone to the list of drones available for you to summon.\n"
   },
   {
-    "id": "repair-drone-2---undefined",
+    "id": "repair-drone-2---engineer---medic",
     "title": "Repair Drone",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "medic",
       "th-level"
     ],
-    "body": "At {{ level }} level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.\n"
+    "body": "At 14th level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.\n"
   },
   {
     "id": "reset---undefined",
@@ -9092,15 +9128,16 @@
     "body": "At {{ level }} level, whenever you activate Tactical Cloak you may teleport to a target location within 10m. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.\nWhen you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.\nThe teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.\n"
   },
   {
-    "id": "shield-boost---undefined",
+    "id": "shield-boost---engineer---medic",
     "title": "Shield Boost",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "medic",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n"
+    "body": "At 10th level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n"
   },
   {
     "id": "shotgun-savvy---undefined",
@@ -9156,17 +9193,6 @@
       "th-level"
     ],
     "body": "Beginning at {{ level }} level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.\nYou don't need advantage on the attack roll if another enemy of the target is within 2m of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.\n"
-  },
-  {
-    "id": "spell-steal---undefined",
-    "title": "power Steal",
-    "type": "character",
-    "subType": "class_features",
-    "qualifiers": [
-      null,
-      "th-level"
-    ],
-    "body": "At {{ level }} level, you gain the ability to clone power effects onto your omni-tool.\nImmediately after a creature casts a power that targets you or includes you in its area of effect, you can use your\nreaction to force the creature to make a saving throw with its powercasting ability modifier. The DC equals your power\nsave DC. On a failed save, you negate the power's effect on you and you copy a temporary version of the power onto\nyour omni-tool if it is at least 1st level and of a level you can cast (it does not have to be a tech power). For the\nnext 8 hours, you know the power and can cast it using your tech points. The creature can't cast that power until the\n8 hours have passed.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
   },
   {
     "id": "steady-aim---undefined",
@@ -9235,15 +9261,16 @@
     "body": "At {{ level }} level, gain the features for your selected subclass.\n"
   },
   {
-    "id": "supply-pylon---undefined",
+    "id": "supply-pylon---engineer---medic",
     "title": "Supply Pylon",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "medic",
       "th-level"
     ],
-    "body": "By {{ level }} level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is\nstanding in the targeted location, the creature must make a Dexterity saving throw with advantage.\nOn a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.\nThe pylon contains 5 resources from the following list, which you choose when you call the pylon:\n\n1 heavy weapon ammo charges\n10 thermal clips\nA battery capable to quickly recharging your Omni-tool, recovering 5 tech points\nA stim pack capable of staving off biotic fatigue, recovering 5 levels worth of power slots\n4 enhanced medi-gel\n2 Mk II Frag grenades\n2 Mk II Lift Grenades\n2 Mk IV Flashbang\n2 Mk IV Smoke grenades\n\nOnce the pylon has landed, friendly creatures (including you) within melee range of the pylon can use their action to collect\none of the resources you chose.\nOnce you use this feature, you cannot use it again until you finish a long rest and restock the pylon with 5 omni-gel.\n"
+    "body": "By 18th level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is\nstanding in the targeted location, the creature must make a Dexterity saving throw with advantage.\nOn a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.\nThe pylon contains 5 resources from the following list, which you choose when you call the pylon:\n\n1 heavy weapon ammo charges\n10 thermal clips\nA battery capable to quickly recharging your Omni-tool, recovering 5 tech points\nA stim pack capable of staving off biotic fatigue, recovering 5 levels worth of power slots\n4 enhanced medi-gel\n2 Mk II Frag grenades\n2 Mk II Lift Grenades\n2 Mk IV Flashbang\n2 Mk IV Smoke grenades\n\nOnce the pylon has landed, friendly creatures (including you) within melee range of the pylon can use their action to collect\none of the resources you chose.\nOnce you use this feature, you cannot use it again until you finish a long rest and restock the pylon with 5 omni-gel.\n"
   },
   {
     "id": "synchronized-assault---undefined",
@@ -9257,15 +9284,16 @@
     "body": "Starting at {{ level }} level, you gain the ability to unleash a devastating combination of your allies' abilities. As a\nbonus action, select up to five allies within 60m. They can use their reactions to immediately take actions.\nOnce you use this ability, you cannot use it again until you complete a long rest.\n"
   },
   {
-    "id": "tactical-advantage---undefined",
+    "id": "tactical-advantage---engineer---mastermind",
     "title": "Tactical Advantage",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "engineer",
+      "mastermind",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, when you prepare an advanced version of a power you prepare both advancements. When you\ncast an advanced power you can choose to cast either advancement option.\n"
+    "body": "Starting at 14th level, when you prepare an advanced version of a power you prepare both advancements. When you\ncast an advanced power you can choose to cast either advancement option.\n"
   },
   {
     "id": "tactical-ambush---undefined",

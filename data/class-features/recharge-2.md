@@ -1,5 +1,6 @@
 ---
-id: recharge_2
 name: Recharge (1d6)
+class: engineer
+level: 11
 ---
-At {{ level }} level, when you use your recharge feature, you gain tech points equal to 1d6 + your Intelligence modifier.
+At 11th level, when you use your recharge feature, you gain tech points equal to 1d6 + your Intelligence modifier.

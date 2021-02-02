@@ -1,7 +1,7 @@
 ---
 name: Adept
 snippet: The Adept is the ultimate biotic, able to affect the physical world with the power of the mind.
-primaryAbility: wisdom
+primaryAbility: Wisdom
 hitDice: 6
 minHitDiceRoll: 4
 armorProfs:
@@ -12,7 +12,7 @@ toolProfs:
   text: 'None'
   items: []
 weaponProfs:
-  text: 'Heavy Pistols and choose one from Melee of SMGs'
+  text: 'Heavy Pistols and choose either Melee or SMGs'
   mandatory:
     - 'heavy-pistols'
   options:
@@ -48,8 +48,8 @@ startingEquipment:
   - text: '(a) Omni-Blade or (b) Monomolecular Blade'
     options:
       items:
-        - Omni-Blade
-        - Monomolecular Blade
+        - omni-blade
+        - monomolecular-blade
       count: 1
   - text: 'Stock Light Armor'
     mandatory:
