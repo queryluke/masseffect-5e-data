@@ -1,6 +1,7 @@
 ---
-id: indomitable_3
-name: Indomitable
+name: Indomitable (3)
+class: soldier
+level: 17
 ---
-At {{ level }} level, you can use Indomitable three times between long rests.
+At 17th level, you can use Indomitable three times between long rests.
 

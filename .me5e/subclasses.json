@@ -30,10 +30,22 @@
     "id": "drone-jockey"
   },
   {
+    "name": "Gladiator",
+    "class": "soldier",
+    "html": "<p>Gladiators are pure-combatants, focused on winning at all costs and being nearly impossible to take down.</p>\n",
+    "id": "gladiator"
+  },
+  {
     "name": "Guardian",
     "class": "sentinel",
     "html": "<p>Guardians support and buff party members by utilizing different AI packages from their Tech Armor ability and protecting them with their Omni-Shield. They're also one of the most skilled classes, gaining the Expertise feature twice.</p>\n",
     "id": "guardian"
+  },
+  {
+    "name": "Havoc",
+    "class": "soldier",
+    "html": "<p>GUNS!!! GRENADES!!! EXPLOSIONS!!!</p>\n",
+    "id": "havoc"
   },
   {
     "name": "Juggernaut",
@@ -70,5 +82,11 @@
     "class": "infiltrator",
     "html": "<p>Snipers are ranged specialists that have an affinity for sniper rifles.</p>\n",
     "id": "sniper"
+  },
+  {
+    "name": "Weapon Master",
+    "class": "soldier",
+    "html": "<p>Weapon masters train extensively in the art of a single weapon, giving them powerful advantages when using a weapon of that type.</p>\n",
+    "id": "weapon-master"
   }
 ]

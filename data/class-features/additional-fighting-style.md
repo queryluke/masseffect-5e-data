@@ -1,5 +1,7 @@
 ---
-id: additional_fighting_style
 name: Additional Fighting Style
+class: soldier
+level: 10
+subclass: gladiator
 ---
-At {{ level }} level, you can choose a second option from the Fighting Style class feature.
+At 10th level, you can choose a second option from the Fighting Style class feature.

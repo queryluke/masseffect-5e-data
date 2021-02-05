@@ -7849,15 +7849,16 @@
     "body": "At 18th level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.\n"
   },
   {
-    "id": "additional-fighting-style---undefined",
+    "id": "additional-fighting-style---soldier---gladiator",
     "title": "Additional Fighting Style",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "gladiator",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can choose a second option from the Fighting Style class feature.\n"
+    "body": "At 10th level, you can choose a second option from the Fighting Style class feature.\n"
   },
   {
     "id": "additional-tactic-1---sentinel---bastion",
@@ -7884,37 +7885,39 @@
     "body": "At 14th level, you learn an additional tactic of your choice.\n"
   },
   {
-    "id": "adrenaline-rush-1---undefined",
+    "id": "adrenaline-rush-1---soldier",
     "title": "Adrenaline Rush",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "soldier",
+      "nd-level"
     ],
-    "body": "You can inject yourself with a shot of adrenaline, pushing yourself beyond your normal limits for a moment.\nAt {{ level }} level, you can take one additional action this turn on top of your regular action and a possible\nbonus action.\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n"
+    "body": "You can inject yourself with a shot of adrenaline, pushing yourself beyond your normal limits for a moment.\nAt 2nd level, you can take one additional action this turn on top of your regular action and a possible\nbonus action.\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n"
   },
   {
-    "id": "adrenaline-rush-2---undefined",
-    "title": "Adrenaline Rush",
+    "id": "adrenaline-rush-2---soldier---gladiator",
+    "title": "Adrenaline Rush (2)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "gladiator",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you can use Adrenaline Rush twice per short rest but not more than once in a single turn.\n"
+    "body": "Starting at 17th level, you can use Adrenaline Rush twice per short rest but not more than once in a single turn.\n"
   },
   {
-    "id": "advanced-combat-powers---undefined",
+    "id": "advanced-combat-powers---soldier---havoc",
     "title": "Advanced Combat Powers",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "havoc",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, when you learn a new combat power, you automatically learn one of the advanced\noptions for it. For each combat power you have already learned, pick an advanced option for it. If you have already learned\nan advanced option, you may learn and advance a new combat power.\n"
+    "body": "Starting at 7th level, when you learn a new combat power, you automatically learn one of the advanced\noptions for it. For each combat power you have already learned, pick an advanced option for it. If you have already learned\nan advanced option, you may learn and advance a new combat power.\n"
   },
   {
     "id": "advanced-tech-armor---sentinel---juggernaut",
@@ -7929,15 +7932,16 @@
     "body": "Starting at 10th level, your tech armor benefits from the energy used to cast biotic and tech powers. Whenever you\ncast a power of 1st-level or higher, your tech armor gains 10 hit points. When you cast a cantrip, you tech armor gains 3 hit points.\n"
   },
   {
-    "id": "advanced-weapon-holsters---undefined",
+    "id": "advanced-weapon-holsters---soldier---havoc",
     "title": "Advanced Weapon Holsters",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "soldier",
+      "havoc",
+      "rd-level"
     ],
-    "body": "You've outfitted your armor with special rigs that make carrying weapons a cinch.\nAt {{ level }} level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.\n"
+    "body": "You've outfitted your armor with special rigs that make carrying weapons a cinch.\nAt 3rd level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.\n"
   },
   {
     "id": "assault-armor---sentinel---juggernaut",
@@ -8349,15 +8353,16 @@
     "body": "Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.\n"
   },
   {
-    "id": "devastating-critical---undefined",
+    "id": "devastating-critical---soldier---weapon-master",
     "title": "Devastating Critical",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "weapon-master",
       "th-level"
     ],
-    "body": "Starting at the {{ level }} level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.\n"
+    "body": "Starting at the 15th level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.\n"
   },
   {
     "id": "disrupting-attack---engineer---mastermind",
@@ -8602,15 +8607,50 @@
     "body": "Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.\n"
   },
   {
-    "id": "fighting-spirit---undefined",
+    "id": "extra-attack-soldier-1---soldier",
+    "title": "Extra Attack",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "soldier",
+      "th-level"
+    ],
+    "body": "Beginning at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn.\n"
+  },
+  {
+    "id": "extra-attack-soldier-2---soldier---gladiator",
+    "title": "Extra Attack (2)",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "soldier",
+      "gladiator",
+      "th-level"
+    ],
+    "body": "Beginning at 11th level, you can attack three times instead of once whenever you take the Attack action on your turn.\n"
+  },
+  {
+    "id": "extra-attack-solider-3---soldier",
+    "title": "Extra Attack (3)",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "soldier",
+      "th-level"
+    ],
+    "body": "Beginning at 20th level, you can attack four times instead of once whenever you take the Attack action on your turn.\n"
+  },
+  {
+    "id": "fighting-spirit---soldier---gladiator",
     "title": "Fighting Spirit",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "soldier",
+      "gladiator",
+      "rd-level"
     ],
-    "body": "Starting at {{ level }} level, your intensity in battle can shield you and help you strike true. As a bonus action on\nyour turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,\nyou also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this\nclass, increasing to 10 at 10th level and 15 at 15th level.\nYou can use this feature three times, and you regain all expended uses of it when you finish a long rest.\n"
+    "body": "Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on\nyour turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,\nyou also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this\nclass, increasing to 10 at 10th level and 15 at 15th level.\nYou can use this feature three times, and you regain all expended uses of it when you finish a long rest.\n"
   },
   {
     "id": "fighting-style-sentinel---sentinel",
@@ -8622,6 +8662,17 @@
       "nd-level"
     ],
     "body": "At 2nd level, choose a fighting style from the list below.\n\n\nStyle\nPerk\n\n\n\n\nAssault\nWhen you make a Burst Fire attack, the DC of the saving throw is 17.\n\n\nBrawler\nAdd your proficiency bonus to your melee attack damage rolls.\n\n\nCarnage\nWhen you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.\n\n\nClose-Quarters Shooter\nWhen making a ranged attack while you are within 2m of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within 10m of you.\n\n\nDefense\n+1 AC\n\n\nGunslinger\nWhen you take the Attack action and attack with a light ranged weapon that you’re holding in one hand, you can use a bonus action to attack with a different light ranged weapon that you’re holding in the other hand.\n\n\nThe Free Hand\nWhen holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks\n\n\nProtection\nWhen a creature you can see attacks a target other than you that is within 2m of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.\n\n\nSniper\nIf no hostile creature is within 10m of you, gain +2 to damage rolls on attacks made with a sniper rifle.\n\n\n"
+  },
+  {
+    "id": "fighting-style-soldier---soldier",
+    "title": "Fighting Style",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "soldier",
+      "st-level"
+    ],
+    "body": "At 1st level, choose a fighting style from the list below.\n\n\nStyle\nPerk\n\n\n\n\nAssault\nWhen you make a Burst Fire attack, the DC of the saving throw is 17.\n\n\nBrawler\nAdd your proficiency bonus to your melee attack damage rolls.\n\n\nCarnage\nWhen you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.\n\n\nClose-Quarters Shooter\nWhen making a ranged attack while you are within 2m of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within 10m of you.\n\n\nDefense\n+1 AC\n\n\nGunslinger\nWhen you take the Attack action and attack with a light ranged weapon that you’re holding in one hand, you can use a bonus action to attack with a different light ranged weapon that you’re holding in the other hand.\n\n\nThe Free Hand\nWhen holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks\n\n\nProtection\nWhen a creature you can see attacks a target other than you that is within 2m of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.\n\n\nSniper\nIf no hostile creature is within 10m of you, gain +2 to damage rolls on attacks made with a sniper rifle.\n\n\n"
   },
   {
     "id": "fighting-style---undefined",
@@ -8670,15 +8721,16 @@
     "body": "At {{ level }} level, when you expend a barrier tick to reduce damage, each barrier tick reduces the damage by 2d8.\n"
   },
   {
-    "id": "heavy-weapon-hack---undefined",
+    "id": "heavy-weapon-hack---soldier---havoc",
     "title": "Heavy Weapon Hack",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "havoc",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, when your heavy weapon runs out of ammo, you can jerry-rig an additional charge for 2 omni-gel.\n"
+    "body": "Starting at 10th level, when your heavy weapon runs out of ammo, you can jerry-rig an additional charge for 2 omni-gel.\n"
   },
   {
     "id": "improved-barrier-1---undefined",
@@ -8714,37 +8766,37 @@
     "body": "At 11th level, you can cast a 2 tech point version of your selected Engineer's Efficiency power without expending\nany tech points.\n"
   },
   {
-    "id": "indomitable-1---undefined",
+    "id": "indomitable-1---soldier",
     "title": "Indomitable",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
       "th-level"
     ],
     "body": "At {{ level }} level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.\n"
   },
   {
-    "id": "indomitable-2---undefined",
-    "title": "Indomitable",
+    "id": "indomitable-2---soldier",
+    "title": "Indomitable (2)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can use Indomitable twice between long rests.\n"
+    "body": "At 13th level, you can use Indomitable twice between long rests.\n"
   },
   {
-    "id": "indomitable-3---undefined",
-    "title": "Indomitable",
+    "id": "indomitable-3---soldier",
+    "title": "Indomitable (3)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can use Indomitable three times between long rests.\n"
+    "body": "At 17th level, you can use Indomitable three times between long rests.\n"
   },
   {
     "id": "invention---engineer",
@@ -8827,26 +8879,28 @@
     "body": "At the 17th level, choose one power and an advancement for that power of 5th-level or less. You can cast this\npower once as a 5th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
   },
   {
-    "id": "makeshift-grenades-1---undefined",
+    "id": "makeshift-grenades-1---soldier---havoc",
     "title": "Makeshift Grenades",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "soldier",
+      "havoc",
+      "rd-level"
     ],
-    "body": "When you reach {{ level }} level, you can program your omni-tool to transform omni-gel into grenades. Choose two grenades from the grenade\nlist. As an action, you can spend 1 omni-gel to create and use a grenade of that type. The Mark of the grenade you create\nis equal to your soldier level divided by 3 (rounded down).\nYou can spend 8 hours of programming to exchange a selected grenade with a different one.\n"
+    "body": "When you reach 3rd level, you can program your omni-tool to transform omni-gel into grenades. Choose two grenades from the grenade\nlist. As an action, you can spend 1 omni-gel to create and use a grenade of that type. The Mark of the grenade you create\nis equal to your soldier level divided by 3 (rounded down).\nYou can spend 8 hours of programming to exchange a selected grenade with a different one.\n"
   },
   {
-    "id": "makeshift-grenades-2---undefined",
+    "id": "makeshift-grenades-2---soldier---havoc",
     "title": "Makeshift Grenades",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "havoc",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can have 4 grenades programmed into your Omni-tool at once.\nIn addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.\n"
+    "body": "At 15th level, you can have 4 grenades programmed into your Omni-tool at once.\nIn addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.\n"
   },
   {
     "id": "master-tactician---sentinel---bastion",
@@ -8989,15 +9043,16 @@
     "body": "At 13th level, you've become attuned to monitoring the movements of the battlefield, taking advantage of\nwhen enemies break cover.\nAt the end of each of your turns, you may ready the following action. Choose up to 5 creatures you can see that are behind\nhalf or three-quarter cover. Until the start of your next turn, if any of those creatures move into an area providing\nno cover, you may use your reaction to make a ranged weapon attack targeting that creature. This attack can benefit from\nyour Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target\nmore than once in a turn.\n"
   },
   {
-    "id": "paint-by-number---undefined",
+    "id": "paint-by-number---soldier---havoc",
     "title": "Paint by Number",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "havoc",
       "th-level"
     ],
-    "body": "At {{ level }} level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\ntargeting, you may target and fire on the same turn.\n"
+    "body": "At 18th level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\ntargeting, you may target and fire on the same turn.\n"
   },
   {
     "id": "potent-biotics---adept---disruptor",
@@ -9102,15 +9157,16 @@
     "body": "At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.\n"
   },
   {
-    "id": "rapid-strike---undefined",
+    "id": "rapid-strike---soldier---gladiator",
     "title": "Rapid Strike",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "gladiator",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.\n"
+    "body": "Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.\n"
   },
   {
     "id": "recharge-1---engineer",
@@ -9354,26 +9410,28 @@
     "body": "At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:\n\nThe attacks ignore half and three-quarters cover.\nOn a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.\n\n\nThis effect lasts 1 minute or until you use Steady Aim on a different target.\nYou can use this feature three times. You regain all expended uses of it when you finish a short or long rest.\n"
   },
   {
-    "id": "strafe---undefined",
+    "id": "strafe---soldier---weapon-master",
     "title": "Strafe",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "weapon-master",
       "th-level"
     ],
-    "body": "At {{ level }} level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.\n"
+    "body": "At 7th level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.\n"
   },
   {
-    "id": "strength-before-death---undefined",
+    "id": "strength-before-death---soldier---gladiator",
     "title": "Strength before Death",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "gladiator",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, your fighting spirit can delay the grasp of death. If you take damage that reduces you\nto 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious, and you can\nimmediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking\ndamage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the\nextra turn ends, you fall unconscious if you still have 0 hit points.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
+    "body": "Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you\nto 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious, and you can\nimmediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking\ndamage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the\nextra turn ends, you fall unconscious if you still have 0 hit points.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
   },
   {
     "id": "stroke-of-luck---infiltrator",
@@ -9527,15 +9585,15 @@
     "body": "At 10th level, your tactical focus increases to 10m per side.\n"
   },
   {
-    "id": "tactical-reload---undefined",
+    "id": "tactical-reload---soldier",
     "title": "Tactical Reload",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
       "th-level"
     ],
-    "body": "By {{ level }} level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.\n"
+    "body": "By 7th level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.\n"
   },
   {
     "id": "tech-armor---sentinel",
@@ -9607,15 +9665,16 @@
     "body": "At {{ level }} level, as a reaction to an effect that causes you to make a Dexterity saving throw, you can use 2 Barrier ticks to automatically\npass the saving throw.\n"
   },
   {
-    "id": "tireless-spirit---undefined",
+    "id": "tireless-spirit---soldier---gladiator",
     "title": "Tireless Spirit",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "gladiator",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.\n"
+    "body": "Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.\n"
   },
   {
     "id": "uncanny-dodge---infiltrator",
@@ -9653,48 +9712,52 @@
     "body": "At 3rd level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.\n"
   },
   {
-    "id": "vengeance---undefined",
+    "id": "vengeance---soldier---gladiator",
     "title": "Vengeance",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "gladiator",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.\nIf the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
+    "body": "Starting at 7th level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.\nIf the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
   },
   {
-    "id": "weapon-of-choice-1---undefined",
+    "id": "weapon-of-choice-1---soldier---weapon-master",
     "title": "Weapon of Choice",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "soldier",
+      "weapon-master",
+      "rd-level"
     ],
-    "body": "By {{ level }} level, you have undergone extensive training with a single weapon type. Choose a weapon type which becomes your Weapon of Choice.\nWhen you are holding your Weapon of Choice you gain a set of abilities that are fueled by special dice called superiority dice.\nYou may spend 1 month of intensive training to exchange your Weapon of Choice with another weapon type.\nSuperiority Dice: You have four superiority dice, which are d8s. A superiority die is expended when you use it.\nYou regain all of your expended superiority dice when you finish a short or long rest.\nYou can expend superiority dice to gain a number of different benefits:\n\nWhen you make a weapon attack against a creature with your Weapon of Choice, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.\nWhen you damage a creature with a weapon attack from your Weapon of Choice, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.\nWhen you are hit by a melee attack, if you are currently holding your Weapon of Choice, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.\n\n"
+    "body": "By 3rd level, you have undergone extensive training with a single weapon type. Choose a weapon type which becomes your Weapon of Choice.\nWhen you are holding your Weapon of Choice you gain a set of abilities that are fueled by special dice called superiority dice.\nYou may spend 1 month of intensive training to exchange your Weapon of Choice with another weapon type.\nSuperiority Dice: You have four superiority dice, which are d8s. A superiority die is expended when you use it.\nYou regain all of your expended superiority dice when you finish a short or long rest.\nYou can expend superiority dice to gain a number of different benefits:\n\nWhen you make a weapon attack against a creature with your Weapon of Choice, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.\nWhen you damage a creature with a weapon attack from your Weapon of Choice, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.\nWhen you are hit by a melee attack, if you are currently holding your Weapon of Choice, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.\n\n"
   },
   {
-    "id": "weapon-of-choice-2---undefined",
+    "id": "weapon-of-choice-2---soldier---weapon-master",
     "title": "Weapon of Choice",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "weapon-master",
       "th-level"
     ],
-    "body": "You gain another superiority die (5 total) at {{ level }} level and the die type becomes a d10.\n"
+    "body": "You gain another superiority die (5 total) at 10th level and the die type becomes a d10.\n"
   },
   {
-    "id": "weapon-of-choice-3---undefined",
+    "id": "weapon-of-choice-3---soldier---weapon-master",
     "title": "Weapon of Choice",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "soldier",
+      "weapon-master",
       "th-level"
     ],
-    "body": "You gain another superiority die (6 total) at {{ level }} level and the die type becomes a d12.\n"
+    "body": "You gain another superiority die (6 total) at 18th level and the die type becomes a d12.\n"
   },
   {
     "id": "zero-sum---undefined",
