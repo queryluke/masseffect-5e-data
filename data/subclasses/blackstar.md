@@ -1,5 +1,5 @@
 ---
-name: Blackstars
+name: Blackstar
 class: adept
 ---
 Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting

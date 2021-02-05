@@ -1,6 +1,12 @@
 [
   {
-    "name": "Blackstars",
+    "name": "Bastion",
+    "class": "sentinel",
+    "html": "<p>Bastion sentinels are battlefield leaders. They can easily turn the tides by calling out orders, inspiring troops, and synchronizing troop movements.</p>\n",
+    "id": "bastion"
+  },
+  {
+    "name": "Blackstar",
     "class": "adept",
     "html": "<p>Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting\nfriends and gain unique benefits to biotic control spells like Lift, Singularity, and Stasis.</p>\n",
     "id": "blackstar"
@@ -22,6 +28,18 @@
     "class": "engineer",
     "html": "<p>A drone jockey forms a bond with their mechanical companion, giving it a body, name and increasing its potency on the battlefield.</p>\n",
     "id": "drone-jockey"
+  },
+  {
+    "name": "Guardian",
+    "class": "sentinel",
+    "html": "<p>Guardians support and buff party members by utilizing different AI packages from their Tech Armor ability and protecting them with their Omni-Shield. They're also one of the most skilled classes, gaining the Expertise feature twice.</p>\n",
+    "id": "guardian"
+  },
+  {
+    "name": "Juggernaut",
+    "class": "sentinel",
+    "html": "<p>Juggernauts are living tanks and nearly impossible to take down. Their tech armor upgrades make sure they can take a hit, or one hundred, without so much as a scratch.</p>\n",
+    "id": "juggernaut"
   },
   {
     "name": "Mastermind",
