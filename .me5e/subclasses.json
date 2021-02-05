@@ -34,5 +34,23 @@
     "class": "engineer",
     "html": "<p>The name says it all. As a medic, you'll be one on the field that can dress a wound and get your comrades back into fighting shape.</p>\n",
     "id": "medic"
+  },
+  {
+    "name": "Sniper",
+    "class": "infiltrator",
+    "html": "<p>Saboteurs are tech savvy infiltrators that use cloak and dagger tactics to control the outcome of battles.</p>\n",
+    "id": "saboteur"
+  },
+  {
+    "name": "Shadow",
+    "class": "infiltrator",
+    "html": "<p>Shadow Infiltrators are melee specialists that make heavy use of their tactical cloak and stealth to close the distance between themselves and their target.</p>\n",
+    "id": "shadow"
+  },
+  {
+    "name": "Sniper",
+    "class": "infiltrator",
+    "html": "<p>Snipers are ranged specialists that have an affinity for sniper rifles.</p>\n",
+    "id": "sniper"
   }
 ]

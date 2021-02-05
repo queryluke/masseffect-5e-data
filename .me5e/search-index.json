@@ -8129,15 +8129,15 @@
     "body": "Starting at 6th level, you can empower your biotics that unleash harm on groups of foes. When you force multiple\ncreatures to make saving throws against the damage of one of your powers, you can increase the power's damage by rolling\ntwo more of its damage dice. This increase occurs only on the turn you cast the power.\nOnce you use this feature, you can't use it again until you finish a short or long rest.\n"
   },
   {
-    "id": "blindsense---undefined",
+    "id": "blindsense---infiltrator",
     "title": "Blindsense",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, if you are able to hear, you are aware of the location of any hidden or invisible\ncreature within 4 meters of you.\n"
+    "body": "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible\ncreature within 4 meters of you.\n"
   },
   {
     "id": "blitz---undefined",
@@ -8206,26 +8206,39 @@
     "body": "Starting at {{ level }} level, you can use your action to focus all of your attention on your tactical focus, calling out\nthreats, troop movements, and enemy weaknesses.\nUntil the start of your next turn:\n\nWhenever a friendly creature makes an attack roll or saving throw, it rolls 1d6 and adds the result to its attack roll or saving throw.\nWhenever a hostile creature makes an attack roll or saving throw, it rolls 1d6 and subtracts the result to its attack roll or saving throw.\n\n\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended\nuses when you finish a long rest.\n"
   },
   {
-    "id": "careful-eyes---undefined",
+    "id": "careful-eyes---infiltrator---sniper",
     "title": "Careful Eyes",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "sniper",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you excel at picking out hidden enemies and other threats. You can take the Search action\nas a bonus action.\nYou also gain proficiency in the Perception, Investigation, or Survival skill (choose one).\n"
+    "body": "Starting at 9th level, you excel at picking out hidden enemies and other threats. You can take the Search action\nas a bonus action.\nYou also gain proficiency in the Perception, Investigation, or Survival skill (choose one).\n"
   },
   {
-    "id": "combat-heuristics---undefined",
+    "id": "combat-heuristics---infiltrator---saboteur",
     "title": "Combat Heuristics",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "saboteur",
+      "rd-level"
     ],
-    "body": "Starting at {{ level }} level, every time you bring an enemy to 0 hit points or score a critical hit, your HUD updates your tactical\nfeedback, restoring 1 tech point.\n"
+    "body": "Starting at 3rd level, every time you bring an enemy to 0 hit points or score a critical hit, your HUD updates your tactical\nfeedback, restoring 1 tech point.\n"
+  },
+  {
+    "id": "combat-power-infiltrator---infiltrator",
+    "title": "Combat Power",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "infiltrator",
+      "nd-level"
+    ],
+    "body": "At 2nd level, you know one combat power of your choice from the infiltrator power list. You learn additional\ncombat powers of your choice at higher levels, as shown in the Combat Powers column of the Infiltrator table.\nInstead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.\n"
   },
   {
     "id": "combat-power---undefined",
@@ -8251,15 +8264,15 @@
     "body": "Beginning at 6th level, you and your drone companion form a more potent fighting force. When you use the Attack\naction on your turn, if your companion can see you, it can use its reaction to make an attack.\n"
   },
   {
-    "id": "cunning-action---undefined",
+    "id": "cunning-action---infiltrator",
     "title": "Cunning Action",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "nd-level"
     ],
-    "body": "At {{ level }} level, you can take a bonus action on each of your turns in combat. This action can be used only to Dash, Disengage, Hide, or\nactivate Tactical Cloak.\n"
+    "body": "At 2nd level, you can take a bonus action on each of your turns in combat. This action can be used only to Dash, Disengage, Hide, or\nactivate Tactical Cloak.\n"
   },
   {
     "id": "danger-sense---undefined",
@@ -8285,15 +8298,16 @@
     "body": "At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.\n"
   },
   {
-    "id": "death-strike---undefined",
+    "id": "death-strike---infiltrator---shadow",
     "title": "Death Strike",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "shadow",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.\n"
+    "body": "Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.\n"
   },
   {
     "id": "devastating-critical---undefined",
@@ -8378,15 +8392,15 @@
     "body": "At 18th level, your companion gains 10 shield points and 5 regen. Additionally, whenever an attacker that your\ncompanion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.\n"
   },
   {
-    "id": "elusive---undefined",
+    "id": "elusive---infiltrator",
     "title": "Elusive",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "At {{ level }} level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.\n"
+    "body": "At 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.\n"
   },
   {
     "id": "empowered-biotics---adept",
@@ -8423,15 +8437,15 @@
     "body": "Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.\nYou can prepare the advanced version of the selected power at the cost of 1 prepared power.\nAt 11th level, you can cast a 2 tech point version of this power without expending any tect points.\nWith 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.\n"
   },
   {
-    "id": "evasion---undefined",
+    "id": "evasion---infiltrator",
     "title": "Evasion",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "At {{ level }} level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.\n"
+    "body": "At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.\n"
   },
   {
     "id": "ever-ready---undefined",
@@ -8457,15 +8471,26 @@
     "body": "By 6th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.\n"
   },
   {
-    "id": "expertise---undefined",
+    "id": "expertise-1---infiltrator",
     "title": "Expertise",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "st-level"
+    ],
+    "body": "At 1st level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.\n"
+  },
+  {
+    "id": "expertise-2---infiltrator",
+    "title": "Expertise",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "infiltrator",
       "th-level"
     ],
-    "body": "At {{ level }} level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.\n"
+    "body": "At 6th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.\n"
   },
   {
     "id": "extra-attack-1---undefined",
@@ -8669,15 +8694,16 @@
     "body": "Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.\n"
   },
   {
-    "id": "killshot---undefined",
+    "id": "killshot---infiltrator---sniper",
     "title": "Killshot",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "sniper",
       "th-level"
     ],
-    "body": "At {{ level }} level, your proficiency with sniper rifles is beyond measure allowing you to target the weakest points of your enemy.\nWhen you apply your sneak attack damage to an attack made with a sniper rifle, add 3d6 to the damage roll.\n"
+    "body": "At 17th level, your proficiency with sniper rifles is beyond measure allowing you to target the weakest points of your enemy.\nWhen you apply your sneak attack damage to an attack made with a sniper rifle, add 3d6 to the damage roll.\n"
   },
   {
     "id": "l5t-1---undefined",
@@ -8769,15 +8795,16 @@
     "body": "At 6th level, you can spend 6 hours in a lab, or similar environment, using drugs to enhance the capabilities of standard medi-gel. It\ntakes 2 hours to craft a single enhancement, but you can apply that benefit to any number of medi-gel cartridges. To craft\nanother enhancement takes an additional 6 hours. Instead of using time to limit this feature, your GM can choose to allow\nyou to add X divided by 2 (rounded up) enhancements, where X is your Intelligence modifier; then, you must finish a long\nrest before you can create new enhancements. Only one enhancement can be added to a medi-gel cartridge.\nWhen creating an enhancement, choose from the list below:\n\n\nName\nEnhancement\n\n\n\n\nStimulant\nAfter using this medi-gel, you have advantage on the next saving throw or attack roll you make within 1 minute.\n\n\nOpioid\nWithin 1 minute of using this medi-gel, the next time you take damage that reduces you to 0 hit points but doesn't kill you outright, you are reduced to 1 hit point instead.\n\n\nSteroid\nAfter using this medi-gel, add +2 damage to all melee damage for 1 minute.\n\n\nMinagen X3\nAfter using this medi-gel, gain +2 damage to all biotic powers and cantrips for 1 minute.\n\n\nVidelicet\nAfter using this medi-gel, gain +2 bonus to all ranged tech attacks for 1 minute.\n\n\nStyptic\nIncrease the potency of the medi-gel by 1 level (maximum level is Superior)\n\n\n"
   },
   {
-    "id": "melee-prowess---undefined",
+    "id": "melee-prowess---infiltrator---shadow",
     "title": "Melee Prowess",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "shadow",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, your skill with melee weapons becomes unmatched. You have +1 to melee weapon attack and damage rolls.\n"
+    "body": "Starting at 9th level, your skill with melee weapons becomes unmatched. You have +1 to melee weapon attack and damage rolls.\n"
   },
   {
     "id": "metabiotics-1---undefined",
@@ -8802,15 +8829,16 @@
     "body": "At {{ level }} level, learn an additional metabiotic option.\n"
   },
   {
-    "id": "misdirection---undefined",
+    "id": "misdirection---infiltrator---saboteur",
     "title": "Misdirection",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "saboteur",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within 2m of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.\n"
+    "body": "Starting at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within 2m of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.\n"
   },
   {
     "id": "omni-shield-1---undefined",
@@ -8869,15 +8897,16 @@
     "body": "Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you\ntake 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature again\nbefore finishing a long rest, the necrotic damage per power level increases by 1d12. This damage ignores resistance and\nimmunity.\n"
   },
   {
-    "id": "overwatch---undefined",
+    "id": "overwatch---infiltrator---sniper",
     "title": "Overwatch",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "sniper",
       "th-level"
     ],
-    "body": "At {{ level }} level, you've become attuned to monitoring the movements of the battlefield, taking advantage of\nwhen enemies break cover.\nAt the end of each of your turns, you may ready the following action. Choose up to 5 creatures you can see that are behind\nhalf or three-quarter cover. Until the start of your next turn, if any of those creatures move into an area providing\nno cover, you may use your reaction to make a ranged weapon attack targeting that creature. This attack can benefit from\nyour Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target\nmore than once in a turn.\n"
+    "body": "At 13th level, you've become attuned to monitoring the movements of the battlefield, taking advantage of\nwhen enemies break cover.\nAt the end of each of your turns, you may ready the following action. Choose up to 5 creatures you can see that are behind\nhalf or three-quarter cover. Until the start of your next turn, if any of those creatures move into an area providing\nno cover, you may use your reaction to make a ranged weapon attack targeting that creature. This attack can benefit from\nyour Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target\nmore than once in a turn.\n"
   },
   {
     "id": "paint-by-number---undefined",
@@ -8923,7 +8952,29 @@
       "adept",
       "st-level"
     ],
-    "body": "Cantrips\nAt 1st level, you know four cantrips of your choice from the adept power list. You learn additional adept cantrips of\nyour choice at higher levels, as shown in the Cantrips column of the Adept table.\nInstead of learning a new cantrip, you may instead learn the advanced version of a cantrip you already know.\nPower Slots\nThe Adept table shows how many power slots you have to cast your powers of 1st level and higher. To cast one of these\nadept powers, you must expend a slot of the power’s level or higher. You regain all expended power slots when you finish\na long rest.\nFor example, if you know the 1st-level power lance and have a 1st-level and a 2nd-level power slot available, you can\ncast lance using either slot.\nPowers Known of 1st Level and Higher\nYou know three 1st-level powers of your choice from the adept power list.\nThe powers Known column of the Adept table shows when you learn more adept powers of your choice. Each of these powers\nmust be of a level for which you have power slots. For instance, when you reach 3rd level in this class, you can learn\none new power of 1st or 2nd level.\nAdditionally, when you learn a new power, you may instead choose one of the powers you know and learn an advanced\nversion of it. You select one of the advancement options listed in the power description. Whenever you cast the power,\nyou cast the advanced version of it. You can only learn one advancement for each power.\nPowercasting Ability\nAdepts have an L5x biotic implant which requires conscious control over their nervous system. As an Adept, you use your\nWisdom whenever a power refers to your powercasting ability. In addition, you use your Wisdom modifier when setting the\nsaving throw DC for a biotic power you cast and when making an attack roll with one.\npower save DC = 8 + your proficiency bonus + your Wisdom modifier\npower attack modifier = your proficiency bonus + your Wisdom modifier\n"
+    "body": "Cantrips\nAt 1st level, you know four cantrips of your choice from the adept power list. You learn additional adept cantrips of\nyour choice at higher levels, as shown in the Cantrips column of the Adept table.\nInstead of learning a new cantrip, you may instead learn the advanced version of a cantrip you already know.\nPower Slots\nThe Adept table shows how many power slots you have to cast your powers of 1st level and higher. To cast one of these\nadept powers, you must expend a slot of the power’s level or higher. You regain all expended power slots when you finish\na long rest.\nFor example, if you know the 1st-level power lance and have a 1st-level and a 2nd-level power slot available, you can\ncast lance using either slot.\nPowers Known of 1st Level and Higher\nYou know three 1st-level powers of your choice from the adept power list.\nThe powers Known column of the Adept table shows when you learn more adept powers of your choice. Each of these powers\nmust be of a level for which you have power slots. For instance, when you reach 3rd level in this class, you can learn\none new power of 1st or 2nd level.\nAdditionally, when you learn a new power, you may instead choose one of the powers you know and learn an advanced\nversion of it. You select one of the advancement options listed in the power description. Whenever you cast the power,\nyou cast the advanced version of it. You can only learn one advancement for each power.\nPowercasting Ability\nAdepts have an L5x biotic implant which requires conscious control over their nervous system. As an Adept, you use your\nWisdom whenever a power refers to your powercasting ability. In addition, you use your Wisdom modifier when setting the\nsaving throw DC for a biotic power you cast and when making an attack roll with one.\nPower save DC = 8 + your proficiency bonus + your Wisdom modifier\nPower attack modifier = your proficiency bonus + your Wisdom modifier\n"
+  },
+  {
+    "id": "powercasting-engineer---engineer",
+    "title": "Powercasting",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "engineer",
+      "st-level"
+    ],
+    "body": "Preparing and casting powers\nThe Engineer table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of these\nengineer powers, you must expend a number of tech points equal to the power’s level or higher. You regain all\nexpended tech points when you finish a long rest.\nYou are limited in the number of tech points you can spend to power a power as indicated in the Tech Point Limit column\nof the Engineer table.\nFor example, a 9th-level engineer can cast powers for 1, 2, or 3 tech points.\nYou prepare the list of engineer powers that are available for you to cast, choosing from the engineer power list.\nWhen you do so, choose a number of engineer powers equal to your Intelligence modifier + your engineer level\n(minimum of one power).\nYou may prepare the advanced version of a power for the cost of 2 regular versions. You may only prepare one advanced\nversion for each power.\nFor example, if you are a 4th-level engineer with an Intelligence of 16, your list of prepared powers can be one of the following:\n\nseven regular powers\none advanced power and five regular powers,\ntwo advanced powers and three regular powers,\nthree advanced powers and one regular power\n\n\nYou can also change your list of prepared powers when you finish a long rest. Preparing a new list of engineer powers\nrequires time spent to program them into your omni-tool: at least 1 minute per power level for each power on your list.\nPowercasting Ability\nEngineers use a highly modified Omni-tool that requires a keen intellect to maintain. As an engineer, you use your\nIntelligence whenever a power refers to your powercasting ability. In addition, you use your Intelligence modifier when\nsetting the saving throw DC for a tech power you cast and when making an attack roll with one.\nPower save DC = 8 + your proficiency bonus + your Intelligence modifier\nPower attack modifier = your proficiency bonus + your Intelligence modifier\n"
+  },
+  {
+    "id": "powercasting-infiltrator---infiltrator",
+    "title": "Powercasting",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "infiltrator",
+      "st-level"
+    ],
+    "body": "Preparing and casting spells\nThe Infiltrator table shows how many tech points you have to cast your spells of 1st level and higher. To cast one of these\ninfiltrator spells, you must expend a number of tech points equal to the spell’s level or higher. You regain all\nexpended tech points when you finish a long rest.\nYou are limited in the number of tech points you can spend to power a spell as indicated in the Tech Point Limit column\nof the Infiltrator table.\nFor example, a 9th-level infiltrator can cast spells for 1 or 2 tech points.\nYou prepare the list of infiltrator spells that are available for you to cast, choosing from the infiltrator spell list.\nWhen you do so, choose a number of infiltrator spells equal to your Intelligence modifier + half your infiltrator level\n(minimum of one spell).\nYou may prepare the advanced version of a spell for the cost of 2 regular versions. You may only prepare one advanced\nversion for each spell.\nFor example, if you are a 9th-level infiltrator with an Intelligence of 16, your list of prepared spells can be one of the following:\n\nseven regular spells\none advanced spell and five regular spells,\ntwo advanced spells and three regular spells,\nthree advanced spells and one regular spell\n\n\nYou can also change your list of prepared spells when you finish a long rest. Preparing a new list of infiltrator spells\nrequires time spent to program them into your omni-tool: at least 1 minute per spell level for each spell on your list.\nSpellcasting Ability\nInfiltrators use a highly modified Omni-tool that requires a keen intellect to maintain. As an Infiltrator, you use your\nIntelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when\nsetting the saving throw DC for a tech spell you cast and when making an attack roll with one.\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\nSpell attack modifier = your proficiency bonus + your Intelligence modifier\n"
   },
   {
     "id": "primal-biotics---undefined",
@@ -9004,15 +9055,15 @@
     "body": "At 15th level, when you use your recharge feature, you gain tech points equal to 1d8 + your Intelligence modifier.\n"
   },
   {
-    "id": "reliable-talent---undefined",
+    "id": "reliable-talent---infiltrator",
     "title": "Reliable Talent",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "At {{ level }} level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add\nyour proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.\n"
+    "body": "At 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add\nyour proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.\n"
   },
   {
     "id": "repair-drone-1---engineer---medic",
@@ -9072,26 +9123,28 @@
     "body": "Starting at {{ level }} level, you know the sabotage power and can cast it for 0 tech points. It does not count against your list of prepared powers.\n"
   },
   {
-    "id": "saboteurs-reflexes---undefined",
+    "id": "saboteurs-reflexes---infiltrator---saboteur",
     "title": "Saboteur's Reflexes",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "saboteur",
       "th-level"
     ],
-    "body": "When you reach {{ level }} level, you have become adept at laying ambushes and quickly escaping danger. You can take\ntwo turns during the first round of any combat. You take your first turn at your normal initiative and your second turn\nat your initiative minus 10. You can't use this feature when you are surprised.\n"
+    "body": "When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take\ntwo turns during the first round of any combat. You take your first turn at your normal initiative and your second turn\nat your initiative minus 10. You can't use this feature when you are surprised.\n"
   },
   {
-    "id": "saboteurs-touch---undefined",
+    "id": "saboteurs-touch---infiltrator---saboteur",
     "title": "Saboteur's Touch",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "saboteur",
+      "rd-level"
     ],
-    "body": "At {{ level }} level, you always have the sabotage power prepared (it does not count against your list of prepared powers). Preparing the advanced\nversion of the power counts as one power, not two.\nYou can cast sabotage as a bonus action or as a reaction to a ranged weapon attack you can see.\n"
+    "body": "At 3rd level, you always have the sabotage power prepared (it does not count against your list of prepared powers). Preparing the advanced\nversion of the power counts as one power, not two.\nYou can cast sabotage as a bonus action or as a reaction to a ranged weapon attack you can see.\n"
   },
   {
     "id": "sculpt-biotics---adept---blackstar",
@@ -9117,15 +9170,16 @@
     "body": "Starting at {{ level }}, you can create pockets of relative safety within the effects of your powers. When you cast a power that\naffects other creatures that you can see, you can choose a number of them equal to 1+the power's level. The chosen creatures\nautomatically succeed on their saving throws against the power, and they take no damage if they would normally take half\ndamage on a successful save.\n"
   },
   {
-    "id": "shadow-strike---undefined",
+    "id": "shadow-strike---infiltrator---shadow",
     "title": "Shadow Strike",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "shadow",
       "th-level"
     ],
-    "body": "At {{ level }} level, whenever you activate Tactical Cloak you may teleport to a target location within 10m. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.\nWhen you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.\nThe teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.\n"
+    "body": "At 13th level, whenever you activate Tactical Cloak you may teleport to a target location within 10m. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.\nWhen you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.\nThe teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.\n"
   },
   {
     "id": "shield-boost---engineer---medic",
@@ -9162,48 +9216,50 @@
     "body": "When you reach 20th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.\n"
   },
   {
-    "id": "silent-cloak---undefined",
+    "id": "silent-cloak---infiltrator---shadow",
     "title": "Silent Cloak",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "shadow",
       "th-level"
     ],
-    "body": "At {{ level }} level, your Tactical Cloak dampens noise. You have advantage on a Dexterity (Stealth) check if you move no more than half your\nspeed on the same turn.\n"
+    "body": "At 9th level, your Tactical Cloak dampens noise. You have advantage on a Dexterity (Stealth) check if you move no more than half your\nspeed on the same turn.\n"
   },
   {
-    "id": "slippery-mind---undefined",
+    "id": "slippery-mind---infiltrator",
     "title": "Slippery Mind",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "By {{ level }} level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.\n"
+    "body": "By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.\n"
   },
   {
-    "id": "sneak-attack---undefined",
+    "id": "sneak-attack---infiltrator",
     "title": "Sneak Attack",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "st-level"
     ],
-    "body": "Beginning at {{ level }} level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.\nYou don't need advantage on the attack roll if another enemy of the target is within 2m of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.\n"
+    "body": "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.\nYou don't need advantage on the attack roll if another enemy of the target is within 2m of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.\n"
   },
   {
-    "id": "steady-aim---undefined",
+    "id": "steady-aim---infiltrator---sniper",
     "title": "Steady Aim",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "sniper",
+      "rd-level"
     ],
-    "body": "At the {{ level }} level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:\n\nThe attacks ignore half and three-quarters cover.\nOn a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.\n\n\nThis effect lasts 1 minute or until you use Steady Aim on a different target.\nYou can use this feature three times. You regain all expended uses of it when you finish a short or long rest.\n"
+    "body": "At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:\n\nThe attacks ignore half and three-quarters cover.\nOn a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.\n\n\nThis effect lasts 1 minute or until you use Steady Aim on a different target.\nYou can use this feature three times. You regain all expended uses of it when you finish a short or long rest.\n"
   },
   {
     "id": "strafe---undefined",
@@ -9228,15 +9284,15 @@
     "body": "Starting at {{ level }} level, your fighting spirit can delay the grasp of death. If you take damage that reduces you\nto 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious, and you can\nimmediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking\ndamage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the\nextra turn ends, you fall unconscious if you still have 0 hit points.\nOnce you use this feature, you can't use it again until you finish a long rest.\n"
   },
   {
-    "id": "stroke-of-luck---undefined",
+    "id": "stroke-of-luck---infiltrator",
     "title": "Stroke of Luck",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "At {{ level }} level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within\nrange, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\nOnce you use this feature, you can't use it again until you finish a short or long rest.\n"
+    "body": "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within\nrange, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\nOnce you use this feature, you can't use it again until you finish a short or long rest.\n"
   },
   {
     "id": "stunning-strike---undefined",
@@ -9296,15 +9352,16 @@
     "body": "Starting at 14th level, when you prepare an advanced version of a power you prepare both advancements. When you\ncast an advanced power you can choose to cast either advancement option.\n"
   },
   {
-    "id": "tactical-ambush---undefined",
+    "id": "tactical-ambush---infiltrator---saboteur",
     "title": "Tactical Ambush",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
+      "saboteur",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, if you are hidden from a creature when you cast a power on it, the creature has disadvantage\nof any saving throw against the power this turn.\n"
+    "body": "Starting at 9th level, if you are hidden from a creature when you cast a power on it, the creature has disadvantage\nof any saving throw against the power this turn.\n"
   },
   {
     "id": "tactical-barrier---undefined",
@@ -9318,13 +9375,13 @@
     "body": "At {{ level }} level, whenever you take damage while barrier is active, you choose how many barrier ticks to spend. You may choose to spend 0\nbarrier ticks.\n"
   },
   {
-    "id": "tactical-cloak---undefined",
+    "id": "tactical-cloak---infiltrator",
     "title": "Tactical Cloak",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "st-level"
     ],
     "body": "As an action, you activate your tactical cloak, becoming invisible. Tactical cloak lasts 1 minute or\nuntil you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.\nOnce you have used tactical cloak the maximum number of times for your Infiltrator level,\nyou must finish a short rest before you can use it again. You may use tactical 2 times at 1st level, 3 at 6th, 4 at 11th,\nand 5 at 18th.\n"
   },
@@ -9472,15 +9529,15 @@
     "body": "Starting at {{ level }} level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.\n"
   },
   {
-    "id": "uncanny-dodge---undefined",
+    "id": "uncanny-dodge---infiltrator",
     "title": "Uncanny Dodge",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "infiltrator",
       "th-level"
     ],
-    "body": "At {{ level }} level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.\n"
+    "body": "At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.\n"
   },
   {
     "id": "unyielding-assault---undefined",
@@ -9494,15 +9551,16 @@
     "body": "Starting at {{ level }} level, you have advantage on saving throws to avoid becoming paralyzed, stunned, or frozen.\nWhile tech armor is active, you are immune to becoming paralyzed, stunned, or frozen.\n"
   },
   {
-    "id": "up-close-and-personal---undefined",
+    "id": "up-close-and-personal---infiltrator---shadow",
     "title": "Up Close and Personal",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "infiltrator",
+      "shadow",
+      "rd-level"
     ],
-    "body": "At {{ level }} level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.\n"
+    "body": "At 3rd level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.\n"
   },
   {
     "id": "vengeance---undefined",
