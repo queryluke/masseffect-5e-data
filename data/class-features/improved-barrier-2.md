@@ -1,6 +1,8 @@
 ---
-id: improved_barrier_2
 name: Improved Barrier
+class: vanguard
+level: 18
+subclass: battle-master
 ---
-At the {{ level }} level, increase the die type of your barrier ticks to d12.
+At the 18th level, increase the die type of your barrier ticks to d12.
 

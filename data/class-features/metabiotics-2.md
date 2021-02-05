@@ -1,5 +1,7 @@
 ---
-id: metabiotics_2
 name: Metabiotics
+class: vanguard
+level: 10
+subclass: nemesis
 ---
-At {{ level }} level, learn an additional metabiotic option.
+At 10th level, learn an additional metabiotic option.

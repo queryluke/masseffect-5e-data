@@ -1,3 +1,8 @@
+---
+name: Combat Power
+class: soldier
+level: 1
+---
 At 1st level, you know one combat power of your choice from the soldier spell list. You learn additional combat powers of
 your choice at higher levels, as shown in the Combat Powers column of the Soldier table.
 

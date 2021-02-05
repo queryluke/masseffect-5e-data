@@ -1,11 +1,13 @@
 ---
-id: biotic_focus
 name: Biotic Focus
+class: vanguard
+level: 6
+subclass: battle-master
 ---
-At {{ level }} level, you can use a bonus action to focus your biotic energies into your muscles granting additional 
+At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional
 speed and strength. You gain the following benefits for 1 minute:
 
-* Your speed is doubled. 
+* Your speed is doubled.
 * +4 to all melee weapon damage rolls.
 * You have advantage on Strength and Dexterity saving throws.
 

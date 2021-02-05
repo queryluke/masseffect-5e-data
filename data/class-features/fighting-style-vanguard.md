@@ -1,8 +1,9 @@
 ---
-id: fighting_style
 name: Fighting Style
+class: vanguard
+level: 1
 ---
-At {{ level }} level, choose a fighting style from the list below.
+At 1st level, choose a fighting style from the list below.
 
 Style | Perk
 --- | ---

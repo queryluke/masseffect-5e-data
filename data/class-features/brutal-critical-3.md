@@ -1,6 +1,7 @@
 ---
-id: brutal_critical_3
-name: Brutal Critical
+name: Brutal Critical (3)
+class: vanguard
+level: 17
 ---
-At {{ level }} level, you can roll three additional damage die when determining the extra damage for a critical hit with 
+At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with
 a melee attack.

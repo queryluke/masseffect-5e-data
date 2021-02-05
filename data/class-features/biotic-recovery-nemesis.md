@@ -1,8 +1,10 @@
 ---
-id: biotic_recovery_nemesis
 name: Biotic Recovery
+class: vanguard
+level: 3
+subclass: nemesis
 ---
-At {{ level }} level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish
+At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish
 a short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal
 to or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.
 

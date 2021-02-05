@@ -1,8 +1,10 @@
 ---
-id: metabiotics_1
 name: Metabiotics
+class: vanguard
+level: 3
+subclass: nemesis
 ---
-At {{ level }} level, you gain the ability to use the power stored in your barrier to twist your powers to suit your needs.
+At 3rd level, you gain the ability to use the power stored in your barrier to twist your powers to suit your needs.
 You gain two of the following Metabiotic options of your choice.
 
 Metabiotics can only be applied to powers of 1st level or higher.

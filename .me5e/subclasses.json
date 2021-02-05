@@ -6,6 +6,12 @@
     "id": "bastion"
   },
   {
+    "name": "Battle Master",
+    "class": "vanguard",
+    "html": "<p>Battle masters use their barrier to execute unique maneuvers on the battlefield, controlling and harrying enemy forces.</p>\n",
+    "id": "battle-master"
+  },
+  {
     "name": "Blackstar",
     "class": "adept",
     "html": "<p>Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting\nfriends and gain unique benefits to biotic control spells like Lift, Singularity, and Stasis.</p>\n",
@@ -66,6 +72,12 @@
     "id": "medic"
   },
   {
+    "name": "Nemesis",
+    "class": "vanguard",
+    "html": "<p>Nemesis vanguards prefer distance and using biotic powers. While they lack the raw power of an adept, they're more crafty and harder to take down.</p>\n",
+    "id": "nemesis"
+  },
+  {
     "name": "Sniper",
     "class": "infiltrator",
     "html": "<p>Saboteurs are tech savvy infiltrators that use cloak and dagger tactics to control the outcome of battles.</p>\n",
@@ -76,6 +88,12 @@
     "class": "infiltrator",
     "html": "<p>Shadow Infiltrators are melee specialists that make heavy use of their tactical cloak and stealth to close the distance between themselves and their target.</p>\n",
     "id": "shadow"
+  },
+  {
+    "name": "Shock Trooper",
+    "class": "vanguard",
+    "html": "<p>Shock troopers like to fight up close and personal, using charge to dash around the battlefield and ripping enemies apart with shotgun blasts.</p>\n",
+    "id": "shock-trooper"
   },
   {
     "name": "Sniper",

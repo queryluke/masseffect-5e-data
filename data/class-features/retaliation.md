@@ -1,6 +1,7 @@
 ---
-id: retaliation
 name: Retaliation
+class: vanguard
+level: 15
 ---
-At {{ level }} level, when you take damage from a creature that is within 2m of you, you can use your reaction to make a melee weapon attack 
+At 15th level, when you take damage from a creature that is within 2m of you, you can use your reaction to make a melee weapon attack
 against that creature.
