@@ -6,7 +6,7 @@ hitDice: 8
 minHitDiceRoll: 5
 armorProfs:
   text: Light Armor
-  items:
+  mandatory:
     - light-armor
 toolProfs:
   text: "Choose 1 from Hacking Tools or Thieves' Tools"
@@ -26,7 +26,7 @@ weaponProfs:
       - sniper-rifles
     count: 2
 skillProfs:
-  text: 'Choose three from Athletics, Acrobatics, Deception, Electronics, History, Insight, Investigation, Perception, Persuasion, Sleight of Hand, Stealth, Vehicle Handling'
+  text: 'Choose three from Athletics, Acrobatics, Deception, Electronics, History, Insight, Investigation, Perception, Persuasion, Sleight of Hand, Stealth, and Vehicle Handling'
   options:
     items:
       - athletics

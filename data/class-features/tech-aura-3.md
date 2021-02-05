@@ -1,5 +1,7 @@
 ---
-id: tech_aura_3
 name: Tech Aura
+class: sentinel
+level: 18
+subclass: guardian
 ---
-At {{ level }} level, increase the distance of your Tech Aura packages to 20m.
+At 18th level, increase the distance of your Tech Aura packages to 20m.

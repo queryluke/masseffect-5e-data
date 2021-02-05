@@ -1,8 +1,10 @@
 ---
-id: call_shots
 name: Call the Shots
+class: sentinel
+level: 10
+subclass: bastion
 ---
-Starting at {{ level }} level, you can use your action to focus all of your attention on your tactical focus, calling out
+Starting at 10th level, you can use your action to focus all of your attention on your tactical focus, calling out
 threats, troop movements, and enemy weaknesses.
 
 Until the start of your next turn:

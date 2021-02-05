@@ -6,7 +6,7 @@ hitDice: 8
 minHitDiceRoll: 5
 armorProfs:
   text: Light Armor, Medium Armor
-  items:
+  mandatory:
     - light-armor
     - medium-armor
 toolProfs:
@@ -28,7 +28,7 @@ weaponProfs:
       - 'smgs'
     count: 1
 skillProfs:
-  text: 'Choose three from Athletics, Electronics, Engineering, History, Investigation, Medicine, Science, Vehicle Handling'
+  text: 'Choose three from Athletics, Electronics, Engineering, History, Investigation, Medicine, Science, and Vehicle Handling'
   options:
     items:
       - athletics

@@ -6,11 +6,10 @@ hitDice: 6
 minHitDiceRoll: 4
 armorProfs:
   text: 'Light Armor'
-  items:
+  mandatory:
     - 'light-armor'
 toolProfs:
   text: 'None'
-  items: []
 weaponProfs:
   text: 'Heavy Pistols and choose either Melee or SMGs'
   mandatory:
@@ -21,7 +20,7 @@ weaponProfs:
       - 'smgs'
     count: 1
 skillProfs:
-  text: 'Choose three from Acrobatics, Deception, History, Insight, Intimidation, Performance, Sleight of Hand, Survival'
+  text: 'Choose three from Acrobatics, Deception, History, Insight, Intimidation, Performance, Sleight of Hand, and Survival'
   options:
     items:
       - acrobatics

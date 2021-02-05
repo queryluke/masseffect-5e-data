@@ -1,8 +1,10 @@
 ---
-id: omni-shield_1
 name: Omni-Shield
+class: sentinel
+level: 3
+subclass: guardian
 ---
-Starting at {{ level }} level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out 
+Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out
 of your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.
 
 While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:

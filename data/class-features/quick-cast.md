@@ -1,6 +1,7 @@
 ---
-id: quick_cast
 name: Quick Cast
+class: sentinel
+level: 5
 ---
-At {{ level }} level, when you use your action to cast a power, you may make a weapon attack as a
+At 5th level, when you use your action to cast a power, you may make a weapon attack as a
 bonus action.

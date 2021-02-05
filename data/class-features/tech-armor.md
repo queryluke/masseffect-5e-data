@@ -1,6 +1,7 @@
 ---
-id: tech_armor
 name: Tech Armor
+class: sentinel
+level: 1
 ---
 You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,
 activate your Tech Armor.

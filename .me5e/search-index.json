@@ -7837,15 +7837,16 @@
     "body": "At {{ level }} level, you gain the ability to augment your weapons with your barrier. As a bonus action, you can expend\nup to 3 barrier ticks to grant one weapon you're carrying a bonus to damage rolls equal to the number\nof barrier ticks spent. The additional damage is force damage and can detonate primed targets. This effect lasts\n1 minute.\nOnce you use this feature, you can't use it again until you finish a short or long rest.\n"
   },
   {
-    "id": "adaptive-tech-armor---undefined",
+    "id": "adaptive-tech-armor---sentinel---juggernaut",
     "title": "Adaptive Tech Armor",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "juggernaut",
       "th-level"
     ],
-    "body": "At {{ level }} level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.\n"
+    "body": "At 18th level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.\n"
   },
   {
     "id": "additional-fighting-style---undefined",
@@ -7857,6 +7858,30 @@
       "th-level"
     ],
     "body": "At {{ level }} level, you can choose a second option from the Fighting Style class feature.\n"
+  },
+  {
+    "id": "additional-tactic-1---sentinel---bastion",
+    "title": "Additional Tactic",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
+      "bastion",
+      "th-level"
+    ],
+    "body": "At 7th level, you learn an additional tactic of your choice.\n"
+  },
+  {
+    "id": "additional-tactic-2---sentinel---bastion",
+    "title": "Additional Tactic",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
+      "bastion",
+      "th-level"
+    ],
+    "body": "At 14th level, you learn an additional tactic of your choice.\n"
   },
   {
     "id": "adrenaline-rush-1---undefined",
@@ -7892,15 +7917,16 @@
     "body": "Starting at {{ level }} level, when you learn a new combat power, you automatically learn one of the advanced\noptions for it. For each combat power you have already learned, pick an advanced option for it. If you have already learned\nan advanced option, you may learn and advance a new combat power.\n"
   },
   {
-    "id": "advanced-tech-armor---undefined",
+    "id": "advanced-tech-armor---sentinel---juggernaut",
     "title": "Advanced Tech Armor",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "juggernaut",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, your tech armor benefits from the energy used to cast biotic and tech powers. Whenever you\ncast a power of 1st-level or higher, your tech armor gains 10 hit points. When you cast a cantrip, you tech armor gains 3 hit points.\n"
+    "body": "Starting at 10th level, your tech armor benefits from the energy used to cast biotic and tech powers. Whenever you\ncast a power of 1st-level or higher, your tech armor gains 10 hit points. When you cast a cantrip, you tech armor gains 3 hit points.\n"
   },
   {
     "id": "advanced-weapon-holsters---undefined",
@@ -7914,15 +7940,16 @@
     "body": "You've outfitted your armor with special rigs that make carrying weapons a cinch.\nAt {{ level }} level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.\n"
   },
   {
-    "id": "assault-armor---undefined",
+    "id": "assault-armor---sentinel---juggernaut",
     "title": "Assault Armor",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "sentinel",
+      "juggernaut",
+      "rd-level"
     ],
-    "body": "Starting at {{ level }} level, your Tech Armor is rigged for keeping the action on you. When\nyou activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within 20m\nthat can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + powercasting modifier). On a failure,\na creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always\ntargets you when it makes a weapon or power attack.\nEach time a creature that is compelled to attack you takes damage from a source other than you, it makes a new Wisdom saving\nthrow against the power. If the saving throw succeeds, the creature is no longer compelled to attack you and is immune to\nAssault Armor for the next 24 hours.\nSynthetic creatures have advantage on the Wisdom saving throw.\n"
+    "body": "Starting at 3rd level, your Tech Armor is rigged for keeping the action on you. When\nyou activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within 20m\nthat can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + powercasting modifier). On a failure,\na creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always\ntargets you when it makes a weapon or power attack.\nEach time a creature that is compelled to attack you takes damage from a source other than you, it makes a new Wisdom saving\nthrow against the power. If the saving throw succeeds, the creature is no longer compelled to attack you and is immune to\nAssault Armor for the next 24 hours.\nSynthetic creatures have advantage on the Wisdom saving throw.\n"
   },
   {
     "id": "assault-protocol---engineer---drone-jockey",
@@ -7943,6 +7970,17 @@
     "subType": "class_features",
     "qualifiers": [
       "adept",
+      "st-level"
+    ],
+    "body": "As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. You total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.\nWhenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.\nBarrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.\nOnce you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.\n"
+  },
+  {
+    "id": "barrier-sentinel---sentinel",
+    "title": "Barrier",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
       "st-level"
     ],
     "body": "As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. You total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.\nWhenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.\nBarrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.\nOnce you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.\n"
@@ -8195,15 +8233,16 @@
     "body": "At {{ level }} level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.\n"
   },
   {
-    "id": "call-shots---undefined",
+    "id": "call-shots---sentinel---bastion",
     "title": "Call the Shots",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "bastion",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you can use your action to focus all of your attention on your tactical focus, calling out\nthreats, troop movements, and enemy weaknesses.\nUntil the start of your next turn:\n\nWhenever a friendly creature makes an attack roll or saving throw, it rolls 1d6 and adds the result to its attack roll or saving throw.\nWhenever a hostile creature makes an attack roll or saving throw, it rolls 1d6 and subtracts the result to its attack roll or saving throw.\n\n\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended\nuses when you finish a long rest.\n"
+    "body": "Starting at 10th level, you can use your action to focus all of your attention on your tactical focus, calling out\nthreats, troop movements, and enemy weaknesses.\nUntil the start of your next turn:\n\nWhenever a friendly creature makes an attack roll or saving throw, it rolls 1d6 and adds the result to its attack roll or saving throw.\nWhenever a hostile creature makes an attack roll or saving throw, it rolls 1d6 and subtracts the result to its attack roll or saving throw.\n\n\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended\nuses when you finish a long rest.\n"
   },
   {
     "id": "careful-eyes---infiltrator---sniper",
@@ -8448,15 +8487,16 @@
     "body": "At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.\n"
   },
   {
-    "id": "ever-ready---undefined",
+    "id": "ever-ready---sentinel---bastion",
     "title": "Ever Ready",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "bastion",
       "th-level"
     ],
-    "body": "By {{ level }} level, you've learned to never let your guard down. You have advantage on initiative rolls.\nAdditionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your\nfirst turn, but only if you activate your tactical focus, selecting an area that encompasses your location, before doing\nanything else on that turn.\n"
+    "body": "By 7th level, you've learned to never let your guard down. You have advantage on initiative rolls.\nAdditionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your\nfirst turn, but only if you activate your tactical focus, selecting an area that encompasses your location, before doing\nanything else on that turn.\n"
   },
   {
     "id": "expert-biotic---adept---commando",
@@ -8491,6 +8531,30 @@
       "th-level"
     ],
     "body": "At 6th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.\n"
+  },
+  {
+    "id": "expertise-sentinel-guardian-1---sentinel---guardian",
+    "title": "Expertise",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
+      "guardian",
+      "rd-level"
+    ],
+    "body": "At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.\n"
+  },
+  {
+    "id": "expertise-sentinel-guardian-2---sentinel---guardian",
+    "title": "Expertise",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
+      "guardian",
+      "th-level"
+    ],
+    "body": "At 10th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.\n"
   },
   {
     "id": "extra-attack-1---undefined",
@@ -8549,6 +8613,17 @@
     "body": "Starting at {{ level }} level, your intensity in battle can shield you and help you strike true. As a bonus action on\nyour turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,\nyou also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this\nclass, increasing to 10 at 10th level and 15 at 15th level.\nYou can use this feature three times, and you regain all expended uses of it when you finish a long rest.\n"
   },
   {
+    "id": "fighting-style-sentinel---sentinel",
+    "title": "Fighting Style",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
+      "nd-level"
+    ],
+    "body": "At 2nd level, choose a fighting style from the list below.\n\n\nStyle\nPerk\n\n\n\n\nAssault\nWhen you make a Burst Fire attack, the DC of the saving throw is 17.\n\n\nBrawler\nAdd your proficiency bonus to your melee attack damage rolls.\n\n\nCarnage\nWhen you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.\n\n\nClose-Quarters Shooter\nWhen making a ranged attack while you are within 2m of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within 10m of you.\n\n\nDefense\n+1 AC\n\n\nGunslinger\nWhen you take the Attack action and attack with a light ranged weapon that you’re holding in one hand, you can use a bonus action to attack with a different light ranged weapon that you’re holding in the other hand.\n\n\nThe Free Hand\nWhen holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks\n\n\nProtection\nWhen a creature you can see attacks a target other than you that is within 2m of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.\n\n\nSniper\nIf no hostile creature is within 10m of you, gain +2 to damage rolls on attacks made with a sniper rifle.\n\n\n"
+  },
+  {
     "id": "fighting-style---undefined",
     "title": "Fighting Style",
     "type": "character",
@@ -8572,15 +8647,16 @@
     "body": "Beginning at 10th level, while you are concentrating on a biotic power, your concentration can't be broken as a\nresult of taking damage.\n"
   },
   {
-    "id": "hardened-tech-armor---undefined",
+    "id": "hardened-tech-armor---sentinel---juggernaut",
     "title": "Hardened Tech Armor",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "juggernaut",
       "th-level"
     ],
-    "body": "At {{ level }} level, you're able to shrug off hits that would normally devastate others. While your tech armor\nis active, you have +1 AC and any critical hit against you becomes a normal hit.\n"
+    "body": "At 7th level, you're able to shrug off hits that would normally devastate others. While your tech armor\nis active, you have +1 AC and any critical hit against you becomes a normal hit.\n"
   },
   {
     "id": "heavy-barrier---undefined",
@@ -8706,48 +8782,49 @@
     "body": "At 17th level, your proficiency with sniper rifles is beyond measure allowing you to target the weakest points of your enemy.\nWhen you apply your sneak attack damage to an attack made with a sniper rifle, add 3d6 to the damage roll.\n"
   },
   {
-    "id": "l5t-1---undefined",
+    "id": "l5t-1---sentinel",
     "title": "L5t Implant (3rd-level)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
       "th-level"
     ],
-    "body": "At the {{ level }} level, choose one power and an advancement for that power of 3rd-level or less. You can cast this\npower once as a 3rd-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
+    "body": "At the 11th level, choose one power and an advancement for that power of 3rd-level or less. You can cast this\npower once as a 3rd-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
   },
   {
-    "id": "l5t-2---undefined",
+    "id": "l5t-2---sentinel---guardian",
     "title": "L5t Implant (4th-level)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "guardian",
       "th-level"
     ],
-    "body": "At the {{ level }} level, choose one power and an advancement for that power of 4th-level or less. You can cast this\npower once as a 4th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
+    "body": "At the 13th level, choose one power and an advancement for that power of 4th-level or less. You can cast this\npower once as a 4th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
   },
   {
-    "id": "l5t-3---undefined",
+    "id": "l5t-3---sentinel",
     "title": "L5t Implant (4th-level)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
       "th-level"
     ],
-    "body": "At the {{ level }} level, choose one power and an advancement for that power of 4th-level or less. You can cast this\npower once as a 4th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
+    "body": "At the 15th level, choose one power and an advancement for that power of 4th-level or less. You can cast this\npower once as a 4th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
   },
   {
-    "id": "l5t-4---undefined",
+    "id": "l5t-4---sentinel",
     "title": "L5t Implant (5th-level)",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
       "th-level"
     ],
-    "body": "At the {{ level }} level, choose one power and an advancement for that power of 5th-level or less. You can cast this\npower once as a 5th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
+    "body": "At the 17th level, choose one power and an advancement for that power of 5th-level or less. You can cast this\npower once as a 5th-level power without expending a power slot. You must finish a long rest before you can do so again.\n"
   },
   {
     "id": "makeshift-grenades-1---undefined",
@@ -8772,15 +8849,16 @@
     "body": "At {{ level }} level, you can have 4 grenades programmed into your Omni-tool at once.\nIn addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.\n"
   },
   {
-    "id": "master-tactician---undefined",
+    "id": "master-tactician---sentinel---bastion",
     "title": "Master Tactician",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "sentinel",
+      "bastion",
+      "rd-level"
     ],
-    "body": "At {{ level }} level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking\na creature, the target of that attack can be within 20m of you, rather than 2m of you, if the target can see or hear you.\n"
+    "body": "At 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking\na creature, the target of that attack can be within 20m of you, rather than 2m of you, if the target can see or hear you.\n"
   },
   {
     "id": "medi-gel-enhancements---engineer---medic",
@@ -8841,26 +8919,28 @@
     "body": "Starting at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within 2m of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.\n"
   },
   {
-    "id": "omni-shield-1---undefined",
+    "id": "omni-shield-1---sentinel---guardian",
     "title": "Omni-Shield",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "sentinel",
+      "guardian",
+      "rd-level"
     ],
-    "body": "Starting at {{ level }} level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.\nWhile Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:\n\n+1 AC.\nIf a creature within 2m of you is attacked, you may use your reaction to impose disadvantage on that attack.\nAs an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a\nhit creature backward 2m.\n\n\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n"
+    "body": "Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.\nWhile Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:\n\n+1 AC.\nIf a creature within 2m of you is attacked, you may use your reaction to impose disadvantage on that attack.\nAs an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a\nhit creature backward 2m.\n\n\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n"
   },
   {
-    "id": "omni-shield-2---undefined",
+    "id": "omni-shield-2---sentinel---guardian",
     "title": "Omni-Shield",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "guardian",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you can transform your omni-shield into a fire shield or cryo shield.\nFire Shield. Gain all the benefits of Omni-Shield. In addition, a target hit by a Fire Shield attack takes 3d10 fire damage.\nThis damage detonates primed targets, but you are immune to any detonating effects.\nCryo Shield. Gain all the benefits of Omni-Shield. In addition, a target hit by a Cryo Shield attack takes 1d8 cold\ndamage and must succeed on a DC 13 Strength saving throw or become frozen until the end its next turn.\n"
+    "body": "Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.\nFire Shield. Gain all the benefits of Omni-Shield. In addition, a target hit by a Fire Shield attack takes 3d10 fire damage.\nThis damage detonates primed targets, but you are immune to any detonating effects.\nCryo Shield. Gain all the benefits of Omni-Shield. In addition, a target hit by a Cryo Shield attack takes 1d8 cold\ndamage and must succeed on a DC 13 Strength saving throw or become frozen until the end its next turn.\n"
   },
   {
     "id": "onslaught---undefined",
@@ -8977,6 +9057,17 @@
     "body": "Preparing and casting spells\nThe Infiltrator table shows how many tech points you have to cast your spells of 1st level and higher. To cast one of these\ninfiltrator spells, you must expend a number of tech points equal to the spell’s level or higher. You regain all\nexpended tech points when you finish a long rest.\nYou are limited in the number of tech points you can spend to power a spell as indicated in the Tech Point Limit column\nof the Infiltrator table.\nFor example, a 9th-level infiltrator can cast spells for 1 or 2 tech points.\nYou prepare the list of infiltrator spells that are available for you to cast, choosing from the infiltrator spell list.\nWhen you do so, choose a number of infiltrator spells equal to your Intelligence modifier + half your infiltrator level\n(minimum of one spell).\nYou may prepare the advanced version of a spell for the cost of 2 regular versions. You may only prepare one advanced\nversion for each spell.\nFor example, if you are a 9th-level infiltrator with an Intelligence of 16, your list of prepared spells can be one of the following:\n\nseven regular spells\none advanced spell and five regular spells,\ntwo advanced spells and three regular spells,\nthree advanced spells and one regular spell\n\n\nYou can also change your list of prepared spells when you finish a long rest. Preparing a new list of infiltrator spells\nrequires time spent to program them into your omni-tool: at least 1 minute per spell level for each spell on your list.\nSpellcasting Ability\nInfiltrators use a highly modified Omni-tool that requires a keen intellect to maintain. As an Infiltrator, you use your\nIntelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when\nsetting the saving throw DC for a tech spell you cast and when making an attack roll with one.\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\nSpell attack modifier = your proficiency bonus + your Intelligence modifier\n"
   },
   {
+    "id": "powercasting-sentinel---sentinel",
+    "title": "Powercasting",
+    "type": "character",
+    "subType": "class_features",
+    "qualifiers": [
+      "sentinel",
+      "st-level"
+    ],
+    "body": "Cantrips\nYou know two cantrips of your choice from the sentinel power list. You learn additional sentinel cantrips of your choice\nat higher levels, as shown in the Cantrips column of the Sentinel table.\nPower Slots\nThe Sentinel table shows how many power slots you have. The table also shows what the level of those slots is; all of\nyour power slots are the same level. To cast one of your sentinel powers of 1st level or higher, you must expend a power\nslot. You regain all expended power slots when you finish a short or long rest.\nFor example, when you are 5th level, you have two 2nd-level power slots. To cast the 1st-level power lance, you must spend\none of those slots, and you cast it as a 2nd-level power.\npowers Known of 1st Level and Higher\nAt 1st level, you know two 1st-level powers of your choice from the sentinel power list.\nThe powers Known column of the Sentinel table shows when you learn more sentinel powers of your choice of 1st level\nand higher. A power you choose must be of a level no higher than what's shown in the table's Slot Level column for your\nlevel. When you reach 5th level, for example, you learn a new sentinel power, which can be 1st or 2nd level.\nAdditionally, when you learn a new power, you may instead choose one of the powers you know and learn an advanced\nversion of it. You select one of the advancement options listed in the power description. Whenever you cast the power,\nyou cast the advanced version of it. You can only learn one advancement for each power.\nPowercasting Ability\nSentinels use a unique L5t biotic implant that integrates with the operative's omni-tool maximizes their innate talents.\nAs a sentinel you choose your powercasting modifier from Charisma, Intelligence, or Wisdom.\n\nChoosing Charisma means that your operative has immense willpower and uses it to overcome the mental strain of casting\nbiotic powers and interfacing with their omni-tool. They use their innate talent to maximize the potency of their powers.\nChoosing Intelligence means that your operative takes advantage of their omni-tool, using it to assist in the casting\nof biotic powers. Their keen intellect helps them choose strategic targets to maximize the potency of their powers.\nChoosing Wisdom means that your operative has unmatched concentration and can use the physical mnemonics of their\nbiotic implant to cast tech powers with their omni-tool. Their patience and insight maximizes the potency of their powers.\n\nYou use your selected ability whenever a power refers to your powercasting ability. In addition, you use your selected\nability's modifier when setting the saving throw DC for a power you cast and when making an attack roll with one.\nPower save DC = 8 + your proficiency bonus + your selected ability modifier\nPower attack modifier = your proficiency bonus + your selected ability modifier\n"
+  },
+  {
     "id": "primal-biotics---undefined",
     "title": "Primal Biotics",
     "type": "character",
@@ -9000,15 +9091,15 @@
     "body": "At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.\n"
   },
   {
-    "id": "quick-cast---undefined",
+    "id": "quick-cast---sentinel",
     "title": "Quick Cast",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
       "th-level"
     ],
-    "body": "At {{ level }} level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.\n"
+    "body": "At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.\n"
   },
   {
     "id": "rapid-strike---undefined",
@@ -9090,15 +9181,15 @@
     "body": "At 14th level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.\n"
   },
   {
-    "id": "reset---undefined",
+    "id": "reset---sentinel",
     "title": "Reset",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can draw power from the depths of exhaustion. If you spend one minute calming your mind or recalibrating\nyour armor you can regain all of your expended power slots or all spent uses of your tech armor. Once you use this feature,\nyou must finish a long rest before you can do so again.\n"
+    "body": "At 20th level, you can draw power from the depths of exhaustion. If you spend one minute calming your mind or recalibrating\nyour armor you can regain all of your expended power slots or all spent uses of your tech armor. Once you use this feature,\nyou must finish a long rest before you can do so again.\n"
   },
   {
     "id": "retaliation---undefined",
@@ -9159,15 +9250,16 @@
     "body": "Starting at 2nd level, You can create pockets of relative safety within the effects of your biotic powers. When you cast a biotic power that\naffects other creatures that you can see, you can choose a number of them equal to 1+the power's level. The chosen creatures\nautomatically succeed on their saving throws against the power, and they take no damage if they would normally take half\ndamage on a successful save.\n"
   },
   {
-    "id": "sculpt-spells---undefined",
-    "title": "Sculpt powers",
+    "id": "sculpt-powers---sentinel---guardian",
+    "title": "Sculpt Powers",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "guardian",
       "th-level"
     ],
-    "body": "Starting at {{ level }}, you can create pockets of relative safety within the effects of your powers. When you cast a power that\naffects other creatures that you can see, you can choose a number of them equal to 1+the power's level. The chosen creatures\nautomatically succeed on their saving throws against the power, and they take no damage if they would normally take half\ndamage on a successful save.\n"
+    "body": "Starting at 10th, you can create pockets of relative safety within the effects of your powers. When you cast a power that\naffects other creatures that you can see, you can choose a number of them equal to 1+the power's level. The chosen creatures\nautomatically succeed on their saving throws against the power, and they take no damage if they would normally take half\ndamage on a successful save.\n"
   },
   {
     "id": "shadow-strike---infiltrator---shadow",
@@ -9329,15 +9421,16 @@
     "body": "By 18th level, you can call in a 2m tall by 1m wide supply pylon to a location within 4m. At the start of your next turn, the pylon arrives. If any creature is\nstanding in the targeted location, the creature must make a Dexterity saving throw with advantage.\nOn a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.\nThe pylon contains 5 resources from the following list, which you choose when you call the pylon:\n\n1 heavy weapon ammo charges\n10 thermal clips\nA battery capable to quickly recharging your Omni-tool, recovering 5 tech points\nA stim pack capable of staving off biotic fatigue, recovering 5 levels worth of power slots\n4 enhanced medi-gel\n2 Mk II Frag grenades\n2 Mk II Lift Grenades\n2 Mk IV Flashbang\n2 Mk IV Smoke grenades\n\nOnce the pylon has landed, friendly creatures (including you) within melee range of the pylon can use their action to collect\none of the resources you chose.\nOnce you use this feature, you cannot use it again until you finish a long rest and restock the pylon with 5 omni-gel.\n"
   },
   {
-    "id": "synchronized-assault---undefined",
+    "id": "synchronized-assault---sentinel---bastion",
     "title": "Synchronized Assault",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "bastion",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you gain the ability to unleash a devastating combination of your allies' abilities. As a\nbonus action, select up to five allies within 60m. They can use their reactions to immediately take actions.\nOnce you use this ability, you cannot use it again until you complete a long rest.\n"
+    "body": "Starting at 18th level, you gain the ability to unleash a devastating combination of your allies' abilities. As a\nbonus action, select up to five allies within 60m. They can use their reactions to immediately take actions.\nOnce you use this ability, you cannot use it again until you complete a long rest.\n"
   },
   {
     "id": "tactical-advantage---engineer---mastermind",
@@ -9386,59 +9479,52 @@
     "body": "As an action, you activate your tactical cloak, becoming invisible. Tactical cloak lasts 1 minute or\nuntil you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.\nOnce you have used tactical cloak the maximum number of times for your Infiltrator level,\nyou must finish a short rest before you can use it again. You may use tactical 2 times at 1st level, 3 at 6th, 4 at 11th,\nand 5 at 18th.\n"
   },
   {
-    "id": "tactical-focus-2---undefined",
-    "title": "Additional Tactic",
-    "type": "character",
-    "subType": "class_features",
-    "qualifiers": [
-      null,
-      "th-level"
-    ],
-    "body": "At {{ level }} level, you learn an additional tactic of your choice.\n"
-  },
-  {
-    "id": "tactical-focus---undefined",
+    "id": "tactical-focus---sentinel---bastion",
     "title": "Tactical Focus",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "sentinel",
+      "bastion",
+      "rd-level"
     ],
-    "body": "At {{ level }} level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.\nAs a bonus action, you can select an area within 30m on the ground that measures 6m on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become incapacitated.\nWhen you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.\nTactics\nAdvance.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.\nAnalysis.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points\nClear the area.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature 2m.\nHeads up.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.\nPin down.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.\nRecon.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.\n"
+    "body": "At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.\nAs a bonus action, you can select an area within 30m on the ground that measures 6m on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become incapacitated.\nWhen you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.\nTactics\nAdvance.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.\nAnalysis.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points\nClear the area.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature 2m.\nHeads up.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.\nPin down.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.\nRecon.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.\n"
   },
   {
-    "id": "tactical-maneuvers---undefined",
+    "id": "tactical-maneuvers---sentinel---bastion",
     "title": "Tactical Maneuvers",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "bastion",
       "th-level"
     ],
-    "body": "At {{ level }} level, you can provide leadership that allows your allies to move in perfect harmony.\nIn place of moving, you can instead allow up to three allies within 30m move up to half their speed. The chosen allies\nmust be capable of taking actions in order to move in this manner.\n"
+    "body": "At 14th level, you can provide leadership that allows your allies to move in perfect harmony.\nIn place of moving, you can instead allow up to three allies within 30m move up to half their speed. The chosen allies\nmust be capable of taking actions in order to move in this manner.\n"
   },
   {
-    "id": "tactical-range-1---undefined",
+    "id": "tactical-range-1---sentinel---bastion",
     "title": "Tactical Focus Range",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "bastion",
       "th-level"
     ],
-    "body": "At {{ level }} level, your tactical focus increases to 8m per side.\n"
+    "body": "At 7th level, your tactical focus increases to 8m per side.\n"
   },
   {
-    "id": "tactical-range-2---undefined",
+    "id": "tactical-range-2---sentinel---bastion",
     "title": "Tactical Focus Range",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "bastion",
       "th-level"
     ],
-    "body": "At {{ level }} level, your tactical focus increases to 10m per side.\n"
+    "body": "At 10th level, your tactical focus increases to 10m per side.\n"
   },
   {
     "id": "tactical-reload---undefined",
@@ -9452,48 +9538,51 @@
     "body": "By {{ level }} level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.\n"
   },
   {
-    "id": "tech-armor---undefined",
+    "id": "tech-armor---sentinel",
     "title": "Tech Armor",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
-      "th-level"
+      "sentinel",
+      "st-level"
     ],
     "body": "You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,\nactivate your Tech Armor.\nWhen activated, tech armor creates a new kinetic barrier with additional hit points equal to the sum of your sentinel level\nand powercasting modifier, multiplied by 2. When you have tech armor hit points and take damage, the tech armor hit points\nare lost first, and any leftover damage carries over to your shields and/or normal hit points. Tech armor lasts 1 minute\nor until it has 0 hit points remaining.\nWhile tech armor is active, you can use your action to overload it. Each creature within 4m must make a Constitution\nsaving throw. On a failed save, a creature takes force damage equal to the remaining hit points of your tech armor,\nor half as much on a successful one.\nYou can use Tech Armor twice between long rests.\n"
   },
   {
-    "id": "tech-aura-1---undefined",
+    "id": "tech-aura-1---sentinel---guardian",
     "title": "Tech Aura",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "guardian",
       "th-level"
     ],
-    "body": "In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.\nAt {{ level }} level, when you activate\ntech armor, you can choose to run a different VI package instead. When you activate an alternate package, you\ndo not gain hit points, instead, you and any friendly creature within 10m of you gain\nthe effect of the package for 1 hour. You may only have one tech armor active at once.\n\n\nPackage\nEffect\n\n\n\n\nDefensive\nThis is the standard Tech Armor package. It does not affect allies.\n\n\nAnti-biotic\nResistance to force and necrotic damage.\n\n\nAnti-tech\nResistance to fire and cold damage.\n\n\nGrounded\nResistance to lightning damage.\n\n\nReactive\nAdd your powercasting modifier to Strength or Dexterity saving throws.\n\n\nSpeed\nIncrease speed by 6m. Can take the Disengage action as a bonus action.\n\n\nRegen\nRegenerate shield points equal to your powercasting modifier on the start of each of your turns.\n\n\nInspiring Music\nAdvantage on saving throws against becoming frightened or charmed.\n\n\nBrute force\nCreatures within your aura deal an additional 1d8 bludgeoning damage with melee attacks.\n\n\nNegation Field\nCreatures within your aura can't be primed.\n\n\n"
+    "body": "In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.\nAt 7th level, when you activate\ntech armor, you can choose to run a different VI package instead. When you activate an alternate package, you\ndo not gain hit points, instead, you and any friendly creature within 10m of you gain\nthe effect of the package for 1 hour. You may only have one tech armor active at once.\n\n\nPackage\nEffect\n\n\n\n\nDefensive\nThis is the standard Tech Armor package. It does not affect allies.\n\n\nAnti-biotic\nResistance to force and necrotic damage.\n\n\nAnti-tech\nResistance to fire and cold damage.\n\n\nGrounded\nResistance to lightning damage.\n\n\nReactive\nAdd your powercasting modifier to Strength or Dexterity saving throws.\n\n\nSpeed\nIncrease speed by 6m. Can take the Disengage action as a bonus action.\n\n\nRegen\nRegenerate shield points equal to your powercasting modifier on the start of each of your turns.\n\n\nInspiring Music\nAdvantage on saving throws against becoming frightened or charmed.\n\n\nBrute force\nCreatures within your aura deal an additional 1d8 bludgeoning damage with melee attacks.\n\n\nNegation Field\nCreatures within your aura can't be primed.\n\n\n"
   },
   {
-    "id": "tech-aura-2---undefined",
+    "id": "tech-aura-2---sentinel---guardian",
     "title": "Tech Aura",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "guardian",
       "th-level"
     ],
-    "body": "At {{ level }} level, if you have no remaining uses of Tech Armor, you can expend a power slot to activate it.\n"
+    "body": "At 14th level, if you have no remaining uses of Tech Armor, you can expend a power slot to activate it.\n"
   },
   {
-    "id": "tech-aura-3---undefined",
+    "id": "tech-aura-3---sentinel---guardian",
     "title": "Tech Aura",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "guardian",
       "th-level"
     ],
-    "body": "At {{ level }} level, increase the distance of your Tech Aura packages to 20m.\n"
+    "body": "At 18th level, increase the distance of your Tech Aura packages to 20m.\n"
   },
   {
     "id": "tech-points---undefined",
@@ -9540,15 +9629,16 @@
     "body": "At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.\n"
   },
   {
-    "id": "unyielding-assault---undefined",
+    "id": "unyielding-assault---sentinel---juggernaut",
     "title": "Unyielding Assault",
     "type": "character",
     "subType": "class_features",
     "qualifiers": [
-      null,
+      "sentinel",
+      "juggernaut",
       "th-level"
     ],
-    "body": "Starting at {{ level }} level, you have advantage on saving throws to avoid becoming paralyzed, stunned, or frozen.\nWhile tech armor is active, you are immune to becoming paralyzed, stunned, or frozen.\n"
+    "body": "Starting at 14th level, you have advantage on saving throws to avoid becoming paralyzed, stunned, or frozen.\nWhile tech armor is active, you are immune to becoming paralyzed, stunned, or frozen.\n"
   },
   {
     "id": "up-close-and-personal---infiltrator---shadow",

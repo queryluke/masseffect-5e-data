@@ -1,8 +1,10 @@
 ---
-id: tactical_focus
 name: Tactical Focus
+class: sentinel
+level: 3
+subclass: bastion
 ---
-At {{ level }} level, your tactical acumen and predictive VI algorithms allow you to provide direction to your
+At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your
 allies that can tilt a battle in your favor.
 
 As a bonus action, you can select an area within 30m on the ground that measures 6m on each side. This area is your tactical focus.

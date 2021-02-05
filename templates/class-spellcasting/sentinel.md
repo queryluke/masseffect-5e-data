@@ -25,9 +25,9 @@ you cast the advanced version of it. You can only learn one advancement for each
 ### Spellcasting Ability
 
 Sentinels use a unique L5t biotic implant that integrates with the operative's omni-tool maximizes their innate talents.
-As a sentinel you choose your spellcasting modifier from Charisma, Intelligence, or Wisdom. 
+As a sentinel you choose your spellcasting modifier from Charisma, Intelligence, or Wisdom.
 
-- Choosing Charisma means that your operative has immense willpower and uses it to overcome the mental strain of casting 
+- Choosing Charisma means that your operative has immense willpower and uses it to overcome the mental strain of casting
   biotic spells and interfacing with their omni-tool. They use their innate talent to maximize the potency of their spells.
 - Choosing Intelligence means that your operative takes advantage of their omni-tool, using it to assist in the casting
   of biotic spells. Their keen intellect helps them choose strategic targets to maximize the potency of their spells.

@@ -1,5 +1,7 @@
 ---
-id: tactical_range_1
 name: Tactical Focus Range
+class: sentinel
+level: 7
+subclass: bastion
 ---
-At {{ level }} level, your tactical focus increases to 8m per side.
+At 7th level, your tactical focus increases to 8m per side.
