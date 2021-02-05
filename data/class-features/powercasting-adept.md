@@ -34,6 +34,6 @@ Adepts have an L5x biotic implant which requires conscious control over their ne
 Wisdom whenever a power refers to your powercasting ability. In addition, you use your Wisdom modifier when setting the
 saving throw DC for a biotic power you cast and when making an attack roll with one.
 
-__power save DC__ = 8 + your proficiency bonus + your Wisdom modifier
+__Power save DC__ = 8 + your proficiency bonus + your Wisdom modifier
 
-__power attack modifier__ = your proficiency bonus + your Wisdom modifier
+__Power attack modifier__ = your proficiency bonus + your Wisdom modifier

@@ -61,9 +61,11 @@ startingEquipment:
         - omni-torch
       count: 1
   - text: '(a) Stock Light Armor or (b) Stock Medium Armor'
-    mandatory:
-      - 'stock-light-armor'
-      - 'stock-medium-armor'
+    options:
+      items:
+        - 'stock-light-armor'
+        - 'stock-medium-armor'
+      count: 1
 powercasting: false
 subclassProgression:
   label: Subclass Feature

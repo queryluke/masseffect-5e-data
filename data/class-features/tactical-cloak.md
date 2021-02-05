@@ -1,6 +1,7 @@
 ---
-id: tactical_cloak
 name: Tactical Cloak
+class: infiltrator
+level: 1
 ---
 As an action, you activate your tactical cloak, becoming <me-condition id="invisible"/>. Tactical cloak lasts 1 minute or
 until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.
