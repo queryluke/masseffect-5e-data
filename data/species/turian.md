@@ -34,7 +34,7 @@ personal desires. As such, they are passionate about public and social service a
 They are taught to own their decisions, good or bad, and if confronted with accusations it is considered heinous to
 lie about their actions. Because of this, many species attribute to them a "turian honor" seen rarely outside the turian species.
 
-## Proud Warrior Race
+## Proud Warrior Species
 At the center of turian society is their military. Turians are sent to basic training in their teenage years
 and are obligated to serve time in the military, if physically able. This develops respect for
 authority as well as imparting control and restraint among the turians. Though some turians do not continue their

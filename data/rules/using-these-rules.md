@@ -20,7 +20,7 @@ that contain significant changes are:
 - [Vehicles](/manual/vehicles), which contains a "bolt-on" set of rules for traveling through the galaxy
 
 The __Characters__ dropdown contains the list of options you have when creating your characters which has brand new:
--  [Races](/species)
+-  [Species](/species)
 -  [Classes](/classes)
 -  [Backgrounds](/backgrounds)
 -  [Feats](/feats)

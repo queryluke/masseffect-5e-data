@@ -1,13 +1,13 @@
 ---
 change: true
-title: 1. Choose a Race
+title: 1. Choose a Species
 section: character-creation
 order: 2
 ---
 
 Every character belongs to a species, one of the many intelligent humanoid species in the Mass Effect Universe. The most
 common player character species are asari, humans, krogan, salarians, and turians. Some species also have subspecies, such as
-pure-blood asari or tank-bred krogan. The [Races](/species) section provides more information about these species.
+pure-blood asari or tank-bred krogan. The [Species](/species) section provides more information about these species.
 
 The species you choose contributes to your character’s identity in an important way, by establishing a general appearance
 and the natural talents gained from culture and ancestry. Your character’s species grants particular racial traits, such as
