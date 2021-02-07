@@ -7,12 +7,18 @@ order: 11
 Your class and background determine your character’s starting equipment, including weapons, armor, and other adventuring
 gear. Record this equipment on your character sheet. All such items are detailed in the Equipment section.
 
+__Starting Credits__
 
-__Starting Credits__ <v-chip color="warning" text-color="black" small>change</v-chip>
+Instead of taking the gear given to you by your class
+and background, you can purchase your starting
+equipment. You have a number of gold pieces (gp)
+to spend based on your class, as shown in chapter 5.
+Extensive lists of equipment, with prices, also appear in
+that chapter. If you wish, you can also have one trinket at
+no cost (see the Trinkets table at the end of chapter 5).
+
 Instead of taking the gear given to you by your class and background, you can purchase your starting equipment. You
-have a number of credits to spend based on your _species_ (not your class as in D&D 5th). The range of average starting credits
-is roughly equivalent across species, but the variability changes based on species. Long-lived species (asari and krogan) have lower
-variability, whereas short-lived species (salarians and vorcha) have a high variability.
+have a number of credits to spend based on your class, as shown in the [starting equipment](/manual/equipment#starting-equipment) section.
 
 Your Strength score limits the amount of gear you can carry and armor you can wear. Try not to purchase equipment with
 a total weight exceeding your Strength score times 2. [Using Ability Scores](/manual/using-ability-scores#strength)
