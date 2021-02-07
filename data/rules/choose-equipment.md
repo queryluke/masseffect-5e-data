@@ -1,5 +1,4 @@
 ---
-change: true
 title: 5. Choose Equipment
 section: character-creation
 order: 11
