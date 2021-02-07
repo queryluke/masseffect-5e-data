@@ -6,15 +6,7 @@ order: 11
 Your class and background determine your character’s starting equipment, including weapons, armor, and other adventuring
 gear. Record this equipment on your character sheet. All such items are detailed in the Equipment section.
 
-__Starting Credits__
-
-Instead of taking the gear given to you by your class
-and background, you can purchase your starting
-equipment. You have a number of gold pieces (gp)
-to spend based on your class, as shown in chapter 5.
-Extensive lists of equipment, with prices, also appear in
-that chapter. If you wish, you can also have one trinket at
-no cost (see the Trinkets table at the end of chapter 5).
+### Starting Credits
 
 Instead of taking the gear given to you by your class and background, you can purchase your starting equipment. You
 have a number of credits to spend based on your class, as shown in the [starting equipment](/manual/equipment#starting-equipment) section.
