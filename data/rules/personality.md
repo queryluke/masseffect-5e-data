@@ -45,7 +45,7 @@ and goals.
 Bonds might answer any of these questions: Whom do you care most about? To what place do you feel a special connection?
 What is your most treasured possession?
 
-Your bonds might be tied to your class, your background, your race, or some other aspect of your character’s history or
+Your bonds might be tied to your class, your background, your species, or some other aspect of your character’s history or
 personality. You might also gain new bonds over the course of your missions.
 
 ### Flaws

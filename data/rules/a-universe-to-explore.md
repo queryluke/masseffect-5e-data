@@ -14,9 +14,9 @@ with the first Mass Effect video games, you can read about major events and lore
 of the galaxy.
 
 The Andromeda Galaxy has a very different feeling. An ancient civilization of "Remnant" seem to exist on every planet, connected
-by seemingly supernatural threads. Only two known sentient races existed in the Galaxy before the arrival of the Milky Way
-races. Now the galaxy and its inhabitants are threatened by a widespread energy phenomenon called, The Scourge. The Milky Way
-races arrived on Arks and are working to settle habitable planets around the galaxy and start a new life. If you'd like
+by seemingly supernatural threads. Only two known sentient species existed in the Galaxy before the arrival of the Milky Way
+species. Now the galaxy and its inhabitants are threatened by a widespread energy phenomenon called, The Scourge. The Milky Way
+species arrived on Arks and are working to settle habitable planets around the galaxy and start a new life. If you'd like
 to read more about the events of Mass Effect: Andromeda, [the wiki](https://masseffect.wikia.com/wiki/Mass_Effect:_Andromeda#Setting)
 has plenty of information.
 

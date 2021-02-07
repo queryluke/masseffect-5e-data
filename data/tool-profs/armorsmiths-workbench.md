@@ -3,7 +3,7 @@ name: "Armorsmith's Workbench"
 type: artisan
 ---
 
-An armorsmith's workbench allows you to work with alloys and ceramic plates, letting you reshape armor for different races,
+An armorsmith's workbench allows you to work with alloys and ceramic plates, letting you reshape armor for different species,
 repair damage, or install armor mods.
 
 __History__. Your expertise lends you additional insight when examining heavy and medium armor.
@@ -14,7 +14,7 @@ __Investigation__. You can spot clues and make deductions that others might over
 With access to your workbench, you can perform one of the following activities as part of a long rest.
 
 * __Install mod__. Install an armor mod into a piece of heavy or medium armor.
-* __Augment or repair armor__. Adjust a suit of heavy or medium armor to fit another race or repair a piece of used
+* __Augment or repair armor__. Adjust a suit of heavy or medium armor to fit another species or repair a piece of used
 heavy or medium armor. Repaired armor can be sold for one half its market value. Consumes 2 omni-gel.
 * __Craft armor__.
   - Craft a medium or heavy armor set. See the <nuxt-link to="/phb/rules/missions#between-missions">crafting</nuxt-link>

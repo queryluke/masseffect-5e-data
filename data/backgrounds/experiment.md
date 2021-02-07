@@ -15,7 +15,7 @@ __Equipment__. A set of common clothes, a trinket from your program of origin, T
 ### Choose one of the following features
 
 __Feature: What Doesn't Kill You__. You were the subject of experimentation in your youth, with the goal of stripping
-away the old you and turning you into a weapon. The program could have been funded by your race's government, a
+away the old you and turning you into a weapon. The program could have been funded by your species' government, a
 shadow organization, or a single mad scientist who kidnapped you. It could have had the goal of turning you into the
 ultimate soldier, perhaps an unrivaled biotic, or even a genius tech engineer.
 

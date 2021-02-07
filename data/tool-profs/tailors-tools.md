@@ -3,7 +3,7 @@ name: "Tailor's Tools"
 type: artisan
 ---
 
-Tailor's tools allow you to work with fabrics and nano-materials to reshape armor for different races,
+Tailor's tools allow you to work with fabrics and nano-materials to reshape armor for different species,
 repair damage, or install armor mods.
 
 __History__. Your expertise lends you additional insight when examining light armor.
@@ -14,7 +14,7 @@ __Investigation__. You can spot clues and make deductions that others might over
 With access to your tools, you can perform one of the following activities as part of a long rest.
 
 * __Install mod__. Install an armor mod into a piece of light armor.
-* __Augment or repair armor__. Adjust a suit of light armor to fit another race or repair a piece of light armor.
+* __Augment or repair armor__. Adjust a suit of light armor to fit another species or repair a piece of light armor.
 Repaired armor can be sold for one half its market value. Consumes 2 omni-gel.
 * __Craft armor__.
   - Craft a light armor set. See the <nuxt-link to="/phb/rules/missions#between-missions">crafting</nuxt-link>

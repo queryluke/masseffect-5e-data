@@ -4,7 +4,7 @@ section: equipment
 order: 1
 ---
 When you create your character, you receive equipment based on a combination of your class and background. Alternatively,
-you can start with a number of credits based on your race and spend them on items from the lists in this section. See
+you can start with a number of credits based on your species and spend them on items from the lists in this section. See
 the [Choose Equipment](/manual/character-creation#choose-equipment) section of __Step-by-step Characters__
 for more information on using racial starting credits.
 

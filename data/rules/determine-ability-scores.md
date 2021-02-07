@@ -7,7 +7,7 @@ Much of what your character does in the game depends on his or her six abilities
 __Intelligence__, __Wisdom__, and __Charisma__. Each ability has a score, which is a number you record on your character sheet.
 
 The six abilities and their use in the game are described in the [Using Ability Scores](/manual/using-ability-scores)
-section. The Ability Score Summary provides a quick reference for what qualities are measured by each ability, what races
+section. The Ability Score Summary provides a quick reference for what qualities are measured by each ability, what species
 increases which abilities, and what classes consider each ability particularly important.
 
 <me-more-info title="Ability Score summary" component="ability-score-summary" />
@@ -18,7 +18,7 @@ or don’t like the idea of randomly determining ability scores, you can use the
 
 Now take your six numbers and write each number beside one of your character’s six abilities to assign scores to
 Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Afterward, make any changes to your ability scores
-as a result of your race choice.
+as a result of your species choice.
 
 After assigning your ability scores, determine your ability modifiers using the Ability Scores and Modifiers table.
 To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the result

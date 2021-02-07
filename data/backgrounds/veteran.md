@@ -62,7 +62,7 @@ d6 | Ideal
 3 | Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)
 4 | Might. In life as in war, the stronger force wins. (Evil)
 5 | Live and Let Live. Ideals aren’t worth killing over or going to war for. (Neutral)
-6 | Nation. My city, nation, or race are all that matter. (Any)
+6 | Nation. My city, nation, or species are all that matter. (Any)
 
 <br>
 

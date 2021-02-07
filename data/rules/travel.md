@@ -10,34 +10,34 @@ The Milky Way comprises a number of __Clusters__ (represented by the yellow, tar
 Each Cluster is composed of __Systems__, and, in turn, each System contains a group of planetary objects (generally a
 star and any number of planets and their moons, planetoids, asteroids, comets and other celestial bodies).
 
-For example, Earth is a planet in the Sol System, which is the only system in the Local Cluster. Tuchanka (the homeworld 
+For example, Earth is a planet in the Sol System, which is the only system in the Local Cluster. Tuchanka (the homeworld
 of the Krogan) is part of the Aralakh System, which is one of 3 systems in the Krogan DMZ cluster.
 
-__Note on names__: You may wonder why the names aren’t more “alien”. Our best guess is that the names are either part 
-of a human-centered database (in which names were provided to the entries by humans), or that the names have been 
-translated into similar human-cultured counterparts. For example, the Athena Nebula is home of the Asari, a race of 
-androgynous beings that associate themselves to a female gender. Thus the nebula’s name (in Asari) might be a cultural 
+__Note on names__: You may wonder why the names aren’t more “alien”. Our best guess is that the names are either part
+of a human-centered database (in which names were provided to the entries by humans), or that the names have been
+translated into similar human-cultured counterparts. For example, the Athena Nebula is home of the Asari, a species of
+androgynous beings that associate themselves to a female gender. Thus the nebula’s name (in Asari) might be a cultural
 figure, turn-of-phase, or mystical entity that is best represented as Athena in human culture.
 
 ### Traveling between clusters, systems, and planets
 
 #### Space Transports
-There four types of transports in the game: land, water, air, and space. To leave a planet or move between planets in a 
-system requires a space transport. For simplicity's sake, travel within a system (from any celestial body to 
-another) takes less than 24 hours. Using the Sol system as an example, a party could leave Earth and arrive at Io, 
-Europa, Pluto, or Sol’s Mass Relay within 24 hours. The GM can adjust this time as they see fit. A rickety ship 
-might move more slowly and require many stops at moons and planets along the way. A very fast ship might make the 
+There four types of transports in the game: land, water, air, and space. To leave a planet or move between planets in a
+system requires a space transport. For simplicity's sake, travel within a system (from any celestial body to
+another) takes less than 24 hours. Using the Sol system as an example, a party could leave Earth and arrive at Io,
+Europa, Pluto, or Sol’s Mass Relay within 24 hours. The GM can adjust this time as they see fit. A rickety ship
+might move more slowly and require many stops at moons and planets along the way. A very fast ship might make the
 journey from Earth to Pluto within a few hours.
 
 #### Leaving a planet
 The time it takes to leave a planet varies widely based on how regulated space traffic is on that planet. On urban worlds
-like Thessia or the Citadel, it can take as long as 2-4 hours to orbit and dock. On uninhabited worlds, your ship can 
-land and leave as quickly as the pilot is capable. This can take as little as a few minutes. Finding a safe place to 
+like Thessia or the Citadel, it can take as long as 2-4 hours to orbit and dock. On uninhabited worlds, your ship can
+land and leave as quickly as the pilot is capable. This can take as little as a few minutes. Finding a safe place to
 land might take a little longer.
 
 #### Starships
-To travel from system to system, or cluster to cluster, your party will need to use a starship. Every 
-starship has a __range__ attribute which represents the number of system and cluster jumps it can make in a 24 
+To travel from system to system, or cluster to cluster, your party will need to use a starship. Every
+starship has a __range__ attribute which represents the number of system and cluster jumps it can make in a 24
 hour period. Traveling between systems in a cluster or jumping from one cluster to another takes 1 range.
 
 Traveling between systems is the same as traveling between planets. You can move to any other system within a cluster

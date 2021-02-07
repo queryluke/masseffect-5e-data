@@ -53,7 +53,7 @@ Your proficiency bonus applies to many of the numbers you’ll be recording on y
 Your class determines your weapon proficiencies, your saving throw proficiencies, and some of your skill and tool proficiencies.
 (Skills are described in [Using Ability Scores](/manual/using-ability-scores), tools
 in [Equipment](/manual/equipment#tools-kits).) Your background gives you additional skill and
-tool proficiencies, and some races give you more proficiencies. Be sure to note all of
+tool proficiencies, and some species give you more proficiencies. Be sure to note all of
 these proficiencies, as well as your proficiency bonus, on your character sheet.
 
 Your proficiency bonus can’t be added to a single die roll or other number more than once. Occasionally, your proficiency

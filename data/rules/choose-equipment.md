@@ -10,9 +10,9 @@ gear. Record this equipment on your character sheet. All such items are detailed
 
 __Starting Credits__ <v-chip color="warning" text-color="black" small>change</v-chip>
 Instead of taking the gear given to you by your class and background, you can purchase your starting equipment. You
-have a number of credits to spend based on your _race_ (not your class as in D&D 5th). The range of average starting credits
-is roughly equivalent across races, but the variability changes based on race. Long-lived races (asari and krogan) have lower
-variability, whereas short-lived races (salarians and vorcha) have a high variability.
+have a number of credits to spend based on your _species_ (not your class as in D&D 5th). The range of average starting credits
+is roughly equivalent across species, but the variability changes based on species. Long-lived species (asari and krogan) have lower
+variability, whereas short-lived species (salarians and vorcha) have a high variability.
 
 Your Strength score limits the amount of gear you can carry and armor you can wear. Try not to purchase equipment with
 a total weight exceeding your Strength score times 2. [Using Ability Scores](/manual/using-ability-scores#strength)
@@ -55,9 +55,9 @@ includes Stock Medium Armor which (after adding her Dexterity modifier) gives Ka
 For Kaleem’s weapons, Sam chooses an M-8 Avenger (because she took the Assault Rifle proficiency) and an Omni-torch.
 Her M-8 Avenger is a ranged weapon, so Kaleem uses her Dexterity modifier for her attacks and damage. Her attack bonus is
 her Dexterity modifier (+2) plus her proficiency bonus (+2), for a total of +4. The M-8 Avenger deals 1d8 piercing damage,
-and Kaleem adds her Dexterity modifier to the damage when she hits, for a total of 1d8 + 2 piercing damage. Notice, 
+and Kaleem adds her Dexterity modifier to the damage when she hits, for a total of 1d8 + 2 piercing damage. Notice,
 she does not add her proficiency bonus to the damage roll, only the attack roll. When using the
-Omni-torch, a melee weapon, Kaleem adds her Strength modifier (+1) to the attack roll and the damage roll. But, because 
+Omni-torch, a melee weapon, Kaleem adds her Strength modifier (+1) to the attack roll and the damage roll. But, because
 she is not proficient with melee weapons, she does not add her proficiency bonus to the attack roll.
 :::
 

@@ -27,7 +27,7 @@ benefits of the program.
 A program can be installed to only one omni-tool at a time. Almost all programs come with a powerful DRM and security
 system that prevents the program being installed on multiple omni-tools or replicated. Interestingly,
 before the humans were granted an embassy on the Citadel in 2165, the concept of digital rights management was foreign to
-the other races of the galaxy. But since 2165, omni-tool programs have been locked down. Attempting to hack the DRM
+the other species of the galaxy. But since 2165, omni-tool programs have been locked down. Attempting to hack the DRM
 generally has a terrible result.
 
 An omni-tool can only have three programs activated at once. Any attempt to install to a fourth program fails; the operative

@@ -86,8 +86,8 @@ __Dreadnoughts__ are the largest class of ship, generally a kilometer or more lo
 harnessed in the main cannon which is able to decimate entire cities, squads of enemy fighters, and other dreadnoughts. Dreadnoughts
 are meant for extended life in space, usually hosting a crew in the thousands and a self-sustaining ecosystem of shops,
 leisure activities, police force, politics, etc. Think of dreadnaughts as a small town floating through space. The arks
-of Andromeda were dreadnoughts as are the Liveships that the quarian race inhabits. The ships are so costly to make
-that the total number of dreadnoughts in the Milky Way is less than 200 with most races having only one or none. It’s
+of Andromeda were dreadnoughts as are the Liveships that the quarian species inhabits. The ships are so costly to make
+that the total number of dreadnoughts in the Milky Way is less than 200 with most species having only one or none. It’s
 impossible to land Dreadnoughts on planets safely.
 
 ### Cost

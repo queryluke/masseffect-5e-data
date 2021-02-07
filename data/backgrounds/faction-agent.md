@@ -36,7 +36,7 @@ are more than hired mercenaries and are supportive of their faction's efforts.
 Faction Agents are shaped by their experience in the line of duty. The beliefs, laws, and practices of their faction can
 affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy that counteracts the tenets of their faction.
 For example, a Shadow Broker Agent that secretly wants transparency of information. Or they might have an ideal or bond
-that is taken to an extreme, such as a Cerberus agent that hates all non-human races and kills them whenever possible.
+that is taken to an extreme, such as a Cerberus agent that hates all non-human species and kills them whenever possible.
 
 
 d8 | Personality Trait

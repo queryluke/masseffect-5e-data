@@ -9,7 +9,7 @@ when creating your vehicle.
 
 ### Create a concept
 First, you'll want to create a concept for your vehicle. What is its main purpose (defense, offense, transport, smuggling, etc)?
-What race(s) are associated with the vehicle? Is it unique or mass produced? What does it look like? What size is it?
+What species are associated with the vehicle? Is it unique or mass produced? What does it look like? What size is it?
 
 If you're looking for inspiration, check out [Euderion's vehicle creations on DeviantArt](https://www.deviantart.com/euderion/gallery/40849119/MASS-EFFECT).
 

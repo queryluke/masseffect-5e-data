@@ -5,13 +5,13 @@ order: 5
 ---
 Once you know the basic game aspects of your character, it’s time to flesh him or her out as a person. Your character’s
 name, physical description, and personality might be the first things that the other players at the table learn about you.
-It’s worth thinking about how these characteristics reflect the character you have in mind. Or you can randomize you 
+It’s worth thinking about how these characteristics reflect the character you have in mind. Or you can randomize you
 characters height and weight.
 
 <me-more-info title="Random Height & Weight Table" component="random-height-weight" />
 
 ### Your Character's Abilities
-Take your character’s ability scores and race into account as you flesh out his or her appearance and personality. A very
+Take your character’s ability scores and species into account as you flesh out his or her appearance and personality. A very
 strong character with low Intelligence might think and behave very differently from a very smart character with low Strength.
 
 For example, high Strength usually corresponds with a burly or athletic body, while a character with low Strength might

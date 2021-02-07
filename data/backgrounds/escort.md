@@ -17,7 +17,7 @@ __Tool Proficiencies__. Disguise kit, one type of musical instrument
 
 __Equipment__. A musical instrument, a set of fine clothes, and 5,000 credits
 
-__Feature: Seducer's Wiles__. Your experiences with a variety of races have taught you how to use your tempting looks and inviting
+__Feature: Seducer's Wiles__. Your experiences with a variety of species have taught you how to use your tempting looks and inviting
 attitude to bring anyone of either gender in your embrace. You can call upon a humanoid that can see and hear you and gain its attention
 without it suspecting something (other than what you offer).
 
@@ -72,6 +72,6 @@ d6 | Flaw
 2 | Despite my own ability to read people, I myself am very easily read by others.
 3 | I always do the bare minimum.
 4 | I think sex solves everything.
-5 | I am unreasonably attracted to a race that is not my own and find myself flustered when around beings of that race.
+5 | I am unreasonably attracted to a species that is not my own and find myself flustered when around beings of that species.
 6 | I love presents or gifts, and cannot refuse one, even if I know doing so is a bad idea.
 

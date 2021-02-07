@@ -8,11 +8,11 @@ abilityScoreIncrease:
   - amount: 1
     ability: dex
 size: Protheans are slightly taller than humans but generally never taller than 2 meters (6'5"). Your size is Medium.
-speed: 
+speed:
   - type: walk
     speed: 25
-snippet: The protheans are an ancient alien race which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.
-bodyImg: /images/races/prothean.png
+snippet: The protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.
+bodyImg: /images/species/prothean.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802
 age: Protheans live between 300 and 400 years, reaching adulthood in their early teens.
 traits: []
@@ -20,25 +20,25 @@ subspecies: []
 variants: []
 ---
 
-The Protheans are an ancient alien race which mysteriously vanished over 50,000 years ago. The Protheans arose from a 
-single planet and developed an immense galaxy-wide empire encompassing many other spacefaring species. Not much is known 
+The Protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. The Protheans arose from a
+single planet and developed an immense galaxy-wide empire encompassing many other spacefaring species. Not much is known
 about them, but many of their artifacts, ruins and technology have apparently survived the ages.
 
 ## Ancient Empire
-After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from 
-those ruins learned about mass effect physics and developed FTL technology. The Protheans would expand throughout the 
+After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring species, the inusannon, and from
+those ruins learned about mass effect physics and developed FTL technology. The Protheans would expand throughout the
 galaxy with the help of the mass relay network and make the Citadel their capital.
 
-Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them. 
-To defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire. 
-The other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might.
+Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them.
+To defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire.
+The other organic species were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might.
 
 ## Reaper Invasion
-The Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the 
-Reapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They 
-were caught completely off-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the 
-Citadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems 
-from one another. The Protheans' greatest strength, their unified empire, proved to be their downfall. 
+The Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the
+Reapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They
+were caught completely off-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the
+Citadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems
+from one another. The Protheans' greatest strength, their unified empire, proved to be their downfall.
 
 ## Stasis
 In a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that could
@@ -49,24 +49,24 @@ the number of active pods in each facility might be less than a dozen and withou
 bunkers, its impossible to know how many protheans have survived.
 
 ## All Eyes on You
-As a prothean, you constantly attract the attention of other races. Your accent, mannerisms, figures of 
-speech, and appearance all mark you as more alien than most aliens. Curious glances are directed your 
-way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued 
+As a prothean, you constantly attract the attention of other species. Your accent, mannerisms, figures of
+speech, and appearance all mark you as more alien than most aliens. Curious glances are directed your
+way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued
 by your ancient culture, to say nothing of everyday beings who are eager to hear stories of your origin.
 
 ## Avatars
 Protheans that ascended to places of prominence in their society were designated as avatars, or exemplars, of a particular
-virtue of their culture. Example virtues include benevolence, cleanliness, courage, dignity, frugality, honor, justice, 
+virtue of their culture. Example virtues include benevolence, cleanliness, courage, dignity, frugality, honor, justice,
 mercy, order, perseverance, temperance, tranquility, truthfulness, vengeance. As one of the last remaining Protheans,
-it is likely you are an avatar or, waking up to find you race all but extinct, you may self-appoint
+it is likely you are an avatar or, waking up to find you species all but extinct, you may self-appoint
 your own virtue.
 
 ## Prothean Names
-Interestingly, protheans name themselves, usually after an icon or mentor. Until they've chosen a name, they are 
+Interestingly, protheans name themselves, usually after an icon or mentor. Until they've chosen a name, they are
 called little one, child, or some other generic term.
 
 __Male names__: Arkath, Esrad, Caed, Dervan Had, Dencen, Hsed Mik, Javik, Jacen, Ksad Ishan, Lucen, Pashek Vran, Seset Amat, Tev Boken
 
-__Female names__: Athi Let, Brene She, Balani, Calise, Cethi, Cosene, Eri Mase, Hulana, Haetha, Janiri, Kelthana, Laene Valte, Masani, Neona, Penta Tetha, Savisa 
+__Female names__: Athi Let, Brene She, Balani, Calise, Cethi, Cosene, Eri Mase, Hulana, Haetha, Janiri, Kelthana, Laene Valte, Masani, Neona, Penta Tetha, Savisa
 
 <source-reference pages="Prothean" source="wiki"></source-reference>
