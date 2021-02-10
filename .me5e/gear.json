@@ -33,10 +33,10 @@
       "damageType": "lightning"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw.\nA creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nA creature takes lightning damage on a failed save, or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and cost.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d6</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d6</td>\n<td>7,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d6</td>\n<td>8,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d6</td>\n<td>9,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Arcade Game",
@@ -78,10 +78,10 @@
       "damageType": "thunder"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Launch a Cain Trip Mine to a point you can see within <me-distance length=\"50\" />. The mine affixes to a solid surface and projects\na beam <me-distance length=\"15\" /> tripwire. When a creature or object passes through the tripwire, the mine explodes. Any creature within a <me-distance length=\"5\" />\nsphere must make a DC 13 Dexterity saving throw. A creature takes 2d12 thunder damage on a failed save or half as much\ndamage on a successful one.</p>\n<p>Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.</p>\n<p>To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.</p>\n<p>A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within <me-distance length=\"5\" /> of the mine takes 2d12 thunder damage.</p>\n<p><strong>At higher marks</strong>: When you use this mine at Mark II or higher, the damage increases by 1d12 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Launch a Cain Trip Mine to a point you can see within <me-distance length=\"50\" />. The mine affixes to a solid surface and projects\na beam <me-distance length=\"15\" /> tripwire. When a creature or object passes through the tripwire, the mine detonates.</p>\n<p>A creature can spot the mine with a successful DC 13 Wisdom (Perception).</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.</p>\n<p>The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>3,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>4,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>4d12</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>9,800 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>7d12</td>\n<td>11,100 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>8d12</td>\n<td>12,400 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>9d12</td>\n<td>13,700 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>10d12</td>\n<td>15,000</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Cardio_Muscular_Optimizer.exe",
@@ -125,10 +125,10 @@
       "damageType": "thunder"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 16 Dexterity saving throw.\nA creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"15\" /> of the target must make a Dexterity saving throw.\nA creature takes thunder damage on a failed save, or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>15</td>\n<td>2d6</td>\n<td>3,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>17</td>\n<td>3d6</td>\n<td>5,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>19</td>\n<td>5d6</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>6d6</td>\n<td>8,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>21</td>\n<td>6d6</td>\n<td>9,200 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>21</td>\n<td>7d6</td>\n<td>9,900 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>23</td>\n<td>8d6</td>\n<td>11,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Cobra Missile Launcher",
@@ -281,10 +281,10 @@
       "damageType": "utility"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw.\nOn a failed save, a creature is <me-condition id=\"blinded\"/> until the end of your next turn.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the DC of the Constitution saving throw increases\nby 1 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Constitution saving throw.\nOn a failed save, a creature is <me-condition id=\"blinded\"/> until the end of your next turn.</p>\n<p>The mark of this grenade determines its Save DC and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>12</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>14</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>16</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>20</td>\n<td>9,500 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "id": "frag-grenade",
@@ -296,10 +296,10 @@
       "damageType": "piercing"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d12 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nOn a failed save, a creature takes piercing damage or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>1,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>3,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>4,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d12</td>\n<td>9,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>10,800 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d12</td>\n<td>11,300 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d12</td>\n<td>12,600 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d12</td>\n<td>14,400 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Galaxy of Fantasy Link",
@@ -337,6 +337,15 @@
     "id": "hacking-tools"
   },
   {
+    "name": "Heavy Weapon Charge",
+    "type": "Ammo",
+    "cost": "Military",
+    "weight": 1,
+    "rarity": "Uncommon",
+    "html": "<p>A heavy weapon charge is a generic term that can refer to a missile, energy source, or\nraw material. Heavy weapons require charges to be used. Generally, heavy weapon charges are not available to purchase\nby the general public. They must be bought at your local black market dealer or obtained from a military connection.</p>\n<p><strong>Use.</strong> Each heavy weapon has a maximum number of charges it can hold at one time. Loading new charges into a weapon\nrequires 1 heavy weapon charge and the Reload action.</p>\n<p>See <nuxt-link to=\"/rules/equipment#heavy-weapon-charges\">Rules &gt; Equipment &gt; Heavy Weapon Charges</nuxt-link></p>\n",
+    "id": "heavy-weapon-charge"
+  },
+  {
     "id": "homing-grenade",
     "name": "Homing Grenade",
     "stats": {
@@ -346,10 +355,10 @@
       "damageType": "thunder"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target a creature you can see within <me-distance length=\"25\" />. The target creature takes 1d6 thunder damage. Each other creature\nwithin <me-distance length=\"5\" /> of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature takes 1d6 thunder damage\nor half as much on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target a creature you can see within <me-distance length=\"25\" />. The target creature suffers thunder damage (see below). Each other creature\nwithin <me-distance length=\"5\" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage\nor half as much on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>10</td>\n<td>1d6</td>\n<td>700 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>11</td>\n<td>3d6</td>\n<td>2,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>13</td>\n<td>5d6</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>15</td>\n<td>6d6</td>\n<td>6,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>16</td>\n<td>6d6</td>\n<td>6,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>16</td>\n<td>7d6</td>\n<td>7,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>17</td>\n<td>8d6</td>\n<td>8,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "id": "inferno-grenade",
@@ -361,10 +370,10 @@
       "damageType": "fire"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 3d4 fire or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target\ncontinues to burn for 1 minute.</p>\n<p>A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d4 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nOn a failed save, a creature suffers fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target\ncontinues to burn for 1 minute.</p>\n<p>A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d4</td>\n<td>1,00 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2,000 credits</td>\n<td></td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d4</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d4</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d4</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d4</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d4</td>\n<td>6,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d4</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d4</td>\n<td>7,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d4</td>\n<td>8,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Kepesh-Yakshi Board",
@@ -386,10 +395,10 @@
       "damageType": "utility"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Strength saving throw.\nOn a failed save, a creature is <me-condition id=\"lifted\" /> until the end of your next turn.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the DC of the Strength saving throw increases\nby 1 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Strength saving throw.\nOn a failed save, a creature is <me-condition id=\"lifted\" /> until the end of your next turn.</p>\n<p>The mark of this grenade determines its Save DC and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>12</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>14</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>16</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>20</td>\n<td>9,500 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "M-100 Grenade Launcher",
@@ -472,6 +481,15 @@
     "id": "m-920-cain"
   },
   {
+    "name": "Medi-gel",
+    "type": "Medi-gel",
+    "cost": "Varies",
+    "weight": 0,
+    "rarity": "Varies",
+    "html": "<p>An all-purpose medicinal salve combining an anaesthetic and clotting agent.</p>\n<p><strong>Use</strong>. When you use this item, you or a willing creature within 2m regains hit points equal to the medi-gel's potency.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Type</th>\n<th>Rarity</th>\n<th>Cost</th>\n<th>HP Regained</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Standard</td>\n<td>Common</td>\n<td>200 credits</td>\n<td>2d4 + 2</td>\n</tr>\n<tr>\n<td>Enhanced</td>\n<td>Uncommon</td>\n<td>500 credits</td>\n<td>4d4 + 4</td>\n</tr>\n<tr>\n<td>Superior</td>\n<td>Rare</td>\n<td>1,500 credits</td>\n<td>8d4+8</td>\n</tr>\n<tr>\n<td>Ultimate</td>\n<td>Very Rare</td>\n<td>Military</td>\n<td>10d4 + 20</td>\n</tr>\n</tbody>\n</template></v-simple-table><p>See <nuxt-link to=\"/rules/equipment#medi-gel\">Rules &gt; Equipment &gt; Medi-gel</nuxt-link></p>\n",
+    "id": "medi-gel"
+  },
+  {
     "name": "Medical Kit",
     "type": "Tool",
     "cost": 5000,
@@ -506,10 +524,10 @@
       "damageType": "piercing"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target 3 areas within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of each target must\nmake a DC 13 Dexterity saving throw. On a failed save, a creature takes 1d4 piercing damage or half as much on a successful one.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, you may target one additional area for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target 3 areas within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of each target must\nmake a Dexterity saving throw. On a failed save, a creature takes piercing damage or half as much on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d4</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>1d4</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d4</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d4</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d4</td>\n<td>9,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d4</td>\n<td>10,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d4</td>\n<td>12,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d4</td>\n<td>12,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d4</td>\n<td>14,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d4</td>\n<td>16,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Musical Instrument",
@@ -520,6 +538,15 @@
     "weight": 3,
     "html": "<p>The plethora of types of musical instrument are too varied to count. The cost of an instrument\nlargely depends on the size, shape, construction, and quality (i.e. fabricated or hand-made). 500 credits is the\naverage price for a mid-range, pre-fabricated instrument.</p>\n",
     "id": "musical-instrument"
+  },
+  {
+    "name": "Omni-gel",
+    "type": "Omni-gel",
+    "cost": 0,
+    "weight": 1,
+    "rarity": "Common",
+    "html": "<p>Omni-gel is a technological material that can be obtained by breaking down unwanted items, such as weapons, armor, and\nupgrades. Doing so will usually give an amount of omni-gel based on the item that was dismantled.</p>\n<p>See <nuxt-link to=\"/rules/equipment#omni-gel\">Rules &gt; Equipment &gt; Omni-gel</nuxt-link></p>\n",
+    "id": "omni-gel"
   },
   {
     "name": "Painter's Supplies",
@@ -563,10 +590,10 @@
       "damageType": "thunder"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
     "rarity": "Uncommon",
-    "html": "<p>Place a proximity mine within <me-distance length=\"5\" />. The first creature, besides yourself, that comes within\n<me-distance length=\"5\" /> of the mine takes 1d8 thunder damage.</p>\n<p>Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.</p>\n<p>To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.</p>\n<p>A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within <me-distance length=\"5\" />\nof the mine takes 1d8 thunder damage.</p>\n<p><strong>At higher marks</strong>: When you use this mine at Mark II or higher, the damage increases by 1d8 for each mark above the first.</p>\n"
+    "html": "<p>Place a proximity mine within <me-distance length=\"5\" />. On your turn, you may use a bonus action to arm or\ndisarm the mine, as long as you are within <me-distance length=\"500\" /> of it. While armed, any creature that moves within\n<me-distance length=\"5\" /> of the mine detonates it. If you arm the mine while a creature is within <me-distance length=\"5\" />\nof it, it detonates immediately.</p>\n<p>A creature can spot the mine with a successful DC 15 Wisdom (Perception).</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates.\nAdditionally, a successful ranged attack on the mine (AC 10) will destroy the mine if is it is disarmed or detonate it\nif it is armed.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"5\" adj/>-radius sphere centred on the mine must\nsuffers thunder damage (see below).</p>\n<p>The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d8</td>\n<td>900 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d8</td>\n<td>1,800 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d8</td>\n<td>2,700 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>4d8</td>\n<td>3,600 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d8</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>6d8</td>\n<td>5,400 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>7d8</td>\n<td>6,300 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>8d8</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>9d8</td>\n<td>8,100 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>10d8</td>\n<td>9,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Quantum_Displacer.exe",
@@ -606,10 +633,10 @@
       "damageType": "thunder"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Launch a recon mine to a location of your choice within <me-distance length=\"25\" />. It first sticks to the target\nlocation then scans enemies within a <me-distance length=\"25\" /> cone, relaying tactical weak points about the enemy's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone loses 1 AC.\nEach creature can only be affected by this debuff once.</p>\n<p>You may spend another action to detonate the mine. Each creature within <me-distance length=\"5\" /> must make a\nDC 13 Dexterity saving throw. On a failed save, a creature takes 2d4 thunder damage, or half as much damage on a\nsuccessful one.</p>\n<p>Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.</p>\n<p>To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.</p>\n<p>A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within <me-distance length=\"5\" />\nof the mine takes 2d4 thunder damage.</p>\n<p><strong>At higher marks</strong>: When you use this mine at Mark II or higher, the size of the cone increases by\n<me-distance length=\"5\" /> for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Launch a recon mine to a location of your choice within <me-distance length=\"25\" />. It first sticks to the target\nlocation then scans creatures within a <me-distance length=\"25\" adj/> cone, relaying tactical weak points about the creature's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to\nits AC and cannot benefit from being <me-condition id=\"invisible\"/>. Each creature can only be affected by this penalty once.</p>\n<p>A creature can spot the mine with a successful DC 10 Wisdom (Perception).</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it. You may also use a bonus action on your turn to detonate the mine.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"5\" adj/>-radius sphere centred on the mine must\nmake a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.</p>\n<p>The mark of this mine determines the DC of its AC penalty, Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>AC Penalty</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>-1</td>\n<td>11</td>\n<td>2d4</td>\n<td>6,000 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>-1</td>\n<td>13</td>\n<td>2d4</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>-1</td>\n<td>13</td>\n<td>4d4</td>\n<td>4,000 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>-1</td>\n<td>15</td>\n<td>4d4</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>-2</td>\n<td>15</td>\n<td>6d4</td>\n<td>7,000 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>-2</td>\n<td>17</td>\n<td>6d4</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>-3</td>\n<td>17</td>\n<td>6d4</td>\n<td>9,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>-3</td>\n<td>18</td>\n<td>7d4</td>\n<td>10,000 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>-3</td>\n<td>18</td>\n<td>8d4</td>\n<td>11,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>-4</td>\n<td>19</td>\n<td>8d4</td>\n<td>13,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Riot Shield",
@@ -643,10 +670,10 @@
       "damageType": null
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": 250,
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/>\nradius from the target location. The cloud's area is heavily obscured. The cloud persists for 30 seconds. A moderate\nwind (11 to 20 miles per hour) can disperse the smoke after 1 round, and a strong wind (21 or more miles per hour)\ncan do so immediately.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the radius increases by <me-distance length=\"5\" />\nfor each mark above the first.</p>\n"
+    "rarity": "Common",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/>\ncube centered on the target location (see below). The cloud's area is heavily obscured. The cloud persists for 30 seconds.\nA moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the\nsmoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour)\ncan do so immediately.</p>\n"
   },
   {
     "name": "Spotter_Support_System.exe",
@@ -670,10 +697,10 @@
       "damageType": "thunder"
     },
     "type": "Grenade",
-    "cost": 500,
+    "cost": "Varies",
     "weight": 1,
-    "rarity": "Uncommon",
-    "html": "<p>Target an area within <me-distance length=\"25\" />. At the beginning of your next turn, creatures within\n<me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes\n3d6 thunder damage or half as much damage on a successful one.</p>\n<p>With a sticky grenade, you may choose to make a melee weapon attack on a target creature within\n<me-distance length=\"5\" /> instead, or a ranged weapon attack on a target creature within <me-distance length=\"25\" />.\nAdd your Dexterity modifier to the attack. Do not add your proficiency bonus to the attack unless you have the\nGrenadier feat. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically\nfails its saving throw. On a miss, the grenade lands within <me-distance length=\"5\" /> of the target.</p>\n<p><strong>At higher marks</strong>: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>\n"
+    "rarity": "Varies",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. At the beginning of your next turn, creatures within\n<me-distance length=\"10\" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers\nthunder damage (see below) or half as much damage on a successful one.</p>\n<p>With a sticky grenade, you may choose to make a melee weapon attack on a target creature within\n<me-distance length=\"5\" /> instead, or a ranged weapon attack on a target creature within <me-distance length=\"25\" />.\nAdd your Dexterity modifier to the attack. Do not add your proficiency bonus to the attack unless you have the\nGrenadier feat. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically\nfails its saving throw. On a miss, the grenade lands within <me-distance length=\"5\" /> of the target.</p>\n<p>The mark of this grenade determines its Save DC, damage, and cost.</p>\n<v-simple-table><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d6</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d6</td>\n<td>7,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d6</td>\n<td>8,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d6</td>\n<td>9,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "name": "Sync Laser",
@@ -712,6 +739,15 @@
     "weight": 0,
     "html": "<p><em>Can only be used by humans</em></p>\n<p>This is an experimental, Cerberus-funded VI was created in the pursuit of a perfect AI that will put the protection of\nhumanity first and foremost. While it never achieved true AI status, this VI is highly advanced and single-mindedly\ndevoted to protecting &amp; enabling humanity.</p>\n<p>When you activate this program, designate one ranged weapon to install Terra Angelis onto. This weapon now has +3 to\nattack and damage rolls. The first time you attack with this weapon on each of your turns, you can choose to transfer\nsome or all of the weapon's bonus to your AC, instead of using the bonus on any of your attacks for that turn\n(i.e., add +2 to AC and +1 to attack/damage rolls). The adjusted bonuses remain until the start of your next turn,\nalthough you must be wielding the weapon to gain the benefits.</p>\n",
     "id": "terra-angelis-exe"
+  },
+  {
+    "name": "Heavy Weapon Charge",
+    "type": "Ammo",
+    "cost": 10,
+    "weight": 0,
+    "rarity": "Common",
+    "html": "<p>A detachable heat sink used to disperse heat generated by many ranged weapons. Thermal clips are interchangable with all\ntypes of weapons. The amount of heat it can disperse before it can no longer be used depends on the weapon.</p>\n<p><strong>Use.</strong> You use a thermal clip when you take the Reload action.</p>\n<p>See <nuxt-link to=\"/rules/equipment#thermal-clips\">Rules &gt; Equipment &gt; Thermal Clips</nuxt-link></p>\n",
+    "id": "thermal-clip"
   },
   {
     "name": "Thermic_Overvent.exe",

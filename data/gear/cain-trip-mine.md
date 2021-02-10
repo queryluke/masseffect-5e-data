@@ -7,20 +7,34 @@ stats:
   blast: 5
   damageType: thunder
 type: Grenade
-cost: 500
+cost: Varies
 weight: 1
-rarity: Uncommon
+rarity: Varies
 ---
 Launch a Cain Trip Mine to a point you can see within <me-distance length="50" />. The mine affixes to a solid surface and projects
-a beam <me-distance length="15" /> tripwire. When a creature or object passes through the tripwire, the mine explodes. Any creature within a <me-distance length="5" />
-sphere must make a DC 13 Dexterity saving throw. A creature takes 2d12 thunder damage on a failed save or half as much
-damage on a successful one.
+a beam <me-distance length="15" /> tripwire. When a creature or object passes through the tripwire, the mine detonates.
 
-Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.
+A creature can spot the mine with a successful DC 13 Wisdom (Perception).
 
-To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes
-the mine to explode. The creature that made the hacking check has disadvantage on its saving throw.
+To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and
+the creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the
+mine (AC 10) will detonate it.
 
-A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within <me-distance length="5" /> of the mine takes 2d12 thunder damage.
+When the mine detonates, each creature within a <me-distance length="10" adj/>-radius sphere centred on the mine must
+make a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save
+or half as much damage on a successful one.
 
-__At higher marks__: When you use this mine at Mark II or higher, the damage increases by 1d12 for each mark above the first.
+The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.
+
+Mark|Rarity|Intelligence (Electronics) DC|Damage|Credits
+---|---|---|---|---
+I|Common|11|1d12|3,300 credits
+II|Common|13|2d12|4,600 credits
+III|Uncommon|13|3d12|5,900 credits
+IV|Uncommon|15|4d12|7,200 credits
+V|Rare|15|5d12|8,500 credits
+VI|Rare|17|6d12|9,800 credits
+VII|Very Rare|17|7d12|11,100 credits
+VIII|Very Rare|18|8d12|12,400 credits
+IX|Very Rare|18|9d12|13,700 credits
+X|Spectre|19|10d12|15,000

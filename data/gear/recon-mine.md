@@ -7,26 +7,38 @@ stats:
   blast: 5
   damageType: thunder
 type: Grenade
-cost: 500
+cost: Varies
 weight: 1
-rarity: Uncommon
+rarity: Varies
 ---
-Launch a recon mine to a location of your choice within <me-distance length="25" />. It first sticks to the target 
-location then scans enemies within a <me-distance length="25" /> cone, relaying tactical weak points about the enemy's 
-armor and location. After your turn ends, any hostile creature that walks through the scanning cone loses 1 AC. 
-Each creature can only be affected by this debuff once.
+Launch a recon mine to a location of your choice within <me-distance length="25" />. It first sticks to the target
+location then scans creatures within a <me-distance length="25" adj/> cone, relaying tactical weak points about the creature's
+armor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to
+its AC and cannot benefit from being <me-condition id="invisible"/>. Each creature can only be affected by this penalty once.
 
-You may spend another action to detonate the mine. Each creature within <me-distance length="5" /> must make a 
-DC 13 Dexterity saving throw. On a failed save, a creature takes 2d4 thunder damage, or half as much damage on a 
-successful one.
+A creature can spot the mine with a successful DC 10 Wisdom (Perception).
 
-Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.
+To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and
+the creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the
+mine (AC 10) will detonate it. You may also use a bonus action on your turn to detonate the mine.
 
-To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes
-the mine to explode. The creature that made the hacking check has disadvantage on its saving throw.
+When the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
+make a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save
+or half as much damage on a successful one.
 
-A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within <me-distance length="5" />
-of the mine takes 2d4 thunder damage.
+The mark of this mine determines the DC of its AC penalty, Intelligence (Electronics) check, damage, and credits.
 
-__At higher marks__: When you use this mine at Mark II or higher, the size of the cone increases by 
-<me-distance length="5" /> for each mark above the first.
+Mark|Rarity|AC Penalty|Intelligence (Electronics) DC|Damage|Credits
+---|---|---|---|---|---
+I|Common|-1|11|2d4|6,000 credits
+II|Common|-1|13|2d4|6,500 credits
+III|Uncommon|-1|13|4d4|4,000 credits
+IV|Uncommon|-1|15|4d4|4,500 credits
+V|Rare|-2|15|6d4|7,000 credits
+VI|Rare|-2|17|6d4|7,500 credits
+VII|Very Rare|-3|17|6d4|9,000 credits
+VIII|Very Rare|-3|18|7d4|10,000 credits
+IX|Very Rare|-3|18|8d4|11,000 credits
+X|Spectre|-4|19|8d4|13,000 credits
+
+

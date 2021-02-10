@@ -7,12 +7,25 @@ stats:
   blast: 5
   damageType: thunder
 type: Grenade
-cost: 500
+cost: Varies
 weight: 1
-rarity: Uncommon
+rarity: Varies
 ---
-Target a creature you can see within <me-distance length="25" />. The target creature takes 1d6 thunder damage. Each other creature
-within <me-distance length="5" /> of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature takes 1d6 thunder damage
+Target a creature you can see within <me-distance length="25" />. The target creature suffers thunder damage (see below). Each other creature
+within <me-distance length="5" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage
 or half as much on a successful one.
 
-__At higher marks__: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.
+The mark of this grenade determines its Save DC, damage, and credits.
+
+Mark|Rarity|Save DC|Damage|Credits
+---|---|---|---|---
+I|Common|10|1d6|700 credits
+II|Common|11|2d6|1,400 credits
+III|Uncommon|11|3d6|2,100 credits
+IV|Uncommon|13|3d6|3,100 credits
+V|Rare|13|5d6|4,500 credits
+VI|Rare|15|5d6|5,500 credits
+VII|Very Rare|15|6d6|6,200 credits
+VIII|Very Rare|16|6d6|6,700 credits
+IX|Very Rare|16|7d6|7,400 credits
+X|Spectre|17|8d6|8,600 credits

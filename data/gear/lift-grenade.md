@@ -7,12 +7,24 @@ stats:
   blast: 10
   damageType: utility
 type: Grenade
-cost: 500
+cost: Varies
 weight: 1
-rarity: Uncommon
+rarity: Varies
 ---
-Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a DC 13 Strength saving throw.
+Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a Strength saving throw.
 On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
 
-__At higher marks__: When you use this grenade at Mark II or higher, the DC of the Strength saving throw increases
-by 1 for each mark above the first.
+The mark of this grenade determines its Save DC and credits.
+
+Mark|Rarity|Save DC|Credits
+---|---|---|---
+I|Common|11|500 credits
+II|Common|12|1,500 credits
+III|Uncommon|13|2,500 credits
+IV|Uncommon|14|3,500 credits
+V|Rare|15|4,500 credits
+VI|Rare|16|5,500 credits
+VII|Very Rare|17|6,500 credits
+VIII|Very Rare|18|7,500 credits
+IX|Very Rare|19|8,500 credits
+X|Spectre|20|9,500 credits

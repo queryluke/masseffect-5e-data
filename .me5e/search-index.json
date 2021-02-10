@@ -1212,7 +1212,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . Each creature within  of the target must make a DC 13 Dexterity saving throw.\nA creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.\nAt higher marks: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.\nundefined"
+    "body": "Target an area within . Each creature within  of the target must make a Dexterity saving throw.\nA creature takes lightning damage on a failed save, or half as much damage on a successful one.\nThe mark of this grenade determines its Save DC, damage, and cost.\n\n\nMark\nRarity\nSave DC\nDamage\nCost\n\n\n\n\nI\nCommon\n11\n2d6\n1,400 credits\n\n\nII\nCommon\n13\n2d6\n2,400 credits\n\n\nIII\nUncommon\n13\n3d6\n3,100 credits\n\n\nIV\nUncommon\n15\n3d6\n4,100 credits\n\n\nV\nRare\n15\n5d6\n5,500 credits\n\n\nVI\nRare\n17\n5d6\n6,500 credits\n\n\nVII\nVery Rare\n17\n6d6\n7,200 credits\n\n\nVIII\nVery Rare\n18\n6d6\n7,700 credits\n\n\nIX\nVery Rare\n18\n7d6\n8,400 credits\n\n\nX\nSpectre\n19\n8d6\n9,600 credits\n\n\nundefined"
   },
   {
     "id": "arcade-game",
@@ -1248,7 +1248,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Launch a Cain Trip Mine to a point you can see within . The mine affixes to a solid surface and projects\na beam  tripwire. When a creature or object passes through the tripwire, the mine explodes. Any creature within a \nsphere must make a DC 13 Dexterity saving throw. A creature takes 2d12 thunder damage on a failed save or half as much\ndamage on a successful one.\nCreatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.\nTo disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.\nA successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within  of the mine takes 2d12 thunder damage.\nAt higher marks: When you use this mine at Mark II or higher, the damage increases by 1d12 for each mark above the first.\nundefined"
+    "body": "Launch a Cain Trip Mine to a point you can see within . The mine affixes to a solid surface and projects\na beam  tripwire. When a creature or object passes through the tripwire, the mine detonates.\nA creature can spot the mine with a successful DC 13 Wisdom (Perception).\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d12\n3,300 credits\n\n\nII\nCommon\n13\n2d12\n4,600 credits\n\n\nIII\nUncommon\n13\n3d12\n5,900 credits\n\n\nIV\nUncommon\n15\n4d12\n7,200 credits\n\n\nV\nRare\n15\n5d12\n8,500 credits\n\n\nVI\nRare\n17\n6d12\n9,800 credits\n\n\nVII\nVery Rare\n17\n7d12\n11,100 credits\n\n\nVIII\nVery Rare\n18\n8d12\n12,400 credits\n\n\nIX\nVery Rare\n18\n9d12\n13,700 credits\n\n\nX\nSpectre\n19\n10d12\n15,000\n\n\nundefined"
   },
   {
     "id": "cardio-muscular-optimizer-exe",
@@ -1284,7 +1284,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . Each creature within  of the target must make a DC 16 Dexterity saving throw.\nA creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.\nAt higher marks: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.\nundefined"
+    "body": "Target an area within . Each creature within  of the target must make a Dexterity saving throw.\nA creature takes thunder damage on a failed save, or half as much damage on a successful one.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n13\n2d6\n2,400 credits\n\n\nII\nCommon\n15\n2d6\n3,400 credits\n\n\nIII\nUncommon\n15\n3d6\n4,100 credits\n\n\nIV\nUncommon\n17\n3d6\n5,100 credits\n\n\nV\nRare\n17\n5d6\n6,500 credits\n\n\nVI\nRare\n19\n5d6\n7,500 credits\n\n\nVII\nVery Rare\n19\n6d6\n8,200 credits\n\n\nVIII\nVery Rare\n21\n6d6\n9,200 credits\n\n\nIX\nVery Rare\n21\n7d6\n9,900 credits\n\n\nX\nSpectre\n23\n8d6\n11,600 credits\n\n\nundefined"
   },
   {
     "id": "cobra-missile-launcher",
@@ -1401,7 +1401,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . Each creature within  of the target must make a DC 13 Constitution saving throw.\nOn a failed save, a creature is blinded until the end of your next turn.\nAt higher marks: When you use this grenade at Mark II or higher, the DC of the Constitution saving throw increases\nby 1 for each mark above the first.\nundefined"
+    "body": "Target an area within . Each creature within  of the target must make a Constitution saving throw.\nOn a failed save, a creature is blinded until the end of your next turn.\nThe mark of this grenade determines its Save DC and credits.\n\n\nMark\nRarity\nSave DC\nCredits\n\n\n\n\nI\nCommon\n11\n500 credits\n\n\nII\nCommon\n12\n1,500 credits\n\n\nIII\nUncommon\n13\n2,500 credits\n\n\nIV\nUncommon\n14\n3,500 credits\n\n\nV\nRare\n15\n4,500 credits\n\n\nVI\nRare\n16\n5,500 credits\n\n\nVII\nVery Rare\n17\n6,500 credits\n\n\nVIII\nVery Rare\n18\n7,500 credits\n\n\nIX\nVery Rare\n19\n8,500 credits\n\n\nX\nSpectre\n20\n9,500 credits\n\n\nundefined"
   },
   {
     "id": "frag-grenade",
@@ -1410,7 +1410,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . Each creature within  of the target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.\nAt higher marks: When you use this grenade at Mark II or higher, the damage increases by 1d12 for each mark above the first.\nundefined"
+    "body": "Target an area within . Each creature within  of the target must make a Dexterity saving throw.\nOn a failed save, a creature takes piercing damage or half as much damage on a successful one.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d12\n1,300 credits\n\n\nII\nCommon\n13\n2d12\n3,600 credits\n\n\nIII\nUncommon\n13\n3d12\n4,900 credits\n\n\nIV\nUncommon\n15\n3d12\n5,900 credits\n\n\nV\nRare\n15\n5d12\n8,500 credits\n\n\nVI\nRare\n17\n5d12\n9,500 credits\n\n\nVII\nVery Rare\n17\n6d12\n10,800 credits\n\n\nVIII\nVery Rare\n18\n6d12\n11,300 credits\n\n\nIX\nVery Rare\n18\n7d12\n12,600 credits\n\n\nX\nSpectre\n19\n8d12\n14,400 credits\n\n\nundefined"
   },
   {
     "id": "galaxy-of-fantasy-link",
@@ -1440,13 +1440,22 @@
     "body": "A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of\nsecurity counter-measure scripts, and an air-gapped computer interface.\nundefined"
   },
   {
+    "id": "heavy-weapon-charge",
+    "title": "Heavy Weapon Charge",
+    "type": "equipment",
+    "subType": "gear",
+    "qualifiers": [],
+    "link": null,
+    "body": "A heavy weapon charge is a generic term that can refer to a missile, energy source, or\nraw material. Heavy weapons require charges to be used. Generally, heavy weapon charges are not available to purchase\nby the general public. They must be bought at your local black market dealer or obtained from a military connection.\nUse. Each heavy weapon has a maximum number of charges it can hold at one time. Loading new charges into a weapon\nrequires 1 heavy weapon charge and the Reload action.\nSee Rules &gt; Equipment &gt; Heavy Weapon Charges\nundefined"
+  },
+  {
     "id": "homing-grenade",
     "title": "Homing Grenade",
     "type": "equipment",
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target a creature you can see within . The target creature takes 1d6 thunder damage. Each other creature\nwithin  of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature takes 1d6 thunder damage\nor half as much on a successful one.\nAt higher marks: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.\nundefined"
+    "body": "Target a creature you can see within . The target creature suffers thunder damage (see below). Each other creature\nwithin  of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage\nor half as much on a successful one.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n10\n1d6\n700 credits\n\n\nII\nCommon\n11\n2d6\n1,400 credits\n\n\nIII\nUncommon\n11\n3d6\n2,100 credits\n\n\nIV\nUncommon\n13\n3d6\n3,100 credits\n\n\nV\nRare\n13\n5d6\n4,500 credits\n\n\nVI\nRare\n15\n5d6\n5,500 credits\n\n\nVII\nVery Rare\n15\n6d6\n6,200 credits\n\n\nVIII\nVery Rare\n16\n6d6\n6,700 credits\n\n\nIX\nVery Rare\n16\n7d6\n7,400 credits\n\n\nX\nSpectre\n17\n8d6\n8,600 credits\n\n\nundefined"
   },
   {
     "id": "inferno-grenade",
@@ -1455,7 +1464,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . Each creature within  of the target must make a DC 13 Dexterity saving throw.\nOn a failed save, a creature takes 3d4 fire or half as much on a successful one. The area within a  radius, centered on the target\ncontinues to burn for 1 minute.\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.\nAt higher marks: When you use this grenade at Mark II or higher, the damage increases by 1d4 for each mark above the first.\nundefined"
+    "body": "Target an area within . Each creature within  of the target must make a Dexterity saving throw.\nOn a failed save, a creature suffers fire damage or half as much on a successful one. The area within a  radius, centered on the target\ncontinues to burn for 1 minute.\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n2d4\n1,00 credits\n\n\nII\nCommon\n13\n2,000 credits\n\n\n\nIII\nUncommon\n13\n3d4\n2,500 credits\n\n\nIV\nUncommon\n15\n3d4\n3,500 credits\n\n\nV\nRare\n15\n5d4\n4,500 credits\n\n\nVI\nRare\n17\n5d4\n5,500 credits\n\n\nVII\nVery Rare\n17\n6d4\n6,000 credits\n\n\nVIII\nVery Rare\n18\n6d4\n6,500 credits\n\n\nIX\nVery Rare\n18\n7d4\n7,000 credits\n\n\nX\nSpectre\n19\n8d4\n8,000 credits\n\n\nundefined"
   },
   {
     "id": "kepesh-yakshi",
@@ -1473,7 +1482,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . Each creature within  of the target must make a DC 13 Strength saving throw.\nOn a failed save, a creature is lifted until the end of your next turn.\nAt higher marks: When you use this grenade at Mark II or higher, the DC of the Strength saving throw increases\nby 1 for each mark above the first.\nundefined"
+    "body": "Target an area within . Each creature within  of the target must make a Strength saving throw.\nOn a failed save, a creature is lifted until the end of your next turn.\nThe mark of this grenade determines its Save DC and credits.\n\n\nMark\nRarity\nSave DC\nCredits\n\n\n\n\nI\nCommon\n11\n500 credits\n\n\nII\nCommon\n12\n1,500 credits\n\n\nIII\nUncommon\n13\n2,500 credits\n\n\nIV\nUncommon\n14\n3,500 credits\n\n\nV\nRare\n15\n4,500 credits\n\n\nVI\nRare\n16\n5,500 credits\n\n\nVII\nVery Rare\n17\n6,500 credits\n\n\nVIII\nVery Rare\n18\n7,500 credits\n\n\nIX\nVery Rare\n19\n8,500 credits\n\n\nX\nSpectre\n20\n9,500 credits\n\n\nundefined"
   },
   {
     "id": "m-100-grenade-launcher",
@@ -1521,6 +1530,15 @@
     "body": "As an Attack, choose a location within  and begin targeting. If you remain targeting until\nthe start of your next turn, you can choose to continue targeting, consuming another charge, or you may use an Attack\nto fire the Cain. When fired, any creature within  of the target location automatically fails\nthe saving throw. Creatures within  of the target make a DC 18 Dexterity saving throw.\nOn a failed save, a creature takes X + 5d12 radiant damage where X is the number of charges you used multiplied by 2.\nOn a success, a creature takes half damage.\nundefined"
   },
   {
+    "id": "medi-gel",
+    "title": "Medi-gel",
+    "type": "equipment",
+    "subType": "gear",
+    "qualifiers": [],
+    "link": null,
+    "body": "An all-purpose medicinal salve combining an anaesthetic and clotting agent.\nUse. When you use this item, you or a willing creature within 2m regains hit points equal to the medi-gel's potency.\n\n\nType\nRarity\nCost\nHP Regained\n\n\n\n\nStandard\nCommon\n200 credits\n2d4 + 2\n\n\nEnhanced\nUncommon\n500 credits\n4d4 + 4\n\n\nSuperior\nRare\n1,500 credits\n8d4+8\n\n\nUltimate\nVery Rare\nMilitary\n10d4 + 20\n\n\nSee Rules &gt; Equipment &gt; Medi-gel\nundefined"
+  },
+  {
     "id": "medical-kit",
     "title": "Medical Kit",
     "type": "equipment",
@@ -1545,7 +1563,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target 3 areas within . Each creature within  of each target must\nmake a DC 13 Dexterity saving throw. On a failed save, a creature takes 1d4 piercing damage or half as much on a successful one.\nAt higher marks: When you use this grenade at Mark II or higher, you may target one additional area for each mark above the first.\nundefined"
+    "body": "Target 3 areas within . Each creature within  of each target must\nmake a Dexterity saving throw. On a failed save, a creature takes piercing damage or half as much on a successful one.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d4\n1,500 credits\n\n\nII\nCommon\n13\n1d4\n2,500 credits\n\n\nIII\nUncommon\n13\n3d4\n5,500 credits\n\n\nIV\nUncommon\n15\n3d4\n6,500 credits\n\n\nV\nRare\n15\n5d4\n9,500 credits\n\n\nVI\nRare\n17\n5d4\n10,500 credits\n\n\nVII\nVery Rare\n17\n6d4\n12,000 credits\n\n\nVIII\nVery Rare\n18\n6d4\n12,500 credits\n\n\nIX\nVery Rare\n18\n7d4\n14,000 credits\n\n\nX\nSpectre\n19\n8d4\n16,000 credits\n\n\nundefined"
   },
   {
     "id": "musical-instrument",
@@ -1555,6 +1573,15 @@
     "qualifiers": [],
     "link": null,
     "body": "The plethora of types of musical instrument are too varied to count. The cost of an instrument\nlargely depends on the size, shape, construction, and quality (i.e. fabricated or hand-made). 500 credits is the\naverage price for a mid-range, pre-fabricated instrument.\nundefined"
+  },
+  {
+    "id": "omni-gel",
+    "title": "Omni-gel",
+    "type": "equipment",
+    "subType": "gear",
+    "qualifiers": [],
+    "link": null,
+    "body": "Omni-gel is a technological material that can be obtained by breaking down unwanted items, such as weapons, armor, and\nupgrades. Doing so will usually give an amount of omni-gel based on the item that was dismantled.\nSee Rules &gt; Equipment &gt; Omni-gel\nundefined"
   },
   {
     "id": "painters-supplies",
@@ -1590,7 +1617,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Place a proximity mine within . The first creature, besides yourself, that comes within\n of the mine takes 1d8 thunder damage.\nCreatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.\nTo disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.\nA successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within \nof the mine takes 1d8 thunder damage.\nAt higher marks: When you use this mine at Mark II or higher, the damage increases by 1d8 for each mark above the first.\nundefined"
+    "body": "Place a proximity mine within . On your turn, you may use a bonus action to arm or\ndisarm the mine, as long as you are within  of it. While armed, any creature that moves within\n of the mine detonates it. If you arm the mine while a creature is within \nof it, it detonates immediately.\nA creature can spot the mine with a successful DC 15 Wisdom (Perception).\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates.\nAdditionally, a successful ranged attack on the mine (AC 10) will destroy the mine if is it is disarmed or detonate it\nif it is armed.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nsuffers thunder damage (see below).\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d8\n900 credits\n\n\nII\nCommon\n13\n2d8\n1,800 credits\n\n\nIII\nUncommon\n13\n3d8\n2,700 credits\n\n\nIV\nUncommon\n15\n4d8\n3,600 credits\n\n\nV\nRare\n15\n5d8\n4,500 credits\n\n\nVI\nRare\n17\n6d8\n5,400 credits\n\n\nVII\nVery Rare\n17\n7d8\n6,300 credits\n\n\nVIII\nVery Rare\n18\n8d8\n7,200 credits\n\n\nIX\nVery Rare\n18\n9d8\n8,100 credits\n\n\nX\nSpectre\n19\n10d8\n9,000 credits\n\n\nundefined"
   },
   {
     "id": "quantum-displacer-exe",
@@ -1617,7 +1644,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Launch a recon mine to a location of your choice within . It first sticks to the target\nlocation then scans enemies within a  cone, relaying tactical weak points about the enemy's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone loses 1 AC.\nEach creature can only be affected by this debuff once.\nYou may spend another action to detonate the mine. Each creature within  must make a\nDC 13 Dexterity saving throw. On a failed save, a creature takes 2d4 thunder damage, or half as much damage on a\nsuccessful one.\nCreatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.\nTo disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the hacking check causes\nthe mine to explode. The creature that made the hacking check has disadvantage on its saving throw.\nA successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within \nof the mine takes 2d4 thunder damage.\nAt higher marks: When you use this mine at Mark II or higher, the size of the cone increases by\n for each mark above the first.\nundefined"
+    "body": "Launch a recon mine to a location of your choice within . It first sticks to the target\nlocation then scans creatures within a  cone, relaying tactical weak points about the creature's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to\nits AC and cannot benefit from being invisible. Each creature can only be affected by this penalty once.\nA creature can spot the mine with a successful DC 10 Wisdom (Perception).\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it. You may also use a bonus action on your turn to detonate the mine.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its AC penalty, Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nAC Penalty\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n-1\n11\n2d4\n6,000 credits\n\n\nII\nCommon\n-1\n13\n2d4\n6,500 credits\n\n\nIII\nUncommon\n-1\n13\n4d4\n4,000 credits\n\n\nIV\nUncommon\n-1\n15\n4d4\n4,500 credits\n\n\nV\nRare\n-2\n15\n6d4\n7,000 credits\n\n\nVI\nRare\n-2\n17\n6d4\n7,500 credits\n\n\nVII\nVery Rare\n-3\n17\n6d4\n9,000 credits\n\n\nVIII\nVery Rare\n-3\n18\n7d4\n10,000 credits\n\n\nIX\nVery Rare\n-3\n18\n8d4\n11,000 credits\n\n\nX\nSpectre\n-4\n19\n8d4\n13,000 credits\n\n\nundefined"
   },
   {
     "id": "riot-shield",
@@ -1644,7 +1671,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . A cloud of thick smoke erupts out in a \nradius from the target location. The cloud's area is heavily obscured. The cloud persists for 30 seconds. A moderate\nwind (11 to 20 miles per hour) can disperse the smoke after 1 round, and a strong wind (21 or more miles per hour)\ncan do so immediately.\nAt higher marks: When you use this grenade at Mark II or higher, the radius increases by \nfor each mark above the first.\nundefined"
+    "body": "Target an area within . A cloud of thick smoke erupts out in a \ncube centered on the target location (see below). The cloud's area is heavily obscured. The cloud persists for 30 seconds.\nA moderate wind ( to  per hour) can disperse the\nsmoke after 1 round, and a strong wind ( per hour)\ncan do so immediately.\nundefined"
   },
   {
     "id": "spotter-support-system-exe",
@@ -1662,7 +1689,7 @@
     "subType": "gear",
     "qualifiers": [],
     "link": null,
-    "body": "Target an area within . At the beginning of your next turn, creatures within\n of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes\n3d6 thunder damage or half as much damage on a successful one.\nWith a sticky grenade, you may choose to make a melee weapon attack on a target creature within\n instead, or a ranged weapon attack on a target creature within .\nAdd your Dexterity modifier to the attack. Do not add your proficiency bonus to the attack unless you have the\nGrenadier feat. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically\nfails its saving throw. On a miss, the grenade lands within  of the target.\nAt higher marks: When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.\nundefined"
+    "body": "Target an area within . At the beginning of your next turn, creatures within\n of the target must make a Dexterity saving throw. On a failed save, a creature suffers\nthunder damage (see below) or half as much damage on a successful one.\nWith a sticky grenade, you may choose to make a melee weapon attack on a target creature within\n instead, or a ranged weapon attack on a target creature within .\nAdd your Dexterity modifier to the attack. Do not add your proficiency bonus to the attack unless you have the\nGrenadier feat. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically\nfails its saving throw. On a miss, the grenade lands within  of the target.\nThe mark of this grenade determines its Save DC, damage, and cost.\n\n\nMark\nRarity\nSave DC\nDamage\nCost\n\n\n\n\nI\nCommon\n11\n2d6\n1,400 credits\n\n\nII\nCommon\n13\n2d6\n2,400 credits\n\n\nIII\nUncommon\n13\n3d6\n3,100 credits\n\n\nIV\nUncommon\n15\n3d6\n4,100 credits\n\n\nV\nRare\n15\n5d6\n5,500 credits\n\n\nVI\nRare\n17\n5d6\n6,500 credits\n\n\nVII\nVery Rare\n17\n6d6\n7,200 credits\n\n\nVIII\nVery Rare\n18\n6d6\n7,700 credits\n\n\nIX\nVery Rare\n18\n7d6\n8,400 credits\n\n\nX\nSpectre\n19\n8d6\n9,600 credits\n\n\nundefined"
   },
   {
     "id": "sync-laser",
@@ -1690,6 +1717,15 @@
     "qualifiers": [],
     "link": null,
     "body": "Can only be used by humans\nThis is an experimental, Cerberus-funded VI was created in the pursuit of a perfect AI that will put the protection of\nhumanity first and foremost. While it never achieved true AI status, this VI is highly advanced and single-mindedly\ndevoted to protecting &amp; enabling humanity.\nWhen you activate this program, designate one ranged weapon to install Terra Angelis onto. This weapon now has +3 to\nattack and damage rolls. The first time you attack with this weapon on each of your turns, you can choose to transfer\nsome or all of the weapon's bonus to your AC, instead of using the bonus on any of your attacks for that turn\n(i.e., add +2 to AC and +1 to attack/damage rolls). The adjusted bonuses remain until the start of your next turn,\nalthough you must be wielding the weapon to gain the benefits.\nundefined"
+  },
+  {
+    "id": "thermal-clip",
+    "title": "Heavy Weapon Charge",
+    "type": "equipment",
+    "subType": "gear",
+    "qualifiers": [],
+    "link": null,
+    "body": "A detachable heat sink used to disperse heat generated by many ranged weapons. Thermal clips are interchangable with all\ntypes of weapons. The amount of heat it can disperse before it can no longer be used depends on the weapon.\nUse. You use a thermal clip when you take the Reload action.\nSee Rules &gt; Equipment &gt; Thermal Clips\nundefined"
   },
   {
     "id": "thermic-overvent-exe",

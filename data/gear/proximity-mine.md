@@ -7,19 +7,35 @@ stats:
   blast: 5
   damageType: thunder
 type: Grenade
-cost: 500
+cost: Varies
 weight: 1
 rarity: Uncommon
 ---
-Place a proximity mine within <me-distance length="5" />. The first creature, besides yourself, that comes within 
-<me-distance length="5" /> of the mine takes 1d8 thunder damage.
+Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
+disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, any creature that moves within
+<me-distance length="5" /> of the mine detonates it. If you arm the mine while a creature is within <me-distance length="5" />
+of it, it detonates immediately.
 
-Creatures need to pass a DC 10 Wisdom (Perception) check to notice the mine.
+A creature can spot the mine with a successful DC 15 Wisdom (Perception).
 
-To disarm the mine, a creature must pass a DC 13 Intelligence (Electronics) check. Failing the check causes
-the mine to explode. The creature that made the hacking check has disadvantage on its saving throw.
+To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates.
+Additionally, a successful ranged attack on the mine (AC 10) will destroy the mine if is it is disarmed or detonate it
+if it is armed.
 
-A successful ranged attack on the mine (AC 10) will cause it to explode. Each creature within <me-distance length="5" /> 
-of the mine takes 1d8 thunder damage.
+When the mine detonates, each creature within a <me-distance length="5" adj/>-radius sphere centred on the mine must
+suffers thunder damage (see below).
 
-__At higher marks__: When you use this mine at Mark II or higher, the damage increases by 1d8 for each mark above the first.
+The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.
+
+Mark|Rarity|Intelligence (Electronics) DC|Damage|Credits
+---|---|---|---|---
+I|Common|11|1d8|900 credits
+II|Common|13|2d8|1,800 credits
+III|Uncommon|13|3d8|2,700 credits
+IV|Uncommon|15|4d8|3,600 credits
+V|Rare|15|5d8|4,500 credits
+VI|Rare|17|6d8|5,400 credits
+VII|Very Rare|17|7d8|6,300 credits
+VIII|Very Rare|18|8d8|7,200 credits
+IX|Very Rare|18|9d8|8,100 credits
+X|Spectre|19|10d8|9,000 credits
