@@ -9,7 +9,7 @@ stats:
 type: Grenade
 cost: Varies
 weight: 1
-rarity: Uncommon
+rarity: Varies
 ---
 Place a proximity mine within <me-distance length="5" />. On your turn, you may use a bonus action to arm or
 disarm the mine, as long as you are within <me-distance length="500" /> of it. While armed, any creature that moves within
