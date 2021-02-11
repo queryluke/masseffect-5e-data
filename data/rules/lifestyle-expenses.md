@@ -16,7 +16,16 @@ Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle mig
 rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid
 criminals, but you are unlikely to make powerful connections.
 
-<me-more-info title="Lifestyle Expenses" component="lifestyle-expenses" />
+#### Lifestyle Expenses
+|Lifestyle|Credits / Day|
+|:---|---:|
+|Wretched|-|
+|Squalid|25 credits|
+|Poor|75 credits|
+|Modest|150 credits|
+|Comfortable|250 credits|
+|Wealthy|500 credits|
+|Aristocratic|1,000 credits minimum|
 
 __Wretched__. You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into
 transit tunnels, huddling in alleyways, and relying on the good graces of people better off than you. A

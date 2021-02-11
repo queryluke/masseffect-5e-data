@@ -17,9 +17,14 @@ piece of customizable armor has a set number of mod slots and you can add additi
 time and omni-gel (if crafting) or credits (if purchasing). You must select a mod with a matching armor piece, i.e. chest,
 head, legs, or arms.
 
-<me-more-info title="Customizable Armor Costs" component="customizable-armor-costs" />
-
-<v-btn to="/armor-mods" color="secondary" nuxt>Armor Mods</v-btn>
+#### Customizable Armor Costs Table
+|Slot/Type|Light|Medium|Heavy|Mod Slots _(max)_|Crafting Time/Cost|
+|:---|:---:|:---:|:---:|:---:|---:|
+|Chest|8,000|10,000|12,000|2 _(3)_|24 hours & 10 omni-gel|
+|Arms|2,000|3,000|4,000|0 _(2)_|8 hours & 2 omni-gel|
+|Legs|2,000|3,000|4,000|0 _(2)_|8 hours & 2 omni-gel|
+|Head|5,000|||1 _(3)_|16 hours & 5 omni-gel|
+|__Additional Mod Slots.__ 20,000 credits or 8 hours & 10 omni-gel||||||
 
 ::: alert
 __EXAMPLE ARMOR CREATION__

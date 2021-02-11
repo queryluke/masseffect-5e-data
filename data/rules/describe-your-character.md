@@ -8,7 +8,7 @@ name, physical description, and personality might be the first things that the o
 It’s worth thinking about how these characteristics reflect the character you have in mind. Or you can randomize you
 characters height and weight.
 
-<me-more-info title="Random Height & Weight Table" component="random-height-weight" />
+See: [Appendix > Random Height & Weight Tables](/appendix/random-height-weight)
 
 ### Your Character's Abilities
 Take your character’s ability scores and species into account as you flesh out his or her appearance and personality. A very

@@ -18,9 +18,9 @@ typically won't offer this service for fear of a lawsuit.
 - __Ranged weapon mod slots__. Magazine, Body, Ammo, and Barrel.
 - __Melee weapon mod slots__. Grip, and Strike.
 
-Weapons are only allowed one mod per slot.  For example, the M-8 Avenger cannot have the Ultralight Materials and the 
-Precision Scope, because both of those mods utilize the Body slot. Some mods are limited by weapon type. For example, 
-the Stunner mod is only available for placement on Heavy Pistols and SMGs. Finally, you cannot add weapon mods to any 
+Weapons are only allowed one mod per slot.  For example, the M-8 Avenger cannot have the Ultralight Materials and the
+Precision Scope, because both of those mods utilize the Body slot. Some mods are limited by weapon type. For example,
+the Stunner mod is only available for placement on Heavy Pistols and SMGs. Finally, you cannot add weapon mods to any
 weapon with the _special_ property.
 
 ### Armor Mods
@@ -28,4 +28,4 @@ Installing armor mods requires you to craft or purchase a piece of customizable 
 the Creating Armor section above. Each piece of customizable armor
 has a set number of mod slots. You must select a mod with a matching armor piece, i.e. chest, head, legs, or arms.
 
-<v-btn to="/armor-mods" color="secondary" nuxt>Armor Mods</v-btn> <v-btn to="/weapon-mods" color="secondary" class="ml-3" nuxt>Weapon Mods</v-btn>
+See: [Equipment > Mods](/mods)

@@ -36,7 +36,7 @@ For example, an operative proficient with hacking tools can disable a security s
 Intelligence (Electronics) check, but if the security system required splicing wires, it might require a Dexterity (Sleight of Hand)
 check instead.
 
-<v-btn to="/tools-kits" color="secondary" nuxt>Tools & Kits</v-btn>
+See [Appendix > Tool Proficiencies](/appendix/tool-profs)
 
 <me-source-reference pages="70"></me-source-reference>
 

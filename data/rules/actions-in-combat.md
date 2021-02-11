@@ -16,7 +16,7 @@ what kind of roll you need to make, if any, to determine success or failure.
 The most common action to take in combat is the Attack action, whether you are swinging a sword, firing a gun, or brawling
 with your fists.
 
-With this action, you make one melee or ranged attack. See the "Making an Attack" section for the rules that govern attacks.
+With this action, you make one melee or ranged attack. See the [Making an Attack](/manual/combat/#making-an-attack) section for the rules that govern attacks.
 
 Certain features, such as the Extra Attack feature of the soldier, allow you to make more than one attack with this action.
 

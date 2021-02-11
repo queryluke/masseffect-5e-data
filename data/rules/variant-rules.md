@@ -58,5 +58,3 @@ fuel use the Variant: Mining rules above. On a success, roll a d8 and regain tha
 
 Alternatively, you can pay to refuel at a spaceport. The average rate is 1,000 credits per charge in your tank, but this
 might increase or decrease based on the port.
-
-<v-btn to="/vehicles" color="secondary" nuxt>Vehicle List</v-btn>

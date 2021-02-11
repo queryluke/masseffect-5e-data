@@ -8,9 +8,10 @@ const MarkdownIt = require('markdown-it')
 const md = new MarkdownIt({ html: true })
 
 md.use(require('markdown-it-container'), 'alert')
+    .use(require('markdown-it-multimd-table'))
 
 md.renderer.rules.table_open = function () {
-  return '<v-simple-table><template v-slot:default>'
+  return '<v-simple-table class="mb-8"><template v-slot:default>'
 }
 md.renderer.rules.table_close = function () {
   return '</template></v-simple-table>'
@@ -32,6 +33,13 @@ md.renderer.rules.container_alert_open = function () {
 }
 md.renderer.rules.container_alert_close = function () {
   return '</v-alert>';
+}
+
+md.renderer.rules.image = function (tokens, idx, options, env, self) {
+  const token = tokens[idx]
+  const srcIndex = token.attrIndex('src');
+  const src = token.attrs[srcIndex][1]
+  return `<v-img src="${src}" />`
 }
 
 md.renderer.rules.link_open = function(tokens, idx) {

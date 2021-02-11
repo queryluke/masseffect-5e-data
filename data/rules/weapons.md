@@ -30,7 +30,7 @@ types and all weapons fall into one of the following types.
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons List.
 
-<me-more-info title="Weapon Properties" component="weapon-properties" />
+See: [Appendix > Weapon Properties](/appendix/weapon-properties)
 
 ### Improvised Weapons
 Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes
@@ -56,13 +56,13 @@ about using thermal clips can be found below.
 Heavy Weapons use Charges to track the number of times they can be fired. If you run out of Charges your weapon is nothing more than a hunk of metal.
 
 #### Targeting
-Most Heavy Weapons also use the Targeting condition. Targeting means painting the battlefield or keeping a lock on one 
+Most Heavy Weapons also use the Targeting condition. Targeting means painting the battlefield or keeping a lock on one
 or more creatures for a single round of combat. More information about targeting can be found in [conditions appendix](/phb/appendix/conditions).
 
 
 
 ### Carrying, Holstering, and Drawing Weapons <v-chip color="info" small>new</v-chip>
-You have 4 weapon slots unless a feature or armor mod allows you to have more. __Two-handed__ weapons take up 2 slots. 
+You have 4 weapon slots unless a feature or armor mod allows you to have more. __Two-handed__ weapons take up 2 slots.
 If using the Variant: Encumbrance rule, you can carry as many weapons as your carry capacity will allow.
 
 You can holster one weapon you're wielding or draw one weapon you're carrying as a free action. This is true for all weapon types.

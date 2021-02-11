@@ -38,7 +38,17 @@ Disgruntled crew cause problems. They get in fights, slack off, leave for better
 start a long rest on board your ship, if you have at least 1 disgruntled crew member, roll a d20, add the number of
 disgruntled crew on board to the roll. Then consult the Disgruntled Crew table.
 
-<me-more-info title="Disgruntled Crew" component="disgruntled-crew"/>
+#### Disgruntled Crew Table
+d20 + crew | Effect
+:---:|:---
+1 - 5|Nothing happens.
+6 - 8|A fight breaks out between two crew members. Another member of your crew becomes disgruntled.
+9 - 11|One of your disgruntled crew quits the next time you’re at port.
+12 - 13|A crew member starts an private email chain that infuriates the other crew. Two additional crew become disgruntled.
+14 - 15|All of your disgruntled crew quit the next time you’re at port.
+16 - 17|A crew member forgets to service their system. You must pay 3,000 credits before you can use it again. (If this is the Drive, you ship cannot move between systems)
+18 - 19|A crew member sabotages their system. You must pay 20,000 credits before you can use it again. (If this is the Drive, you ship cannot move between systems)
+20 +|The crew mutinies. They all become hostile and attack your party.
 
 #### Dealing with disgruntled crew
 You reduce the number of disgruntled crew in the following ways:

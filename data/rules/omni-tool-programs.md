@@ -51,5 +51,3 @@ costly, even deadly.
 Unstable Programs are entirely experimental, therefore the number of times you can run the program varies widely. In some
 cases, unstable programs are single-use programs that are hacked for multiple uses. A GM can create an Unstable Program
 from a Single-Use program by assigning a die roll (d4, d6, etc) to the number of times the program can be used.
-
-<v-btn to="/programs" color="secondary" nuxt>Omni-tool programs</v-btn>

@@ -16,4 +16,4 @@ Enhanced|Uncommon|500 credits|4d4 + 4
 Superior|Rare|1,500 credits|8d4+8
 Ultimate|Very Rare|Military|10d4 + 20
 
-See [Rules > Equipment > Medi-gel](/rules/equipment#medi-gel)
+See: [Rules > Equipment > Medi-gel](/manual/equipment#medi-gel)

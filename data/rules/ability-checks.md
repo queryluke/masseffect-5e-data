@@ -14,7 +14,14 @@ table shows the most common DCs.
 
 
 ### Typical Difficulty Classes
-<me-more-info title="Typical Difficulty Classes table" component="typical-difficulty-classes-table" />
+Task Difficulty|DC
+---|---
+Very Easy|5
+Easy|10
+Medium|15
+Hard|20
+Very Hard|25
+Nearly Impossible|30
 
 To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and
 penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success -
@@ -60,7 +67,7 @@ respectively. So a character who has proficiency in the Stealth skill is particu
 to sneaking and hiding.
 
 The skills related to each ability score are shown in the following list. No skills are related to Constitution. See an
-ability's description in the [Appendix: Skills](/phb/appendix/skills) for examples of how to use a skill associated with an ability.
+ability's description in the [Appendix: Skills](/appendix/skills) for examples of how to use a skill associated with an ability.
 
 #### Strength
 - Athletics

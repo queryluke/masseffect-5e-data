@@ -10,7 +10,14 @@ The six abilities and their use in the game are described in the [Using Ability 
 section. The Ability Score Summary provides a quick reference for what qualities are measured by each ability, what species
 increases which abilities, and what classes consider each ability particularly important.
 
-<me-more-info title="Ability Score summary" component="ability-score-summary" />
+|Ability|Measures|Important For...|
+|:---|:---|:---:|
+|Strength|Natural athleticism, bodily power|soldiers, vanguards|
+|Dexterity|Physical agility, reflexes, balance, poise|soldiers, infiltrators, engineers|
+|Constitution|Health, stamina, vital force|everyone|
+|Intelligence|Mental acuity, information recall, analytical skill|engineer, infiltrator, sentinel|
+|Wisdom|Awareness, intuition, insight, biotic capabilities|adept, vanguard, sentinel|
+|Charisma|Confidence, eloquence, leadership|asari, performers, politicians|
 
 You generate your character’s six ability scores randomly. Roll four 6-sided dice and record the total of the highest
 three dice on a piece of scratch paper. Do this five more times, so that you have six numbers. If you want to save time
@@ -24,8 +31,7 @@ After assigning your ability scores, determine your ability modifiers using the 
 To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the result
 by 2 (round down). Write the modifier next to each of your scores.
 
-
-<me-more-info title="Ability Scores and Modifiers" component="ability-score-modifiers" />
+See: [Rules > Using Ability Scores > Ability Scores and Modifiers](/manual/using-ability-scores#ability-scores-and-modifiers)
 
 ::: alert
 __BUILDING KALEEM, STEP 3__
@@ -51,6 +57,16 @@ This method of determining ability scores enables you to create a set of three h
 15, 8, 8, 8), a set of numbers that are above average and nearly equal (13, 13, 13, 12, 12, 12), or any set of numbers
 between those extremes.
 
-<me-more-info title="Ability Score Point Cost" component="ability-score-point-cost" />
+#### Ability Score Point Cost
+|Score|Cost|
+|:---:|:---:|
+|8|0|
+|9|1|
+|10|2|
+|11|3|
+|12|4|
+|13|5|
+|14|7|
+|15|9|
 
 <me-source-reference pages="7-8" source="basic"></me-source-reference>

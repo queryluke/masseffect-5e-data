@@ -92,7 +92,14 @@ it has the ability to hover or it is being held aloft by biotics, such as by the
 Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a
 particular size controls in combat. Objects sometimes use the same size categories.
 
-<me-more-info title="Size Category" component="size-category" />
+|Size|Space|
+|:---|:---:|
+|Tiny|<me-distance length="3" numOnly /> by <me-distance length="3" abbr />|
+|Small|<me-distance length="5" numOnly /> by <me-distance length="5" abbr />|
+|Medium|<me-distance length="5" numOnly /> by <me-distance length="5" abbr />|
+|Large|<me-distance length="10" numOnly /> by <me-distance length="10" abbr />|
+|Huge|<me-distance length="15" numOnly /> by <me-distance length="15" abbr />|
+|Gargantuan|<me-distance length="20" numOnly /> by <me-distance length="20" abbr /> or larger|
 
 #### Space
 A creature's space is the area in meters that it effectively controls in combat, not an expression of its physical

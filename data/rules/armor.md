@@ -19,7 +19,7 @@ proficiency with, you cannot cast spells.
 __Armor Class (AC)__. Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.
 
 __Shield Points__. <v-chip color="info" small>new</v-chip> All armor chest pieces
-provide some amount of shield points. See the [Shields](/manual/combat#shields) of the combat section for
+provide some amount of shield points. See the [Shields](/manual/combat#shields) section of the combat section for
 more information.
 
 
@@ -32,21 +32,43 @@ Your base AC is 10 and each piece of armor provides an AC bonus depending on its
 the Armor / AC table. Additionally, there are bonuses and limitations for the combination of armor types you are wearing,
 explained in the Armor Bonuses and Limitations table.
 
-__Heavier Armor__. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the 
-Armor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor 
+__Heavier Armor__. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the
+Armor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor
 reduces the wearer’s speed by 4m unless the wearer has a Strength score equal to or higher than the listed score.
 
 For simplicity's sake, you cannot mix armor *within* placements. I.e., you cannot have a heavy piece of on your right arm
 and a light piece of armor on your left.
 
-<me-more-info title="Armor / AC" component="armor-ac" />
-<me-more-info title="Armor Bonuses and Limitations" component="armor-bonuses-limitations" />
+#### Armor/AC
+| Placement/Type | Light | Medium | Heavy |
+| :--- | :---: | :---: | :---: |
+| Chest | +1| +2 | +3 |
+| Arms | +0 | +1 | +2 |
+| Legs | +0 | +1 | +2 |
+| Head | Unless otherwise listed, headware provides no bonus to AC. |||
+
+####  Armor Bonuses and Limitations
+| If you are wearing... | Dexterity Bonus to AC | Strength | Stealth |
+| :--- | :---: | :---: | :---: |
+| 3+ pieces of Heavy armor | - | Str 16 | Disadvantage |
+| 2 pieces of Heavy armor | - | Str 15 | Disadvantage |
+| 1 piece of Heavy armor | - | Str 13 | Disadvantage |
+| 3+ pieces of Medium armor | Max +2 | Str 13 | Disadvantage
+| 2 pieces of Medium armor | Max +2 | Str 12 | - |
+| 1 piece of Medium armor | Max +2 | - | - |
+| Light or no armor | + Dex modifier | - | - |
+| _Body Armor is considered three pieces (arms, chest, and legs)_ |||
 
 #### Variant: Encumbrance
 If you are using the [Variant: Encumbrance](/manual/using-ability-scores#strength) rules,
 use the Armor Piece Weights table to determine the total weight of the armor you're wearing.
 
-<me-more-info title="Armor Piece Weights" component="armor-piece-weights" />
+|Placement/Type|Light|Medium|Heavy|
+|:---|:---:|:---:|:---:|
+|Chest|3kg|6kg|10kg|
+|Arms|1kg|2kg|3kg|
+|Legs|1kg|2kg|3kg|
+|Head|All headware weighs 2kg|||
 
 ### Armor Sets <v-chip color="info" small>new</v-chip>
 Most armor you buy in the galaxy has been mass-produced, these are called __armor sets__. A set is not required to be
@@ -56,26 +78,26 @@ customize armor sets with armor mods and you cannot salvage a beneficial aspect 
 
 Armor sets have an armor type (light, medium, or heavy) which you use for calculating your character's AC.
 
-__Body Armor__ is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body 
-armor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're 
+__Body Armor__ is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body
+armor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're
 wearing the Duelist body armor, you cannot replace the legs from it with the Lockdown Greaves. This rule is, of course, flexible,
-as GMs might allow this type of tinkering in exchange for time, credits, and/or skill checks. 
+as GMs might allow this type of tinkering in exchange for time, credits, and/or skill checks.
 
 
 __Set Bonuses__ are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors
-component pieces working together for a unified integration. Armor with the same base name is part of a set, e.g. __Colossus__ _[item]_. 
+component pieces working together for a unified integration. Armor with the same base name is part of a set, e.g. __Colossus__ _[item]_.
 
-You only receive the benefit once per set and the benefit ends immediately if you fall below the threshold. For example, 
+You only receive the benefit once per set and the benefit ends immediately if you fall below the threshold. For example,
 if a set provides:
 
 ##### Medium Armor
-- __Set Bonus (2 of 4)__: +1 AC 
+- __Set Bonus (2 of 4)__: +1 AC
 - __Set Bonus (4 of 4)__: +1 AC
 
 
-If you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated 
-using the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you _do not_ gain +1 AC 
-for the head _and_ +1 AC for the chest. As soon as you remove either the helmet or the chest 
+If you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated
+using the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you _do not_ gain +1 AC
+for the head _and_ +1 AC for the chest. As soon as you remove either the helmet or the chest
 apiece, you loose the +1 AC bonus.
 
 

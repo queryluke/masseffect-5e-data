@@ -55,7 +55,11 @@ In general, characters can only pilot vehicle for 16 hours at a time before need
 
 More details about traveling in transports and starships are provided in the [vehicles](/manual/vehicles) section.
 
-<me-more-info title="Travel Pace table" component="travel-pace" />
+|Pace|per Minute|per Hour|per Day|Effect|
+|:---|:---:|:---:|:---:|:---:|
+|Fast|<me-distance length="400" />|<me-distance length="4" large />|<me-distance length="30" large />|-5 penalty to passive Wisdom (Perception) scores|
+|Normal|<me-distance length="300" />|<me-distance length="3" large />|<me-distance length="24" large />|-|
+|Slow|<me-distance length="200" />|<me-distance length="2" large />|<me-distance length="18" large />|Able to use stealth|
 
 ### Difficult Terrain
 The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear corridors.

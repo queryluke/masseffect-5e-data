@@ -50,8 +50,31 @@ of their own, but other rules, such as damage resistance, rely on the types.
 
 The damage types follow, with examples to help a GM assign a damage type to a new effect.
 
-<me-more-info title="Damage Types" component="damage-types" />
-
+>__Acid.__ The corrosive spray of a chemical and the dissolving enzymes secreted by thresher maw spit deal damage.
+>
+>__Bludgeoning.__ Blunt force attacks - hammers, falling, constriction, and the like - deal bludgeoning damage.
+>
+>__Cold.__ The painful chill from a cryo beam breath deal cold damage.
+>
+>__Fire.__ Many tech spells use plasma and flames to deal fire damage
+>
+>__Force.__ One of the primary biotic damage types. Mass effect fields that pummel, pierce, or apply pressure deal force damage.
+>
+>__Lightning.__ Shock damage. Any damage done by an electrical discharge or source. Deals double damage to shields.
+>
+>__Necrotic.__ The second biotic damage type. Necrotic damage uses dark energy and  mass effect fields on a subatomic level.
+>
+>__Piercing.__ Puncturing and impaling attacks, including bullets and monsters' bites, deal piercing damage.
+>
+>__Poison.__ Venomous stings, poisoned blades, and the toxic gas deal poison damage.
+>
+>__Psychic.__ A shock to the nervous system, rather than fear or mental damage. But the latter is possible.
+>
+>__Radiant.__ Radiation or damage on a nuclear level, rather than divine light.
+>
+>__Slashing.__ Swords, axes, and monsters' claws deal slashing damage.
+>
+>__Thunder.__ Shockwaves and explosions. Thunder damage is primarily caused by grenades.
 
 ### Damage Resistance and Vulnerability
 Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.

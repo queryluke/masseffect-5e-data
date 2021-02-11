@@ -3,7 +3,8 @@ title: Travel
 section: vehicles
 order: 7
 ---
-<galaxy-map :height="$vuetify.breakpoint.smAndDown ? '80vw' : '50vw'"/>
+![GalaxyMap](https://orig00.deviantart.net/ba03/f/2013/100/0/0/mass_effect_galaxy_map_by_otvert-d5u3tvb.png)
+Mass Effect Galaxy Map by otvert ([Full Size](https://orig00.deviantart.net/ba03/f/2013/100/0/0/mass_effect_galaxy_map_by_otvert-d5u3tvb.png))
 
 ### The Milky Way
 The Milky Way comprises a number of __Clusters__ (represented by the yellow, target icons <v-icon>filter_center_focus</v-icon> on the map).
