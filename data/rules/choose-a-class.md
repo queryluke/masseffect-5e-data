@@ -8,7 +8,7 @@ possesses, and the tactics he or she is most likely to employ when exploring a p
 in a tense negotiation. The character classes are described in the [Classes](/phb/classes) section.
 
 Your character receives a number of benefits from your choice of class. Many of these benefits are class features — capabilities
-(including spellcasting) that set your character apart from members of other classes. You also gain a number of
+(including powercasting) that set your character apart from members of other classes. You also gain a number of
 proficiencies: armor, weapons, skills, saving throws, and sometimes tools. Your proficiencies define many of the things
 your character can do particularly well, from using certain weapons to telling a convincing lie.
 
@@ -44,11 +44,11 @@ The table that appears in your class description shows your proficiency bonus, w
 Your proficiency bonus applies to many of the numbers you’ll be recording on your character sheet:
 
 - Attack rolls using weapons you’re proficient with
-- Attack rolls with spells you cast
+- Attack rolls with powers you cast
 - Ability checks using skills you’re proficient in
 - Ability checks using tools you’re proficient with
 - Saving throws you’re proficient in
-- Saving throw DCs for spells you cast (explained in each spellcasting class)
+- Saving throw DCs for powers you cast (explained in each powercasting class)
 
 Your class determines your weapon proficiencies, your saving throw proficiencies, and some of your skill and tool proficiencies.
 (Skills are described in [Using Ability Scores](/manual/using-ability-scores), tools
@@ -64,7 +64,7 @@ add it only once, multiply it only once, and halve it only once.
 ::: alert
 __BUILDING KALEEM, STEP 2__
 
-Sam imagines Keleem firing tech spells from the safety of cover. She makes Kaleem an engineer and notes the engineers’
+Sam imagines Keleem firing tech powers from the safety of cover. She makes Kaleem an engineer and notes the engineers’
 proficiencies and 1st-level class features on her character sheet.
 
 As a 1st-level engineer, Kaleem has 1 Hit Die, a d8, and starts with hit points equal to 8 + her Constitution modifier.

@@ -4,7 +4,7 @@ section: combat
 order: 6
 ---
 Injury and the risk of death are constant companions of those who explore fantasy gaming worlds. The thrust of a sword,
-a well-placed bullet, or a blast of flame from an incinerate spell all have the potential to damage, or even kill, the
+a well-placed bullet, or a blast of flame from an incinerate power all have the potential to damage, or even kill, the
 hardiest of creatures.
 
 
@@ -24,15 +24,15 @@ __Shield Points__. Creatures wearing armor also benefit from __shield points__ d
 
 
 ### Damage Rolls
-Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any
+Each weapon, power, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any
 modifiers, and apply the damage to your target. Weapons, special abilities, and other factors can grant a bonus to damage.
 With a penalty, it is possible to deal 0 damage, but never negative damage.
 
 When attacking with a weapon, you add your ability modifier - the same modifier used for the attack roll - to the damage.
-A spell tells you which dice to roll for damage and whether to add any modifiers.
+A power tells you which dice to roll for damage and whether to add any modifiers.
 
-If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
-For example, when an adept casts vortex or an engineer casts flamethrower, the spell's damage is rolled once for all
+If a power or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
+For example, when an adept casts vortex or an engineer casts flamethrower, the power's damage is rolled once for all
 creatures caught in the blast.
 
 #### Critical Hits
@@ -45,7 +45,7 @@ add your relevant ability modifier. If the attack involves other damage dice, su
 you roll those dice twice as well.
 
 #### Damage Types <v-chip color="warning" text-color="black" small>change</v-chip>
-Different attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules
+Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules
 of their own, but other rules, such as damage resistance, rely on the types.
 
 The damage types follow, with examples to help a GM assign a damage type to a new effect.
@@ -56,7 +56,7 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 >
 >__Cold.__ The painful chill from a cryo beam breath deal cold damage.
 >
->__Fire.__ Many tech spells use plasma and flames to deal fire damage
+>__Fire.__ Many tech powers use plasma and flames to deal fire damage
 >
 >__Force.__ One of the primary biotic damage types. Mass effect fields that pummel, pierce, or apply pressure deal force damage.
 >
@@ -94,7 +94,7 @@ is reduced by half against the creature, not reduced by three-quarters.
 
 ### Healing
 Unless it results in death, damage isn't permanent. Even death is reversible through experimental cloning. Rest can
-restore a creature's hit points, and medical methods such as a medi-gel or first aid spell can remove damage in an instant.
+restore a creature's hit points, and medical methods such as a medi-gel or first aid power can remove damage in an instant.
 
 When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit
 points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, an
@@ -122,7 +122,7 @@ regain any hit points.
 #### Death Saving Throws
 Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to
 determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any
-ability score. You are in the hands of fate now, aided only by spells and features that improve your chances of
+ability score. You are in the hands of fate now, aided only by powers and features that improve your chances of
 succeeding on a saving throw.
 
 Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself.
@@ -165,7 +165,7 @@ instant the damage is dealt. The creature falls unconscious and is stable.
 
 
 ### Temporary Hit Points
-Some spells and special abilities confer temporary hit points to a creature. Temporary hit points aren't actual hit points;
+Some powers and special abilities confer temporary hit points to a creature. Temporary hit points aren't actual hit points;
 they are a buffer against damage, a pool of hit points that protect you from injury.
 
 When you have temporary hit points and take damage, the temporary hit points are lost first, and any leftover damage

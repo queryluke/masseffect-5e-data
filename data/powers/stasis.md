@@ -14,9 +14,9 @@ duration: 1 minute
 concentration: true
 distance:
   range: 90
-  aoeType: 
-  aoeDistance: 
-detonates: 
+  aoeType:
+  aoeDistance:
+detonates:
 primes: force
 availableClasses:
 - adept
@@ -31,5 +31,5 @@ advancementOptions:
 ---
 Lock a target in a high-gravity mass effect field. Choose a creature you can see within range. The creature must make a
 Strength saving throw. On a failed save, the creature is paralyzed, primed (force), and has resistance to all damage for
-the duration of the spell. At the end of each of its turns, the target can make another Strength saving throw. On a success,
-the spell ends. A detonating attack immediately ends the spell.
+the duration of the power. At the end of each of its turns, the target can make another Strength saving throw. On a success,
+the power ends. A detonating attack immediately ends the power.

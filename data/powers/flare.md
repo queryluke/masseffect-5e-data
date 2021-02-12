@@ -14,10 +14,10 @@ duration: Instant
 concentration: false
 distance:
   range: 150
-  aoeType: 
-  aoeDistance: 
+  aoeType:
+  aoeDistance:
 detonates: x
-primes: 
+primes:
 availableClasses:
 - adept
 advancementOptions:
@@ -32,4 +32,4 @@ up to 4 creatures that you can see within range. Each creature must make a Const
 a creature is <me-condition id="blinded"/> until the end of your next turn and takes radiant damage equal to 6d12. On a
 successful save, a creature takes half damage but suffers no other negative effect.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 5th level, increase the damage by 2d12.
+__At Higher Levels__: When you cast this power using a power slot of 5th level, increase the damage by 2d12.

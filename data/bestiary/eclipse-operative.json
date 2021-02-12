@@ -75,13 +75,13 @@
     "shields": 10,
     "regen": 10
   },
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "int",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "5",
-        "spells": [
+        "powers": [
           {
             "id": "incinerate",
             "higherLevel": 2

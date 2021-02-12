@@ -3,7 +3,7 @@ title: Advantage and Disadvantage
 section: using-ability-scores
 order: 3
 ---
-Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw,
+Sometimes a special ability or power tells you that you have advantage or disadvantage on an ability check, a saving throw,
 or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you
 have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and
 a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
@@ -19,7 +19,7 @@ When you have advantage or disadvantage and something in the game, such as the v
 d20, you can reroll only one of the dice. You choose which one. For example, if a volus has advantage or disadvantage on
 an ability check and rolls a 1 and a 13, the volus could use the Lucky trait to reroll the 1.
 
-You usually gain advantage or disadvantage through the use of special abilities, actions, or spells.
+You usually gain advantage or disadvantage through the use of special abilities, actions, or powers.
 [Inspiration](/manual/beyond-first-level#inspiration) can also give a character advantage. The GM can also decide
 that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 

@@ -17,7 +17,7 @@ distance:
   aoeType: cone
   aoeDistance: 20
 detonates: x
-primes: 
+primes:
 availableClasses:
 - engineer
 - infiltrator
@@ -33,5 +33,5 @@ Fabricate an electrified whip that lashes out in front of you in an <me-distance
 throw. On a failed save, a creature takes 6d6 lightning damage or half as much damage on a successful one.
 
 
-__At Higher Levels__: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d6 for
-each spell slot above the 2nd.
+__At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d6 for
+each power slot above the 2nd.

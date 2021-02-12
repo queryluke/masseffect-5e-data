@@ -59,13 +59,13 @@
       "range": 14
     }
   ],
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "int",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "3/day",
-        "spells": [
+        "powers": [
           {
             "id": "sabotage"
           }

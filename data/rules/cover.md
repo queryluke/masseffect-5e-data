@@ -21,7 +21,7 @@ A target with three-quarters cover has a +5 bonus to AC and Dexterity saving thr
 if about three-quarters of it is covered by an obstacle. The obstacle might be a doorway, a large crate, or a thick tree trunk.
 
 ### Total Cover
-A target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a
+A target with total cover can't be targeted directly by an attack or a power, although some powers can reach such a
 target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
 
 ### Variant: Additional Cover Rules <v-chip color="info" small>new</v-chip>

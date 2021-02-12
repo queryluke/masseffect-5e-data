@@ -12,10 +12,10 @@ duration: 1 minute
 concentration: true
 distance:
   range: Self
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - adept
 - sentinel
@@ -35,7 +35,7 @@ If the damage is an odd number, you may choose where the extra 1 damage is dealt
 
 If damage that would be dealt to the aegis is greater than its remaining hit points, deal any remaining damage to yourself.
 
-When the aegis drops to 0 hit points the spell ends.
+When the aegis drops to 0 hit points the power ends.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 3rd level or higher, the aegis's hit points increase
+__At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, the aegis's hit points increase
 by 10 for each slot level above the 2nd.

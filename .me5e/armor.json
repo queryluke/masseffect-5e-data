@@ -28,7 +28,7 @@
     "armorType": "Medium",
     "description": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
     "setBonus": [
-      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your spells and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
+      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your powers and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
       "Set bonus (4 of 4): When one of your drones hits with a weapon attack, add twice your proficiency bonus to the damage roll."
     ],
     "cost": 17300,
@@ -51,7 +51,7 @@
     "armorType": "Medium",
     "description": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
     "setBonus": [
-      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your spells and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
+      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your powers and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
       "Set bonus (4 of 4): When one of your drones hits with a weapon attack, add twice your proficiency bonus to the damage roll."
     ],
     "cost": 53000,
@@ -75,7 +75,7 @@
     "armorType": "Medium",
     "description": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
     "setBonus": [
-      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your spells and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
+      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your powers and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
       "Set bonus (4 of 4): When one of your drones hits with a weapon attack, add twice your proficiency bonus to the damage roll."
     ],
     "cost": 19000,
@@ -98,7 +98,7 @@
     "armorType": "Medium",
     "description": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
     "setBonus": [
-      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your spells and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
+      "Set bonus (2 of 4): If a target is primed fire, cold or lightning by one of your powers and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn.",
       "Set bonus (4 of 4): When one of your drones hits with a weapon attack, add twice your proficiency bonus to the damage roll."
     ],
     "cost": 17300,
@@ -125,11 +125,11 @@
     "manu": "Devlon Industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/22/ME3_capacitor_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312191432",
     "notes": [
-      "Spell Regen"
+      "Power Regen"
     ],
     "andromeda": false,
     "features": [
-      "As an action, gain 1d4 worth of spell slots or tech points. You can’t use this property again until you finish a long rest."
+      "As an action, gain 1d4 worth of power slots or tech points. You can’t use this property again until you finish a long rest."
     ],
     "id": "archon-visor"
   },
@@ -167,7 +167,7 @@
     ],
     "andromeda": false,
     "features": [
-      "As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or until you make an attack, cast a spell, use a grenade or mine, or fire a heavy weapon. You may use this feature once per short rest."
+      "As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. You may use this feature once per short rest."
     ],
     "id": "assassin-armor"
   },
@@ -198,19 +198,19 @@
     "armorType": "Medium",
     "description": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
     "setBonus": [
-      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1.",
-      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1.",
+      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
     ],
     "cost": 42250,
     "manu": "Armax Arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9c/ME3_Blood_Dragon_Armor.png/revision/latest?cb=20120314192826",
     "notes": [
-      "Spell Regen",
+      "Power Regen",
       "Set Bonus"
     ],
     "andromeda": false,
     "features": [
-      "You regain 1d4 worth of spell slots or tech points when you take a short rest."
+      "You regain 1d4 worth of power slots or tech points when you take a short rest."
     ],
     "id": "blood-dragon-armet"
   },
@@ -221,8 +221,8 @@
     "armorType": "Medium",
     "description": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance. The chest and shoulder piece bears the logo of the Edmonton Blood Dragons, and the inside of the armor bears the signatures of the entire team.",
     "setBonus": [
-      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1.",
-      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1.",
+      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
     ],
     "cost": 70300,
     "manu": "Armax Arsenal",
@@ -245,8 +245,8 @@
     "armorType": "Medium",
     "description": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
     "setBonus": [
-      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1.",
-      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1.",
+      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
     ],
     "cost": 32050,
     "manu": "Armax Arsenal",
@@ -257,7 +257,7 @@
     ],
     "andromeda": false,
     "features": [
-      "+1 bonus to spell attack rolls and spell saving throw DCs."
+      "+1 bonus to power attack rolls and power saving throw DCs."
     ],
     "id": "blood-dragon-greaves"
   },
@@ -268,8 +268,8 @@
     "armorType": "Medium",
     "description": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
     "setBonus": [
-      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1.",
-      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      "Set bonus (2 of 4): When you roll a 1 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1.",
+      "Set bonus (4 of 4): When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
     ],
     "cost": 32050,
     "manu": "Armax Arsenal",
@@ -280,7 +280,7 @@
     ],
     "andromeda": false,
     "features": [
-      "+1 bonus to spell attack rolls and spell saving throw DCs."
+      "+1 bonus to power attack rolls and power saving throw DCs."
     ],
     "id": "blood-dragon-vambraces"
   },
@@ -295,7 +295,7 @@
     "manu": "Rosenkov Materials",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0d/Light-human-Titan.png/revision/latest/scale-to-width-down/160?cb=20100209143517",
     "notes": [
-      "Spell Regen"
+      "Power Regen"
     ],
     "andromeda": false,
     "features": [
@@ -632,7 +632,7 @@
     ],
     "andromeda": false,
     "features": [
-      "+1 bonus to spell attack and damage rolls"
+      "+1 bonus to power attack and damage rolls"
     ],
     "id": "cerberus-shade-helmet"
   },
@@ -667,7 +667,7 @@
     "armorType": "Light",
     "description": "Spirit armor is worn by Cerberus Phantoms fortunate enough to be biotic or for those who are skilled enough to use highly technical attacks. The armor has small gains for shield strength and regeneration, but where it truly shines is in its capacity to amplify biotic amps and omni-tools. These attacks hit significantly harder and more often, allowing the Phantom to dismantle heavily-armored targets.",
     "setBonus": [
-      "Set bonus (2 of 2): You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells."
+      "Set bonus (2 of 2): You gain a +2 bonus to power attack rolls and to the saving throw DCs of your powers."
     ],
     "cost": 28050,
     "manu": "Cerberus Skunkworks",
@@ -689,7 +689,7 @@
     "armorType": "Light",
     "description": "Spirit armor is worn by Cerberus Phantoms fortunate enough to be biotic or for those who are skilled enough to use highly technical attacks. The armor has small gains for shield strength and regeneration, but where it truly shines is in its capacity to amplify biotic amps and omni-tools. These attacks hit significantly harder and more often, allowing the Phantom to dismantle heavily-armored targets.",
     "setBonus": [
-      "Set bonus (2 of 2): You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells."
+      "Set bonus (2 of 2): You gain a +2 bonus to power attack rolls and to the saving throw DCs of your powers."
     ],
     "cost": 38250,
     "manu": "Cerberus Skunkworks",
@@ -700,7 +700,7 @@
     ],
     "andromeda": false,
     "features": [
-      "When you roll a 1 or a 2 on a damage die for an attack you make with a biotic or tech spell, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      "When you roll a 1 or a 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
     ],
     "id": "cerberus-spirit-helmet"
   },
@@ -1273,7 +1273,7 @@
     ],
     "andromeda": false,
     "features": [
-      "+1 bonus to spell attack rolls and spell saving throw DCs."
+      "+1 bonus to power attack rolls and power saving throw DCs."
     ],
     "id": "inferno-armor"
   },
@@ -1295,7 +1295,7 @@
     ],
     "andromeda": false,
     "features": [
-      "+1 bonus to spell attack rolls and spell saving throw DCs."
+      "+1 bonus to power attack rolls and power saving throw DCs."
     ],
     "id": "inferno-helmet"
   },
@@ -1714,7 +1714,7 @@
     ],
     "andromeda": false,
     "features": [
-      "When you roll a 1 damage die for an attack you make with a biotic spell, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      "When you roll a 1 damage die for an attack you make with a biotic power, you can reroll the die and must use the new roll, even if the new roll is a 1."
     ],
     "id": "mnemonic-visor"
   },
@@ -2677,7 +2677,7 @@
     ],
     "andromeda": false,
     "features": [
-      "You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells."
+      "You gain a +2 bonus to power attack rolls and to the saving throw DCs of your powers."
     ],
     "id": "umbra-visor"
   },

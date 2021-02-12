@@ -73,13 +73,13 @@
     "shields": 10,
     "regen": 5
   },
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "int",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "3/day",
-        "spells": [
+        "powers": [
           {
             "id": "decoy"
           }
@@ -87,7 +87,7 @@
       },
       {
         "perDay": "5/day",
-        "spells": [
+        "powers": [
           {
             "id": "overload",
             "higherLevel": 2

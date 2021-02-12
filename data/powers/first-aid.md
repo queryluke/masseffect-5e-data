@@ -12,10 +12,10 @@ duration: Instant
 concentration: false
 distance:
   range: Touch
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - engineer
 - infiltrator
@@ -27,7 +27,7 @@ advancementOptions:
   description: Increase the healing die type to d12
 ---
 Inject a friendly, organic creature with nanobots that reduce pain and heal internal injuries. The creature gains hit points
-equal to 1d8 + your spellcasting ability modifier.
+equal to 1d8 + your powercasting ability modifier.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the healing increases
+__At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, the healing increases
 by 2d8 for each slot level above 1st.

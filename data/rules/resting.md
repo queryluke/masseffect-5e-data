@@ -4,7 +4,7 @@ section: missions
 order: 6
 ---
 Heroic though they might be, operatives can't spend every hour of the day in the thick of exploration, social interaction,
-and combat. They need rest - time to sleep and eat, tend their wounds, clean their weapons, practice biotic spells, and configure
+and combat. They need rest - time to sleep and eat, tend their wounds, clean their weapons, practice biotic powers, and configure
 omni-tools.
 
 Operatives can take short rests in the midst of mission day and a long rest to end the day.

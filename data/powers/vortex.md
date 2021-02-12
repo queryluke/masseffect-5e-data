@@ -16,8 +16,8 @@ distance:
   range: Self
   aoeType: cone
   aoeDistance: 30
-detonates: 
-primes: 
+detonates:
+primes:
 availableClasses:
 - adept
 - sentinel
@@ -33,5 +33,5 @@ make a Strength saving throw. On a failed save a creature takes 6d10 force damag
 
 Creatures that fail the saving throw are thrown 1d6 + <me-distance length='5' /> away from you and become prone.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 4th level or higher, increase the damage by 2d10 for
+__At Higher Levels__: When you cast this power using a power slot of 4th level or higher, increase the damage by 2d10 for
 each slot level above the 3rd.

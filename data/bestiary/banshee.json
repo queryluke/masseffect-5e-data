@@ -48,9 +48,9 @@
   "lairActions": [],
   "legendaryActions": [
     {
-      "name": "Cast a Spell",
+      "name": "Cast a Power",
       "cost": 3,
-      "description": "The banshee casts a spell from its list of prepared spells, using a spell slot as normal."
+      "description": "The banshee casts a power from its list of prepared powers, using a power slot as normal."
     },
     {
       "name": "Impale Attack",
@@ -90,13 +90,13 @@
       "range": 6
     }
   ],
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "cha",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "At will",
-        "spells": [
+        "powers": [
           {
             "id": "charge"
           },
@@ -107,7 +107,7 @@
       },
       {
         "perDay": "6/day",
-        "spells": [
+        "powers": [
           {
             "id": "warp",
             "higherLevel": 4

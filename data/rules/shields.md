@@ -25,8 +25,8 @@ without the operative equipping armor.
 
 
 ### Damage
-When you have shield points and take damage, the shield points are lost first, and any leftover damage carries over to 
-your normal hit points. For example, if you have 5 shield points and take 7 damage, you lose the shield points and then 
+When you have shield points and take damage, the shield points are lost first, and any leftover damage carries over to
+your normal hit points. For example, if you have 5 shield points and take 7 damage, you lose the shield points and then
 take 2 damage. Some abilities "bypass" your shield points. In these instances, you subtract damage from your
 hit points leaving your shield points unchanged.
 
@@ -66,8 +66,8 @@ Some marauders lose sight of Todd, others attempt to hit him again, but are unsu
 he has taken no damage since the end of his last turn and his shields begin to regenerate, immediately gaining 10 shield points.
 Todd now has 14 shield points total. Todd takes his turn as he normally would.
 
-An adept spots Todd and hits him with a Warp spell. This bypasses Todd's shields and deals 13 necrotic damage. But it
-does not end his shield regeneration. If this damage had been from an Assault Rifle or an Incinerate spell, Todd's shield
+An adept spots Todd and hits him with a Warp power. This bypasses Todd's shields and deals 13 necrotic damage. But it
+does not end his shield regeneration. If this damage had been from an Assault Rifle or an Incinerate power, Todd's shield
 regeneration would have ended.
 
 On Todd's next turn, he gains another 10 shield points, putting him back to his maximum capacity of 20 and the regeneration

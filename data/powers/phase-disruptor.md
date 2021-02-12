@@ -14,10 +14,10 @@ duration: Instant
 concentration: false
 distance:
   range: 120
-  aoeType: 
-  aoeDistance: 
+  aoeType:
+  aoeDistance:
 detonates: x
-primes: 
+primes:
 availableClasses:
 - adept
 - sentinel
@@ -30,7 +30,7 @@ advancementOptions:
     roll.
 ---
 You focus the energy of your barrier into a high-powered beam at a target creature or object within range. Remove 1
-barrier tick and make a ranged spell attack on that target. On a hit, the creature takes 3d4 force damage.
+barrier tick and make a ranged power attack on that target. On a hit, the creature takes 3d4 force damage.
 
 You may use additional barrier ticks to create more than one beam at higher levels: two beams at 5th level, three beams
 at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones.

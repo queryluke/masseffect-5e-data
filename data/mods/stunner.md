@@ -12,4 +12,4 @@ availability:
   - SMG
 type: Weapon
 ---
-In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration spell it automatically fails its saving throw to maintain the spell.
+In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.

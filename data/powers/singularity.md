@@ -15,7 +15,7 @@ distance:
   range: 90
   aoeType: sphere
   aoeDistance: 10
-detonates: 
+detonates:
 primes: force
 availableClasses:
 - adept
@@ -31,5 +31,5 @@ are affected. Any creature or object that enters the sphere for the first time o
 Strength (Athletics) check or they are drawn into the sphere and become lifted. Creatures with at least 1 shield point
 have advantage on the Strength saving throw or Strength (Athletics) check.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 4th level or higher, increase the size of the sphere
-by <me-distance length="10" /> per spell slot above the 3rd.
+__At Higher Levels__: When you cast this power using a power slot of 4th level or higher, increase the size of the sphere
+by <me-distance length="10" /> per power slot above the 3rd.

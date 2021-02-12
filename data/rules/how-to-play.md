@@ -77,7 +77,7 @@ it sometimes includes a proficiency bonus to reflect a character’s particular 
 ability’s modifier.)
 
 #### 2. Apply circumstantial bonuses and penalties.
-A class feature, a spell, a particular circumstance, or some other effect might give a bonus or penalty to the check.
+A class feature, a power, a particular circumstance, or some other effect might give a bonus or penalty to the check.
 
 #### 3. Compare the total to a target number.
 If the total equals or exceeds the target number, the ability check, attack roll, or saving throw is a success. Otherwise,
@@ -101,13 +101,13 @@ More detailed rules for advantage and disadvantage are presented in the
 [Using Ability Scores](/manual/using-ability-scores#advantage-and-disadvantage) section.
 
 ### Specific Beats General
-This compendium contains rules that govern how the game plays. That said, many racial traits, class features, spells,
+This compendium contains rules that govern how the game plays. That said, many racial traits, class features, powers,
 gadgets, monster abilities, and other game elements break the general rules in some way, creating an exception to how
 the rest of the game works. Remember this: If a specific rule contradicts a general rule, the specific rule wins.
 
 Exceptions to the rules are often minor. For instance, many operatives don’t have proficiency with shotguns, but every
 soldier does because of a class trait. That trait creates a minor exception in the game. Other examples of rule-breaking
-are more conspicuous. For instance, an operative can’t normally fly, but some spells and armor mods make that possible.
+are more conspicuous. For instance, an operative can’t normally fly, but some powers and armor mods make that possible.
 Biotics and tech account for most of the major exceptions to the rules.
 
 ### Round Down

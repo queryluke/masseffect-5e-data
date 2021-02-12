@@ -72,7 +72,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>+1 bonus to spell damage rolls</p>\n",
+    "html": "<p>+1 bonus to power damage rolls</p>\n",
     "id": "amplifier-plates"
   },
   {
@@ -83,7 +83,7 @@
     "cost": 30000,
     "manu": "Rosenkov Materials",
     "notes": [
-      "Spell Regen"
+      "Power Regen"
     ],
     "placement": "Head",
     "availability": [
@@ -91,7 +91,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>You regain 1d4 worth of spell slots or tech points when you take a short rest.</p>\n",
+    "html": "<p>You regain 1d4 worth of power slots or tech points when you take a short rest.</p>\n",
     "id": "archon-ai"
   },
   {
@@ -186,7 +186,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic spells, they are only for damage reduction. The barrier ticks recharge after a short rest.</p>\n",
+    "html": "<p>The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.</p>\n",
     "id": "barrier"
   },
   {
@@ -197,7 +197,7 @@
     "cost": 30000,
     "manu": "Rosenkov Materials",
     "notes": [
-      "Spell Regen"
+      "Power Regen"
     ],
     "placement": "Chest",
     "availability": [
@@ -205,7 +205,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>You regain 1d4 worth of spell slots or tech points when you take a short rest.</p>\n",
+    "html": "<p>You regain 1d4 worth of power slots or tech points when you take a short rest.</p>\n",
     "id": "battle-telemetry"
   },
   {
@@ -1436,7 +1436,7 @@
       "SMG"
     ],
     "type": "Weapon",
-    "html": "<p>+1 on spell damage rolls while holding this weapon.</p>\n",
+    "html": "<p>+1 on power damage rolls while holding this weapon.</p>\n",
     "id": "power-magnifier"
   },
   {
@@ -1609,7 +1609,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a biotic spell, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a biotic power, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
     "id": "savant-biotic-amp"
   },
   {
@@ -1919,7 +1919,7 @@
       "SMG"
     ],
     "type": "Weapon",
-    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration spell it automatically fails its saving throw to maintain the spell.</p>\n",
+    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.</p>\n",
     "id": "stunner"
   },
   {

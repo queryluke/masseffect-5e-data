@@ -12,10 +12,10 @@ duration: 1 minute
 concentration: true
 distance:
   range: 30
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - adept
 - vanguard
@@ -27,5 +27,5 @@ advancementOptions:
     up. You may do this once per round.
 ---
 When you or a creature within <me-distance length="30" /> of you falls, choose up to five falling creatures within range. Create a negative mass
-effect field around each creature, slowing the rate of descent to <me-distance length="60" /> per round. If the creature lands before the spell
-ends, it takes no Falling damage and can land on its feet, and the spell ends for that creature.
+effect field around each creature, slowing the rate of descent to <me-distance length="60" /> per round. If the creature lands before the power
+ends, it takes no Falling damage and can land on its feet, and the power ends for that creature.

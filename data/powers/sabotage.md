@@ -13,10 +13,10 @@ duration: Infinite
 concentration: false
 distance:
   range: 90
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - engineer
 - infiltrator
@@ -31,11 +31,11 @@ advancementOptions:
 Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target
 weapon has disadvantage.
 
-Casting sabotage does not break tactical cloak, and creatures are unaware of the casting of this spell.
+Casting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.
 
 If the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,
-this spell has no effect unless the creature fails an Intelligence saving throw. Whether or not the synthetic creature
-succeeds on this saving throw, it becomes aware that it has been targeted by a spell.
+this power has no effect unless the creature fails an Intelligence saving throw. Whether or not the synthetic creature
+succeeds on this saving throw, it becomes aware that it has been targeted by a power.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, you can target 2 additional
-weapons for each spell slot above the 1st.
+__At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional
+weapons for each power slot above the 1st.

@@ -17,7 +17,7 @@ distance:
   aoeType: sphere
   aoeDistance: 5
 detonates: x
-primes: 
+primes:
 availableClasses:
 - vanguard
 advancementOptions:
@@ -33,4 +33,4 @@ Transfer the energy of your barrier into a biotic explosion, consuming your rema
 force damage equal to Xd8, where X is the number of barrier ticks. On a successful save, a creature takes half as much
 damage.
 
-This spell's damage increases by 1d8 when you reach 5th level (X + 1d8), 11th level (X + 2d8), 17th level (X + 3d8)
+This power's damage increases by 1d8 when you reach 5th level (X + 1d8), 11th level (X + 2d8), 17th level (X + 3d8)

@@ -79,8 +79,8 @@ progressionColumns:
   - name: Cantrips
     key: cantrips
     values: [4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6]
-  - name: Spells Known
-    key: spellsKnown
+  - name: Powers Known
+    key: powersKnown
     values: [0,2,3,3,4,4,5,5,6,6,6,7,8,8,9,9,10,10,11,11]
   - name: 1st
     key: firstLevelPowerSlots

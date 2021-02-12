@@ -14,10 +14,10 @@ duration: Instant
 concentration: false
 distance:
   range: 5
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - engineer
 - infiltrator
@@ -34,5 +34,5 @@ Shoot an aerosol spray of noxious chemicals from your omni-tool at a creature wi
 succeed on a Constitution saving throw or take 2d12 poison damage and becomes <me-condition id="poisoned"/> until the end
 of your next turn.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the damage increases
+__At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, the damage increases
 by 2d12 for each slot level above 1st.

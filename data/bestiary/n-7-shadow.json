@@ -83,13 +83,13 @@
     "shields": 20,
     "regen": 10
   },
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "int",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "4/Day",
-        "spells": [
+        "powers": [
           {
             "id": "electric_slash",
             "higherLevel": 3

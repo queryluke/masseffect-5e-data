@@ -3,12 +3,12 @@ title: Making an Attack
 section: combat
 order: 4
 ---
-Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an
+Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a power, an
 attack has a simple structure.
 
 1. __Choose a target__. Pick a target within your attack's range: a creature, an object, or a location.
 2. __Determine modifiers__. The GM determines whether the target has cover and whether you have advantage or disadvantage
-against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
+against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
 3. __Resolve the attack__. You make the attack roll. On a hit, you roll damage, unless the particular attack has rules
 that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
 
@@ -28,11 +28,11 @@ When a character makes an attack roll, the two most common modifiers to the roll
 proficiency bonus. When a monster makes an attack roll, it uses whatever modifier is provided in its stat block.
 
 ___Ability Modifier__. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for
-a ranged weapon attack is Dexterity. Weapons that have the finesse, thrown, or recoil property break this rule. Some spells
-also require an attack roll. The ability modifier used for a spell attack depends on the spellcasting ability of the spellcaster.
+a ranged weapon attack is Dexterity. Weapons that have the finesse, thrown, or recoil property break this rule. Some powers
+also require an attack roll. The ability modifier used for a power attack depends on the powercasting ability of the powercaster.
 
 __Proficiency Bonus__. You add your proficiency bonus to your attack roll when you attack using a weapon with which you
-have proficiency, as well as when you attack with a spell.
+have proficiency, as well as when you attack with a power.
 
 #### Rolling 1 or 20
 Sometimes lady luck blesses or curses a combatant, causing the novice to hit and the veteran to miss.
@@ -59,19 +59,19 @@ unheard - when you make an attack, you give away your location when the attack h
 
 ### Ranged Attacks
 When you make a ranged attack, you fire a gun or otherwise send projectiles to strike a foe at a distance. A monster might
-shoot spines from its tail. Many spells also involve making a ranged attack.
+shoot spines from its tail. Many powers also involve making a ranged attack.
 
 #### Range
 You can make ranged attacks only against targets within a specified range.
 
-If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.
+If a ranged attack, such as one made with a power, has a single range, you can't attack a target beyond this range.
 
 Some ranged attacks, such as those made with a gun, have two ranges. The smaller number is the normal range, and the larger
 number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack
 a target beyond the long range.
 
 #### Ranged Attacks in Close Combat
-Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell,
+Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power,
 or some other means, you have disadvantage on the attack roll if you are within <me-distance length="5" /> of a hostile creature who can
 see you and who isn't incapacitated.
 
@@ -80,7 +80,7 @@ see you and who isn't incapacitated.
 ### Melee Attacks
 Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a
 handheld weapon such as a sword, a warhammer, or an omni-tool. A typical monster makes a melee attack when it strikes
-with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.
+with its claws, horns, teeth, tentacles, or other body part. A few powers also involve making a melee attack.
 
 Most creatures have a 2-meter reach and can thus attack targets within <me-distance length="5" /> of them when making a melee attack. Certain
 creatures (typically those larger than Medium) have melee attacks with a greater reach than <me-distance length="5" />, as noted in their descriptions.

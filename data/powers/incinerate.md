@@ -14,8 +14,8 @@ duration: Instant
 concentration: false
 distance:
   range: 120
-  aoeType: 
-  aoeDistance: 
+  aoeType:
+  aoeDistance:
 detonates: x
 primes: fire
 availableClasses:
@@ -28,9 +28,9 @@ advancementOptions:
 - name: Radial Blast
   description: On a miss, the target makes a Dexterity saving throw. On a failed save, the target takes half damage.
 ---
-Hurl a high-explosive, plasma round at a creature or object within range. Make a ranged spell attack against the target.
+Hurl a high-explosive, plasma round at a creature or object within range. Make a ranged power attack against the target.
 On a hit, the target is <me-condition id="primed" sub="fire"/> until the end of your next turn and takes 2d10 fire damage.
-A flammable object hit by this spell ignites if it isn't being worn or carried.
+A flammable object hit by this power ignites if it isn't being worn or carried.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the damage increases
+__At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, the damage increases
 by 2d10 for each slot level above 1st.

@@ -14,9 +14,9 @@ duration: Instant
 concentration: false
 distance:
   range: 120
-  aoeType: 
-  aoeDistance: 
-detonates: 
+  aoeType:
+  aoeDistance:
+detonates:
 primes: necrotic
 availableClasses:
 - adept
@@ -31,9 +31,9 @@ advancementOptions:
   description: A target hit by warp must pass a Constitution saving throw. On a failed save, the force of warp is so
     intense the target is stunned until the end of its next turn.
 ---
-Make a ranged spell attack on an organic creature you can see within range. On a hit, you generate a rapidly shifting mass
-effect field inside the target dealing necrotic damage equal to 3d10 + your spellcasting ability modifier. In addition,
+Make a ranged power attack on an organic creature you can see within range. On a hit, you generate a rapidly shifting mass
+effect field inside the target dealing necrotic damage equal to 3d10 + your powercasting ability modifier. In addition,
 the target is <me-condition id="primed" sub="necrotic"/> until the end of your next turn. This damage bypasses shields.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d10 for
+__At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d10 for
 each slot level above the 2nd.

@@ -4,7 +4,7 @@ section: combat
 order: 1
 ---
 A typical combat encounter is a clash between two sides, a flurry of bullets, energy weapons, ducking behind cover,
-slinging biotic and tech spells. The game organizes the chaos of combat into a cycle of rounds and turns. A round
+slinging biotic and tech powers. The game organizes the chaos of combat into a cycle of rounds and turns. A round
 represents about 6 seconds in the game world. During a round, each participant in a battle takes a turn. The order of
 turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a
 turn, the fight continues to the next round if neither side has defeated the other.
@@ -58,9 +58,9 @@ You can forgo moving, taking an action, or doing anything at all on your turn. I
 turn, consider taking the Dodge or Ready action, as described in "Actions in Combat."
 
 #### Bonus Actions
-Various class features, spells, and other abilities let you take an additional action on your turn called a bonus action.
+Various class features, powers, and other abilities let you take an additional action on your turn called a bonus action.
 The Cunning Action feature, for example, allows an infiltrator to take a bonus action. You can take a bonus action only
-when a special ability, spell, or other feature of the game states that you can do something as a bonus action. You
+when a special ability, power, or other feature of the game states that you can do something as a bonus action. You
 otherwise don't have a bonus action to take.
 
 You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than
@@ -88,7 +88,7 @@ push a large crate into a covering position.
 
 
 ### Reactions
-Certain special abilities, spells, and situations allow you to take a special action called a reaction. A reaction is an
+Certain special abilities, powers, and situations allow you to take a special action called a reaction. A reaction is an
 instant response to a trigger of some kind, which can occur on your turn or on someone else's. The opportunity attack,
 described later in this chapter, is the most common type of reaction.
 

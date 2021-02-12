@@ -83,13 +83,13 @@
       "range": 10
     }
   ],
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "wis",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "3/day",
-        "spells": [
+        "powers": [
           {
             "id": "stasis"
           }
@@ -97,7 +97,7 @@
       },
       {
         "perDay": "5/day",
-        "spells": [
+        "powers": [
           {
             "id": "warp"
           }

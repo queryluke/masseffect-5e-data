@@ -16,8 +16,8 @@ distance:
   range: 40
   aoeType: line
   aoeDistance: 90
-detonates: 
-primes: 
+detonates:
+primes:
 availableClasses:
 - adept
 - sentinel
@@ -25,13 +25,13 @@ availableClasses:
 advancementOptions:
 - name: Salvo
   description: When you cast Salvo, you may target a number of objects equal to or
-    less than your spellcasting ability modifier. The combined weight of the objects cannot
-    exceed the maximum weight limit of the spell (<me-weight amount="20"/> at 1st level, <me-weight amount="30"/>
+    less than your powercasting ability modifier. The combined weight of the objects cannot
+    exceed the maximum weight limit of the power (<me-weight amount="20"/> at 1st level, <me-weight amount="30"/>
     at 2nd level, etc).
 - name: Counterstrike
-  description: As a reaction, which you take when a creature within <me-distance length="90" /> you casts a spell or makes an attack. Fling
-    the object toward the creature which fails its Dexterity saving throw. If the creature was casting a 
-    spell, it must succeed on a Constitution saving throw or he spell fails (DC 10 or half the Catapult damage, whichever is higher). 
+  description: As a reaction, which you take when a creature within <me-distance length="90" /> you casts a power or makes an attack. Fling
+    the object toward the creature which fails its Dexterity saving throw. If the creature was casting a
+    power, it must succeed on a Constitution saving throw or he power fails (DC 10 or half the Catapult damage, whichever is higher).
     If the creature was attacking, it has disadvantage on the attack roll.
 ---
 Choose one object weighing <me-weight amount="2"/> to <me-weight amount="20"/> within range that isn't being worn or carried. The object
@@ -40,6 +40,6 @@ against a solid surface. If the object would strike a creature, that creature mu
 failed save, the object strikes the creature and stops moving. When the object strikes something, the object and what it
 strikes each take 3d10 bludgeoning damage.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects
-that you can target with this spell increases by <me-weight amount="10"/>, and the damage increases by 2d10, for each slot level
+__At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, the maximum weight of objects
+that you can target with this power increases by <me-weight amount="10"/>, and the damage increases by 2d10, for each slot level
 above 1st.

@@ -73,7 +73,7 @@
     {
       "name": "Negation Barrier",
       "recharge": "3/Day",
-      "description": "When targeted by a biotic spell or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn."
+      "description": "When targeted by a biotic power or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn."
     }
   ],
   "savingThrows": [
@@ -103,7 +103,7 @@
       "range": 10
     }
   ],
-  "spellcasting": false,
+  "powercasting": false,
   "type": "Synorg",
   "unit": "Collector"
 }

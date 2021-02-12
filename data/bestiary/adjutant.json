@@ -89,13 +89,13 @@
       "range": 10
     }
   ],
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "cha",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "3/day",
-        "spells": [
+        "powers": [
           {
             "id": "singularity"
           }

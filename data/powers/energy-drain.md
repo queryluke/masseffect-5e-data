@@ -14,10 +14,10 @@ duration: Instant
 concentration: false
 distance:
   range: 150
-  aoeType: 
-  aoeDistance: 
+  aoeType:
+  aoeDistance:
 detonates: x
-primes: 
+primes:
 availableClasses:
 - engineer
 - sentinel
@@ -29,9 +29,9 @@ advancementOptions:
 - name: Improved Regen
   description: On a successful hit, you regain shield points equal to the amount of lightning damage dealt.
 ---
-Cycle your omni-tool, sapping electromagnetic energy from a creature you can see within range. Make a ranged spell attack
+Cycle your omni-tool, sapping electromagnetic energy from a creature you can see within range. Make a ranged power attack
 against the target. On a hit, the target takes 3d6 lightning damage, and you regain shield points equal to half the
 amount of lightning damage dealt.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 2nd level or higher, the damage increases
+__At Higher Levels__: When you cast this power using a power slot of 2nd level or higher, the damage increases
 by 1d6 for each slot level above 1st.

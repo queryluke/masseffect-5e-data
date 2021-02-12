@@ -12,10 +12,10 @@ duration: 1 minute
 concentration: false
 distance:
   range: Touch
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - engineer
 advancementOptions:
@@ -32,6 +32,6 @@ The turret has its own turn in the initiative order, which occurs immediately fo
 
 The turret lasts until its hit points become 0 or lower or until you use a bonus action to destroy it.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 4th level or higher, the turret deals an additional
+__At Higher Levels__: When you cast this power using a power slot of 4th level or higher, the turret deals an additional
 1d6 piercing and 1d6 radiant damage with its mass accelerator machinegun and gains 10 additional hit points for
-each spell slot above the 3rd.
+each power slot above the 3rd.

@@ -22,11 +22,11 @@ Certain features, such as the Extra Attack feature of the soldier, allow you to 
 
 
 
-### Cast a Spell
-Spellcasters such as engineers and adepts have access to biotics or tech powers and can use them to great effect in combat.
-Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours
-to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action,
-so a spellcaster often uses his or her action in combat to cast such a spell.
+### Cast a Power
+Powercasters such as engineers and adepts have access to biotics or tech powers and can use them to great effect in combat.
+Each power has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours
+to cast the power. Casting a power is, therefore, not necessarily an action. Most powers do have a casting time of 1 action,
+so a powercaster often uses his or her action in combat to cast such a power.
 
 
 
@@ -86,10 +86,10 @@ on the conveyor belt, I'll push the button that starts it," and "If the rachni s
 When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember
 that you can take only one reaction per round.
 
-When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger
-occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires
-concentration. If your concentration is broken, the spell dissipates without taking effect. For example, if you are
-concentrating on the singularity spell and ready lance, your singularity spell end, and if you take damage before you
+When you ready a power, you cast it as normal but hold its energy, which you release with your reaction when the trigger
+occurs. To be readied, a power must have a casting time of 1 action, and holding onto the power's magic requires
+concentration. If your concentration is broken, the power dissipates without taking effect. For example, if you are
+concentrating on the singularity power and ready lance, your singularity power end, and if you take damage before you
 release lance with your reaction, your concentration might be broken.
 
 

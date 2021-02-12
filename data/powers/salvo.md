@@ -13,10 +13,10 @@ duration: Instant
 concentration: false
 distance:
   range: 150
-  aoeType: 
-  aoeDistance: 
+  aoeType:
+  aoeDistance:
 detonates: x
-primes: 
+primes:
 availableClasses:
 - engineer
 - infiltrator
@@ -33,5 +33,5 @@ Create three glowing darts of plasma. Each dart hits a creature of your choice t
 deals 1d4+1 radiant damage to its target. The darts all strike simultaneously and you can direct them to hit one
 creature or several.
 
-__At Higher Levels__. When you cast this spell using a spell slot of 2nd level or higher, the spell creates two
+__At Higher Levels__. When you cast this power using a power slot of 2nd level or higher, the power creates two
 more darts for each slot level above 1st.

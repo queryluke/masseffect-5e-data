@@ -68,10 +68,10 @@ proficiencies, as shown in the Multiclassing Proficiencies table.
 
 ### Class Features
 When you gain a new level in a class, you get its features for that level. You don't, however, receive the class's
-starting equipment, and a few features have additional rules when you're multiclassing: Barrier, Extra Attack, and Spellcasting.
+starting equipment, and a few features have additional rules when you're multiclassing: Barrier, Extra Attack, and Powercasting.
 
 #### Barrier <v-chip color="info" small>new</v-chip>
-Your barrier capacity depends partly on your combined levels in all your spellcasting classes and partly on your
+Your barrier capacity depends partly on your combined levels in all your powercasting classes and partly on your
 individual levels in those classes. You determine your barrier capacity by adding together all your levels in the
 vanguard class and half your levels (rounded down) in the adept and sentinel classes. Use this total to determine your
 barrier capacity by consulting the Multiclassing Barrier table.
@@ -104,24 +104,24 @@ Level|Barrier Ticks
 If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make
 more than two attacks with this feature unless it says you do (as the soldier's version of Extra Attack does).
 
-#### Spellcasting <v-chip color="warning" text-color="black" small>change</v-chip>
+#### Powercasting <v-chip color="warning" text-color="black" small>change</v-chip>
 
-__Spells known and prepared__: You determine what spells you know and can prepare for each class individually as if you were a single-classed member
-of that class. If you are an adept 4/engineer 3, for example, you know six 1st-level adept spells and five adept cantrips
-based on your levels in the adept class. As a 3rd-level engineer, you can prepare 3 engineer spells. If your Intelligence
-is 16, you can prepare six engineer spells.
+__Powers known and prepared__: You determine what powers you know and can prepare for each class individually as if you were a single-classed member
+of that class. If you are an adept 4/engineer 3, for example, you know six 1st-level adept powers and five adept cantrips
+based on your levels in the adept class. As a 3rd-level engineer, you can prepare 3 engineer powers. If your Intelligence
+is 16, you can prepare six engineer powers.
 
-Each spell you know and prepare is associated with one of your classes, and you use the spellcasting ability of that
-class when you cast the spell.
+Each power you know and prepare is associated with one of your classes, and you use the powercasting ability of that
+class when you cast the power.
 
-You can only use spell slots to cast biotic spells and you can only use tech points to cast tech spells. The exception
-is Sentinels that can use their spell slots to cast biotic or tech spells.
+You can only use power slots to cast biotic powers and you can only use tech points to cast tech powers. The exception
+is Sentinels that can use their power slots to cast biotic or tech powers.
 
-__Biotic Spell Slots__: You determine your available spell slots and cantrips by adding together all your
+__Biotic Power Slots__: You determine your available power slots and cantrips by adding together all your
 levels in the adept class and half your levels (rounded down) in the sentinel and vanguard classes. Use this total to determine
-your spell slots and cantrips by consulting the Multiclassing Biotics table.
+your power slots and cantrips by consulting the Multiclassing Biotics table.
 
-#### Multiclass Biotics: Spell Slots per Level
+#### Multiclass Biotics: Power Slots per Level
 Level|1st|2nd|3rd|4th|5th
 :---|:---:|:---:|:---:|:---:|:---:
 1st|2|-|-|-|-

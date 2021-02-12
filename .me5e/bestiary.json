@@ -67,7 +67,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -162,13 +162,13 @@
         "range": 10
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "cha",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "singularity"
             }
@@ -266,13 +266,13 @@
         "range": 16
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "wis",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "At will",
-          "spells": [
+          "powers": [
             {
               "id": "throw"
             }
@@ -280,7 +280,7 @@
         },
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "warp"
             }
@@ -353,7 +353,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -412,7 +412,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -530,7 +530,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Cerberus"
   },
@@ -584,9 +584,9 @@
     "lairActions": [],
     "legendaryActions": [
       {
-        "name": "Cast a Spell",
+        "name": "Cast a Power",
         "cost": 3,
-        "description": "The banshee casts a spell from its list of prepared spells, using a spell slot as normal."
+        "description": "The banshee casts a power from its list of prepared powers, using a power slot as normal."
       },
       {
         "name": "Impale Attack",
@@ -626,13 +626,13 @@
         "range": 6
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "cha",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "At will",
-          "spells": [
+          "powers": [
             {
               "id": "charge"
             },
@@ -643,7 +643,7 @@
         },
         {
           "perDay": "6/day",
-          "spells": [
+          "powers": [
             {
               "id": "warp",
               "higherLevel": 4
@@ -722,7 +722,7 @@
     "sp": {
       "shields": 5
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blood Pack",
     "author": "Dakota P."
@@ -803,7 +803,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blood Pack",
     "author": "Dakota P."
@@ -886,7 +886,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blood Pack",
     "author": "Dakota P."
@@ -974,7 +974,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blood Pack"
   },
@@ -1049,7 +1049,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blood Pack",
     "author": "Dakota P."
@@ -1129,7 +1129,7 @@
       "shields": 15,
       "regen": 5
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blue Suns",
     "author": "Dakota P."
@@ -1199,7 +1199,7 @@
       "shields": 10,
       "regen": 0
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blue Suns",
     "author": "Dakota P."
@@ -1291,13 +1291,13 @@
       "shields": 20,
       "regen": 10
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "target painting"
             }
@@ -1381,7 +1381,7 @@
       "shields": 5,
       "regen": 5
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blue Suns",
     "author": "Dakota P."
@@ -1445,7 +1445,7 @@
       "shields": 10,
       "regen": 0
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blue Suns",
     "author": "Dakota P."
@@ -1503,7 +1503,7 @@
       "shields": 5,
       "regen": 5
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Blue Suns",
     "author": "Dakota P."
@@ -1597,7 +1597,7 @@
         "range": 14
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -1686,7 +1686,7 @@
         "range": 8
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -1771,7 +1771,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -1858,7 +1858,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -1956,7 +1956,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -2038,7 +2038,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -2084,7 +2084,7 @@
       {
         "name": "Assume Control",
         "cost": 2,
-        "description": "The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any spells. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks."
+        "description": "The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any powers. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks."
       },
       {
         "name": "Barrier",
@@ -2097,9 +2097,9 @@
         "description": "The collector general makes one bash attack."
       },
       {
-        "name": "Cast a Spell",
+        "name": "Cast a Power",
         "cost": 3,
-        "description": "The collector general casts a spell from its list of prepared spells, using a spell slot as normal."
+        "description": "The collector general casts a power from its list of prepared powers, using a power slot as normal."
       }
     ],
     "name": "Collector General",
@@ -2126,10 +2126,10 @@
         "range": 10
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "12",
       "mod": "cha",
-      "spellList": [
+      "powerList": [
         "dark_channel",
         "pull",
         "reave",
@@ -2234,7 +2234,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -2329,7 +2329,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -2394,13 +2394,13 @@
         "range": 14
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "sabotage"
             }
@@ -2479,7 +2479,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -2550,7 +2550,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -2613,7 +2613,7 @@
         "range": 16
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -2681,7 +2681,7 @@
         "range": 12
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -2751,10 +2751,10 @@
       }
     ],
     "sp": null,
-    "spellcasting": {
+    "powercasting": {
       "level": "12",
       "mod": "cha",
-      "spellList": [
+      "powerList": [
         "charge",
         "warp"
       ]
@@ -2838,13 +2838,13 @@
       "shields": 10,
       "regen": 5
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3",
-          "spells": [
+          "powers": [
             {
               "id": "incinerate",
               "higherLevel": 2
@@ -2910,7 +2910,7 @@
       "shields": 5,
       "regen": 5
     },
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Eclipse",
     "author": "Dakota P."
@@ -2992,13 +2992,13 @@
       "shields": 10,
       "regen": 10
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "5",
-          "spells": [
+          "powers": [
             {
               "id": "incinerate",
               "higherLevel": 2
@@ -3070,7 +3070,7 @@
       "shields": 5,
       "regen": 5
     },
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Eclipse",
     "author": "Dakota P."
@@ -3143,10 +3143,10 @@
       }
     ],
     "sp": null,
-    "spellcasting": {
+    "powercasting": {
       "level": "6",
       "mod": "cha",
-      "spellList": [
+      "powerList": [
         "shockwave",
         "warp"
       ]
@@ -3225,7 +3225,7 @@
         "range": 4
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -3315,13 +3315,13 @@
         "range": 14
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "shocking grasp"
             }
@@ -3439,7 +3439,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -3509,13 +3509,13 @@
         "range": 10
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "At will",
-          "spells": [
+          "powers": [
             {
               "id": "overload"
             }
@@ -3649,7 +3649,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -3733,7 +3733,7 @@
         "range": 14
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -3815,7 +3815,7 @@
         "range": 12
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -3926,7 +3926,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -4034,13 +4034,13 @@
         "range": 16
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "At will",
-          "spells": [
+          "powers": [
             {
               "id": "sabotage"
             }
@@ -4117,7 +4117,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -4188,7 +4188,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Geth"
   },
@@ -4254,7 +4254,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -4367,7 +4367,7 @@
         "range": 30
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -4454,7 +4454,7 @@
         "range": 18
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien",
     "author": "Dakota P."
@@ -4522,7 +4522,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -4603,7 +4603,7 @@
         "range": 16
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien",
     "author": "Dakota P."
@@ -4660,7 +4660,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Kett",
     "author": "Dakota P."
@@ -4739,7 +4739,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -4782,7 +4782,7 @@
       {
         "name": "Chatter (variant)",
         "recharge": null,
-        "description": "The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging spells. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12."
+        "description": "The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging powers. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12."
       },
       {
         "name": "Limited Tactics",
@@ -4823,13 +4823,13 @@
         "range": 8
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "5/day",
-          "spells": [
+          "powers": [
             {
               "id": "shocking grasp"
             }
@@ -4909,7 +4909,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -5004,7 +5004,7 @@
       "shields": 20,
       "regen": 10
     },
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "N7",
     "author": "Dakota P."
@@ -5093,13 +5093,13 @@
       "shields": 20,
       "regen": 10
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "cha",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "At will",
-          "spells": [
+          "powers": [
             {
               "id": "incinerate"
             }
@@ -5107,7 +5107,7 @@
         },
         {
           "perDay": "3/Day",
-          "spells": [
+          "powers": [
             {
               "id": "energy_drain"
             },
@@ -5208,13 +5208,13 @@
       "shields": 20,
       "regen": 10
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "4/Day",
-          "spells": [
+          "powers": [
             {
               "id": "electric_slash",
               "higherLevel": 3
@@ -5318,10 +5318,10 @@
       "shields": 15,
       "regen": 5
     },
-    "spellcasting": {
+    "powercasting": {
       "level": 9,
       "mod": "wis",
-      "spellList": [
+      "powerList": [
         "charge",
         "phase_disruptor",
         "biotic_slash"
@@ -5412,7 +5412,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -5492,7 +5492,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Reaper"
   },
@@ -5578,7 +5578,7 @@
         "range": 14
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Cerberus"
   },
@@ -5657,7 +5657,7 @@
       {
         "name": "Negation Barrier",
         "recharge": "3/Day",
-        "description": "When targeted by a biotic spell or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn."
+        "description": "When targeted by a biotic power or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn."
       }
     ],
     "savingThrows": [
@@ -5687,7 +5687,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Collector"
   },
@@ -5751,7 +5751,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -5840,13 +5840,13 @@
         "range": 10
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "wis",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "stasis"
             }
@@ -5854,7 +5854,7 @@
         },
         {
           "perDay": "5/day",
-          "spells": [
+          "powers": [
             {
               "id": "warp"
             }
@@ -5956,7 +5956,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Rachni"
   },
@@ -6041,7 +6041,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Rachni"
   },
@@ -6108,7 +6108,7 @@
         "range": 12
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Rachni"
   },
@@ -6195,7 +6195,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -6273,7 +6273,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -6367,7 +6367,7 @@
         "range": 26
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -6446,7 +6446,7 @@
         "range": 16
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -6517,13 +6517,13 @@
         "range": 12
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "first aid"
             }
@@ -6591,7 +6591,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -6662,7 +6662,7 @@
         "range": 8
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -6712,7 +6712,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Eclipse",
     "author": "Dakota P."
@@ -6775,7 +6775,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -6831,7 +6831,7 @@
         "range": 10
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Collector"
   },
@@ -6898,13 +6898,13 @@
         "range": 0
       }
     ],
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "flamethrower"
             }
@@ -6982,13 +6982,13 @@
       "shields": 5,
       "regen": 5
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "5/day",
-          "spells": [
+          "powers": [
             {
               "id": "concussive shot"
             }
@@ -7075,13 +7075,13 @@
       "shields": 10,
       "regen": 5
     },
-    "spellcasting": {
+    "powercasting": {
       "level": "innate",
       "mod": "int",
-      "spellList": [
+      "powerList": [
         {
           "perDay": "3/day",
-          "spells": [
+          "powers": [
             {
               "id": "decoy"
             }
@@ -7089,7 +7089,7 @@
         },
         {
           "perDay": "5/day",
-          "spells": [
+          "powers": [
             {
               "id": "overload",
               "higherLevel": 2
@@ -7167,7 +7167,7 @@
         "range": 12
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Reaper"
   },
@@ -7247,7 +7247,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Thorian",
     "author": "Dakota P.",
@@ -7319,7 +7319,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Thorian",
     "author": "Dakota P."
@@ -7390,7 +7390,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Thorian",
     "description": "In its juvenile stage, the Thorian becomes mobile and sneaks aboard unknowing ships to spread across the galaxy.",
@@ -7462,7 +7462,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Thorian",
     "description": "The beginning of a Thorian's life cycle, these stationary plants feed off nutrients from the mother plant while also acting as a last line of defense against intruders.",
@@ -7533,7 +7533,7 @@
       "shields": 5,
       "regen": 0
     },
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Thorian",
     "description": "The poor slaves of the Thorian, they act as the reminder of the dangers of the frontier. Kill the Thorian to end their suffering.",
@@ -7627,7 +7627,7 @@
       }
     ],
     "sp": null,
-    "spellcasting": null,
+    "powercasting": null,
     "type": "Organic",
     "unit": "Thorian",
     "author": "Dakota P."
@@ -7780,7 +7780,7 @@
         "range": 12
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -7853,7 +7853,7 @@
         "range": 0
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   },
@@ -7921,7 +7921,7 @@
         "range": 20
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -7989,7 +7989,7 @@
         "range": 16
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -8072,7 +8072,7 @@
         "range": 8
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synorg",
     "unit": "Cerberus"
   },
@@ -8175,7 +8175,7 @@
         "range": 16
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Organic",
     "unit": "Alien"
   },
@@ -8266,7 +8266,7 @@
         "range": 6
       }
     ],
-    "spellcasting": false,
+    "powercasting": false,
     "type": "Synthetic",
     "unit": "Mech"
   }

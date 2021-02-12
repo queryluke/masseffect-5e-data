@@ -82,13 +82,13 @@
     "shields": 20,
     "regen": 10
   },
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "cha",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "At will",
-        "spells": [
+        "powers": [
           {
             "id": "incinerate"
           }
@@ -96,7 +96,7 @@
       },
       {
         "perDay": "3/Day",
-        "spells": [
+        "powers": [
           {
             "id": "energy_drain"
           },

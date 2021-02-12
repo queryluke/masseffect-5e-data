@@ -89,4 +89,4 @@ progressionColumns:
     key: power-level
     values: [1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3]
 ---
-The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking cover much less necessary and rushing their enemies much more productive. Because Sentinels have access to both biotic spells and tech powers and use Charisma as their spellcasting modifier.
+The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking cover much less necessary and rushing their enemies much more productive. Because Sentinels have access to both biotic powers and tech powers and use Charisma as their powercasting modifier.

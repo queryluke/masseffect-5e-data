@@ -85,13 +85,13 @@
       "range": 16
     }
   ],
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "wis",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "At will",
-        "spells": [
+        "powers": [
           {
             "id": "throw"
           }
@@ -99,7 +99,7 @@
       },
       {
         "perDay": "3/day",
-        "spells": [
+        "powers": [
           {
             "id": "warp"
           }

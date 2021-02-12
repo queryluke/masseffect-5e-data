@@ -13,7 +13,7 @@ Not repeated here are basic rules for Dungeon (Galaxy) Masters which have additi
 ### Using the Site
 
 The __Rules__ dropdown on the left contains the necessary information you need for creating characters, going on missions,
-leveling up, casting spells, and acquiring all the different types of equipment and vehicles available to you. Sections
+leveling up, casting powers, and acquiring all the different types of equipment and vehicles available to you. Sections
 that contain significant changes are:
 - [Equipment](/manual/equipment), which includes brand-new rules for armor, weapons, and mods
 - [Combat](/manual/combat), which includes information on kinetic barriers (shields)
@@ -27,7 +27,7 @@ The __Characters__ dropdown contains the list of options you have when creating 
 
 The __Equipment__ section has links to all of the equipment lists, weapons, mods, armor, and other unique items.
 
-__Spells & Powers__ contains the list of all the new Spells in this homebrew.
+__Powers__ contains the list of all the new Powers in this homebrew.
 
 __Bestiary__ has entirely new monsters and aliens to fight.
 

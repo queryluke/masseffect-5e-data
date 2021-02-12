@@ -12,10 +12,10 @@ duration: 1 minute
 concentration: false
 distance:
   range: 90
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
+  aoeType:
+  aoeDistance:
+detonates:
+primes:
 availableClasses:
 - infiltrator
 - soldier
@@ -26,7 +26,7 @@ advancementOptions:
 - name: Telegraphed Attacks
   description: Your HUD alerts you when the creature is about to attack. It has
     disadvantage on ranged and melee attacks against you and you have advantage on any saving
-    throws caused by spells and abilities of the creature.
+    throws caused by powers and abilities of the creature.
 ---
 Spend your action scanning a creature you can see, studying its movement and revealing weaknesses.
 Make a Wisdom (Insight) check, contested by the target's Charisma (Deception) check. On a success, you have advantage on

@@ -13,4 +13,4 @@ availability:
   - Medium
   - Heavy
 ---
-+1 bonus to spell damage rolls
++1 bonus to power damage rolls

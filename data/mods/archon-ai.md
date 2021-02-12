@@ -9,11 +9,11 @@ description: An efficient algorithm to balance processing power for biotic amps
 cost: 30000
 manu: Rosenkov Materials
 notes:
-  - Spell Regen
+  - Power Regen
 placement: Head
 availability:
   - Light
   - Medium
   - Heavy
 ---
-You regain 1d4 worth of spell slots or tech points when you take a short rest.
+You regain 1d4 worth of power slots or tech points when you take a short rest.

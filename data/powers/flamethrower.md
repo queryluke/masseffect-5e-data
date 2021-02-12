@@ -16,7 +16,7 @@ distance:
   range: Self
   aoeType: cone
   aoeDistance: 20
-detonates: 
+detonates:
 primes: fire
 availableClasses:
 - engineer
@@ -34,7 +34,7 @@ Overload your omni-tool's acetylene torch, spewing flames in front of you. Each 
 takes 6d10 fire damage on a failed save or half as much damage on a successful one.
 
 At the start of your turn, you may spend your action and 1 additional tech point to continue casting this power. Your
-movement speed is <me-distance length="5" /> while casting it in this manner. The spell ends if you become incapacitated.
+movement speed is <me-distance length="5" /> while casting it in this manner. The power ends if you become incapacitated.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d10
+__At Higher Levels__: When you cast this power using a power slot of 4th level or higher, the damage increases by 2d10
 for each slot level above 3rd.

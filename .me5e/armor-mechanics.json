@@ -147,7 +147,7 @@
     "id": "resistance-piercing"
   },
   {
-    "mechanic": "resistance-spell",
+    "mechanic": "resistance-power",
     "description": "Resistance to cold, fire, force, lightning, or necrotic damage",
     "amount": "1 damage type",
     "cost": "20000",
@@ -196,15 +196,15 @@
     "id": "speed"
   },
   {
-    "mechanic": "spell bonus",
-    "description": "you gain a +X bonus to spell attack rolls and to the saving throw DCs of your spells.",
+    "mechanic": "power bonus",
+    "description": "you gain a +X bonus to power attack rolls and to the saving throw DCs of your powers.",
     "amount": "1",
     "cost": "20000",
     "id": "spell-bonus"
   },
   {
-    "mechanic": "spell regen",
-    "description": "You regain 1d4 worth of spell slots or tech points when you take a short rest.",
+    "mechanic": "power regen",
+    "description": "You regain 1d4 worth of power slots or tech points when you take a short rest.",
     "amount": "1 die",
     "cost": "30000",
     "id": "spell-regen"

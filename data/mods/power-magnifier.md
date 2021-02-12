@@ -12,4 +12,4 @@ availability:
   - SMG
 type: Weapon
 ---
-+1 on spell damage rolls while holding this weapon.
++1 on power damage rolls while holding this weapon.

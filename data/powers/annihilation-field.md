@@ -16,7 +16,7 @@ distance:
   range: Self
   aoeType: sphere
   aoeDistance: 10
-detonates: 
+detonates:
 primes: necrotic
 availableClasses:
 - adept
@@ -35,4 +35,4 @@ space for the first time on a turn or ends its turn there.
 
 Any creature within the sphere is <me-condition id="primed" sub="necrotic"/>. This condition ends immediately if the creature leaves the sphere.
 
-__At Higher Levels__: When you cast this spell using a spell slot of 5th level, increase the radius by <me-distance length="10" />.
+__At Higher Levels__: When you cast this power using a power slot of 5th level, increase the radius by <me-distance length="10" />.

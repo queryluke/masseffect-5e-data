@@ -29,9 +29,9 @@ advancementOptions:
     (Acrobatics) check to remain standing. Additionally, if you would land within an area that causes a Dexterity
     saving throw, you have advantage on the save.
 ---
-Your Spellcasting Ability determines how far you can jump.
+Your Powercasting Ability determines how far you can jump.
 
-__Long Jump__. When you make a long jump, you cover a number of <me-distance length="0" /> up to your Spellcasting Ability score. If jumping
+__Long Jump__. When you make a long jump, you cover a number of <me-distance length="0" /> up to your Powercasting Ability score. If jumping
 over an obstacle, subtract <me-distance length="5" /> of distance per <me-distance length="10" /> of the obstacle's height.
 
-__High Jump__. When you make a high jump, you leap into the air a number of <me-distance length="0" /> equal to <me-distance length="5" numOnly /> + your Spellcasting Modifier.
+__High Jump__. When you make a high jump, you leap into the air a number of <me-distance length="0" /> equal to <me-distance length="5" numOnly /> + your Powercasting Modifier.

@@ -15,11 +15,11 @@ The creator of this program, a human hacker, known as Gahri Gi'gax, wrote a rand
 an action to activate a display at random from the program, spawning a holographic image within <me-distance length="30" />
 of you.
 
-The image of one or more creatures forms over the targeted area and remains until dispelled. The holographic creature
+The image of one or more creatures forms over the targeted area and remains until dipowered. The holographic creature
 appears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While
-you are within <me-distance length="120" /> of the hologram and can see it, you can use an action to move it anywhere within 
-<me-distance length="30" /> of the initial location. Any physical interaction with the hologram reveals it to be an 
-illusion because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as a 
+you are within <me-distance length="120" /> of the hologram and can see it, you can use an action to move it anywhere within
+<me-distance length="30" /> of the initial location. Any physical interaction with the hologram reveals it to be an
+illusion because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as a
 hologram with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent.
 
 The hologram lasts 1 hour or until you cancel the display. At which point, the display removes itself from the suite.

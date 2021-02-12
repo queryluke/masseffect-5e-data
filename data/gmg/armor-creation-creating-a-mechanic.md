@@ -55,8 +55,8 @@ Once per short rest, as a reaction to taking damage, you may jump-start your shi
 Increase shield regen|5|8000
 Additional shield points (regen remains base 5)|5|10000
 Increase speed|<me-distance length="5" />|3000
-you gain a +X bonus to spell attack rolls and to the saving throw DCs of your spells.|1|20000
-You regain 1d4 worth of spell slots or tech points when you take a short rest.|1 die|30000
+you gain a +X bonus to power attack rolls and to the saving throw DCs of your powers.|1|20000
+You regain 1d4 worth of power slots or tech points when you take a short rest.|1 die|30000
 Advantage on saving throws|1 saving throw type|35000
 Advantage on a saving throw against one condition|1 condition|15000
 Instantly stabilize a companion|1 per long rest|20000

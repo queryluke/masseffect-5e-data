@@ -28,7 +28,7 @@ Your character needs to be proficient with armor to wear and use it effectively,
 determined by your class. There are drawbacks to wearing armor if you lack the required proficiency, as explained in
 the Equipment section.
 
-Some spells and class features give you a different way to calculate your AC. If you have multiple features that give
+Some powers and class features give you a different way to calculate your AC. If you have multiple features that give
 you different ways to calculate your AC, you choose which one to use.
 
 ### Weapons

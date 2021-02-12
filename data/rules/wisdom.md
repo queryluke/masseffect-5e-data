@@ -18,8 +18,8 @@ in certain kinds of Wisdom checks.
 
 &nbsp;
 
-### Spellcasting Ability
-Adepts, vanguards, and sentinels use Wisdom as their spellcasting ability, which helps determine the saving
-throw DCs of spells they cast.
+### Powercasting Ability
+Adepts, vanguards, and sentinels use Wisdom as their powercasting ability, which helps determine the saving
+throw DCs of powers they cast.
 
 <me-source-reference pages="82"></me-source-reference>

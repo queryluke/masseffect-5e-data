@@ -64,13 +64,13 @@
       "range": 10
     }
   ],
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "int",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "At will",
-        "spells": [
+        "powers": [
           {
             "id": "overload"
           }

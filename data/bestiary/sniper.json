@@ -65,13 +65,13 @@
     "shields": 5,
     "regen": 5
   },
-  "spellcasting": {
+  "powercasting": {
     "level": "innate",
     "mod": "int",
-    "spellList": [
+    "powerList": [
       {
         "perDay": "5/day",
-        "spells": [
+        "powers": [
           {
             "id": "concussive shot"
           }
