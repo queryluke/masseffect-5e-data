@@ -10,9 +10,9 @@ of your omni-tool that lasts one minute. You can end Omni-shield at any point as
 While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:
 
 * +1 AC.
-* If a creature within 2m of you is attacked, you may use your reaction to impose disadvantage on that attack.
+* If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
 * As an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a
-hit creature backward 2m.
+hit creature backward <me-distance length="5" />.
 
 <br>
 

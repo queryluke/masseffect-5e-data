@@ -342,7 +342,7 @@
         "description": "When landing in Difficult Terrain, you automatically succeed on your Dexterity (Acrobatics) check to remain standing. Additionally, if you would land within an area that causes a Dexterity saving throw, you have advantage on the save."
       }
     ],
-    "html": "<p>Your Spellcasting Ability determines how far you can jump.</p>\n<p><strong>Long Jump</strong>. When you make a long jump, you cover a number of meters up to your Spellcasting Ability score. If jumping\nover an obstacle, subtract <me-distance length=\"5\" /> of distance per <me-distance length=\"10\" /> of the obstacle's height.</p>\n<p><strong>High Jump</strong>. When you make a high jump, you leap into the air a number of meters equal to 2 + your Spellcasting Modifier.</p>\n"
+    "html": "<p>Your Spellcasting Ability determines how far you can jump.</p>\n<p><strong>Long Jump</strong>. When you make a long jump, you cover a number of <me-distance length=\"0\" /> up to your Spellcasting Ability score. If jumping\nover an obstacle, subtract <me-distance length=\"5\" /> of distance per <me-distance length=\"10\" /> of the obstacle's height.</p>\n<p><strong>High Jump</strong>. When you make a high jump, you leap into the air a number of <me-distance length=\"0\" /> equal to <me-distance length=\"5\" numOnly /> + your Spellcasting Modifier.</p>\n"
   },
   {
     "id": "biotic-orbs",
@@ -3063,7 +3063,7 @@
       },
       {
         "name": "Shift",
-        "description": "As a bonus action, you can move this cube of warp energy up to 4 meters in any direction you choose. It can pass through solid objects, but you can only control it's movement while you have line of sight."
+        "description": "As a bonus action, you can move this cube of warp energy up to <me-distance length=\"10\" /> in any direction you choose. It can pass through solid objects, but you can only control it's movement while you have line of sight."
       }
     ],
     "html": "<p>You fill the air with a highly concentrated warp field <me-distance length=\"5\" /> on each side at a point within range. A creature takes\n4d4 necrotic damage when it enters the spell area for the first time on a turn or starts its turn there. A creature\nwithin the cloud is <me-condition id=\"primed\" sub=\"necrotic\"/>.</p>\n<p><strong>At Higher Levels</strong>. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 4d4\nfor each slot level above 1st.</p>\n"

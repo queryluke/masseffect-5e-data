@@ -1,6 +1,6 @@
 {
   "mechanic": "speed",
   "description": "Increase speed",
-  "amount": "2m",
+  "amount": "<me-distance length=\"5\" />",
   "cost": "3000"
 }

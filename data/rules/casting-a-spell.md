@@ -43,7 +43,7 @@ spend tech points. If you want to try casting the spell again, you must start ov
 The target of a spell must be within the spell's range. For a spell like lance, the target is a creature. For a spell
 like havoc strike, the target is the point in space where your character lands emitting a violent shockwave.
 
-Most spells have ranges expressed in meters. Some spells can target only a creature (including you) that you touch.
+Most spells have ranges expressed in <me-distance length="0" />. Some spells can target only a creature (including you) that you touch.
 Other spells, such as the fortification spell, affect only you. These spells have a range of self.
 
 Spells that create cones or lines of effect that originate from you also have a range of self, indicating that the origin
@@ -141,7 +141,7 @@ A line's point of origin is not included in the line's area of effect, unless yo
 
 #### Sphere
 You select a sphere's point of origin, and the sphere extends outward from that point. The sphere's size is expressed as
-a radius in meters that extends from the point.
+a radius in <me-distance length="0" /> that extends from the point.
 
 A sphere's point of origin is included in the sphere's area of effect.
 
@@ -160,7 +160,7 @@ Some spells require the caster to make an attack roll to determine whether the s
 Your attack bonus with a spell attack equals your spellcasting ability modifier + your proficiency bonus.
 
 Most spells that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll
-if you are within 2 meters of a hostile creature that can see you and that isn't incapacitated.
+if you are within <me-distance length="5" /> of a hostile creature that can see you and that isn't incapacitated.
 
 
 

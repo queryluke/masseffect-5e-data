@@ -8,7 +8,7 @@
   "heat": 3,
   "damage": "2d8",
   "range": 200,
-  "notes": "Hit or miss, each creature within a 4m radius of the target takes 1d4 fire damage.",
+  "notes": "Hit or miss, each creature within a <me-distance length=\"10\" /> radius of the target takes 1d4 fire damage.",
   "npcHit": null,
   "npcMiss": null,
   "dmgType": "fre",

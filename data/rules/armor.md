@@ -34,7 +34,7 @@ explained in the Armor Bonuses and Limitations table.
 
 __Heavier Armor__. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the
 Armor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor
-reduces the wearer’s speed by 4m unless the wearer has a Strength score equal to or higher than the listed score.
+reduces the wearer’s speed by <me-distance length="10" /> unless the wearer has a Strength score equal to or higher than the listed score.
 
 For simplicity's sake, you cannot mix armor *within* placements. I.e., you cannot have a heavy piece of on your right arm
 and a light piece of armor on your left.

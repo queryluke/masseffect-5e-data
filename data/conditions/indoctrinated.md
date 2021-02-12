@@ -4,15 +4,15 @@ id: indoctrinated
 ---
 _Inspired by Stephen W._
 
-If your campaign is set during any part of the Reaper invasion, it's likely you'll need some 
+If your campaign is set during any part of the Reaper invasion, it's likely you'll need some
 <a href="http://masseffect.wikia.com/wiki/Indoctrination" target="_blank">indoctrination</a> effects.
 While we encourage you to riff on these ideas or make up your own, here is a baseline for using indoctrination in your
 campaign.
 
-Spending time in the presence of a creature or object that can cause indoctrination (namely, Reaper technology) can 
-lead to a special condition called indoctrination. Indoctrination is measured in six levels. For each 24 hour 
-period a creature spends within the presence of an indoctrinating source, the creature must make a DC 10 Wisdom saving throw. 
-On a failed save, the creature suffers one level of indoctrination. If an already indoctrinated creature spends another 
+Spending time in the presence of a creature or object that can cause indoctrination (namely, Reaper technology) can
+lead to a special condition called indoctrination. Indoctrination is measured in six levels. For each 24 hour
+period a creature spends within the presence of an indoctrinating source, the creature must make a DC 10 Wisdom saving throw.
+On a failed save, the creature suffers one level of indoctrination. If an already indoctrinated creature spends another
 24 hour period within the presence of Reaper technology, the DC of the saving throw increases as described below.
 
 Level | Next Wisdom DC | Effect
@@ -27,25 +27,25 @@ Level | Next Wisdom DC | Effect
 <br>
 
 ### Reducing Indoctrination Levels
-Every long rest that a creature spends outside of the range of an indoctrinating source, it can make a new 
+Every long rest that a creature spends outside of the range of an indoctrinating source, it can make a new
 Wisdom saving throw (DC based on its current indoctrination level). On a success, reduce its indoctrination level by 1.
 
 Note: Synthetic creatures are immune to indoctrination.
 
 ### Reaper Tech
 
-Usually, indoctrination happens when another creature (such as a reaper, thorian, or leviathan) is actively trying to 
-indoctrinate one or many creatures. An exception to this is Reaper technology (i.e., reaper parts or devices salvaged from 
-battle or space). Reaper technology can passively indoctrinate creatures that are merely in the technology's presence. 
-Determining if a creature is within the presence of a piece of Reaper technology is based on the technology's size. 
+Usually, indoctrination happens when another creature (such as a reaper, thorian, or leviathan) is actively trying to
+indoctrinate one or many creatures. An exception to this is Reaper technology (i.e., reaper parts or devices salvaged from
+battle or space). Reaper technology can passively indoctrinate creatures that are merely in the technology's presence.
+Determining if a creature is within the presence of a piece of Reaper technology is based on the technology's size.
 The larger the object, the farther the range.
 
 #### Distance of Indoctrination
 Size of tech | Range
 --- | ---
-Tiny | 10 meters
-Small | 25 meters
-Medium | 100 meters
-Large | 1 kilometer (~ 1/2 a mile)
-Huge | 10 kilometers (~ 6 miles)
-Gargantuan |  100 kilometers (~ 60 miles)
+Tiny | <me-distance length="30" />
+Small | <me-distance length="100" />
+Medium | <me-distance length="250" />
+Large | <me-distance length="600" />
+Huge | <me-distance length="6" large />
+Gargantuan |  <me-distance length="60" large />

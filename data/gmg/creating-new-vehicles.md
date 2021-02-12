@@ -30,7 +30,7 @@ A vehicles speed is somewhat abstract. Mechanically, it represents the number of
 This assumes the vehicle is moving an average pace and slow enough to turn and maneuver. Speed should range from 1 to 15.
 
 ### Range
-For transports, range is the number of kilometers the vehicle can travel within 24 hours. This calculation should also
+For transports, range is the number of <me-distance length="0" large /> the vehicle can travel within 24 hours. This calculation should also
 take its battery or fuel capacity into account.
 
 For starships, the range is calculated as ftlu (faster than light units). Essentially how many Mass Effect Relay jumps

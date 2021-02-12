@@ -11,7 +11,7 @@ and powercasting modifier, multiplied by 2. When you have tech armor hit points 
 are lost first, and any leftover damage carries over to your shields and/or normal hit points. Tech armor lasts 1 minute
 or until it has 0 hit points remaining.
 
-While tech armor is active, you can use your action to overload it. Each creature within 4m must make a Constitution
+While tech armor is active, you can use your action to overload it. Each creature within <me-distance length="10" /> must make a Constitution
 saving throw. On a failed save, a creature takes force damage equal to the remaining hit points of your tech armor,
 or half as much on a successful one.
 

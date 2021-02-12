@@ -4,4 +4,4 @@ class: sentinel
 level: 7
 subclass: bastion
 ---
-At 7th level, your tactical focus increases to 8m per side.
+At 7th level, your tactical focus increases to <me-distance length="20" /> per side.

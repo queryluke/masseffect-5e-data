@@ -9,7 +9,7 @@
   "damage": "1d12",
   "range": 15,
   "notes": null,
-  "npcHit": "deals half of the damage roll  as lightning damage to 1 additional creature within 2m of the target.",
+  "npcHit": "deals half of the damage roll  as lightning damage to 1 additional creature within <me-distance length=\"5\" /> of the target.",
   "npcMiss": null,
   "dmgType": "lightning",
   "image": "http://vignette2.wikia.nocookie.net/masseffect/images/6/60/ME3_Reegar_Carbine.png/revision/latest?cb=20120530214009",

@@ -18,13 +18,12 @@ days, hours, or minutes. The rules for determining travel time depend on two fac
 creatures moving and the terrain they're moving over.
 
 ### Speed <v-chip color="warning" text-color="black" small>change</v-chip>
-Every character and monster has a speed, which is the distance in meters that the character or monster can walk in 1 round.
+Every character and monster has a speed, which is the distance in <me-distance length="0" /> that the character or monster can walk in 1 round.
 This number assumes short bursts of energetic movement in the midst of a life-threatening situation. The following rules
 determine how far a character or monster can move in a minute, an hour, or a day.
 
-Mass Effect 5e uses meters instead of feet.
-
 ::: alert
+By default, Mass Effect 5e uses meters instead of feet. You can toggle to imperial measurements at the bottom of the left-hand navigation.
 ### 5ft = 2m
 ### On a playmat: 2m = 1 square
 :::
@@ -45,7 +44,7 @@ On a failed saving throw, a character suffers one level of exhaustion.
 #### Mounts and Vehicles
 For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted
 character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are
-available every 12 to 15 kilometers (8-10 miles), characters can cover larger distances at this pace, but this is very
+available every <me-distance length="8" large numOnly /> to <me-distance length="10" large />, characters can cover larger distances at this pace, but this is very
 rare except in densely populated areas.
 
 Characters in transports choose a pace as normal. The __range__ statistic on transports indicates how far the transport can
@@ -66,7 +65,7 @@ The travel speeds given in the Travel Pace table assume relatively simple terrai
 But operatives can face dense forests, deep swamps, rubble-filled craters, steep mountains, and ice-covered ground -
 all considered difficult terrain.
 
-You move at half speed in difficult terrain - moving 1 meter in difficult terrain costs 2 meters of speed - so you can
+You move at half speed in difficult terrain - moving <me-distance length="1" /> in difficult terrain costs <me-distance length="2" /> of speed - so you can
 cover only half the normal distance in a minute, an hour, or a day.
 
 ### Special Types of Movement
@@ -74,17 +73,17 @@ Movement through underground tunnels, skyscrapers, or wilderness areas often inv
 might have to climb, crawl, swim, or jump to get where they need to go.
 
 #### Climbing, Swimming, and Crawling
-While climbing or swimming, each meter of movement costs 1 extra meter (2 extra meters in difficult terrain), unless a
-creature has a climbing or swimming speed. At the GM’s option, climbing a slippery vertical surface or one with few
-handholds requires a successful Strength (Athletics) check. Similarly, gaining any distance in rough water might require
-a successful Strength (Athletics) check.
+While climbing or swimming, each meter of movement costs <me-distance length="1" override="extra {metric}" />
+(<me-distance length="2" override="extra {metric}" /> in difficult terrain), unless a creature has a climbing or swimming speed.
+At the GM’s option, climbing a slippery vertical surface or one with few handholds requires a successful Strength (Athletics)
+check. Similarly, gaining any distance in rough water might require a successful Strength (Athletics) check.
 
 #### Jumping <v-chip color="warning" text-color="black" small>change</v-chip>
 Your Strength determines how far you can jump.
 
-__Long Jump__. When you make a long jump, you cover a number of meters up to your Strength score divided by three (rounded up)
-if you move at least 4 meters on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance.
-Either way, each meter you clear on the jump costs a meter of movement.
+__Long Jump__. When you make a long jump, you cover a number of <me-distance length="0" /> up to your Strength score <me-distance text-if="metric" override="divided by three (rounded up)" />,
+if you move at least <me-distance length="10" /> on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance.
+Either way, each <me-distance length="0" /> you clear on the jump costs a <me-distance length="0" /> of movement.
 
 This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your GM's option,
 you must succeed on a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance),
@@ -92,9 +91,10 @@ such as a hedge or low wall. Otherwise, you hit it.
 
 When you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check to land on your feet. Otherwise, you land prone.
 
-__High Jump__. When you make a high jump, you leap into the air a number of meters equal to 1 + your Strength modifier divided by three
-(rounded up) if you move at least 4m on foot immediately before the jump. When you make a standing high jump, you can
-jump only half that distance. Either way, each meter you clear on the jump costs a meter of movement. In some circumstances,
+__High Jump__. When you make a high jump, you leap into the air a number of <me-distance length="0" /> equal to 3 + your Strength modifier
+<me-distance text-if="metric" override="divided by three (rounded up)" /> if you move at least <me-distance length="10" />
+on foot immediately before the jump. When you make a standing high jump, you can
+jump only half that distance. Either way, each <me-distance length="0" /> you clear on the jump costs a <me-distance length="0" /> of movement. In some circumstances,
 your GM might allow you to make a Strength (Athletics) check to jump higher than you normally can.
 
 You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal

@@ -32,10 +32,10 @@ so a spellcaster often uses his or her action in combat to cast such a spell.
 
 ### Dash
 When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after
-applying any modifiers. With a speed of 10 meters, for example, you can move up to 20 meters on your turn if you dash.
+applying any modifiers. With a speed of <me-distance length="30" />, for example, you can move up to <me-distance length="60" /> on your turn if you dash.
 
-Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 10 meters
-is reduced to 6 meters, for instance, you can move up to 12 meters this turn if you dash.
+Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of <me-distance length="30" />
+is reduced to <me-distance length="10" />, for instance, you can move up to <me-distance length="20" /> this turn if you dash.
 
 
 
@@ -59,7 +59,7 @@ You can lend your aid to another creature in the completion of a task. When you 
 aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes
 the check before the start of your next turn.
 
-Alternatively, you can aid a friendly creature in attacking a creature within 2 meters of you. You feint, distract the
+Alternatively, you can aid a friendly creature in attacking a creature within <me-distance length="5" /> of you. You feint, distract the
 target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before
 your next turn, the first attack roll is made with advantage.
 

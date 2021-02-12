@@ -7,7 +7,7 @@ rarity: Varies
 ---
 An all-purpose medicinal salve combining an anaesthetic and clotting agent.
 
-__Use__. When you use this item, you or a willing creature within 2m regains hit points equal to the medi-gel's potency.
+__Use__. When you use this item, you or a willing creature within <me-distance length="5" /> regains hit points equal to the medi-gel's potency.
 
 Type|Rarity|Cost|HP Regained
 ---|---|---|---

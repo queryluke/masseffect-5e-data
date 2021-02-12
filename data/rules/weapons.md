@@ -10,7 +10,7 @@ difference between life and death while on a mission.
 
 The [Weapons List](/phb/weapons) shows the available weapons, their price and weight, the damage
 they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged.
-A melee weapon is used to attack a target within 2 meters of you, whereas a ranged weapon is used to attack a target at
+A melee weapon is used to attack a target within <me-distance length="5" /> of you, whereas a ranged weapon is used to attack a target at
 a distance.
 
 
@@ -42,7 +42,9 @@ that weapon and use his or her proficiency bonus.
 
 An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object).
 If a character uses a ranged weapon to make a melee attack or throws a melee weapon that does not have the thrown property,
-it also deals 1d4 damage. An improvised thrown weapon has a normal range of 6 meters and a long range of 18 meters. Light improvised thrown weapons have ranges of 10m and 30m, and heavy improvised ranged weapons have ranges of 4m and 12m.
+it also deals 1d4 damage. An improvised thrown weapon has a normal range of <me-distance length="15" /> and a long range of <me-distance length="45" />.
+Light improvised thrown weapons have ranges of <me-distance length="25" /> and <me-distance length="75" />, and heavy
+improvised ranged weapons have ranges of <me-distance length="15" /> and <me-distance length="30" />.
 
 
 

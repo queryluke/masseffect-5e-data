@@ -79,7 +79,7 @@
   {
     "mechanic": "darkvision",
     "description": "Darkvision up to certain distance. Can be toggled as bonus action.",
-    "amount": "20m",
+    "amount": "<me-distance length=\"60\" />",
     "cost": "2000",
     "id": "darkvision"
   },
@@ -107,7 +107,7 @@
   {
     "mechanic": "infrared vision",
     "description": "Infrared vision up to certain distance. Can be toggled as bonus action.",
-    "amount": "20m",
+    "amount": "<me-distance length=\"60\" />",
     "cost": "4000",
     "id": "infrared-vision"
   },
@@ -134,7 +134,7 @@
   },
   {
     "mechanic": "null-movement",
-    "description": "If an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 4 meters.",
+    "description": "If an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to <me-distance length=\"10\" />.",
     "amount": "-",
     "cost": "5000",
     "id": "null-movement"
@@ -191,7 +191,7 @@
   {
     "mechanic": "speed",
     "description": "Increase speed",
-    "amount": "2m",
+    "amount": "<me-distance length=\"5\" />",
     "cost": "3000",
     "id": "speed"
   },
@@ -240,7 +240,7 @@
   {
     "mechanic": "truesight",
     "description": "Truesight up to certain distance. Can be toggled as bonus action.",
-    "amount": "20m",
+    "amount": "<me-distance length=\"60\" />",
     "cost": "12000",
     "id": "truesight"
   },

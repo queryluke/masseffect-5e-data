@@ -39,7 +39,7 @@ capacity is your Strength score multiplied by 10 (due to the built-in servos and
 by weapons or armor (see below).
 \
 __Push, Drag, Lift__. You can push, drag, or lift a weight in kgs up to twice your carrying capacity or 10 (20 w/ armor)
-times your Strength score. While pushing or dragging weight in excess of your carrying capacity, your speed drops to 2 meters.
+times your Strength score. While pushing or dragging weight in excess of your carrying capacity, your speed drops to <me-distance length="5" />.
 \
 __Size & Strength__. Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category
 above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.
@@ -60,9 +60,9 @@ When you use this variant, ignore the minimum Strength column of the Armor table
 
 - __Your carry weight is equal to two times your Strength score__
 - Each weapon and armor piece has a weight. If your total weight from all weapons and armor is in excess of your
-  carry weight, you are __encumbered__, which means your speed drops by 4m.
+  carry weight, you are __encumbered__, which means your speed drops by <me-distance length="10" />.
 - If your total weight from all weapons and armor is in excess of four times your Strength score, you are instead
-  __heavily encumbered__, which means your speed drops by 10m and you have disadvantage on ability
+  __heavily encumbered__, which means your speed drops by <me-distance length="25" /> and you have disadvantage on ability
   checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 
 <me-source-reference pages="79-80"></me-source-reference>

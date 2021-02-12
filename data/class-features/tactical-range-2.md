@@ -4,4 +4,4 @@ class: sentinel
 level: 10
 subclass: bastion
 ---
-At 10th level, your tactical focus increases to 10m per side.
+At 10th level, your tactical focus increases to <me-distance length="25" /> per side.

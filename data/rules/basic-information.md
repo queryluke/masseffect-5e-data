@@ -17,7 +17,7 @@ with a notable exception: Vehicle shields can only be regenerated in combat when
 Restore action (explained later in this section).
 
 ### Speed
-For vehicles, speed is relative to other vehicles and is represented as a static number not as meters. For
+For vehicles, speed is relative to other vehicles and is represented as a static number not as <me-distance length="0" />. For
 the purposes of combat, it represents the number of playmat spaces the vehicle can move on its turn when moving
 at a normal pace.
 

@@ -9,5 +9,5 @@ new: true
 Travel light, travel fast.
 
 - Increase your Dexterity score by 1, to a maximum of 20.
-- If you are wearing all light armor (or no armor) and have only one weapon equipped, your speed increases by 4m and
+- If you are wearing all light armor (or no armor) and have only one weapon equipped, your speed increases by <me-distance length="10" /> and
 you avoid triggering any pressure-activated traps or mines.

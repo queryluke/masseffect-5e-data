@@ -43,7 +43,7 @@
     {
       "name": "Root Structure",
       "recharge": null,
-      "description": "One a thorian reaches maturity, it's roots grow at a rate of 2 to 4 meters per year. Over time, these roots create vast tunnel systems and caverns that act as the thorian's lair."
+      "description": "One a thorian reaches maturity, it's roots grow at a rate of <me-distance length=\"5\" numOnly /> to <me-distance length=\"10\" /> per year. Over time, these roots create vast tunnel systems and caverns that act as the thorian's lair."
     },
     {
       "name": "Neural Nodes",

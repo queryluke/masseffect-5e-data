@@ -4,7 +4,7 @@
     "name": "A Beautiful Mine",
     "note": "You're an ace with explosives.",
     "new": true,
-    "html": "<p>You know how to sculpt explosives into works of art.</p>\n<ul>\n<li>You have advantage on disarming landmines that you find.</li>\n<li>Enemies who trigger your mines make their Dexterity saving throw at disadvantage.</li>\n<li>You can sculpt the mine's explosion: Choose two 2m squares. Any creature within those squares takes no damage from the mine's explosion.</li>\n</ul>\n"
+    "html": "<p>You know how to sculpt explosives into works of art.</p>\n<ul>\n<li>You have advantage on disarming landmines that you find.</li>\n<li>Enemies who trigger your mines make their Dexterity saving throw at disadvantage.</li>\n<li>You can sculpt the mine's explosion: Choose two <me-distance length=\"5\" adj /> squares. Any creature within those squares takes no damage from the mine's explosion.</li>\n</ul>\n"
   },
   {
     "id": "actor",
@@ -64,7 +64,7 @@
     "name": "Come Get Me",
     "note": "Draw the enemy fire.",
     "new": true,
-    "html": "<p>Conventional wisdom in combat is to avoid being targeted. You prefer an alternate school of thought, keeping enemies\nfocused on you and off of your less stalwart allies.</p>\n<p>Increase your Charisma score by 1, to a maximum of 20.</p>\n<p>As an action, you can make a feint to draw enemy attention. This feint may be a war cry, a loud insult, or a different\ndistraction. All enemies within 16 meters must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier).\nOn a successful saving throw, a target is unaffected and is immune to this effect for the next 24 hours. On a failed\nsaving throw, an enemy has disadvantage on attacking any creature except you for the next minute, or until\nthey make an attack against you. You may use this ability once per short or long rest.</p>\n"
+    "html": "<p>Conventional wisdom in combat is to avoid being targeted. You prefer an alternate school of thought, keeping enemies\nfocused on you and off of your less stalwart allies.</p>\n<p>Increase your Charisma score by 1, to a maximum of 20.</p>\n<p>As an action, you can make a feint to draw enemy attention. This feint may be a war cry, a loud insult, or a different\ndistraction. All enemies within <me-distance length=\"20\" /> must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier).\nOn a successful saving throw, a target is unaffected and is immune to this effect for the next 24 hours. On a failed\nsaving throw, an enemy has disadvantage on attacking any creature except you for the next minute, or until\nthey make an attack against you. You may use this ability once per short or long rest.</p>\n"
   },
   {
     "id": "cranial-bruiser",
@@ -106,7 +106,7 @@
     "note": "+1 Dexterity, increased speed and you don't set off weight based traps",
     "prerequisite": "Dexterity 12 or higher",
     "new": true,
-    "html": "<p>Travel light, travel fast.</p>\n<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>If you are wearing all light armor (or no armor) and have only one weapon equipped, your speed increases by 4m and\nyou avoid triggering any pressure-activated traps or mines.</li>\n</ul>\n"
+    "html": "<p>Travel light, travel fast.</p>\n<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>If you are wearing all light armor (or no armor) and have only one weapon equipped, your speed increases by <me-distance length=\"10\" /> and\nyou avoid triggering any pressure-activated traps or mines.</li>\n</ul>\n"
   },
   {
     "id": "grace-under-fire",
@@ -128,7 +128,7 @@
     "note": "Additional grenades. Can throw grenades as an action for additional benefits.",
     "prerequisite": "Dexterity or Strength 12 or higher",
     "new": true,
-    "html": "<ul>\n<li>+2 grenade capacity</li>\n<li><strong>Improvised Grenades</strong>. You can make grenades from scrap metal and scavenged materials. Acquire 1 frag grenade every long rest.\nThe Mark of the frag grenade is equal to your level divided by three, minimum 1.</li>\n</ul>\n<p>When you use a grenade, you may choose to make a ranged weapon attack (10/30m) on a creature instead of choosing a target location.\nAdd your dexterity or strength modifier (your choice) and proficiency bonus to the attack roll. On a hit, the grenade\ndeals bludgeoning damage equal to 1d4 + dexterity or strength modifier (same as used to make the ranged attack). The target\nalso has disadvantage on the saving throw caused by the grenade. The grenade lands at the target's location.\nOn a miss, the grenade lands 2m beyond the target. On a critical miss, roll 2d4. The first die represents the number of\nspaces away from the target in which the grenade lands. The second die represents the direction (1 = North, 2= East,\n3 = South, 4 = West). E.g., 2 &amp; 2, the grenade would land 2 spaces east of the target. Once the grenade's location is\ndetermined, it resolves normally.</p>\n"
+    "html": "<ul>\n<li>+2 grenade capacity</li>\n<li><strong>Improvised Grenades</strong>. You can make grenades from scrap metal and scavenged materials. Acquire 1 frag grenade every long rest.\nThe Mark of the frag grenade is equal to your level divided by three, minimum 1.</li>\n</ul>\n<p>When you use a grenade, you may choose to make a ranged weapon attack (<me-distance length=\"30\" numOnly />/<me-distance length=\"60\" abbr/>) on a creature instead of choosing a target location.\nAdd your dexterity or strength modifier (your choice) and proficiency bonus to the attack roll. On a hit, the grenade\ndeals bludgeoning damage equal to 1d4 + dexterity or strength modifier (same as used to make the ranged attack). The target\nalso has disadvantage on the saving throw caused by the grenade. The grenade lands at the target's location.\nOn a miss, the grenade lands <me-distance length=\"5\" /> beyond the target. On a critical miss, roll 2d4. The first die represents the number of\nspaces away from the target in which the grenade lands. The second die represents the direction (1 = North, 2= East,\n3 = South, 4 = West). E.g., 2 &amp; 2, the grenade would land 2 spaces east of the target. Once the grenade's location is\ndetermined, it resolves normally.</p>\n"
   },
   {
     "id": "hair-trigger",

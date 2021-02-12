@@ -9,7 +9,7 @@
   "damage": "1d6",
   "range": 75,
   "notes": "Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an additional 2d6 lightning damage.",
-  "npcHit": "deals half of the damage roll as lightning damage to 1 additional creature within 2m of the target.",
+  "npcHit": "deals half of the damage roll as lightning damage to 1 additional creature within <me-distance length=\"5\" /> of the target.",
   "npcMiss": null,
   "dmgType": "lightning",
   "image": "http://vignette1.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747",

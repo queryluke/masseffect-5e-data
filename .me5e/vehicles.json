@@ -41,7 +41,7 @@
       },
       {
         "name": "Inferno PKRs (16 charges)",
-        "damage": "160 (3d10[x10]) fire damage to a 10m-radius sphere. Half damage on a successful DC 18 Dexterity saving throw."
+        "damage": "160 (3d10[x10]) fire damage to a <me-distance length=\"25\" adj />-radius sphere. Half damage on a successful DC 18 Dexterity saving throw."
       }
     ],
     "cr": 21,
@@ -656,7 +656,7 @@
     "cr": 7,
     "cost": "military",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/90/M-44_Hammerhead_2160p.png/revision/latest/scale-to-width-down/640?cb=20141021172824",
-    "html": "<p>The M-44 Hammerhead is an infantry fighting vehicle that hovers over the battlefield at up to 120 kilometers an hour.\nIt most likely follows a theme of naming armored vehicles after sharks, just like the M35 Mako.</p>\n",
+    "html": "<p>The M-44 Hammerhead is an infantry fighting vehicle that hovers over the battlefield at up to <me-distance length=\"75\" large /> an hour.\nIt most likely follows a theme of naming armored vehicles after sharks, just like the M35 Mako.</p>\n",
     "id": "m-44-hammerhead"
   },
   {
@@ -794,7 +794,7 @@
     "cr": "17+",
     "cost": "none",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/68/Rannoch_Destroyer_Shot.png/revision/latest/scale-to-width-down/422?cb=20120714191503",
-    "html": "<p>Destroyers are a type of Reaper that appear during their galaxy-wide invasion in 2186. They are approximately 160 meters\nin height; smaller than a Reaper of Sovereign's class, which measure over two kilometers in height. Destroyers make up\nthe majority of the Reaper fleet and are believed to be created using harvested species that are not used to\nbuild Reaper Capital Ships.</p>\n",
+    "html": "<p>Destroyers are a type of Reaper that appear during their galaxy-wide invasion in 2186. They are approximately <me-distance length=\"400\" />\nin height; smaller than a Reaper of Sovereign's class, which measure over two kilometers in height. Destroyers make up\nthe majority of the Reaper fleet and are believed to be created using harvested species that are not used to\nbuild Reaper Capital Ships.</p>\n",
     "id": "reaper-destroyer"
   },
   {

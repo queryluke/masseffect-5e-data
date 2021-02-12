@@ -72,7 +72,7 @@ a target beyond the long range.
 
 #### Ranged Attacks in Close Combat
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell,
-or some other means, you have disadvantage on the attack roll if you are within 2 meters of a hostile creature who can
+or some other means, you have disadvantage on the attack roll if you are within <me-distance length="5" /> of a hostile creature who can
 see you and who isn't incapacitated.
 
 
@@ -82,8 +82,8 @@ Used in hand-to-hand combat, a melee attack allows you to attack a foe within yo
 handheld weapon such as a sword, a warhammer, or an omni-tool. A typical monster makes a melee attack when it strikes
 with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.
 
-Most creatures have a 2-meter reach and can thus attack targets within 2 meters of them when making a melee attack. Certain
-creatures (typically those larger than Medium) have melee attacks with a greater reach than 2 meters, as noted in their descriptions.
+Most creatures have a 2-meter reach and can thus attack targets within <me-distance length="5" /> of them when making a melee attack. Certain
+creatures (typically those larger than Medium) have melee attacks with a greater reach than <me-distance length="5" />, as noted in their descriptions.
 
 Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar
 forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your
@@ -142,7 +142,7 @@ away from you. If you're able to make multiple attacks with the Attack action, t
 
 The target must be no more than one size larger than you and must be within your reach. Instead of making an attack roll,
 you make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check
-(the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 2 meters
+(the target chooses the ability to use). If you win the contest, you either knock the target prone or push it <me-distance length="5" />
 away from you.
 
 <me-source-reference pages="94-96"></me-source-reference>

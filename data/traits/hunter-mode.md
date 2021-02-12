@@ -1,6 +1,6 @@
 ---
 name: Hunter Mode
-species: geth 
+species: geth
 ---
 Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.
 
@@ -11,7 +11,7 @@ As an action, you can activate Hunter Mode, gaining the following benefits:
 
 <br>
 
-This effect lasts 1 min. You can only use Hunter Mode once per long rest.
+This effect lasts 1 minute. You can only use Hunter Mode once per long rest.
 
 At 11th level, you gain an additional benefit based on your class:
 

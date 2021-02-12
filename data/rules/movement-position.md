@@ -16,20 +16,21 @@ speed until it is used up or until you are done moving.
 
 ### Breaking Up Your Move
 You can break up your movement on your turn, using some of your speed before and after your action. For example, if you
-have a speed of 10 meters, you can move 4 meters, take your action, and then move 6 meters.
+have a speed of <me-distance length="30" />, you can move <me-distance length="10" />, take your action, and then move <me-distance length="20" />.
 
 #### Moving between Attacks
 If you take an action that includes more than one weapon attack, you can break up your movement even further by moving
 between those attacks. For example, a soldier who can make two attacks with the Extra Attack feature and who has a speed
-of 10 meters could move 4 meters, make an attack, move 4 meters, and then attack again.
+of <me-distance length="30" /> could move <me-distance length="15" />, make an attack, <me-distance length="15" />, and then attack again.
 
 #### Using Different Speeds
 If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your
 speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result
 determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.
 
-For example, if you have a speed of 10 and a flying speed of 20 because you're wearing a jetpack, you could fly 10 meters,
-then walk 4 meters, and then leap into the air to fly 6 meters more.
+For example, if you have a speed of <me-distance length="30" /> and a flying speed of <me-distance length="60" /> because
+you're wearing a jetpack, you could fly <me-distance length="20" />,
+then walk <me-distance length="10" />, and then leap into the air to fly <me-distance length="30" /> more.
 
 
 
@@ -48,11 +49,11 @@ terrain. The space of another creature, whether hostile or not, also counts as d
 ### Being Prone
 Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves
 down. In the game, they are <me-condition id="prone"/>. You can drop prone without using any of your speed. Standing up takes
-more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 10 meters, you must
-spend 5 meters of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
+more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is <me-distance length="30" />, you must
+spend <me-distance length="15" /> of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
 
-To move while prone, you must crawl. Every foot of movement while crawling costs 1 extra meter. Crawling 1 meter in difficult
-terrain, therefore, costs 3 meters of movement.
+To move while prone, you must crawl. Every foot of movement while crawling costs <me-distance length="1" override="extra {metric}" />.
+Crawling <me-distance length="1" override="extra {metric}" /> in difficult terrain, therefore, costs <me-distance length="3" /> of movement.
 
 ### Interacting with Objects
 Around You Here are a few examples of the sorts of thing you can do in tandem with your movement and action:
@@ -102,12 +103,12 @@ particular size controls in combat. Objects sometimes use the same size categori
 |Gargantuan|<me-distance length="20" numOnly /> by <me-distance length="20" abbr /> or larger|
 
 #### Space
-A creature's space is the area in meters that it effectively controls in combat, not an expression of its physical
-dimensions. A typical Medium creature isn't 2 meters wide, for example, but it does control a space that wide. If a
-Medium asari stands in a 2‐meter-wide doorway, other creatures can't get through unless the asari lets them.
+A creature's space is the area in <me-distance length="0"/> that it effectively controls in combat, not an expression of its physical
+dimensions. A typical Medium creature isn't <me-distance length="5" /> wide, for example, but it does control a space that wide. If a
+Medium asari stands in a <me-distance length="5" adj />-wide doorway, other creatures can't get through unless the asari lets them.
 
 A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number
-of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 2-meter
+of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a <me-distance length="5" adj />
 radius around another one.
 
 Because larger creatures take up more space, fewer of them can surround a creature. If five Large creatures crowd around
@@ -116,7 +117,7 @@ a Gargantuan one.
 
 #### Squeezing into a Smaller Space
 A creature can squeeze through a space that is large enough for a creature one size smaller than it. Thus, a Large creature
-can squeeze through a passage that's only 2 meters wide. While squeezing through a space, a creature must spend 1 extra
+can squeeze through a passage that's only <me-distance length="5" /> wide. While squeezing through a space, a creature must spend 1 extra
 meter for every meter it moves there, and it has disadvantage on attack rolls and Dexterity saving throws. Attack rolls
 against the creature have advantage while it's in the smaller space.
 

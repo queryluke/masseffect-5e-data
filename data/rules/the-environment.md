@@ -9,7 +9,7 @@ in this section cover some of the most important ways in which adventurers inter
 
 ### Falling
 A fall from a great height is a common hazard, especially since many urban environments reach the skies. At the end of a
-fall, a creature takes 1d6 bludgeoning damage for every 4 meters (~10 ft) it fell, to a maximum of 20d6. The creature
+fall, a creature takes 1d6 bludgeoning damage for every <me-distance length="10" /> it fell, to a maximum of 20d6. The creature
 lands prone unless it avoids taking damage from the fall.
 
 ### Suffocating
