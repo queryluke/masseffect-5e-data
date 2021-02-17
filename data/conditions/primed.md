@@ -5,7 +5,7 @@ id: primed
 
 
 * When a primed creature is hit with a power or ability that __detonates__, the primed condition explodes, resulting
-in one of the following effect. After resolving the effect, the primed condition ends.
+in one of the following effects. After resolving the effect, the primed condition ends.
 
 
 Primed Type | Explosion
