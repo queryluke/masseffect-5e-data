@@ -1,11 +1,8 @@
 ---
-id: smoke_grenade
 name: Smoke Grenade
 stats:
-  damage: none
   range: 25
   blast: 10
-  damageType: null
 type: Grenade
 cost: 250
 weight: 1
