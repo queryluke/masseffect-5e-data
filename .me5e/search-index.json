@@ -1456,7 +1456,7 @@
       "Cerberus"
     ],
     "link": "/bestiary/assault-trooper",
-    "body": " Actions ",
+    "body": " Actions Frag Grenade III (2/Day) The assault trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.  ",
     "html": false
   },
   {
@@ -1468,7 +1468,7 @@
       "Cerberus"
     ],
     "link": "/bestiary/atlas",
-    "body": " Actions Smash Melee Weapon Attack +10 to hit, reach 5m, one target Hit 18 (3d8 + 5) bludgeoning damage.  Mass Accelerator Cannon Ranged Weapon Attack +9 to hit, range 300/900m, one target Hit 22 (5d8) radiant damage.  Rocket Launcher (Recharge 5-6) The atlas targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one.   Legendary Actions Eject The pilot of the Atlas ejects, landing in an unoccupied space within <me-distance length='100' />. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a <me-distance length=\"15\" adj /> radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one.  Mass Accelerator Cannon Attack The atlas makes a Mass Accelerator Cannon attack.  Smash Attack The atlas makes a Smash attack.  ",
+    "body": " Actions Smash Melee Weapon Attack +10 to hit, reach 5m, one target Hit 18 (3d8 + 5) bludgeoning damage.  Mass Accelerator Cannon Ranged Weapon Attack +9 to hit, range 300/900m, one target Hit 22 (5d8) radiant damage.  Rocket Launcher (Recharge 5-6) The atlas targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one.  Smoke Grenade (5/Day) The atlas targets an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/> cube centered on the target location. The cloud's area is heavily obscured and persists for 30 seconds. A moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the smoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour) can do so immediately.   Legendary Actions Eject The pilot of the Atlas ejects, landing in an unoccupied space within <me-distance length='100' />. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a <me-distance length=\"15\" adj /> radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one.  Mass Accelerator Cannon Attack The atlas makes a Mass Accelerator Cannon attack.  Smash Attack The atlas makes a Smash attack.  ",
     "html": false
   },
   {
@@ -1588,7 +1588,7 @@
       "Blue Suns"
     ],
     "link": "/bestiary/blue-suns-legionnaire",
-    "body": " Actions  Features Tech Armor (1/Day) As a bonus action, the legionnaire can activate its Tech Armor. It immediately gains 10 temporary hit points. While the legionnaire has at least 1 of these temporary hit points remaining, it has +2 AC.  Disruptor Ammo When the legionnaire hits with its M-15 Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the legionnaire's next turn.   Reactions Tech Armor As a reaction to taking damage, the legionnaire can activate its tech armor.  ",
+    "body": " Actions Inferno Grenade III (2/Day) The legionnaire targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers 3d4 fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute.\n\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.   Features Tech Armor (1/Day) As a bonus action, the legionnaire can activate its Tech Armor. It immediately gains 10 temporary hit points. While the legionnaire has at least 1 of these temporary hit points remaining, it has +2 AC.  Disruptor Ammo When the legionnaire hits with its M-15 Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the legionnaire's next turn.   Reactions Tech Armor As a reaction to taking damage, the legionnaire can activate its tech armor.  ",
     "html": false
   },
   {
@@ -1636,7 +1636,7 @@
       "Reaper"
     ],
     "link": "/bestiary/cannibal",
-    "body": " Actions Multiattack The cannibal makes 2 Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +2 to hit, range 50/150m, one target Hit 5 (1d10) piercing damage.  Bash Melee Weapon Attack +3 to hit, reach 5m, one target Hit 5 (1d8 + 1) bludgeoning damage.  Cannibalize (1/Day) The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other.   Features Pack Tactics The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  ",
+    "body": " Actions Multiattack The cannibal makes 2 Arm Cannon attacks.  Arm Cannon Ranged Weapon Attack +2 to hit, range 50/150m, one target Hit 5 (1d10) piercing damage.  Bash Melee Weapon Attack +3 to hit, reach 5m, one target Hit 5 (1d8 + 1) bludgeoning damage.  Frag Grenade III (2/Day) The cannibal targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.  Cannibalize (1/Day) The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other.   Features Pack Tactics The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  ",
     "html": false
   },
   {
@@ -1648,7 +1648,7 @@
       "Cerberus"
     ],
     "link": "/bestiary/centurion",
-    "body": " Actions Multiattack The centurion makes two M-96 Mattock attacks or two Stun Baton attacks.   Features Aggressive As a bonus action, the centurion can move up to its speed toward a hostile creature that it can see.  ",
+    "body": " Actions Multiattack The centurion makes two M-96 Mattock attacks or two Stun Baton attacks.  Frag Grenade III (2/Day) The centurion targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.  Smoke Grenade (2/Day) The centurion targets an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/> cube centered on the target location. The cloud's area is heavily obscured and persists for 30 seconds. A moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the smoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour) can do so immediately.   Features Aggressive As a bonus action, the centurion can move up to its speed toward a hostile creature that it can see.  ",
     "html": false
   },
   {
@@ -1720,7 +1720,7 @@
       "Collector"
     ],
     "link": "/bestiary/collector-trooper",
-    "body": " Actions Claw Melee Weapon Attack +3 to hit, reach 5m, one target Hit 9 (2d6 + 2) slashing damage.  Collector Web Ranged Weapon Attack +4 to hit, range 25/75m, one target Hit The target is restrained by organic webbing. As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).   Features Barrier When the collector trooper is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector trooper is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  ",
+    "body": " Actions Claw Melee Weapon Attack +3 to hit, reach 5m, one target Hit 9 (2d6 + 2) slashing damage.  Collector Web Ranged Weapon Attack +4 to hit, range 25/75m, one target Hit The target is restrained by organic webbing. As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).  Frag Grenade III (2/Day) The collector trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.   Features Barrier When the collector trooper is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.  Possessed Collector When the collector trooper is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.  ",
     "html": false
   },
   {
@@ -1840,7 +1840,7 @@
       "Eclipse"
     ],
     "link": "/bestiary/eclipse-trooper",
-    "body": " Actions  Features Pack Tactics The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  ",
+    "body": " Actions Flashbang Grenade III (2/Day) The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn.   Features Pack Tactics The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.  ",
     "html": false
   },
   {
@@ -1900,7 +1900,7 @@
       "Geth"
     ],
     "link": "/bestiary/geth-bomber",
-    "body": " Actions ",
+    "body": " Actions Multi-frag Grenade II (2/Day) The geth bomber targets 3 areas within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of each target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 1d4 piercing damage or half as much on a successful one.  ",
     "html": false
   },
   {
@@ -2056,7 +2056,7 @@
       "Kett"
     ],
     "link": "/bestiary/kett-chosen",
-    "body": " Actions ",
+    "body": " Actions Frag Grenade III (2/Day) The assault trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.  ",
     "html": false
   },
   {
@@ -2104,7 +2104,7 @@
       "N7"
     ],
     "link": "/bestiary/n-7-demolisher",
-    "body": " Actions Multiattack The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade.  Repair The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points.  Deploy Shield Pylon (1/Day) The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points.   Features N7 Training The N7 demolisher has advantage on its first attack roll each turn.  ",
+    "body": " Actions Multiattack The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade.  Arc Grenade III (3/Day) The N7 demolisher targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.  Homing Grenade I (3/Day) The N7 demolisher targets a creature within <me-distance length=\"25\" />. The target suffers 1d6 thunder damage. Each other creature within <me-distance length=\"5\" /> of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature suffers 1d6 thunder damage or half as much on a successful one.  Repair The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points.  Deploy Shield Pylon (1/Day) The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points.   Features N7 Training The N7 demolisher has advantage on its first attack roll each turn.  ",
     "html": false
   },
   {
@@ -2404,7 +2404,7 @@
       "Archetype"
     ],
     "link": "/bestiary/stg-agent",
-    "body": " Actions Multiattack The agent makes 2 attacks with its Scorpion.  Explosive Decoy As an action, the agent detonates its active Decoy. Each creature within <me-distance length='10' /> of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.   Features Surprise Attack If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.  ",
+    "body": " Actions Multiattack The agent makes 2 attacks with its Scorpion.  Flashbang Grenade III (2/Day) The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn.  Explosive Decoy As an action, the agent detonates its active Decoy. Each creature within <me-distance length='10' /> of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.   Features Surprise Attack If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.  ",
     "html": false
   },
   {
@@ -5866,7 +5866,7 @@
       "Grenade"
     ],
     "link": "/gear/inferno-grenade",
-    "body": "Target an area within . Each creature within  of the target must make a Dexterity saving throw.\nOn a failed save, a creature suffers fire damage or half as much on a successful one. The area within a  radius, centered on the target\ncontinues to burn for 1 minute.\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n2d4\n1,00 credits\n\n\nII\nCommon\n13\n2,000 credits\n\n\nIII\nUncommon\n13\n3d4\n2,500 credits\n\n\nIV\nUncommon\n15\n3d4\n3,500 credits\n\n\nV\nRare\n15\n5d4\n4,500 credits\n\n\nVI\nRare\n17\n5d4\n5,500 credits\n\n\nVII\nVery Rare\n17\n6d4\n6,000 credits\n\n\nVIII\nVery Rare\n18\n6d4\n6,500 credits\n\n\nIX\nVery Rare\n18\n7d4\n7,000 credits\n\n\nX\nSpectre\n19\n8d4\n8,000 credits\n\n\n",
+    "body": "Target an area within . Each creature within  of the target must make a Dexterity saving throw.\nOn a failed save, a creature suffers fire damage or half as much on a successful one. The area within a  radius, centered on the target\ncontinues to burn for 1 minute.\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.\nThe mark of this grenade determines its Save DC, damage, and credits.\n\n\nMark\nRarity\nSave DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n2d4\n1,00 credits\n\n\nII\nCommon\n13\n2d4\n2,000 credits\n\n\nIII\nUncommon\n13\n3d4\n2,500 credits\n\n\nIV\nUncommon\n15\n3d4\n3,500 credits\n\n\nV\nRare\n15\n5d4\n4,500 credits\n\n\nVI\nRare\n17\n5d4\n5,500 credits\n\n\nVII\nVery Rare\n17\n6d4\n6,000 credits\n\n\nVIII\nVery Rare\n18\n6d4\n6,500 credits\n\n\nIX\nVery Rare\n18\n7d4\n7,000 credits\n\n\nX\nSpectre\n19\n8d4\n8,000 credits\n\n\n",
     "html": false
   },
   {
@@ -6142,7 +6142,7 @@
       "Grenade"
     ],
     "link": "/gear/smoke-grenade",
-    "body": "Target an area within . A cloud of thick smoke erupts out in a \ncube centered on the target location (see below). The cloud's area is heavily obscured. The cloud persists for 30 seconds.\nA moderate wind ( to  per hour) can disperse the\nsmoke after 1 round, and a strong wind ( per hour)\ncan do so immediately.\n",
+    "body": "Target an area within . A cloud of thick smoke erupts out in a \ncube centered on the target location. The cloud's area is heavily obscured. The cloud persists for 30 seconds.\nA moderate wind ( to  per hour) can disperse the\nsmoke after 1 round, and a strong wind ( per hour)\ncan do so immediately.\n",
     "html": false
   },
   {

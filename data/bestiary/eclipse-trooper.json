@@ -14,8 +14,10 @@
       "id": "m-8-avenger"
     },
     {
-      "type": "grenade",
-      "id": "flashbang-grenade"
+      "type": "standard",
+      "name": "Flashbang Grenade III",
+      "recharge": "2/Day",
+      "description": "The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn."
     }
   ],
   "alignment": "Neutral",

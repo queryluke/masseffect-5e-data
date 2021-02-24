@@ -33,8 +33,10 @@
       "attackMod": 3
     },
     {
-      "type": "grenade",
-      "id": "frag-grenade"
+      "type": "standard",
+      "name": "Frag Grenade III",
+      "recharge": "2/Day",
+      "description": "The cannibal targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
     },
     {
       "type": "standard",

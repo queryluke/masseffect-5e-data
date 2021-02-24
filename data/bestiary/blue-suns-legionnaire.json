@@ -14,8 +14,10 @@
       "id": "m-15-vindicator"
     },
     {
-      "type": "grenade",
-      "id": "inferno-grenade"
+      "type": "standard",
+      "name": "Inferno Grenade III",
+      "recharge": "2/Day",
+      "description": "The legionnaire targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers 3d4 fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute.\n\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there."
     }
   ],
   "alignment": "Neutral",

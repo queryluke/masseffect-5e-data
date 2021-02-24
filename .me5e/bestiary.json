@@ -377,8 +377,10 @@
         "id": "m-25-hornet"
       },
       {
-        "type": "grenade",
-        "id": "frag-grenade"
+        "type": "standard",
+        "name": "Frag Grenade III",
+        "recharge": "2/Day",
+        "description": "The assault trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
       }
     ],
     "alignment": "Neutral",
@@ -452,8 +454,10 @@
         "description": "The atlas targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
       },
       {
-        "type": "grenade",
-        "id": "smoke-grenade"
+        "type": "standard",
+        "name": "Smoke Grenade",
+        "recharge": "5/Day",
+        "description": "The atlas targets an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/> cube centered on the target location. The cloud's area is heavily obscured and persists for 30 seconds. A moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the smoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour) can do so immediately."
       }
     ],
     "alignment": "Neutral",
@@ -1325,8 +1329,10 @@
         "id": "m-15-vindicator"
       },
       {
-        "type": "grenade",
-        "id": "inferno-grenade"
+        "type": "standard",
+        "name": "Inferno Grenade III",
+        "recharge": "2/Day",
+        "description": "The legionnaire targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers 3d4 fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute.\n\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there."
       }
     ],
     "alignment": "Neutral",
@@ -1636,8 +1642,10 @@
         "attackMod": 3
       },
       {
-        "type": "grenade",
-        "id": "frag-grenade"
+        "type": "standard",
+        "name": "Frag Grenade III",
+        "recharge": "2/Day",
+        "description": "The cannibal targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
       },
       {
         "type": "standard",
@@ -1715,12 +1723,16 @@
         "id": "m-96-mattock"
       },
       {
-        "type": "grenade",
-        "id": "frag-grenade"
+        "type": "standard",
+        "name": "Frag Grenade III",
+        "recharge": "2/Day",
+        "description": "The centurion targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
       },
       {
-        "type": "grenade",
-        "id": "smoke-grenade"
+        "type": "standard",
+        "name": "Smoke Grenade",
+        "recharge": "2/Day",
+        "description": "The centurion targets an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/> cube centered on the target location. The cloud's area is heavily obscured and persists for 30 seconds. A moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the smoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour) can do so immediately."
       }
     ],
     "alignment": "Neutral",
@@ -2272,8 +2284,10 @@
         "attackMod": 4
       },
       {
-        "type": "grenade",
-        "id": "frag-grenade"
+        "type": "standard",
+        "name": "Frag Grenade III",
+        "recharge": "2/Day",
+        "description": "The collector trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
       }
     ],
     "alignment": "Lawful evil",
@@ -3027,8 +3041,10 @@
         "id": "m-8-avenger"
       },
       {
-        "type": "grenade",
-        "id": "flashbang-grenade"
+        "type": "standard",
+        "name": "Flashbang Grenade III",
+        "recharge": "2/Day",
+        "description": "The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn."
       }
     ],
     "alignment": "Neutral",
@@ -3455,8 +3471,10 @@
     "ac": "16",
     "actions": [
       {
-        "type": "grenade",
-        "id": "multi-frag-grenade"
+        "type": "standard",
+        "name": "Multi-frag Grenade II",
+        "recharge": "2/Day",
+        "description": "The geth bomber targets 3 areas within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of each target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 1d4 piercing damage or half as much on a successful one."
       }
     ],
     "alignment": "Lawful Neutral",
@@ -4624,8 +4642,10 @@
         "id": "zalkin"
       },
       {
-        "type": "grenade",
-        "id": "frag-grenade"
+        "type": "standard",
+        "name": "Frag Grenade III",
+        "recharge": "2/Day",
+        "description": "The assault trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
       }
     ],
     "alignment": "Lawful evil",
@@ -4938,12 +4958,16 @@
         "id": "n-7-hurricane"
       },
       {
-        "type": "grenade",
-        "id": "arc-grenade"
+        "type": "standard",
+        "name": "Arc Grenade III",
+        "recharge": "3/Day",
+        "description": "The N7 demolisher targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one."
       },
       {
-        "type": "grenade",
-        "id": "homing-grenade"
+        "type": "standard",
+        "name": "Homing Grenade I",
+        "recharge": "3/Day",
+        "description": "The N7 demolisher targets a creature within <me-distance length=\"25\" />. The target suffers 1d6 thunder damage. Each other creature within <me-distance length=\"5\" /> of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature suffers 1d6 thunder damage or half as much on a successful one."
       },
       {
         "type": "standard",
@@ -7021,8 +7045,10 @@
         "id": "scorpion"
       },
       {
-        "type": "grenade",
-        "id": "flashbang-grenade"
+        "type": "standard",
+        "name": "Flashbang Grenade III",
+        "recharge": "2/Day",
+        "description": "The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn."
       },
       {
         "type": "standard",

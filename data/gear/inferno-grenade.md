@@ -51,7 +51,7 @@ The mark of this grenade determines its Save DC, damage, and credits.
 Mark|Rarity|Save DC|Damage|Credits
 ---|---|---|---|---
 I|Common|11|2d4|1,00 credits
-II|Common|13|2,000 credits
+II|Common|13|2d4|2,000 credits
 III|Uncommon|13|3d4|2,500 credits
 IV|Uncommon|15|3d4|3,500 credits
 V|Rare|15|5d4|4,500 credits
