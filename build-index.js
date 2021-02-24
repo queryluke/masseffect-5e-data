@@ -190,37 +190,6 @@ for (const file of files) {
   }
 }
 
-
-/******************
- Class Features
- */
-
-const classFeatures = require(`./.me5e/class-features.json`)
-for (let cf of classFeatures) {
-  if (cf.id === 'ability-score-improvement') {
-    continue
-  }
-  if (cf.subclass) {
-    searchItems.push({
-      id: `${cf.id}---${cf['class']}---${cf.subclass}`,
-      title: cf.name,
-      type: 'character',
-      subType: 'class_features',
-      qualifiers: [cf['class'],cf.subclass,`${ordinal(cf.level)}-level`],
-      body: cleanBody((cf.html || ''))
-    })
-  } else {
-    searchItems.push({
-      id: `${cf.id}---${cf['class']}`,
-      title: cf.name,
-      type: 'character',
-      subType: 'class_features',
-      qualifiers: [cf['class'],`${ordinal(cf.level)}-level`],
-      body: cleanBody((cf.html || ''))
-    })
-  }
-}
-
 for (const i of searchItems) {
   if (typeof i.id === 'undefined') {
     console.log(i)
