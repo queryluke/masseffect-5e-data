@@ -117,6 +117,7 @@ for (const file of files) {
       case 'class-features':
         searchItem.link = false
         searchItem.html = item.html
+        searchItem.subType = 'features'
         searchItem.qualifiers.push(item['class'])
         if (item.subclass) {
           searchItem.qualifiers.push(item.subclass.replace(/-/g,' '))
