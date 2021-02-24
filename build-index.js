@@ -77,6 +77,7 @@ for (const file of files) {
       case 'bestiary':
         searchItem.qualifiers.push(item.unit)
         searchItem.body = ''
+        searchItem.subType = false
         for (let key of ['Actions', 'Features', 'Reactions', 'Lair Actions', 'Legendary Actions']) {
           const splitKey = key.split(' ')
           const attrKey = `${splitKey[0].toLowerCase()}${splitKey[1] || ''}`
