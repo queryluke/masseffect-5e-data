@@ -43,7 +43,6 @@ const files = [
   'species-variants',
   'subspecies',
   'traits',
-  'vehicles',
   'weapons',
 ]
 
@@ -183,7 +182,6 @@ for (const file of files) {
         // BACKGROUNDS
         // FEATS
         // SPECIES
-        // VEHICLES
       default:
         break
     }
