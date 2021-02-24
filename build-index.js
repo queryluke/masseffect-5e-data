@@ -8,7 +8,7 @@ function ordinal (value) {
 
 function setType(dir) {
   const types = [
-    { type: 'character', items: ['backgrounds', 'feats', 'species', 'traits', 'subspecies'] },
+    { type: 'character', items: ['backgrounds', 'feats', 'species', 'traits', 'subspecies', 'species-variants', 'class-features'] },
     { type: 'equipment', items: ['gear', 'vehicles', 'mods', 'armor', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
     { type: 'power', items: ['powers'] },
@@ -29,22 +29,22 @@ function cleanBody(text) {
 }
 
 const files = [
-  // must go first
-  'traits',
-  'subspecies',
-  // can go in any order
+  'armor',
   'backgrounds',
+  'bestiary',
   'conditions',
+  'class-features',
   'feats',
   'gear',
-  'species',
-  'powers',
-  'vehicles',
-  'armor',
   'mods',
-  'bestiary',
+  'powers',
+  'rules',
+  'species',
+  'species-variants',
+  'subspecies',
+  'traits',
+  'vehicles',
   'weapons',
-  'rules'
 ]
 
 
@@ -61,85 +61,21 @@ for (const file of files) {
       type: setType(file),
       subType: file,
       qualifiers: [],
-      link: null
+      link: `/${file}/${item.id}`,
+      body: cleanBody((item.html || '')),
+      html: false
     }
 
     // create normalized content
     switch (file) {
 
-      // SPECIES
-      case 'species':
-        const body = [cleanBody(item.html)]
-        body.push(item.age)
-        body.push(item.alignment)
-        body.push(item.size)
-        body.push(item.speed)
-        searchItem.body = body.join(' ')
-        searchItem.link = `/species/${item.id}`
-        if (item.traits) {
-          for (let trait of item.traits) {
-            const index = searchItems.findIndex(si => si.id === trait)
-            if (index > -1) {
-              if (searchItems[index].qualifiers.length > 0) {
-                searchItems[index].qualifiers[0] += ` + ${item.name}`
-              } else {
-                searchItems[index].qualifiers.push(item.name)
-              }
-            }
-          }
-        }
-        if (item.variants) {
-          for (let sub of item.variants) {
-            const index = searchItems.findIndex(si => si.id.replace('_','-') === sub)
-            if (index > -1) {
-              searchItems[index].qualifiers.push(item.name)
-              searchItems[index].qualifiers.push('Variant')
-              searchItems[index].link = `/species/${item.id}`
-            }
-          }
-        }
+      // ARMOR
+      case 'armor':
+        searchItem.body += `\n${item.features.map(i => cleanBody(i)).join(' ')}\n${item.setBonus.map(i => cleanBody(i)).join(' ')}`
         break
 
-      // POWERS
-      case 'powers':
-        searchItem.qualifiers.push(item.type)
-        searchItem.body = cleanBody(item.html)
-        if (item.advancementOptions) {
-          searchItem.body += ` ${item.advancementOptions[0].description}`
-          searchItem.body += ` ${item.advancementOptions[1].description}`
-        }
-        break
-
-      // VEHICLES
-      case 'vehicles':
-        searchItem.body = cleanBody(item.html)
-        if (item.weapons) {
-          for (let attack of item.weapons) {
-            item.body += ` ${attack.damage}`
-          }
-        }
-        break
-
-      // RULES
-      case 'rules':
-        searchItem.link = `manual/${item.section}#${item.id}`
-        searchItem.body = cleanBody(item.html)
-        break
-
-      // WEAPONS
-      case 'weapons':
-        searchItem.body = ''
-        if (item.properties.length > 0) {
-          searchItem.body += item.properties.join(', ')
-        }
-        if (item.notes) {
-          searchItem.body += ` ${item.notes}`
-        }
-        break
-
-      // BESTIARY
+        // BESTIARY
       case 'bestiary':
-        searchItem.subType = 'bestiary'
         searchItem.qualifiers.push(item.unit)
         searchItem.body = ''
         for (let key of ['Actions', 'Features', 'Reactions', 'Lair Actions', 'Legendary Actions']) {
@@ -178,22 +114,77 @@ for (const file of files) {
         }
         break
 
-      // CLASSES
-      case 'classes':
-        searchItem.body = cleanBody((item.html || ''))
-        searchItem.link = `/classes/${item.id}`
+      // FEATURES
+      case 'class-features':
+        searchItem.link = false
+        searchItem.html = item.html
+        searchItem.qualifiers.push(item['class'])
+        if (item.subclass) {
+          searchItem.qualifiers.push(item.subclass.replace(/-/g,' '))
+        }
+        searchItem.qualifiers.push(`${ordinal(item.level)} level`)
+        break
+
+      // CONDITIONS
+      case 'conditions':
+        searchItem.link = `/appendix/conditions/${item.id}`
+        break
+
+      // GEAR
+      case 'gear':
+        searchItem.qualifiers.push(item.type)
+        break
+
+      // MODS
+      case 'mods':
+        searchItem.qualifiers.push(item.type)
+        break
+
+      // POWERS
+      case 'powers':
+        searchItem.qualifiers.push(item.type)
+        if (item.advancementOptions) {
+          searchItem.body += ` ${item.advancementOptions[0].description}`
+          searchItem.body += ` ${item.advancementOptions[1].description}`
+        }
+        break
+
+      // RULES
+      case 'rules':
+        searchItem.link = `manual/${item.section}#${item.id}`
+        break
+
+      // VARIANTS
+      case 'species-variants':
+        searchItem.link = `species/${item.species}`
+        searchItem.qualifiers.push(item.species)
+        searchItem.subType = 'variant'
+        break
+
+      // TRAITS
+      case 'traits':
+        searchItem.link = false
+        searchItem.html = item.html
+        searchItem.qualifiers.push(item.species)
+        break
+
+      // WEAPONS
+      case 'weapons':
+        searchItem.body = ''
+        if (item.properties.length > 0) {
+          searchItem.body += item.properties.join(', ')
+        }
+        if (item.notes) {
+          searchItem.body += ` ${item.notes}`
+        }
         break
 
       // DEFAULT
+        // BACKGROUNDS
+        // FEATS
+        // SPECIES
+        // VEHICLES
       default:
-        searchItem.body = cleanBody((item.html || ''))
-        if (item.feature) {
-          searchItem.body += `${item.feature} `
-        }
-        if (item.setBonus) {
-          searchItem.body += `${item.setBonus} `
-        }
-        searchItem.body += `${item.description}`
         break
     }
     searchItems.push(searchItem)
