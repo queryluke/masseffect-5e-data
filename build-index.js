@@ -121,7 +121,7 @@ for (const file of files) {
         if (item.subclass) {
           searchItem.qualifiers.push(item.subclass.replace(/-/g,' '))
         }
-        searchItem.qualifiers.push(`${ordinal(item.level)} level`)
+        searchItem.qualifiers.push(`${item.level}${ordinal(item.level)} level`)
         break
 
       // CONDITIONS
