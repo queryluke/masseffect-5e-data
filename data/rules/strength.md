@@ -9,9 +9,7 @@ Strength measures bodily power, athletic training, and the extent to which you c
 ### Strength Checks
 
 A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or
-to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks.
-
-<skill-list abilityLimit="Strength"></skill-list>
+to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks (see [Appendix > Skills](/appendix/skills)).
 
 - __*Other Strength Checks*__. The GM might also call for a Strength check when you try to accomplish tasks like the following:
   - Force open a stuck, locked, or barred door
@@ -20,8 +18,6 @@ to otherwise apply brute force to a situation. The Athletics skill reflects apti
   - Hang on to a hover car while being dragged behind it
   - Tip over a dormant mech
   - Restraining an elcor
-
-&nbsp;
 
 ### Attack Rolls and Damage
 You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as

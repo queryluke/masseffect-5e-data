@@ -18,8 +18,6 @@ The GM might call for a Constitution check when you try to accomplish tasks like
 - Quaff an entire pint of Batarian Shard Wine in one gulp
 - Resist the effect of poison
 
-&nbsp;
-
 ### Hit Points
 Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each
 Hit Die you roll for your hit points.

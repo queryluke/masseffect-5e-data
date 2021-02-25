@@ -5,7 +5,7 @@ order: 3
 ---
 Every operative is a member of a class. Class broadly describes a character’s vocation, what special talents he or she
 possesses, and the tactics he or she is most likely to employ when exploring a planet, fighting alien monsters, or engaging
-in a tense negotiation. The character classes are described in the [Classes](/phb/classes) section.
+in a tense negotiation. The character classes are described in the [classes](/classes) section.
 
 Your character receives a number of benefits from your choice of class. Many of these benefits are class features — capabilities
 (including powercasting) that set your character apart from members of other classes. You also gain a number of

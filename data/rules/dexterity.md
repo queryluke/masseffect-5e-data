@@ -8,9 +8,7 @@ Dexterity measures agility, reflexes, and balance.
 
 ### Dexterity Checks
 A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing.
-The Acrobatics, Sleight of Hand, Stealth and Vehicle Handling skills reflect aptitude in certain kinds of Dexterity checks.
-
-<skill-list abilityLimit="Dexterity"></skill-list>
+The Acrobatics, Sleight of Hand, Stealth and Vehicle Handling skills reflect aptitude in certain kinds of Dexterity checks (see [Appendix > Skills](/appendix/skills)).
 
 - __*Other Dexterity Checks*__. The GM might call for a Dexterity check when you try to accomplish tasks like the following:
   - Disable a tripwire mine
@@ -18,8 +16,6 @@ The Acrobatics, Sleight of Hand, Stealth and Vehicle Handling skills reflect apt
   - Wriggle free of bonds
   - Play a stringed instrument
   - Craft a small or detailed object
-
-&nbsp;
 
 ### Attack Rolls and Damage
 You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as an
