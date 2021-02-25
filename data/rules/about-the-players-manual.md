@@ -17,5 +17,16 @@ System Reference Document (SRD) included in this homebrew. The purpose of includ
 new and veteran players to reference the rules of 5th edition when using this homebrew.
 
 Since D&D 5th edition is primarily focused on a fantasy setting, the components of the SRD have been "reskinned." Where,
-the SRD may reference and Orc, Kingdom, or galley, this version will reference a Drell, Planet, or starship. However, you
+the SRD may reference an orc, kingdom, or galley, this version will reference a drell, planet, or starship. However, you
 can also read through the [official SRD](https://dnd.wizards.com/articles/features/basicrules).
+
+::: alert
+### Vernacular
+In Mass Effect 5e, much of the classic fantasy vernacular has been updated to fit a sci-fi setting.
+
+- Dungeon Master = Galaxy Master
+- Races = Species
+- Spells = Powers
+- Adventurers = Operatives
+- Adventures = Missions
+:::

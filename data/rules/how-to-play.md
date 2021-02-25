@@ -25,7 +25,7 @@ happens, often relying on the roll of a die to determine the results of an actio
 Describing the results often leads to another decision point, which brings the flow of the game right back to step 1.
 
 This pattern holds, whether the operatives are cautiously exploring a derelict ship, talking to a devious politician, or
-locked in a firefight against a squad of Batarian extremists. In certain situations, particularly combat, the action is
+locked in a firefight against a squad of batarian extremists. In certain situations, particularly combat, the action is
 more structured and the players (and GM) do take turns choosing and resolving actions. But most of the time, play is
 fluid and flexible, adapting to the circumstances of the mission.
 

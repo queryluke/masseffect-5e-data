@@ -10,7 +10,7 @@ its clusters, star systems, and planets have been charted and explored. It's als
 all with their own culture, planets, and colonies, making up a vast galactic community. If you aren't familiar
 with the first Mass Effect video games, you can read about major events and lore at the
 [Mass Effect Wiki](https://masseffect.wikia.com/wiki/Mass_Effect_Wiki). Specifically, the
-[timeline](https://masseffect.wikia.com/wiki/Timeline) can get you quickly up to speed to on the events
+[timeline](https://masseffect.wikia.com/wiki/Timeline) can get you quickly up to speed on the events
 of the galaxy.
 
 The Andromeda Galaxy has a very different feeling. An ancient civilization of "Remnant" seem to exist on every planet, connected
@@ -22,11 +22,10 @@ has plenty of information.
 
 Both galaxies share the same characteristics that are nascent to Mass Effect, i.e. biotics, tech, and space travel, but
 each galaxy offers its own zeitgeist and challenges. The Milky Way is mostly explored and contains extensive urban environments.
-You could easily set an entire campaign on a single planet and, depending on when you set your campaign
-on the timeline, you might also deal with the impending invasion of [the Reapers](https://masseffect.wikia.com/wiki/Reaper).
+You could easily set an entire campaign on a single planet and, depending on _when_ you set your campaign, you might also deal with the impending invasion of [the Reapers](https://masseffect.wikia.com/wiki/Reaper).
 In contrast, Andromeda is themed for exploration, survival, and being a pioneer. An operatives' primary goal is that of
 setting up a thriving civilization in the new galaxy and uncovering its mysterious past. In short, the Milky Way
-is an urban setting with a defined lore and timeline. Andromeda is rural and more of a sandbox for campaigns.
+is an urban setting with a defined lore and timeline. Andromeda is rural and sandbox setting for campaigns.
 
 Your GM might set the campaign in one of these galaxies or on a single planet that he or she created. Because there is so
 much diversity among the galaxies in Mass Effect and so much unwritten lore, you should check with your GM about any house
