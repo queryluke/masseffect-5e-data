@@ -27,19 +27,19 @@ The __Characters__ dropdown contains the list of options you have when creating 
 
 The __Equipment__ section has links to all of the equipment lists, [weapons](/weapons), [mods](/mods), [armor](/armor), [gear](/gear), and [vehicles](/vehicles).
 
-[__Powers__](/powers) contains the list of all the new powers in this homebrew.
+__[Powers](/powers)__ contains the list of all the new powers in this homebrew.
 
-The [__Bestiary__](/bestiary) has entirely new monsters and aliens to fight.
+The __[Bestiary](/bestiary)__ has entirely new monsters and aliens to fight.
 
 The __Appendix__ has information on new and existing skills, conditions, weapon properties, and tool proficiencies.
 
-A __Character Builder__ is currently in beta production, but you can find character sheets in the list of [assets](/assets)
+A __Character Builder__ is currently in beta production, but you can find character sheets in the list of [assets](/assets).
 
 The __Generators__ section has loot of npc generators for quickly making components for your game.
 
 __Guides__ provides some guidelines for creating your own encounters, vehicles, and armor.
 
-Printable and digital [__Assets__](/assets), like character sheets are available for when your ready to play with this homebrew.
+Printable and digital __[Assets](/assets)__, like character sheets are available for when your ready to play with this homebrew.
 
 ::: alert
 __VARIANT RULES__
