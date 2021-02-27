@@ -1,6 +1,6 @@
 ---
 title: Movement
-change: true
+change: false
 section: missions
 order: 3
 ---
@@ -17,7 +17,7 @@ Sometimes it's important, though, to know how long it takes to get from one spot
 days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the
 creatures moving and the terrain they're moving over.
 
-### Speed <v-chip color="warning" text-color="black" small>change</v-chip>
+### Speed
 Every character and monster has a speed, which is the distance in <me-distance length="0" /> that the character or monster can walk in 1 round.
 This number assumes short bursts of energetic movement in the midst of a life-threatening situation. The following rules
 determine how far a character or monster can move in a minute, an hour, or a day.

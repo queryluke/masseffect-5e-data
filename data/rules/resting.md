@@ -1,7 +1,7 @@
 ---
 title: Resting
 section: missions
-order: 7
+order: 11
 ---
 Heroic though they might be, operatives can't spend every hour of the day in the thick of exploration, social interaction,
 and combat. They need rest - time to sleep and eat, tend their wounds, clean their weapons, practice biotic powers, and configure
