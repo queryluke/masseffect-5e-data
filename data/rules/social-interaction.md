@@ -1,7 +1,7 @@
 ---
 title: Social Interaction
 section: missions
-order: 5
+order: 6
 ---
 Exploring planets, overcoming obstacles, and surviving death squads are key parts of Mass Effect missions. No less important,
 though, are the social interactions that operatives have with other inhabitants of the galaxy.

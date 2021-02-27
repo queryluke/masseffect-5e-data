@@ -1,8 +1,8 @@
 ---
-title: Movement
+title: Special Types of Movement
 change: true
 section: missions
-order: 3
+order: 4
 ---
 Spacewalking along the surface of an asteroid, sneaking down a space station corridor, scaling a treacherous mountain
 slope - all sorts of movement play a key role in fantasy gaming adventures.

@@ -9,7 +9,7 @@ bonuses to skill checks.
 
 ### Earning Points
 The primary way to each Paragon or Renegade points is by taking actions or role-playing that personality. This mechanic
-works similarly rewarding Inspiration (described above), but the reward can be 1-5 points based on the impact of the
+works similarly to rewarding Inspiration (described above), but the reward can be 1 to 5 points based on the impact of the
 choice and whether the choice aligns with Paragon or Renegade. GMs can also reward points to the entire party based on a
 decision they make while playing the game. Did the party destroy the potentially life-threatening biological weapon
 (Renegade) or send it to authorities for research in vaccinations (Paragon).
@@ -35,13 +35,13 @@ action taken is more Paragon-like or more Renegade-like than what an average sen
 What constitutes Paragon and what constitutes Renegade is a bit fuzzy. Paragon is neither Lawful nor Good, just as Renegade
 is neither Evil nor Chaotic. However, both traits _tend_ to fall closer to those respective spectra.
 
-Try to think of Paragon and Renegade flavors of a character's or party's choices. Paragon choices are open-ended,
+Try to think of Paragon and Renegade as flavors of a character's or party's choices. Paragon choices are open-ended,
 allowing for future possibilities, utilitarian (benefits the most people), logical, and rely on the pen over the sword.
 Renegade choices are decisive and final, emotional, gain immediate results, and often use a show of force.
 
 #### Paragon examples
 - Acrobatics: jump in front of a bullet to protect someone
-- Athletics: Hold fast a door why your party escapes a threat
+- Athletics: Hold fast a door while your party escapes a threat
 - Intimidation: Threaten someone with justice
 - Medicine: Stabilize an enemy because they might provide information
 - Vehicle Handling: Lead your chasers right to the authorities

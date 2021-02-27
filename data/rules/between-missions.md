@@ -1,7 +1,7 @@
 ---
 title: Between Missions
 section: missions
-order: 7
+order: 8
 ---
 Between trips to remote planets and battles against reaper forces, operatives need time to rest, recuperate, and prepare
 for their next mission. Many operatives also use this time to perform other tasks, such as crafting or modding arms and

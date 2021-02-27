@@ -2,7 +2,7 @@
 title: The Environment
 change: true
 section: missions
-order: 4
+order: 5
 ---
 Going on missions can involve delving into places that are dark, dangerous, and full of environmental hazards. The rules
 in this section cover some of the most important ways in which adventurers interact with the environment in such places.
