@@ -12,7 +12,7 @@ Your character receives a number of benefits from your choice of class. Many of 
 proficiencies: armor, weapons, skills, saving throws, and sometimes tools. Your proficiencies define many of the things
 your character can do particularly well, from using certain weapons to telling a convincing lie.
 
-On your character sheet, record all the features that your class gives you at 1st level
+On your character sheet, record all the features that your class gives you at 1st level.
 
 ### Level
 Typically, a character starts at 1st level and advances in level by adventuring and gaining experience points (XP). A
@@ -25,7 +25,7 @@ assumption that your character has already survived a few harrowing missions.
 
 Record your level on your character sheet. If you’re starting at a higher level, record the additional elements your
 class gives you for your levels past 1st. Also, record your experience points. A 1st-level character has 0 XP. A higher-level
-character typically begins with the minimum amount of XP required to reach that level (see “Beyond 1st Level” later in this section).
+character typically begins with the minimum amount of XP required to reach that level (see [Beyond 1st Level](/manual/beyond-first-level)).
 
 ### Hit Points and Hit Die
 Your character’s hit points define how tough your character is in combat and other dangerous situations. Your hit points

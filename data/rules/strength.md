@@ -28,14 +28,14 @@ and damage roll when attacking with _Recoil_ weapons.
 ### Lifting and Carrying <v-chip color="warning" text-color="black" small>change</v-chip>
 
 Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
-These weights have been adjusted from 5th Edition to work with kilograms (kg) instead of pounds (lbs).
 \
-__Carry Capacity__. You can carry capacity is your Strength score multiplied by 5. If you are wearing armor, your carry
-capacity is your Strength score multiplied by 10 (due to the built-in servos and pneumatics). This score is not affected
-by weapons or armor (see below).
+__Carrying Capacity__. Your carrying capacity is your Strength score multiplied by 5 (15 if using imperial measurements).
+If you are wearing armor, your carry capacity is your Strength score multiplied by 10 (30 for imperial) due to the built-in servos and pneumatics.
+This score is not affected by weapons or armor (see below). This is the weight in kg or lbs that you can carry, which is high enough
+that most characters don't usually have to worry about it.
 \
-__Push, Drag, Lift__. You can push, drag, or lift a weight in kgs up to twice your carrying capacity or 10 (20 w/ armor)
-times your Strength score. While pushing or dragging weight in excess of your carrying capacity, your speed drops to <me-distance length="5" />.
+__Push, Drag, Lift__. You can push, drag, or lift a weight in kgs (or lbs) up to twice your carrying capacity. While pushing or
+dragging weight in excess of your carrying capacity, your speed drops to <me-distance length="5" />.
 \
 __Size & Strength__. Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category
 above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.
@@ -54,10 +54,10 @@ The lifting and carrying rules attempt to keep the simplicity of 5th edition, wi
 Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment.
 When you use this variant, ignore the minimum Strength column of the Armor table and ignore the weapon slot limitation.
 
-- __Your carry weight is equal to two times your Strength score__
+- Your __carry weight__ is equal to 2.5 times your Strength score (5 times if using imperial)
 - Each weapon and armor piece has a weight. If your total weight from all weapons and armor is in excess of your
   carry weight, you are __encumbered__, which means your speed drops by <me-distance length="10" />.
-- If your total weight from all weapons and armor is in excess of four times your Strength score, you are instead
+- If your total weight from all weapons and armor is in excess of twice your carry weight, you are instead
   __heavily encumbered__, which means your speed drops by <me-distance length="25" /> and you have disadvantage on ability
   checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 

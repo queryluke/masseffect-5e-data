@@ -107,7 +107,7 @@ For example, if a character attempts to climb up a dangerous cliff, the GM might
 the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character
 lacks that proficiency, he or she just makes a Strength check.
 
-#### Variant: Paragon & Renegade <v-chip color="info" small>new</v-chip>
+### Variant: Paragon & Renegade <v-chip color="info" small>new</v-chip>
 In Mass Effect 5e, you may also choose to use the [Variant: Paragon & Renegade](/manual/beyond-first-level#paragon-renegade).
 This new rule allows you to apply another bonus to your ability checks, pending the context of your action is "Paragon-ish"
 or "Renegade-ish".
