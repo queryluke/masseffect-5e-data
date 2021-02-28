@@ -4,7 +4,7 @@ section: equipment
 order: 1
 ---
 When you create your character, you receive equipment based on a combination of your class and background. Alternatively,
-you can start with a number of credits based on your class and spend them on items from equipment section. See
+you can start with a number of credits based on your class and spend them on items from the equipment section. See
 the Starting Wealth by Class table to determine how many credits you have to spend.
 for more information on using racial starting credits.
 
