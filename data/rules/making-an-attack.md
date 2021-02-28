@@ -89,7 +89,7 @@ Instead of using a weapon to make a melee weapon attack, you can use an unarmed 
 forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your
 Strength modifier. You are proficient with your unarmed strikes.
 
-#### Gun strikes <v-chip color="info" small>new</v-chip>
+#### Gun strikes <v-chip color="info" x-small>new</v-chip>
 Instead of using a weapon to make a melee weapon attack, you can use your ranged weapon, hitting a target with the butt of
 the gun. On a hit, a gun strike deals bludgeoning damage equal to 1d4 + your Strength modifier. You are proficient with
 gun strikes if you are proficient with the type of gun.
@@ -113,6 +113,10 @@ ability modifier to the damage of the bonus attack, unless that modifier is nega
 
 If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
 
+#### Akimbo Firing <v-chip color="info" x-small>new</v-chip>
+When you take the Attack action and attack with a light ranged weapon that you're holding in one hand, you can use a
+bonus action to attack with a different light ranged weapon that you're holding in the other hand. You don't add your
+ability modifier to the damage of the bonus attack, unless that modifier is negative.
 
 
 ### Contests in Combat
