@@ -6,7 +6,7 @@ order: 5
 ---
 The following tables provided an assortment of costs for commonplace things. These are recommendations and not rules.
 
-#### Drinks
+|___Drinks___||
 |Item|Credits|
 |:---|:---:|
 |_Beer_||
@@ -19,7 +19,7 @@ The following tables provided an assortment of costs for commonplace things. The
 |Exotic Drink|20|
 
 
-#### Food
+|___Food___||
 |Item|Credits|
 |:---|:---:|
 |_Nutrient Bar_||
@@ -34,7 +34,8 @@ The following tables provided an assortment of costs for commonplace things. The
 |Mid-grade|200|
 |High-grade|500|
 
-#### Drugs
+
+|___Drugs___||
 |Item|Credits|
 |:---|:---:|
 |Creeper, 1 dose|50|
@@ -44,7 +45,8 @@ The following tables provided an assortment of costs for commonplace things. The
 |Oblivion, 10 doses|10|
 |Red Sand, 1 gram|200|
 
-#### Lodging
+
+|___Lodging___||
 |Item|Credits/Night|
 |:---|:---:|
 |Poor|25|
@@ -53,7 +55,8 @@ The following tables provided an assortment of costs for commonplace things. The
 |Upscale|750|
 |Lavish|1,500|
 
-#### Services
+
+|___Services___||
 |Service|Credits|
 |:---|:---:|
 |Taxi, within town/city|1 per kilometer|

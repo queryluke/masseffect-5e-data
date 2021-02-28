@@ -16,7 +16,7 @@ Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle mig
 rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid
 criminals, but you are unlikely to make powerful connections.
 
-#### Lifestyle Expenses
+|___Lifestyle Expenses___||
 |Lifestyle|Credits / Day|
 |:---|---:|
 |Wretched|-|

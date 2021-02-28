@@ -48,7 +48,7 @@ terrain. The space of another creature, whether hostile or not, also counts as d
 
 ### Being Prone
 Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves
-down. In the game, they are <me-condition id="prone"/>. You can drop prone without using any of your speed. Standing up takes
+down. In the game, they are prone. You can drop prone without using any of your speed. Standing up takes
 more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is <me-distance length="30" />, you must
 spend <me-distance length="15" /> of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
 

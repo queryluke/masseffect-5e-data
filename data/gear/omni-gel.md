@@ -18,5 +18,3 @@ upgrades. Doing so will usually give an amount of omni-gel based on the item tha
 |Chest Armor|6|
 |Assault Rifles, Shotguns, & Sniper Rifles|6|
 |Heavy Weapons|10|
-
-See [Rules > Equipment > Omni-gel](/manual/equipment#omni-gel)

@@ -57,7 +57,7 @@ This method of determining ability scores enables you to create a set of three h
 15, 8, 8, 8), a set of numbers that are above average and nearly equal (13, 13, 13, 12, 12, 12), or any set of numbers
 between those extremes.
 
-#### Ability Score Point Cost
+|Ability Score Point Cost||
 |Score|Cost|
 |:---:|:---:|
 |8|0|

@@ -127,7 +127,7 @@ If you're able to make multiple attacks with the Attack action, this attack repl
 The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least
 one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics)
 check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).
-If you succeed, you subject the target to the <me-condition id="grappled"/>. The condition specifies the things that end it,
+If you succeed, you subject the target to the grapple. The condition specifies the things that end it,
 and you can release the target whenever you like (no action required).
 
 __Escaping a Grapple__. A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics)

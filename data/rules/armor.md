@@ -20,13 +20,38 @@ __Armor Class (AC)__. Armor protects its wearer from attacks. The armor you wear
 __Shield Points__. All armor chest pieces provide some amount of shield points.
 See the [Combat > Shields](/manual/combat#shields) for more information.
 
+__Consumable Capacities__. All armor has slots and hidden compartments for mission-critical gear: 10 thermal clips, 4 medi-gel, and 2 grenades.
+The armor will indicate if it has an increase in any of these capacities. Armor mods can also increase these capacities.
+
 ### Mix & Match <v-chip color="info" small>new</v-chip>
 Unlike D&D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:
 __Head__, __Chest__, __Arms__, and __Legs__.
 
 Your base AC is 10 and each piece of armor provides an AC bonus depending on its type and placement as listed in
-the Armor / AC table. Additionally, there are bonuses and limitations for the combination of armor types you are wearing,
+the Armor / AC table.
+
+|__Armor / AC__||||
+| Placement/Type | Light | Medium | Heavy |
+| :--- | :---: | :---: | :---: |
+| Chest | +1 AC | +2 AC | +3 AC |
+| Arms | No bonus | +1 AC | +2 AC |
+| Legs | No bonus | +1 AC | +2 AC |
+| Head | Unless otherwise listed, headware provides no bonus to AC. |||
+
+Additionally, there are bonuses and limitations for the combination of armor types you are wearing,
 explained in the Armor Bonuses and Limitations table.
+
+|__Armor Bonuses and Limitations__||||
+| If you are wearing... | Dexterity Bonus to AC | Strength | Stealth |
+| :--- | :---: | :---: | :---: |
+| 3+ pieces of Heavy armor | - | Str 16 | Disadvantage |
+| 2 pieces of Heavy armor | - | Str 15 | Disadvantage |
+| 1 piece of Heavy armor | - | Str 13 | Disadvantage |
+| 3+ pieces of Medium armor | Max +2 | Str 13 | Disadvantage
+| 2 pieces of Medium armor | Max +2 | Str 12 | - |
+| 1 piece of Medium armor | Max +2 | - | - |
+| Light or no armor | + Dex modifier | - | - |
+| _Body Armor is considered three pieces (arms, chest, and legs)_ |||
 
 __Body Armor__. Body armor is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body
 armor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're
@@ -40,27 +65,7 @@ reduces the wearer’s speed by <me-distance length="10" /> unless the wearer ha
 For simplicity's sake, you cannot mix armor *within* placements. I.e., you cannot have a heavy piece of on your right arm
 and a light piece of armor on your left.
 
-__Armor/AC__
-| Placement/Type | Light | Medium | Heavy |
-| :--- | :---: | :---: | :---: |
-| Chest | +1 AC | +2 AC | +3 AC |
-| Arms | No bonus | +1 AC | +2 AC |
-| Legs | No bonus | +1 AC | +2 AC |
-| Head | Unless otherwise listed, headware provides no bonus to AC. |||
-
-__Armor Bonuses and Limitations__
-| If you are wearing... | Dexterity Bonus to AC | Strength | Stealth |
-| :--- | :---: | :---: | :---: |
-| 3+ pieces of Heavy armor | - | Str 16 | Disadvantage |
-| 2 pieces of Heavy armor | - | Str 15 | Disadvantage |
-| 1 piece of Heavy armor | - | Str 13 | Disadvantage |
-| 3+ pieces of Medium armor | Max +2 | Str 13 | Disadvantage
-| 2 pieces of Medium armor | Max +2 | Str 12 | - |
-| 1 piece of Medium armor | Max +2 | - | - |
-| Light or no armor | + Dex modifier | - | - |
-| _Body Armor is considered three pieces (arms, chest, and legs)_ |||
-
-#### Variant: Encumbrance
+### Variant: Encumbrance
 If you are using the [Variant: Encumbrance](/manual/using-ability-scores#strength) rules,
 use the Armor Piece Weights table to determine the total weight of the armor you're wearing.
 
@@ -80,13 +85,12 @@ If an armor piece is part of a set and has a set bonus, each armor piece will in
 a certain number of items in that set. _Note: You only receive the benefit once per set_ and the benefit ends immediately if you fall below the threshold.
 
 :::alert
-#### Set bonus example
-\
-__Medium armor__
-\
-- __Set Bonus (2 of 4)__: +1 AC
-- __Set Bonus (4 of 4)__: +1 AC
-\
+__SET BONUS EXAMPLE__
+
+Medium armor with a set bonus of...
+- Set Bonus (2 of 4): +1 AC
+- Set Bonus (4 of 4): +1 AC
+
 If you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated
 using the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you _do not_ gain +1 AC
 for the head _and_ +1 AC for the chest. As soon as you remove either the helmet or the chest

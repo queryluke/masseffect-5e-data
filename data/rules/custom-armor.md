@@ -14,10 +14,9 @@ Characters may instead purchase customizable armor for the cost listed in the Cu
 
 Once you have crafted or purchased your armor piece, it is time to add benefits to the armor using __armor mods__. Each
 piece of customizable armor has a set number of mod slots and you can add additional slots (up to the maximum) for more
-time and omni-gel (if crafting) or credits (if purchasing). You must select a mod with a matching armor piece, i.e. chest,
-head, legs, or arms.
+time and omni-gel (if crafting) or credits (if purchasing).
 
-#### Customizable Armor Costs Table
+|___Customizable Armor Costs Table___||||||
 |Slot/Type|Light|Medium|Heavy|Mod Slots _(max)_|Crafting Time/Cost|
 |:---|:---:|:---:|:---:|:---:|---:|
 |Chest|8,000|10,000|12,000|2 _(3)_|24 hours & 10 omni-gel|
@@ -36,8 +35,3 @@ on the ablative coating mod. She also looted an asymmetric defense layer mod fro
 mission. She spends 2 more long rests applying those mods, giving her chest armor resistance to piercing damage
 and +2 AC. She leaves her third slot empty for the time being, hoping to loot another mod and fit it in later.
 :::
-
-#### Rewarding Custom Armor
-Your GM might reward you with a custom piece of armor that you've looted or found during a mission. When you are rewarded
-with a custom piece of armor, make sure you write down how many total mod slots the piece has and what armor mods are
-currently installed.

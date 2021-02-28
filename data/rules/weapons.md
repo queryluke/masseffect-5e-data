@@ -4,19 +4,17 @@ change: true
 section: equipment
 order: 4
 ---
-Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to
+Your class grants proficiency in certain weapons, reflecting both the class's focus and the weapons you are most likely to
 use. Whether you favor an assault rifle or a sword, your weapon and your ability to wield it effectively can mean the
 difference between life and death while on a mission.
 
-The [Weapons List](/phb/weapons) shows the available weapons, their price and weight, the damage
+The [Weapons List](/weapons) shows the available weapons, their price and weight, the damage
 they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged.
 A melee weapon is used to attack a target within <me-distance length="5" /> of you, whereas a ranged weapon is used to attack a target at
 a distance.
 
-
-
 ### Weapon Proficiency <v-chip color="warning" text-color="black" small>change</v-chip>
-You must be proficient with a weapon type to add your proficiency modifier to the attack roll. There are 7 distinct weapon
+You must be proficient with a weapon type to add your proficiency modifier to the attack roll. There are 6 distinct weapon
 types and all weapons fall into one of the following types.
 
 - __Assault Rifles__. The most common weapons of the military. These are generally medium-range weapons that deal average damage with a high heat capacity.
@@ -25,7 +23,6 @@ types and all weapons fall into one of the following types.
 - __Shotguns__. Close-range, high-damage blasts.
 - __Sniper Rifles__. Precision instruments meant for long range or stealthy combat.
 - __Melee__. Used in close-quarters combat. _Damage resulting from melee weapon attacks by-pass shields_.
-- __Heavy Weapons__. Specialty weapons that deal massive amounts of damage. _Heavy Weapons do not have a proficiency requirement_.
 
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons List.
@@ -46,22 +43,9 @@ it also deals 1d4 damage. An improvised thrown weapon has a normal range of <me-
 Light improvised thrown weapons have ranges of <me-distance length="25" /> and <me-distance length="75" />, and heavy
 improvised ranged weapons have ranges of <me-distance length="15" /> and <me-distance length="30" />.
 
-
-
 ### Thermal Clips <v-chip color="info" small>new</v-chip>
-Ranged weapons (guns) use thermal clips to abate heat. All thermal clips are interchangeable between weapons. More information
-about using thermal clips can be found below.
-
-
-
-### Heavy Weapons <v-chip color="info" small>new</v-chip>
-Heavy Weapons use Charges to track the number of times they can be fired. If you run out of Charges your weapon is nothing more than a hunk of metal.
-
-#### Targeting
-Most Heavy Weapons also use the Targeting condition. Targeting means painting the battlefield or keeping a lock on one
-or more creatures for a single round of combat. More information about targeting can be found in [conditions appendix](/phb/appendix/conditions).
-
-
+Ranged weapons (guns) use thermal clips to abate heat, requiring an action to load a new thermal clip into the weapon. More information
+about reloading can be found in [Combat > Actions in Combat](/manual/combat#actions-in-combat).
 
 ### Carrying, Holstering, and Drawing Weapons <v-chip color="info" small>new</v-chip>
 You have 4 weapon slots unless a feature or armor mod allows you to have more. __Two-handed__ weapons take up 2 slots.

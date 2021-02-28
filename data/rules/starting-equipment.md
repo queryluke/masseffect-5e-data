@@ -13,16 +13,16 @@ character purchased during his or her upbringing. You might have been equipped w
 part of military service. You might even have stolen your gear. A weapon could be a family heirloom, passed down from
 generation to generation until your character finally took up the mantle and followed in an ancestor’s space faring footsteps.
 
-__Starting Wealth by Class__
 
-Class|Credits
----|---
-Adept|6d8 x 1,000 credits
-Engineer|6d8 x 1,000 credits
-Infiltrator|7d8 x 1,000 credits
-Sentinel|7d8 x 1,000 credits
-Soldier|8d8 x 1,000 credits
-Vanguard|7d8 x 1,000 credits
+|Starting Wealth by Class||
+|Class|Credits|
+|---|---|
+|Adept|6d8 x 1,000 credits|
+|Engineer|6d8 x 1,000 credits|
+|Infiltrator|7d8 x 1,000 credits|
+|Sentinel|7d8 x 1,000 credits|
+|Soldier|8d8 x 1,000 credits|
+|Vanguard|7d8 x 1,000 credits|
 
 
 <me-source-reference pages="43" source="basic"></me-source-reference>

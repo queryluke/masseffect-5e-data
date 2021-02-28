@@ -6,13 +6,13 @@ order: 3
 All vehicles share some of the same basic features.
 
 ### Armor Class
-AC for vehicles works exactly the same as in the [basic 5e rules](/phb/equipment#armor).
+AC for vehicles works exactly the same as in the basic 5e rules.
 
 ### Hull Points (hit points)
 This represents how much damage a vehicle or starship can take before it is destroyed.
 
 ### Shield Points
-Shields for vehicles and starships work generally the same as in the main [ME5e rules](/phb/combat#shields),
+Shields for vehicles and starships work generally the same as in the main [ME5e rules](/manual/combat#shields),
 with a notable exception: Vehicle shields can only be regenerated in combat when players attempt the
 Restore action (explained later in this section).
 
@@ -26,7 +26,7 @@ Range represents how far the vehicle can travel in one 24 period. For starships,
 or FTLUs and is used in conjunction with
 the Galaxy Map. Each line indicates the travel time between star systems, which you subtract from the starships range.
 Travel to planets within a star systems costs 1 range. You can read more about range for starships in the
-[Traveling the Galaxy section](/phb/vehicles#travelling-the-galaxy)
+[Traveling the Galaxy section](/manual/vehicles#travelling-the-galaxy)
 
 ### Minimum Crew
 The number of crew required for the vehicle to operate. In some cases, at the GM’s discretion, it may be possible to
