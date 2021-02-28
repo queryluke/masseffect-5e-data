@@ -8,7 +8,7 @@
   "heat": null,
   "damage": "1d10",
   "range": 5,
-  "notes": null,
+  "notes": "Versatile (2d6)",
   "npcHit": null,
   "npcMiss": null,
   "dmgType": "slashing",
@@ -16,8 +16,7 @@
   "andromeda": false,
   "createdBy": null,
   "properties": [
-    "Slashing",
-    "Versatile (2d6)",
+    "Versatile",
     "Finesse"
   ]
 }

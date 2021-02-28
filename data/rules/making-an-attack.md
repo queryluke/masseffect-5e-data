@@ -27,7 +27,7 @@ stat block.
 When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's
 proficiency bonus. When a monster makes an attack roll, it uses whatever modifier is provided in its stat block.
 
-___Ability Modifier__. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for
+__Ability Modifier__. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for
 a ranged weapon attack is Dexterity. Weapons that have the finesse, thrown, or recoil property break this rule. Some powers
 also require an attack roll. The ability modifier used for a power attack depends on the powercasting ability of the powercaster.
 
@@ -106,18 +106,22 @@ You can avoid provoking an opportunity attack by taking the Disengage action. Yo
 attack when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke
 an opportunity attack if an explosion hurls you out of a foe's reach or if an adept lifts you off the ground with Pull.
 
+
+### Dual Wielding <v-chip color="warning" x-small>change</v-chip>
+In Mass Effect 5e, there are a three distinct ways to "dual wield" weapons. Two melee weapons, two ranged weapons, and
+a melee and ranged weapon. "Two-weapon fighting" has been adjusted to cover all three combinations. Two-weapon fighting
+represents attacking with a weapon in one hand, then taking a moment (via a bonus action) to make an attack
+with a second weapon in the other hand.
+
+However, fighting styles and feats are split into these three combinations, as it represents your characters training
+in one of the three combinations.
+
 #### Two-Weapon Fighting
-When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a
-bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your
+When you take the Attack action and attack with a light weapon that you're holding in one hand, you can use a
+bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your
 ability modifier to the damage of the bonus attack, unless that modifier is negative.
 
 If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
-
-#### Akimbo Firing <v-chip color="info" x-small>new</v-chip>
-When you take the Attack action and attack with a light ranged weapon that you're holding in one hand, you can use a
-bonus action to attack with a different light ranged weapon that you're holding in the other hand. You don't add your
-ability modifier to the damage of the bonus attack, unless that modifier is negative.
-
 
 ### Contests in Combat
 Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This
