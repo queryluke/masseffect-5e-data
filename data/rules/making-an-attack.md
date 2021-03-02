@@ -90,9 +90,9 @@ forceful blow (none of which count as weapons). On a hit, an unarmed strike deal
 Strength modifier. You are proficient with your unarmed strikes.
 
 #### Gun strikes <v-chip color="info" x-small>new</v-chip>
-Instead of using a weapon to make a melee weapon attack, you can use your ranged weapon, hitting a target with the butt of
+Instead of using a melee weapon to make a melee weapon attack, you can use your ranged weapon, hitting a target with the butt of
 the gun. On a hit, a gun strike deals bludgeoning damage equal to 1d4 + your Strength modifier. You are proficient with
-gun strikes if you are proficient with the type of gun.
+gun strikes if you are proficient with the type of ranged weapon.
 
 #### Opportunity Attacks
 In a fight, everyone is constantly watching for a chance to strike an enemy who is fleeing or passing by. Such a
@@ -106,17 +106,7 @@ You can avoid provoking an opportunity attack by taking the Disengage action. Yo
 attack when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke
 an opportunity attack if an explosion hurls you out of a foe's reach or if an adept lifts you off the ground with Pull.
 
-
-### Dual Wielding <v-chip color="warning" x-small>change</v-chip>
-In Mass Effect 5e, there are a three distinct ways to "dual wield" weapons. Two melee weapons, two ranged weapons, and
-a melee and ranged weapon. "Two-weapon fighting" has been adjusted to cover all three combinations. Two-weapon fighting
-represents attacking with a weapon in one hand, then taking a moment (via a bonus action) to make an attack
-with a second weapon in the other hand.
-
-However, fighting styles and feats are split into these three combinations, as it represents your characters training
-in one of the three combinations.
-
-#### Two-Weapon Fighting
+### Two-Weapon Fighting <v-chip color="warning" x-small>change</v-chip>
 When you take the Attack action and attack with a light weapon that you're holding in one hand, you can use a
 bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your
 ability modifier to the damage of the bonus attack, unless that modifier is negative.

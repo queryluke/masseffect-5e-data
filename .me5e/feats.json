@@ -77,7 +77,7 @@
   {
     "id": "dual-wielder",
     "name": "Dual Wielder",
-    "note": "+1 AC bonus, wield heavier weapons, draw or stow two weapons at once",
+    "note": "+1 AC bonus, dual wield heavier melee weapons, draw or stow two weapons at once",
     "html": "<p>Player's Handbook, p. 165</p>\n"
   },
   {
@@ -131,12 +131,12 @@
     "html": "<ul>\n<li>+2 grenade capacity</li>\n<li><strong>Improvised Grenades</strong>. You can make grenades from scrap metal and scavenged materials. Acquire 1 frag grenade every long rest.\nThe Mark of the frag grenade is equal to your level divided by three, minimum 1.</li>\n</ul>\n<p>When you use a grenade, you may choose to make a ranged weapon attack (<me-distance length=\"30\" numOnly />/<me-distance length=\"60\" abbr/>) on a creature instead of choosing a target location.\nAdd your dexterity or strength modifier (your choice) and proficiency bonus to the attack roll. On a hit, the grenade\ndeals bludgeoning damage equal to 1d4 + dexterity or strength modifier (same as used to make the ranged attack). The target\nalso has disadvantage on the saving throw caused by the grenade. The grenade lands at the target's location.\nOn a miss, the grenade lands <me-distance length=\"5\" /> beyond the target. On a critical miss, roll 2d4. The first die represents the number of\nspaces away from the target in which the grenade lands. The second die represents the direction (1 = North, 2= East,\n3 = South, 4 = West). E.g., 2 &amp; 2, the grenade would land 2 spaces east of the target. Once the grenade's location is\ndetermined, it resolves normally.</p>\n"
   },
   {
-    "name": "Gunslinger",
-    "note": "Akimbo shooting and hip fire and recoil on light, one-handed ranged weapons",
-    "prerequisite": "Strength or Dexterity 13 or higher",
+    "name": "Hair Trigger",
+    "note": "+1 Dexterity, mastery of double tap weapons",
+    "prerequisite": "Dexterity 13 or higher",
     "new": true,
-    "html": "<p>You've mastered two-weapon fighting with ranged weapons, gaining the following benefits:</p>\n<ul>\n<li>You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.</li>\n<li>Any light, one-handed ranged weapon you wield gains the Hip Fire and Recoil property.</li>\n<li>When you take the Attack action and are holding a light ranged weapon in both hands, you may attack with both weapons\nsimultaneously, making a single attack roll. On a hit, you apply you ability modifier to the attack roll once. The\nrange of the attack is equal to the lower range of the two weapons being used.</li>\n</ul>\n",
-    "id": "gunslinger"
+    "html": "<p>You've mastered Double Tap weapons.</p>\n<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>When you use your bonus action to make a ranged attack with a Double Tap weapon, you add your ability modifier to the damage roll.</li>\n</ul>\n",
+    "id": "hair-trigger"
   },
   {
     "id": "heavily-armored",
@@ -176,6 +176,14 @@
     "note": "You have practiced moving in medium armor",
     "prerequisite": "Proficiency with medium armor",
     "html": "<p>Player's Handbook, p. 168</p>\n"
+  },
+  {
+    "name": "Melee Gunner",
+    "note": "Additional attack options in melee range",
+    "prerequisite": "Strength 13 or higher",
+    "new": true,
+    "html": "<p>You've trained extensively in utilizing your gun as a melee weapon.</p>\n<ul>\n<li>Increase your Strength score by 1, to a maximum of 20.</li>\n<li>The damage of your gun strikes increases to 1d6.</li>\n<li>You can engage in two-weapon fighting when wielding a two-handed ranged weapon if one of the attacks is a gun strike or made with an omni-tool weapon.</li>\n</ul>\n",
+    "id": "melee-gunner"
   },
   {
     "id": "mobile",
@@ -239,13 +247,6 @@
     "note": "You are expert at slinking through shadows",
     "prerequisite": "Dexterity 13 or higher.",
     "html": "<p>Player's Handbook, p. 170</p>\n"
-  },
-  {
-    "id": "split-range-specialist",
-    "name": "Split-Range Specialist",
-    "note": "+1 Strength or Dexterity, additional attacks with melee weapons",
-    "new": true,
-    "html": "<p>You've trained extensively in weaving together ranged and melee attacks, gaining the following benefits:</p>\n<ul>\n<li>+1 Strength or Dexterity</li>\n<li>You can use two-weapon fighting even when the one-handed weapons you are wielding aren't light.</li>\n<li>You can engage in two-weapon fighting when wielding a two-handed ranged weapon if one of the attacks is a gun strike or made with an omni-tool weapon.</li>\n<li>You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.</li>\n</ul>\n"
   },
   {
     "id": "squad-leader",

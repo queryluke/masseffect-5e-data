@@ -4,7 +4,7 @@ class: adept
 level: 1
 ---
 As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain
-biotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. You total
+biotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total
 barrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier
 ticks gained in excess of this number are lost.
 
