@@ -27,13 +27,13 @@ physiology is dependant on sunlight and allows them to produce natural bioelectr
 are very free with their emotions, demonstrative and "larger than life". If they love you they hug you, if
 they hate you or if you make them mad, they punch you.
 
-## Creatures of the Sun
+### Creatures of the Sun
 The angara electromagnetic radiation that is emitted from stars to survive. Lack of real or artificial sunlight causes
 them to "go dark", which weakens their immune systems and bio-energy significantly. Prolonged lack of sunlight can lead
 to a coma and then death. To supplement their sunlight intake or provide a light source when natural light is not
 readily available, the angara make use of powerful ultraviolet lamps that give them both heat and light.
 
-## Family Oriented
+### Family Oriented
 While they have only one true mother and father, the angara share their parents with the community. Their
 families are very large, consisting of multiple mothers and many siblings and cousins. This close-knit society
 makes angara very mistrustful of other species.
@@ -41,7 +41,7 @@ makes angara very mistrustful of other species.
 While the angara have many different religions, all share the same basic tenet: that when an angara dies, he or she is
 reincarnated and the reincarnated soul stays in the family, making their lineage stronger.
 
-## Angara Names
+### Angara Names
 Little is known about angaran names. But it is assumed that they do not use family names given the collective nature
 of their families.
 
@@ -51,4 +51,4 @@ Orvfiy Qirshae Ak, Nel Sja, Qos De Ivfre, Sihris De Or, Tashed De Kjerad, Val Ga
 __Female Names__: Afihia De Xana, Avfaarian, Dhahfrin Sa, Fohfania, Hefrehal Ven, Inil Sefe, Jalshaye, Janvfe Sje,
 Nalvi Sjarshev, Noshfa Seme Tavfal, Oni Vor, Onne De Tiv, Ovih Qjana In, Sohnani Sirshav, Yihvref
 
-<source-reference pages="Angara" source="wiki"></source-reference>
+<me-source-reference pages="Angara" source="wiki"></me-source-reference>

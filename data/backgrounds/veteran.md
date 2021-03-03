@@ -86,4 +86,4 @@ d6 | Flaw
 5 | I obey the law, even if the law causes misery.
 6 | I’d rather eat my armor than admit when I’m wrong.
 
-<source-reference pages="42"></source-reference>
+<me-source-reference pages="42"></me-source-reference>

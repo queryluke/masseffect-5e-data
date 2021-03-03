@@ -18,7 +18,7 @@ When the Reaper-killer known as Leviathan fought the Collectors, it severed thei
 thrall device. Most Collector forces died as a result, but a few survived. Now, these rare individuals fight for the
 memory of their people, a proud species broken by the Reapers.
 
-## Variant Traits
+### Variant Traits
 If you would like to play an awakened collector, you can choose to replace the _All-Seeing Eyes_, and _Psychometry_
 traits with the following.
 

@@ -900,16 +900,6 @@
     "html": false
   },
   {
-    "id": "personal-shield-generator",
-    "title": "Personal Shield Generator",
-    "type": "equipment",
-    "subType": "armor",
-    "qualifiers": [],
-    "link": "/armor/personal-shield-generator",
-    "body": "\n10 shields (regen 5). Improved models can be purchased. 10,000 for each 5 shield points, and 8,000 for 5 additional regen. Max is 30 shield points and 15 regen. These additional shields do not stack with your armor's shields.\n",
-    "html": false
-  },
-  {
     "id": "power-reservoir-legguards",
     "title": "Power Reservoir Legguards",
     "type": "equipment",
@@ -2868,7 +2858,6 @@
     "subType": "features",
     "qualifiers": [
       "soldier",
-      "gladiator",
       "17th level"
     ],
     "link": false,
@@ -3240,7 +3229,6 @@
     "subType": "features",
     "qualifiers": [
       "vanguard",
-      "battle master",
       "9th level"
     ],
     "link": false,
@@ -3893,8 +3881,8 @@
       "9th level"
     ],
     "link": false,
-    "body": "At {{ level }} level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.\n",
-    "html": "<p>At {{ level }} level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.</p>\n"
+    "body": "At 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.\n",
+    "html": "<p>At 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.</p>\n"
   },
   {
     "id": "indomitable-2",
@@ -3983,7 +3971,6 @@
     "subType": "features",
     "qualifiers": [
       "sentinel",
-      "guardian",
       "13th level"
     ],
     "link": false,
@@ -6035,6 +6022,18 @@
     ],
     "link": "/gear/painters-supplies",
     "body": "Electronic design tablet with a number of software, a holographic projector, and a variety of tangible painting\ndevices (oils, charcoal, colored pencils, etc).\n",
+    "html": false
+  },
+  {
+    "id": "personal-shield-generator",
+    "title": "Personal Shield Generator",
+    "type": "equipment",
+    "subType": "gear",
+    "qualifiers": [
+      "Device"
+    ],
+    "link": "/gear/personal-shield-generator",
+    "body": "A personal shield generator that offers shields outside of wearing armor. Does not stack with armor's shields.\n\n\nModel\nRarity\nShields\nRegen\nCredits\n\n\n\n\nI.a\nCommon\n10\n5\n15,000\n\n\nI.b\nUncommon\n10\n10\n23,000\n\n\nII.a\nUncommon\n15\n5\n25,000\n\n\nII.b\nRare\n15\n10\n33,000\n\n\nII.c\nRare\n15\n15\n41,000\n\n\nIII.a\nRare\n20\n5\n35,000\n\n\nIII.b\nRare\n20\n10\n43,000\n\n\nIII.c\nVery Rare\n20\n15\n51,000\n\n\nIV.a\nVery Rare\n25\n5\n45,000\n\n\nIV.b\nVery Rare\n25\n10\n53,000\n\n\nIV.c\nSpectre\n25\n15\n61,000\n\n\nV.a\nSpectre\n30\n5\n55,000\n\n\nV.b\nSpectre\n30\n10\n63,000\n\n\nV.c\nSpectre\n30\n15\n71,000\n\n\n",
     "html": false
   },
   {
@@ -9690,7 +9689,7 @@
     ],
     "link": false,
     "body": "When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of ,\nthough you actually hover  from the ground. You are immune to\nbecoming prone and you ignore any penalties caused by difficult terrain.\nHowever, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered prone. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.\n",
-    "html": "<p>When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of <me-distance length=\"30\">,\nthough you actually hover <me-distance length=\"2\" /> from the ground. You are immune to\nbecoming <me-condition id=\"prone\"/> and you ignore any penalties caused by difficult terrain.</p>\n<p>However, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered <me-condition id=\"prone\"/>. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.</p>\n"
+    "html": "<p>When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of <me-distance length=\"30\" />,\nthough you actually hover <me-distance length=\"2\" /> from the ground. You are immune to\nbecoming <me-condition id=\"prone\" /> and you ignore any penalties caused by difficult terrain.</p>\n<p>However, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered <me-condition id=\"prone\"/>. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.</p>\n"
   },
   {
     "id": "cybernetic-augmentation",
@@ -9701,8 +9700,8 @@
       "quarian"
     ],
     "link": false,
-    "body": "You have a cybernetic augmentation. Choose one of the following:\nCerebral\nCerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.\nAbility Score Increase. Your Intelligence score increases by 1.\nMind Shielding Unit. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.\nScientific Aptitude. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.\n\nMuscular\nMuscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.\nAbility Score Increase. Your Dexterity score increases by 1.\nOverclock Unit. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving  on one of your turns.\nPeak Fitness. You have proficiency in either the Acrobatics or Athletics skill.\n\nOcular\nQuarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.\nDarkvision. You can see in dim light within  of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\nClarity Unit. You have advantage on saving throws against being blinded.\nKeen Eyesight. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within  of you that is lightly obscured as if it were unobscured and can see in an\narea within  of you that is heavily obscured as if it were only lightly obscured.\n\nVisceral\nQuarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.\nAbility Score Increase. Your Constitution score increases by 2.\nRevival Unit. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.\n",
-    "html": "<p>You have a cybernetic augmentation. Choose one of the following:</p>\n<h3>Cerebral</h3>\n<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n<p><strong>Ability Score Increase</strong>. Your Intelligence score increases by 1.</p>\n<p><strong>Mind Shielding Unit</strong>. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.</p>\n<p><strong>Scientific Aptitude</strong>. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.</p>\n<br>\n<h3>Muscular</h3>\n<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n<p><strong>Ability Score Increase</strong>. Your Dexterity score increases by 1.</p>\n<p><strong>Overclock Unit</strong>. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving <me-distance length=\"0\" /> on one of your turns.</p>\n<p><strong>Peak Fitness</strong>. You have proficiency in either the Acrobatics or Athletics skill.</p>\n<br>\n<h3>Ocular</h3>\n<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n<p><strong>Darkvision</strong>. You can see in dim light within <me-distance length=\"60\" /> of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\n<p><strong>Clarity Unit</strong>. You have advantage on saving throws against being blinded.</p>\n<p><strong>Keen Eyesight</strong>. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within <me-distance length=\"30\" /> of you that is lightly obscured as if it were unobscured and can see in an\narea within <me-distance length=\"15\" /> of you that is heavily obscured as if it were only lightly obscured.</p>\n<br>\n<h3>Visceral</h3>\n<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n<p><strong>Ability Score Increase</strong>. Your Constitution score increases by 2.</p>\n<p><strong>Revival Unit</strong>. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.</p>\n"
+    "body": "You have a cybernetic augmentation. Choose one of the following:\nCerebral\nCerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.\nAbility Score Increase. Your Intelligence score increases by 1.\nMind Shielding Unit. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.\nScientific Aptitude. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.\nMuscular\nMuscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.\nAbility Score Increase. Your Dexterity score increases by 1.\nOverclock Unit. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving  on one of your turns.\nPeak Fitness. You have proficiency in either the Acrobatics or Athletics skill.\nOcular\nQuarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.\nDarkvision. You can see in dim light within  of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\nClarity Unit. You have advantage on saving throws against being blinded.\nKeen Eyesight. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within  of you that is lightly obscured as if it were unobscured and can see in an\narea within  of you that is heavily obscured as if it were only lightly obscured.\nVisceral\nQuarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.\nAbility Score Increase. Your Constitution score increases by 2.\nRevival Unit. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.\n",
+    "html": "<p>You have a cybernetic augmentation. Choose one of the following:</p>\n<h4>Cerebral</h4>\n<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n<p><strong>Ability Score Increase</strong>. Your Intelligence score increases by 1.</p>\n<p><strong>Mind Shielding Unit</strong>. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.</p>\n<p><strong>Scientific Aptitude</strong>. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.</p>\n<h4>Muscular</h4>\n<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n<p><strong>Ability Score Increase</strong>. Your Dexterity score increases by 1.</p>\n<p><strong>Overclock Unit</strong>. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving <me-distance length=\"0\" /> on one of your turns.</p>\n<p><strong>Peak Fitness</strong>. You have proficiency in either the Acrobatics or Athletics skill.</p>\n<h4>Ocular</h4>\n<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n<p><strong>Darkvision</strong>. You can see in dim light within <me-distance length=\"60\" /> of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\n<p><strong>Clarity Unit</strong>. You have advantage on saving throws against being blinded.</p>\n<p><strong>Keen Eyesight</strong>. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within <me-distance length=\"30\" /> of you that is lightly obscured as if it were unobscured and can see in an\narea within <me-distance length=\"15\" /> of you that is heavily obscured as if it were only lightly obscured.</p>\n<h4>Visceral</h4>\n<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n<p><strong>Ability Score Increase</strong>. Your Constitution score increases by 2.</p>\n<p><strong>Revival Unit</strong>. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.</p>\n"
   },
   {
     "id": "dominate",

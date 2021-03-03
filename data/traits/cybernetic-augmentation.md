@@ -4,7 +4,7 @@ species: quarian
 ---
 You have a cybernetic augmentation. Choose one of the following:
 
-### Cerebral
+#### Cerebral
 Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.
 
 __Ability Score Increase__. Your Intelligence score increases by 1.
@@ -15,9 +15,8 @@ confused, compelled, frightened, or put to sleep by powers. In addition, your mi
 __Scientific Aptitude__. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,
 Investigation, or Science.
 
-<br>
 
-### Muscular
+#### Muscular
 Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through
 muscle fibers, allowing for bursts of speed, strength, and flexibility.
 
@@ -29,9 +28,7 @@ recharge the unit by moving <me-distance length="0" /> on one of your turns.
 
 __Peak Fitness__. You have proficiency in either the Acrobatics or Athletics skill.
 
-<br>
-
-### Ocular
+#### Ocular
 Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most
 unfavorable conditions.
 
@@ -44,9 +41,7 @@ __Keen Eyesight__. You have advantage on Wisdom (Perception) checks that rely on
 area within <me-distance length="30" /> of you that is lightly obscured as if it were unobscured and can see in an
 area within <me-distance length="15" /> of you that is heavily obscured as if it were only lightly obscured.
 
-<br>
-
-### Visceral
+#### Visceral
 Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,
 protecting the body from toxins and injury.
 

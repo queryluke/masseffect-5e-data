@@ -27,13 +27,13 @@ initiated by a "mind meld" which links the asari's nervous system with a partner
 randomize genes to create asari offspring. Asari have an innate biotic ability and don't require a biotic implant to
 manipulate mass effect fields.
 
-## Unmatched Patience
+### Unmatched Patience
 Because of their long lifespan, asari tend to have a "long view" not common in other species. When they encounter a new
 species or situation, the asari are more comfortable with an extended period of passive observation and study than immediate action.
 They invite new species of advanced development to join the galactic community, knowing that their ideals and beliefs will
 inevitably influence the existing culture.
 
-## Mothers of the Galaxy
+### Mothers of the Galaxy
 Asari reproduction is very different from other forms of sexual reproduction. When a meld for reproduction is initiated, the
 asari accesses her partner's genes and subconsciously uses them as an algorithmic seed to remap genes into a unique set of DNA.
 The offspring resulting from such interspecies pairings are always asari as no DNA is taken from the partner. Instead,
@@ -46,7 +46,7 @@ it's considered wasteful for asari to reproduce together. The results of such un
 "purebloods", a great insult among contemporary asari. A rare genetic defect known as Ardat-Yakshi, which makes
 asari destroy the partner's mind during melding, occurs much more frequently among the daughters of purebloods.
 
-## Maiden, Matron, Matriarch
+### Maiden, Matron, Matriarch
 Asari pass through three climacteric life stages, marked by biochemical and physiological changes. The __Maiden__ stage
 begins at puberty and is marked by the drive to explore and experience. Most young asari are curious and restless, and
 it is not uncommon for many to try their hand at dancing in bars or working as mercenaries during this time. The __Matron__
@@ -56,7 +56,7 @@ of age, or earlier if the individual melds rarely. Matriarchs become active in t
 dispensing wisdom from centuries of experience. Their knowledge and guidance may be one reason why Matriarchs are rarely seen outside asari space.
 However, each stage can be started whenever an asari feels that she has reached the correct level of maturity.
 
-## Asari Names
+### Asari Names
 Asari are given a personal name by their parents and take the surname of their mothers, even if the child has 2 asari
 parents. Outside of asari communities, they normally do not use their surnames and prefer to introduce themselves with
 their personal name only. Matriarchs are addressed as "Matriarch" but other titles may be used for matriarchs in prestigious positions.
@@ -67,4 +67,4 @@ Liselle, Mallene, Morinth, Nassana, Nyxeris, Pelessaria, Rana, Rila, Samara, Sar
 __Surnames__: Ateyne, B'Sayle, Calis, D'Layne, D'Nava, D'Ysesan, Dantius, Iallis, Iasava, Janieri, Kelis, M'Loari, M'Taros,
 Makenus, Nuwani, Sedela, Sederis, T'Goni, T'Loak, T'Soni, Thanoptis, Theris, V'Lanis, V'Nato, V'Tizor, Vasir
 
-<source-reference pages="2-3" source="races" :additional="[{source: 'wiki', pages: 'Asari'}]"></source-reference>
+<me-source-reference pages="2-3" source="races" :additional="[{source: 'wiki', pages: 'Asari'}]"></me-source-reference>

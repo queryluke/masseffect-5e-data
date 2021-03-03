@@ -26,29 +26,29 @@ incapable of moving quickly, but they possess a rather imposing stature as well 
 all four limbs to support and balance their massive bodies. Given their method of communication, they have highly-attuned
 olfactory senses. They also have at least three stomachs.
 
-## Language of Smells and Sight
+### Language of Smells and Sight
 Elcor speech is heard by most species as a flat, ponderous monotone. Among themselves, scent, extremely
 slight body movements, and subvocalized infrasound convey shades of meaning that make a human smile seem as subtle
 as a fireworks display. Since their subtlety can lead to misunderstandings with other species, the elcor
 prefix all their dialog with non-elcor with an emotive statement to clarify their tone.
 
-## Migratory Nature
+### Migratory Nature
 Prehistoric elcor traveled across Dekuuna in large tribal groups. As their civilizations grew, they kept
 their migratory nature and established twin capitals on their homeworld, one for the wet season and one for the dry season.
 However, their migration is limited to a single planet as most elcor find the confines of space travel very uncomfortable.
 
-## Living Tanks
+### Living Tanks
 Because of their slow, conservative psyches, elcor are not suitable for making the spur-of-the-moment decisions
 necessary in combat situations. Instead, they rely on sophisticated VI combat systems. While easy targets, their durable
 hide allows them to shrug off most incoming fire. Elcor warriors use their broad shoulders as a mount for weaponry and
 their VI as a targeting mechanism. Some elcor are equipped with mass-accelerator cannons, the same weapons
 typically mounted on military vehicles.
 
-## Elcor Names
+### Elcor Names
 Elcor do not have gender-binary names because their gender is discerned through smell. While the names appear singular,
 they are made up of a much more complex set of sounds that only other elcor can hear.
 
 __Elcor Names__: Calyn, Cyllyn, Detinos, Delzino, Felitos, Fazuti, Halzan, Harrot, Pedezlan, Petelenti, Petozi, Vatozi, Voletzi, Xeltan, Zatzoni
 
-<source-reference pages="Elcor" source="wiki"></source-reference>
+<me-source-reference pages="Elcor" source="wiki"></me-source-reference>
 

@@ -55,7 +55,6 @@
     "name": "Adrenaline Rush (2)",
     "class": "soldier",
     "level": 17,
-    "subclass": "gladiator",
     "html": "<p>Starting at 17th level, you can use Adrenaline Rush twice per short rest but not more than once in a single turn.</p>\n",
     "id": "adrenaline-rush-2"
   },
@@ -265,7 +264,6 @@
     "name": "Brutal Critical",
     "class": "vanguard",
     "level": 9,
-    "subclass": "battle-master",
     "html": "<p>Beginning at 9th, you can roll one additional damage die when determining the extra damage for a critical hit with a melee attack.</p>\n",
     "id": "brutal-critical-1"
   },
@@ -627,7 +625,7 @@
     "name": "Indomitable",
     "class": "soldier",
     "level": 9,
-    "html": "<p>At {{ level }} level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.</p>\n",
+    "html": "<p>At 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.</p>\n",
     "id": "indomitable-1"
   },
   {
@@ -678,7 +676,6 @@
     "name": "L5t Implant (4th-level)",
     "class": "sentinel",
     "level": 13,
-    "subclass": "guardian",
     "html": "<p>At the 13th level, choose one power and an advancement for that power of 4th-level or less. You can cast this\npower once as a 4th-level power without expending a power slot. You must finish a long rest before you can do so again.</p>\n",
     "id": "l5t-2"
   },

@@ -27,7 +27,7 @@ unforgiving homeworld but actually thrived in the extreme conditions. Unfortunat
 technologically advanced, so did their weaponry. The end result is that they destroyed their homeworld in a nuclear war
 that reduced their species into primitive warring tribes.
 
-## Biologically Impervious
+### Biologically Impervious
 Krogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous
 plates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,
 for the resources in Tuchanka are scare.
@@ -35,20 +35,20 @@ for the resources in Tuchanka are scare.
 Curiously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These
 traits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as "Blood Rage."
 
-## Blood Rage
+### Blood Rage
 The blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless
 killing machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and
 suppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant
 organs, allows the krogan to defeat creatures many times his size or power.
 
-## Climb Atop the Dead
+### Climb Atop the Dead
 Krogan's value one thing above all else: strength. Krogan society is built upon this hierarchy, where the strong rule
 and the weak perish. They live in clans lead by a Warlord, and those clans constantly war for resources and for power.
 Even within these clans, treachery and distrust run rampant. Krogan often fight for dominance within these clans and
 will sacrifice their clan for personal gain without a second thought. Females are considered prizes and trophies and
 live in clans separate from the males.
 
-## Rites and Rituals
+### Rites and Rituals
 The krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When wishes to join his
 first clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of Honor.
 When facing a new enemy, the Rite of Firsts is invoked.
@@ -58,7 +58,7 @@ torturous; most krogan who attempt the rite perish. Those who survive become the
 and are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit
 world itself.
 
-## Krogan Names
+### Krogan Names
 Krogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.
 
 __Male Names__: Archuk, Brood, Charr, Drax, Fortak, Grunt, Guld, Jarrod Nax, Okeer, Skarr, Strux, Uvenk, Wreav, Wrex
@@ -67,5 +67,5 @@ __Female Names__: Bakara, Chormi, Derge, Hazka, Jonde Kesh, Khorga, Kherake, Mor
 
 __Clan Names__: Garbon, Gatatog, Jorgal, Khutarum, Nakmor, Srarkan, Traash, Urdnot, Verbok, Weryloc, Wudark
 
-<source-reference pages="6-7" source="races" :additional="[{source: 'wiki', pages: 'Krogan'}]"></source-reference>
+<me-source-reference pages="6-7" source="races" :additional="[{source: 'wiki', pages: 'Krogan'}]"></me-source-reference>
 

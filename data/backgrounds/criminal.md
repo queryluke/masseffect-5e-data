@@ -88,4 +88,4 @@ d6 | Flaw
 5 | I turn tail and run when things look bad.
 6 | An innocent person is in prison for a crime that I committed. I’m okay with that.
 
-<source-reference pages="38" source="basic"></source-reference>
+<me-source-reference pages="38" source="basic"></me-source-reference>

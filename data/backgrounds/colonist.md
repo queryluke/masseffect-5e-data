@@ -74,4 +74,4 @@ d6 | Flaw
 5 | Secretly, I believe that things would be better if I ruled the galaxy.
 6 | I have trouble trusting in my allies.
 
-<source-reference pages="39" source="basic"></source-reference>
+<me-source-reference pages="39" source="basic"></me-source-reference>

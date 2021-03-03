@@ -11,9 +11,9 @@ develop an addiction to the power and feel intense compulsion to meld. The addit
 and so a life of monastic celibacy allows asari to leave in peace with a controllable desire. Those who are able to
 avoid isolation and execution, however, quickly become psychopathic in their intense lust for the destructive melding.
 
-<source-reference pages="3" source="races"></source-reference>
+<me-source-reference pages="3" source="races"></me-source-reference>
 
-## Variant Traits
+### Variant Traits
 If you would like to play an ardat-yakshi, replace the _Alignment_ and _Mind Meld_ traits with the following.
 Additionally, you gain the _Dominate_ trait at 10th level.
 

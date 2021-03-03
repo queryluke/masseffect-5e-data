@@ -83,4 +83,4 @@ d6 | Flaw
 5 | I am suspicious of strangers and expect the worst of them.
 6 | Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.
 
-<source-reference pages="37" source="basic"></source-reference>
+<me-source-reference pages="37" source="basic"></me-source-reference>

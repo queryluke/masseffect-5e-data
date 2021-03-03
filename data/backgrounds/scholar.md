@@ -35,7 +35,7 @@ d8 | Field of Study | Proficiency
 5	| Computer Science | Starship system (EWS)
 6	| Biology | Medical kit
 7	| Philosophy | choose either one musical instrument or one gaming set
-8	| General Studies | choose either brewer's supplies, hacking tools, or starship system (SSC) 
+8	| General Studies | choose either brewer's supplies, hacking tools, or starship system (SSC)
 
 <div class="hr"></div>
 
@@ -87,4 +87,4 @@ d6 | Flaw
 5 | I speak without really thinking through my words, invariably insulting others.
 6 | I can’t keep a secret to save my life, or anyone else’s.
 
-<source-reference pages="41" source="basic"></source-reference>
+<me-source-reference pages="41" source="basic"></me-source-reference>
