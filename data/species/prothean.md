@@ -12,7 +12,7 @@ speed:
   - type: walk
     speed: 25
 snippet: The protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.
-bodyImg: /images/species/prothean.png
+bodyImg: /v130/images/species/prothean.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802
 age: Protheans live between 300 and 400 years, reaching adulthood in their early teens.
 traits: []

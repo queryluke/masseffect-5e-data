@@ -16,7 +16,7 @@ speed:
     speed: 25
     color: They rely on contra-gravitic levitation packs when not in water environments.
 snippet: The hanar are a species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species. Hanar are known for their intense politeness when speaking and their strong religious beliefs.
-bodyImg: /images/species/hanar.png
+bodyImg: /v130/images/species/hanar.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825
 age: Hanar usually reach maturity around 40 years and typically live to be 180 years old.
 traits: []
