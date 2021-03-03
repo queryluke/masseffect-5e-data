@@ -15,7 +15,7 @@ As long as the break or tear is no larger than 30 cm (~ 1 foot) in any dimension
 
 __Repair__. You can restore 10 hit points to a damaged object for 1 omni-gel and an hour of work.
 
-__Craft Armor or Weapon Mod__. See the [crafting](/rules/missions#between-missions) section
+__Craft Armor or Weapon Mod__. See the [crafting](/manual/missions#between-missions) section
 of downtime activities for more information.
 
 Activity | DC
