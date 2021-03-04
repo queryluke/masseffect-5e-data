@@ -1,4 +1,6 @@
 const fs = require('fs')
+const config = require('./package.json')
+const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
 
 function ordinal (value) {
   return["st","nd","rd"][((value+90)%100-10)%10-1]||"th"
@@ -197,4 +199,4 @@ for (const i of searchItems) {
   }
 }
 
-fs.writeFileSync(`./.me5e/search-index.json`, JSON.stringify(searchItems, null, 2))
+fs.writeFileSync(`${versionDir}/search-index.json`, JSON.stringify(searchItems, null, 2))

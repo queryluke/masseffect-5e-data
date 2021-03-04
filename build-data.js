@@ -2,6 +2,12 @@
 const fs = require('fs')
 const fm = require('front-matter')
 const _ = require('lodash')
+const config = require('./package.json')
+const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
+
+if (!fs.existsSync(versionDir)) {
+  fs.mkdirSync(versionDir);
+}
 
 // Markdown it options
 const MarkdownIt = require('markdown-it')
@@ -61,8 +67,6 @@ md.renderer.rules.link_close = function(tokens, idx) {
   }
 }
 
-const target = './.me5e'
-
 const mdDirs = [
   'abilities',
   'rules',
@@ -98,14 +102,14 @@ for (let dir of mdDirs) {
       item.url = `/changelog/${item.slug}`
     }
     if (dir === 'species') {
-      const traits = require(`${target}/traits.json`)
-      const variants = require(`${target}/species-variants.json`)
+      const traits = require(`${versionDir}/traits.json`)
+      const variants = require(`${versionDir}/species-variants.json`)
       item.traits = traits.filter(i => i.species === item.id || i.species.includes(item.id))
       item.variants = variants.filter(i => i.species === item.id)
     }
     return item
   })
-  fs.writeFileSync(`${target}/${dir}.json`, JSON.stringify(items, null, 2))
+  fs.writeFileSync(`${versionDir}/${dir}.json`, JSON.stringify(items, null, 2))
 }
 // process jsDirs
 const jsonDirs = [
@@ -130,5 +134,5 @@ for (let dir of jsonDirs) {
     item.id = file.replace(/.json$/, '')
     return item
   })
-  fs.writeFileSync(`${target}/${dir}.json`, JSON.stringify(items, null, 2))
+  fs.writeFileSync(`${versionDir}/${dir}.json`, JSON.stringify(items, null, 2))
 }
