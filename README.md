@@ -5,7 +5,7 @@ All of the data for the Mass Effect 5e TTRPG
 
 Contains the uncompiled data in markdown or json
 
-## /.me5e
+## /docs
 
 Contains the compiled data for use on the website
 
@@ -13,6 +13,3 @@ Contains the compiled data for use on the website
 
 `npm run build`
 
-
-# TODO
-[ ] - "Choose subclass" text for first level of subclass
