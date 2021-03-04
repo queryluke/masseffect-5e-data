@@ -52,7 +52,7 @@ const files = [
 const searchItems = []
 
 for (const file of files) {
-  const items = require(`./.me5e/${file}.json`)
+  const items = require(`${versionDir}/${file}.json`)
   for (let item of items) {
 
     // set the type and subtype
