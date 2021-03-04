@@ -13,8 +13,8 @@ speed:
     speed: 15
     color: Elcor are relatively slow compared to other species.
 snippet: The elcor are a Citadel species native to the high-gravity world Dekuuna. They are massive creatures, standing on four muscular legs for increased stability. Elcor move slowly, an evolved response to an environment where a fall can be lethal.
-bodyImg: /v130/images/species/elcor.png
-img: /v130/images/species/elcor_card.jpg
+bodyImg: https://data.n7.world/images/species/elcor.png
+img: https://data.n7.world/images/species/elcor_card.jpg
 age: The average elcor lives to be around 300 years old. 100-year-old elcor are considered young.
 traits: []
 subspecies: []
