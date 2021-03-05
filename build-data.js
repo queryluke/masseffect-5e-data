@@ -9,6 +9,11 @@ if (!fs.existsSync(versionDir)) {
   fs.mkdirSync(versionDir);
 }
 
+// copy about page
+fs.copyFile( './data/about.json', `${versionDir}/about.json`, (err) => {
+  if (err) throw err;
+});
+
 // Markdown it options
 const MarkdownIt = require('markdown-it')
 const md = new MarkdownIt({ html: true })
