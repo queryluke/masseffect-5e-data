@@ -1,0 +1,9 @@
+---
+id: terminus-assault
+bonuses:
+  - threshold: 2
+    mechanics: []
+  - threshold: 4
+    mechanics: []
+max: 4
+---

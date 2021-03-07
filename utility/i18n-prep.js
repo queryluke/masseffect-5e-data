@@ -3,7 +3,7 @@ const _ = require('lodash')
 const YAML = require('yaml')
 const fm = require('front-matter')
 
-const setBonusCache = {}
+const setBonusCache = []
 
 
 function extractBonus(text) {
@@ -20,14 +20,8 @@ function extractBonus(text) {
 function processModel(model) {
     const path = `../oldData/${model.dir}`
     const files = fs.readdirSync(path)
-    const textDir = `../text/en/${model.dir}`
-    if (!fs.existsSync(textDir)){
-        fs.mkdirSync(textDir);
-    }
-    const factDir = `../data/${model.dir}`
-    if (!fs.existsSync(factDir)){
-        fs.mkdirSync(factDir);
-    }
+
+
 
     for (const file of files) {
         const fn = `${path}/${file}`
@@ -41,8 +35,20 @@ function processModel(model) {
         }
         const id = file.replace(/.(md|json)$/, '')
         const transformed = transform(item, model, id)
-        fs.writeFileSync(`${textDir}/${id}.md`, yamlify(transformed.text.fm, transformed.text.body))
-        fs.writeFileSync(`${factDir}/${id}.md`, yamlify(transformed.text.fm, ''))
+        if (typeof model.facts !== 'undefined') {
+            const factDir = `../data/${model.dir}`
+            if (!fs.existsSync(factDir)){
+                fs.mkdirSync(factDir);
+            }
+            fs.writeFileSync(`${factDir}/${id}.md`, yamlify(transformed.facts, ''))
+        }
+        if (typeof model.text !== 'undefined') {
+            const textDir = `../text/en/${model.dir}`
+            if (!fs.existsSync(textDir)){
+                fs.mkdirSync(textDir);
+            }
+            fs.writeFileSync(`${textDir}/${id}.md`, yamlify(transformed.text.fm, transformed.text.body))
+        }
     }
 }
 
@@ -54,26 +60,36 @@ function yamlify (item, body = '') {
 }
 
 function rekey(key, replacements) {
+    if (typeof  replacements === 'undefined') {
+        return key
+    }
     const renameTo = replacements.find(i => i.from === key)
-    return renameTo || key
+    return renameTo ? renameTo.to : key
 }
 
 function transform (item, config, id) {
     const tFacts = {}
-    const fItem = config.factTransform(_.cloneDeep(item), id)
-    for (const fact of config.facts) {
-        const slugify = config.ignoreSlugify.includes(fact)
-        tFacts[rekey(fact, config.replaceKeys)] = !slugify ? fItem[fact] : _.kebabCase(fItem[fact])
+    if (typeof config.facts !== 'undefined') {
+        const fItem = config.factTransform ? config.factTransform(_.cloneDeep(item), id) : _.cloneDeep(item)
+        for (const fact of config.facts) {
+            const slugify = config.slug && config.slug.includes(fact)
+            const snakify = config.snake && config.snake.includes(fact)
+            tFacts[rekey(fact, config.replaceKeys)] = slugify ? _.kebabCase(fItem[fact])
+                : snakify ? _.snakeCase(fItem[fact])
+                    : fItem[fact]
+        }
     }
 
     const tText = {}
-    const tItem = config.textTransform(_.cloneDeep(item), id)
-    for (const t of config.text) {
-        tText[rekey(t, config.replaceKeys)] = tItem[t]
-    }
     let mdBody = item.mdBody || ''
-    if (config.type === 'json' && config.mdBody) {
-        mdBody = item[config.mdBody]
+    if (typeof config.text !== 'undefined') {
+        const tItem = config.textTransform ? config.textTransform(_.cloneDeep(item), id) : _.cloneDeep(item)
+        for (const t of config.text) {
+            tText[rekey(t, config.replaceKeys)] = tItem[t]
+        }
+        if (config.type === 'json' && config.mdBody) {
+            mdBody = item[config.mdBody]
+        }
     }
     return {
         text: {
@@ -89,14 +105,15 @@ const models = [
         dir: 'armor',
         type: 'json',
         mdBody: 'description',
-        facts: ['type','armorType','cost','images','manu','image','notes','andromeda','set'],
+        facts: ['type','armorType','cost','manu','image','notes','andromeda','set'],
         text: ['name', 'features'],
-        ignoreSlugify: ['image'],
+        slug: ['manu'],
+        snake: ['type', 'armorType'],
         replaceKeys: [
             { from: 'armorType', to: 'placement' },
             { from: 'manu', to: 'manufacturer' },
         ],
-        textTransform (item, id) {
+        textTransform: (item, id) => {
             if (item.setBonus && item.setBonus.length > 0) {
                 let set = id.split('-')
                 set.pop()
@@ -123,7 +140,7 @@ const models = [
             }
             return item
         },
-        factTransform (item, id) {
+        factTransform: (item, id) => {
             if (item.setBonus && item.setBonus.length > 0) {
                 const set = id.split('-')
                 set.pop()
@@ -131,13 +148,48 @@ const models = [
             } else {
                 item.set = false
             }
+            item.notes = item.notes.map(i => _.snakeCase(i))
             return item
         }
+    },
+    {
+        dir: 'attributions',
+        type: 'json',
+        facts: ['title','path','attribution','source'],
+    },
+    {
+        dir: 'backgrounds',
+        type: 'md',
+        facts: ['starting_credits'],
+        text: ['name'],
+        replaceKeys: [
+            { from: 'starting_credits', to: 'startingCredits' }
+        ]
     }
 ]
 
+
+function processSetBonuses (setBonuses) {
+    const textDir = `../text/en/set-bonuses`
+    if (!fs.existsSync(textDir)){
+        fs.mkdirSync(textDir);
+    }
+    const factDir = `../data/set-bonuses`
+    if (!fs.existsSync(factDir)){
+        fs.mkdirSync(factDir);
+    }
+    for (const sb of setBonusCache) {
+        const tSb = _.cloneDeep(sb)
+        tSb.bonuses = tSb.bonuses.map(i => { return {threshold: i.threshold, text: i.text} })
+        fs.writeFileSync(`${textDir}/${sb.id}.md`, yamlify(tSb))
+        const fSb = _.cloneDeep(sb)
+        fSb.bonuses = fSb.bonuses.map(i => { return {threshold: i.threshold, mechanics: []} })
+        fs.writeFileSync(`${factDir}/${sb.id}.md`, yamlify(fSb))
+    }
+}
 
 
 for (const m of models) {
     processModel(m)
 }
+processSetBonuses(setBonusCache)
