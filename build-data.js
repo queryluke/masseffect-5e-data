@@ -86,7 +86,7 @@ const mdDirs = [
   'gear',
   'mods',
   'species-variants', // before species
-  'subspecies', // before species
+  // 'subspecies', // before species
   'traits', // before species
   'species',
   'powers',
