@@ -28,7 +28,7 @@ advancementOptions:
 - name: Power Damping
   description: Creatures have disadvantage on the saving throw against this power.
 ---
-Target a create you can see within range and cause interference with their biotic implant and omni-tool, reducing their
+Target a creature you can see within range and cause interference with their biotic implant and omni-tool, reducing their
 ability to use them effectively. The creature must make a saving throw using its powercasting ability or it suffers a penalty
 to its next biotic or tech power. If the next power it casts requires an attack roll, it has disadvantage on the attack.
 If the next power forces one or more creatures to make a saving throw, those creatures have advantage on the saving throw.
