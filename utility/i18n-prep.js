@@ -4,6 +4,7 @@ const YAML = require('yaml')
 const fm = require('front-matter')
 
 const setBonusCache = []
+const bestiaryEntryCache = []
 
 
 function extractBonus(text) {
@@ -17,8 +18,34 @@ function extractBonus(text) {
     }
 }
 
+function generateId(text) {
+    return text.replace(/\W/gi, '-').toLowerCase()
+}
+
+function processRecharge(text) {
+    let recharge = false
+    let uses = false
+    if (text) {
+        if (text.match(/recharge/i)) {
+            const sp1 = text.split(' ')
+            recharge = sp1[1].split('-')
+        }
+        if (text.match(/day/i)) {
+            const sp1 = text.recharge.split('/')
+            uses = {
+                amount: parseInt(sp1[0]),
+                perDay: true
+            }
+        }
+    }
+    return {
+        recharge,
+        uses
+    }
+}
+
 function processModel(model) {
-    const path = `../oldData/${model.dir}`
+    const path = `../data/${model.dir}`
     const files = fs.readdirSync(path)
 
 
@@ -36,7 +63,7 @@ function processModel(model) {
         const id = file.replace(/.(md|json)$/, '')
         const transformed = transform(item, model, id)
         if (typeof model.facts !== 'undefined') {
-            const factDir = `../data/${model.dir}`
+            const factDir = `../newData/${model.dir}`
             if (!fs.existsSync(factDir)){
                 fs.mkdirSync(factDir);
             }
@@ -174,7 +201,7 @@ function processSetBonuses (setBonuses) {
     if (!fs.existsSync(textDir)){
         fs.mkdirSync(textDir);
     }
-    const factDir = `../data/set-bonuses`
+    const factDir = `../newData/set-bonuses`
     if (!fs.existsSync(factDir)){
         fs.mkdirSync(factDir);
     }

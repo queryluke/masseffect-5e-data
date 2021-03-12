@@ -1,0 +1,3 @@
+---
+startingCredits: 1000
+---
