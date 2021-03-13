@@ -206,6 +206,14 @@ const models = [
             return item
         }
     },
+    {
+        dir: 'character-progression',
+        type: 'json',
+        facts: ['level','xp','bonus'],
+        replaceKeys: [
+            { from: 'bonus', to: 'profBonus'}
+        ]
+    },
 ]
 
 
