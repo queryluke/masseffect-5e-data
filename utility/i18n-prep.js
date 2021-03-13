@@ -48,8 +48,6 @@ function processModel(model) {
     const path = `../data/${model.dir}`
     const files = fs.readdirSync(path)
 
-
-
     for (const file of files) {
         const fn = `${path}/${file}`
         let item = false
@@ -63,7 +61,7 @@ function processModel(model) {
         const id = file.replace(/.(md|json)$/, '')
         const transformed = transform(item, model, id)
         if (typeof model.facts !== 'undefined') {
-            const factDir = `../newData/${model.dir}`
+            const factDir = `../newData/${model.outputDir || model.dir}`
             if (!fs.existsSync(factDir)){
                 fs.mkdirSync(factDir);
             }
@@ -192,7 +190,17 @@ const models = [
         replaceKeys: [
             { from: 'starting_credits', to: 'startingCredits' }
         ]
-    }
+    },
+    {
+        dir: 'boh-stats-by-cr',
+        outputDir: 'stats-by-cr',
+        type: 'json',
+        facts: ['cr','normalized','profBonus','ac','hp','attack','damage','dc','save','xp'],
+        factTransform(item, id) {
+            item.xp = parseInt(item.xp, 10)
+            return item
+        }
+    },
 ]
 
 
