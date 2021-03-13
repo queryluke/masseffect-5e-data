@@ -193,11 +193,16 @@ const models = [
     },
     {
         dir: 'boh-stats-by-cr',
-        outputDir: 'stats-by-cr',
+        outputDir: 'npc-stats',
         type: 'json',
         facts: ['cr','normalized','profBonus','ac','hp','attack','damage','dc','save','xp'],
         factTransform(item, id) {
-            item.xp = parseInt(item.xp, 10)
+            for (const i of Object.entries(item)){
+                if (i[0] === 'cr') {
+                    continue
+                }
+                item[i[0]] = parseInt(i[1].replace(',',''))
+            }
             return item
         }
     },
