@@ -214,6 +214,15 @@ const models = [
             { from: 'bonus', to: 'profBonus'}
         ]
     },
+    {
+        dir: 'class-features',
+        type: 'md',
+        facts: ['level','class','subclass'],
+        text: ['name'],
+        replaceKeys: [
+            { from: 'class', to: 'klass'}
+        ]
+    },
 ]
 
 
