@@ -1,5 +1,4 @@
 ---
-id: inferno
 bonuses:
   - threshold: 2
     mechanics: []

@@ -1,5 +1,4 @@
 ---
-id: cerberus-shade
 bonuses:
   - threshold: 2
     mechanics: []

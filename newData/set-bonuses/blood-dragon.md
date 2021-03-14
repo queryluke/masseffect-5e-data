@@ -1,5 +1,4 @@
 ---
-id: blood-dragon
 bonuses:
   - threshold: 2
     mechanics: []

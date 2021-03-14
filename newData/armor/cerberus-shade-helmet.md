@@ -3,7 +3,8 @@ type: head
 placement: medium
 cost: 21950
 manufacturer: cerberus-skunkworks
-image: https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524
+image: >-
+  https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524
 notes:
   - attack_bonus
   - extra_damage

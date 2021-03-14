@@ -1,5 +1,4 @@
 ---
-id: cerberus-assault
 bonuses:
   - threshold: 2
     mechanics: []

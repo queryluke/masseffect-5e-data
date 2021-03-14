@@ -1,5 +1,4 @@
 ---
-id: remnant
 bonuses:
   - threshold: 3
     mechanics: []

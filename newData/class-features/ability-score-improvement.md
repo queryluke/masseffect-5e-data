@@ -1,5 +1,3 @@
 ---
-? level
-? klass
-? subclass
+{}
 ---

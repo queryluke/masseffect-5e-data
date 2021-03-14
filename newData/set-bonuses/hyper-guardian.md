@@ -1,5 +1,4 @@
 ---
-id: hyper-guardian
 bonuses:
   - threshold: 2
     mechanics: []

@@ -1,5 +1,4 @@
 ---
-id: initiative
 bonuses:
   - threshold: 2
     mechanics: []

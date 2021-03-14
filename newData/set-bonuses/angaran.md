@@ -1,5 +1,4 @@
 ---
-id: angaran
 bonuses:
   - threshold: 2
     mechanics: []

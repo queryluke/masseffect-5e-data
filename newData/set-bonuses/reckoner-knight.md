@@ -1,5 +1,4 @@
 ---
-id: reckoner-knight
 bonuses:
   - threshold: 2
     mechanics: []

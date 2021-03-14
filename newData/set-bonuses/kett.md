@@ -1,5 +1,4 @@
 ---
-id: kett
 bonuses:
   - threshold: 2
     mechanics: []

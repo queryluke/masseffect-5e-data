@@ -1,5 +1,4 @@
 ---
-id: heleus
 bonuses:
   - threshold: 2
     mechanics: []

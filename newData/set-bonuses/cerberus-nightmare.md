@@ -1,5 +1,4 @@
 ---
-id: cerberus-nightmare
 bonuses:
   - threshold: 2
     mechanics: []

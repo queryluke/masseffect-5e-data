@@ -1,7 +1,8 @@
 ---
 name: Hahne-Kedar Tactical Armor
 features:
-  - When wearing this armor, treat your Strength ability score as if it were 19
+  - >-
+    When wearing this armor, treat your Strength ability score as if it were 19
     for the purposes of carrying equipment (unless your score is higher, then no
     effect occurs).
 ---

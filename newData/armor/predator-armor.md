@@ -3,7 +3,8 @@ type: body_armor
 placement: medium
 cost: 31450
 manufacturer: armax-arsenal
-image: https://vignette.wikia.nocookie.net/masseffect/images/8/8a/Heavy-human-Predator_H.png/revision/latest/scale-to-width-down/160?cb=20110516205041
+image: >-
+  https://vignette.wikia.nocookie.net/masseffect/images/8/8a/Heavy-human-Predator_H.png/revision/latest/scale-to-width-down/160?cb=20110516205041
 notes:
   - item_capacity
   - null_critical

@@ -1,5 +1,4 @@
 ---
-id: terminus-assault
 bonuses:
   - threshold: 2
     mechanics: []

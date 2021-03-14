@@ -1,5 +1,4 @@
 ---
-id: maverick
 bonuses:
   - threshold: 2
     mechanics: []

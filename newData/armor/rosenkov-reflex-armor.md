@@ -3,7 +3,8 @@ type: chest
 placement: heavy
 cost: 20400
 manufacturer: rosenkov-materials
-image: https://vignette.wikia.nocookie.net/masseffect/images/7/7f/ME3_rosenkov_materials_chest.png/revision/latest/scale-to-width-down/100?cb=20120310234640
+image: >-
+  https://vignette.wikia.nocookie.net/masseffect/images/7/7f/ME3_rosenkov_materials_chest.png/revision/latest/scale-to-width-down/100?cb=20120310234640
 notes:
   - special
 andromeda: false

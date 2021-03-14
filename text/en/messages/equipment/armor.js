@@ -1,5 +1,6 @@
 modules.export = {
     armor: {
+        label: 'armor',
         placement: {
             head: 'Head',
             chest: 'Chest',
@@ -8,9 +9,14 @@ modules.export = {
             arms: 'Arms'
         },
         type: {
+            // type only
             heavy: 'Heavy',
+            light: 'Light',
             medium: 'Medium',
-            light: 'Light'
+            // full
+            heavy_armor: '@:equipment.armor.type.heavy @:equipment.armor.label',
+            light_armor: '@:equipment.armor.type.light @:equipment.armor.label',
+            medium_armor: '@:equipment.armor.type.medium @:equipment.armor.label'
         },
         set_bonus: 'Set bonus',
         // e.g. 2 of 4

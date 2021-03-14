@@ -3,7 +3,8 @@ type: head
 placement: heavy
 cost: 55300
 manufacturer: kassa-fabrication
-image: https://vignette.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png/revision/latest/scale-to-width-down/160?cb=20100209161006
+image: >-
+  https://vignette.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png/revision/latest/scale-to-width-down/160?cb=20100209161006
 notes:
   - ac
   - set_bonus

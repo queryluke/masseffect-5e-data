@@ -1,5 +1,4 @@
 ---
-id: colossus
 bonuses:
   - threshold: 2
     mechanics: []

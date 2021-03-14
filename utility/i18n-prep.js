@@ -1,11 +1,9 @@
 const fs = require('fs')
 const _ = require('lodash')
-const YAML = require('yaml')
+const yaml = require('js-yaml')
 const fm = require('front-matter')
 
 const setBonusCache = []
-const bestiaryEntryCache = []
-
 
 function extractBonus(text) {
     const split = text.split(':')
@@ -47,6 +45,8 @@ function processRecharge(text) {
 function processModel(model) {
     const path = `../data/${model.dir}`
     const files = fs.readdirSync(path)
+    const fFlow = model.fFlow || 4
+    const tFlow = model.tFlow || 3
 
     for (const file of files) {
         const fn = `${path}/${file}`
@@ -65,22 +65,26 @@ function processModel(model) {
             if (!fs.existsSync(factDir)){
                 fs.mkdirSync(factDir);
             }
-            fs.writeFileSync(`${factDir}/${id}.md`, yamlify(transformed.facts, ''))
+            fs.writeFileSync(`${factDir}/${id}.md`, yamlify(transformed.facts, fFlow, '', true))
         }
         if (typeof model.text !== 'undefined') {
             const textDir = `../text/en/${model.dir}`
             if (!fs.existsSync(textDir)){
                 fs.mkdirSync(textDir);
             }
-            fs.writeFileSync(`${textDir}/${id}.md`, yamlify(transformed.text.fm, transformed.text.body))
+            fs.writeFileSync(`${textDir}/${id}.md`, yamlify(transformed.text.fm, tFlow, transformed.text.body, false, typeof model.mdBody !== 'undefined'))
         }
     }
 }
 
-function yamlify (item, body = '') {
+function yamlify (item, flow = 3, body = '', condense = false, wrap = false) {
     let content = '---\n'
-    content += YAML.stringify(item)
-    content += `---\r\n${body}`
+    content += yaml.dump(item, {flowLevel: flow, condenseFlow: condense})
+    if (wrap) {
+        content += `---\r\n${body.replace(/.{80,100}\s/g, "$&\n")}`
+    } else {
+        content += `---\r\n${body}`
+    }
     return content
 }
 
@@ -223,6 +227,120 @@ const models = [
             { from: 'class', to: 'klass'}
         ]
     },
+    {
+        dir: 'classes',
+        type: 'md',
+        facts: ['primaryAbility', 'hitDice', 'profs', 'startingEquipment', 'progression'],
+        text: ['name', 'snippet', 'profs', 'startingEquipment'],
+        replaceKeys: [
+            { from: 'hitDice', to: 'hitDie'}
+        ],
+        factTransform(item, id) {
+            item.primaryAbility = item.primaryAbility.toLowerCase().substr(0,3)
+            item.profs = {
+                armor: {},
+                weapon: {},
+                tool: {},
+                skill: {},
+                savingThrow: {}
+            }
+            for (const type of ['armorProfs', 'toolProfs', 'weaponProfs', 'skillProfs', 'savingThrows']) {
+                let key = type.replace('Profs', '')
+                if (key === 'savingThrows') {
+                    key = 'savingThrow'
+                }
+                if (item[type].mandatory || item[type].options) {
+                    if (item[type].mandatory) {
+                        item.profs[key].has = item[type].mandatory.map(i => {
+                            if (type === 'armorProfs') {
+                                return i.replace('-armor','')
+                            } else if (type  === 'savingThrows') {
+                                return i.substr(0, 3)
+                            } else {
+                                return i
+                            }
+                        })
+                    }
+                    if (item[type].options) {
+                        item.profs[key].choices = {
+                            items: item[type].options.items,
+                            count: item[type].options.count
+                        }
+                    }
+                } else {
+                    item.profs[key] = false
+                }
+            }
+            item.startingEquipment = item.startingEquipment.map((i) => {
+                const se = {}
+                if (i.mandatory) {
+                    se.has = i.mandatory
+                }
+                if (i.options) {
+                    se.choices = {
+                        items: i.options.items,
+                        count: i.options.count
+                    }
+                }
+                return se
+            })
+            item.progression = {
+                subclass: item.subclassProgression.level,
+                abi: item.abiLevels,
+                columns: []
+            }
+            const collectPs = []
+            for (const pc of item.progressionColumns) {
+                if (pc.ps) {
+                    collectPs.push(pc.values)
+                } else {
+                    const prog = {
+                        label: _.snakeCase(pc.name)
+                    }
+                    if (pc.values) {
+                        prog.values = pc.values
+                    }
+                    item.progression.columns.push(prog)
+                }
+            }
+            if (collectPs.length > 0) {
+                item.progression.columns.push({
+                    label: 'power_slots',
+                    values: collectPs
+                })
+            }
+            return item
+        },
+        textTransform(item, id) {
+            item.profs = {
+                armor: {
+                    text: item.armorProfs.text
+                },
+                weapon: {
+                    text: item.weaponProfs.text
+                },
+                tool: {
+                    text: item.toolProfs.text
+                },
+                skill: {
+                    text: item.skillProfs.text
+                },
+                savingThrow: {
+                    text: item.savingThrows.text
+                }
+            }
+            for (const type of ['armorProfs', 'toolProfs', 'weaponProfs', 'skillProfs', 'savingThrows']) {
+                delete item[type]
+            }
+            item.startingEquipment = item.startingEquipment.map((i) => {
+                return {
+                    text: i.text
+                }
+            })
+            return item
+        }
+
+    }
 ]
 
 
@@ -237,11 +355,14 @@ function processSetBonuses (setBonuses) {
     }
     for (const sb of setBonusCache) {
         const tSb = _.cloneDeep(sb)
-        tSb.bonuses = tSb.bonuses.map(i => { return {threshold: i.threshold, text: i.text} })
-        fs.writeFileSync(`${textDir}/${sb.id}.md`, yamlify(tSb))
+        tSb.bonuses = tSb.bonuses.map(i => { return {text: i.text} })
+        delete tSb.max
+        delete tSb.id
+        fs.writeFileSync(`${textDir}/${sb.id}.md`, yamlify(tSb, 4))
         const fSb = _.cloneDeep(sb)
+        delete fSb.id
         fSb.bonuses = fSb.bonuses.map(i => { return {threshold: i.threshold, mechanics: []} })
-        fs.writeFileSync(`${factDir}/${sb.id}.md`, yamlify(fSb))
+        fs.writeFileSync(`${factDir}/${sb.id}.md`, yamlify(fSb, 4))
     }
 }
 

@@ -1,5 +1,4 @@
 ---
-id: pathfinder
 bonuses:
   - threshold: 3
     mechanics: []

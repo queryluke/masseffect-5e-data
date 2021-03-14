@@ -1,5 +1,4 @@
 ---
-id: collector
 bonuses:
   - threshold: 2
     mechanics: []
