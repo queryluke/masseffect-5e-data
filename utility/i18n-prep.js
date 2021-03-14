@@ -340,7 +340,22 @@ const models = [
             return item
         }
 
-    }
+    },
+    {
+        dir: 'conditions',
+        type: 'md',
+        text: ['name']
+    },
+    {
+        dir: 'feats',
+        type: 'md',
+        facts: ['mechanics', 'new'],
+        text: ['name', 'note', 'prerequisite'],
+        factTransform(item) {
+            item.mechanics = []
+            return item
+        }
+    },
 ]
 
 
