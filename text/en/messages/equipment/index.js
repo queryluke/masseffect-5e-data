@@ -1,9 +1,10 @@
 const { armor } = require('./armor')
-
+const { gear } = require('./gear')
 
 modules.export = {
     equipment: {
         armor,
+        gear,
         rarity: {
             common: 'Common',
             uncommon: 'Uncommon',

@@ -13,6 +13,11 @@ modules.export = {
     abilities,
     alignments,
     damage: 'damage',
+    cost: {
+        credits: 'credits | credit | {n} credits',
+        military: 'military',
+        varies: 'varies'
+    },
     damage_types,
     dice: (ctx) => `${ctx.named('dieCount') || ''}d${ctx.named('dieType')}`,
     regen: 'regen',

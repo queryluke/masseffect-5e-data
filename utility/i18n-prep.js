@@ -356,6 +356,16 @@ const models = [
             return item
         }
     },
+    {
+        dir: 'gear',
+        type: 'md',
+        facts: ['stats', 'rarity', 'stats', 'type', 'cost', 'weight'],
+        snake: ['rarity', 'type', 'cost'],
+        text: ['name'],
+        replaceKeys: [
+            { from: 'stats', to: 'mechanics' }
+        ]
+    },
 ]
 
 
