@@ -4,6 +4,7 @@ const yaml = require('js-yaml')
 const fm = require('front-matter')
 
 const setBonusCache = []
+const guideCache = []
 
 function extractBonus(text) {
     const split = text.split(':')
@@ -68,7 +69,7 @@ function processModel(model) {
             fs.writeFileSync(`${factDir}/${id}.md`, yamlify(transformed.facts, fFlow, '', true))
         }
         if (typeof model.text !== 'undefined') {
-            const textDir = `../text/en/${model.dir}`
+            const textDir = `../text/en/${model.outputDir || model.dir}`
             if (!fs.existsSync(textDir)){
                 fs.mkdirSync(textDir);
             }
@@ -360,12 +361,26 @@ const models = [
         dir: 'gear',
         type: 'md',
         facts: ['stats', 'rarity', 'stats', 'type', 'cost', 'weight'],
-        snake: ['rarity', 'type', 'cost'],
+        snake: ['rarity', 'type'],
         text: ['name'],
         replaceKeys: [
             { from: 'stats', to: 'mechanics' }
         ]
     },
+    {
+        dir: 'gmg',
+        type: 'md',
+        outputDir: 'guide',
+        text: ['title'],
+        textTransform(item, id) {
+            guideCache.push({
+                id,
+                section: item.section,
+                order: item.order
+            })
+            return item
+        }
+    }
 ]
 
 
@@ -391,8 +406,27 @@ function processSetBonuses (setBonuses) {
     }
 }
 
+function processGuides (guides, file) {
+    const sections = []
+    const grouped = _.groupBy(guides, 'section')
+    for (const e of Object.entries(grouped)) {
+        const section = {
+            title: _.snakeCase(e[0]),
+            sections: e[1].sort((a, b) => a.order > b.order ? 1 : -1).map(i => {
+                return {
+                    id: i.id,
+                    sections: []
+                }
+            })
+        }
+        sections.push(section)
+    }
+    fs.writeFileSync(`../newData/${file}.md`, yamlify(sections, 4))
+}
+
 
 for (const m of models) {
     processModel(m)
 }
 processSetBonuses(setBonusCache)
+processGuides(guideCache, 'guides')

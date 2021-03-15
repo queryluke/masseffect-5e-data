@@ -8,6 +8,7 @@ const { senses } = require('./senses')
 const { site } = require('./site')
 const { sizes } = require('./sizes')
 const { speeds } = require('./speeds')
+const { manual, guide } = require('./manual')
 
 modules.export = {
     abilities,
@@ -20,14 +21,16 @@ modules.export = {
     },
     damage_types,
     dice: (ctx) => `${ctx.named('dieCount') || ''}d${ctx.named('dieType')}`,
-    regen: 'regen',
-    shield: 'no shields | 1 shield | {n} shields',
-    starting_credits: 'Starting Credits',
     equipment,
+    guide,
+    manual,
     measurements,
     npc,
+    regen: 'regen',
     senses,
+    shield: 'no shields | 1 shield | {n} shields',
     site,
     sizes,
-    speeds
+    speeds,
+    starting_credits: 'Starting Credits'
 }
