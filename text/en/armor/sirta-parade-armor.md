@@ -1,6 +1,7 @@
 ---
 name: Sirta Parade Armor
-features:
-  - Advantage on Persuasion and Performance checks.
+flavor: >-
+  Glossy armor that shines in the light, designed to look good as its first
+  function.
 ---
-Glossy armor that shines in the light, designed to look good as its first function.
+- Advantage on Persuasion and Performance checks.

@@ -1,6 +1,5 @@
 ---
 name: Survivor Armor
-features:
-  - +1 AC
+flavor: A simple set of armor made by Devlon Industries providing moderate protection.
 ---
-A simple set of armor made by Devlon Industries providing moderate protection.
+- +1 AC

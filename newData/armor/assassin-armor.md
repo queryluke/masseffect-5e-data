@@ -4,7 +4,7 @@ placement: light
 cost: 52700
 manufacturer: elkoss-combine
 image: null
-notes:
+tags:
   - special
 andromeda: false
 set: false

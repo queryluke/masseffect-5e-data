@@ -1,5 +1,4 @@
 ---
 name: Stock Medium Armor
-features: []
+flavor: A cheap and simple set of medium armor.
 ---
-A cheap and simple set of medium armor.

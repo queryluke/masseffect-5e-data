@@ -4,7 +4,7 @@ placement: heavy
 cost: 21250
 manufacturer: hahne-kedar
 image: null
-notes: []
+tags: []
 andromeda: false
 set: false
 ---

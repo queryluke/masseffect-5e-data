@@ -1,8 +1,8 @@
 ---
 name: Serrice Rimebane Armor
-features:
-  - Resistance to cold damage.
-  - Immunity from the frozen condition.
+flavor: >-
+  Chest plating with auxiliary power cells that defrost spots of crystalline ice
+  caused by cryo rounds on impact.
 ---
-Chest plating with auxiliary power cells that defrost spots of crystalline ice caused by cryo rounds 
-on impact.
+- Resistance to cold damage.
+- Immunity from the frozen condition.

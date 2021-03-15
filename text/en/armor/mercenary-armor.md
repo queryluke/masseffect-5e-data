@@ -1,6 +1,5 @@
 ---
 name: Mercenary Armor
-features:
-  - 10 shields (regen 5)
+flavor: Basic armor offering a minor upgrade to shield capacitors.
 ---
-Basic armor offering a minor upgrade to shield capacitors.
+- 10 shields (regen 5)

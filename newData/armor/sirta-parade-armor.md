@@ -4,7 +4,7 @@ placement: light
 cost: 38675
 manufacturer: ariake-technologies
 image: null
-notes:
+tags:
   - ability_skill_bonus
 andromeda: false
 set: false

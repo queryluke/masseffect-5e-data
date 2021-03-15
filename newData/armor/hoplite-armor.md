@@ -4,7 +4,7 @@ placement: light
 cost: 80750
 manufacturer: ceberus-skunkworks
 image: null
-notes:
+tags:
   - shields
   - shield_regen
   - ac

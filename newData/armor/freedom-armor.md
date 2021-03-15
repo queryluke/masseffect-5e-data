@@ -4,7 +4,7 @@ placement: light
 cost: 27200
 manufacturer: cerberus-skunkworks
 image: null
-notes:
+tags:
   - ac
 andromeda: false
 set: false

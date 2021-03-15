@@ -5,7 +5,7 @@ cost: 87550
 manufacturer: rosenkov-materials
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Heavy-human-Titan.png/revision/latest/scale-to-width-down/160?cb=20100209161744
-notes:
+tags:
   - shields
   - shield_regen
   - ac

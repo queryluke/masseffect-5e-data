@@ -4,7 +4,7 @@ placement: medium
 cost: 17850
 manufacturer: hahne-kedar
 image: null
-notes: []
+tags: []
 andromeda: false
 set: false
 ---

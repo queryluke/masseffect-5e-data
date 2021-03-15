@@ -1,5 +1,4 @@
 ---
 name: Stock Heavy Armor
-features: []
+flavor: A cheap and simple set of heavy armor.
 ---
-A cheap and simple set of heavy armor.

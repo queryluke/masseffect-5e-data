@@ -1,5 +1,4 @@
 ---
 name: Stock Light Armor
-features: []
+flavor: A cheap and simple set of light armor.
 ---
-A cheap and simple set of light armor.

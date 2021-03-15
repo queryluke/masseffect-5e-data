@@ -118,7 +118,7 @@ function transform (item, config, id) {
             tText[rekey(t, config.replaceKeys)] = tItem[t]
         }
         if (config.type === 'json' && config.mdBody) {
-            mdBody = item[config.mdBody]
+            mdBody = tItem[config.mdBody]
         }
     }
     return {
@@ -134,14 +134,16 @@ const models = [
     {
         dir: 'armor',
         type: 'json',
-        mdBody: 'description',
+        mdBody: 'features',
         facts: ['type','armorType','cost','manu','image','notes','andromeda','set'],
-        text: ['name', 'features'],
+        text: ['name', 'description'],
         slug: ['manu'],
         snake: ['type', 'armorType'],
         replaceKeys: [
             { from: 'armorType', to: 'placement' },
             { from: 'manu', to: 'manufacturer' },
+            { from: 'notes', to: 'tags' },
+            { from: 'description', to: 'flavor' },
         ],
         textTransform: (item, id) => {
             if (item.setBonus && item.setBonus.length > 0) {
@@ -168,6 +170,7 @@ const models = [
                     setBonusCache.push(setBonus)
                 }
             }
+            item.features = item.features.map(i => `- ${i}`).join("\n")
             return item
         },
         factTransform: (item, id) => {
@@ -378,6 +381,31 @@ const models = [
                 section: item.section,
                 order: item.order
             })
+            return item
+        }
+    },
+    {
+        dir: 'mods',
+        type: 'md',
+        facts: ['rarity', 'type', 'cost', 'manu', 'tags', 'placement', 'availability'],
+        slug: ['manu'],
+        snake: ['placement', 'type', 'rarity'],
+        text: ['name', 'description'],
+        replaceKeys: [
+            { from: 'description', to: 'flavor'},
+            { from: 'manu', to: 'manufacturer'}
+        ],
+        textTransform(item, id) {
+            guideCache.push({
+                id,
+                section: item.section,
+                order: item.order
+            })
+            return item
+        },
+        factTransform(item, id) {
+            item.tags = item.notes.map(i => _.snakeCase(i))
+            item.availability = item.availability.map(i => _.snakeCase(i))
             return item
         }
     }

@@ -4,7 +4,7 @@ placement: light
 cost: 14450
 manufacturer: hahne-kedar
 image: null
-notes: []
+tags: []
 andromeda: false
 set: false
 ---

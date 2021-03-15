@@ -1,7 +1,7 @@
 ---
 name: Freedom Armor
-features:
-  - +1 AC
+flavor: >-
+  Cerberus designed freedom armor to look and feel like standard clothing while
+  providing protection to their agents.
 ---
-Cerberus designed freedom armor to look and feel like standard clothing while providing protection 
-to their agents.
+- +1 AC
