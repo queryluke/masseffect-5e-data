@@ -408,6 +408,72 @@ const models = [
             item.availability = item.availability.map(i => _.snakeCase(i))
             return item
         }
+    },
+    {
+        dir: 'powers',
+        type: 'md',
+        facts: ['level', 'type', 'effect', 'damageType', 'castingTime'],
+        slug: [],
+        snake: ['castingTime'],
+        text: ['name', 'description'],
+        replaceKeys: [
+            { from: 'effect', to: 'tags'},
+        ],
+        textTransform(item, id) {
+            guideCache.push({
+                id,
+                section: item.section,
+                order: item.order
+            })
+            return item
+        },
+        factTransform(item, id) {
+            let attack = {
+                melee: false,
+                ranged: false
+            }
+            let save = {
+                dex: false,
+                str: false,
+                con: false,
+                int: false,
+                wis: false,
+                cha: false
+            }
+            if (item.attackType !== null) {
+                for (const t of item.attackType) {
+                    if (/melee/i.test(t)) {
+                        attack.melee = true
+                    }
+                    if (/ranged/i.test(t)) {
+                        attack.ranged = true
+                    }
+                    if (/dex/i.test(t)) {
+                        save.dex = true
+                    }
+                    if (/str/i.test(t)) {
+                        save.str = true
+                    }
+                    if (/con/i.test(t)) {
+                        save.con = true
+                    }
+                    if (/wis/i.test(t)) {
+                        save.wis = true
+                    }
+                    if (/int/i.test(t)) {
+                        save.int = true
+                    }
+                    if (/cha/i.test(t)) {
+                        save.cha = true
+                    }
+                }
+            }
+            item.mechanics = {
+                attack: item.attackType !== null ? item.attackType.filter(i => /melee/) : false
+            }
+            item.availability = item.availability.map(i => _.snakeCase(i))
+            return item
+        }
     }
 ]
 

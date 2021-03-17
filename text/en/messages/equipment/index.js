@@ -21,10 +21,7 @@ modules.export = {
             rare: 'Rare',
             very_rare: 'Very Rare',
             spectre: 'Spectre'
-        },
-        tags: {
-            // TODO:...
-        },
+        }
     }
 
 }
