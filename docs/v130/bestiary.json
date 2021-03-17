@@ -64,7 +64,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -159,7 +159,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": {
@@ -263,7 +263,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": {
@@ -350,7 +350,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -411,7 +411,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -531,7 +531,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -627,7 +627,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": {
@@ -720,7 +720,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "sp": {
@@ -803,7 +803,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 12
+        "range": 30
       }
     ],
     "sp": null,
@@ -886,7 +886,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "sp": null,
@@ -974,7 +974,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 8
+        "range": 20
       }
     ],
     "sp": null,
@@ -1049,7 +1049,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -1126,7 +1126,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -1196,7 +1196,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -1288,7 +1288,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -1380,7 +1380,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -1444,7 +1444,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -1502,7 +1502,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -1600,7 +1600,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "powercasting": false,
@@ -1691,7 +1691,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 8
+        "range": 20
       }
     ],
     "powercasting": false,
@@ -1780,7 +1780,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -1863,11 +1863,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "fly",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -1961,11 +1961,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "fly",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -2043,11 +2043,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "fly",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -2135,7 +2135,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": {
@@ -2239,11 +2239,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "fly",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -2336,11 +2336,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "fly",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -2405,7 +2405,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 14
+        "range": 35
       }
     ],
     "powercasting": {
@@ -2490,7 +2490,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -2561,7 +2561,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -2624,7 +2624,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": false,
@@ -2692,7 +2692,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 12
+        "range": 30
       }
     ],
     "powercasting": false,
@@ -2761,7 +2761,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -2845,7 +2845,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -2917,7 +2917,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -2999,7 +2999,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -3079,7 +3079,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -3155,7 +3155,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -3238,7 +3238,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 4
+        "range": 10
       }
     ],
     "powercasting": false,
@@ -3328,7 +3328,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "powercasting": {
@@ -3452,7 +3452,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -3524,7 +3524,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": {
@@ -3664,7 +3664,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -3748,7 +3748,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "powercasting": false,
@@ -3830,7 +3830,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 12
+        "range": 30
       }
     ],
     "powercasting": false,
@@ -3941,7 +3941,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -4049,7 +4049,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": {
@@ -4132,7 +4132,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -4203,7 +4203,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -4269,7 +4269,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -4378,11 +4378,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 20
+        "range": 50
       },
       {
         "type": "fly",
-        "range": 30
+        "range": 75
       }
     ],
     "powercasting": false,
@@ -4469,7 +4469,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 18
+        "range": 45
       }
     ],
     "powercasting": false,
@@ -4537,7 +4537,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -4618,7 +4618,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": false,
@@ -4676,7 +4676,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -4756,7 +4756,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -4840,7 +4840,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 8
+        "range": 20
       }
     ],
     "powercasting": {
@@ -4926,7 +4926,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -5021,7 +5021,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -5110,7 +5110,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -5225,7 +5225,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 12
+        "range": 30
       }
     ],
     "sp": {
@@ -5335,7 +5335,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "sp": {
@@ -5433,7 +5433,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -5512,7 +5512,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 20
+        "range": 50
       }
     ],
     "sp": null,
@@ -5599,7 +5599,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       }
     ],
     "powercasting": false,
@@ -5704,11 +5704,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -5768,11 +5768,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       },
       {
         "type": "climb",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -5861,7 +5861,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": {
@@ -5977,7 +5977,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,
@@ -6062,7 +6062,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -6129,7 +6129,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 12
+        "range": 30
       }
     ],
     "powercasting": false,
@@ -6216,7 +6216,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -6294,7 +6294,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -6380,15 +6380,15 @@
     "speed": [
       {
         "type": "walk",
-        "range": 14
+        "range": 35
       },
       {
         "type": "burrow",
-        "range": 14
+        "range": 35
       },
       {
         "type": "fly",
-        "range": 26
+        "range": 65
       }
     ],
     "powercasting": false,
@@ -6467,7 +6467,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": false,
@@ -6538,7 +6538,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 12
+        "range": 30
       }
     ],
     "powercasting": {
@@ -6612,7 +6612,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -6683,7 +6683,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 8
+        "range": 20
       }
     ],
     "powercasting": false,
@@ -6732,7 +6732,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 8
+        "range": 20
       }
     ],
     "sp": null,
@@ -6796,7 +6796,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -6852,7 +6852,7 @@
     "speed": [
       {
         "type": "fly",
-        "range": 10
+        "range": 25
       }
     ],
     "powercasting": false,
@@ -6999,7 +6999,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -7094,7 +7094,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -7190,7 +7190,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 12
+        "range": 30
       }
     ],
     "powercasting": false,
@@ -7269,7 +7269,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -7341,7 +7341,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -7412,7 +7412,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": null,
@@ -7552,7 +7552,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 10
+        "range": 25
       }
     ],
     "sp": {
@@ -7799,11 +7799,11 @@
     "speed": [
       {
         "type": "walk",
-        "range": 20
+        "range": 50
       },
       {
         "type": "burrow",
-        "range": 12
+        "range": 30
       }
     ],
     "powercasting": false,
@@ -7944,7 +7944,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 20
+        "range": 50
       }
     ],
     "powercasting": false,
@@ -8012,7 +8012,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": false,
@@ -8095,7 +8095,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 8
+        "range": 20
       }
     ],
     "powercasting": false,
@@ -8198,7 +8198,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 16
+        "range": 40
       }
     ],
     "powercasting": false,
@@ -8289,7 +8289,7 @@
     "speed": [
       {
         "type": "walk",
-        "range": 6
+        "range": 15
       }
     ],
     "powercasting": false,

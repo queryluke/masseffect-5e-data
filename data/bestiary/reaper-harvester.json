@@ -77,15 +77,15 @@
   "speed": [
     {
       "type": "walk",
-      "range": 14
+      "range": 35
     },
     {
       "type": "burrow",
-      "range": 14
+      "range": 35
     },
     {
       "type": "fly",
-      "range": 26
+      "range": 65
     }
   ],
   "powercasting": false,
