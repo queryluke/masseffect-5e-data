@@ -1,5 +1,7 @@
 modules.export = {
     powers: {
+        self: 'Self',
+        touch: 'Touch',
         levels: {
             0: 'cantrip',
             1: '1st',
@@ -18,9 +20,6 @@ modules.export = {
             combat: 'Combat'
         },
         attack_types: {
-            // TODO:...
-        },
-        casting_times: {
             // TODO:...
         }
     },

@@ -395,14 +395,6 @@ const models = [
             { from: 'description', to: 'flavor'},
             { from: 'manu', to: 'manufacturer'}
         ],
-        textTransform(item, id) {
-            guideCache.push({
-                id,
-                section: item.section,
-                order: item.order
-            })
-            return item
-        },
         factTransform(item, id) {
             item.tags = item.notes.map(i => _.snakeCase(i))
             item.availability = item.availability.map(i => _.snakeCase(i))
@@ -412,21 +404,14 @@ const models = [
     {
         dir: 'powers',
         type: 'md',
-        facts: ['level', 'type', 'effect', 'damageType', 'castingTime'],
-        slug: [],
-        snake: ['castingTime'],
-        text: ['name', 'description'],
+        facts: ['level', 'type', 'attack', 'save', 'effect', 'damageType', 'castingTimes',
+            'duration', 'instant', 'concentration', 'range', 'aoe', 'detonates', 'primes', 'advancements'],
+        text: ['name', 'description', 'reactionQualifier', 'advancements'],
         replaceKeys: [
             { from: 'effect', to: 'tags'},
+            { from: 'availableClasses', to: 'classes'},
+            { from: 'advancementOptions', to: 'advancements'}
         ],
-        textTransform(item, id) {
-            guideCache.push({
-                id,
-                section: item.section,
-                order: item.order
-            })
-            return item
-        },
         factTransform(item, id) {
             let attack = {
                 melee: false,
@@ -468,10 +453,73 @@ const models = [
                     }
                 }
             }
-            item.mechanics = {
-                attack: item.attackType !== null ? item.attackType.filter(i => /melee/) : false
+            const castingTimes = []
+            if (/bonus/i.test(item.castingTime)) {
+                castingTimes.push('bonus_action')
             }
-            item.availability = item.availability.map(i => _.snakeCase(i))
+            if (/reaction/i.test(item.castingTime)) {
+                castingTimes.push('reaction')
+            }
+            if (item.castingTime === 'Action') {
+                castingTimes.push('action')
+            }
+            if (item.castingTime === 'Attack') {
+                castingTimes.push('attack')
+            }
+            item.attack = attack
+            item.save = save
+            item.castingTimes = castingTimes
+            if (item.duration === 'Instant') {
+                item.instant = true
+                item.duration = false
+            } else {
+                item.instant = false
+                const dirsplit = item.duration.split(' ')
+                item.duration = {
+                    length: parseInt(dirsplit[0]),
+                    time: dirsplit[1]
+                }
+            }
+            item.range = item.distance.range.toString().toLowerCase() === 'self'
+                ? 0
+                : item.distance.range.toString().toLowerCase() === 'touch'
+                    ? 1
+                    : item.distance.range
+            item.aoe = false
+            if (item.distance.aoeType) {
+                item.aoe = {
+                    type: item.distance.aoeType,
+                    size: item.distance.aoeDistance
+                }
+            }
+            item.detonates = item.detonates ? true : false
+            item.primes = item.primes ? item.primes : false
+            item.advancements = false
+            if (item.advancementOptions.length > 0) {
+                item.advancements = {}
+                for (const adv of item.advancementOptions) {
+                    item.advancements[generateId(adv.name)] = {
+                        mechanics: []
+                    }
+                }
+            }
+            return item
+        },
+        textTransform (item, id) {
+            item.reactionQualifier = false
+            if (/reaction/i.test(item.castingTime)) {
+                item.reactionQualifier = item.castingTime.split(',')[1]
+            }
+            item.advancements = false
+            if (item.advancementOptions.length > 0) {
+                item.advancements = {}
+                for (const adv of item.advancementOptions) {
+                    item.advancements[generateId(adv.name)] = {
+                        name: adv.name,
+                        text: adv.description
+                    }
+                }
+            }
             return item
         }
     }
