@@ -522,7 +522,74 @@ const models = [
             }
             return item
         }
-    }
+    },
+    {
+        dir: 'species',
+        type: 'md',
+        facts: ['abilityScoreIncrease', 'speed', 'bodyImg', 'img', 'randomDimensions'],
+        text: ['name', 'alignment', 'size', 'snippet', 'age'],
+        fFlow: 5,
+        factTransform(item, id) {
+            const rdwId = id === 'angara' ? 'angaran' : id === 'hanar' ? 'hanar-length' : id
+            const rdw = JSON.parse(fs.readFileSync(`../data/random-height-weight/${rdwId}.json`, 'utf8'))
+            item.randomDimensions = {
+                height: {
+                    base: {
+                        imperial: (parseInt(rdw.base.split("'")[0]) * 12) + parseInt(rdw.base.split("'")[1].replace('"','')),
+                        metric: parseInt(rdw.baseCm)
+                    },
+                    mod: {
+                        imperial: {
+                            dieCount: parseInt(rdw.heightModifier.split('d')[0]),
+                            dieType: parseInt(rdw.heightModifier.split('d')[1])
+                        },
+                        metric: {
+                            dieCount: parseInt(rdw.heightModifierCm.split('d')[0]),
+                            dieType: parseInt(rdw.heightModifierCm.split('d')[1])
+                        }
+                    }
+                },
+                weight: {
+                    base: {
+                        imperial: parseInt(rdw.baseWeight.split(" ")[0]),
+                        metric: parseInt(rdw.weightKg)
+                    },
+                    mod: {
+                        imperial: {
+                            dieCount: parseInt(rdw.weightModifier.split('d')[0]),
+                            dieType: parseInt(rdw.weightModifier.split('d')[1])
+                        },
+                        metric: {
+                            dieCount: parseInt((rdw.weightModifierKg.split('d')[0] || '').replace('(','')),
+                            dieType: parseInt((rdw.weightModifierKg.split('d')[1] || '').split(' ')[0]),
+                            divisor: parseInt((rdw.weightModifierKg.split('/')[1] || '').replace(')','').trim())
+                        }
+                    }
+                },
+            }
+            if (id === 'hanar') {
+                item.randomDimensions.length = item.randomDimensions.height
+                const hh = JSON.parse(fs.readFileSync(`../data/random-height-weight/hanar-height.json`, 'utf8'))
+                item.randomDimensions.height = {
+                    base: {
+                        imperial: (parseInt(hh.base.split("'")[0]) * 12) + parseInt(rdw.base.split("'")[1].replace('"','')),
+                        metric: parseInt(hh.baseCm)
+                    },
+                    mod: {
+                        imperial: {
+                            dieCount: parseInt(hh.heightModifier.split('d')[0]),
+                            dieType: parseInt(hh.heightModifier.split('d')[1])
+                        },
+                        metric: {
+                            dieCount: parseInt(hh.heightModifierCm.split('d')[0]),
+                            dieType: parseInt(hh.heightModifierCm.split('d')[1])
+                        }
+                    }
+                }
+            }
+            return item
+        }
+    },
 ]
 
 
