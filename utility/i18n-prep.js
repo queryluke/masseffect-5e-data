@@ -607,6 +607,32 @@ const models = [
             return item
         }
     },
+    {
+        dir: 'ship-upgrades',
+        type: 'json',
+        mdBody: 'effect',
+        text: ['name', 'system', 'prerequisite', 'cost']
+    },
+    {
+        dir: 'skills',
+        type: 'json',
+        mdBody: 'description',
+        facts: ['link', 'new'],
+        text: ['name'],
+        replaceKeys: [
+            { from: 'new', to: 'is_new'}
+        ],
+        factTransform (item, id) {
+          item.link = item.link.toLowerCase().substr(0, 3)
+          return item
+        }
+    },
+    {
+        dir: 'species-variants',
+        type: 'md',
+        facts: ['species'],
+        text: ['name']
+    },
 ]
 
 
