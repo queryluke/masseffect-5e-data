@@ -5,6 +5,7 @@ const fm = require('front-matter')
 
 const setBonusCache = []
 const guideCache = []
+const rulesCache = []
 
 function extractBonus(text) {
     const split = text.split(':')
@@ -590,6 +591,22 @@ const models = [
             return item
         }
     },
+    {
+        dir: 'rules',
+        type: 'md',
+        outputDir: 'manual',
+        text: ['title'],
+        textTransform(item, id) {
+            rulesCache.push({
+                id,
+                section: item.section,
+                change: item.change,
+                is_new: item.new,
+                order: item.order
+            })
+            return item
+        }
+    },
 ]
 
 
@@ -615,17 +632,22 @@ function processSetBonuses (setBonuses) {
     }
 }
 
-function processGuides (guides, file) {
+function processGuides (guides, file, rules = false) {
     const sections = []
     const grouped = _.groupBy(guides, 'section')
     for (const e of Object.entries(grouped)) {
         const section = {
             title: _.snakeCase(e[0]),
             sections: e[1].sort((a, b) => a.order > b.order ? 1 : -1).map(i => {
-                return {
+                const r = {
                     id: i.id,
                     sections: []
                 }
+                if (rules) {
+                    r.is_change = i.change || false
+                    r.is_new = i.is_new || false
+                }
+                return r
             })
         }
         sections.push(section)
@@ -639,3 +661,4 @@ for (const m of models) {
 }
 processSetBonuses(setBonusCache)
 processGuides(guideCache, 'guides')
+processGuides(rulesCache, 'manual', true)
