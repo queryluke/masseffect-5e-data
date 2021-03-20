@@ -633,6 +633,15 @@ const models = [
         facts: ['species'],
         text: ['name']
     },
+    {
+        dir: 'subclasses',
+        type: 'md',
+        facts: ['class'],
+        text: ['name'],
+        replaceKeys: [
+            { from: 'class', to: 'klass' }
+        ]
+    },
 ]
 
 
