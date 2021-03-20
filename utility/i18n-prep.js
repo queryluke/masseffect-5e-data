@@ -619,11 +619,9 @@ const models = [
         mdBody: 'description',
         facts: ['link', 'new'],
         text: ['name'],
-        replaceKeys: [
-            { from: 'new', to: 'is_new'}
-        ],
         factTransform (item, id) {
           item.link = item.link.toLowerCase().substr(0, 3)
+          item.is_new = item.new || false
           return item
         }
     },
@@ -641,6 +639,83 @@ const models = [
         replaceKeys: [
             { from: 'class', to: 'klass' }
         ]
+    },
+    {
+        dir: 'tool-profs',
+        type: 'md',
+        facts: ['type'],
+        text: ['name'],
+        factTransform(item, it) {
+            item.type = item.type || false
+            return item
+        }
+    },
+    {
+        dir: 'traits',
+        type: 'md',
+        facts: ['species', 'mechanics'],
+        text: ['name'],
+        factTransform(item, id) {
+            item.mechanics = item.mechanics || []
+            return item
+        }
+    },
+    {
+        dir: 'vehicles',
+        type: 'md',
+        facts: ['type', 'subtype', 'size', 'ac', 'hp', 'sp', 'speed', 'range', 'crew', 'cargo', 'systems', 'weapons', 'cr', 'cost', 'image', 'createdBy'],
+        text: ['name'],
+        factTransform(item, id) {
+            item.type = item.vehicle.type
+            item.subtype = item.vehicle.subtype || false
+            const rd = item.range.split(' ')
+            if (rd[1]) {
+                item.range = {
+                    distance: parseInt(rd[0]),
+                    units: 'ftlu'
+                }
+            } else {
+                item.range = {
+                    distance: parseInt(item.range.replace('km','')),
+                    units: 'km'
+                }
+            }
+            return item
+        }
+    },
+    {
+        dir: 'weapon-properties',
+        type: 'json',
+        mdBody: 'description',
+        facts: ['link', 'is_new'],
+        text: ['name'],
+        factTransform(item, id) {
+            item.is_new = item.new || false
+            return item
+        }
+    },
+    {
+        dir: 'weapons',
+        type: 'json',
+        mdBody: 'notes',
+        facts: ['rarity', 'type', 'cost', 'manufacturer', 'weight', 'heat', 'damage', 'range', 'image', 'andromeda', 'properties'],
+        snake: ['rarity', 'type', 'npcHit', 'npcMiss'],
+        slug: ['manufacturer'],
+        text: ['name'],
+        factTransform(item, id) {
+            const dmg = {
+                dieCount: item.damage.split('d')[0],
+                dieType: item.damage.split('d')[1],
+                type: item.dmgType
+            }
+            item.damage = dmg
+            item.properties = item.properties.map(i => _.kebabCase(i))
+            return item
+        },
+        textTransform(item, id) {
+            item.notes = item.notes || ''
+            return item
+        }
     },
 ]
 

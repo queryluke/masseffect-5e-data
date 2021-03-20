@@ -36,5 +36,11 @@ modules.export = {
     sizes,
     speeds,
     starting_credits: 'Starting Credits',
-    tags
+    tags,
+    tool_profs: {
+        types: {
+            artisan: 'Artisan',
+            starship: 'Starship'
+        }
+    }
 }

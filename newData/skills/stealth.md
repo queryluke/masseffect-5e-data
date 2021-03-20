@@ -1,4 +1,4 @@
 ---
 link: dex
-is_new: null
+new: null
 ---

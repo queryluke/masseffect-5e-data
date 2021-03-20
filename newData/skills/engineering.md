@@ -1,4 +1,4 @@
 ---
 link: int
-is_new: x
+new: x
 ---

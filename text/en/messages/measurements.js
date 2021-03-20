@@ -16,6 +16,10 @@ modules.export = {
         kg: {
             full: 'kilograms | kilogram | {n} kilograms',
             abbr: 'kgs | kg | {n} kgs'
+        },
+        ftlu: {
+            full: 'faster than light units',
+            abbr: 'ftlu'
         }
     },
 }

@@ -1,4 +1,4 @@
 ---
 link: wis
-is_new: null
+new: null
 ---

@@ -1,4 +1,4 @@
 ---
 link: str
-is_new: null
+new: null
 ---
