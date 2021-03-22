@@ -770,5 +770,5 @@ for (const m of models) {
     processModel(m)
 }
 processSetBonuses(setBonusCache)
-processGuides(guideCache, 'guides')
-processGuides(rulesCache, 'manual', true)
+processGuides(guideCache, 'guides-index')
+processGuides(rulesCache, 'manual-index', true)

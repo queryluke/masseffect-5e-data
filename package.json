@@ -20,9 +20,8 @@
     "lodash": "^4.17.20",
     "markdown-it": "^11.0.0",
     "markdown-it-container": "^3.0.0",
-    "yaml": "^1.10.0"
-  },
-  "dependencies": {
+    "yaml": "^1.10.0",
+    "fs-extra": "^9.1.0",
     "js-yaml": "^4.0.0",
     "markdown-it-multimd-table": "^4.0.3"
   }

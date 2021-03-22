@@ -1,4 +1,5 @@
 const fs = require('fs')
+const fse = require('fs-extra')
 const fm = require('front-matter')
 const _ = require('lodash')
 const config = require('./package.json')
@@ -62,8 +63,8 @@ md.renderer.rules.link_close = function(tokens, idx) {
 }
 
 const ignore = []
-const staticData = ['about.json']
-const staticText = ['messages.js']
+const staticData = ['about.json', 'stats-by-cr.json']
+const staticMdData = ['guides-index.md', 'manual-index.md']
 const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
 
 if (!fs.existsSync(versionDir)) {
@@ -71,32 +72,37 @@ if (!fs.existsSync(versionDir)) {
 }
 
 const textPath = `./text`
-const dataPath = `./data`
+const dataPath = `./newData`
 
 const langs = fs.readdirSync(textPath)
 const dataDirs = fs.readdirSync(dataPath)
 
 for (const lang of langs) {
   const targetPath = `${versionDir}/${lang}`
+
   // create the target if it doesn't exist
   if (!fs.existsSync(targetPath)) {
     fs.mkdirSync(targetPath);
   }
+
   // copy any staticData
   for (const f of staticData) {
     fs.copyFile( `${dataPath}/${f}`, `${targetPath}/${f}`, (err) => {
       if (err) throw err;
     });
   }
-  const textSourcePath = `${textPath}/${lang}`
-  // copy any staticText
-  for (const f of staticText) {
-    fs.copyFile( `${textSourcePath}/${f}`, `${targetPath}/${f}`, (err) => {
-      if (err) throw err;
-    });
+
+  // copy and convert any static md files
+  for (const f of staticMdData) {
+    const fc = fm(fs.readFileSync(f, 'utf8'))
+    let item = fc.attributes
+    fs.writeFileSync(`${targetPath}/${f.replace('.md', '.json')}`, JSON.stringify(item, null, 2))
   }
 
+  const textSourcePath = `${textPath}/${lang}`
+
   const processedModels = []
+
   // process data dirs
   for (const dir of dataDirs) {
     if (ignore.includes(dir) || staticData.includes(dir)) {
@@ -107,11 +113,25 @@ for (const lang of langs) {
     const modelTargetFile = `${targetPath}/${dir}.json`
     const modelFns = fs.readdirSync(modelDataPath)
     const items = modelFns.map(file => {
-      return combineItem(file,`${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
+      const item = combineItem(file,`${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
+      if (dir === 'changelog') {
+        item.date = new Date(item.date)
+        item.url = `/changelog/${item.slug}`
+      }
+      return item
     })
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
     processedModels.push(dir)
   }
+
+  ignore.push('messages')
+
+  // To copy the messages dir
+  fse.copySync(`${textSourcePath}/messages`, `${targetPath}/messages`, function (err) {
+    if (err) {
+      console.error(err)
+    }
+  })
 
   // process text dirs
   const textDirs = fs.readdirSync(textSourcePath)
@@ -123,12 +143,7 @@ for (const lang of langs) {
     const modelTargetFile = `${targetPath}/${dir}.json`
     const modelFns = fs.readdirSync(modelDataPath)
     const items = modelFns.map(file => {
-      const item = combineItem(file, `${modelTextPath}/${file}`)
-      if (dir === 'changelog') {
-        item.date = new Date(item.date)
-        item.url = `/changelog/${item.slug}`
-      }
-      return item
+      return  combineItem(file, `${modelTextPath}/${file}`)
     })
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
   }
@@ -141,7 +156,15 @@ function combineItem(id, file1, file2 = null) {
   if (file2) {
     if (fs.existsSync(file2)) {
       const tFc = fm(fs.readFileSync(file2, 'utf8'))
-      item = {...item, ...tFc.attributes}
+      for (const k in tFc) {
+        if (tFc.hasOwnProperty(k)) {
+          if (item.hasOwnProperty(k)) {
+            item[k] = {...item[k], ...tFc[k]}
+          } else {
+            item[k] = tFc[k]
+          }
+        }
+      }
       body = tFc.body
     }
   }
