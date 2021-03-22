@@ -1,0 +1,5 @@
+modules.export = {
+    powercasting: {
+        // TODO:...
+    }
+}

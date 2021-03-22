@@ -5,7 +5,7 @@
     "cost": 62050,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/70/MEA_Andromeda_Elite_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180505205348",
-    "notes": [
+    "tags": [
       "ac",
       "shields",
       "shield_regen"
@@ -13,11 +13,8 @@
     "andromeda": false,
     "set": false,
     "name": "Andromeda Elite Helmet",
-    "features": [
-      "+2 AC.",
-      "+5 Shields and +5 Shield Regen"
-    ],
-    "html": "<p>This special-issue Andromeda Initiative helmet is custom designed for explorers who excel in the Initiative training programs taken on prior to departing for Andromeda. Its Pathfinder-grade construction is strong enough to protect the wearer from the dangers of unexplored space while remaining light enough to allow full mobility.</p>\n",
+    "flavor": "This special-issue Andromeda Initiative helmet is custom designed for explorers who excel in the Initiative training programs taken on prior to departing for Andromeda. Its Pathfinder-grade construction is strong enough to protect the wearer from the dangers of unexplored space while remaining light enough to allow full mobility.",
+    "html": "<ul>\n<li>+2 AC.</li>\n<li>+5 Shields and +5 Shield Regen</li>\n</ul>\n",
     "id": "andromeda-elite-helmet"
   },
   {
@@ -26,17 +23,15 @@
     "cost": 17300,
     "manufacturer": "taravay-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/20/MEA_Angaran_Ranger_Arms.png/revision/latest/scale-to-width-down/350?cb=20180509000906",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "angaran",
     "name": "Angaran Arms",
-    "features": [
-      "+5 shields"
-    ],
-    "html": "<p>This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.</p>\n",
+    "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "html": "<ul>\n<li>+5 shields</li>\n</ul>\n",
     "id": "angaran-arms"
   },
   {
@@ -45,7 +40,7 @@
     "cost": 53000,
     "manufacturer": "taravay-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/c/c2/MEA_Angaran_Ranger_Chest.png/revision/latest/scale-to-width-down/350?cb=20180508231232",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "set_bonus"
@@ -53,10 +48,8 @@
     "andromeda": true,
     "set": "angaran",
     "name": "Angaran Chestpiece",
-    "features": [
-      "15 shields (regen 15)"
-    ],
-    "html": "<p>This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.</p>\n",
+    "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "html": "<ul>\n<li>15 shields (regen 15)</li>\n</ul>\n",
     "id": "angaran-chestpiece"
   },
   {
@@ -65,17 +58,15 @@
     "cost": 19000,
     "manufacturer": "taravay-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/8c/MEA_Angaran_Ranger_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180509000819",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "angaran",
     "name": "Angaran Helmet",
-    "features": [
-      "+5 shields"
-    ],
-    "html": "<p>This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.</p>\n",
+    "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "html": "<ul>\n<li>+5 shields</li>\n</ul>\n",
     "id": "angaran-helmet"
   },
   {
@@ -84,17 +75,15 @@
     "cost": 17300,
     "manufacturer": "taravay-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2b/MEA_Angaran_Ranger_Legs.png/revision/latest/scale-to-width-down/350?cb=20180509000700",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "angaran",
     "name": "Angaran Legs",
-    "features": [
-      "+5 shields"
-    ],
-    "html": "<p>This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.</p>\n",
+    "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "html": "<ul>\n<li>+5 shields</li>\n</ul>\n",
     "id": "angaran-legs"
   },
   {
@@ -103,16 +92,14 @@
     "cost": 29750,
     "manufacturer": "devlon-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/22/ME3_capacitor_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312191432",
-    "notes": [
+    "tags": [
       "power_regen"
     ],
     "andromeda": false,
     "set": false,
     "name": "Archon Visor",
-    "features": [
-      "As an action, gain 1d4 worth of power slots or tech points. You can’t use this property again until you finish a long rest."
-    ],
-    "html": "<p>The Archon visor uses an efficient algorithm to balance processing power for omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cool-down period between energy expenditures.</p>\n",
+    "flavor": "The Archon visor uses an efficient algorithm to balance processing power for omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cool-down period between energy expenditures.",
+    "html": "<ul>\n<li>As an action, gain 1d4 worth of power slots or tech points. You can’t use this property again\nuntil you finish a long rest.</li>\n</ul>\n",
     "id": "archon-visor"
   },
   {
@@ -121,16 +108,14 @@
     "cost": 42500,
     "manufacturer": "serrice-council",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/51/Light-human-Phoenix.png/revision/latest/scale-to-width-down/160?cb=20100209134257",
-    "notes": [
+    "tags": [
       "extra_damage"
     ],
     "andromeda": false,
     "set": false,
     "name": "Asari Initiate Armor",
-    "features": [
-      "While wearing this armor, your cantrips are considered to be 1 step higher in their progression. For example, a 1st level player casts a cantrip as if they were at the 5th level. 5th -> 11th. 11th -> 17th. There is no additional effect at the 17th level."
-    ],
-    "html": "<p>Standard issue armor for all Asari infantry. Build-in biotic amps provide a minor boost to biotic powers.</p>\n",
+    "flavor": "Standard issue armor for all Asari infantry. Build-in biotic amps provide a minor boost to biotic powers.",
+    "html": "<ul>\n<li>While wearing this armor, your cantrips are considered to be 1 step higher in their progression.\nFor example, a 1st level player casts a cantrip as if they were at the 5th level. 5th -&gt; 11th. 11th\n-&gt; 17th. There is no additional effect at the 17th level.</li>\n</ul>\n",
     "id": "asari-initiate-armor"
   },
   {
@@ -139,16 +124,14 @@
     "cost": 52700,
     "manufacturer": "elkoss-combine",
     "image": null,
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Assassin Armor",
-    "features": [
-      "As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. You may use this feature once per short rest."
-    ],
-    "html": "<p>Elkoss Combine was commissioned by the Salarian Tactics Group to make a set of armor that would allow their agents to remain unseen and unheard.</p>\n",
+    "flavor": "Elkoss Combine was commissioned by the Salarian Tactics Group to make a set of armor that would allow their agents to remain unseen and unheard.",
+    "html": "<ul>\n<li>As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or\nuntil you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. You may use\nthis feature once per short rest.</li>\n</ul>\n",
     "id": "assassin-armor"
   },
   {
@@ -157,17 +140,15 @@
     "cost": 21100,
     "manufacturer": "batarian-state-arms",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/c/c0/ME3_ariake_technologies_arms.png/revision/latest/scale-to-width-down/130?cb=20120311003730",
-    "notes": [
+    "tags": [
       "extra_damage",
       "ability_skill_bonus"
     ],
     "andromeda": false,
     "set": false,
     "name": "Batarian Talon Gauntlets",
-    "features": [
-      "Add 1 point of Slashing damage to all melee damage rolls. Advantage on Intimidation skill checks."
-    ],
-    "html": "<p>A set of spiked, clawed gauntlets that give the appearance of their wearer possessing demonic hands.</p>\n",
+    "flavor": "A set of spiked, clawed gauntlets that give the appearance of their wearer possessing demonic hands.",
+    "html": "<ul>\n<li>Add 1 point of Slashing damage to all melee damage rolls. Advantage on Intimidation skill\nchecks.</li>\n</ul>\n",
     "id": "batarian-talon-gauntlets"
   },
   {
@@ -176,17 +157,15 @@
     "cost": 42250,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9c/ME3_Blood_Dragon_Armor.png/revision/latest?cb=20120314192826",
-    "notes": [
+    "tags": [
       "power_regen",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "blood-dragon",
     "name": "Blood Dragon Armet",
-    "features": [
-      "You regain 1d4 worth of power slots or tech points when you take a short rest."
-    ],
-    "html": "<p>Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.</p>\n",
+    "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
+    "html": "<ul>\n<li>You regain 1d4 worth of power slots or tech points when you take a short rest.</li>\n</ul>\n",
     "id": "blood-dragon-armet"
   },
   {
@@ -195,7 +174,7 @@
     "cost": 70300,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9c/ME3_Blood_Dragon_Armor.png/revision/latest?cb=20120314192826",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "set_bonus"
@@ -203,10 +182,8 @@
     "andromeda": false,
     "set": "blood-dragon",
     "name": "Blood Dragon Curiass",
-    "features": [
-      "20 shields (regen 10)."
-    ],
-    "html": "<p>Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance. The chest and shoulder piece bears the logo of the Edmonton Blood Dragons, and the inside of the armor bears the signatures of the entire team.</p>\n",
+    "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance. The chest and shoulder piece bears the logo of the Edmonton Blood Dragons, and the inside of the armor bears the signatures of the entire team.",
+    "html": "<ul>\n<li>20 shields (regen 10).</li>\n</ul>\n",
     "id": "blood-dragon-curiass"
   },
   {
@@ -215,17 +192,15 @@
     "cost": 32050,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9c/ME3_Blood_Dragon_Armor.png/revision/latest?cb=20120314192826",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "blood-dragon",
     "name": "Blood Dragon Greaves",
-    "features": [
-      "+1 bonus to power attack rolls and power saving throw DCs."
-    ],
-    "html": "<p>Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.</p>\n",
+    "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
+    "html": "<ul>\n<li>+1 bonus to power attack rolls and power saving throw DCs.</li>\n</ul>\n",
     "id": "blood-dragon-greaves"
   },
   {
@@ -234,17 +209,15 @@
     "cost": 32050,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9c/ME3_Blood_Dragon_Armor.png/revision/latest?cb=20120314192826",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "blood-dragon",
     "name": "Blood Dragon Vambraces",
-    "features": [
-      "+1 bonus to power attack rolls and power saving throw DCs."
-    ],
-    "html": "<p>Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.</p>\n",
+    "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
+    "html": "<ul>\n<li>+1 bonus to power attack rolls and power saving throw DCs.</li>\n</ul>\n",
     "id": "blood-dragon-vambraces"
   },
   {
@@ -253,16 +226,14 @@
     "cost": 73950,
     "manufacturer": "rosenkov-materials",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0d/Light-human-Titan.png/revision/latest/scale-to-width-down/160?cb=20100209143517",
-    "notes": [
+    "tags": [
       "power_regen"
     ],
     "andromeda": false,
     "set": false,
     "name": "BT Suit",
-    "features": [
-      "You can regain 2d4 tech points every short rest."
-    ],
-    "html": "<p>Equipped with a full battle telemetry system to increase Omni-tool power efficiency.</p>\n",
+    "flavor": "Equipped with a full battle telemetry system to increase Omni-tool power efficiency.",
+    "html": "<ul>\n<li>You can regain 2d4 tech points every short rest.</li>\n</ul>\n",
     "id": "bt-suit"
   },
   {
@@ -271,17 +242,15 @@
     "cost": 34000,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/22/ME3_capacitor_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312191432",
-    "notes": [
+    "tags": [
       "ac",
       "shield_jumpstart"
     ],
     "andromeda": false,
     "set": false,
     "name": "Capacitor Helmet",
-    "features": [
-      "+1 AC. Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount."
-    ],
-    "html": "<p>A recent design, this Alliance-made helmet stores micro capacitors in its structure to replenish spent kinetic barriers. The transpari-plast armor panel on its top can be removed to access capacitors for field maintenance.</p>\n",
+    "flavor": "A recent design, this Alliance-made helmet stores micro capacitors in its structure to replenish spent kinetic barriers. The transpari-plast armor panel on its top can be removed to access capacitors for field maintenance.",
+    "html": "<ul>\n<li>+1 AC. Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen\nand immediately gain shield points equal to your regen amount.</li>\n</ul>\n",
     "id": "capacitor-helmet"
   },
   {
@@ -290,17 +259,15 @@
     "cost": 12175,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Cerberus_Ajax_Armor.png/revision/latest?cb=20121123062420",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-ajax",
     "name": "Cerberus Ajax Gauntlets",
-    "features": [
-      "Increase thermal clip capacity by 8."
-    ],
-    "html": "<p>Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.</p>\n",
+    "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "html": "<ul>\n<li>Increase thermal clip capacity by 8.</li>\n</ul>\n",
     "id": "cerberus-ajax-gauntlets"
   },
   {
@@ -309,17 +276,15 @@
     "cost": 16425,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Cerberus_Ajax_Armor.png/revision/latest?cb=20121123062420",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-ajax",
     "name": "Cerberus Ajax Greaves",
-    "features": [
-      "Increase your grenade capacity by 4."
-    ],
-    "html": "<p>Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.</p>\n",
+    "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "html": "<ul>\n<li>Increase your grenade capacity by 4.</li>\n</ul>\n",
     "id": "cerberus-ajax-greaves"
   },
   {
@@ -328,17 +293,15 @@
     "cost": 28750,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Cerberus_Ajax_Armor.png/revision/latest?cb=20121123062420",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-ajax",
     "name": "Cerberus Ajax Helmet",
-    "features": [
-      "+1 AC"
-    ],
-    "html": "<p>Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.</p>\n",
+    "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "html": "<ul>\n<li>+1 AC</li>\n</ul>\n",
     "id": "cerberus-ajax-helmet"
   },
   {
@@ -347,17 +310,15 @@
     "cost": 58500,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Cerberus_Ajax_Armor.png/revision/latest?cb=20121123062420",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-ajax",
     "name": "Cerberus Ajax Vest",
-    "features": [
-      "20 shields."
-    ],
-    "html": "<p>Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.</p>\n",
+    "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "html": "<ul>\n<li>20 shields.</li>\n</ul>\n",
     "id": "cerberus-ajax-vest"
   },
   {
@@ -366,7 +327,7 @@
     "cost": 127375,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/35/ME3_Cerberus_Assault_Armor.png/revision/latest?cb=20120314164810",
-    "notes": [
+    "tags": [
       "shields",
       "ac",
       "item_capacity",
@@ -375,12 +336,8 @@
     "andromeda": false,
     "set": "cerberus-assault",
     "name": "Cerberus Assault Armor",
-    "features": [
-      "30 Shields.",
-      "+1 AC.",
-      "Increase thermal clip capacity by 8."
-    ],
-    "html": "<p>Cerberus assault armor is designed for shock troops, who are expected to turn the tide of battle against creatures or forces that would decimate normal soldiers. The troops demanded three things in its design: shields and armor thick enough to last against a superior foe, and compartments for extra thermal clips. The only drawback of the armor is its weight, which the troops carry as a point of pride. They have a saying: &quot;Out of shape going in, in shape coming out.&quot;</p>\n",
+    "flavor": "Cerberus assault armor is designed for shock troops, who are expected to turn the tide of battle against creatures or forces that would decimate normal soldiers. The troops demanded three things in its design: shields and armor thick enough to last against a superior foe, and compartments for extra thermal clips. The only drawback of the armor is its weight, which the troops carry as a point of pride. They have a saying: \"Out of shape going in, in shape coming out.\"",
+    "html": "<ul>\n<li>30 Shields.</li>\n<li>+1 AC.</li>\n<li>Increase thermal clip capacity by 8.</li>\n</ul>\n",
     "id": "cerberus-assault-armor"
   },
   {
@@ -389,7 +346,7 @@
     "cost": 48750,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/35/ME3_Cerberus_Assault_Armor.png/revision/latest?cb=20120314164810",
-    "notes": [
+    "tags": [
       "ac",
       "shield_regen",
       "set_bonus"
@@ -397,11 +354,8 @@
     "andromeda": false,
     "set": "cerberus-assault",
     "name": "Cerberus Assault Helmet",
-    "features": [
-      "Shield Regen 15.",
-      "+1 AC."
-    ],
-    "html": "<p>Cerberus assault armor is designed for shock troops, who are expected to turn the tide of battle against creatures or forces that would decimate normal soldiers. The troops demanded three things in its design: shields and armor thick enough to last against a superior foe, and compartments for extra thermal clips. The only drawback of the armor is its weight, which the troops carry as a point of pride. They have a saying: &quot;Out of shape going in, in shape coming out.&quot;</p>\n",
+    "flavor": "Cerberus assault armor is designed for shock troops, who are expected to turn the tide of battle against creatures or forces that would decimate normal soldiers. The troops demanded three things in its design: shields and armor thick enough to last against a superior foe, and compartments for extra thermal clips. The only drawback of the armor is its weight, which the troops carry as a point of pride. They have a saying: \"Out of shape going in, in shape coming out.\"",
+    "html": "<ul>\n<li>Shield Regen 15.</li>\n<li>+1 AC.</li>\n</ul>\n",
     "id": "cerberus-assault-helmet"
   },
   {
@@ -410,17 +364,15 @@
     "cost": 21950,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest?cb=20160619125819",
-    "notes": [
+    "tags": [
       "movement",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-nightmare",
     "name": "Cerberus Nightmare Boots",
-    "features": [
-      "Walking speed increased by <me-distance length='15' />."
-    ],
-    "html": "<p>Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.</p>\n",
+    "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "html": "<ul>\n<li>Walking speed increased by <me-distance length='15' />.</li>\n</ul>\n",
     "id": "cerberus-nightmare-boots"
   },
   {
@@ -429,7 +381,7 @@
     "cost": 64875,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest?cb=20160619125819",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "item_capacity",
@@ -438,11 +390,8 @@
     "andromeda": false,
     "set": "cerberus-nightmare",
     "name": "Cerberus Nightmare Chestpiece",
-    "features": [
-      "10 shields (regen 10).",
-      "Increase your thermal clip capacity by 4."
-    ],
-    "html": "<p>Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.</p>\n",
+    "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "html": "<ul>\n<li>10 shields (regen 10).</li>\n<li>Increase your thermal clip capacity by 4.</li>\n</ul>\n",
     "id": "cerberus-nightmare-chestpiece"
   },
   {
@@ -451,17 +400,15 @@
     "cost": 43200,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest?cb=20160619125819",
-    "notes": [
+    "tags": [
       "special",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-nightmare",
     "name": "Cerberus Nightmare Gloves",
-    "features": [
-      "Equipped weapons have increased heat equal to twice the weapon's base heat."
-    ],
-    "html": "<p>Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.</p>\n",
+    "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "html": "<ul>\n<li>Equipped weapons have increased heat equal to twice the weapon's base heat.</li>\n</ul>\n",
     "id": "cerberus-nightmare-gloves"
   },
   {
@@ -470,17 +417,15 @@
     "cost": 21950,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest?cb=20160619125819",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-nightmare",
     "name": "Cerberus Nightmare Helmet",
-    "features": [
-      "+1 bonus to melee weapon attack and damage rolls."
-    ],
-    "html": "<p>Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.</p>\n",
+    "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "html": "<ul>\n<li>+1 bonus to melee weapon attack and damage rolls.</li>\n</ul>\n",
     "id": "cerberus-nightmare-helmet"
   },
   {
@@ -489,7 +434,7 @@
     "cost": 20250,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "extra_damage",
       "set_bonus"
@@ -497,10 +442,8 @@
     "andromeda": false,
     "set": "cerberus-shade",
     "name": "Cerberus Shade Armguards",
-    "features": [
-      "+1 bonus to melee weapon attack and damage rolls"
-    ],
-    "html": "<p>Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.</p>\n",
+    "flavor": "Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.",
+    "html": "<ul>\n<li>+1 bonus to melee weapon attack and damage rolls</li>\n</ul>\n",
     "id": "cerberus-shade-armguards"
   },
   {
@@ -509,7 +452,7 @@
     "cost": 31300,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "set_bonus"
@@ -517,10 +460,8 @@
     "andromeda": false,
     "set": "cerberus-shade",
     "name": "Cerberus Shade Chestpiece",
-    "features": [
-      "10 shields (regen 10)."
-    ],
-    "html": "<p>Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.</p>\n",
+    "flavor": "Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.",
+    "html": "<ul>\n<li>10 shields (regen 10).</li>\n</ul>\n",
     "id": "cerberus-shade-chestpiece"
   },
   {
@@ -529,7 +470,7 @@
     "cost": 21950,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "extra_damage",
       "set_bonus"
@@ -537,10 +478,8 @@
     "andromeda": false,
     "set": "cerberus-shade",
     "name": "Cerberus Shade Helmet",
-    "features": [
-      "+1 bonus to power attack and damage rolls"
-    ],
-    "html": "<p>Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.</p>\n",
+    "flavor": "Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.",
+    "html": "<ul>\n<li>+1 bonus to power attack and damage rolls</li>\n</ul>\n",
     "id": "cerberus-shade-helmet"
   },
   {
@@ -549,18 +488,15 @@
     "cost": 13450,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/67/Cerberus_shade.jpg/revision/latest/scale-to-width-down/700?cb=20130308134524",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-shade",
     "name": "Cerberus Shade Legguards",
-    "features": [
-      "Increase thermal clip capacity by 4.",
-      "Increase grenade capacity by 2"
-    ],
-    "html": "<p>Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.</p>\n",
+    "flavor": "Cerberus Shade armor is worn by Phantoms who need to be prepared for a wide variety of threats. Its capacitors give modest boosts to shields and shield regeneration time. Many small improvements increase the performance of biotic amps and omni-tools, heat management and kinetic coils for ranged weapons, and synthetic muscle assistors for melee capability.",
+    "html": "<ul>\n<li>Increase thermal clip capacity by 4.</li>\n<li>Increase grenade capacity by 2</li>\n</ul>\n",
     "id": "cerberus-shade-legguards"
   },
   {
@@ -569,17 +505,15 @@
     "cost": 28050,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest/scale-to-width-down/350?cb=20160619125819",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-spirit",
     "name": "Cerberus Spirit Armor",
-    "features": [
-      "15 shields (regen 5)."
-    ],
-    "html": "<p>Spirit armor is worn by Cerberus Phantoms fortunate enough to be biotic or for those who are skilled enough to use highly technical attacks. The armor has small gains for shield strength and regeneration, but where it truly shines is in its capacity to amplify biotic amps and omni-tools. These attacks hit significantly harder and more often, allowing the Phantom to dismantle heavily-armored targets.</p>\n",
+    "flavor": "Spirit armor is worn by Cerberus Phantoms fortunate enough to be biotic or for those who are skilled enough to use highly technical attacks. The armor has small gains for shield strength and regeneration, but where it truly shines is in its capacity to amplify biotic amps and omni-tools. These attacks hit significantly harder and more often, allowing the Phantom to dismantle heavily-armored targets.",
+    "html": "<ul>\n<li>15 shields (regen 5).</li>\n</ul>\n",
     "id": "cerberus-spirit-armor"
   },
   {
@@ -588,17 +522,15 @@
     "cost": 38250,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5d/Cerberus_Shade_Female.png/revision/latest/scale-to-width-down/350?cb=20160619125819",
-    "notes": [
+    "tags": [
       "extra_damage",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "cerberus-spirit",
     "name": "Cerberus Spirit Helmet",
-    "features": [
-      "When you roll a 1 or a 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
-    ],
-    "html": "<p>Spirit armor is worn by Cerberus Phantoms fortunate enough to be biotic or for those who are skilled enough to use highly technical attacks. The armor has small gains for shield strength and regeneration, but where it truly shines is in its capacity to amplify biotic amps and omni-tools. These attacks hit significantly harder and more often, allowing the Phantom to dismantle heavily-armored targets.</p>\n",
+    "flavor": "Spirit armor is worn by Cerberus Phantoms fortunate enough to be biotic or for those who are skilled enough to use highly technical attacks. The armor has small gains for shield strength and regeneration, but where it truly shines is in its capacity to amplify biotic amps and omni-tools. These attacks hit significantly harder and more often, allowing the Phantom to dismantle heavily-armored targets.",
+    "html": "<ul>\n<li>When you roll a 1 or a 2 on a damage die for an attack you make with a biotic or tech power, you\ncan reroll the die and must use the new roll, even if the new roll is a 1.</li>\n</ul>\n",
     "id": "cerberus-spirit-helmet"
   },
   {
@@ -607,7 +539,7 @@
     "cost": 44750,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/ME3_Collector_Armor.png/revision/latest/scale-to-width-down/350?cb=20120314183021",
-    "notes": [
+    "tags": [
       "ac",
       "movement",
       "set_bonus"
@@ -615,11 +547,8 @@
     "andromeda": false,
     "set": "collector",
     "name": "Collector Carapace",
-    "features": [
-      "+1 AC.",
-      "Increase walking speed by <me-distance length='10' />."
-    ],
-    "html": "<p>The Collectors' chitinous armor is flexible and even tougher than ballistic fibers. Its organic construction allows it to be self-healing, and the muscle-like tissue that assists movement ensures it is comfortable to wear despite its weight. This suit was originally adapted out of salvaged Collector technology by Cerberus and is incredibly difficult to find on the galactic market.</p>\n",
+    "flavor": "The Collectors' chitinous armor is flexible and even tougher than ballistic fibers. Its organic construction allows it to be self-healing, and the muscle-like tissue that assists movement ensures it is comfortable to wear despite its weight. This suit was originally adapted out of salvaged Collector technology by Cerberus and is incredibly difficult to find on the galactic market.",
+    "html": "<ul>\n<li>+1 AC.</li>\n<li>Increase walking speed by <me-distance length='10' />.</li>\n</ul>\n",
     "id": "collector-carapace"
   },
   {
@@ -628,7 +557,7 @@
     "cost": 27325,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/ME3_Collector_Armor.png/revision/latest/scale-to-width-down/350?cb=20120314183021",
-    "notes": [
+    "tags": [
       "ac",
       "vision",
       "set_bonus"
@@ -636,11 +565,8 @@
     "andromeda": false,
     "set": "collector",
     "name": "Collector Headpiece",
-    "features": [
-      "+1 AC.",
-      "Darkvision: <me-distance length='50' />"
-    ],
-    "html": "<p>The Collectors' chitinous armor is flexible and even tougher than ballistic fibers. Its organic construction allows it to be self-healing, and the muscle-like tissue that assists movement ensures it is comfortable to wear despite its weight. This suit was originally adapted out of salvaged Collector technology by Cerberus and is incredibly difficult to find on the galactic market.</p>\n",
+    "flavor": "The Collectors' chitinous armor is flexible and even tougher than ballistic fibers. Its organic construction allows it to be self-healing, and the muscle-like tissue that assists movement ensures it is comfortable to wear despite its weight. This suit was originally adapted out of salvaged Collector technology by Cerberus and is incredibly difficult to find on the galactic market.",
+    "html": "<ul>\n<li>+1 AC.</li>\n<li>Darkvision: <me-distance length='50' /></li>\n</ul>\n",
     "id": "collector-headpiece"
   },
   {
@@ -649,7 +575,7 @@
     "cost": 54450,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png/revision/latest/scale-to-width-down/160?cb=20100209161006",
-    "notes": [
+    "tags": [
       "ac",
       "shields",
       "set_bonus"
@@ -657,11 +583,8 @@
     "andromeda": false,
     "set": "colossus",
     "name": "Colossus Chestplate",
-    "features": [
-      "Requires STR 18.",
-      "10 shields (regen 5)."
-    ],
-    "html": "<p>A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.</p>\n",
+    "flavor": "A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.",
+    "html": "<ul>\n<li>Requires STR 18.</li>\n<li>10 shields (regen 5).</li>\n</ul>\n",
     "id": "colossus-chestplate"
   },
   {
@@ -670,18 +593,15 @@
     "cost": 54450,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png/revision/latest/scale-to-width-down/160?cb=20100209161006",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "colossus",
     "name": "Colossus Gauntlets",
-    "features": [
-      "Requires STR 18.",
-      "+1 AC."
-    ],
-    "html": "<p>A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.</p>\n",
+    "flavor": "A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.",
+    "html": "<ul>\n<li>Requires STR 18.</li>\n<li>+1 AC.</li>\n</ul>\n",
     "id": "colossus-gauntlets"
   },
   {
@@ -690,18 +610,15 @@
     "cost": 61250,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png/revision/latest/scale-to-width-down/160?cb=20100209161006",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "colossus",
     "name": "Colossus Greaves",
-    "features": [
-      "Requires STR 18.",
-      "+1 AC."
-    ],
-    "html": "<p>A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.</p>\n",
+    "flavor": "A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.",
+    "html": "<ul>\n<li>Requires STR 18.</li>\n<li>+1 AC.</li>\n</ul>\n",
     "id": "colossus-greaves"
   },
   {
@@ -710,18 +627,15 @@
     "cost": 55300,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/56/Heavy-human-Colossus.png/revision/latest/scale-to-width-down/160?cb=20100209161006",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "colossus",
     "name": "Colossus Helmet",
-    "features": [
-      "Requires STR 18.",
-      "+1 AC."
-    ],
-    "html": "<p>A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.</p>\n",
+    "flavor": "A bulky, heavy armor set that is difficult to wear for those not in superior shape. But considered the galaxy's best defensive suit.",
+    "html": "<ul>\n<li>Requires STR 18.</li>\n<li>+1 AC.</li>\n</ul>\n",
     "id": "colossus-helmet"
   },
   {
@@ -730,16 +644,14 @@
     "cost": 183600,
     "manufacturer": "jormangund-technology",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/1/10/Light-human-Crisis.png/revision/latest/scale-to-width-down/160?cb=20100209142538",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Crisis Armor",
-    "features": [
-      "Required STR is 14 instead of 16. You are considered proficient with this armor even if you lack proficiency with heavy armor."
-    ],
-    "html": "<p>Crisis Armor is manufactured by Jormangund Technology, a rising star of post-contact human industry. The armor is lightweight but provides incredible protection.</p>\n",
+    "flavor": "Crisis Armor is manufactured by Jormangund Technology, a rising star of post-contact human industry. The armor is lightweight but provides incredible protection.",
+    "html": "<ul>\n<li>Required STR is 14 instead of 16. You are considered proficient with this armor even if you lack\nproficiency with heavy armor.</li>\n</ul>\n",
     "id": "crisis-armor"
   },
   {
@@ -748,7 +660,7 @@
     "cost": 31450,
     "manufacturer": "tyriel-advanced-communications-corporation",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2d/ME3_death_mask.png/revision/latest?cb=20120312190621",
-    "notes": [
+    "tags": [
       "ac",
       "extra_damage",
       "attack_bonus"
@@ -756,11 +668,8 @@
     "andromeda": false,
     "set": false,
     "name": "Death Mask",
-    "features": [
-      "+1 AC.",
-      "+1 on melee attack and damage rolls"
-    ],
-    "html": "<p>Developed by Tyriel Advanced Communications Corporation (TACC), the latest version of the Death Mask offers exceptional protection and real-time data feedback that helps coordinate the wearer's melee attacks.</p>\n",
+    "flavor": "Developed by Tyriel Advanced Communications Corporation (TACC), the latest version of the Death Mask offers exceptional protection and real-time data feedback that helps coordinate the wearer's melee attacks.",
+    "html": "<ul>\n<li>+1 AC.</li>\n<li>+1 on melee attack and damage rolls</li>\n</ul>\n",
     "id": "death-mask"
   },
   {
@@ -769,17 +678,15 @@
     "cost": 56100,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/59/MEA_Deep_Space_Explorer_Armor.png/revision/latest?cb=20180513201310",
-    "notes": [
+    "tags": [
       "resistance",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "deep-space-explorer",
     "name": "Deep Space Explorer Armor",
-    "features": [
-      "Resistance to cold and fire damage."
-    ],
-    "html": "<p>The Andromeda Initiative's mission is one of discovery and exploration, as well as colonization. Readying personnel to journey into harsh environments-and even the void of space was always part of the plan. Thus, the Initiative's custom Deep Space Explorer (DSE) hardsuit is equipped with multiple environment seals, failsafes, a hefty liquid oxygen supply, a formidable kinetic barrier generator, and an array of scientific instruments. Although many were built, most were mysteriously lost en route to Andromeda.</p>\n",
+    "flavor": "The Andromeda Initiative's mission is one of discovery and exploration, as well as colonization. Readying personnel to journey into harsh environments-and even the void of space was always part of the plan. Thus, the Initiative's custom Deep Space Explorer (DSE) hardsuit is equipped with multiple environment seals, failsafes, a hefty liquid oxygen supply, a formidable kinetic barrier generator, and an array of scientific instruments. Although many were built, most were mysteriously lost en route to Andromeda.",
+    "html": "<ul>\n<li>Resistance to cold and fire damage.</li>\n</ul>\n",
     "id": "deep-space-explorer-armor"
   },
   {
@@ -788,17 +695,15 @@
     "cost": 9350,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/83/MEA_Deep_Space_Explorer_Helmet.png/revision/latest/scale-to-width-down/700?cb=20180513201333",
-    "notes": [
+    "tags": [
       "vision",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "deep-space-explorer",
     "name": "Deep Space Explorer Helmet",
-    "features": [
-      "Darkvision <me-distance length='25' />. Infrared Vision <me-distance length='25' />. You can toggle between the 2 vision types as a free action."
-    ],
-    "html": "<p>The Andromeda Initiative's mission is one of discovery and exploration, as well as colonization. Readying personnel to journey into harsh environments-and even the void of space was always part of the plan. Thus, the Initiative's custom Deep Space Explorer (DSE) hardsuit is equipped with multiple environment seals, failsafes, a hefty liquid oxygen supply, a formidable kinetic barrier generator, and an array of scientific instruments. Although many were built, most were mysteriously lost en route to Andromeda.</p>\n",
+    "flavor": "The Andromeda Initiative's mission is one of discovery and exploration, as well as colonization. Readying personnel to journey into harsh environments-and even the void of space was always part of the plan. Thus, the Initiative's custom Deep Space Explorer (DSE) hardsuit is equipped with multiple environment seals, failsafes, a hefty liquid oxygen supply, a formidable kinetic barrier generator, and an array of scientific instruments. Although many were built, most were mysteriously lost en route to Andromeda.",
+    "html": "<ul>\n<li>Darkvision <me-distance length='25' />. Infrared Vision <me-distance length='25' />. You can\ntoggle between the 2 vision types as a free action.</li>\n</ul>\n",
     "id": "deep-space-explorer-helmet"
   },
   {
@@ -807,16 +712,14 @@
     "cost": 14450,
     "manufacturer": "delumcore-systems",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/d/d4/ME3_delumcore_overlay.png/revision/latest/scale-to-width-down/115?cb=20120312191745",
-    "notes": [
+    "tags": [
       "extra_damage"
     ],
     "andromeda": false,
     "set": false,
     "name": "Delumcore Overlay",
-    "features": [
-      "You roll one additional weapon damage die when determining the extra damage for a critical hit with a ranged weapon attack."
-    ],
-    "html": "<p>Developed by Delumcore Systems, a VI inside this headgear enhances aim when targeting an enemy's vulnerable points.</p>\n",
+    "flavor": "Developed by Delumcore Systems, a VI inside this headgear enhances aim when targeting an enemy's vulnerable points.",
+    "html": "<ul>\n<li>You roll one additional weapon damage die when determining the extra damage for a critical hit\nwith a ranged weapon attack.</li>\n</ul>\n",
     "id": "delumcore-overlay"
   },
   {
@@ -825,16 +728,14 @@
     "cost": 39950,
     "manufacturer": "elanus-risk-control-services",
     "image": null,
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Duelist Armor",
-    "features": [
-      "Once per long rest, if you fall below 0 hit points you immediately become stabilized."
-    ],
-    "html": "<p>Duelist armor was originally commissioned to Elanus Risk Control systems for use in cage fighting and other live-action combat sports. The armor focuses on keeping the wearer alive after a fatal wound because managers were tired of losing so many fighters in the ring. The armor is as light as fabric and allows full range of motion.</p>\n",
+    "flavor": "Duelist armor was originally commissioned to Elanus Risk Control systems for use in cage fighting and other live-action combat sports. The armor focuses on keeping the wearer alive after a fatal wound because managers were tired of losing so many fighters in the ring. The armor is as light as fabric and allows full range of motion.",
+    "html": "<ul>\n<li>Once per long rest, if you fall below 0 hit points you immediately become stabilized.</li>\n</ul>\n",
     "id": "duelist-armor"
   },
   {
@@ -843,16 +744,14 @@
     "cost": 45900,
     "manufacturer": "aldrin-labs",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/b3/StabGauntlets.png/revision/latest/scale-to-width-down/100?cb=20120408230211",
-    "notes": [
+    "tags": [
       "ability_skill_bonus"
     ],
     "andromeda": false,
     "set": false,
     "name": "Elanus Goliath Gauntlets",
-    "features": [
-      "Advantage on Strength checks and saving throws."
-    ],
-    "html": "<p>Arm plating with micro servos that coordinate muscle movements when resistance is encountered.</p>\n",
+    "flavor": "Arm plating with micro servos that coordinate muscle movements when resistance is encountered.",
+    "html": "<ul>\n<li>Advantage on Strength checks and saving throws.</li>\n</ul>\n",
     "id": "elanus-goliath-gauntlets"
   },
   {
@@ -861,16 +760,14 @@
     "cost": 11900,
     "manufacturer": "elanus-risk-control-services",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/bd/ME3_armax_arsenal_legs.png/revision/latest/scale-to-width-down/100?cb=20120314171803",
-    "notes": [
+    "tags": [
       "ability_skill_bonus"
     ],
     "andromeda": false,
     "set": false,
     "name": "Enviro-Greaves",
-    "features": [
-      "Advantage on Athletics checks made to swim or climb."
-    ],
-    "html": "<p>A set of leg armor that makes the user much more maneuverable in a mountainous or aquatic environment with normally unsuitable terrain.</p>\n",
+    "flavor": "A set of leg armor that makes the user much more maneuverable in a mountainous or aquatic environment with normally unsuitable terrain.",
+    "html": "<ul>\n<li>Advantage on Athletics checks made to swim or climb.</li>\n</ul>\n",
     "id": "enviro-greaves"
   },
   {
@@ -879,16 +776,14 @@
     "cost": 27200,
     "manufacturer": "cerberus-skunkworks",
     "image": null,
-    "notes": [
+    "tags": [
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Freedom Armor",
-    "features": [
-      "+1 AC"
-    ],
-    "html": "<p>Cerberus designed freedom armor to look and feel like standard clothing while providing protection to their agents.</p>\n",
+    "flavor": "Cerberus designed freedom armor to look and feel like standard clothing while providing protection to their agents.",
+    "html": "<ul>\n<li>+1 AC</li>\n</ul>\n",
     "id": "freedom-armor"
   },
   {
@@ -897,17 +792,15 @@
     "cost": 42500,
     "manufacturer": "elkoss-combine",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/54/Heavy-human-Gladiator.png/revision/latest/scale-to-width-down/160?cb=20100209161008",
-    "notes": [
+    "tags": [
       "shields",
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Gladiator Armor",
-    "features": [
-      "10 shields (regen 5). +1 AC"
-    ],
-    "html": "<p>Elkoss Combine's Gladiator Armor is a simple upgrade to most heavy armor.</p>\n",
+    "flavor": "Elkoss Combine's Gladiator Armor is a simple upgrade to most heavy armor.",
+    "html": "<ul>\n<li>10 shields (regen 5). +1 AC</li>\n</ul>\n",
     "id": "gladiator-armor"
   },
   {
@@ -916,16 +809,14 @@
     "cost": 40800,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/07/ME3_hahne_kedar_arms.png/revision/latest/scale-to-width-down/130?cb=20120311003749",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "GUARDIAN Gauntlets",
-    "features": [
-      "When you are forced to make a saving throw from a heavy weapon attack that required targeting, you may use your reaction to reduce the damage done to you to 0. You may use this feature once per long rest."
-    ],
-    "html": "<p>Arm gauntlets that contain power cells that fuel a miniature version of a starship's standard GARDIAN point defense lasers.</p>\n",
+    "flavor": "Arm gauntlets that contain power cells that fuel a miniature version of a starship's standard GARDIAN point defense lasers.",
+    "html": "<ul>\n<li>When you are forced to make a saving throw from a heavy weapon attack that required targeting, you\nmay use your reaction to reduce the damage done to you to 0. You may use this feature once per long\nrest.</li>\n</ul>\n",
     "id": "guardian-gauntlets"
   },
   {
@@ -934,16 +825,14 @@
     "cost": 15300,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/ME3_hahne_kedar_chest.png/revision/latest/scale-to-width-down/100?cb=20120310234740",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Hahne-Kedar Tactical Armor",
-    "features": [
-      "When wearing this armor, treat your Strength ability score as if it were 19 for the purposes of carrying equipment (unless your score is higher, then no effect occurs)."
-    ],
-    "html": "<p>A chest plate that disperses weight in a way that makes carrying more equipment bearable.</p>\n",
+    "flavor": "A chest plate that disperses weight in a way that makes carrying more equipment bearable.",
+    "html": "<ul>\n<li>When wearing this armor, treat your Strength ability score as if it were 19 for the purposes of\ncarrying equipment (unless your score is higher, then no effect occurs).</li>\n</ul>\n",
     "id": "hahne-kedar-tactical-armor"
   },
   {
@@ -952,17 +841,15 @@
     "cost": 99200,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/1/1b/MEA_Heleus_Defender_Armor.png/revision/latest/scale-to-width-down/350?cb=20180509212323",
-    "notes": [
+    "tags": [
       "extra_damage",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "heleus",
     "name": "Heleus Armor",
-    "features": [
-      "+2 to all damage rolls"
-    ],
-    "html": "<p>This hardsuit is the ultimate product of Initiative research into Heleus Cluster species. Remnant power sources supply angaran hardware in a frame made possible by kett bio-enhancements and Pathfinder implants. This armor is unequivocally a combat suit, intended for the defense of Initiative and angaran colonies</p>\n",
+    "flavor": "This hardsuit is the ultimate product of Initiative research into Heleus Cluster species. Remnant power sources supply angaran hardware in a frame made possible by kett bio-enhancements and Pathfinder implants. This armor is unequivocally a combat suit, intended for the defense of Initiative and angaran colonies",
+    "html": "<ul>\n<li>+2 to all damage rolls</li>\n</ul>\n",
     "id": "heleus-armor"
   },
   {
@@ -971,17 +858,15 @@
     "cost": 67750,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9d/MEA_Heleus_Defender_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180509212343",
-    "notes": [
+    "tags": [
       "extra_damage",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "heleus",
     "name": "Heleus Helmet",
-    "features": [
-      "+1 to all damage rolls"
-    ],
-    "html": "<p>This hardsuit is the ultimate product of Initiative research into Heleus Cluster species. Remnant power sources supply angaran hardware in a frame made possible by kett bio-enhancements and Pathfinder implants. This armor is unequivocally a combat suit, intended for the defense of Initiative and angaran colonies</p>\n",
+    "flavor": "This hardsuit is the ultimate product of Initiative research into Heleus Cluster species. Remnant power sources supply angaran hardware in a frame made possible by kett bio-enhancements and Pathfinder implants. This armor is unequivocally a combat suit, intended for the defense of Initiative and angaran colonies",
+    "html": "<ul>\n<li>+1 to all damage rolls</li>\n</ul>\n",
     "id": "heleus-helmet"
   },
   {
@@ -990,7 +875,7 @@
     "cost": 80750,
     "manufacturer": "ceberus-skunkworks",
     "image": null,
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "ac"
@@ -998,11 +883,8 @@
     "andromeda": false,
     "set": false,
     "name": "Hoplite Armor",
-    "features": [
-      "20 shields (regen 10).",
-      "+2 AC."
-    ],
-    "html": "<p>With additional research into kinetic barrier devices, Cerberus Skunkworks created the Hoplite Armor. As light and simple as their popular Freedom Armor with a shield generator around the waist, giving it an appearance of ancient Greek hoplites.</p>\n",
+    "flavor": "With additional research into kinetic barrier devices, Cerberus Skunkworks created the Hoplite Armor. As light and simple as their popular Freedom Armor with a shield generator around the waist, giving it an appearance of ancient Greek hoplites.",
+    "html": "<ul>\n<li>20 shields (regen 10).</li>\n<li>+2 AC.</li>\n</ul>\n",
     "id": "hoplite-armor"
   },
   {
@@ -1011,7 +893,7 @@
     "cost": 69700,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/60/MEA_HyperGuardian_Chest.png/revision/latest/scale-to-width-down/350?cb=20180505022848",
-    "notes": [
+    "tags": [
       "shields",
       "special",
       "set_bonus"
@@ -1019,11 +901,8 @@
     "andromeda": false,
     "set": "hyper-guardian",
     "name": "HyperGuardian Chestplate",
-    "features": [
-      "10 shields (regen 5).",
-      "You are considered proficient with this armor even if you lack proficiency with heavy armor."
-    ],
-    "html": "<p>HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.</p>\n",
+    "flavor": "HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.",
+    "html": "<ul>\n<li>10 shields (regen 5).</li>\n<li>You are considered proficient with this armor even if you lack proficiency with heavy\narmor.</li>\n</ul>\n",
     "id": "hyper-guardian-chestplate"
   },
   {
@@ -1032,17 +911,15 @@
     "cost": 54400,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5c/MEA_HyperGuardian_Arms.png/revision/latest/scale-to-width-down/350?cb=20180505030224",
-    "notes": [
+    "tags": [
       "special",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "hyper-guardian",
     "name": "HyperGuardian Gauntlets",
-    "features": [
-      "You are considered proficient with this armor even if you lack proficiency with heavy armor."
-    ],
-    "html": "<p>HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.</p>\n",
+    "flavor": "HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.",
+    "html": "<ul>\n<li>You are considered proficient with this armor even if you lack proficiency with heavy\narmor.</li>\n</ul>\n",
     "id": "hyper-guardian-gauntlets"
   },
   {
@@ -1051,17 +928,15 @@
     "cost": 54400,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/40/MEA_HyperGuardian_Legs.png/revision/latest/scale-to-width-down/350?cb=20180505031245",
-    "notes": [
+    "tags": [
       "special",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "hyper-guardian",
     "name": "HyperGuardian Greaves",
-    "features": [
-      "You are considered proficient with this armor even if you lack proficiency with heavy armor."
-    ],
-    "html": "<p>HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.</p>\n",
+    "flavor": "HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.",
+    "html": "<ul>\n<li>You are considered proficient with this armor even if you lack proficiency with heavy\narmor.</li>\n</ul>\n",
     "id": "hyper-guardian-greaves"
   },
   {
@@ -1070,17 +945,15 @@
     "cost": 12750,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/aa/MEA_HyperGuardian_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180505030430",
-    "notes": [
+    "tags": [
       "special",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "hyper-guardian",
     "name": "HyperGuardian Helmet",
-    "features": [
-      "You are considered proficient with this armor even if you lack proficiency with heavy armor."
-    ],
-    "html": "<p>HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.</p>\n",
+    "flavor": "HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly alternative to the Colossus line intended for private security in heavy-fire situations or extreme environmental conditions. The Initiative considered the bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable new colonies.",
+    "html": "<ul>\n<li>You are considered proficient with this armor even if you lack proficiency with heavy\narmor.</li>\n</ul>\n",
     "id": "hyper-guardian-helmet"
   },
   {
@@ -1089,17 +962,15 @@
     "cost": 31600,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/96/ME3_Inferno_Armor.png/revision/latest?cb=20120314170848",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "inferno",
     "name": "Inferno Armor",
-    "features": [
-      "+1 bonus to power attack rolls and power saving throw DCs."
-    ],
-    "html": "<p>Built specifically for Cerberus field officers, the Inferno armor has a VI dedicated to recognizing signs of stress and medical trauma. This application helps assess soldiers but can be useful in any high-risk situations. The Inferno's microframe computer also manages biotic amp and omni-tool power, and microservos help the wearer's movements to counteract the armor's weight.</p>\n",
+    "flavor": "Built specifically for Cerberus field officers, the Inferno armor has a VI dedicated to recognizing signs of stress and medical trauma. This application helps assess soldiers but can be useful in any high-risk situations. The Inferno's microframe computer also manages biotic amp and omni-tool power, and microservos help the wearer's movements to counteract the armor's weight.",
+    "html": "<ul>\n<li>+1 bonus to power attack rolls and power saving throw DCs.</li>\n</ul>\n",
     "id": "inferno-armor"
   },
   {
@@ -1108,17 +979,15 @@
     "cost": 22250,
     "manufacturer": "cerberus-skunkworks",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/96/ME3_Inferno_Armor.png/revision/latest?cb=20120314170848",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "inferno",
     "name": "Inferno Helmet",
-    "features": [
-      "+1 bonus to power attack rolls and power saving throw DCs."
-    ],
-    "html": "<p>Built specifically for Cerberus field officers, the Inferno armor has a VI dedicated to recognizing signs of stress and medical trauma. This application helps assess soldiers but can be useful in any high-risk situations. The Inferno's microframe computer also manages biotic amp and omni-tool power, and microservos help the wearer's movements to counteract the armor's weight.</p>\n",
+    "flavor": "Built specifically for Cerberus field officers, the Inferno armor has a VI dedicated to recognizing signs of stress and medical trauma. This application helps assess soldiers but can be useful in any high-risk situations. The Inferno's microframe computer also manages biotic amp and omni-tool power, and microservos help the wearer's movements to counteract the armor's weight.",
+    "html": "<ul>\n<li>+1 bonus to power attack rolls and power saving throw DCs.</li>\n</ul>\n",
     "id": "inferno-helmet"
   },
   {
@@ -1127,7 +996,7 @@
     "cost": 41500,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f5/MEA_Initiative_Recon_Chest.png/revision/latest/scale-to-width-down/350?cb=20180505200945",
-    "notes": [
+    "tags": [
       "shields",
       "ac",
       "set_bonus"
@@ -1135,10 +1004,8 @@
     "andromeda": false,
     "set": "initiative",
     "name": "Initiative Chestpiece",
-    "features": [
-      "10 Shields (regen 5). +1 AC."
-    ],
-    "html": "<p>Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.</p>\n",
+    "flavor": "Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.",
+    "html": "<ul>\n<li>10 Shields (regen 5). +1 AC.</li>\n</ul>\n",
     "id": "initiative-chestpiece"
   },
   {
@@ -1147,17 +1014,15 @@
     "cost": 11750,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/d/d7/MEA_Initiative_Recon_Arms.png/revision/latest/scale-to-width-down/350?cb=20180505233450",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "initiative",
     "name": "Initiative Gauntlets",
-    "features": [
-      "Increase medi-gel capacity by 2."
-    ],
-    "html": "<p>Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.</p>\n",
+    "flavor": "Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.",
+    "html": "<ul>\n<li>Increase medi-gel capacity by 2.</li>\n</ul>\n",
     "id": "initiative-gauntlets"
   },
   {
@@ -1166,17 +1031,15 @@
     "cost": 29175,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6e/MEA_Initiative_Recon_Legs.png/revision/latest/scale-to-width-down/350?cb=20180506003833",
-    "notes": [
+    "tags": [
       "movement",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "initiative",
     "name": "Initiative Greaves",
-    "features": [
-      "Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump until the start of your next turn, at which point, you fall slowly back to the ground, taking half of your movement speed for this turn."
-    ],
-    "html": "<p>Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.</p>\n",
+    "flavor": "Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.",
+    "html": "<ul>\n<li>Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump\nuntil the start of your next turn, at which point, you fall slowly back to the ground, taking half\nof your movement speed for this turn.</li>\n</ul>\n",
     "id": "initiative-greaves"
   },
   {
@@ -1185,18 +1048,15 @@
     "cost": 16850,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/1/12/MEA_Initiative_Recon_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180505224239",
-    "notes": [
+    "tags": [
       "vision",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "initiative",
     "name": "Initiative Helmet",
-    "features": [
-      "Infrared Vision <me-distance length='25' />. Darkvision <me-distance length='25' />. You can toggle between the 2 vision types as a free action.",
-      "Noxious air becomes breathable."
-    ],
-    "html": "<p>Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.</p>\n",
+    "flavor": "Standard-issue Andromeda Initiative hardsuits are designed for exploration as much as combat, combining jump-jets, high-grade external and internal sensors, and a variety of atmospheric filters with the usual kinetic barrier generators and ceramic armor plating. Personnel equipped in these suits can enter and leave alien biomes without fear of contamination or hostile wildlife.",
+    "html": "<ul>\n<li>Infrared Vision <me-distance length='25' />. Darkvision <me-distance length='25' />. You can\ntoggle between the 2 vision types as a free action.</li>\n<li>Noxious air becomes breathable.</li>\n</ul>\n",
     "id": "initiative-helmet"
   },
   {
@@ -1205,16 +1065,14 @@
     "cost": 46750,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/71/ME3_kestrel_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312190815",
-    "notes": [
+    "tags": [
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Kestrel Helmet",
-    "features": [
-      "+2 AC"
-    ],
-    "html": "<p>The Kestrel armor system's helmet forgoes traditional transparent visors in favor of a reinforced faceplate with an internal heads-up display. The display connects to redundant micro cameras to allow naturalistic vision inside the well-padded interior.</p>\n",
+    "flavor": "The Kestrel armor system's helmet forgoes traditional transparent visors in favor of a reinforced faceplate with an internal heads-up display. The display connects to redundant micro cameras to allow naturalistic vision inside the well-padded interior.",
+    "html": "<ul>\n<li>+2 AC</li>\n</ul>\n",
     "id": "kestrel-helmet"
   },
   {
@@ -1223,17 +1081,15 @@
     "cost": 47825,
     "manufacturer": "kett",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/00/MEA_Kett_Unity_Chest.png/revision/latest/scale-to-width-down/350?cb=20180510050419",
-    "notes": [
+    "tags": [
       "null_critical",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "kett",
     "name": "Kett Chestplate",
-    "features": [
-      "Any critical hit against you becomes a normal hit."
-    ],
-    "html": "<p>Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.</p>\n",
+    "flavor": "Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.",
+    "html": "<ul>\n<li>Any critical hit against you becomes a normal hit.</li>\n</ul>\n",
     "id": "kett-chestplate"
   },
   {
@@ -1242,17 +1098,15 @@
     "cost": 30400,
     "manufacturer": "kett",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/08/MEA_Kett_Unity_Legs.png/revision/latest/scale-to-width-down/350?cb=20180510050500",
-    "notes": [
+    "tags": [
       "movement",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "kett",
     "name": "Kett Greaves",
-    "features": [
-      "Increase walking speed by <me-distance length='10' />."
-    ],
-    "html": "<p>Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.</p>\n",
+    "flavor": "Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.",
+    "html": "<ul>\n<li>Increase walking speed by <me-distance length='10' />.</li>\n</ul>\n",
     "id": "kett-greaves"
   },
   {
@@ -1261,7 +1115,7 @@
     "cost": 50375,
     "manufacturer": "kett",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e3/MEA_Kett_Unity_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180510050440",
-    "notes": [
+    "tags": [
       "extra_damage",
       "attack_bonus",
       "set_bonus"
@@ -1269,10 +1123,8 @@
     "andromeda": true,
     "set": "kett",
     "name": "Kett Helmet",
-    "features": [
-      "+1 bonus to melee weapon attack and damage rolls."
-    ],
-    "html": "<p>Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.</p>\n",
+    "flavor": "Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.",
+    "html": "<ul>\n<li>+1 bonus to melee weapon attack and damage rolls.</li>\n</ul>\n",
     "id": "kett-helmet"
   },
   {
@@ -1281,7 +1133,7 @@
     "cost": 34225,
     "manufacturer": "kett",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/51/MEA_Kett_Unity_Arms.png/revision/latest/scale-to-width-down/350?cb=20180510052440",
-    "notes": [
+    "tags": [
       "extra_damage",
       "attack_bonus",
       "set_bonus"
@@ -1289,10 +1141,8 @@
     "andromeda": true,
     "set": "kett",
     "name": "Kett Vambraces",
-    "features": [
-      "+1 bonus to melee weapon attack and damage rolls."
-    ],
-    "html": "<p>Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.</p>\n",
+    "flavor": "Although this hardsuit's basic materials-ceramic armor plating and kinetic padding-are Initiative standard, kett biotech permeates the overall design and feeds directly into the user's nervous system. Kett armor enhances combat prowess through chemical regulation and stimulation.",
+    "html": "<ul>\n<li>+1 bonus to melee weapon attack and damage rolls.</li>\n</ul>\n",
     "id": "kett-vambraces"
   },
   {
@@ -1301,16 +1151,14 @@
     "cost": 36000,
     "manufacturer": "ariake-technologies",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/00/ME3_kuwashii_visor.png/revision/latest?cb=20120312190654",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Kuwashii Visor",
-    "features": [
-      "As a bonus action, you choose a creature you can see within <me-distance length='75' />. For the next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature 3 times per long rest."
-    ],
-    "html": "<p>Developed by Ariake Technologies, the wearer exchanges full protective coverage for visibility, unencumbered mobility, and increased accuracy.</p>\n",
+    "flavor": "Developed by Ariake Technologies, the wearer exchanges full protective coverage for visibility, unencumbered mobility, and increased accuracy.",
+    "html": "<ul>\n<li>As a bonus action, you choose a creature you can see within <me-distance length='75' />. For the\nnext minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack,\nand you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it.\nYou can use this feature 3 times per long rest.</li>\n</ul>\n",
     "id": "kuwashii-visor"
   },
   {
@@ -1319,18 +1167,15 @@
     "cost": 37500,
     "manufacturer": "devlon-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/86/Light-human-Liberator.png/revision/latest/scale-to-width-down/160?cb=20100209143513",
-    "notes": [
+    "tags": [
       "shields",
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Liberator Armor",
-    "features": [
-      "10 shields (regen 5).",
-      "+1 AC"
-    ],
-    "html": "<p>Devlon Industries' Liberator Armor is a simple upgrade to most light armor.</p>\n",
+    "flavor": "Devlon Industries' Liberator Armor is a simple upgrade to most light armor.",
+    "html": "<ul>\n<li>10 shields (regen 5).</li>\n<li>+1 AC</li>\n</ul>\n",
     "id": "liberator-armor"
   },
   {
@@ -1339,16 +1184,14 @@
     "cost": 18700,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/09/ME3_hahne_kedar_legs.png/revision/latest/scale-to-width-down/100?cb=20120314172009",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Lockdown Greaves",
-    "features": [
-      "As a bonus action, the wearer can activate the effect of the greaves to stick to the surface they are walking on, provided it's made of metal. This can aid them in walking up walls, upside down, etc. If the surface is metal, the user is immune to being lifted, otherwise, they have advantage on saving throws against being lifted. The effect lasts for 1 minute and can only be used once per short rest."
-    ],
-    "html": "<p>A pair of leg armor pieces that connect the wearer's boots to the suit's power supply, turning the boots into a powerful electromagnet.</p>\n",
+    "flavor": "A pair of leg armor pieces that connect the wearer's boots to the suit's power supply, turning the boots into a powerful electromagnet.",
+    "html": "<ul>\n<li>As a bonus action, the wearer can activate the effect of the greaves to stick to the surface they\nare walking on, provided it's made of metal. This can aid them in walking up walls, upside down,\netc. If the surface is metal, the user is immune to being lifted, otherwise, they have advantage on\nsaving throws against being lifted. The effect lasts for 1 minute and can only be used once per\nshort rest.</li>\n</ul>\n",
     "id": "lockdown-greaves"
   },
   {
@@ -1357,16 +1200,14 @@
     "cost": 27200,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9c/Medium-human-Mantis.png/revision/latest/scale-to-width-down/160?cb=20100209162437",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Mantis Armor",
-    "features": [
-      "Whenever you hit a target with a melee weapon attack, you may use your reaction to activate your armor's switchblades, dealing an additional 1d6 slashing damage to the target. If you use your reaction this way, you may then use your bonus action to attempt to grapple the target. You have advantage on the Strength (Athletics) check."
-    ],
-    "html": "<p>Hahne-Kedar's line of armor that utilizes arm-length, serrated switchblades in the greaves meant to hook targets. Don't cut yourself!</p>\n",
+    "flavor": "Hahne-Kedar's line of armor that utilizes arm-length, serrated switchblades in the greaves meant to hook targets. Don't cut yourself!",
+    "html": "<ul>\n<li>Whenever you hit a target with a melee weapon attack, you may use your reaction to activate your\narmor's switchblades, dealing an additional 1d6 slashing damage to the target. If you use your\nreaction this way, you may then use your bonus action to attempt to grapple the target. You have\nadvantage on the Strength (Athletics) check.</li>\n</ul>\n",
     "id": "mantis-armor"
   },
   {
@@ -1375,17 +1216,15 @@
     "cost": 5050,
     "manufacturer": "nexus-exiles",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/09/MEA_Maverick_Deadeye_Legs.png/revision/latest/scale-to-width-down/350?cb=20180511231159",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "maverick",
     "name": "Maverick Boots",
-    "features": [
-      "Increase thermal clip capacity by 4."
-    ],
-    "html": "<p>There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.</p>\n",
+    "flavor": "There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.",
+    "html": "<ul>\n<li>Increase thermal clip capacity by 4.</li>\n</ul>\n",
     "id": "maverick-boots"
   },
   {
@@ -1394,17 +1233,15 @@
     "cost": 11850,
     "manufacturer": "nexus-exiles",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f4/MEA_Maverick_Skirmisher_Chest.png/revision/latest/scale-to-width-down/350?cb=20180511231323",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "maverick",
     "name": "Maverick Vest",
-    "features": [
-      "Increase grenade capacity by 2."
-    ],
-    "html": "<p>There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.</p>\n",
+    "flavor": "There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.",
+    "html": "<ul>\n<li>Increase grenade capacity by 2.</li>\n</ul>\n",
     "id": "maverick-vest"
   },
   {
@@ -1413,17 +1250,15 @@
     "cost": 11000,
     "manufacturer": "nexus-exiles",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6f/MEA_Maverick_Ambusher_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180511230908",
-    "notes": [
+    "tags": [
       "vision",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "maverick",
     "name": "Maverick Visor",
-    "features": [
-      "Darkvision <me-distance length='100' />."
-    ],
-    "html": "<p>There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.</p>\n",
+    "flavor": "There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.",
+    "html": "<ul>\n<li>Darkvision <me-distance length='100' />.</li>\n</ul>\n",
     "id": "maverick-visor"
   },
   {
@@ -1432,17 +1267,15 @@
     "cost": 5050,
     "manufacturer": "nexus-exiles",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/d/de/MEA_Maverick_Ambusher_Arms.png/revision/latest/scale-to-width-down/350?cb=20180511230822",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "maverick",
     "name": "Maverick Wraps",
-    "features": [
-      "Increase thermal clip capacity by 4."
-    ],
-    "html": "<p>There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.</p>\n",
+    "flavor": "There's nothing elegant about this patchwork hardsuit. It mixes various materials and technology from the Heleus Cluster and its microframe computer runs a jumble of barely linked programs. Despite this, or because of it, the armor is highly effective in combat, with targeting and thermal distribution systems second to none.",
+    "html": "<ul>\n<li>Increase thermal clip capacity by 4.</li>\n</ul>\n",
     "id": "maverick-wraps"
   },
   {
@@ -1451,16 +1284,14 @@
     "cost": 18700,
     "manufacturer": "ariake-technologies",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/d/d5/Medium-human-Mercenary.png/revision/latest/scale-to-width-down/160?cb=20100209162437",
-    "notes": [
+    "tags": [
       "shields"
     ],
     "andromeda": false,
     "set": false,
     "name": "Mercenary Armor",
-    "features": [
-      "10 shields (regen 5)"
-    ],
-    "html": "<p>Basic armor offering a minor upgrade to shield capacitors.</p>\n",
+    "flavor": "Basic armor offering a minor upgrade to shield capacitors.",
+    "html": "<ul>\n<li>10 shields (regen 5)</li>\n</ul>\n",
     "id": "mercenary-armor"
   },
   {
@@ -1469,16 +1300,14 @@
     "cost": 21250,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ea/ME3_mnemonic_visor.png/revision/latest/scale-to-width-down/115?cb=20120312191649",
-    "notes": [
+    "tags": [
       "extra_damage"
     ],
     "andromeda": false,
     "set": false,
     "name": "Mnemonic Visor",
-    "features": [
-      "When you roll a 1 damage die for an attack you make with a biotic power, you can reroll the die and must use the new roll, even if the new roll is a 1."
-    ],
-    "html": "<p>Relatively new to the market, the Mnemonic Visor is difficult to find outside Alliance space. Intended for biotic specialists, this headpiece plugs into the rest of the user's suit, gathering data so it can adapt to the wearer's tactics. It boosts biotic performance at critical moments to allow a soldier to perform with greater power than normally possible.</p>\n",
+    "flavor": "Relatively new to the market, the Mnemonic Visor is difficult to find outside Alliance space. Intended for biotic specialists, this headpiece plugs into the rest of the user's suit, gathering data so it can adapt to the wearer's tactics. It boosts biotic performance at critical moments to allow a soldier to perform with greater power than normally possible.",
+    "html": "<ul>\n<li>When you roll a 1 damage die for an attack you make with a biotic power, you can reroll the die\nand must use the new roll, even if the new roll is a 1.</li>\n</ul>\n",
     "id": "mnemonic-visor"
   },
   {
@@ -1487,7 +1316,7 @@
     "cost": 40250,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/1/1c/MEA_N7_Chest.png/revision/latest?cb=20180507215320",
-    "notes": [
+    "tags": [
       "shields",
       "special",
       "set_bonus"
@@ -1495,11 +1324,8 @@
     "andromeda": false,
     "set": "n-7",
     "name": "N7 Chestplate",
-    "features": [
-      "10 shields (regen 5).",
-      "You are considered proficient with this armor even if you lack proficiency with medium armor."
-    ],
-    "html": "<p>Interlocking plates of thick, ablative ceramic plates. Designed to be light, effective, and easily repaired.</p>\n",
+    "flavor": "Interlocking plates of thick, ablative ceramic plates. Designed to be light, effective, and easily repaired.",
+    "html": "<ul>\n<li>10 shields (regen 5).</li>\n<li>You are considered proficient with this armor even if you lack proficiency with medium\narmor.</li>\n</ul>\n",
     "id": "n-7-chestplate"
   },
   {
@@ -1508,7 +1334,7 @@
     "cost": 90875,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f4/ME3_N7_Defender_Armor.png/revision/latest?cb=20120314194601",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "ac",
@@ -1518,13 +1344,8 @@
     "andromeda": false,
     "set": "n-7-defender",
     "name": "N7 Defender Armorsuit",
-    "features": [
-      "20 shields (regen 10).",
-      "+1 AC.",
-      "Increase thermal clip capacity by 8.",
-      "Increase medi-gel capacity by 2."
-    ],
-    "html": "<p>The Defender Armor is a variation on the N7 Special Forces’ combat gear, built to protect soldiers in long-running engagements where reinforcements may be sparse. When the wearer fires a weapon, the suit's computers divert energy from the main power cell to the gun's kinetic coils, offering an extra punch. The Defender's storage compartments are designed to hold spare thermal clips, while capacitors throughout the armor provide extra power to shields during critical moments in battle. The armor also comes with an injection system built into the suit and neural-linked bio-monitors that help adjust the wearer's breathing rate and adrenaline levels.</p>\n",
+    "flavor": "The Defender Armor is a variation on the N7 Special Forces’ combat gear, built to protect soldiers in long-running engagements where reinforcements may be sparse. When the wearer fires a weapon, the suit's computers divert energy from the main power cell to the gun's kinetic coils, offering an extra punch. The Defender's storage compartments are designed to hold spare thermal clips, while capacitors throughout the armor provide extra power to shields during critical moments in battle. The armor also comes with an injection system built into the suit and neural-linked bio-monitors that help adjust the wearer's breathing rate and adrenaline levels.",
+    "html": "<ul>\n<li>20 shields (regen 10).</li>\n<li>+1 AC.</li>\n<li>Increase thermal clip capacity by 8.</li>\n<li>Increase medi-gel capacity by 2.</li>\n</ul>\n",
     "id": "n-7-defender-armorsuit"
   },
   {
@@ -1533,17 +1354,15 @@
     "cost": 25000,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f4/ME3_N7_Defender_Armor.png/revision/latest?cb=20120314194601",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "n-7-defender",
     "name": "N7 Defender Helmet",
-    "features": [
-      "+1 AC."
-    ],
-    "html": "<p>The Defender Armor is a variation on the N7 Special Forces’ combat gear, built to protect soldiers in long-running engagements where reinforcements may be sparse. When the wearer fires a weapon, the suit's computers divert energy from the main power cell to the gun's kinetic coils, offering an extra punch. The Defender's storage compartments are designed to hold spare thermal clips, while capacitors throughout the armor provide extra power to shields during critical moments in battle. The armor also comes with an injection system built into the suit and neural-linked bio-monitors that help adjust the wearer's breathing rate and adrenaline levels.</p>\n",
+    "flavor": "The Defender Armor is a variation on the N7 Special Forces’ combat gear, built to protect soldiers in long-running engagements where reinforcements may be sparse. When the wearer fires a weapon, the suit's computers divert energy from the main power cell to the gun's kinetic coils, offering an extra punch. The Defender's storage compartments are designed to hold spare thermal clips, while capacitors throughout the armor provide extra power to shields during critical moments in battle. The armor also comes with an injection system built into the suit and neural-linked bio-monitors that help adjust the wearer's breathing rate and adrenaline levels.",
+    "html": "<ul>\n<li>+1 AC.</li>\n</ul>\n",
     "id": "n-7-defender-helmet"
   },
   {
@@ -1552,17 +1371,15 @@
     "cost": 25800,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/94/MEA_N7_Arms.png/revision/latest?cb=20180507215258",
-    "notes": [
+    "tags": [
       "special",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "n-7",
     "name": "N7 Gauntlets",
-    "features": [
-      "You are considered proficient with this armor even if you lack proficiency with medium armor."
-    ],
-    "html": "<p>A combination of fabric armor with kinetic padding and plates of ablative ceramic for protection.</p>\n",
+    "flavor": "A combination of fabric armor with kinetic padding and plates of ablative ceramic for protection.",
+    "html": "<ul>\n<li>You are considered proficient with this armor even if you lack proficiency with medium\narmor.</li>\n</ul>\n",
     "id": "n-7-gauntlets"
   },
   {
@@ -1571,18 +1388,15 @@
     "cost": 34300,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/MEA_N7_Legs.png/revision/latest?cb=20180507215405",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "n-7",
     "name": "N7 Greaves",
-    "features": [
-      "5 Shields.",
-      "You are considered proficient with this armor even if you lack proficiency with medium armor."
-    ],
-    "html": "<p>Dual layer of fabric armor and kinetic padding beneath thick plates of ablative ceramic and lined with additional kinetic barriers.</p>\n",
+    "flavor": "Dual layer of fabric armor and kinetic padding beneath thick plates of ablative ceramic and lined with additional kinetic barriers.",
+    "html": "<ul>\n<li>5 Shields.</li>\n<li>You are considered proficient with this armor even if you lack proficiency with medium\narmor.</li>\n</ul>\n",
     "id": "n-7-greaves"
   },
   {
@@ -1591,17 +1405,15 @@
     "cost": 23250,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_N7_Helmet.png/revision/latest/scale-to-width-down/700?cb=20180507215345",
-    "notes": [
+    "tags": [
       "special",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "n-7",
     "name": "N7 Helmet",
-    "features": [
-      "You have advantage on initiative rolls. You are considered proficient with this armor even if you lack proficiency with medium armor."
-    ],
-    "html": "<p>Dual layer of fabric armor and kinetic padding within a lightweight ablative ceramic shell. Comes standard with a suite of communication, navigation, and battlefield awareness software.</p>\n",
+    "flavor": "Dual layer of fabric armor and kinetic padding within a lightweight ablative ceramic shell. Comes standard with a suite of communication, navigation, and battlefield awareness software.",
+    "html": "<ul>\n<li>You have advantage on initiative rolls. You are considered proficient with this armor even if you\nlack proficiency with medium armor.</li>\n</ul>\n",
     "id": "n-7-helmet"
   },
   {
@@ -1610,17 +1422,15 @@
     "cost": 39100,
     "manufacturer": "aldrin-labs",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0b/Medium-human-Onyx.png/revision/latest/scale-to-width-down/160?cb=20100209162437",
-    "notes": [
+    "tags": [
       "shields",
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Onyx Armor",
-    "features": [
-      "10 shields (regen 5). +1 AC"
-    ],
-    "html": "<p>Onyx Armor is one of Aldrin Labs' armor lines and used by Alliance special forces personnel. A minor upgrade to stock medium armor.</p>\n",
+    "flavor": "Onyx Armor is one of Aldrin Labs' armor lines and used by Alliance special forces personnel. A minor upgrade to stock medium armor.",
+    "html": "<ul>\n<li>10 shields (regen 5). +1 AC</li>\n</ul>\n",
     "id": "onyx-armor"
   },
   {
@@ -1629,17 +1439,15 @@
     "cost": 36000,
     "manufacturer": "batarian-state-arms",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ab/Light-human-Partisan.png/revision/latest/scale-to-width-down/160?cb=20100209143515",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "partisan",
     "name": "Partisan Armor",
-    "features": [
-      "15 shields (regen 5)."
-    ],
-    "html": "<p>Batarian State Arms developed a line of armor meant to protect Batarian soldiers for alien diseases and infections.</p>\n",
+    "flavor": "Batarian State Arms developed a line of armor meant to protect Batarian soldiers for alien diseases and infections.",
+    "html": "<ul>\n<li>15 shields (regen 5).</li>\n</ul>\n",
     "id": "partisan-armor"
   },
   {
@@ -1648,17 +1456,15 @@
     "cost": 12200,
     "manufacturer": "batarian-state-arms",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ab/Light-human-Partisan.png/revision/latest/scale-to-width-down/160?cb=20100209143515",
-    "notes": [
+    "tags": [
       "vision",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "partisan",
     "name": "Partisan Helmet",
-    "features": [
-      "Darkvision <me-distance length='50' />."
-    ],
-    "html": "<p>Batarian State Arms developed a line of armor meant to protect Batarian soldiers for alien diseases and infections.</p>\n",
+    "flavor": "Batarian State Arms developed a line of armor meant to protect Batarian soldiers for alien diseases and infections.",
+    "html": "<ul>\n<li>Darkvision <me-distance length='50' />.</li>\n</ul>\n",
     "id": "partisan-helmet"
   },
   {
@@ -1667,17 +1473,15 @@
     "cost": 56000,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/fb/MEA_Pathfinder_Scout_Chest.png/revision/latest/scale-to-width-down/350?cb=20180508001205",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "pathfinder",
     "name": "Pathfinder Chestpiece",
-    "features": [
-      "+2 AC"
-    ],
-    "html": "<p>Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.</p>\n",
+    "flavor": "Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.",
+    "html": "<ul>\n<li>+2 AC</li>\n</ul>\n",
     "id": "pathfinder-chestpiece"
   },
   {
@@ -1686,17 +1490,15 @@
     "cost": 24550,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/89/MEA_Pathfinder_Vigilant_Arms.png/revision/latest/scale-to-width-down/350?cb=20180507232659",
-    "notes": [
+    "tags": [
       "extra_damage",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "pathfinder",
     "name": "Pathfinder Gauntlets",
-    "features": [
-      "When you roll a 1 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1."
-    ],
-    "html": "<p>Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.</p>\n",
+    "flavor": "Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.",
+    "html": "<ul>\n<li>When you roll a 1 on a damage die for an attack you make with a melee weapon, you can reroll the\ndie and must use the new roll, even if the new roll is a 1.</li>\n</ul>\n",
     "id": "pathfinder-gauntlets"
   },
   {
@@ -1705,17 +1507,15 @@
     "cost": 34175,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/52/MEA_Pathfinder_Scout_Legs.png/revision/latest/scale-to-width-down/350?cb=20180508021214",
-    "notes": [
+    "tags": [
       "movement",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "pathfinder",
     "name": "Pathfinder Greaves",
-    "features": [
-      "Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump until the start of your next turn, at which point, you fall slowly back to the ground, taking half of your movement speed for this turn."
-    ],
-    "html": "<p>Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.</p>\n",
+    "flavor": "Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.",
+    "html": "<ul>\n<li>Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump\nuntil the start of your next turn, at which point, you fall slowly back to the ground, taking half\nof your movement speed for this turn.</li>\n</ul>\n",
     "id": "pathfinder-greaves"
   },
   {
@@ -1724,17 +1524,15 @@
     "cost": 34750,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/88/MEA_Pathfinder_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180508010309",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "pathfinder",
     "name": "Pathfinder Helmet",
-    "features": [
-      "+1 bonus to weapon attack rolls"
-    ],
-    "html": "<p>Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.</p>\n",
+    "flavor": "Pathfinder hardsuits are heavily modified from the Initiative suit baseline, foregoing certain scientific instruments in favor of added combat capability. The role of a Pathfinder includes threat neutralization, and improved stabilizers and targeting controls help ensure they can protect his or her team.",
+    "html": "<ul>\n<li>+1 bonus to weapon attack rolls</li>\n</ul>\n",
     "id": "pathfinder-helmet"
   },
   {
@@ -1743,16 +1541,14 @@
     "cost": 12750,
     "manufacturer": "serrice-council",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/7e/ME3_serrice_council_legs.png/revision/latest/scale-to-width-down/100?cb=20120314171406",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Power Reservoir Legguards",
-    "features": [
-      "As a reaction to having 0 barrier ticks, restore all of your barrier ticks. You may use this ability once per long rest."
-    ],
-    "html": "<p>A set of greaves that have batteries designed to conserve biotic power.</p>\n",
+    "flavor": "A set of greaves that have batteries designed to conserve biotic power.",
+    "html": "<ul>\n<li>As a reaction to having 0 barrier ticks, restore all of your barrier ticks. You may use this\nability once per long rest.</li>\n</ul>\n",
     "id": "power-reservoir-legguards"
   },
   {
@@ -1761,18 +1557,15 @@
     "cost": 31450,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/8a/Heavy-human-Predator_H.png/revision/latest/scale-to-width-down/160?cb=20110516205041",
-    "notes": [
+    "tags": [
       "item_capacity",
       "null_critical"
     ],
     "andromeda": false,
     "set": false,
     "name": "Predator Armor",
-    "features": [
-      "Increase thermal clip capacity by 4.",
-      "Any critical hit against you becomes a normal hit"
-    ],
-    "html": "<p>Standard issue armor for Turian infantry. The interlocking plates provide increased protection against potentially fatal wounds.</p>\n",
+    "flavor": "Standard issue armor for Turian infantry. The interlocking plates provide increased protection against potentially fatal wounds.",
+    "html": "<ul>\n<li>Increase thermal clip capacity by 4.</li>\n<li>Any critical hit against you becomes a normal hit</li>\n</ul>\n",
     "id": "predator-armor"
   },
   {
@@ -1781,16 +1574,14 @@
     "cost": 29750,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9a/ME3_Reckoner_Knight_Armor.png/revision/latest?cb=20120314193603",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": "reckoner-knight",
     "name": "Reckoner-Knight Armet",
-    "features": [
-      "Whenever you lose hit points, you may use your reaction to expend one medi-gel (provided you have any medi-gel remaining)."
-    ],
-    "html": "<p>The Reckoner-Knight armor was originally worn by the winners of Earth's Urban Combat Championship 2186, the Rhode Island Knights. A military-grade version of this equipment was presented to longtime Knight fans at the Alliance's Rhode Island base, in thanks for their passionate (and vocal) support during the EUCC championship matches. Beneath this armor's medieval-gothic facade lie a host of biofeedback systems intended to monitor the wearer's health and combat performance. Micro-servos maximize damage done in close-quarters combat, while a beefed-up power cell feeds energy into weapons systems to increase projectile velocity. Befitting gear originally designed for a full-contact sport, a sophisticated shield system also offers the wearer solid protection from incoming attacks.</p>\n",
+    "flavor": "The Reckoner-Knight armor was originally worn by the winners of Earth's Urban Combat Championship 2186, the Rhode Island Knights. A military-grade version of this equipment was presented to longtime Knight fans at the Alliance's Rhode Island base, in thanks for their passionate (and vocal) support during the EUCC championship matches. Beneath this armor's medieval-gothic facade lie a host of biofeedback systems intended to monitor the wearer's health and combat performance. Micro-servos maximize damage done in close-quarters combat, while a beefed-up power cell feeds energy into weapons systems to increase projectile velocity. Befitting gear originally designed for a full-contact sport, a sophisticated shield system also offers the wearer solid protection from incoming attacks.",
+    "html": "<ul>\n<li>Whenever you lose hit points, you may use your reaction to expend one medi-gel (provided you have\nany medi-gel remaining).</li>\n</ul>\n",
     "id": "reckoner-knight-armet"
   },
   {
@@ -1799,18 +1590,15 @@
     "cost": 144500,
     "manufacturer": "armax-arsenal",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/9a/ME3_Reckoner_Knight_Armor.png/revision/latest?cb=20120314193603",
-    "notes": [
+    "tags": [
       "shields",
       "extra_damage"
     ],
     "andromeda": false,
     "set": "reckoner-knight",
     "name": "Reckoner-Knight Armorsuit",
-    "features": [
-      "30 shields (regen 5).",
-      "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
-    ],
-    "html": "<p>The Reckoner-Knight armor was originally worn by the winners of Earth's Urban Combat Championship 2186, the Rhode Island Knights. A military-grade version of this equipment was presented to longtime Knight fans at the Alliance's Rhode Island base, in thanks for their passionate (and vocal) support during the EUCC championship matches. Beneath this armor's medieval-gothic facade lie a host of biofeedback systems intended to monitor the wearer's health and combat performance. Micro-servos maximize damage done in close-quarters combat, while a beefed-up power cell feeds energy into weapons systems to increase projectile velocity. Befitting gear originally designed for a full-contact sport, a sophisticated shield system also offers the wearer solid protection from incoming attacks.</p>\n",
+    "flavor": "The Reckoner-Knight armor was originally worn by the winners of Earth's Urban Combat Championship 2186, the Rhode Island Knights. A military-grade version of this equipment was presented to longtime Knight fans at the Alliance's Rhode Island base, in thanks for their passionate (and vocal) support during the EUCC championship matches. Beneath this armor's medieval-gothic facade lie a host of biofeedback systems intended to monitor the wearer's health and combat performance. Micro-servos maximize damage done in close-quarters combat, while a beefed-up power cell feeds energy into weapons systems to increase projectile velocity. Befitting gear originally designed for a full-contact sport, a sophisticated shield system also offers the wearer solid protection from incoming attacks.",
+    "html": "<ul>\n<li>30 shields (regen 5).</li>\n<li>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll\nthe die and must use the new roll, even if the new roll is a 1 or a 2.</li>\n</ul>\n",
     "id": "reckoner-knight-armorsuit"
   },
   {
@@ -1819,18 +1607,15 @@
     "cost": 46750,
     "manufacturer": "kassa-fabrication",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ee/ME3_recon_hood.png/revision/latest/scale-to-width-down/115?cb=20120312191621",
-    "notes": [
+    "tags": [
       "ac",
       "vision"
     ],
     "andromeda": false,
     "set": false,
     "name": "Recon Hood",
-    "features": [
-      "+1 AC.",
-      "Infrared Vision <me-distance length='150' />. Darkvision <me-distance length='150' />. You can toggle between vision types as a free action."
-    ],
-    "html": "<p>A hood issued to covert action teams, this model's optic display interfaces with most small arm's auto-targeting software, linking hand and eye for improved accuracy and increased weapon damage. Ballistic-mesh fabric and composite ceramic plating provide necessary armor, and the integral air filter helps in hostile environments.</p>\n",
+    "flavor": "A hood issued to covert action teams, this model's optic display interfaces with most small arm's auto-targeting software, linking hand and eye for improved accuracy and increased weapon damage. Ballistic-mesh fabric and composite ceramic plating provide necessary armor, and the integral air filter helps in hostile environments.",
+    "html": "<ul>\n<li>+1 AC.</li>\n<li>Infrared Vision <me-distance length='150' />. Darkvision <me-distance length='150' />. You can\ntoggle between vision types as a free action.</li>\n</ul>\n",
     "id": "recon-hood"
   },
   {
@@ -1839,7 +1624,7 @@
     "cost": 106550,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/35/MEA_Remnant_Heritage_Chest.png/revision/latest/scale-to-width-down/350?cb=20180513014621",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "set_bonus"
@@ -1847,10 +1632,8 @@
     "andromeda": true,
     "set": "remnant",
     "name": "Remnant Battery",
-    "features": [
-      "30 shields (regen 10)"
-    ],
-    "html": "<p>This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.</p>\n",
+    "flavor": "This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.",
+    "html": "<ul>\n<li>30 shields (regen 10)</li>\n</ul>\n",
     "id": "remnant-battery"
   },
   {
@@ -1859,17 +1642,15 @@
     "cost": 15600,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6a/MEA_Remnant_Heritage_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180513014645",
-    "notes": [
+    "tags": [
       "vision",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "remnant",
     "name": "Remnant Helmet",
-    "features": [
-      "Darkvision <me-distance length='50' />. Infrared Vision <me-distance length='50' />. You may toggle between vision types as a free action."
-    ],
-    "html": "<p>This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.</p>\n",
+    "flavor": "This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.",
+    "html": "<ul>\n<li>Darkvision <me-distance length='50' />. Infrared Vision <me-distance length='50' />. You may\ntoggle between vision types as a free action.</li>\n</ul>\n",
     "id": "remnant-helmet"
   },
   {
@@ -1878,17 +1659,15 @@
     "cost": 22400,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/06/MEA_Remnant_Reborn_Legs.png/revision/latest/scale-to-width-down/350?cb=20180513015108",
-    "notes": [
+    "tags": [
       "shield_jumpstart",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "remnant",
     "name": "Remnant Tasset",
-    "features": [
-      "Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount."
-    ],
-    "html": "<p>This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.</p>\n",
+    "flavor": "This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.",
+    "html": "<ul>\n<li>Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and\nimmediately gain shield points equal to your regen amount.</li>\n</ul>\n",
     "id": "remnant-tasset"
   },
   {
@@ -1897,17 +1676,15 @@
     "cost": 16450,
     "manufacturer": "andromeda-initiative",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ab/MEA_Remnant_Reborn_Arms.png/revision/latest/scale-to-width-down/350?cb=20180513015007",
-    "notes": [
+    "tags": [
       "shield_regen",
       "set_bonus"
     ],
     "andromeda": true,
     "set": "remnant",
     "name": "Remnant Vambraces",
-    "features": [
-      "Shield regen +5."
-    ],
-    "html": "<p>This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.</p>\n",
+    "flavor": "This armor was designed from scratch by the Initiative using Remnant technology. Its servos, microframe computer, and kinetic barrier generators are all dependent on Remnant science and artifacts. This resilient and regenerative hardsuit has an energy surplus, though its internal systems can be difficult to properly monitor.",
+    "html": "<ul>\n<li>Shield regen +5.</li>\n</ul>\n",
     "id": "remnant-vambraces"
   },
   {
@@ -1916,16 +1693,14 @@
     "cost": 20400,
     "manufacturer": "rosenkov-materials",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/7f/ME3_rosenkov_materials_chest.png/revision/latest/scale-to-width-down/100?cb=20120310234640",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Rosenkov Reflex Armor",
-    "features": [
-      "Once per short rest, you may take 2 reactions within a single turn."
-    ],
-    "html": "<p>Sturdy armor that gathers real-time battle telemetry and and onboard combat computer that can help a combatant move faster than they can think.</p>\n",
+    "flavor": "Sturdy armor that gathers real-time battle telemetry and and onboard combat computer that can help a combatant move faster than they can think.",
+    "html": "<ul>\n<li>Once per short rest, you may take 2 reactions within a single turn.</li>\n</ul>\n",
     "id": "rosenkov-reflex-armor"
   },
   {
@@ -1934,16 +1709,14 @@
     "cost": 18000,
     "manufacturer": "rosenkov-materials",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/77/ME3_rosenkov_materials_arms.png/revision/latest/scale-to-width-down/130?cb=20120311003643",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Rosenkov Snaring Gauntlets",
-    "features": [
-      "You are immune to dropping your weapon if hit by any effect that would otherwise disarm you."
-    ],
-    "html": "<p>Arm pieces that were designed with trench warfare in mind, they have strong electromagnets that prove especially useful when regulated by combat computers.</p>\n",
+    "flavor": "Arm pieces that were designed with trench warfare in mind, they have strong electromagnets that prove especially useful when regulated by combat computers.",
+    "html": "<ul>\n<li>You are immune to dropping your weapon if hit by any effect that would otherwise disarm\nyou.</li>\n</ul>\n",
     "id": "rosenkov-snaring-gauntlets"
   },
   {
@@ -1952,20 +1725,15 @@
     "cost": 50000,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/41/MEA_Scavenger_Armor.png/revision/latest/scale-to-width-down/350?cb=20180512010824",
-    "notes": [
+    "tags": [
       "item_capacity",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "scavenger",
     "name": "Scavenger Armor",
-    "features": [
-      "+6 grenade capacity.",
-      "+8 Thermal clip capacity.",
-      "+4 medi-gel capacity.",
-      "You have 2 additional weapon slots (or increase your carry capacity by 20kg)."
-    ],
-    "html": "<p>The Auto-Recycling Technical and Combat Interface Armor-a name only slightly less awkward in the original turian-is better known as the Scavenger Hardsuit. Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates quarian technology that allows the user to better analyze, interface, and integrate foreign components.</p>\n",
+    "flavor": "The Auto-Recycling Technical and Combat Interface Armor-a name only slightly less awkward in the original turian-is better known as the Scavenger Hardsuit. Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates quarian technology that allows the user to better analyze, interface, and integrate foreign components.",
+    "html": "<ul>\n<li>+6 grenade capacity.</li>\n<li>+8 Thermal clip capacity.</li>\n<li>+4 medi-gel capacity.</li>\n<li>You have 2 additional weapon slots (or increase your carry capacity by 20kg).</li>\n</ul>\n",
     "id": "scavenger-armor"
   },
   {
@@ -1974,17 +1742,15 @@
     "cost": 48625,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/d/d9/MEA_Scavenger_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180512010326",
-    "notes": [
+    "tags": [
       "ability_skill_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "scavenger",
     "name": "Scavenger Helmet",
-    "features": [
-      "You have advantage on Intelligence (Investigation) and Intelligence (Science) rolls when analyzing objects."
-    ],
-    "html": "<p>The Auto-Recycling Technical and Combat Interface Armor-a name only slightly less awkward in the original turian-is better known as the Scavenger Hardsuit. Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates quarian technology that allows the user to better analyze, interface, and integrate foreign components.</p>\n",
+    "flavor": "The Auto-Recycling Technical and Combat Interface Armor-a name only slightly less awkward in the original turian-is better known as the Scavenger Hardsuit. Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates quarian technology that allows the user to better analyze, interface, and integrate foreign components.",
+    "html": "<ul>\n<li>You have advantage on Intelligence (Investigation) and Intelligence (Science) rolls when analyzing\nobjects.</li>\n</ul>\n",
     "id": "scavenger-helmet"
   },
   {
@@ -1993,18 +1759,15 @@
     "cost": 38250,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/69/ME3_securitel_helmet.png/revision/latest/scale-to-width-down/115?cb=20120312191724",
-    "notes": [
+    "tags": [
       "ac",
       "null_critical"
     ],
     "andromeda": false,
     "set": false,
     "name": "Securitel Helmet",
-    "features": [
-      "+1 AC.",
-      "Any critical hit against you becomes a normal hit"
-    ],
-    "html": "<p>The Securitel Helmet was originally designed as riot-gear. It is covered in ablative plating, well-padded to lessen damage from shocks, blows and bullet impacts. The helmet's emitters boost shielding in the rest of the armor, while its onboard computers monitor the wearer's heart-rate and central nervous system.</p>\n",
+    "flavor": "The Securitel Helmet was originally designed as riot-gear. It is covered in ablative plating, well-padded to lessen damage from shocks, blows and bullet impacts. The helmet's emitters boost shielding in the rest of the armor, while its onboard computers monitor the wearer's heart-rate and central nervous system.",
+    "html": "<ul>\n<li>+1 AC.</li>\n<li>Any critical hit against you becomes a normal hit</li>\n</ul>\n",
     "id": "securitel-helmet"
   },
   {
@@ -2013,16 +1776,14 @@
     "cost": 17000,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/b7/ME3_sentry_interface.png/revision/latest/scale-to-width-down/115?cb=20120312190726",
-    "notes": [
+    "tags": [
       "shield_jumpstart"
     ],
     "andromeda": false,
     "set": false,
     "name": "Sentry Interface",
-    "features": [
-      "Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount."
-    ],
-    "html": "<p>This visor works with the Sentry system, a software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.</p>\n",
+    "flavor": "This visor works with the Sentry system, a software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.",
+    "html": "<ul>\n<li>Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and\nimmediately gain shield points equal to your regen amount.</li>\n</ul>\n",
     "id": "sentry-interface"
   },
   {
@@ -2031,16 +1792,14 @@
     "cost": 45050,
     "manufacturer": "serrice-council",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6a/ME3_serrice_council_arms.png/revision/latest/scale-to-width-down/130?cb=20120312132501",
-    "notes": [
+    "tags": [
       "resistance"
     ],
     "andromeda": false,
     "set": false,
     "name": "Serrice Adaptor Gauntlets",
-    "features": [
-      "Every long rest, you can designate a type of damage except bludgeoning, piercing, or slashing. You gain resistance to it until you take another long rest."
-    ],
-    "html": "<p>A pair of gauntlets that have micro fabricators in their frames. These can spread omni-gel through the rest of the hardsuit, inuring the combatant to a type of damage.</p>\n",
+    "flavor": "A pair of gauntlets that have micro fabricators in their frames. These can spread omni-gel through the rest of the hardsuit, inuring the combatant to a type of damage.",
+    "html": "<ul>\n<li>Every long rest, you can designate a type of damage except bludgeoning, piercing, or slashing. You\ngain resistance to it until you take another long rest.</li>\n</ul>\n",
     "id": "serrice-adaptor-gauntlets"
   },
   {
@@ -2049,18 +1808,15 @@
     "cost": 55250,
     "manufacturer": "serrice-council",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/af/ME3_serrice_council_chest.png/revision/latest/scale-to-width-down/100?cb=20120310234621",
-    "notes": [
+    "tags": [
       "resistance",
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Serrice Rimebane Armor",
-    "features": [
-      "Resistance to cold damage.",
-      "Immunity from the frozen condition."
-    ],
-    "html": "<p>Chest plating with auxiliary power cells that defrost spots of crystalline ice caused by cryo rounds on impact.</p>\n",
+    "flavor": "Chest plating with auxiliary power cells that defrost spots of crystalline ice caused by cryo rounds on impact.",
+    "html": "<ul>\n<li>Resistance to cold damage.</li>\n<li>Immunity from the frozen condition.</li>\n</ul>\n",
     "id": "serrice-rimebane-armor"
   },
   {
@@ -2069,16 +1825,14 @@
     "cost": 38675,
     "manufacturer": "ariake-technologies",
     "image": null,
-    "notes": [
+    "tags": [
       "ability_skill_bonus"
     ],
     "andromeda": false,
     "set": false,
     "name": "Sirta Parade Armor",
-    "features": [
-      "Advantage on Persuasion and Performance checks."
-    ],
-    "html": "<p>Glossy armor that shines in the light, designed to look good as its first function.</p>\n",
+    "flavor": "Glossy armor that shines in the light, designed to look good as its first function.",
+    "html": "<ul>\n<li>Advantage on Persuasion and Performance checks.</li>\n</ul>\n",
     "id": "sirta-parade-armor"
   },
   {
@@ -2087,7 +1841,7 @@
     "cost": 39950,
     "manufacturer": "batarian-state-arms",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/02/Light-human-Skirmish.png/revision/latest/scale-to-width-down/160?cb=20100209143516",
-    "notes": [
+    "tags": [
       "ac",
       "item_capacity",
       "movement"
@@ -2095,12 +1849,8 @@
     "andromeda": false,
     "set": false,
     "name": "Skirmish Armor",
-    "features": [
-      "+1 AC.",
-      "Increase your walking speed by <me-distance length='10' />.",
-      "Increase your grenade capacity by 4."
-    ],
-    "html": "<p>Batarian State Arms' Skirmish armor provides enhanced speed to better escape the blast of the grenade you just threw.</p>\n",
+    "flavor": "Batarian State Arms' Skirmish armor provides enhanced speed to better escape the blast of the grenade you just threw.",
+    "html": "<ul>\n<li>+1 AC.</li>\n<li>Increase your walking speed by <me-distance length='10' />.</li>\n<li>Increase your grenade capacity by 4.</li>\n</ul>\n",
     "id": "skirmish-armor"
   },
   {
@@ -2109,16 +1859,14 @@
     "cost": 14450,
     "manufacturer": "sirta-foundation",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/bd/ME3_rosenkov_materials_legs.png/revision/latest/scale-to-width-down/100?cb=20120314171643",
-    "notes": [
+    "tags": [
       "special"
     ],
     "andromeda": false,
     "set": false,
     "name": "Stealth Greaves",
-    "features": [
-      "While you wear these greaves, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Stealth checks that rely on moving silently."
-    ],
-    "html": "<p>Greaves that secrete a highly advanced lubricant in the joints.</p>\n",
+    "flavor": "Greaves that secrete a highly advanced lubricant in the joints.",
+    "html": "<ul>\n<li>While you wear these greaves, your steps make no sound, regardless of the surface you are moving\nacross. You also have advantage on Stealth checks that rely on moving silently.</li>\n</ul>\n",
     "id": "stealth-greaves"
   },
   {
@@ -2127,12 +1875,12 @@
     "cost": 21250,
     "manufacturer": "hahne-kedar",
     "image": null,
-    "notes": [],
+    "tags": [],
     "andromeda": false,
     "set": false,
     "name": "Stock Heavy Armor",
-    "features": [],
-    "html": "<p>A cheap and simple set of heavy armor.</p>\n",
+    "flavor": "A cheap and simple set of heavy armor.",
+    "html": "",
     "id": "stock-heavy-armor"
   },
   {
@@ -2141,12 +1889,12 @@
     "cost": 14450,
     "manufacturer": "hahne-kedar",
     "image": null,
-    "notes": [],
+    "tags": [],
     "andromeda": false,
     "set": false,
     "name": "Stock Light Armor",
-    "features": [],
-    "html": "<p>A cheap and simple set of light armor.</p>\n",
+    "flavor": "A cheap and simple set of light armor.",
+    "html": "",
     "id": "stock-light-armor"
   },
   {
@@ -2155,12 +1903,12 @@
     "cost": 17850,
     "manufacturer": "hahne-kedar",
     "image": null,
-    "notes": [],
+    "tags": [],
     "andromeda": false,
     "set": false,
     "name": "Stock Medium Armor",
-    "features": [],
-    "html": "<p>A cheap and simple set of medium armor.</p>\n",
+    "flavor": "A cheap and simple set of medium armor.",
+    "html": "",
     "id": "stock-medium-armor"
   },
   {
@@ -2169,18 +1917,15 @@
     "cost": 28050,
     "manufacturer": "ariake-technologies",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f4/ME3_ariake_technologies_legs.png/revision/latest/scale-to-width-down/100?cb=20120314171912",
-    "notes": [
+    "tags": [
       "ability_skill_bonus",
       "movement"
     ],
     "andromeda": false,
     "set": false,
     "name": "Strider Legguards",
-    "features": [
-      "Advantage on Acrobatics checks.",
-      "Increase your walking speed by <me-distance length='15' />."
-    ],
-    "html": "<p>Greaves that use a set of mass effect field generators to alter the wearer's gravity, making certain maneuvers much more manageable.</p>\n",
+    "flavor": "Greaves that use a set of mass effect field generators to alter the wearer's gravity, making certain maneuvers much more manageable.",
+    "html": "<ul>\n<li>Advantage on Acrobatics checks.</li>\n<li>Increase your walking speed by <me-distance length='15' />.</li>\n</ul>\n",
     "id": "strider-legguards"
   },
   {
@@ -2189,16 +1934,14 @@
     "cost": 30600,
     "manufacturer": "devlon-industries",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/08/Medium-human-Explorer.png/revision/latest/scale-to-width-down/160?cb=20100209161746",
-    "notes": [
+    "tags": [
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Survivor Armor",
-    "features": [
-      "+1 AC"
-    ],
-    "html": "<p>A simple set of armor made by Devlon Industries providing moderate protection.</p>\n",
+    "flavor": "A simple set of armor made by Devlon Industries providing moderate protection.",
+    "html": "<ul>\n<li>+1 AC</li>\n</ul>\n",
     "id": "survivor-armor"
   },
   {
@@ -2207,17 +1950,15 @@
     "cost": 27075,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/23/ME3_Terminus_Assault_Armor.png/revision/latest?cb=20120314195928",
-    "notes": [
+    "tags": [
       "shields",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "terminus-assault",
     "name": "Terminus Assault Chestpiece",
-    "features": [
-      "10 shields (regen 5)."
-    ],
-    "html": "<p>The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.</p>\n",
+    "flavor": "The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.",
+    "html": "<ul>\n<li>10 shields (regen 5).</li>\n</ul>\n",
     "id": "terminus-assault-chestpiece"
   },
   {
@@ -2226,17 +1967,15 @@
     "cost": 21975,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/23/ME3_Terminus_Assault_Armor.png/revision/latest?cb=20120314195928",
-    "notes": [
+    "tags": [
       "attack_bonus",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "terminus-assault",
     "name": "Terminus Assault Gauntlets",
-    "features": [
-      "+1 bonus to melee attack and damage rolls"
-    ],
-    "html": "<p>The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.</p>\n",
+    "flavor": "The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.",
+    "html": "<ul>\n<li>+1 bonus to melee attack and damage rolls</li>\n</ul>\n",
     "id": "terminus-assault-gauntlets"
   },
   {
@@ -2245,17 +1984,15 @@
     "cost": 14325,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/23/ME3_Terminus_Assault_Armor.png/revision/latest?cb=20120314195928",
-    "notes": [
+    "tags": [
       "movement",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "terminus-assault",
     "name": "Terminus Assault Greaves",
-    "features": [
-      "Increase your walking speed by <me-distance length='10' />."
-    ],
-    "html": "<p>The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.</p>\n",
+    "flavor": "The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.",
+    "html": "<ul>\n<li>Increase your walking speed by <me-distance length='10' />.</li>\n</ul>\n",
     "id": "terminus-assault-greaves"
   },
   {
@@ -2264,17 +2001,15 @@
     "cost": 29625,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/23/ME3_Terminus_Assault_Armor.png/revision/latest?cb=20120314195928",
-    "notes": [
+    "tags": [
       "ac",
       "set_bonus"
     ],
     "andromeda": false,
     "set": "terminus-assault",
     "name": "Terminus Assault Helmet",
-    "features": [
-      "+1 AC"
-    ],
-    "html": "<p>The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.</p>\n",
+    "flavor": "The Terminus Armor is environmentally sealed with an independent air supply for use in space and extreme planetary conditions. Its onboard microframe computer runs a suite of battle management software. To prevent detection by passive thermal sensors, body heat is channeled to the base of the feet and dispersed into the ground.",
+    "html": "<ul>\n<li>+1 AC</li>\n</ul>\n",
     "id": "terminus-assault-helmet"
   },
   {
@@ -2283,7 +2018,7 @@
     "cost": 87550,
     "manufacturer": "rosenkov-materials",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Heavy-human-Titan.png/revision/latest/scale-to-width-down/160?cb=20100209161744",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "ac"
@@ -2291,11 +2026,8 @@
     "andromeda": false,
     "set": false,
     "name": "Titan Armor",
-    "features": [
-      "20 shields (regen 5).",
-      "+2 AC"
-    ],
-    "html": "<p>Titan armor was created by Rosenkov Materials as an upgrade to their other lines of heavy armor.</p>\n",
+    "flavor": "Titan armor was created by Rosenkov Materials as an upgrade to their other lines of heavy armor.",
+    "html": "<ul>\n<li>20 shields (regen 5).</li>\n<li>+2 AC</li>\n</ul>\n",
     "id": "titan-armor"
   },
   {
@@ -2304,16 +2036,14 @@
     "cost": 46750,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/41/ME3_umbra_visor.png/revision/latest/scale-to-width-down/115?cb=20120312191552",
-    "notes": [
+    "tags": [
       "attack_bonus"
     ],
     "andromeda": false,
     "set": false,
     "name": "Umbra Visor",
-    "features": [
-      "You gain a +2 bonus to power attack rolls and to the saving throw DCs of your powers."
-    ],
-    "html": "<p>A next-generation night-vision device that assists targeting. By detecting the focal point of the wearer's eyes and enhancing the image at that location, the visor helps direct a biotic power or a shot from an omni-tool exactly where the wearer is looking.</p>\n",
+    "flavor": "A next-generation night-vision device that assists targeting. By detecting the focal point of the wearer's eyes and enhancing the image at that location, the visor helps direct a biotic power or a shot from an omni-tool exactly where the wearer is looking.",
+    "html": "<ul>\n<li>You gain a +2 bonus to power attack rolls and to the saving throw DCs of your powers.</li>\n</ul>\n",
     "id": "umbra-visor"
   },
   {
@@ -2322,7 +2052,7 @@
     "cost": 84150,
     "manufacturer": "hahne-kedar",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/95/Medium-human-Ursa.png/revision/latest/scale-to-width-down/160?cb=20100209162744",
-    "notes": [
+    "tags": [
       "shields",
       "shield_regen",
       "ac"
@@ -2330,11 +2060,8 @@
     "andromeda": false,
     "set": false,
     "name": "Ursa Armor",
-    "features": [
-      "20 shields (regen 10).",
-      "+2 AC"
-    ],
-    "html": "<p>Hahne-Kedar's Urse armor is known for its &quot;think hide&quot;, and is a moderate update over stock armor.</p>\n",
+    "flavor": "Hahne-Kedar's Urse armor is known for its \"think hide\", and is a moderate update over stock armor.",
+    "html": "<ul>\n<li>20 shields (regen 10).</li>\n<li>+2 AC</li>\n</ul>\n",
     "id": "ursa-armor"
   },
   {
@@ -2343,18 +2070,15 @@
     "cost": 116875,
     "manufacturer": "elanus-risk-control-services",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/fd/Heavy-krogan-Warlord.png/revision/latest/scale-to-width-down/80?cb=20100209091717",
-    "notes": [
+    "tags": [
       "resistance",
       "ac"
     ],
     "andromeda": false,
     "set": false,
     "name": "Warlord Armor",
-    "features": [
-      "Resistance to slashing and bludgeoning damage.",
-      "+2 AC."
-    ],
-    "html": "<p>A favorite for Krogran gladiators. The armor is finished with a silver polish, which quickly becomes dented, scuffed, and bloodied. These &quot;battle scars&quot; tell the tale of a Krogan's feats.</p>\n",
+    "flavor": "A favorite for Krogran gladiators. The armor is finished with a silver polish, which quickly becomes dented, scuffed, and bloodied. These \"battle scars\" tell the tale of a Krogan's feats.",
+    "html": "<ul>\n<li>Resistance to slashing and bludgeoning damage.</li>\n<li>+2 AC.</li>\n</ul>\n",
     "id": "warlord-armor"
   }
 ]

@@ -94,7 +94,7 @@ for (const lang of langs) {
 
   // copy and convert any static md files
   for (const f of staticMdData) {
-    const fc = fm(fs.readFileSync(f, 'utf8'))
+    const fc = fm(fs.readFileSync(`${dataPath}/${f}`, 'utf8'))
     let item = fc.attributes
     fs.writeFileSync(`${targetPath}/${f.replace('.md', '.json')}`, JSON.stringify(item, null, 2))
   }
@@ -105,7 +105,7 @@ for (const lang of langs) {
 
   // process data dirs
   for (const dir of dataDirs) {
-    if (ignore.includes(dir) || staticData.includes(dir)) {
+    if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir)) {
       continue
     }
     const modelDataPath = `${dataPath}/${dir}`
@@ -127,21 +127,20 @@ for (const lang of langs) {
   ignore.push('messages')
 
   // To copy the messages dir
-  fse.copySync(`${textSourcePath}/messages`, `${targetPath}/messages`, function (err) {
-    if (err) {
-      console.error(err)
-    }
+  fse.copy(`${textSourcePath}/messages`, `${targetPath}/messages`, function (err) {
+    if (err) return console.error(err)
+    console.log('success!')
   })
 
   // process text dirs
   const textDirs = fs.readdirSync(textSourcePath)
   for (const dir of textDirs) {
-    if (ignore.includes(dir) || staticText.includes(dir) || processedModels.includes(dir)) {
+    if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir) || processedModels.includes(dir)) {
       continue
     }
     const modelTextPath = `${textSourcePath}/${dir}`
     const modelTargetFile = `${targetPath}/${dir}.json`
-    const modelFns = fs.readdirSync(modelDataPath)
+    const modelFns = fs.readdirSync(modelTextPath)
     const items = modelFns.map(file => {
       return  combineItem(file, `${modelTextPath}/${file}`)
     })
@@ -156,15 +155,8 @@ function combineItem(id, file1, file2 = null) {
   if (file2) {
     if (fs.existsSync(file2)) {
       const tFc = fm(fs.readFileSync(file2, 'utf8'))
-      for (const k in tFc) {
-        if (tFc.hasOwnProperty(k)) {
-          if (item.hasOwnProperty(k)) {
-            item[k] = {...item[k], ...tFc[k]}
-          } else {
-            item[k] = tFc[k]
-          }
-        }
-      }
+      const tItem = tFc.attributes
+      item = _.merge(item, tItem)
       body = tFc.body
     }
   }
