@@ -18,7 +18,7 @@ distance:
   aoeType:
   aoeDistance:
 detonates:
-primes: cold
+primes:
 availableClasses:
 - engineer
 - sentinel
