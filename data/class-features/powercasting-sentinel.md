@@ -16,7 +16,7 @@ slot. You regain all expended power slots when you finish a short or long rest.
 For example, when you are 5th level, you have two 2nd-level power slots. To cast the 1st-level power lance, you must spend
 one of those slots, and you cast it as a 2nd-level power.
 
-### powers Known of 1st Level and Higher
+### Powers Known of 1st Level and Higher
 At 1st level, you know two 1st-level powers of your choice from the sentinel power list.
 
 The powers Known column of the Sentinel table shows when you learn more sentinel powers of your choice of 1st level
