@@ -404,7 +404,7 @@
   {
     "name": "Raw Agility",
     "species": "drell",
-    "html": "<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can\ndouble your speed until the end of the turn. Once you use this trait, you can’t use it again until you move\n<me-distance length=\"0\" /> on one of your turns.</p>\n",
+    "html": "<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can\ndouble your speed until the end of the turn. Once you use this trait, you can’t use it again until you move\n<me-distance length=\"0\" override=\"0 {metric}\"/> on one of your turns.</p>\n",
     "id": "raw-agility"
   },
   {
