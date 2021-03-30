@@ -27,7 +27,7 @@
   {
     "name": "Frozen",
     "id": "frozen",
-    "html": "<ul>\n<li>A frozen creature is <me-condition id=\"incapacitated\"/> and can't move or speak.</li>\n<li>The creature is <me-condition id=\"primed\" sub=\"cold\"/>. Any detonating attack ends the lifted condition after resolving\nthe detonation effect.</li>\n<li>The creature automatically fails Dexterity saving throws. Attack rolls against the creature have advantage.</li>\n</ul>\n"
+    "html": "<ul>\n<li>A frozen creature is <me-condition id=\"incapacitated\"/> and can't move or speak.</li>\n<li>The creature is <me-condition id=\"primed\" sub=\"cold\"/>. Any detonating attack ends the frozen condition after resolving\nthe detonation effect.</li>\n<li>The creature automatically fails Dexterity saving throws. Attack rolls against the creature have advantage.</li>\n</ul>\n"
   },
   {
     "name": "Grappled",
