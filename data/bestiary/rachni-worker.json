@@ -13,7 +13,7 @@
       "type": "standard",
       "name": "Acid Splash",
       "recharge": "Recharge 4-6",
-      "description": "The rachni worker spits acid at one target within <me-distance length='25' /> or two targets within <me-distance length='25' /> if both targets are within <me-distance length='5' /> of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage."
+      "description": "The rachni worker spits acid at one target within <me-distance length='30' /> or two targets within <me-distance length='30' /> if both targets are within <me-distance length='5' /> of each other. A target must succeed on a DC 13 Dexterity saving throw or take 3 (1d6) acid damage."
     },
     {
       "type": "melee",
@@ -50,7 +50,7 @@
   "senses": [
     {
       "sense": "blindsight",
-      "range": 4
+      "range": 10
     }
   ],
   "size": "Small",
@@ -58,7 +58,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 30
+      "range": 35
     }
   ],
   "powercasting": false,

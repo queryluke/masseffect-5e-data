@@ -131,7 +131,7 @@
     },
     {
       "sense": "tremorsense",
-      "range": 20
+      "range": 24
     }
   ],
   "size": "Gargantuan",
@@ -139,11 +139,11 @@
   "speed": [
     {
       "type": "walk",
-      "range": 50
+      "range": 30
     },
     {
       "type": "burrow",
-      "range": 30
+      "range": 35
     }
   ],
   "powercasting": false,

@@ -10,19 +10,21 @@ for (const file of files) {
     const item = require(fn)
     for (let i = 0; i < item.speed.length; i++) {
         const oldSpeed = item.speed[i].range
-        if (![25,30,35].includes(oldSpeed) && item.speed[i].type === 'walk') {
+        if (![20,25,30,35].includes(oldSpeed) && item.speed[i].type === 'walk') {
             console.log(`${file} has an odd speed`)
         } else {
             if (item.speed[i].type !== 'walk' && oldSpeed === 25) {
-                item.speed[i] = 25
+                item.speed[i].range = 25
             } else {
-                item.speed[i] = oldSpeed === 25
-                  ? 30
-                  : oldSpeed === 30
-                    ? 35
-                    : oldSpeed === 35
-                      ? 40
-                      : oldSpeed
+                item.speed[i].range = oldSpeed === 20
+                  ? 25
+                  : oldSpeed === 25
+                      ? 30
+                      : oldSpeed === 30
+                        ? 35
+                        : oldSpeed === 35
+                          ? 40
+                          : oldSpeed
             }
         }
     }
