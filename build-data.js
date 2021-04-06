@@ -1,8 +1,18 @@
+
 const fs = require('fs')
-const fse = require('fs-extra')
 const fm = require('front-matter')
 const _ = require('lodash')
 const config = require('./package.json')
+const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
+
+if (!fs.existsSync(versionDir)) {
+  fs.mkdirSync(versionDir);
+}
+
+// copy about page
+fs.copyFile( './data/about.json', `${versionDir}/about.json`, (err) => {
+  if (err) throw err;
+});
 
 // Markdown it options
 const MarkdownIt = require('markdown-it')
@@ -62,105 +72,72 @@ md.renderer.rules.link_close = function(tokens, idx) {
   }
 }
 
-const ignore = []
-const staticData = ['about.json', 'stats-by-cr.json']
-const staticMdData = ['guides-index.md', 'manual-index.md']
-const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
+const mdDirs = [
+  'abilities',
+  'rules',
+  'gmg',
+  'backgrounds',
+  'changelog',
+  'class-features',
+  'subclasses',
+  'classes',
+  'conditions',
+  'feats',
+  'gear',
+  'mods',
+  'species-variants', // before species
+  // 'subspecies', // before species
+  'traits', // before species
+  'species',
+  'powers',
+  'tool-profs',
+  'vehicles'
+]
+for (let dir of mdDirs) {
+  const path = `./data/${dir}`
+  const files = fs.readdirSync(path)
 
-if (!fs.existsSync(versionDir)) {
-  fs.mkdirSync(versionDir);
-}
-
-const textPath = `./text`
-const dataPath = `./newData`
-
-const langs = fs.readdirSync(textPath)
-const dataDirs = fs.readdirSync(dataPath)
-
-for (const lang of langs) {
-  const targetPath = `${versionDir}/${lang}`
-
-  // create the target if it doesn't exist
-  if (!fs.existsSync(targetPath)) {
-    fs.mkdirSync(targetPath);
-  }
-
-  // copy any staticData
-  for (const f of staticData) {
-    fs.copyFile( `${dataPath}/${f}`, `${targetPath}/${f}`, (err) => {
-      if (err) throw err;
-    });
-  }
-
-  // copy and convert any static md files
-  for (const f of staticMdData) {
-    const fc = fm(fs.readFileSync(`${dataPath}/${f}`, 'utf8'))
-    let item = fc.attributes
-    fs.writeFileSync(`${targetPath}/${f.replace('.md', '.json')}`, JSON.stringify(item, null, 2))
-  }
-
-  const textSourcePath = `${textPath}/${lang}`
-
-  const processedModels = []
-
-  // process data dirs
-  for (const dir of dataDirs) {
-    if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir)) {
-      continue
+  const items = files.map((file) => {
+    const fc = fm(fs.readFileSync(`${path}/${file}`, 'utf8'))
+    let item = Object.assign(fc.attributes, {})
+    item.html = md.render(fc.body)
+    item.id = file.replace(/.md$/, '')
+    if (dir === 'changelog') {
+      item.date = new Date(item.date)
+      item.url = `/changelog/${item.slug}`
     }
-    const modelDataPath = `${dataPath}/${dir}`
-    const modelTextPath = `${textSourcePath}/${dir}`
-    const modelTargetFile = `${targetPath}/${dir}.json`
-    const modelFns = fs.readdirSync(modelDataPath)
-    const items = modelFns.map(file => {
-      const item = combineItem(file,`${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
-      if (dir === 'changelog') {
-        item.date = new Date(item.date)
-        item.url = `/changelog/${item.slug}`
-      }
-      return item
-    })
-    fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
-    processedModels.push(dir)
-  }
-
-  ignore.push('messages')
-
-  // To copy the messages dir
-  fse.copy(`${textSourcePath}/messages`, `${targetPath}/messages`, function (err) {
-    if (err) return console.error(err)
-    console.log('success!')
+    if (dir === 'species') {
+      const traits = require(`${versionDir}/traits.json`)
+      const variants = require(`${versionDir}/species-variants.json`)
+      item.traits = traits.filter(i => i.species === item.id || i.species.includes(item.id))
+      item.variants = variants.filter(i => i.species === item.id)
+    }
+    return item
   })
-
-  // process text dirs
-  const textDirs = fs.readdirSync(textSourcePath)
-  for (const dir of textDirs) {
-    if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir) || processedModels.includes(dir)) {
-      continue
-    }
-    const modelTextPath = `${textSourcePath}/${dir}`
-    const modelTargetFile = `${targetPath}/${dir}.json`
-    const modelFns = fs.readdirSync(modelTextPath)
-    const items = modelFns.map(file => {
-      return  combineItem(file, `${modelTextPath}/${file}`)
-    })
-    fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
-  }
+  fs.writeFileSync(`${versionDir}/${dir}.json`, JSON.stringify(items, null, 2))
 }
-
-function combineItem(id, file1, file2 = null) {
-  const fc = fm(fs.readFileSync(file1, 'utf8'))
-  let item = fc.attributes
-  let body = fc.body
-  if (file2) {
-    if (fs.existsSync(file2)) {
-      const tFc = fm(fs.readFileSync(file2, 'utf8'))
-      const tItem = tFc.attributes
-      item = _.merge(item, tItem)
-      body = tFc.body
-    }
-  }
-  item.html = md.render(body)
-  item.id = id.replace(/.md$/, '')
-  return item
+// process jsDirs
+const jsonDirs = [
+  'armor-mechanics',
+  'armor',
+  'attributions',
+  'bestiary',
+  'character-progression',
+  'commonplace-items',
+  'random-height-weight',
+  'ship-upgrades',
+  'skills',
+  'stats-by-cr',
+  'weapon-properties',
+  'weapons'
+]
+for (let dir of jsonDirs) {
+  const path = `./data/${dir}`
+  const files = fs.readdirSync(path)
+  let items = files.map((file) => {
+    const item = JSON.parse(fs.readFileSync(`${path}/${file}`, 'utf8'))
+    item.id = file.replace(/.json$/, '')
+    return item
+  })
+  fs.writeFileSync(`${versionDir}/${dir}.json`, JSON.stringify(items, null, 2))
 }

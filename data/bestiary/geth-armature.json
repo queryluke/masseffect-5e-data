@@ -64,7 +64,7 @@
     {
       "name": "Repair Protocol",
       "recharge": "3/Day",
-      "description": "If the geth armature starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes <me-distance length='0' /> and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points."
+      "description": "If the geth armature starts its turn with 0 shield points, it activates its repair protocol, collapsing into a compact shell. Until the start of its next turn, its speed becomes <me-distance length=\"0\" override=\"0 {metric}\"/> and it can take no Actions, but it is immune to all damage. At the start of its next turn, it regains 50 shields points."
     }
   ],
   "hp": {
@@ -102,7 +102,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 6
+      "range": 15
     }
   ],
   "powercasting": false,

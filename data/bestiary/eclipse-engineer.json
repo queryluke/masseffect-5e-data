@@ -66,7 +66,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 10
+      "range": 25
     }
   ],
   "sp": {
@@ -78,7 +78,7 @@
     "mod": "int",
     "powerList": [
       {
-        "perDay": "3",
+        "perDay": "3/day",
         "powers": [
           {
             "id": "incinerate",
