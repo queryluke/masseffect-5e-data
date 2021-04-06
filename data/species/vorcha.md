@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Vorcha are taller on average than humans (though they naturally slouch) and relatively slender. Your size is Medium.
 speed:
   - type: walk
-    speed: 35
+    speed: 40
 snippet: Known for their unique biology and aggressive behavior, the vorcha of Heshtok are a primitive species that lives among the galaxy's darker and more dangerous locations, such as Omega.
 startingCredits: Instead of your class's starting equipment, you may start with 4d12 x 1000 + 10,000 credits to buy your own equipment.
 bodyImg: http://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500

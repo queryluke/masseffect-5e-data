@@ -10,11 +10,8 @@ abilityScoreIncrease:
 size: Due to their long tentacles, hanar "stand" about as tall as humans. Their bodies are around 1.5 meters long (4-5'). Your size is Medium.
 speed:
   - type: swim
-    speed: 25
+    speed: 30
     color: Hanar are a water-based lifeform.
-  - type: walk
-    speed: 25
-    color: They rely on contra-gravitic levitation packs when not in water environments.
 snippet: The hanar are a species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species. Hanar are known for their intense politeness when speaking and their strong religious beliefs.
 bodyImg: https://data.n7.world/images/species/hanar.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825
