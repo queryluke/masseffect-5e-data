@@ -1,7 +1,7 @@
 ---
 name: Recon Mine
 stats:
-  range: 25
+  range: 30
   blast: 5
   damageType: thunder
   marks:
@@ -40,8 +40,8 @@ cost: Varies
 weight: 1
 rarity: Varies
 ---
-Launch a recon mine to a location of your choice within <me-distance length="25" />. It first sticks to the target
-location then scans creatures within a <me-distance length="25" adj/> cone, relaying tactical weak points about the creature's
+Launch a recon mine to a location of your choice within <me-distance length="30" />. It first sticks to the target
+location then scans creatures within a <me-distance length="30" adj/> cone, relaying tactical weak points about the creature's
 armor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to
 its AC and cannot benefit from being <me-condition id="invisible"/>. Each creature can only be affected by this penalty once.
 
