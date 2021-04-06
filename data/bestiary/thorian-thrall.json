@@ -25,7 +25,7 @@
     {
       "name": "Hive Mind",
       "recharge": null,
-      "description": "If the creeper is within <me-distance length='50' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
+      "description": "If the creeper is within <me-distance length='60' /> of a Thorian Controller, it gains +1 to attack and damage rolls, ability checks, and saving throws."
     },
     {
       "name": "Enslaved Mind",
@@ -56,7 +56,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 25
+      "range": 30
     }
   ],
   "sp": {

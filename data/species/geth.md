@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Standard geth are around 2 meters tall (6'5"). Your size is Medium.
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 snippet: The geth ("Servant of the People" in Khelish) are a species of networked artificial intelligences that reside beyond the Perseus Veil.
 bodyImg: http://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500
 img: https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119

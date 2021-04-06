@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Asari have builds incredibly similar to female humans. Your size is Medium.
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 snippet: The asari, native to the planet Thessia, are often considered the most influential and respected sentient species in the galaxy and are known for their elegance, diplomacy, and biotic aptitude.
 bodyImg: http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500
 img: https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819

@@ -7,7 +7,7 @@ subclass: bastion
 At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your
 allies that can tilt a battle in your favor.
 
-As a bonus action, you can select an area within <me-distance length="60" /> on the ground that measures 6m on each side. This area is your tactical focus.
+As a bonus action, you can select an area within <me-distance length="60" /> on the ground that measures <me-distance length="15" /> on each side. This area is your tactical focus.
 It remains your tactical focus until you use this ability again or you become <me-condition id="incapacitated"/>.
 
 When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three

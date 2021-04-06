@@ -1,7 +1,7 @@
 ---
 name: Homing Grenade
 stats:
-  range: 25
+  range: 30
   blast: 5
   damageType: thunder
   marks:
@@ -40,7 +40,7 @@ cost: Varies
 weight: 1
 rarity: Varies
 ---
-Target a creature you can see within <me-distance length="25" />. The target creature suffers thunder damage (see below). Each other creature
+Target a creature you can see within <me-distance length="30" />. The target creature suffers thunder damage (see below). Each other creature
 within <me-distance length="5" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage
 or half as much on a successful one.
 

@@ -1,7 +1,7 @@
 ---
 name: Cain Trip Mine
 stats:
-  range: 50
+  range: 60
   blast: 5
   damageType: thunder
   marks:
@@ -40,7 +40,7 @@ cost: Varies
 weight: 1
 rarity: Varies
 ---
-Launch a Cain Trip Mine to a point you can see within <me-distance length="50" />. The mine affixes to a solid surface and projects
+Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
 a beam <me-distance length="15" /> tripwire. When a creature or object passes through the tripwire, the mine detonates.
 
 A creature can spot the mine with a successful DC 13 Wisdom (Perception).
