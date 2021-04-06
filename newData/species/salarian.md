@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: dex
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 bodyImg: >-
   http://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500
 img: >-

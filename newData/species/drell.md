@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: wis
 speed:
   - type: walk
-    speed: 30
+    speed: 35
     color: >-
       Their light frames and wiry strength make drell slightly faster than other
       species.

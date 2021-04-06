@@ -6,13 +6,8 @@ abilityScoreIncrease:
     ability: cha
 speed:
   - type: swim
-    speed: 25
+    speed: 30
     color: Hanar are a water-based lifeform.
-  - type: walk
-    speed: 25
-    color: >-
-      They rely on contra-gravitic levitation packs when not in water
-      environments.
 bodyImg: https://data.n7.world/images/species/hanar.png
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825

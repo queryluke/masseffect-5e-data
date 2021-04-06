@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: cha
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 bodyImg: >-
   http://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500
 img: >-

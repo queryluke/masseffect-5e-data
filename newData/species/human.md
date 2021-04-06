@@ -14,7 +14,7 @@ abilityScoreIncrease:
     ability: cha
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 bodyImg: >-
   http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500
 img: >-

@@ -36,8 +36,8 @@ that weapon and use his or her proficiency bonus.
 
 An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object).
 If a character uses a ranged weapon to make a melee attack or throws a melee weapon that does not have the thrown property,
-it also deals 1d4 damage. An improvised thrown weapon has a normal range of <me-distance length="15" /> and a long range of <me-distance length="45" />.
-Light improvised thrown weapons have ranges of <me-distance length="25" /> and <me-distance length="75" />, and heavy
+it also deals 1d4 damage. An improvised thrown weapon has a normal range of <me-distance length="20" /> and a long range of <me-distance length="60" />.
+Light improvised thrown weapons have ranges of <me-distance length="30" /> and <me-distance length="90" />, and heavy
 improvised ranged weapons have ranges of <me-distance length="15" /> and <me-distance length="30" />.
 
 ### Thermal Clips <v-chip color="info" small>new</v-chip>

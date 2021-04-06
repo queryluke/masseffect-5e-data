@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: con
 speed:
   - type: walk
-    speed: 35
+    speed: 40
 bodyImg: >-
   http://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500
 img: >-

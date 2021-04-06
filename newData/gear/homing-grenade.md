@@ -1,6 +1,6 @@
 ---
 mechanics:
-  range: 25
+  range: 30
   blast: 5
   damageType: thunder
   marks:

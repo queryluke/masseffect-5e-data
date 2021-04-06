@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: wis
 speed:
   - type: walk
-    speed: 15
+    speed: 20
     color: Elcor are relatively slow compared to other species.
 bodyImg: https://data.n7.world/images/species/elcor.png
 img: https://data.n7.world/images/species/elcor_card.jpg

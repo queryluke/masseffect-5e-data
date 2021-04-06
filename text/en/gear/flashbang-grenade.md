@@ -1,7 +1,7 @@
 ---
 name: Flashbang Grenade
 ---
-Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a Constitution saving throw.
+Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Constitution saving throw.
 On a failed save, a creature is <me-condition id="blinded"/> until the end of your next turn.
 
 The mark of this grenade determines its Save DC and credits.

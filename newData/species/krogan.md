@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: str
 speed:
   - type: walk
-    speed: 25
+    speed: 30
     color: Your speed is not slowed by heavy armor.
 bodyImg: >-
   http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500

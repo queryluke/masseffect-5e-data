@@ -24,7 +24,7 @@ concentration: false
 range: 90
 aoe: false
 detonates: false
-primes: cold
+primes: false
 advancements:
   solid-freeze:
     mechanics: []

@@ -21,7 +21,7 @@ castingTimes:
 duration: false
 instant: true
 concentration: false
-range: 35
+range: 40
 aoe: false
 detonates: true
 primes: false

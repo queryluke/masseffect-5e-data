@@ -1,7 +1,7 @@
 ---
 name: Cluster Grenade
 ---
-Target an area within <me-distance length="25" />. Each creature within <me-distance length="15" /> of the target must make a Dexterity saving throw.
+Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target must make a Dexterity saving throw.
 A creature takes thunder damage on a failed save, or half as much damage on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and credits.

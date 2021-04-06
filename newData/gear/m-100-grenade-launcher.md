@@ -1,7 +1,7 @@
 ---
 mechanics:
   damage: 3d6
-  range: 75
+  range: 90
   damageType: thunder
   rounds: 12
   image: >-

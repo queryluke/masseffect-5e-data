@@ -55,7 +55,7 @@ When you use this variant, ignore the minimum Strength column of the Armor table
 - Each weapon and armor piece has a weight. If your total weight from all weapons and armor is in excess of your
   carry weight, you are __encumbered__, which means your speed drops by <me-distance length="10" />.
 - If your total weight from all weapons and armor is in excess of twice your carry weight, you are instead
-  __heavily encumbered__, which means your speed drops by <me-distance length="25" /> and you have disadvantage on ability
+  __heavily encumbered__, which means your speed drops by <me-distance length="30" /> and you have disadvantage on ability
   checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 
 <me-source-reference pages="79-80"></me-source-reference>

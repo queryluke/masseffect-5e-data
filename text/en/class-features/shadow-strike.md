@@ -1,7 +1,7 @@
 ---
 name: Shadow Strike
 ---
-At 13th level, whenever you activate Tactical Cloak you may teleport to a target location within <me-distance length="25" />. You must be able to see the location
+At 13th level, whenever you activate Tactical Cloak you may teleport to a target location within <me-distance length="30" />. You must be able to see the location
 and it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.
 
 When you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within

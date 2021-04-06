@@ -1,7 +1,7 @@
 ---
 name: Inferno Grenade
 ---
-Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
+Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
 On a failed save, a creature suffers fire damage or half as much on a successful one. The area within a <me-distance length="10" adj /> radius, centered on the target
 continues to burn for 1 minute.
 

@@ -20,7 +20,7 @@ castingTimes:
 duration: false
 instant: true
 concentration: false
-range: 20
+range: 25
 aoe:
   type: sphere
   size: 5

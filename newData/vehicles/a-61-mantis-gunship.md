@@ -29,7 +29,7 @@ weapons:
     damage: 70 (2d6[x10]) piercing damage
   - name: Inferno PKRs (16 charges)
     damage: >-
-      160 (3d10[x10]) fire damage to a <me-distance length="25" adj />-radius
+      160 (3d10[x10]) fire damage to a <me-distance length="30" adj />-radius
       sphere. Half damage on a successful DC 18 Dexterity saving throw.
 cr: 21
 cost: military

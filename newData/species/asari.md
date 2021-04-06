@@ -6,7 +6,7 @@ abilityScoreIncrease:
     ability: wis
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 bodyImg: >-
   http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500
 img: >-
