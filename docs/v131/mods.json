@@ -403,7 +403,7 @@
       "Sniper Rifle"
     ],
     "type": "Weapon",
-    "html": "<p>While this weapon is equipped, you have advantage on initiative rolls. In addition, you and any of your companions\nwithin <me-distance length=\"25\" /> of you can't be surprised, except when incapacitated. The sensor awakens you and your companions within range if any of you are sleeping naturally when combat begins.</p>\n",
+    "html": "<p>While this weapon is equipped, you have advantage on initiative rolls. In addition, you and any of your companions\nwithin <me-distance length=\"30\" /> of you can't be surprised, except when incapacitated. The sensor awakens you and your companions within range if any of you are sleeping naturally when combat begins.</p>\n",
     "id": "combat-sensor"
   },
   {
@@ -558,7 +558,7 @@
       "Sniper Rifle"
     ],
     "type": "Weapon",
-    "html": "<p>The weapon loses the Burst Fire and Double Tap properties and gains the Arc property. If its range is\nfarther than <me-distance length=\"25\" num-only />/<me-distance length=\"50\" />, its range becomes\n<me-distance length=\"25\" num-only />/<me-distance length=\"50\" />.</p>\n",
+    "html": "<p>The weapon loses the Burst Fire and Double Tap properties and gains the Arc property. If its range is\nfarther than <me-distance length=\"30\" num-only />/<me-distance length=\"60\" />, its range becomes\n<me-distance length=\"30\" num-only />/<me-distance length=\"60\" />.</p>\n",
     "id": "electrical-conduits"
   },
   {
@@ -809,7 +809,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>As a bonus action, you choose a creature you can see within <me-distance length=\"75\" />. For the next minute,\nyou deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have\nadvantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature\n3 times per long rest.</p>\n",
+    "html": "<p>As a bonus action, you choose a creature you can see within <me-distance length=\"90\" />. For the next minute,\nyou deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have\nadvantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature\n3 times per long rest.</p>\n",
     "id": "focus-modulator"
   },
   {
@@ -1266,7 +1266,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>You gain darkvision <me-distance length=\"75\" />.</p>\n",
+    "html": "<p>You gain darkvision <me-distance length=\"90\" />.</p>\n",
     "id": "night-sight"
   },
   {
@@ -1340,7 +1340,7 @@
       "Medium",
       "Heavy"
     ],
-    "html": "<p>Choose a target location within <me-distance length=\"75\" />. Creatures within a\n<me-distance length=\"10\" /> of the target must make a Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.</p>\n",
+    "html": "<p>Choose a target location within <me-distance length=\"90\" />. Creatures within a\n<me-distance length=\"10\" /> of the target must make a Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.</p>\n",
     "id": "personal-disruptor-torpedoes"
   },
   {
