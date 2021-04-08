@@ -22,13 +22,13 @@
       "type": "standard",
       "name": "Leadership",
       "recharge": "Recharges after a Short or Long rest",
-      "description": "For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='25' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated."
+      "description": "For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='30' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated."
     },
     {
       "type": "standard",
       "name": "Summon Seeker Swarm",
       "recharge": "Recharge 5-6",
-      "description": "The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within <me-distance length='25' />."
+      "description": "The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within <me-distance length='30' />."
     }
   ],
   "alignment": "Lawful evil",
@@ -73,7 +73,7 @@
   "senses": [
     {
       "sense": "darkvision",
-      "range": 20
+      "range": 24
     }
   ],
   "size": "Medium",
@@ -85,7 +85,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 25
+      "range": 30
     },
     {
       "type": "fly",

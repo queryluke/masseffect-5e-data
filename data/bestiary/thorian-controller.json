@@ -44,7 +44,7 @@
     {
       "name": "Hive Mind Overseer",
       "recharge": null,
-      "description": "The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within <me-distance length='50' /> of it that has the Hive Mind feature. This bonus cannot exceed +5."
+      "description": "The controller gains a +1 bonus to its attack and damage rolls, ability checks, and saving throws for each creature within <me-distance length='60' /> of it that has the Hive Mind feature. This bonus cannot exceed +5."
     },
     {
       "name": "Indoctrination",
@@ -70,7 +70,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 25
+      "range": 30
     }
   ],
   "sp": null,

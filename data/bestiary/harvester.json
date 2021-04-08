@@ -37,7 +37,7 @@
       "name": "Drop Klixen",
       "range": null,
       "target": null,
-      "hit": "If the harvester is within a region that contains Klixen, it begins the fight by droping 1d10 Klixen in a <me-distance length='15' /> by <me-distance length='50' /> area.",
+      "hit": "If the harvester is within a region that contains Klixen, it begins the fight by droping 1d10 Klixen in a <me-distance length='15' /> by <me-distance length='60' /> area.",
       "miss": null,
       "attackMod": null
     }
@@ -81,7 +81,7 @@
     {
       "name": "Trample Attack",
       "cost": 2,
-      "description": "The harvester moves <me-distance length='25' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
+      "description": "The harvester moves <me-distance length='30' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
     }
   ],
   "name": "Harvester",
@@ -100,11 +100,11 @@
   "speed": [
     {
       "type": "walk",
-      "range": 50
+      "range": 60
     },
     {
       "type": "fly",
-      "range": 75
+      "range": 90
     }
   ],
   "powercasting": false,

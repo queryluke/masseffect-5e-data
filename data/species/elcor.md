@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Elcor stand between 2 and 2.5 meters tall (7-8 feet) at the shoulder. Your size is Medium.
 speed:
   - type: walk
-    speed: 15
+    speed: 20
     color: Elcor are relatively slow compared to other species.
 snippet: The elcor are a Citadel species native to the high-gravity world Dekuuna. They are massive creatures, standing on four muscular legs for increased stability. Elcor move slowly, an evolved response to an environment where a fall can be lethal.
 bodyImg: https://data.n7.world/images/species/elcor.png

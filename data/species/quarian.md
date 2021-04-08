@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Quarians have builds similar to humans. Your size is Medium.
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 snippet: The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence.
 bodyImg: http://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500
 img: https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430

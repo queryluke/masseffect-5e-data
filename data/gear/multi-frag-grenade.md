@@ -1,7 +1,7 @@
 ---
 name: Multi-frag Grenade
 stats:
-  range: 25
+  range: 30
   blast: 10
   damageType: piercing
   marks:
@@ -40,7 +40,7 @@ cost: Varies
 weight: 1
 rarity: Varies
 ---
-Target 3 areas within <me-distance length="25" />. Each creature within <me-distance length="10" /> of each target must
+Target 3 areas within <me-distance length="30" />. Each creature within <me-distance length="10" /> of each target must
 make a Dexterity saving throw. On a failed save, a creature takes piercing damage or half as much on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and credits.

@@ -15,6 +15,6 @@ availability:
   - Sniper Rifle
 type: Weapon
 ---
-The weapon loses the Burst Fire and Double Tap properties and gains the Arc property. If its range is 
-farther than <me-distance length="25" num-only />/<me-distance length="50" />, its range becomes 
-<me-distance length="25" num-only />/<me-distance length="50" />.
+The weapon loses the Burst Fire and Double Tap properties and gains the Arc property. If its range is
+farther than <me-distance length="30" num-only />/<me-distance length="60" />, its range becomes
+<me-distance length="30" num-only />/<me-distance length="60" />.

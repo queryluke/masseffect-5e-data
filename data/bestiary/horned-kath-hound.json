@@ -31,7 +31,7 @@
       "type": "standard",
       "name": "Howl",
       "recharge": null,
-      "description": "Each other kath hound within <me-distance length='50' /> that is not incapacitated gains +2 Dexterity and +1 Wisdom for 1 minute. Kath hounds can only benefit from one Howl at a time."
+      "description": "Each other kath hound within <me-distance length='60' /> that is not incapacitated gains +2 Dexterity and +1 Wisdom for 1 minute. Kath hounds can only benefit from one Howl at a time."
     }
   ],
   "alignment": "Unaligned",
@@ -78,7 +78,7 @@
   "speed": [
     {
       "type": "walk",
-      "range": 45
+      "range": 40
     }
   ],
   "powercasting": false,

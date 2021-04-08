@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Krogan stand at over 2 meters tall (~7') and weigh close to 400 pounds. Your size is Medium.
 speed:
   - type: walk
-    speed: 25
+    speed: 30
     color: Your speed is not slowed by heavy armor.
 snippet: The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh environments, scarce resources, and an overabundance of vicious predators.
 bodyImg: http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500

@@ -14,7 +14,7 @@ __Brawler.__ Add your proficiency bonus to your melee attack damage rolls.
 __Carnage.__ When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.
 
 __Close-Quarters Shooter.__ When making a ranged attack while you are within <me-distance length="5" /> of a hostile
-creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length="25" /> of you.
+creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length="30" /> of you.
 
 __Defense.__ +1 AC.
 
@@ -24,5 +24,5 @@ __Protection.__ When a creature you can see attacks a target other than you that
 of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack
 hits, the damage is reduced by your barrier tick roll.
 
-__Sniper.__ If no hostile creature is within <me-distance length="25" /> of you, gain +2 to damage rolls on attacks
+__Sniper.__ If no hostile creature is within <me-distance length="30" /> of you, gain +2 to damage rolls on attacks
 made with a sniper rifle.

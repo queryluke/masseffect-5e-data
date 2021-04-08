@@ -39,7 +39,7 @@ Strength saving throw. On a failed saved, a creature becomes <me-condition id="f
 A target with shield points has advantage on this saving throw.
 
 If the blast strikes a body of water or a liquid that is principally water (not including water-based creatures), it
-freezes the liquid to a depth of <me-distance length="6" tiny/> over an area <me-distance length="25"/>. This ice lasts for 1 minute. Creatures that were
+freezes the liquid to a depth of <me-distance length="6" tiny/> over an area <me-distance length="30"/>. This ice lasts for 1 minute. Creatures that were
 swimming on the surface of frozen water are trapped in the ice. A trapped creature can use an action to make a Strength
 check against your power save DC to break free.
 

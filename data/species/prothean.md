@@ -10,7 +10,7 @@ abilityScoreIncrease:
 size: Protheans are slightly taller than humans but generally never taller than 2 meters (6'5"). Your size is Medium.
 speed:
   - type: walk
-    speed: 25
+    speed: 30
 snippet: The protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.
 bodyImg: https://data.n7.world/images/species/prothean.png
 img: https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802

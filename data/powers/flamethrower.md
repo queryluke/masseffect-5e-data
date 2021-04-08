@@ -24,7 +24,7 @@ availableClasses:
 - sentinel
 advancementOptions:
 - name: Concentrated Burn
-  description: Increase the damage to d12 and the distance to <me-distance length="30" />, but the area-of-effect is now a <me-distance length="50" adj /> wide line instead of a cone.
+  description: Increase the damage to d12 and the distance to <me-distance length="30" />, but the area-of-effect is now a <me-distance length="5" adj /> wide line instead of a cone.
 - name: Exhaust
   description: The flames create a thick smoke in an <me-distance length="20" adj /> cube that must encompass the cone. The area is considered heavily
     obscured until the end of your next turn.

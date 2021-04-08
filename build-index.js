@@ -10,7 +10,7 @@ function ordinal (value) {
 
 function setType(dir) {
   const types = [
-    { type: 'character', items: ['backgrounds', 'feats', 'species', 'traits', 'subspecies', 'species-variants', 'class-features'] },
+    { type: 'character', items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features'] },
     { type: 'equipment', items: ['gear', 'vehicles', 'mods', 'armor', 'weapons'] },
     { type: 'rule', items: ['conditions', 'rules'] },
     { type: 'power', items: ['powers'] },
@@ -43,7 +43,6 @@ const files = [
   'rules',
   'species',
   'species-variants',
-  'subspecies',
   'traits',
   'weapons',
 ]

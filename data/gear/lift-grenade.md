@@ -1,7 +1,7 @@
 ---
 name: Lift Grenade
 stats:
-  range: 25
+  range: 30
   blast: 10
   damageType: utility
   marks:
@@ -30,7 +30,7 @@ cost: Varies
 weight: 1
 rarity: Varies
 ---
-Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a Strength saving throw.
+Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Strength saving throw.
 On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.
 
 The mark of this grenade determines its Save DC and credits.

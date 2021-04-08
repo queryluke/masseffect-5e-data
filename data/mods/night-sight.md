@@ -13,4 +13,4 @@ availability:
   - Medium
   - Heavy
 ---
-You gain darkvision <me-distance length="75" />.
+You gain darkvision <me-distance length="90" />.

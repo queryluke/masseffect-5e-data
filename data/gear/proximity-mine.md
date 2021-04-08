@@ -1,7 +1,7 @@
 ---
 name: Proximity Mine
 stats:
-  range: .nan
+  range: 0
   blast: 5
   damageType: thunder
   marks:

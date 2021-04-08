@@ -5,7 +5,7 @@ level: 3
 subclass: juggernaut
 ---
 Starting at 3rd level, your Tech Armor is rigged for keeping the action on you. When
-you activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within <me-distance length="50" />
+you activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within <me-distance length="60" />
 that can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + powercasting modifier). On a failure,
 a creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always
 targets you when it makes a weapon or power attack.

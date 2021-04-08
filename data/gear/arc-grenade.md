@@ -1,7 +1,7 @@
 ---
 name: Arc Grenade
 stats:
-  range: 25
+  range: 30
   blast: 10
   damageType: lightning
   marks:
@@ -40,7 +40,7 @@ cost: Varies
 weight: 1
 rarity: Varies
 ---
-Target an area within <me-distance length="25" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
+Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
 A creature takes lightning damage on a failed save, or half as much damage on a successful one.
 
 The mark of this grenade determines its Save DC, damage, and cost.
