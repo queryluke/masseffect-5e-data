@@ -23,5 +23,10 @@ modules.export = {
         display_type: (ctx) => `${ctx.named('name')}:`,
         display_attack: (ctx) => `${ctx.named('toHit')}, ${ctx.named('range')}, ${ctx.named('target')}.`,
         display_damage: (ctx) => `${ctx.named('damage')} ${ctx.named('damageType')}.`,
+        display_multi_damage: (ctx) => `${ctx.named('damage1')} and ${ctx.named('damage2')}`,
+        display_grenade: (ctx) => `${ctx.named('text').replace('{{name}}', ctx.named('article_name'))}`,
+        // TODO...
+        legendary_text: '...',
+        display_legendary: (ctx) => `${ctx.named('text').replace(/{{name}}/gi, ctx.named('article_name'))}`
     }
 }

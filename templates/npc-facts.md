@@ -2,6 +2,9 @@
 image: https://....
 type: synorg # or organic or synthetic
 unit: reaper # or one of the units
+hp:
+  dieCount: 5
+  dieType: 10
 abilityScores:
   str: 10
   dex: 10
@@ -35,14 +38,13 @@ entries:
       range: 5
       target: one
       damage:
-        dieCount: 3
-        dieType: 8
-      damage: piercing
-      attackMod: str
+        - dieCount: 3
+          dieType: 8
+          type: piercing
+          mod: str
     wail:
   # legendary actions
   legendary:
-    text: The text that describes the banshees legendary actions
     actions:
       cast-a-power:
         cost: 3
@@ -86,8 +88,8 @@ powercasting:
       perDay: 6
       level: 4 # will need to retrieve the spell, check the level...if it doesn't match, indicate at a higher level
   # a leveled caster
-  caster-level: 12
-  caster-type: full # or half or third
+  casterLevel: 12
+  casterType: full # or half or third
   list:
     cantrips:
       - spell-id-1

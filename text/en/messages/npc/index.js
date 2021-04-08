@@ -15,5 +15,8 @@ modules.export = {
             synthetic: 'Synthetic'
         },
         units,
+        article_name: (ctx) => `${ctx.named('article')} ${ctx.named('name')}`,
+        article: 'The'
+
     }
 }

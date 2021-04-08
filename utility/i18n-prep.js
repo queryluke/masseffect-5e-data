@@ -31,9 +31,9 @@ function processRecharge(text) {
             recharge = sp1[1].split('-')
         }
         if (text.match(/day/i)) {
-            const sp1 = text.recharge.split('/')
+            const sp1 = text.split('/')
             uses = {
-                amount: parseInt(sp1[0]),
+                uses: parseInt(sp1[0]),
                 perDay: true
             }
         }
@@ -717,6 +717,310 @@ const models = [
             return item
         }
     },
+    {
+        dir: 'bestiary',
+        type: 'json',
+        facts: ['image', 'type', 'unit', 'alignment', 'profBonus', 'ac', 'hp', 'abilityScores', 'irv', 'savingThrows',
+            'senses', 'size', 'skills', 'speed', 'entries', 'powercasting'],
+        slug: ['type', 'unit', 'size'],
+        text: ['name', 'entries'],
+        tFlow: 5,
+        factTransform: (item, id) => {
+            item.ac = parseInt(item.ac, 10)
+            const entries = {
+                features: {},
+                actions: {},
+                legendary: {}
+            }
+            // features
+            for (const i of item.features) {
+                const featureId = generateId(i.name)
+                const {recharge, uses} = processRecharge(i.recharge)
+                if (recharge || uses) {
+                    entries.features[featureId] = {}
+                    if (recharge) {
+                        entries.features[featureId].recharge = recharge
+                    }
+                    if (uses) {
+                        entries.features[featureId].uses = uses.uses
+                        entries.features[featureId].perDay = uses.perDay
+                    }
+                }
+            }
+            // actions
+            for (const i of item.actions) {
+                // weapon
+                if (i.type === 'weapon') {
+                    entries.actions[i.id] = {
+                        ref: 'weapon'
+                    }
+                    continue
+                }
+                // grenade
+                if (/grenade/i.test(i.name)) {
+                    const gName = i.name.split(' ')
+                    const gLevel = gName.pop()
+                    const gId = generateId(gName.join(' '))
+                    const {uses} = processRecharge(i.recharge)
+                    entries.actions[gId] = {
+                        ref: 'grenade',
+                        mark: gLevel.toLowerCase(),
+                        uses: uses.uses
+                    }
+                    continue
+                }
+                const actionId = generateId(i.name)
+                const {recharge, uses} = processRecharge(i.recharge)
+                // standard
+                if (i.type === 'standard') {
+                    if (recharge || uses) {
+                        entries.actions[actionId] = {
+                            dc: false,
+                            save: false
+                        }
+                        if (recharge) {
+                            entries.actions[actionId].recharge = recharge
+                        }
+                        if (uses) {
+                            entries.actions[actionId].uses = uses.uses
+                            entries.actions[actionId].perDay = uses.perDay
+                        }
+                    }
+                    continue
+                }
+                // weapon attack
+                if (!i.hit.startsWith('The')) {
+                    const hitSplit = i.hit.split('.')
+                    const damage = hitSplit[0]
+                    const damageArray = damage.split('and').map(i => {
+                        const retObj = {
+                            dieCount: null,
+                            dieType: null,
+                            mod: null,
+                            type: null
+                        }
+                        const trimmed = i.trim()
+                        const damageMatch = trimmed.match(/(\(.*?\))/)
+                        if (damageMatch) {
+                            const spl = damageMatch[1].replace('(','').replace(')','').split(' ')[0].split('d')
+                            retObj.dieCount = spl[0]
+                            retObj.dieType = spl[1]
+                        }
+                        const typeMatch = trimmed.match(/\) (.*?) dam/)
+                        if (typeMatch) {
+                            retObj.type = typeMatch[1]
+                        }
+                    })
+                    entries.actions[actionId] = {
+                        attack: i.type,
+                        range: i.range || false,
+                        dc: false,
+                        save: false,
+                        damage: damageArray,
+                    }
+                }
+            }
+
+            // legendary
+            for (const i of item.legendaryActions) {
+                const legendaryId = generateId(i.name)
+                entries.legendary[legendaryId] = {
+                    cost: i.cost
+                }
+            }
+
+            // cleanup
+            if (_.isEmpty(entries.features)) {
+                delete entries.features
+            }
+            if (_.isEmpty(entries.actions)) {
+                delete entries.actions
+            }
+            if (_.isEmpty(entries.legendary)) {
+                delete entries.legendary
+            }
+
+            item.entries = entries
+
+            // alignment
+            item.alignment = item.alignment.split(' ').map(i => i.substr(0,1).toLowerCase()).join('')
+
+            // resistances....
+            const irv = {
+                imm: {
+                    conditions: [],
+                    damage: []
+                },
+                res: [],
+                vul: []
+            }
+            if (item.conditionImmunities && item.conditionImmunities.length > 0) {
+                irv.imm.conditions = item.conditionImmunities
+            } else {
+                delete irv.imm.conditions
+            }
+            if (item.damageImmunities && item.damageImmunities.length > 0) {
+                irv.imm.damage = item.damageImmunities
+            } else {
+                delete irv.imm.damage
+            }
+            if (item.damageResistances && item.damageResistances.length > 0) {
+                irv.res = item.damageResistances
+            } else {
+                delete irv.res
+            }
+            if (item.damageVulnerabilities && item.damageVulnerabilities.length > 0) {
+                irv.vul = item.damageVulnerabilities
+            } else {
+                delete irv.vul
+            }
+
+            // senses
+            const senses = {}
+            for (const sense of item.senses) {
+                senses[sense.sense] = sense.range
+            }
+            if (!_.isEmpty(senses)) {
+                item.senses = senses
+            }
+
+            // skills
+            item.skills = item.skills.map(i => _.snakeCase(i))
+
+            // speed
+            const speed = {}
+            for (const s of item.speed) {
+                speed[s.type] = s.range
+            }
+            if (!_.isEmpty(speed)) {
+                item.speed = speed
+            }
+
+            // hp
+            item.hp = { dieCount: item.hp.numDice, dieType: item.hp.die }
+
+            // powercasting
+            const powercasting = {}
+            if (item.powercasting) {
+                powercasting.mod = item.powercasting.mod
+                if (item.powercasting.level === 'innate') {
+                    powercasting.innate = []
+                    for (const p of item.powercasting.powerList) {
+                        const perDay = p.perDay.toLowerCase() === 'at will' ? 'at-will' : parseInt(p.perDay.split('/')[0])
+                        for (const power of p.powers) {
+                            const toPush = {
+                                id: power.id,
+                                perDay
+                            }
+                            if (power.higherLevel) {
+                                toPush.level = power.higherLevel
+                            }
+                            powercasting.innate.push(toPush)
+                        }
+                    }
+                } else {
+                    powercasting.casterLevel = item.powercasting.level
+                    powercasting.casterType = 'full'
+                    powercasting.list = item.powercasting.powerList
+                }
+            }
+            if (!_.isEmpty(powercasting)) {
+                item.powercasting = powercasting
+            }
+            return item
+        },
+        textTransform: (item, id) => {
+            const entries = {
+                features: {},
+                actions: {},
+                legendary: {},
+                reactions: {}
+            }
+            // features
+            for (const i of item.features) {
+                const featureId = generateId(i.name)
+                entries.features[featureId] = {
+                    name: i.name,
+                    text: i.description
+                }
+            }
+
+            if (item.barrier) {
+                entries.features.barrier = {
+                    name: 'Barrier',
+                    text: 'TODO: Write barrier text'
+                }
+            }
+
+            // actions
+            for (const i of item.actions) {
+                // weapon
+                if (i.type === 'weapon') {
+                    continue
+                }
+                // grenade
+                if (/grenade/i.test(i.name)) {
+                    continue
+                }
+                const actionId = generateId(i.name)
+                // standard
+                if (i.type === 'standard') {
+                    entries.actions[actionId] = {
+                        name: i.name,
+                        text: i.description
+                    }
+                    continue
+                }
+                // attack
+                const hitSplit = i.hit.split('.')
+                entries.actions[actionId] = {
+                    name: i.name
+                }
+                if (hitSplit[1]) {
+                    entries.actions[actionId].hit = hitSplit[1]
+                }
+                if (i.miss) {
+                    entries.actions[actionId].miss = i.miss
+                }
+            }
+
+            // legendary
+            for (const i of item.legendaryActions) {
+                const legendaryId = generateId(i.name)
+                entries.legendary[legendaryId] = {
+                    name: i.name,
+                    text: i.text
+                }
+            }
+
+            // reactions
+            for (const i of item.reactions) {
+                const reactionId = generateId(i.name)
+                entries.reactions[reactionId] = {
+                    name: i.name,
+                    text: i.text
+                }
+            }
+
+            // cleanup
+            if (_.isEmpty(entries.features)) {
+                delete entries.features
+            }
+            if (_.isEmpty(entries.actions)) {
+                delete entries.actions
+            }
+            if (_.isEmpty(entries.legendary)) {
+                delete entries.legendary
+            }
+            if (_.isEmpty(entries.reactions)) {
+                delete entries.reactions
+            }
+
+            item.entries = entries
+
+            return item
+        }
+    }
 ]
 
 
