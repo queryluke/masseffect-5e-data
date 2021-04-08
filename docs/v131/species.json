@@ -17,7 +17,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "The Angara are the only known extant sapient species native to the Heleus Cluster of the Andromeda galaxy and arose on the planet Havarl.",
@@ -112,7 +112,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "The asari, native to the planet Thessia, are often considered the most influential and respected sentient species in the galaxy and are known for their elegance, diplomacy, and biotic aptitude.",
@@ -188,7 +188,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "A species of four-eyed bipeds native to the world of Khar'shan, the batarians are a disreputable species that chose to isolate itself from the rest of the galaxy.",
@@ -277,7 +277,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 30,
+        "speed": 35,
         "color": "Their light frames and wiry strength make drell slightly faster than other species."
       }
     ],
@@ -341,7 +341,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 15,
+        "speed": 20,
         "color": "Elcor are relatively slow compared to other species."
       }
     ],
@@ -455,7 +455,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "The geth (\"Servant of the People\" in Khelish) are a species of networked artificial intelligences that reside beyond the Perseus Veil.",
@@ -538,13 +538,8 @@
     "speed": [
       {
         "type": "swim",
-        "speed": 25,
+        "speed": 30,
         "color": "Hanar are a water-based lifeform."
-      },
-      {
-        "type": "walk",
-        "speed": 25,
-        "color": "They rely on contra-gravitic levitation packs when not in water environments."
       }
     ],
     "snippet": "The hanar are a species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species. Hanar are known for their intense politeness when speaking and their strong religious beliefs.",
@@ -634,7 +629,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "Humans, from the planet Earth, are the newest sentient species of notable size to enter the galactic stage and are the most rapidly expanding and developing.",
@@ -672,7 +667,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25,
+        "speed": 30,
         "color": "Your speed is not slowed by heavy armor."
       }
     ],
@@ -734,7 +729,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "The protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.",
@@ -791,7 +786,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence.",
@@ -834,7 +829,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "The second species to join the Citadel, the salarians are warm-blooded amphibians native to the planet Sur'Kesh. Salarians possess a hyperactive metabolism; they think fast, talk fast, and move fast.",
@@ -896,7 +891,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 25
+        "speed": 30
       }
     ],
     "snippet": "Known for their militaristic and disciplined culture, the turians were the third species to join the Citadel Council. They gained their Council seat after defeating the hostile krogan for the Council during the Krogan Rebellions.",
@@ -1001,7 +996,7 @@
     "speed": [
       {
         "type": "walk",
-        "speed": 35
+        "speed": 40
       }
     ],
     "snippet": "Known for their unique biology and aggressive behavior, the vorcha of Heshtok are a primitive species that lives among the galaxy's darker and more dangerous locations, such as Omega.",

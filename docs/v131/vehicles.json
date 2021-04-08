@@ -41,7 +41,7 @@
       },
       {
         "name": "Inferno PKRs (16 charges)",
-        "damage": "160 (3d10[x10]) fire damage to a <me-distance length=\"25\" adj />-radius sphere. Half damage on a successful DC 18 Dexterity saving throw."
+        "damage": "160 (3d10[x10]) fire damage to a <me-distance length=\"30\" adj />-radius sphere. Half damage on a successful DC 18 Dexterity saving throw."
       }
     ],
     "cr": 21,
@@ -656,7 +656,7 @@
     "cr": 7,
     "cost": "military",
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/90/M-44_Hammerhead_2160p.png/revision/latest/scale-to-width-down/640?cb=20141021172824",
-    "html": "<p>The M-44 Hammerhead is an infantry fighting vehicle that hovers over the battlefield at up to <me-distance length=\"75\" large /> an hour.\nIt most likely follows a theme of naming armored vehicles after sharks, just like the M35 Mako.</p>\n",
+    "html": "<p>The M-44 Hammerhead is an infantry fighting vehicle that hovers over the battlefield at up to <me-distance length=\"90\" large /> an hour.\nIt most likely follows a theme of naming armored vehicles after sharks, just like the M35 Mako.</p>\n",
     "id": "m-44-hammerhead"
   },
   {
