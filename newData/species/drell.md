@@ -38,4 +38,6 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 4
+homeworld: Rakhanna (Now Kahje)
+galaxy: Milky Way
 ---

@@ -15,6 +15,9 @@ age: >-
   Drell have slightly shorter lifespans of 85 years, on average. However,
   Kepral's Syndrome - a unique, incurable disease caused by long-term exposure
   to humid climates - is the leading cause of death.
+skinColor: Shades of Green, Blue, Yellow, Orange, Red or even Violet
+eyeColor: Black
+bioticPotential: Some
 ---
 Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is
 infused with a venom mild enough to be served in drinks and may cause mild hallucinations on oral contact. Drell

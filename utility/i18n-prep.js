@@ -527,11 +527,11 @@ const models = [
     {
         dir: 'species',
         type: 'md',
-        facts: ['abilityScoreIncrease', 'speed', 'bodyImg', 'img', 'randomDimensions'],
-        text: ['name', 'alignment', 'size', 'snippet', 'age'],
+        facts: ['abilityScoreIncrease', 'speed', 'bodyImg', 'img', 'randomDimensions', 'homeworld', 'galaxy', 'language'],
+        text: ['name', 'alignment', 'size', 'snippet', 'age', 'skinColor', 'eyeColor', 'bioticPotential'],
         fFlow: 5,
         factTransform(item, id) {
-            const rdwId = id === 'angara' ? 'angaran' : id === 'hanar' ? 'hanar-length' : id
+            const rdwId = id === 'hanar' ? 'hanar-length' : id
             const rdw = JSON.parse(fs.readFileSync(`../data/random-height-weight/${rdwId}.json`, 'utf8'))
             item.randomDimensions = {
                 height: {

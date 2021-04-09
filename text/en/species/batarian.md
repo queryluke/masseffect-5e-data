@@ -14,6 +14,9 @@ snippet: >-
 age: >-
   Batarians age at about the same rate as humans, though many do not live past
   100 due to their caustic and dangerous lifestyles.
+skinColor: Shades of brown, but can have tints of red, green, yellow, and teal
+eyeColor: Black
+bioticPotential: Some
 ---
 A species of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.
 The Terminus Systems are infested with batarian pirate gangs and slaving

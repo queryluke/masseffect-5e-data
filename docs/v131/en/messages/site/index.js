@@ -64,5 +64,5 @@ export default {
     using_ability_scores: 'Using Ability Scores',
     vehicles: 'Vehicles',
     weapon_props: 'Weapon Properties',
-    weapons: 'weapons'
+    weapons: 'Weapons'
 }
