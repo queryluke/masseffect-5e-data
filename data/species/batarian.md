@@ -18,6 +18,11 @@ age: Batarians age at about the same rate as humans, though many do not live pas
 traits: []
 subspecies: []
 variants: []
+galaxy: Milky Way
+homeworld: Khar'shan
+skinColor: Shades of brown, but can have tints of red, green, yellow, and teal
+eyeColor: Black
+bioticPotential: Some
 ---
 
 A species of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.

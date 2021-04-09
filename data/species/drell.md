@@ -19,6 +19,11 @@ age: Drell have slightly shorter lifespans of 85 years, on average. However, Kep
 traits: []
 subspecies: []
 variants: []
+galaxy: Milky Way
+homeworld: Rakhanna (Now Kahje) 
+skinColor: Shades of Green, Blue, Yellow, Orange, Red or even Violet
+eyeColor: Black
+bioticPotential: Some
 ---
 
 Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is
