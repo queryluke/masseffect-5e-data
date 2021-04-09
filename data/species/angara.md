@@ -18,6 +18,12 @@ age: Angara have a standard lifespan of about 150 years, although some have been
 traits: []
 subspecies: []
 variants: []
+homeworld: Havarl
+language: Shelesh
+skinColor: Blue, Mauve, Green, or Tan
+eyeColor: Blue
+galaxy: Andromeda
+bioticPotential: None
 ---
 
 The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,
