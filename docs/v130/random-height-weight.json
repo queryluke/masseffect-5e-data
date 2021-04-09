@@ -1,6 +1,6 @@
 [
   {
-    "species": "Angaran",
+    "species": "Angara",
     "base": "5'6\"",
     "baseCm": "168",
     "heightModifier": "2d6",
@@ -9,7 +9,7 @@
     "weightKg": "66",
     "weightModifier": "2d4",
     "weightModifierKg": "(1d4 / 2)",
-    "id": "angaran"
+    "id": "angara"
   },
   {
     "species": "Asari",
@@ -94,6 +94,18 @@
     "weightModifier": "1d6",
     "weightModifierKg": "(1d6 / 2)",
     "id": "hanar-length"
+  },
+  {
+    "species": "Hanar (Length)",
+    "base": "4'0\"",
+    "baseCm": "122",
+    "heightModifier": "2d6",
+    "heightModifierCm": "5d6",
+    "baseWeight": "75 lb",
+    "weightKg": "34",
+    "weightModifier": "1d6",
+    "weightModifierKg": "(1d6 / 2)",
+    "id": "hanar"
   },
   {
     "species": "Human",

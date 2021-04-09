@@ -18,6 +18,12 @@ age: Asari are very long-lived and can reach ages of over 1000 years.
 traits: []
 subspecies: []
 variants: []
+galaxy: Milky Way
+homeworld: Thessia
+language: Asári
+skinColor: Light or Dark Blue (rarely Green)
+eyeColor: Blue, Red, Orange, or Black (Embrace Eternity!)
+bioticPotential: All
 ---
 
 Asari are a species of elegant, mono-gendered humanoids. The asari resemble female humans with blue or purple skin and a
