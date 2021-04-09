@@ -1,5 +1,3 @@
-modules.export = {
-    powercasting: {
-        // TODO:...
-    }
+export default {
+    // TODO:...
 }

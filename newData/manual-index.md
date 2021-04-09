@@ -1,5 +1,6 @@
 ---
-- title: intro
+- id: intro
+  title: intro
   sections:
     - id: about-the-players-manual
       sections: []
