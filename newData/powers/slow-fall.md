@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   navigate:
     mechanics: []
+classes:
+  - adept
+  - vanguard
 ---

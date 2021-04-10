@@ -31,4 +31,6 @@ advancements:
     mechanics: []
   half-blast:
     mechanics: []
+classes:
+  - vanguard
 ---

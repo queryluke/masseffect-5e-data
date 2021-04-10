@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   cold-aura:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

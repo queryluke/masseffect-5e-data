@@ -32,4 +32,6 @@ advancements:
     mechanics: []
   armored:
     mechanics: []
+classes:
+  - adept
 ---

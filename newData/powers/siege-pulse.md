@@ -32,4 +32,7 @@ advancements:
     mechanics: []
   lingering-pulse:
     mechanics: []
+classes:
+  - soldier
+  - vanguard
 ---

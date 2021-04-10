@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   aegis:
     mechanics: []
+classes:
+  - engineer
+  - sentinel
 ---

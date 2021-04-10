@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   frigid-air:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

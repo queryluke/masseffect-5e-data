@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   extended-cast:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

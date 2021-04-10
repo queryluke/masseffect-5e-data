@@ -31,4 +31,7 @@ advancements:
     mechanics: []
   improved-radius:
     mechanics: []
+classes:
+  - soldier
+  - vanguard
 ---

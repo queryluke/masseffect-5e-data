@@ -28,4 +28,7 @@ advancements:
     mechanics: []
   venting-fortification:
     mechanics: []
+classes:
+  - soldier
+  - vanguard
 ---

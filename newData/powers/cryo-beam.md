@@ -32,4 +32,8 @@ advancements:
     mechanics: []
   frozen-ground:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

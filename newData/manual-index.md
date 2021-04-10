@@ -26,7 +26,8 @@
       sections: []
       is_change: false
       is_new: false
-- title: using_ability_scores
+- id: using-ability-scores
+  title: using_ability_scores
   sections:
     - id: ability-scores-and-modifiers
       sections: []
@@ -72,7 +73,8 @@
       sections: []
       is_change: false
       is_new: false
-- title: combat
+- id: combat
+  title: combat
   sections:
     - id: the-order-of-combat
       sections: []
@@ -102,7 +104,8 @@
       sections: []
       is_change: false
       is_new: true
-- title: character_creation
+- id: character-creation
+  title: character_creation
   sections:
     - id: choose-a-species
       sections: []
@@ -148,7 +151,8 @@
       sections: []
       is_change: false
       is_new: false
-- title: equipment
+- id: equipment
+  title: equipment
   sections:
     - id: starting-equipment
       sections: []
@@ -182,7 +186,8 @@
       sections: []
       is_change: false
       is_new: true
-- title: vehicles
+- id: vehicles
+  title: vehicles
   sections:
     - id: concept
       sections: []
@@ -216,7 +221,8 @@
       sections: []
       is_change: false
       is_new: false
-- title: missions
+- id: missions
+  title: missions
   sections:
     - id: time
       sections: []
@@ -258,7 +264,8 @@
       sections: []
       is_change: false
       is_new: false
-- title: powercasting
+- id: powercasting
+  title: powercasting
   sections:
     - id: what-is-a-spell
       sections: []
@@ -288,7 +295,8 @@
       sections: []
       is_change: false
       is_new: true
-- title: finances
+- id: finances
+  title: finances
   sections:
     - id: wealth
       sections: []
@@ -310,7 +318,8 @@
       sections: []
       is_change: true
       is_new: false
-- title: bestiary
+- id: bestiary
+  title: bestiary
   sections:
     - id: overview
       sections: []
@@ -324,7 +333,8 @@
       sections: []
       is_change: false
       is_new: false
-- title: beyond_first_level
+- id: beyond-first-level
+  title: beyond_first_level
   sections:
     - id: multiclassing
       sections: []

@@ -28,4 +28,7 @@ advancements:
     mechanics: []
   dual-trophy:
     mechanics: []
+classes:
+  - infiltrator
+  - soldier
 ---

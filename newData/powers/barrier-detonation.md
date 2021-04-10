@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   heavy-lift:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

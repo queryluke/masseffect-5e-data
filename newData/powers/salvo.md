@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   blinding-salvo:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

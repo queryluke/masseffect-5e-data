@@ -28,4 +28,7 @@ advancements:
     mechanics: []
   safe-landing:
     mechanics: []
+classes:
+  - adept
+  - vanguard
 ---

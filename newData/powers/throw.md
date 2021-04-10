@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   improved-damage:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

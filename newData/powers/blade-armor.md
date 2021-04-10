@@ -33,4 +33,6 @@ advancements:
     mechanics: []
   retribution:
     mechanics: []
+classes:
+  - soldier
 ---

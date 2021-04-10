@@ -406,7 +406,7 @@ const models = [
         dir: 'powers',
         type: 'md',
         facts: ['level', 'type', 'attack', 'save', 'effect', 'damageType', 'castingTimes',
-            'duration', 'instant', 'concentration', 'range', 'aoe', 'detonates', 'primes', 'advancements'],
+            'duration', 'instant', 'concentration', 'range', 'aoe', 'detonates', 'primes', 'advancements', 'availableClasses'],
         text: ['name', 'description', 'reactionQualifier', 'advancements'],
         replaceKeys: [
             { from: 'effect', to: 'tags'},

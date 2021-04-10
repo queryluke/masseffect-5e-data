@@ -32,4 +32,7 @@ advancements:
     mechanics: []
   destined-hit:
     mechanics: []
+classes:
+  - sentinel
+  - vanguard
 ---

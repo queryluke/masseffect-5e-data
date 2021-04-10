@@ -28,4 +28,7 @@ advancements:
     mechanics: []
   shield-restore:
     mechanics: []
+classes:
+  - engineer
+  - sentinel
 ---

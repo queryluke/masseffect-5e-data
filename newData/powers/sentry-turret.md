@@ -30,4 +30,6 @@ advancements:
     mechanics: []
   shields:
     mechanics: []
+classes:
+  - engineer
 ---

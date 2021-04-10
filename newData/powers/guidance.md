@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   improved-tap:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

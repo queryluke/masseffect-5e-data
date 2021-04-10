@@ -30,4 +30,6 @@ advancements:
     mechanics: []
   improved-accuracy:
     mechanics: []
+classes:
+  - soldier
 ---

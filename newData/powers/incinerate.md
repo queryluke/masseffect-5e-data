@@ -28,4 +28,8 @@ advancements:
     mechanics: []
   radial-blast:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

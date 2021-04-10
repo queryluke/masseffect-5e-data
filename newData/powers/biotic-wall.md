@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   shifting-wall:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

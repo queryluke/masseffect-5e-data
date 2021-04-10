@@ -28,4 +28,6 @@ advancements:
     mechanics: []
   large-shield:
     mechanics: []
+classes:
+  - soldier
 ---

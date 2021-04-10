@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   disorient:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

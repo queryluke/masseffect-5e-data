@@ -31,4 +31,7 @@ advancements:
     mechanics: []
   remote-deploy:
     mechanics: []
+classes:
+  - infiltrator
+  - soldier
 ---

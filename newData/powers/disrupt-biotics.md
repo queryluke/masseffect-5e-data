@@ -28,4 +28,8 @@ advancements:
     mechanics: []
   psychic-strain:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

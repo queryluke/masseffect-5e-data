@@ -32,4 +32,7 @@ advancements:
     mechanics: []
   retribution:
     mechanics: []
+classes:
+  - adept
+  - vanguard
 ---

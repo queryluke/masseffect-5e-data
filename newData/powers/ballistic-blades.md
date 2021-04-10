@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   exploding-blades:
     mechanics: []
+classes:
+  - infiltrator
+  - soldier
+  - vanguard
 ---

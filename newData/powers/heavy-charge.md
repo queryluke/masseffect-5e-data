@@ -32,4 +32,6 @@ advancements:
     mechanics: []
   heavy-step:
     mechanics: []
+classes:
+  - vanguard
 ---

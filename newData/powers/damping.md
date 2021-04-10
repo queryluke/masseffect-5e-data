@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   power-damping:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

@@ -30,4 +30,6 @@ advancements:
     mechanics: []
   damage:
     mechanics: []
+classes:
+  - adept
 ---

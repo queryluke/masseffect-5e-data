@@ -29,4 +29,6 @@ advancements:
     mechanics: []
   heat-seeking-flare:
     mechanics: []
+classes:
+  - adept
 ---

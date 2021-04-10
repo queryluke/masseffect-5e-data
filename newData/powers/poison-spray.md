@@ -29,4 +29,7 @@ advancements:
     mechanics: []
   poison-cloud:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

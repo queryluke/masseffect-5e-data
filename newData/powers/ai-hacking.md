@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   power-down:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

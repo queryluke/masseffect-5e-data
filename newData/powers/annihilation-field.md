@@ -33,4 +33,6 @@ advancements:
     mechanics: []
   phasic:
     mechanics: []
+classes:
+  - adept
 ---

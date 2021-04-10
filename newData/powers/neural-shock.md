@@ -28,4 +28,7 @@ advancements:
     mechanics: []
   paralyze:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

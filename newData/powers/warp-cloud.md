@@ -33,4 +33,7 @@ advancements:
     mechanics: []
   shift:
     mechanics: []
+classes:
+  - adept
+  - vanguard
 ---

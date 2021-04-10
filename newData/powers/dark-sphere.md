@@ -33,4 +33,6 @@ advancements:
     mechanics: []
   amplify:
     mechanics: []
+classes:
+  - adept
 ---

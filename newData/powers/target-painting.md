@@ -32,4 +32,8 @@ advancements:
     mechanics: []
   lasting-scan:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

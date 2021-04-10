@@ -29,4 +29,6 @@ advancements:
     mechanics: []
   anti-synthetic:
     mechanics: []
+classes:
+  - adept
 ---

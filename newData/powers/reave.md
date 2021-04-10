@@ -30,4 +30,6 @@ advancements:
     mechanics: []
   immediate-detonation:
     mechanics: []
+classes:
+  - adept
 ---

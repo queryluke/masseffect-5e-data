@@ -35,4 +35,6 @@ advancements:
     mechanics: []
   growing-storm:
     mechanics: []
+classes:
+  - adept
 ---

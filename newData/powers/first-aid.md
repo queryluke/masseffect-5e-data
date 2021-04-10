@@ -28,4 +28,8 @@ advancements:
     mechanics: []
   improved-healing:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

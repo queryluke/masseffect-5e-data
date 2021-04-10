@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   telegraphed-attacks:
     mechanics: []
+classes:
+  - infiltrator
+  - soldier
 ---

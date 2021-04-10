@@ -29,4 +29,6 @@ advancements:
     mechanics: []
   three-headed-beast:
     mechanics: []
+classes:
+  - soldier
 ---

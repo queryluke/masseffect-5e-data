@@ -33,4 +33,8 @@ advancements:
     mechanics: []
   anti-tech:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

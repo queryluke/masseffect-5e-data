@@ -32,4 +32,8 @@ advancements:
     mechanics: []
   plague:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

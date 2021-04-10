@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   backfire:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

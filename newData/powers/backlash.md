@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   counterstrike:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

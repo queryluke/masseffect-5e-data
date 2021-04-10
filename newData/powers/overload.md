@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   heavy-overload:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   debilitate:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

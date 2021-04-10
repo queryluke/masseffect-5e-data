@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   grip:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

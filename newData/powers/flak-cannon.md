@@ -31,4 +31,6 @@ advancements:
     mechanics: []
   stunner:
     mechanics: []
+classes:
+  - soldier
 ---

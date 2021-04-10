@@ -31,4 +31,8 @@ advancements:
     mechanics: []
   exhaust:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

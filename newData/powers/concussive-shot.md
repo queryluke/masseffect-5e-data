@@ -30,4 +30,6 @@ advancements:
     mechanics: []
   improved-shot:
     mechanics: []
+classes:
+  - soldier
 ---

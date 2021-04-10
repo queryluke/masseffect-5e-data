@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   powerful-poison:
     mechanics: []
+classes:
+  - infiltrator
+  - soldier
+  - vanguard
 ---

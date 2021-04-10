@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   cripple:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

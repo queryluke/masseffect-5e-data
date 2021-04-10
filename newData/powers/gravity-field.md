@@ -32,4 +32,7 @@ advancements:
     mechanics: []
   warping-field:
     mechanics: []
+classes:
+  - adept
+  - vanguard
 ---

@@ -31,4 +31,8 @@ advancements:
     mechanics: []
   deep-stasis:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

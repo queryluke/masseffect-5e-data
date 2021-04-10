@@ -30,4 +30,6 @@ advancements:
     mechanics: []
   area-charge:
     mechanics: []
+classes:
+  - vanguard
 ---

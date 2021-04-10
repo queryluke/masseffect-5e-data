@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   custom-current:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---

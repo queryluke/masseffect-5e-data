@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   high-tolerance:
     mechanics: []
+classes:
+  - infiltrator
+  - soldier
+  - vanguard
 ---

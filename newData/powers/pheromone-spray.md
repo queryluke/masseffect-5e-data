@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   aggression:
     mechanics: []
+classes:
+  - engineer
+  - sentinel
+  - infiltrator
 ---

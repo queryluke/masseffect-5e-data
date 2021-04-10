@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   siphoning-strike:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---

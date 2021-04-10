@@ -30,4 +30,8 @@ advancements:
     mechanics: []
   brittle-freeze:
     mechanics: []
+classes:
+  - engineer
+  - sentinel
+  - infiltrator
 ---

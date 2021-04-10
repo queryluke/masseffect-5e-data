@@ -29,4 +29,7 @@ advancements:
     mechanics: []
   improved-regen:
     mechanics: []
+classes:
+  - engineer
+  - sentinel
 ---

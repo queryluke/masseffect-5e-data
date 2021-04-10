@@ -30,4 +30,7 @@ advancements:
     mechanics: []
   improved-decoy:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

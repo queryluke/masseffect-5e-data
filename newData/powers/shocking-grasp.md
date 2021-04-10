@@ -28,4 +28,7 @@ advancements:
     mechanics: []
   improved-shock:
     mechanics: []
+classes:
+  - engineer
+  - infiltrator
 ---

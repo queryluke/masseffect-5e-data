@@ -29,4 +29,8 @@ advancements:
     mechanics: []
   reaction:
     mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---
