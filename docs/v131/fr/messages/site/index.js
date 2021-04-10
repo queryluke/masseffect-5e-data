@@ -57,23 +57,12 @@ export default {
     random_height_weight: 'Random Height & Weight',
     rules: 'Rules',
     search: 'Search',
-    settings: {
-        label: 'Settings',
-        dark: 'Dark',
-        light: 'Light',
-        imperial: 'Imperial',
-        metric: 'Metric',
-        units: 'Units',
-        mode: 'Mode',
-        language: 'Language'
-    },
     skills: 'Skills',
     species: 'Species',
     tool_profs: 'Tool Proficiencies',
     tools_guides: 'Site Tools & Guides',
     using_ability_scores: 'Using Ability Scores',
     vehicles: 'Vehicles',
-    version: 'VERSION',
     weapon_props: 'Weapon Properties',
     weapons: 'Weapons'
 }

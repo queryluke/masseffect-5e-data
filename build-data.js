@@ -43,15 +43,6 @@ md.renderer.rules.image = function (tokens, idx, options, env, self) {
   return `<v-img src="${src}" />`
 }
 
-md.renderer.rules.link_open = function(tokens, idx) {
-  const token = tokens[idx]
-  const href = token.attrs[0][1]
-  if (/^\//.test(href)) {
-    return `<nuxt-link to="${href}">`
-  } else {
-    return `<a href="${href}" target="_blank">`
-  }
-}
 md.renderer.rules.link_close = function(tokens, idx) {
   const pToken = tokens[idx - 2]
   const href = pToken.attrs[0][1]
@@ -59,6 +50,21 @@ md.renderer.rules.link_close = function(tokens, idx) {
     return `</nuxt-link>`
   } else {
     return '</a>'
+  }
+}
+
+const setLinkLocalePrefix = (lang = null) => {
+  md.renderer.rules.link_open = function(tokens, idx) {
+    const token = tokens[idx]
+    let href = token.attrs[0][1]
+    if (/^\//.test(href)) {
+      if (lang) {
+        href = `/${lang}${href}`
+      }
+      return `<nuxt-link to="${href}">`
+    } else {
+      return `<a href="${href}" target="_blank">`
+    }
   }
 }
 
@@ -79,6 +85,7 @@ const dataDirs = fs.readdirSync(dataPath)
 
 for (const lang of langs) {
   const targetPath = `${versionDir}/${lang}`
+  setLinkLocalePrefix(lang === 'en' ? null : lang)
 
   // create the target if it doesn't exist
   if (!fs.existsSync(targetPath)) {
@@ -106,6 +113,10 @@ for (const lang of langs) {
   // process data dirs
   for (const dir of dataDirs) {
     if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir)) {
+      continue
+    }
+    // don't render the changelog in anything but english
+    if (dir === 'changelog' && lang !== 'en') {
       continue
     }
     const modelDataPath = `${dataPath}/${dir}`

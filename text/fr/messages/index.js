@@ -39,6 +39,7 @@ export const messages = {
     starting_credits: 'Starting Credits',
     tags,
     times,
+    title: 'Mass Effect 5e',
     tool_profs: {
         types: {
             artisan: 'Artisan',
