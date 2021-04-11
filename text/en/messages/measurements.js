@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     // TODO:...
     lb: {
         full: 'pounds | pound | {n} pounds',

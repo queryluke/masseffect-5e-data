@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     tiny: 'tiny',
     small: 'small',
     medium: 'medium',

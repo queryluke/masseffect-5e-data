@@ -1,4 +1,6 @@
-export default {
+module.exports = {
+    label: 'vehicles',
+    title: 'Vehicles',
     types: {
         starship: 'Starship',
         transport: 'Transport'

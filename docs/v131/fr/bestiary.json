@@ -320,10 +320,6 @@
           "ref": "grenade",
           "mark": "iii",
           "uses": 2
-        },
-        "frag-grenade-iii": {
-          "name": "Frag Grenade III",
-          "text": "The assault trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
         }
       }
     },
@@ -399,10 +395,6 @@
           "ref": "grenade",
           "mark": "grenade",
           "uses": 5
-        },
-        "smoke-grenade": {
-          "name": "Smoke Grenade",
-          "text": "The atlas targets an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/> cube centered on the target location. The cloud's area is heavily obscured and persists for 30 seconds. A moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the smoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour) can do so immediately."
         }
       },
       "legendary": {
@@ -1103,10 +1095,6 @@
           "ref": "grenade",
           "mark": "iii",
           "uses": 2
-        },
-        "inferno-grenade-iii": {
-          "name": "Inferno Grenade III",
-          "text": "The legionnaire targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature suffers 3d4 fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute.\n\nA creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there."
         }
       },
       "reactions": {
@@ -1350,10 +1338,6 @@
         "multiattack": {
           "name": "Multiattack",
           "text": "The cannibal makes 2 Arm Cannon attacks."
-        },
-        "frag-grenade-iii": {
-          "name": "Frag Grenade III",
-          "text": "The cannibal targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
         }
       },
       "features": {
@@ -1417,14 +1401,6 @@
         "multiattack": {
           "name": "Multiattack",
           "text": "The centurion makes two M-96 Mattock attacks or two Stun Baton attacks."
-        },
-        "frag-grenade-iii": {
-          "name": "Frag Grenade III",
-          "text": "The centurion targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
-        },
-        "smoke-grenade": {
-          "name": "Smoke Grenade",
-          "text": "The centurion targets an area within <me-distance length=\"25\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/> cube centered on the target location. The cloud's area is heavily obscured and persists for 30 seconds. A moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the smoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour) can do so immediately."
         }
       },
       "features": {
@@ -1883,10 +1859,6 @@
         "collector-web": {
           "name": "Collector Web",
           "hit": " As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success"
-        },
-        "frag-grenade-iii": {
-          "name": "Frag Grenade III",
-          "text": "The collector trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
         }
       },
       "features": {
@@ -2458,10 +2430,6 @@
           "ref": "grenade",
           "mark": "iii",
           "uses": 2
-        },
-        "flashbang-grenade-iii": {
-          "name": "Flashbang Grenade III",
-          "text": "The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn."
         }
       },
       "features": {
@@ -2796,10 +2764,6 @@
           "ref": "grenade",
           "mark": "ii",
           "uses": 2
-        },
-        "multi-frag-grenade-ii": {
-          "name": "Multi-frag Grenade II",
-          "text": "The geth bomber targets 3 areas within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of each target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 1d4 piercing damage or half as much on a successful one."
         }
       }
     },
@@ -3697,10 +3661,6 @@
           "ref": "grenade",
           "mark": "iii",
           "uses": 2
-        },
-        "frag-grenade-iii": {
-          "name": "Frag Grenade III",
-          "text": "The assault trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one."
         }
       }
     },
@@ -3960,14 +3920,6 @@
         "multiattack": {
           "name": "Multiattack",
           "text": "The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade."
-        },
-        "arc-grenade-iii": {
-          "name": "Arc Grenade III",
-          "text": "The N7 demolisher targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one."
-        },
-        "homing-grenade-i": {
-          "name": "Homing Grenade I",
-          "text": "The N7 demolisher targets a creature within <me-distance length=\"25\" />. The target suffers 1d6 thunder damage. Each other creature within <me-distance length=\"5\" /> of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature suffers 1d6 thunder damage or half as much on a successful one."
         },
         "repair": {
           "name": "Repair",
@@ -5609,10 +5561,6 @@
         "multiattack": {
           "name": "Multiattack",
           "text": "The agent makes 2 attacks with its Scorpion."
-        },
-        "flashbang-grenade-iii": {
-          "name": "Flashbang Grenade III",
-          "text": "The eclipse trooper targets an area within <me-distance length=\"25\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Constitution saving throw. On a failed save, a creature is <me-condition id=\"blinded\"/> until the end of it's next turn."
         },
         "explosive-decoy": {
           "name": "Explosive Decoy",

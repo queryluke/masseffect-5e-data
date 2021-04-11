@@ -1,42 +1,16 @@
-import home from './home'
+const home = require('./home')
 
-export default {
-    about: 'About',
-    about_bestiary: 'About the Bestiary',
-    appendix: 'Appendix',
-    armor: 'Armor',
-    assets: 'Assets',
-    backgrounds: 'Backgrounds',
-    bestiary: 'Bestiary',
-    beyond_first_level: 'Beyond 1st Level',
-    bookmarks: 'Bookmarks',
-    change: 'change',
-    changelog: 'Changelog',
-    combat: 'Combat',
-    conditions: 'Conditions',
-    character_builder: 'Character Builder',
-    character_creation: 'Step-By-Step Characters',
-    characters: 'Characters',
-    classes: 'Classes',
-    creating_armor: 'Creating Armor',
-    creating_encounters: 'Creating Encounters',
-    creating_vehicles: 'Creating Vehicles',
-    equipment: 'Equipment',
-    finances: 'Finances',
-    feats: 'Feats',
-    gear: 'Gear',
-    generators: 'Generators',
-    guides: 'Guides',
-    intro: 'Introduction',
+module.exports = {
+    generators: {
+        title: 'Generators',
+        loot_generator: 'Loot Generator',
+        npc_generator: 'NPC Generator',
+        character_builder: 'Character Builder'
+    },
     join_community: 'Join the community',
-    license: 'License',
-    loot_generator: 'Loot Generator',
-    missions: 'Missions',
-    mods: 'Mods',
-    new: 'new',
-    npc_generator: 'NPC Generator',
     pages: {
         about: {
+            title: 'About',
             all_others: 'And any/all the others in the Discord and Reddit community who have contributed ideas and/or words of motivation!',
             roles: {
                 creator: 'Creator, Website Developer',
@@ -49,12 +23,20 @@ export default {
                 designer: 'Graphics Designer'
             }
         },
+        assets: {
+            title: 'Assets'
+        },
+        bookmarks: {
+            title: 'Bookmarks'
+        },
+        changelog: {
+            title: 'Changelog'
+        },
         home,
+        license: {
+            title: 'License'
+        },
     },
-    players_manual: `Player's Manual`,
-    powercasting: 'Powercasting',
-    powers: 'Powers',
-    random_height_weight: 'Random Height & Weight',
     rules: 'Rules',
     search: 'Search',
     settings: {
@@ -67,13 +49,6 @@ export default {
         mode: 'Mode',
         language: 'Language'
     },
-    skills: 'Skills',
-    species: 'Species',
-    tool_profs: 'Tool Proficiencies',
-    tools_guides: 'Site Tools & Guides',
-    using_ability_scores: 'Using Ability Scores',
-    vehicles: 'Vehicles',
-    version: 'VERSION',
-    weapon_props: 'Weapon Properties',
-    weapons: 'Weapons'
+    tools_guides: 'Tools & Guides',
+    version: 'VERSION'
 }

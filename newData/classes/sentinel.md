@@ -1,5 +1,8 @@
 ---
-primaryAbility: cha
+primaryAbility:
+  - cha
+  - int
+  - wis
 hitDie: 10
 profs:
   armor:

@@ -1,14 +1,17 @@
-import armor from './armor'
-import gear from './gear'
-import vehicles from './vehicles'
-import weapons from './weapons'
-export default {
+const armor = require('./armor')
+const gear = require('./gear')
+const vehicles = require('./vehicles')
+const weapons = require('./weapons')
+module.exports = {
+    title: 'Equipment',
     armor,
     gear,
     manufacturers: {
         // TODO: ...
     },
     mods: {
+        title: 'Mod | Mods',
+        label: 'mod',
         armor: 'Armor Mod',
         weapon: 'Weapon Mod',
         weapon_placement: {

@@ -1,5 +1,6 @@
 ---
-primaryAbility: wis
+primaryAbility:
+  - wis
 hitDie: 6
 profs:
   armor:

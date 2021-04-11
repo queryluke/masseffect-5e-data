@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     instant: 'Instant',
     attack: 'Attack',
     action: 'Action',

@@ -1,31 +1,51 @@
-import abilities from './abilities'
-import alignments from './alignments'
-import damage_types from'./damage-types'
-import equipment from './equipment'
-import measurements from './measurements'
-import { manual, guide } from './manual'
-import npc from './npc'
-import powers from './powers'
-import senses from './senses'
-import site from './site'
-import sizes from './sizes'
-import speeds from './speeds'
-import tags from './tags'
-import times from './times'
+const abilities = require('./abilities')
+const alignments = require('./alignments')
+const character = require('./character')
+const damage_types = require('./damage-types')
+const equipment = require('./equipment')
+const lists = require('./lists')
+const measurements = require('./measurements')
+const { manual, guide } = require ('./manual')
+const npc = require('./npc')
+const powers = require('./powers')
+const senses = require ('./senses')
+const site = require('./site')
+const sizes = require('./sizes')
+const speeds = require('./speeds')
+const tags = require('./tags')
+const times = require('./times')
 
-export const messages = {
+module.exports = {
     abilities,
     alignments,
-    damage: 'damage',
+    appendix: {
+        title: 'Appendix'
+    },
     cost: {
-        credits: 'credits | credit | {n} credits',
+        credits: 'no credits | credit | {n} credits',
         military: 'military',
         varies: 'varies'
     },
+    backgrounds: {
+        title: 'Backgrounds'
+    },
+    bestiary: {
+        title: 'Bestiary'
+    },
+    chips: {
+        change: 'change',
+        new: 'new'
+    },
+    conditions: {
+        title: 'Conditions'
+    },
+    character,
+    damage: 'damage',
     damage_types,
-    dice: (ctx) => `${ctx.named('dieCount') || ''}d${ctx.named('dieType')}`,
+    dice: `{dieCount}d{dieType}`,
     equipment,
     guide,
+    lists,
     manual,
     measurements,
     npc,
@@ -40,7 +60,11 @@ export const messages = {
     tags,
     times,
     title: 'Mass Effect 5e',
+    skills: {
+        title: 'Skills'
+    },
     tool_profs: {
+        title: 'Tool Proficiencies',
         types: {
             artisan: 'Artisan',
             starship: 'Starship'

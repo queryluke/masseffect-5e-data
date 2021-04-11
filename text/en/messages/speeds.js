@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     walk: 'walking',
     fly: 'flying',
     swim: 'swiming',

@@ -12,6 +12,9 @@ snippet: >-
 age: >-
   Angara have a standard lifespan of about 150 years, although some have been
   known to live past 200.
+skinColor: Blue, Mauve, Green, or Tan
+eyeColor: Blue
+bioticPotential: None
 ---
 The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,
 sometimes shading into green or tan. They are the only known extant

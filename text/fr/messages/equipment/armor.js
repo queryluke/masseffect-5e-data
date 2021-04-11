@@ -1,5 +1,6 @@
-export default {
+module.exports = {
     label: 'armor',
+    title: 'Armor',
     placement: {
         head: 'Head',
         chest: 'Chest',
@@ -19,5 +20,5 @@ export default {
     },
     set_bonus: 'Set bonus',
     // e.g. 2 of 4
-    set_bonus_range: (ctx) => `${ctx.named('threshold')} of ${ctx.named('total')}`
+    // set_bonus_range: (ctx) => `${ctx.named('threshold')} of ${ctx.named('total')}`
 }

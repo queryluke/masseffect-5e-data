@@ -1,5 +1,6 @@
 ---
-primaryAbility: dex
+primaryAbility:
+  - dex
 hitDie: 8
 profs:
   armor:

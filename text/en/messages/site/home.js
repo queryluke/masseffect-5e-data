@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     title: 'Mass Effect + D&D 5th Edition',
     subtitle: 'An Unofficial D&D 5th Edition homebrew for Mass Effect',
     get_started: 'Get Started',

@@ -1,5 +1,6 @@
 ---
-primaryAbility: int
+primaryAbility:
+  - int
 hitDie: 8
 profs:
   armor:

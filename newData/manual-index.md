@@ -1,6 +1,6 @@
 ---
 - id: intro
-  title: intro
+  title: manual.intro
   sections:
     - id: about-the-players-manual
       sections: []
@@ -26,86 +26,8 @@
       sections: []
       is_change: false
       is_new: false
-- id: using-ability-scores
-  title: using_ability_scores
-  sections:
-    - id: ability-scores-and-modifiers
-      sections: []
-      is_change: false
-      is_new: false
-    - id: advantage-and-disadvantage
-      sections: []
-      is_change: false
-      is_new: false
-    - id: proficiency-bonus
-      sections: []
-      is_change: false
-      is_new: false
-    - id: ability-checks
-      sections: []
-      is_change: true
-      is_new: false
-    - id: strength
-      sections: []
-      is_change: true
-      is_new: false
-    - id: dexterity
-      sections: []
-      is_change: true
-      is_new: false
-    - id: constitution
-      sections: []
-      is_change: false
-      is_new: false
-    - id: intelligence
-      sections: []
-      is_change: true
-      is_new: false
-    - id: wisdom
-      sections: []
-      is_change: false
-      is_new: false
-    - id: charisma
-      sections: []
-      is_change: false
-      is_new: false
-    - id: saving-throws
-      sections: []
-      is_change: false
-      is_new: false
-- id: combat
-  title: combat
-  sections:
-    - id: the-order-of-combat
-      sections: []
-      is_change: false
-      is_new: false
-    - id: movement-position
-      sections: []
-      is_change: false
-      is_new: false
-    - id: actions-in-combat
-      sections: []
-      is_change: true
-      is_new: false
-    - id: making-an-attack
-      sections: []
-      is_change: false
-      is_new: false
-    - id: cover
-      sections: []
-      is_change: true
-      is_new: false
-    - id: damage-and-healing
-      sections: []
-      is_change: false
-      is_new: false
-    - id: shields
-      sections: []
-      is_change: false
-      is_new: true
 - id: character-creation
-  title: character_creation
+  title: manual.character_creation
   sections:
     - id: choose-a-species
       sections: []
@@ -151,78 +73,70 @@
       sections: []
       is_change: false
       is_new: false
-- id: equipment
-  title: equipment
+- id: beyond-first-level
+  title: manual.beyond_first_level
   sections:
-    - id: starting-equipment
-      sections: []
-      is_change: false
-      is_new: false
-    - id: armor
+    - id: multiclassing
       sections: []
       is_change: true
       is_new: false
-    - id: custom-armor
+    - id: inspiration
       sections: []
       is_change: false
-      is_new: true
-    - id: weapons
-      sections: []
-      is_change: true
       is_new: false
-    - id: mods
+    - id: variant-paragon-renegade
       sections: []
       is_change: false
       is_new: true
-    - id: mission-critical-gear
-      sections: []
-      is_change: false
-      is_new: true
-    - id: tools-kits
-      sections: []
-      is_change: true
-      is_new: false
-    - id: omni-tool-programs
-      sections: []
-      is_change: false
-      is_new: true
-- id: vehicles
-  title: vehicles
+- id: using-ability-scores
+  title: manual.using_ability_scores
   sections:
-    - id: concept
+    - id: ability-scores-and-modifiers
       sections: []
       is_change: false
       is_new: false
-    - id: transports-vs-starships
+    - id: advantage-and-disadvantage
       sections: []
       is_change: false
       is_new: false
-    - id: basic-information
+    - id: proficiency-bonus
       sections: []
       is_change: false
       is_new: false
-    - id: systems
+    - id: ability-checks
+      sections: []
+      is_change: true
+      is_new: false
+    - id: strength
+      sections: []
+      is_change: true
+      is_new: false
+    - id: dexterity
+      sections: []
+      is_change: true
+      is_new: false
+    - id: constitution
       sections: []
       is_change: false
       is_new: false
-    - id: crew
+    - id: intelligence
+      sections: []
+      is_change: true
+      is_new: false
+    - id: wisdom
       sections: []
       is_change: false
       is_new: false
-    - id: starship-combat
+    - id: charisma
       sections: []
       is_change: false
       is_new: false
-    - id: travel
-      sections: []
-      is_change: false
-      is_new: false
-    - id: variant-rules
+    - id: saving-throws
       sections: []
       is_change: false
       is_new: false
 - id: missions
-  title: missions
+  title: manual.missions
   sections:
     - id: time
       sections: []
@@ -264,8 +178,132 @@
       sections: []
       is_change: false
       is_new: false
+- id: equipment
+  title: manual.equipment
+  sections:
+    - id: starting-equipment
+      sections: []
+      is_change: false
+      is_new: false
+    - id: armor
+      sections: []
+      is_change: true
+      is_new: false
+    - id: custom-armor
+      sections: []
+      is_change: false
+      is_new: true
+    - id: weapons
+      sections: []
+      is_change: true
+      is_new: false
+    - id: mods
+      sections: []
+      is_change: false
+      is_new: true
+    - id: mission-critical-gear
+      sections: []
+      is_change: false
+      is_new: true
+    - id: tools-kits
+      sections: []
+      is_change: true
+      is_new: false
+    - id: omni-tool-programs
+      sections: []
+      is_change: false
+      is_new: true
+- id: finances
+  title: manual.finances
+  sections:
+    - id: wealth
+      sections: []
+      is_change: true
+      is_new: false
+    - id: selling-items
+      sections: []
+      is_change: false
+      is_new: false
+    - id: discounts
+      sections: []
+      is_change: false
+      is_new: true
+    - id: lifestyle-expenses
+      sections: []
+      is_change: false
+      is_new: false
+    - id: cost-of-things
+      sections: []
+      is_change: true
+      is_new: false
+- id: vehicles
+  title: manual.vehicles
+  sections:
+    - id: concept
+      sections: []
+      is_change: false
+      is_new: false
+    - id: transports-vs-starships
+      sections: []
+      is_change: false
+      is_new: false
+    - id: basic-information
+      sections: []
+      is_change: false
+      is_new: false
+    - id: systems
+      sections: []
+      is_change: false
+      is_new: false
+    - id: crew
+      sections: []
+      is_change: false
+      is_new: false
+    - id: starship-combat
+      sections: []
+      is_change: false
+      is_new: false
+    - id: travel
+      sections: []
+      is_change: false
+      is_new: false
+    - id: variant-rules
+      sections: []
+      is_change: false
+      is_new: false
+- id: combat
+  title: manual.combat
+  sections:
+    - id: the-order-of-combat
+      sections: []
+      is_change: false
+      is_new: false
+    - id: movement-position
+      sections: []
+      is_change: false
+      is_new: false
+    - id: actions-in-combat
+      sections: []
+      is_change: true
+      is_new: false
+    - id: making-an-attack
+      sections: []
+      is_change: false
+      is_new: false
+    - id: cover
+      sections: []
+      is_change: true
+      is_new: false
+    - id: damage-and-healing
+      sections: []
+      is_change: false
+      is_new: false
+    - id: shields
+      sections: []
+      is_change: false
+      is_new: true
 - id: powercasting
-  title: powercasting
+  title: manual.powercasting
   sections:
     - id: what-is-a-spell
       sections: []
@@ -295,31 +333,8 @@
       sections: []
       is_change: false
       is_new: true
-- id: finances
-  title: finances
-  sections:
-    - id: wealth
-      sections: []
-      is_change: true
-      is_new: false
-    - id: selling-items
-      sections: []
-      is_change: false
-      is_new: false
-    - id: discounts
-      sections: []
-      is_change: false
-      is_new: true
-    - id: lifestyle-expenses
-      sections: []
-      is_change: false
-      is_new: false
-    - id: cost-of-things
-      sections: []
-      is_change: true
-      is_new: false
 - id: bestiary
-  title: bestiary
+  title: manual.bestiary
   sections:
     - id: overview
       sections: []
@@ -333,19 +348,4 @@
       sections: []
       is_change: false
       is_new: false
-- id: beyond-first-level
-  title: beyond_first_level
-  sections:
-    - id: multiclassing
-      sections: []
-      is_change: true
-      is_new: false
-    - id: inspiration
-      sections: []
-      is_change: false
-      is_new: false
-    - id: variant-paragon-renegade
-      sections: []
-      is_change: false
-      is_new: true
 ---

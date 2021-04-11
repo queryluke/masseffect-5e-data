@@ -1,5 +1,6 @@
-export default {
+module.exports = {
     label: 'gear',
+    title: 'Gear',
     types: {
         ammo: 'Ammo',
         device: 'Device',
@@ -22,5 +23,5 @@ export default {
         'ix': 'IX',
         'x': 'X'
     },
-    grenade_name_w_mark: (ctx) => `${ctx.named('name')} ${ctx.named('mark')}`
+    // grenade_name_w_mark: (ctx) => `${ctx.named('name')} ${ctx.named('mark')}`
 }

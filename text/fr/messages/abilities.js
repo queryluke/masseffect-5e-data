@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     cha: {
         label: 'charisma',
         title: 'Charisma',

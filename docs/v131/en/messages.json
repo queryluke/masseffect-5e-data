@@ -1,0 +1,468 @@
+{
+  "abilities": {
+    "cha": {
+      "label": "charisma",
+      "title": "Charisma",
+      "abbr": "CHA"
+    },
+    "con": {
+      "label": "constitution",
+      "title": "Constitution",
+      "abbr": "CON"
+    },
+    "dex": {
+      "label": "dexterity",
+      "title": "Dexterity",
+      "abbr": "DEX"
+    },
+    "int": {
+      "label": "intelligence",
+      "title": "Intelligence",
+      "abbr": "INT"
+    },
+    "str": {
+      "label": "strength",
+      "title": "Strength",
+      "abbr": "STR"
+    },
+    "wis": {
+      "label": "wisdom",
+      "title": "Wisdom",
+      "abbr": "WIS"
+    }
+  },
+  "alignments": {
+    "lg": "lawful good",
+    "ln": "lawful neutral",
+    "le": "lawful evil",
+    "ng": "neutral good",
+    "nn": "neutral",
+    "ne": "neutral evil",
+    "cg": "chaotic good",
+    "cn": "chaotic neutral",
+    "ce": "chaotic evil"
+  },
+  "appendix": {
+    "title": "Appendix"
+  },
+  "cost": {
+    "credits": "no credits | credit | {n} credits",
+    "military": "military",
+    "varies": "varies"
+  },
+  "backgrounds": {
+    "title": "Backgrounds"
+  },
+  "bestiary": {
+    "title": "Bestiary"
+  },
+  "chips": {
+    "change": "change",
+    "new": "new"
+  },
+  "conditions": {
+    "title": "Conditions"
+  },
+  "character": {
+    "title": "Characters",
+    "background": {
+      "title": "Background | Backgrounds"
+    },
+    "feat": {
+      "title": "Feats"
+    },
+    "klass": {
+      "title": "Class | Classes",
+      "columns": {
+        "features": "Features"
+      },
+      "hit_dice": "Hit Dice",
+      "saves": "Saves",
+      "primary_ability": "Primary Ability",
+      "subclass_progression": {
+        "subclass_feature": "Subclass Feature",
+        "adept": "@:classes.subclass_progression.subclass_feature",
+        "engineer": "@:classes.subclass_progression.subclass_feature",
+        "infiltrator": "@:classes.subclass_progression.subclass_feature",
+        "sentinel": "@:classes.subclass_progression.subclass_feature",
+        "soldier": "@:classes.subclass_progression.subclass_feature",
+        "vanguard": "@:classes.subclass_progression.subclass_feature"
+      }
+    },
+    "species": {
+      "title": "Species"
+    }
+  },
+  "damage": "damage",
+  "damage_types": {
+    "acid": "acid",
+    "bludgeoning": "bludgeoning",
+    "cold": "cold",
+    "fire": "fire",
+    "force": "force",
+    "lightning": "lightning",
+    "necrotic": "necrotic",
+    "piercing": "piercing",
+    "poison": "poison",
+    "psychic": "psychic",
+    "radiant": "radiant",
+    "slashing": "slashing",
+    "thunder": "thunder",
+    "acid_damage": "@:damage_type.acid @:damage",
+    "bludgeoning_damage": "@:damage_type.bludgeoning @:damage",
+    "cold_damage": "@:damage_type.cold @:damage",
+    "fire_damage": "@:damage_type.fire @:damage",
+    "force_damage": "@:damage_type.force @:damage",
+    "lightning_damage": "@:damage_type.lightning @:damage",
+    "necrotic_damage": "@:damage_type.necrotic @:damage",
+    "piercing_damage": "@:damage_type.piercing @:damage",
+    "poison_damage": "@:damage_type.poison @:damage",
+    "psychic_damage": "@:damage_type.psychic @:damage",
+    "radiant_damage": "@:damage_type.radiant @:damage",
+    "slashing_damage": "@:damage_type.slashing @:damage",
+    "thunder_damage": "@:damage_type.thunder @:damage"
+  },
+  "dice": "{dieCount}d{dieType}",
+  "equipment": {
+    "title": "Equipment",
+    "armor": {
+      "label": "armor",
+      "title": "Armor",
+      "placement": {
+        "head": "Head",
+        "chest": "Chest",
+        "body_armor": "Body Armor",
+        "legs": "Legs",
+        "arms": "Arms"
+      },
+      "type": {
+        "heavy": "Heavy",
+        "light": "Light",
+        "medium": "Medium",
+        "heavy_armor": "@:equipment.armor.type.heavy @:equipment.armor.label",
+        "light_armor": "@:equipment.armor.type.light @:equipment.armor.label",
+        "medium_armor": "@:equipment.armor.type.medium @:equipment.armor.label"
+      },
+      "set_bonus": "Set bonus"
+    },
+    "gear": {
+      "label": "gear",
+      "title": "Gear",
+      "types": {
+        "ammo": "Ammo",
+        "device": "Device",
+        "grenade": "Grenade",
+        "heavy_weapon": "Heavy Weapon",
+        "medi_gel": "Medi-gel",
+        "omni_gel": "Omni-gel",
+        "shield": "Shield",
+        "tool": "Tool"
+      },
+      "marks": {
+        "i": "I",
+        "ii": "II",
+        "iii": "III",
+        "iv": "IV",
+        "v": "V",
+        "vi": "VI",
+        "vii": "VII",
+        "viii": "VIII",
+        "ix": "IX",
+        "x": "X"
+      }
+    },
+    "manufacturers": {},
+    "mods": {
+      "title": "Mod | Mods",
+      "label": "mod",
+      "armor": "Armor Mod",
+      "weapon": "Weapon Mod",
+      "weapon_placement": {}
+    },
+    "rarity": {
+      "common": "Common",
+      "uncommon": "Uncommon",
+      "rare": "Rare",
+      "very_rare": "Very Rare",
+      "spectre": "Spectre"
+    },
+    "vehicles": {
+      "label": "vehicle | vehicles",
+      "title": "Vehicle | Vehicles",
+      "types": {
+        "starship": "Starship",
+        "transport": "Transport"
+      },
+      "crew": "Crew",
+      "cargo": "Cargo"
+    },
+    "weapons": {
+      "label": "weapon | weapons",
+      "title": "Weapon | Weapons",
+      "types": {
+        "assault_rifle": "Assault Rifle",
+        "heavy_pistol": "Heavy Pistol",
+        "melee": "Melee",
+        "smg": "SMG",
+        "sniper_rifle": "Sniper Rifle",
+        "shotgun": "Shotgun"
+      },
+      "properties": {
+        "title": "Weapon Properties"
+      }
+    }
+  },
+  "guide": {
+    "title": "Guides",
+    "creating_armor": "Creating Armor",
+    "creating_encounters": "Creating Encounters",
+    "creating_vehicles": "Creating Vehicles"
+  },
+  "lists": {
+    "and_list": "{0} | \n             {0} and {1} | \n             {0}, {1}, and {2} |\n             {0}, {1}, {2}, and {3} |\n             {0}, {1}, {2}, {3}, and {4} |\n             {0}, {1}, {2}, {3}, {4}, and {5} |\n             {0}, {1}, {2}, {3}, {4}, {5}, and {6} |\n             {0}, {1}, {2}, {3}, {4}, {5}, {6}, and {7} |\n             {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, and {8} |\n             {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, and {9} |\n             {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, and {10} |\n             {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, and {11} |",
+    "or_list": "{0} | \n            {0} or {1} | \n            {0}, {1}, or {2} |\n            {0}, {1}, {2}, or {3} |\n            {0}, {1}, {2}, {3}, or {4} |\n            {0}, {1}, {2}, {3}, {4}, or {5} |\n            {0}, {1}, {2}, {3}, {4}, {5}, or {6} |\n            {0}, {1}, {2}, {3}, {4}, {5}, {6}, or {7} |\n            {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, or {8} |\n            {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, or {9} |\n            {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, or {10} |\n            {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, or {11} |",
+    "short_comma_list": "{0} | {0}, {1} | {0}, {1}, {2}",
+    "short_or_list": "{0} | {0} or {1} | {0} or {1} or {2}",
+    "short_and_list": "{0} | {0} and {1} | {0} and {1} and {2}"
+  },
+  "manual": {
+    "title": "Player's Manual",
+    "about_bestiary": "About the Bestiary",
+    "beyond_first_level": "Beyond 1st Level",
+    "combat": "Combat",
+    "character_builder": "Character Builder",
+    "character_creation": "Step-By-Step Characters",
+    "equipment": "Equipment",
+    "finances": "Finances",
+    "intro": "Introduction",
+    "missions": "Missions",
+    "powercasting": "Powercasting",
+    "using_ability_scores": "Using Ability Scores",
+    "vehicles": "Vehicles"
+  },
+  "measurements": {
+    "lb": {
+      "full": "pounds | pound | {n} pounds",
+      "abbr": "lbs | lb | {n} lbs"
+    },
+    "ft": {
+      "full": "feet | foot | {n} feet",
+      "abbr": "ft"
+    },
+    "m": {
+      "full": "meters | meter | {n} meters",
+      "abbr": "m"
+    },
+    "kg": {
+      "full": "kilograms | kilogram | {n} kilograms",
+      "abbr": "kgs | kg | {n} kgs"
+    },
+    "ftlu": {
+      "full": "faster than light units",
+      "abbr": "ftlu"
+    }
+  },
+  "npc": {
+    "condition_immunities": "Condition Immunities",
+    "damage_immunities": "Damage Immunities",
+    "damage_resistances": "Damage Resistances",
+    "damage_vulnerabilities": "Damage Vulnerabilities",
+    "feature": {
+      "multiattack": "Multiattack",
+      "melee": "Melee Weapon Attack",
+      "ranged": "Ranged Weapon Attack",
+      "hit_title": "Hit",
+      "miss_title": "Miss",
+      "range_title": "range",
+      "reach_title": "reach",
+      "damage_title": "damage",
+      "target": {
+        "one": "one target"
+      },
+      "legendary_text": "..."
+    },
+    "powercasting": {},
+    "type": {
+      "organic": "Organic",
+      "synorg": "Snyth-organic",
+      "synthetic": "Synthetic"
+    },
+    "units": {
+      "alien": "Alien",
+      "archetype": "Archetype",
+      "blood_pack": "Blood Pack",
+      "blue_suns": "Blue Suns",
+      "cerberus": "Cerberus",
+      "collector": "Collectors",
+      "eclipse": "Eclipse",
+      "geth": "Geth",
+      "kett": "Kett",
+      "mech": "Mech",
+      "n7": "N7",
+      "rachni": "Rachni",
+      "reaper": "Reaper",
+      "thorian": "Thorian"
+    },
+    "article": "The"
+  },
+  "powers": {
+    "title": "Powers",
+    "self": "Self",
+    "touch": "Touch",
+    "levels": {
+      "0": "cantrip",
+      "1": "1st",
+      "2": "2nd",
+      "3": "3rd",
+      "4": "4th",
+      "5": "5th",
+      "6": "6th",
+      "7": "7th",
+      "8": "8th",
+      "9": "9th"
+    },
+    "type": {
+      "biotic": "Biotic",
+      "tech": "Tech",
+      "combat": "Combat"
+    },
+    "attack_types": {}
+  },
+  "regen": "regen",
+  "senses": {
+    "darkvision": "darkvision",
+    "infrared_vision": "infrared vision",
+    "truesight": "truesight",
+    "blindsense": "blindsense"
+  },
+  "shield": "no shields | 1 shield | {n} shields",
+  "site": {
+    "generators": {
+      "title": "Generators",
+      "loot_generator": "Loot Generator",
+      "npc_generator": "NPC Generator",
+      "character_builder": "Character Builder"
+    },
+    "join_community": "Join the community",
+    "pages": {
+      "about": {
+        "title": "About",
+        "all_others": "And any/all the others in the Discord and Reddit community who have contributed ideas and/or words of motivation!",
+        "roles": {
+          "creator": "Creator, Website Developer",
+          "editor": "Editor",
+          "discord": "Discord Moderator",
+          "reddit": "Subreddit Moderator",
+          "developer": "Website Developer",
+          "content": "Content Developer",
+          "translator": "Translator {n}",
+          "designer": "Graphics Designer"
+        }
+      },
+      "assets": {
+        "title": "Assets"
+      },
+      "bookmarks": {
+        "title": "Bookmarks"
+      },
+      "changelog": {
+        "title": "Changelog"
+      },
+      "home": {
+        "title": "Mass Effect + D&D 5th Edition",
+        "subtitle": "An Unofficial D&D 5th Edition homebrew for Mass Effect",
+        "get_started": "Get Started",
+        "begin": "Begin Your Journey",
+        "begin_text": "\n        Mass Effect 5e lets you take the immersive and cooperative story-telling gameplay of Dungeons & Dragons \n        5th edition and experience new adventures in the Mass Effect universe. Go exploring in the Outer Terminus.\n        Stop a political assassination on Thessia. Battle the Reaper invasion on Earth, Palavan, or Sur'Kesh. \n        Solve crimes as a C-SEC officer on the Citadel. With Mass Effect 5e, the adventure is in your hands. \n        You can play anywhere in the Mass Effect timeline, create new worlds, or revisit old ones. So, gear up \n        and start making your own journey.\n    ",
+        "play_text": "Play with the best tech",
+        "news": "Latest news",
+        "info": [
+          {
+            "title": "Mix & Match",
+            "text": "\n                Mass Effect 5e lets you mix and match a variety of classic alien races with your favorite Mass Effect class.\n                Wreak havoc on the front lines as a Krogan Shocktrooper. Crush your enemies like a biotic god as a\n                Volus Commando. With 12 races, 6 classes, and 18 specializations, Mass Effect 5e has options to fit any\n                play style.\n            "
+          },
+          {
+            "title": "Weapons & Armor",
+            "text": "\n                Magic is just science we don't understand yet, so we've replaced the plethora of magical items\n                found in D&D 5th edition with unique weapons and armor. You'll also find a full modification system for upgrading\n                and customizing your gear.\n            "
+          },
+          {
+            "title": "Unique Enemies",
+            "text": "\n                Our bestiary is filled with iconic Mass Effect enemies custom-made using D&D's Dungeon Master Guide\n                to ensure balanced combat. From Reaper forces to Blue Sun grunts, we've got enough monsters to keep your\n                players engaged and challenged.\n            "
+          }
+        ],
+        "features": [
+          {
+            "title": "Interactive Manual",
+            "text": "\n                Our player's manual is more than a PDF. It's a fully navigable web app that allows you to browse \n                rules, search for items and spells, and create bookmarks for frequently used information.\n            ",
+            "button": "Get Started"
+          },
+          {
+            "title": "At-the-table Assets",
+            "text": "\n                We offer a few at-the-table assets like custom-made character sheets, printable spell cards, and Roll20 tokens.\n            ",
+            "button": "View"
+          },
+          {
+            "title": "Contributors Welcome!",
+            "text": "\n                Want to get involved? We're always open to content suggestions, feedback, and ideas from the community.\n                Come join the conversation!\n            ",
+            "button": "Collaborate"
+          }
+        ]
+      },
+      "license": {
+        "title": "License"
+      }
+    },
+    "rules": "Rules",
+    "search": "Search",
+    "settings": {
+      "label": "Settings",
+      "dark": "Dark",
+      "light": "Light",
+      "imperial": "Imperial",
+      "metric": "Metric",
+      "units": "Units",
+      "mode": "Mode",
+      "language": "Language"
+    },
+    "tools_guides": "Tools & Guides",
+    "version": "VERSION"
+  },
+  "sizes": {
+    "tiny": "tiny",
+    "small": "small",
+    "medium": "medium",
+    "large": "large",
+    "huge": "huge",
+    "gargantuan": "gargantuan"
+  },
+  "speeds": {
+    "walk": "walking",
+    "fly": "flying",
+    "swim": "swiming",
+    "burrow": "burrowing"
+  },
+  "starting_credits": "Starting Credits",
+  "tags": {},
+  "times": {
+    "instant": "Instant",
+    "attack": "Attack",
+    "action": "Action",
+    "bonus_action": "Bonus Action",
+    "reaction": "Reaction",
+    "turn": "1 Turn | {n} Turns",
+    "round": "1 Round | {n} Rounds",
+    "minute": "1 Minute | {n} Minutes",
+    "hour": "1 Hour | {n} Hours"
+  },
+  "title": "Mass Effect 5e",
+  "skills": {
+    "title": "Skills"
+  },
+  "tool_profs": {
+    "title": "Tool Proficiencies",
+    "types": {
+      "artisan": "Artisan",
+      "starship": "Starship"
+    }
+  }
+}

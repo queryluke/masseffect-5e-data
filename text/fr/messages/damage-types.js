@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     acid: 'acid',
     bludgeoning: 'bludgeoning',
     cold: 'cold',

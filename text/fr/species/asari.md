@@ -10,6 +10,9 @@ snippet: >-
   influential and respected sentient species in the galaxy and are known for
   their elegance, diplomacy, and biotic aptitude.
 age: Asari are very long-lived and can reach ages of over 1000 years.
+skinColor: Light or Dark Blue (rarely Green)
+eyeColor: Blue, Red, Orange, or Black (Embrace Eternity!)
+bioticPotential: All
 ---
 Asari are a species of elegant, mono-gendered humanoids. The asari resemble female humans with blue or purple skin and a
 crest of rigid tentacles in place of hair. Despite their feminine appearance, asari have little use for gender or

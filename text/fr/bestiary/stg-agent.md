@@ -12,13 +12,6 @@ entries:
     multiattack:
       name: Multiattack
       text: The agent makes 2 attacks with its Scorpion.
-    flashbang-grenade-iii:
-      name: Flashbang Grenade III
-      text: >-
-        The eclipse trooper targets an area within <me-distance length="25" />.
-        Each creature within <me-distance length="10" /> of the target must make
-        a DC 13 Constitution saving throw. On a failed save, a creature is
-        <me-condition id="blinded"/> until the end of it's next turn.
     explosive-decoy:
       name: Explosive Decoy
       text: >-

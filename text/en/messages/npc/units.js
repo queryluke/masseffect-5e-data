@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     alien: 'Alien',
     archetype: 'Archetype',
     blood_pack: 'Blood Pack',
@@ -9,7 +9,7 @@ export default {
     geth: 'Geth',
     kett: 'Kett',
     mech: 'Mech',
-    nseven: 'N7',
+    n7: 'N7',
     rachni: 'Rachni',
     reaper: 'Reaper',
     thorian: 'Thorian'

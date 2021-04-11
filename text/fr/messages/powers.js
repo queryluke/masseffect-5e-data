@@ -1,4 +1,5 @@
-export default {
+module.exports = {
+    title: 'Powers',
     self: 'Self',
     touch: 'Touch',
     levels: {

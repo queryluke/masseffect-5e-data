@@ -68,7 +68,7 @@ const setLinkLocalePrefix = (lang = null) => {
   }
 }
 
-const ignore = []
+const ignore = ['messages']
 const staticData = ['about.json', 'stats-by-cr.json']
 const staticMdData = ['guides-index.md', 'manual-index.md']
 const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
@@ -135,13 +135,9 @@ for (const lang of langs) {
     processedModels.push(dir)
   }
 
-  ignore.push('messages')
-
-  // To copy the messages dir
-  fse.copy(`${textSourcePath}/messages`, `${targetPath}/messages`, function (err) {
-    if (err) return console.error(err)
-    console.log('success!')
-  })
+  // compile the messages into a json file
+  const messages = require(`${textSourcePath}/messages`)
+  fs.writeFileSync(`${targetPath}/messages.json`, JSON.stringify(messages, null, 2))
 
   // process text dirs
   const textDirs = fs.readdirSync(textSourcePath)

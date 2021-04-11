@@ -1,7 +1,8 @@
-import feature from './feature'
-import powercasting from './powercasting'
-import units from './units'
-export default {
+const feature = require('./feature')
+const powercasting = require('./powercasting')
+const units = require('./units')
+
+module.exports = {
     condition_immunities: 'Condition Immunities',
     damage_immunities: 'Damage Immunities',
     damage_resistances: 'Damage Resistances',
@@ -14,6 +15,6 @@ export default {
         synthetic: 'Synthetic'
     },
     units,
-    article_name: (ctx) => `${ctx.named('article')} ${ctx.named('name')}`,
+    // article_name: (ctx) => `${ctx.named('article')} ${ctx.named('name')}`,
     article: 'The'
 }

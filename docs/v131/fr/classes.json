@@ -1,6 +1,8 @@
 [
   {
-    "primaryAbility": "wis",
+    "primaryAbility": [
+      "wis"
+    ],
     "hitDie": 6,
     "profs": {
       "armor": {
@@ -323,7 +325,9 @@
     "id": "adept"
   },
   {
-    "primaryAbility": "int",
+    "primaryAbility": [
+      "int"
+    ],
     "hitDie": 8,
     "profs": {
       "armor": {
@@ -493,7 +497,9 @@
     "id": "engineer"
   },
   {
-    "primaryAbility": "dex",
+    "primaryAbility": [
+      "dex"
+    ],
     "hitDie": 8,
     "profs": {
       "armor": {
@@ -736,7 +742,11 @@
     "id": "infiltrator"
   },
   {
-    "primaryAbility": "cha",
+    "primaryAbility": [
+      "cha",
+      "int",
+      "wis"
+    ],
     "hitDie": 10,
     "profs": {
       "armor": {
@@ -998,7 +1008,10 @@
     "id": "sentinel"
   },
   {
-    "primaryAbility": "str",
+    "primaryAbility": [
+      "str",
+      "dex"
+    ],
     "hitDie": 10,
     "profs": {
       "armor": {
@@ -1136,7 +1149,10 @@
     "id": "soldier"
   },
   {
-    "primaryAbility": "str",
+    "primaryAbility": [
+      "str",
+      "wis"
+    ],
     "hitDie": 12,
     "profs": {
       "armor": {

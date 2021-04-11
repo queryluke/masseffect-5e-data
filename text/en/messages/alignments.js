@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     lg: 'lawful good',
     ln: 'lawful neutral',
     le: 'lawful evil',
