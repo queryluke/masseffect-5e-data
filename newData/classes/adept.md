@@ -8,14 +8,14 @@ profs:
       - light
   weapon:
     has:
-      - heavy-pistols
+      - heavy_pistols
     choices:
       items: [melee,smgs]
       count: 1
   tool: false
   skill:
     choices:
-      items: [acrobatics,deception,history,insight,intimidation,performance,sleight-of-hand,survival]
+      items: [acrobatics,deception,history,insight,intimidation,performance,sleight_of_hand,survival]
       count: 3
   savingThrow:
     has:

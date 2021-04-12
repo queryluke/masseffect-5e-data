@@ -1,6 +1,7 @@
 ---
 primaryAbility:
   - dex
+  - int
 hitDie: 8
 profs:
   armor:
@@ -8,16 +9,16 @@ profs:
       - light
   weapon:
     has:
-      - heavy-pistols
+      - heavy_pistols
     choices:
-      items: [assault-rifles,melee,smgs,sniper-rifles]
+      items: [assault_rifles,melee,smgs,sniper_rifles]
       count: 2
   tool:
     choices:
-      items: [hacking-tools,thieves-tools]
+      items: [hacking_tools,thieves_tools]
   skill:
     choices:
-      items: [athletics,acrobatics,deception,electronics,history,insight,investigation,perception,persuasion,sleight-of-hand,stealth,vehicle-handling]
+      items: [athletics,acrobatics,deception,electronics,history,insight,investigation,perception,persuasion,sleight_of_hand,stealth,vehicle_handling]
       count: 3
   savingThrow:
     has:

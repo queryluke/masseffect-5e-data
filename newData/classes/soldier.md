@@ -1,7 +1,7 @@
 ---
 primaryAbility:
-  - str
   - dex
+  - str
 hitDie: 10
 profs:
   armor:
@@ -11,16 +11,16 @@ profs:
       - heavy
   weapon:
     has:
-      - assault-rifles
-      - heavy-pistols
+      - assault_rifles
+      - heavy_pistols
       - melee
       - shotguns
       - smgs
-      - sniper-rifles
+      - sniper_rifles
   tool: false
   skill:
     choices:
-      items: [acrobatics,athletics,history,intimidation,medicine,perception,persuasion,stealth,survival,vehicle-handling]
+      items: [acrobatics,athletics,history,intimidation,medicine,perception,persuasion,stealth,survival,vehicle_handling]
       count: 3
   savingThrow:
     has:

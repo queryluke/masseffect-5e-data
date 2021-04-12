@@ -1,8 +1,8 @@
 ---
 primaryAbility:
-  - cha
-  - int
   - wis
+  - int
+  - cha
 hitDie: 10
 profs:
   armor:
@@ -12,9 +12,9 @@ profs:
       - heavy
   weapon:
     has:
-      - heavy-pistols
+      - heavy_pistols
     choices:
-      items: [assault-rifles,melee,shotguns,smgs]
+      items: [assault_rifles,melee,shotguns,smgs]
       count: 2
   tool: false
   skill:

@@ -13,7 +13,7 @@
       },
       "weapon": {
         "has": [
-          "heavy-pistols"
+          "heavy_pistols"
         ],
         "choices": {
           "items": [
@@ -36,7 +36,7 @@
             "insight",
             "intimidation",
             "performance",
-            "sleight-of-hand",
+            "sleight_of_hand",
             "survival"
           ],
           "count": 3
@@ -339,11 +339,11 @@
       },
       "weapon": {
         "has": [
-          "heavy-pistols"
+          "heavy_pistols"
         ],
         "choices": {
           "items": [
-            "assault-rifles",
+            "assault_rifles",
             "melee",
             "smgs"
           ],
@@ -354,10 +354,10 @@
       "tool": {
         "choices": {
           "items": [
-            "armorsmiths-workbench",
-            "tailors-tools",
-            "tinkers-tools",
-            "weaponsmiths-workbench"
+            "armorsmiths_workbench",
+            "tailors_tools",
+            "tinkers_tools",
+            "weaponsmiths_workbench"
           ]
         },
         "text": "Choose 1 from Armorsmith's Workbench, Tailor's Tools, Tinker's Tools, and Weaponsmith's Workbench"
@@ -372,7 +372,7 @@
             "investigation",
             "medicine",
             "science",
-            "vehicle-handling"
+            "vehicle_handling"
           ],
           "count": 3
         },
@@ -498,7 +498,8 @@
   },
   {
     "primaryAbility": [
-      "dex"
+      "dex",
+      "int"
     ],
     "hitDie": 8,
     "profs": {
@@ -510,14 +511,14 @@
       },
       "weapon": {
         "has": [
-          "heavy-pistols"
+          "heavy_pistols"
         ],
         "choices": {
           "items": [
-            "assault-rifles",
+            "assault_rifles",
             "melee",
             "smgs",
-            "sniper-rifles"
+            "sniper_rifles"
           ],
           "count": 2
         },
@@ -526,8 +527,8 @@
       "tool": {
         "choices": {
           "items": [
-            "hacking-tools",
-            "thieves-tools"
+            "hacking_tools",
+            "thieves_tools"
           ]
         },
         "text": "Choose 1 from Hacking Tools or Thieves' Tools"
@@ -544,9 +545,9 @@
             "investigation",
             "perception",
             "persuasion",
-            "sleight-of-hand",
+            "sleight_of_hand",
             "stealth",
-            "vehicle-handling"
+            "vehicle_handling"
           ],
           "count": 3
         },
@@ -743,9 +744,9 @@
   },
   {
     "primaryAbility": [
-      "cha",
+      "wis",
       "int",
-      "wis"
+      "cha"
     ],
     "hitDie": 10,
     "profs": {
@@ -759,11 +760,11 @@
       },
       "weapon": {
         "has": [
-          "heavy-pistols"
+          "heavy_pistols"
         ],
         "choices": {
           "items": [
-            "assault-rifles",
+            "assault_rifles",
             "melee",
             "shotguns",
             "smgs"
@@ -1009,8 +1010,8 @@
   },
   {
     "primaryAbility": [
-      "str",
-      "dex"
+      "dex",
+      "str"
     ],
     "hitDie": 10,
     "profs": {
@@ -1024,12 +1025,12 @@
       },
       "weapon": {
         "has": [
-          "assault-rifles",
-          "heavy-pistols",
+          "assault_rifles",
+          "heavy_pistols",
           "melee",
           "shotguns",
           "smgs",
-          "sniper-rifles"
+          "sniper_rifles"
         ],
         "text": "Assault Rifles, Heavy Pistols, Melee, Shotguns, SMGs, Sniper Rifles"
       },
@@ -1048,7 +1049,7 @@
             "persuasion",
             "stealth",
             "survival",
-            "vehicle-handling"
+            "vehicle_handling"
           ],
           "count": 3
         },
@@ -1164,7 +1165,7 @@
       },
       "weapon": {
         "has": [
-          "heavy-pistols",
+          "heavy_pistols",
           "melee"
         ],
         "choices": {
@@ -1189,7 +1190,7 @@
             "intimidation",
             "performance",
             "persuasion",
-            "sleight-of-hand",
+            "sleight_of_hand",
             "survival"
           ],
           "count": 3

@@ -334,7 +334,7 @@
       is_change: false
       is_new: true
 - id: bestiary
-  title: manual.bestiary
+  title: manual.about_bestiary
   sections:
     - id: overview
       sections: []

@@ -60,7 +60,10 @@ function processModel(model) {
         } else {
             item = require(fn)
         }
-        const id = file.replace(/.(md|json)$/, '')
+        let id = file.replace(/.(md|json)$/, '')
+        if (model.dir === 'character_progression') {
+           id.padStart(2, '0')
+        }
         const transformed = transform(item, model, id)
         if (typeof model.facts !== 'undefined') {
             const factDir = `../newData/${model.outputDir || model.dir}`
@@ -241,7 +244,23 @@ const models = [
             { from: 'hitDice', to: 'hitDie'}
         ],
         factTransform(item, id) {
-            item.primaryAbility = item.primaryAbility.toLowerCase().substr(0,3)
+
+            switch (id) {
+                case 'soldier':
+                    item.primaryAbility = ['dex', 'str']
+                    break
+                case 'vanguard':
+                    item.primaryAbility = ['str', 'wis']
+                    break
+                case 'infiltrator':
+                    item.primaryAbility = ['dex', 'int']
+                    break
+                case 'sentinel':
+                    item.primaryAbility = ['wis', 'int', 'cha']
+                    break
+                default:
+                    item.primaryAbility = [item.primaryAbility.toLowerCase().substr(0,3)]
+            }
             item.profs = {
                 armor: {},
                 weapon: {},
@@ -262,13 +281,13 @@ const models = [
                             } else if (type  === 'savingThrows') {
                                 return i.substr(0, 3)
                             } else {
-                                return i
+                                return _.snakeCase(i)
                             }
                         })
                     }
                     if (item[type].options) {
                         item.profs[key].choices = {
-                            items: item[type].options.items,
+                            items: item[type].options.items.map(i => _.snakeCase(i)),
                             count: item[type].options.count
                         }
                     }

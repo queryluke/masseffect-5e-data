@@ -48,7 +48,19 @@ module.exports = {
     lists,
     manual,
     measurements,
+    none: 'None',
     npc,
+    level: {
+        text: 'level',
+        title: 'Level',
+        nth: '{level} level',
+        adj: '{level}-level'
+    },
+    numbers: {
+        base: ['zero','one','two','three','four','five','six','seven','eight','nine','ten'],
+        ordinal: ['0', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th',
+            '11th', '12th', '13th', '14th', '15th', '16th', '17th', '18th', '19th', '20th']
+    },
     powers,
     regen: 'regen',
     senses,
@@ -60,6 +72,7 @@ module.exports = {
     tags,
     times,
     title: 'Mass Effect 5e',
+    saving_throws: 'Saving Throws',
     skills: {
         title: 'Skills'
     },

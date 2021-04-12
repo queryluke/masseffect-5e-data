@@ -8,7 +8,7 @@ module.exports = {
         legs: 'Legs',
         arms: 'Arms'
     },
-    type: {
+    types: {
         // type only
         heavy: 'Heavy',
         light: 'Light',
