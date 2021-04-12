@@ -44,13 +44,20 @@ module.exports = {
             feat_text: 'Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.'
         },
         columns: {
-            power_slots: 'Power Slots by Power Level',
-            prof_bonus: 'Proficiency Bonus',
-            features: 'Features',
-            barrier_uses: 'Barrier Uses',
             barrier_ticks: 'Barrier Ticks',
+            barrier_uses: 'Barrier Uses',
             cantrips: 'Cantrips',
-            powers_known: 'Powers Known'
+            combat_powers: 'Combat Powers',
+            features: 'Features',
+            power_level: 'Power Level',
+            power_slots_by_power_level: 'Power Slots by Power Level',
+            power_slots: 'Power Slots',
+            powers_known: 'Powers Known',
+            prof_bonus: 'Proficiency Bonus',
+            sneak_attack_damage: 'Sneak Attack Damage',
+            tactical_cloak_uses: 'Tactical Cloak Uses',
+            tech_points: 'Tech Points',
+            tech_point_limit: 'Tech Point Limit',
         }
 
     },

@@ -9,6 +9,7 @@ module.exports = {
     },
     klass,
     species: {
-        title: 'Species'
+        title: 'Species',
+        ability_bonus_all: '+1 to all ability scores'
     }
 }

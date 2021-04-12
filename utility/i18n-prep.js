@@ -61,8 +61,8 @@ function processModel(model) {
             item = require(fn)
         }
         let id = file.replace(/.(md|json)$/, '')
-        if (model.dir === 'character_progression') {
-           id.padStart(2, '0')
+        if (model.dir === 'character-progression') {
+           id = id.padStart(2, '0')
         }
         const transformed = transform(item, model, id)
         if (typeof model.facts !== 'undefined') {
@@ -329,7 +329,7 @@ const models = [
             }
             if (collectPs.length > 0) {
                 item.progression.columns.push({
-                    label: 'power_slots',
+                    label: 'power_slots_by_power_level',
                     values: collectPs
                 })
             }
