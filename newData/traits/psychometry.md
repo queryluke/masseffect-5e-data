@@ -1,4 +1,5 @@
 ---
-species: prothean
+species:
+  - prothean
 mechanics: []
 ---

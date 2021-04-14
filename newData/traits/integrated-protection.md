@@ -1,4 +1,5 @@
 ---
-species: geth
+species:
+  - geth
 mechanics: []
 ---

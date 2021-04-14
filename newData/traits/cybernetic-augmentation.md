@@ -1,4 +1,5 @@
 ---
-species: quarian
+species:
+  - quarian
 mechanics: []
 ---

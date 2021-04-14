@@ -1,4 +1,5 @@
 ---
-species: salarian
+species:
+  - salarian
 mechanics: []
 ---

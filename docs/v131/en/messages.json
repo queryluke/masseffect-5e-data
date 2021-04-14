@@ -32,6 +32,7 @@
     }
   },
   "alignments": {
+    "title": "Alignment",
     "lg": "lawful good",
     "ln": "lawful neutral",
     "le": "lawful evil",
@@ -65,6 +66,7 @@
   },
   "character": {
     "title": "Characters",
+    "abi_title": "Ability Score Increase",
     "background": {
       "title": "Background | Backgrounds"
     },
@@ -90,16 +92,7 @@
         }
       },
       "primary_ability": "Primary Ability",
-      "profs": {
-        "title": "Proficiencies",
-        "choose": "choose {number} from {list}",
-        "selection_option_only": "Choose {number} from {list}",
-        "selection_w_options": "{has} and {choose}",
-        "equipment_selection": [
-          "(a) {0} or (b) {1}",
-          "(a) {0} or (b) {1} or (c) {2}"
-        ]
-      },
+      "proficiencies": "Proficiencies",
       "progression": {
         "subclass": {
           "adept": "Subclass Feature",
@@ -110,8 +103,8 @@
           "vanguard": "Subclass Feature"
         },
         "abi": {
-          "title": "Ability Score Increase",
-          "text": "When you reach {level}, and again at {and_list} level you can increase one ability score of your choice \n                by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an \n                ability score above 20 using this feature.",
+          "at_level": "When you reach {level}, | When you reach {level}, and again at {and_list} level,",
+          "text": "{at_level} you can increase one ability score of your choice \n                by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an \n                ability score above 20 using this feature.",
           "feat_text": "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
         },
         "columns": {
@@ -141,7 +134,11 @@
     },
     "species": {
       "title": "Species",
-      "ability_bonus_all": "+1 to all ability scores"
+      "ability_bonus_all": "+1 to all ability scores",
+      "traits": "Traits",
+      "variants": "Variants",
+      "age": "Age",
+      "speed": "Your base {type} speed is {distance}."
     }
   },
   "damage": "damage",
@@ -251,12 +248,12 @@
       "label": "weapon | weapons",
       "title": "Weapon | Weapons",
       "types": {
-        "assault_rifle": "Assault Rifle",
-        "heavy_pistol": "Heavy Pistol",
+        "assault_rifle": "Assault Rifle | Assault Rifles",
+        "heavy_pistol": "Heavy Pistol | Heavy Pistols",
         "melee": "Melee",
-        "smg": "SMG",
-        "sniper_rifle": "Sniper Rifle",
-        "shotgun": "Shotgun"
+        "smg": "SMG | SMGs",
+        "sniper_rifle": "Sniper Rifle | Sniper Rifles",
+        "shotgun": "Shotgun | Shotguns"
       },
       "properties": {
         "title": "Weapon Properties"
@@ -480,6 +477,7 @@
   },
   "shield": "no shields | 1 shield | {n} shields",
   "site": {
+    "change_species": "Switch Species",
     "generators": {
       "title": "Generators",
       "loot_generator": "Loot Generator",
@@ -555,6 +553,7 @@
         "title": "License"
       }
     },
+    "read_more": "Read More",
     "rules": "Rules",
     "search": "Search",
     "settings": {
@@ -571,6 +570,7 @@
     "version": "VERSION"
   },
   "sizes": {
+    "title": "Size",
     "tiny": "tiny",
     "small": "small",
     "medium": "medium",
@@ -579,10 +579,27 @@
     "gargantuan": "gargantuan"
   },
   "speeds": {
-    "walk": "walking",
-    "fly": "flying",
-    "swim": "swiming",
-    "burrow": "burrowing"
+    "title": "Speed",
+    "walk": {
+      "title": "Walking",
+      "lc": "walking",
+      "label": ""
+    },
+    "fly": {
+      "title": "Flying",
+      "lc": "flying",
+      "label": "fly"
+    },
+    "swim": {
+      "title": "Swimming",
+      "lc": "swimming",
+      "label": "swim"
+    },
+    "burrow": {
+      "title": "Burrowing",
+      "lc": "burrowing",
+      "label": "burrow"
+    }
   },
   "starting_credits": "Starting Credits",
   "tags": {},
@@ -605,8 +622,14 @@
   "tool_profs": {
     "title": "Tool Proficiencies",
     "types": {
-      "artisan": "Artisan",
-      "starship": "Starship"
+      "artisan": {
+        "title": "Artisan",
+        "choice": "{count} artisan tools of your choice"
+      },
+      "starship": {
+        "title": "Starship",
+        "choice": "{count} starship systems of your choice"
+      }
     }
   }
 }

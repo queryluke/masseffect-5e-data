@@ -15,6 +15,8 @@ age: >-
 skinColor: Blue, Mauve, Green, or Tan
 eyeColor: Blue
 bioticPotential: None
+homeworld: Havarl
+language: Shelesh
 ---
 The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,
 sometimes shading into green or tan. They are the only known extant

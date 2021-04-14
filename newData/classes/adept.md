@@ -8,9 +8,9 @@ profs:
       - light
   weapon:
     has:
-      - heavy_pistols
+      - heavy_pistol
     choices:
-      items: [melee,smgs]
+      items: [melee,smg]
       count: 1
   tool: false
   skill:

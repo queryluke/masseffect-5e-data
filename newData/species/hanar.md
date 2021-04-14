@@ -46,4 +46,5 @@ randomDimensions:
       metric:
         dieCount: 5
         dieType: 6
+galaxy: ''
 ---

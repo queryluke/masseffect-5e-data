@@ -1,4 +1,5 @@
 ---
-species: vorcha
+species:
+  - vorcha
 mechanics: []
 ---

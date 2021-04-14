@@ -12,9 +12,9 @@ profs:
       - heavy
   weapon:
     has:
-      - heavy_pistols
+      - heavy_pistol
     choices:
-      items: [assault_rifles,melee,shotguns,smgs]
+      items: [assault_rifle,melee,shotgun,smg]
       count: 2
   tool: false
   skill:

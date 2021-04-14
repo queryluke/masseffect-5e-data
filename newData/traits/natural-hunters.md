@@ -1,5 +1,6 @@
 ---
-species: drell
+species:
+  - drell
 mechanics:
   - type: prof
     options:

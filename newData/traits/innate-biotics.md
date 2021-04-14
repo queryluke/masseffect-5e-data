@@ -1,5 +1,6 @@
 ---
-species: asari
+species:
+  - asari
 mechanics:
   - type: modOverride
     options:

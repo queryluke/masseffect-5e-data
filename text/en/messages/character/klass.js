@@ -17,16 +17,7 @@ module.exports = {
         }
     },
     primary_ability: 'Primary Ability',
-    profs: {
-        title: 'Proficiencies',
-        choose: 'choose {number} from {list}',
-        selection_option_only: 'Choose {number} from {list}',
-        selection_w_options: '{has} and {choose}',
-        equipment_selection: [
-            '(a) {0} or (b) {1}',
-            '(a) {0} or (b) {1} or (c) {2}',
-        ]
-    },
+    proficiencies: 'Proficiencies',
     progression: {
         subclass: {
             adept: 'Subclass Feature',
@@ -37,8 +28,8 @@ module.exports = {
             vanguard: 'Subclass Feature',
         },
         abi: {
-            title: 'Ability Score Increase',
-            text: `When you reach {level}, and again at {and_list} level you can increase one ability score of your choice 
+            at_level: `When you reach {level}, | When you reach {level}, and again at {and_list} level,`,
+            text: `{at_level} you can increase one ability score of your choice 
                 by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an 
                 ability score above 20 using this feature.`,
             feat_text: 'Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.'

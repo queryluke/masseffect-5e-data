@@ -276,18 +276,36 @@ const models = [
                 if (item[type].mandatory || item[type].options) {
                     if (item[type].mandatory) {
                         item.profs[key].has = item[type].mandatory.map(i => {
-                            if (type === 'armorProfs') {
-                                return i.replace('-armor','')
-                            } else if (type  === 'savingThrows') {
-                                return i.substr(0, 3)
-                            } else {
-                                return _.snakeCase(i)
+                            switch(type) {
+                                case 'armorProfs':
+                                    return i.replace('-armor','')
+                                case 'toolProfs':
+                                    return i
+                                case 'weaponProfs':
+                                    return i === 'melee' ? i : _.snakeCase(i.slice(0, -1))
+                                case 'skillProfs':
+                                    return _.snakeCase(i)
+                                case 'savingThrows':
+                                    return i.substr(0, 3)
                             }
                         })
                     }
                     if (item[type].options) {
                         item.profs[key].choices = {
-                            items: item[type].options.items.map(i => _.snakeCase(i)),
+                            items: item[type].options.items.map(i => {
+                                switch(type) {
+                                    case 'armorProfs':
+                                        return i.replace('-armor','')
+                                    case 'toolProfs':
+                                        return i
+                                    case 'weaponProfs':
+                                        return i === 'melee' ? i : _.snakeCase(i.slice(0, -1))
+                                    case 'skillProfs':
+                                        return _.snakeCase(i)
+                                    case 'savingThrows':
+                                        return i.substr(0, 3)
+                                }
+                            }),
                             count: item[type].options.count
                         }
                     }
@@ -546,8 +564,9 @@ const models = [
     {
         dir: 'species',
         type: 'md',
-        facts: ['abilityScoreIncrease', 'speed', 'bodyImg', 'img', 'randomDimensions', 'homeworld', 'galaxy', 'language'],
-        text: ['name', 'alignment', 'size', 'snippet', 'age', 'skinColor', 'eyeColor', 'bioticPotential'],
+        facts: ['abilityScoreIncrease', 'speed', 'bodyImg', 'img', 'randomDimensions', 'galaxy'],
+        text: ['name', 'alignment', 'size', 'snippet', 'age', 'skinColor', 'eyeColor', 'bioticPotential','homeworld', 'language'],
+        snake: ['galaxy'],
         fFlow: 5,
         factTransform(item, id) {
             const rdwId = id === 'hanar' ? 'hanar-length' : id
@@ -675,6 +694,7 @@ const models = [
         facts: ['species', 'mechanics'],
         text: ['name'],
         factTransform(item, id) {
+            item.species = typeof item.species === 'string' ? [item.species] : item.species
             item.mechanics = item.mechanics || []
             return item
         }

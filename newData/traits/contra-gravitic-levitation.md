@@ -1,5 +1,6 @@
 ---
-species: hanar
+species:
+  - hanar
 mechanics:
   - type: immunities
     options:

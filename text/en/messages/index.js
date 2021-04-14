@@ -79,8 +79,14 @@ module.exports = {
     tool_profs: {
         title: 'Tool Proficiencies',
         types: {
-            artisan: 'Artisan',
-            starship: 'Starship'
-        }
+            artisan: {
+                title: 'Artisan',
+                choice: '{count} artisan tools of your choice'
+            },
+            starship: {
+                title: 'Starship',
+                choice: '{count} starship systems of your choice'
+            }
+        },
     }
 }

@@ -9,13 +9,13 @@ profs:
       - medium
   weapon:
     has:
-      - heavy_pistols
+      - heavy_pistol
     choices:
-      items: [assault_rifles,melee,smgs]
+      items: [assault_rifle,melee,smg]
       count: 1
   tool:
     choices:
-      items: [armorsmiths_workbench,tailors_tools,tinkers_tools,weaponsmiths_workbench]
+      items: [armorsmiths-workbench,tailors-tools,tinkers-tools,weaponsmiths-workbench]
   skill:
     choices:
       items: [athletics,electronics,engineering,history,investigation,medicine,science,vehicle_handling]

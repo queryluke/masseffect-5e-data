@@ -1,6 +1,7 @@
 const home = require('./home')
 
 module.exports = {
+    change_species: 'Switch Species',
     generators: {
         title: 'Generators',
         loot_generator: 'Loot Generator',
@@ -37,6 +38,7 @@ module.exports = {
             title: 'License'
         },
     },
+    read_more: 'Read More',
     rules: 'Rules',
     search: 'Search',
     settings: {

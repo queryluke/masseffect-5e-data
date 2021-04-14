@@ -1,4 +1,5 @@
 module.exports = {
+    title: 'Alignment',
     lg: 'lawful good',
     ln: 'lawful neutral',
     le: 'lawful evil',

@@ -10,10 +10,10 @@ profs:
       - medium
   weapon:
     has:
-      - heavy_pistols
+      - heavy_pistol
       - melee
     choices:
-      items: [shotguns,smgs]
+      items: [shotgun,smg]
       count: 1
   tool: false
   skill:

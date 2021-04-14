@@ -1,5 +1,6 @@
 ---
-species: batarian
+species:
+  - batarian
 mechanics:
   - type: feature
     options:

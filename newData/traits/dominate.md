@@ -1,5 +1,6 @@
 ---
-species: ardat-yakshi
+species:
+  - ardat-yakshi
 mechanics:
   - type: innatePower
     options:

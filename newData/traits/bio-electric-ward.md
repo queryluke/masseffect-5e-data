@@ -1,5 +1,6 @@
 ---
-species: angara
+species:
+  - angara
 mechanics:
   - type: ac
     options:

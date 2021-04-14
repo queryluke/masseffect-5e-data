@@ -9,13 +9,13 @@ profs:
       - light
   weapon:
     has:
-      - heavy_pistols
+      - heavy_pistol
     choices:
-      items: [assault_rifles,melee,smgs,sniper_rifles]
+      items: [assault_rifle,melee,smg,sniper_rifle]
       count: 2
   tool:
     choices:
-      items: [hacking_tools,thieves_tools]
+      items: [hacking-tools,thieves-tools]
   skill:
     choices:
       items: [athletics,acrobatics,deception,electronics,history,insight,investigation,perception,persuasion,sleight_of_hand,stealth,vehicle_handling]

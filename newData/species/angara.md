@@ -34,7 +34,5 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 2
-homeworld: Havarl
-galaxy: Andromeda
-language: Shelesh
+galaxy: andromeda
 ---

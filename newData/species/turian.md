@@ -37,4 +37,5 @@ randomDimensions:
         dieCount: 1
         dieType: 10
         divisor: 2
+galaxy: ''
 ---

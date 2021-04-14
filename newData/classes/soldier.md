@@ -11,12 +11,12 @@ profs:
       - heavy
   weapon:
     has:
-      - assault_rifles
-      - heavy_pistols
+      - assault_rifle
+      - heavy_pistol
       - melee
-      - shotguns
-      - smgs
-      - sniper_rifles
+      - shotgun
+      - smg
+      - sniper_rifle
   tool: false
   skill:
     choices:

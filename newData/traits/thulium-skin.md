@@ -1,4 +1,5 @@
 ---
-species: turian
+species:
+  - turian
 mechanics: []
 ---

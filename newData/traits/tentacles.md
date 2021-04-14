@@ -1,4 +1,5 @@
 ---
-species: hanar
+species:
+  - hanar
 mechanics: []
 ---

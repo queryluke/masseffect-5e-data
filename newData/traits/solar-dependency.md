@@ -1,4 +1,5 @@
 ---
-species: angara
+species:
+  - angara
 mechanics: []
 ---

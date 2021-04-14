@@ -1,4 +1,5 @@
 ---
-species: drell
+species:
+  - drell
 mechanics: []
 ---

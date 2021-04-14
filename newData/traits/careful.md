@@ -1,5 +1,6 @@
 ---
-species: elcor
+species:
+  - elcor
 mechanics:
   - type: prof
     options:

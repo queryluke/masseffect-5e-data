@@ -1,4 +1,5 @@
 ---
-species: asari
+species:
+  - asari
 mechanics: []
 ---

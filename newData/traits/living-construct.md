@@ -1,5 +1,6 @@
 ---
-species: geth
+species:
+  - geth
 mechanics:
   - type: immunity
     options:

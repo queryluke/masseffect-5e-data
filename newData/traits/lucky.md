@@ -1,4 +1,5 @@
 ---
-species: volus
+species:
+  - volus
 mechanics: []
 ---

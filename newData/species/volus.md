@@ -35,4 +35,5 @@ randomDimensions:
         dieCount: 0
         dieType: .nan
         divisor: .nan
+galaxy: ''
 ---

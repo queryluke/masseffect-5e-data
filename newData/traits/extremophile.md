@@ -1,4 +1,5 @@
 ---
-species: krogan
+species:
+  - krogan
 mechanics: []
 ---
