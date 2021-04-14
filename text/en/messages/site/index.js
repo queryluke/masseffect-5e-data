@@ -1,14 +1,21 @@
 const home = require('./home')
 
 module.exports = {
-    change_species: 'Switch Species',
-    generators: {
-        title: 'Generators',
-        loot_generator: 'Loot Generator',
-        npc_generator: 'NPC Generator',
-        character_builder: 'Character Builder'
+    buttons: {
+        add_bookmark: 'Bookmark',
+        remove_bookmark: 'Remove Bookmark',
+        change_species: 'Switch Species',
+        read_more: 'Read More',
+        join_community: 'Join the community',
+        search: 'Search',
+        view_details: 'View Details Page'
     },
-    join_community: 'Join the community',
+    labels: {
+        generators: 'Generators',
+        rules: 'Rules',
+        tools_guides: 'Tools & Guides',
+        version: 'VERSION'
+    },
     pages: {
         about: {
             title: 'About',
@@ -37,10 +44,16 @@ module.exports = {
         license: {
             title: 'License'
         },
+        loot_generator: {
+            title: 'Loot Generator'
+        },
+        npc_generator: {
+            title: 'NPC Generator'
+        },
+        character_builder: {
+            title: 'Character Builder'
+        }
     },
-    read_more: 'Read More',
-    rules: 'Rules',
-    search: 'Search',
     settings: {
         label: 'Settings',
         dark: 'Dark',
@@ -51,6 +64,25 @@ module.exports = {
         mode: 'Mode',
         language: 'Language'
     },
-    tools_guides: 'Tools & Guides',
-    version: 'VERSION'
+    stat_headers: {
+        name: 'Name',
+        prereq: 'Prereq',
+        notes: 'Notes',
+        type_level: 'Type/Level',
+        duration: 'Duration',
+        range_area: 'Range (Area)',
+        attack: 'Attack',
+        damage_effect: 'Damage/Effect',
+        damage: 'Damage',
+        heat: 'Heat',
+        range: 'Range',
+        weight: 'Weight',
+        cost: 'Cost',
+        armor_type: 'Armor_Type',
+        type: 'Type',
+        placement: 'Placement',
+        for: 'For',
+        faction: 'Faction',
+        cr: 'CR'
+    }
 }

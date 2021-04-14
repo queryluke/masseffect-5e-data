@@ -34,7 +34,8 @@ module.exports = {
     },
     chips: {
         change: 'change',
-        new: 'new'
+        new: 'new',
+        phb: 'PHB'
     },
     conditions: {
         title: 'Conditions'
