@@ -13,7 +13,7 @@ save:
   cha: false
 tags:
   - protection
-damageType: []
+damageTypes: []
 castingTimes:
   - reaction
 duration:

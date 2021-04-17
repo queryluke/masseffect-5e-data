@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 62050
 manufacturer: andromeda-initiative
 image: >-
@@ -11,4 +11,5 @@ tags:
   - shield_regen
 andromeda: false
 set: false
+rarity: rare
 ---

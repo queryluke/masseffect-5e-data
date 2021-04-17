@@ -139,12 +139,13 @@ const models = [
         dir: 'armor',
         type: 'json',
         mdBody: 'features',
-        facts: ['type','armorType','cost','manu','image','notes','andromeda','set'],
+        facts: ['type','armorType','cost','manu','image','notes','andromeda','set', 'rarity'],
         text: ['name', 'description'],
         slug: ['manu'],
-        snake: ['type', 'armorType'],
+        snake: ['type', 'armorType', 'rarity'],
         replaceKeys: [
-            { from: 'armorType', to: 'placement' },
+            { from: 'type', to: 'placement' },
+            { from: 'armorType', to: 'type' },
             { from: 'manu', to: 'manufacturer' },
             { from: 'notes', to: 'tags' },
             { from: 'description', to: 'flavor' },
@@ -401,8 +402,8 @@ const models = [
     {
         dir: 'gear',
         type: 'md',
-        facts: ['stats', 'rarity', 'stats', 'type', 'cost', 'weight'],
-        snake: ['rarity', 'type'],
+        facts: ['stats', 'rarity', 'stats', 'type', 'cost', 'weight', 'subType'],
+        snake: ['rarity', 'type', 'subType'],
         text: ['name'],
         replaceKeys: [
             { from: 'stats', to: 'mechanics' }
@@ -434,7 +435,7 @@ const models = [
             { from: 'manu', to: 'manufacturer'}
         ],
         factTransform(item, id) {
-            item.tags = item.notes.map(i => _.snakeCase(i))
+            item.tags = item.notes.map(i => _.snakeCase(i)).map(i => i === 'shield_jump_start' ? 'shield_jumpstart' : i)
             item.availability = item.availability.map(i => _.snakeCase(i))
             return item
         }
@@ -447,6 +448,7 @@ const models = [
         text: ['name', 'description', 'reactionQualifier', 'advancements'],
         replaceKeys: [
             { from: 'effect', to: 'tags'},
+            { from: 'damageType', to: 'damageTypes'},
             { from: 'availableClasses', to: 'classes'},
             { from: 'advancementOptions', to: 'advancements'}
         ],
@@ -463,6 +465,13 @@ const models = [
                 wis: false,
                 cha: false
             }
+            item.effect = item.effect.map(i => {
+                if (i === 'ward' || i === 'warding') {
+                    return 'protection'
+                } else {
+                    return i
+                }
+            })
             if (item.attackType !== null) {
                 for (const t of item.attackType) {
                     if (/melee/i.test(t)) {
@@ -507,15 +516,26 @@ const models = [
             item.attack = attack
             item.save = save
             item.castingTimes = castingTimes
-            if (item.duration === 'Instant') {
+            if (item.duration === 'Instant' || item.duration === 'instant') {
                 item.instant = true
                 item.duration = false
             } else {
                 item.instant = false
-                const dirsplit = item.duration.split(' ')
-                item.duration = {
-                    length: parseInt(dirsplit[0]),
-                    time: dirsplit[1]
+                if (item.duration === 'Infinite') {
+                    item.duration = {
+                        length: 1,
+                        time: 'hour'
+                    }
+                } else {
+                    const dirsplit = item.duration.split(' ')
+                    let time = dirsplit[1].toLowerCase()
+                    if (time.endsWith('s')) {
+                        time = time.slice(0, -1)
+                    }
+                    item.duration = {
+                        length: parseInt(dirsplit[0]),
+                        time
+                    }
                 }
             }
             item.range = item.distance.range.toString().toLowerCase() === 'self'

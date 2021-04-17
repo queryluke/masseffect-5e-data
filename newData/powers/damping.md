@@ -14,7 +14,7 @@ save:
 tags:
   - debuff
   - control
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration: false

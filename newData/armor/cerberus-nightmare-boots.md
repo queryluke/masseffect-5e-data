@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: light
+placement: legs
+type: light
 cost: 21950
 manufacturer: cerberus-skunkworks
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-nightmare
+rarity: spectre
 ---

@@ -27,4 +27,5 @@ rarity: varies
 type: grenade
 cost: Varies
 weight: 1
+subType: ''
 ---

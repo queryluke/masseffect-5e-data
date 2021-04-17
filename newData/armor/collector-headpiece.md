@@ -1,6 +1,6 @@
 ---
-type: head
-placement: heavy
+placement: head
+type: heavy
 cost: 27325
 manufacturer: cerberus-skunkworks
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: false
 set: collector
+rarity: rare
 ---

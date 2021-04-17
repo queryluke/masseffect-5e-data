@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: medium
+placement: legs
+type: medium
 cost: 16425
 manufacturer: cerberus-skunkworks
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-ajax
+rarity: uncommon
 ---

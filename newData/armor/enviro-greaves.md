@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: light
+placement: legs
+type: light
 cost: 11900
 manufacturer: elanus-risk-control-services
 image: >-
@@ -9,4 +9,5 @@ tags:
   - ability_skill_bonus
 andromeda: false
 set: false
+rarity: uncommon
 ---

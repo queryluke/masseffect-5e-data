@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: medium
+placement: legs
+type: medium
 cost: 29175
 manufacturer: andromeda-initiative
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: initiative
+rarity: uncommon
 ---

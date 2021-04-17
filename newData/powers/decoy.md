@@ -13,7 +13,7 @@ save:
   cha: false
 tags:
   - control
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration:

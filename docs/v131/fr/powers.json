@@ -17,7 +17,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -70,7 +70,7 @@
     "tags": [
       "debuff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -124,7 +124,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [
@@ -181,7 +181,7 @@
     "tags": [
       "protection"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -235,7 +235,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "piercing"
     ],
     "castingTimes": [
@@ -288,7 +288,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "bonus_action"
     ],
@@ -342,7 +342,7 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -395,7 +395,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "piercing"
     ],
     "castingTimes": [
@@ -450,7 +450,7 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -501,7 +501,7 @@
       "damage",
       "buff"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -557,7 +557,7 @@
       "damage",
       "buff"
     ],
-    "damageType": [
+    "damageTypes": [
       "bludgeoning"
     ],
     "castingTimes": [
@@ -611,7 +611,7 @@
       "damage",
       "buff"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -664,9 +664,9 @@
       "cha": false
     },
     "tags": [
-      "warding"
+      "protection"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -721,13 +721,13 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
     "duration": {
       "length": 10,
-      "time": "minutes"
+      "time": "minute"
     },
     "instant": false,
     "concentration": true,
@@ -774,9 +774,9 @@
     },
     "tags": [
       "damage",
-      "ward"
+      "protection"
     ],
-    "damageType": [
+    "damageTypes": [
       "piercing"
     ],
     "castingTimes": [
@@ -831,7 +831,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "bludgeoning"
     ],
     "castingTimes": [
@@ -888,7 +888,7 @@
       "damage",
       "movement"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -940,7 +940,7 @@
       "damage",
       "buff"
     ],
-    "damageType": [
+    "damageTypes": [
       "bludgeoning"
     ],
     "castingTimes": [
@@ -991,16 +991,14 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "cold"
     ],
     "castingTimes": [
       "action"
     ],
-    "duration": {
-      "length": null
-    },
-    "instant": false,
+    "duration": false,
+    "instant": true,
     "concentration": false,
     "range": 0,
     "aoe": {
@@ -1050,7 +1048,7 @@
       "damage",
       "debuff"
     ],
-    "damageType": [
+    "damageTypes": [
       "cold"
     ],
     "castingTimes": [
@@ -1104,7 +1102,7 @@
       "debuff",
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -1155,7 +1153,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [
@@ -1209,7 +1207,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [
@@ -1266,7 +1264,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -1319,13 +1317,13 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "bonus_action"
     ],
     "duration": {
       "length": 10,
-      "time": "minutes"
+      "time": "minute"
     },
     "instant": false,
     "concentration": true,
@@ -1373,7 +1371,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -1424,7 +1422,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -1476,7 +1474,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "lightning"
     ],
     "castingTimes": [
@@ -1531,7 +1529,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "lightning"
     ],
     "castingTimes": [
@@ -1583,7 +1581,7 @@
     "tags": [
       "heal"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -1634,7 +1632,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "piercing"
     ],
     "castingTimes": [
@@ -1688,7 +1686,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "fire"
     ],
     "castingTimes": [
@@ -1744,7 +1742,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "radiant"
     ],
     "castingTimes": [
@@ -1795,13 +1793,13 @@
     "tags": [
       "movement"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
     "duration": {
       "length": 10,
-      "time": "minutes"
+      "time": "minute"
     },
     "instant": false,
     "concentration": true,
@@ -1849,7 +1847,7 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -1899,7 +1897,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -1955,13 +1953,13 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "bonus_action"
     ],
     "duration": {
       "length": 10,
-      "time": "minutes"
+      "time": "minute"
     },
     "instant": false,
     "concentration": false,
@@ -2009,7 +2007,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "thunder"
     ],
     "castingTimes": [
@@ -2064,7 +2062,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "thunder"
     ],
     "castingTimes": [
@@ -2116,7 +2114,7 @@
       "damage",
       "movement"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -2168,9 +2166,9 @@
       "cha": false
     },
     "tags": [
-      "warding"
+      "protection"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "bonus_action"
     ],
@@ -2219,7 +2217,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "fire"
     ],
     "castingTimes": [],
@@ -2271,7 +2269,7 @@
       "damage",
       "debuff"
     ],
-    "damageType": [
+    "damageTypes": [
       "psychic"
     ],
     "castingTimes": [
@@ -2327,7 +2325,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -2381,7 +2379,7 @@
       "damage",
       "control"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -2437,13 +2435,13 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
     "duration": {
       "length": 10,
-      "time": "minutes"
+      "time": "minute"
     },
     "instant": false,
     "concentration": true,
@@ -2489,9 +2487,9 @@
       "cha": false
     },
     "tags": [
-      "ward"
+      "protection"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -2544,7 +2542,7 @@
     "tags": [
       "debuff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -2594,7 +2592,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "poison"
     ],
     "castingTimes": [
@@ -2647,7 +2645,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -2701,7 +2699,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "lightning"
     ],
     "castingTimes": [
@@ -2754,7 +2752,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -2807,13 +2805,13 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
     "duration": {
       "length": 24,
-      "time": "hours"
+      "time": "hour"
     },
     "instant": false,
     "concentration": false,
@@ -2861,7 +2859,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "poison"
     ],
     "castingTimes": [
@@ -2913,7 +2911,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -2968,7 +2966,7 @@
       "damage",
       "debuff"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [
@@ -3020,12 +3018,13 @@
       "debuff",
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
     "duration": {
-      "length": null
+      "length": 1,
+      "time": "hour"
     },
     "instant": false,
     "concentration": false,
@@ -3072,7 +3071,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "radiant"
     ],
     "castingTimes": [
@@ -3125,7 +3124,7 @@
     "tags": [
       "summon"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -3177,7 +3176,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -3227,7 +3226,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -3284,7 +3283,7 @@
       "damage",
       "control"
     ],
-    "damageType": [
+    "damageTypes": [
       "psychic"
     ],
     "castingTimes": [
@@ -3339,7 +3338,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -3394,7 +3393,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "bludgeoning"
     ],
     "castingTimes": [
@@ -3447,7 +3446,7 @@
     "tags": [
       "movement"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -3501,7 +3500,7 @@
       "control",
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "cold"
     ],
     "castingTimes": [
@@ -3555,7 +3554,7 @@
       "control",
       "debuff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -3609,7 +3608,7 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "bonus_action"
     ],
@@ -3664,7 +3663,7 @@
       "damage",
       "control"
     ],
-    "damageType": [
+    "damageTypes": [
       "force",
       "necrotic"
     ],
@@ -3722,7 +3721,7 @@
     "tags": [
       "control"
     ],
-    "damageType": [
+    "damageTypes": [
       "lightning"
     ],
     "castingTimes": [
@@ -3781,7 +3780,7 @@
     "tags": [
       "debuff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -3834,7 +3833,7 @@
     "tags": [
       "debuff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -3891,7 +3890,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [
@@ -3942,7 +3941,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -3993,9 +3992,9 @@
       "cha": false
     },
     "tags": [
-      "ward"
+      "protection"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "reaction"
     ],
@@ -4045,13 +4044,13 @@
     "tags": [
       "buff"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "bonus_action"
     ],
     "duration": {
       "length": 1,
-      "time": "Turn"
+      "time": "turn"
     },
     "instant": false,
     "concentration": false,
@@ -4097,7 +4096,7 @@
     "tags": [
       "heal"
     ],
-    "damageType": [],
+    "damageTypes": [],
     "castingTimes": [
       "action"
     ],
@@ -4147,7 +4146,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "force"
     ],
     "castingTimes": [
@@ -4203,7 +4202,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [
@@ -4261,7 +4260,7 @@
     "tags": [
       "damage"
     ],
-    "damageType": [
+    "damageTypes": [
       "necrotic"
     ],
     "castingTimes": [

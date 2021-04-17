@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 56000
 manufacturer: andromeda-initiative
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: pathfinder
+rarity: rare
 ---

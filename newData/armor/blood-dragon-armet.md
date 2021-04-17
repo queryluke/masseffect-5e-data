@@ -1,6 +1,6 @@
 ---
-type: head
-placement: medium
+placement: head
+type: medium
 cost: 42250
 manufacturer: armax-arsenal
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: blood-dragon
+rarity: spectre
 ---

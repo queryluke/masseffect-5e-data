@@ -13,7 +13,7 @@ save:
   cha: false
 tags:
   - summon
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration:

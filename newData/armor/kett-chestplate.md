@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: heavy
+placement: chest
+type: heavy
 cost: 47825
 manufacturer: kett
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: kett
+rarity: rare
 ---

@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 38250
 manufacturer: cerberus-skunkworks
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-spirit
+rarity: spectre
 ---

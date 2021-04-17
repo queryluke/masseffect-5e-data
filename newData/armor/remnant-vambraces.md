@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: medium
+placement: arms
+type: medium
 cost: 16450
 manufacturer: andromeda-initiative
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: remnant
+rarity: rare
 ---

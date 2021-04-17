@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: light
+placement: body_armor
+type: light
 cost: 18700
 manufacturer: ariake-technologies
 image: >-
@@ -9,4 +9,5 @@ tags:
   - shields
 andromeda: false
 set: false
+rarity: uncommon
 ---

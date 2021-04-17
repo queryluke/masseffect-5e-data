@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: medium
+placement: body_armor
+type: medium
 cost: 39950
 manufacturer: batarian-state-arms
 image: >-
@@ -11,4 +11,5 @@ tags:
   - movement
 andromeda: false
 set: false
+rarity: uncommon
 ---

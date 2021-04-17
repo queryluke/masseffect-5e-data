@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: heavy
+placement: chest
+type: heavy
 cost: 15300
 manufacturer: hahne-kedar
 image: >-
@@ -9,4 +9,5 @@ tags:
   - special
 andromeda: false
 set: false
+rarity: uncommon
 ---

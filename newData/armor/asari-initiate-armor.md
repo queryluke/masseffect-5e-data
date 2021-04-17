@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: light
+placement: body_armor
+type: light
 cost: 42500
 manufacturer: serrice-council
 image: >-
@@ -9,4 +9,5 @@ tags:
   - extra_damage
 andromeda: false
 set: false
+rarity: spectre
 ---

@@ -1,6 +1,6 @@
 ---
-type: head
-placement: heavy
+placement: head
+type: heavy
 cost: 12750
 manufacturer: kassa-fabrication
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: hyper-guardian
+rarity: uncommon
 ---

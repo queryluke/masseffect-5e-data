@@ -1,6 +1,6 @@
 ---
-type: head
-placement: medium
+placement: head
+type: medium
 cost: 28750
 manufacturer: cerberus-skunkworks
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-ajax
+rarity: uncommon
 ---

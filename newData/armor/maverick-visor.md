@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 11000
 manufacturer: nexus-exiles
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: maverick
+rarity: uncommon
 ---

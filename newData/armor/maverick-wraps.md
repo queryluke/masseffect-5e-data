@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: light
+placement: arms
+type: light
 cost: 5050
 manufacturer: nexus-exiles
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: maverick
+rarity: uncommon
 ---

@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: light
+placement: body_armor
+type: light
 cost: 50000
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: scavenger
+rarity: rare
 ---

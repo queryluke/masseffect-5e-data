@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 36000
 manufacturer: ariake-technologies
 image: >-
@@ -9,4 +9,5 @@ tags:
   - special
 andromeda: false
 set: false
+rarity: uncommon
 ---

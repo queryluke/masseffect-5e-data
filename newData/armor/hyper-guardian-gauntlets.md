@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: heavy
+placement: arms
+type: heavy
 cost: 54400
 manufacturer: kassa-fabrication
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: hyper-guardian
+rarity: uncommon
 ---

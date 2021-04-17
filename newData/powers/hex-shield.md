@@ -12,8 +12,8 @@ save:
   wis: false
   cha: false
 tags:
-  - warding
-damageType: []
+  - protection
+damageTypes: []
 castingTimes:
   - bonus_action
 duration: false

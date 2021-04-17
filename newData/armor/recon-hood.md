@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 46750
 manufacturer: kassa-fabrication
 image: >-
@@ -10,4 +10,5 @@ tags:
   - vision
 andromeda: false
 set: false
+rarity: uncommon
 ---

@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: medium
+placement: legs
+type: medium
 cost: 28050
 manufacturer: ariake-technologies
 image: >-
@@ -10,4 +10,5 @@ tags:
   - movement
 andromeda: false
 set: false
+rarity: uncommon
 ---

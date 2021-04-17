@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 70300
 manufacturer: armax-arsenal
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: false
 set: blood-dragon
+rarity: spectre
 ---

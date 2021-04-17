@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: heavy
+placement: legs
+type: heavy
 cost: 61250
 manufacturer: kassa-fabrication
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: colossus
+rarity: rare
 ---

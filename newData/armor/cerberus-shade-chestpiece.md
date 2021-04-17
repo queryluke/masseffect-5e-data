@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 31300
 manufacturer: cerberus-skunkworks
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-shade
+rarity: spectre
 ---

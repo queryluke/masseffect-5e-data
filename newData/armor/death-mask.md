@@ -1,6 +1,6 @@
 ---
-type: head
-placement: heavy
+placement: head
+type: heavy
 cost: 31450
 manufacturer: tyriel-advanced-communications-corporation
 image: >-
@@ -11,4 +11,5 @@ tags:
   - attack_bonus
 andromeda: false
 set: false
+rarity: uncommon
 ---

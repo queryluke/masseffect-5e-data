@@ -1702,7 +1702,7 @@
     "damage": {
       "dieCount": "2",
       "dieType": "8",
-      "type": "fre"
+      "type": "fire"
     },
     "range": 200,
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6f/MEA_Naladen_MP.png/revision/latest?cb=20180602004109",
@@ -2213,7 +2213,7 @@
     "damage": {
       "dieCount": "2",
       "dieType": "10",
-      "type": null
+      "type": "piercing"
     },
     "range": 15,
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shorty_MP.png/revision/latest?cb=20180607232226",
@@ -2239,7 +2239,7 @@
     "damage": {
       "dieCount": "1",
       "dieType": "12",
-      "type": null
+      "type": "piercing"
     },
     "range": 75,
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_Sidewinder_MP.png/revision/latest?cb=20180530053144",

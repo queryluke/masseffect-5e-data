@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: medium
+placement: body_armor
+type: medium
 cost: 31450
 manufacturer: armax-arsenal
 image: >-
@@ -10,4 +10,5 @@ tags:
   - null_critical
 andromeda: false
 set: false
+rarity: uncommon
 ---

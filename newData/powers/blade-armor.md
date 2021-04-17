@@ -13,8 +13,8 @@ save:
   cha: false
 tags:
   - damage
-  - ward
-damageType:
+  - protection
+damageTypes:
   - piercing
 castingTimes:
   - bonus_action

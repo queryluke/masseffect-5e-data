@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: heavy
+placement: chest
+type: heavy
 cost: 27075
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: terminus-assault
+rarity: uncommon
 ---

@@ -13,12 +13,12 @@ save:
   cha: false
 tags:
   - movement
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration:
   length: 10
-  time: minutes
+  time: minute
 instant: false
 concentration: true
 range: 0

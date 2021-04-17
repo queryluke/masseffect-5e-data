@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: heavy
+placement: legs
+type: heavy
 cost: 14325
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: terminus-assault
+rarity: uncommon
 ---

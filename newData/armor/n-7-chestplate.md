@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 40250
 manufacturer: hahne-kedar
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: false
 set: n-7
+rarity: rare
 ---

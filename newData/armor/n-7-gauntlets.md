@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: medium
+placement: arms
+type: medium
 cost: 25800
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: n-7
+rarity: rare
 ---

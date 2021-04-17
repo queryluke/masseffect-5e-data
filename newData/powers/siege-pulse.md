@@ -14,7 +14,7 @@ save:
 tags:
   - damage
   - control
-damageType:
+damageTypes:
   - psychic
 castingTimes:
   - action

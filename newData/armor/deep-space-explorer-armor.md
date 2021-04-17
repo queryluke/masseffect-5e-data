@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: medium
+placement: body_armor
+type: medium
 cost: 56100
 manufacturer: andromeda-initiative
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: deep-space-explorer
+rarity: spectre
 ---

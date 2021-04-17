@@ -1,6 +1,6 @@
 ---
-type: head
-placement: heavy
+placement: head
+type: heavy
 cost: 14450
 manufacturer: delumcore-systems
 image: >-
@@ -9,4 +9,5 @@ tags:
   - extra_damage
 andromeda: false
 set: false
+rarity: uncommon
 ---

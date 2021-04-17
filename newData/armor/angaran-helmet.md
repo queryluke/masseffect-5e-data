@@ -1,6 +1,6 @@
 ---
-type: head
-placement: medium
+placement: head
+type: medium
 cost: 19000
 manufacturer: taravay-industries
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: angaran
+rarity: rare
 ---

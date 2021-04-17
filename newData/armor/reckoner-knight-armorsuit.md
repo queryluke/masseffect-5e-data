@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: heavy
+placement: body_armor
+type: heavy
 cost: 144500
 manufacturer: armax-arsenal
 image: >-
@@ -10,4 +10,5 @@ tags:
   - extra_damage
 andromeda: false
 set: reckoner-knight
+rarity: spectre
 ---

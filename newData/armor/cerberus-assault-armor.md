@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: heavy
+placement: body_armor
+type: heavy
 cost: 127375
 manufacturer: cerberus-skunkworks
 image: >-
@@ -12,4 +12,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-assault
+rarity: rare
 ---

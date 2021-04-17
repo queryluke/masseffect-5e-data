@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 53000
 manufacturer: taravay-industries
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: true
 set: angaran
+rarity: rare
 ---

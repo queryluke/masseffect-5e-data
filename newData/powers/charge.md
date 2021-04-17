@@ -14,7 +14,7 @@ save:
 tags:
   - damage
   - movement
-damageType:
+damageTypes:
   - force
 castingTimes:
   - action

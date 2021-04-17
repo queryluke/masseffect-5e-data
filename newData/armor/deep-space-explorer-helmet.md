@@ -1,6 +1,6 @@
 ---
-type: head
-placement: medium
+placement: head
+type: medium
 cost: 9350
 manufacturer: andromeda-initiative
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: deep-space-explorer
+rarity: spectre
 ---

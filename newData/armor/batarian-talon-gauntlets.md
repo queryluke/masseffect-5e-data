@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: light
+placement: arms
+type: light
 cost: 21100
 manufacturer: batarian-state-arms
 image: >-
@@ -10,4 +10,5 @@ tags:
   - ability_skill_bonus
 andromeda: false
 set: false
+rarity: uncommon
 ---

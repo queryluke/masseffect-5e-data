@@ -13,13 +13,12 @@ save:
   cha: false
 tags:
   - damage
-damageType:
+damageTypes:
   - cold
 castingTimes:
   - action
-duration:
-  length: .nan
-instant: false
+duration: false
+instant: true
 concentration: false
 range: 0
 aoe:

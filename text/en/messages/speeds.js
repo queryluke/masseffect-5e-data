@@ -1,23 +1,22 @@
 module.exports = {
-    title: 'Speed',
     walk: {
         title: 'Walking',
-        lc: 'walking',
+        text: 'walking',
         label: ''
     },
     fly: {
         title: 'Flying',
-        lc: 'flying',
+        text: 'flying',
         label: 'fly'
     },
     swim: {
         title: 'Swimming',
-        lc: 'swimming',
+        text: 'swimming',
         label: 'swim'
     },
     burrow: {
         title: 'Burrowing',
-        lc: 'burrowing',
+        text: 'burrowing',
         label: 'burrow'
     }
 }

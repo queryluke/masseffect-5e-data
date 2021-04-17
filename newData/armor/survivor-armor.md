@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: medium
+placement: body_armor
+type: medium
 cost: 30600
 manufacturer: devlon-industries
 image: >-
@@ -9,4 +9,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: uncommon
 ---

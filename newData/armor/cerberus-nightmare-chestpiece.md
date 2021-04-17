@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: light
+placement: chest
+type: light
 cost: 64875
 manufacturer: cerberus-skunkworks
 image: >-
@@ -12,4 +12,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-nightmare
+rarity: spectre
 ---

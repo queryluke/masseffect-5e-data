@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: light
+placement: body_armor
+type: light
 cost: 73950
 manufacturer: rosenkov-materials
 image: >-
@@ -9,4 +9,5 @@ tags:
   - power_regen
 andromeda: false
 set: false
+rarity: rare
 ---

@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: heavy
+placement: legs
+type: heavy
 cost: 18700
 manufacturer: hahne-kedar
 image: >-
@@ -9,4 +9,5 @@ tags:
   - special
 andromeda: false
 set: false
+rarity: uncommon
 ---

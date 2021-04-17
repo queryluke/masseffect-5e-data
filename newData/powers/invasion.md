@@ -14,7 +14,7 @@ save:
 tags:
   - damage
   - debuff
-damageType:
+damageTypes:
   - psychic
 castingTimes:
   - action

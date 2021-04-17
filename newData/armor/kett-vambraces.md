@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: heavy
+placement: arms
+type: heavy
 cost: 34225
 manufacturer: kett
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: true
 set: kett
+rarity: rare
 ---

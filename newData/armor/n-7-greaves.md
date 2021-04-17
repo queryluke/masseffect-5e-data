@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: medium
+placement: legs
+type: medium
 cost: 34300
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: n-7
+rarity: rare
 ---

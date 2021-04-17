@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: light
+placement: chest
+type: light
 cost: 11850
 manufacturer: nexus-exiles
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: maverick
+rarity: uncommon
 ---

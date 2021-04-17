@@ -10,4 +10,5 @@ rarity: uncommon
 type: heavy_weapon
 cost: 24000
 weight: 12
+subType: ''
 ---

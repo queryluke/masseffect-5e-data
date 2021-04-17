@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: medium
+placement: arms
+type: medium
 cost: 20250
 manufacturer: cerberus-skunkworks
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-shade
+rarity: spectre
 ---

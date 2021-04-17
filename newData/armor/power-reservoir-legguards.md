@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: medium
+placement: legs
+type: medium
 cost: 12750
 manufacturer: serrice-council
 image: >-
@@ -9,4 +9,5 @@ tags:
   - special
 andromeda: false
 set: false
+rarity: uncommon
 ---

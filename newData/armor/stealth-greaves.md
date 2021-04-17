@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: light
+placement: legs
+type: light
 cost: 14450
 manufacturer: sirta-foundation
 image: >-
@@ -9,4 +9,5 @@ tags:
   - special
 andromeda: false
 set: false
+rarity: uncommon
 ---

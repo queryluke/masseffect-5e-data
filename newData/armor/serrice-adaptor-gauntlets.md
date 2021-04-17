@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: medium
+placement: arms
+type: medium
 cost: 45050
 manufacturer: serrice-council
 image: >-
@@ -9,4 +9,5 @@ tags:
   - resistance
 andromeda: false
 set: false
+rarity: uncommon
 ---

@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: heavy
+placement: body_armor
+type: heavy
 cost: 90875
 manufacturer: hahne-kedar
 image: >-
@@ -13,4 +13,5 @@ tags:
   - set_bonus
 andromeda: false
 set: n-7-defender
+rarity: rare
 ---

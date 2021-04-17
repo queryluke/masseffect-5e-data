@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 55250
 manufacturer: serrice-council
 image: >-
@@ -10,4 +10,5 @@ tags:
   - special
 andromeda: false
 set: false
+rarity: rare
 ---

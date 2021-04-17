@@ -1,6 +1,6 @@
 ---
-type: head
-placement: medium
+placement: head
+type: medium
 cost: 38250
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - null_critical
 andromeda: false
 set: false
+rarity: uncommon
 ---

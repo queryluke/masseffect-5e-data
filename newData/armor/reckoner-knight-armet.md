@@ -1,6 +1,6 @@
 ---
-type: head
-placement: heavy
+placement: head
+type: heavy
 cost: 29750
 manufacturer: armax-arsenal
 image: >-
@@ -9,4 +9,5 @@ tags:
   - special
 andromeda: false
 set: reckoner-knight
+rarity: spectre
 ---

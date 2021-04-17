@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: heavy
+placement: body_armor
+type: heavy
 cost: 87550
 manufacturer: rosenkov-materials
 image: >-
@@ -11,4 +11,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: uncommon
 ---

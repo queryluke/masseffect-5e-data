@@ -10,4 +10,5 @@ rarity: spectre
 type: heavy_weapon
 cost: 68000
 weight: 22
+subType: ''
 ---

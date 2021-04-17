@@ -1,6 +1,6 @@
 ---
-type: legs
-placement: heavy
+placement: legs
+type: heavy
 cost: 30400
 manufacturer: kett
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: true
 set: kett
+rarity: rare
 ---

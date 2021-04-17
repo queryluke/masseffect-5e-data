@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: heavy
+placement: arms
+type: heavy
 cost: 21975
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: terminus-assault
+rarity: uncommon
 ---

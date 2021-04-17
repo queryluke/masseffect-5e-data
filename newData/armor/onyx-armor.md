@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: medium
+placement: body_armor
+type: medium
 cost: 39100
 manufacturer: aldrin-labs
 image: >-
@@ -10,4 +10,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: uncommon
 ---

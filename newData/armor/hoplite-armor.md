@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: light
+placement: body_armor
+type: light
 cost: 80750
 manufacturer: ceberus-skunkworks
 image: null
@@ -10,4 +10,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: uncommon
 ---

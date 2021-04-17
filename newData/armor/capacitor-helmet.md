@@ -1,6 +1,6 @@
 ---
-type: head
-placement: medium
+placement: head
+type: medium
 cost: 34000
 manufacturer: hahne-kedar
 image: >-
@@ -10,4 +10,5 @@ tags:
   - shield_jumpstart
 andromeda: false
 set: false
+rarity: uncommon
 ---

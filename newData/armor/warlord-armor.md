@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: heavy
+placement: body_armor
+type: heavy
 cost: 116875
 manufacturer: elanus-risk-control-services
 image: >-
@@ -10,4 +10,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: rare
 ---

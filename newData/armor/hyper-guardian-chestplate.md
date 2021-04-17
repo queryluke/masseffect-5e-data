@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: heavy
+placement: chest
+type: heavy
 cost: 69700
 manufacturer: kassa-fabrication
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: false
 set: hyper-guardian
+rarity: uncommon
 ---

@@ -13,7 +13,7 @@ save:
   cha: false
 tags:
   - damage
-damageType:
+damageTypes:
   - fire
 castingTimes:
   - action

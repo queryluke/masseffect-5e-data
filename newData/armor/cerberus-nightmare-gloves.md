@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: light
+placement: arms
+type: light
 cost: 43200
 manufacturer: cerberus-skunkworks
 image: >-
@@ -10,4 +10,5 @@ tags:
   - set_bonus
 andromeda: false
 set: cerberus-nightmare
+rarity: spectre
 ---

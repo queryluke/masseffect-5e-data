@@ -14,7 +14,7 @@ save:
 tags:
   - damage
   - buff
-damageType:
+damageTypes:
   - bludgeoning
 castingTimes:
   - action

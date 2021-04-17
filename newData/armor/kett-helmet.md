@@ -1,6 +1,6 @@
 ---
-type: head
-placement: heavy
+placement: head
+type: heavy
 cost: 50375
 manufacturer: kett
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: true
 set: kett
+rarity: rare
 ---

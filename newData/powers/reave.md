@@ -14,7 +14,7 @@ save:
 tags:
   - damage
   - debuff
-damageType:
+damageTypes:
   - necrotic
 castingTimes:
   - action

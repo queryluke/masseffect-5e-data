@@ -14,11 +14,12 @@ save:
 tags:
   - debuff
   - control
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration:
-  length: .nan
+  length: 1
+  time: hour
 instant: false
 concentration: false
 range: 90

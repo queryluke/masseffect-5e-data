@@ -1,6 +1,6 @@
 ---
-type: arms
-placement: heavy
+placement: arms
+type: heavy
 cost: 45900
 manufacturer: aldrin-labs
 image: >-
@@ -9,4 +9,5 @@ tags:
   - ability_skill_bonus
 andromeda: false
 set: false
+rarity: uncommon
 ---

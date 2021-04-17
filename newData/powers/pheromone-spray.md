@@ -13,12 +13,12 @@ save:
   cha: false
 tags:
   - control
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration:
   length: 24
-  time: hours
+  time: hour
 instant: false
 concentration: false
 range: 30

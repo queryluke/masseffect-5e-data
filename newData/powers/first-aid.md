@@ -13,7 +13,7 @@ save:
   cha: false
 tags:
   - heal
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration: false

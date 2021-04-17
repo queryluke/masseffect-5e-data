@@ -4,7 +4,7 @@ type: armor
 cost: 15000
 manufacturer: alliance
 tags:
-  - shield_jump_start
+  - shield_jumpstart
 placement: head
 availability:
   - light

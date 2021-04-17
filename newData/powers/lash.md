@@ -14,7 +14,7 @@ save:
 tags:
   - damage
   - control
-damageType:
+damageTypes:
   - force
 castingTimes:
   - action

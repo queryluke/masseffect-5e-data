@@ -13,12 +13,12 @@ save:
   cha: false
 tags:
   - buff
-damageType: []
+damageTypes: []
 castingTimes:
   - bonus_action
 duration:
   length: 1
-  time: Turn
+  time: turn
 instant: false
 concentration: false
 range: 0

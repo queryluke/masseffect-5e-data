@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 21250
 manufacturer: hahne-kedar
 image: >-
@@ -9,4 +9,5 @@ tags:
   - extra_damage
 andromeda: false
 set: false
+rarity: uncommon
 ---

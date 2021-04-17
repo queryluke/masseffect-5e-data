@@ -1,6 +1,6 @@
 ---
-type: chest
-placement: medium
+placement: chest
+type: medium
 cost: 106550
 manufacturer: andromeda-initiative
 image: >-
@@ -11,4 +11,5 @@ tags:
   - set_bonus
 andromeda: true
 set: remnant
+rarity: rare
 ---

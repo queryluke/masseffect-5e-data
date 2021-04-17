@@ -14,7 +14,7 @@ save:
 tags:
   - control
   - damage
-damageType:
+damageTypes:
   - cold
 castingTimes:
   - action

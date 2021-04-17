@@ -6,4 +6,5 @@ rarity: common
 type: grenade
 cost: 250
 weight: 1
+subType: ''
 ---

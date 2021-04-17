@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: medium
+placement: body_armor
+type: medium
 cost: 84150
 manufacturer: hahne-kedar
 image: >-
@@ -11,4 +11,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: uncommon
 ---

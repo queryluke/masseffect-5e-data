@@ -12,8 +12,8 @@ save:
   wis: false
   cha: false
 tags:
-  - ward
-damageType: []
+  - protection
+damageTypes: []
 castingTimes:
   - reaction
 duration:

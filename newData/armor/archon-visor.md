@@ -1,6 +1,6 @@
 ---
-type: head
-placement: light
+placement: head
+type: light
 cost: 29750
 manufacturer: devlon-industries
 image: >-
@@ -9,4 +9,5 @@ tags:
   - power_regen
 andromeda: false
 set: false
+rarity: uncommon
 ---

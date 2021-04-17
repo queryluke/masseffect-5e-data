@@ -1,6 +1,6 @@
 ---
-type: body_armor
-placement: light
+placement: body_armor
+type: light
 cost: 37500
 manufacturer: devlon-industries
 image: >-
@@ -10,4 +10,5 @@ tags:
   - ac
 andromeda: false
 set: false
+rarity: uncommon
 ---

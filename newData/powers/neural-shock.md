@@ -13,7 +13,7 @@ save:
   cha: true
 tags:
   - debuff
-damageType: []
+damageTypes: []
 castingTimes:
   - action
 duration: false
