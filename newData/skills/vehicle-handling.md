@@ -1,4 +1,4 @@
 ---
 link: dex
-new: x
+is_new: true
 ---

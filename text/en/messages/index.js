@@ -290,6 +290,18 @@ module.exports = {
     primes_text: 'Primes ({type})',
     proficiencies_title: 'Proficiencies',
     progression_table_title: 'Progression Table',
+    random_height_weight_title: 'Random Height & Weight',
+    random_hw_titles: {
+        calc_height_title: 'Calculating Random Height',
+        calc_height: 'Base Height + Height Modifier Roll',
+        calc_weight_title: 'Calculating Random Weight',
+        calc_weight: 'Base Weight + (Height Modifier Roll x Weight Modifier Roll)',
+        base_height: 'Base Height',
+        base_weight: 'Base Weight',
+        height_mod: 'Height Modifier',
+        weight_mod: 'Weight Modifier',
+        length: 'Length'
+    },
     range_title: 'Range',
     range_area_title: 'Range (Area)',
     rarities: {

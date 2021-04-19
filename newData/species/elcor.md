@@ -24,7 +24,7 @@ randomDimensions:
         dieType: 8
   weight:
     base:
-      imperial: 2
+      imperial: 2000
       metric: 907
     mod:
       imperial:

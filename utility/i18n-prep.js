@@ -610,7 +610,7 @@ const models = [
                 },
                 weight: {
                     base: {
-                        imperial: parseInt(rdw.baseWeight.split(" ")[0]),
+                        imperial: id === 'elcor' ? 2000 : parseInt(rdw.baseWeight.split(" ")[0]),
                         metric: parseInt(rdw.weightKg)
                     },
                     mod: {
@@ -675,11 +675,11 @@ const models = [
         dir: 'skills',
         type: 'json',
         mdBody: 'description',
-        facts: ['link', 'new'],
+        facts: ['link', 'is_new'],
         text: ['name'],
         factTransform (item, id) {
           item.link = item.link.toLowerCase().substr(0, 3)
-          item.is_new = item.new || false
+          item.is_new = item.new ? true : false
           return item
         }
     },
