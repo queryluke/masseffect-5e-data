@@ -39,16 +39,28 @@
   "ability_bonus_all": "+1 to all ability scores",
   "ability_score_increase_title": "Ability Score Increase",
   "about_title": "About",
-  "about_all_others": "And any/all the others in the Discord and Reddit community who have contributed ideas and/or words of motivation!",
-  "about_roles": {
-    "creator": "Creator, Website Developer",
-    "editor": "Editor",
-    "discord": "Discord Moderator",
-    "reddit": "Subreddit Moderator",
-    "developer": "Website Developer",
-    "content": "Content Developer",
-    "translator": "Translator {n}",
-    "designer": "Graphics Designer"
+  "aboutpage": {
+    "about_me5e_title": "About Mass Effect 5e",
+    "about_text": "\n        Mass Effect 5e is a fan-made, D&D 5th Edition, homebrew project that started in early 2016. The core\n        ruleset and website were created by Luke A with guidance from Hugh T. Luke continues to maintain the\n        website, actively develops new features and changes, and filters community-made content.\n    ",
+    "bug_text": "Found a bug or error on the website, please report it!",
+    "contributors_title": "Contributors",
+    "contributors_text": "\n        Mass Effect 5e has had dozens of people who've contributed in a variety of ways, both large and small.\n        The following list represents the people who've contributed to the project in a major way, be it helping\n        moderate the discord server or subreddit, site and character sheet design, or being actively involved in the\n        development of the game. Not everyone on this list is still actively involved and these people are presented in\n        no particular order.\n    ",
+    "former_contributors_title": "Former Contributors",
+    "shoutouts_title": "Shout Outs",
+    "shoutouts_text": "\n        In addition to the above, the system has had many contributors who've added invaluable feedback, shared ideas,\n        created assets, playtested, and much more. If we've missed anyone, it was not on purpose!\n    ",
+    "image_attributions_title": "Image Attributions",
+    "image_attributions_text": "Any images not listed were either created by Mass Effect 5e contributors or come from the the Mass Effect Wiki.",
+    "all_others": "and any/all the others in the Discord and Reddit community who have contributed ideas and/or words of motivation!",
+    "roles": {
+      "creator": "Creator, Website Developer",
+      "editor": "Editor",
+      "discord": "Discord Moderator",
+      "reddit": "Subreddit Moderator",
+      "developer": "Website Developer",
+      "content": "Content Developer",
+      "translator": "Translator {lang}",
+      "designer": "Graphics Designer"
+    }
   },
   "advancement_options_title": "Advancement Options",
   "age_title": "Age",
@@ -101,6 +113,31 @@
     "medium_armor_title": "Medium Armor"
   },
   "assets_title": "Assets",
+  "assetspage": {
+    "file_use_note": "\n      Please note that you have view-only access to these documents. If you would like to edit a document (such as using a character sheet for your\n      own character), you will need to make a copy of the document: File > Make a copy. If that option is greyed out, you need to sign\n      into your google account to make a copy in your personal Google Drive.\n    ",
+    "items": {
+      "pdf": {
+        "title": "Player's Manual PDF",
+        "description": "Using Homebrewery, we've converted this homebrew into a printable PDF. You can download the whole thing, and even make your own spin-offs."
+      },
+      "power_cards": {
+        "title": "Power Cards",
+        "description": "Need power cards at your table?"
+      },
+      "character_sheet": {
+        "title": "Character Sheets",
+        "description": "A variety of character sheet options are available, many created and maintained by the community."
+      },
+      "missions": {
+        "title": "Pre-written Missions",
+        "description": "Only a few are available to date. We welcome additional submissions from the community on Reddit or Discord."
+      },
+      "everything_else": {
+        "title": "Everything Else",
+        "description": "The community is actively creating a lot of other great assets, like power card boxes, pre-made character sheets, and additional homebrew ideas. You can view the whole lot here."
+      }
+    }
+  },
   "attack_title": "Attack",
   "attack_type_title": "Attack Type",
   "attack_types": {
@@ -119,15 +156,18 @@
   "bookmarks_title": "Bookmarks",
   "buttons": {
     "add_bookmark": "Bookmark",
+    "back_to_changelog": "Back To Changelog",
+    "bug": "Report Bug",
     "change_species": "Switch Species",
+    "filter": "Filter",
     "go_to": "Jump To",
-    "join_community": "Join the community",
+    "join_community": "Join the Community",
     "read_more": "Read More",
     "remove_bookmark": "Remove Bookmark",
     "search": "Search",
+    "view": "View",
     "view_details": "View Details Page",
-    "view_rules": "View    Rules",
-    "filter": "Filter"
+    "view_rules": "View Rules"
   },
   "cantrip": "cantrip",
   "casting_time_title": "Casting Time",
@@ -404,13 +444,18 @@
     }
   },
   "meta": {
+    "about": "Learn more about the Mass Effect 5e creators and contributors.",
     "armor": "These pre-made armor pieces are available as mass produced alternatives to custom modding.",
+    "assets": "Mass Effect 5e is more than a rule set. We have also created character sheets, spell cards, and other great tabletop assets.",
     "backgrounds": "Backgrounds provide additional flavor and benefits to your character.",
+    "bookmarks": "Keep your favorite weapons, enemies, and spells close at hand with our nifty bookmark tool.",
+    "changelog": "Keep up-to-date with all the Mass Effect 5e system rule additions and updates.",
     "class_info": "Learn more about the {name} class, including Progression table, subclasses, proficiencies, and starting equipment",
     "classes": "Choose your favorite Mass Effect class, each with 3 subclasses to provide variety to the game.",
     "conditions": "There are new conditions in Mass Effect 5e that add variety to combat.",
     "feats": "New feats available! Plus a curated list of D&D 5th edition feats.",
     "gear": "Mass Effect 5e gear comprises a number of items, like tools and kits, and special weapons, like grenades, heavy weapons.",
+    "guide": "The Galaxy Masters section has handy tools and guides for expanding your campaign.",
     "info": "Information about {name}.",
     "manual": "Want to play D&D in the Mass Effect Universe? This manual has everything you need!",
     "mods": "Mass Effect 5e comes with a full set of armor and weapon mods that let you customize your gear to your needs.",
@@ -521,6 +566,7 @@
     },
     "article": "The"
   },
+  "npc_title": "Npc | Npcs",
   "npc_generator_title": "NPC Generator",
   "phb": "PHB",
   "power_title": "Power | Powers",

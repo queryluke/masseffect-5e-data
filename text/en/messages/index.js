@@ -1,4 +1,6 @@
 const abilities = require('./abilities')
+const aboutpage = require('./aboutpage')
+const assetspage = require('./assetspage')
 const damage_types = require('./damage-types')
 const homepage = require('./homepage')
 const lists = require('./lists')
@@ -23,17 +25,7 @@ module.exports = {
     ability_bonus_all: '+1 to all ability scores',
     ability_score_increase_title: 'Ability Score Increase',
     about_title: 'About',
-    about_all_others: 'And any/all the others in the Discord and Reddit community who have contributed ideas and/or words of motivation!',
-    about_roles: {
-        creator: 'Creator, Website Developer',
-        editor: 'Editor',
-        discord: 'Discord Moderator',
-        reddit: 'Subreddit Moderator',
-        developer: 'Website Developer',
-        content: 'Content Developer',
-        translator: 'Translator {n}',
-        designer: 'Graphics Designer'
-    },
+    aboutpage,
     advancement_options_title: 'Advancement Options',
     age_title: 'Age',
     alignment_title: 'Alignment',
@@ -87,6 +79,7 @@ module.exports = {
         medium_armor_title: 'Medium Armor'
     },
     assets_title: 'Assets',
+    assetspage,
     attack_title: 'Attack',
     attack_type_title: 'Attack Type',
     attack_types: {
@@ -106,15 +99,18 @@ module.exports = {
     bookmarks_title: 'Bookmarks',
     buttons: {
         add_bookmark: 'Bookmark',
+        back_to_changelog: 'Back To Changelog',
+        bug: 'Report Bug',
         change_species: 'Switch Species',
+        filter: 'Filter',
         go_to: 'Jump To',
-        join_community: 'Join the community',
+        join_community: 'Join the Community',
         read_more: 'Read More',
         remove_bookmark: 'Remove Bookmark',
         search: 'Search',
+        view: 'View',
         view_details: 'View Details Page',
-        view_rules: 'View    Rules',
-        filter: 'Filter'
+        view_rules: 'View Rules'
     },
     cantrip: 'cantrip',
     casting_time_title: 'Casting Time',
@@ -276,6 +272,7 @@ module.exports = {
     ordinal_numbers: ['0', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th',
         '11th', '12th', '13th', '14th', '15th', '16th', '17th', '18th', '19th', '20th'],
     npc,
+    npc_title: 'Npc | Npcs',
     npc_generator_title: 'NPC Generator',
     phb: 'PHB',
     power_title: 'Power | Powers',

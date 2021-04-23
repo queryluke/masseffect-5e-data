@@ -1,5 +1,6 @@
 ---
-- title: armor_creation
+- id: armor-creation
+  title: guide.creating_armor
   sections:
     - id: armor-creation-nomenclature
       sections: []
@@ -9,11 +10,13 @@
       sections: []
     - id: armor-creation-creating-a-set
       sections: []
-- title: encounter_creation
+- id: encounter-creation
+  title: guide.creating_encounters
   sections:
     - id: creating-encounters
       sections: []
-- title: vehicle_creation
+- id: vehicle-creation
+  title: guide.creating_vehicles
   sections:
     - id: creating-new-vehicles
       sections: []

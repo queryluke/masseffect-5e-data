@@ -1,6 +1,7 @@
 [
   {
-    "title": "armor_creation",
+    "id": "armor-creation",
+    "title": "guide.creating_armor",
     "sections": [
       {
         "id": "armor-creation-nomenclature",
@@ -21,7 +22,8 @@
     ]
   },
   {
-    "title": "encounter_creation",
+    "id": "encounter-creation",
+    "title": "guide.creating_encounters",
     "sections": [
       {
         "id": "creating-encounters",
@@ -30,7 +32,8 @@
     ]
   },
   {
-    "title": "vehicle_creation",
+    "id": "vehicle-creation",
+    "title": "guide.creating_vehicles",
     "sections": [
       {
         "id": "creating-new-vehicles",
