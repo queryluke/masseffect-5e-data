@@ -17,6 +17,7 @@ age: >-
 skinColor: Shades of brown, but can have tints of red, green, yellow, and teal
 eyeColor: Black
 bioticPotential: Some
+homeworld: Khar'shan
 ---
 A species of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.
 The Terminus Systems are infested with batarian pirate gangs and slaving

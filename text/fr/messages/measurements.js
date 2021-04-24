@@ -8,6 +8,10 @@ module.exports = {
         full: 'feet | foot | {n} feet',
         abbr: 'ft'
     },
+    cm: {
+      full: 'centimeters | centimeter | {n} centimeters',
+      abbr: 'cm'
+    },
     m: {
         full: 'meters | meter | {n} meters',
         abbr: 'm'

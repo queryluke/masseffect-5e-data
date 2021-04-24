@@ -155,28 +155,6 @@
   },
   {
     "species": [
-      "ardat-yakshi"
-    ],
-    "mechanics": [
-      {
-        "type": "innatePower",
-        "options": {
-          "mod": "cha",
-          "limit": {
-            "amount": 1,
-            "refresh": "long"
-          },
-          "level": 3,
-          "power": "dominate"
-        }
-      }
-    ],
-    "name": "Dominate",
-    "html": "<p>At 10th level, you learn the Dominate power. Charisma is your powercasting modifier for this power and it\ndoes not count against your max number powers known or prepared. You can cast a 3rd-level version of this power\nonce per long rest.</p>\n",
-    "id": "dominate"
-  },
-  {
-    "species": [
       "drell"
     ],
     "mechanics": [],
@@ -364,25 +342,6 @@
     "name": "Menacing",
     "html": "<p>You gain proficiency in the Intimidation skill.</p>\n",
     "id": "menacing"
-  },
-  {
-    "species": [
-      "ardat-yakshi"
-    ],
-    "mechanics": [
-      {
-        "type": "feature",
-        "options": {
-          "limit": {
-            "amount": 1,
-            "refresh": "long"
-          }
-        }
-      }
-    ],
-    "name": "Mind Break",
-    "html": "<p>You can touch a willing creature and initiate a mind meld. If the target is unwilling, the meld does not continue.\nThe creature must make a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be\nrendered unconscious for 1d4 hours as your nervous system overwhelms theirs. Once you use this trait, you can't\nuse it again until you finish a long rest.</p>\n",
-    "id": "mind-break"
   },
   {
     "species": [

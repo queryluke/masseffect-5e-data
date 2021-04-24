@@ -18,6 +18,7 @@ age: >-
 skinColor: Shades of Green, Blue, Yellow, Orange, Red or even Violet
 eyeColor: Black
 bioticPotential: Some
+homeworld: Rakhanna (Now Kahje)
 ---
 Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is
 infused with a venom mild enough to be served in drinks and may cause mild hallucinations on oral contact. Drell
