@@ -16,8 +16,9 @@ abilityScores:
   int: 3
   wis: 12
   cha: 7
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: large
 skills:
   - perception
@@ -28,9 +29,12 @@ entries:
   actions:
     bite:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing}]
+      target: one
+cr: '01000'
+shields: false
 ---

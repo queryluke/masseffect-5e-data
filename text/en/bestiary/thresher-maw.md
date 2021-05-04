@@ -59,10 +59,19 @@ entries:
       name: Tail
       hit: ' If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone'
   legendary:
-    acid-spit-attack:
-      name: Acid Spit Attack
-    move:
-      name: Move
-    tail-attack:
-      name: Tail Attack
+    text: >-
+      The thresher maw can take 3 legendary actions, choosing from the options
+      below. Only one legendary action can be used at a time and only at the end
+      of another creature's turn. The thresher maw regains spent legendary
+      actions at the start of its turn.
+    actions:
+      acid-spit-attack:
+        name: Acid Spit Attack
+        text: The thresher maw makes an acid spit attack.
+      move:
+        name: Move
+        text: The thresher maw moves up to half its speed.
+      tail-attack:
+        name: Tail Attack
+        text: The thresher maw makes a tail attack.
 ---

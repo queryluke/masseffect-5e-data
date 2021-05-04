@@ -27,6 +27,12 @@ entries:
         Gain all the benefits of Omni-Shield. In addition, a creature hit by the
         Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength
         saving throw or become Frozen until the end its next turn.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The n7 paladin's innate powercasting ability is Charisma (power save DC
+        14, +6 to hit with power attacks). It can innately cast the following
+        spells:
   actions:
     multiattack:
       name: Multiattack

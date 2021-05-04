@@ -16,23 +16,30 @@ abilityScores:
   int: 14
   wis: 12
   cha: 2
+irv:
+  vul:
+    - bludgeoning
+    - force
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
   actions:
     slash:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'4', "mod":true, "type":slashing}]
+      target: one
     acid-vomit:
       dc: false
       save: false
       recharge: ['4','6']
-powercasting: null
+cr: '00500'
+shields: false
 ---

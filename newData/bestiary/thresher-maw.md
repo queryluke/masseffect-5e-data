@@ -16,6 +16,23 @@ abilityScores:
   int: 3
   wis: 11
   cha: 11
+irv:
+  conImm:
+    - charmed
+    - frightened
+    - paralyzed
+    - frozen
+    - lifted
+  res:
+    - acid
+    - bludgeoning
+    - cold
+    - fire
+    - force
+    - lightning
+    - piercing
+    - poison
+    - slashing
 savingThrows:
   - str
   - con
@@ -23,7 +40,7 @@ senses:
   blindsight: 10
   tremorsense: 24
 size: gargantuan
-skills: []
+skills: false
 speed:
   walk: 50
   burrow: 35
@@ -35,16 +52,20 @@ entries:
   actions:
     grasp:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null,null]
+      mod: str
+      damage: [{"dieCount":'3', "dieType":'12', "mod":true, "type":bludgeoning},{"dieCount":'2', "dieType":'12', "mod":true, "type":acid}]
+      target: one
     tail:
       attack: melee
+      proficient: true
       range: 20
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'4', "dieType":'6', "mod":true, "type":bludgeoning}]
+      target: one
   legendary:
     acid-spit-attack:
       cost: 2
@@ -52,5 +73,6 @@ entries:
       cost: 1
     tail-attack:
       cost: 1
-powercasting: false
+cr: '28000'
+shields: false
 ---

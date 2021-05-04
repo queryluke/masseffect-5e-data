@@ -16,6 +16,9 @@ abilityScores:
   int: 18
   wis: 16
   cha: 10
+irv:
+  res:
+    - poison
 savingThrows:
   - str
   - dex
@@ -37,15 +40,20 @@ entries:
   actions:
     bite:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'10', "mod":true, "type":piercing}]
+      target: one
     claw:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":slashing}]
+      target: one
+cr: '08000'
+shields: false
 ---

@@ -16,18 +16,22 @@ abilityScores:
   int: 11
   wis: 10
   cha: 12
+irv: false
 savingThrows:
   - str
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 15
 entries:
   actions:
     stun-baton:
       ref: weapon
+      proficient: true
     m-358-talon:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '05000'
+shields: false
 ---

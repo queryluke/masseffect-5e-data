@@ -16,27 +16,40 @@ abilityScores:
   int: 11
   wis: 11
   cha: 6
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   fly: 35
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":first-aid, "perDay":3}]
   actions:
     defibrillators:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":lightning}]
+      target: one
     stabalize:
       dc: false
       save: false
-      recharge: [after]
-powercasting:
-  mod: int
-  innate:
-    - id: first aid
-      perDay: 3
+      recharge: short
+cr: '00125'
+shields:
+  capacity: 5
+  regen: 5
 ---

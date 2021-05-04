@@ -32,6 +32,12 @@ entries:
         As a bonus action, the N7 Shadow activates its tactical cloak, becoming
         invisible for 1 minute. When the N7 Shadow makes a melee or ranged
         attack or uses a tech or combat power, tactical cloak ends.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The n7 shadow's innate powercasting ability is Intelligence (power save
+        DC 14, +6 to hit with power attacks). It can innately cast the following
+        spells:
   actions:
     multiattack:
       name: Multiattack

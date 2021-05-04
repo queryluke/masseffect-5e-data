@@ -16,13 +16,17 @@ abilityScores:
   int: 13
   wis: 12
   cha: 10
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
 skills:
   - perception
 speed:
   walk: 30
 entries: {}
-powercasting: null
+cr: '04000'
+shields:
+  capacity: 5
+  regen: 5
 ---

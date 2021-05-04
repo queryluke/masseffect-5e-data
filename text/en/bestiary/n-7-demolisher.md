@@ -5,6 +5,11 @@ entries:
     n7-training:
       name: N7 Training
       text: The N7 demolisher has advantage on its first attack roll each turn.
+    grenades:
+      name: Grenades
+      text: >-
+        The n7 demolisher has the following grenades equipped. It can use a
+        grenade as an action.
   actions:
     multiattack:
       name: Multiattack

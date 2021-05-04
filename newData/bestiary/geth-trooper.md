@@ -16,21 +16,33 @@ abilityScores:
   int: 12
   wis: 8
   cha: 8
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
   actions:
     weapon-strike:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":bludgeoning}]
+      target: one
     geth-pulse-rifle:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '02000'
+shields: false
 ---

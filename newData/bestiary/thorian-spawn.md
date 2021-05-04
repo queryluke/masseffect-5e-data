@@ -16,24 +16,31 @@ abilityScores:
   int: 11
   wis: 11
   cha: 2
+irv:
+  conImm:
+    - lifted
+    - prone
 savingThrows: []
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   walk: 0
 entries:
   actions:
     acid-spit:
       attack: ranged
+      proficient: true
       range: 25
       dc: false
-      save: false
-      damage: [null,null]
+      mod: dex
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":null},{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      target: one
     release-spores:
       dc: false
       save: false
       uses: 1
       perDay: true
-powercasting: null
+cr: '00250'
+shields: false
 ---

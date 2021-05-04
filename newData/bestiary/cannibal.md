@@ -16,35 +16,40 @@ abilityScores:
   int: 8
   wis: 5
   cha: 3
+irv: false
 savingThrows: []
 senses:
   darkvision: 24
 size: medium
-skills: []
+skills: false
 speed:
   walk: 25
 entries:
+  features:
+    grenades:
+      list: [{"id":frag-grenade, "mark":iii, "uses":2}]
   actions:
     arm-cannon:
       attack: ranged
+      proficient: true
       range: 50
       dc: false
-      save: false
-      damage: [null]
+      mod: dex
+      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":piercing}]
+      target: one
     bash:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
-    frag-grenade:
-      ref: grenade
-      mark: iii
-      uses: 2
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'8', "mod":true, "type":bludgeoning}]
+      target: one
     cannibalize:
       dc: false
       save: false
       uses: 1
       perDay: true
-powercasting: false
+cr: '02000'
+shields: false
 ---

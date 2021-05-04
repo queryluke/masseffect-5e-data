@@ -16,21 +16,27 @@ abilityScores:
   int: 4
   wis: 4
   cha: 4
+irv:
+  conImm:
+    - charmed
 savingThrows:
   - dex
 senses:
   darkvision: 24
 size: tiny
-skills: []
+skills: false
 speed:
   walk: 35
 entries:
   actions:
     suicide-attack:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null,null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":acid},{"dieCount":its, "mod":true, "type":null}]
+      target: one
+cr: '00125'
+shields: false
 ---

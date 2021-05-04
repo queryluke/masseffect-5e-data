@@ -16,6 +16,7 @@ abilityScores:
   int: 11
   wis: 14
   cha: 14
+irv: false
 savingThrows:
   - dex
   - con
@@ -33,13 +34,15 @@ entries:
   actions:
     collector-assault-rifle:
       ref: weapon
+      proficient: true
     leadership:
       dc: false
       save: false
-      recharge: [after]
+      recharge: short
     summon-seeker-swarm:
       dc: false
       save: false
       recharge: ['5','6']
-powercasting: false
+cr: '07000'
+shields: false
 ---

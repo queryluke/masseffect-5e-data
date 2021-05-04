@@ -10,6 +10,12 @@ entries:
       text: >-
         The rachni brood warrior has advantage on attack rolls against any
         creature grappled by it.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The rachni brood warrior's innate powercasting ability is Wisdom (power
+        save DC 12, +4 to hit with power attacks). It can innately cast the
+        following spells:
   actions:
     multiattack:
       name: Multiattack

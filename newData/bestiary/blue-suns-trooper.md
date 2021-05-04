@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/1/13/Blue_Suns_Trooper.png/revision/latest/scale-to-width-down/369?cb=20100626054323
 type: organic
-unit: blue-suns
+unit: blue_suns
 alignment: 'n'
 profBonus: 2
 ac: 11
@@ -16,17 +16,23 @@ abilityScores:
   int: 8
   wis: 9
   cha: 8
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
   actions:
     m-8-avenger:
       ref: weapon
+      proficient: true
     m-23-katana:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '00250'
+shields:
+  capacity: 5
+  regen: 5
 ---

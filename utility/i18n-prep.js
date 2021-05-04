@@ -37,6 +37,12 @@ function processRecharge(text) {
                 perDay: true
             }
         }
+        if (text.match(/short/i)) {
+            recharge = 'short'
+        }
+        if (text.match(/long/i) && recharge !== 'short') {
+            recharge = 'long'
+        }
     }
     return {
         recharge,
@@ -780,11 +786,25 @@ const models = [
         dir: 'bestiary',
         type: 'json',
         facts: ['image', 'type', 'unit', 'alignment', 'profBonus', 'ac', 'hp', 'abilityScores', 'irv', 'savingThrows',
-            'senses', 'size', 'skills', 'speed', 'entries', 'powercasting'],
-        slug: ['type', 'unit', 'size'],
+            'senses', 'size', 'skills', 'speed', 'entries', 'cr', 'shields'],
+        snake: ['type', 'unit', 'size'],
         text: ['name', 'entries'],
         tFlow: 5,
         factTransform: (item, id) => {
+            switch (item.cr) {
+                case '1/8':
+                    item.cr = '00125'
+                    break
+                case '1/4':
+                    item.cr = '00250'
+                    break
+                case '1/2':
+                    item.cr = '00500'
+                    break
+                default:
+                    item.cr = parseInt(item.cr) > 9 ? item.cr.padEnd(5,'0') : `0${item.cr}`.padEnd(5,'0')
+            }
+            item.shields = item.sp ? { capacity: parseInt(item.sp.shields), regen: parseInt(item.sp.regen) > 0 ? parseInt(item.sp.regen) : 0  } : false
             item.ac = parseInt(item.ac, 10)
             const entries = {
                 features: {},
@@ -806,26 +826,64 @@ const models = [
                     }
                 }
             }
+            // powercasting
+            const powercasting = {}
+            if (item.powercasting) {
+                powercasting.mod = item.powercasting.mod
+                if (item.powercasting.level === 'innate') {
+                    powercasting.list = []
+                    for (const p of item.powercasting.powerList) {
+                        const perDay = p.perDay.toLowerCase() === 'at will' ? 'at_will' : parseInt(p.perDay.split('/')[0])
+                        for (const power of p.powers) {
+                            const toPush = {
+                                id: _.kebabCase(power.id),
+                                perDay
+                            }
+                            if (power.higherLevel) {
+                                toPush.level = power.higherLevel
+                            }
+                            powercasting.list.push(toPush)
+                        }
+                    }
+                } else {
+                    powercasting.casterLevel = item.powercasting.level
+                    powercasting.list = item.powercasting.powerList.map(i => _.kebabCase(i))
+                }
+            }
+            if (!_.isEmpty(powercasting)) {
+                if (item.powercasting.level === 'innate') {
+                    entries.features['innate-powercasting'] = powercasting
+                } else {
+                    entries.features.powercasting = powercasting
+                }
+            }
             // actions
             for (const i of item.actions) {
                 // weapon
                 if (i.type === 'weapon') {
                     entries.actions[i.id] = {
-                        ref: 'weapon'
+                        ref: 'weapon',
+                        proficient: true
                     }
                     continue
                 }
                 // grenade
                 if (/grenade/i.test(i.name)) {
+                    if (!entries.features.grenades) {
+                        entries.features.grenades = {
+                            list: []
+                        }
+                    }
                     const gName = i.name.split(' ')
                     const gLevel = gName.pop()
                     const gId = generateId(gName.join(' '))
                     const {uses} = processRecharge(i.recharge)
-                    entries.actions[gId] = {
-                        ref: 'grenade',
+
+                    entries.features.grenades.list.push({
+                        id: gId,
                         mark: gLevel.toLowerCase(),
                         uses: uses.uses
-                    }
+                    })
                     continue
                 }
                 const actionId = generateId(i.name)
@@ -855,7 +913,7 @@ const models = [
                         const retObj = {
                             dieCount: null,
                             dieType: null,
-                            mod: null,
+                            mod: true,
                             type: null
                         }
                         const trimmed = i.trim()
@@ -869,13 +927,16 @@ const models = [
                         if (typeMatch) {
                             retObj.type = typeMatch[1]
                         }
+                        return retObj
                     })
                     entries.actions[actionId] = {
                         attack: i.type,
+                        proficient: true,
                         range: i.range || false,
                         dc: false,
-                        save: false,
+                        mod: i.type === 'melee' ? 'str' : 'dex',
                         damage: damageArray,
+                        target: 'one'
                     }
                 }
             }
@@ -906,22 +967,20 @@ const models = [
 
             // resistances....
             const irv = {
-                imm: {
-                    conditions: [],
-                    damage: []
-                },
+                conImm: [],
+                damImm: [],
                 res: [],
                 vul: []
             }
             if (item.conditionImmunities && item.conditionImmunities.length > 0) {
-                irv.imm.conditions = item.conditionImmunities
+                irv.conImm = item.conditionImmunities
             } else {
-                delete irv.imm.conditions
+                delete irv.conImm
             }
             if (item.damageImmunities && item.damageImmunities.length > 0) {
-                irv.imm.damage = item.damageImmunities
+                irv.damImm = item.damageImmunities
             } else {
-                delete irv.imm.damage
+                delete irv.damImm
             }
             if (item.damageResistances && item.damageResistances.length > 0) {
                 irv.res = item.damageResistances
@@ -933,6 +992,12 @@ const models = [
             } else {
                 delete irv.vul
             }
+            if (!_.isEmpty(irv)) {
+                item.irv = irv
+            } else {
+                item.irv = false
+            }
+
 
             // senses
             const senses = {}
@@ -941,10 +1006,12 @@ const models = [
             }
             if (!_.isEmpty(senses)) {
                 item.senses = senses
+            } else {
+                item.senses = false
             }
 
             // skills
-            item.skills = item.skills.map(i => _.snakeCase(i))
+            item.skills = item.skills.length === 0 ? false : item.skills.map(i => _.kebabCase(i))
 
             // speed
             const speed = {}
@@ -953,39 +1020,13 @@ const models = [
             }
             if (!_.isEmpty(speed)) {
                 item.speed = speed
+            } else {
+                item.speed = false
             }
 
             // hp
             item.hp = { dieCount: item.hp.numDice, dieType: item.hp.die }
 
-            // powercasting
-            const powercasting = {}
-            if (item.powercasting) {
-                powercasting.mod = item.powercasting.mod
-                if (item.powercasting.level === 'innate') {
-                    powercasting.innate = []
-                    for (const p of item.powercasting.powerList) {
-                        const perDay = p.perDay.toLowerCase() === 'at will' ? 'at-will' : parseInt(p.perDay.split('/')[0])
-                        for (const power of p.powers) {
-                            const toPush = {
-                                id: power.id,
-                                perDay
-                            }
-                            if (power.higherLevel) {
-                                toPush.level = power.higherLevel
-                            }
-                            powercasting.innate.push(toPush)
-                        }
-                    }
-                } else {
-                    powercasting.casterLevel = item.powercasting.level
-                    powercasting.casterType = 'full'
-                    powercasting.list = item.powercasting.powerList
-                }
-            }
-            if (!_.isEmpty(powercasting)) {
-                item.powercasting = powercasting
-            }
             return item
         },
         textTransform: (item, id) => {
@@ -993,7 +1034,8 @@ const models = [
                 features: {},
                 actions: {},
                 legendary: {},
-                reactions: {}
+                reactions: {},
+                lair: {}
             }
             // features
             for (const i of item.features) {
@@ -1011,6 +1053,27 @@ const models = [
                 }
             }
 
+            // powercasting
+            if (item.powercasting) {
+                const mod = item.powercasting.mod === 'wis' ? 'Wisdom' : item.powercasting.mod === 'int' ? 'Intelligence' : 'Charisma'
+                const toHit = Math.floor((parseInt(item.abilityScores[item.powercasting.mod], 10) - 10) / 2) + item.profBonus
+                const dc = toHit + 8
+                if (item.powercasting.level === 'innate') {
+                    entries.features['innate-powercasting'] = {
+                        name: 'Innate Powercasting',
+                        text: `The ${item.name.toLowerCase()}'s innate powercasting ability is ${mod} (power save DC ${dc}, +${toHit} to hit with power attacks). It can innately cast the following spells:`
+                    }
+                } else {
+                    const level = parseInt(item.powercasting.level)
+                    const aOrAn = [8, 11, 18].includes(level) ? 'an' : 'a'
+                    const ordinal = level === 1 ? 'st' : level === 2 ? 'nd' : level === 3 ? 'rd' : 'th'
+                    entries.features.powercasting = {
+                        name: 'Powercasting',
+                        text: `The ${item.name.toLowerCase()} is ${aOrAn} ${level}${ordinal}-level powercaster. Its powercasting ability is ${mod} (power save DC ${dc}, +${toHit} to hit with powers). The ${item.name.toLowerCase()} has the following powers:`
+                    }
+                }
+            }
+
             // actions
             for (const i of item.actions) {
                 // weapon
@@ -1019,6 +1082,12 @@ const models = [
                 }
                 // grenade
                 if (/grenade/i.test(i.name)) {
+                    if (!entries.features.grenades) {
+                        entries.features.grenades = {
+                            name: 'Grenades',
+                            text: `The ${item.name.toLowerCase()} has the following grenades equipped. It can use a grenade as an action.`
+                        }
+                    }
                     continue
                 }
                 const actionId = generateId(i.name)
@@ -1044,11 +1113,28 @@ const models = [
             }
 
             // legendary
-            for (const i of item.legendaryActions) {
-                const legendaryId = generateId(i.name)
-                entries.legendary[legendaryId] = {
-                    name: i.name,
-                    text: i.text
+            if (item.legendaryActions && item.legendaryActions.length > 0) {
+                entries.legendary.text = `The ${item.name.toLowerCase()} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The ${item.name.toLowerCase()} regains spent legendary actions at the start of its turn.`
+                entries.legendary.actions = {}
+                for (const i of item.legendaryActions) {
+                    const legendaryId = generateId(i.name)
+                    entries.legendary.actions[legendaryId] = {
+                        name: i.name,
+                        text: i.description
+                    }
+                }
+            }
+
+            // lair
+            if (item.lairActions && item.lairActions.length > 0) {
+                entries.lair.text = `On initiative count 20 (losing initiative ties), the ${item.name.toLowerCase()} takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:`
+                entries.lair.actions = {}
+                for (const i of item.lairActions) {
+                    const lairId = generateId(i.name)
+                    entries.lair.actions[lairId] = {
+                        name: i.name,
+                        text: i.description
+                    }
                 }
             }
 
@@ -1070,6 +1156,9 @@ const models = [
             }
             if (_.isEmpty(entries.legendary)) {
                 delete entries.legendary
+            }
+            if (_.isEmpty(entries.lair)) {
+                delete entries.lair
             }
             if (_.isEmpty(entries.reactions)) {
                 delete entries.reactions

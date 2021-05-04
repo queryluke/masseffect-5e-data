@@ -16,11 +16,14 @@ abilityScores:
   int: 8
   wis: 11
   cha: 11
+irv:
+  conImm:
+    - charmed
 savingThrows: []
 senses:
   darkvision: 24
 size: large
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
@@ -31,9 +34,12 @@ entries:
       recharge: ['5','6']
     twin-artillery-cannons:
       attack: ranged
+      proficient: true
       range: 150
       dc: false
-      save: false
-      damage: [null,null]
-powercasting: false
+      mod: dex
+      damage: [{"dieCount":'3', "dieType":'10', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'6', "mod":true, "type":acid}]
+      target: one
+cr: '06000'
+shields: false
 ---

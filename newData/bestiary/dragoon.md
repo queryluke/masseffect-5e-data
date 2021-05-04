@@ -16,9 +16,10 @@ abilityScores:
   int: 14
   wis: 12
   cha: 13
+irv: false
 savingThrows:
   - dex
-senses: []
+senses: false
 size: medium
 skills:
   - acrobatics
@@ -28,7 +29,10 @@ entries:
   actions:
     omni-whip:
       ref: weapon
+      proficient: true
     m-25-hornet:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '05000'
+shields: false
 ---

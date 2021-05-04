@@ -19,6 +19,12 @@ entries:
     n7-training:
       name: N7 Training
       text: The N7 Slayer has advantage on its first attack roll each turn.
+    powercasting:
+      name: Powercasting
+      text: >-
+        The n7 slayer is a 9th-level powercaster. Its powercasting ability is
+        Wisdom (power save DC 13, +5 to hit with powers). The n7 slayer has the
+        following powers:
   actions:
     multiattack:
       name: Multiattack

@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/8/8c/Blue_Suns_Commander.png/revision/latest/scale-to-width-down/369?cb=20100626053904
 type: organic
-unit: blue-suns
+unit: blue_suns
 alignment: 'n'
 profBonus: 3
 ac: 16
@@ -16,10 +16,11 @@ abilityScores:
   int: 15
   wis: 12
   cha: 14
+irv: false
 savingThrows:
   - con
   - wis
-senses: []
+senses: false
 size: medium
 skills:
   - survival
@@ -33,15 +34,19 @@ entries:
       uses: 1
       perDay: true
     leadership:
-      recharge: [after]
+      recharge: short
+    innate-powercasting:
+      mod: int
+      list: [{"id":target-painting, "perDay":3}]
   actions:
     m-76-revenant:
       ref: weapon
+      proficient: true
     m-300-claymore:
       ref: weapon
-powercasting:
-  mod: int
-  innate:
-    - id: target painting
-      perDay: 3
+      proficient: true
+cr: '05000'
+shields:
+  capacity: 20
+  regen: 10
 ---

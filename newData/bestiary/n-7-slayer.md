@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/9/97/N7_Slayer_Vanguard_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151234
 type: organic
-unit: n-7
+unit: n_7
 alignment: ln
 profBonus: 3
 ac: 14
@@ -16,10 +16,11 @@ abilityScores:
   int: 13
   wis: 14
   cha: 12
+irv: false
 savingThrows:
   - str
   - dex
-senses: []
+senses: false
 size: medium
 skills:
   - acrobatics
@@ -31,17 +32,19 @@ entries:
     barrier:
       uses: 2
       perDay: true
+    powercasting:
+      mod: wis
+      casterLevel: 9
+      list: [charge,phase-disruptor,biotic-slash]
   actions:
     monomolecular-blade:
       ref: weapon
+      proficient: true
     n-7-piranha:
       ref: weapon
-powercasting:
-  mod: wis
-  casterLevel: 9
-  casterType: full
-  list:
-    - charge
-    - phase_disruptor
-    - biotic_slash
+      proficient: true
+cr: '05000'
+shields:
+  capacity: 15
+  regen: 5
 ---

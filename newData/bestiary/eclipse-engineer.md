@@ -16,8 +16,9 @@ abilityScores:
   int: 14
   wis: 13
   cha: 10
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
 skills:
   - electronics
@@ -28,18 +29,20 @@ entries:
     tech-armor:
       uses: 1
       perDay: true
+    innate-powercasting:
+      mod: int
+      list: [{"id":incinerate, "perDay":3, "level":2}]
   actions:
     m-6-carnifex:
       ref: weapon
+      proficient: true
     summon-combat-drone:
       dc: false
       save: false
       uses: 1
       perDay: true
-powercasting:
-  mod: int
-  innate:
-    - id: incinerate
-      perDay: 3
-      level: 2
+cr: '02000'
+shields:
+  capacity: 10
+  regen: 5
 ---

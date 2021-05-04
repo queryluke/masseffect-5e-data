@@ -22,6 +22,12 @@ entries:
       text: >-
         The geth stalker can climb difficult surfaces, including upside down on
         ceilings, without needing to make an ability check.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The geth stalker's innate powercasting ability is Intelligence (power
+        save DC 11, +3 to hit with power attacks). It can innately cast the
+        following spells:
   actions:
     claw:
       name: Claw

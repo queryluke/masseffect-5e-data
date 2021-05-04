@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/0/08/N7_Shadow_Infiltrator_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151201
 type: organic
-unit: n-7
+unit: n_7
 alignment: ln
 profBonus: 3
 ac: 15
@@ -16,9 +16,10 @@ abilityScores:
   int: 16
   wis: 11
   cha: 12
+irv: false
 savingThrows:
   - dex
-senses: []
+senses: false
 size: medium
 skills:
   - acrobatics
@@ -30,13 +31,15 @@ entries:
     tactical-cloak:
       uses: 3
       perDay: true
+    innate-powercasting:
+      mod: int
+      list: [{"id":electric-slash, "perDay":4, "level":3}]
   actions:
     m-97-viper:
       ref: weapon
-powercasting:
-  mod: int
-  innate:
-    - id: electric_slash
-      perDay: 4
-      level: 3
+      proficient: true
+cr: '07000'
+shields:
+  capacity: 20
+  regen: 10
 ---

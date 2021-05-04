@@ -16,12 +16,13 @@ abilityScores:
   int: 14
   wis: 14
   cha: 16
+irv: false
 savingThrows:
   - wis
   - cha
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
@@ -29,18 +30,18 @@ entries:
     barrier:
       uses: 3
       perDay: true
+    powercasting:
+      mod: cha
+      casterLevel: '12'
+      list: [charge,warp]
   actions:
     m-300-claymore:
       ref: weapon
+      proficient: true
     leadership:
       dc: false
       save: false
-      recharge: [after]
-powercasting:
-  mod: cha
-  casterLevel: '12'
-  casterType: full
-  list:
-    - charge
-    - warp
+      recharge: short
+cr: '05000'
+shields: false
 ---

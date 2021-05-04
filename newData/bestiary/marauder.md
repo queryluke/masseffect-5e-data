@@ -16,6 +16,7 @@ abilityScores:
   int: 8
   wis: 11
   cha: 8
+irv: false
 savingThrows:
   - dex
 senses:
@@ -29,9 +30,13 @@ entries:
   actions:
     phaeston:
       ref: weapon
+      proficient: true
     create-armor-plating:
       dc: false
       save: false
       recharge: ['5','6']
-powercasting: false
+cr: '02000'
+shields:
+  capacity: 15
+  regen: 15
 ---

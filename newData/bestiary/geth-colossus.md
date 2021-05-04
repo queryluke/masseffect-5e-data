@@ -16,6 +16,29 @@ abilityScores:
   int: 20
   wis: 6
   cha: 8
+irv:
+  conImm:
+    - charmed
+    - deafened
+    - frightened
+    - frozen
+    - grappled
+    - invisible
+    - lifted
+    - paralyzed
+    - petrified
+    - poisoned
+    - restrained
+    - stunned
+  damImm:
+    - poison
+    - psychic
+  res:
+    - bludgeoning
+    - piercing
+    - slashing
+  vul:
+    - lightning
 savingThrows:
   - int
 senses:
@@ -34,10 +57,12 @@ entries:
   actions:
     mass-accelerator-machinegun:
       attack: ranged
+      proficient: true
       range: 300
       dc: false
-      save: false
-      damage: [null,null]
+      mod: dex
+      damage: [{"dieCount":'3', "dieType":'12', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'12', "mod":true, "type":radiant}]
+      target: one
     siege-pulse:
       dc: false
       save: false
@@ -49,5 +74,8 @@ entries:
       cost: 1
     siege-pulse-attack:
       cost: 2
-powercasting: false
+cr: '21000'
+shields:
+  capacity: 100
+  regen: 0
 ---

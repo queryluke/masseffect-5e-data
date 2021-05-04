@@ -8,6 +8,12 @@ entries:
         As a bonus action, the operative can activate its Tech Armor. It
         immediately gains 10 temporary hit points. While the operative has at
         least 1 of these temporary hit points remaining, it has +2 AC.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The eclipse operative's innate powercasting ability is Intelligence
+        (power save DC 13, +5 to hit with power attacks). It can innately cast
+        the following spells:
   actions:
     repair:
       name: Repair

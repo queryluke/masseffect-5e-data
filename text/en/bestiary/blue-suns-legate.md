@@ -24,6 +24,12 @@ entries:
         d4 to its roll provided it can hear and understand the legate. A
         creature can benefit from only one Leadership die at a time. This effect
         ends if the legate is incapacitated.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The blue suns legate's innate powercasting ability is Intelligence
+        (power save DC 13, +5 to hit with power attacks). It can innately cast
+        the following spells:
   actions:
     multiattack:
       name: Multiattack

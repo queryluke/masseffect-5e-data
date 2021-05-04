@@ -16,19 +16,23 @@ abilityScores:
   int: 12
   wis: 12
   cha: 10
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
+  features:
+    grenades:
+      list: [{"id":flashbang-grenade, "mark":iii, "uses":2}]
   actions:
     m-8-avenger:
       ref: weapon
-    flashbang-grenade:
-      ref: grenade
-      mark: iii
-      uses: 2
-powercasting: null
+      proficient: true
+cr: '00250'
+shields:
+  capacity: 5
+  regen: 5
 ---

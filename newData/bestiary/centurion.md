@@ -16,26 +16,31 @@ abilityScores:
   int: 11
   wis: 9
   cha: 12
+irv:
+  res:
+    - bludgeoning
+    - piercing
+    - slashing
 savingThrows: []
 senses:
   infrared vision: 24
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
+  features:
+    grenades:
+      list: [{"id":frag-grenade, "mark":iii, "uses":2},{"id":smoke, "mark":grenade, "uses":2}]
   actions:
     stun-baton:
       ref: weapon
+      proficient: true
     m-96-mattock:
       ref: weapon
-    frag-grenade:
-      ref: grenade
-      mark: iii
-      uses: 2
-    smoke:
-      ref: grenade
-      mark: grenade
-      uses: 2
-powercasting: false
+      proficient: true
+cr: '04000'
+shields:
+  capacity: 10
+  regen: 10
 ---

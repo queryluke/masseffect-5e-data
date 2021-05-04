@@ -16,12 +16,19 @@ abilityScores:
   int: 25
   wis: 26
   cha: 17
+irv:
+  conImm:
+    - prone
+    - lifted
+  vul:
+    - fire
 savingThrows: []
-senses: []
+senses: false
 size: huge
-skills: []
+skills: false
 speed:
   walk: 0
 entries: {}
-powercasting: null
+cr: '17000'
+shields: false
 ---

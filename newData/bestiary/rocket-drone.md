@@ -16,19 +16,30 @@ abilityScores:
   int: 10
   wis: 10
   cha: 4
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   fly: 25
 entries:
   actions:
     distortion-rocket:
       attack: ranged
+      proficient: true
       range: 75
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: dex
+      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":thunder}]
+      target: one
+cr: '00500'
+shields: false
 ---

@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/c/c2/Blue_Suns_Pyro_2.png/revision/latest/scale-to-width-down/347?cb=20100621035042
 type: organic
-unit: blue-suns
+unit: blue_suns
 alignment: 'n'
 profBonus: 2
 ac: 13
@@ -16,13 +16,17 @@ abilityScores:
   int: 11
   wis: 12
   cha: 10
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
 skills:
   - survival
 speed:
   walk: 30
 entries: {}
-powercasting: false
+cr: '00250'
+shields:
+  capacity: 10
+  regen: 0
 ---

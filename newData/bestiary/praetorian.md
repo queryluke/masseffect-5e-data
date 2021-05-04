@@ -16,6 +16,16 @@ abilityScores:
   int: 11
   wis: 14
   cha: 10
+irv:
+  conImm:
+    - charmed
+    - grappled
+    - paralyzed
+    - petrified
+    - poisoned
+  res:
+    - force
+    - necrotic
 savingThrows:
   - dex
   - con
@@ -34,10 +44,12 @@ entries:
   actions:
     claw:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'6', "dieType":'10', "mod":true, "type":piercing}]
+      target: one
     pounce:
       dc: false
       save: false
@@ -46,5 +58,6 @@ entries:
       dc: false
       save: false
       recharge: ['5','6']
-powercasting: false
+cr: '12000'
+shields: false
 ---

@@ -16,6 +16,7 @@ abilityScores:
   int: 11
   wis: 12
   cha: 8
+irv: false
 savingThrows:
   - dex
 senses:
@@ -27,18 +28,21 @@ speed:
   walk: 30
   fly: 15
 entries:
+  features:
+    grenades:
+      list: [{"id":frag-grenade, "mark":iii, "uses":2}]
   actions:
     claw:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":slashing}]
+      target: one
     collector-smg:
       ref: weapon
-    frag-grenade:
-      ref: grenade
-      mark: iii
-      uses: 2
-powercasting: false
+      proficient: true
+cr: '03000'
+shields: false
 ---

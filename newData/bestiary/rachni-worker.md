@@ -16,12 +16,13 @@ abilityScores:
   int: 1
   wis: 7
   cha: 3
+irv: false
 savingThrows:
   - wis
 senses:
   blindsight: 10
 size: small
-skills: []
+skills: false
 speed:
   walk: 35
 entries:
@@ -32,9 +33,12 @@ entries:
       recharge: ['4','6']
     bite:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":piercing}]
+      target: one
+cr: '00125'
+shields: false
 ---

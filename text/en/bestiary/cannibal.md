@@ -8,6 +8,11 @@ entries:
         The cannibal has advantage on an attack roll against a creature if at
         least one of the cannibal's allies is within <me-distance length='5' />
         of the creature and the ally isn't incapacitated.
+    grenades:
+      name: Grenades
+      text: >-
+        The cannibal has the following grenades equipped. It can use a grenade
+        as an action.
   actions:
     multiattack:
       name: Multiattack

@@ -16,25 +16,33 @@ abilityScores:
   int: 6
   wis: 6
   cha: 5
+irv:
+  res:
+    - bludgeoning
+    - piercing
+    - slashing
 savingThrows:
   - con
 senses:
   darkvision: 24
 size: medium
-skills: []
+skills: false
 speed:
   walk: 25
 entries:
   actions:
     bash:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'8', "mod":true, "type":bludgeoning}]
+      target: one
     salvo:
       dc: false
       save: false
       recharge: ['4','6']
-powercasting: false
+cr: '09000'
+shields: false
 ---

@@ -16,15 +16,20 @@ abilityScores:
   int: 4
   wis: 5
   cha: 6
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
   actions:
     m-3-predator:
       ref: weapon
-powercasting: null
+      proficient: true
+cr: '00125'
+shields:
+  capacity: 5
+  regen: 0
 ---

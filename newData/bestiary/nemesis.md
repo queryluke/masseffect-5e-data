@@ -16,6 +16,7 @@ abilityScores:
   int: 16
   wis: 13
   cha: 14
+irv: false
 savingThrows:
   - dex
 senses:
@@ -31,5 +32,9 @@ entries:
   actions:
     m-98-widow:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '06000'
+shields:
+  capacity: 20
+  regen: 10
 ---

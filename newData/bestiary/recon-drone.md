@@ -16,6 +16,14 @@ abilityScores:
   int: 11
   wis: 12
   cha: 5
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
 senses:
   infrared vision: 24
@@ -33,9 +41,14 @@ entries:
   actions:
     pulse-rifle:
       attack: ranged
+      proficient: true
       range: 150
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: dex
+      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":radiant}]
+      target: one
+cr: '00125'
+shields:
+  capacity: 5
+  regen: 5
 ---

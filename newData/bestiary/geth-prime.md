@@ -16,10 +16,16 @@ abilityScores:
   int: 14
   wis: 10
   cha: 10
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
 savingThrows:
   - con
   - int
-senses: []
+senses: false
 size: large
 skills:
   - electronics
@@ -29,12 +35,15 @@ entries:
   actions:
     weapon-bash:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":bludgeoning}]
+      target: one
     geth-pulse-rifle:
       ref: weapon
+      proficient: true
     summon-combat-drone:
       dc: false
       save: false
@@ -52,5 +61,8 @@ entries:
       cost: 1
     summon-turret-or-drone:
       cost: 3
-powercasting: false
+cr: '09000'
+shields:
+  capacity: 30
+  regen: 10
 ---

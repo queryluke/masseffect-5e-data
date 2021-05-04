@@ -16,9 +16,10 @@ abilityScores:
   int: 16
   wis: 14
   cha: 12
+irv: false
 savingThrows:
   - int
-senses: []
+senses: false
 size: medium
 skills:
   - electronics
@@ -29,18 +30,20 @@ entries:
     tech-armor:
       uses: 1
       perDay: true
+    innate-powercasting:
+      mod: int
+      list: [{"id":incinerate, "perDay":5, "level":2}]
   actions:
     m-9-tempest:
       ref: weapon
+      proficient: true
     summon-combat-drone:
       dc: false
       save: false
       uses: 2
       perDay: true
-powercasting:
-  mod: int
-  innate:
-    - id: incinerate
-      perDay: 5
-      level: 2
+cr: '03000'
+shields:
+  capacity: 10
+  regen: 10
 ---

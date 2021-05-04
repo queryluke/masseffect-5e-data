@@ -16,6 +16,7 @@ abilityScores:
   int: 10
   wis: 16
   cha: 6
+irv: false
 savingThrows: []
 senses:
   blindsight: 24
@@ -25,24 +26,27 @@ skills:
 speed:
   walk: 40
 entries:
+  features:
+    innate-powercasting:
+      mod: wis
+      list: [{"id":throw, "perDay":at_will},{"id":warp, "perDay":3}]
   actions:
     gore:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'3', "dieType":'4', "mod":true, "type":piercing}]
+      target: one
     maul:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
-powercasting:
-  mod: wis
-  innate:
-    - id: throw
-      perDay: at-will
-    - id: warp
-      perDay: 3
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":piercing}]
+      target: one
+cr: '01000'
+shields: false
 ---

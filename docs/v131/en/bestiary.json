@@ -18,6 +18,7 @@
       "wis": 6,
       "cha": 5
     },
+    "irv": false,
     "savingThrows": [
       "wis"
     ],
@@ -25,7 +26,7 @@
       "darkvision": 24
     },
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -47,7 +48,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Abomination",
     "html": "",
     "id": "abomination"
@@ -71,6 +73,7 @@
       "wis": 8,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
@@ -78,49 +81,23 @@
       "darkvision": 24
     },
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
-      "actions": {
-        "arm-cannon": {
-          "attack": "ranged",
-          "range": 50,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Arm Cannon"
-        },
-        "bash": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Bash"
-        },
-        "reaper-infection": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Reaper Infection",
-          "hit": " The target's hit point maximum is reduced by an amount equal to the necrotic damage taken"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The adjutant makes two Arm Cannon attacks."
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "cha",
+          "list": [
+            {
+              "id": "singularity",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The adjutant's innate powercasting ability is Charisma (power save DC 12, +4 to hit with power attacks). It can innately cast the following spells:"
+        },
         "barrier": {
           "name": "Barrier",
           "text": "TODO: Write barrier text"
@@ -129,17 +106,68 @@
           "name": "Grappler",
           "text": "The adjutant has advantage on attack rolls against any creature grappled by it."
         }
+      },
+      "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The adjutant makes two Arm Cannon attacks."
+        },
+        "arm-cannon": {
+          "attack": "ranged",
+          "proficient": true,
+          "range": 50,
+          "dc": false,
+          "mod": "dex",
+          "damage": [
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            }
+          ],
+          "target": "one",
+          "name": "Arm Cannon"
+        },
+        "bash": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "1",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
+          ],
+          "target": "one",
+          "name": "Bash"
+        },
+        "reaper-infection": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            }
+          ],
+          "target": "one",
+          "name": "Reaper Infection",
+          "hit": " The target's hit point maximum is reduced by an amount equal to the necrotic damage taken"
+        }
       }
     },
-    "powercasting": {
-      "mod": "cha",
-      "innate": [
-        {
-          "id": "singularity",
-          "perDay": 3
-        }
-      ]
-    },
+    "cr": "06000",
+    "shields": false,
     "name": "Adjutant",
     "html": "",
     "id": "adjutant"
@@ -163,6 +191,7 @@
       "wis": 16,
       "cha": 6
     },
+    "irv": false,
     "savingThrows": [],
     "senses": {
       "blindsight": 24
@@ -175,31 +204,22 @@
       "walk": 40
     },
     "entries": {
-      "actions": {
-        "gore": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Gore",
-          "hit": " If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone"
-        },
-        "maul": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Maul",
-          "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw."
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "wis",
+          "list": [
+            {
+              "id": "throw",
+              "perDay": "at_will"
+            },
+            {
+              "id": "warp",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The albino kath hound's innate powercasting ability is Wisdom (power save DC 13, +5 to hit with power attacks). It can innately cast the following spells:"
+        },
         "barrier": {
           "name": "Barrier",
           "text": "TODO: Write barrier text"
@@ -216,21 +236,48 @@
           "name": "Grappler",
           "text": "The kath hound has advantage on attack rolls against any creature grappled by it."
         }
+      },
+      "actions": {
+        "gore": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "3",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
+          ],
+          "target": "one",
+          "name": "Gore",
+          "hit": " If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone"
+        },
+        "maul": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "piercing"
+            }
+          ],
+          "target": "one",
+          "name": "Maul",
+          "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw."
+        }
       }
     },
-    "powercasting": {
-      "mod": "wis",
-      "innate": [
-        {
-          "id": "throw",
-          "perDay": "at-will"
-        },
-        {
-          "id": "warp",
-          "perDay": 3
-        }
-      ]
-    },
+    "cr": "01000",
+    "shields": false,
     "name": "Albino Kath Hound",
     "html": "",
     "id": "albino-kath-hound"
@@ -254,10 +301,22 @@
       "wis": 10,
       "cha": 6
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 30
     },
@@ -265,17 +324,28 @@
       "actions": {
         "pulse-cannon": {
           "attack": "ranged",
+          "proficient": true,
           "range": 50,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Pulse Cannon"
         }
       }
     },
-    "powercasting": false,
+    "cr": "00500",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Assault Drone",
     "html": "",
     "id": "assault-drone"
@@ -299,31 +369,43 @@
       "wis": 10,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
+      "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "frag-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The assault trooper has the following grenades equipped. It can use a grenade as an action."
+        }
+      },
       "actions": {
         "stun-baton": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "m-25-hornet": {
-          "ref": "weapon"
-        },
-        "frag-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Assault Trooper",
     "html": "",
     "id": "assault-trooper"
@@ -347,6 +429,29 @@
       "wis": 10,
       "cha": 9
     },
+    "irv": {
+      "conImm": [
+        "blinded",
+        "deafened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "stunned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [
       "str",
       "int"
@@ -355,30 +460,57 @@
       "darkvision": 24
     },
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 15
     },
     "entries": {
+      "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "smoke",
+              "mark": "grenade",
+              "uses": 5
+            }
+          ],
+          "name": "Grenades",
+          "text": "The atlas has the following grenades equipped. It can use a grenade as an action."
+        }
+      },
       "actions": {
         "smash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "3",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Smash"
         },
         "mass-accelerator-cannon": {
           "attack": "ranged",
+          "proficient": true,
           "range": 300,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "5",
+              "dieType": "8",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Mass Accelerator Cannon"
         },
         "rocket-launcher": {
@@ -390,29 +522,40 @@
           ],
           "name": "Rocket Launcher",
           "text": "The atlas targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
-        },
-        "smoke": {
-          "ref": "grenade",
-          "mark": "grenade",
-          "uses": 5
         }
       },
       "legendary": {
         "eject": {
-          "cost": 3,
-          "name": "Eject"
+          "cost": 3
         },
         "mass-accelerator-cannon-attack": {
-          "cost": 1,
-          "name": "Mass Accelerator Cannon Attack"
+          "cost": 1
         },
         "smash-attack": {
-          "cost": 1,
-          "name": "Smash Attack"
+          "cost": 1
+        },
+        "text": "The atlas can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The atlas regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "eject": {
+            "name": "Eject",
+            "text": "The pilot of the Atlas ejects, landing in an unoccupied space within <me-distance length='100' />. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a <me-distance length=\"15\" adj /> radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one."
+          },
+          "mass-accelerator-cannon-attack": {
+            "name": "Mass Accelerator Cannon Attack",
+            "text": "The atlas makes a Mass Accelerator Cannon attack."
+          },
+          "smash-attack": {
+            "name": "Smash Attack",
+            "text": "The atlas makes a Smash attack."
+          }
         }
       }
     },
-    "powercasting": false,
+    "cr": "14000",
+    "shields": {
+      "capacity": 50,
+      "regen": 5
+    },
     "name": "Atlas",
     "html": "",
     "id": "atlas"
@@ -436,6 +579,7 @@
       "wis": 18,
       "cha": 20
     },
+    "irv": false,
     "savingThrows": [
       "dex",
       "wis"
@@ -444,7 +588,7 @@
       "darkvision": 24
     },
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 15
     },
@@ -455,17 +599,44 @@
           "perDay": true,
           "name": "Barrier",
           "text": "TODO: Write barrier text"
+        },
+        "innate-powercasting": {
+          "mod": "cha",
+          "list": [
+            {
+              "id": "charge",
+              "perDay": "at_will"
+            },
+            {
+              "id": "nova",
+              "perDay": "at_will"
+            },
+            {
+              "id": "warp",
+              "perDay": 6,
+              "level": 4
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The banshee's innate powercasting ability is Charisma (power save DC 18, +10 to hit with power attacks). It can innately cast the following spells:"
         }
       },
       "actions": {
         "impale": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "3",
+              "dieType": "8",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Impale"
         },
         "wail": {
@@ -481,16 +652,28 @@
       },
       "legendary": {
         "cast-a-power": {
-          "cost": 3,
-          "name": "Cast a Power"
+          "cost": 3
         },
         "impale-attack": {
-          "cost": 1,
-          "name": "Impale Attack"
+          "cost": 1
         },
         "wail-attack": {
-          "cost": 2,
-          "name": "Wail Attack"
+          "cost": 2
+        },
+        "text": "The banshee can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The banshee regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "cast-a-power": {
+            "name": "Cast a Power",
+            "text": "The banshee casts a power from its list of prepared powers, using a power slot as normal."
+          },
+          "impale-attack": {
+            "name": "Impale Attack",
+            "text": "The banshee uses its imaple attack."
+          },
+          "wail-attack": {
+            "name": "Wail Attack",
+            "text": "The banshee uses its wail."
+          }
         }
       },
       "reactions": {
@@ -499,24 +682,8 @@
         }
       }
     },
-    "powercasting": {
-      "mod": "cha",
-      "innate": [
-        {
-          "id": "charge",
-          "perDay": "at-will"
-        },
-        {
-          "id": "nova",
-          "perDay": "at-will"
-        },
-        {
-          "id": "warp",
-          "perDay": 6,
-          "level": 4
-        }
-      ]
-    },
+    "cr": "13000",
+    "shields": false,
     "name": "Banshee",
     "html": "",
     "id": "banshee"
@@ -524,7 +691,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/05/Blood_Pack_Boom-Squad.png/revision/latest/scale-to-width-down/388?cb=20100621053021",
     "type": "organic",
-    "unit": "blood-pack",
+    "unit": "blood_pack",
     "alignment": "ce",
     "profBonus": 2,
     "ac": 11,
@@ -540,10 +707,15 @@
       "wis": 4,
       "cha": 4
     },
+    "irv": {
+      "res": [
+        "poison"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 40
     },
@@ -551,12 +723,19 @@
       "actions": {
         "claws": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "slashing"
+            }
           ],
+          "target": "one",
           "name": "Claws"
         },
         "ml-77-missile-launcher": {
@@ -571,7 +750,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "03000",
+    "shields": {
+      "capacity": 5,
+      "regen": 0
+    },
     "name": "Blood Pack Boom-Squad",
     "html": "",
     "id": "blood-pack-boom-squad"
@@ -579,7 +762,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ec/Blood_Pack_Pyro.png/revision/latest/scale-to-width-down/348?cb=20100621053224",
     "type": "organic",
-    "unit": "blood-pack",
+    "unit": "blood_pack",
     "alignment": "ce",
     "profBonus": 2,
     "ac": 11,
@@ -595,10 +778,15 @@
       "wis": 4,
       "cha": 6
     },
+    "irv": {
+      "res": [
+        "poison"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 35
     },
@@ -606,12 +794,19 @@
       "actions": {
         "claws": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "slashing"
+            }
           ],
+          "target": "one",
           "name": "Claws"
         },
         "m-451-firestorm": {
@@ -635,7 +830,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Blood Pack Pyro",
     "html": "",
     "id": "blood-pack-pyro"
@@ -643,7 +839,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/80/ME2_blood_pack_trooper.png/revision/latest/scale-to-width-down/305?cb=20140516115803",
     "type": "organic",
-    "unit": "blood-pack",
+    "unit": "blood_pack",
     "alignment": "ce",
     "profBonus": 2,
     "ac": 11,
@@ -659,10 +855,15 @@
       "wis": 4,
       "cha": 6
     },
+    "irv": {
+      "res": [
+        "poison"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 40
     },
@@ -670,19 +871,28 @@
       "actions": {
         "claws": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "slashing"
+            }
           ],
+          "target": "one",
           "name": "Claws"
         },
         "m-3-predator": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "m-8-avenger": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -701,7 +911,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": false,
     "name": "Blood Pack Trooper",
     "html": "",
     "id": "blood-pack-trooper"
@@ -709,7 +920,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/b6/ME3_Krogan_Warlord_Sentinel.png/revision/latest/scale-to-width-down/240?cb=20130227103010",
     "type": "organic",
-    "unit": "blood-pack",
+    "unit": "blood_pack",
     "alignment": "ce",
     "profBonus": 4,
     "ac": 18,
@@ -725,11 +936,16 @@
       "wis": 14,
       "cha": 12
     },
+    "irv": {
+      "res": [
+        "necrotic"
+      ]
+    },
     "savingThrows": [
       "con",
       "str"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "athletics"
@@ -746,9 +962,7 @@
           "text": "As a bonus action, the warlord can activate its Tech Armor. It immediately gains 30 temporary hit points. While the legate has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage."
         },
         "rage": {
-          "recharge": [
-            "after"
-          ],
+          "recharge": "short",
           "name": "Rage",
           "text": "If the warlord begins its turn with less than half of its hit points, it enters into a rage for 1 minute. While in a rage, all melee weapon attacks deal 5 additional bludgeoning damage."
         },
@@ -775,14 +989,17 @@
       },
       "actions": {
         "krogan-warhammer": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "m-300-claymore": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": false,
+    "cr": "05000",
+    "shields": false,
     "name": "Blood Pack Warlord",
     "html": "",
     "id": "blood-pack-warlord"
@@ -790,7 +1007,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e8/Blood_Pack_Warrior.png/revision/latest/scale-to-width-down/352?cb=20100621023223",
     "type": "organic",
-    "unit": "blood-pack",
+    "unit": "blood_pack",
     "alignment": "ce",
     "profBonus": 2,
     "ac": 16,
@@ -806,19 +1023,25 @@
       "wis": 12,
       "cha": 10
     },
+    "irv": {
+      "res": [
+        "necrotic"
+      ]
+    },
     "savingThrows": [
       "con"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
       "actions": {
         "m-27-scimitar": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -840,7 +1063,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "03000",
+    "shields": false,
     "name": "Blood Pack Warrior",
     "html": "",
     "id": "blood-pack-warrior"
@@ -848,7 +1072,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/22/Blue_Suns_Centurion.png/revision/latest/scale-to-width-down/348?cb=20100621022434",
     "type": "organic",
-    "unit": "blue-suns",
+    "unit": "blue_suns",
     "alignment": "n",
     "profBonus": 2,
     "ac": 14,
@@ -864,10 +1088,11 @@
       "wis": 12,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "str"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "survival"
@@ -894,7 +1119,8 @@
       },
       "actions": {
         "m-27-scimitar": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "reactions": {
@@ -903,7 +1129,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "03000",
+    "shields": {
+      "capacity": 15,
+      "regen": 5
+    },
     "name": "Blue Suns Centurion",
     "html": "",
     "id": "blue-suns-centurion"
@@ -911,7 +1141,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e0/Blue_Suns_Heavy.png/revision/latest/scale-to-width-down/348?cb=20100621035327",
     "type": "organic",
-    "unit": "blue-suns",
+    "unit": "blue_suns",
     "alignment": "n",
     "profBonus": 2,
     "ac": 13,
@@ -927,8 +1157,9 @@
       "wis": 10,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "survival"
@@ -957,7 +1188,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "02000",
+    "shields": {
+      "capacity": 10,
+      "regen": 0
+    },
     "name": "Blue Suns Heavy",
     "html": "",
     "id": "blue-suns-heavy"
@@ -965,7 +1200,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/8c/Blue_Suns_Commander.png/revision/latest/scale-to-width-down/369?cb=20100626053904",
     "type": "organic",
-    "unit": "blue-suns",
+    "unit": "blue_suns",
     "alignment": "n",
     "profBonus": 3,
     "ac": 16,
@@ -981,11 +1216,12 @@
       "wis": 12,
       "cha": 14
     },
+    "irv": false,
     "savingThrows": [
       "con",
       "wis"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "survival",
@@ -1004,11 +1240,20 @@
           "text": "As a bonus action, the legate can activate its Tech Armor. It immediately gains 30 temporary hit points. While the legate has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage."
         },
         "leadership": {
-          "recharge": [
-            "after"
-          ],
+          "recharge": "short",
           "name": "Leadership",
           "text": "For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='30' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated."
+        },
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "target-painting",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The blue suns legate's innate powercasting ability is Intelligence (power save DC 13, +5 to hit with power attacks). It can innately cast the following spells:"
         },
         "incendiary-ammo": {
           "name": "Incendiary Ammo",
@@ -1016,15 +1261,17 @@
         }
       },
       "actions": {
-        "m-76-revenant": {
-          "ref": "weapon"
-        },
-        "m-300-claymore": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The legate makes 2 attacks with its M-76 Revenant or M-300 Claymore."
+        },
+        "m-76-revenant": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-300-claymore": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "reactions": {
@@ -1033,14 +1280,10 @@
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "target painting",
-          "perDay": 3
-        }
-      ]
+    "cr": "05000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
     },
     "name": "Blue Suns Legate",
     "html": "",
@@ -1049,7 +1292,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/94/Blue_Suns_Legionnaire.png/revision/latest/scale-to-width-down/369?cb=20100626080854",
     "type": "organic",
-    "unit": "blue-suns",
+    "unit": "blue_suns",
     "alignment": "n",
     "profBonus": 2,
     "ac": 12,
@@ -1065,8 +1308,9 @@
       "wis": 10,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "survival"
@@ -1082,6 +1326,17 @@
           "name": "Tech Armor",
           "text": "As a bonus action, the legionnaire can activate its Tech Armor. It immediately gains 10 temporary hit points. While the legionnaire has at least 1 of these temporary hit points remaining, it has +2 AC."
         },
+        "grenades": {
+          "list": [
+            {
+              "id": "inferno-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The blue suns legionnaire has the following grenades equipped. It can use a grenade as an action."
+        },
         "disruptor-ammo": {
           "name": "Disruptor Ammo",
           "text": "When the legionnaire hits with its M-15 Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the legionnaire's next turn."
@@ -1089,12 +1344,8 @@
       },
       "actions": {
         "m-15-vindicator": {
-          "ref": "weapon"
-        },
-        "inferno-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "reactions": {
@@ -1103,7 +1354,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00500",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Blue Suns Legionnaire",
     "html": "",
     "id": "blue-suns-legionnaire"
@@ -1111,7 +1366,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/c/c2/Blue_Suns_Pyro_2.png/revision/latest/scale-to-width-down/347?cb=20100621035042",
     "type": "organic",
-    "unit": "blue-suns",
+    "unit": "blue_suns",
     "alignment": "n",
     "profBonus": 2,
     "ac": 13,
@@ -1127,8 +1382,9 @@
       "wis": 12,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "survival"
@@ -1150,7 +1406,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": {
+      "capacity": 10,
+      "regen": 0
+    },
     "name": "Blue Suns Pyro",
     "html": "",
     "id": "blue-suns-pyro"
@@ -1158,7 +1418,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/1/13/Blue_Suns_Trooper.png/revision/latest/scale-to-width-down/369?cb=20100626054323",
     "type": "organic",
-    "unit": "blue-suns",
+    "unit": "blue_suns",
     "alignment": "n",
     "profBonus": 2,
     "ac": 11,
@@ -1174,24 +1434,31 @@
       "wis": 9,
       "cha": 8
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
       "actions": {
         "m-8-avenger": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "m-23-katana": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Blue Suns Trooper",
     "html": "",
     "id": "blue-suns-trooper"
@@ -1215,6 +1482,13 @@
       "wis": 6,
       "cha": 12
     },
+    "irv": {
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
+    },
     "savingThrows": [
       "str",
       "con"
@@ -1231,29 +1505,43 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The brute makes two Smash attacks or two Clobber attacks."
+        },
         "clobber": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "5",
+              "dieType": "12",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Clobber"
         },
         "smash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "3",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Smash"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The brute makes two Smash attacks or two Clobber attacks."
         }
       },
       "features": {
@@ -1267,7 +1555,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "10000",
+    "shields": false,
     "name": "Brute",
     "html": "",
     "id": "brute"
@@ -1291,41 +1580,72 @@
       "wis": 5,
       "cha": 3
     },
+    "irv": false,
     "savingThrows": [],
     "senses": {
       "darkvision": 24
     },
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 25
     },
     "entries": {
+      "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "frag-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The cannibal has the following grenades equipped. It can use a grenade as an action."
+        },
+        "pack-tactics": {
+          "name": "Pack Tactics",
+          "text": "The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
+        }
+      },
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The cannibal makes 2 Arm Cannon attacks."
+        },
         "arm-cannon": {
           "attack": "ranged",
+          "proficient": true,
           "range": 50,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Arm Cannon"
         },
         "bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Bash"
-        },
-        "frag-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
         },
         "cannibalize": {
           "dc": false,
@@ -1334,20 +1654,11 @@
           "perDay": true,
           "name": "Cannibalize",
           "text": "The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other."
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The cannibal makes 2 Arm Cannon attacks."
-        }
-      },
-      "features": {
-        "pack-tactics": {
-          "name": "Pack Tactics",
-          "text": "The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
         }
       }
     },
-    "powercasting": false,
+    "cr": "02000",
+    "shields": false,
     "name": "Cannibal",
     "html": "",
     "id": "cannibal"
@@ -1371,46 +1682,65 @@
       "wis": 9,
       "cha": 12
     },
+    "irv": {
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
+    },
     "savingThrows": [],
     "senses": {
       "infrared vision": 24
     },
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
-      "actions": {
-        "stun-baton": {
-          "ref": "weapon"
-        },
-        "m-96-mattock": {
-          "ref": "weapon"
-        },
-        "frag-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
-        },
-        "smoke": {
-          "ref": "grenade",
-          "mark": "grenade",
-          "uses": 2
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The centurion makes two M-96 Mattock attacks or two Stun Baton attacks."
-        }
-      },
       "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "frag-grenade",
+              "mark": "iii",
+              "uses": 2
+            },
+            {
+              "id": "smoke",
+              "mark": "grenade",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The centurion has the following grenades equipped. It can use a grenade as an action."
+        },
         "aggressive": {
           "name": "Aggressive",
           "text": "As a bonus action, the centurion can move up to its speed toward a hostile creature that it can see."
         }
+      },
+      "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The centurion makes two M-96 Mattock attacks or two Stun Baton attacks."
+        },
+        "stun-baton": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-96-mattock": {
+          "ref": "weapon",
+          "proficient": true
+        }
       }
     },
-    "powercasting": false,
+    "cr": "04000",
+    "shields": {
+      "capacity": 10,
+      "regen": 10
+    },
     "name": "Centurion",
     "html": "",
     "id": "centurion"
@@ -1434,6 +1764,7 @@
       "wis": 8,
       "cha": 8
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
@@ -1450,22 +1781,30 @@
     },
     "entries": {
       "actions": {
-        "claw": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Claw"
-        },
-        "particle-rifle": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The collector assassin makes two Particle Rifle."
+        },
+        "claw": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "slashing"
+            }
+          ],
+          "target": "one",
+          "name": "Claw"
+        },
+        "particle-rifle": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -1479,7 +1818,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "03000",
+    "shields": false,
     "name": "Collector Assassin",
     "html": "",
     "id": "collector-assassin"
@@ -1503,6 +1843,7 @@
       "wis": 14,
       "cha": 14
     },
+    "irv": false,
     "savingThrows": [
       "dex",
       "con"
@@ -1522,15 +1863,18 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The collector captain makes two Collector Assault Rifle attacks."
+        },
         "collector-assault-rifle": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "leadership": {
           "dc": false,
           "save": false,
-          "recharge": [
-            "after"
-          ],
+          "recharge": "short",
           "name": "Leadership",
           "text": "For 1 minute, the collector captain can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='30' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its role provided it can hear and understand the collector captain. A creature can benefit from only one Leadership die at a time. This effect ends if the collector captain is incapacitated."
         },
@@ -1543,10 +1887,6 @@
           ],
           "name": "Summon Seeker Swarm",
           "text": "The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within <me-distance length='30' />."
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The collector captain makes two Collector Assault Rifle attacks."
         }
       },
       "features": {
@@ -1564,7 +1904,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "07000",
+    "shields": false,
     "name": "Collector Captain",
     "html": "",
     "id": "collector-captain"
@@ -1588,6 +1929,7 @@
       "wis": 8,
       "cha": 8
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
@@ -1606,16 +1948,24 @@
       "actions": {
         "weapon-bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Weapon Bash"
         },
         "collector-assault-rifle": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -1629,7 +1979,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Collector Drone",
     "html": "",
     "id": "collector-drone"
@@ -1653,6 +2004,11 @@
       "wis": 16,
       "cha": 18
     },
+    "irv": {
+      "conImm": [
+        "charmed"
+      ]
+    },
     "savingThrows": [],
     "senses": {
       "darkvision": 24
@@ -1669,55 +2025,84 @@
       "walk": 30
     },
     "entries": {
+      "features": {
+        "powercasting": {
+          "mod": "cha",
+          "casterLevel": "12",
+          "list": [
+            "dark-channel",
+            "pull",
+            "reave",
+            "shockwave",
+            "singularity"
+          ],
+          "name": "Powercasting",
+          "text": "The collector general is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 16, +8 to hit with powers). The collector general has the following powers:"
+        },
+        "barrier": {
+          "name": "Barrier",
+          "text": "TODO: Write barrier text"
+        }
+      },
       "actions": {
         "bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "3",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            },
+            {
+              "dieCount": null,
+              "dieType": null,
+              "mod": true,
+              "type": null
+            }
           ],
+          "target": "one",
           "name": "Bash"
         }
       },
       "legendary": {
         "assume-control": {
-          "cost": 2,
-          "name": "Assume Control"
+          "cost": 2
         },
-        "barrier": {
-          "name": "Barrier"
-        },
+        "barrier": {},
         "bash-attack": {
-          "cost": 1,
-          "name": "Bash Attack"
+          "cost": 1
         },
         "cast-a-power": {
-          "cost": 3,
-          "name": "Cast a Power"
-        }
-      },
-      "features": {
-        "barrier": {
-          "name": "Barrier",
-          "text": "TODO: Write barrier text"
+          "cost": 3
+        },
+        "text": "The collector general can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The collector general regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "assume-control": {
+            "name": "Assume Control",
+            "text": "The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any powers. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks."
+          },
+          "barrier": {
+            "name": "Barrier",
+            "text": "When the collector general is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8."
+          },
+          "bash-attack": {
+            "name": "Bash Attack",
+            "text": "The collector general makes one bash attack."
+          },
+          "cast-a-power": {
+            "name": "Cast a Power",
+            "text": "The collector general casts a power from its list of prepared powers, using a power slot as normal."
+          }
         }
       }
     },
-    "powercasting": {
-      "mod": "cha",
-      "casterLevel": "12",
-      "casterType": "full",
-      "list": [
-        "dark-channel",
-        "pull",
-        "reave",
-        "shockwave",
-        "singularity"
-      ]
-    },
+    "cr": "11000",
+    "shields": false,
     "name": "Collector General",
     "html": "",
     "id": "collector-general"
@@ -1741,6 +2126,7 @@
       "wis": 8,
       "cha": 9
     },
+    "irv": false,
     "savingThrows": [
       "con"
     ],
@@ -1757,18 +2143,30 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The collector guardian makes two Collector Assault Rifle attacks."
+        },
         "weapon-bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Weapon Bash"
         },
         "collector-assault-rifle": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "hex-shield": {
           "dc": false,
@@ -1777,10 +2175,6 @@
           "perDay": true,
           "name": "Hex Shield",
           "text": "As a bonus action, the collector guardian generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The collector guardian makes two Collector Assault Rifle attacks."
         }
       },
       "features": {
@@ -1798,7 +2192,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "04000",
+    "shields": false,
     "name": "Collector Guardian",
     "html": "",
     "id": "collector-guardian"
@@ -1822,6 +2217,7 @@
       "wis": 12,
       "cha": 8
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
@@ -1837,31 +2233,18 @@
       "fly": 15
     },
     "entries": {
-      "actions": {
-        "claw": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Claw"
-        },
-        "collector-smg": {
-          "ref": "weapon"
-        },
-        "frag-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
-        },
-        "collector-web": {
-          "name": "Collector Web",
-          "hit": " As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success"
-        }
-      },
       "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "frag-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The collector trooper has the following grenades equipped. It can use a grenade as an action."
+        },
         "barrier": {
           "name": "Barrier",
           "text": "TODO: Write barrier text"
@@ -1870,9 +2253,37 @@
           "name": "Possessed Collector",
           "text": "When the collector trooper is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage."
         }
+      },
+      "actions": {
+        "claw": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "slashing"
+            }
+          ],
+          "target": "one",
+          "name": "Claw"
+        },
+        "collector-smg": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "collector-web": {
+          "name": "Collector Web",
+          "hit": " As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success"
+        }
       }
     },
-    "powercasting": false,
+    "cr": "03000",
+    "shields": false,
     "name": "Collector Trooper",
     "html": "",
     "id": "collector-trooper"
@@ -1896,35 +2307,63 @@
       "wis": 8,
       "cha": 6
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 40
     },
     "entries": {
+      "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "sabotage",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The combat drone's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following spells:"
+        }
+      },
       "actions": {
         "shock-attack": {
           "attack": "ranged",
+          "proficient": true,
           "range": 25,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "lightning"
+            }
           ],
+          "target": "one",
           "name": "Shock Attack"
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "sabotage",
-          "perDay": 3
-        }
-      ]
+    "cr": "00250",
+    "shields": {
+      "capacity": 10,
+      "regen": 5
     },
     "name": "Combat Drone",
     "html": "",
@@ -1949,8 +2388,9 @@
       "wis": 13,
       "cha": 16
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "electronics"
@@ -1960,12 +2400,13 @@
     },
     "entries": {
       "actions": {
-        "m-5-phalanx": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The combat engineer makes two M-5 Phalanx attacks."
+        },
+        "m-5-phalanx": {
+          "ref": "weapon",
+          "proficient": true
         },
         "repair": {
           "name": "Repair",
@@ -1979,7 +2420,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "03000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
+    },
     "name": "Combat Engineer",
     "html": "",
     "id": "combat-engineer"
@@ -2003,10 +2448,22 @@
       "wis": 10,
       "cha": 7
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 30
     },
@@ -2014,12 +2471,19 @@
       "actions": {
         "bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Bash"
         }
       },
@@ -2029,7 +2493,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00500",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Defense Drone",
     "html": "",
     "id": "defense-drone"
@@ -2053,10 +2521,22 @@
       "wis": 8,
       "cha": 8
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 40
     },
@@ -2074,7 +2554,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00125",
+    "shields": false,
     "name": "Disruption Drone",
     "html": "",
     "id": "disruption-drone"
@@ -2098,10 +2579,11 @@
       "wis": 12,
       "cha": 13
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "acrobatics"
@@ -2111,15 +2593,17 @@
     },
     "entries": {
       "actions": {
-        "omni-whip": {
-          "ref": "weapon"
-        },
-        "m-25-hornet": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The dragoon makes three Omni-whip attacks"
+        },
+        "omni-whip": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-25-hornet": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -2129,7 +2613,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "05000",
+    "shields": false,
     "name": "Dragoon",
     "html": "",
     "id": "dragoon"
@@ -2153,13 +2638,14 @@
       "wis": 14,
       "cha": 16
     },
+    "irv": false,
     "savingThrows": [
       "wis",
       "cha"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -2171,6 +2657,16 @@
           "name": "Barrier",
           "text": "TODO: Write barrier text"
         },
+        "powercasting": {
+          "mod": "cha",
+          "casterLevel": "12",
+          "list": [
+            "charge",
+            "warp"
+          ],
+          "name": "Powercasting",
+          "text": "The eclipse commando is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 14, +6 to hit with powers). The eclipse commando has the following powers:"
+        },
         "aggressive": {
           "name": "Aggressive",
           "text": "As a bonus action, the commando can move up to its speed toward a hostile creature it can see."
@@ -2178,28 +2674,20 @@
       },
       "actions": {
         "m-300-claymore": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "leadership": {
           "dc": false,
           "save": false,
-          "recharge": [
-            "after"
-          ],
+          "recharge": "short",
           "name": "Leadership",
           "text": "For 1 minute, the commando can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length=\"30\" /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the commando. A creature can benefit from only one Leadership die at a time. This effect ends if the commando is incapacitated."
         }
       }
     },
-    "powercasting": {
-      "mod": "cha",
-      "casterLevel": "12",
-      "casterType": "full",
-      "list": [
-        "charge",
-        "warp"
-      ]
-    },
+    "cr": "05000",
+    "shields": false,
     "name": "Eclipse Commando",
     "html": "",
     "id": "eclipse-commando"
@@ -2223,8 +2711,9 @@
       "wis": 13,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "electronics"
@@ -2239,11 +2728,24 @@
           "perDay": true,
           "name": "Tech Armor",
           "text": "As a bonus action, the engineer can activate its Tech Armor. It immediately gains 10 temporary hit points. While the engineer has at least 1 of these temporary hit points remaining, it has +2 AC."
+        },
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "incinerate",
+              "perDay": 3,
+              "level": 2
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The eclipse engineer's innate powercasting ability is Intelligence (power save DC 12, +4 to hit with power attacks). It can innately cast the following spells:"
         }
       },
       "actions": {
         "m-6-carnifex": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "summon-combat-drone": {
           "dc": false,
@@ -2264,15 +2766,10 @@
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "incinerate",
-          "perDay": 3,
-          "level": 2
-        }
-      ]
+    "cr": "02000",
+    "shields": {
+      "capacity": 10,
+      "regen": 5
     },
     "name": "Eclipse Engineer",
     "html": "",
@@ -2297,8 +2794,9 @@
       "wis": 12,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "perception"
@@ -2314,7 +2812,11 @@
         }
       }
     },
-    "powercasting": null,
+    "cr": "04000",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Eclipse Heavy",
     "html": "",
     "id": "eclipse-heavy"
@@ -2338,10 +2840,11 @@
       "wis": 14,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "int"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "electronics"
@@ -2356,11 +2859,24 @@
           "perDay": true,
           "name": "Tech Armor",
           "text": "As a bonus action, the operative can activate its Tech Armor. It immediately gains 10 temporary hit points. While the operative has at least 1 of these temporary hit points remaining, it has +2 AC."
+        },
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "incinerate",
+              "perDay": 5,
+              "level": 2
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The eclipse operative's innate powercasting ability is Intelligence (power save DC 13, +5 to hit with power attacks). It can innately cast the following spells:"
         }
       },
       "actions": {
         "m-9-tempest": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "summon-combat-drone": {
           "dc": false,
@@ -2381,15 +2897,10 @@
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "incinerate",
-          "perDay": 5,
-          "level": 2
-        }
-      ]
+    "cr": "03000",
+    "shields": {
+      "capacity": 10,
+      "regen": 10
     },
     "name": "Eclipse Operative",
     "html": "",
@@ -2414,32 +2925,44 @@
       "wis": 12,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
-      "actions": {
-        "m-8-avenger": {
-          "ref": "weapon"
-        },
-        "flashbang-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
-        }
-      },
       "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "flashbang-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The eclipse trooper has the following grenades equipped. It can use a grenade as an action."
+        },
         "pack-tactics": {
           "name": "Pack Tactics",
           "text": "The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
         }
+      },
+      "actions": {
+        "m-8-avenger": {
+          "ref": "weapon",
+          "proficient": true
+        }
       }
     },
-    "powercasting": null,
+    "cr": "00250",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Eclipse Trooper",
     "html": "",
     "id": "eclipse-trooper"
@@ -2463,10 +2986,11 @@
       "wis": 13,
       "cha": 15
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -2483,15 +3007,26 @@
           "perDay": true,
           "name": "Tech Armor",
           "text": "As a bonus action, the vanguard can activate its Tech Armor. It immediately gains 10 temporary hit points. While the vanguard has at least 1 of these temporary hit points remaining, it has +2 AC."
+        },
+        "powercasting": {
+          "mod": "cha",
+          "casterLevel": "6",
+          "list": [
+            "shockwave",
+            "warp"
+          ],
+          "name": "Powercasting",
+          "text": "The eclipse vanguard is a 6th-level powercaster. Its powercasting ability is Charisma (power save DC 12, +4 to hit with powers). The eclipse vanguard has the following powers:"
         }
       },
       "actions": {
-        "m-27-scimitar": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The vanguard makes 2 M-27 Scimitar attacks."
+        },
+        "m-27-scimitar": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "reactions": {
@@ -2500,15 +3035,8 @@
         }
       }
     },
-    "powercasting": {
-      "mod": "cha",
-      "casterLevel": "6",
-      "casterType": "full",
-      "list": [
-        "shockwave",
-        "warp"
-      ]
-    },
+    "cr": "03000",
+    "shields": false,
     "name": "Eclipse Vanguard",
     "html": "",
     "id": "eclipse-vanguard"
@@ -2532,11 +3060,18 @@
       "wis": 18,
       "cha": 8
     },
+    "irv": {
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
+    },
     "savingThrows": [
       "str",
       "con"
     ],
-    "senses": [],
+    "senses": false,
     "size": "large",
     "skills": [
       "history",
@@ -2549,12 +3084,19 @@
       "actions": {
         "mass-accelerator-cannon": {
           "attack": "ranged",
+          "proficient": true,
           "range": 300,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "5",
+              "dieType": "8",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Mass Accelerator Cannon"
         }
       },
@@ -2565,7 +3107,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "06000",
+    "shields": {
+      "capacity": 50,
+      "regen": 10
+    },
     "name": "Elcor",
     "html": "",
     "id": "elcor"
@@ -2589,6 +3135,18 @@
       "wis": 14,
       "cha": 8
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [
       "dex"
     ],
@@ -2603,31 +3161,18 @@
       "walk": 40
     },
     "entries": {
-      "actions": {
-        "pounce": {
-          "attack": "melee",
-          "range": 10,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Pounce",
-          "hit": " If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone"
-        },
-        "stun": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Stun",
-          "hit": " If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn"
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "shocking-grasp",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The fenris mech's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following spells:"
+        },
         "aggressive": {
           "name": "Aggressive",
           "text": "As a bonus action, the fenris mech can move up to its speed toward a hostile creature that it can see."
@@ -2636,17 +3181,48 @@
           "name": "Post-mortem Explosion",
           "text": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a <me-distance length='10' adj />-radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage."
         }
+      },
+      "actions": {
+        "pounce": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 10,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "bludgeoning"
+            }
+          ],
+          "target": "one",
+          "name": "Pounce",
+          "hit": " If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone"
+        },
+        "stun": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "lightning"
+            }
+          ],
+          "target": "one",
+          "name": "Stun",
+          "hit": " If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn"
+        }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "shocking grasp",
-          "perDay": 3
-        }
-      ]
-    },
+    "cr": "00500",
+    "shields": false,
     "name": "FENRIS Mech",
     "html": "",
     "id": "fenris-mech"
@@ -2669,6 +3245,34 @@
       "int": 18,
       "wis": 6,
       "cha": 8
+    },
+    "irv": {
+      "conImm": [
+        "charmed",
+        "deafened",
+        "frightened",
+        "frozen",
+        "grappled",
+        "invisible",
+        "lifted",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "restrained",
+        "stunned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "vul": [
+        "lightning"
+      ]
     },
     "savingThrows": [
       "int"
@@ -2696,13 +3300,25 @@
       "actions": {
         "mass-accelerator-machinegun": {
           "attack": "ranged",
+          "proficient": true,
           "range": 300,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "3",
+              "dieType": "12",
+              "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "12",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Mass Accelerator Machinegun",
           "hit": " The geth armature can make a burst fire attack instead"
         },
@@ -2721,7 +3337,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "15000",
+    "shields": {
+      "capacity": 100,
+      "regen": 0
+    },
     "name": "Geth Armature",
     "html": "",
     "id": "geth-armature"
@@ -2745,6 +3365,19 @@
       "wis": 10,
       "cha": 8
     },
+    "irv": {
+      "conImm": [
+        "petrified",
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [
       "dex"
     ],
@@ -2759,22 +3392,35 @@
       "fly": 30
     },
     "entries": {
-      "actions": {
-        "multi-frag-grenade": {
-          "ref": "grenade",
-          "mark": "ii",
-          "uses": 2
+      "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "overload",
+              "perDay": "at_will"
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The geth bomber's innate powercasting ability is Intelligence (power save DC 12, +4 to hit with power attacks). It can innately cast the following spells:"
+        },
+        "grenades": {
+          "list": [
+            {
+              "id": "multi-frag-grenade",
+              "mark": "ii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The geth bomber has the following grenades equipped. It can use a grenade as an action."
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "overload",
-          "perDay": "at-will"
-        }
-      ]
+    "cr": "02000",
+    "shields": {
+      "capacity": 15,
+      "regen": 5
     },
     "name": "Geth Bomber",
     "html": "",
@@ -2798,6 +3444,34 @@
       "int": 20,
       "wis": 6,
       "cha": 8
+    },
+    "irv": {
+      "conImm": [
+        "charmed",
+        "deafened",
+        "frightened",
+        "frozen",
+        "grappled",
+        "invisible",
+        "lifted",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "restrained",
+        "stunned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "vul": [
+        "lightning"
+      ]
     },
     "savingThrows": [
       "int"
@@ -2825,13 +3499,25 @@
       "actions": {
         "mass-accelerator-machinegun": {
           "attack": "ranged",
+          "proficient": true,
           "range": 300,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "3",
+              "dieType": "12",
+              "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "12",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Mass Accelerator Machinegun",
           "hit": " The geth colossus can make a burst fire attack instead"
         },
@@ -2851,20 +3537,36 @@
       },
       "legendary": {
         "mass-accelerator-machinegun-attack": {
-          "cost": 1,
-          "name": "Mass Accelerator Machinegun Attack"
+          "cost": 1
         },
         "siege-cannon-attack": {
-          "cost": 1,
-          "name": "Siege Cannon Attack"
+          "cost": 1
         },
         "siege-pulse-attack": {
-          "cost": 2,
-          "name": "Siege Pulse Attack"
+          "cost": 2
+        },
+        "text": "The geth colossus can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The geth colossus regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "mass-accelerator-machinegun-attack": {
+            "name": "Mass Accelerator Machinegun Attack",
+            "text": "The geth colossus makes a Mass Accelerator Machinegun attack."
+          },
+          "siege-cannon-attack": {
+            "name": "Siege Cannon Attack",
+            "text": "The geth colossus makes a Siege Cannon attack."
+          },
+          "siege-pulse-attack": {
+            "name": "Siege Pulse Attack",
+            "text": "The geth colossus uses its Siege Pulse"
+          }
         }
       }
     },
-    "powercasting": false,
+    "cr": "21000",
+    "shields": {
+      "capacity": 100,
+      "regen": 0
+    },
     "name": "Geth Colossus",
     "html": "",
     "id": "geth-colossus"
@@ -2887,6 +3589,15 @@
       "int": 16,
       "wis": 12,
       "cha": 10
+    },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ]
     },
     "savingThrows": [
       "int"
@@ -2916,16 +3627,21 @@
         }
       },
       "actions": {
-        "geth-plasma-shotgun": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The geth hunter makes two Geth Plasma Shotgun attacks."
+        },
+        "geth-plasma-shotgun": {
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": false,
+    "cr": "04000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
+    },
     "name": "Geth Hunter",
     "html": "",
     "id": "geth-hunter"
@@ -2949,31 +3665,53 @@
       "wis": 8,
       "cha": 4
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 35
     },
     "entries": {
       "actions": {
-        "bash": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Bash"
-        },
-        "geth-plasma-smg": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The geth juggernaut makes two Bash attacks."
+        },
+        "bash": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
+          ],
+          "target": "one",
+          "name": "Bash"
+        },
+        "geth-plasma-smg": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -2983,7 +3721,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "08000",
+    "shields": {
+      "capacity": 20,
+      "regen": 5
+    },
     "name": "Geth Juggernaut",
     "html": "",
     "id": "geth-juggernaut"
@@ -3007,11 +3749,20 @@
       "wis": 10,
       "cha": 10
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ]
+    },
     "savingThrows": [
       "con",
       "int"
     ],
-    "senses": [],
+    "senses": false,
     "size": "large",
     "skills": [
       "electronics"
@@ -3021,18 +3772,30 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The geth prime makes two Geth Pulse Rifle attacks."
+        },
         "weapon-bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Weapon Bash"
         },
         "geth-pulse-rifle": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "summon-combat-drone": {
           "dc": false,
@@ -3050,10 +3813,6 @@
           "name": "Summon Geth Turret",
           "text": "The geth prime summons a Geth Turret."
         },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The geth prime makes two Geth Pulse Rifle attacks."
-        },
         "radar-jamming": {
           "name": "Radar Jamming",
           "text": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a <me-distance length='30' /> radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn."
@@ -3061,20 +3820,36 @@
       },
       "legendary": {
         "activate-radar-jamming": {
-          "cost": 2,
-          "name": "Activate Radar Jamming"
+          "cost": 2
         },
         "geth-pulse-rifle-attack": {
-          "cost": 1,
-          "name": "Geth Pulse Rifle Attack"
+          "cost": 1
         },
         "summon-turret-or-drone": {
-          "cost": 3,
-          "name": "Summon Turret or Drone"
+          "cost": 3
+        },
+        "text": "The geth prime can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The geth prime regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "activate-radar-jamming": {
+            "name": "Activate Radar Jamming",
+            "text": "The geth prime activates its radar jamming."
+          },
+          "geth-pulse-rifle-attack": {
+            "name": "Geth Pulse Rifle Attack",
+            "text": "The geth prime makes a Geth Pulse Rifle attack."
+          },
+          "summon-turret-or-drone": {
+            "name": "Summon Turret or Drone",
+            "text": "The geth prime uses its Summon Drone or Summon Geth Turret action."
+          }
         }
       }
     },
-    "powercasting": false,
+    "cr": "09000",
+    "shields": {
+      "capacity": 30,
+      "regen": 10
+    },
     "name": "Geth Prime",
     "html": "",
     "id": "geth-prime"
@@ -3098,6 +3873,18 @@
       "wis": 14,
       "cha": 5
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [
       "dex"
     ],
@@ -3113,29 +3900,18 @@
       "walk": 40
     },
     "entries": {
-      "actions": {
-        "claw": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Claw"
-        },
-        "eye-cannon": {
-          "attack": "ranged",
-          "range": 150,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Eye Cannon"
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "sabotage",
+              "perDay": "at_will"
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The geth stalker's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following spells:"
+        },
         "assassination": {
           "name": "Assassination",
           "text": "Once per turn, the geth stalker can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon."
@@ -3152,16 +3928,48 @@
           "name": "Spider Climb",
           "text": "The geth stalker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
         }
+      },
+      "actions": {
+        "claw": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "1",
+              "dieType": "8",
+              "mod": true,
+              "type": "slashing"
+            }
+          ],
+          "target": "one",
+          "name": "Claw"
+        },
+        "eye-cannon": {
+          "attack": "ranged",
+          "proficient": true,
+          "range": 150,
+          "dc": false,
+          "mod": "dex",
+          "damage": [
+            {
+              "dieCount": "3",
+              "dieType": "6",
+              "mod": true,
+              "type": "radiant"
+            }
+          ],
+          "target": "one",
+          "name": "Eye Cannon"
+        }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "sabotage",
-          "perDay": "at-will"
-        }
-      ]
+    "cr": "03000",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
     },
     "name": "Geth Stalker",
     "html": "",
@@ -3186,35 +3994,56 @@
       "wis": 8,
       "cha": 8
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
       "actions": {
-        "weapon-strike": {
-          "attack": "melee",
-          "range": 5,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Weapon Strike"
-        },
-        "geth-pulse-rifle": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The geth trooper makes two Geth Pulse Rifle attacks."
+        },
+        "weapon-strike": {
+          "attack": "melee",
+          "proficient": true,
+          "range": 5,
+          "dc": false,
+          "mod": "str",
+          "damage": [
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "bludgeoning"
+            }
+          ],
+          "target": "one",
+          "name": "Weapon Strike"
+        },
+        "geth-pulse-rifle": {
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": false,
+    "cr": "02000",
+    "shields": false,
     "name": "Geth Trooper",
     "html": "",
     "id": "geth-trooper"
@@ -3238,10 +4067,22 @@
       "wis": 8,
       "cha": 8
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 15
     },
@@ -3249,12 +4090,19 @@
       "actions": {
         "pulse-cannon": {
           "attack": "ranged",
+          "proficient": true,
           "range": 50,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Pulse Cannon"
         },
         "shield-restore": {
@@ -3269,7 +4117,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Geth Turret",
     "html": "",
     "id": "geth-turret"
@@ -3293,26 +4145,29 @@
       "wis": 10,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "str"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 15
     },
     "entries": {
       "actions": {
-        "stun-baton": {
-          "ref": "weapon"
-        },
-        "m-358-talon": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The guardian makes two M-358 Talon attacks."
+        },
+        "stun-baton": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-358-talon": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -3322,7 +4177,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "05000",
+    "shields": false,
     "name": "Guardian",
     "html": "",
     "id": "guardian"
@@ -3346,12 +4202,20 @@
       "wis": 15,
       "cha": 16
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison"
+      ]
+    },
     "savingThrows": [
       "str",
       "con",
       "wis"
     ],
-    "senses": [],
+    "senses": false,
     "size": "huge",
     "skills": [
       "perception"
@@ -3362,29 +4226,43 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The harvester can use its Frightful Presence. It then makes three attacks: one with its acid spit and two with its stomp."
+        },
         "stomp": {
           "attack": "melee",
+          "proficient": true,
           "range": 10,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Stomp"
         },
         "drop-klixen": {
           "attack": "regional",
+          "proficient": true,
           "range": false,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": null,
+              "dieType": null,
+              "mod": true,
+              "type": null
+            }
           ],
+          "target": "one",
           "name": "Drop Klixen"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The harvester can use its Frightful Presence. It then makes three attacks: one with its acid spit and two with its stomp."
         },
         "acid-spit": {
           "name": "Acid Spit",
@@ -3393,16 +4271,28 @@
       },
       "legendary": {
         "detect": {
-          "cost": 1,
-          "name": "Detect"
+          "cost": 1
         },
         "stomp-attack": {
-          "cost": 1,
-          "name": "Stomp Attack"
+          "cost": 1
         },
         "trample-attack": {
-          "cost": 2,
-          "name": "Trample Attack"
+          "cost": 2
+        },
+        "text": "The harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The harvester regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "detect": {
+            "name": "Detect",
+            "text": "The harvester makes a Wisdom (Perception) check."
+          },
+          "stomp-attack": {
+            "name": "Stomp Attack",
+            "text": "The harvester makes a stomp attack."
+          },
+          "trample-attack": {
+            "name": "Trample Attack",
+            "text": "The harvester moves <me-distance length='30' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
+          }
         }
       },
       "features": {
@@ -3412,7 +4302,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "19000",
+    "shields": false,
     "name": "Harvester",
     "html": "",
     "id": "harvester"
@@ -3436,8 +4327,9 @@
       "wis": 14,
       "cha": 6
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "perception"
@@ -3449,23 +4341,37 @@
       "actions": {
         "gore": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "3",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Gore",
           "hit": " If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone"
         },
         "maul": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Maul",
           "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw."
         },
@@ -3489,7 +4395,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Horned Kath Hound",
     "html": "",
     "id": "horned-kath-hound"
@@ -3513,6 +4420,7 @@
       "wis": 6,
       "cha": 5
     },
+    "irv": false,
     "savingThrows": [
       "wis"
     ],
@@ -3520,7 +4428,7 @@
       "darkvision": 24
     },
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -3528,13 +4436,24 @@
       "actions": {
         "swipe": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "slashing"
+            },
+            {
+              "dieCount": "escape",
+              "mod": true,
+              "type": null
+            }
           ],
+          "target": "one",
           "name": "Swipe",
           "hit": " A creature that is grappled by the husk takes 11 (3d6) necrotic damage at the start of each of the husk's turns"
         }
@@ -3546,7 +4465,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00500",
+    "shields": false,
     "name": "Husk",
     "html": "",
     "id": "husk"
@@ -3570,8 +4490,9 @@
       "wis": 12,
       "cha": 5
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "perception"
@@ -3583,23 +4504,37 @@
       "actions": {
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite",
           "hit": " If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone"
         },
         "maul": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Maul",
           "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw."
         }
@@ -3619,7 +4554,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": false,
     "name": "Kath Hound",
     "html": "",
     "id": "kath-hound"
@@ -3643,28 +4579,39 @@
       "wis": 8,
       "cha": 7
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
+      "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "frag-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The kett chosen has the following grenades equipped. It can use a grenade as an action."
+        }
+      },
       "actions": {
         "zalkin": {
-          "ref": "weapon"
-        },
-        "frag-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": null,
+    "cr": "01000",
+    "shields": false,
     "name": "Kett Chosen",
     "html": "",
     "id": "kett-chosen"
@@ -3688,10 +4635,22 @@
       "wis": 10,
       "cha": 7
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "fire",
+        "poison"
+      ],
+      "vul": [
+        "cold"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -3708,12 +4667,19 @@
         },
         "pincer": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Pincer"
         }
       },
@@ -3728,7 +4694,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Klixen",
     "html": "",
     "id": "klixen"
@@ -3752,6 +4719,19 @@
       "wis": 6,
       "cha": 5
     },
+    "irv": {
+      "conImm": [
+        "petrified",
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
     "senses": {
       "infrared vision": 24
@@ -3764,15 +4744,18 @@
       "walk": 25
     },
     "entries": {
-      "actions": {
-        "m-4-shuriken": {
-          "ref": "weapon"
-        },
-        "m-3-predator": {
-          "ref": "weapon"
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "shocking-grasp",
+              "perDay": 5
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The loki mech's innate powercasting ability is Intelligence (power save DC 9, +1 to hit with power attacks). It can innately cast the following spells:"
+        },
         "chatter--variant-": {
           "name": "Chatter (variant)",
           "text": "The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging powers. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12."
@@ -3785,17 +4768,20 @@
           "name": "Post-mortem Explosion",
           "text": "When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='5' adj />-radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage."
         }
+      },
+      "actions": {
+        "m-4-shuriken": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-3-predator": {
+          "ref": "weapon",
+          "proficient": true
+        }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "shocking grasp",
-          "perDay": 5
-        }
-      ]
-    },
+    "cr": "00125",
+    "shields": false,
     "name": "LOKI Mech",
     "html": "",
     "id": "loki-mech"
@@ -3819,6 +4805,7 @@
       "wis": 11,
       "cha": 8
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
@@ -3834,8 +4821,13 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The marauder makes 2 Phaeston attacks."
+        },
         "phaeston": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "create-armor-plating": {
           "dc": false,
@@ -3846,14 +4838,14 @@
           ],
           "name": "Create Armor Plating",
           "text": "The marauder coats a friendly husk, abomination, or cannibal in a scab-like armor plating, increasing the target's AC by 2."
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The marauder makes 2 Phaeston attacks."
         }
       }
     },
-    "powercasting": false,
+    "cr": "02000",
+    "shields": {
+      "capacity": 15,
+      "regen": 15
+    },
     "name": "Marauder",
     "html": "",
     "id": "marauder"
@@ -3861,7 +4853,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/04/N7_Demolisher_Engineer_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151043",
     "type": "organic",
-    "unit": "n-7",
+    "unit": "n_7",
     "alignment": "ln",
     "profBonus": 3,
     "ac": 15,
@@ -3877,14 +4869,15 @@
       "wis": 13,
       "cha": 14
     },
+    "irv": false,
     "savingThrows": [
       "con",
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
-      "vehicle_handling",
+      "vehicle-handling",
       "engineering",
       "survival"
     ],
@@ -3892,22 +4885,40 @@
       "walk": 30
     },
     "entries": {
+      "features": {
+        "grenades": {
+          "list": [
+            {
+              "id": "arc-grenade",
+              "mark": "iii",
+              "uses": 3
+            },
+            {
+              "id": "homing-grenade",
+              "mark": "i",
+              "uses": 3
+            }
+          ],
+          "name": "Grenades",
+          "text": "The n7 demolisher has the following grenades equipped. It can use a grenade as an action."
+        },
+        "n7-training": {
+          "name": "N7 Training",
+          "text": "The N7 demolisher has advantage on its first attack roll each turn."
+        }
+      },
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade."
+        },
         "n-7-eagle": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         },
         "n-7-hurricane": {
-          "ref": "weapon"
-        },
-        "arc-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 3
-        },
-        "homing-grenade": {
-          "ref": "grenade",
-          "mark": "i",
-          "uses": 3
+          "ref": "weapon",
+          "proficient": true
         },
         "deploy-shield-pylon": {
           "dc": false,
@@ -3917,23 +4928,17 @@
           "name": "Deploy Shield Pylon",
           "text": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
         },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade."
-        },
         "repair": {
           "name": "Repair",
           "text": "The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points."
         }
-      },
-      "features": {
-        "n7-training": {
-          "name": "N7 Training",
-          "text": "The N7 demolisher has advantage on its first attack roll each turn."
-        }
       }
     },
-    "powercasting": false,
+    "cr": "05000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
+    },
     "name": "N7 Demolisher",
     "html": "",
     "id": "n-7-demolisher"
@@ -3941,7 +4946,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/83/N7_Paladin_Sentinel_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151128",
     "type": "organic",
-    "unit": "n-7",
+    "unit": "n_7",
     "alignment": "ln",
     "profBonus": 3,
     "ac": 16,
@@ -3957,10 +4962,11 @@
       "wis": 13,
       "cha": 16
     },
+    "irv": false,
     "savingThrows": [
       "con"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "survival"
@@ -3994,38 +5000,46 @@
           "name": "Variant: Cryo-Shield",
           "text": "Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn."
         },
+        "innate-powercasting": {
+          "mod": "cha",
+          "list": [
+            {
+              "id": "incinerate",
+              "perDay": "at_will"
+            },
+            {
+              "id": "energy-drain",
+              "perDay": 3
+            },
+            {
+              "id": "snap-freeze",
+              "perDay": 3,
+              "level": 4
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The n7 paladin's innate powercasting ability is Charisma (power save DC 14, +6 to hit with power attacks). It can innately cast the following spells:"
+        },
         "n7-training": {
           "name": "N7 Training",
           "text": "The N7 Paladin has advantage on its first attack roll each turn."
         }
       },
       "actions": {
-        "n-7-hurricane": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The N7 Paladin makes two N7 Hurricane attacks."
+        },
+        "n-7-hurricane": {
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": {
-      "mod": "cha",
-      "innate": [
-        {
-          "id": "incinerate",
-          "perDay": "at-will"
-        },
-        {
-          "id": "energy_drain",
-          "perDay": 3
-        },
-        {
-          "id": "snap_freeze",
-          "perDay": 3,
-          "level": 4
-        }
-      ]
+    "cr": "07000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
     },
     "name": "N7 Paladin",
     "html": "",
@@ -4034,7 +5048,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/08/N7_Shadow_Infiltrator_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151201",
     "type": "organic",
-    "unit": "n-7",
+    "unit": "n_7",
     "alignment": "ln",
     "profBonus": 3,
     "ac": 15,
@@ -4050,10 +5064,11 @@
       "wis": 11,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "acrobatics",
@@ -4069,6 +5084,18 @@
           "perDay": true,
           "name": "Tactical Cloak",
           "text": "As a bonus action, the N7 Shadow activates its tactical cloak, becoming invisible for 1 minute. When the N7 Shadow makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends."
+        },
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "electric-slash",
+              "perDay": 4,
+              "level": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The n7 shadow's innate powercasting ability is Intelligence (power save DC 14, +6 to hit with power attacks). It can innately cast the following spells:"
         },
         "assassinate": {
           "name": "Assassinate",
@@ -4088,24 +5115,20 @@
         }
       },
       "actions": {
-        "m-97-viper": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The N7 Slayer makes three monomolecular blade attacks."
+        },
+        "m-97-viper": {
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "electric_slash",
-          "perDay": 4,
-          "level": 3
-        }
-      ]
+    "cr": "07000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
     },
     "name": "N7 Shadow",
     "html": "",
@@ -4114,7 +5137,7 @@
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/9/97/N7_Slayer_Vanguard_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151234",
     "type": "organic",
-    "unit": "n-7",
+    "unit": "n_7",
     "alignment": "ln",
     "profBonus": 3,
     "ac": 14,
@@ -4130,11 +5153,12 @@
       "wis": 14,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "str",
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "acrobatics",
@@ -4151,6 +5175,17 @@
           "name": "Barrier",
           "text": "TODO: Write barrier text"
         },
+        "powercasting": {
+          "mod": "wis",
+          "casterLevel": 9,
+          "list": [
+            "charge",
+            "phase-disruptor",
+            "biotic-slash"
+          ],
+          "name": "Powercasting",
+          "text": "The n7 slayer is a 9th-level powercaster. Its powercasting ability is Wisdom (power save DC 13, +5 to hit with powers). The n7 slayer has the following powers:"
+        },
         "aggressive": {
           "name": "Aggressive",
           "text": "As a bonus action, the N7 Slayer can move up to its speed toward a hostile creature that it can see."
@@ -4165,15 +5200,17 @@
         }
       },
       "actions": {
-        "monomolecular-blade": {
-          "ref": "weapon"
-        },
-        "n-7-piranha": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The N7 Slayer makes three monomolecular blade attacks or two N7 Piranha attacks."
+        },
+        "monomolecular-blade": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "n-7-piranha": {
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "reactions": {
@@ -4182,15 +5219,10 @@
         }
       }
     },
-    "powercasting": {
-      "mod": "wis",
-      "casterLevel": 9,
-      "casterType": "full",
-      "list": [
-        "charge",
-        "phase_disruptor",
-        "biotic_slash"
-      ]
+    "cr": "05000",
+    "shields": {
+      "capacity": 15,
+      "regen": 5
     },
     "name": "N7 Slayer",
     "html": "",
@@ -4215,6 +5247,7 @@
       "wis": 13,
       "cha": 14
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
@@ -4233,7 +5266,8 @@
     "entries": {
       "actions": {
         "m-98-widow": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -4255,7 +5289,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "06000",
+    "shields": {
+      "capacity": 20,
+      "regen": 10
+    },
     "name": "Nemesis",
     "html": "",
     "id": "nemesis"
@@ -4279,6 +5317,20 @@
       "wis": 9,
       "cha": 10
     },
+    "irv": {
+      "conImm": [
+        "blinded",
+        "deafened",
+        "frightened",
+        "lifted",
+        "paralyzed",
+        "poisoned",
+        "prone"
+      ],
+      "damImm": [
+        "poison"
+      ]
+    },
     "savingThrows": [
       "dex",
       "con"
@@ -4297,12 +5349,19 @@
       "actions": {
         "crush": {
           "attack": "melee",
+          "proficient": true,
           "range": 25,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "4",
+              "dieType": "6",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Crush"
         },
         "particle-beam": {
@@ -4311,7 +5370,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "11000",
+    "shields": false,
     "name": "Oculus",
     "html": "",
     "id": "oculus"
@@ -4335,10 +5395,11 @@
       "wis": 15,
       "cha": 15
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "acrobatics",
@@ -4367,26 +5428,35 @@
         }
       },
       "actions": {
-        "monomolecular-blade": {
-          "ref": "weapon"
-        },
-        "palm-blaster": {
-          "attack": "ranged",
-          "range": 10,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null
-          ],
-          "name": "Palm Blaster"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The phantom makes three Monomolecular Blade attacks or one Palm Blaster attack and two Monomolecular  Blade (one-handed) attacks."
+        },
+        "monomolecular-blade": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "palm-blaster": {
+          "attack": "ranged",
+          "proficient": true,
+          "range": 10,
+          "dc": false,
+          "mod": "dex",
+          "damage": [
+            {
+              "dieCount": "3",
+              "dieType": "10",
+              "mod": true,
+              "type": "thunder"
+            }
+          ],
+          "target": "one",
+          "name": "Palm Blaster"
         }
       }
     },
-    "powercasting": false,
+    "cr": "07000",
+    "shields": false,
     "name": "Phantom",
     "html": "",
     "id": "phantom"
@@ -4410,6 +5480,19 @@
       "wis": 14,
       "cha": 10
     },
+    "irv": {
+      "conImm": [
+        "charmed",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "res": [
+        "force",
+        "necrotic"
+      ]
+    },
     "savingThrows": [
       "dex",
       "con",
@@ -4432,12 +5515,19 @@
       "actions": {
         "claw": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "6",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Claw"
         },
         "pounce": {
@@ -4477,7 +5567,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "12000",
+    "shields": false,
     "name": "Praetorian",
     "html": "",
     "id": "praetorian"
@@ -4501,10 +5592,11 @@
       "wis": 12,
       "cha": 6
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30,
       "climb": 15
@@ -4513,12 +5605,19 @@
       "actions": {
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite"
         }
       },
@@ -4529,7 +5628,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00000",
+    "shields": false,
     "name": "Pyjak",
     "html": "",
     "id": "pyjak"
@@ -4553,6 +5653,7 @@
       "wis": 15,
       "cha": 7
     },
+    "irv": false,
     "savingThrows": [
       "con",
       "wis"
@@ -4575,54 +5676,82 @@
           "name": "Barrier",
           "text": "TODO: Write barrier text"
         },
+        "innate-powercasting": {
+          "mod": "wis",
+          "list": [
+            {
+              "id": "stasis",
+              "perDay": 3
+            },
+            {
+              "id": "warp",
+              "perDay": 5
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The rachni brood warrior's innate powercasting ability is Wisdom (power save DC 12, +4 to hit with power attacks). It can innately cast the following spells:"
+        },
         "grappler": {
           "name": "Grappler",
           "text": "The rachni brood warrior has advantage on attack rolls against any creature grappled by it."
         }
       },
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The brood warrior makes two Impale attacks or attempts to grapple a creature and makes an Impale attack."
+        },
         "acid-spit": {
           "attack": "ranged",
+          "proficient": true,
           "range": 50,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "acid"
+            },
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
+            }
           ],
+          "target": "one",
           "name": "Acid Spit",
           "hit": " This damage bypasses shields"
         },
         "impale": {
           "attack": "melee",
+          "proficient": true,
           "range": 10,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "2",
+              "dieType": "10",
+              "mod": true,
+              "type": null
+            },
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "acid"
+            }
           ],
+          "target": "one",
           "name": "Impale"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The brood warrior makes two Impale attacks or attempts to grapple a creature and makes an Impale attack."
         }
       }
     },
-    "powercasting": {
-      "mod": "wis",
-      "innate": [
-        {
-          "id": "stasis",
-          "perDay": 3
-        },
-        {
-          "id": "warp",
-          "perDay": 5
-        }
-      ]
-    },
+    "cr": "04000",
+    "shields": false,
     "name": "Rachni Brood Warrior",
     "html": "",
     "id": "rachni-brood-warrior"
@@ -4646,6 +5775,11 @@
       "wis": 25,
       "cha": 18
     },
+    "irv": {
+      "conImm": [
+        "charmed"
+      ]
+    },
     "savingThrows": [
       "wis",
       "con",
@@ -4664,33 +5798,65 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The rachni queen makes one bite attack and two impale attacks."
+        },
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 10,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "3",
+              "dieType": "12",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite"
         },
         "impale": {
           "attack": "melee",
+          "proficient": true,
           "range": 20,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "4",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Impale"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The rachni queen makes one bite attack and two impale attacks."
+        }
+      },
+      "lair": {
+        "text": "On initiative count 20 (losing initiative ties), the rachni queen takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        "actions": {
+          "call-workers": {
+            "name": "Call Workers",
+            "text": "The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative."
+          },
+          "call-soldiers": {
+            "name": "Call Soldiers",
+            "text": "The rachni queen summons 1d6 + 1 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative."
+          },
+          "call-brood-warrior": {
+            "name": "Call Brood Warrior",
+            "text": "The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next turn and takes its turn on the queen's initiative."
+          }
         }
       }
     },
-    "powercasting": false,
+    "cr": "18000",
+    "shields": false,
     "name": "Rachni Queen",
     "html": "",
     "id": "rachni-queen"
@@ -4714,6 +5880,7 @@
       "wis": 11,
       "cha": 4
     },
+    "irv": false,
     "savingThrows": [
       "con",
       "wis"
@@ -4733,25 +5900,49 @@
       "actions": {
         "acid-spit": {
           "attack": "ranged",
+          "proficient": true,
           "range": 50,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "acid"
+            },
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
+            }
           ],
+          "target": "one",
           "name": "Acid Spit",
           "hit": " This damage bypasses shields"
         },
         "impale": {
           "attack": "melee",
+          "proficient": true,
           "range": 10,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": null
+            },
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "acid"
+            }
           ],
+          "target": "one",
           "name": "Impale"
         }
       },
@@ -4766,7 +5957,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Rachni Soldier",
     "html": "",
     "id": "rachni-soldier"
@@ -4790,6 +5982,7 @@
       "wis": 7,
       "cha": 3
     },
+    "irv": false,
     "savingThrows": [
       "wis"
     ],
@@ -4797,7 +5990,7 @@
       "blindsight": 10
     },
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 35
     },
@@ -4815,17 +6008,25 @@
         },
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite"
         }
       }
     },
-    "powercasting": false,
+    "cr": "00125",
+    "shields": false,
     "name": "Rachni Worker",
     "html": "",
     "id": "rachni-worker"
@@ -4849,10 +6050,23 @@
       "wis": 11,
       "cha": 8
     },
+    "irv": {
+      "conImm": [
+        "petrified",
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -4880,19 +6094,22 @@
         }
       },
       "actions": {
-        "omni-blade": {
-          "ref": "weapon"
-        },
-        "m-23-katana": {
-          "ref": "weapon"
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The rampart mech makes two omni-blade attacks."
+        },
+        "omni-blade": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-23-katana": {
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": false,
+    "cr": "02000",
+    "shields": false,
     "name": "Rampart Mech",
     "html": "",
     "id": "rampart-mech"
@@ -4916,17 +6133,26 @@
       "wis": 11,
       "cha": 11
     },
+    "irv": {
+      "conImm": [
+        "charmed"
+      ]
+    },
     "savingThrows": [],
     "senses": {
       "darkvision": 24
     },
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The ravager makes two twin artillery cannon attacks."
+        },
         "acid-splash": {
           "dc": false,
           "save": false,
@@ -4939,18 +6165,26 @@
         },
         "twin-artillery-cannons": {
           "attack": "ranged",
+          "proficient": true,
           "range": 150,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "3",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "6",
+              "mod": true,
+              "type": "acid"
+            }
           ],
+          "target": "one",
           "name": "Twin Artillery Cannons"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The ravager makes two twin artillery cannon attacks."
         }
       },
       "features": {
@@ -4960,7 +6194,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "06000",
+    "shields": false,
     "name": "Ravager",
     "html": "",
     "id": "ravager"
@@ -4984,6 +6219,13 @@
       "wis": 12,
       "cha": 16
     },
+    "irv": {
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
+    },
     "savingThrows": [
       "con",
       "wis"
@@ -5003,16 +6245,28 @@
     "entries": {
       "legendary": {
         "detect": {
-          "cost": 1,
-          "name": "Detect"
+          "cost": 1
         },
         "harvester-cannon-attack": {
-          "cost": 2,
-          "name": "Harvester Cannon Attack"
+          "cost": 2
         },
         "spawn-husks": {
-          "cost": 3,
-          "name": "Spawn Husks"
+          "cost": 3
+        },
+        "text": "The reaper harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The reaper harvester regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "detect": {
+            "name": "Detect",
+            "text": "The reaper harvester makes a Wisdom (Perception) check."
+          },
+          "harvester-cannon-attack": {
+            "name": "Harvester Cannon Attack",
+            "text": "The reaper harvester makes a harvester cannon attack."
+          },
+          "spawn-husks": {
+            "name": "Spawn Husks",
+            "text": "The reaper harvester releases 1d10 Husks from its body."
+          }
         }
       },
       "actions": {
@@ -5026,7 +6280,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "20000",
+    "shields": false,
     "name": "Reaper Harvester",
     "html": "",
     "id": "reaper-harvester"
@@ -5049,6 +6304,18 @@
       "int": 11,
       "wis": 12,
       "cha": 5
+    },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
     },
     "savingThrows": [],
     "senses": {
@@ -5074,17 +6341,28 @@
       "actions": {
         "pulse-rifle": {
           "attack": "ranged",
+          "proficient": true,
           "range": 150,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Pulse Rifle"
         }
       }
     },
-    "powercasting": false,
+    "cr": "00125",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
     "name": "Recon Drone",
     "html": "",
     "id": "recon-drone"
@@ -5108,44 +6386,70 @@
       "wis": 11,
       "cha": 6
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 35
     },
     "entries": {
+      "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "first-aid",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The repair drone's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following spells:"
+        }
+      },
       "actions": {
         "defibrillators": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "lightning"
+            }
           ],
+          "target": "one",
           "name": "Defibrillators"
         },
         "stabalize": {
           "dc": false,
           "save": false,
-          "recharge": [
-            "after"
-          ],
+          "recharge": "short",
           "name": "Stabalize",
           "text": "The repair drone can stabalize a friendly creature within <me-distance length='5' />."
         }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "first aid",
-          "perDay": 3
-        }
-      ]
+    "cr": "00125",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
     },
     "name": "Repair Drone",
     "html": "",
@@ -5170,10 +6474,22 @@
       "wis": 10,
       "cha": 4
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 25
     },
@@ -5181,17 +6497,25 @@
       "actions": {
         "distortion-rocket": {
           "attack": "ranged",
+          "proficient": true,
           "range": 75,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "thunder"
+            }
           ],
+          "target": "one",
           "name": "Distortion Rocket"
         }
       }
     },
-    "powercasting": false,
+    "cr": "00500",
+    "shields": false,
     "name": "Rocket Drone",
     "html": "",
     "id": "rocket-drone"
@@ -5215,6 +6539,13 @@
       "wis": 6,
       "cha": 5
     },
+    "irv": {
+      "res": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ]
+    },
     "savingThrows": [
       "con"
     ],
@@ -5222,7 +6553,7 @@
       "darkvision": 24
     },
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 25
     },
@@ -5230,12 +6561,19 @@
       "actions": {
         "bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Bash"
         },
         "salvo": {
@@ -5250,7 +6588,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "09000",
+    "shields": false,
     "name": "Scion",
     "html": "",
     "id": "scion"
@@ -5274,21 +6613,24 @@
       "wis": 8,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 25
     },
     "entries": {
       "actions": {
         "m-3-predator": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       }
     },
-    "powercasting": null,
+    "cr": "00000",
+    "shields": false,
     "name": "Security Guard",
     "html": "",
     "id": "security-guard"
@@ -5312,12 +6654,13 @@
       "wis": 8,
       "cha": 6
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 30
     },
@@ -5325,13 +6668,25 @@
       "actions": {
         "plague-sting": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "poison"
+            },
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "necrotic"
+            }
           ],
+          "target": "one",
           "name": "Plague Sting",
           "hit": " The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll"
         }
@@ -5343,7 +6698,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": false,
     "name": "Seeker Plague",
     "html": "",
     "id": "seeker-plague"
@@ -5367,12 +6723,13 @@
       "wis": 8,
       "cha": 5
     },
+    "irv": false,
     "savingThrows": [
       "dex"
     ],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "fly": 30
     },
@@ -5380,18 +6737,31 @@
       "actions": {
         "sting": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "poison"
+            },
+            {
+              "dieCount": null,
+              "dieType": null,
+              "mod": true,
+              "type": null
+            }
           ],
+          "target": "one",
           "name": "Sting"
         }
       }
     },
-    "powercasting": false,
+    "cr": "00125",
+    "shields": false,
     "name": "Seeker Swarm",
     "html": "",
     "id": "seeker-swarm"
@@ -5415,51 +6785,79 @@
       "wis": 10,
       "cha": 10
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 0
     },
     "entries": {
-      "actions": {
-        "mass-accelerator-machinegun": {
-          "attack": "ranged",
-          "range": 150,
-          "dc": false,
-          "save": false,
-          "damage": [
-            null,
-            null
-          ],
-          "name": "Mass Accelerator Machinegun",
-          "hit": " The sentry turret can make a burst fire attack instead"
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "flamethrower",
+              "perDay": 3
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The sentry turret's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following spells:"
+        },
         "stationary": {
           "name": "Stationary",
           "text": "The sentry turret automatically fails Strength and Dexterity saving throws and skill checks."
         }
+      },
+      "actions": {
+        "mass-accelerator-machinegun": {
+          "attack": "ranged",
+          "proficient": true,
+          "range": 150,
+          "dc": false,
+          "mod": "dex",
+          "damage": [
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "radiant"
+            }
+          ],
+          "target": "one",
+          "name": "Mass Accelerator Machinegun",
+          "hit": " The sentry turret can make a burst fire attack instead"
+        }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "flamethrower",
-          "perDay": 3
-        }
-      ]
-    },
+    "cr": "01000",
+    "shields": false,
     "name": "Sentry Turret",
     "html": "",
     "id": "sentry-turret"
   },
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e6/Codex_ME_-_Mass_Accelerators.png/revision/latest?cb=20140820141725",
-    "type": "organic-or-synthetic",
+    "type": "organic_or_synthetic",
     "unit": "archetype",
     "alignment": "n",
     "profBonus": 2,
@@ -5476,6 +6874,7 @@
       "wis": 12,
       "cha": 10
     },
+    "irv": false,
     "savingThrows": [],
     "senses": {
       "darkvision": 60
@@ -5489,29 +6888,38 @@
       "walk": 30
     },
     "entries": {
-      "actions": {
-        "m-92-mantis": {
-          "ref": "weapon"
-        },
-        "m-4-shuriken": {
-          "ref": "weapon"
-        }
-      },
       "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "concussive-shot",
+              "perDay": 5
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The sniper's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following spells:"
+        },
         "surprise-attack": {
           "name": "Surprise Attack",
           "text": "If the sniper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
         }
+      },
+      "actions": {
+        "m-92-mantis": {
+          "ref": "weapon",
+          "proficient": true
+        },
+        "m-4-shuriken": {
+          "ref": "weapon",
+          "proficient": true
+        }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "concussive shot",
-          "perDay": 5
-        }
-      ]
+    "cr": "01000",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
     },
     "name": "Sniper",
     "html": "",
@@ -5536,10 +6944,11 @@
       "wis": 14,
       "cha": 12
     },
+    "irv": false,
     "savingThrows": [
       "int"
     ],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "stealth",
@@ -5549,44 +6958,58 @@
       "walk": 30
     },
     "entries": {
+      "features": {
+        "innate-powercasting": {
+          "mod": "int",
+          "list": [
+            {
+              "id": "decoy",
+              "perDay": 3
+            },
+            {
+              "id": "overload",
+              "perDay": 5,
+              "level": 2
+            }
+          ],
+          "name": "Innate Powercasting",
+          "text": "The salarian stg agent's innate powercasting ability is Intelligence (power save DC 12, +4 to hit with power attacks). It can innately cast the following spells:"
+        },
+        "grenades": {
+          "list": [
+            {
+              "id": "flashbang-grenade",
+              "mark": "iii",
+              "uses": 2
+            }
+          ],
+          "name": "Grenades",
+          "text": "The salarian stg agent has the following grenades equipped. It can use a grenade as an action."
+        },
+        "surprise-attack": {
+          "name": "Surprise Attack",
+          "text": "If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
+        }
+      },
       "actions": {
-        "scorpion": {
-          "ref": "weapon"
-        },
-        "flashbang-grenade": {
-          "ref": "grenade",
-          "mark": "iii",
-          "uses": 2
-        },
         "multiattack": {
           "name": "Multiattack",
           "text": "The agent makes 2 attacks with its Scorpion."
+        },
+        "scorpion": {
+          "ref": "weapon",
+          "proficient": true
         },
         "explosive-decoy": {
           "name": "Explosive Decoy",
           "text": "As an action, the agent detonates its active Decoy. Each creature within <me-distance length='10' /> of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one."
         }
-      },
-      "features": {
-        "surprise-attack": {
-          "name": "Surprise Attack",
-          "text": "If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
-        }
       }
     },
-    "powercasting": {
-      "mod": "int",
-      "innate": [
-        {
-          "id": "decoy",
-          "perDay": 3
-        },
-        {
-          "id": "overload",
-          "perDay": 5,
-          "level": 2
-        }
-      ]
+    "cr": "03000",
+    "shields": {
+      "capacity": 10,
+      "regen": 5
     },
     "name": "Salarian STG Agent",
     "html": "",
@@ -5611,6 +7034,11 @@
       "wis": 4,
       "cha": 4
     },
+    "irv": {
+      "conImm": [
+        "charmed"
+      ]
+    },
     "savingThrows": [
       "dex"
     ],
@@ -5618,7 +7046,7 @@
       "darkvision": 24
     },
     "size": "tiny",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 35
     },
@@ -5626,13 +7054,24 @@
       "actions": {
         "suicide-attack": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "acid"
+            },
+            {
+              "dieCount": "its",
+              "mod": true,
+              "type": null
+            }
           ],
+          "target": "one",
           "name": "Suicide Attack"
         }
       },
@@ -5643,7 +7082,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00125",
+    "shields": false,
     "name": "Swarmer",
     "html": "",
     "id": "swarmer"
@@ -5667,10 +7107,16 @@
       "wis": 12,
       "cha": 2
     },
+    "irv": {
+      "vul": [
+        "bludgeoning",
+        "force"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -5678,12 +7124,19 @@
       "actions": {
         "slash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "4",
+              "mod": true,
+              "type": "slashing"
+            }
           ],
+          "target": "one",
           "name": "Slash"
         },
         "acid-vomit": {
@@ -5712,7 +7165,8 @@
         }
       }
     },
-    "powercasting": null,
+    "cr": "00500",
+    "shields": false,
     "name": "Thorian Controller",
     "html": "",
     "id": "thorian-controller"
@@ -5736,10 +7190,16 @@
       "wis": 2,
       "cha": 2
     },
+    "irv": {
+      "vul": [
+        "bludgeoning",
+        "force"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -5747,12 +7207,19 @@
       "actions": {
         "slash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "4",
+              "mod": true,
+              "type": "slashing"
+            }
           ],
+          "target": "one",
           "name": "Slash"
         },
         "acid-vomit": {
@@ -5773,7 +7240,8 @@
         }
       }
     },
-    "powercasting": null,
+    "cr": "00250",
+    "shields": false,
     "name": "Thorian Creeper",
     "html": "",
     "id": "thorian-creeper"
@@ -5797,10 +7265,11 @@
       "wis": 11,
       "cha": 2
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
@@ -5808,23 +7277,42 @@
       "actions": {
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite"
         },
         "acid-spit": {
           "attack": "ranged",
+          "proficient": true,
           "range": 25,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": null
+            },
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
+            }
           ],
+          "target": "one",
           "name": "Acid Spit"
         },
         "release-spores": {
@@ -5837,7 +7325,8 @@
         }
       }
     },
-    "powercasting": null,
+    "cr": "00500",
+    "shields": false,
     "name": "Thorian Nymph",
     "html": "",
     "id": "thorian-nymph"
@@ -5861,10 +7350,16 @@
       "wis": 11,
       "cha": 2
     },
+    "irv": {
+      "conImm": [
+        "lifted",
+        "prone"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 0
     },
@@ -5872,13 +7367,25 @@
       "actions": {
         "acid-spit": {
           "attack": "ranged",
+          "proficient": true,
           "range": 25,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": null
+            },
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
+            }
           ],
+          "target": "one",
           "name": "Acid Spit"
         },
         "release-spores": {
@@ -5897,7 +7404,8 @@
         }
       }
     },
-    "powercasting": null,
+    "cr": "00250",
+    "shields": false,
     "name": "Thorian Spawn",
     "html": "",
     "id": "thorian-spawn"
@@ -5921,17 +7429,19 @@
       "wis": 5,
       "cha": 6
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 30
     },
     "entries": {
       "actions": {
         "m-3-predator": {
-          "ref": "weapon"
+          "ref": "weapon",
+          "proficient": true
         }
       },
       "features": {
@@ -5949,7 +7459,11 @@
         }
       }
     },
-    "powercasting": null,
+    "cr": "00125",
+    "shields": {
+      "capacity": 5,
+      "regen": 0
+    },
     "name": "Thorian Thrall",
     "html": "",
     "id": "thorian-thrall"
@@ -5973,10 +7487,19 @@
       "wis": 26,
       "cha": 17
     },
+    "irv": {
+      "conImm": [
+        "prone",
+        "lifted"
+      ],
+      "vul": [
+        "fire"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "huge",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 0
     },
@@ -6004,9 +7527,27 @@
           "name": "Summon Thrall",
           "text": "The thorian summons a thrall to its aid. It arrives on initiative count 20 somewhere along the thorian's root structure."
         }
+      },
+      "lair": {
+        "text": "On initiative count 20 (losing initiative ties), the thorian takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        "actions": {
+          "create-spawn": {
+            "name": "Create Spawn",
+            "text": "The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn."
+          },
+          "summon-creeper": {
+            "name": "Summon Creeper",
+            "text": "The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn."
+          },
+          "summon-controller": {
+            "name": "Summon Controller",
+            "text": "The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn."
+          }
+        }
       }
     },
-    "powercasting": null,
+    "cr": "17000",
+    "shields": false,
     "name": "Thorian",
     "html": "",
     "id": "thorian"
@@ -6030,6 +7571,26 @@
       "wis": 11,
       "cha": 11
     },
+    "irv": {
+      "conImm": [
+        "charmed",
+        "frightened",
+        "paralyzed",
+        "frozen",
+        "lifted"
+      ],
+      "res": [
+        "acid",
+        "bludgeoning",
+        "cold",
+        "fire",
+        "force",
+        "lightning",
+        "piercing",
+        "poison",
+        "slashing"
+      ]
+    },
     "savingThrows": [
       "str",
       "con"
@@ -6039,7 +7600,7 @@
       "tremorsense": 24
     },
     "size": "gargantuan",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 50,
       "burrow": 35
@@ -6066,32 +7627,51 @@
         }
       },
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp."
+        },
         "grasp": {
           "attack": "melee",
+          "proficient": true,
           "range": 10,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "3",
+              "dieType": "12",
+              "mod": true,
+              "type": "bludgeoning"
+            },
+            {
+              "dieCount": "2",
+              "dieType": "12",
+              "mod": true,
+              "type": "acid"
+            }
           ],
+          "target": "one",
           "name": "Grasp",
           "hit": " If the target is a creature, it is grappled (escape DC 22)"
         },
         "tail": {
           "attack": "melee",
+          "proficient": true,
           "range": 20,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "4",
+              "dieType": "6",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Tail",
           "hit": " If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp."
         },
         "acid-spit": {
           "name": "Acid Spit",
@@ -6104,20 +7684,33 @@
       },
       "legendary": {
         "acid-spit-attack": {
-          "cost": 2,
-          "name": "Acid Spit Attack"
+          "cost": 2
         },
         "move": {
-          "cost": 1,
-          "name": "Move"
+          "cost": 1
         },
         "tail-attack": {
-          "cost": 1,
-          "name": "Tail Attack"
+          "cost": 1
+        },
+        "text": "The thresher maw can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The thresher maw regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "acid-spit-attack": {
+            "name": "Acid Spit Attack",
+            "text": "The thresher maw makes an acid spit attack."
+          },
+          "move": {
+            "name": "Move",
+            "text": "The thresher maw moves up to half its speed."
+          },
+          "tail-attack": {
+            "name": "Tail Attack",
+            "text": "The thresher maw makes a tail attack."
+          }
         }
       }
     },
-    "powercasting": false,
+    "cr": "28000",
+    "shields": false,
     "name": "Thresher Maw",
     "html": "",
     "id": "thresher-maw"
@@ -6141,10 +7734,25 @@
       "wis": 6,
       "cha": 1
     },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "res": [
+        "bludgeoning"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "small",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 0
     },
@@ -6152,13 +7760,25 @@
       "actions": {
         "mass-accelerator-machinegun": {
           "attack": "ranged",
+          "proficient": true,
           "range": 150,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Mass Accelerator Machinegun",
           "hit": " The turret can make a burst fire attack instead"
         }
@@ -6170,7 +7790,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": {
+      "capacity": 10,
+      "regen": 0
+    },
     "name": "Turret",
     "html": "",
     "id": "turret"
@@ -6194,8 +7818,9 @@
       "wis": 12,
       "cha": 7
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "large",
     "skills": [
       "perception",
@@ -6208,12 +7833,19 @@
       "actions": {
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite",
           "hit": " If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone"
         }
@@ -6229,7 +7861,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "01000",
+    "shields": false,
     "name": "Varren Alpha",
     "html": "",
     "id": "varren-alpha"
@@ -6253,8 +7886,9 @@
       "wis": 12,
       "cha": 6
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "medium",
     "skills": [
       "perception",
@@ -6267,12 +7901,19 @@
       "actions": {
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "4",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite",
           "hit": " If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone"
         }
@@ -6288,7 +7929,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "00250",
+    "shields": false,
     "name": "Varren",
     "html": "",
     "id": "varren"
@@ -6312,49 +7954,71 @@
       "wis": 10,
       "cha": 8
     },
+    "irv": false,
     "savingThrows": [],
-    "senses": [],
+    "senses": false,
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 25
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The adjutant makes two Arm Cannon attacks."
+        },
         "arm-cannon": {
           "attack": "ranged",
+          "proficient": true,
           "range": 50,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Arm Cannon"
         },
         "bash": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "8",
+              "mod": true,
+              "type": "bludgeoning"
+            }
           ],
+          "target": "one",
           "name": "Bash"
         },
         "reaper-infection": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "1",
+              "dieType": "6",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Reaper Infection",
           "hit": " The target's hit point maximum is reduced by an amount equal to the necrotic damage taken"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The adjutant makes two Arm Cannon attacks."
         }
       },
       "features": {
@@ -6364,7 +8028,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "02000",
+    "shields": false,
     "name": "Weakened Adjutant",
     "html": "",
     "id": "weakened-adjutant"
@@ -6387,6 +8052,11 @@
       "int": 18,
       "wis": 16,
       "cha": 10
+    },
+    "irv": {
+      "res": [
+        "poison"
+      ]
     },
     "savingThrows": [
       "str",
@@ -6411,29 +8081,43 @@
     },
     "entries": {
       "actions": {
+        "multiattack": {
+          "name": "Multiattack",
+          "text": "The yahg makes three attacks: one with its bite and two with its claws."
+        },
         "bite": {
           "attack": "melee",
+          "proficient": true,
           "range": 5,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            }
           ],
+          "target": "one",
           "name": "Bite"
         },
         "claw": {
           "attack": "melee",
+          "proficient": true,
           "range": 10,
           "dc": false,
-          "save": false,
+          "mod": "str",
           "damage": [
-            null
+            {
+              "dieCount": "2",
+              "dieType": "8",
+              "mod": true,
+              "type": "slashing"
+            }
           ],
+          "target": "one",
           "name": "Claw"
-        },
-        "multiattack": {
-          "name": "Multiattack",
-          "text": "The yahg makes three attacks: one with its bite and two with its claws."
         }
       },
       "features": {
@@ -6451,7 +8135,8 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "08000",
+    "shields": false,
     "name": "Yahg",
     "html": "",
     "id": "yahg"
@@ -6475,6 +8160,25 @@
       "wis": 8,
       "cha": 12
     },
+    "irv": {
+      "conImm": [
+        "petrified",
+        "poisoned"
+      ],
+      "damImm": [
+        "poison",
+        "psychic"
+      ],
+      "res": [
+        "cold",
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "vul": [
+        "lightning"
+      ]
+    },
     "savingThrows": [
       "str",
       "int"
@@ -6483,7 +8187,7 @@
       "infrared vision": 30
     },
     "size": "large",
-    "skills": [],
+    "skills": false,
     "speed": {
       "walk": 15
     },
@@ -6491,13 +8195,25 @@
       "actions": {
         "mass-accelerator-machinegun": {
           "attack": "ranged",
+          "proficient": true,
           "range": 150,
           "dc": false,
-          "save": false,
+          "mod": "dex",
           "damage": [
-            null,
-            null
+            {
+              "dieCount": "3",
+              "dieType": "10",
+              "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "10",
+              "mod": true,
+              "type": "radiant"
+            }
           ],
+          "target": "one",
           "name": "Mass Accelerator Machinegun",
           "hit": " The ymir mech can make a burst fire attack instead"
         },
@@ -6519,7 +8235,11 @@
         }
       }
     },
-    "powercasting": false,
+    "cr": "11000",
+    "shields": {
+      "capacity": 50,
+      "regen": 10
+    },
     "name": "YMIR Mech",
     "html": "",
     "id": "ymir-mech"

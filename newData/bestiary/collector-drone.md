@@ -16,6 +16,7 @@ abilityScores:
   int: 8
   wis: 8
   cha: 8
+irv: false
 savingThrows:
   - dex
 senses:
@@ -30,11 +31,15 @@ entries:
   actions:
     weapon-bash:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":bludgeoning}]
+      target: one
     collector-assault-rifle:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '01000'
+shields: false
 ---

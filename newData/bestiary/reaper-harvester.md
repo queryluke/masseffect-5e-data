@@ -16,6 +16,11 @@ abilityScores:
   int: 11
   wis: 12
   cha: 16
+irv:
+  res:
+    - bludgeoning
+    - piercing
+    - slashing
 savingThrows:
   - con
   - wis
@@ -36,5 +41,6 @@ entries:
       cost: 2
     spawn-husks:
       cost: 3
-powercasting: false
+cr: '20000'
+shields: false
 ---

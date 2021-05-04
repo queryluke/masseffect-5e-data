@@ -16,9 +16,10 @@ abilityScores:
   int: 15
   wis: 14
   cha: 12
+irv: false
 savingThrows:
   - int
-senses: []
+senses: false
 size: medium
 skills:
   - stealth
@@ -26,19 +27,18 @@ skills:
 speed:
   walk: 30
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":decoy, "perDay":3},{"id":overload, "perDay":5, "level":2}]
+    grenades:
+      list: [{"id":flashbang-grenade, "mark":iii, "uses":2}]
   actions:
     scorpion:
       ref: weapon
-    flashbang-grenade:
-      ref: grenade
-      mark: iii
-      uses: 2
-powercasting:
-  mod: int
-  innate:
-    - id: decoy
-      perDay: 3
-    - id: overload
-      perDay: 5
-      level: 2
+      proficient: true
+cr: '03000'
+shields:
+  capacity: 10
+  regen: 5
 ---

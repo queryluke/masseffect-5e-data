@@ -16,6 +16,11 @@ abilityScores:
   int: 9
   wis: 6
   cha: 12
+irv:
+  res:
+    - bludgeoning
+    - piercing
+    - slashing
 savingThrows:
   - str
   - con
@@ -30,15 +35,20 @@ entries:
   actions:
     clobber:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'5', "dieType":'12', "mod":true, "type":bludgeoning}]
+      target: one
     smash:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'3', "dieType":'8', "mod":true, "type":bludgeoning}]
+      target: one
+cr: '10000'
+shields: false
 ---

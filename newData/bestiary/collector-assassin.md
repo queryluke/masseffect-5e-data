@@ -16,6 +16,7 @@ abilityScores:
   int: 8
   wis: 8
   cha: 8
+irv: false
 savingThrows:
   - dex
 senses:
@@ -30,11 +31,15 @@ entries:
   actions:
     claw:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":slashing}]
+      target: one
     particle-rifle:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '03000'
+shields: false
 ---

@@ -16,6 +16,14 @@ abilityScores:
   int: 10
   wis: 14
   cha: 8
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows:
   - dex
 senses:
@@ -26,22 +34,27 @@ skills:
 speed:
   walk: 40
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":shocking-grasp, "perDay":3}]
   actions:
     pounce:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":bludgeoning}]
+      target: one
     stun:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
-powercasting:
-  mod: int
-  innate:
-    - id: shocking grasp
-      perDay: 3
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":lightning}]
+      target: one
+cr: '00500'
+shields: false
 ---

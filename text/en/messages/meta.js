@@ -3,6 +3,7 @@ module.exports = {
     armor: 'These pre-made armor pieces are available as mass produced alternatives to custom modding.',
     assets: 'Mass Effect 5e is more than a rule set. We have also created character sheets, spell cards, and other great tabletop assets.',
     backgrounds: 'Backgrounds provide additional flavor and benefits to your character.',
+    bestiary: `Give your player's a unique challenge with over 100 custom made Mass Effect enemies!`,
     bookmarks: 'Keep your favorite weapons, enemies, and spells close at hand with our nifty bookmark tool.',
     changelog: 'Keep up-to-date with all the Mass Effect 5e system rule additions and updates.',
     class_info: 'Learn more about the {name} class, including Progression table, subclasses, proficiencies, and starting equipment',

@@ -16,6 +16,12 @@ abilityScores:
   int: 16
   wis: 12
   cha: 10
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
 savingThrows:
   - int
 senses:
@@ -34,5 +40,9 @@ entries:
   actions:
     geth-plasma-shotgun:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '04000'
+shields:
+  capacity: 20
+  regen: 10
 ---

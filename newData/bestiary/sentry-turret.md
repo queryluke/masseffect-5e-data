@@ -16,23 +16,34 @@ abilityScores:
   int: 10
   wis: 10
   cha: 10
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   walk: 0
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":flamethrower, "perDay":3}]
   actions:
     mass-accelerator-machinegun:
       attack: ranged
+      proficient: true
       range: 150
       dc: false
-      save: false
-      damage: [null,null]
-powercasting:
-  mod: int
-  innate:
-    - id: flamethrower
-      perDay: 3
+      mod: dex
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing},{"dieCount":'2', "dieType":'6', "mod":true, "type":radiant}]
+      target: one
+cr: '01000'
+shields: false
 ---

@@ -35,4 +35,19 @@ entries:
       text: >-
         The thorian summons a thrall to its aid. It arrives on initiative count
         20 somewhere along the thorian's root structure.
+  lair:
+    text: >-
+      On initiative count 20 (losing initiative ties), the thorian takes a lair
+      action to cause one of the following effects; it can't use the same effect
+      two rounds in a row:
+    actions:
+      create-spawn:
+        name: Create Spawn
+        text: The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn.
+      summon-creeper:
+        name: Summon Creeper
+        text: The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn.
+      summon-controller:
+        name: Summon Controller
+        text: The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn.
 ---

@@ -16,6 +16,9 @@ abilityScores:
   int: 22
   wis: 25
   cha: 18
+irv:
+  conImm:
+    - charmed
 savingThrows:
   - wis
   - con
@@ -32,15 +35,20 @@ entries:
   actions:
     bite:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'3', "dieType":'12', "mod":true, "type":piercing}]
+      target: one
     impale:
       attack: melee
+      proficient: true
       range: 20
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'4', "dieType":'10', "mod":true, "type":piercing}]
+      target: one
+cr: '18000'
+shields: false
 ---

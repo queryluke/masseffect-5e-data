@@ -21,6 +21,12 @@ entries:
       text: >-
         The kath hound has advantage on attack rolls against any creature
         grappled by it.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The albino kath hound's innate powercasting ability is Wisdom (power
+        save DC 13, +5 to hit with power attacks). It can innately cast the
+        following spells:
   actions:
     gore:
       name: Gore

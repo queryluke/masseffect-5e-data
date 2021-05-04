@@ -16,11 +16,16 @@ abilityScores:
   int: 16
   wis: 15
   cha: 16
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
 savingThrows:
   - str
   - con
   - wis
-senses: []
+senses: false
 size: huge
 skills:
   - perception
@@ -31,16 +36,20 @@ entries:
   actions:
     stomp:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing}]
+      target: one
     drop-klixen:
       attack: regional
+      proficient: true
       range: false
       dc: false
-      save: false
-      damage: [null]
+      mod: dex
+      damage: [{"dieCount":null, "dieType":null, "mod":true, "type":null}]
+      target: one
   legendary:
     detect:
       cost: 1
@@ -48,5 +57,6 @@ entries:
       cost: 1
     trample-attack:
       cost: 2
-powercasting: false
+cr: '19000'
+shields: false
 ---

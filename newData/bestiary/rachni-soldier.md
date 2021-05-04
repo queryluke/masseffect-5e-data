@@ -16,6 +16,7 @@ abilityScores:
   int: 2
   wis: 11
   cha: 4
+irv: false
 savingThrows:
   - con
   - wis
@@ -31,15 +32,20 @@ entries:
   actions:
     acid-spit:
       attack: ranged
+      proficient: true
       range: 50
       dc: false
-      save: false
-      damage: [null,null]
+      mod: dex
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":acid},{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      target: one
     impale:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null,null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":null},{"dieCount":'1', "dieType":'4', "mod":true, "type":acid}]
+      target: one
+cr: '01000'
+shields: false
 ---

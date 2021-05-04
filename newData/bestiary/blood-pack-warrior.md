@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/e/e8/Blood_Pack_Warrior.png/revision/latest/scale-to-width-down/352?cb=20100621023223
 type: organic
-unit: blood-pack
+unit: blood_pack
 alignment: ce
 profBonus: 2
 ac: 16
@@ -16,16 +16,21 @@ abilityScores:
   int: 7
   wis: 12
   cha: 10
+irv:
+  res:
+    - necrotic
 savingThrows:
   - con
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
   actions:
     m-27-scimitar:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '03000'
+shields: false
 ---

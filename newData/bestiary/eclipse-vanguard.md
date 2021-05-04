@@ -16,10 +16,11 @@ abilityScores:
   int: 14
   wis: 13
   cha: 15
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
@@ -30,14 +31,14 @@ entries:
     tech-armor:
       uses: 1
       perDay: true
+    powercasting:
+      mod: cha
+      casterLevel: '6'
+      list: [shockwave,warp]
   actions:
     m-27-scimitar:
       ref: weapon
-powercasting:
-  mod: cha
-  casterLevel: '6'
-  casterType: full
-  list:
-    - shockwave
-    - warp
+      proficient: true
+cr: '03000'
+shields: false
 ---

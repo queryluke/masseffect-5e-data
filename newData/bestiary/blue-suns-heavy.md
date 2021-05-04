@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/e/e0/Blue_Suns_Heavy.png/revision/latest/scale-to-width-down/348?cb=20100621035327
 type: organic
-unit: blue-suns
+unit: blue_suns
 alignment: 'n'
 profBonus: 2
 ac: 13
@@ -16,8 +16,9 @@ abilityScores:
   int: 11
   wis: 10
   cha: 10
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
 skills:
   - survival
@@ -28,5 +29,8 @@ entries:
     tech-armor:
       uses: 1
       perDay: true
-powercasting: false
+cr: '02000'
+shields:
+  capacity: 10
+  regen: 0
 ---

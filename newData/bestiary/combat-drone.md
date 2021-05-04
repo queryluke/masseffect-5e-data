@@ -16,23 +16,36 @@ abilityScores:
   int: 10
   wis: 8
   cha: 6
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   fly: 40
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":sabotage, "perDay":3}]
   actions:
     shock-attack:
       attack: ranged
+      proficient: true
       range: 25
       dc: false
-      save: false
-      damage: [null]
-powercasting:
-  mod: int
-  innate:
-    - id: sabotage
-      perDay: 3
+      mod: dex
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":lightning}]
+      target: one
+cr: '00250'
+shields:
+  capacity: 10
+  regen: 5
 ---

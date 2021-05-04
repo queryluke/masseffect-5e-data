@@ -12,6 +12,11 @@ entries:
         temporary hit points equal to its total hit points and 6 barrier ticks.
         While it has barrier ticks it also gains resistance to bludgeoning,
         piercing, and slashing damage.
+    grenades:
+      name: Grenades
+      text: >-
+        The collector trooper has the following grenades equipped. It can use a
+        grenade as an action.
   actions:
     claw:
       name: Claw

@@ -16,20 +16,24 @@ abilityScores:
   int: 10
   wis: 8
   cha: 5
+irv: false
 savingThrows:
   - dex
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   fly: 30
 entries:
   actions:
     sting:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null,null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":poison},{"dieCount":null, "dieType":null, "mod":true, "type":null}]
+      target: one
+cr: '00125'
+shields: false
 ---

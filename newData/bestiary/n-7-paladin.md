@@ -2,7 +2,7 @@
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/8/83/N7_Paladin_Sentinel_MP.png/revision/latest/scale-to-width-down/250?cb=20120717151128
 type: organic
-unit: n-7
+unit: n_7
 alignment: ln
 profBonus: 3
 ac: 16
@@ -16,9 +16,10 @@ abilityScores:
   int: 13
   wis: 13
   cha: 16
+irv: false
 savingThrows:
   - con
-senses: []
+senses: false
 size: medium
 skills:
   - survival
@@ -38,17 +39,15 @@ entries:
     variant--cryo-shield:
       uses: 1
       perDay: true
+    innate-powercasting:
+      mod: cha
+      list: [{"id":incinerate, "perDay":at_will},{"id":energy-drain, "perDay":3},{"id":snap-freeze, "perDay":3, "level":4}]
   actions:
     n-7-hurricane:
       ref: weapon
-powercasting:
-  mod: cha
-  innate:
-    - id: incinerate
-      perDay: at-will
-    - id: energy_drain
-      perDay: 3
-    - id: snap_freeze
-      perDay: 3
-      level: 4
+      proficient: true
+cr: '07000'
+shields:
+  capacity: 20
+  regen: 10
 ---

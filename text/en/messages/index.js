@@ -48,6 +48,8 @@ module.exports = {
       line: 'line'
     },
     appendix_title: 'Appendix',
+    ac_title: 'Armor Class',
+    ac_abbr: 'AC',
     armor: 'armor | armor',
     armor_item_subtitle: '{rarity} {armorType}, {placement}',
     armor_placements: {
@@ -97,6 +99,10 @@ module.exports = {
     ],
     bestiary_title: 'Bestiary | Bestiary',
     bookmarks_title: 'Bookmarks',
+    bonus_formulas: {
+      plus: '+{bonus}',
+      minus: '-{bonus}'
+    },
     buttons: {
         add_bookmark: 'Bookmark',
         back_to_changelog: 'Back To Changelog',
@@ -151,6 +157,12 @@ module.exports = {
     damage_types,
     detonates_title: 'Detonates',
     dice: `{dieCount}d{dieType}`,
+    dice_average: '{avg} ({formula})',
+    dice_formulas: {
+        plus: '{dice} + {n}',
+        minus: '{dice} - {n}',
+        base: '{dice}'
+    },
     duration_title: 'Duration',
     equipment_title: 'Equipment | Equipment',
     faction_title: 'Faction',
@@ -276,6 +288,7 @@ module.exports = {
     npc,
     npc_title: 'Npc | Npcs',
     npc_generator_title: 'NPC Generator',
+    passive_perception_title: 'Passive Perception',
     phb: 'PHB',
     power_title: 'Power | Powers',
     power_types: {
@@ -319,6 +332,7 @@ module.exports = {
     save_text: '{type} Save',
     search: 'Search',
     self_title: 'Self',
+    senses_title: 'Sense',
     senses,
     set_bonus: 'Set Bonus',
     set_bonus_range: `({min} of {max}):`,
@@ -332,6 +346,7 @@ module.exports = {
         mode: 'Mode',
         language: 'Language'
     },
+    shields_title: 'Shields',
     shield: 'no shields | 1 shield | {n} shields',
     size_title: 'Size',
     sizes,
@@ -375,6 +390,7 @@ module.exports = {
         starship: 'Starship',
         transport: 'Transport'
     },
+    version: 'VERSION',
     weapon: 'weapon',
     weapon_item_subtitle: '{rarity} {weaponType}',
     weapon_title: 'Weapon | Weapons',
@@ -388,5 +404,5 @@ module.exports = {
     },
     weapon_props_title: 'Weapon Properties',
     weight_title: 'Weight',
-    version: 'VERSION'
+    xp_title: 'XP'
 }

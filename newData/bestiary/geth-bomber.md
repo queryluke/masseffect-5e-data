@@ -16,6 +16,15 @@ abilityScores:
   int: 14
   wis: 10
   cha: 8
+irv:
+  conImm:
+    - petrified
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows:
   - dex
 senses:
@@ -26,14 +35,14 @@ skills:
 speed:
   fly: 30
 entries:
-  actions:
-    multi-frag-grenade:
-      ref: grenade
-      mark: ii
-      uses: 2
-powercasting:
-  mod: int
-  innate:
-    - id: overload
-      perDay: at-will
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":overload, "perDay":at_will}]
+    grenades:
+      list: [{"id":multi-frag-grenade, "mark":ii, "uses":2}]
+cr: '02000'
+shields:
+  capacity: 15
+  regen: 5
 ---

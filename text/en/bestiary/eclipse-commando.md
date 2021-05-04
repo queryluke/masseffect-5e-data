@@ -10,6 +10,12 @@ entries:
     barrier:
       name: Barrier
       text: 'TODO: Write barrier text'
+    powercasting:
+      name: Powercasting
+      text: >-
+        The eclipse commando is a 12th-level powercaster. Its powercasting
+        ability is Charisma (power save DC 14, +6 to hit with powers). The
+        eclipse commando has the following powers:
   actions:
     leadership:
       name: Leadership

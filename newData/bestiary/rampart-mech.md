@@ -16,10 +16,19 @@ abilityScores:
   int: 16
   wis: 11
   cha: 8
+irv:
+  conImm:
+    - petrified
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
@@ -33,7 +42,10 @@ entries:
   actions:
     omni-blade:
       ref: weapon
+      proficient: true
     m-23-katana:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '02000'
+shields: false
 ---

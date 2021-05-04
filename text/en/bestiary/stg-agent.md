@@ -8,6 +8,17 @@ entries:
         If the agent surprises a creature and hits it with an attack during the
         first round of combat, the target takes an extra 10 (3d6) damage from
         the attack.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The salarian stg agent's innate powercasting ability is Intelligence
+        (power save DC 12, +4 to hit with power attacks). It can innately cast
+        the following spells:
+    grenades:
+      name: Grenades
+      text: >-
+        The salarian stg agent has the following grenades equipped. It can use a
+        grenade as an action.
   actions:
     multiattack:
       name: Multiattack

@@ -16,26 +16,45 @@ abilityScores:
   int: 16
   wis: 8
   cha: 12
+irv:
+  conImm:
+    - petrified
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  res:
+    - cold
+    - bludgeoning
+    - piercing
+    - slashing
+  vul:
+    - lightning
 savingThrows:
   - str
   - int
 senses:
   infrared vision: 30
 size: large
-skills: []
+skills: false
 speed:
   walk: 15
 entries:
   actions:
     mass-accelerator-machinegun:
       attack: ranged
+      proficient: true
       range: 150
       dc: false
-      save: false
-      damage: [null,null]
+      mod: dex
+      damage: [{"dieCount":'3', "dieType":'10', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'10', "mod":true, "type":radiant}]
+      target: one
     rocket-launcher:
       dc: false
       save: false
       recharge: ['5','6']
-powercasting: false
+cr: '11000'
+shields:
+  capacity: 50
+  regen: 10
 ---

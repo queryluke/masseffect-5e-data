@@ -84,6 +84,8 @@
     "line": "line"
   },
   "appendix_title": "Appendix",
+  "ac_title": "Armor Class",
+  "ac_abbr": "AC",
   "armor": "armor | armor",
   "armor_item_subtitle": "{rarity} {armorType}, {placement}",
   "armor_placements": {
@@ -219,6 +221,19 @@
     "radiant": "radiant",
     "slashing": "slashing",
     "thunder": "thunder",
+    "acid_title": "@.capitalize:damage_types.acid",
+    "bludgeoning_title": "@.capitalize:damage_types.bludgeoning",
+    "cold_title": "@.capitalize:damage_types.cold",
+    "fire_title": "@.capitalize:damage_types.fire",
+    "force_title": "@.capitalize:damage_types.force",
+    "lightning_title": "@.capitalize:damage_types.lightning",
+    "necrotic_title": "@.capitalize:damage_types.necrotic",
+    "piercing_title": "@.capitalize:damage_types.piercing",
+    "poison_title": "@.capitalize:damage_types.poison",
+    "psychic_title": "@.capitalize:damage_types.psychic",
+    "radiant_title": "@.capitalize:damage_types.radiant",
+    "slashing_title": "@.capitalize:damage_types.slashing",
+    "thunder_title": "@.capitalize:damage_types.thunder",
     "acid_damage": "@:damage_types.acid @:damage",
     "bludgeoning_damage": "@:damage_types.bludgeoning @:damage",
     "cold_damage": "@:damage_types.cold @:damage",
@@ -450,6 +465,7 @@
     "armor": "These pre-made armor pieces are available as mass produced alternatives to custom modding.",
     "assets": "Mass Effect 5e is more than a rule set. We have also created character sheets, spell cards, and other great tabletop assets.",
     "backgrounds": "Backgrounds provide additional flavor and benefits to your character.",
+    "bestiary": "Give your player's a unique challenge with over 100 custom made Mass Effect enemies!",
     "bookmarks": "Keep your favorite weapons, enemies, and spells close at hand with our nifty bookmark tool.",
     "changelog": "Keep up-to-date with all the Mass Effect 5e system rule additions and updates.",
     "class_info": "Learn more about the {name} class, including Progression table, subclasses, proficiencies, and starting equipment",
@@ -527,31 +543,46 @@
     "20th"
   ],
   "npc": {
+    "multiattack": "Multiattack",
+    "hit_title": "Hit",
+    "miss_title": "Miss",
+    "range_title": "range",
+    "reach_title": "reach",
+    "damage_title": "damage",
+    "legendary_text": "...",
+    "actions_title": "Actions",
+    "at_will": "At Will",
+    "attack_types": {
+      "melee": "Melee Weapon Attack",
+      "ranged": "Ranged Weapon Attack"
+    },
+    "cr_title": "Challenge Rating",
     "condition_immunities": "Condition Immunities",
     "damage_immunities": "Damage Immunities",
     "damage_resistances": "Damage Resistances",
     "damage_vulnerabilities": "Damage Vulnerabilities",
-    "feature": {
-      "multiattack": "Multiattack",
-      "melee": "Melee Weapon Attack",
-      "ranged": "Ranged Weapon Attack",
-      "hit_title": "Hit",
-      "miss_title": "Miss",
-      "range_title": "range",
-      "reach_title": "reach",
-      "damage_title": "damage",
-      "target": {
-        "one": "one target"
-      },
-      "legendary_text": "..."
+    "faction_title": "Faction",
+    "higher_power_level": "as a {level_adj} power",
+    "recharges": [
+      "None",
+      "Recharge {0}",
+      "Recharge {0}-{1}"
+    ],
+    "rest_recharge": {
+      "short": "Recharges after a Short or Long Rest",
+      "long": "Recharges after a Long Rest"
     },
-    "powercasting": {},
-    "type": {
+    "slots": "{n} slot | {n} slots",
+    "target": {
+      "one": "one target"
+    },
+    "to_hit": "+{bonus} to hit",
+    "types": {
       "organic": "Organic",
       "synorg": "Snyth-organic",
       "synthetic": "Synthetic"
     },
-    "units": {
+    "unit_types": {
       "alien": "Alien",
       "archetype": "Archetype",
       "blood_pack": "Blood Pack",
@@ -562,15 +593,18 @@
       "geth": "Geth",
       "kett": "Kett",
       "mech": "Mech",
-      "n7": "N7",
+      "n_7": "N7",
       "rachni": "Rachni",
       "reaper": "Reaper",
       "thorian": "Thorian"
     },
-    "article": "The"
+    "uses": "{amount} uses",
+    "uses_per_day": "{amount}/Day",
+    "uses_per_turn": "{amount}/Turn"
   },
   "npc_title": "Npc | Npcs",
   "npc_generator_title": "NPC Generator",
+  "passive_perception_title": "Passive Perception",
   "phb": "PHB",
   "power_title": "Power | Powers",
   "power_types": {
@@ -614,11 +648,16 @@
   "save_text": "{type} Save",
   "search": "Search",
   "self_title": "Self",
+  "senses_title": "Sense",
   "senses": {
     "darkvision": "darkvision",
+    "darkvision_title": "Darkvision",
     "infrared_vision": "infrared vision",
+    "infrared_vision_title": "Infrared Vision",
     "truesight": "truesight",
-    "blindsense": "blindsense"
+    "truesight_title": "Truesight",
+    "blindsense": "blindsense",
+    "blindsense_title": "Blindsense"
   },
   "set_bonus": "Set Bonus",
   "set_bonus_range": "({min} of {max}):",
@@ -632,6 +671,7 @@
     "mode": "Mode",
     "language": "Language"
   },
+  "shields_title": "Shields",
   "shield": "no shields | 1 shield | {n} shields",
   "size_title": "Size",
   "sizes": {
@@ -761,6 +801,7 @@
     "starship": "Starship",
     "transport": "Transport"
   },
+  "version": "VERSION",
   "weapon": "weapon",
   "weapon_item_subtitle": "{rarity} {weaponType}",
   "weapon_title": "Weapon | Weapons",
@@ -774,5 +815,5 @@
   },
   "weapon_props_title": "Weapon Properties",
   "weight_title": "Weight",
-  "version": "VERSION"
+  "xp_title": "XP"
 }

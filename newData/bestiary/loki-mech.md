@@ -16,6 +16,15 @@ abilityScores:
   int: 8
   wis: 6
   cha: 5
+irv:
+  conImm:
+    - petrified
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
 senses:
   infrared vision: 24
@@ -25,14 +34,17 @@ skills:
 speed:
   walk: 25
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":shocking-grasp, "perDay":5}]
   actions:
     m-4-shuriken:
       ref: weapon
+      proficient: true
     m-3-predator:
       ref: weapon
-powercasting:
-  mod: int
-  innate:
-    - id: shocking grasp
-      perDay: 5
+      proficient: true
+cr: '00125'
+shields: false
 ---

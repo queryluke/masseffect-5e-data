@@ -1,7 +1,7 @@
 ---
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/e/e6/Codex_ME_-_Mass_Accelerators.png/revision/latest?cb=20140820141725
-type: organic-or-synthetic
+type: organic_or_synthetic
 unit: archetype
 alignment: 'n'
 profBonus: 2
@@ -16,6 +16,7 @@ abilityScores:
   int: 13
   wis: 12
   cha: 10
+irv: false
 savingThrows: []
 senses:
   darkvision: 60
@@ -26,14 +27,19 @@ skills:
 speed:
   walk: 30
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":concussive-shot, "perDay":5}]
   actions:
     m-92-mantis:
       ref: weapon
+      proficient: true
     m-4-shuriken:
       ref: weapon
-powercasting:
-  mod: int
-  innate:
-    - id: concussive shot
-      perDay: 5
+      proficient: true
+cr: '01000'
+shields:
+  capacity: 5
+  regen: 5
 ---

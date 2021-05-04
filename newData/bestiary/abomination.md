@@ -16,14 +16,16 @@ abilityScores:
   int: 3
   wis: 6
   cha: 5
+irv: false
 savingThrows:
   - wis
 senses:
   darkvision: 24
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries: {}
-powercasting: false
+cr: '01000'
+shields: false
 ---

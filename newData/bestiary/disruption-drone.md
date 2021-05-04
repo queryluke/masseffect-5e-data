@@ -16,12 +16,21 @@ abilityScores:
   int: 8
   wis: 8
   cha: 8
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows: []
-senses: []
+senses: false
 size: small
-skills: []
+skills: false
 speed:
   fly: 40
 entries: {}
-powercasting: false
+cr: '00125'
+shields: false
 ---

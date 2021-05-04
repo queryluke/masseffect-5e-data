@@ -24,4 +24,10 @@ entries:
         creature within a <me-distance length='5' adj />-radius sphere must
         succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder
         damage.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The loki mech's innate powercasting ability is Intelligence (power save
+        DC 9, +1 to hit with power attacks). It can innately cast the following
+        spells:
 ---

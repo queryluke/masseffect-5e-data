@@ -16,6 +16,12 @@ entries:
         creature within a <me-distance length='10' adj />-radius sphere must
         succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning
         damage.
+    innate-powercasting:
+      name: Innate Powercasting
+      text: >-
+        The fenris mech's innate powercasting ability is Intelligence (power
+        save DC 10, +2 to hit with power attacks). It can innately cast the
+        following spells:
   actions:
     pounce:
       name: Pounce

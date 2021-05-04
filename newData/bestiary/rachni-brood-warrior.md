@@ -16,6 +16,7 @@ abilityScores:
   int: 7
   wis: 15
   cha: 7
+irv: false
 savingThrows:
   - con
   - wis
@@ -31,24 +32,26 @@ entries:
     barrier:
       uses: 3
       perDay: true
+    innate-powercasting:
+      mod: wis
+      list: [{"id":stasis, "perDay":3},{"id":warp, "perDay":5}]
   actions:
     acid-spit:
       attack: ranged
+      proficient: true
       range: 50
       dc: false
-      save: false
-      damage: [null,null]
+      mod: dex
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":acid},{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      target: one
     impale:
       attack: melee
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null,null]
-powercasting:
-  mod: wis
-  innate:
-    - id: stasis
-      perDay: 3
-    - id: warp
-      perDay: 5
+      mod: str
+      damage: [{"dieCount":'2', "dieType":'10', "mod":true, "type":null},{"dieCount":'1', "dieType":'10', "mod":true, "type":acid}]
+      target: one
+cr: '04000'
+shields: false
 ---

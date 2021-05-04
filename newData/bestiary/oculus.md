@@ -16,6 +16,17 @@ abilityScores:
   int: 13
   wis: 9
   cha: 10
+irv:
+  conImm:
+    - blinded
+    - deafened
+    - frightened
+    - lifted
+    - paralyzed
+    - poisoned
+    - prone
+  damImm:
+    - poison
 savingThrows:
   - dex
   - con
@@ -30,9 +41,12 @@ entries:
   actions:
     crush:
       attack: melee
+      proficient: true
       range: 25
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'4', "dieType":'6', "mod":true, "type":bludgeoning}]
+      target: one
+cr: '11000'
+shields: false
 ---

@@ -16,6 +16,14 @@ abilityScores:
   int: 12
   wis: 14
   cha: 5
+irv:
+  conImm:
+    - poisoned
+  damImm:
+    - poison
+    - psychic
+  vul:
+    - lightning
 savingThrows:
   - dex
 senses:
@@ -27,22 +35,29 @@ skills:
 speed:
   walk: 40
 entries:
+  features:
+    innate-powercasting:
+      mod: int
+      list: [{"id":sabotage, "perDay":at_will}]
   actions:
     claw:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null]
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'8', "mod":true, "type":slashing}]
+      target: one
     eye-cannon:
       attack: ranged
+      proficient: true
       range: 150
       dc: false
-      save: false
-      damage: [null]
-powercasting:
-  mod: int
-  innate:
-    - id: sabotage
-      perDay: at-will
+      mod: dex
+      damage: [{"dieCount":'3', "dieType":'6', "mod":true, "type":radiant}]
+      target: one
+cr: '03000'
+shields:
+  capacity: 5
+  regen: 5
 ---

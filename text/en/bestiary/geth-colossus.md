@@ -31,10 +31,19 @@ entries:
         ability scores. This loss ends if the armor is repaired, removed, or
         replaced.
   legendary:
-    mass-accelerator-machinegun-attack:
-      name: Mass Accelerator Machinegun Attack
-    siege-cannon-attack:
-      name: Siege Cannon Attack
-    siege-pulse-attack:
-      name: Siege Pulse Attack
+    text: >-
+      The geth colossus can take 3 legendary actions, choosing from the options
+      below. Only one legendary action can be used at a time and only at the end
+      of another creature's turn. The geth colossus regains spent legendary
+      actions at the start of its turn.
+    actions:
+      mass-accelerator-machinegun-attack:
+        name: Mass Accelerator Machinegun Attack
+        text: The geth colossus makes a Mass Accelerator Machinegun attack.
+      siege-cannon-attack:
+        name: Siege Cannon Attack
+        text: The geth colossus makes a Siege Cannon attack.
+      siege-pulse-attack:
+        name: Siege Pulse Attack
+        text: The geth colossus uses its Siege Pulse
 ---

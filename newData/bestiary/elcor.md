@@ -16,10 +16,15 @@ abilityScores:
   int: 16
   wis: 18
   cha: 8
+irv:
+  res:
+    - bludgeoning
+    - piercing
+    - slashing
 savingThrows:
   - str
   - con
-senses: []
+senses: false
 size: large
 skills:
   - history
@@ -30,9 +35,14 @@ entries:
   actions:
     mass-accelerator-cannon:
       attack: ranged
+      proficient: true
       range: 300
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: dex
+      damage: [{"dieCount":'5', "dieType":'8', "mod":true, "type":radiant}]
+      target: one
+cr: '06000'
+shields:
+  capacity: 50
+  regen: 10
 ---

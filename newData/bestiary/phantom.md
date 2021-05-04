@@ -16,9 +16,10 @@ abilityScores:
   int: 11
   wis: 15
   cha: 15
+irv: false
 savingThrows:
   - dex
-senses: []
+senses: false
 size: medium
 skills:
   - acrobatics
@@ -35,11 +36,15 @@ entries:
   actions:
     monomolecular-blade:
       ref: weapon
+      proficient: true
     palm-blaster:
       attack: ranged
+      proficient: true
       range: 10
       dc: false
-      save: false
-      damage: [null]
-powercasting: false
+      mod: dex
+      damage: [{"dieCount":'3', "dieType":'10', "mod":true, "type":thunder}]
+      target: one
+cr: '07000'
+shields: false
 ---

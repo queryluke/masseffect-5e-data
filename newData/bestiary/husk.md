@@ -16,21 +16,25 @@ abilityScores:
   int: 3
   wis: 6
   cha: 5
+irv: false
 savingThrows:
   - wis
 senses:
   darkvision: 24
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
   actions:
     swipe:
       attack: melee
+      proficient: true
       range: 5
       dc: false
-      save: false
-      damage: [null,null]
-powercasting: false
+      mod: str
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":slashing},{"dieCount":escape, "mod":true, "type":null}]
+      target: one
+cr: '00500'
+shields: false
 ---

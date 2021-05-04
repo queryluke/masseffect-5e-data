@@ -26,10 +26,19 @@ entries:
     drop-klixen:
       name: Drop Klixen
   legendary:
-    detect:
-      name: Detect
-    stomp-attack:
-      name: Stomp Attack
-    trample-attack:
-      name: Trample Attack
+    text: >-
+      The harvester can take 3 legendary actions, choosing from the options
+      below. Only one legendary action can be used at a time and only at the end
+      of another creature's turn. The harvester regains spent legendary actions
+      at the start of its turn.
+    actions:
+      detect:
+        name: Detect
+        text: The harvester makes a Wisdom (Perception) check.
+      stomp-attack:
+        name: Stomp Attack
+        text: The harvester makes a stomp attack.
+      trample-attack:
+        name: Trample Attack
+        text: 'The harvester moves <me-distance length=''30'' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature.'
 ---

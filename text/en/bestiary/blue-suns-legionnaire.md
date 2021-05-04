@@ -14,6 +14,11 @@ entries:
         When the legionnaire hits with its M-15 Vindicator, if the target is
         primed, the target detonates. Otherwise, the target becomes primed:
         lightning until the end of the legionnaire's next turn.
+    grenades:
+      name: Grenades
+      text: >-
+        The blue suns legionnaire has the following grenades equipped. It can
+        use a grenade as an action.
   reactions:
     tech-armor:
       name: Tech Armor

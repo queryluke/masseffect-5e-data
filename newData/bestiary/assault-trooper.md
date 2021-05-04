@@ -16,22 +16,25 @@ abilityScores:
   int: 10
   wis: 10
   cha: 10
+irv: false
 savingThrows:
   - dex
-senses: []
+senses: false
 size: medium
-skills: []
+skills: false
 speed:
   walk: 30
 entries:
+  features:
+    grenades:
+      list: [{"id":frag-grenade, "mark":iii, "uses":2}]
   actions:
     stun-baton:
       ref: weapon
+      proficient: true
     m-25-hornet:
       ref: weapon
-    frag-grenade:
-      ref: grenade
-      mark: iii
-      uses: 2
-powercasting: false
+      proficient: true
+cr: '01000'
+shields: false
 ---

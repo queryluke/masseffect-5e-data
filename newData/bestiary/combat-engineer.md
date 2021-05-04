@@ -16,8 +16,9 @@ abilityScores:
   int: 16
   wis: 13
   cha: 16
+irv: false
 savingThrows: []
-senses: []
+senses: false
 size: medium
 skills:
   - electronics
@@ -27,5 +28,9 @@ entries:
   actions:
     m-5-phalanx:
       ref: weapon
-powercasting: false
+      proficient: true
+cr: '03000'
+shields:
+  capacity: 20
+  regen: 10
 ---
