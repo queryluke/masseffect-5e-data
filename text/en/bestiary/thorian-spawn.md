@@ -19,3 +19,5 @@ entries:
         psychic damage and must make a DC 13 Wisdom saving throw. On a failed
         save, a creature becomes paralyzed until the start of its next turn.
 ---
+The beginning of a Thorian's life cycle, these stationary plants feed off nutrients from the mother 
+plant while also acting as a last line of defense against intruders.

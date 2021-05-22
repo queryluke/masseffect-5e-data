@@ -789,6 +789,7 @@ const models = [
             'senses', 'size', 'skills', 'speed', 'entries', 'cr', 'shields'],
         snake: ['type', 'unit', 'size'],
         text: ['name', 'entries'],
+        mdBody: 'description',
         tFlow: 5,
         factTransform: (item, id) => {
             switch (item.cr) {
@@ -906,10 +907,10 @@ const models = [
                     continue
                 }
                 // weapon attack
-                if (!i.hit.startsWith('The')) {
+                if (!i.hit.startsWith('The') && !i.hit.startsWith(' The')) {
                     const hitSplit = i.hit.split('.')
                     const damage = hitSplit[0]
-                    const damageArray = damage.split('and').map(i => {
+                    const damageArray = damage.split(/(plus|and)/).map(i => {
                         const retObj = {
                             dieCount: null,
                             dieType: null,
@@ -928,7 +929,7 @@ const models = [
                             retObj.type = typeMatch[1]
                         }
                         return retObj
-                    })
+                    }).filter(i => i.type !== null)
                     entries.actions[actionId] = {
                         attack: i.type,
                         proficient: true,
@@ -942,10 +943,14 @@ const models = [
             }
 
             // legendary
-            for (const i of item.legendaryActions) {
-                const legendaryId = generateId(i.name)
-                entries.legendary[legendaryId] = {
-                    cost: i.cost
+            if (item.legendaryActions && item.legendaryActions.length > 0) {
+                entries.legendary.text = `The ${item.name.toLowerCase()} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The ${item.name.toLowerCase()} regains spent legendary actions at the start of its turn.`
+                entries.legendary.actions = {}
+                for (const i of item.legendaryActions) {
+                    const legendaryId = generateId(i.name)
+                    entries.legendary.actions[legendaryId] = {
+                        cost: i.cost
+                    }
                 }
             }
 
@@ -1027,6 +1032,9 @@ const models = [
             // hp
             item.hp = { dieCount: item.hp.numDice, dieType: item.hp.die }
 
+            // lair
+            item.lair = item.lairActions && item.lairActions.length > 0
+
             return item
         },
         textTransform: (item, id) => {
@@ -1034,8 +1042,7 @@ const models = [
                 features: {},
                 actions: {},
                 legendary: {},
-                reactions: {},
-                lair: {}
+                reactions: {}
             }
             // features
             for (const i of item.features) {
@@ -1127,14 +1134,10 @@ const models = [
 
             // lair
             if (item.lairActions && item.lairActions.length > 0) {
-                entries.lair.text = `On initiative count 20 (losing initiative ties), the ${item.name.toLowerCase()} takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:`
-                entries.lair.actions = {}
+                item.description = '### Lair Actions\r\n'
+                item.description += `On initiative count 20 (losing initiative ties), the ${item.name.toLowerCase()} takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:\r\n\r\n`
                 for (const i of item.lairActions) {
-                    const lairId = generateId(i.name)
-                    entries.lair.actions[lairId] = {
-                        name: i.name,
-                        text: i.description
-                    }
+                    item.description += `- ${i.description}\n`
                 }
             }
 
@@ -1143,7 +1146,7 @@ const models = [
                 const reactionId = generateId(i.name)
                 entries.reactions[reactionId] = {
                     name: i.name,
-                    text: i.text
+                    text: i.description
                 }
             }
 

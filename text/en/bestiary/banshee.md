@@ -39,4 +39,8 @@ entries:
   reactions:
     teleporting-dodge:
       name: Teleporting Dodge
+      text: >-
+        In response to making a Dexterity saving throw, the banshee can use its
+        reaction to teleport up to <me-distance length='10' /> away. If it is
+        still within the affected area, it has advantage on the saving throw.
 ---

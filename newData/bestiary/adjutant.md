@@ -53,7 +53,7 @@ entries:
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":piercing}]
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'6', "mod":true, "type":necrotic}]
       target: one
 cr: '06000'
 shields: false

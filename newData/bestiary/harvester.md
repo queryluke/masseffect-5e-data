@@ -48,15 +48,18 @@ entries:
       range: false
       dc: false
       mod: dex
-      damage: [{"dieCount":null, "dieType":null, "mod":true, "type":null}]
+      damage: []
       target: one
   legendary:
-    detect:
-      cost: 1
-    stomp-attack:
-      cost: 1
-    trample-attack:
-      cost: 2
+    text: >-
+      The harvester can take 3 legendary actions, choosing from the options
+      below. Only one legendary action can be used at a time and only at the end
+      of another creature's turn. The harvester regains spent legendary actions
+      at the start of its turn.
+    actions:
+      detect: {"cost":1}
+      stomp-attack: {"cost":1}
+      trample-attack: {"cost":2}
 cr: '19000'
 shields: false
 ---

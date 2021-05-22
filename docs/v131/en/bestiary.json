@@ -23,7 +23,7 @@
       "wis"
     ],
     "senses": {
-      "darkvision": 24
+      "darkvision": 30
     },
     "size": "medium",
     "skills": false,
@@ -158,6 +158,12 @@
               "dieType": "6",
               "mod": true,
               "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
             }
           ],
           "target": "one",
@@ -525,26 +531,20 @@
         }
       },
       "legendary": {
-        "eject": {
-          "cost": 3
-        },
-        "mass-accelerator-cannon-attack": {
-          "cost": 1
-        },
-        "smash-attack": {
-          "cost": 1
-        },
         "text": "The atlas can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The atlas regains spent legendary actions at the start of its turn.",
         "actions": {
           "eject": {
+            "cost": 3,
             "name": "Eject",
             "text": "The pilot of the Atlas ejects, landing in an unoccupied space within <me-distance length='100' />. The pilot is an Assault Trooper. The Atlas then self-destructs. Each creature within a <me-distance length=\"15\" adj /> radius must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 39 (6d12) thunder damage or half as much on a successful one."
           },
           "mass-accelerator-cannon-attack": {
+            "cost": 1,
             "name": "Mass Accelerator Cannon Attack",
             "text": "The atlas makes a Mass Accelerator Cannon attack."
           },
           "smash-attack": {
+            "cost": 1,
             "name": "Smash Attack",
             "text": "The atlas makes a Smash attack."
           }
@@ -651,26 +651,20 @@
         }
       },
       "legendary": {
-        "cast-a-power": {
-          "cost": 3
-        },
-        "impale-attack": {
-          "cost": 1
-        },
-        "wail-attack": {
-          "cost": 2
-        },
         "text": "The banshee can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The banshee regains spent legendary actions at the start of its turn.",
         "actions": {
           "cast-a-power": {
+            "cost": 3,
             "name": "Cast a Power",
             "text": "The banshee casts a power from its list of prepared powers, using a power slot as normal."
           },
           "impale-attack": {
+            "cost": 1,
             "name": "Impale Attack",
             "text": "The banshee uses its imaple attack."
           },
           "wail-attack": {
+            "cost": 2,
             "name": "Wail Attack",
             "text": "The banshee uses its wail."
           }
@@ -678,7 +672,8 @@
       },
       "reactions": {
         "teleporting-dodge": {
-          "name": "Teleporting Dodge"
+          "name": "Teleporting Dodge",
+          "text": "In response to making a Dexterity saving throw, the banshee can use its reaction to teleport up to <me-distance length='10' /> away. If it is still within the affected area, it has advantage on the saving throw."
         }
       }
     },
@@ -826,7 +821,8 @@
       },
       "reactions": {
         "fortification": {
-          "name": "Fortification"
+          "name": "Fortification",
+          "text": "As a reaction to being hit by an attack the pyro can see, it gains a +5 bonus to its AC until the start of its next turn (including against the triggering attack)."
         }
       }
     },
@@ -907,7 +903,8 @@
       },
       "reactions": {
         "fortification": {
-          "name": "Fortification"
+          "name": "Fortification",
+          "text": "As a reaction to being hit by an attack the trooper can see, it gains a +5 bonus to its AC until the start of its next turn (including against the triggering attack)."
         }
       }
     },
@@ -1125,7 +1122,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the centurion can activate its tech armor."
         }
       }
     },
@@ -1184,7 +1182,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the heavy can activate its tech armor."
         }
       }
     },
@@ -1276,7 +1275,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the legate can activate its tech armor."
         }
       }
     },
@@ -1350,7 +1350,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the legionnaire can activate its tech armor."
         }
       }
     },
@@ -2057,12 +2058,6 @@
               "dieType": "8",
               "mod": true,
               "type": "bludgeoning"
-            },
-            {
-              "dieCount": null,
-              "dieType": null,
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -2070,19 +2065,10 @@
         }
       },
       "legendary": {
-        "assume-control": {
-          "cost": 2
-        },
-        "barrier": {},
-        "bash-attack": {
-          "cost": 1
-        },
-        "cast-a-power": {
-          "cost": 3
-        },
         "text": "The collector general can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The collector general regains spent legendary actions at the start of its turn.",
         "actions": {
           "assume-control": {
+            "cost": 2,
             "name": "Assume Control",
             "text": "The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any powers. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks."
           },
@@ -2091,10 +2077,12 @@
             "text": "When the collector general is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8."
           },
           "bash-attack": {
+            "cost": 1,
             "name": "Bash Attack",
             "text": "The collector general makes one bash attack."
           },
           "cast-a-power": {
+            "cost": 3,
             "name": "Cast a Power",
             "text": "The collector general casts a power from its list of prepared powers, using a power slot as normal."
           }
@@ -2489,7 +2477,8 @@
       },
       "reactions": {
         "guard": {
-          "name": "Guard"
+          "name": "Guard",
+          "text": "When a creature the defense drone can see attacks a target other than itself that is within <me-distance length='5' /> of it, it can use its reaction to impose disadvantage on the attack roll."
         }
       }
     },
@@ -2762,7 +2751,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the engineer can activate its tech armor."
         }
       }
     },
@@ -2893,7 +2883,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the operative can activate its tech armor."
         }
       }
     },
@@ -3031,7 +3022,8 @@
       },
       "reactions": {
         "tech-armor": {
-          "name": "Tech Armor"
+          "name": "Tech Armor",
+          "text": "As a reaction to taking damage, the operative can activate its tech armor."
         }
       }
     },
@@ -3536,26 +3528,20 @@
         }
       },
       "legendary": {
-        "mass-accelerator-machinegun-attack": {
-          "cost": 1
-        },
-        "siege-cannon-attack": {
-          "cost": 1
-        },
-        "siege-pulse-attack": {
-          "cost": 2
-        },
         "text": "The geth colossus can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The geth colossus regains spent legendary actions at the start of its turn.",
         "actions": {
           "mass-accelerator-machinegun-attack": {
+            "cost": 1,
             "name": "Mass Accelerator Machinegun Attack",
             "text": "The geth colossus makes a Mass Accelerator Machinegun attack."
           },
           "siege-cannon-attack": {
+            "cost": 1,
             "name": "Siege Cannon Attack",
             "text": "The geth colossus makes a Siege Cannon attack."
           },
           "siege-pulse-attack": {
+            "cost": 2,
             "name": "Siege Pulse Attack",
             "text": "The geth colossus uses its Siege Pulse"
           }
@@ -3819,26 +3805,20 @@
         }
       },
       "legendary": {
-        "activate-radar-jamming": {
-          "cost": 2
-        },
-        "geth-pulse-rifle-attack": {
-          "cost": 1
-        },
-        "summon-turret-or-drone": {
-          "cost": 3
-        },
         "text": "The geth prime can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The geth prime regains spent legendary actions at the start of its turn.",
         "actions": {
           "activate-radar-jamming": {
+            "cost": 2,
             "name": "Activate Radar Jamming",
             "text": "The geth prime activates its radar jamming."
           },
           "geth-pulse-rifle-attack": {
+            "cost": 1,
             "name": "Geth Pulse Rifle Attack",
             "text": "The geth prime makes a Geth Pulse Rifle attack."
           },
           "summon-turret-or-drone": {
+            "cost": 3,
             "name": "Summon Turret or Drone",
             "text": "The geth prime uses its Summon Drone or Summon Geth Turret action."
           }
@@ -4253,14 +4233,7 @@
           "range": false,
           "dc": false,
           "mod": "dex",
-          "damage": [
-            {
-              "dieCount": null,
-              "dieType": null,
-              "mod": true,
-              "type": null
-            }
-          ],
+          "damage": [],
           "target": "one",
           "name": "Drop Klixen"
         },
@@ -4270,26 +4243,20 @@
         }
       },
       "legendary": {
-        "detect": {
-          "cost": 1
-        },
-        "stomp-attack": {
-          "cost": 1
-        },
-        "trample-attack": {
-          "cost": 2
-        },
         "text": "The harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The harvester regains spent legendary actions at the start of its turn.",
         "actions": {
           "detect": {
+            "cost": 1,
             "name": "Detect",
             "text": "The harvester makes a Wisdom (Perception) check."
           },
           "stomp-attack": {
+            "cost": 1,
             "name": "Stomp Attack",
             "text": "The harvester makes a stomp attack."
           },
           "trample-attack": {
+            "cost": 2,
             "name": "Trample Attack",
             "text": "The harvester moves <me-distance length='30' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
           }
@@ -4446,11 +4413,6 @@
               "dieType": "6",
               "mod": true,
               "type": "slashing"
-            },
-            {
-              "dieCount": "escape",
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -4677,6 +4639,12 @@
               "dieType": "4",
               "mod": true,
               "type": "piercing"
+            },
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "fire"
             }
           ],
           "target": "one",
@@ -5215,7 +5183,8 @@
       },
       "reactions": {
         "parry-and-counter": {
-          "name": "Parry and Counter"
+          "name": "Parry and Counter",
+          "text": "The N7 Slayer adds 3 to its AC against one melee that would hit it. To do so, it must be able to see the target and be wielding a melee weapon. If the attack misses, the N7 Slayer can make one melee attack against the attacker if it is within its reach."
         }
       }
     },
@@ -5563,7 +5532,8 @@
       },
       "reactions": {
         "negation-barrier": {
-          "name": "Negation Barrier"
+          "name": "Negation Barrier",
+          "text": "When targeted by a biotic power or tech power, the praetorian can use its reaction to gain 2 barrier ticks and gain resistance to force, necrotic, cold, lightning, and fire damage until the start of its next turn."
         }
       }
     },
@@ -5733,12 +5703,6 @@
           "mod": "str",
           "damage": [
             {
-              "dieCount": "2",
-              "dieType": "10",
-              "mod": true,
-              "type": null
-            },
-            {
               "dieCount": "1",
               "dieType": "10",
               "mod": true,
@@ -5836,29 +5800,12 @@
           "target": "one",
           "name": "Impale"
         }
-      },
-      "lair": {
-        "text": "On initiative count 20 (losing initiative ties), the rachni queen takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
-        "actions": {
-          "call-workers": {
-            "name": "Call Workers",
-            "text": "The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative."
-          },
-          "call-soldiers": {
-            "name": "Call Soldiers",
-            "text": "The rachni queen summons 1d6 + 1 rachni workers. These arrive at the beginning of the queen's next turn and take their turn on the queen's initiative."
-          },
-          "call-brood-warrior": {
-            "name": "Call Brood Warrior",
-            "text": "The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next turn and takes its turn on the queen's initiative."
-          }
-        }
       }
     },
     "cr": "18000",
     "shields": false,
     "name": "Rachni Queen",
-    "html": "",
+    "html": "<h3>Lair Actions</h3>\n<p>On initiative count 20 (losing initiative ties), the rachni queen takes a lair action to cause one\nof the following effects; it can't use the same effect two rounds in a row:</p>\n<ul>\n<li>The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's\nnext turn and take their turn on the queen's initiative.</li>\n<li>The rachni queen summons 1d6 + 1 rachni workers. These arrive at the beginning of the queen's next\nturn and take their turn on the queen's initiative.</li>\n<li>The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next\nturn and takes its turn on the queen's initiative.</li>\n</ul>\n",
     "id": "rachni-queen"
   },
   {
@@ -5929,12 +5876,6 @@
           "dc": false,
           "mod": "str",
           "damage": [
-            {
-              "dieCount": "1",
-              "dieType": "10",
-              "mod": true,
-              "type": null
-            },
             {
               "dieCount": "1",
               "dieType": "4",
@@ -6244,26 +6185,20 @@
     },
     "entries": {
       "legendary": {
-        "detect": {
-          "cost": 1
-        },
-        "harvester-cannon-attack": {
-          "cost": 2
-        },
-        "spawn-husks": {
-          "cost": 3
-        },
         "text": "The reaper harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The reaper harvester regains spent legendary actions at the start of its turn.",
         "actions": {
           "detect": {
+            "cost": 1,
             "name": "Detect",
             "text": "The reaper harvester makes a Wisdom (Perception) check."
           },
           "harvester-cannon-attack": {
+            "cost": 2,
             "name": "Harvester Cannon Attack",
             "text": "The reaper harvester makes a harvester cannon attack."
           },
           "spawn-husks": {
+            "cost": 3,
             "name": "Spawn Husks",
             "text": "The reaper harvester releases 1d10 Husks from its body."
           }
@@ -6747,12 +6682,6 @@
               "dieType": "4",
               "mod": true,
               "type": "poison"
-            },
-            {
-              "dieCount": null,
-              "dieType": null,
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -7064,11 +6993,6 @@
               "dieType": "6",
               "mod": true,
               "type": "acid"
-            },
-            {
-              "dieCount": "its",
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -7168,7 +7092,7 @@
     "cr": "00500",
     "shields": false,
     "name": "Thorian Controller",
-    "html": "",
+    "html": "<p>These creatures act as the eyes, ears, and mouth of the Thorian, issuing its commands while also\ninforming on its enemies.</p>\n",
     "id": "thorian-controller"
   },
   {
@@ -7303,12 +7227,6 @@
               "dieCount": "2",
               "dieType": "6",
               "mod": true,
-              "type": null
-            },
-            {
-              "dieCount": "2",
-              "dieType": "6",
-              "mod": true,
               "type": "necrotic"
             }
           ],
@@ -7328,7 +7246,7 @@
     "cr": "00500",
     "shields": false,
     "name": "Thorian Nymph",
-    "html": "",
+    "html": "<p>In its juvenile stage, the Thorian becomes mobile and sneaks aboard unknowing ships to spread across\nthe galaxy.</p>\n",
     "id": "thorian-nymph"
   },
   {
@@ -7376,12 +7294,6 @@
               "dieCount": "2",
               "dieType": "6",
               "mod": true,
-              "type": null
-            },
-            {
-              "dieCount": "2",
-              "dieType": "6",
-              "mod": true,
               "type": "necrotic"
             }
           ],
@@ -7407,7 +7319,7 @@
     "cr": "00250",
     "shields": false,
     "name": "Thorian Spawn",
-    "html": "",
+    "html": "<p>The beginning of a Thorian's life cycle, these stationary plants feed off nutrients from the mother\nplant while also acting as a last line of defense against intruders.</p>\n",
     "id": "thorian-spawn"
   },
   {
@@ -7465,7 +7377,7 @@
       "regen": 0
     },
     "name": "Thorian Thrall",
-    "html": "",
+    "html": "<p>The poor slaves of the Thorian, they act as the reminder of the dangers of the frontier. Kill the\nThorian to end their suffering.</p>\n",
     "id": "thorian-thrall"
   },
   {
@@ -7527,29 +7439,12 @@
           "name": "Summon Thrall",
           "text": "The thorian summons a thrall to its aid. It arrives on initiative count 20 somewhere along the thorian's root structure."
         }
-      },
-      "lair": {
-        "text": "On initiative count 20 (losing initiative ties), the thorian takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
-        "actions": {
-          "create-spawn": {
-            "name": "Create Spawn",
-            "text": "The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at the end of the thorian's turn."
-          },
-          "summon-creeper": {
-            "name": "Summon Creeper",
-            "text": "The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The creepers take their turn at the end of the thorian's turn."
-          },
-          "summon-controller": {
-            "name": "Summon Controller",
-            "text": "The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space within <me-distance length='5' /> of any part of the thorian's root structure. The controllers take their turn at the end of the thorian's turn."
-          }
-        }
       }
     },
     "cr": "17000",
     "shields": false,
     "name": "Thorian",
-    "html": "",
+    "html": "<h3>Lair Actions</h3>\n<p>On initiative count 20 (losing initiative ties), the thorian takes a lair action to cause one of the\nfollowing effects; it can't use the same effect two rounds in a row:</p>\n<ul>\n<li>The thorian sprouts 1d12 + 3 thorian spawn. These spawn can appear in an unoccupied space within\n<me-distance length='5' /> of any part of the thorian's root structure. The spawn take their turn at\nthe end of the thorian's turn.</li>\n<li>The thorian summons 1d8 + 4 thorian creepers. These creepers can appear in an unoccupied space\nwithin <me-distance length='5' /> of any part of the thorian's root structure. The creepers take\ntheir turn at the end of the thorian's turn.</li>\n<li>The thorian summons 1d4 thorian controllers. These controllers can appear in an unoccupied space\nwithin <me-distance length='5' /> of any part of the thorian's root structure. The controllers take\ntheir turn at the end of the thorian's turn.</li>\n</ul>\n",
     "id": "thorian"
   },
   {
@@ -7683,26 +7578,20 @@
         }
       },
       "legendary": {
-        "acid-spit-attack": {
-          "cost": 2
-        },
-        "move": {
-          "cost": 1
-        },
-        "tail-attack": {
-          "cost": 1
-        },
         "text": "The thresher maw can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The thresher maw regains spent legendary actions at the start of its turn.",
         "actions": {
           "acid-spit-attack": {
+            "cost": 2,
             "name": "Acid Spit Attack",
             "text": "The thresher maw makes an acid spit attack."
           },
           "move": {
+            "cost": 1,
             "name": "Move",
             "text": "The thresher maw moves up to half its speed."
           },
           "tail-attack": {
+            "cost": 1,
             "name": "Tail Attack",
             "text": "The thresher maw makes a tail attack."
           }
@@ -8014,6 +7903,12 @@
               "dieType": "6",
               "mod": true,
               "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
             }
           ],
           "target": "one",

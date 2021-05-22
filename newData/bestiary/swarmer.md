@@ -35,7 +35,7 @@ entries:
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":acid},{"dieCount":its, "mod":true, "type":null}]
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":acid}]
       target: one
 cr: '00125'
 shields: false

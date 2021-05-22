@@ -156,6 +156,10 @@
   ],
   "bestiary_title": "Bestiary | Bestiary",
   "bookmarks_title": "Bookmarks",
+  "bonus_formulas": {
+    "plus": "+{bonus}",
+    "minus": "-{bonus}"
+  },
   "buttons": {
     "add_bookmark": "Bookmark",
     "back_to_changelog": "Back To Changelog",
@@ -250,6 +254,13 @@
   },
   "detonates_title": "Detonates",
   "dice": "{dieCount}d{dieType}",
+  "dice_average": "{avg} ({formula})",
+  "dice_formulas": {
+    "plus": "{dice} + {n}",
+    "minus": "{dice} - {n}",
+    "base": "{dice}"
+  },
+  "digit_separator": ",",
   "duration_title": "Duration",
   "equipment_title": "Equipment | Equipment",
   "faction_title": "Faction",
@@ -386,6 +397,21 @@
       "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, or {9}",
       "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, or {10}",
       "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, or {11}"
+    ],
+    "sentences": [
+      "@:none",
+      "{0}.",
+      "{0}. {1}.",
+      "{0}. {1}. {2}.",
+      "{0}. {1}. {2}. {3}.",
+      "{0}. {1}. {2}. {3}. {4}.",
+      "{0}. {1}. {2}. {3}. {4}. {5 }.",
+      "{0}. {1}. {2}. {3}. {4}. {5}. {6 }.",
+      "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7 }.",
+      "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8 }.",
+      "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8}. {9 }.",
+      "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8}. {9}. {10 }.",
+      "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8}. {9}. {10}. {11 }."
     ],
     "short_comma_list": [
       "@:none",
@@ -543,26 +569,32 @@
     "20th"
   ],
   "npc": {
-    "multiattack": "Multiattack",
-    "hit_title": "Hit",
-    "miss_title": "Miss",
-    "range_title": "range",
-    "reach_title": "reach",
-    "damage_title": "damage",
-    "legendary_text": "...",
     "actions_title": "Actions",
     "at_will": "At Will",
+    "attack_part_label": "{label}:",
     "attack_types": {
       "melee": "Melee Weapon Attack",
       "ranged": "Ranged Weapon Attack"
     },
     "cr_title": "Challenge Rating",
+    "cr_text": "{n} ({xp} xp)",
     "condition_immunities": "Condition Immunities",
     "damage_immunities": "Damage Immunities",
     "damage_resistances": "Damage Resistances",
+    "damage_text": "{diceAverage} {damageType}",
     "damage_vulnerabilities": "Damage Vulnerabilities",
     "faction_title": "Faction",
+    "feature_w_limitation": "{name} ({limitation})",
     "higher_power_level": "as a {level_adj} power",
+    "hit_title": "Hit",
+    "legendary_title": "Legendary Actions",
+    "legendary_cost": "Costs {n} Actions",
+    "miss_title": "Miss",
+    "range_types": {
+      "reach": "reach {range}",
+      "range": "range ({short}/{long})"
+    },
+    "reactions_title": "Reactions",
     "recharges": [
       "None",
       "Recharge {0}",
@@ -572,11 +604,15 @@
       "short": "Recharges after a Short or Long Rest",
       "long": "Recharges after a Long Rest"
     },
+    "shield_w_regen": "{capacity} (regen {n})",
     "slots": "{n} slot | {n} slots",
-    "target": {
+    "target_types": {
       "one": "one target"
     },
-    "to_hit": "+{bonus} to hit",
+    "to_hit": {
+      "negative": "-{n} to hit",
+      "positive": "+{n} to hit"
+    },
     "types": {
       "organic": "Organic",
       "synorg": "Snyth-organic",
@@ -656,8 +692,8 @@
     "infrared_vision_title": "Infrared Vision",
     "truesight": "truesight",
     "truesight_title": "Truesight",
-    "blindsense": "blindsense",
-    "blindsense_title": "Blindsense"
+    "blindsight": "blindsight",
+    "blindsight_title": "Blindsight"
   },
   "set_bonus": "Set Bonus",
   "set_bonus_range": "({min} of {max}):",

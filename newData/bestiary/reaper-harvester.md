@@ -35,12 +35,15 @@ speed:
   fly: 65
 entries:
   legendary:
-    detect:
-      cost: 1
-    harvester-cannon-attack:
-      cost: 2
-    spawn-husks:
-      cost: 3
+    text: >-
+      The reaper harvester can take 3 legendary actions, choosing from the
+      options below. Only one legendary action can be used at a time and only at
+      the end of another creature's turn. The reaper harvester regains spent
+      legendary actions at the start of its turn.
+    actions:
+      detect: {"cost":1}
+      harvester-cannon-attack: {"cost":2}
+      spawn-husks: {"cost":3}
 cr: '20000'
 shields: false
 ---

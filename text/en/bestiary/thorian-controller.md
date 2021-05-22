@@ -31,3 +31,5 @@ entries:
         code must succeed on a DC 15 Dexterity saving throw or take 14 (4d6)
         acid damage.
 ---
+These creatures act as the eyes, ears, and mouth of the Thorian, issuing its commands while also 
+informing on its enemies.

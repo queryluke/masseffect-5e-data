@@ -68,12 +68,15 @@ entries:
       save: false
       recharge: ['6']
   legendary:
-    mass-accelerator-machinegun-attack:
-      cost: 1
-    siege-cannon-attack:
-      cost: 1
-    siege-pulse-attack:
-      cost: 2
+    text: >-
+      The geth colossus can take 3 legendary actions, choosing from the options
+      below. Only one legendary action can be used at a time and only at the end
+      of another creature's turn. The geth colossus regains spent legendary
+      actions at the start of its turn.
+    actions:
+      mass-accelerator-machinegun-attack: {"cost":1}
+      siege-cannon-attack: {"cost":1}
+      siege-pulse-attack: {"cost":2}
 cr: '21000'
 shields:
   capacity: 100

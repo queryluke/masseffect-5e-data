@@ -20,7 +20,7 @@ irv: false
 savingThrows:
   - wis
 senses:
-  darkvision: 24
+  darkvision: 30
 size: medium
 skills: false
 speed:

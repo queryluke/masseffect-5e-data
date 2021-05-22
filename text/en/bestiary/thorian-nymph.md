@@ -16,3 +16,5 @@ entries:
         failed save, a creature becomes paralyzed until the start of its next
         turn.
 ---
+In its juvenile stage, the Thorian becomes mobile and sneaks aboard unknowing ships to spread across 
+the galaxy.

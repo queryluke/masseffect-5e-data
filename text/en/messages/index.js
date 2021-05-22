@@ -163,6 +163,7 @@ module.exports = {
         minus: '{dice} - {n}',
         base: '{dice}'
     },
+    digit_separator: ',',
     duration_title: 'Duration',
     equipment_title: 'Equipment | Equipment',
     faction_title: 'Faction',

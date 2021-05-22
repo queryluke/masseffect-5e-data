@@ -39,7 +39,7 @@ entries:
       range: 25
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":null},{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
       target: one
     release-spores:
       dc: false

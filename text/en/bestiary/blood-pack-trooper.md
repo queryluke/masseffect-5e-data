@@ -20,4 +20,8 @@ entries:
   reactions:
     fortification:
       name: Fortification
+      text: >-
+        As a reaction to being hit by an attack the trooper can see, it gains a
+        +5 bonus to its AC until the start of its next turn (including against
+        the triggering attack).
 ---

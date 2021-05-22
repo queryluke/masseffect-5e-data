@@ -34,4 +34,9 @@ entries:
   reactions:
     parry-and-counter:
       name: Parry and Counter
+      text: >-
+        The N7 Slayer adds 3 to its AC against one melee that would hit it. To
+        do so, it must be able to see the target and be wielding a melee weapon.
+        If the attack misses, the N7 Slayer can make one melee attack against
+        the attacker if it is within its reach.
 ---

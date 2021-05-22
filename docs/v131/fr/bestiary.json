@@ -23,7 +23,7 @@
       "wis"
     ],
     "senses": {
-      "darkvision": 24
+      "darkvision": 30
     },
     "size": "medium",
     "skills": false,
@@ -156,6 +156,12 @@
               "dieType": "6",
               "mod": true,
               "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
             }
           ],
           "target": "one",
@@ -517,16 +523,25 @@
         }
       },
       "legendary": {
+        "text": "The atlas can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The atlas regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "eject": {
+            "cost": 3
+          },
+          "mass-accelerator-cannon-attack": {
+            "cost": 1
+          },
+          "smash-attack": {
+            "cost": 1
+          }
+        },
         "eject": {
-          "cost": 3,
           "name": "Eject"
         },
         "mass-accelerator-cannon-attack": {
-          "cost": 1,
           "name": "Mass Accelerator Cannon Attack"
         },
         "smash-attack": {
-          "cost": 1,
           "name": "Smash Attack"
         }
       }
@@ -629,16 +644,25 @@
         }
       },
       "legendary": {
+        "text": "The banshee can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The banshee regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "cast-a-power": {
+            "cost": 3
+          },
+          "impale-attack": {
+            "cost": 1
+          },
+          "wail-attack": {
+            "cost": 2
+          }
+        },
         "cast-a-power": {
-          "cost": 3,
           "name": "Cast a Power"
         },
         "impale-attack": {
-          "cost": 1,
           "name": "Impale Attack"
         },
         "wail-attack": {
-          "cost": 2,
           "name": "Wail Attack"
         }
       },
@@ -2013,12 +2037,6 @@
               "dieType": "8",
               "mod": true,
               "type": "bludgeoning"
-            },
-            {
-              "dieCount": null,
-              "dieType": null,
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -2026,19 +2044,29 @@
         }
       },
       "legendary": {
+        "text": "The collector general can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The collector general regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "assume-control": {
+            "cost": 2
+          },
+          "barrier": {},
+          "bash-attack": {
+            "cost": 1
+          },
+          "cast-a-power": {
+            "cost": 3
+          }
+        },
         "assume-control": {
-          "cost": 2,
           "name": "Assume Control"
         },
         "barrier": {
           "name": "Barrier"
         },
         "bash-attack": {
-          "cost": 1,
           "name": "Bash Attack"
         },
         "cast-a-power": {
-          "cost": 3,
           "name": "Cast a Power"
         }
       }
@@ -3458,16 +3486,25 @@
         }
       },
       "legendary": {
+        "text": "The geth colossus can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The geth colossus regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "mass-accelerator-machinegun-attack": {
+            "cost": 1
+          },
+          "siege-cannon-attack": {
+            "cost": 1
+          },
+          "siege-pulse-attack": {
+            "cost": 2
+          }
+        },
         "mass-accelerator-machinegun-attack": {
-          "cost": 1,
           "name": "Mass Accelerator Machinegun Attack"
         },
         "siege-cannon-attack": {
-          "cost": 1,
           "name": "Siege Cannon Attack"
         },
         "siege-pulse-attack": {
-          "cost": 2,
           "name": "Siege Pulse Attack"
         }
       }
@@ -3729,16 +3766,25 @@
         }
       },
       "legendary": {
+        "text": "The geth prime can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The geth prime regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "activate-radar-jamming": {
+            "cost": 2
+          },
+          "geth-pulse-rifle-attack": {
+            "cost": 1
+          },
+          "summon-turret-or-drone": {
+            "cost": 3
+          }
+        },
         "activate-radar-jamming": {
-          "cost": 2,
           "name": "Activate Radar Jamming"
         },
         "geth-pulse-rifle-attack": {
-          "cost": 1,
           "name": "Geth Pulse Rifle Attack"
         },
         "summon-turret-or-drone": {
-          "cost": 3,
           "name": "Summon Turret or Drone"
         }
       }
@@ -4149,14 +4195,7 @@
           "range": false,
           "dc": false,
           "mod": "dex",
-          "damage": [
-            {
-              "dieCount": null,
-              "dieType": null,
-              "mod": true,
-              "type": null
-            }
-          ],
+          "damage": [],
           "target": "one",
           "name": "Drop Klixen"
         },
@@ -4166,16 +4205,25 @@
         }
       },
       "legendary": {
+        "text": "The harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The harvester regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "detect": {
+            "cost": 1
+          },
+          "stomp-attack": {
+            "cost": 1
+          },
+          "trample-attack": {
+            "cost": 2
+          }
+        },
         "detect": {
-          "cost": 1,
           "name": "Detect"
         },
         "stomp-attack": {
-          "cost": 1,
           "name": "Stomp Attack"
         },
         "trample-attack": {
-          "cost": 2,
           "name": "Trample Attack"
         }
       },
@@ -4330,11 +4378,6 @@
               "dieType": "6",
               "mod": true,
               "type": "slashing"
-            },
-            {
-              "dieCount": "escape",
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -4559,6 +4602,12 @@
               "dieType": "4",
               "mod": true,
               "type": "piercing"
+            },
+            {
+              "dieCount": "1",
+              "dieType": "4",
+              "mod": true,
+              "type": "fire"
             }
           ],
           "target": "one",
@@ -5603,12 +5652,6 @@
           "mod": "str",
           "damage": [
             {
-              "dieCount": "2",
-              "dieType": "10",
-              "mod": true,
-              "type": null
-            },
-            {
               "dieCount": "1",
               "dieType": "10",
               "mod": true,
@@ -5782,12 +5825,6 @@
           "dc": false,
           "mod": "str",
           "damage": [
-            {
-              "dieCount": "1",
-              "dieType": "10",
-              "mod": true,
-              "type": null
-            },
             {
               "dieCount": "1",
               "dieType": "4",
@@ -6097,16 +6134,25 @@
     },
     "entries": {
       "legendary": {
+        "text": "The reaper harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The reaper harvester regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "detect": {
+            "cost": 1
+          },
+          "harvester-cannon-attack": {
+            "cost": 2
+          },
+          "spawn-husks": {
+            "cost": 3
+          }
+        },
         "detect": {
-          "cost": 1,
           "name": "Detect"
         },
         "harvester-cannon-attack": {
-          "cost": 2,
           "name": "Harvester Cannon Attack"
         },
         "spawn-husks": {
-          "cost": 3,
           "name": "Spawn Husks"
         }
       },
@@ -6586,12 +6632,6 @@
               "dieType": "4",
               "mod": true,
               "type": "poison"
-            },
-            {
-              "dieCount": null,
-              "dieType": null,
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -6895,11 +6935,6 @@
               "dieType": "6",
               "mod": true,
               "type": "acid"
-            },
-            {
-              "dieCount": "its",
-              "mod": true,
-              "type": null
             }
           ],
           "target": "one",
@@ -7134,12 +7169,6 @@
               "dieCount": "2",
               "dieType": "6",
               "mod": true,
-              "type": null
-            },
-            {
-              "dieCount": "2",
-              "dieType": "6",
-              "mod": true,
               "type": "necrotic"
             }
           ],
@@ -7203,12 +7232,6 @@
           "dc": false,
           "mod": "dex",
           "damage": [
-            {
-              "dieCount": "2",
-              "dieType": "6",
-              "mod": true,
-              "type": null
-            },
             {
               "dieCount": "2",
               "dieType": "6",
@@ -7497,16 +7520,25 @@
         }
       },
       "legendary": {
+        "text": "The thresher maw can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The thresher maw regains spent legendary actions at the start of its turn.",
+        "actions": {
+          "acid-spit-attack": {
+            "cost": 2
+          },
+          "move": {
+            "cost": 1
+          },
+          "tail-attack": {
+            "cost": 1
+          }
+        },
         "acid-spit-attack": {
-          "cost": 2,
           "name": "Acid Spit Attack"
         },
         "move": {
-          "cost": 1,
           "name": "Move"
         },
         "tail-attack": {
-          "cost": 1,
           "name": "Tail Attack"
         }
       }
@@ -7816,6 +7848,12 @@
               "dieType": "6",
               "mod": true,
               "type": "piercing"
+            },
+            {
+              "dieCount": "3",
+              "dieType": "6",
+              "mod": true,
+              "type": "necrotic"
             }
           ],
           "target": "one",

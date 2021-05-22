@@ -5,6 +5,6 @@ module.exports = {
     infrared_vision_title: 'Infrared Vision',
     truesight: 'truesight',
     truesight_title: 'Truesight',
-    blindsense: 'blindsense',
-    blindsense_title: 'Blindsense'
+    blindsight: 'blindsight',
+    blindsight_title: 'Blindsight'
 }

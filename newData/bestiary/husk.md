@@ -33,7 +33,7 @@ entries:
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":slashing},{"dieCount":escape, "mod":true, "type":null}]
+      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":slashing}]
       target: one
 cr: '00500'
 shields: false

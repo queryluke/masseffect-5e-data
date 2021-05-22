@@ -37,4 +37,5 @@ entries:
   reactions:
     tech-armor:
       name: Tech Armor
+      text: As a reaction to taking damage, the legate can activate its tech armor.
 ---

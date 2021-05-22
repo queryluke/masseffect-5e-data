@@ -34,4 +34,9 @@ entries:
   reactions:
     negation-barrier:
       name: Negation Barrier
+      text: >-
+        When targeted by a biotic power or tech power, the praetorian can use
+        its reaction to gain 2 barrier ticks and gain resistance to force,
+        necrotic, cold, lightning, and fire damage until the start of its next
+        turn.
 ---

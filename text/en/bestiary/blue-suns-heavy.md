@@ -20,4 +20,5 @@ entries:
   reactions:
     tech-armor:
       name: Tech Armor
+      text: As a reaction to taking damage, the heavy can activate its tech armor.
 ---

@@ -20,3 +20,5 @@ entries:
         greater. Instead, you may use the stat block of a randomly generated
         grunt or other organic humanoid from the bestiary.
 ---
+The poor slaves of the Thorian, they act as the reminder of the dangers of the frontier. Kill the 
+Thorian to end their suffering.
