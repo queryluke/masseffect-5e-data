@@ -1,4 +1,0 @@
----
-name: Geth Bomber
-entries: {}
----

@@ -1,4 +1,0 @@
----
-name: Kett Chosen
-entries: {}
----

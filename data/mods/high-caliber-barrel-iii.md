@@ -1,19 +1,16 @@
 ---
-name: High-Caliber Barrel III
-description: Superior kinetic coils increase shot penetration and damage.
-rarity: Spectre
+rarity: spectre
+type: weapon
 cost: 32000
-placement: Barrel
-notes:
-  - Extra Damage
-  - Special
-createdBy: null
+manufacturer: ''
+tags:
+  - extra_damage
+  - special
+placement: barrel
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-+3 on damage rolls made with this weapon. Ignores half cover.

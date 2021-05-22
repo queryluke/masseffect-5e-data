@@ -1,7 +1,6 @@
 ---
-name: Amphibious
 species:
   - hanar
   - salarian
+mechanics: []
 ---
-Can breathe both air and water.

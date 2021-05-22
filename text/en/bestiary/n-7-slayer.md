@@ -15,7 +15,7 @@ entries:
         succeeds on the saving throw, and only half damage if it fails.
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the N7 slayer gains 5 barrier ticks. When the N7 slayer is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     n7-training:
       name: N7 Training
       text: The N7 Slayer has advantage on its first attack roll each turn.

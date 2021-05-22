@@ -1,3 +1,0 @@
----
-name: Geth Pulse Rifle
----

@@ -1,5 +1,3 @@
 ---
-name: Havoc
-class: soldier
+klass: soldier
 ---
-GUNS!!! GRENADES!!! EXPLOSIONS!!!

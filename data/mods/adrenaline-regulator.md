@@ -1,16 +1,13 @@
 ---
-name: Adrenaline Regulator
-rarity: Rare
-type: Armor
-description: Biofeedback system regulating wearer's adrenaline surges.
+rarity: rare
+type: armor
 cost: 40000
-manu: Ariake Technologies
-notes:
-  - Extra Damage
-placement: Chest
+manufacturer: ariake-technologies
+tags:
+  - extra_damage
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. 

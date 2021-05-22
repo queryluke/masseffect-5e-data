@@ -78,7 +78,7 @@ if (!fs.existsSync(versionDir)) {
 }
 
 const textPath = `./text`
-const dataPath = `./newData`
+const dataPath = `./data`
 
 const langs = fs.readdirSync(textPath)
 const dataDirs = fs.readdirSync(dataPath)

@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: The seeker plague has 1 barrier tick. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.
   actions:
     plague-sting:
       name: Plague Sting

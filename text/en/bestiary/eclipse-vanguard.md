@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the eclipse vanguard gains 6 barrier ticks. When the eclipse vanguard is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     tech-armor:
       name: Tech Armor
       text: >-

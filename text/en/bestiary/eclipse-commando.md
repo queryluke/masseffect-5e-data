@@ -9,7 +9,7 @@ entries:
         hostile creature it can see.
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the eclipse commando gains 10 barrier ticks. When the eclipse commando is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     powercasting:
       name: Powercasting
       text: >-

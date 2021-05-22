@@ -1,35 +1,36 @@
 ---
-id: tactical_scan
-name: Tactical Scan
 level: 0
 type: combat
-attackType: []
-effect:
-- debuff
-damageType: []
-castingTime: Action
-duration: 1 minute
+attack:
+  melee: false
+  ranged: false
+save:
+  dex: false
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - debuff
+damageTypes: []
+castingTimes:
+  - action
+duration:
+  length: 1
+  time: minute
+instant: false
 concentration: false
-distance:
-  range: 90
-  aoeType:
-  aoeDistance:
-detonates:
-primes:
-availableClasses:
-- infiltrator
-- soldier
-advancementOptions:
-- name: Area Scan
-  description: Scan a <me-distance length="15" adj/> cube. Each creature within the cube must make the Charisma (Deception) check against your Wisdom (Insight).
-    This feature only affects a single target, but you can choose one creature from the ones that failed the contested check.
-- name: Telegraphed Attacks
-  description: Your HUD alerts you when the creature is about to attack. It has
-    disadvantage on ranged and melee attacks against you and you have advantage on any saving
-    throws caused by powers and abilities of the creature.
+range: 90
+aoe: false
+detonates: false
+primes: false
+advancements:
+  area-scan:
+    mechanics: []
+  telegraphed-attacks:
+    mechanics: []
+classes:
+  - infiltrator
+  - soldier
 ---
-Spend your action scanning a creature you can see, studying its movement and revealing weaknesses.
-Make a Wisdom (Insight) check, contested by the target's Charisma (Deception) check. On a success, you have advantage on
-attack rolls against the target and you score a critical hit on a roll of 19 or 20.
-
-This benefit lasts 1 minute or until you successfully use this feature against a different target.

@@ -1,30 +1,37 @@
 ---
-id: fly
-name: Fly
 level: 2
 type: biotic
-attackType: []
-effect:
-- movement
-damageType: []
-castingTime: Action
-duration: 10 minutes
+attack:
+  melee: false
+  ranged: false
+save:
+  dex: false
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - movement
+damageTypes: []
+castingTimes:
+  - action
+duration:
+  length: 10
+  time: minute
+instant: false
 concentration: true
-distance:
-  range: Self
-  aoeType:
-  aoeDistance:
-detonates:
-primes:
-availableClasses:
-- adept
-- sentinel
-- vanguard
-advancementOptions:
-- name: Speed
-  description: You may cast Fly as a bonus action. Increase the flying speed to <me-distance length="90" />
-- name: Extended Cast
-  description: The duration of fly becomes 30 minutes.
+range: 0
+aoe: false
+detonates: false
+primes: false
+advancements:
+  speed:
+    mechanics: []
+  extended-cast:
+    mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---
-Create a negative mass effect field around yourself allowing you to move freely through the air. During the duration of
-this power, you gain a flying speed of <me-distance length="60" />. When the power ends if you are still aloft, you fall to the ground.

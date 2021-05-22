@@ -1,17 +1,13 @@
 ---
-name: Long Barrel
-description: Long barrels allows normally short range weapons to operate at
-  greater distances, but with trade-offs in handling.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 8000
-placement: Barrel
-notes:
-  - Increased Range
-createdBy: Chris Alley
+manufacturer: ''
+tags:
+  - increased_range
+placement: barrel
 availability:
-  - Heavy Pistol
-  - SMG
-  - Shotgun
-type: Weapon
+  - heavy_pistol
+  - smg
+  - shotgun
 ---
-The weapon loses the Hip Fire property. Double the weapon's normal and long range.

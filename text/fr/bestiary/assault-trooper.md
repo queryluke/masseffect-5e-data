@@ -1,4 +1,0 @@
----
-name: Assault Trooper
-entries: {}
----

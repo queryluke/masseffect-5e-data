@@ -1,6 +1,0 @@
----
-species:
-  - hanar
-  - salarian
-mechanics: []
----

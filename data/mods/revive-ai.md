@@ -1,17 +1,13 @@
 ---
-name: Revive AI
-rarity: Rare
-type: Armor
-description: This AI monitors your vitals and attempts to stabilize you if
-  become incapacitated.
+rarity: rare
+type: armor
 cost: 35000
-manu: Sirta Foundation
-notes:
-  - Special
-placement: Chest
+manufacturer: sirta-foundation
+tags:
+  - special
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Once per long rest, if you fall below 0 hit points you immediately become stabilized.

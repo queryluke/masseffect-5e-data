@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: The collector guardian has 2 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     possessed-collector:
       name: Possessed Collector
       text: >-

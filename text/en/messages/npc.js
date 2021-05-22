@@ -34,7 +34,7 @@ module.exports = {
         short: 'Recharges after a Short or Long Rest',
         long: 'Recharges after a Long Rest',
     },
-    shield_w_regen: '{capacity} (regen {n})',
+    shields_w_regen: '{capacity} (regen {n})',
     slots: '{n} slot | {n} slots',
     target_types: {
         one: 'one target'

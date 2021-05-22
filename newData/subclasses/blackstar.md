@@ -1,3 +1,0 @@
----
-klass: adept
----

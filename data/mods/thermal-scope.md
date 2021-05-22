@@ -1,15 +1,12 @@
 ---
-name: Thermal Scope
-description: Detects creatures using thermal signatures.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 20000
-placement: Body
-notes:
-  - Special
-createdBy: null
+manufacturer: ''
+tags:
+  - special
+placement: body
 availability:
-  - Assault Rifle
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - sniper_rifle
 ---
-Looking through the scope gives the wielder Infrared Vision. When making a ranged weapon attack, you may choose whether or not to use Infrared Vision.

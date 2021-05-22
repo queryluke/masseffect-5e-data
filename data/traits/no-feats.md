@@ -1,5 +1,5 @@
 ---
-name: No Feats
-species: geth
+species:
+  - geth
+mechanics: []
 ---
-Geth cannot take any feats.

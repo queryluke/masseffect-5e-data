@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the banshee gains 20 barrier ticks. When the banshee is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     innate-powercasting:
       name: Innate Powercasting
       text: >-

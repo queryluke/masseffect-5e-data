@@ -1,17 +1,14 @@
 ---
-name: Microservos
-rarity: Rare
-type: Armor
-description: Microservos coordinate your melee strikes.
+rarity: rare
+type: armor
 cost: 30000
-manu: Ariake Technologies
-notes:
-  - Extra Damage
-  - Attack Bonus
-placement: Arms
+manufacturer: ariake-technologies
+tags:
+  - extra_damage
+  - attack_bonus
+placement: arms
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-+2 bonus to melee attack and damage rolls

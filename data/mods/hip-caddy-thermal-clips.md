@@ -1,16 +1,13 @@
 ---
-name: Hip Caddy - Thermal Clips
-rarity: Common
-type: Armor
-description: A simple device designed to hold additional thermal clips.
+rarity: common
+type: armor
 cost: 1000
-manu: Armax Arsenal
-notes:
-  - Item Capacity
-placement: Legs
+manufacturer: armax-arsenal
+tags:
+  - item_capacity
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your thermal clip capacity by 4.

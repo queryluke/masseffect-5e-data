@@ -18,5 +18,5 @@ entries:
   actions:
     grapple:
       name: Grapple
-      hit: ' At the start of the abomination''s next turn, it uses Post-Mortem Explosion'
+      hit: The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion.
 ---

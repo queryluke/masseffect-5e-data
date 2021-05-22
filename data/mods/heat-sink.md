@@ -1,18 +1,15 @@
 ---
-name: Heat Sink
-description: Greatly improves your weapons cooling capacity.
-rarity: Spectre
+rarity: spectre
+type: weapon
 cost: 40000
-placement: Magazine
-notes:
-  - Additional Heat
-createdBy: null
+manufacturer: ''
+tags:
+  - additional_heat
+placement: magazine
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-The weapon gains additional heat equal to double its base heat.

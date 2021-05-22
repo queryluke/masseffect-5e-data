@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: The collector general has 20 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     powercasting:
       name: Powercasting
       text: >-
@@ -24,9 +24,6 @@ entries:
       assume-control:
         name: Assume Control
         text: The harbinger targets a friendly collector that is not incapacitated. The target creature becomes possessed and gains the benefits listed on its monster sheet. The harbinger can only assume control of one creature at a time. While it is assuming control, its speed becomes 0, attacking creatures have advantage, it automatically fails Strength and Dexterity saving throws, and it cannot cast any powers. If the harbinger is incapacitated, assume control ends. The harbinger can use its bonus action to end assume control. As a result, the targeted creature loses all benefits including any temporary hit points and barrier ticks.
-      barrier:
-        name: Barrier
-        text: When the collector general is dealt damage, if it has any barrier ticks remaining, remove one barrier tick and reduce the damage by 1d8.
       bash-attack:
         name: Bash Attack
         text: The collector general makes one bash attack.

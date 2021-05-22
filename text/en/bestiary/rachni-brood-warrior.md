@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the rachni brood warrior gains 5 barrier ticks. When the rachni brood warrior is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     grappler:
       name: Grappler
       text: >-

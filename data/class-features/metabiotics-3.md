@@ -1,7 +1,5 @@
 ---
-name: Metabiotics
-class: vanguard
 level: 14
+klass: vanguard
 subclass: nemesis
 ---
-At 14th level, learn an additional metabiotic option.

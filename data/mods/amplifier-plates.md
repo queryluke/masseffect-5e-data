@@ -1,16 +1,13 @@
 ---
-name: Amplifier Plates
-rarity: Rare
-type: Armor
-description: Includes an internal micro-control system to maximize resources.
+rarity: rare
+type: armor
 cost: 12000
-manu: Elanus Risk Control Services
-notes:
-  - Extra Damage
-placement: Arms
+manufacturer: elanus-risk-control-services
+tags:
+  - extra_damage
+placement: arms
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-+1 bonus to power damage rolls

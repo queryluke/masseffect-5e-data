@@ -1,6 +1,6 @@
 ---
-name: Thick Hide
-species: elcor
+species:
+  - elcor
 mechanics:
   - type: ac
     options:
@@ -10,4 +10,3 @@ mechanics:
       modType: acBonus
       mod: con
 ---
-Your base AC is 12 and you determine your AC using your Constitution modifier instead of your Dexterity modifier.

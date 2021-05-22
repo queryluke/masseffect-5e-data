@@ -1,19 +1,13 @@
 ---
-name: Autogel
-rarity: Uncommon
-type: Armor
-description: Microprocessors in this interface monitor vital functions and
-  release small localized doses of medi-gel to accelerate the healing process.
-  Manually timed heavy doses of medi-gel can be released in response to major
-  trauma.
+rarity: uncommon
+type: armor
 cost: 8000
-manu: Any
-notes:
-  - Heal
-placement: Legs
+manufacturer: any
+tags:
+  - heal
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-When you lose hit points, as a reaction, you may expend a charge of medi-gel.

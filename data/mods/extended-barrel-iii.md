@@ -1,17 +1,14 @@
 ---
-name: Extended Barrel III
-description: Lengthens barrel, creating greater bullet velocity and impact.
-rarity: Spectre
+rarity: spectre
+type: weapon
 cost: 25000
-placement: Barrel
-notes:
-  - Extra Damage
-createdBy: null
+manufacturer: ''
+tags:
+  - extra_damage
+placement: barrel
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - sniper_rifle
 ---
-+3 on damage rolls made with this weapon.

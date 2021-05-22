@@ -4,7 +4,7 @@ entries:
   features:
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the N7 paladin gains 5 barrier ticks. When the N7 paladin is dealt damage, remove one barrier tick and reduce the damage by 1d8.
     n7-training:
       name: N7 Training
       text: The N7 Paladin has advantage on its first attack roll each turn.

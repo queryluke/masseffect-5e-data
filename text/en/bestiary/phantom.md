@@ -15,7 +15,7 @@ entries:
         succeeds on the saving throw, and only half damage if it fails.
     barrier:
       name: Barrier
-      text: 'TODO: Write barrier text'
+      text: As an action or bonus action, the phantom gains 8 barrier ticks. When the phantom is dealt damage, remove one barrier tick and reduce the damage by 1d8.
   actions:
     multiattack:
       name: Multiattack

@@ -1,5 +1,0 @@
----
-species:
-  - quarian
-mechanics: []
----

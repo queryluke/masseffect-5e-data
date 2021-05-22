@@ -38,7 +38,8 @@ module.exports = {
         ne: 'neutral evil',
         cg: 'chaotic good',
         cn: 'chaotic neutral',
-        ce: 'chaotic evil'
+        ce: 'chaotic evil',
+        u: 'unaligned'
     },
     aoe_types: {
       sphere: 'sphere',

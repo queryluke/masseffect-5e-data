@@ -1,3 +1,0 @@
----
-startingCredits: 3000
----

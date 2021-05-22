@@ -1,15 +1,12 @@
 ---
-name: Power Magnifier
-description: Generator designed to enhance the effectiveness of tech or biotic attacks.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 12000
-placement: Body
-notes:
-  - Extra Damage
-createdBy: null
+manufacturer: ''
+tags:
+  - extra_damage
+placement: body
 availability:
-  - Heavy Pistol
-  - SMG
-type: Weapon
+  - heavy_pistol
+  - smg
 ---
-+1 on power damage rolls while holding this weapon.

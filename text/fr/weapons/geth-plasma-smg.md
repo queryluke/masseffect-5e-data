@@ -1,3 +1,0 @@
----
-name: Geth Plasma SMG
----

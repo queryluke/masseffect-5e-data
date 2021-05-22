@@ -1,5 +1,5 @@
 ---
-name: Thulium Skin
-species: turian
+species:
+  - turian
+mechanics: []
 ---
-You have resistance to radiant damage and immunity to diseases caused by radiation.
