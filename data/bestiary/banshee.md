@@ -48,11 +48,6 @@ entries:
       save: false
       recharge: ['5','6']
   legendary:
-    text: >-
-      The banshee can take 3 legendary actions, choosing from the options below.
-      Only one legendary action can be used at a time and only at the end of
-      another creature's turn. The banshee regains spent legendary actions at
-      the start of its turn.
     actions:
       cast-a-power: {"cost":3}
       impale-attack: {"cost":1}

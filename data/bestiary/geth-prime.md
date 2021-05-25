@@ -55,11 +55,6 @@ entries:
       uses: 1
       perDay: true
   legendary:
-    text: >-
-      The geth prime can take 3 legendary actions, choosing from the options
-      below. Only one legendary action can be used at a time and only at the end
-      of another creature's turn. The geth prime regains spent legendary actions
-      at the start of its turn.
     actions:
       activate-radar-jamming: {"cost":2}
       geth-pulse-rifle-attack: {"cost":1}

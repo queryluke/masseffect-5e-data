@@ -20,7 +20,7 @@ irv:
   conImm:
     - lifted
     - prone
-savingThrows: []
+savingThrows: false
 senses: false
 size: small
 skills: false

@@ -25,7 +25,7 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: []
+savingThrows: false
 senses: false
 size: medium
 skills: false

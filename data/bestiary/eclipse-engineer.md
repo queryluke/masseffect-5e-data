@@ -17,7 +17,7 @@ abilityScores:
   wis: 13
   cha: 10
 irv: false
-savingThrows: []
+savingThrows: false
 senses: false
 size: medium
 skills:

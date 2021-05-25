@@ -22,5 +22,9 @@ entries:
       name: Claw
     collector-web:
       name: Collector Web
-      hit: ' As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success'
+      hit: >- 
+        The target is restrained by organic webbing. As an action, the restrained target 
+        can make a DC 14 Strength check, bursting the webbing on a success. The webbing 
+        can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; 
+        immunity to bludgeoning, poison, and psychic damage).
 ---

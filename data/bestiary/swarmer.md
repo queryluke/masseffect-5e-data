@@ -34,7 +34,7 @@ entries:
       proficient: true
       range: 5
       dc: false
-      mod: str
+      mod: dex
       damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":acid}]
       target: one
 cr: '00125'

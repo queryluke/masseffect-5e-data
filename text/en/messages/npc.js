@@ -45,7 +45,8 @@ module.exports = {
     types: {
         organic: 'Organic',
         synorg: 'Snyth-organic',
-        synthetic: 'Synthetic'
+        synthetic: 'Synthetic',
+        organic_or_synthetic: 'Organic or Synthetic'
     },
     unit_types: {
         alien: 'Alien',

@@ -19,7 +19,7 @@ abilityScores:
 irv:
   res:
     - poison
-savingThrows: []
+savingThrows: false
 senses: false
 size: medium
 skills: false

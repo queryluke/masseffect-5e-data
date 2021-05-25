@@ -19,7 +19,7 @@ abilityScores:
 irv:
   conImm:
     - charmed
-savingThrows: []
+savingThrows: false
 senses:
   darkvision: 30
 size: large

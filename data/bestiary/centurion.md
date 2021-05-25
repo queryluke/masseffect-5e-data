@@ -21,7 +21,7 @@ irv:
     - bludgeoning
     - piercing
     - slashing
-savingThrows: []
+savingThrows: false
 senses:
   infrared_vision: 30
 size: medium

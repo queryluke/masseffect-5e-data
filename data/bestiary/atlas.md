@@ -69,11 +69,6 @@ entries:
       save: false
       recharge: ['5','6']
   legendary:
-    text: >-
-      The atlas can take 3 legendary actions, choosing from the options below.
-      Only one legendary action can be used at a time and only at the end of
-      another creature's turn. The atlas regains spent legendary actions at the
-      start of its turn.
     actions:
       eject: {"cost":3}
       mass-accelerator-cannon-attack: {"cost":1}

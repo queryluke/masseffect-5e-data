@@ -25,7 +25,7 @@ irv:
     - psychic
   vul:
     - lightning
-savingThrows: []
+savingThrows: false
 senses:
   infrared_vision: 30
 size: medium

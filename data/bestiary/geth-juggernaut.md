@@ -26,7 +26,7 @@ irv:
     - bludgeoning
     - piercing
     - slashing
-savingThrows: []
+savingThrows: false
 senses: false
 size: large
 skills: false

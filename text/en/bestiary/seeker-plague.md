@@ -8,5 +8,5 @@ entries:
   actions:
     plague-sting:
       name: Plague Sting
-      hit: ' The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll'
+      hit: The target must succeed on DC 13 Constitution saving throw or has disadvantage on its next attack roll
 ---

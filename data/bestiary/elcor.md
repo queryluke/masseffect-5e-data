@@ -38,8 +38,8 @@ entries:
       proficient: true
       range: 300
       dc: false
-      mod: dex
-      damage: [{"dieCount":'5', "dieType":'8', "mod":true, "type":radiant}]
+      mod: int
+      damage: [{"dieCount":'5', "dieType":'8', "mod":false, "type":radiant}]
       target: one
 cr: '06000'
 shields:

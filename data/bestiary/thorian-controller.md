@@ -20,7 +20,7 @@ irv:
   vul:
     - bludgeoning
     - force
-savingThrows: []
+savingThrows: false
 senses: false
 size: medium
 skills: false

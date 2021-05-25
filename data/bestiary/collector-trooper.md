@@ -43,6 +43,14 @@ entries:
     collector-smg:
       ref: weapon
       proficient: true
+    collector-web:
+      attack: ranged
+      proficient: true
+      range: 25
+      dc: false
+      mod: dex
+      damage: false
+      target: one
 cr: '03000'
 shields: false
 ---

@@ -22,7 +22,7 @@ irv:
     - lifted
   vul:
     - fire
-savingThrows: []
+savingThrows: false
 senses: false
 size: huge
 skills: false

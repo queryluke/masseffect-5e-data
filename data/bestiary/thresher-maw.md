@@ -67,11 +67,6 @@ entries:
       damage: [{"dieCount":'4', "dieType":'6', "mod":true, "type":bludgeoning}]
       target: one
   legendary:
-    text: >-
-      The thresher maw can take 3 legendary actions, choosing from the options
-      below. Only one legendary action can be used at a time and only at the end
-      of another creature's turn. The thresher maw regains spent legendary
-      actions at the start of its turn.
     actions:
       acid-spit-attack: {"cost":2}
       move: {"cost":1}

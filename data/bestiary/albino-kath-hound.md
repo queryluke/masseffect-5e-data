@@ -17,7 +17,7 @@ abilityScores:
   wis: 16
   cha: 6
 irv: false
-savingThrows: []
+savingThrows: false
 senses:
   blindsight: 30
 size: large

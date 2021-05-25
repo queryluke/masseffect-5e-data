@@ -19,7 +19,7 @@ abilityScores:
 irv:
   conImm:
     - charmed
-savingThrows: []
+savingThrows: false
 senses:
   darkvision: 30
 size: large
@@ -47,14 +47,8 @@ entries:
       damage: [{"dieCount":'3', "dieType":'8', "mod":true, "type":bludgeoning}]
       target: one
   legendary:
-    text: >-
-      The collector general can take 3 legendary actions, choosing from the
-      options below. Only one legendary action can be used at a time and only at
-      the end of another creature's turn. The collector general regains spent
-      legendary actions at the start of its turn.
     actions:
       assume-control: {"cost":2}
-      barrier: {}
       bash-attack: {"cost":1}
       cast-a-power: {"cost":3}
 cr: '11000'

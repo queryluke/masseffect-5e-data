@@ -10,4 +10,5 @@ entries:
   actions:
     suicide-attack:
       name: Suicide Attack
+      hit: On a hit, the swarmer explodes (its hit points immediately become 0 after resolving the attack)
 ---

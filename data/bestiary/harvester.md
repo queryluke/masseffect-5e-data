@@ -42,20 +42,7 @@ entries:
       mod: str
       damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing}]
       target: one
-    drop-klixen:
-      attack: regional
-      proficient: true
-      range: false
-      dc: false
-      mod: dex
-      damage: []
-      target: one
   legendary:
-    text: >-
-      The harvester can take 3 legendary actions, choosing from the options
-      below. Only one legendary action can be used at a time and only at the end
-      of another creature's turn. The harvester regains spent legendary actions
-      at the start of its turn.
     actions:
       detect: {"cost":1}
       stomp-attack: {"cost":1}
