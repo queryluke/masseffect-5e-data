@@ -46,7 +46,7 @@ speed:
 entries:
   features:
     grenades:
-      list: [{"id":smoke, "mark":grenade, "uses":5}]
+      list: [{"id":smoke-grenade, "uses":5}]
   actions:
     smash:
       attack: melee

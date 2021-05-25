@@ -1,7 +1,6 @@
 module.exports = {
     actions_title: 'Actions',
     at_will: 'At Will',
-    attack_part_label: '{label}:',
     attack_types: {
         melee: 'Melee Weapon Attack',
         ranged: 'Ranged Weapon Attack',

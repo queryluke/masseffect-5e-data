@@ -109,6 +109,7 @@ module.exports = {
         back_to_changelog: 'Back To Changelog',
         bug: 'Report Bug',
         change_species: 'Switch Species',
+        close: 'Close',
         enter_search: 'Enter a search term',
         filter: 'Filter',
         go_to: 'Jump To',
@@ -239,6 +240,7 @@ module.exports = {
         using_ability_scores: 'Using Ability Scores',
         vehicles: 'Vehicles'
     },
+    markdown_label: '{label}:',
     marks: {
         'i': 'I',
         'ii': 'II',

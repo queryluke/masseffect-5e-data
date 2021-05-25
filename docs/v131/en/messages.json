@@ -166,6 +166,7 @@
     "back_to_changelog": "Back To Changelog",
     "bug": "Report Bug",
     "change_species": "Switch Species",
+    "close": "Close",
     "enter_search": "Enter a search term",
     "filter": "Filter",
     "go_to": "Jump To",
@@ -449,6 +450,7 @@
     "using_ability_scores": "Using Ability Scores",
     "vehicles": "Vehicles"
   },
+  "markdown_label": "{label}:",
   "marks": {
     "i": "I",
     "ii": "II",
@@ -572,7 +574,6 @@
   "npc": {
     "actions_title": "Actions",
     "at_will": "At Will",
-    "attack_part_label": "{label}:",
     "attack_types": {
       "melee": "Melee Weapon Attack",
       "ranged": "Ranged Weapon Attack"
