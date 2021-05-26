@@ -1,17 +1,13 @@
 ---
-name: Ablative Coating
-rarity: Spectre
-type: Armor
-description: Ablative coating is designed to chip away when impacted,
-  redirecting the energy of incoming projectiles away from the body.
+rarity: spectre
+type: armor
 cost: 50000
-manu: Alliance
-notes:
-  - Resistance
-placement: Chest
+manufacturer: alliance
+tags:
+  - resistance
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Resistance to piercing damage.

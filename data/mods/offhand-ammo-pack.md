@@ -1,17 +1,13 @@
 ---
-name: Offhand Ammo Pack
-rarity: Common
-type: Armor
-description: A simple but popular modification favored among mercenary groups
-  and military personnel on active assignment.
+rarity: common
+type: armor
 cost: 500
-manu: Elkoss Combine
-notes:
-  - Item Capacity
-placement: Arms
+manufacturer: elkoss-combine
+tags:
+  - item_capacity
+placement: arms
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your thermal clip capacity by 2

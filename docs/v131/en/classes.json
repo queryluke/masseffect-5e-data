@@ -1,0 +1,1441 @@
+[
+  {
+    "primaryAbility": [
+      "wis"
+    ],
+    "hitDie": 6,
+    "profs": {
+      "armor": {
+        "has": [
+          "light"
+        ],
+        "text": "Light Armor"
+      },
+      "weapon": {
+        "has": [
+          "heavy_pistol"
+        ],
+        "choices": {
+          "items": [
+            "melee",
+            "smg"
+          ],
+          "count": 1
+        },
+        "text": "Heavy Pistols and choose either Melee or SMGs"
+      },
+      "tool": {
+        "text": "None"
+      },
+      "skill": {
+        "choices": {
+          "items": [
+            "acrobatics",
+            "deception",
+            "history",
+            "insight",
+            "intimidation",
+            "performance",
+            "sleight_of_hand",
+            "survival"
+          ],
+          "count": 3
+        },
+        "text": "Choose three from Acrobatics, Deception, History, Insight, Intimidation, Performance, Sleight of Hand, and Survival"
+      },
+      "savingThrow": {
+        "has": [
+          "cha",
+          "wis"
+        ],
+        "text": "Charisma, Wisdom"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-4-shuriken"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-4 Shuriken"
+      },
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "monomolecular-blade"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade or (b) Monomolecular Blade"
+      },
+      {
+        "has": [
+          "stock-light-armor"
+        ],
+        "text": "Stock Light Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        2,
+        6,
+        10,
+        14
+      ],
+      "abi": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ],
+      "columns": [
+        {
+          "label": "features"
+        },
+        {
+          "label": "barrier_uses",
+          "values": [
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "label": "barrier_ticks",
+          "values": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5
+          ]
+        },
+        {
+          "label": "cantrips",
+          "values": [
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "label": "powers_known",
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "label": "power_slots_by_power_level",
+          "values": [
+            [
+              2,
+              4,
+              6,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              5,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "name": "Adept",
+    "snippet": "The Adept is the ultimate biotic, able to affect the physical world with the power of the mind.",
+    "html": "<p>Adepts are biotic specialists, capable of disabling and killing enemies with raw biotic power. While they lack\nadvanced combat training, they are the best at defeating enemies without firing a shot. They are outfitted with L5x\nimplants that can spawn a micro-singularity, damaging enemies and pulling them into the air.</p>\n",
+    "id": "adept"
+  },
+  {
+    "primaryAbility": [
+      "int"
+    ],
+    "hitDie": 8,
+    "profs": {
+      "armor": {
+        "has": [
+          "light",
+          "medium"
+        ],
+        "text": "Light Armor, Medium Armor"
+      },
+      "weapon": {
+        "has": [
+          "heavy_pistol"
+        ],
+        "choices": {
+          "items": [
+            "assault_rifle",
+            "melee",
+            "smg"
+          ],
+          "count": 1
+        },
+        "text": "Heavy Pistols and choose one from Assault Rifles, Melee, or SMGs"
+      },
+      "tool": {
+        "choices": {
+          "items": [
+            "armorsmiths-workbench",
+            "tailors-tools",
+            "tinkers-tools",
+            "weaponsmiths-workbench"
+          ]
+        },
+        "text": "Choose 1 from Armorsmith's Workbench, Tailor's Tools, Tinker's Tools, and Weaponsmith's Workbench"
+      },
+      "skill": {
+        "choices": {
+          "items": [
+            "athletics",
+            "electronics",
+            "engineering",
+            "history",
+            "investigation",
+            "medicine",
+            "science",
+            "vehicle_handling"
+          ],
+          "count": 3
+        },
+        "text": "Choose three from Athletics, Electronics, Engineering, History, Investigation, Medicine, Science, and Vehicle Handling"
+      },
+      "savingThrow": {
+        "has": [
+          "con",
+          "int"
+        ],
+        "text": "Constitution, Intelligence"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-4-shuriken",
+            "m-8-avenger"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-4 Shuriken or (c) M-8 Avenger"
+      },
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "omni-taser",
+            "omni-torch"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade or (b) Omni-Taser or (c) Omni-Torch"
+      },
+      {
+        "choices": {
+          "items": [
+            "stock-light-armor",
+            "stock-medium-armor"
+          ],
+          "count": 1
+        },
+        "text": "(a) Stock Light Armor or (b) Stock Medium Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        2,
+        6,
+        10,
+        14,
+        18
+      ],
+      "abi": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ],
+      "columns": [
+        {
+          "label": "features"
+        },
+        {
+          "label": "tech_points",
+          "values": [
+            2,
+            4,
+            5,
+            7,
+            11,
+            13,
+            15,
+            17,
+            20,
+            23,
+            26,
+            26,
+            30,
+            30,
+            34,
+            34,
+            39,
+            42,
+            45,
+            50
+          ]
+        },
+        {
+          "label": "tech_point_limit",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    "name": "Engineer",
+    "snippet": "Engineers are tech specialists, the only class able to employ combat drones on the battlefield.",
+    "html": "<p>The Engineer is a tech specialist, able to quickly and easily manipulate the environment with specific talents, and repair or modify technical equipment. Gameplay focus is on shaping the battlefield during combat, healing the party, and debuffing enemies (disabling weapons and lowering shields).</p>\n",
+    "id": "engineer"
+  },
+  {
+    "primaryAbility": [
+      "dex",
+      "int"
+    ],
+    "hitDie": 8,
+    "profs": {
+      "armor": {
+        "has": [
+          "light"
+        ],
+        "text": "Light Armor"
+      },
+      "weapon": {
+        "has": [
+          "heavy_pistol"
+        ],
+        "choices": {
+          "items": [
+            "assault_rifle",
+            "melee",
+            "smg",
+            "sniper_rifle"
+          ],
+          "count": 2
+        },
+        "text": "Heavy Pistols and choose two from Assault Rifles, Melee, SMGs, and Sniper Rifles"
+      },
+      "tool": {
+        "choices": {
+          "items": [
+            "hacking-tools",
+            "thieves-tools"
+          ]
+        },
+        "text": "Choose 1 from Hacking Tools or Thieves' Tools"
+      },
+      "skill": {
+        "choices": {
+          "items": [
+            "athletics",
+            "acrobatics",
+            "deception",
+            "electronics",
+            "history",
+            "insight",
+            "investigation",
+            "perception",
+            "persuasion",
+            "sleight_of_hand",
+            "stealth",
+            "vehicle_handling"
+          ],
+          "count": 3
+        },
+        "text": "Choose three from Athletics, Acrobatics, Deception, Electronics, History, Insight, Investigation, Perception, Persuasion, Sleight of Hand, Stealth, and Vehicle Handling"
+      },
+      "savingThrow": {
+        "has": [
+          "dex",
+          "int"
+        ],
+        "text": "Dexterity, Intelligence"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-4-shuriken",
+            "m-92-mantis"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-4 Shuriken or (c) M-92 Mantis"
+      },
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "omni-taser",
+            "monomolecular-blade"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade or (b) Omni-Taser or (c) Monomolecular Blade"
+      },
+      {
+        "has": [
+          "stock-light-armor"
+        ],
+        "text": "Stock Light Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "abi": [
+        4,
+        8,
+        10,
+        12,
+        16,
+        19
+      ],
+      "columns": [
+        {
+          "label": "sneak_attack_damage",
+          "values": [
+            "1d6",
+            "1d6",
+            "2d6",
+            "2d6",
+            "3d6",
+            "3d6",
+            "4d6",
+            "4d6",
+            "5d6",
+            "5d6",
+            "6d6",
+            "6d6",
+            "7d6",
+            "7d6",
+            "8d6",
+            "8d6",
+            "9d6",
+            "9d6",
+            "10d6",
+            "10d6"
+          ]
+        },
+        {
+          "label": "features"
+        },
+        {
+          "label": "tactical_cloak_uses",
+          "values": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "label": "combat_powers",
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "label": "tech_points",
+          "values": [
+            2,
+            2,
+            3,
+            4,
+            6,
+            6,
+            7,
+            7,
+            11,
+            11,
+            13,
+            13,
+            15,
+            15,
+            17,
+            17,
+            20,
+            20,
+            23,
+            25
+          ]
+        },
+        {
+          "label": "tech_point_limit",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    "name": "Infiltrator",
+    "snippet": "Infiltrators are tech and combat specialists with the unique ability to cloak themselves.",
+    "html": "<p>The Infiltrator is a tech-savvy warrior, able to win battles by quickly disabling and killing enemies. These soldiers focus on unlocking alternate routes, gaining access to good equipment, and obtaining an advantageous position over enemies in combat.</p>\n",
+    "id": "infiltrator"
+  },
+  {
+    "primaryAbility": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "hitDie": 10,
+    "profs": {
+      "armor": {
+        "has": [
+          "light",
+          "medium",
+          "heavy"
+        ],
+        "text": "Light Armor, Medium Armor, Heavy Armor"
+      },
+      "weapon": {
+        "has": [
+          "heavy_pistol"
+        ],
+        "choices": {
+          "items": [
+            "assault_rifle",
+            "melee",
+            "shotgun",
+            "smg"
+          ],
+          "count": 2
+        },
+        "text": "Heavy Pistols and choose two from Assault Rifles, Melee, Shotguns, and SMGs"
+      },
+      "tool": {
+        "text": "None"
+      },
+      "skill": {
+        "choices": {
+          "items": [
+            "athletics",
+            "engineering",
+            "insight",
+            "intimidation",
+            "medicine",
+            "persuasion",
+            "science",
+            "survival"
+          ],
+          "count": 3
+        },
+        "text": "Choose three from Athletics, Engineering, Insight, Intimidation, Medicine, Persuasion, Science, and Survival"
+      },
+      "savingThrow": {
+        "has": [
+          "cha",
+          "con"
+        ],
+        "text": "Charisma, Constitution"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-4-shuriken",
+            "m-8-avenger"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-4 Shuriken or (c) M-8 Avenger"
+      },
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "omni-hamer",
+            "monomolecular-blade",
+            "riot-shield"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade or (b) Omni-Hammer or (c) Monomolecular Blade or (d) Riot Shield"
+      },
+      {
+        "has": [
+          "stock-light-armor",
+          "stock-medium-armor",
+          "stock-heavy-armor"
+        ],
+        "text": "(a) Stock Light Armor or (b) Stock Medium Armor or (c) Stock Heavy Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        3,
+        7,
+        10,
+        14,
+        18
+      ],
+      "abi": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ],
+      "columns": [
+        {
+          "label": "features"
+        },
+        {
+          "label": "barrier_uses",
+          "values": [
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "label": "barrier_ticks",
+          "values": [
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8
+          ]
+        },
+        {
+          "label": "cantrips",
+          "values": [
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "label": "powers_known",
+          "values": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            15,
+            15
+          ]
+        },
+        {
+          "label": "power_slots",
+          "values": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "label": "power_level",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    "name": "Sentinel",
+    "snippet": "Sentinels are unique, bringing both tech and biotic abilities to the battlefield.",
+    "html": "<p>The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking cover much less necessary and rushing their enemies much more productive. Because Sentinels have access to both biotic powers and tech powers and use Charisma as their powercasting modifier.</p>\n",
+    "id": "sentinel"
+  },
+  {
+    "primaryAbility": [
+      "dex",
+      "str"
+    ],
+    "hitDie": 10,
+    "profs": {
+      "armor": {
+        "has": [
+          "light",
+          "medium",
+          "heavy"
+        ],
+        "text": "Light Armor, Medium Armor, Heavy Armor"
+      },
+      "weapon": {
+        "has": [
+          "assault_rifle",
+          "heavy_pistol",
+          "melee",
+          "shotgun",
+          "smg",
+          "sniper_rifle"
+        ],
+        "text": "Assault Rifles, Heavy Pistols, Melee, Shotguns, SMGs, Sniper Rifles"
+      },
+      "tool": {
+        "text": "None"
+      },
+      "skill": {
+        "choices": {
+          "items": [
+            "acrobatics",
+            "athletics",
+            "history",
+            "intimidation",
+            "medicine",
+            "perception",
+            "persuasion",
+            "stealth",
+            "survival",
+            "vehicle_handling"
+          ],
+          "count": 3
+        },
+        "text": "Choose three from Acrobatics, Athletics, History, Intimidation, Medicine, Perception, Persuasion, Stealth, Survival, Vehicle Handling"
+      },
+      "savingThrow": {
+        "has": [
+          "str",
+          "dex"
+        ],
+        "text": "Strength, Dexterity"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-4-shuriken",
+            "m-8-avenger",
+            "m-92-mantis",
+            "m-23-katana"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-4 Shuriken or (c) M-8 Avenger or (d) M-92 Mantis or (e) M-23 Katana"
+      },
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "omni-hamer"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade or (b) Omni-Hammer"
+      },
+      {
+        "has": [
+          "stock-light-armor",
+          "stock-medium-armor",
+          "stock-heavy-armor"
+        ],
+        "text": "(a) Stock Light Armor or (b) Stock Medium Armor or (c) Stock Heavy Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "abi": [
+        4,
+        6,
+        8,
+        12,
+        14,
+        16,
+        19
+      ],
+      "columns": [
+        {
+          "label": "features"
+        },
+        {
+          "label": "combat_powers",
+          "values": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    "name": "Soldier",
+    "snippet": "Soldiers are pure combat specialists effective at taking down enemies with gunfire.",
+    "html": "<p>The Soldier is a tough warrior, able to deal with a range of combat situations. The Soldier gets improved health and has the widest selection of weapons. No one is tougher or more effective at taking down enemies with gunfire.</p>\n",
+    "id": "soldier"
+  },
+  {
+    "primaryAbility": [
+      "str",
+      "wis"
+    ],
+    "hitDie": 12,
+    "profs": {
+      "armor": {
+        "has": [
+          "light",
+          "medium"
+        ],
+        "text": "Light Armor, Medium Armor"
+      },
+      "weapon": {
+        "has": [
+          "heavy_pistol",
+          "melee"
+        ],
+        "choices": {
+          "items": [
+            "shotgun",
+            "smg"
+          ],
+          "count": 1
+        },
+        "text": "Heavy Pistols, Melee and choose either Shotguns or SMGs"
+      },
+      "tool": {
+        "text": "None"
+      },
+      "skill": {
+        "choices": {
+          "items": [
+            "acrobatics",
+            "athletics",
+            "deception",
+            "insight",
+            "intimidation",
+            "performance",
+            "persuasion",
+            "sleight_of_hand",
+            "survival"
+          ],
+          "count": 3
+        },
+        "text": "Choose three from Acrobatics, Athletics, Deception, Insight, Intimidation, Performance, Persuasion, Sleight of Hand, and Survival"
+      },
+      "savingThrow": {
+        "has": [
+          "str",
+          "wis"
+        ],
+        "text": "Strength, Wisdom"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-4-shuriken",
+            "m-23-katana"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-4 Shuriken or (c) M-23 Katana"
+      },
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "omni-hammer",
+            "monomolecular-blade",
+            "riot-shield"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade or (b) Omni-Hammer or (c) Monomolecular Blade or (d) Riot Shield"
+      },
+      {
+        "choices": {
+          "items": [
+            "stock-light-armor",
+            "stock-medium-armor"
+          ],
+          "count": 1
+        },
+        "text": "(a) Stock Light Armor or (b) Stock Medium Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        3,
+        6,
+        10,
+        14,
+        18
+      ],
+      "abi": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ],
+      "columns": [
+        {
+          "label": "features"
+        },
+        {
+          "label": "barrier_uses",
+          "values": [
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "label": "barrier_ticks",
+          "values": [
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10
+          ]
+        },
+        {
+          "label": "cantrips",
+          "values": [
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "label": "powers_known",
+          "values": [
+            0,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11
+          ]
+        },
+        {
+          "label": "power_slots_by_power_level",
+          "values": [
+            [
+              0,
+              2,
+              3,
+              4,
+              6,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4,
+              5,
+              5,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "name": "Vanguard",
+    "snippet": "Vanguards have a high-risk high-reward combat style, using biotics and melee strikes.",
+    "html": "<p>Vanguards are feared for their high-risk high-reward combat style, closing quickly on enemies and destroying them at close range with weapons and biotic abilities. They are outfitted with L5n implants, enabling them to perform a biotic charge that strikes the opponent with incredible force while closing distance.</p>\n",
+    "id": "vanguard"
+  }
+]

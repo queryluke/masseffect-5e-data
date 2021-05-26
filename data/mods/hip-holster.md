@@ -1,16 +1,13 @@
 ---
-name: Hip Holster
-rarity: Common
-type: Armor
-description: An additional hip holster designed to hold a small weapon.
+rarity: common
+type: armor
 cost: 3000
-manu: Any
-notes:
-  - Item Capacity
-placement: Legs
+manufacturer: any
+tags:
+  - item_capacity
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Gain 1 additional weapon slot. If using the Variant: Encumbrance rule, increase your Carry Weight by 5.

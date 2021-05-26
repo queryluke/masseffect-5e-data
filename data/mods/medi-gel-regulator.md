@@ -1,16 +1,13 @@
 ---
-name: Medi-gel Regulator
-rarity: Spectre
-type: Armor
-description: Circulates medi-gel through your body, increasing vitality.
+rarity: spectre
+type: armor
 cost: 60000
-manu: Alliance
-notes:
-  - Special
-placement: Chest
+manufacturer: alliance
+tags:
+  - special
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Gain 1 additional hit point for each level you have gained.

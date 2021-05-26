@@ -1,16 +1,13 @@
 ---
-name: Shield Battery
-rarity: Uncommon
-type: Armor
-description: An increased shield battery for your kinetic barrier.
+rarity: uncommon
+type: armor
 cost: 10000
-manu: Any
-notes:
-  - Shields
-placement: Chest
+manufacturer: any
+tags:
+  - shields
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your shield points by 5.

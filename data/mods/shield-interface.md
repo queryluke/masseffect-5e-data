@@ -1,18 +1,13 @@
 ---
-name: Shield Interface
-rarity: Spectre
-type: Armor
-description: Advanced VI systems monitor incoming enemy fire to redirect energy
-  to vulnerable points, maximizing the effectiveness of a suit's kinetic barrier
-  shields.
+rarity: spectre
+type: armor
 cost: 50000
-manu: Alliance
-notes:
-  - Shields
-placement: Chest
+manufacturer: alliance
+tags:
+  - shields
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your shield points by 15.

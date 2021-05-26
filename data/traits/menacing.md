@@ -1,5 +1,5 @@
 ---
-name: Menacing
-species: krogan
+species:
+  - krogan
+mechanics: []
 ---
-You gain proficiency in the Intimidation skill.

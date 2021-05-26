@@ -1,18 +1,13 @@
 ---
-name: Tactical Holsters
-rarity: Uncommon
-type: Armor
-description: Magnetic clips that use VI sensors to lock and unlock holstered
-  weapons into position, greatly increasing the time needed to exchange weapons
-  in combat.
+rarity: uncommon
+type: armor
 cost: 8000
-manu: Alliance
-notes:
-  - Special
-placement: Legs
+manufacturer: alliance
+tags:
+  - special
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-You can holster one weapon then draw another weapon as a free action.

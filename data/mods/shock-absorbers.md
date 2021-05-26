@@ -1,17 +1,13 @@
 ---
-name: Shock absorbers
-rarity: Uncommon
-type: Armor
-description: Made for explosive mining on asteroids, these shock absorbers
-  distribute energy from powerful blasts, reducing damage to the wearer.
+rarity: uncommon
+type: armor
 cost: 15000
-manu: Devlon Industries
-notes:
-  - Resistance
-placement: Legs
+manufacturer: devlon-industries
+tags:
+  - resistance
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Resistance to thunder.

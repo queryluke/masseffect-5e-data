@@ -1,17 +1,13 @@
 ---
-name: Equilibrium Regulator
-rarity: Uncommon
-type: Armor
-description: Stabilizes your HUD while running which allows you to take quick
-  shots while running.
+rarity: uncommon
+type: armor
 cost: 30000
-manu: Alliance
-notes:
-  - Special
-placement: Head
+manufacturer: alliance
+tags:
+  - special
+placement: head
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-When you take the Dash action on your turn, you can use a bonus action to make one weapon attack.

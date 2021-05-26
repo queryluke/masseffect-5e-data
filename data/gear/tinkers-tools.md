@@ -1,11 +1,7 @@
 ---
-name: "Tinker's Tools"
-subType: Artisan
-type: Tool
+rarity: common
+type: tool
 cost: 3000
 weight: 10
-rarity: Common
+subType: artisan
 ---
-
-Tinker's tools include a variety of hand tools, wires, scraps of metal, batteries, microcircuit boards,
-adhesives, paint, and a pouch that can hold up to 10 omni-gel canisters.

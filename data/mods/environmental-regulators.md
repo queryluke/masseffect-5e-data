@@ -1,17 +1,13 @@
 ---
-name: Environmental Regulators
-rarity: Rare
-type: Armor
-description: Temperature controls use liquid nitrogen and plasma to keep your
-  suit at a constant temperature.
+rarity: rare
+type: armor
 cost: 62500
-manu: Devlon Industries
-notes:
-  - Resistance
-placement: Chest
+manufacturer: devlon-industries
+tags:
+  - resistance
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Resistance to fire and cold damage.

@@ -1,6 +1,3 @@
 ---
-id: observant
-name: Observant
-note: +1 Wisdom, quick to notice details of your environment
+mechanics: []
 ---
-Player's Handbook, p. 168

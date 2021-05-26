@@ -1,18 +1,13 @@
 ---
-name: Sentry System
-rarity: Uncommon
-type: Armor
-description: A software application that optimizes an armor suit's microframe
-  computer. When the Sentry system is running, more power can be devoted to
-  shield management.
+rarity: uncommon
+type: armor
 cost: 10000
-manu: Alliance
-notes:
-  - Shields
-placement: Head
+manufacturer: alliance
+tags:
+  - shields
+placement: head
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your shield points by 5.

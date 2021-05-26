@@ -1,6 +1,3 @@
 ---
-id: lucky
-name: Lucky
-note: You have inexplicable luck
+mechanics: []
 ---
-Player's Handbook, p. 167

@@ -1,13 +1,14 @@
 ---
-name: Turian Hierarchy Destroyer
-vehicle:
-  type: starship
+type: starship
+subtype: false
 size: cruiser
 ac: 22
 hp: 2300
 sp: 600
 speed: 2
-range: 5 ftlu
+range:
+  distance: 5
+  units: ftlu
 crew:
   min: 11
   max: 50
@@ -31,8 +32,3 @@ weapons:
 cr: 16+
 cost: military
 ---
-
-The Destroy class is a standard Turian Hierarchy cruiser.
-
-__Additional Systems__: The Verrikan-class frigate has an _Armory_, _Weapons Range_, __GARDIAN__ system,
-and 6 open additional system slots.

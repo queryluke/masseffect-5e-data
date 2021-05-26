@@ -1,18 +1,14 @@
 ---
-name: Stability Damper I
-description: Distributes recoil with a sliding system of counterweights
-  compatible with kinetic coil generators, reducing weapon kickback.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 5000
-placement: Body
-notes:
-  - Attack Bonus
-createdBy: null
+manufacturer: ''
+tags:
+  - attack_bonus
+placement: body
 availability:
-  - Assault Rifle
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-+1 on ranged attack rolls made with this weapon.

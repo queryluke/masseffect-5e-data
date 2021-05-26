@@ -17,12 +17,12 @@
   "homepage": "https://github.com/queryluke/masseffect-5e-data#readme",
   "devDependencies": {
     "front-matter": "^4.0.2",
-    "lodash": "^4.17.20",
+    "fs-extra": "^9.1.0",
+    "js-yaml": "^4.0.0",
+    "lodash": "^4.17.21",
     "markdown-it": "^11.0.0",
     "markdown-it-container": "^3.0.0",
+    "markdown-it-multimd-table": "^4.0.3",
     "yaml": "^1.10.0"
-  },
-  "dependencies": {
-    "markdown-it-multimd-table": "^4.0.3"
   }
 }

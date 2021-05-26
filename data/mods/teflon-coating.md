@@ -1,16 +1,13 @@
 ---
-name: Teflon Coating
-rarity: Uncommon
-type: Armor
-description: A spray of Teflon that reflects multiple types of radiation.
+rarity: uncommon
+type: armor
 cost: 15000
-manu: Devlon Industries
-notes:
-  - Resistance
-placement: Chest
+manufacturer: devlon-industries
+tags:
+  - resistance
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Resistance to radiant damage.

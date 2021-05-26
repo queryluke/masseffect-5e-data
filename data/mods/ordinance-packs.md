@@ -1,17 +1,13 @@
 ---
-name: Ordinance Packs
-rarity: Uncommon
-type: Armor
-description: Co-developed by the Rahael Group and Beckmann Financial to solve
-  the issue of munitions storage for Heavy Weapon class engagement tools.
+rarity: uncommon
+type: armor
 cost: 10000
-manu: Jormungand Technology
-notes:
-  - Item Capacity
-placement: Legs
+manufacturer: jormungand-technology
+tags:
+  - item_capacity
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Your heavy weapons have 2 additional charges.

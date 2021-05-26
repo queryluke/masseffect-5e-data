@@ -1,14 +1,11 @@
 ---
-name: Counterweight
-description: Further balance your weapon making it easier to strike in combat.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 5000
-placement: Grip
-notes:
-  - Attack Bonus
-createdBy: null
+manufacturer: ''
+tags:
+  - attack_bonus
+placement: grip
 availability:
-  - Melee
-type: Weapon
+  - melee
 ---
-+1 on melee attack rolls made with this weapon.

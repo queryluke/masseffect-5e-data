@@ -1,33 +1,34 @@
 ---
-id: fortification
-name: Fortification
 level: 0
 type: combat
-attackType: []
-effect:
-- buff
-damageType: []
-castingTime: Reaction, which you take when you are targeted by an attack you can see
-duration: Instant
+attack:
+  melee: false
+  ranged: false
+save:
+  dex: false
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - buff
+damageTypes: []
+castingTimes:
+  - reaction
+duration: false
+instant: true
 concentration: false
-distance:
-  range: Self
-  aoeType: 
-  aoeDistance: 
-detonates: 
-primes: 
-availableClasses:
-- soldier
-- vanguard
-advancementOptions:
-- name: Lasting Fortification
-  description: Fortification lasts an additional turn.
-- name: Venting Fortification
-  description: When fortification ends, the currents are sent to your gauntlets. Your
-    next melee weapon attack is made at advantage and deals an additional 2d10 bludgeoning
-    damage.
+range: 0
+aoe: false
+detonates: false
+primes: false
+advancements:
+  lasting-fortification:
+    mechanics: []
+  venting-fortification:
+    mechanics: []
+classes:
+  - soldier
+  - vanguard
 ---
-Reinforce your armor using protective Foucault currents. Gain +5 AC until the start of your next turn, including against
-the triggering attack.
-
-You must finish a short or long rest before you can use this ability again.

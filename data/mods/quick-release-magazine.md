@@ -1,17 +1,14 @@
 ---
-name: Quick Release Magazine
-description: State of the art thermal clip housing allows for faster ejection and insertion.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 15000
-placement: Magazine
-notes:
-  - Special
-createdBy: null
+manufacturer: ''
+tags:
+  - special
+placement: magazine
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - sniper_rifle
 ---
-You may reload this weapon as a bonus action.

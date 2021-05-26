@@ -1,6 +1,3 @@
 ---
-id: charger
-name: Charger
-note: Make a melee attack or shove after the Dash action
+mechanics: []
 ---
-Player's Handbook, p. 165
