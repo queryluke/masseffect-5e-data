@@ -18,7 +18,7 @@ profs:
       items: [hacking-tools,thieves-tools]
   skill:
     choices:
-      items: [athletics,acrobatics,deception,electronics,history,insight,investigation,perception,persuasion,sleight_of_hand,stealth,vehicle_handling]
+      items: [athletics,acrobatics,deception,electronics,history,insight,investigation,perception,persuasion,sleight-of-hand,stealth,vehicle_handling]
       count: 3
   savingThrow:
     has:

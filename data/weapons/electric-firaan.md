@@ -6,8 +6,8 @@ manufacturer: taravay-industries
 weight: 2
 heat: null
 damage:
-  dieCount: '1'
-  dieType: '4'
+  dieCount: 1
+  dieType: 4
   type: piercing
 range: 5
 image: null

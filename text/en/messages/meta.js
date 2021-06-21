@@ -16,6 +16,7 @@ module.exports = {
     info: 'Information about {name}.',
     manual: 'Want to play D&D in the Mass Effect Universe? This manual has everything you need!',
     mods: 'Mass Effect 5e comes with a full set of armor and weapon mods that let you customize your gear to your needs.',
+    npc_generator: 'Generate random monster and NPC stats for easier encounter building',
     powers: 'Dozens of unique and re-skinned D&D spells are available as Biotic, Tech, and Combat powers',
     random_height_weight: 'Create random heights and weights for your Mass Effect 5e Operative',
     skills: 'Mass Effect 5e comes with a few futuristic skill options!',

@@ -64,7 +64,7 @@ module.exports = {
         reaper: 'Reaper',
         thorian: 'Thorian'
     },
-    uses: '{amount} uses',
+    uses: '0 uses | {n} use | {n} uses',
     uses_per_day: '{amount}/Day',
     uses_per_turn: '{amount}/Turn'
 }

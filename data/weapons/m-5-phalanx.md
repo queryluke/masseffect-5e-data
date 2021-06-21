@@ -6,12 +6,11 @@ manufacturer: systems-alliance
 weight: 2
 heat: 12
 damage:
-  dieCount: '1'
-  dieType: '4'
+  dieCount: 1
+  dieType: 4
   type: piercing
 range: 50
-image: >-
-  http://vignette4.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png/revision/latest?cb=20120317185535
+image: http://vignette4.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png/revision/latest?cb=20120317185535
 andromeda: false
 properties:
   - double-tap

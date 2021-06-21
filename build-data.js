@@ -69,7 +69,7 @@ const setLinkLocalePrefix = (lang = null) => {
 }
 
 const ignore = ['messages']
-const staticData = ['about.json', 'stats-by-cr.json']
+const staticData = ['about.json']
 const staticMdData = ['guides-index.md', 'manual-index.md']
 const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
 

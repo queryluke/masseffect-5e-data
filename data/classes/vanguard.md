@@ -18,7 +18,7 @@ profs:
   tool: false
   skill:
     choices:
-      items: [acrobatics,athletics,deception,insight,intimidation,performance,persuasion,sleight_of_hand,survival]
+      items: [acrobatics,athletics,deception,insight,intimidation,performance,persuasion,sleight-of-hand,survival]
       count: 3
   savingThrow:
     has:

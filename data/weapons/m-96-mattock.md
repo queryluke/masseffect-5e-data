@@ -6,12 +6,11 @@ manufacturer: unknown
 weight: 7
 heat: 15
 damage:
-  dieCount: '1'
-  dieType: '8'
+  dieCount: 1
+  dieType: 8
   type: piercing
 range: 100
-image: >-
-  http://vignette4.wikia.nocookie.net/masseffect/images/9/93/ME3_Mattock_Assault_Rifle.png/revision/latest?cb=20120317182842
+image: http://vignette4.wikia.nocookie.net/masseffect/images/9/93/ME3_Mattock_Assault_Rifle.png/revision/latest?cb=20120317182842
 andromeda: false
 properties:
   - double-tap

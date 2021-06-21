@@ -6,8 +6,8 @@ manufacturer: krogan
 weight: 18
 heat: null
 damage:
-  dieCount: '2'
-  dieType: '6'
+  dieCount: 2
+  dieType: 6
   type: bludgeoning
 range: 5
 image: null
