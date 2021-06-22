@@ -32,7 +32,7 @@ entries:
       text: >-
         The n7 paladin's innate powercasting ability is Charisma (power save DC
         14, +6 to hit with power attacks). It can innately cast the following
-        spells:
+        powers:
   actions:
     multiattack:
       name: Multiattack

@@ -13,7 +13,7 @@ entries:
       text: >-
         The eclipse engineer's innate powercasting ability is Intelligence
         (power save DC 12, +4 to hit with power attacks). It can innately cast
-        the following spells:
+        the following powers:
   actions:
     repair:
       name: Repair

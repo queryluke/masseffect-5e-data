@@ -21,7 +21,7 @@ entries:
       text: >-
         The fenris mech's innate powercasting ability is Intelligence (power
         save DC 10, +2 to hit with power attacks). It can innately cast the
-        following spells:
+        following powers:
   actions:
     pounce:
       name: Pounce

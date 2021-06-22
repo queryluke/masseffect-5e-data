@@ -15,7 +15,7 @@ entries:
       text: >-
         The adjutant's innate powercasting ability is Charisma (power save DC
         12, +4 to hit with power attacks). It can innately cast the following
-        spells:
+        powers:
   actions:
     multiattack:
       name: Multiattack

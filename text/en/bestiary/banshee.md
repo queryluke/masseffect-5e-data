@@ -10,7 +10,7 @@ entries:
       text: >-
         The banshee's innate powercasting ability is Charisma (power save DC 18,
         +10 to hit with power attacks). It can innately cast the following
-        spells:
+        powers:
   actions:
     impale:
       name: Impale

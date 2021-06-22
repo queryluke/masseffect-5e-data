@@ -15,7 +15,7 @@ entries:
       text: >-
         The rachni brood warrior's innate powercasting ability is Wisdom (power
         save DC 12, +4 to hit with power attacks). It can innately cast the
-        following spells:
+        following powers:
   actions:
     multiattack:
       name: Multiattack

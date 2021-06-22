@@ -26,7 +26,7 @@ entries:
       text: >-
         The albino kath hound's innate powercasting ability is Wisdom (power
         save DC 13, +5 to hit with power attacks). It can innately cast the
-        following spells:
+        following powers:
   actions:
     gore:
       name: Gore

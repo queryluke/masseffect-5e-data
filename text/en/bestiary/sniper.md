@@ -13,5 +13,5 @@ entries:
       text: >-
         The sniper's innate powercasting ability is Intelligence (power save DC
         11, +3 to hit with power attacks). It can innately cast the following
-        spells:
+        powers:
 ---

@@ -7,7 +7,7 @@ entries:
       text: >-
         The geth bomber's innate powercasting ability is Intelligence (power
         save DC 12, +4 to hit with power attacks). It can innately cast the
-        following spells:
+        following powers:
     grenades:
       name: Grenades
       text: >-

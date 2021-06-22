@@ -27,7 +27,7 @@ entries:
       text: >-
         The geth stalker's innate powercasting ability is Intelligence (power
         save DC 11, +3 to hit with power attacks). It can innately cast the
-        following spells:
+        following powers:
   actions:
     claw:
       name: Claw

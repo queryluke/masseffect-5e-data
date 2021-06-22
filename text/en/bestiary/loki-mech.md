@@ -29,5 +29,5 @@ entries:
       text: >-
         The loki mech's innate powercasting ability is Intelligence (power save
         DC 9, +1 to hit with power attacks). It can innately cast the following
-        spells:
+        powers:
 ---
