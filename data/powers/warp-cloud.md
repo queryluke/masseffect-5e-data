@@ -13,6 +13,12 @@ save:
   cha: false
 tags:
   - damage
+damage:
+  dieCount: 4
+  dieType: 4
+  mod: false
+  higherLevel:
+    dieCount: 4
 damageTypes:
   - necrotic
 castingTimes:

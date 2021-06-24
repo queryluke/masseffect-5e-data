@@ -14,6 +14,12 @@ save:
 tags:
   - damage
   - buff
+damage:
+  dieCount: 1
+  dieType: 8
+  mod: false
+  higherLevel:
+    dieCount: 1
 damageTypes:
   - bludgeoning
 castingTimes:

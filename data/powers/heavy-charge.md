@@ -14,6 +14,12 @@ save:
 tags:
   - damage
   - movement
+damage:
+  dieCount: 4
+  dieType: 10
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - force
 castingTimes:

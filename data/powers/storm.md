@@ -14,6 +14,12 @@ save:
 tags:
   - damage
   - control
+damage:
+  dieCount: 8
+  dieType: 10
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - force
   - necrotic

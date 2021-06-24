@@ -13,6 +13,12 @@ save:
   cha: false
 tags:
   - damage
+damage:
+  dieCount: 6
+  dieType: 12
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - radiant
 castingTimes:

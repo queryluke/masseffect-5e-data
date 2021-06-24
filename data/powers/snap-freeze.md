@@ -14,6 +14,12 @@ save:
 tags:
   - control
   - damage
+damage:
+  dieCount: 6
+  dieType: 8
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - cold
 castingTimes:

@@ -124,6 +124,11 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 12,
+      "dieType": 6,
+      "mod": false
+    },
     "damageTypes": [
       "necrotic"
     ],
@@ -501,6 +506,11 @@
       "damage",
       "buff"
     ],
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "mod": true
+    },
     "damageTypes": [
       "force"
     ],
@@ -557,6 +567,14 @@
       "damage",
       "buff"
     ],
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "bludgeoning"
     ],
@@ -611,6 +629,14 @@
       "damage",
       "buff"
     ],
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -831,6 +857,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "bludgeoning"
     ],
@@ -888,6 +922,14 @@
       "damage",
       "movement"
     ],
+    "damage": {
+      "dieCount": 1,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -991,6 +1033,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 5,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "cold"
     ],
@@ -1045,11 +1095,7 @@
       "cha": false
     },
     "tags": [
-      "damage",
       "debuff"
-    ],
-    "damageTypes": [
-      "cold"
     ],
     "castingTimes": [
       "action"
@@ -1153,6 +1199,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "necrotic"
     ],
@@ -1207,6 +1261,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 6,
+      "dieType": 8,
+      "mod": true,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "necrotic"
     ],
@@ -1474,6 +1536,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 6,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "lightning"
     ],
@@ -1529,6 +1599,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "lightning"
     ],
@@ -1686,6 +1764,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 6,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "fire"
     ],
@@ -1742,6 +1828,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 6,
+      "dieType": 12,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "radiant"
     ],
@@ -2114,6 +2208,14 @@
       "damage",
       "movement"
     ],
+    "damage": {
+      "dieCount": 4,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -2217,6 +2319,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "fire"
     ],
@@ -2269,6 +2379,14 @@
       "damage",
       "debuff"
     ],
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "psychic"
     ],
@@ -2325,6 +2443,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 8,
+      "mod": true,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -2379,6 +2505,14 @@
       "damage",
       "control"
     ],
+    "damage": {
+      "dieCount": 4,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -2645,6 +2779,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 4,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -2699,6 +2841,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "lightning"
     ],
@@ -2752,6 +2902,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 3
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -2859,6 +3017,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 2,
+      "dieType": 12,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "poison"
     ],
@@ -2966,6 +3132,14 @@
       "damage",
       "debuff"
     ],
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "necrotic"
     ],
@@ -3071,6 +3245,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "radiant"
     ],
@@ -3176,6 +3358,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [],
     "castingTimes": [
       "action"
@@ -3226,6 +3416,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -3393,6 +3591,11 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "mod": false
+    },
     "damageTypes": [
       "bludgeoning"
     ],
@@ -3500,6 +3703,14 @@
       "control",
       "damage"
     ],
+    "damage": {
+      "dieCount": 6,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "cold"
     ],
@@ -3663,6 +3874,14 @@
       "damage",
       "control"
     ],
+    "damage": {
+      "dieCount": 8,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force",
       "necrotic"
@@ -3890,6 +4109,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 20,
+      "dieType": 6,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 5
+      }
+    },
     "damageTypes": [
       "necrotic"
     ],
@@ -3941,6 +4168,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 1
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -4146,6 +4381,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 6,
+      "dieType": 10,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "force"
     ],
@@ -4202,6 +4445,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 4,
+      "dieType": 4,
+      "mod": false,
+      "higherLevel": {
+        "dieCount": 4
+      }
+    },
     "damageTypes": [
       "necrotic"
     ],
@@ -4260,6 +4511,14 @@
     "tags": [
       "damage"
     ],
+    "damage": {
+      "dieCount": 3,
+      "dieType": 10,
+      "mod": true,
+      "higherLevel": {
+        "dieCount": 2
+      }
+    },
     "damageTypes": [
       "necrotic"
     ],

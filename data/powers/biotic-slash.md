@@ -14,6 +14,12 @@ save:
 tags:
   - damage
   - buff
+damage:
+  dieCount: 2
+  dieType: 8
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - force
 castingTimes:

@@ -14,6 +14,10 @@ save:
 tags:
   - damage
   - buff
+damage:
+  dieCount: 2
+  dieType: 10
+  mod: true
 damageTypes:
   - force
 castingTimes:

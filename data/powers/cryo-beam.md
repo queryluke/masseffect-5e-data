@@ -13,6 +13,12 @@ save:
   cha: false
 tags:
   - damage
+damage:
+  dieCount: 5
+  dieType: 8
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - cold
 castingTimes:

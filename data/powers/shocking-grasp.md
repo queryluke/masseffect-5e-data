@@ -13,6 +13,12 @@ save:
   cha: false
 tags:
   - damage
+damage:
+  dieCount: 1
+  dieType: 6
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes: []
 castingTimes:
   - action

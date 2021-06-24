@@ -14,6 +14,12 @@ save:
 tags:
   - damage
   - debuff
+damage:
+  dieCount: 2
+  dieType: 10
+  mod: false
+  higherLevel:
+    dieCount: 2
 damageTypes:
   - necrotic
 castingTimes:

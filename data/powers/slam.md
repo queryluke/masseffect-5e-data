@@ -13,6 +13,10 @@ save:
   cha: false
 tags:
   - damage
+damage:
+  dieCount: 2
+  dieType: 8
+  mod: false
 damageTypes:
   - bludgeoning
 castingTimes:

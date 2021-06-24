@@ -12,10 +12,7 @@ save:
   wis: false
   cha: false
 tags:
-  - damage
   - debuff
-damageTypes:
-  - cold
 castingTimes:
   - action
 duration: false
