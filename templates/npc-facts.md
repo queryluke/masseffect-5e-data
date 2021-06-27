@@ -1,3 +1,8 @@
+TODO:
+- grenades and powercasting are in features
+- actions, reactions, features are an array
+- legendary.actions is an array
+
 ---
 image: https://....
 type: synorg # or organic or synthetic
@@ -16,21 +21,22 @@ ac: 10
 entries:
   # features
   features:
-    uses:
+    - id: uses
       uses: 3
-    recharge:
+    - id: recharge
       recharge:
         - 5
         - 6
-    per-day:
+    - id: per-day
       uses: 1
       perDay: true
   # actions
   actions:
-    multiattack:
-    m-8-avenger:
+    - id: multiattack
+    - id: m-8-avenger-0
       ref: weapon
-    frag-grenade:
+      refId: m-8-avenger
+    - id: frag-grenade:
       ref: grenade
       uses: 2
     impale:

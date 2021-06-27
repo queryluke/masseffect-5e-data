@@ -1,3 +1,8 @@
+TODO:
+- grenades and powercasting are in features
+- actions, reactions, features are an array
+- legendary.actions is an array
+
 ---
 name: Banshee
 entries:
