@@ -25,9 +25,10 @@ speed:
   walk: 25
 entries:
   actions:
-    m-3-predator:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-3-predator
+      weaponId: m-3-predator
 cr: '00000'
 shields: false
 ---

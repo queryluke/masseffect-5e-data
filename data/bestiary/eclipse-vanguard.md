@@ -25,20 +25,23 @@ speed:
   walk: 30
 entries:
   features:
-    barrier:
-      uses: 3
+    - uses: 3
       perDay: true
-    tech-armor:
-      uses: 1
+      id: barrier
+    - uses: 1
       perDay: true
-    powercasting:
-      mod: cha
+      id: tech-armor
+    - mod: cha
       casterLevel: '6'
-      list: [shockwave,warp]
+      list:
+        - shockwave
+        - warp
+      id: powercasting
   actions:
-    m-27-scimitar:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-27-scimitar
+      weaponId: m-27-scimitar
 cr: '03000'
 shields: false
 ---

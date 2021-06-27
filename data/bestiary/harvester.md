@@ -34,19 +34,23 @@ speed:
   fly: 90
 entries:
   actions:
-    stomp:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: piercing}
       target: one
+      id: stomp
   legendary:
     actions:
-      detect: {"cost":1}
-      stomp-attack: {"cost":1}
-      trample-attack: {"cost":2}
+      - cost: 1
+        id: detect
+      - cost: 1
+        id: stomp-attack
+      - cost: 2
+        id: trample-attack
 cr: '19000'
 shields: false
 ---

@@ -27,13 +27,14 @@ speed:
   walk: 30
 entries:
   features:
-    tech-armor:
-      uses: 1
+    - uses: 1
       perDay: true
+      id: tech-armor
   actions:
-    m-27-scimitar:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-27-scimitar
+      weaponId: m-27-scimitar
 cr: '03000'
 shields:
   capacity: 15

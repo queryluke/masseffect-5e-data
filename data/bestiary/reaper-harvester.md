@@ -36,9 +36,12 @@ speed:
 entries:
   legendary:
     actions:
-      detect: {"cost":1}
-      harvester-cannon-attack: {"cost":2}
-      spawn-husks: {"cost":3}
+      - cost: 1
+        id: detect
+      - cost: 2
+        id: harvester-cannon-attack
+      - cost: 3
+        id: spawn-husks
 cr: '20000'
 shields: false
 ---

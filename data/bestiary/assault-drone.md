@@ -32,14 +32,15 @@ speed:
   fly: 30
 entries:
   actions:
-    pulse-cannon:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 50
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '1', dieType: '10', mod: true, type: radiant}
       target: one
+      id: pulse-cannon
 cr: '00500'
 shields:
   capacity: 5

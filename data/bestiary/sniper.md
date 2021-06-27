@@ -28,16 +28,19 @@ speed:
   walk: 30
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":concussive-shot, "perDay":5}]
+    - mod: int
+      list:
+        - {id: concussive-shot, perDay: 5}
+      id: innate-powercasting
   actions:
-    m-92-mantis:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-4-shuriken:
-      ref: weapon
+      id: m-92-mantis
+      weaponId: m-92-mantis
+    - ref: weapon
       proficient: true
+      id: m-4-shuriken
+      weaponId: m-4-shuriken
 cr: '01000'
 shields:
   capacity: 5

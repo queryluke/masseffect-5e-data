@@ -27,21 +27,23 @@ speed:
   walk: 30
 entries:
   features:
-    tech-armor:
-      uses: 1
+    - uses: 1
       perDay: true
-    innate-powercasting:
-      mod: int
-      list: [{"id":incinerate, "perDay":5, "level":2}]
+      id: tech-armor
+    - mod: int
+      list:
+        - {id: incinerate, perDay: 5, level: 2}
+      id: innate-powercasting
   actions:
-    m-9-tempest:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    summon-combat-drone:
-      dc: false
+      id: m-9-tempest
+      weaponId: m-9-tempest
+    - dc: false
       save: false
       uses: 2
       perDay: true
+      id: summon-combat-drone
 cr: '03000'
 shields:
   capacity: 10

@@ -26,12 +26,14 @@ speed:
   walk: 15
 entries:
   actions:
-    stun-baton:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-358-talon:
-      ref: weapon
+      id: stun-baton
+      weaponId: stun-baton
+    - ref: weapon
       proficient: true
+      id: m-358-talon
+      weaponId: m-358-talon
 cr: '05000'
 shields: false
 ---

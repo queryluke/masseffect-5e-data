@@ -32,18 +32,21 @@ speed:
   walk: 0
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":flamethrower, "perDay":3}]
+    - mod: int
+      list:
+        - {id: flamethrower, perDay: 3}
+      id: innate-powercasting
   actions:
-    mass-accelerator-machinegun:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 150
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing},{"dieCount":'2', "dieType":'6', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: piercing}
+        - {dieCount: '2', dieType: '6', mod: true, type: radiant}
       target: one
+      id: mass-accelerator-machinegun
 cr: '01000'
 shields: false
 ---

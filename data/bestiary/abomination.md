@@ -27,14 +27,14 @@ speed:
   walk: 30
 entries:
   actions:
-    grapple:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
       damage: false
       target: one
+      id: grapple
 cr: '01000'
 shields: false
 ---

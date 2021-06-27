@@ -38,22 +38,24 @@ speed:
   walk: 40
 entries:
   actions:
-    bite:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'10', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '2', dieType: '10', mod: true, type: piercing}
       target: one
-    claw:
-      attack: melee
+      id: bite
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":slashing}]
+      damage:
+        - {dieCount: '2', dieType: '8', mod: true, type: slashing}
       target: one
+      id: claw
 cr: '08000'
 shields: false
 ---

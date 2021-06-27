@@ -34,14 +34,16 @@ speed:
   walk: 0
 entries:
   actions:
-    mass-accelerator-machinegun:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 150
       dc: false
       mod: int
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":piercing},{"dieCount":'2', "dieType":'6', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: piercing}
+        - {dieCount: '2', dieType: '6', mod: true, type: radiant}
       target: one
+      id: mass-accelerator-machinegun
 cr: '01000'
 shields:
   capacity: 10

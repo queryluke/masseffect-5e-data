@@ -33,32 +33,37 @@ speed:
   walk: 30
 entries:
   actions:
-    weapon-bash:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '1', dieType: '10', mod: true, type: bludgeoning}
       target: one
-    geth-pulse-rifle:
-      ref: weapon
+      id: weapon-bash
+    - ref: weapon
       proficient: true
-    summon-combat-drone:
-      dc: false
+      id: geth-pulse-rifle
+      weaponId: geth-pulse-rifle
+    - dc: false
       save: false
       uses: 3
       perDay: true
-    summon-geth-turret:
-      dc: false
+      id: summon-combat-drone
+    - dc: false
       save: false
       uses: 1
       perDay: true
+      id: summon-geth-turret
   legendary:
     actions:
-      activate-radar-jamming: {"cost":2}
-      geth-pulse-rifle-attack: {"cost":1}
-      summon-turret-or-drone: {"cost":3}
+      - cost: 2
+        id: activate-radar-jamming
+      - cost: 1
+        id: geth-pulse-rifle-attack
+      - cost: 3
+        id: summon-turret-or-drone
 cr: '09000'
 shields:
   capacity: 30

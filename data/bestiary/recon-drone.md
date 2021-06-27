@@ -35,18 +35,19 @@ speed:
   fly: 40
 entries:
   features:
-    tactical-cloak:
-      uses: 3
+    - uses: 3
       perDay: true
+      id: tactical-cloak
   actions:
-    pulse-rifle:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 150
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '1', dieType: '4', mod: true, type: radiant}
       target: one
+      id: pulse-rifle
 cr: '00125'
 shields:
   capacity: 5

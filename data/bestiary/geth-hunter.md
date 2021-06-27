@@ -34,13 +34,14 @@ speed:
   walk: 40
 entries:
   features:
-    tactical-cloak:
-      uses: 3
+    - uses: 3
       perDay: true
+      id: tactical-cloak
   actions:
-    geth-plasma-shotgun:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: geth-plasma-shotgun
+      weaponId: geth-plasma-shotgun
 cr: '04000'
 shields:
   capacity: 20

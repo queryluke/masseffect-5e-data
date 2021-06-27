@@ -26,9 +26,9 @@ speed:
   walk: 30
 entries:
   features:
-    tech-armor:
-      uses: 1
+    - uses: 1
       perDay: true
+      id: tech-armor
 cr: '02000'
 shields:
   capacity: 10

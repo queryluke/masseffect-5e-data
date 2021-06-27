@@ -2,12 +2,11 @@
 name: Thorian Nymph
 entries:
   actions:
-    bite:
-      name: Bite
-    acid-spit:
-      name: Acid Spit
-    release-spores:
-      name: Release Spores
+    - name: Bite
+      id: bite
+    - name: Acid Spit
+      id: acid-spit
+    - name: Release Spores
       text: >-
         The nymph releases spores in a <me-distance length='10' adj />-radius
         sphere lasting until the end of its next turn. A creature that enters
@@ -15,6 +14,7 @@ entries:
         (1d6) psychic damage and must make a DC 13 Wisdom saving throw. On a
         failed save, a creature becomes paralyzed until the start of its next
         turn.
+      id: release-spores
 ---
 In its juvenile stage, the Thorian becomes mobile and sneaks aboard unknowing ships to spread across 
 the galaxy.

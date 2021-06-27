@@ -51,27 +51,33 @@ speed:
   walk: 15
 entries:
   features:
-    repair-protocol:
-      uses: 3
+    - uses: 3
       perDay: true
+      id: repair-protocol
   actions:
-    mass-accelerator-machinegun:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 300
       dc: false
       mod: dex
-      damage: [{"dieCount":'3', "dieType":'12', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'12', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '3', dieType: '12', mod: true, type: piercing}
+        - {dieCount: '3', dieType: '12', mod: true, type: radiant}
       target: one
-    siege-pulse:
-      dc: false
+      id: mass-accelerator-machinegun
+    - dc: false
       save: false
-      recharge: ['6']
+      recharge:
+        - '6'
+      id: siege-pulse
   legendary:
     actions:
-      mass-accelerator-machinegun-attack: {"cost":1}
-      siege-cannon-attack: {"cost":1}
-      siege-pulse-attack: {"cost":2}
+      - cost: 1
+        id: mass-accelerator-machinegun-attack
+      - cost: 1
+        id: siege-cannon-attack
+      - cost: 2
+        id: siege-pulse-attack
 cr: '21000'
 shields:
   capacity: 100

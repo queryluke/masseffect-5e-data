@@ -28,18 +28,21 @@ speed:
   walk: 30
 entries:
   actions:
-    slash:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'4', "mod":true, "type":slashing}]
+      damage:
+        - {dieCount: '2', dieType: '4', mod: true, type: slashing}
       target: one
-    acid-vomit:
-      dc: false
+      id: slash
+    - dc: false
       save: false
-      recharge: ['4','6']
+      recharge:
+        - '4'
+        - '6'
+      id: acid-vomit
 cr: '00250'
 shields: false
 ---

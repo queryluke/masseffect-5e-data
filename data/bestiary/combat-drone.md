@@ -32,18 +32,20 @@ speed:
   fly: 40
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":sabotage, "perDay":3}]
+    - mod: int
+      list:
+        - {id: sabotage, perDay: 3}
+      id: innate-powercasting
   actions:
-    shock-attack:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 25
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":lightning}]
+      damage:
+        - {dieCount: '1', dieType: '6', mod: true, type: lightning}
       target: one
+      id: shock-attack
 cr: '00250'
 shields:
   capacity: 10

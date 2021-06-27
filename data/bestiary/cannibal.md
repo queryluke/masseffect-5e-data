@@ -26,30 +26,33 @@ speed:
   walk: 25
 entries:
   features:
-    grenades:
-      list: [{"id":frag-grenade, "mark":iii, "uses":2}]
+    - list:
+        - {id: frag-grenade, mark: iii, uses: 2}
+      id: grenades
   actions:
-    arm-cannon:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 50
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '1', dieType: '10', mod: true, type: piercing}
       target: one
-    bash:
-      attack: melee
+      id: arm-cannon
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'8', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '1', dieType: '8', mod: true, type: bludgeoning}
       target: one
-    cannibalize:
-      dc: false
+      id: bash
+    - dc: false
       save: false
       uses: 1
       perDay: true
+      id: cannibalize
 cr: '02000'
 shields: false
 ---

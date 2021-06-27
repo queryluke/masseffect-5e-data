@@ -26,12 +26,14 @@ speed:
   walk: 30
 entries:
   features:
-    grenades:
-      list: [{"id":frag-grenade, "mark":iii, "uses":2}]
+    - list:
+        - {id: frag-grenade, mark: iii, uses: 2}
+      id: grenades
   actions:
-    zalkin:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: zalkin
+      weaponId: zalkin
 cr: '01000'
 shields: false
 ---

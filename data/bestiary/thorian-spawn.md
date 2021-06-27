@@ -28,19 +28,20 @@ speed:
   walk: 0
 entries:
   actions:
-    acid-spit:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 25
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: necrotic}
       target: one
-    release-spores:
-      dc: false
+      id: acid-spit
+    - dc: false
       save: false
       uses: 1
       perDay: true
+      id: release-spores
 cr: '00250'
 shields: false
 ---

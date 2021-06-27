@@ -28,9 +28,10 @@ speed:
   walk: 30
 entries:
   actions:
-    m-27-scimitar:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-27-scimitar
+      weaponId: m-27-scimitar
 cr: '03000'
 shields: false
 ---

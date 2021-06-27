@@ -25,12 +25,14 @@ speed:
   walk: 30
 entries:
   features:
-    grenades:
-      list: [{"id":flashbang-grenade, "mark":iii, "uses":2}]
+    - list:
+        - {id: flashbang-grenade, mark: iii, uses: 2}
+      id: grenades
   actions:
-    m-8-avenger:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-8-avenger
+      weaponId: m-8-avenger
 cr: '00250'
 shields:
   capacity: 5

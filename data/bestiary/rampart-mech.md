@@ -33,19 +33,21 @@ speed:
   walk: 30
 entries:
   features:
-    hex-shield:
-      uses: 1
+    - uses: 1
       perDay: true
-    tactical-cloak:
-      uses: 1
+      id: hex-shield
+    - uses: 1
       perDay: true
+      id: tactical-cloak
   actions:
-    omni-blade:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-23-katana:
-      ref: weapon
+      id: omni-blade
+      weaponId: omni-blade
+    - ref: weapon
       proficient: true
+      id: m-23-katana
+      weaponId: m-23-katana
 cr: '02000'
 shields: false
 ---

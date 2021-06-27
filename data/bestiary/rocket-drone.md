@@ -32,14 +32,15 @@ speed:
   fly: 25
 entries:
   actions:
-    distortion-rocket:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 75
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":thunder}]
+      damage:
+        - {dieCount: '2', dieType: '8', mod: true, type: thunder}
       target: one
+      id: distortion-rocket
 cr: '00500'
 shields: false
 ---

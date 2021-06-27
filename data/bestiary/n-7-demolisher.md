@@ -30,20 +30,24 @@ speed:
   walk: 30
 entries:
   features:
-    grenades:
-      list: [{"id":arc-grenade, "mark":iii, "uses":3},{"id":homing-grenade, "mark":i, "uses":3}]
+    - list:
+        - {id: arc-grenade, mark: iii, uses: 3}
+        - {id: homing-grenade, mark: i, uses: 3}
+      id: grenades
   actions:
-    n-7-eagle:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    n-7-hurricane:
-      ref: weapon
+      id: n-7-eagle
+      weaponId: n-7-eagle
+    - ref: weapon
       proficient: true
-    deploy-shield-pylon:
-      dc: false
+      id: n-7-hurricane
+      weaponId: n-7-hurricane
+    - dc: false
       save: false
       uses: 1
       perDay: true
+      id: deploy-shield-pylon
 cr: '05000'
 shields:
   capacity: 20

@@ -46,31 +46,37 @@ speed:
   burrow: 35
 entries:
   features:
-    legendary-resistance:
-      uses: 3
+    - uses: 3
       perDay: true
+      id: legendary-resistance
   actions:
-    grasp:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'3', "dieType":'12', "mod":true, "type":bludgeoning},{"dieCount":'2', "dieType":'12', "mod":true, "type":acid}]
+      damage:
+        - {dieCount: '3', dieType: '12', mod: true, type: bludgeoning}
+        - {dieCount: '2', dieType: '12', mod: true, type: acid}
       target: one
-    tail:
-      attack: melee
+      id: grasp
+    - attack: melee
       proficient: true
       range: 20
       dc: false
       mod: str
-      damage: [{"dieCount":'4', "dieType":'6', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '4', dieType: '6', mod: true, type: bludgeoning}
       target: one
+      id: tail
   legendary:
     actions:
-      acid-spit-attack: {"cost":2}
-      move: {"cost":1}
-      tail-attack: {"cost":1}
+      - cost: 2
+        id: acid-spit-attack
+      - cost: 1
+        id: move
+      - cost: 1
+        id: tail-attack
 cr: '28000'
 shields: false
 ---

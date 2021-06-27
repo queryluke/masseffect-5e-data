@@ -30,22 +30,25 @@ speed:
   walk: 30
 entries:
   actions:
-    acid-spit:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 50
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":acid},{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: acid}
+        - {dieCount: '2', dieType: '6', mod: true, type: necrotic}
       target: one
-    impale:
-      attack: melee
+      id: acid-spit
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":acid}]
+      damage:
+        - {dieCount: '1', dieType: '4', mod: true, type: acid}
       target: one
+      id: impale
 cr: '01000'
 shields: false
 ---

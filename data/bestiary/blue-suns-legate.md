@@ -30,21 +30,24 @@ speed:
   walk: 30
 entries:
   features:
-    tech-armor:
-      uses: 1
+    - uses: 1
       perDay: true
-    leadership:
-      recharge: short
-    innate-powercasting:
-      mod: int
-      list: [{"id":target-painting, "perDay":3}]
+      id: tech-armor
+    - recharge: short
+      id: leadership
+    - mod: int
+      list:
+        - {id: target-painting, perDay: 3}
+      id: innate-powercasting
   actions:
-    m-76-revenant:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-300-claymore:
-      ref: weapon
+      id: m-76-revenant
+      weaponId: m-76-revenant
+    - ref: weapon
       proficient: true
+      id: m-300-claymore
+      weaponId: m-300-claymore
 cr: '05000'
 shields:
   capacity: 20

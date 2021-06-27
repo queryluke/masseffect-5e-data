@@ -28,13 +28,16 @@ speed:
   walk: 30
 entries:
   actions:
-    phaeston:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    create-armor-plating:
-      dc: false
+      id: phaeston
+      weaponId: phaeston
+    - dc: false
       save: false
-      recharge: ['5','6']
+      recharge:
+        - '5'
+        - '6'
+      id: create-armor-plating
 cr: '02000'
 shields:
   capacity: 15

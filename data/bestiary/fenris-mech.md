@@ -35,26 +35,29 @@ speed:
   walk: 40
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":shocking-grasp, "perDay":3}]
+    - mod: int
+      list:
+        - {id: shocking-grasp, perDay: 3}
+      id: innate-powercasting
   actions:
-    pounce:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: bludgeoning}
       target: one
-    stun:
-      attack: melee
+      id: pounce
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":lightning}]
+      damage:
+        - {dieCount: '2', dieType: '8', mod: true, type: lightning}
       target: one
+      id: stun
 cr: '00500'
 shields: false
 ---

@@ -32,17 +32,20 @@ speed:
   fly: 15
 entries:
   actions:
-    collector-assault-rifle:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    leadership:
-      dc: false
+      id: collector-assault-rifle
+      weaponId: collector-assault-rifle
+    - dc: false
       save: false
       recharge: short
-    summon-seeker-swarm:
-      dc: false
+      id: leadership
+    - dc: false
       save: false
-      recharge: ['5','6']
+      recharge:
+        - '5'
+        - '6'
+      id: summon-seeker-swarm
 cr: '07000'
 shields: false
 ---

@@ -41,18 +41,22 @@ speed:
   walk: 15
 entries:
   actions:
-    mass-accelerator-machinegun:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 150
       dc: false
       mod: dex
-      damage: [{"dieCount":'3', "dieType":'10', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'10', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '3', dieType: '10', mod: true, type: piercing}
+        - {dieCount: '3', dieType: '10', mod: true, type: radiant}
       target: one
-    rocket-launcher:
-      dc: false
+      id: mass-accelerator-machinegun
+    - dc: false
       save: false
-      recharge: ['5','6']
+      recharge:
+        - '5'
+        - '6'
+      id: rocket-launcher
 cr: '11000'
 shields:
   capacity: 50

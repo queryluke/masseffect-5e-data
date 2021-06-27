@@ -39,14 +39,15 @@ speed:
   fly: 60
 entries:
   actions:
-    crush:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 25
       dc: false
       mod: str
-      damage: [{"dieCount":'4', "dieType":'6', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '4', dieType: '6', mod: true, type: bludgeoning}
       target: one
+      id: crush
 cr: '11000'
 shields: false
 ---

@@ -36,11 +36,13 @@ speed:
   fly: 30
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":overload, "perDay":at_will}]
-    grenades:
-      list: [{"id":multi-frag-grenade, "mark":ii, "uses":2}]
+    - mod: int
+      list:
+        - {id: overload, perDay: at_will}
+      id: innate-powercasting
+    - list:
+        - {id: multi-frag-grenade, mark: ii, uses: 2}
+      id: grenades
 cr: '02000'
 shields:
   capacity: 15

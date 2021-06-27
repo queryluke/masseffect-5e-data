@@ -2,6 +2,6 @@
 name: Seeker Swarm
 entries:
   actions:
-    sting:
-      name: Sting
+    - name: Sting
+      id: sting
 ---

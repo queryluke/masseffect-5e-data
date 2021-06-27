@@ -32,18 +32,21 @@ speed:
   fly: 15
 entries:
   actions:
-    pulse-cannon:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 50
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":radiant}]
+      damage:
+        - {dieCount: '1', dieType: '10', mod: true, type: radiant}
       target: one
-    shield-restore:
-      dc: false
+      id: pulse-cannon
+    - dc: false
       save: false
-      recharge: ['5','6']
+      recharge:
+        - '5'
+        - '6'
+      id: shield-restore
 cr: '00250'
 shields:
   capacity: 5

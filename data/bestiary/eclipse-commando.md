@@ -27,21 +27,24 @@ speed:
   walk: 30
 entries:
   features:
-    barrier:
-      uses: 3
+    - uses: 3
       perDay: true
-    powercasting:
-      mod: cha
+      id: barrier
+    - mod: cha
       casterLevel: '12'
-      list: [charge,warp]
+      list:
+        - charge
+        - warp
+      id: powercasting
   actions:
-    m-300-claymore:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    leadership:
-      dc: false
+      id: m-300-claymore
+      weaponId: m-300-claymore
+    - dc: false
       save: false
       recharge: short
+      id: leadership
 cr: '05000'
 shields: false
 ---

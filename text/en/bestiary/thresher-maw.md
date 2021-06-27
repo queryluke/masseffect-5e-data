@@ -2,13 +2,12 @@
 name: Thresher Maw
 entries:
   features:
-    destroy-terrain:
-      name: Destroy Terrain
+    - name: Destroy Terrain
       text: >-
         When the thresher maw moves via burrowing, the ground it moves through
         becomes difficult terrain.
-    frightful-presence:
-      name: Frightful Presence
+      id: destroy-terrain
+    - name: Frightful Presence
       text: >-
         Each creature of the thresher maw's choice that is within <me-distance
         length='150' /> of the name and aware of it must succeed on a DC 22
@@ -17,29 +16,29 @@ entries:
         effect on itself on a success. If a creature's saving throw is
         successful or the effect ends for it, the creature is immune to the
         thresher maw's Frightful Presence for the next 24 hours.
-    legendary-resistance:
-      name: Legendary Resistance
+      id: frightful-presence
+    - name: Legendary Resistance
       text: >-
         If the thresher maw fails a saving throw, it can choose to succeed
         instead.
-    siege-monster:
-      name: Siege Monster
+      id: legendary-resistance
+    - name: Siege Monster
       text: The thresher maw deals double damage to objects and structures.
+      id: siege-monster
   actions:
-    multiattack:
-      name: Multiattack
+    - name: Multiattack
       text: >-
         The thresher maw can use its Frightful Presence. It then makes four
         attacks: one with its grasp, two with its tail, one with its acid spit.
         It can use its Swallow instead of its grasp.
-    acid-spit:
-      name: Acid Spit
+      id: multiattack
+    - name: Acid Spit
       hit: ' Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one'
-    grasp:
-      name: Grasp
+      id: acid-spit
+    - name: Grasp
       hit: ' If the target is a creature, it is grappled (escape DC 22)'
-    swallow:
-      name: Swallow
+      id: grasp
+    - name: Swallow
       text: >-
         The thresher maw makes one grasp attack against a Large or smaller
         creature it is grappling. If the attack hits, the target takes the
@@ -55,9 +54,10 @@ entries:
         length='10' /> of the thresher maw. If the thresher maw dies, a
         swallowed creature is no longer restrained by it and can escape from the
         corpse by using <me-distance length='30' /> of movement, exiting prone.
-    tail:
-      name: Tail
+      id: swallow
+    - name: Tail
       hit: ' If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone'
+      id: tail
   legendary:
     text: >-
       The thresher maw can take 3 legendary actions, choosing from the options
@@ -65,13 +65,13 @@ entries:
       of another creature's turn. The thresher maw regains spent legendary
       actions at the start of its turn.
     actions:
-      acid-spit-attack:
-        name: Acid Spit Attack
+      - name: Acid Spit Attack
         text: The thresher maw makes an acid spit attack.
-      move:
-        name: Move
+        id: acid-spit-attack
+      - name: Move
         text: The thresher maw moves up to half its speed.
-      tail-attack:
-        name: Tail Attack
+        id: move
+      - name: Tail Attack
         text: The thresher maw makes a tail attack.
+        id: tail-attack
 ---

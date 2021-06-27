@@ -28,18 +28,22 @@ speed:
   walk: 30
 entries:
   actions:
-    acid-splash:
-      dc: false
+    - dc: false
       save: false
-      recharge: ['5','6']
-    twin-artillery-cannons:
-      attack: ranged
+      recharge:
+        - '5'
+        - '6'
+      id: acid-splash
+    - attack: ranged
       proficient: true
       range: 150
       dc: false
       mod: dex
-      damage: [{"dieCount":'3', "dieType":'10', "mod":true, "type":piercing},{"dieCount":'3', "dieType":'6', "mod":true, "type":acid}]
+      damage:
+        - {dieCount: '3', dieType: '10', mod: true, type: piercing}
+        - {dieCount: '3', dieType: '6', mod: true, type: acid}
       target: one
+      id: twin-artillery-cannons
 cr: '06000'
 shields: false
 ---

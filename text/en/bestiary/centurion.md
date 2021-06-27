@@ -2,18 +2,18 @@
 name: Centurion
 entries:
   features:
-    aggressive:
-      name: Aggressive
+    - name: Aggressive
       text: >-
         As a bonus action, the centurion can move up to its speed toward a
         hostile creature that it can see.
-    grenades:
-      name: Grenades
+      id: aggressive
+    - name: Grenades
       text: >-
         The centurion has the following grenades equipped. It can use a grenade
         as an action.
+      id: grenades
   actions:
-    multiattack:
-      name: Multiattack
+    - name: Multiattack
       text: The centurion makes two M-96 Mattock attacks or two Stun Baton attacks.
+      id: multiattack
 ---

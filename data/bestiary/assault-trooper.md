@@ -26,15 +26,18 @@ speed:
   walk: 30
 entries:
   features:
-    grenades:
-      list: [{"id":frag-grenade, "mark":iii, "uses":2}]
+    - list:
+        - {id: frag-grenade, mark: iii, uses: 2}
+      id: grenades
   actions:
-    stun-baton:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-25-hornet:
-      ref: weapon
+      id: stun-baton
+      weaponId: stun-baton
+    - ref: weapon
       proficient: true
+      id: m-25-hornet
+      weaponId: m-25-hornet
 cr: '01000'
 shields: false
 ---

@@ -2,6 +2,6 @@
 name: Rocket Drone
 entries:
   actions:
-    distortion-rocket:
-      name: Distortion Rocket
+    - name: Distortion Rocket
+      id: distortion-rocket
 ---

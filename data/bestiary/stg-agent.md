@@ -28,15 +28,19 @@ speed:
   walk: 30
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":decoy, "perDay":3},{"id":overload, "perDay":5, "level":2}]
-    grenades:
-      list: [{"id":flashbang-grenade, "mark":iii, "uses":2}]
+    - mod: int
+      list:
+        - {id: decoy, perDay: 3}
+        - {id: overload, perDay: 5, level: 2}
+      id: innate-powercasting
+    - list:
+        - {id: flashbang-grenade, mark: iii, uses: 2}
+      id: grenades
   actions:
-    scorpion:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: scorpion
+      weaponId: scorpion
 cr: '03000'
 shields:
   capacity: 10

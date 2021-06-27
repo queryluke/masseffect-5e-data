@@ -29,20 +29,25 @@ speed:
   walk: 40
 entries:
   features:
-    barrier:
-      uses: 2
+    - uses: 2
       perDay: true
-    powercasting:
-      mod: wis
+      id: barrier
+    - mod: wis
       casterLevel: 9
-      list: [charge,phase-disruptor,biotic-slash]
+      list:
+        - charge
+        - phase-disruptor
+        - biotic-slash
+      id: powercasting
   actions:
-    monomolecular-blade:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    n-7-piranha:
-      ref: weapon
+      id: monomolecular-blade
+      weaponId: monomolecular-blade
+    - ref: weapon
       proficient: true
+      id: n-7-piranha
+      weaponId: n-7-piranha
 cr: '05000'
 shields:
   capacity: 15

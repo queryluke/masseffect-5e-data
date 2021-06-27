@@ -32,17 +32,19 @@ speed:
   walk: 30
 entries:
   actions:
-    weapon-strike:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '1', dieType: '6', mod: true, type: bludgeoning}
       target: one
-    geth-pulse-rifle:
-      ref: weapon
+      id: weapon-strike
+    - ref: weapon
       proficient: true
+      id: geth-pulse-rifle
+      weaponId: geth-pulse-rifle
 cr: '02000'
 shields: false
 ---

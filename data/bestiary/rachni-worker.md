@@ -27,18 +27,21 @@ speed:
   walk: 35
 entries:
   actions:
-    acid-splash:
-      dc: false
+    - dc: false
       save: false
-      recharge: ['4','6']
-    bite:
-      attack: melee
+      recharge:
+        - '4'
+        - '6'
+      id: acid-splash
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '1', dieType: '6', mod: true, type: piercing}
       target: one
+      id: bite
 cr: '00125'
 shields: false
 ---

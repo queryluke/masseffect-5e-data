@@ -2,13 +2,13 @@
 name: Rachni Queen
 entries:
   actions:
-    multiattack:
-      name: Multiattack
+    - name: Multiattack
       text: The rachni queen makes one bite attack and two impale attacks.
-    bite:
-      name: Bite
-    impale:
-      name: Impale
+      id: multiattack
+    - name: Bite
+      id: bite
+    - name: Impale
+      id: impale
 ---
 ### Lair Actions
 On initiative count 20 (losing initiative ties), the rachni queen takes a lair action to cause one 

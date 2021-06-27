@@ -27,20 +27,23 @@ speed:
   walk: 40
 entries:
   actions:
-    claws:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":slashing}]
+      damage:
+        - {dieCount: '1', dieType: '6', mod: true, type: slashing}
       target: one
-    m-3-predator:
-      ref: weapon
+      id: claws
+    - ref: weapon
       proficient: true
-    m-8-avenger:
-      ref: weapon
+      id: m-3-predator
+      weaponId: m-3-predator
+    - ref: weapon
       proficient: true
+      id: m-8-avenger
+      weaponId: m-8-avenger
 cr: '00250'
 shields: false
 ---

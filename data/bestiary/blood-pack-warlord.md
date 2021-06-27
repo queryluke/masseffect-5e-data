@@ -30,22 +30,28 @@ speed:
   walk: 25
 entries:
   features:
-    tech-armor:
-      uses: 1
+    - uses: 1
       perDay: true
-    rage:
-      recharge: short
-    biotic-hammer:
-      recharge: ['5','6']
-    electrical-hammer:
-      recharge: ['5','6']
+      id: tech-armor
+    - recharge: short
+      id: rage
+    - recharge:
+        - '5'
+        - '6'
+      id: biotic-hammer
+    - recharge:
+        - '5'
+        - '6'
+      id: electrical-hammer
   actions:
-    krogan-warhammer:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-300-claymore:
-      ref: weapon
+      id: krogan-warhammer
+      weaponId: krogan-warhammer
+    - ref: weapon
       proficient: true
+      id: m-300-claymore
+      weaponId: m-300-claymore
 cr: '05000'
 shields: false
 ---

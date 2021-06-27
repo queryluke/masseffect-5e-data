@@ -32,18 +32,21 @@ speed:
   walk: 30
 entries:
   actions:
-    fire-breath:
-      dc: false
+    - dc: false
       save: false
-      recharge: ['6']
-    pincer:
-      attack: melee
+      recharge:
+        - '6'
+      id: fire-breath
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":piercing},{"dieCount":'1', "dieType":'4', "mod":true, "type":fire}]
+      damage:
+        - {dieCount: '1', dieType: '4', mod: true, type: piercing}
+        - {dieCount: '1', dieType: '4', mod: true, type: fire}
       target: one
+      id: pincer
 cr: '01000'
 shields: false
 ---

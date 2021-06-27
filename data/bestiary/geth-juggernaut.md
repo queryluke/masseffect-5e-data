@@ -34,17 +34,19 @@ speed:
   walk: 35
 entries:
   actions:
-    bash:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '2', dieType: '8', mod: true, type: bludgeoning}
       target: one
-    geth-plasma-smg:
-      ref: weapon
+      id: bash
+    - ref: weapon
       proficient: true
+      id: geth-plasma-smg
+      weaponId: geth-plasma-smg
 cr: '08000'
 shields:
   capacity: 20

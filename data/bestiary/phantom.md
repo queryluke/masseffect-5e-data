@@ -30,21 +30,23 @@ speed:
   walk: 40
 entries:
   features:
-    barrier:
-      uses: 3
+    - uses: 3
       perDay: true
+      id: barrier
   actions:
-    monomolecular-blade:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    palm-blaster:
-      attack: ranged
+      id: monomolecular-blade
+      weaponId: monomolecular-blade
+    - attack: ranged
       proficient: true
       range: 10
       dc: false
       mod: dex
-      damage: [{"dieCount":'3', "dieType":'10', "mod":true, "type":thunder}]
+      damage:
+        - {dieCount: '3', dieType: '10', mod: true, type: thunder}
       target: one
+      id: palm-blaster
 cr: '07000'
 shields: false
 ---

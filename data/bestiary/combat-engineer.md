@@ -26,9 +26,10 @@ speed:
   walk: 30
 entries:
   actions:
-    m-5-phalanx:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-5-phalanx
+      weaponId: m-5-phalanx
 cr: '03000'
 shields:
   capacity: 20

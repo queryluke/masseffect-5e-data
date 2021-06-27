@@ -2,8 +2,7 @@
 name: Oculus
 entries:
   actions:
-    particle-beam:
-      name: Particle Beam
+    - name: Particle Beam
       text: >-
         The oculus fires a persistent particle beam that is <me-distance
         length='60' /> long and <me-distance length='5' /> wide that lasts until
@@ -12,6 +11,7 @@ entries:
         moves into the beam's path for the first time on its turn must make a DC
         16 Constitution saving throw. On a failed save, a creature takes 66
         (12d10) radiant damage, or half as much on a successful save.
-    crush:
-      name: Crush
+      id: particle-beam
+    - name: Crush
+      id: crush
 ---

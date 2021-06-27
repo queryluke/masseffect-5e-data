@@ -30,15 +30,19 @@ speed:
   walk: 30
 entries:
   features:
-    grenades:
-      list: [{"id":frag-grenade, "mark":iii, "uses":2},{"id":smoke, "mark":grenade, "uses":2}]
+    - list:
+        - {id: frag-grenade, mark: iii, uses: 2}
+        - {id: smoke, mark: grenade, uses: 2}
+      id: grenades
   actions:
-    stun-baton:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-96-mattock:
-      ref: weapon
+      id: stun-baton
+      weaponId: stun-baton
+    - ref: weapon
       proficient: true
+      id: m-96-mattock
+      weaponId: m-96-mattock
 cr: '04000'
 shields:
   capacity: 10

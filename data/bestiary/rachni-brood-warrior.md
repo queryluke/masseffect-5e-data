@@ -29,29 +29,34 @@ speed:
   walk: 30
 entries:
   features:
-    barrier:
-      uses: 3
+    - uses: 3
       perDay: true
-    innate-powercasting:
-      mod: wis
-      list: [{"id":stasis, "perDay":3},{"id":warp, "perDay":5}]
+      id: barrier
+    - mod: wis
+      list:
+        - {id: stasis, perDay: 3}
+        - {id: warp, perDay: 5}
+      id: innate-powercasting
   actions:
-    acid-spit:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 50
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":acid},{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: acid}
+        - {dieCount: '2', dieType: '6', mod: true, type: necrotic}
       target: one
-    impale:
-      attack: melee
+      id: acid-spit
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'10', "mod":true, "type":acid}]
+      damage:
+        - {dieCount: '1', dieType: '10', mod: true, type: acid}
       target: one
+      id: impale
 cr: '04000'
 shields: false
 ---

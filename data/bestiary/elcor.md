@@ -33,14 +33,15 @@ speed:
   walk: 20
 entries:
   actions:
-    mass-accelerator-cannon:
-      attack: ranged
+    - attack: ranged
       proficient: true
       range: 300
       dc: false
       mod: int
-      damage: [{"dieCount":'5', "dieType":'8', "mod":false, "type":radiant}]
+      damage:
+        - {dieCount: '5', dieType: '8', mod: false, type: radiant}
       target: one
+      id: mass-accelerator-cannon
 cr: '06000'
 shields:
   capacity: 50

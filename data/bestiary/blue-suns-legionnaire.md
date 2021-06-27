@@ -26,15 +26,17 @@ speed:
   walk: 30
 entries:
   features:
-    tech-armor:
-      uses: 1
+    - uses: 1
       perDay: true
-    grenades:
-      list: [{"id":inferno-grenade, "mark":iii, "uses":2}]
+      id: tech-armor
+    - list:
+        - {id: inferno-grenade, mark: iii, uses: 2}
+      id: grenades
   actions:
-    m-15-vindicator:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-15-vindicator
+      weaponId: m-15-vindicator
 cr: '00500'
 shields:
   capacity: 5

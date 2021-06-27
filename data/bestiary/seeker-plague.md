@@ -26,14 +26,16 @@ speed:
   fly: 30
 entries:
   actions:
-    plague-sting:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":poison},{"dieCount":'1', "dieType":'4', "mod":true, "type":necrotic}]
+      damage:
+        - {dieCount: '1', dieType: '4', mod: true, type: poison}
+        - {dieCount: '1', dieType: '4', mod: true, type: necrotic}
       target: one
+      id: plague-sting
 cr: '00250'
 shields: false
 ---

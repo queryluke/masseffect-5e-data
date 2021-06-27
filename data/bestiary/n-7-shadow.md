@@ -28,16 +28,18 @@ speed:
   walk: 35
 entries:
   features:
-    tactical-cloak:
-      uses: 3
+    - uses: 3
       perDay: true
-    innate-powercasting:
-      mod: int
-      list: [{"id":electric-slash, "perDay":4, "level":3}]
+      id: tactical-cloak
+    - mod: int
+      list:
+        - {id: electric-slash, perDay: 4, level: 3}
+      id: innate-powercasting
   actions:
-    m-97-viper:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-97-viper
+      weaponId: m-97-viper
 cr: '07000'
 shields:
   capacity: 20

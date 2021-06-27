@@ -27,14 +27,15 @@ speed:
   walk: 40
 entries:
   actions:
-    claws:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":slashing}]
+      damage:
+        - {dieCount: '1', dieType: '6', mod: true, type: slashing}
       target: one
+      id: claws
 cr: '03000'
 shields:
   capacity: 5

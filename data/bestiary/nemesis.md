@@ -30,9 +30,10 @@ speed:
   walk: 30
 entries:
   actions:
-    m-98-widow:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: m-98-widow
+      weaponId: m-98-widow
 cr: '06000'
 shields:
   capacity: 20

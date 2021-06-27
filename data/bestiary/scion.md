@@ -31,18 +31,21 @@ speed:
   walk: 25
 entries:
   actions:
-    bash:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'8', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '1', dieType: '8', mod: true, type: bludgeoning}
       target: one
-    salvo:
-      dc: false
+      id: bash
+    - dc: false
       save: false
-      recharge: ['4','6']
+      recharge:
+        - '4'
+        - '6'
+      id: salvo
 cr: '09000'
 shields: false
 ---

@@ -29,17 +29,19 @@ speed:
   fly: 15
 entries:
   actions:
-    claw:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":slashing}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: slashing}
       target: one
-    particle-rifle:
-      ref: weapon
+      id: claw
+    - ref: weapon
       proficient: true
+      id: particle-rifle
+      weaponId: particle-rifle
 cr: '03000'
 shields: false
 ---

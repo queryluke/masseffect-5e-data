@@ -27,25 +27,29 @@ speed:
   walk: 30
 entries:
   features:
-    barrier:
-      uses: 1
+    - uses: 1
       perDay: true
-    omni-shield:
-      uses: 1
+      id: barrier
+    - uses: 1
       perDay: true
-    variant--fire-shield:
-      uses: 1
+      id: omni-shield
+    - uses: 1
       perDay: true
-    variant--cryo-shield:
-      uses: 1
+      id: variant--fire-shield
+    - uses: 1
       perDay: true
-    innate-powercasting:
-      mod: cha
-      list: [{"id":incinerate, "perDay":at_will},{"id":energy-drain, "perDay":3},{"id":snap-freeze, "perDay":3, "level":4}]
+      id: variant--cryo-shield
+    - mod: cha
+      list:
+        - {id: incinerate, perDay: at_will}
+        - {id: energy-drain, perDay: 3}
+        - {id: snap-freeze, perDay: 3, level: 4}
+      id: innate-powercasting
   actions:
-    n-7-hurricane:
-      ref: weapon
+    - ref: weapon
       proficient: true
+      id: n-7-hurricane
+      weaponId: n-7-hurricane
 cr: '07000'
 shields:
   capacity: 20

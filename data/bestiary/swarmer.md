@@ -29,14 +29,15 @@ speed:
   walk: 35
 entries:
   actions:
-    suicide-attack:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: dex
-      damage: [{"dieCount":'1', "dieType":'6', "mod":true, "type":acid}]
+      damage:
+        - {dieCount: '1', dieType: '6', mod: true, type: acid}
       target: one
+      id: suicide-attack
 cr: '00125'
 shields: false
 ---

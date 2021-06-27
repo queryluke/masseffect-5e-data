@@ -33,22 +33,24 @@ speed:
   walk: 15
 entries:
   actions:
-    bite:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 10
       dc: false
       mod: str
-      damage: [{"dieCount":'3', "dieType":'12', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '3', dieType: '12', mod: true, type: piercing}
       target: one
-    impale:
-      attack: melee
+      id: bite
+    - attack: melee
       proficient: true
       range: 20
       dc: false
       mod: str
-      damage: [{"dieCount":'4', "dieType":'10', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '4', dieType: '10', mod: true, type: piercing}
       target: one
+      id: impale
 cr: '18000'
 shields: false
 ---

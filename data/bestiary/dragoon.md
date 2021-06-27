@@ -27,12 +27,14 @@ speed:
   walk: 35
 entries:
   actions:
-    omni-whip:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-25-hornet:
-      ref: weapon
+      id: omni-whip
+      weaponId: omni-whip
+    - ref: weapon
       proficient: true
+      id: m-25-hornet
+      weaponId: m-25-hornet
 cr: '05000'
 shields: false
 ---

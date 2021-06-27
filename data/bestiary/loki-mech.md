@@ -35,16 +35,19 @@ speed:
   walk: 25
 entries:
   features:
-    innate-powercasting:
-      mod: int
-      list: [{"id":shocking-grasp, "perDay":5}]
+    - mod: int
+      list:
+        - {id: shocking-grasp, perDay: 5}
+      id: innate-powercasting
   actions:
-    m-4-shuriken:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-3-predator:
-      ref: weapon
+      id: m-4-shuriken
+      weaponId: m-4-shuriken
+    - ref: weapon
       proficient: true
+      id: m-3-predator
+      weaponId: m-3-predator
 cr: '00125'
 shields: false
 ---

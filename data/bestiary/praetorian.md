@@ -42,22 +42,27 @@ speed:
   fly: 30
 entries:
   actions:
-    claw:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'6', "dieType":'10', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '6', dieType: '10', mod: true, type: piercing}
       target: one
-    pounce:
-      dc: false
+      id: claw
+    - dc: false
       save: false
-      recharge: ['5','6']
-    twin-particle-beams:
-      dc: false
+      recharge:
+        - '5'
+        - '6'
+      id: pounce
+    - dc: false
       save: false
-      recharge: ['5','6']
+      recharge:
+        - '5'
+        - '6'
+      id: twin-particle-beams
 cr: '12000'
 shields: false
 ---

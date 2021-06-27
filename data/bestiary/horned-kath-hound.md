@@ -26,22 +26,24 @@ speed:
   walk: 40
 entries:
   actions:
-    gore:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'3', "dieType":'4', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '3', dieType: '4', mod: true, type: piercing}
       target: one
-    maul:
-      attack: melee
+      id: gore
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '2', dieType: '8', mod: true, type: piercing}
       target: one
+      id: maul
 cr: '01000'
 shields: false
 ---

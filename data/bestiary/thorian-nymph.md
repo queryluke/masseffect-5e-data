@@ -25,27 +25,29 @@ speed:
   walk: 30
 entries:
   actions:
-    bite:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'1', "dieType":'4', "mod":true, "type":piercing}]
+      damage:
+        - {dieCount: '1', dieType: '4', mod: true, type: piercing}
       target: one
-    acid-spit:
-      attack: ranged
+      id: bite
+    - attack: ranged
       proficient: true
       range: 25
       dc: false
       mod: dex
-      damage: [{"dieCount":'2', "dieType":'6', "mod":true, "type":necrotic}]
+      damage:
+        - {dieCount: '2', dieType: '6', mod: true, type: necrotic}
       target: one
-    release-spores:
-      dc: false
+      id: acid-spit
+    - dc: false
       save: false
       uses: 1
       perDay: true
+      id: release-spores
 cr: '00500'
 shields: false
 ---

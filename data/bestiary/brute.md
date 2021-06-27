@@ -33,22 +33,24 @@ speed:
   walk: 40
 entries:
   actions:
-    clobber:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'5', "dieType":'12', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '5', dieType: '12', mod: true, type: bludgeoning}
       target: one
-    smash:
-      attack: melee
+      id: clobber
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'3', "dieType":'8', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '3', dieType: '8', mod: true, type: bludgeoning}
       target: one
+      id: smash
 cr: '10000'
 shields: false
 ---

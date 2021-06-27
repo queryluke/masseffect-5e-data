@@ -2,20 +2,20 @@
 name: Rachni Soldier
 entries:
   features:
-    ambusher:
-      name: Ambusher
+    - name: Ambusher
       text: >-
         The rachni soldier has advantage on attack rolls against any creature it
         has surprised.
-    grappler:
-      name: Grappler
+      id: ambusher
+    - name: Grappler
       text: >-
         The rachni soldier has advantage on attack rolls against any creature
         grappled by it.
+      id: grappler
   actions:
-    acid-spit:
-      name: Acid Spit
+    - name: Acid Spit
       hit: ' This damage bypasses shields'
-    impale:
-      name: Impale
+      id: acid-spit
+    - name: Impale
+      id: impale
 ---

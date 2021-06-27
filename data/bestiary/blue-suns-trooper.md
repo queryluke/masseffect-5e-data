@@ -25,12 +25,14 @@ speed:
   walk: 30
 entries:
   actions:
-    m-8-avenger:
-      ref: weapon
+    - ref: weapon
       proficient: true
-    m-23-katana:
-      ref: weapon
+      id: m-8-avenger
+      weaponId: m-8-avenger
+    - ref: weapon
       proficient: true
+      id: m-23-katana
+      weaponId: m-23-katana
 cr: '00250'
 shields:
   capacity: 5

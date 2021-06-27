@@ -2,12 +2,12 @@
 name: Elcor
 entries:
   features:
-    slow-moving:
-      name: Slow Moving
+    - name: Slow Moving
       text: >-
         The elcor has disadvantage on all Dexterity saving throws and skill
         checks.
+      id: slow-moving
   actions:
-    mass-accelerator-cannon:
-      name: Mass Accelerator Cannon
+    - name: Mass Accelerator Cannon
+      id: mass-accelerator-cannon
 ---

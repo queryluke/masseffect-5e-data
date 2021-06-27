@@ -29,22 +29,24 @@ speed:
   fly: 15
 entries:
   actions:
-    weapon-bash:
-      attack: melee
+    - attack: melee
       proficient: true
       range: 5
       dc: false
       mod: str
-      damage: [{"dieCount":'2', "dieType":'8', "mod":true, "type":bludgeoning}]
+      damage:
+        - {dieCount: '2', dieType: '8', mod: true, type: bludgeoning}
       target: one
-    collector-assault-rifle:
-      ref: weapon
+      id: weapon-bash
+    - ref: weapon
       proficient: true
-    hex-shield:
-      dc: false
+      id: collector-assault-rifle
+      weaponId: collector-assault-rifle
+    - dc: false
       save: false
       uses: 1
       perDay: true
+      id: hex-shield
 cr: '04000'
 shields: false
 ---
