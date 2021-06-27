@@ -129,18 +129,6 @@ for (const lang of langs) {
         item.date = new Date(item.date)
         item.url = `/changelog/${item.slug}`
       }
-      if (dir === 'bestiary') {
-        if (item.entries.actions?.multiattack) {
-          const keys = Object.keys(item.entries.actions).sort((a, b) => {
-            return a === 'multiattack' ? -1 : 0
-          })
-          const sortedActions = {}
-          for (const key of keys) {
-            sortedActions[key] = item.entries.actions[key]
-          }
-          item.entries.actions = sortedActions
-        }
-      }
       return item
     })
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
