@@ -22,7 +22,7 @@ for (const file of files) {
             }
         }
         if (dItem.entries.actions || tItem.entries.actions) {
-            const transformed = convertToArray(dItem.entries.features, tItem.entries.actions)
+            const transformed = convertToArray(dItem.entries.actions, tItem.entries.actions)
             if (transformed.data.length > 0) {
                 dItem.entries.actions = transformed.data
             }
@@ -31,7 +31,7 @@ for (const file of files) {
             }
         }
         if (dItem.entries.reactions || tItem.entries.reactions) {
-            const transformed = convertToArray(dItem.entries.features, tItem.entries.reactions)
+            const transformed = convertToArray(dItem.entries.reactions, tItem.entries.reactions)
             if (transformed.data.length > 0) {
                 dItem.entries.reactions = transformed.data
             }
@@ -81,5 +81,5 @@ function convertToArray(data, text) {
             textArray.push(obj)
         }
     }
-    return { dataArray, textArray }
+    return { data: dataArray, text: textArray }
 }
