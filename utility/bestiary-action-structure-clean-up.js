@@ -6,31 +6,47 @@ const fm = require('front-matter')
 const files = fs.readdirSync('../data/bestiary')
 for (const file of files) {
     const dataFc = fm(fs.readFileSync(`../data/bestiary/${file}`, 'utf8'))
-    const textFc = fm(fs.readFileSync(`../text/bestiary/${file}`, 'utf8'))
+    const textFc = fm(fs.readFileSync(`../text/en/bestiary/${file}`, 'utf8'))
     let dItem = Object.assign(dataFc.attributes, {})
     let tItem = Object.assign(textFc.attributes, {})
     const body = tItem.body
 
     if (dItem.entries) {
-        if (dItem.entries.features) {
+        if (dItem.entries.features || tItem.entries.features) {
             const transformed = convertToArray(dItem.entries.features, tItem.entries.features)
-            dItem.entries.features = transformed.data
-            tItem.entries.features = transformed.text
+            if (transformed.data.length > 0) {
+                dItem.entries.features = transformed.data
+            }
+            if (transformed.text.length > 0) {
+                tItem.entries.features = transformed.text
+            }
         }
-        if (dItem.entries.actions) {
+        if (dItem.entries.actions || tItem.entries.actions) {
             const transformed = convertToArray(dItem.entries.features, tItem.entries.actions)
-            dItem.entries.actions = transformed.data
-            tItem.entries.actions = transformed.text
+            if (transformed.data.length > 0) {
+                dItem.entries.actions = transformed.data
+            }
+            if (transformed.text.length > 0) {
+                tItem.entries.actions = transformed.text
+            }
         }
-        if (dItem.entries.reactions) {
+        if (dItem.entries.reactions || tItem.entries.reactions) {
             const transformed = convertToArray(dItem.entries.features, tItem.entries.reactions)
-            dItem.entries.reactions = transformed.data
-            tItem.entries.reactions = transformed.text
+            if (transformed.data.length > 0) {
+                dItem.entries.reactions = transformed.data
+            }
+            if (transformed.text.length > 0) {
+                tItem.entries.reactions = transformed.text
+            }
         }
-        if (dItem.entries.legendary) {
+        if (dItem.entries.legendary || tItem.entries.legendary) {
             const transformed = convertToArray(dItem.entries.legendary.actions, tItem.entries.legendary.actions)
-            dItem.entries.legendary.actions = transformed.data
-            tItem.entries.legendary.actions = transformed.text
+            if (transformed.data.length > 0) {
+                dItem.entries.legendary.actions = transformed.data
+            }
+            if (transformed.text.length > 0) {
+                tItem.entries.legendary.actions = transformed.text
+            }
         }
     }
 
@@ -42,24 +58,28 @@ for (const file of files) {
     content = '---\n'
     content += yaml.dump(tItem, {flowLevel: 5})
     content += `---\r\n${body}`
-    fs.writeFileSync(`../data/text/${file}`, content)
+    fs.writeFileSync(`../text/en/bestiary/${file}`, content)
 }
 
 function convertToArray(data, text) {
     const dataArray = []
     const textArray = []
-    for (const key of Object.keys(data)) {
-        const obj = JSON.parse(JSON.stringify(data[key]))
-        obj.id = key
-        if (obj.ref === 'weapon') {
-            obj.weaponId = key
+    if (data) {
+        for (const key of Object.keys(data)) {
+            const obj = JSON.parse(JSON.stringify(data[key]))
+            obj.id = key
+            if (obj.ref === 'weapon') {
+                obj.weaponId = key
+            }
+            dataArray.push(obj)
         }
-        dataArray.push(obj)
     }
-    for (const key of Object.keys(text)) {
-        const obj = JSON.parse(JSON.stringify(text[key]))
-        obj.id = key
-        textArray.push(obj)
+    if (text) {
+        for (const key of Object.keys(text)) {
+            const obj = JSON.parse(JSON.stringify(text[key]))
+            obj.id = key
+            textArray.push(obj)
+        }
     }
-    return { data, text }
+    return { dataArray, textArray }
 }
