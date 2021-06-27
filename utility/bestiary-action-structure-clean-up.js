@@ -9,7 +9,7 @@ for (const file of files) {
     const textFc = fm(fs.readFileSync(`../text/en/bestiary/${file}`, 'utf8'))
     let dItem = Object.assign(dataFc.attributes, {})
     let tItem = Object.assign(textFc.attributes, {})
-    const body = tItem.body
+    const body = textFc.body
 
     if (dItem.entries) {
         if (dItem.entries.features || tItem.entries.features) {
