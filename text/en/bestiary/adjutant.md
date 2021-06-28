@@ -27,6 +27,7 @@ entries:
     - name: Bash
       id: bash
     - name: Reaper Infection
-      hit: ' The target''s hit point maximum is reduced by an amount equal to the necrotic damage taken'
+      hit: The target's hit point maximum is reduced by an amount equal to the necrotic damage taken
+      target: one organic creature that is grappled by the weakened adjutant, incapacitated, or restrained
       id: reaper-infection
 ---

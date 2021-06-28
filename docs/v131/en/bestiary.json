@@ -105,19 +105,19 @@
               "perDay": 3
             }
           ],
-          "id": "barrier",
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The adjutant's innate powercasting ability is Charisma (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:"
+        },
+        {
           "name": "Barrier",
-          "text": "The adjutant has 6 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8."
+          "text": "The adjutant has 6 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
+          "id": "barrier"
         },
         {
           "name": "Grappler",
           "text": "The adjutant has advantage on attack rolls against any creature grappled by it.",
           "id": "grappler"
-        },
-        {
-          "name": "Innate Powercasting",
-          "text": "The adjutant's innate powercasting ability is Charisma (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
         }
       ],
       "actions": [
@@ -136,9 +136,8 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The adjutant makes two Arm Cannon attacks."
+          "id": "arm-cannon",
+          "name": "Arm Cannon"
         },
         {
           "attack": "melee",
@@ -155,8 +154,8 @@
             }
           ],
           "target": "one",
-          "id": "arm-cannon",
-          "name": "Arm Cannon"
+          "id": "bash",
+          "name": "Bash"
         },
         {
           "attack": "melee",
@@ -178,14 +177,15 @@
               "type": "necrotic"
             }
           ],
-          "target": "one",
-          "id": "bash",
-          "name": "Bash"
+          "target": "one organic creature that is grappled by the weakened adjutant, incapacitated, or restrained",
+          "id": "reaper-infection",
+          "name": "Reaper Infection",
+          "hit": "The target's hit point maximum is reduced by an amount equal to the necrotic damage taken"
         },
         {
-          "name": "Reaper Infection",
-          "hit": " The target's hit point maximum is reduced by an amount equal to the necrotic damage taken",
-          "id": "reaper-infection"
+          "name": "Multiattack",
+          "text": "The adjutant makes two Arm Cannon attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -240,9 +240,14 @@
               "perDay": 3
             }
           ],
-          "id": "barrier",
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The albino kath hound's innate powercasting ability is Wisdom (power save DC 13, +5 to hit with power attacks). It can innately cast the following powers:"
+        },
+        {
           "name": "Barrier",
-          "text": "The adjutant has 5 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8."
+          "text": "The adjutant has 5 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
+          "id": "barrier"
         },
         {
           "name": "Keen Hearing and Smell",
@@ -258,11 +263,6 @@
           "name": "Grappler",
           "text": "The kath hound has advantage on attack rolls against any creature grappled by it.",
           "id": "grappler"
-        },
-        {
-          "name": "Innate Powercasting",
-          "text": "The albino kath hound's innate powercasting ability is Wisdom (power save DC 13, +5 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
         }
       ],
       "actions": [
@@ -1015,21 +1015,12 @@
         {
           "uses": 1,
           "perDay": true,
-          "id": "aggressive",
-          "name": "Aggressive",
-          "text": "As a bonus action, the warlord can move up to its speed toward a hostile creature that it can see."
-        },
-        {
-          "recharge": "short",
           "id": "tech-armor",
           "name": "Tech Armor",
           "text": "As a bonus action, the warlord can activate its Tech Armor. It immediately gains 30 temporary hit points. While the legate has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage."
         },
         {
-          "recharge": [
-            "5",
-            "6"
-          ],
+          "recharge": "short",
           "id": "rage",
           "name": "Rage",
           "text": "If the warlord begins its turn with less than half of its hit points, it enters into a rage for 1 minute. While in a rage, all melee weapon attacks deal 5 additional bludgeoning damage."
@@ -1044,9 +1035,18 @@
           "text": "Before making an attack with its Krogan Warhammer, the warlord can charge the weapon with biotic force. On a hit, the attack deals an additional 9 (2d8) force damage and detonates the target if it was primed."
         },
         {
+          "recharge": [
+            "5",
+            "6"
+          ],
+          "id": "electrical-hammer",
           "name": "Electrical Hammer",
-          "text": "Before making an attack with its Krogan Warhammer, the warlord can charge the weapon with electricity. On a hit, the attack deals an additional 7 (2d6) lightning damage and the target must succeed on a DC 15 Constitution saving throw or become stunned until the end of its next turn.",
-          "id": "electrical-hammer"
+          "text": "Before making an attack with its Krogan Warhammer, the warlord can charge the weapon with electricity. On a hit, the attack deals an additional 7 (2d6) lightning damage and the target must succeed on a DC 15 Constitution saving throw or become stunned until the end of its next turn."
+        },
+        {
+          "name": "Aggressive",
+          "text": "As a bonus action, the warlord can move up to its speed toward a hostile creature that it can see.",
+          "id": "aggressive"
         }
       ],
       "actions": [
@@ -1325,9 +1325,9 @@
         },
         {
           "recharge": "short",
-          "id": "incendiary-ammo",
-          "name": "Incendiary Ammo",
-          "text": "When the centurion hits with its M-76 Revenant or M-300 Claymore, the target takes an additional 1d4 fire damage and becomes primed: fire until the end of the legate's next turn."
+          "id": "leadership",
+          "name": "Leadership",
+          "text": "For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='30' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated."
         },
         {
           "mod": "int",
@@ -1337,30 +1337,33 @@
               "perDay": 3
             }
           ],
-          "id": "leadership",
-          "name": "Leadership",
-          "text": "For 1 minute, the legate can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length='30' /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the legate. A creature can benefit from only one Leadership die at a time. This effect ends if the legate is incapacitated."
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The blue suns legate's innate powercasting ability is Intelligence (power save DC 13, +5 to hit with power attacks). It can innately cast the following powers:"
         },
         {
-          "name": "Innate Powercasting",
-          "text": "The blue suns legate's innate powercasting ability is Intelligence (power save DC 13, +5 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
+          "name": "Incendiary Ammo",
+          "text": "When the centurion hits with its M-76 Revenant or M-300 Claymore, the target takes an additional 1d4 fire damage and becomes primed: fire until the end of the legate's next turn.",
+          "id": "incendiary-ammo"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "m-76-revenant",
-          "name": "Multiattack",
-          "text": "The legate makes 2 attacks with its M-76 Revenant or M-300 Claymore."
+          "id": "m-76-revenant",
+          "weaponId": "m-76-revenant"
         },
         {
           "ref": "weapon",
           "proficient": true,
           "id": "m-300-claymore",
           "weaponId": "m-300-claymore"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The legate makes 2 attacks with its M-76 Revenant or M-300 Claymore.",
+          "id": "multiattack"
         }
       ],
       "reactions": [
@@ -1426,14 +1429,14 @@
               "uses": 2
             }
           ],
-          "id": "disruptor-ammo",
-          "name": "Disruptor Ammo",
-          "text": "When the legionnaire hits with its M-15 Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the legionnaire's next turn."
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The blue suns legionnaire has the following grenades equipped. It can use a grenade as an action."
         },
         {
-          "name": "Grenades",
-          "text": "The blue suns legionnaire has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
+          "name": "Disruptor Ammo",
+          "text": "When the legionnaire hits with its M-15 Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the legionnaire's next turn.",
+          "id": "disruptor-ammo"
         }
       ],
       "actions": [
@@ -1624,9 +1627,8 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The brute makes two Smash attacks or two Clobber attacks."
+          "id": "clobber",
+          "name": "Clobber"
         },
         {
           "attack": "melee",
@@ -1643,12 +1645,13 @@
             }
           ],
           "target": "one",
-          "id": "clobber",
-          "name": "Clobber"
+          "id": "smash",
+          "name": "Smash"
         },
         {
-          "name": "Smash",
-          "id": "smash"
+          "name": "Multiattack",
+          "text": "The brute makes two Smash attacks or two Clobber attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -1709,14 +1712,14 @@
               "uses": 2
             }
           ],
-          "id": "pack-tactics",
-          "name": "Pack Tactics",
-          "text": "The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The cannibal has the following grenades equipped. It can use a grenade as an action."
         },
         {
-          "name": "Grenades",
-          "text": "The cannibal has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
+          "name": "Pack Tactics",
+          "text": "The cannibal has advantage on an attack roll against a creature if at least one of the cannibal's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.",
+          "id": "pack-tactics"
         }
       ],
       "actions": [
@@ -1735,9 +1738,8 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The cannibal makes 2 Arm Cannon attacks."
+          "id": "arm-cannon",
+          "name": "Arm Cannon"
         },
         {
           "attack": "melee",
@@ -1754,21 +1756,22 @@
             }
           ],
           "target": "one",
-          "id": "arm-cannon",
-          "name": "Arm Cannon"
+          "id": "bash",
+          "name": "Bash"
         },
         {
           "dc": false,
           "save": false,
           "uses": 1,
           "perDay": true,
-          "id": "bash",
-          "name": "Bash"
+          "id": "cannibalize",
+          "name": "Cannibalize",
+          "text": "The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other."
         },
         {
-          "name": "Cannibalize",
-          "text": "The cannibal spends its action consuming a creature with 0 hit points within <me-distance length='5' />. At the start of its next turn it gains 5 AC and 1d8 hit points and the consumed creature (including all of its weapons, armor, and items) is completely dissolved. If the creature is a player character, it dies. Cannibals prefer to use their cannibalize action over any other.",
-          "id": "cannibalize"
+          "name": "Multiattack",
+          "text": "The cannibal makes 2 Arm Cannon attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -1828,30 +1831,33 @@
               "uses": 2
             }
           ],
-          "id": "aggressive",
-          "name": "Aggressive",
-          "text": "As a bonus action, the centurion can move up to its speed toward a hostile creature that it can see."
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The centurion has the following grenades equipped. It can use a grenade as an action."
         },
         {
-          "name": "Grenades",
-          "text": "The centurion has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
+          "name": "Aggressive",
+          "text": "As a bonus action, the centurion can move up to its speed toward a hostile creature that it can see.",
+          "id": "aggressive"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "stun-baton",
-          "name": "Multiattack",
-          "text": "The centurion makes two M-96 Mattock attacks or two Stun Baton attacks."
+          "id": "stun-baton",
+          "weaponId": "stun-baton"
         },
         {
           "ref": "weapon",
           "proficient": true,
           "id": "m-96-mattock",
           "weaponId": "m-96-mattock"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The centurion makes two M-96 Mattock attacks or two Stun Baton attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -1915,16 +1921,19 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The collector assassin makes two Particle Rifle."
+          "id": "claw",
+          "name": "Claw"
         },
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "claw",
-          "weaponId": "particle-rifle",
-          "name": "Claw"
+          "id": "particle-rifle",
+          "weaponId": "particle-rifle"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The collector assassin makes two Particle Rifle.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -1988,10 +1997,8 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "collector-assault-rifle",
-          "name": "Multiattack",
-          "text": "The collector captain makes two Collector Assault Rifle attacks."
+          "id": "collector-assault-rifle",
+          "weaponId": "collector-assault-rifle"
         },
         {
           "dc": false,
@@ -2011,6 +2018,11 @@
           "id": "summon-seeker-swarm",
           "name": "Summon Seeker Swarm",
           "text": "The collector captain summons 1d4 seeker swarms at an unoccupied space it can see within <me-distance length='30' />."
+        },
+        {
+          "name": "Multiattack",
+          "text": "The collector captain makes two Collector Assault Rifle attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -2168,14 +2180,14 @@
             "shockwave",
             "singularity"
           ],
-          "id": "barrier",
-          "name": "Barrier",
-          "text": "The collector general has 20 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8."
+          "id": "powercasting",
+          "name": "Powercasting",
+          "text": "The collector general is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 16, +8 to hit with powers). The collector general has the following powers:"
         },
         {
-          "name": "Powercasting",
-          "text": "The collector general is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 16, +8 to hit with powers). The collector general has the following powers:",
-          "id": "powercasting"
+          "name": "Barrier",
+          "text": "The collector general has 20 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
+          "id": "barrier"
         }
       ],
       "actions": [
@@ -2279,16 +2291,14 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The collector guardian makes two Collector Assault Rifle attacks."
+          "id": "weapon-bash",
+          "name": "Weapon Bash"
         },
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "weapon-bash",
-          "weaponId": "collector-assault-rifle",
-          "name": "Weapon Bash"
+          "id": "collector-assault-rifle",
+          "weaponId": "collector-assault-rifle"
         },
         {
           "dc": false,
@@ -2298,6 +2308,11 @@
           "id": "hex-shield",
           "name": "Hex Shield",
           "text": "As a bonus action, the collector guardian generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
+        },
+        {
+          "name": "Multiattack",
+          "text": "The collector guardian makes two Collector Assault Rifle attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -2368,19 +2383,19 @@
               "uses": 2
             }
           ],
-          "id": "barrier",
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The collector trooper has the following grenades equipped. It can use a grenade as an action."
+        },
+        {
           "name": "Barrier",
-          "text": "The collector trooper has 2 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8."
+          "text": "The collector trooper has 2 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
+          "id": "barrier"
         },
         {
           "name": "Possessed Collector",
           "text": "When the collector trooper is possessed by a harbinger it gains temporary hit points equal to its total hit points and 6 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage.",
           "id": "possessed-collector"
-        },
-        {
-          "name": "Grenades",
-          "text": "The collector trooper has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
         }
       ],
       "actions": [
@@ -2405,10 +2420,8 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "collector-web",
-          "weaponId": "collector-smg",
-          "name": "Collector Web",
-          "hit": "The target is restrained by organic webbing. As an action, the restrained target  can make a DC 14 Strength check, bursting the webbing on a success. The webbing  can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage;  immunity to bludgeoning, poison, and psychic damage)."
+          "id": "collector-smg",
+          "weaponId": "collector-smg"
         },
         {
           "attack": "ranged",
@@ -2418,7 +2431,9 @@
           "mod": "dex",
           "damage": false,
           "target": "one",
-          "id": "collector-web"
+          "id": "collector-web",
+          "name": "Collector Web",
+          "hit": "The target is restrained by organic webbing. As an action, the restrained target  can make a DC 14 Strength check, bursting the webbing on a success. The webbing  can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage;  immunity to bludgeoning, poison, and psychic damage)."
         }
       ]
     },
@@ -2545,10 +2560,13 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "m-5-phalanx",
+          "id": "m-5-phalanx",
+          "weaponId": "m-5-phalanx"
+        },
+        {
           "name": "Multiattack",
-          "text": "The combat engineer makes two M-5 Phalanx attacks."
+          "text": "The combat engineer makes two M-5 Phalanx attacks.",
+          "id": "multiattack"
         },
         {
           "name": "Repair",
@@ -2745,16 +2763,19 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "omni-whip",
-          "name": "Multiattack",
-          "text": "The dragoon makes three Omni-whip attacks"
+          "id": "omni-whip",
+          "weaponId": "omni-whip"
         },
         {
           "ref": "weapon",
           "proficient": true,
           "id": "m-25-hornet",
           "weaponId": "m-25-hornet"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The dragoon makes three Omni-whip attacks",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -2806,9 +2827,9 @@
         {
           "uses": 3,
           "perDay": true,
-          "id": "aggressive",
-          "name": "Aggressive",
-          "text": "As a bonus action, the commando can move up to its speed toward a hostile creature it can see."
+          "id": "barrier",
+          "name": "Barrier",
+          "text": "As an action or bonus action, the eclipse commando gains 10 barrier ticks. When the eclipse commando is dealt damage, remove one barrier tick and reduce the damage by 1d8."
         },
         {
           "mod": "cha",
@@ -2817,30 +2838,30 @@
             "charge",
             "warp"
           ],
-          "id": "barrier",
-          "name": "Barrier",
-          "text": "As an action or bonus action, the eclipse commando gains 10 barrier ticks. When the eclipse commando is dealt damage, remove one barrier tick and reduce the damage by 1d8."
+          "id": "powercasting",
+          "name": "Powercasting",
+          "text": "The eclipse commando is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 14, +6 to hit with powers). The eclipse commando has the following powers:"
         },
         {
-          "name": "Powercasting",
-          "text": "The eclipse commando is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 14, +6 to hit with powers). The eclipse commando has the following powers:",
-          "id": "powercasting"
+          "name": "Aggressive",
+          "text": "As a bonus action, the commando can move up to its speed toward a hostile creature it can see.",
+          "id": "aggressive"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "leadership",
-          "weaponId": "m-300-claymore",
-          "name": "Leadership",
-          "text": "For 1 minute, the commando can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length=\"30\" /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the commando. A creature can benefit from only one Leadership die at a time. This effect ends if the commando is incapacitated."
+          "id": "m-300-claymore",
+          "weaponId": "m-300-claymore"
         },
         {
           "dc": false,
           "save": false,
           "recharge": "short",
-          "id": "leadership"
+          "id": "leadership",
+          "name": "Leadership",
+          "text": "For 1 minute, the commando can utter a special command or warning whenever a non-hostile creature that it can see within <me-distance length=\"30\" /> of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the commando. A creature can benefit from only one Leadership die at a time. This effect ends if the commando is incapacitated."
         }
       ]
     },
@@ -2906,10 +2927,8 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "repair",
-          "weaponId": "m-6-carnifex",
-          "name": "Repair",
-          "text": "The engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points."
+          "id": "m-6-carnifex",
+          "weaponId": "m-6-carnifex"
         },
         {
           "dc": false,
@@ -2919,6 +2938,11 @@
           "id": "summon-combat-drone",
           "name": "Summon Combat Drone",
           "text": "The engineer summons a Combat Drone."
+        },
+        {
+          "name": "Repair",
+          "text": "The engineer uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points.",
+          "id": "repair"
         }
       ],
       "reactions": [
@@ -3043,10 +3067,8 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "repair",
-          "weaponId": "m-9-tempest",
-          "name": "Repair",
-          "text": "The operative uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points."
+          "id": "m-9-tempest",
+          "weaponId": "m-9-tempest"
         },
         {
           "dc": false,
@@ -3056,6 +3078,11 @@
           "id": "summon-combat-drone",
           "name": "Summon Combat Drone",
           "text": "The operative summons a Combat Drone."
+        },
+        {
+          "name": "Repair",
+          "text": "The operative uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 1d8 hit points.",
+          "id": "repair"
         }
       ],
       "reactions": [
@@ -3112,14 +3139,14 @@
               "uses": 2
             }
           ],
-          "id": "pack-tactics",
-          "name": "Pack Tactics",
-          "text": "The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated."
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The eclipse trooper has the following grenades equipped. It can use a grenade as an action."
         },
         {
-          "name": "Grenades",
-          "text": "The eclipse trooper has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
+          "name": "Pack Tactics",
+          "text": "The creature has advantage on an attack roll against a creature if at least one of the creature's allies is within <me-distance length='5' /> of the creature and the ally isn't incapacitated.",
+          "id": "pack-tactics"
         }
       ],
       "actions": [
@@ -3199,10 +3226,13 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "m-27-scimitar",
+          "id": "m-27-scimitar",
+          "weaponId": "m-27-scimitar"
+        },
+        {
           "name": "Multiattack",
-          "text": "The vanguard makes 2 M-27 Scimitar attacks."
+          "text": "The vanguard makes 2 M-27 Scimitar attacks.",
+          "id": "multiattack"
         }
       ],
       "reactions": [
@@ -3350,19 +3380,19 @@
               "perDay": 3
             }
           ],
-          "id": "aggressive",
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The fenris mech's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:"
+        },
+        {
           "name": "Aggressive",
-          "text": "As a bonus action, the fenris mech can move up to its speed toward a hostile creature that it can see."
+          "text": "As a bonus action, the fenris mech can move up to its speed toward a hostile creature that it can see.",
+          "id": "aggressive"
         },
         {
           "name": "Post-mortem Explosion",
-          "text": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additinonal damage done to the mech while in this state causes it to explode. Any creature within a <me-distance length='10' adj />-radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage.",
+          "text": "If damage reduces the FENRIS mech to 3 or fewer hit points, it deactivates its primary systems and remains stationary. Any additional damage done to the mech while in this state causes it to explode. Any creature within a <me-distance length='10' adj />-radius sphere must succeed on a DC 13 Constitution saving throw or take 7 (3d4) lightning damage.",
           "id": "post-mortem-explosion"
-        },
-        {
-          "name": "Innate Powercasting",
-          "text": "The fenris mech's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
         }
       ],
       "actions": [
@@ -3515,14 +3545,14 @@
           "recharge": [
             "6"
           ],
-          "id": "siege-cannon",
-          "name": "Siege Cannon",
-          "text": "The geth armature targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one."
+          "id": "siege-pulse",
+          "name": "Siege Pulse",
+          "text": "The geth armature releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 18 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced."
         },
         {
-          "name": "Siege Pulse",
-          "text": "The geth armature releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 18 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced.",
-          "id": "siege-pulse"
+          "name": "Siege Cannon",
+          "text": "The geth armature targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one.",
+          "id": "siege-cannon"
         }
       ]
     },
@@ -3720,14 +3750,14 @@
           "recharge": [
             "6"
           ],
-          "id": "siege-cannon",
-          "name": "Siege Cannon",
-          "text": "The geth colossus targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 20 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one."
+          "id": "siege-pulse",
+          "name": "Siege Pulse",
+          "text": "The geth colossus releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 20 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced."
         },
         {
-          "name": "Siege Pulse",
-          "text": "The geth colossus releases a burst of electrostatic energy that disrupts armor biofeedback. Each creature within a <me-distance length='15' /> radius must make a DC 20 Constitution saving throw. On a failed save, a creature wearing armor looses 1d4 to their Strength and Dexterity ability scores. This loss ends if the armor is repaired, removed, or replaced.",
-          "id": "siege-pulse"
+          "name": "Siege Cannon",
+          "text": "The geth colossus targets a creature within <me-distance length='150' /> and launches a homing projectile. The target must make a DC 20 Dexterity saving throw. On a failed save, the target takes 55 (10d10) radiant damage, or half as much on a successful one.",
+          "id": "siege-cannon"
         }
       ],
       "legendary": {
@@ -3810,24 +3840,27 @@
         {
           "uses": 3,
           "perDay": true,
-          "id": "assassination",
-          "name": "Assassination",
-          "text": "Once per turn, the geth hunter can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon."
+          "id": "tactical-cloak",
+          "name": "Tactical Cloak",
+          "text": "As a bonus action, the geth hunter activates its tactical cloak, becoming invisible for 1 minute. When the geth hunter makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends."
         },
         {
-          "name": "Tactical Cloak",
-          "text": "As a bonus action, the geth hunter activates its tactical cloak, becoming invisible for 1 minute. When the geth hunter makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.",
-          "id": "tactical-cloak"
+          "name": "Assassination",
+          "text": "Once per turn, the geth hunter can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon.",
+          "id": "assassination"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "geth-plasma-shotgun",
+          "id": "geth-plasma-shotgun",
+          "weaponId": "geth-plasma-shotgun"
+        },
+        {
           "name": "Multiattack",
-          "text": "The geth hunter makes two Geth Plasma Shotgun attacks."
+          "text": "The geth hunter makes two Geth Plasma Shotgun attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -3897,16 +3930,19 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The geth juggernaut makes two Bash attacks."
+          "id": "bash",
+          "name": "Bash"
         },
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "bash",
-          "weaponId": "geth-plasma-smg",
-          "name": "Bash"
+          "id": "geth-plasma-smg",
+          "weaponId": "geth-plasma-smg"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The geth juggernaut makes two Bash attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -3983,39 +4019,42 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The geth prime makes two Geth Pulse Rifle attacks."
+          "id": "weapon-bash",
+          "name": "Weapon Bash"
         },
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "weapon-bash",
-          "weaponId": "geth-pulse-rifle",
-          "name": "Weapon Bash"
+          "id": "geth-pulse-rifle",
+          "weaponId": "geth-pulse-rifle"
         },
         {
           "dc": false,
           "save": false,
           "uses": 3,
           "perDay": true,
-          "id": "radar-jamming",
-          "name": "Radar Jamming",
-          "text": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a <me-distance length='30' /> radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn."
+          "id": "summon-combat-drone",
+          "name": "Summon Combat Drone",
+          "text": "The geth prime summons a Combat Drone. It can only have 1 Combat Drone active at a time."
         },
         {
           "dc": false,
           "save": false,
           "uses": 1,
           "perDay": true,
-          "id": "summon-combat-drone",
-          "name": "Summon Combat Drone",
-          "text": "The geth prime summons a Combat Drone. It can only have 1 Combat Drone active at a time."
+          "id": "summon-geth-turret",
+          "name": "Summon Geth Turret",
+          "text": "The geth prime summons a Geth Turret."
         },
         {
-          "name": "Summon Geth Turret",
-          "text": "The geth prime summons a Geth Turret.",
-          "id": "summon-geth-turret"
+          "name": "Multiattack",
+          "text": "The geth prime makes two Geth Pulse Rifle attacks.",
+          "id": "multiattack"
+        },
+        {
+          "name": "Radar Jamming",
+          "text": "The geth prime releases an emp burst that temporarily disables targeting systems. Each hostile creature within a <me-distance length='30' /> radius has disadvantage on ranged weapon attack rolls until the start of the geth prime's next turn.",
+          "id": "radar-jamming"
         }
       ],
       "legendary": {
@@ -4106,9 +4145,14 @@
               "perDay": "at_will"
             }
           ],
-          "id": "assassination",
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The geth stalker's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following powers:"
+        },
+        {
           "name": "Assassination",
-          "text": "Once per turn, the geth stalker can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon."
+          "text": "Once per turn, the geth stalker can deal an extra 7 (2d6) damage to one creature it hits with an attack if it has advantage on the attack roll. The attack must be made with a melee or ranged weapon.",
+          "id": "assassination"
         },
         {
           "name": "Avoidance",
@@ -4124,11 +4168,6 @@
           "name": "Spider Climb",
           "text": "The geth stalker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
           "id": "spider-climb"
-        },
-        {
-          "name": "Innate Powercasting",
-          "text": "The geth stalker's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
         }
       ],
       "actions": [
@@ -4234,16 +4273,19 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The geth trooper makes two Geth Pulse Rifle attacks."
+          "id": "weapon-strike",
+          "name": "Weapon Strike"
         },
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "weapon-strike",
-          "weaponId": "geth-pulse-rifle",
-          "name": "Weapon Strike"
+          "id": "geth-pulse-rifle",
+          "weaponId": "geth-pulse-rifle"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The geth trooper makes two Geth Pulse Rifle attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -4367,16 +4409,19 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "stun-baton",
-          "name": "Multiattack",
-          "text": "The guardian makes two M-358 Talon attacks."
+          "id": "stun-baton",
+          "weaponId": "stun-baton"
         },
         {
           "ref": "weapon",
           "proficient": true,
           "id": "m-358-talon",
           "weaponId": "m-358-talon"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The guardian makes two M-358 Talon attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -4451,17 +4496,17 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The harvester can use its Frightful Presence. It then makes three attacks: one with its acid spit and two with its stomp."
+          "id": "stomp",
+          "name": "Stomp"
         },
         {
-          "name": "Stomp",
-          "id": "stomp"
+          "name": "Multiattack",
+          "text": "The harvester can use its Frightful Presence. It then makes three attacks: one with its acid spit and two with its stomp.",
+          "id": "multiattack"
         },
         {
           "name": "Acid Spit",
-          "text": "The harvester targets a <me-distance length='15' /> radius  within <me-distance length='150' /> and launches a glob of acid that coats the area.  Each creature within the area must succeed on a DC 19 Dexterity saving throw,  taking 44 (8d10) acid damage on a failed save, or half as much on a successful one.  Until the end of the harvester's next turn, each creature that enters the area or  ends its turn there must also make the saving throw.",
+          "text": "The harvester targets a <me-distance length='15' adj /> radius  within <me-distance length='150' /> and launches a glob of acid that coats the area.  Each creature within the area must succeed on a DC 19 Dexterity saving throw,  taking 44 (8d10) acid damage on a failed save, or half as much on a successful one.  Until the end of the harvester's next turn, each creature that enters the area or  ends its turn there must also make the saving throw.",
           "id": "acid-spit"
         }
       ],
@@ -4496,7 +4541,7 @@
         },
         {
           "name": "Drop Klixen",
-          "text": "If the harvester is within a region that contains Klixen, it  begins the fight by dropping 1d10 Klixen in a <me-distance length='15' /> by <me-distance length='50' /> area.",
+          "text": "If the harvester is within a region that contains Klixen, it  begins the fight by dropping 1d10 Klixen in a <me-distance length='15' adj /> by <me-distance length='50' adj /> area.",
           "id": "drop-klixen"
         }
       ]
@@ -4973,9 +5018,14 @@
               "perDay": 5
             }
           ],
-          "id": "chatter--variant-",
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The loki mech's innate powercasting ability is Intelligence (power save DC 9, +1 to hit with power attacks). It can innately cast the following powers:"
+        },
+        {
           "name": "Chatter (variant)",
-          "text": "The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging powers. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12."
+          "text": "The LOKI mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the LOKI mech when making attack rolls or using damaging powers. On a success, a creature is unaffected and is immune to the LOKI mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12.",
+          "id": "chatter--variant-"
         },
         {
           "name": "Limited Tactics",
@@ -4986,11 +5036,6 @@
           "name": "Post-mortem Explosion",
           "text": "When the LOKI mech is reduced to 0 hit points, it self-destructs. Each creature within a <me-distance length='5' adj />-radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage.",
           "id": "post-mortem-explosion"
-        },
-        {
-          "name": "Innate Powercasting",
-          "text": "The loki mech's innate powercasting ability is Intelligence (power save DC 9, +1 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
         }
       ],
       "actions": [
@@ -5052,10 +5097,8 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "phaeston",
-          "name": "Multiattack",
-          "text": "The marauder makes 2 Phaeston attacks."
+          "id": "phaeston",
+          "weaponId": "phaeston"
         },
         {
           "dc": false,
@@ -5067,6 +5110,11 @@
           "id": "create-armor-plating",
           "name": "Create Armor Plating",
           "text": "The marauder coats a friendly husk, abomination, or cannibal in a scab-like armor plating, increasing the target's AC by 2."
+        },
+        {
+          "name": "Multiattack",
+          "text": "The marauder makes 2 Phaeston attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -5128,32 +5176,28 @@
               "uses": 3
             }
           ],
-          "id": "n7-training",
-          "name": "N7 Training",
-          "text": "The N7 demolisher has advantage on its first attack roll each turn."
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The n7 demolisher has the following grenades equipped. It can use a grenade as an action."
         },
         {
-          "name": "Grenades",
-          "text": "The n7 demolisher has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
+          "name": "N7 Training",
+          "text": "The N7 demolisher has advantage on its first attack roll each turn.",
+          "id": "n7-training"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "n-7-eagle",
-          "name": "Multiattack",
-          "text": "The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade."
+          "id": "n-7-eagle",
+          "weaponId": "n-7-eagle"
         },
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "repair",
-          "weaponId": "n-7-hurricane",
-          "name": "Repair",
-          "text": "The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points."
+          "id": "n-7-hurricane",
+          "weaponId": "n-7-hurricane"
         },
         {
           "dc": false,
@@ -5163,6 +5207,16 @@
           "id": "deploy-shield-pylon",
           "name": "Deploy Shield Pylon",
           "text": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
+        },
+        {
+          "name": "Multiattack",
+          "text": "The N7 demolisher makes three weapon attacks or two weapon attacks and uses one grenade.",
+          "id": "multiattack"
+        },
+        {
+          "name": "Repair",
+          "text": "The N7 demolisher uses its action to repair a friendly, synthetic target within <me-distance length='5' /> for 2d8 hit points.",
+          "id": "repair"
         }
       ]
     },
@@ -5218,13 +5272,6 @@
         {
           "uses": 1,
           "perDay": true,
-          "id": "n7-training",
-          "name": "N7 Training",
-          "text": "The N7 Paladin has advantage on its first attack roll each turn."
-        },
-        {
-          "uses": 1,
-          "perDay": true,
           "id": "omni-shield",
           "name": "Omni-Shield",
           "text": "As a bonus action, the N7 Paladin deploys its omni-shield, lasting 1 minute. While the shield is deployed, the N7 Paladin gains +2 AC and can make a melee weapon attack with the shield: +5 to hit, <me-distance length='5' /> reach, 1d12 bludgeoning damage."
@@ -5235,6 +5282,13 @@
           "id": "variant--fire-shield",
           "name": "Variant: Fire-Shield",
           "text": "Gain all the benefits of Omni-Shield. In addition, targets hit by the Fire-Shield take 3d10 fire damage. This damage detonates primed targets, but the N7 Sentinel immune by any detonating effects."
+        },
+        {
+          "uses": 1,
+          "perDay": true,
+          "id": "variant--cryo-shield",
+          "name": "Variant: Cryo-Shield",
+          "text": "Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn."
         },
         {
           "mod": "cha",
@@ -5253,24 +5307,27 @@
               "level": 4
             }
           ],
-          "id": "variant--cryo-shield",
-          "name": "Variant: Cryo-Shield",
-          "text": "Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn."
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The n7 paladin's innate powercasting ability is Charisma (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
         },
         {
-          "name": "Innate Powercasting",
-          "text": "The n7 paladin's innate powercasting ability is Charisma (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
+          "name": "N7 Training",
+          "text": "The N7 Paladin has advantage on its first attack roll each turn.",
+          "id": "n7-training"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "n-7-hurricane",
+          "id": "n-7-hurricane",
+          "weaponId": "n-7-hurricane"
+        },
+        {
           "name": "Multiattack",
-          "text": "The N7 Paladin makes two N7 Hurricane attacks."
+          "text": "The N7 Paladin makes two N7 Hurricane attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -5320,9 +5377,9 @@
         {
           "uses": 3,
           "perDay": true,
-          "id": "assassinate",
-          "name": "Assassinate",
-          "text": "During its first turn, the N7 Shadow has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the N7 Shadow scores against a surprised creature is a critical hit."
+          "id": "tactical-cloak",
+          "name": "Tactical Cloak",
+          "text": "As a bonus action, the N7 Shadow activates its tactical cloak, becoming invisible for 1 minute. When the N7 Shadow makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends."
         },
         {
           "mod": "int",
@@ -5333,9 +5390,19 @@
               "level": 3
             }
           ],
-          "id": "evasion",
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The n7 shadow's innate powercasting ability is Intelligence (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
+        },
+        {
+          "name": "Assassinate",
+          "text": "During its first turn, the N7 Shadow has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the N7 Shadow scores against a surprised creature is a critical hit.",
+          "id": "assassinate"
+        },
+        {
           "name": "Evasion",
-          "text": "If the N7 Shadow is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the N7 Shadow instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          "text": "If the N7 Shadow is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the N7 Shadow instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+          "id": "evasion"
         },
         {
           "name": "N7 Training",
@@ -5346,26 +5413,19 @@
           "name": "Sneak Attack",
           "text": "Once per turn, the N7 Shadow deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within <me-distance length='5' /> of an ally of the N7 Shadow that isn't incapacitated and the N7 Shadow doesn't have disadvantage on the attack roll.",
           "id": "sneak-attack"
-        },
-        {
-          "name": "Tactical Cloak",
-          "text": "As a bonus action, the N7 Shadow activates its tactical cloak, becoming invisible for 1 minute. When the N7 Shadow makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.",
-          "id": "tactical-cloak"
-        },
-        {
-          "name": "Innate Powercasting",
-          "text": "The n7 shadow's innate powercasting ability is Intelligence (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "m-97-viper",
+          "id": "m-97-viper",
+          "weaponId": "m-97-viper"
+        },
+        {
           "name": "Multiattack",
-          "text": "The N7 Slayer makes three monomolecular blade attacks."
+          "text": "The N7 Slayer makes three monomolecular blade attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -5416,9 +5476,9 @@
         {
           "uses": 2,
           "perDay": true,
-          "id": "aggressive",
-          "name": "Aggressive",
-          "text": "As a bonus action, the N7 Slayer can move up to its speed toward a hostile creature that it can see."
+          "id": "barrier",
+          "name": "Barrier",
+          "text": "As an action or bonus action, the N7 slayer gains 5 barrier ticks. When the N7 slayer is dealt damage, remove one barrier tick and reduce the damage by 1d8."
         },
         {
           "mod": "wis",
@@ -5428,40 +5488,43 @@
             "phase-disruptor",
             "biotic-slash"
           ],
-          "id": "avoidance",
-          "name": "Avoidance",
-          "text": "If the N7 Slayer is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          "id": "powercasting",
+          "name": "Powercasting",
+          "text": "The n7 slayer is a 9th-level powercaster. Its powercasting ability is Wisdom (power save DC 13, +5 to hit with powers). The n7 slayer has the following powers:"
         },
         {
-          "name": "Barrier",
-          "text": "As an action or bonus action, the N7 slayer gains 5 barrier ticks. When the N7 slayer is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
-          "id": "barrier"
+          "name": "Aggressive",
+          "text": "As a bonus action, the N7 Slayer can move up to its speed toward a hostile creature that it can see.",
+          "id": "aggressive"
+        },
+        {
+          "name": "Avoidance",
+          "text": "If the N7 Slayer is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+          "id": "avoidance"
         },
         {
           "name": "N7 Training",
           "text": "The N7 Slayer has advantage on its first attack roll each turn.",
           "id": "n7-training"
-        },
-        {
-          "name": "Powercasting",
-          "text": "The n7 slayer is a 9th-level powercaster. Its powercasting ability is Wisdom (power save DC 13, +5 to hit with powers). The n7 slayer has the following powers:",
-          "id": "powercasting"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "monomolecular-blade",
-          "name": "Multiattack",
-          "text": "The N7 Slayer makes three monomolecular blade attacks or two N7 Piranha attacks."
+          "id": "monomolecular-blade",
+          "weaponId": "monomolecular-blade"
         },
         {
           "ref": "weapon",
           "proficient": true,
           "id": "n-7-piranha",
           "weaponId": "n-7-piranha"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The N7 Slayer makes three monomolecular blade attacks or two N7 Piranha attacks.",
+          "id": "multiattack"
         }
       ],
       "reactions": [
@@ -5543,7 +5606,7 @@
         },
         {
           "name": "Surprise Attack",
-          "text": "If the nemesis surprises a creature and hits it with an attack during the first round of combat, the target takes an extra [dmg] damage from the attack.",
+          "text": "If the nemesis surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
           "id": "surprise-attack"
         }
       ]
@@ -5621,13 +5684,13 @@
             }
           ],
           "target": "one",
-          "id": "particle-beam",
-          "name": "Particle Beam",
-          "text": "The oculus fires a persistent particle beam that is <me-distance length='60' /> long and <me-distance length='5' /> wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save."
+          "id": "crush",
+          "name": "Crush"
         },
         {
-          "name": "Crush",
-          "id": "crush"
+          "name": "Particle Beam",
+          "text": "The oculus fires a persistent particle beam that is <me-distance length='60' /> long and <me-distance length='5' /> wide that lasts until the start of the oculus's next turn. While firing the beam, the oculus's speed becomes 0. Each creature that is within the beam's path or that moves into the beam's path for the first time on its turn must make a DC 16 Constitution saving throw. On a failed save, a creature takes 66 (12d10) radiant damage, or half as much on a successful save.",
+          "id": "particle-beam"
         }
       ]
     },
@@ -5676,29 +5739,27 @@
         {
           "uses": 3,
           "perDay": true,
-          "id": "aggressive",
+          "id": "barrier",
+          "name": "Barrier",
+          "text": "As an action or bonus action, the phantom gains 8 barrier ticks. When the phantom is dealt damage, remove one barrier tick and reduce the damage by 1d8."
+        },
+        {
           "name": "Aggressive",
-          "text": "As a bonus action, the phantom can move up to its speed toward a hostile creature that it can see."
+          "text": "As a bonus action, the phantom can move up to its speed toward a hostile creature that it can see.",
+          "id": "aggressive"
         },
         {
           "name": "Avoidance",
           "text": "If the phantom subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
           "id": "avoidance"
-        },
-        {
-          "name": "Barrier",
-          "text": "As an action or bonus action, the phantom gains 8 barrier ticks. When the phantom is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
-          "id": "barrier"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "monomolecular-blade",
-          "name": "Multiattack",
-          "text": "The phantom makes three Monomolecular Blade attacks or one Palm Blaster attack and two Monomolecular  Blade (one-handed) attacks."
+          "id": "monomolecular-blade",
+          "weaponId": "monomolecular-blade"
         },
         {
           "attack": "ranged",
@@ -5717,6 +5778,11 @@
           "target": "one",
           "id": "palm-blaster",
           "name": "Palm Blaster"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The phantom makes three Monomolecular Blade attacks or one Palm Blaster attack and two Monomolecular  Blade (one-handed) attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -5846,7 +5912,7 @@
     "id": "praetorian"
   },
   {
-    "image": "https://vignette.wikia.nocookie.net/masseffect/images/c/c4/Spacemonkey.jpg/revision/latest/scale-to-width-down/200?cb=20080727175830",
+    "image": "https://static.wikia.nocookie.net/masseffect/images/7/7a/338px-Spacemonkey.jpg",
     "type": "organic",
     "unit": "alien",
     "alignment": "u",
@@ -5963,14 +6029,14 @@
               "perDay": 5
             }
           ],
-          "id": "grappler",
-          "name": "Grappler",
-          "text": "The rachni brood warrior has advantage on attack rolls against any creature grappled by it."
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The rachni brood warrior's innate powercasting ability is Wisdom (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:"
         },
         {
-          "name": "Innate Powercasting",
-          "text": "The rachni brood warrior's innate powercasting ability is Wisdom (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
+          "name": "Grappler",
+          "text": "The rachni brood warrior has advantage on attack rolls against any creature grappled by it.",
+          "id": "grappler"
         }
       ],
       "actions": [
@@ -5995,9 +6061,9 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The brood warrior makes two Impale attacks or attempts to grapple a creature and makes an Impale attack."
+          "id": "acid-spit",
+          "name": "Acid Spit",
+          "hit": " This damage bypasses shields"
         },
         {
           "attack": "melee",
@@ -6014,13 +6080,13 @@
             }
           ],
           "target": "one",
-          "id": "acid-spit",
-          "name": "Acid Spit",
-          "hit": " This damage bypasses shields"
+          "id": "impale",
+          "name": "Impale"
         },
         {
-          "name": "Impale",
-          "id": "impale"
+          "name": "Multiattack",
+          "text": "The brood warrior makes two Impale attacks or attempts to grapple a creature and makes an Impale attack.",
+          "id": "multiattack"
         }
       ]
     },
@@ -6087,9 +6153,8 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The rachni queen makes one bite attack and two impale attacks."
+          "id": "bite",
+          "name": "Bite"
         },
         {
           "attack": "melee",
@@ -6106,12 +6171,13 @@
             }
           ],
           "target": "one",
-          "id": "bite",
-          "name": "Bite"
+          "id": "impale",
+          "name": "Impale"
         },
         {
-          "name": "Impale",
-          "id": "impale"
+          "name": "Multiattack",
+          "text": "The rachni queen makes one bite attack and two impale attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -6335,21 +6401,21 @@
         {
           "uses": 1,
           "perDay": true,
-          "id": "aggressive",
-          "name": "Aggressive",
-          "text": "As a bonus action, the rampart mech can move up to its speed toward a hostile creature that it can see."
-        },
-        {
-          "uses": 1,
-          "perDay": true,
           "id": "hex-shield",
           "name": "Hex Shield",
           "text": "As a bonus action, the rampart mech generates a <me-distance length='5' /> tall and wide, hexagon-shaped shield with 5AC and 50 shield points which offers full-cover."
         },
         {
+          "uses": 1,
+          "perDay": true,
+          "id": "tactical-cloak",
           "name": "Tactical Cloak",
-          "text": "As a bonus action, the rampart mech activates its tactical cloak, becoming invisible for 1 minute. When the rampart mech makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends.",
-          "id": "tactical-cloak"
+          "text": "As a bonus action, the rampart mech activates its tactical cloak, becoming invisible for 1 minute. When the rampart mech makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends."
+        },
+        {
+          "name": "Aggressive",
+          "text": "As a bonus action, the rampart mech can move up to its speed toward a hostile creature that it can see.",
+          "id": "aggressive"
         },
         {
           "name": "Post-Mortem Vent",
@@ -6361,16 +6427,19 @@
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "omni-blade",
-          "name": "Multiattack",
-          "text": "The rampart mech makes two omni-blade attacks."
+          "id": "omni-blade",
+          "weaponId": "omni-blade"
         },
         {
           "ref": "weapon",
           "proficient": true,
           "id": "m-23-katana",
           "weaponId": "m-23-katana"
+        },
+        {
+          "name": "Multiattack",
+          "text": "The rampart mech makes two omni-blade attacks.",
+          "id": "multiattack"
         }
       ]
     },
@@ -6422,9 +6491,9 @@
             "5",
             "6"
           ],
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The ravager makes two twin artillery cannon attacks."
+          "id": "acid-splash",
+          "name": "Acid Splash",
+          "text": "The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
         },
         {
           "attack": "ranged",
@@ -6447,13 +6516,13 @@
             }
           ],
           "target": "one",
-          "id": "acid-splash",
-          "name": "Acid Splash",
-          "text": "The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
+          "id": "twin-artillery-cannons",
+          "name": "Twin Artillery Cannons"
         },
         {
-          "name": "Twin Artillery Cannons",
-          "id": "twin-artillery-cannons"
+          "name": "Multiattack",
+          "text": "The ravager makes two twin artillery cannon attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -6605,7 +6674,7 @@
           "perDay": true,
           "id": "tactical-cloak",
           "name": "Tactical Cloak",
-          "text": "As a bonus action, the recon drone activates its tactical cloak, becoming invisible for 1 minute. When the recon drome makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends."
+          "text": "As a bonus action, the recon drone activates its tactical cloak, becoming invisible for 1 minute. When the recon drone makes a melee or ranged attack or uses a tech or combat power, tactical cloak ends."
         }
       ],
       "actions": [
@@ -6715,8 +6784,8 @@
           "save": false,
           "recharge": "short",
           "id": "stabalize",
-          "name": "Stabalize",
-          "text": "The repair drone can stabalize a friendly creature within <me-distance length='5' />."
+          "name": "Stabilize",
+          "text": "The repair drone can stabilize a friendly creature within <me-distance length='5' />."
         }
       ]
     },
@@ -7090,14 +7159,14 @@
               "perDay": 3
             }
           ],
-          "id": "stationary",
-          "name": "Stationary",
-          "text": "The sentry turret automatically fails Strength and Dexterity saving throws and skill checks."
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The sentry turret's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:"
         },
         {
-          "name": "Innate Powercasting",
-          "text": "The sentry turret's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
+          "name": "Stationary",
+          "text": "The sentry turret automatically fails Strength and Dexterity saving throws and skill checks.",
+          "id": "stationary"
         }
       ],
       "actions": [
@@ -7176,14 +7245,14 @@
               "perDay": 5
             }
           ],
-          "id": "surprise-attack",
-          "name": "Surprise Attack",
-          "text": "If the sniper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The sniper's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following powers:"
         },
         {
-          "name": "Innate Powercasting",
-          "text": "The sniper's innate powercasting ability is Intelligence (power save DC 11, +3 to hit with power attacks). It can innately cast the following powers:",
-          "id": "innate-powercasting"
+          "name": "Surprise Attack",
+          "text": "If the sniper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
+          "id": "surprise-attack"
         }
       ],
       "actions": [
@@ -7257,9 +7326,9 @@
               "level": 2
             }
           ],
-          "id": "surprise-attack",
-          "name": "Surprise Attack",
-          "text": "If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The salarian stg agent's innate powercasting ability is Intelligence (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:"
         },
         {
           "list": [
@@ -7269,24 +7338,27 @@
               "uses": 2
             }
           ],
-          "id": "innate-powercasting",
-          "name": "Innate Powercasting",
-          "text": "The salarian stg agent's innate powercasting ability is Intelligence (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:"
+          "id": "grenades",
+          "name": "Grenades",
+          "text": "The salarian stg agent has the following grenades equipped. It can use a grenade as an action."
         },
         {
-          "name": "Grenades",
-          "text": "The salarian stg agent has the following grenades equipped. It can use a grenade as an action.",
-          "id": "grenades"
+          "name": "Surprise Attack",
+          "text": "If the agent surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
+          "id": "surprise-attack"
         }
       ],
       "actions": [
         {
           "ref": "weapon",
           "proficient": true,
-          "id": "multiattack",
-          "weaponId": "scorpion",
+          "id": "scorpion",
+          "weaponId": "scorpion"
+        },
+        {
           "name": "Multiattack",
-          "text": "The agent makes 2 attacks with its Scorpion."
+          "text": "The agent makes 2 attacks with its Scorpion.",
+          "id": "multiattack"
         },
         {
           "name": "Explosive Decoy",
@@ -7892,19 +7964,19 @@
         {
           "uses": 3,
           "perDay": true,
-          "id": "destroy-terrain",
+          "id": "legendary-resistance",
+          "name": "Legendary Resistance",
+          "text": "If the thresher maw fails a saving throw, it can choose to succeed instead."
+        },
+        {
           "name": "Destroy Terrain",
-          "text": "When the thresher maw moves via burrowing, the ground it moves through becomes difficult terrain."
+          "text": "When the thresher maw moves via burrowing, the ground it moves through becomes difficult terrain.",
+          "id": "destroy-terrain"
         },
         {
           "name": "Frightful Presence",
           "text": "Each creature of the thresher maw's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 22 Wisdom saving throw or become {frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the thresher maw's Frightful Presence for the next 24 hours.",
           "id": "frightful-presence"
-        },
-        {
-          "name": "Legendary Resistance",
-          "text": "If the thresher maw fails a saving throw, it can choose to succeed instead.",
-          "id": "legendary-resistance"
         },
         {
           "name": "Siege Monster",
@@ -7934,9 +8006,9 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp."
+          "id": "grasp",
+          "name": "Grasp",
+          "hit": " If the target is a creature, it is grappled (escape DC 22)"
         },
         {
           "attack": "melee",
@@ -7953,24 +8025,24 @@
             }
           ],
           "target": "one",
-          "id": "acid-spit",
-          "name": "Acid Spit",
-          "hit": " Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one"
+          "id": "tail",
+          "name": "Tail",
+          "hit": " If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone"
         },
         {
-          "name": "Grasp",
-          "hit": " If the target is a creature, it is grappled (escape DC 22)",
-          "id": "grasp"
+          "name": "Multiattack",
+          "text": "The thresher maw can use its Frightful Presence. It then makes four attacks: one with its grasp, two with its tail, one with its acid spit. It can use its Swallow instead of its grasp.",
+          "id": "multiattack"
+        },
+        {
+          "name": "Acid Spit",
+          "hit": " Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one",
+          "id": "acid-spit"
         },
         {
           "name": "Swallow",
           "text": "The thresher maw makes one grasp attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the grasp's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the thresher maw, and it takes 56 (16d6) acid damage at the start of each of the thresher maw's turns.\n--If the thresher maw takes 60 damage or more on a single turn from a creature inside it, the thresher maw must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within <me-distance length='10' /> of the thresher maw. If the thresher maw dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using <me-distance length='30' /> of movement, exiting prone.",
           "id": "swallow"
-        },
-        {
-          "name": "Tail",
-          "hit": " If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone",
-          "id": "tail"
         }
       ],
       "legendary": {
@@ -8275,9 +8347,8 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The adjutant makes two Arm Cannon attacks."
+          "id": "arm-cannon",
+          "name": "Arm Cannon"
         },
         {
           "attack": "melee",
@@ -8294,8 +8365,8 @@
             }
           ],
           "target": "one",
-          "id": "arm-cannon",
-          "name": "Arm Cannon"
+          "id": "bash",
+          "name": "Bash"
         },
         {
           "attack": "melee",
@@ -8317,14 +8388,15 @@
               "type": "necrotic"
             }
           ],
-          "target": "one",
-          "id": "bash",
-          "name": "Bash"
+          "target": "one organic creature that is grappled by the weakened adjutant, incapacitated, or restrained",
+          "id": "reaper-infection",
+          "name": "Reaper Infection",
+          "hit": "The target's hit point maximum is reduced by an amount equal to the necrotic damage taken"
         },
         {
-          "name": "Reaper Infection",
-          "hit": " The target's hit point maximum is reduced by an amount equal to the necrotic damage taken",
-          "id": "reaper-infection"
+          "name": "Multiattack",
+          "text": "The adjutant makes two Arm Cannon attacks.",
+          "id": "multiattack"
         }
       ],
       "features": [
@@ -8403,9 +8475,8 @@
             }
           ],
           "target": "one",
-          "id": "multiattack",
-          "name": "Multiattack",
-          "text": "The yahg makes three attacks: one with its bite and two with its claws."
+          "id": "bite",
+          "name": "Bite"
         },
         {
           "attack": "melee",
@@ -8422,12 +8493,13 @@
             }
           ],
           "target": "one",
-          "id": "bite",
-          "name": "Bite"
+          "id": "claw",
+          "name": "Claw"
         },
         {
-          "name": "Claw",
-          "id": "claw"
+          "name": "Multiattack",
+          "text": "The yahg makes three attacks: one with its bite and two with its claws.",
+          "id": "multiattack"
         }
       ],
       "features": [

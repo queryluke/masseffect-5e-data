@@ -18,5 +18,10 @@ module.exports = {
         title: 'Burrowing',
         text: 'burrowing',
         label: 'burrow'
+    },
+    climb: {
+        title: 'Climbing',
+        text: 'climbing',
+        label: 'climb'
     }
 }

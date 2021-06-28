@@ -163,7 +163,22 @@ function combineItem(id, file1, file2 = null) {
     if (fs.existsSync(file2)) {
       const tFc = fm(fs.readFileSync(file2, 'utf8'))
       const tItem = tFc.attributes
-      item = _.merge(item, tItem)
+      item = _.mergeWith(item, tItem, (objValue, srcValue) => {
+        if (_.isArray(objValue) && _.isObject(objValue[0]) && objValue[0].id) {
+          const newArray = []
+          for (let dIndex = 0; dIndex < objValue.length; dIndex++) {
+            if (objValue[dIndex].id) {
+              const tIndex = srcValue.findIndex(i => i.id === objValue[dIndex].id)
+              if (tIndex > -1) {
+                newArray.push(_.merge(objValue[dIndex], srcValue[tIndex]))
+              } else {
+                newArray.push(objValue[dIndex])
+              }
+            }
+          }
+          return newArray.concat(srcValue.filter(i => !newArray.map(j => j.id).includes(i.id)))
+        }
+      })
       body = tFc.body
     }
   }

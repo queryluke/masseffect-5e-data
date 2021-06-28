@@ -76,6 +76,10 @@
 - id: beyond-first-level
   title: manual.beyond_first_level
   sections:
+    - id: beyond-first-level
+      sections: []
+      is_change: false
+      is_new: false
     - id: multiclassing
       sections: []
       is_change: true

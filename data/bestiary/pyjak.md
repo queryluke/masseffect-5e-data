@@ -1,6 +1,6 @@
 ---
 image: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/c/c4/Spacemonkey.jpg/revision/latest/scale-to-width-down/200?cb=20080727175830
+  https://static.wikia.nocookie.net/masseffect/images/7/7a/338px-Spacemonkey.jpg
 type: organic
 unit: alien
 alignment: u

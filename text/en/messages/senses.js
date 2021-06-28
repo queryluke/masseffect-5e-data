@@ -6,5 +6,7 @@ module.exports = {
     truesight: 'truesight',
     truesight_title: 'Truesight',
     blindsight: 'blindsight',
-    blindsight_title: 'Blindsight'
+    blindsight_title: 'Blindsight',
+    tremorsense: 'tremorsense',
+    tremorsense_title: 'Tremorsense'
 }

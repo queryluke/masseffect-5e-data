@@ -5,6 +5,8 @@ name: Powercasting
 You know two cantrips of your choice from the sentinel power list. You learn additional sentinel cantrips of your choice
 at higher levels, as shown in the Cantrips column of the Sentinel table.
 
+Instead of learning a new cantrip, you may instead learn the advanced version of a cantrip you already know.
+
 ### Power Slots
 The Sentinel table shows how many power slots you have. The table also shows what the level of those slots is; all of
 your power slots are the same level. To cast one of your sentinel powers of 1st level or higher, you must expend a power

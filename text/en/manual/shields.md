@@ -47,7 +47,7 @@ the following conditions on your turn:
 - Take the Hide action
 - Take the Dodge action
 - Take the Disengage action
-- Have full cover at the end of your turn
+- Have full cover from all hostile creatures at the end of your turn
 
 Then, if you take no damage until the start of your next turn, your shields begin to regenerate and you gain shield
 points equal to your armor's regen stat. You continue to gain shield points equal to your regen stat at the start of each
@@ -63,12 +63,11 @@ Some marauders lose sight of Todd, others attempt to hit him again, but are unsu
 he has taken no damage since the end of his last turn and his shields begin to regenerate, immediately gaining 10 shield points.
 Todd now has 14 shield points total. Todd takes his turn as he normally would.
 
-An adept spots Todd and hits him with a Warp power. This bypasses Todd's shields and deals 13 necrotic damage. But it
-does not end his shield regeneration. If this damage had been from an Assault Rifle or an Incinerate power, Todd's shield
-regeneration would have ended.
+An adept spots Todd and hits him with a Warp power. This bypasses Todd's shields and deals 13 necrotic damage. In addition,
+it stops his shield regeneration because the on-board VI has reengaged in combat-focused processed.
 
-On Todd's next turn, he gains another 10 shield points, putting him back to his maximum capacity of 20 and the regeneration
-ends.
+If Todd had dodged the Warp attack, he would have gained another 10 shield points at the start of his next turn, putting
+him back to his maximum capacity of 20 and the regeneration would have ended.
 :::
 
 ### Lightning Damage

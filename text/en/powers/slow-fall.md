@@ -1,6 +1,6 @@
 ---
 name: Slow Fall
-reactionQualifier: ' which you take when you or a creature within 10m of you falls'
+reactionQualifier: which you take when you or a creature within <me-distance length="30" abbr /> of you falls
 advancements:
   improved-duration:
     name: Improved Duration

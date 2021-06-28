@@ -23,7 +23,7 @@ entries:
     - name: Surprise Attack
       text: >-
         If the nemesis surprises a creature and hits it with an attack during
-        the first round of combat, the target takes an extra [dmg] damage from
+        the first round of combat, the target takes an extra 10 (3d6) damage from
         the attack.
       id: surprise-attack
 ---

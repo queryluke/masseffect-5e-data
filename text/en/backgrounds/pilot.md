@@ -29,7 +29,7 @@ are most comfortable on the move and never stay in one place very long, always s
 d8 | Personality Trait
 --- | ---
 1 | In my experience, its best do something first and ask for forgiveness later.
-2 | When it comes to my preferred vehicle, there is no one better than myself and piloting it.
+2 | When it comes to my preferred vehicle, there is no one better than myself at piloting it.
 3 | Actions speak louder than words. I don't waste my time in boasting or insulting others.
 4 | I will always give my opinion, even if others don't ask for it.
 5 | I see genuine quality is seemingly defunct transports and ships.

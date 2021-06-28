@@ -15,8 +15,8 @@ entries:
     - name: Drop Klixen
       text: >-
         If the harvester is within a region that contains Klixen, it  begins the
-        fight by dropping 1d10 Klixen in a <me-distance length='15' /> by
-        <me-distance length='50' /> area.
+        fight by dropping 1d10 Klixen in a <me-distance length='15' adj /> by
+        <me-distance length='50' adj /> area.
       id: drop-klixen
   actions:
     - name: Multiattack
@@ -28,7 +28,7 @@ entries:
       id: stomp
     - name: Acid Spit
       text: >-
-        The harvester targets a <me-distance length='15' /> radius  within
+        The harvester targets a <me-distance length='15' adj /> radius  within
         <me-distance length='150' /> and launches a glob of acid that coats the
         area.  Each creature within the area must succeed on a DC 19 Dexterity
         saving throw,  taking 44 (8d10) acid damage on a failed save, or half as

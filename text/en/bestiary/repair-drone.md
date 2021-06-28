@@ -11,9 +11,9 @@ entries:
   actions:
     - name: Defibrillators
       id: defibrillators
-    - name: Stabalize
+    - name: Stabilize
       text: >-
-        The repair drone can stabalize a friendly creature within <me-distance
+        The repair drone can stabilize a friendly creature within <me-distance
         length='5' />.
       id: stabalize
 ---

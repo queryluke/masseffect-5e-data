@@ -20,8 +20,8 @@ The mark of this mine determines the DC of its AC penalty, Intelligence (Electro
 
 Mark|Rarity|AC Penalty|Intelligence (Electronics) DC|Damage|Credits
 ---|---|---|---|---|---
-I|Common|-1|11|2d4|6,000 credits
-II|Common|-1|13|2d4|6,500 credits
+I|Common|-1|11|2d4|3,000 credits
+II|Common|-1|13|2d4|3,500 credits
 III|Uncommon|-1|13|4d4|4,000 credits
 IV|Uncommon|-1|15|4d4|4,500 credits
 V|Rare|-2|15|6d4|7,000 credits

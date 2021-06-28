@@ -3680,7 +3680,7 @@
       "vanguard"
     ],
     "name": "Slow Fall",
-    "reactionQualifier": " which you take when you or a creature within 10m of you falls",
+    "reactionQualifier": "which you take when you or a creature within <me-distance length=\"30\" abbr /> of you falls",
     "html": "<p>When you or a creature within <me-distance length=\"30\" /> of you falls, choose up to five falling creatures within range. Create a negative mass\neffect field around each creature, slowing the rate of descent to <me-distance length=\"60\" /> per round. If the creature lands before the power\nends, it takes no Falling damage and can land on its feet, and the power ends for that creature.</p>\n",
     "id": "slow-fall"
   },
@@ -3728,7 +3728,7 @@
       "solid-freeze": {
         "mechanics": [],
         "name": "Solid Freeze",
-        "text": "The ice solid like a rock. Creatures have disadvantage on their Strength checks to break it."
+        "text": "The ice rock solid. Creatures have disadvantage on their Strength checks to break it."
       },
       "brittle-freeze": {
         "mechanics": [],

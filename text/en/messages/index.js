@@ -338,7 +338,7 @@ module.exports = {
     save_text: '{type} Save',
     search: 'Search',
     self_title: 'Self',
-    senses_title: 'Sense',
+    senses_title: 'Senses',
     senses,
     set_bonus: 'Set Bonus',
     set_bonus_range: `({min} of {max}):`,

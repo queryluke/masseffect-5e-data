@@ -36,7 +36,8 @@ module.exports = {
     shields_w_regen: '{capacity} (regen {n})',
     slots: '{n} slot | {n} slots',
     target_types: {
-        one: 'one target'
+        one: 'one target',
+        one_organic_grappled: 'one organic creature'
     },
     to_hit: {
         negative: '-{n} to hit',

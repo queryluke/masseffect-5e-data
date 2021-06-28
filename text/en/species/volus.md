@@ -4,7 +4,7 @@ alignment: >-
   Volus society tends towards lawful as a whole, with clans fighting over
   economic resources and aggressive negotiating, even if they are individually
   chaotic individuals. They tend towards neutral morality.
-size: Volus are between 1 and 1.5 metes (3-4'). Your size is Small.
+size: Volus are between 1 and 1.5 meters (3-5 feet). Your size is Small.
 snippet: >-
   The volus hail from Irune, which possesses a high-pressure greenhouse
   atmosphere able to support an ammonia-based biochemistry. As a result, the

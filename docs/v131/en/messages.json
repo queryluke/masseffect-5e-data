@@ -587,7 +587,8 @@
     "shields_w_regen": "{capacity} (regen {n})",
     "slots": "{n} slot | {n} slots",
     "target_types": {
-      "one": "one target"
+      "one": "one target",
+      "one_organic_grappled": "one organic creature"
     },
     "to_hit": {
       "negative": "-{n} to hit",
@@ -690,7 +691,7 @@
   "save_text": "{type} Save",
   "search": "Search",
   "self_title": "Self",
-  "senses_title": "Sense",
+  "senses_title": "Senses",
   "senses": {
     "darkvision": "darkvision",
     "darkvision_title": "Darkvision",
@@ -699,7 +700,9 @@
     "truesight": "truesight",
     "truesight_title": "Truesight",
     "blindsight": "blindsight",
-    "blindsight_title": "Blindsight"
+    "blindsight_title": "Blindsight",
+    "tremorsense": "tremorsense",
+    "tremorsense_title": "Tremorsense"
   },
   "set_bonus": "Set Bonus",
   "set_bonus_range": "({min} of {max}):",
@@ -749,6 +752,11 @@
       "title": "Burrowing",
       "text": "burrowing",
       "label": "burrow"
+    },
+    "climb": {
+      "title": "Climbing",
+      "text": "climbing",
+      "label": "climb"
     }
   },
   "starting_credits": "Starting Credits",
