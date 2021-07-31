@@ -2,11 +2,10 @@
 species:
   - batarian
 mechanics:
-  - type: prof
-    options:
-      skills: [perception]
+  - type: profs
+    subType: skill
+    has:
+      - perception
   - type: bonusAction
-    options:
-      title: Search
-      text: You may take the Search action.
+    id: search
 ---

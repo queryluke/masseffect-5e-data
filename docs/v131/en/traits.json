@@ -186,22 +186,24 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "options": {
-          "skills": [
-            "perception"
-          ]
-        }
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "perception"
+        ]
       },
       {
         "type": "bonusAction",
-        "options": {
-          "title": "Search",
-          "text": "You may take the Search action."
-        }
+        "id": "search"
       }
     ],
     "name": "Four Eyes",
+    "characterSheet": {
+      "search": {
+        "title": "Search",
+        "text": "You may take the Search action."
+      }
+    },
     "html": "<p>You have proficiency in the Perception skill and you can take the Search action as a bonus action on each of your turns.</p>\n",
     "id": "four-eyes"
   },
@@ -538,13 +540,15 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "options": {
-          "skills": [
+        "id": "shrewd-negotiator-profs",
+        "type": "profs",
+        "subType": "skill",
+        "choices": {
+          "items": [
             "insight",
             "intimidation"
           ],
-          "amount": 1
+          "count": 1
         }
       }
     ],
@@ -567,12 +571,11 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "options": {
-          "skills": [
-            "survival"
-          ]
-        }
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "survival"
+        ]
       }
     ],
     "name": "Survivalist",

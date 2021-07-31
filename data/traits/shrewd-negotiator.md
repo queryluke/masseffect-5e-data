@@ -2,8 +2,12 @@
 species:
   - batarian
 mechanics:
-  - type: prof
-    options:
-      skills: [insight,intimidation]
-      amount: 1
+  - id: shrewd-negotiator-profs
+    type: profs
+    subType: skill
+    choices:
+      items:
+        - insight
+        - intimidation
+      count: 1
 ---

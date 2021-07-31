@@ -180,6 +180,24 @@
     "view_rules": "View Rules"
   },
   "cantrip": "cantrip",
+  "character": {
+    "alignment": "Alignment",
+    "personality_traits": "Personality Traits",
+    "ideal": "Ideal",
+    "bond": "Bond",
+    "flaw": "Flaw",
+    "gender": "Gender",
+    "place_of_birth": "Place of Birth",
+    "age": "Age",
+    "height": "Height",
+    "weight": "Weight",
+    "hair": "Hair Color & Style",
+    "eyes": "Eye Color",
+    "skin": "Skin Color",
+    "appearance": "Appearance",
+    "backstory": "Backstory",
+    "name": "Name"
+  },
   "casting_time_title": "Casting Time",
   "change": "change",
   "changelog_title": "Changelog",
@@ -518,6 +536,17 @@
     "weapons": "The Mass Effect 5e arsenal has over 80 unique weapons designed to match the game's weaponry"
   },
   "military": "military",
+  "misc": {
+    "criminal_specialty": "Criminal Specialty",
+    "assassin": "Assassin",
+    "blackmailer": "Blackmailer",
+    "fence": "Fence",
+    "gambler": "Gambler",
+    "gang_member": "Gang Member",
+    "pickpocket": "Pickpocket",
+    "smuggler": "Smuggler",
+    "thief": "Thief"
+  },
   "mod_availability_title": "Availability",
   "mod_availabilities": {
     "all_armor": "All armor",

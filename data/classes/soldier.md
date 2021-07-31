@@ -20,7 +20,7 @@ profs:
   tool: false
   skill:
     choices:
-      items: [acrobatics,athletics,history,intimidation,medicine,perception,persuasion,stealth,survival,vehicle_handling]
+      items: [acrobatics,athletics,history,intimidation,medicine,perception,persuasion,stealth,survival,vehicle-handling]
       count: 3
   savingThrow:
     has:

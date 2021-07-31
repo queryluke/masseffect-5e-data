@@ -6,12 +6,14 @@ const homepage = require('./homepage')
 const lists = require('./lists')
 const measurements = require('./measurements')
 const meta = require('./meta')
+const misc = require('./misc')
 const npc = require('./npc')
 const senses = require ('./senses')
 const sizes = require('./sizes')
 const speeds = require('./speeds')
 const tags = require('./tags')
 const times = require('./times')
+const character = require('./character')
 
 module.exports = {
     abilities,
@@ -123,6 +125,7 @@ module.exports = {
         view_rules: 'View Rules'
     },
     cantrip: 'cantrip',
+    character,
     casting_time_title: 'Casting Time',
     change: 'change',
     changelog_title: 'Changelog',
@@ -256,6 +259,7 @@ module.exports = {
     measurements,
     meta,
     military: 'military',
+    misc,
     mod_availability_title: 'Availability',
     mod_availabilities: {
       all_armor: 'All armor',

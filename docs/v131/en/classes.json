@@ -358,7 +358,8 @@
             "tailors-tools",
             "tinkers-tools",
             "weaponsmiths-workbench"
-          ]
+          ],
+          "count": 1
         },
         "text": "Choose 1 from Armorsmith's Workbench, Tailor's Tools, Tinker's Tools, and Weaponsmith's Workbench"
       },
@@ -372,7 +373,7 @@
             "investigation",
             "medicine",
             "science",
-            "vehicle_handling"
+            "vehicle-handling"
           ],
           "count": 3
         },
@@ -529,7 +530,8 @@
           "items": [
             "hacking-tools",
             "thieves-tools"
-          ]
+          ],
+          "count": 1
         },
         "text": "Choose 1 from Hacking Tools or Thieves' Tools"
       },
@@ -547,7 +549,7 @@
             "persuasion",
             "sleight-of-hand",
             "stealth",
-            "vehicle_handling"
+            "vehicle-handling"
           ],
           "count": 3
         },
@@ -1050,7 +1052,7 @@
             "persuasion",
             "stealth",
             "survival",
-            "vehicle_handling"
+            "vehicle-handling"
           ],
           "count": 3
         },

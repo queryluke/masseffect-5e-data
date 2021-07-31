@@ -16,9 +16,10 @@ profs:
   tool:
     choices:
       items: [armorsmiths-workbench,tailors-tools,tinkers-tools,weaponsmiths-workbench]
+      count: 1
   skill:
     choices:
-      items: [athletics,electronics,engineering,history,investigation,medicine,science,vehicle_handling]
+      items: [athletics,electronics,engineering,history,investigation,medicine,science,vehicle-handling]
       count: 3
   savingThrow:
     has:
