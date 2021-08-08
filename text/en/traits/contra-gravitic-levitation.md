@@ -1,5 +1,5 @@
 ---
-name: Contra-gravitic Levitation
+name: Contra-Gravitic Levitation
 ---
 When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of <me-distance length="30" />,
 though you actually hover <me-distance length="2" /> from the ground. You are immune to

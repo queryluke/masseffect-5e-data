@@ -6,7 +6,7 @@ __Skill Proficiencies__. Athletics, Perception
 __Tool Proficiencies__. One gaming set and one starship system
 
 __Equipment__. An insignia of rank, a trophy taken from a fallen enemy, a gaming set, a set of common clothes, a military uniform,
-and 1000 credits
+and 1,000 credits
 
 __Feature: Military Rank__. You have a military rank from your career as a soldier. Soldiers loyal to your former military
 organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can

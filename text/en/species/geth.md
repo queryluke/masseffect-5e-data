@@ -13,8 +13,8 @@ age: >-
   not destroyed.
 ---
 Former automatons build by the quarians to function as soldiers and laborers, geth are constructs that have
-unintentionally consciousness and sentience. Geth, meaning "servant of the people" in the quarian language of
-Khelish, are fundamentally different than other constructs and are designed with humanoid thought and emotion in mind.
+unintentionally consciousness and sentience. Geth, meaning "Servant of the People" in the quarian language of Khelish,
+are fundamentally different than other constructs and are designed with humanoid thought and emotion in mind.
 Geth think, feel, and experience the world in a totally unique way.
 
 ### The Morning War

@@ -14,5 +14,8 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/7/7b/MEA_Ruzad_MP.p
 andromeda: false
 properties:
   - two-handed
+  - hip-fire
+  - recoil
+  - special
   - heavy
 ---

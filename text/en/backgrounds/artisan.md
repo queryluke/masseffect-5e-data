@@ -20,9 +20,9 @@ d8 |	Trade | Artisan Tool
 2	| Brewer | Brewer's Supplies
 3	| Chemist | Chemist's Supplies
 4 | Cook | Cook's Utensils
-5	| Mechanic | Tinker's tools or starship system (power core)
+5	| Mechanic | Tinker's Tools or starship system (power core)
 6	| Painter | Painter's Supplies
-7 | Tailor | Tailor's tools
+7 | Tailor | Tailor's Tools
 8	| Weaponsmith | Weaponsmith's Workbench
 
 <div class="hr"></div>

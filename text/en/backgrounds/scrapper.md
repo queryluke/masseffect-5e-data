@@ -11,7 +11,7 @@ up to 10 omni-gel, and 500 credits.
 
 __Feature: Another Alien's Trash...__. You see value in mechanical junk, broken machines, and antiquated equipment. Sometimes
 you can repair an item to working conditions and sell it to a collector for a profit. You have exonet connections and knowledge
-of what collectors want what objects. You also have encyclopedic knowledge about what gear, weapons, and devices contain
+of what collectors want. You also have encyclopedic knowledge about what gear, weapons, and devices contain
 valuable or rare materials and you know how to salvage those materials from the containing items.
 
 <div class="hr"></div>

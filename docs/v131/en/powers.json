@@ -4345,13 +4345,13 @@
     "advancements": {
       "unrestricted--engineer-only-": {
         "mechanics": [],
-        "name": "Unrestricted (engineer only)",
+        "name": "Unrestricted (Engineer only)",
         "text": "Engineers can spend any amount of tech points to cast this power. They are not limited by their Tech Point Limit column."
       },
       "shield-restore": {
         "mechanics": [],
         "name": "Shield restore",
-        "text": "When you cast this at 1st level, creatures also gain 1d4 shield points. This increases by 1d4 for each power slot above the 2nd."
+        "text": "When you cast this at 2nd level, creatures also gain 1d4 shield points. This increases by 1d4 for each power slot above the 2nd."
       }
     },
     "classes": [
@@ -4490,7 +4490,7 @@
     ],
     "name": "Warp Cloud",
     "reactionQualifier": false,
-    "html": "<p>You fill the air with a highly concentrated warp field <me-distance length=\"5\" /> on each side at a point within range. A creature takes\n4d4 necrotic damage when it enters the power area for the first time on a turn or starts its turn there. A creature\nwithin the cloud is <me-condition id=\"primed\" sub=\"necrotic\"/>.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, the damage increases by 4d4\nfor each slot level above 1st.</p>\n",
+    "html": "<p>Target a point within range, creating a highly-concentrated warp field in a <me-distance length=\"5\" adj/> cube. A creature takes\n4d4 necrotic damage when it enters the power area for the first time on a turn or starts its turn there. A creature\nwithin the cloud is <me-condition id=\"primed\" sub=\"necrotic\"/>.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, the damage increases by 4d4\nfor each slot level above 1st.</p>\n",
     "id": "warp-cloud"
   },
   {

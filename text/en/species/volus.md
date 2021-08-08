@@ -1,9 +1,9 @@
 ---
 name: Volus
 alignment: >-
-  Volus society tends towards lawful as a whole, with clans fighting over
-  economic resources and aggressive negotiating, even if they are individually
-  chaotic individuals. They tend towards neutral morality.
+  Volus society tends towards lawful as a whole, with clans fighting over economic
+  resources and aggressive negotiating. Even if they are chaotic individuals.
+  They tend towards neutral morality.
 size: Volus are between 1 and 1.5 meters (3-5 feet). Your size is Small.
 snippet: >-
   The volus hail from Irune, which possesses a high-pressure greenhouse
@@ -11,7 +11,7 @@ snippet: >-
   volus must wear pressure suits and breathers when dealing with other species.
 age: >-
   Most volus reach adulthood around their 50th year and live to be around 200
-  years-old.
+  years old.
 ---
 The volus are an associate species on the Citadel with their own embassy but are also a client species of the turians. They
 hail from Irune, which possesses a high-pressure greenhouse atmosphere able to support ammonia-based biochemistry.
@@ -20,7 +20,7 @@ hail from Irune, which possesses a high-pressure greenhouse atmosphere able to s
 The volus are unable to survive unprotected in an atmosphere more suitable to humans and other carbon-based lifeforms,
 and as such require pressurized, protective suits capable of providing the proper atmosphere. Traditional nitrogen/oxygen
 air mixtures are poisonous to them, and in the low pressure atmospheres tolerable to most species, their flesh will actually
-split open.Unlike quarians, who can withstand brief periods outside their suit, volus choose never to take theirs off,
+split open. Unlike quarians, who can withstand brief periods outside their suit, volus choose never to take theirs off,
 especially in the presence of other species. Therefore, little is known about their physiology. Despite individuals distinctly
 sounding like males or females to human listeners, volus genders are a mystery as well. The volus themselves consider
 the question both intrusive and hilariously irrelevant.

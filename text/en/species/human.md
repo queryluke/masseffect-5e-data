@@ -24,8 +24,8 @@ proved Protheans had studied Cro-Magnon humans millennia ago. Discovering inform
 explorers managed to open the Charon Relay and discovered it led to Arcturus.
 
 ### First Contact
-Humans first came to the attention of the galactic community after a brief but intense conflict with the turians,
-known by humans as the First Contact War. As a consequence of the System Alliance's swift and decisive action during the
+Humans first came to the attention of the galactic community after a brief but intense conflict with the turians, known
+by humans as the First Contact War. As a consequence of the Systems Alliance's swift and decisive action during the
 First Contact War, the Alliance became the representative and supranational governing body of humanity. Since then,
 humans have rapidly risen in prominence. Humanity continued to expand to unclaimed star systems on the edge of Citadel
 space, which eventually led to competition with the batarians.

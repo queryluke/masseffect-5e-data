@@ -13,7 +13,7 @@ __Feature: Seducer's Wiles__. Your experiences with a variety of species have ta
 attitude to bring anyone of either gender in your embrace. You can call upon a humanoid that can see and hear you and gain its attention
 without it suspecting something (other than what you offer).
 
-__Alternate Feature: Unrequited Love__. At some point in your service, a patron became obsessed with you, expressing his undying
+__Alternate Feature: Unrequited Love__. At some point in your service, a patron became obsessed with you, expressing their undying
 love and vowing to protect you at all costs. Whenever you are in need, you can request this patron's aid. As long as you feign
 reciprocal feelings they will fulfill your request to the best of their abilities, even to the point of sacrificing their life for you.
 

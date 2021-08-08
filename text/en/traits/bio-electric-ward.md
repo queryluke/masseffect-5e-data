@@ -1,5 +1,5 @@
 ---
-name: Bio-electric Ward
+name: Bio-Electric Ward
 ---
 Increase your AC by 1. You have a resistance to lightning damage, but this resistance does not apply to damage
 done to your shields.

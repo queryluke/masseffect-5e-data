@@ -9,8 +9,7 @@ called a "blue box". While most AI are "shackled" to the confines of networked c
 occasionally, an AI is placed into a synthetic form, unshackling it.
 
 AIs are considered illegal by the Council, but that hasn't stopped corporations like Cerberus from innovating. As an
-unshackled AI, you might be have been mass produced like the Alliance Infiltration Units, or you may be an experiment
-gone wrong.
+unshackled AI, you might have been mass produced like the Alliance Infiltration Units, or you may be an experiment gone wrong.
 
 ### Playing an Unshackled AI
 Unshackled AIs are entirely unique. Since you are synthetic, you gain some of the synthetic traits as listed in the

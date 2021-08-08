@@ -7,6 +7,6 @@ benefits to the powers below:
 Power | Improvement
 --- | ---
 Lift | When casting Lift, you are considered to have both advancement options.
-Pull | When you cast pull, you may target 2 creatures. Make a ranged power attack for each target.
-Singularity | Large or smaller objects and creatures are affected by singularity.
+Pull | When you cast Pull, you may target 2 creatures. Make a ranged power attack for each target.
+Singularity | Large or smaller objects and creatures are affected by Singularity.
 Stasis | Targets have disadvantage on their saving throw.
