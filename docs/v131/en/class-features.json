@@ -119,7 +119,7 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Bend Luck",
-    "html": "<p>You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions. It\nmight be a small burst under the muzzle of a gun to throw off the attacker's aim. Or negative field around a friendly\ncreature as leaps away from a grenade, moving it out of damage's way.</p>\n<p>At 6th level, when another creature you can see makes an attack roll, an ability check, or a saving throw, you\ncan use your reaction to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.\nYou can do so after the creature rolls but before any effects of the roll occur.</p>\n<p>You can use Bend Luck a number of times equal to half of your Adept level (minimum 1) before you finish a long rest.</p>\n",
+    "html": "<p>You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions.\nIt might be a small burst under the muzzle of a gun to throw off the attacker's aim or a negative field around a\nfriendly creature as it leaps away from a grenade.</p>\n<p>At 6th level, when another creature you can see makes an attack roll, an ability check, or a saving throw, you can use\nyour reaction to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You\ncan do so after the creature rolls but before any effects of the roll occur.</p>\n<p>You can use Bend Luck a number of times equal to half of your Adept level (minimum 1). You regain all expended uses\nafter a long rest.</p>\n",
     "id": "bend-luck"
   },
   {
@@ -143,7 +143,7 @@
     "klass": "adept",
     "subclass": "disruptor",
     "name": "Biotic Concentration",
-    "html": "<p>Starting at 14th level, you can push your biotics to the limit. If you are already maintaining a concentration\npower, you can cast another power that requires concentration and maintain it. If you take damage you must make a separate Constitution\nsaving throw to maintain each power.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
+    "html": "<p>Starting at 14th level, you can push your biotics to the limit. If you are already maintaining a concentration power,\nyou can cast another power that requires concentration and maintain it. If you take damage you must make a separate\nConstitution saving throw to maintain each power.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
     "id": "biotic-concentration"
   },
   {
@@ -151,7 +151,7 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Biotic Control",
-    "html": "<p>At 14th level, you've increased your mastery with biotic powers that control the battlefield. Gain the following\nbenefits to the powers below:</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Power</th>\n<th>Improvement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lift</td>\n<td>When casting Lift, you are considered to have both advancement options.</td>\n</tr>\n<tr>\n<td>Pull</td>\n<td>When you cast pull, you may target 2 creatures. Make a ranged power attack for each target.</td>\n</tr>\n<tr>\n<td>Singularity</td>\n<td>Large or smaller objects and creatures are affected by singularity.</td>\n</tr>\n<tr>\n<td>Stasis</td>\n<td>Targets have disadvantage on their saving throw.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "html": "<p>At 14th level, you've increased your mastery with biotic powers that control the battlefield. Gain the following\nbenefits to the powers below:</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Power</th>\n<th>Improvement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lift</td>\n<td>When casting Lift, you are considered to have both advancement options.</td>\n</tr>\n<tr>\n<td>Pull</td>\n<td>When you cast Pull, you may target 2 creatures. Make a ranged power attack for each target.</td>\n</tr>\n<tr>\n<td>Singularity</td>\n<td>Large or smaller objects and creatures are affected by Singularity.</td>\n</tr>\n<tr>\n<td>Stasis</td>\n<td>Targets have disadvantage on their saving throw.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "biotic-control"
   },
   {
@@ -380,7 +380,7 @@
     "level": 1,
     "klass": "engineer",
     "name": "Drone",
-    "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <nuxt-link to=\"/bestiary\">bestiary</nuxt-link>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your intelligence, not the drone's.\nThe drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n",
+    "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <nuxt-link to=\"/bestiary\">bestiary</nuxt-link>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your Intelligence,\nnot the drone's. The drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n",
     "id": "drone"
   },
   {
@@ -797,7 +797,7 @@
     "klass": "adept",
     "subclass": "commando",
     "name": "Overchannel",
-    "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you\ntake 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature again\nbefore finishing a long rest, the necrotic damage per power level increases by 1d12. This damage ignores resistance and\nimmunity.</p>\n",
+    "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.</p>\n",
     "id": "overchannel"
   },
   {
@@ -901,7 +901,7 @@
     "level": 7,
     "klass": "engineer",
     "name": "Recharge (1d4)",
-    "html": "<p>Beginning at 7th level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).</p>\n",
+    "html": "<p>Beginning at 7th level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your Intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).</p>\n",
     "id": "recharge-1"
   },
   {
@@ -976,7 +976,7 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Sculpt Biotics",
-    "html": "<p>Starting at 2nd level, You can create pockets of relative safety within the effects of your biotic powers. When you cast a biotic power that\naffects other creatures that you can see, you can choose a number of them equal to 1+the power's level. The chosen creatures\nautomatically succeed on their saving throws against the power, and they take no damage if they would normally take half\ndamage on a successful save.</p>\n",
+    "html": "<p>Starting at 2nd level, you can create pockets of relative safety within the effects of your biotic powers. When you\ncast a biotic power that affects other creatures that you can see, you can choose a number of them equal to 1+ the\npower's level. The chosen creatures automatically succeed on their saving throws against the power, and they take no\ndamage if they would normally take half damage on a successful save.</p>\n",
     "id": "sculpt-biotics"
   },
   {
