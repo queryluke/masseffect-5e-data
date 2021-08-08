@@ -1,7 +1,5 @@
 ---
-name: Additional Tactic
-class: sentinel
 level: 7
+klass: sentinel
 subclass: bastion
 ---
-At 7th level, you learn an additional tactic of your choice.

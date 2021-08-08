@@ -1,10 +1,7 @@
 ---
-name: "Weaponsmith's Workbench"
-type: Tool
-subType: Artisan
+rarity: common
+type: tool
 cost: 6000
 weight: 30
-rarity: Common
+subType: artisan
 ---
-
-All the necessary tools to work with weapons.

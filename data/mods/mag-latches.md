@@ -1,16 +1,13 @@
 ---
-name: Mag Latches
-rarity: Rare
-type: Armor
-description: Powerful magnets keep you grounded.
+rarity: rare
+type: armor
 cost: 50000
-manu: Any
-notes:
-  - Special
-placement: Legs
+manufacturer: any
+tags:
+  - special
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-If you are standing on a metal surface, you are immune to being lifted. Otherwise, if you would make a saving throw against being lifted, you have advantage.

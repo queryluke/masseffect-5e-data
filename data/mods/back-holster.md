@@ -1,16 +1,13 @@
 ---
-name: Back Holster
-rarity: Common
-type: Armor
-description: A back holster designed to hold a larger weapon.
+rarity: common
+type: armor
 cost: 6000
-manu: Any
-notes:
-  - Item Capacity
-placement: Chest
+manufacturer: any
+tags:
+  - item_capacity
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Gain 2 additional weapon slots. If using the Variant: Encumbrance rule, increase your Carry Weight by 10.

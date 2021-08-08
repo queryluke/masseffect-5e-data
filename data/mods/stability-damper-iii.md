@@ -1,18 +1,14 @@
 ---
-name: Stability Damper III
-description: Distributes recoil with a sliding system of counterweights
-  compatible with kinetic coil generators, reducing weapon kickback.
-rarity: Spectre
+rarity: spectre
+type: weapon
 cost: 25000
-placement: Body
-notes:
-  - Attack Bonus
-createdBy: null
+manufacturer: ''
+tags:
+  - attack_bonus
+placement: body
 availability:
-  - Assault Rifle
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-+3 on ranged attack rolls made with this weapon.

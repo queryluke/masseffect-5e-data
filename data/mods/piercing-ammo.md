@@ -1,16 +1,13 @@
 ---
-name: Piercing Ammo
-description: Capacitor boosts kinetic coil generators, increasing shot penetration.
-rarity: Rare
+rarity: rare
+type: weapon
 cost: 20000
-placement: Ammo
-notes:
-  - Ignore Resistance
-createdBy: null
+manufacturer: ''
+tags:
+  - ignore_resistance
+placement: ammo
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - sniper_rifle
 ---
-Damage done by this weapon cannot be reduced by piercing damage resistance.

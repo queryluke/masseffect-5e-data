@@ -1,7 +1,3 @@
 ---
-id: biotic-slayer
-name: Biotic Slayer
-note: You have practiced techniques useful in melee combat against biotic wielders
+mechanics: []
 ---
-
-Name change for Mage Slayer. Player's handbook pg. 168

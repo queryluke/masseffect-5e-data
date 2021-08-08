@@ -1,19 +1,16 @@
 ---
-name: High-Caliber Barrel II
-description: Superior kinetic coils increase shot penetration and damage.
-rarity: Rare
+rarity: rare
+type: weapon
 cost: 19500
-placement: Barrel
-notes:
-  - Extra Damage
-  - Special
-createdBy: null
+manufacturer: ''
+tags:
+  - extra_damage
+  - special
+placement: barrel
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-+2 on damage rolls made with this weapon. Ignores half cover.

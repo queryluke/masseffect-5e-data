@@ -1,17 +1,13 @@
 ---
-name: Shield Capacity
-rarity: Uncommon
-type: Armor
-description: Micro-harmonic oscillators to reduce stress on the kinetic barriers
-  ensuring suit integrity when faced with incoming projectiles.
+rarity: uncommon
+type: armor
 cost: 10000
-manu: Armax Arsenal
-notes:
-  - Shields
-placement: Arms
+manufacturer: armax-arsenal
+tags:
+  - shields
+placement: arms
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your shield points by 5.

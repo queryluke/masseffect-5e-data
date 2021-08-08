@@ -1,8 +1,5 @@
 ---
-name: Focused Biotics
-class: adept
-subclass: blackstar
 level: 10
+klass: adept
+subclass: blackstar
 ---
-Beginning at 10th level, while you are concentrating on a biotic power, your concentration can't be broken as a
-result of taking damage.

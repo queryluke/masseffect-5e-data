@@ -1,9 +1,7 @@
 ---
-name: "Disguise Kit"
-type: Tool
+rarity: common
+type: tool
 cost: 2500
 weight: 3
-rarity: Common
+subType: ''
 ---
-
-A pouch of cosmetics, dyes, and a micro-fabricator.

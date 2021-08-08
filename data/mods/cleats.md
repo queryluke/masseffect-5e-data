@@ -1,16 +1,13 @@
 ---
-name: Cleats
-rarity: Uncommon
-type: Armor
-description: Copper microfilaments in your boots ground you and abate electrical shock.
+rarity: uncommon
+type: armor
 cost: 15000
-manu: Cerberus Skunkworks
-notes:
-  - Resistance
-placement: Legs
+manufacturer: cerberus-skunkworks
+tags:
+  - resistance
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Resistance to lightning.

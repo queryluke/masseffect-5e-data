@@ -1,12 +1,9 @@
 ---
-name: Cognition_Booster.exe
-rarity: Rare
-stats:
+mechanics:
   installation: true
-type: Omni-tool Program
+rarity: rare
+type: omni_tool_program
 cost: 0
 weight: 0
+subType: ''
 ---
-This program diverts positive energy from your omni-tool to the nerve clusters in your brain, accelerating your thought
-processes and critical thinking. Your Intelligence score becomes 19 while this program is active. If your Intelligence
-is equal to or higher than 19, this program has no effect.

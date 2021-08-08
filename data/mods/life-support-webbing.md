@@ -1,18 +1,13 @@
 ---
-name: Life Support Webbing
-rarity: Uncommon
-type: Armor
-description: A net of micro-stimulants and medi-gel in order to increase the
-  chances of survival for aid workers and military personnel working in hostile
-  environments.
+rarity: uncommon
+type: armor
 cost: 15000
-manu: Sirta Foundation
-notes:
-  - Special
-placement: Legs
+manufacturer: sirta-foundation
+tags:
+  - special
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increases your maximum exhaustion by 1 level. At the first level, you suffer no negative effects.

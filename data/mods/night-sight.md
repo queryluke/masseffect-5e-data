@@ -1,16 +1,13 @@
 ---
-name: Night Sight
-rarity: Uncommon
-type: Armor
-description: A standard night-vision mod issued to infantry across the galaxy.
+rarity: uncommon
+type: armor
 cost: 10000
-manu: Alliance
-notes:
-  - Vision
-placement: Head
+manufacturer: alliance
+tags:
+  - vision
+placement: head
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-You gain darkvision <me-distance length="75" />.

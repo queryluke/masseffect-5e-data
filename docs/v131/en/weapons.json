@@ -1,0 +1,2529 @@
+[
+  {
+    "rarity": "uncommon",
+    "type": "heavy_pistol",
+    "cost": 13500,
+    "manufacturer": "asari",
+    "weight": 4,
+    "heat": 6,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "force"
+    },
+    "range": 50,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/b/b9/ME3_Acolyte_Pistol.png/revision/latest?cb=20120714073045",
+    "andromeda": false,
+    "properties": [
+      "light"
+    ],
+    "name": "Acolyte",
+    "html": "<p>Damage done by this weapon cannot be reduced by using barrier ticks. Use a bonus action to charge\nthe weapon before firing, consuming 2 heat. On a hit, it deals an additional 2d6 force\ndamage.</p>\n",
+    "id": "acolyte"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 17000,
+    "manufacturer": "quarian",
+    "weight": 11,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "lightning"
+    },
+    "range": 25,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/9/9e/ME3_Adas_Anti-Synthetic_Assault_Rifle.png/revision/latest/scale-to-width-down/200?cb=20120809190433",
+    "andromeda": false,
+    "properties": [
+      "arc",
+      "special",
+      "two-handed"
+    ],
+    "name": "Adas Anti-Synthetic Rifle ",
+    "html": "<p>Deals an additional 1d6 lightning damage to synthetic targets.</p>\n",
+    "id": "adas-anti-synthetic-rifle"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "heavy_pistol",
+    "cost": 13500,
+    "manufacturer": "quarian",
+    "weight": 4,
+    "heat": 18,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "lightning"
+    },
+    "range": 75,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747",
+    "andromeda": false,
+    "properties": [
+      "arc",
+      "light",
+      "special"
+    ],
+    "name": "Arc Pistol",
+    "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 2d6 lightning damage.</p>\n",
+    "id": "arc-pistol"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 34500,
+    "manufacturer": "",
+    "weight": 2,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "slashing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "finesse",
+      "light"
+    ],
+    "name": "Asari Huntress Sword",
+    "html": "<p>Kinetic energy from successful melee attacks grant a minor biotic boost. When you hit with an attack\nusing this weapon, as a bonus action, you may cast a biotic cantrip.</p>\n",
+    "id": "asari-huntress-sword"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "shotgun",
+    "cost": 19000,
+    "manufacturer": "batarian",
+    "weight": 13,
+    "heat": 2,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 5,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png/revision/latest?cb=20120317200919",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "hip-fire",
+      "two-handed",
+      "recoil"
+    ],
+    "name": "AT-12 Raider",
+    "html": "",
+    "id": "at-12-raider"
+  },
+  {
+    "rarity": "spectre",
+    "type": "sniper_rifle",
+    "cost": 63000,
+    "manufacturer": "systems-alliance",
+    "weight": 22,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 250,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/4/44/ME3_Black_Widow_Sniper_Rifle.png/revision/latest?cb=20120317191926",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "burst-fire",
+      "heavy"
+    ],
+    "name": "Black Widow",
+    "html": "<p>Ignores half cover. On a hit, if the target is not behind cover, it takes an additional 1d4\ndamage.</p>\n",
+    "id": "black-widow"
+  },
+  {
+    "rarity": "rare",
+    "type": "smg",
+    "cost": 37500,
+    "manufacturer": "blood-pack",
+    "weight": 4,
+    "heat": 6,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 15,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/1/17/ME3_Blood_Pack_Punisher_Smg.png/revision/latest?cb=20120809190511",
+    "andromeda": false,
+    "properties": [
+      "hip-fire",
+      "burst-fire",
+      "recoil"
+    ],
+    "name": "Blood Pack Punisher",
+    "html": "<p>+1 to hit targets within normal range</p>\n",
+    "id": "blood-pack-punisher"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 17000,
+    "manufacturer": "cerberus",
+    "weight": 11,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/0/0d/ME3_Cerberus_Harrier.png/revision/latest?cb=20120530214013http://vignette3.wikia.nocookie.net/masseffect/images/5/56/ME3_Chakram_Assault_Rifle.png/revision/latest?cb=20120317175958",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "recoil",
+      "two-handed"
+    ],
+    "name": "Cerberus Harrier ",
+    "html": "",
+    "id": "cerberus-harrier"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 14500,
+    "manufacturer": "ama-lur-equipment",
+    "weight": 4,
+    "heat": 4,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/5/56/ME3_Chakram_Assault_Rifle.png/revision/latest?cb=20120317175958",
+    "andromeda": false,
+    "properties": [
+      "recoil",
+      "two-handed"
+    ],
+    "name": "Chakram Launcher",
+    "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 1d8 piercing and 2d4 thunder damage.</p>\n",
+    "id": "chakram-launcher"
+  },
+  {
+    "rarity": "common",
+    "type": "smg",
+    "cost": 8000,
+    "manufacturer": "elanus-risk-control-services",
+    "weight": 4,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 15,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/MEA_Charger_MP.png/revision/latest?cb=20180528214708",
+    "andromeda": false,
+    "properties": [
+      "burst-fire"
+    ],
+    "name": "Charger",
+    "html": "",
+    "id": "charger"
+  },
+  {
+    "rarity": "spectre",
+    "type": "assault_rifle",
+    "cost": 60000,
+    "manufacturer": "collectors",
+    "weight": 13,
+    "heat": 8,
+    "damage": {
+      "dieCount": 4,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Collector_Assault_Rifle.png/revision/latest/scale-to-width-down/350?cb=20120317180554",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "special",
+      "two-handed"
+    ],
+    "name": "Collector Assault Rifle",
+    "html": "<p>The Collector Assault Rifle does not use thermal clips. Instead, use a d8 to track the &quot;heat&quot;.\nWhenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you\ndon't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If\nyou ever spin down the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
+    "id": "collector-assault-rifle"
+  },
+  {
+    "rarity": "spectre",
+    "type": "smg",
+    "cost": 59000,
+    "manufacturer": "",
+    "weight": 7,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 25,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/68/ME3_Collector_SMG.png/revision/latest/scale-to-width-down/350?cb=20121009204046",
+    "andromeda": false,
+    "properties": [
+      "special",
+      "two-handed",
+      "burst-fire",
+      "light"
+    ],
+    "name": "Collector SMG",
+    "html": "<p>The Collector SMG does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you\nmake a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
+    "id": "collector-smg"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 36500,
+    "manufacturer": "",
+    "weight": 18,
+    "heat": 4,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/40/ME3_Collector_Sniper_Rifle.png/revision/latest/scale-to-width-down/200?cb=20121009204028",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "burst-fire"
+    ],
+    "name": "Collector Sniper Rifle",
+    "html": "<p>The Collector Sniper Rifle does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;.\nWhenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you\ndon't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If\nyou ever spin down the die to 0, the weapon jams and cannot be fired again this combat. If you make\na Burst Fire attack, spin down the die by 2.</p>\n",
+    "id": "collector-sniper-rifle"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 17000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 18,
+    "heat": 20,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/50/MEA_Cyclone_MP.png/revision/latest?cb=20180530231207",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "burst-fire"
+    ],
+    "name": "Cyclone",
+    "html": "",
+    "id": "cyclone"
+  },
+  {
+    "rarity": "spectre",
+    "type": "shotgun",
+    "cost": 63500,
+    "manufacturer": "kett",
+    "weight": 18,
+    "heat": 2,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 8,
+      "type": "fire"
+    },
+    "range": 10,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/60/MEA_Dhan_MP.png/revision/latest?cb=20180607231027",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "heavy",
+      "recoil"
+    ],
+    "name": "Dhan",
+    "html": "",
+    "id": "dhan"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 35000,
+    "manufacturer": "asari",
+    "weight": 4,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "bludgeoning"
+    },
+    "range": 10,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/6/6a/ME3_Disciple_Shotgun.png/revision/latest?cb=20120317201011",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "Disciple",
+    "html": "<p>On a hit, the target must make a Constitution saving throw (DC 8) or becomes {stunned}.</p>\n",
+    "id": "disciple"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 32500,
+    "manufacturer": "taravay-industries",
+    "weight": 2,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": true,
+    "properties": [
+      "finesse",
+      "light"
+    ],
+    "name": "Electric Firaan",
+    "html": "<p>When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.\nIf the target maintaining a concentration power, it automatically fails its saving throw to maintain\nthat power. An angara wielding this weapon deals an additional 2d4 lightning damage instead of\n1d4.</p>\n",
+    "id": "electric-firaan"
+  },
+  {
+    "rarity": "rare",
+    "type": "heavy_pistol",
+    "cost": 34500,
+    "manufacturer": "remnant",
+    "weight": 4,
+    "heat": 8,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "force"
+    },
+    "range": 25,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ab/MEA_Equalizer_MP.png/revision/latest?cb=20180529214418",
+    "andromeda": true,
+    "properties": [
+      "double-tap",
+      "light",
+      "burst-fire"
+    ],
+    "name": "Equalizer",
+    "html": "<p>When you hit a target beyond normal range, it takes half damage.</p>\n<p>The Equalizer does not use thermal clips. Instead, use a d8 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n",
+    "id": "equalizer"
+  },
+  {
+    "rarity": "spectre",
+    "type": "heavy_pistol",
+    "cost": 63000,
+    "manufacturer": "blood-pack",
+    "weight": 4,
+    "heat": 1,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 75,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/9/95/ME3_Executioner_Pistol.png/revision/latest?cb=20121029075230",
+    "andromeda": false,
+    "properties": [],
+    "name": "Executioner Pistol",
+    "html": "",
+    "id": "executioner-pistol"
+  },
+  {
+    "rarity": "spectre",
+    "type": "shotgun",
+    "cost": 61000,
+    "manufacturer": "geth-armory",
+    "weight": 15,
+    "heat": 5,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "type": "radiant"
+    },
+    "range": 15,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/b/b9/ME3_Geth_Plasma_Shotgun.png/revision/latest?cb=20120317201115",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "Geth Plasma Shotgun",
+    "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 2d10 radiant damage.</p>\n",
+    "id": "geth-plasma-shotgun"
+  },
+  {
+    "rarity": "spectre",
+    "type": "smg",
+    "cost": 60000,
+    "manufacturer": "geth-armory",
+    "weight": 7,
+    "heat": 12,
+    "damage": {
+      "dieCount": 4,
+      "dieType": 4,
+      "type": "radiant"
+    },
+    "range": 45,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/9/9c/ME3_Geth_Plasma_SMG.png/revision/latest?cb=20120411201332",
+    "andromeda": false,
+    "properties": [
+      "special",
+      "burst-fire",
+      "recoil"
+    ],
+    "name": "Geth Plasma SMG",
+    "html": "",
+    "id": "geth-plasma-smg"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 37000,
+    "manufacturer": "geth-armory",
+    "weight": 9,
+    "heat": 9,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "radiant"
+    },
+    "range": 100,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/9/92/ME3_Geth_Pulse_Assault_Rifle.png/revision/latest?cb=20120317181047",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "Geth Pulse Rifle",
+    "html": "",
+    "id": "geth-pulse-rifle"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "shotgun",
+    "cost": 17000,
+    "manufacturer": "krogan",
+    "weight": 18,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 20,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/b/b1/ME3_Graal_Spike_Thrower_Shotgun.png/revision/latest?cb=20120317201204",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "Graal Spike Thrower",
+    "html": "<p>When you hit an organic target with an attack, it takes an additional 2d6 damage at the start of its\nturn due to blood loss (this damage bypasses shields).</p>\n",
+    "id": "graal-spike-thrower"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 37500,
+    "manufacturer": "kett",
+    "weight": 15,
+    "heat": 3,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "fire"
+    },
+    "range": 10,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/b9/MEA_Hesh_MP.png/revision/latest?cb=20180607231426",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "Hesh",
+    "html": "",
+    "id": "hesh"
+  },
+  {
+    "rarity": "spectre",
+    "type": "sniper_rifle",
+    "cost": 57000,
+    "manufacturer": "remnant",
+    "weight": 20,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "force"
+    },
+    "range": 200,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/MEA_Inferno_MP.png/revision/latest?cb=20180602003100",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "special",
+      "heavy",
+      "double-tap"
+    ],
+    "name": "Inferno",
+    "html": "<p>The Inferno does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n",
+    "id": "inferno"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 43500,
+    "manufacturer": "taravay-industries",
+    "weight": 20,
+    "heat": 1,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2b/MEA_Isharay_MP.png/revision/latest?cb=20180602003240",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy"
+    ],
+    "name": "Isharay",
+    "html": "<p>This weapon cannot be reloaded with a bonus action.</p>\n",
+    "id": "isharay"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 36500,
+    "manufacturer": "geth-armory",
+    "weight": 20,
+    "heat": 1,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 250,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/7/7b/ME3_Javelin_Sniper_Rifle.png/revision/latest?cb=20120317192031",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "special",
+      "heavy"
+    ],
+    "name": "Javelin",
+    "html": "<p>Ignores half and three-quarters cover</p>\n",
+    "id": "javelin"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 32500,
+    "manufacturer": "",
+    "weight": 2,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "finesse",
+      "light",
+      "thrown"
+    ],
+    "name": "Kahjean Venom Dagger",
+    "html": "<p>When you hit with an attack using this weapon, the target must make a DC 11 Constitution saving\nthrow, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.\nIf the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1\nhour, even after regaining hit points, and is paralyzed while poisoned in this way.</p>\n",
+    "id": "kahjean-venom-dagger"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 34500,
+    "manufacturer": "kett",
+    "weight": 4,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "slashing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": true,
+    "properties": [
+      "versatile"
+    ],
+    "name": "Kett Carfalon",
+    "html": "<p>Versatile (1d10). When you deal damage with this weapon, you gain hit points equal to half the\ndamage dealt. Hit point gained this way cannot be more than your hit point maximum.</p>\n",
+    "id": "kett-carfalon"
+  },
+  {
+    "rarity": "spectre",
+    "type": "melee",
+    "cost": 54500,
+    "manufacturer": "kett",
+    "weight": 7,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "fire"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": true,
+    "properties": [],
+    "name": "Kett Vakarsh",
+    "html": "<p>When you hit a target with this weapon it becomes primed (fire) until the end of your next\nturn.</p>\n",
+    "id": "kett-vakarsh"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 40500,
+    "manufacturer": "batarian-state-arms",
+    "weight": 15,
+    "heat": 1,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png/revision/latest?cb=20120411201323",
+    "andromeda": false,
+    "properties": [
+      "two-handed"
+    ],
+    "name": "Kishock Harpoon Gun",
+    "html": "<p>A target hit by this weapon makes a Constitution (DC 13) saving throw. On a failed save, the target\ntakes an additional 3d6 damage at the start of their turn due to blood loss (this damage bypasses\nshields).</p>\n",
+    "id": "kishock-harpoon-gun"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 37000,
+    "manufacturer": "krogan",
+    "weight": 18,
+    "heat": null,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "bludgeoning"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "versatile"
+    ],
+    "name": "Krogan Warhammer",
+    "html": "<p>When you hit with an attack using this weapon, the target must succeed on a Strength saving throw\n(DC = 8+Proficiency Bonus+ Strength modifier) or is knocked prone. If wielded by a Krogan or another\ncreature with a minimum Strength ability score of 18, this weapon becomes Versatile (1d12 for\none-handed attacks)</p>\n",
+    "id": "krogan-warhammer"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "sniper_rifle",
+    "cost": 15000,
+    "manufacturer": "turians",
+    "weight": 13,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/2/2f/ME3_Krysae_Sniper_Rifle.png/revision/latest?cb=20120530214006",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "double-tap"
+    ],
+    "name": "Krysae Sniper Rifle",
+    "html": "<p>+2 damage to synthorganic enemies</p>\n",
+    "id": "krysae-sniper-rifle"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 37000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 7,
+    "heat": 15,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/83/MEA_L-89_Halberd_MP.png/revision/latest?cb=20180530231330",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "two-handed"
+    ],
+    "name": "L-89 Halberd",
+    "html": "",
+    "id": "l-89-halberd"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 39000,
+    "manufacturer": "kett",
+    "weight": 22,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "fire"
+    },
+    "range": 100,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0a/MEA_Lanat_MP.png/revision/latest?cb=20180602003544",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "special"
+    ],
+    "name": "Lanat",
+    "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 2d8 fire damage.</p>\n",
+    "id": "lanat"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "heavy_pistol",
+    "cost": 13500,
+    "manufacturer": "systems-alliance",
+    "weight": 4,
+    "heat": 8,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png/revision/latest?cb=20130227094606",
+    "andromeda": false,
+    "properties": [
+      "silent",
+      "double-tap",
+      "light"
+    ],
+    "name": "M-11 Suppressor",
+    "html": "",
+    "id": "m-11-suppressor"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 40500,
+    "manufacturer": "unknown",
+    "weight": 9,
+    "heat": 2,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 15,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/4/45/ME3_Wraith_Shotgun.png/revision/latest?cb=20120317200422",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "M-11 Wraith",
+    "html": "",
+    "id": "m-11-wraith"
+  },
+  {
+    "rarity": "rare",
+    "type": "smg",
+    "cost": 37500,
+    "manufacturer": "kassa-fabrication",
+    "weight": 2,
+    "heat": 3,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 25,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Locust_Smg.png/revision/latest?cb=20120317184530",
+    "andromeda": false,
+    "properties": [
+      "hip-fire",
+      "burst-fire",
+      "light"
+    ],
+    "name": "M-12 Locust",
+    "html": "",
+    "id": "m-12-locust"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "sniper_rifle",
+    "cost": 14500,
+    "manufacturer": "cerberus",
+    "weight": 11,
+    "heat": 15,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/7/70/ME3_Raptor_Sniper_Rifle.png/revision/latest?cb=20120317191426",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "double-tap",
+      "hip-fire"
+    ],
+    "name": "M-13 Raptor",
+    "html": "",
+    "id": "m-13-raptor"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 15500,
+    "manufacturer": "elanus-risk-control-services",
+    "weight": 4,
+    "heat": 12,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "piercing"
+    },
+    "range": 125,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/7/7d/ME3_Vindicator_Assault_Rifle.png/revision/latest?cb=20120317173921",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "M-15 Vindicator",
+    "html": "",
+    "id": "m-15-vindicator"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "shotgun",
+    "cost": 19000,
+    "manufacturer": "human",
+    "weight": 11,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 15,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/e/e0/ME3_Eviscerator_Shotgun.png/revision/latest?cb=20120317200519",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "M-22 Eviscerator",
+    "html": "",
+    "id": "m-22-eviscerator"
+  },
+  {
+    "rarity": "common",
+    "type": "shotgun",
+    "cost": 10000,
+    "manufacturer": "ariake-technologies",
+    "weight": 9,
+    "heat": 5,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/a/a2/ME3_Katana_Shotgun.png/revision/latest?cb=20120317200552",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "M-23 Katana",
+    "html": "",
+    "id": "m-23-katana"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "smg",
+    "cost": 15000,
+    "manufacturer": "cerberus",
+    "weight": 2,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 20,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/6/66/ME3_Hornet_Smg.png/revision/latest?cb=20120317184337",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "hip-fire",
+      "burst-fire",
+      "light"
+    ],
+    "name": "M-25 Hornet",
+    "html": "",
+    "id": "m-25-hornet"
+  },
+  {
+    "rarity": "common",
+    "type": "shotgun",
+    "cost": 8000,
+    "manufacturer": "ariake-technologies",
+    "weight": 11,
+    "heat": 9,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/0/0d/ME3_Scimitar_Shotgun.png/revision/latest?cb=20120317200715",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "double-tap",
+      "recoil"
+    ],
+    "name": "M-27 Scimitar",
+    "html": "",
+    "id": "m-27-scimitar"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 40500,
+    "manufacturer": "unknown",
+    "weight": 9,
+    "heat": 3,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/ME3_Incisor_Sniper_Rifle.png/revision/latest?cb=20120317191319",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "burst-fire"
+    ],
+    "name": "M-29 Incisor",
+    "html": "",
+    "id": "m-29-incisor"
+  },
+  {
+    "rarity": "common",
+    "type": "heavy_pistol",
+    "cost": 5500,
+    "manufacturer": "elanus-risk-control-services",
+    "weight": 2,
+    "heat": 15,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/c/c8/ME3_Predator_Heavy_Pistol.png/revision/latest?cb=20120317185446",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "light"
+    ],
+    "name": "M-3 Predator",
+    "html": "",
+    "id": "m-3-predator"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 43500,
+    "manufacturer": "krogan",
+    "weight": 20,
+    "heat": 1,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/a/a2/ME3_Claymore_Shotgun.png/revision/latest?cb=20120317200800",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "heavy",
+      "recoil"
+    ],
+    "name": "M-300 Claymore",
+    "html": "",
+    "id": "m-300-claymore"
+  },
+  {
+    "rarity": "spectre",
+    "type": "heavy_pistol",
+    "cost": 57000,
+    "manufacturer": "cerberus",
+    "weight": 9,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 25,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/9/99/ME3_Talon_Heavy_Pistol.png/revision/latest?cb=20120317185721",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "light"
+    ],
+    "name": "M-358 Talon",
+    "html": "",
+    "id": "m-358-talon"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 14500,
+    "manufacturer": "systems-alliance",
+    "weight": 11,
+    "heat": 8,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "thunder"
+    },
+    "range": 25,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/8/8a/ME3_Falcon_Assault_Rifle.png/revision/latest?cb=20120317172936",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "two-handed"
+    ],
+    "name": "M-37 Falcon",
+    "html": "<p>Instead of making a ranged weapon attack, the target makes a Dexterity saving throw (DC 8 + DEX\nmodifier). Do not add your DEX modifier to a Double Tap attack. If you are proficient with Assault\nRifles, add your proficiency bonus to the DC. On a failed save, the target takes 1d8 thunder damage,\nor half as much on a successful one.</p>\n",
+    "id": "m-37-falcon"
+  },
+  {
+    "rarity": "common",
+    "type": "smg",
+    "cost": 8000,
+    "manufacturer": "elkoss-combine",
+    "weight": 4,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/8/8b/ME3_Shuriken_Smg.png/revision/latest?cb=20120317184559",
+    "andromeda": false,
+    "properties": [
+      "hip-fire",
+      "burst-fire",
+      "light"
+    ],
+    "name": "M-4 Shuriken",
+    "html": "",
+    "id": "m-4-shuriken"
+  },
+  {
+    "rarity": "common",
+    "type": "heavy_pistol",
+    "cost": 5500,
+    "manufacturer": "systems-alliance",
+    "weight": 2,
+    "heat": 12,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png/revision/latest?cb=20120317185535",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "hip-fire",
+      "light"
+    ],
+    "name": "M-5 Phalanx",
+    "html": "",
+    "id": "m-5-phalanx"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 16500,
+    "manufacturer": "unknown",
+    "weight": 11,
+    "heat": 9,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png/revision/latest?cb=20120317173420",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "recoil",
+      "two-handed"
+    ],
+    "name": "M-55 Argus",
+    "html": "",
+    "id": "m-55-argus"
+  },
+  {
+    "rarity": "rare",
+    "type": "heavy_pistol",
+    "cost": 34500,
+    "manufacturer": "unknown",
+    "weight": 4,
+    "heat": 10,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 75,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/8/88/ME3_Carnifex_Heavy_Pistol.png/revision/latest?cb=20120317185613",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "light"
+    ],
+    "name": "M-6 Carnifex",
+    "html": "",
+    "id": "m-6-carnifex"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 37000,
+    "manufacturer": "hahne-kedar",
+    "weight": 4,
+    "heat": 8,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "M-7 Lancer",
+    "html": "<p>Somewhat of a relic and hard to come by, the M-7 does not use thermal clips. Instead, use a d8 to\ntrack the &quot;heat&quot;. Whenever you make a ranged attack with the weapon, spin down the die 1 face.\nEvery round that you don't fire the weapon, spin the die up 2 faces. This represents the weapon\ninternally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n",
+    "id": "m-7-lancer"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 17500,
+    "manufacturer": "unknown",
+    "weight": 9,
+    "heat": 6,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 25,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/1/17/ME3_Revenant_Assault_Rifle.png/revision/latest?cb=20120317174455",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "M-76 Revenant",
+    "html": "",
+    "id": "m-76-revenant"
+  },
+  {
+    "rarity": "spectre",
+    "type": "heavy_pistol",
+    "cost": 55500,
+    "manufacturer": "unknown",
+    "weight": 4,
+    "heat": 8,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "piercing"
+    },
+    "range": 75,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png/revision/latest?cb=20120317185630",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "light"
+    ],
+    "name": "M-77 Paladin",
+    "html": "",
+    "id": "m-77-paladin"
+  },
+  {
+    "rarity": "common",
+    "type": "assault_rifle",
+    "cost": 7500,
+    "manufacturer": "elkoss-combine",
+    "weight": 7,
+    "heat": 9,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/2/29/ME3_Avenger_Assault_Rifle.png/revision/latest?cb=20120317171316",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "M-8 Avenger",
+    "html": "",
+    "id": "m-8-avenger"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "smg",
+    "cost": 17000,
+    "manufacturer": "elanus-risk-control-services",
+    "weight": 2,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 25,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/1/14/ME3_Tempest_Smg.png/revision/latest?cb=20120317184648",
+    "andromeda": false,
+    "properties": [
+      "hip-fire",
+      "burst-fire",
+      "light"
+    ],
+    "name": "M-9 Tempest",
+    "html": "",
+    "id": "m-9-tempest"
+  },
+  {
+    "rarity": "spectre",
+    "type": "sniper_rifle",
+    "cost": 59000,
+    "manufacturer": "unknown",
+    "weight": 13,
+    "heat": 9,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/b/b6/ME3_Indra_Sniper_Rifle.png/revision/latest?cb=20120317191212",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "burst-fire"
+    ],
+    "name": "M-90 Indra",
+    "html": "",
+    "id": "m-90-indra"
+  },
+  {
+    "rarity": "common",
+    "type": "sniper_rifle",
+    "cost": 12000,
+    "manufacturer": "devlon-industries",
+    "weight": 13,
+    "heat": 1,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/7/7b/ME3_Mantis_Sniper_Rifle.png/revision/latest?cb=20120317191621",
+    "andromeda": false,
+    "properties": [
+      "two-handed"
+    ],
+    "name": "M-92 Mantis",
+    "html": "",
+    "id": "m-92-mantis"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 14500,
+    "manufacturer": "unknown",
+    "weight": 7,
+    "heat": 15,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 100,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/9/93/ME3_Mattock_Assault_Rifle.png/revision/latest?cb=20120317182842",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "two-handed"
+    ],
+    "name": "M-96 Mattock",
+    "html": "",
+    "id": "m-96-mattock"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "sniper_rifle",
+    "cost": 16500,
+    "manufacturer": "rosenkov-materials",
+    "weight": 11,
+    "heat": 6,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 250,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/5/52/ME3_Viper_Sniper_Rifle.png/revision/latest?cb=20120317191749",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "double-tap"
+    ],
+    "name": "M-97 Viper",
+    "html": "<p>You can reload this weapon as a bonus action.</p>\n",
+    "id": "m-97-viper"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "sniper_rifle",
+    "cost": 23000,
+    "manufacturer": "unknown",
+    "weight": 20,
+    "heat": 1,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/1/1d/ME3_Widow_Sniper_Rifle.png/revision/latest?cb=20120317191850",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "heavy"
+    ],
+    "name": "M-98 Widow",
+    "html": "<p>Ignores half cover. On a hit, if the target is not behind cover, it takes an additional 1d4\ndamage.</p>\n",
+    "id": "m-98-widow"
+  },
+  {
+    "rarity": "spectre",
+    "type": "assault_rifle",
+    "cost": 60500,
+    "manufacturer": "systems-alliance",
+    "weight": 11,
+    "heat": 8,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 125,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/6/65/ME3_Saber_Assault_Rifle.png/revision/latest?cb=20120317175044",
+    "andromeda": false,
+    "properties": [
+      "double-tap",
+      "special",
+      "two-handed"
+    ],
+    "name": "M-99 Saber",
+    "html": "<p>Custom made for its owner. When you purchase this weapon, you may choose one of the following:\nIncrease damage of this weapon to d8,  reloading this weapon is a bonus action, or +2 on ranged\nattack rolls made with the weapon.</p>\n",
+    "id": "m-99-saber"
+  },
+  {
+    "rarity": "common",
+    "type": "melee",
+    "cost": 8500,
+    "manufacturer": "cerberus",
+    "weight": 2,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "slashing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "versatile",
+      "finesse"
+    ],
+    "name": "Monomolecular Blade",
+    "html": "<p>Versatile (2d6)</p>\n",
+    "id": "monomolecular-blade"
+  },
+  {
+    "rarity": "spectre",
+    "type": "shotgun",
+    "cost": 61000,
+    "manufacturer": "systems-alliance",
+    "weight": 18,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "type": "piercing"
+    },
+    "range": 20,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/3/3a/ME3_N7_Crusader_Shotgun.png/revision/latest?cb=20120317201234",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "double-tap",
+      "heavy",
+      "recoil"
+    ],
+    "name": "N7 Crusader",
+    "html": "",
+    "id": "n-7-crusader"
+  },
+  {
+    "rarity": "rare",
+    "type": "heavy_pistol",
+    "cost": 35000,
+    "manufacturer": "systems-alliance",
+    "weight": 2,
+    "heat": 12,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png/revision/latest?cb=20120317185811",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "light"
+    ],
+    "name": "N7 Eagle",
+    "html": "",
+    "id": "n-7-eagle"
+  },
+  {
+    "rarity": "spectre",
+    "type": "smg",
+    "cost": 60500,
+    "manufacturer": "systems-alliance",
+    "weight": 4,
+    "heat": 6,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 15,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/e/e9/ME3_N7_Hurricane_Smg.png/revision/latest?cb=20120317184439",
+    "andromeda": false,
+    "properties": [
+      "hip-fire",
+      "burst-fire"
+    ],
+    "name": "N7 Hurricane",
+    "html": "",
+    "id": "n-7-hurricane"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "shotgun",
+    "cost": 15000,
+    "manufacturer": "systems-alliance",
+    "weight": 11,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/c/c4/ME3_Piranha_Assault_Shotgun.png/revision/latest?cb=20120714073110",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "N7 Piranha",
+    "html": "<p>When fired make a single attack roll against all creatures in a <me-distance length=\"10\" /> cone.\nAll creatures with AC less than the attack are hit.</p>\n",
+    "id": "n-7-piranha"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 39000,
+    "manufacturer": "systems-alliance",
+    "weight": 20,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/a/ab/ME3_Typhoon_Assault_Rifle.png/revision/latest?cb=20120714073139",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "heavy",
+      "recoil",
+      "two-handed"
+    ],
+    "name": "N7 Typhoon",
+    "html": "<p>AC +1 when holding this weapon.</p>\n",
+    "id": "n-7-typhoon"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 39000,
+    "manufacturer": "systems-alliance",
+    "weight": 11,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 250,
+    "image": "http://vignette4.wikia.nocookie.net/masseffect/images/1/14/ME3_N7_Valiant_Sniper_Rifle.png/revision/latest?cb=20120317192204",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "double-tap"
+    ],
+    "name": "N7 Valiant",
+    "html": "",
+    "id": "n-7-valiant"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 39000,
+    "manufacturer": "systems-alliance",
+    "weight": 11,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 75,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/0/08/ME3_N7_Valkyrie_Assault_Rifle.png/revision/latest?cb=20120317181450",
+    "andromeda": false,
+    "properties": [
+      "two-handed"
+    ],
+    "name": "N7 Valkyrie",
+    "html": "",
+    "id": "n-7-valkyrie"
+  },
+  {
+    "rarity": "spectre",
+    "type": "sniper_rifle",
+    "cost": 59000,
+    "manufacturer": "kett",
+    "weight": 15,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "fire"
+    },
+    "range": 200,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6f/MEA_Naladen_MP.png/revision/latest?cb=20180602004109",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "special"
+    ],
+    "name": "Naladen",
+    "html": "<p>Hit or miss, each creature within a <me-distance length=\"10\" /> radius of the target takes 1d4 fire\ndamage.</p>\n",
+    "id": "naladen"
+  },
+  {
+    "rarity": "common",
+    "type": "melee",
+    "cost": 7500,
+    "manufacturer": "",
+    "weight": 0,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 8,
+      "type": "slashing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "light",
+      "finesse",
+      "special"
+    ],
+    "name": "Omni-Blade",
+    "html": "<p>Drawing the Omni-Blade is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
+    "id": "omni-blade"
+  },
+  {
+    "rarity": "common",
+    "type": "melee",
+    "cost": 8500,
+    "manufacturer": "",
+    "weight": 0,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "bludgeoning"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "light",
+      "special"
+    ],
+    "name": "Omni-Hammer",
+    "html": "<p>Drawing the Omni-Hammer is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
+    "id": "omni-hammer"
+  },
+  {
+    "rarity": "common",
+    "type": "melee",
+    "cost": 5500,
+    "manufacturer": "",
+    "weight": 0,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 4,
+      "type": "lightning"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "finesse",
+      "light",
+      "special"
+    ],
+    "name": "Omni-Taser",
+    "html": "<p>Drawing the Omni-Taser is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
+    "id": "omni-taser"
+  },
+  {
+    "rarity": "common",
+    "type": "melee",
+    "cost": 6500,
+    "manufacturer": "",
+    "weight": 0,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "fire"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "light",
+      "special"
+    ],
+    "name": "Omni-Torch",
+    "html": "<p>Drawing the Omni-Torch is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
+    "id": "omni-torch"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 35000,
+    "manufacturer": "cerberus",
+    "weight": 0,
+    "heat": null,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "lightning"
+    },
+    "range": 10,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "finesse",
+      "reach",
+      "special"
+    ],
+    "name": "Omni-Whip",
+    "html": "<p>Drawing the Omni-Whip is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
+    "id": "omni-whip"
+  },
+  {
+    "rarity": "spectre",
+    "type": "assault_rifle",
+    "cost": 59000,
+    "manufacturer": "remnant",
+    "weight": 11,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "force"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/01/MEA_P.A.W._MP.png/revision/latest?cb=20180530231855",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "special"
+    ],
+    "name": "P.A.W.",
+    "html": "<p>The P.A.W. does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n<p>After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target\nat each of the following combat phases: the end of your turn, the beginning of the target's turn,\nthe end of the target's turn, and the beginning of your turn. Each time you deal damage, spin down\nyour heat dice. In addition to standard targeting rules, this targeting condition can end when this\nweapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target\nuses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you\nare proficient with this weapon type), or you use a bonus action on your turn to end the\ncondition.</p>\n",
+    "id": "p-a-w"
+  },
+  {
+    "rarity": "spectre",
+    "type": "assault_rifle",
+    "cost": 61000,
+    "manufacturer": "unknown",
+    "weight": 13,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "type": "radiant"
+    },
+    "range": 25,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/61/ME3_Particle_Assault_Rifle.png/revision/latest/scale-to-width-down/350?cb=20120317181936",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "special",
+      "two-handed"
+    ],
+    "name": "Particle Rifle",
+    "html": "<p>The Particle Rifle does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you\nmake a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire\nattack, spin down the die by 2.</p>\n",
+    "id": "particle-rifle"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 37000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 13,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/77/Pathfinder-Deep_Impact.png/revision/latest?cb=20180224220127",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "recoil"
+    ],
+    "name": "Pathfinder Deep Impact",
+    "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
+    "id": "pathfinder-deep-impact"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 39000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 13,
+    "heat": 2,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0c/Pathfinder-Observer.png/revision/latest?cb=20180224230425",
+    "andromeda": false,
+    "properties": [
+      "two-handed"
+    ],
+    "name": "Pathfinder Observer",
+    "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
+    "id": "pathfinder-observer"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 37000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 4,
+    "heat": 8,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 100,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2e/Pathfinder-Pioneer.png/revision/latest/scale-to-width-down/350?cb=20180224004738",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "Pathfinder Pioneer",
+    "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
+    "id": "pathfinder-pioneer"
+  },
+  {
+    "rarity": "rare",
+    "type": "smg",
+    "cost": 37000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 7,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 20,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/59/Pathfinder-Ranger.png/revision/latest?cb=20180223205449",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "hip-fire"
+    ],
+    "name": "Pathfinder Ranger",
+    "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
+    "id": "pathfinder-ranger"
+  },
+  {
+    "rarity": "common",
+    "type": "assault_rifle",
+    "cost": 8000,
+    "manufacturer": "turians",
+    "weight": 7,
+    "heat": 12,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 50,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/1/11/ME3_Phaeston_Assault_Rifle.png/revision/latest?cb=20120317182349",
+    "andromeda": false,
+    "properties": [
+      "burst-fire",
+      "two-handed"
+    ],
+    "name": "Phaeston",
+    "html": "",
+    "id": "phaeston"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 36500,
+    "manufacturer": "quarian",
+    "weight": 11,
+    "heat": 20,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "lightning"
+    },
+    "range": 15,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/6/60/ME3_Reegar_Carbine.png/revision/latest?cb=20120530214009",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "arc",
+      "special"
+    ],
+    "name": "Reegar Carbine",
+    "html": "",
+    "id": "reegar-carbine"
+  },
+  {
+    "rarity": "spectre",
+    "type": "melee",
+    "cost": 53500,
+    "manufacturer": "remnant",
+    "weight": 7,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "cold"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": true,
+    "properties": [],
+    "name": "Remnant Cryo-Gauntlet",
+    "html": "<p>When you hit a target with this weapon it becomes primed (cold) until the end of your next turn and\nmust succeed on a DC 10 Strength saving throw or become frozen until the end of your next turn. If\nyou critically hit with this weapon, the target automatically fails its saving throw.</p>\n",
+    "id": "remnant-cryo-gauntlet"
+  },
+  {
+    "rarity": "spectre",
+    "type": "smg",
+    "cost": 57500,
+    "manufacturer": "kett",
+    "weight": 7,
+    "heat": 6,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "fire"
+    },
+    "range": 15,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/MEA_Rozerad_MP.png/revision/latest?cb=20180530010046",
+    "andromeda": true,
+    "properties": [
+      "burst-fire",
+      "double-tap"
+    ],
+    "name": "Rozerad",
+    "html": "",
+    "id": "rozerad"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "shotgun",
+    "cost": 17000,
+    "manufacturer": "krogan",
+    "weight": 22,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 10,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/7b/MEA_Ruzad_MP.png/revision/latest?cb=20180529181034",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "heavy"
+    ],
+    "name": "Ruzad",
+    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. It has the\nVersatile property. Successful melee attacks deal 1d10 (2d6) slashing damage.</p>\n",
+    "id": "ruzad"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 37500,
+    "manufacturer": "nexus-exiles",
+    "weight": 13,
+    "heat": 8,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 200,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/MEA_Sandstorm_MP.png/revision/latest?cb=20180530232139",
+    "andromeda": true,
+    "properties": [
+      "double-tap",
+      "two-handed"
+    ],
+    "name": "Sandstorm",
+    "html": "",
+    "id": "sandstorm"
+  },
+  {
+    "rarity": "rare",
+    "type": "melee",
+    "cost": 35500,
+    "manufacturer": "",
+    "weight": 4,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "slashing"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "two-handed"
+    ],
+    "name": "Sawblade",
+    "html": "<p>When you hit an organic target with an attack, it takes an additional 2d6 damage at the start of its\nturn due to blood loss (this damage bypasses shields).</p>\n",
+    "id": "sawblade"
+  },
+  {
+    "rarity": "rare",
+    "type": "shotgun",
+    "cost": 39000,
+    "manufacturer": "remnant",
+    "weight": 20,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "force"
+    },
+    "range": 35,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/70/MEA_Scattershot_MP.png/revision/latest?cb=20180607232101",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "hip-fire",
+      "special"
+    ],
+    "name": "Scattershot",
+    "html": "<p>The Scattershot does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;. Whenever you make\na ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
+    "id": "scattershot"
+  },
+  {
+    "rarity": "rare",
+    "type": "heavy_pistol",
+    "cost": 33500,
+    "manufacturer": "special-tasks-group",
+    "weight": 4,
+    "heat": 6,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "thunder"
+    },
+    "range": 50,
+    "image": "http://vignette3.wikia.nocookie.net/masseffect/images/4/40/ME3_Scorpion_Heavy_Pistol.png/revision/latest?cb=20120317185843",
+    "andromeda": false,
+    "properties": [
+      "special",
+      "double-tap"
+    ],
+    "name": "Scorpion",
+    "html": "<p>Missed shots adhere to nearby surfaces and do 1d4 thunder damage to the target.</p>\n",
+    "id": "scorpion"
+  },
+  {
+    "rarity": "rare",
+    "type": "sniper_rifle",
+    "cost": 39000,
+    "manufacturer": "remnant",
+    "weight": 20,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "force"
+    },
+    "range": 150,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shadow_MP.png/revision/latest?cb=20180602004449",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "special"
+    ],
+    "name": "Shadow",
+    "html": "<p>The Shadow does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n<p>After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target\nat each of the following combat phases: the end of your turn, the beginning of the target's turn,\nthe end of the target's turn, and the beginning of your turn. Each time you deal damage, spin down\nyour heat dice. In addition to standard targeting rules, this targeting condition can end when this\nweapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target\nuses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you\nare proficient with this weapon type), or you use a bonus action on your turn to end the\ncondition.</p>\n",
+    "id": "shadow"
+  },
+  {
+    "rarity": "spectre",
+    "type": "shotgun",
+    "cost": 61000,
+    "manufacturer": "nexus-exiles",
+    "weight": 22,
+    "heat": 10,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "type": "piercing"
+    },
+    "range": 15,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shorty_MP.png/revision/latest?cb=20180607232226",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "recoil",
+      "hip-fire",
+      "burst-fire"
+    ],
+    "name": "Shorty",
+    "html": "",
+    "id": "shorty"
+  },
+  {
+    "rarity": "rare",
+    "type": "heavy_pistol",
+    "cost": 36500,
+    "manufacturer": "nexus-exiles",
+    "weight": 7,
+    "heat": 6,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 75,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_Sidewinder_MP.png/revision/latest?cb=20180530053144",
+    "andromeda": true,
+    "properties": [
+      "double-tap"
+    ],
+    "name": "Sidewinder",
+    "html": "",
+    "id": "sidewinder"
+  },
+  {
+    "rarity": "spectre",
+    "type": "heavy_pistol",
+    "cost": 53500,
+    "manufacturer": "kett",
+    "weight": 7,
+    "heat": 6,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "fire"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/be/MEA_Silhesh_MP.png/revision/latest?cb=20180530061830",
+    "andromeda": true,
+    "properties": [
+      "double-tap",
+      "light"
+    ],
+    "name": "Silhesh",
+    "html": "<p>Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see\nthe target.</p>\n",
+    "id": "silhesh"
+  },
+  {
+    "rarity": "spectre",
+    "type": "assault_rifle",
+    "cost": 60000,
+    "manufacturer": "kett",
+    "weight": 18,
+    "heat": 12,
+    "damage": {
+      "dieCount": 4,
+      "dieType": 4,
+      "type": "fire"
+    },
+    "range": 25,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0e/MEA_Soned_MP.png/revision/latest?cb=20180530232308",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy"
+    ],
+    "name": "Soned",
+    "html": "",
+    "id": "soned"
+  },
+  {
+    "rarity": "spectre",
+    "type": "assault_rifle",
+    "cost": 59000,
+    "manufacturer": "taravay-industries",
+    "weight": 13,
+    "heat": 3,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "thunder"
+    },
+    "range": 25,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sovoa_MP.png/revision/latest?cb=20180530232548",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "special"
+    ],
+    "name": "Sovoa",
+    "html": "<p>Instead of making a ranged weapon attack, target an area within normal or long range of this weapon.\nEach creature within a <me-distance length=\"10\" /> radius of the target makes a Dexterity saving\nthrow. The DC of this saving throw equals 8 + your Dexterity modifier + your proficiency bonus (if\nyou are proficient with Assault Rifles). A creature takes thunder damage equal to the weapon's\ndamage on a failed save or half as much on a successful one. Each creature within the radius has\nadvantage on the saving throw the target area is beyond the normal range of this\nweapon.</p>\n",
+    "id": "sovoa"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 36500,
+    "manufacturer": "krogan",
+    "weight": 13,
+    "heat": 12,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "piercing"
+    },
+    "range": 25,
+    "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Striker_Assault_Rifle.png/revision/latest?cb=20120411201310",
+    "andromeda": false,
+    "properties": [
+      "recoil",
+      "two-handed"
+    ],
+    "name": "Striker Assault Rifle",
+    "html": "<p>After making a ranged attack with the Striker, you may choose to enter the Targeting condition. At\nthe start of your next turn, all ranged attacks made with the Striker deal an additional 1d12\ndamage, at the cost of 2 heat per attack. This bonus continues to stack at the start of your turn\nuntil the targeting condition ends or until the Striker must be reloaded. For example, the 3rd round\nwould deal 3d12 for 3 heat per attack, etc.</p>\n",
+    "id": "striker-assault-rifle"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "melee",
+    "cost": 13500,
+    "manufacturer": "cerberus",
+    "weight": 2,
+    "heat": null,
+    "damage": {
+      "dieCount": 1,
+      "dieType": 6,
+      "type": "bludgeoning"
+    },
+    "range": 5,
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "light"
+    ],
+    "name": "Stun Baton",
+    "html": "<p>When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.\nIf the target maintaining a concentration power, it automatically fails its saving throw to maintain\nthat power.</p>\n",
+    "id": "stun-baton"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 39000,
+    "manufacturer": "remnant",
+    "weight": 18,
+    "heat": 6,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 8,
+      "type": "force"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sweeper_MP.png/revision/latest?cb=20180530232437",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "heavy",
+      "special",
+      "burst-fire"
+    ],
+    "name": "Sweeper",
+    "html": "<p>The Sweeper does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. This represents the weapon internally cooling off. If you ever spin down the\ndie to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire attack,\nspin down the die by 2.</p>\n",
+    "id": "sweeper"
+  },
+  {
+    "rarity": "rare",
+    "type": "assault_rifle",
+    "cost": 37500,
+    "manufacturer": "kett",
+    "weight": 13,
+    "heat": 4,
+    "damage": {
+      "dieCount": 3,
+      "dieType": 4,
+      "type": "fire"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/MEA_Thokin_MP.png/revision/latest?cb=20180530232714",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "special"
+    ],
+    "name": "Thokin",
+    "html": "<p>Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see\nthe target.</p>\n",
+    "id": "thokin"
+  },
+  {
+    "rarity": "spectre",
+    "type": "heavy_pistol",
+    "cost": 61000,
+    "manufacturer": "taravay-industries",
+    "weight": 9,
+    "heat": 2,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "type": "fire"
+    },
+    "range": 75,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/a1/MEA_Ushior_MP.png/revision/latest?cb=20180530220429",
+    "andromeda": true,
+    "properties": [],
+    "name": "Ushior",
+    "html": "",
+    "id": "ushior"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "sniper_rifle",
+    "cost": 17000,
+    "manufacturer": "nexus-exiles",
+    "weight": 11,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "piercing"
+    },
+    "range": 150,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e8/MEA_Vanquisher_MP.png/revision/latest?cb=20180602004611",
+    "andromeda": true,
+    "properties": [
+      "two-handed"
+    ],
+    "name": "Vanquisher",
+    "html": "",
+    "id": "vanquisher"
+  },
+  {
+    "rarity": "spectre",
+    "type": "shotgun",
+    "cost": 61000,
+    "manufacturer": "special-tasks-group",
+    "weight": 13,
+    "heat": 4,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 10,
+      "type": "thunder"
+    },
+    "range": 25,
+    "image": "http://vignette1.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "hip-fire",
+      "special",
+      "recoil"
+    ],
+    "name": "Venom Shotgun",
+    "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. It deals an additional<br>\n2d10 thunder damage. Instead of making a ranged weapon attack, target a creature that makes a\nDexterity saving throw (DC13). On a successful save, it takes half as much damage.</p>\n",
+    "id": "venom-shotgun"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 15000,
+    "manufacturer": "andromeda-initiative",
+    "weight": 9,
+    "heat": 8,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "piercing"
+    },
+    "range": 75,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/38/MEA_X5_Ghost_MP.png/revision/latest?cb=20180530232855",
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "burst-fire"
+    ],
+    "name": "X5 Ghost",
+    "html": "<p>Whenever you make an attack with this weapon, if your previous action, reaction, or bonus action was\nan attack with this weapon, you gain a +1 bonus to the attack roll. Possesses recording and sensor\nfunctions so it can be left behind as a &quot;black box&quot; by doomed explorers.</p>\n",
+    "id": "x-5-ghost"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "assault_rifle",
+    "cost": 15000,
+    "manufacturer": "kett",
+    "weight": 11,
+    "heat": 8,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 4,
+      "type": "fire"
+    },
+    "range": 50,
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2a/MEA_Zalkin_MP.png/revision/latest?cb=20180530233017",
+    "andromeda": true,
+    "properties": [
+      "two-handed",
+      "double-tap"
+    ],
+    "name": "Zalkin",
+    "html": "",
+    "id": "zalkin"
+  }
+]

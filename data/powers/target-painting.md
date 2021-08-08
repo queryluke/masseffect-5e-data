@@ -1,36 +1,39 @@
 ---
-id: target_painting
-name: Target Painting
 level: 1
 type: tech
-attackType:
-- DEX Save
-effect:
-- debuff
-damageType: []
-castingTime: Action
-duration: 1 round
+attack:
+  melee: false
+  ranged: false
+save:
+  dex: true
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - debuff
+damageTypes: []
+castingTimes:
+  - action
+duration:
+  length: 1
+  time: round
+instant: false
 concentration: false
-distance:
-  range: 90
-  aoeType: cube
-  aoeDistance: 20
-detonates:
-primes:
-availableClasses:
-- engineer
-- infiltrator
-- sentinel
-advancementOptions:
-- name: Heavy Weapon Sync
-  description: Information about the painted targets sync with heavy weapon systems.
-    Any creature that would make a saving throw to avoid heavy weapon damage has disadvantage
-    on the saving throw.
-- name: Lasting Scan
-  description: Becomes a concentration power with a duration of 1 minute.
+range: 90
+aoe:
+  type: cube
+  size: 20
+detonates: false
+primes: false
+advancements:
+  heavy-weapon-sync:
+    mechanics: []
+  lasting-scan:
+    mechanics: []
+classes:
+  - engineer
+  - infiltrator
+  - sentinel
 ---
-Scan an <me-distance length="20" adj/> cube within range. Until the end of your next turn, any creature in the area when the power is cast is
-highlighted on all friendly creatures HUDs if it fails a Dexterity saving throw.
-
-Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected
-creature or object can't benefit from being invisible.

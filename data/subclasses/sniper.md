@@ -1,5 +1,3 @@
 ---
-name: Sniper
-class: infiltrator
+klass: infiltrator
 ---
-Snipers are ranged specialists that have an affinity for sniper rifles.

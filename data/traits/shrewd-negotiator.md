@@ -1,12 +1,13 @@
 ---
-name: Shrewd Negotiator
-species: batarian
+species:
+  - batarian
 mechanics:
-  - type: prof
-    options:
-      skills:
+  - id: shrewd-negotiator-profs
+    type: profs
+    subType: skill
+    choices:
+      items:
         - insight
         - intimidation
-      amount: 1
+      count: 1
 ---
-Gain proficiency in either Insight or Intimidation.

@@ -1,16 +1,13 @@
 ---
-name: Hip Caddy - Grenades
-rarity: Common
-type: Armor
-description: A simple device designed to hold combat grenades.
+rarity: common
+type: armor
 cost: 3000
-manu: Armax Arsenal
-notes:
-  - Item Capacity
-placement: Legs
+manufacturer: armax-arsenal
+tags:
+  - item_capacity
+placement: legs
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your grenade capacity by 2

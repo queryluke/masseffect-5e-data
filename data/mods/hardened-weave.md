@@ -1,18 +1,13 @@
 ---
-name: Hardened Weave
-rarity: Spectre
-type: Armor
-description: A complex filament network of element zero microcores combined with
-  advanced firewall technology provides protection against both biotic and tech
-  attacks.
+rarity: spectre
+type: armor
 cost: 250000
-manu: Elanus Risk Control Services
-notes:
-  - Resistance
-placement: Chest
+manufacturer: elanus-risk-control-services
+tags:
+  - resistance
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Resistance to cold, fire, force, lightning, and necrotic damage types.

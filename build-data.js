@@ -1,25 +1,15 @@
-
 const fs = require('fs')
+const fse = require('fs-extra')
 const fm = require('front-matter')
 const _ = require('lodash')
 const config = require('./package.json')
-const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
-
-if (!fs.existsSync(versionDir)) {
-  fs.mkdirSync(versionDir);
-}
-
-// copy about page
-fs.copyFile( './data/about.json', `${versionDir}/about.json`, (err) => {
-  if (err) throw err;
-});
 
 // Markdown it options
 const MarkdownIt = require('markdown-it')
 const md = new MarkdownIt({ html: true })
 
 md.use(require('markdown-it-container'), 'alert')
-    .use(require('markdown-it-multimd-table'))
+  .use(require('markdown-it-multimd-table'))
 
 md.renderer.rules.table_open = function () {
   return '<v-simple-table class="mb-8"><template v-slot:default>'
@@ -53,15 +43,6 @@ md.renderer.rules.image = function (tokens, idx, options, env, self) {
   return `<v-img src="${src}" />`
 }
 
-md.renderer.rules.link_open = function(tokens, idx) {
-  const token = tokens[idx]
-  const href = token.attrs[0][1]
-  if (/^\//.test(href)) {
-    return `<nuxt-link to="${href}">`
-  } else {
-    return `<a href="${href}" target="_blank">`
-  }
-}
 md.renderer.rules.link_close = function(tokens, idx) {
   const pToken = tokens[idx - 2]
   const href = pToken.attrs[0][1]
@@ -72,72 +53,136 @@ md.renderer.rules.link_close = function(tokens, idx) {
   }
 }
 
-const mdDirs = [
-  'abilities',
-  'rules',
-  'gmg',
-  'backgrounds',
-  'changelog',
-  'class-features',
-  'subclasses',
-  'classes',
-  'conditions',
-  'feats',
-  'gear',
-  'mods',
-  'species-variants', // before species
-  // 'subspecies', // before species
-  'traits', // before species
-  'species',
-  'powers',
-  'tool-profs',
-  'vehicles'
-]
-for (let dir of mdDirs) {
-  const path = `./data/${dir}`
-  const files = fs.readdirSync(path)
-
-  const items = files.map((file) => {
-    const fc = fm(fs.readFileSync(`${path}/${file}`, 'utf8'))
-    let item = Object.assign(fc.attributes, {})
-    item.html = md.render(fc.body)
-    item.id = file.replace(/.md$/, '')
-    if (dir === 'changelog') {
-      item.date = new Date(item.date)
-      item.url = `/changelog/${item.slug}`
+const setLinkLocalePrefix = (lang = null) => {
+  md.renderer.rules.link_open = function(tokens, idx) {
+    const token = tokens[idx]
+    let href = token.attrs[0][1]
+    if (/^\//.test(href)) {
+      if (lang) {
+        href = `/${lang}${href}`
+      }
+      return `<nuxt-link to="${href}">`
+    } else {
+      return `<a href="${href}" target="_blank">`
     }
-    if (dir === 'species') {
-      const traits = require(`${versionDir}/traits.json`)
-      const variants = require(`${versionDir}/species-variants.json`)
-      item.traits = traits.filter(i => i.species === item.id || i.species.includes(item.id))
-      item.variants = variants.filter(i => i.species === item.id)
-    }
-    return item
-  })
-  fs.writeFileSync(`${versionDir}/${dir}.json`, JSON.stringify(items, null, 2))
+  }
 }
-// process jsDirs
-const jsonDirs = [
-  'armor-mechanics',
-  'armor',
-  'attributions',
-  'bestiary',
-  'character-progression',
-  'commonplace-items',
-  'random-height-weight',
-  'ship-upgrades',
-  'skills',
-  'stats-by-cr',
-  'weapon-properties',
-  'weapons'
-]
-for (let dir of jsonDirs) {
-  const path = `./data/${dir}`
-  const files = fs.readdirSync(path)
-  let items = files.map((file) => {
-    const item = JSON.parse(fs.readFileSync(`${path}/${file}`, 'utf8'))
-    item.id = file.replace(/.json$/, '')
-    return item
-  })
-  fs.writeFileSync(`${versionDir}/${dir}.json`, JSON.stringify(items, null, 2))
+
+const ignore = ['messages']
+const staticData = ['about.json']
+const staticMdData = ['guides-index.md', 'manual-index.md']
+const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
+
+if (!fs.existsSync(versionDir)) {
+  fs.mkdirSync(versionDir);
+}
+
+const textPath = `./text`
+const dataPath = `./data`
+
+const langs = fs.readdirSync(textPath)
+const dataDirs = fs.readdirSync(dataPath)
+
+for (const lang of langs) {
+  const targetPath = `${versionDir}/${lang}`
+  setLinkLocalePrefix(lang === 'en' ? null : lang)
+
+  // create the target if it doesn't exist
+  if (!fs.existsSync(targetPath)) {
+    fs.mkdirSync(targetPath);
+  }
+
+  // copy any staticData
+  for (const f of staticData) {
+    fs.copyFile( `${dataPath}/${f}`, `${targetPath}/${f}`, (err) => {
+      if (err) throw err;
+    });
+  }
+
+  // copy and convert any static md files
+  for (const f of staticMdData) {
+    const fc = fm(fs.readFileSync(`${dataPath}/${f}`, 'utf8'))
+    let item = fc.attributes
+    fs.writeFileSync(`${targetPath}/${f.replace('.md', '.json')}`, JSON.stringify(item, null, 2))
+  }
+
+  const textSourcePath = `${textPath}/${lang}`
+
+  const processedModels = []
+
+  // process data dirs
+  for (const dir of dataDirs) {
+    if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir)) {
+      continue
+    }
+    // don't render the changelog in anything but english
+    if (dir === 'changelog' && lang !== 'en') {
+      continue
+    }
+    const modelDataPath = `${dataPath}/${dir}`
+    const modelTextPath = `${textSourcePath}/${dir}`
+    const modelTargetFile = `${targetPath}/${dir}.json`
+    const modelFns = fs.readdirSync(modelDataPath)
+    const items = modelFns.map(file => {
+      const item = combineItem(file,`${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
+      if (dir === 'changelog') {
+        item.date = new Date(item.date)
+        item.url = `/changelog/${item.slug}`
+      }
+      return item
+    })
+    fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
+    processedModels.push(dir)
+  }
+
+  // compile the messages into a json file
+  const messages = require(`${textSourcePath}/messages`)
+  fs.writeFileSync(`${targetPath}/messages.json`, JSON.stringify(messages, null, 2))
+
+  // process text dirs
+  const textDirs = fs.readdirSync(textSourcePath)
+  for (const dir of textDirs) {
+    if (ignore.includes(dir) || staticData.includes(dir) || staticMdData.includes(dir) || processedModels.includes(dir)) {
+      continue
+    }
+    const modelTextPath = `${textSourcePath}/${dir}`
+    const modelTargetFile = `${targetPath}/${dir}.json`
+    const modelFns = fs.readdirSync(modelTextPath)
+    const items = modelFns.map(file => {
+      return  combineItem(file, `${modelTextPath}/${file}`)
+    })
+    fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
+  }
+}
+
+function combineItem(id, file1, file2 = null) {
+  const fc = fm(fs.readFileSync(file1, 'utf8'))
+  let item = fc.attributes
+  let body = fc.body
+  if (file2) {
+    if (fs.existsSync(file2)) {
+      const tFc = fm(fs.readFileSync(file2, 'utf8'))
+      const tItem = tFc.attributes
+      item = _.mergeWith(item, tItem, (objValue, srcValue) => {
+        if (_.isArray(objValue) && _.isObject(objValue[0]) && objValue[0].id) {
+          const newArray = []
+          for (let dIndex = 0; dIndex < objValue.length; dIndex++) {
+            if (objValue[dIndex].id) {
+              const tIndex = srcValue.findIndex(i => i.id === objValue[dIndex].id)
+              if (tIndex > -1) {
+                newArray.push(_.merge(objValue[dIndex], srcValue[tIndex]))
+              } else {
+                newArray.push(objValue[dIndex])
+              }
+            }
+          }
+          return newArray.concat(srcValue.filter(i => !newArray.map(j => j.id).includes(i.id)))
+        }
+      })
+      body = tFc.body
+    }
+  }
+  item.html = md.render(body)
+  item.id = id.replace(/.md$/, '')
+  return item
 }

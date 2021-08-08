@@ -1,14 +1,11 @@
 ---
-name: Honed Strike
-description: Improve the strike of your weapon to deal additional damage.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 5000
-placement: Strike
-notes:
-  - Extra Damage
-createdBy: Chris Alley
+manufacturer: ''
+tags:
+  - extra_damage
+placement: strike
 availability:
-  - Melee
-type: Weapon
+  - melee
 ---
-+1 on damage rolls made with this weapon.

@@ -1,6 +1,3 @@
 ---
-id: dual-wielder
-name: Dual Wielder
-note: +1 AC bonus, dual wield heavier melee weapons, draw or stow two weapons at once
+mechanics: []
 ---
-Player's Handbook, p. 165

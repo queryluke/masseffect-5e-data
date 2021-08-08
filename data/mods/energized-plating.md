@@ -1,17 +1,13 @@
 ---
-name: Energized Plating
-rarity: Spectre
-type: Armor
-description: A prototype upgrade designed specifically for heavy combat use, it
-  provides maximum protection for the user
+rarity: spectre
+type: armor
 cost: 90000
-manu: Cerberus Skunkworks
-notes:
-  - AC
-placement: Chest
+manufacturer: cerberus-skunkworks
+tags:
+  - ac
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-+3 AC

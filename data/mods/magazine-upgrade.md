@@ -1,18 +1,15 @@
 ---
-name: Magazine Upgrade
-description: Increases magazine capacity, allowing more shots before reload.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 8000
-placement: Magazine
-notes:
-  - Additional Heat
-createdBy: null
+manufacturer: ''
+tags:
+  - additional_heat
+placement: magazine
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-The weapon gains additional heat equal to half its base heat (rounded down). 

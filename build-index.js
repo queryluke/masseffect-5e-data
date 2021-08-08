@@ -2,22 +2,77 @@ const fs = require('fs')
 const config = require('./package.json')
 const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
 
-function ordinal (value) {
-  return["st","nd","rd"][((value+90)%100-10)%10-1]||"th"
-}
-
-
-
 function setType(dir) {
   const types = [
-    { type: 'character', items: ['backgrounds', 'feats', 'species', 'traits', 'subspecies', 'species-variants', 'class-features'] },
-    { type: 'equipment', items: ['gear', 'vehicles', 'mods', 'armor', 'weapons'] },
-    { type: 'rule', items: ['conditions', 'rules'] },
-    { type: 'power', items: ['powers'] },
-    { type: 'bestiary', items: ['bestiary'] },
+    {
+      type: 'character',
+      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features']
+    },
+    {
+      type: 'equipment',
+      items: ['gear', 'vehicles', 'mods', 'armor', 'weapons']
+    },
+    {
+      type: 'manual',
+      items: ['manual','conditions', 'weapon-properties']
+    },
+    {
+      type: 'powers',
+      items: ['powers']
+    },
+    {
+      type: 'bestiary',
+      items: ['bestiary']
+    }
   ]
-
   return types.find(t => t.items.includes(dir)).type
+}
+
+function setPrimaryType(dir, messages) {
+  const types = [
+    {
+      type: messages.character_title.split('|')[0].trim(),
+      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features']
+    },
+    {
+      type: messages.equipment_title.split('|')[0].trim(),
+      items: ['gear', 'vehicles', 'mods', 'armor', 'weapons']
+    },
+    {
+      type: messages.manual.title,
+      items: ['manual','conditions', 'weapon-properties']
+    },
+    {
+      type: messages.power_title.split('|')[0].trim(),
+      items: ['powers']
+    },
+    {
+      type: messages.bestiary_title.split('|')[0].trim(),
+      items: ['bestiary']
+    }
+  ]
+  return types.find(t => t.items.includes(dir)).type
+}
+
+function setSubtype(file, messages) {
+  switch(file) {
+    case 'armor':
+    case 'bestiary':
+    case 'gear':
+    case 'class-features':
+    case 'species':
+      return messages.class_title.split('|')[1].trim()
+    case 'species-variants':
+    case 'traits':
+      return messages.species_title.split('|')[1].trim()
+    case 'manual':
+      return null
+    case 'conditions':
+    case 'weapon-properties':
+      return messages.appendix_title
+    default:
+      return messages[`${file.slice(0, -1)}_title`].split('|')[0].trim()
+  }
 }
 
 function cleanBody(text) {
@@ -38,165 +93,165 @@ const files = [
   'class-features',
   'feats',
   'gear',
+  'manual',
   'mods',
   'powers',
-  'rules',
   'species',
   'species-variants',
-  'subspecies',
   'traits',
   'weapons',
+  'weapon-properties'
 ]
 
+const langs = fs.readdirSync(versionDir)
 
-const searchItems = []
+for (const lang of langs) {
+  const searchItems = []
+  const messages = require(`${versionDir}/${lang}/messages.json`)
+  const setBonuses = require(`${versionDir}/${lang}/set-bonuses.json`)
+  const classes = require(`${versionDir}/${lang}/classes.json`)
+  const subclasses = require(`${versionDir}/${lang}/subclasses.json`)
+  const species = require(`${versionDir}/${lang}/species.json`)
 
-for (const file of files) {
-  const items = require(`${versionDir}/${file}.json`)
-  for (let item of items) {
+  for (const file of files) {
+    const items = require(`${versionDir}/${lang}/${file}.json`)
+    for (let item of items) {
 
-    // set the type and subtype
-    let searchItem = {
-      id: item.id,
-      title: item.name || item.title,
-      type: setType(file),
-      subType: file,
-      qualifiers: [],
-      link: `/${file}/${item.id}`,
-      body: cleanBody((item.html || '')),
-      html: false
-    }
+      // set the type and subtype
+      let searchItem = {
+        id: item.id,
+        title: item.name || item.title,
+        type: setType(file, messages),
+        qualifiers: [setPrimaryType(file, messages), setSubtype(file, messages)].filter(i => i !== null),
+        link: `/${file}/${item.id}`,
+        body: cleanBody((item.html || '')),
+        html: false
+      }
 
-    // create normalized content
-    switch (file) {
+      // create normalized content
+      switch (file) {
 
-      // ARMOR
-      case 'armor':
-        searchItem.body += `\n${item.features.map(i => cleanBody(i)).join(' ')}\n${item.setBonus.map(i => cleanBody(i)).join(' ')}`
-        break
+        // ARMOR
+        case 'armor':
+          if (item.set) {
+            const sb = setBonuses.find(i => i.id === item.set)
+            searchItem.body += sb.bonuses.map(i => cleanBody(i.text)).join(' ')
+          }
+          break
 
         // BESTIARY
-      case 'bestiary':
-        searchItem.qualifiers.push(item.unit)
-        searchItem.body = ''
-        searchItem.subType = false
-        for (let key of ['Actions', 'Features', 'Reactions', 'Lair Actions', 'Legendary Actions']) {
-          const splitKey = key.split(' ')
-          const attrKey = `${splitKey[0].toLowerCase()}${splitKey[1] || ''}`
-          if (item[attrKey].length > 0) {
-            let groupString = ` ${key}`
-            for (let v  of item[attrKey]) {
-              let string = ` ${v.name}`
-              switch(v.type) {
-                case 'weapon':
-                case 'grenade':
-                  continue
-                case 'melee':
-                  string += ` Melee Weapon Attack +${v.attackMod} to hit, reach ${v.range}m, ${v.target} Hit ${v.hit}`
-                  if (v.miss) {
-                    string += ` Miss: ${v.miss}`
-                  }
-                  break
-                case 'ranged':
-                  string += ` Ranged Weapon Attack +${v.attackMod} to hit, range ${v.range}/${v.range * 3}m, ${v.target} Hit ${v.hit}`
-                  if (v.miss) {
-                    string += ` Miss ${v.miss}`
-                  }
-                  break
-                default:
-                  if (v.recharge) {
-                    string += ` (${v.recharge})`
-                  }
-                  string += ` ${v.description}`
-              }
-              groupString += `${string} `
+        case 'bestiary':
+          searchItem.qualifiers.push(item.unit)
+          searchItem.body = ''
+          searchItem.subType = false
+          for (let key of ['actions', 'features', 'reactions', 'legendary']) {
+            if (item.entries[key]) {
+
             }
-            searchItem.body += `${groupString} `
           }
-        }
-        break
+          break
 
-      // FEATURES
-      case 'class-features':
-        searchItem.link = false
-        searchItem.html = item.html
-        searchItem.subType = 'features'
-        searchItem.qualifiers.push(item['class'])
-        if (item.subclass) {
-          searchItem.qualifiers.push(item.subclass.replace(/-/g,' '))
-        }
-        searchItem.qualifiers.push(`${item.level}${ordinal(item.level)} level`)
-        break
+        // FEATURES
+        case 'class-features':
+          searchItem.link = false
+          const className = classes.find(i => i.id === item.klass).name
+          searchItem.qualifiers.push(className)
+          if (item.subclass) {
+            const subclassName = subclasses.find(i => i.id === item.subclass).name
+            searchItem.qualifiers.push(subclassName)
+          }
+          searchItem.qualifiers.push(messages.level_nth.replace('{nth}', messages.ordinal_numbers[item.level]))
+          searchItem.html = item.html
+          break
 
-      // CONDITIONS
-      case 'conditions':
-        searchItem.link = `/appendix/conditions/${item.id}`
-        break
+        // CONDITIONS
+        case 'conditions':
+          searchItem.link = `/appendix/conditions/${item.id}`
+          searchItem.qualifiers.push(messages.conditions_title)
+          break
 
-      // GEAR
-      case 'gear':
-        searchItem.qualifiers.push(item.type)
-        break
+        // GEAR
+        case 'gear':
+          searchItem.qualifiers.push(messages.gear_types[item.type])
+          break
 
-      // MODS
-      case 'mods':
-        searchItem.qualifiers.push(item.type)
-        break
+        // MANUAL
+        case 'rules':
+          searchItem.link = `/manual/${item.section}#${item.id}`
+          break
 
-      // POWERS
-      case 'powers':
-        searchItem.qualifiers.push(item.type)
-        if (item.advancementOptions) {
-          searchItem.body += ` ${item.advancementOptions[0].description}`
-          searchItem.body += ` ${item.advancementOptions[1].description}`
-        }
-        break
+        // MODS
+        case 'mods':
+          searchItem.qualifiers.push(messages.mod_types[item.type])
+          break
 
-      // RULES
-      case 'rules':
-        searchItem.link = `manual/${item.section}#${item.id}`
-        break
+        // POWERS
+        case 'powers':
+          searchItem.qualifiers.push(messages.power_types[item.type])
+          if (item.advancements) {
+            for (const advKey in item.advancements)
+            searchItem.body += `  ${item.advancements[advKey].name}: ${cleanBody(item.advancements[advKey].text)}`
+          }
+          break
 
-      // VARIANTS
-      case 'species-variants':
-        searchItem.link = `species/${item.species}`
-        searchItem.qualifiers.push(item.species)
-        searchItem.subType = 'variant'
-        break
+        // VARIANTS
+        case 'species-variants':
+          searchItem.link = false
+          const vRace = species.find(i => i.id === item.species)
+          searchItem.qualifiers.push(vRace.name)
+          searchItem.qualifiers.push(messages.variants_title)
+          searchItem.qualifiers.push(item.name)
+          searchItem.html = item.html
+          break
 
-      // TRAITS
-      case 'traits':
-        searchItem.link = false
-        searchItem.html = item.html
-        searchItem.qualifiers.push(item.species)
-        break
+        // TRAITS
+        case 'traits':
+          searchItem.link = false
+          if (item.species.length > 1) {
+            let newSearchItem = {}
+            let nRace = {}
+            for (let i = 1; i < item.species.length; i++) {
+              newSearchItem = {...searchItem}
+              nRace = species.find(j => j.id === item.species[i])
+              newSearchItem.qualifiers.push(nRace.name)
+              newSearchItem.qualifiers.push(messages.traits_title)
+              searchItems.push(newSearchItem)
+            }
+          }
+          const race = species.find(i => i.id === item.species[0])
+          searchItem.qualifiers.push(race.name)
+          searchItem.qualifiers.push(messages.traits_title)
+          searchItem.html = item.html
+          break
 
-      // WEAPONS
-      case 'weapons':
-        searchItem.body = ''
-        if (item.properties.length > 0) {
-          searchItem.body += item.properties.join(', ')
-        }
-        if (item.notes) {
-          searchItem.body += ` ${item.notes}`
-        }
-        break
+        // WEAPON PROPERTIES
+        case 'weapon-properties':
+          searchItem.link = false
+          searchItem.qualifiers.push(messages.weapon_props_title)
+          searchItem.html = item.html
+          break
 
-      // DEFAULT
+        // DEFAULT
         // BACKGROUNDS
         // FEATS
         // SPECIES
-      default:
-        break
+        // WEAPONS
+        default:
+          break
+      }
+      searchItems.push(searchItem)
     }
-    searchItems.push(searchItem)
   }
+
+  for (const i of searchItems) {
+    if (typeof i.id === 'undefined') {
+      console.log(i)
+    }
+  }
+
+  fs.writeFileSync(`${versionDir}/${lang}/search-index.json`, JSON.stringify(searchItems, null, 2))
 }
 
-for (const i of searchItems) {
-  if (typeof i.id === 'undefined') {
-    console.log(i)
-  }
-}
 
-fs.writeFileSync(`${versionDir}/search-index.json`, JSON.stringify(searchItems, null, 2))
+
+

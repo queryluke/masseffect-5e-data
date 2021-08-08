@@ -1,31 +1,36 @@
 ---
-id: slow_fall
-name: Slow Fall
 level: 0
 type: biotic
-attackType: []
-effect:
-- movement
-damageType: []
-castingTime: Reaction, which you take when you or a creature within 10m of you falls
-duration: 1 minute
+attack:
+  melee: false
+  ranged: false
+save:
+  dex: false
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - movement
+damageTypes: []
+castingTimes:
+  - reaction
+duration:
+  length: 1
+  time: minute
+instant: false
 concentration: true
-distance:
-  range: 30
-  aoeType:
-  aoeDistance:
-detonates:
-primes:
-availableClasses:
-- adept
-- vanguard
-advancementOptions:
-- name: Improved Duration
-  description: Increase the duration to 5 minutes
-- name: Navigate
-  description: As you fall, you can direct your fall by <me-distance length="5" /> in any direction except
-    up. You may do this once per round.
+range: 30
+aoe: false
+detonates: false
+primes: false
+advancements:
+  improved-duration:
+    mechanics: []
+  navigate:
+    mechanics: []
+classes:
+  - adept
+  - vanguard
 ---
-When you or a creature within <me-distance length="30" /> of you falls, choose up to five falling creatures within range. Create a negative mass
-effect field around each creature, slowing the rate of descent to <me-distance length="60" /> per round. If the creature lands before the power
-ends, it takes no Falling damage and can land on its feet, and the power ends for that creature.

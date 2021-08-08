@@ -1,35 +1,42 @@
 ---
-id: throw
-name: Throw
 level: 0
 type: biotic
-attackType:
-- Ranged Attack
-effect:
-- damage
-damageType:
-- force
-castingTime: Action
-duration: Instant
+attack:
+  melee: false
+  ranged: true
+save:
+  dex: false
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - damage
+damage:
+  dieCount: 1
+  dieType: 8
+  mod: false
+  higherLevel:
+    dieCount: 1
+damageTypes:
+  - force
+castingTimes:
+  - action
+duration: false
+instant: true
 concentration: false
-distance:
-  range: 120
-  aoeType:
-  aoeDistance:
-detonates: x
-primes:
-availableClasses:
-- adept
-- sentinel
-- vanguard
-advancementOptions:
-- name: Radial Blast
-  description: On a hit, the damage is dealt to each creature within a <me-distance length="5" adj/> radius of
-    the target.
-- name: Improved Damage
-  description: Increase the damage die type to d12
+range: 120
+aoe: false
+detonates: true
+primes: false
+advancements:
+  radial-blast:
+    mechanics: []
+  improved-damage:
+    mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---
-Make a ranged power attack on a target you can see within range. On a hit, the target takes force damage equal to 1d8
-force damage. If the target is Medium or smaller, it is pushed backward <me-distance length="30" />.
-
-This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).

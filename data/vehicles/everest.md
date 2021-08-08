@@ -1,13 +1,14 @@
 ---
-name: Everest-class Dreadnought
-vehicle:
-  type: starship
+type: starship
+subtype: false
 size: dreadnought
 ac: 25
 hp: 6500
 sp: 1500
 speed: 1
-range: 3 ftlu
+range:
+  distance: 3
+  units: ftlu
 crew:
   min: 24
   max: 1000+
@@ -31,8 +32,3 @@ weapons:
 cr: 28+
 cost: military
 ---
-
-The Everest-class dreadnought is the Systems Alliance flagship.
-
-__Additional Systems__: The Everest-class dreadnought has a number of additional systems, including: Armory, GARDIAN,
-Medbay, Rec Room, Weapon Range, Exonet, and Luxury Kitchen.

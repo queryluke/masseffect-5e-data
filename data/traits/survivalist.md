@@ -1,10 +1,9 @@
 ---
-name: Survivalist
-species: angara
+species:
+  - angara
 mechanics:
-  - type: prof
-    options:
-      skills:
-        - survival
+  - type: profs
+    subType: skill
+    has:
+      - survival
 ---
-Angara have a knack for living in harsh environments. You have proficiency in Survival.

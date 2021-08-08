@@ -1,17 +1,14 @@
 ---
-name: Extended Barrel I
-description: Lengthens barrel, creating greater bullet velocity and impact.
-rarity: Uncommon
+rarity: uncommon
+type: weapon
 cost: 5000
-placement: Barrel
-notes:
-  - Extra Damage
-createdBy: null
+manufacturer: ''
+tags:
+  - extra_damage
+placement: barrel
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - sniper_rifle
 ---
-+1 on damage rolls made with this weapon.

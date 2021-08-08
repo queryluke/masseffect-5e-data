@@ -1,0 +1,1466 @@
+[
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Active_Camo.exe",
+    "html": "<p>The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use an action toggle this effect off or on as a free action.</p>\n",
+    "id": "active-camo-exe"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "All_Terrain.exe",
+    "html": "<p>You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>\n",
+    "id": "all-terrain-exe"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10,
+      "damageType": "lightning",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d6"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d6"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Arc Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nA creature takes lightning damage on a failed save, or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and cost.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d6</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d6</td>\n<td>7,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d6</td>\n<td>8,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d6</td>\n<td>9,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "arc-grenade"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 100,
+    "weight": 0,
+    "subType": "gaming_set",
+    "name": "Arcade Game",
+    "html": "<p>These small programs can be installed onto omni-tools and played with nearby players. Popular games include\n<em>Alliance Corsair</em>, <em>Relay Defense</em>, <em>Shattered Eezo</em>, and <em>N7 Code of Honor: Medal of Duty</em>.</p>\n",
+    "id": "arcade-game"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 6000,
+    "weight": 30,
+    "subType": "artisan",
+    "name": "Armorsmith's Workbench",
+    "html": "<p>All the necessary tools to work with medium and heavy armor.</p>\n",
+    "id": "armorsmiths-workbench"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 1000,
+    "weight": 9,
+    "subType": "artisan",
+    "name": "Brewer's Supplies",
+    "html": "<p>A large glass jug, a quantity of hops, a siphon, and several meters of tubing, bottles, and a distiller.</p>\n",
+    "id": "brewers-supplies"
+  },
+  {
+    "mechanics": {
+      "range": 60,
+      "blast": 5,
+      "damageType": "thunder",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "1d12"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d12"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d12"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "4d12"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d12"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "6d12"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "7d12"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "8d12"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "9d12"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "10d12"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Cain Trip Mine",
+    "html": "<p>Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects\na beam <me-distance length=\"15\" /> tripwire. When a creature or object passes through the tripwire, the mine detonates.</p>\n<p>A creature can spot the mine with a successful DC 13 Wisdom (Perception).</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.</p>\n<p>The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>3,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>4,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>4d12</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>9,800 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>7d12</td>\n<td>11,100 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>8d12</td>\n<td>12,400 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>9d12</td>\n<td>13,700 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>10d12</td>\n<td>15,000</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "cain-trip-mine"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Cardio_Muscular_Optimizer.exe",
+    "html": "<p>A program that syncs up with the user's VI to run a full-body performance optimizer. Your Constitution score is 19 while\nyou are running this program. It has no effect if your Constitution score is already 19 or higher.</p>\n",
+    "id": "cardio-muscular-optimizer-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 4000,
+    "weight": 8,
+    "subType": "artisan",
+    "name": "Chemist's Supplies",
+    "html": "<p>A small bunsen burner, a set of glass vials and beakers, a small metal frame for holding vials over heat,\na centrifuge, and a collection of chemicals.</p>\n",
+    "id": "chemists-supplies"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 200,
+    "weight": 1,
+    "subType": "gaming_set",
+    "name": "Chess Set",
+    "html": "<p>A game developed on Earth in the 11th century. Chess became popular with elcor after the Alliance established an\nembassy on the Citadel.</p>\n",
+    "id": "chess-set"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 15,
+      "damageType": "thunder",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d6"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d6"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Cluster Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a Dexterity saving throw.\nA creature takes thunder damage on a failed save, or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>15</td>\n<td>2d6</td>\n<td>3,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>17</td>\n<td>3d6</td>\n<td>5,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>19</td>\n<td>5d6</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>6d6</td>\n<td>8,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>21</td>\n<td>6d6</td>\n<td>9,200 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>21</td>\n<td>7d6</td>\n<td>9,900 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>23</td>\n<td>8d6</td>\n<td>11,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "cluster-grenade"
+  },
+  {
+    "mechanics": {
+      "damage": "8d12",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 4,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543"
+    },
+    "rarity": "rare",
+    "type": "heavy_weapon",
+    "cost": 82000,
+    "weight": 24,
+    "subType": "",
+    "name": "Cobra Missile Launcher",
+    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.</p>\n",
+    "id": "cobra-missile-launcher"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Cognition_Booster.exe",
+    "html": "<p>This program diverts positive energy from your omni-tool to the nerve clusters in your brain, accelerating your thought\nprocesses and critical thinking. Your Intelligence score becomes 19 while this program is active. If your Intelligence\nis equal to or higher than 19, this program has no effect.</p>\n",
+    "id": "cognition-booster-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 1000,
+    "weight": 8,
+    "subType": "artisan",
+    "name": "Cook's Utensils",
+    "html": "<p>A metal pot, knives, forks, a stirring spoon, and a ladle.</p>\n",
+    "id": "cooks-utensils"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Deflector_Array.exe",
+    "html": "<p>Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.</p>\n<p>The user gains +2 to AC while not wearing Medium or Heavy Armor, or using a Riot Shield. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)</p>\n",
+    "id": "deflector-array-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 2500,
+    "weight": 3,
+    "subType": "",
+    "name": "Disguise Kit",
+    "html": "<p>A pouch of cosmetics, dyes, and a micro-fabricator.</p>\n",
+    "id": "disguise-kit"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Distortion_Veil.exe",
+    "html": "<p>While this program is active, highly-synced, micro-holo projectors blur the user's visual image and electromagnetic\npresence on non-IFF'd sensors. This causes attack rolls against the user to have disadvantage. If the user takes damage,\nthis property ceases to function until the start of their next turn (due to the projectors re-routing power and re-compensating).\nThis property is suppressed while the user is incapacitated, restrained, or otherwise unable to move.</p>\n",
+    "id": "distortion-veil-exe"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Double_Time.exe",
+    "html": "<p>While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. You double your walking speed, and any attack of\nopportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.</p>\n<p>(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)</p>\n",
+    "id": "double-time-exe"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "EM_Trail_Scrambler.exe",
+    "html": "<p>As an action, activate an ionized laser that targets the environment behind you. This makes attempts to track the user\nvia traditional or electromagnetic signal tracing harder, and Survival/Science checks made to do so are made at\ndisadvantage. One installation of this program lasts for 1 hour.</p>\n",
+    "id": "em-trail-scrambler-exe"
+  },
+  {
+    "mechanics": {
+      "installation": false
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Experimental_Barrier_Generator.exe",
+    "html": "<p>Convert 10 omni-gel into 1d4+4 black beads that measure <me-distance length=\"1\" tiny /> in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.</p>\n<p>As an action, you can launch a bead at a target location within <me-distance length=\"90\" />. The bead explodes on impact and is destroyed. Each\ncreature within a <me-distance length=\"15\" adj /> radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.</p>\n<p>Only breathable air can pass through the sphere's wall. No attack or other effect penetrate it.</p>\n<p>An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.</p>\n<p>The sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.</p>\n<p><strong>Single-use</strong>: Once you use this program, it deletes itself from your omni-tool.</p>\n",
+    "id": "experimental-barrier-generator-exe"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Expert_Hand.exe",
+    "html": "<p>Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.</p>\n",
+    "id": "expert-hand-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 1000,
+    "weight": 5,
+    "subType": "gaming_set",
+    "name": "Firebreathing Thresher Maws of Doom Set",
+    "html": "<p>What began as (and still is) a krogan childrens' game where miniature flamethrowers are used to burn each others'\npieces on a map, grew into a complex and popular miniature wargame. The flamethrowers are still used.</p>\n",
+    "id": "fire-breathing-thresher-maws-of-doom-set"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Flash_Hypno.exe",
+    "html": "<p>This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to cast the 'Charm Person' power (save DC 13) on an organic creature within <me-distance length=\"30\" /> of you, provided that you and the\ntarget can see each other. Your omni-tool regains all expended charges after a long rest, provided that the program is\nActive.</p>\n",
+    "id": "flash-hypno-exe"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10,
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Flashbang Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Constitution saving throw.\nOn a failed save, a creature is <me-condition id=\"blinded\"/> until the end of your next turn.</p>\n<p>The mark of this grenade determines its Save DC and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>12</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>14</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>16</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>20</td>\n<td>9,500 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "flashbang-grenade"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10,
+      "damageType": "piercing",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "1d12"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d12"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d12"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d12"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d12"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d12"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d12"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d12"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d12"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d12"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Frag Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nOn a failed save, a creature takes piercing damage or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>1,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>3,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>4,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d12</td>\n<td>9,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>10,800 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d12</td>\n<td>11,300 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d12</td>\n<td>12,600 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d12</td>\n<td>14,400 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "frag-grenade"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 250,
+    "weight": 0,
+    "subType": "gaming_set",
+    "name": "Galaxy of Fantasy Link",
+    "html": "<p>A massively multiplayer extranet role-playing game based on turian mythology. It has over 11 billion players. The\nrecently released expansion Waters of Kolono dominated sales charts and adds 200-300 hours of gameplay. Skilled\nplayers can earn favors by gathering and trading virtual valuables.</p>\n",
+    "id": "galaxy-of-fantasy-link"
+  },
+  {
+    "mechanics": {
+      "damage": "12d4",
+      "range": 50,
+      "damageType": "radiant",
+      "rounds": 3,
+      "image": "http://vignette3.wikia.nocookie.net/masseffect/images/b/b6/ME3_Geth_Antivirus_Heavy_Weapon.png/revision/latest?cb=20120317195710"
+    },
+    "rarity": "uncommon",
+    "type": "heavy_weapon",
+    "cost": 40000,
+    "weight": 14,
+    "subType": "",
+    "name": "Geth Spitfire",
+    "html": "<p>As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.</p>\n",
+    "id": "geth-spitfire"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 5000,
+    "weight": 1,
+    "subType": "",
+    "name": "Hacking Tools",
+    "html": "<p>A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of\nsecurity counter-measure scripts, and an air-gapped computer interface.</p>\n",
+    "id": "hacking-tools"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "ammo",
+    "cost": "Military",
+    "weight": 1,
+    "subType": "",
+    "name": "Heavy Weapon Charge",
+    "html": "<p>A heavy weapon charge is a generic term that can refer to a missile, energy source, or\nraw material. Heavy weapons require charges to be used. Generally, heavy weapon charges are not available to purchase\nby the general public. They must be bought at your local black market dealer or obtained from a military connection.</p>\n<p><strong>Use.</strong> Each heavy weapon has a maximum number of charges it can hold at one time. Loading new charges into a weapon\nrequires 1 heavy weapon charge and the Reload action.</p>\n",
+    "id": "heavy-weapon-charge"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 5,
+      "damageType": "thunder",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "1d6"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d6"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d6"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Homing Grenade",
+    "html": "<p>Target a creature you can see within <me-distance length=\"30\" />. The target creature suffers thunder damage (see below). Each other creature\nwithin <me-distance length=\"5\" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage\nor half as much on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>10</td>\n<td>1d6</td>\n<td>700 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>11</td>\n<td>3d6</td>\n<td>2,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>13</td>\n<td>5d6</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>15</td>\n<td>6d6</td>\n<td>6,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>16</td>\n<td>6d6</td>\n<td>6,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>16</td>\n<td>7d6</td>\n<td>7,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>17</td>\n<td>8d6</td>\n<td>8,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "homing-grenade"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10,
+      "damageType": "fire",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "2d4"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2,000 credits"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d4"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d4"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d4"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d4"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d4"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d4"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Inferno Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nOn a failed save, a creature suffers fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target\ncontinues to burn for 1 minute.</p>\n<p>A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d4</td>\n<td>1,000 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d4</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d4</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d4</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d4</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d4</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d4</td>\n<td>6,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d4</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d4</td>\n<td>7,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d4</td>\n<td>8,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "inferno-grenade"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 200,
+    "weight": 5,
+    "subType": "gaming_set",
+    "name": "Kepesh-Yakshi Board",
+    "html": "<p>An asari game that has been translated into portable, virtual form. This complex game requires strategy and incisive thinking\nto command a small fleet to take your opponent's &quot;homeworld.&quot; Some versions include &quot;neural feedback&quot; which\ndelivers a mild shock to the player when they lose a piece, which serves to disincentive casually sacrificing pieces.</p>\n",
+    "id": "kepesh-yakshi"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10,
+      "damageType": "utility",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Lift Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Strength saving throw.\nOn a failed save, a creature is <me-condition id=\"lifted\" /> until the end of your next turn.</p>\n<p>The mark of this grenade determines its Save DC and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>12</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>14</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>16</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>20</td>\n<td>9,500 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "lift-grenade"
+  },
+  {
+    "mechanics": {
+      "damage": "3d6",
+      "range": 90,
+      "damageType": "thunder",
+      "rounds": 12,
+      "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png/revision/latest?cb=20140823054132"
+    },
+    "rarity": "uncommon",
+    "type": "heavy_weapon",
+    "cost": 20500,
+    "weight": 12,
+    "subType": "",
+    "name": "M-100 Grenade Launcher",
+    "html": "<p>Target an area within <me-distance length=\"90\" /> that you can see and fire a grenade at it. Each creature\nwithin a <me-distance length=\"10\" adj /> radius sphere must make a DC 14 Dexterity saving throw.\nOn a failed save a creature takes 3d6 thunder damage or half as much on a successful one.</p>\n",
+    "id": "m-100-grenade-launcher"
+  },
+  {
+    "mechanics": {
+      "damage": "4d6",
+      "range": 15,
+      "damageType": "fire",
+      "rounds": 10,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/5/5a/ME3_Firestorm_Heavy_Weapon.png/revision/latest?cb=20120317194412"
+    },
+    "rarity": "uncommon",
+    "type": "heavy_weapon",
+    "cost": 24000,
+    "weight": 12,
+    "subType": "",
+    "name": "M-451 Firestorm",
+    "html": "<p>Sweep fire across the battlefield. Creatures within a <me-distance length=\"15\" /> cone originating from you must make a\nDC 13 Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage, or half as much damage on a successful one.</p>\n",
+    "id": "m-451-firestorm"
+  },
+  {
+    "mechanics": {
+      "damage": "4d12",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 1,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543"
+    },
+    "rarity": "spectre",
+    "type": "heavy_weapon",
+    "cost": 76000,
+    "weight": 24,
+    "subType": "",
+    "name": "M-560 Hydra",
+    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you\nremain targeting until the start of your next turn, fire a unique missile that automatically hits the target .\nThe missile deploys 3 shaped charges. The first disrupts any barriers or shields, completely removing all barrier ticks\nand shield points. The second charge cripples armor; the creature's is reduced by 3 for the next hour. The final charge\nexplodes and the creature must make a DC 18 Constitution saving throw. On a failed save the creature takes 4d12 thunder\ndamage or half as much on a successful one.</p>\n",
+    "id": "m-560-hydra"
+  },
+  {
+    "mechanics": {
+      "damage": "4d8",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 10,
+      "image": "http://vignette4.wikia.nocookie.net/masseffect/images/6/61/ME3_Ladon_Codex_Rip.png/revision/latest?cb=20140106114047"
+    },
+    "rarity": "spectre",
+    "type": "heavy_weapon",
+    "cost": 68000,
+    "weight": 22,
+    "subType": "",
+    "name": "M-597 Landon",
+    "html": "<p>As an Attack, begin targeting, choosing up to 10 creatures within <me-distance length=\"300\" />. If you remain targeting\nuntil the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile\nused consumes a weapon charge.</p>\n",
+    "id": "m-597-landon"
+  },
+  {
+    "mechanics": {
+      "damage": "5d12",
+      "range": 300,
+      "damageType": "radiant",
+      "rounds": 5,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/b/bf/ME3_Cain_Heavy_Weapon.png/revision/latest?cb=20120317195513"
+    },
+    "rarity": "spectre",
+    "type": "heavy_weapon",
+    "cost": 82500,
+    "weight": 22,
+    "subType": "",
+    "name": "M-920 Cain",
+    "html": "<p>As an Attack, choose a location within <me-distance length=\"300\" /> and begin targeting. If you remain targeting until\nthe start of your next turn, you can choose to continue targeting, consuming another charge, or you may use an Attack\nto fire the Cain. When fired, any creature within <me-distance length=\"5\" /> of the target location automatically fails\nthe saving throw. Creatures within <me-distance length=\"30\" /> of the target make a DC 18 Dexterity saving throw.\nOn a failed save, a creature takes X + 5d12 radiant damage where X is the number of charges you used multiplied by 2.\nOn a success, a creature takes half damage.</p>\n",
+    "id": "m-920-cain"
+  },
+  {
+    "rarity": "varies",
+    "type": "medi_gel",
+    "cost": "Varies",
+    "weight": 0,
+    "subType": "",
+    "name": "Medi-gel",
+    "html": "<v-card class=\"blockquote-card\"><v-card-text><p>Medi-gel (medical gel) is an all-purpose medicinal salve combining an anaesthetic and clotting agent used by paramedics,\nEMTs, and military personnel, produced by the Sirta Foundation. It heals various wounds and ailments, instantly sealing\ninjuries against infection and allowing for rapid healing by having the gel grip tight to flesh until subjected to a frequency\nof ultrasound. It is sealable against liquids - most notably blood - as well as contaminants and gases.</p>\n</v-card-text></v-card><p><strong>Use</strong>. When you use this item, you or a willing creature within <me-distance length=\"5\" /> regains hit points equal to the medi-gel's potency.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Type</th>\n<th>Rarity</th>\n<th>Credits</th>\n<th>HP Regained</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Standard</td>\n<td>Common</td>\n<td>200 credits</td>\n<td>2d4 + 2</td>\n</tr>\n<tr>\n<td>Enhanced</td>\n<td>Uncommon</td>\n<td>500 credits</td>\n<td>4d4 + 4</td>\n</tr>\n<tr>\n<td>Superior</td>\n<td>Rare</td>\n<td>1,500 credits</td>\n<td>8d4+8</td>\n</tr>\n<tr>\n<td>Ultimate</td>\n<td>Very Rare</td>\n<td>Military</td>\n<td>10d4 + 20</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "medi-gel"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 5000,
+    "weight": 5,
+    "subType": "",
+    "name": "Medical Kit",
+    "html": "<p>A bio-scanner, medical foam, quick-hardening cast tape, a scalpel with 10 blades, a bone saw,\nand a pouch that can carry up to 4 medi-gel.</p>\n",
+    "id": "medical-kit"
+  },
+  {
+    "mechanics": {
+      "damage": "3d12",
+      "range": 150,
+      "damageType": "thunder",
+      "rounds": 6,
+      "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e7/Codex_ME2_-_Missile_Launcher.png/revision/latest/scale-to-width-down/200?cb=20140823053914"
+    },
+    "rarity": "uncommon",
+    "type": "heavy_weapon",
+    "cost": 29500,
+    "weight": 20,
+    "subType": "",
+    "name": "ML-77 Missile Launcher",
+    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If\nyou remain targeting until the start of your next turn, fire a missile at the target. Each creature within a\n<me-distance length=\"10\" adj /> cube centered on the target must make a DC 14 Dexterity saving throw. On a failed save a\ncreature takes 6d12 thunder damage or half as much on a successful one.</p>\n",
+    "id": "ml-77-missile-launcher"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10,
+      "damageType": "piercing",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "1d4"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "1d4"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d4"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d4"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d4"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d4"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d4"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d4"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Multi-frag Grenade",
+    "html": "<p>Target 3 areas within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of each target must\nmake a Dexterity saving throw. On a failed save, a creature takes piercing damage or half as much on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d4</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>1d4</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d4</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d4</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d4</td>\n<td>9,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d4</td>\n<td>10,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d4</td>\n<td>12,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d4</td>\n<td>12,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d4</td>\n<td>14,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d4</td>\n<td>16,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "multi-frag-grenade"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 500,
+    "weight": 3,
+    "subType": "instrument",
+    "name": "Musical Instrument",
+    "html": "<p>The plethora of types of musical instrument are too varied to count. The cost of an instrument\nlargely depends on the size, shape, construction, and quality (i.e. fabricated or hand-made). 500 credits is the\naverage price for a mid-range, pre-fabricated instrument.</p>\n",
+    "id": "musical-instrument"
+  },
+  {
+    "rarity": "common",
+    "type": "omni_gel",
+    "cost": 1000,
+    "weight": 1,
+    "subType": "",
+    "name": "Omni-gel",
+    "html": "<p>Omni-gel is a technological material that can be obtained by breaking down unwanted items, such as weapons, armor, and\nupgrades. Doing so will usually give an amount of omni-gel based on the item that was dismantled.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\">Equipment</th>\n<th style=\"text-align:center\">Yield</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">Mods</td>\n<td style=\"text-align:center\">1</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Tools &amp; Kits</td>\n<td style=\"text-align:center\">1</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Heavy Pistols, SMGs, &amp; Melee Weapons</td>\n<td style=\"text-align:center\">3</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Helmets</td>\n<td style=\"text-align:center\">3</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Arm &amp; Leg Armor</td>\n<td style=\"text-align:center\">3</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Chest Armor</td>\n<td style=\"text-align:center\">6</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Assault Rifles, Shotguns, &amp; Sniper Rifles</td>\n<td style=\"text-align:center\">6</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Heavy Weapons</td>\n<td style=\"text-align:center\">10</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "omni-gel"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 500,
+    "weight": 5,
+    "subType": "artisan",
+    "name": "Painter's Supplies",
+    "html": "<p>Electronic design tablet with a number of software, a holographic projector, and a variety of tangible painting\ndevices (oils, charcoal, colored pencils, etc).</p>\n",
+    "id": "painters-supplies"
+  },
+  {
+    "rarity": "varies",
+    "type": "device",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Personal Shield Generator",
+    "html": "<p>A personal shield generator that offers shields outside of wearing armor. Does not stack with armor's shields.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Model</th>\n<th>Rarity</th>\n<th>Shields</th>\n<th>Regen</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I.a</td>\n<td>Common</td>\n<td>10</td>\n<td>5</td>\n<td>15,000</td>\n</tr>\n<tr>\n<td>I.b</td>\n<td>Uncommon</td>\n<td>10</td>\n<td>10</td>\n<td>23,000</td>\n</tr>\n<tr>\n<td>II.a</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>5</td>\n<td>25,000</td>\n</tr>\n<tr>\n<td>II.b</td>\n<td>Rare</td>\n<td>15</td>\n<td>10</td>\n<td>33,000</td>\n</tr>\n<tr>\n<td>II.c</td>\n<td>Rare</td>\n<td>15</td>\n<td>15</td>\n<td>41,000</td>\n</tr>\n<tr>\n<td>III.a</td>\n<td>Rare</td>\n<td>20</td>\n<td>5</td>\n<td>35,000</td>\n</tr>\n<tr>\n<td>III.b</td>\n<td>Rare</td>\n<td>20</td>\n<td>10</td>\n<td>43,000</td>\n</tr>\n<tr>\n<td>III.c</td>\n<td>Very Rare</td>\n<td>20</td>\n<td>15</td>\n<td>51,000</td>\n</tr>\n<tr>\n<td>IV.a</td>\n<td>Very Rare</td>\n<td>25</td>\n<td>5</td>\n<td>45,000</td>\n</tr>\n<tr>\n<td>IV.b</td>\n<td>Very Rare</td>\n<td>25</td>\n<td>10</td>\n<td>53,000</td>\n</tr>\n<tr>\n<td>IV.c</td>\n<td>Spectre</td>\n<td>25</td>\n<td>15</td>\n<td>61,000</td>\n</tr>\n<tr>\n<td>V.a</td>\n<td>Spectre</td>\n<td>30</td>\n<td>5</td>\n<td>55,000</td>\n</tr>\n<tr>\n<td>V.b</td>\n<td>Spectre</td>\n<td>30</td>\n<td>10</td>\n<td>63,000</td>\n</tr>\n<tr>\n<td>V.c</td>\n<td>Spectre</td>\n<td>30</td>\n<td>15</td>\n<td>71,000</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "personal-shield-generator"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 10,
+    "weight": 0,
+    "subType": "gaming_set",
+    "name": "Playing Cards",
+    "html": "<p>A deck of cards used to play a variety of different card games. A human deck would allow you to play games like\nSolitaire and Skyllian-5 Poker.</p>\n",
+    "id": "playing-cards"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "varies",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Primal_Tap.exe",
+    "html": "<p>While this program is active, your omni-tool perfectly balances your adrenal, muscular, skeletal and cardio systems to\noptimize physical power. Depending on what Mark program you have active, your Strength score increases to a certain amount.\nThis has no effect if your Strength score is already equal to or higher than that value. Many military groups equip\ntheir combat-ready infantry with a version or Mark I or II, but more up-to-date versions of the program are incredibly\nrare to find, the bleeding edge of military technology that only the best can afford.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Version</th>\n<th>STR Score</th>\n<th>Rarity</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Mark I</td>\n<td>19</td>\n<td>Uncommon</td>\n</tr>\n<tr>\n<td>Mark II</td>\n<td>21</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Mark III</td>\n<td>23</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Mark IV</td>\n<td>26</td>\n<td>Spectre</td>\n</tr>\n<tr>\n<td>Mark V</td>\n<td>29</td>\n<td>Spectre</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "primal-tap-exe"
+  },
+  {
+    "mechanics": {
+      "range": 0,
+      "blast": 5,
+      "damageType": "thunder",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "1d8"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d8"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d8"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "4d8"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d8"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "6d8"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "7d8"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "8d8"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "9d8"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "10d8"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Proximity Mine",
+    "html": "<p>Place a proximity mine within <me-distance length=\"5\" />. On your turn, you may use a bonus action to arm or\ndisarm the mine, as long as you are within <me-distance length=\"500\" /> of it. While armed, any creature that moves within\n<me-distance length=\"5\" /> of the mine detonates it. If you arm the mine while a creature is within <me-distance length=\"5\" />\nof it, it detonates immediately.</p>\n<p>A creature can spot the mine with a successful DC 15 Wisdom (Perception).</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates.\nAdditionally, a successful ranged attack on the mine (AC 10) will destroy the mine if is it is disarmed or detonate it\nif it is armed.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"5\" adj/>-radius sphere centred on the mine must\nsuffers thunder damage (see below).</p>\n<p>The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d8</td>\n<td>900 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d8</td>\n<td>1,800 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d8</td>\n<td>2,700 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>4d8</td>\n<td>3,600 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d8</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>6d8</td>\n<td>5,400 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>7d8</td>\n<td>6,300 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>8d8</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>9d8</td>\n<td>8,100 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>10d8</td>\n<td>9,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "proximity-mine"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Quantum_Displacer.exe",
+    "html": "<p>Your omni-tool is equipped with a highly experimental quantum device. You can spend a bonus action and 3 omni-gel to designate\nan open space within <me-distance length=\"150\" />, and instantly teleport there.</p>\n<p>You project one invisibly small molecule into that space, which is quantum entangled with a molecule in your armor.\nSending an energy current through the device will re-unite the molecules instantly, effectively teleporting you to your\ndesignated location. The device is then offline until the end of your next long rest.</p>\n",
+    "id": "quantum-displacer-exe"
+  },
+  {
+    "mechanics": {
+      "damage": "15d10",
+      "range": 300,
+      "damageType": "necrotic",
+      "rounds": 1,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/6/69/ME3_Reaper_Blackstar_Heavy_Weapon.png/revision/latest?cb=20120317194848"
+    },
+    "rarity": "spectre",
+    "type": "heavy_weapon",
+    "cost": 132500,
+    "weight": 24,
+    "subType": "",
+    "name": "Reaper Blackstar",
+    "html": "<p>As an Attack, choose a creature within <me-distance length=\"300\" /> that you can see and begin targeting. If you remain\ntargeting until the start of your next turn, fire a sub-atomic particle beam at the target, dealing 15d10 necrotic damage.\nThis weapon counts as a Small Reaper Tech and can cause creatures to become indoctrinated.</p>\n",
+    "id": "reaper-blackstar"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 5,
+      "damageType": "thunder",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "2d4"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d4"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "4d4"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "4d4"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d4"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "7d4"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "8d4"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d4"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Recon Mine",
+    "html": "<p>Launch a recon mine to a location of your choice within <me-distance length=\"30\" />. It first sticks to the target\nlocation then scans creatures within a <me-distance length=\"30\" adj/> cone, relaying tactical weak points about the creature's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to\nits AC and cannot benefit from being <me-condition id=\"invisible\"/>. Each creature can only be affected by this penalty once.</p>\n<p>A creature can spot the mine with a successful DC 10 Wisdom (Perception).</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it. You may also use a bonus action on your turn to detonate the mine.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"5\" adj/>-radius sphere centred on the mine must\nmake a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.</p>\n<p>The mark of this mine determines the DC of its AC penalty, Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>AC Penalty</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>-1</td>\n<td>11</td>\n<td>2d4</td>\n<td>3,000 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>-1</td>\n<td>13</td>\n<td>2d4</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>-1</td>\n<td>13</td>\n<td>4d4</td>\n<td>4,000 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>-1</td>\n<td>15</td>\n<td>4d4</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>-2</td>\n<td>15</td>\n<td>6d4</td>\n<td>7,000 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>-2</td>\n<td>17</td>\n<td>6d4</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>-3</td>\n<td>17</td>\n<td>6d4</td>\n<td>9,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>-3</td>\n<td>18</td>\n<td>7d4</td>\n<td>10,000 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>-3</td>\n<td>18</td>\n<td>8d4</td>\n<td>11,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>-4</td>\n<td>19</td>\n<td>8d4</td>\n<td>13,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "recon-mine"
+  },
+  {
+    "rarity": "common",
+    "type": "shield",
+    "cost": 5000,
+    "weight": 5,
+    "subType": "",
+    "name": "Riot Shield",
+    "html": "<p>Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time. A wielded shield (singular)\nis different from your kinetic barrier (shields, plural).</p>\n",
+    "id": "riot-shield"
+  },
+  {
+    "mechanics": {
+      "installation": false
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Show_Stopper.exe",
+    "html": "<p>This suite of programs contains a subset of holographic displays. A full suite has 20 displays. A used program is usually\nmissing 1d20 − 1 displays.</p>\n<p>The creator of this program, a human hacker, known as Gahri Gi'gax, wrote a randomization algorithm into its use. You can use\nan action to activate a display at random from the program, spawning a holographic image within <me-distance length=\"30\" />\nof you.</p>\n<p>The image of one or more creatures forms over the targeted area and remains until dipowered. The holographic creature\nappears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While\nyou are within <me-distance length=\"120\" /> of the hologram and can see it, you can use an action to move it anywhere within\n<me-distance length=\"30\" /> of the initial location. Any physical interaction with the hologram reveals it to be an\nillusion because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as a\nhologram with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent.</p>\n<p>The hologram lasts 1 hour or until you cancel the display. At which point, the display removes itself from the suite.\nOnce you have used all of the displays, the program deletes itself from your omni-tool.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>1d20</th>\n<th>Illusion</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>An asari dancer</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2 hanar</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3 belligerent Krogan</td>\n</tr>\n<tr>\n<td>4</td>\n<td>A batarian with 3 varren on leashes</td>\n</tr>\n<tr>\n<td>5</td>\n<td>A pod crab</td>\n</tr>\n<tr>\n<td>6</td>\n<td>6 zombies</td>\n</tr>\n<tr>\n<td>7</td>\n<td>7 dwarves</td>\n</tr>\n<tr>\n<td>8</td>\n<td>8 pyjaks wearing fez hats</td>\n</tr>\n<tr>\n<td>9</td>\n<td>A drell assassin</td>\n</tr>\n<tr>\n<td>10</td>\n<td>A large fantasy dragon</td>\n</tr>\n<tr>\n<td>11</td>\n<td>A swarm of beetles</td>\n</tr>\n<tr>\n<td>12</td>\n<td>A wizard</td>\n</tr>\n<tr>\n<td>13</td>\n<td>An elcor</td>\n</tr>\n<tr>\n<td>14</td>\n<td>A yahg</td>\n</tr>\n<tr>\n<td>15</td>\n<td>3 gas bags</td>\n</tr>\n<tr>\n<td>16</td>\n<td>A white tiger</td>\n</tr>\n<tr>\n<td>17</td>\n<td>A unicorn</td>\n</tr>\n<tr>\n<td>18</td>\n<td>An armored knight</td>\n</tr>\n<tr>\n<td>19</td>\n<td>Tyrannosaurus Rex</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Gahri Gi'gax</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "show-stopper-exe"
+  },
+  {
+    "mechanics": {
+      "range": 30,
+      "blast": 10
+    },
+    "rarity": "common",
+    "type": "grenade",
+    "cost": 250,
+    "weight": 1,
+    "subType": "",
+    "name": "Smoke Grenade",
+    "html": "<p>Target an area within <me-distance length=\"30\" />. A cloud of thick smoke erupts out in a <me-distance length=\"10\" adj/>\ncube centered on the target location. The cloud's area is heavily obscured. The cloud persists for 30 seconds.\nA moderate wind (<me-distance length=\"11\" large num-only /> to <me-distance length=\"20\" large /> per hour) can disperse the\nsmoke after 1 round, and a strong wind (<me-distance length=\"21\" large num-only override=\"or more {metric}\"/> per hour)\ncan do so immediately.</p>\n",
+    "id": "smoke-grenade"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Spotter_Support_System.exe",
+    "html": "<p>While this program is Active, your omni-tool links up to your armor's gauntlets, scanners, and weapon systems. Roughly\na third of its processing power is diverted into calculating micro-corrections when you fire at a target, generating\nminuscule magnetic fields to align your aim more correctly. You are considered proficient with Sniper Rifles while this\nprogram is Active, and gain a +2 to damage rolls with such weapons.</p>\n",
+    "id": "spotter-support-system-exe"
+  },
+  {
+    "mechanics": {
+      "range": 25,
+      "blast": 10,
+      "damageType": "thunder",
+      "marks": [
+        {
+          "mark": "I",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "II",
+          "rarity": "Common",
+          "damage": "2d6"
+        },
+        {
+          "mark": "III",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "IV",
+          "rarity": "Uncommon",
+          "damage": "3d6"
+        },
+        {
+          "mark": "V",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VI",
+          "rarity": "Rare",
+          "damage": "5d6"
+        },
+        {
+          "mark": "VII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "VIII",
+          "rarity": "Very Rare",
+          "damage": "6d6"
+        },
+        {
+          "mark": "IX",
+          "rarity": "Very Rare",
+          "damage": "7d6"
+        },
+        {
+          "mark": "X",
+          "rarity": "Spectre",
+          "damage": "8d6"
+        }
+      ]
+    },
+    "rarity": "varies",
+    "type": "grenade",
+    "cost": "Varies",
+    "weight": 1,
+    "subType": "",
+    "name": "Sticky Grenade",
+    "html": "<p>Target an area within <me-distance length=\"25\" />. At the beginning of your next turn, creatures within\n<me-distance length=\"10\" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers\nthunder damage (see below) or half as much damage on a successful one.</p>\n<p>With a sticky grenade, you may choose to make a melee weapon attack on a target creature within\n<me-distance length=\"5\" /> instead, or a ranged weapon attack on a target creature within <me-distance length=\"25\" />.\nAdd your Dexterity modifier to the attack. Do not add your proficiency bonus to the attack unless you have the\nGrenadier feat. On a hit, the grenade hits and sticks to the target, and when it explodes, the target automatically\nfails its saving throw. On a miss, the grenade lands within <me-distance length=\"5\" /> of the target.</p>\n<p>The mark of this grenade determines its Save DC, damage, and cost.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d6</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d6</td>\n<td>7,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d6</td>\n<td>8,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d6</td>\n<td>9,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "sticky-grenade"
+  },
+  {
+    "mechanics": {
+      "damage": "8d12",
+      "range": 300,
+      "damageType": "thunder",
+      "rounds": 2,
+      "image": "http://vignette2.wikia.nocookie.net/masseffect/images/3/3d/ME3_Sync_Laser_Heavy_Weapon.png/revision/latest?cb=20120317195655"
+    },
+    "rarity": "rare",
+    "type": "heavy_weapon",
+    "cost": 82000,
+    "weight": 18,
+    "subType": "",
+    "name": "Sync Laser",
+    "html": "<p>As an Attack, choose a <me-distance length=\"30\" adj num-only />-by-<me-distance length=\"60\" adj /> rectangle and begin\ntargeting. If you remain targeting until the start of your next turn, call down an orbital strike at the target location.\nEach creature within the rectangle must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 8d12\nthunder damage. On a success, a creature takes half damage.</p>\n",
+    "id": "sync-laser"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 6000,
+    "weight": 10,
+    "subType": "artisan",
+    "name": "Tailor's Tools",
+    "html": "<p>All the necessary tools to work with light armor.</p>\n",
+    "id": "tailors-tools"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "spectre",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Terra_Angelis.exe",
+    "html": "<p><em>Can only be used by humans</em></p>\n<p>This is an experimental, Cerberus-funded VI was created in the pursuit of a perfect AI that will put the protection of\nhumanity first and foremost. While it never achieved true AI status, this VI is highly advanced and single-mindedly\ndevoted to protecting &amp; enabling humanity.</p>\n<p>When you activate this program, designate one ranged weapon to install Terra Angelis onto. This weapon now has +3 to\nattack and damage rolls. The first time you attack with this weapon on each of your turns, you can choose to transfer\nsome or all of the weapon's bonus to your AC, instead of using the bonus on any of your attacks for that turn\n(i.e., add +2 to AC and +1 to attack/damage rolls). The adjusted bonuses remain until the start of your next turn,\nalthough you must be wielding the weapon to gain the benefits.</p>\n",
+    "id": "terra-angelis-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "ammo",
+    "cost": 10,
+    "weight": 0,
+    "subType": "",
+    "name": "Thermal Clip",
+    "html": "<v-card class=\"blockquote-card\"><v-card-text><p>It was discovered that, in an age of kinetic barriers, most firefights were won by the side who could put the most\nrounds downrange the fastest. As such, detachable heat sinks, known as thermal clips, were adopted first by the geth,\nand shortly thereafter by organic arms manufacturers. Ammunition may never be a concern with modern arms, but the\navailability of thermal clips is; weapons without thermal clips have nowhere to disperse their heat and are incapable of\nfiring. Luckily, thermal clips litter modern battlefields and can be obtained from fallen enemies or found around the\nenvironment.</p>\n</v-card-text></v-card><p><strong>Use.</strong> You use a thermal clip when you take the <nuxt-link to=\"/manual/combat#actions-in-combat\">Reload</nuxt-link> action.</p>\n<v-alert value type=\"info\"><p>Because thermal clips are so easily attainable, GMs might find it more manageable to simply not keep track of\nthermal clips and assume players will always have a steady supply available to them.</p>\n</v-alert>",
+    "id": "thermal-clip"
+  },
+  {
+    "mechanics": {
+      "installation": false
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Thermic_Overvent.exe",
+    "html": "<p>You can use an action to spend 1 omni-gel and overheat every heat-generating element within your omni-tool, overriding\nsafety protocols and using the omni-gel as propellant. You create three fire rays from your outstretched hand, each\nwith a range of <me-distance length=\"600\" />. You can hurl them at one target or several. Make a ranged power attack\nfor each ray. On a hit, the target takes 2d6 fire damage. When you make the attacks, make them with a modifier of +5\nto the attack roll. The omni-tool then needs time to compensate and repair itself, rendering this program inoperative\nuntil the end of a long rest.</p>\n<p><strong>Unstable</strong>: When you acquire this program, it can be used 1d6 times before the code becomes too unstable to use.</p>\n",
+    "id": "thermic-overvent-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 3000,
+    "weight": 5,
+    "subType": "",
+    "name": "Thieves' tools",
+    "html": "<p>A cordless screwdriver, a set of common security panel slicers, a <me-distance length=\"24\" tiny adj/> long endoscope,\na spray can of liquid nitrogen, and a pair of pliers with wire-cutter insets.</p>\n",
+    "id": "thieves-tools"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "rare",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Threat_Assessment.exe",
+    "html": "<p>Your omni-tool powers a specialized VI whose purpose is to detect incoming threats and identify them for the user. This\ndata appears as audio and visual warnings on the user's HUD and gives the user +1 to their AC and all Saving Throws.</p>\n",
+    "id": "threat-assessment-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 3000,
+    "weight": 10,
+    "subType": "artisan",
+    "name": "Tinker's Tools",
+    "html": "<p>Tinker's tools include a variety of hand tools, wires, scraps of metal, batteries, microcircuit boards,\nadhesives, paint, and a pouch that can hold up to 10 omni-gel canisters.</p>\n",
+    "id": "tinkers-tools"
+  },
+  {
+    "mechanics": {
+      "installation": true
+    },
+    "rarity": "uncommon",
+    "type": "omni_tool_program",
+    "cost": 0,
+    "weight": 0,
+    "subType": "",
+    "name": "Trace_Signal_Jammer.exe",
+    "html": "<p>While this program is Activated, the user is hidden from long-range sensors. You cannot be targeted by any tracking\ndevice that functions by receiving a tracking device's signal, and targeting lasers cannot pinpoint your precise\nlocation, giving you advantage on any saving throws against Heavy Weapons that require Targeting to fire.</p>\n",
+    "id": "trace-signal-jammer-exe"
+  },
+  {
+    "rarity": "common",
+    "type": "tool",
+    "cost": 6000,
+    "weight": 30,
+    "subType": "artisan",
+    "name": "Weaponsmith's Workbench",
+    "html": "<p>All the necessary tools to work with weapons.</p>\n",
+    "id": "weaponsmiths-workbench"
+  }
+]

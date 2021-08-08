@@ -1,5 +1,5 @@
 ---
-name: Bioluminescence
-species: hanar
+species:
+  - hanar
+mechanics: []
 ---
-You can shed dim light in a <me-distance length="30" /> radius.

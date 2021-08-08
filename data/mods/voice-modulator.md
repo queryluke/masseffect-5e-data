@@ -1,17 +1,13 @@
 ---
-name: Voice Modulator
-rarity: Common
-type: Armor
-description: Includes an advanced audio processing package that allows
-  unprecedented clarity and resonance for spoken communication.
+rarity: common
+type: armor
 cost: 12000
-manu: Tyriel Advanced Communications Corporation
-notes:
-  - Ability/Skill Bonus
-placement: Head
+manufacturer: tyriel-advanced-communications-corporation
+tags:
+  - ability_skill_bonus
+placement: head
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-+2 to Persuasion and Intimidation checks

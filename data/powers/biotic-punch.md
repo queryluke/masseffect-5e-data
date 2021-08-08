@@ -1,36 +1,43 @@
 ---
-id: biotic_punch
-name: Biotic Punch
 level: 0
 type: biotic
-attackType:
-- Melee Power Attack
-effect:
-- damage
-- buff
-damageType:
-- bludgeoning
-castingTime: Action
-duration: Instant
+attack:
+  melee: true
+  ranged: false
+save:
+  dex: false
+  str: false
+  con: false
+  int: false
+  wis: false
+  cha: false
+tags:
+  - damage
+  - buff
+damage:
+  dieCount: 1
+  dieType: 8
+  mod: false
+  higherLevel:
+    dieCount: 1
+damageTypes:
+  - bludgeoning
+castingTimes:
+  - action
+duration: false
+instant: true
 concentration: false
-distance:
-  range: Touch
-  aoeType:
-  aoeDistance:
-detonates: x
-primes:
-availableClasses:
-- adept
-- sentinel
-- vanguard
-advancementOptions:
-- name: Efficient Punch
-  description: On a hit, gain 3 barrier ticks.
-- name: Siphoning Strike
-  description: On a hit, instead of gaining barrier ticks, gain 10 shield points.
+range: 1
+aoe: false
+detonates: true
+primes: false
+advancements:
+  efficient-punch:
+    mechanics: []
+  siphoning-strike:
+    mechanics: []
+classes:
+  - adept
+  - sentinel
+  - vanguard
 ---
-Increase the mass of your fist and strike at a target. Make a melee power attack on a target creature or object within range.
-On a hit, deal 1d8 bludgeoning damage. If you have an active barrier, regain 2 barrier ticks and reset the duration of
-your barrier to 1 minute.
-
-This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).

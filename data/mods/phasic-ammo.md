@@ -1,19 +1,15 @@
 ---
-name: Phasic Ammo
-description: Fire projectiles that vibrate rapidly, allowing them to bypass
-  kinetic barriers.
-rarity: Rare
+rarity: rare
+type: weapon
 cost: 15000
-placement: Ammo
-notes:
-  - Special
-createdBy: null
+manufacturer: ''
+tags:
+  - special
+placement: ammo
 availability:
-  - Assault Rifle
-  - Heavy Pistol
-  - SMG
-  - Shotgun
-  - Sniper Rifle
-type: Weapon
+  - assault_rifle
+  - heavy_pistol
+  - smg
+  - shotgun
+  - sniper_rifle
 ---
-You may use a bonus action to toggle the following effect on or off: -2 on ranged weapon damage rolls, but all damage done bypasses shields.

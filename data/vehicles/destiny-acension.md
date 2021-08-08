@@ -1,13 +1,14 @@
 ---
-name: Destiny Ascension
-vehicle:
-  type: starship
+type: starship
+subtype: false
 size: dreadnought
 ac: 28
 hp: 8000
 sp: 2000
 speed: 1
-range: 1 ftlu
+range:
+  distance: 1
+  units: ftlu
 crew:
   min: 68
   max: 12000
@@ -34,12 +35,6 @@ weapons:
     damage: 1100 (2d10[x100]) radiant damage.
 cr: 28+
 cost: military
-image: https://vignette.wikia.nocookie.net/masseffect/images/e/e8/DestinyAscensionFlyby.png/revision/latest/scale-to-width-down/640?cb=20091227112422
+image: >-
+  https://vignette.wikia.nocookie.net/masseffect/images/e/e8/DestinyAscensionFlyby.png/revision/latest/scale-to-width-down/640?cb=20091227112422
 ---
-
-The Destiny Ascension is an asari dreadnought and flagship of the Citadel Fleet.
-
-__Additional Systems__: The Destiny Ascension is a living city, supporting a number of systems, including: Armory, GARDIAN,
-Medbay, Rec Room, Weapon Range, Exonet, and Luxury Kitchen.
-
-__Support Fighters__: The Destiny Ascension has over 100 fighters and interceptors to support it during combat.

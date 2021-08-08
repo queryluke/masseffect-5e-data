@@ -1,10 +1,8 @@
 ---
-name: Natural Diplomat
-species: asari
+species:
+  - asari
 mechanics:
   - type: prof
     options:
-      skills:
-        - persuasion
+      skills: [persuasion]
 ---
-You have proficiency in the Persuasion skill.

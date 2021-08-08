@@ -1,16 +1,13 @@
 ---
-name: Chest Holster - Grenades
-rarity: Uncommon
-type: Armor
-description: A holster designed to hold combat grenades.
+rarity: uncommon
+type: armor
 cost: 6000
-manu: Elkoss Combine
-notes:
-  - Item Capacity
-placement: Chest
+manufacturer: elkoss-combine
+tags:
+  - item_capacity
+placement: chest
 availability:
-  - Light
-  - Medium
-  - Heavy
+  - light
+  - medium
+  - heavy
 ---
-Increase your grenade capacity by 4

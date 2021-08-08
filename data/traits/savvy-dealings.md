@@ -1,5 +1,5 @@
 ---
-name: Savvy Dealings
-species: volus
+species:
+  - volus
+mechanics: []
 ---
-You have proficiency in the Persuasion skill.

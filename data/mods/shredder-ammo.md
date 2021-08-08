@@ -1,15 +1,12 @@
 ---
-name: Shredder Ammo
-description: Shoot pellets covered in Tungsten for increased damage.
-rarity: Rare
+rarity: rare
+type: weapon
 cost: 20000
-placement: Ammo
-notes:
-  - Damage Augment
-  - Ignore Resistance
-createdBy: null
+manufacturer: ''
+tags:
+  - damage_augment
+  - ignore_resistance
+placement: ammo
 availability:
-  - Shotgun
-type: Weapon
+  - shotgun
 ---
-You may use a bonus action to toggle the following effect on or off: damage type becomes slashing. Damage done by this weapon cannot be reduced by slashing damage resistance.

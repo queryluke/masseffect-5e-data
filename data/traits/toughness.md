@@ -1,5 +1,5 @@
 ---
-name: Toughness
-species: krogan
+species:
+  - krogan
+mechanics: []
 ---
-Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
