@@ -11,68 +11,108 @@
         ]
       },
       {
-        "id": "artisan-tool",
+        "id": "artisan_tool",
         "type": "picker",
         "choices": {
           "items": [
             {
-              "title": "armorsmith",
-              "type": "profs",
-              "subType": "tool",
-              "has": [
-                "armorsmiths-workbench"
+              "id": "armorsmith",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "armorsmiths-workbench"
+                  ]
+                }
               ]
             },
             {
-              "title": "brewer",
-              "type": "profs",
-              "subType": "tool",
-              "has": [
-                "brewers-supplies"
+              "id": "brewer",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "brewers-supplies"
+                  ]
+                }
               ]
             },
             {
-              "title": "chemist",
-              "type": "profs",
-              "subType": "tool",
-              "has": [
-                "chemists-supplies"
+              "id": "chemist",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "chemists-supplies"
+                  ]
+                }
               ]
             },
             {
-              "title": "cook",
-              "type": "profs",
-              "subType": "tool",
-              "has": [
-                "cooks-utensils"
+              "id": "cook",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "cooks-utensils"
+                  ]
+                }
               ]
             },
             {
-              "title": "mechanic",
-              "type": "profs",
-              "subType": "tool",
-              "choices": {
-                "items": [
-                  "tinkers-tools",
-                  "starship-system-drive"
-                ],
-                "count": 1
-              }
-            },
-            {
-              "title": "painter",
-              "type": "profs",
-              "subType": "tool",
-              "has": [
-                "tailors-tools"
+              "id": "mechanic",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "choices": {
+                    "items": [
+                      "tinkers-tools",
+                      "starship-system-drive"
+                    ],
+                    "count": 1
+                  }
+                }
               ]
             },
             {
-              "title": "weaponsmith",
-              "type": "profs",
-              "subType": "tool",
-              "has": [
-                "weaponsmiths-workbench"
+              "id": "painter",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "painters-supplies"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tailor",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "tailors-tools"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "weaponsmith",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "weaponsmiths-workbench"
+                  ]
+                }
               ]
             }
           ],
@@ -484,6 +524,122 @@
           "medicine",
           "science"
         ]
+      },
+      {
+        "id": "scholar_field_of_study",
+        "type": "picker",
+        "choices": {
+          "items": [
+            {
+              "id": "chemistry",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "choices": {
+                    "items": [
+                      "chemists-supplies",
+                      "brewers-supplies"
+                    ],
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "id": "astronomy",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "starship-system-navigation"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "engineering",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "tinkers-tools"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "physics",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "starship-system-drive"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "computer_science",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "starship-system-ews"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "biology",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "has": [
+                    "medical-kit"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "philosophy",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "items": [
+                    "musical-instrument",
+                    "gaming-set"
+                  ],
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "general_studies",
+              "mechanics": [
+                {
+                  "type": "profs",
+                  "subType": "tool",
+                  "choices": {
+                    "items": [
+                      "brewers-supplies",
+                      "hacking-tools",
+                      "starship-system-ssc"
+                    ],
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "count": 1
+        }
       }
     ],
     "name": "Scholar",
