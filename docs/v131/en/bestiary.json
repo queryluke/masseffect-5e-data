@@ -6050,13 +6050,13 @@
             {
               "dieCount": "2",
               "dieType": "6",
-              "mod": true,
+              "mod": false,
               "type": "acid"
             },
             {
               "dieCount": "2",
               "dieType": "6",
-              "mod": true,
+              "mod": false,
               "type": "necrotic"
             }
           ],
@@ -6073,9 +6073,15 @@
           "mod": "str",
           "damage": [
             {
-              "dieCount": "1",
+              "dieCount": "2",
               "dieType": "10",
               "mod": true,
+              "type": "piercing"
+            },
+            {
+              "dieCount": "1",
+              "dieType": "10",
+              "mod": false,
               "type": "acid"
             }
           ],

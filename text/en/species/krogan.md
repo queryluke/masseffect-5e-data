@@ -23,7 +23,7 @@ that reduced their species into primitive warring tribes.
 ### Biologically Impervious
 Krogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous
 plates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,
-for the resources in Tuchanka are scare.
+for the resources in Tuchanka are scarce.
 
 Curiously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These
 traits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as "Blood Rage."
@@ -42,14 +42,13 @@ will sacrifice their clan for personal gain without a second thought. Females ar
 live in clans separate from the males.
 
 ### Rites and Rituals
-The krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When wishes to join his
-first clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of Honor.
-When facing a new enemy, the Rite of Firsts is invoked.
+The krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When he wishes to join his
+first clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of
+Honor. When facing a new enemy, the Rite of Firsts is invoked.
 
-A Krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and
+A krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and
 torturous; most krogan who attempt the rite perish. Those who survive become the most respected member of their clan
-and are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit
-world itself.
+and are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit world itself.
 
 ### Krogan Names
 Krogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.

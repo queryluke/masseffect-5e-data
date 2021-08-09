@@ -3,9 +3,9 @@ name: Experiment
 ---
 __Skill Proficiencies__. Science and Survival.
 
-__Tool Proficiencies__. Tinker's Tools and your choice of Medical Kit, Disguise Kit, or Chemist's Supplies.
+__Tool Proficiencies__. Tinker's tools and your choice of medical kit, disguise kit, or chemist's supplies.
 
-__Equipment__. A set of common clothes, a trinket from your program of origin, Tinker's Tools, and 300 credits.
+__Equipment__. A set of common clothes, a trinket from your program of origin, tinker's tools, and 300 credits.
 
 ### Choose one of the following features
 

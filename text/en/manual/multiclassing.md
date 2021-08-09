@@ -158,7 +158,7 @@ total to determine your tech points and memory by consulting the Multiclassing T
 |7th|15|2|
 |8th|17|2|
 |9th|20|3|
-|10th|2|3|
+|10th|23|3|
 |11th|26|3|
 |12th|26|3|
 |13th|30|4|

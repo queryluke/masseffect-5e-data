@@ -15,14 +15,9 @@ Forced out of their homeland by sapient constructs of their own creation, quaria
 seas in search of a new homeland.
 
 ### Exotic Fashion
-Identifying a quarian is easy. All quarians wear enviro-suits, which are multipurpose outfits that protect them from
-foreign pathogens and diseases as well as acting as spacesuits for scavenging or repair of shuttles. Rannoch's ecosystem
-featured symbiotic microorganisms that aren't found anywhere else in the galaxy. Thus, when the quarians were exiled, they
-were also burdened to life in a suit.
-
-The enviro-suits have moved beyond function, however, and into their culture. A quarian is rarely, if ever, seen
-without their suit and helmet, and when they return from their pilgrimage as adults, they are expected to modify their
-suit to fit their personal reflection of their status as a productive member of the Flotilla.
+The enviro-suits have moved beyond function, however, and into their culture. A quarian is rarely, if ever, seen without
+their suit and helmet, and when they return from their Pilgrimage as adults, they are expected to modify their suit to
+fit their personal reflection of their status as a productive member of the Flotilla.
 
 ### Exiles of their Own Creations
 Quarians have a long and deep history with creating constructs known as "Geth," meaning "Servant of the People". These
@@ -46,17 +41,17 @@ is part of their sending off ceremony.
 The nomads travel together in a collective of ships known as the Flotilla or the Migrant Fleet and consists of those
 who escaped death by the geth. The Flotilla contains over fifty thousand vessels collectively that travel the galaxy
 strip-mining and harvesting resource to keep the fleet afloat. Some ships decide to depart the fleet to pursue their
-own goals but normally return to the fleet.
+own goals, but normally return to the fleet.
 
-When young quarian rejoin the flotilla after their pilgrimage, they are expected to join the crew of another vessel
+When young quarians rejoin the Flotilla after their Pilgrimage, they are expected to join the crew of another vessel
 to ensure genetic diversity of an already small population.
 
 ### The Pilgrimage
-During quarian adolescence, they are subjected to a rite of passage known as the pilgrimage. When young adulthood is
+During quarian adolescence, they are subjected to a rite of passage known as the Pilgrimage. When young adulthood is
 reached, quarians are expected to leave the Migrant Fleet and experience life outside of their culture. To rejoin the
-flotilla, the young quarian must bear a gift to the captain of a new vessel. This gift can be tangible, such as
+Flotilla, the young quarians must bear a gift to the captain of a new vessel. This gift can be tangible, such as
 resources, or intangible such as information. Most quarian operatives are those on their pilgrimage, though there are
-those who decide never to return to the fleet or those who were rejected from rejoining.
+those who decide never to return to the Migrant Fleet or those who were rejected from rejoining.
 
 ### Quarian Names
 Quarian names are composed of three parts: the quarian's given name and family name separated by an apostrophe, and the

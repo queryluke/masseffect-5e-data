@@ -39,12 +39,12 @@ in order to craft armor or install mods.
 For every day of downtime you spend crafting, you can craft one or more items with a total market value not exceeding 500 credits,
 and you must expend raw materials or omni-gel worth half the total market value. If something you want to craft has a market
 value greater than 500 credits, you make progress every day in 500-credit increments until you reach the market value of
-the item. For example, Blood Dragon Armor (market value 101,300 credits) takes 203 days to craft by yourself.
+the item. For example, Cerberus Assault Armor (market value 127,375 credits) takes 255 days to craft by yourself.
 
 Multiple characters can combine their efforts toward the crafting of a single item, provided that the characters all
-have proficiency with the requisite tools and are working together in the same place. Each character contributes 1000 credits
+have proficiency with the requisite tools and are working together in the same place. Each character contributes 500 credits
 worth of effort for every day spent helping to craft the item. For example, three characters with the requisite tool
-proficiency and the proper facilities can craft the Blood Dragon Armor in 68 days, at a total cost of 50,650 credits.
+proficiency and the proper facilities can craft the Cerberus Assault Armor in 85 days, at a total cost of ~64,000 credits.
 
 While crafting, you can maintain a modest lifestyle without having to pay 150 credits per day, or a comfortable
 lifestyle at half the normal cost.

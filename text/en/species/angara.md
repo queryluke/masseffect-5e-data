@@ -26,10 +26,10 @@ are very free with their emotions, demonstrative and "larger than life". If they
 they hate you or if you make them mad, they punch you.
 
 ### Creatures of the Sun
-The angara electromagnetic radiation that is emitted from stars to survive. Lack of real or artificial sunlight causes
-them to "go dark", which weakens their immune systems and bio-energy significantly. Prolonged lack of sunlight can lead
-to a coma and then death. To supplement their sunlight intake or provide a light source when natural light is not
-readily available, the angara make use of powerful ultraviolet lamps that give them both heat and light.
+The angara are dependant on electromagnetic radiation that is emitted from a sun to survive. Lack of real or artificial
+sunlight causes them to "go dark", which weakens their immune systems and bio-energy significantly. Prolonged lack of
+sunlight can lead to a coma and then death. To supplement their sunlight intake when natural light is not readily
+available, the angara make use of powerful ultraviolet lamps that give them both heat and light.
 
 ### Family Oriented
 While they have only one true mother and father, the angara share their parents with the community. Their

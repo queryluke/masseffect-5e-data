@@ -64,7 +64,7 @@ he has taken no damage since the end of his last turn and his shields begin to r
 Todd now has 14 shield points total. Todd takes his turn as he normally would.
 
 An adept spots Todd and hits him with a Warp power. This bypasses Todd's shields and deals 13 necrotic damage. In addition,
-it stops his shield regeneration because the on-board VI has reengaged in combat-focused processed.
+it stops his shield regeneration because the on-board VI has reengaged its combat-focused processes.
 
 If Todd had dodged the Warp attack, he would have gained another 10 shield points at the start of his next turn, putting
 him back to his maximum capacity of 20 and the regeneration would have ended.

@@ -26,10 +26,11 @@ They talk fast, think fast, move fast, eat fast, and even sleep fast. The large 
 advanced their intellectual capabilities. They need near constant stimulation for their fidgety, active bodies.
 
 ### Boredom, the Mother of Invention
-Salarians minds are constantly racing at miles per minute, and without proper mental stimulation, a salarian becomes bored.
-Tinkering and experimenting are natural solutions to a restless mind. The ability to plow through ideas, situations,
-and possibilities makes them natural inventors. Salarians have perhaps some of the most advanced technology, especially
-in electronics and engineering, but a salarian can become an expert at whatever craft he puts his mind to.
+Salarians' minds are constantly racing at miles per minute, and without proper mental stimulation, a salarian becomes
+bored. Tinkering and experimenting are natural solutions to a restless mind. The ability to plow through ideas,
+situations, and possibilities makes them natural inventors. Salarians have perhaps some of the most advanced technology,
+especially in electronics and engineering, but a salarian can become an expert at whatever craft they puts their mind to.
+
 
 ### Knowledge is Power
 Invention is not the only outlet of a salarian's mind. As many as those who invent prefer to gather information and

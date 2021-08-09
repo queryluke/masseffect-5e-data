@@ -859,7 +859,7 @@
     "weight": 24,
     "subType": "",
     "name": "M-560 Hydra",
-    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you\nremain targeting until the start of your next turn, fire a unique missile that automatically hits the target .\nThe missile deploys 3 shaped charges. The first disrupts any barriers or shields, completely removing all barrier ticks\nand shield points. The second charge cripples armor; the creature's is reduced by 3 for the next hour. The final charge\nexplodes and the creature must make a DC 18 Constitution saving throw. On a failed save the creature takes 4d12 thunder\ndamage or half as much on a successful one.</p>\n",
+    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you\nremain targeting until the start of your next turn, fire a unique missile that automatically hits the target .\nThe missile deploys 3 shaped charges. The first disrupts any barriers or shields, completely removing all barrier ticks\nand shield points. The second charge cripples armor; the creature's AC is reduced by 3 for the next hour. The final charge\nexplodes and the creature must make a DC 18 Constitution saving throw. On a failed save the creature takes 4d12 thunder\ndamage or half as much on a successful one.</p>\n",
     "id": "m-560-hydra"
   },
   {

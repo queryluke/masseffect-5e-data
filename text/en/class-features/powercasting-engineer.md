@@ -15,8 +15,8 @@ You prepare the list of engineer powers that are available for you to cast, choo
 When you do so, choose a number of engineer powers equal to your Intelligence modifier + your engineer level
 (minimum of one power).
 
-You may prepare the advanced version of a power for the cost of 2 regular versions. You may only prepare one advanced
-version for each power.
+You may prepare the advanced version of a power for the cost of 2 regular versions. Whenever you cast the power,
+you cast the advanced version of it. You may only prepare one advanced version for each power.
 
 For example, if you are a 4th-level engineer with an Intelligence of 16, your list of prepared powers can be one of the following:
 

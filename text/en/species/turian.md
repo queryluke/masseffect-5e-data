@@ -15,10 +15,10 @@ snippet: >-
   Rebellions.
 age: Turians have natural lifespans comparable to humans.
 ---
-A highly militaristic species, turians are a force to be feared. These warriors are easily distinguished by an appearance
-containing a strange mix of insectoid and avian features. The turian army is substantial, and every member of the turian
-species is obligated to attend combat training in adolescence. Even citizens and artisans are foes to be reckoned with.
-Despite such an emphasis on combat, however, turians are an honorable and noble species.
+A highly militaristic species, turians are a force to be feared. These warriors are easily distinguished by an
+appearance containing a strange mix of insectoid and avian features. The turian army is substantial, and every member
+of the turian species is obligated to attend combat training in adolescence. Even citizens and artisans are a force to
+be reckoned with. Despite such an emphasis on combat, however, turians are an honorable and noble species.
 
 ### Discipline and Honor
 The entire turian culture revolves around a strict code of conduct which highly emphasizes strong discipline and personal
@@ -42,7 +42,7 @@ ones are expected to lead and protect lower ranks. Promotion to a new tier is ba
 are given due to assessments from one's superiors.
 
 Despite the ranked structure, turians entertain many freedoms as long as they perform their duties and do not infringe
-on others freedoms or responsibilities.
+on others' freedoms or responsibilities.
 
 ### Reflective Carapace
 The homeland of the turians, Palaven, has a high level of solar radiation. Turians have evolved semi-metallic
@@ -50,9 +50,10 @@ carapaces that reflect the dangerous radiation, protecting their inners from the
 do not protect the turian from physical damage such as wounds and do not provide any natural armor.
 
 ### Mission or Desertion
-Most Turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions.
-Some, however, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.
-Those who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate betrayal.
+Most turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions. Some,
+however, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.
+Those who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate
+betrayal.
 
 ### Turian Names
 Turians are given personal names by their parents and take on a family name. High-ranking turian officers also include

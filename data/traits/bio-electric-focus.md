@@ -2,10 +2,10 @@
 species:
   - angara
 mechanics:
-  - type: innatePower
-    options:
+  - type: action
+    subType: power
+    has:
+      id: shocking-grasp
       mod: cha
-      limit: {"amount":0, "refresh":at-will}
-      level: 1
-      power: shocking-grasp
+      max: 0
 ---

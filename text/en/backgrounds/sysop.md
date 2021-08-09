@@ -14,11 +14,11 @@ some amount of data from the device.
 <div class="hr"></div>
 
 ### Suggested Characteristics
-A system operator (Sysop) is a catch-all term for people who monitor, maintain, and upgrade the plethora of vital systems
-that support civilized life. From entertainment to traffic to waste management, sysops either Virtual Intelligence software (VIs)
-or manually maintain code. Long hours of staring at code and constant need to keep systems up-to-date, running, and protected
-from security breaches typically make paranoid or uneasy individuals who romanticize seemingly mundane events, tasks,
-and social situations.
+A system operator (SysOp) is a catch-all term for people who monitor, maintain, and upgrade the plethora of vital
+systems that support civilized life. From entertainment to traffic to waste management, SysOps utilize either Virtual
+Intelligence software (VIs) or manually maintain code. Long hours of staring at code and constant need to keep systems
+up-to-date, running, and protected from security breaches typically make paranoid or uneasy individuals who romanticize
+seemingly mundane events, tasks, and social situations.
 
 d8 | Personality Trait
 --- | ---

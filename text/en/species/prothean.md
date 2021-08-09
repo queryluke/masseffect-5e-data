@@ -4,12 +4,11 @@ alignment: >-
   Protheans come from a society that was heavily regulated and favored the
   strong. They are generally lawful neutral.
 size: >-
-  Protheans are slightly taller than humans but generally never taller than 2
+  Protheans are slightly taller than humans, but generally never taller than 2
   meters (6'5"). Your size is Medium.
 snippet: >-
-  The protheans are an ancient alien species which mysteriously vanished over
-  50,000 years ago. Though there is evidence that some still survive in stasis
-  pods.
+  The Protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though
+  there is evidence that some still survive in stasis pods.
 age: >-
   Protheans live between 300 and 400 years, reaching adulthood in their early
   teens.
@@ -35,18 +34,19 @@ Citadel, instantly decapitating the Protheans' government and disrupting the mas
 from one another. The Protheans' greatest strength, their unified empire, proved to be their downfall.
 
 ### Stasis
-In a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that could
-hold hundreds of thousands of stasis pods. Some facilities were found by Reaper agents or betrayed by indoctrinated Protheans.
-Unfortunately, the facilities that remained hidden faced another challenge: a finite power source. The VI's left to control
-these facilities began systematically cutting power to non-essential staff to conserve energy. 50,000 years later,
-the number of active pods in each facility might be less than a dozen and without knowing the location of these hidden
-bunkers, its impossible to know how many protheans have survived.
+In a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that
+could hold hundreds of thousands of stasis pods. Some facilities were found by Reaper agents or betrayed by
+indoctrinated Protheans. Unfortunately, the facilities that remained hidden faced another challenge: a finite power
+source. The VI's left to control these facilities began systematically cutting power to non-essential staff to conserve
+energy. 50,000 years later, the number of active pods in each facility might be less than a dozen and without knowing
+the location of these hidden bunkers, it's impossible to know how many Protheans have survived.
+
 
 ### All Eyes on You
-As a prothean, you constantly attract the attention of other species. Your accent, mannerisms, figures of
-speech, and appearance all mark you as more alien than most aliens. Curious glances are directed your
-way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued
-by your ancient culture, to say nothing of everyday beings who are eager to hear stories of your origin.
+As a Prothean, you constantly attract the attention of other species. Your accent, mannerisms, figures of speech, and
+appearance all mark you as more alien than most aliens. Curious glances are directed your way wherever you go, which
+can be a nuisance, but you also gain the friendly interest of scholars and others intrigued by your ancient culture,
+to say nothing of everyday beings who are eager to hear stories of your origin.
 
 ### Avatars
 Protheans that ascended to places of prominence in their society were designated as avatars, or exemplars, of a particular

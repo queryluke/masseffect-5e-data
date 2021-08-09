@@ -44,8 +44,8 @@ entries:
       dc: false
       mod: dex
       damage:
-        - {dieCount: '2', dieType: '6', mod: true, type: acid}
-        - {dieCount: '2', dieType: '6', mod: true, type: necrotic}
+        - {dieCount: '2', dieType: '6', mod: false, type: acid}
+        - {dieCount: '2', dieType: '6', mod: false, type: necrotic}
       target: one
       id: acid-spit
     - attack: melee
@@ -54,7 +54,8 @@ entries:
       dc: false
       mod: str
       damage:
-        - {dieCount: '1', dieType: '10', mod: true, type: acid}
+        - {dieCount: '2', dieType: '10', mod: true, type: piercing}
+        - {dieCount: '1', dieType: '10', mod: false, type: acid}
       target: one
       id: impale
 cr: '04000'
