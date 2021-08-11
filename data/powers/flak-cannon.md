@@ -33,4 +33,7 @@ advancements:
     mechanics: []
 classes:
   - soldier
+uses: 3
+recharge: long
+mod: dex
 ---

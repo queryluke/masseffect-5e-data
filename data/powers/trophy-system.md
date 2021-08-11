@@ -31,4 +31,6 @@ advancements:
 classes:
   - infiltrator
   - soldier
+uses: 1
+recharge: long
 ---

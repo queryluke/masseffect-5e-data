@@ -3,11 +3,9 @@ species:
   - elcor
 mechanics:
   - type: modOverride
-    options:
-      modType: rangedAttack
-      mod: int
-  - type: modOverride
-    options:
-      modType: rangedDamage
+    subType: attack
+    has:
+      ranged: true
+      damage: true
       mod: int
 ---

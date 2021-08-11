@@ -1,5 +1,10 @@
 ---
 species:
   - volus
-mechanics: []
+mechanics:
+  - type: limited
+    has:
+      id: lucky
+      uses: 3
+      recharge: long
 ---

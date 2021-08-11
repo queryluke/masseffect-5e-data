@@ -33,4 +33,7 @@ classes:
   - infiltrator
   - soldier
   - vanguard
+uses: 1
+recharge: short
+mod: dex
 ---

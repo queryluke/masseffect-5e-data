@@ -1,5 +1,9 @@
 ---
 species:
   - geth
-mechanics: []
+mechanics:
+  - type: action
+    subType: traits
+    has:
+      id: repair-matrix
 ---

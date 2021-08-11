@@ -35,4 +35,6 @@ advancements:
     mechanics: []
 classes:
   - soldier
+uses: 1
+recharge: short
 ---

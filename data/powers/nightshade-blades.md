@@ -33,4 +33,6 @@ classes:
   - infiltrator
   - soldier
   - vanguard
+uses: 3
+mod: dex
 ---

@@ -34,4 +34,6 @@ classes:
   - infiltrator
   - soldier
   - vanguard
+uses: 1
+recharge: long
 ---

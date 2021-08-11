@@ -3,10 +3,10 @@ level: 0
 type: combat
 attack:
   melee: false
-  ranged: true
+  ranged: false
 save:
   dex: false
-  str: false
+  str: true
   con: false
   int: false
   wis: false
@@ -32,4 +32,7 @@ advancements:
     mechanics: []
 classes:
   - soldier
+uses: 3
+recharge: long
+mod: dex
 ---
