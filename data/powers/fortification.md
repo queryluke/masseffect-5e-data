@@ -31,4 +31,6 @@ advancements:
 classes:
   - soldier
   - vanguard
+uses: 1
+recharge: short
 ---

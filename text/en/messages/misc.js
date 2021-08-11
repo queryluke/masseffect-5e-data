@@ -25,6 +25,19 @@ module.exports = {
     computer_science: 'Computer Science',
     biology: 'Biology',
     philosophy: 'Philosophy',
-    general_studies: 'General Studies'
+    general_studies: 'General Studies',
+    cybernetic_augmentation: 'Cybernetic Augmentation',
+    muscular: 'Muscular',
+    cerebral: 'Cerebral',
+    visceral: 'Visceral',
+    ocular: 'Ocular',
+    adaptation: 'Adaptation',
+    aquatic: 'Aquatic',
+    desert: 'Desert',
+    frozen: 'Frozen',
+    high_gravity: 'High-Gravity',
+    underground: 'Underground',
+    volcanic: 'Volcanic',
+    zero_gravity: 'Zero-Gravity'
 
 }

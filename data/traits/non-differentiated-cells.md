@@ -1,5 +1,9 @@
 ---
 species:
   - vorcha
-mechanics: []
+mechanics:
+  - type: defenses
+    subType: resistance
+    has:
+      id: poison
 ---

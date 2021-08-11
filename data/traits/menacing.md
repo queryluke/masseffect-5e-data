@@ -1,5 +1,9 @@
 ---
 species:
   - krogan
-mechanics: []
+mechanics:
+  - type: profs
+    subType: skill
+    has:
+      - intimidation
 ---

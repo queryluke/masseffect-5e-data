@@ -3,7 +3,99 @@
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "picker",
+        "id": "adaptation",
+        "choices": {
+          "items": [
+            {
+              "id": "aquatic",
+              "mechanics": [
+                {
+                  "type": "speed",
+                  "has": {
+                    "id": "swim",
+                    "distance": 30
+                  }
+                }
+              ]
+            },
+            {
+              "id": "desert",
+              "mechanics": [
+                {
+                  "type": "ability",
+                  "has": {
+                    "ability": "con",
+                    "bonus": 1
+                  }
+                }
+              ]
+            },
+            {
+              "id": "frozen",
+              "mechanics": [
+                {
+                  "type": "defenses",
+                  "subType": "resistance",
+                  "has": {
+                    "id": "cold"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "high_gravity",
+              "mechanics": [
+                {
+                  "type": "ability",
+                  "has": {
+                    "ability": "str",
+                    "bonus": 1
+                  }
+                }
+              ]
+            },
+            {
+              "id": "underground",
+              "mechanics": [
+                {
+                  "type": "sense",
+                  "has": {
+                    "id": "darkvision",
+                    "distance": 60
+                  }
+                },
+                {
+                  "type": "sense",
+                  "has": {
+                    "id": "blindsight",
+                    "distance": 30
+                  }
+                }
+              ]
+            },
+            {
+              "id": "volcanic",
+              "mechanics": [
+                {
+                  "type": "defenses",
+                  "subType": "resistance",
+                  "has": {
+                    "id": "fire"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "zero_gravity",
+              "mechanics": []
+            }
+          ]
+        }
+      }
+    ],
     "name": "Adaptation",
     "html": "<p>Growing up in a harsh environment, your body evolved so you could survive. Choose one of the following environments:</p>\n<ul>\n<li><strong>Aquatic</strong>: Amphibious. Swim speed <me-distance length=\"30\" />.</li>\n<li><strong>Desert</strong>: Constitution +1. Ignore one level of exhaustion.</li>\n<li><strong>Frozen</strong>: Resistance to cold damage.</li>\n<li><strong>High-gravity</strong>: Strength +1.</li>\n<li><strong>Underground</strong>: Darkvision <me-distance length=\"60\" />. Blindsight <me-distance length=\"30\" />.</li>\n<li><strong>Volcanic</strong>: Resistance to fire damage.</li>\n<li><strong>Zero-gravity</strong>: While lifted or in zero-g, your speed is <me-distance length=\"5\" /> and you do not have disadvantage on your attack rolls.</li>\n</ul>\n",
     "id": "adaptation"
@@ -12,7 +104,36 @@
     "species": [
       "prothean"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "perception"
+        ]
+      },
+      {
+        "type": "sense",
+        "has": {
+          "id": "truesight",
+          "distance": 30
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "cold"
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "radiant"
+        }
+      }
+    ],
     "name": "All-Seeing Eyes",
     "html": "<p>Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to <me-distance length=\"30\" /> and proficiency in Perception.</p>\n",
     "id": "all-seeing-eyes"
@@ -83,7 +204,22 @@
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "attack",
+        "has": {
+          "id": "bite-attack",
+          "name": "Bite Attack",
+          "range": 5,
+          "damage": {
+            "type": "piercing",
+            "dieCount": 1,
+            "dieType": 6
+          },
+          "mod": "str"
+        }
+      }
+    ],
     "name": "Bite",
     "html": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>\n",
     "id": "bite"
@@ -92,7 +228,16 @@
     "species": [
       "krogan"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "bonus",
+        "has": {
+          "id": "blood-rage",
+          "uses": 1,
+          "recharge": "long"
+        }
+      }
+    ],
     "name": "Blood Rage",
     "html": "<p>When you kill an enemy, you can use a bonus action to enter a mindless blood rage. Blood rage lasts for 1 minute or\nuntil you end it as a bonus action. For the duration, you must move towards and attack an enemy on your turn and you\ncannot concentrate on powers. While in blood rage, you are immune to being charmed or frightened and you gain temporary\nhit points equal to your Constitution modifier at the start of each of your turns. When blood rage ends, you lose any\nremaining temporary hit points from blood rage.</p>\n<p>You must finish a long rest before you can enter blood rage again.</p>\n",
     "id": "blood-rage"
@@ -103,20 +248,17 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "options": {
-          "skills": [
-            "insight",
-            "perception"
-          ]
-        }
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "insight",
+          "perception"
+        ]
       },
       {
-        "type": "disadvantage",
-        "options": {
-          "rolls": [
-            "initiative"
-          ]
+        "type": "initiative",
+        "has": {
+          "disadvantage": true
         }
       }
     ],
@@ -146,7 +288,88 @@
     "species": [
       "quarian"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "id": "cybernetic_augmentation",
+        "type": "picker",
+        "choices": {
+          "items": [
+            {
+              "id": "cerebral",
+              "mechanics": [
+                {
+                  "type": "ability",
+                  "has": {
+                    "ability": "int",
+                    "bonus": 1
+                  }
+                },
+                {
+                  "type": "profs",
+                  "subType": "skill",
+                  "choices": {
+                    "items": [
+                      "electronics",
+                      "engineering",
+                      "investigation",
+                      "science"
+                    ],
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "id": "muscular",
+              "mechanics": [
+                {
+                  "type": "ability",
+                  "has": {
+                    "ability": "dex",
+                    "bonus": 1
+                  }
+                },
+                {
+                  "type": "profs",
+                  "subType": "skill",
+                  "choices": {
+                    "items": [
+                      "acrobatics",
+                      "athletics"
+                    ],
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ocular",
+              "mechanics": [
+                {
+                  "type": "sense",
+                  "has": {
+                    "id": "darkvision",
+                    "distance": 60
+                  }
+                }
+              ]
+            },
+            {
+              "id": "visceral",
+              "mechanics": [
+                {
+                  "type": "ability",
+                  "has": {
+                    "ability": "con",
+                    "bonus": 2
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
     "name": "Cybernetic Augmentation",
     "html": "<p>You have a cybernetic augmentation. Choose one of the following:</p>\n<h4>Cerebral</h4>\n<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n<p><strong>Ability Score Increase</strong>. Your Intelligence score increases by 1.</p>\n<p><strong>Mind Shielding Unit</strong>. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.</p>\n<p><strong>Scientific Aptitude</strong>. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.</p>\n<h4>Muscular</h4>\n<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n<p><strong>Ability Score Increase</strong>. Your Dexterity score increases by 1.</p>\n<p><strong>Overclock Unit</strong>. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving <me-distance length=\"0\" override=\"0 {metric}\"/> on one of your turns.</p>\n<p><strong>Peak Fitness</strong>. You have proficiency in either the Acrobatics or Athletics skill.</p>\n<h4>Ocular</h4>\n<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n<p><strong>Darkvision</strong>. You can see in dim light within <me-distance length=\"60\" /> of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\n<p><strong>Clarity Unit</strong>. You have advantage on saving throws against being blinded.</p>\n<p><strong>Keen Eyesight</strong>. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within <me-distance length=\"30\" /> of you that is lightly obscured as if it were unobscured and can see in an\narea within <me-distance length=\"15\" /> of you that is heavily obscured as if it were only lightly obscured.</p>\n<h4>Visceral</h4>\n<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n<p><strong>Ability Score Increase</strong>. Your Constitution score increases by 2.</p>\n<p><strong>Revival Unit</strong>. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.</p>\n",
     "id": "cybernetic-augmentation"
@@ -191,8 +414,10 @@
         ]
       },
       {
-        "type": "bonusAction",
-        "id": "search"
+        "type": "bonus",
+        "has": {
+          "id": "four-eyes"
+        }
       }
     ],
     "name": "Four Eyes",
@@ -227,7 +452,22 @@
     "species": [
       "volus"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "poison"
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "necrotic"
+        }
+      }
+    ],
     "name": "Hermetic Suit",
     "html": "<p>Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gels as part of your\nstarting equipment.</p>\n<p>If you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus appropriate environment within\n10 minutes, you die.</p>\n",
     "id": "hermetic-suit-volus"
@@ -236,7 +476,22 @@
     "species": [
       "quarian"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "poison"
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "necrotic"
+        }
+      }
+    ],
     "name": "Hermetic Suit",
     "html": "<p>Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of\ntheir starting equipment.</p>\n<p>For each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.</p>\n",
     "id": "hermetic-suit"
@@ -254,7 +509,17 @@
     "species": [
       "geth"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "action",
+        "subType": "traits",
+        "has": {
+          "id": "hunter-mode",
+          "uses": 1,
+          "recharge": "long"
+        }
+      }
+    ],
     "name": "Hunter Mode",
     "html": "<p>Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.</p>\n<p>As an action, you can activate Hunter Mode, gaining the following benefits:</p>\n<ul>\n<li>Increase movement by <me-distance length=\"5\" />.</li>\n<li>+1 bonus to ranged and melee weapon attack rolls.</li>\n</ul>\n<br>\n<p>This effect lasts 1 minute. You can only use Hunter Mode once per long rest.</p>\n<p>At 11th level, you gain an additional benefit based on your class:</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Class</th>\n<th>Benefit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Engineer</td>\n<td>When you cast a power, the die type of that power increases by 1 die type (max d12). If the die type is already d12, add +1 for each die rolled instead.</td>\n</tr>\n<tr>\n<td>Soldier</td>\n<td>Your extra attack features grants you 1 additional attack the first time you take the Attack action on your turn.</td>\n</tr>\n<tr>\n<td>Infiltrator</td>\n<td>Increase your sneak attack die type to d8 (if you are a Shadow Infiltrator, your sneak attack for melee weapons attacks is a d10).</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "hunter-mode"
@@ -265,9 +530,33 @@
     ],
     "mechanics": [
       {
+        "id": "cantrip_1",
+        "type": "innateBioticsPicker",
+        "choices": {
+          "items": [],
+          "count": 1
+        }
+      },
+      {
+        "id": "cantrip_2",
+        "type": "innateBioticsPicker",
+        "choices": {
+          "items": [],
+          "count": 1
+        }
+      },
+      {
+        "id": "power",
+        "type": "innateBioticsPicker",
+        "choices": {
+          "items": [],
+          "count": 1
+        }
+      },
+      {
         "type": "modOverride",
-        "options": {
-          "modType": "powercasting",
+        "subType": "powercasting",
+        "has": {
           "mod": "cha"
         }
       }
@@ -300,15 +589,24 @@
     ],
     "mechanics": [
       {
-        "type": "immunity",
-        "options": {
-          "damage": [
-            "psychic",
-            "poison"
-          ],
-          "conditions": [
-            "poisoned"
-          ]
+        "type": "defenses",
+        "subType": "immunity",
+        "has": {
+          "id": "psychic"
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "immunity",
+        "has": {
+          "id": "poison"
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "condition",
+        "has": {
+          "id": "poisoned"
         }
       }
     ],
@@ -320,7 +618,16 @@
     "species": [
       "volus"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "limited",
+        "has": {
+          "id": "lucky",
+          "uses": 3,
+          "recharge": "long"
+        }
+      }
+    ],
     "name": "Lucky",
     "html": "<p>You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one\nluck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die,\nbut before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</p>\n<p>You can also spend one luck point when an attack roll is made against you. Roll a d20, and then\nchoose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to\ninfluence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</p>\n<p>You regain your expended luck points when you finish a long rest.</p>\n",
     "id": "lucky"
@@ -329,7 +636,30 @@
     "species": [
       "turian"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "athletics"
+        ]
+      },
+      {
+        "type": "profs",
+        "subType": "weapon",
+        "choices": {
+          "items": [
+            "assault_rifle",
+            "heavy_pistol",
+            "melee",
+            "shotgun",
+            "smg",
+            "sniper_rifle"
+          ],
+          "count": 1
+        }
+      }
+    ],
     "name": "Martial Training",
     "html": "<p>You are proficient in the Athletics skill and one additional weapon type (Assault Rifle, Heavy Pistol, Melee, Shotgun, SMG,\nor Sniper Rifle). The additional weapon type proficiency is not limited by your selected class.</p>\n",
     "id": "martial-training"
@@ -338,7 +668,15 @@
     "species": [
       "krogan"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "intimidation"
+        ]
+      }
+    ],
     "name": "Menacing",
     "html": "<p>You gain proficiency in the Intimidation skill.</p>\n",
     "id": "menacing"
@@ -359,6 +697,7 @@
     "mechanics": [
       {
         "type": "prof",
+        "subType": "skill",
         "options": {
           "skills": [
             "persuasion"
@@ -376,15 +715,17 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "options": {
-          "skills": [
+        "id": "natural-hunters",
+        "type": "profs",
+        "subType": "skill",
+        "choices": {
+          "items": [
             "athletics",
             "perception",
             "stealth",
             "survival"
           ],
-          "amount": 2
+          "count": 2
         }
       }
     ],
@@ -405,7 +746,15 @@
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "poison"
+        }
+      }
+    ],
     "name": "Non-Differentiated Cells",
     "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage.</p>\n",
     "id": "non-differentiated-cells"
@@ -475,7 +824,15 @@
     "species": [
       "geth"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "action",
+        "subType": "traits",
+        "has": {
+          "id": "repair-matrix"
+        }
+      }
+    ],
     "name": "Repair Matrix",
     "html": "<p>As a construct, you cannot be healed by medi-gel or powers that heal organic creatures (such as the <em>first aid</em> power).</p>\n<p>Instead, you can use your Action to expend a Hit Die. Roll the die and add your Constitution modifier to it. You regain\nhit points equal to the total. You also regain all spent hit dice at the end of a long rest, instead of the usual amount.</p>\n<p>If you drop to 0 hit points, you must be stabilized with an Intelligence (Engineering) or Intelligence (Electronics) check,\ninstead of a Wisdom (Medicine) check.</p>\n<p>At the 4th level, you gain an additional number of hit dice equal to your character level divided by 4 (minimum 1).\nThese bonus hit dice are d8s, regardless of your class.</p>\n",
     "id": "repair-matrix"
@@ -503,7 +860,15 @@
     "species": [
       "volus"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "profs",
+        "subType": "skill",
+        "has": [
+          "persuasion"
+        ]
+      }
+    ],
     "name": "Savvy Dealings",
     "html": "<p>You have proficiency in the Persuasion skill.</p>\n",
     "id": "savvy-dealings"
@@ -515,15 +880,10 @@
     "mechanics": [
       {
         "type": "modOverride",
-        "options": {
-          "modType": "rangedAttack",
-          "mod": "int"
-        }
-      },
-      {
-        "type": "modOverride",
-        "options": {
-          "modType": "rangedDamage",
+        "subType": "attack",
+        "has": {
+          "ranged": true,
+          "damage": true,
           "mod": "int"
         }
       }
@@ -572,7 +932,7 @@
         "type": "profs",
         "subType": "skill",
         "has": [
-          "survival"
+          "persuasion"
         ]
       }
     ],
@@ -584,7 +944,36 @@
     "species": [
       "hanar"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "attack",
+        "has": {
+          "id": "tentacle-attack",
+          "name": "Tentacle Attack",
+          "range": 5,
+          "damage": {
+            "type": "bludgeoning",
+            "dieCount": 1,
+            "dieType": 6
+          },
+          "mod": "str"
+        }
+      },
+      {
+        "type": "bonus",
+        "subType": "traits",
+        "has": {
+          "id": "tentacles"
+        }
+      },
+      {
+        "type": "action",
+        "subType": "traits",
+        "has": {
+          "id": "tentacles"
+        }
+      }
+    ],
     "name": "Tentacles",
     "html": "<p>You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms, meaning\nyou can only wield weapons with the <em>light</em> property.</p>\n<p>In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. If you hit with them,\nyou deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for\nan unarmed strike. Immediately after hitting a target with your tentacle attack, you can attempt to grapple the target\nas a bonus action.</p>\n<p>If a creature is grappled by one of your tentacles, you may use your action to secrete a toxin into the creature.\nIt must succeed a Constitution saving throw or becomes <me-condition id=\"poisoned\"/> for 1 hour. The DC of this\nsaving throw is equal to 11 + your proficiency bonus.</p>\n",
     "id": "tentacles"
@@ -596,14 +985,14 @@
     "mechanics": [
       {
         "type": "ac",
-        "options": {
-          "increase": 2
+        "has": {
+          "bonus": 2
         }
       },
       {
         "type": "modOverride",
-        "options": {
-          "modType": "acBonus",
+        "subType": "ac",
+        "has": {
           "mod": "con"
         }
       }
@@ -616,7 +1005,15 @@
     "species": [
       "turian"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "radiant"
+        }
+      }
+    ],
     "name": "Thulium Skin",
     "html": "<p>You have resistance to radiant damage and immunity to diseases caused by radiation.</p>\n",
     "id": "thulium-skin"
@@ -634,7 +1031,67 @@
     "species": [
       "salarian"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "profs",
+        "subType": "skill",
+        "choices": {
+          "items": [
+            "acrobatics",
+            "athletics",
+            "deception",
+            "electronics",
+            "engineering",
+            "history",
+            "insight",
+            "investigation",
+            "medicine",
+            "perception",
+            "performance",
+            "persuasion",
+            "science",
+            "sleight-of-hand",
+            "stealth",
+            "survival",
+            "vehicle-handling"
+          ],
+          "count": 2
+        }
+      },
+      {
+        "type": "profs",
+        "subType": "tool",
+        "choices": {
+          "items": [
+            "armorsmiths-workbench",
+            "brewers-supplies",
+            "chemists-supplies",
+            "cooks-utensils",
+            "disguise-kit",
+            "gaming-set",
+            "hacking-tools",
+            "medical-kit",
+            "musical-instrument",
+            "painters-supplies",
+            "starship-system-drive",
+            "starship-system-ews",
+            "starship-system-helm",
+            "starship-system-navigation",
+            "starship-system-ssc",
+            "starship-system-weapons",
+            "tailors-tools",
+            "thieves-tools",
+            "tinkers-tools",
+            "vehicles-air",
+            "vehicles-land",
+            "vehicles-space",
+            "vehicles-water",
+            "weaponsmiths-workbench"
+          ],
+          "count": 2
+        }
+      }
+    ],
     "name": "Twice as Bright",
     "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n",
     "id": "twice-as-bright"

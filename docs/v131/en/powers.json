@@ -270,6 +270,9 @@
       "soldier",
       "vanguard"
     ],
+    "uses": 1,
+    "recharge": "short",
+    "mod": "dex",
     "name": "Ballistic Blades",
     "reactionQualifier": false,
     "html": "<p>Fire a salvo of blades at a target creature or object you can see within range. Make a ranged weapon attack, you add\nyour proficiency bonus to this roll. On a hit, the target takes 2d12 piercing damage.</p>\n<p>You must spend a short or long rest reloading the armguard before you can this ability again.</p>\n<p>This feature's damage increases by 2d12 when you reach 5th level (4d12), 11th level (6d12), 17th level (8d12)</p>\n",
@@ -432,6 +435,9 @@
       "infiltrator",
       "soldier"
     ],
+    "uses": 1,
+    "recharge": "short",
+    "mod": "dex",
     "name": "Beehive",
     "reactionQualifier": false,
     "html": "<p>Draw and fire your antipersonnel cannon, colloquially called &quot;the beehive&quot;. It ejects superheated shrapnel in a <me-distance length=\"15\" adj/> cone,\noriginating from you. Each creature caught in the blast must make Dexterity saving throw. The DC of this saving throw is\n8 + your proficiency bonus + your Dexterity modifier. On a failed save, a creature takes 3d6 piercing damage or half as\nmuch damage on a successful one.</p>\n<p>You must spend a short or long rest reconfiguring the cannon to use it again.</p>\n<p>This feature's damage increases by 2d6 when you reach 5th level (5d6), 11th level (7d6), 17th level (9d6)</p>\n",
@@ -834,6 +840,8 @@
     "classes": [
       "soldier"
     ],
+    "uses": 1,
+    "recharge": "short",
     "name": "Blade Armor",
     "reactionQualifier": " which you take when you are dealt damage",
     "html": "<p>As a bonus action or as a reaction to taking damage, you reinforce your armor with razor-sharp blades that damage\nnearby enemies. Until the power ends, you AC increases by 2 but you are unable to Dodge and have disadvantage on Dexterity\nsaving throws. You can use a bonus action to deactivate blade armor.</p>\n<p>While blade armor is active, it is considered a melee weapon that deals 1d6 piercing damage. If a creature is grappled by\nyou, you have advantage on attack rolls made with blade armor against the grappled creature.</p>\n<p>You have advantage on your Strength (Athletics) to grapple and deal 1d6 piercing damage when you grapple the target.\nA creature that is grappled by you while blade armor is active takes 1d6 piercing damage each time it attempts to\nescape from the grapple.</p>\n<p>You must finish a long rest before you can use this ability again.</p>\n<p>Blade armor's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), 17th level (4d6).</p>\n",
@@ -968,11 +976,11 @@
     "type": "combat",
     "attack": {
       "melee": false,
-      "ranged": true
+      "ranged": false
     },
     "save": {
       "dex": false,
-      "str": false,
+      "str": true,
       "con": false,
       "int": false,
       "wis": false,
@@ -1010,6 +1018,9 @@
     "classes": [
       "soldier"
     ],
+    "uses": 3,
+    "recharge": "long",
+    "mod": "dex",
     "name": "Concussive Shot",
     "reactionQualifier": false,
     "html": "<p>Load a specialized thermal clip into the weapon you are currently holding. Until you reload, any successful ranged\nattacks deal an additional 1d8 bludgeoning damage and medium-sized or smaller creatures must pass a Strength saving\nthrow (DC 8 + proficiency bonus + DEX modifier) or are knocked <me-condition id=\"prone\"/>.</p>\n<p>The damage increases by 1d8 when you reach the 5th level (2d8), 11th level (3d8) and 17th level (4d8).</p>\n<p>You have 3 charges of Concussive Shot. You regain all of your charges when you finish a long rest.</p>\n",
@@ -1741,6 +1752,9 @@
     "classes": [
       "soldier"
     ],
+    "uses": 3,
+    "recharge": "long",
+    "mod": "dex",
     "name": "Flak Cannon",
     "reactionQualifier": false,
     "html": "<p>As an Attack action, you load and fire krogan-designed shells that burst into shrapnel upon impact. Choose a target location\nwithin range. Each creature in a <me-distance length=\"10\" adj />-radius sphere centered on the point of impact of the shell must make a Dexterity\nsaving throw (DC 8 + proficiency bonus + DEX modifier). A target takes 2d6 piercing damage on a failed save,\nor half as much damage on a successful one.</p>\n<p>You have 3 charges of Flak Cannon. You regain all of your charges on a long rest.</p>\n<p>This feature's damage increases by 2d6 when you reach 5th level (4d6), 11th level (6d6), 17th level (8d6)</p>\n",
@@ -1968,6 +1982,8 @@
       "soldier",
       "vanguard"
     ],
+    "uses": 1,
+    "recharge": "short",
     "name": "Fortification",
     "reactionQualifier": " which you take when you are targeted by an attack you can see",
     "html": "<p>Reinforce your armor using protective Foucault currents. Gain +5 AC until the start of your next turn, including against\nthe triggering attack.</p>\n<p>You must finish a short or long rest before you can use this ability again.</p>\n",
@@ -2133,6 +2149,9 @@
       "soldier",
       "vanguard"
     ],
+    "uses": 2,
+    "recharge": "short",
+    "mod": "str",
     "name": "Havoc Strike",
     "reactionQualifier": false,
     "html": "<p>Use a propulsion jet built into your leg armor to spring to a location within <me-distance length=\"25\" /> and strike the ground with violent force.\nEach creature within a <me-distance length=\"5\" adj/> radius of where you land must make a Dexterity saving throw (DC 8 + proficiency bonus + STR modifier).\nOn a failed save, a creature takes 2d8 thunder damage or half as much on a successful one.</p>\n<p>You can use this feature twice between short or long rests.</p>\n<p>This feature's damage increases by 2d8 when you reach 5th level (4d8), 11th level (6d8), 17th level (8d8).</p>\n",
@@ -2184,6 +2203,8 @@
     "classes": [
       "soldier"
     ],
+    "uses": 1,
+    "recharge": "short",
     "name": "Hawk Missile Launcher",
     "reactionQualifier": false,
     "html": "<p>Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits a target within range\ndealing 3d6 thunder damage.</p>\n<p>You can use the Hawk Missile Launcher once per short rest.</p>\n<p>This feature's damage increases by 3d6 when you reach 5th level (6d6), 11th level (9d6), 17th level (12d6).</p>\n",
@@ -2756,6 +2777,8 @@
       "soldier",
       "vanguard"
     ],
+    "uses": 3,
+    "mod": "dex",
     "name": "Nightshade Blades",
     "reactionQualifier": false,
     "html": "<p>Your omni-tool is equipped with three microscopic, poison-tipped blades that are able to pierce through shields and armor.\nMake a ranged weapon attack on a creature you can see within range, expending one blade. You add your proficiency bonus\nto this roll. On a hit, the target takes 1d12 poison damage and must succeed on a Constitution saving throw (DC 8 + proficiency bonus)\nor becomes <me-condition id=\"poisoned\"/> until it finishes a short rest. All damage caused by nightshade blades bypasses shields.</p>\n<p>You must be within melee range and use an action to recover a blade, at which point you can reapply your poison and reload\nit into your omni-tool during a short rest. If you fail to recover your blades, you can create 3 new ones for 1 hour of work\nduring a long rest.</p>\n<p>This feature's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level (4d12).</p>\n",
@@ -3513,6 +3536,9 @@
       "soldier",
       "vanguard"
     ],
+    "uses": 5,
+    "recharge": "short",
+    "mod": "noMod",
     "name": "Siege Pulse",
     "reactionQualifier": false,
     "html": "<p>Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a <me-distance length=\"10\" adj/>-radius\nsphere centered on you. Each creature within the sphere becomes <me-condition id=\"deafened\"/> and must\nmake a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes\n2d8 psychic damage and is <me-condition id=\"stunned\"/> until the end of your next turn. On a successful save, a creature\ntakes half as much damage. Synthetic creatures have advantage on this saving throw.</p>\n<p>The first time you use siege pulse, your armor suffers no adverse effect. If you use this power again before you\nfinish a short rest, roll a d20. On a 5 or lower you shields overload. You lose\nall shield points, take 2d12 lightning damage, and cannot gain shield points unless you repair your armor. Each time you\nuse this feature again before finishing a short rest, you suffer a -5 penalty to the roll.</p>\n<p>This feature's psychic damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), 17th level (5d8).</p>\n",
@@ -3850,6 +3876,8 @@
       "soldier",
       "vanguard"
     ],
+    "uses": 1,
+    "recharge": "long",
     "name": "Stimulant Pack",
     "reactionQualifier": false,
     "html": "<p>Inject yourself with a stimulant pack. For the next minute, whenever you make an attack roll or saving throw,\nyou can roll a d4 and add the number rolled to the attack roll or saving throw.</p>\n<p>You must finish a long rest before you can use this feature again.</p>\n",
@@ -4256,6 +4284,8 @@
       "infiltrator",
       "soldier"
     ],
+    "uses": 1,
+    "recharge": "long",
     "name": "Trophy System",
     "reactionQualifier": " which you take when an explosive projectile is within 6m of you.",
     "html": "<p>Your omni-tool's trophy system detects incoming explosives that fires a small ordinance charge to preemptively detonate\nhostile explosives. As a reaction to an explosive projectile (grenade or rocket from a heavy weapon) that you can see\nwithin <me-distance length=\"15\" /> of you, you may preemptively detonate it. If the blast would cause you to make a Dexterity saving throw,\nyou have advantage on the save.</p>\n<p>You may use this ability only once per long rest.</p>\n",
@@ -4308,6 +4338,8 @@
     "classes": [
       "soldier"
     ],
+    "uses": 1,
+    "recharge": "short",
     "name": "Turbocharge",
     "reactionQualifier": false,
     "html": "<p>Activate a subroutine that temporarily vents weapon heat through your armor to improve thermal clip efficiency and\nweapon damage. Until the end of your turn, the weapon you're currently holding gains Burst Fire, the heat cost for making\na Burst Fire attack is reduced by 1 heat, and you may make a Burst Fire attack as an Attack action.</p>\n<p>You must finish a short or long rest before using Turbocharge again.</p>\n",

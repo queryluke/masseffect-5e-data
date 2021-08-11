@@ -5,5 +5,5 @@ mechanics:
   - type: profs
     subType: skill
     has:
-      - survival
+      - persuasion
 ---

@@ -34,4 +34,7 @@ advancements:
 classes:
   - soldier
   - vanguard
+uses: 2
+recharge: short
+mod: str
 ---

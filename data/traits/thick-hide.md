@@ -3,10 +3,10 @@ species:
   - elcor
 mechanics:
   - type: ac
-    options:
-      increase: 2
+    has:
+      bonus: 2
   - type: modOverride
-    options:
-      modType: acBonus
+    subType: ac
+    has:
       mod: con
 ---

@@ -6,6 +6,7 @@ mechanics:
     subType: skill
     has:
       - perception
-  - type: bonusAction
-    id: search
+  - type: bonus
+    has:
+      id: four-eyes
 ---

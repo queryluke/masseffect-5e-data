@@ -2,10 +2,12 @@
 species:
   - elcor
 mechanics:
-  - type: prof
-    options:
-      skills: [insight,perception]
-  - type: disadvantage
-    options:
-      rolls: [initiative]
+  - type: profs
+    subType: skill
+    has:
+      - insight
+      - perception
+  - type: initiative
+    has:
+      disadvantage: true
 ---
