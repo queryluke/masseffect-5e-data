@@ -10,8 +10,8 @@ mechanics:
           mechanics:
             - type: speed
               has:
-                id: swim
-                distance: 30
+                type: swim
+                speed: 30
         - id: desert
           mechanics:
             - type: ability
