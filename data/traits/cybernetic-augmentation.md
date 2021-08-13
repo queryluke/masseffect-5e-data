@@ -46,6 +46,4 @@ mechanics:
               has:
                 ability: con
                 bonus: 2
-
-
 ---

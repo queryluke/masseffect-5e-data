@@ -38,6 +38,9 @@ module.exports = {
     high_gravity: 'High-Gravity',
     underground: 'Underground',
     volcanic: 'Volcanic',
-    zero_gravity: 'Zero-Gravity'
+    zero_gravity: 'Zero-Gravity',
+    select_an_option: 'Select an option',
+    strength: 'Strength',
+    dexterity: 'Dexterity'
 
 }

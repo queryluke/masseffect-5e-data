@@ -15,8 +15,8 @@
     "id": "actor"
   },
   {
-    "mechanics": [],
     "new": true,
+    "mechanics": [],
     "name": "Additional Augment",
     "note": "Gain another cybernetic augmentation",
     "prerequisite": "Quarian",
@@ -69,7 +69,10 @@
     "id": "charger"
   },
   {
-    "mechanics": [],
+    "mechanics": {
+      "uses": 1,
+      "recharge": "long"
+    },
     "new": true,
     "name": "Come Get Me",
     "note": "Draw the enemy fire.",
@@ -189,7 +192,10 @@
     "id": "lightly-armored"
   },
   {
-    "mechanics": [],
+    "mechanics": {
+      "uses": 1,
+      "recharge": "long"
+    },
     "name": "Lucky",
     "note": "You have inexplicable luck",
     "html": "<p>Player's Handbook, p. 167</p>\n",
@@ -286,7 +292,10 @@
     "id": "skulker"
   },
   {
-    "mechanics": [],
+    "mechanics": {
+      "uses": 1,
+      "recharge": "long"
+    },
     "new": true,
     "name": "Squad Leader",
     "note": "Heal and inspire allies to overcome negative conditions.",
