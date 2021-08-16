@@ -16,7 +16,7 @@ creature, you do not have disadvantage on the attack roll. Your ranged attacks i
 
 __Defense.__ +1 AC.
 
-__The Free Hand__ When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.
+__The Free Hand.__ When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.
 
 __Protection.__ When a creature you can see attacks a target other than you that is within <me-distance length="5" />
 of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack
