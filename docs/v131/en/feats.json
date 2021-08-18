@@ -20,7 +20,7 @@
     "name": "Additional Augment",
     "note": "Gain another cybernetic augmentation",
     "prerequisite": "Quarian",
-    "html": "<p>Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition to\nyour current one.</p>\n",
+    "html": "<p>Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition to\nyour current one.</p>\n<p><me-source-reference pages=\"8\" source=\"races\"></me-source-reference></p>\n",
     "id": "additional-augment"
   },
   {
@@ -85,7 +85,7 @@
     "name": "Cranial Bruiser",
     "note": "Headbutt stuff!",
     "prerequisite": "Krogan",
-    "html": "<p>Krogan are notorious for using any weapon within reach - even the armored plates that cover their foreheads.\nYou gain the following benefits:</p>\n<ul>\n<li>You can attack with a headbutt, which is a natural weapon that you can use to make unarmed strikes. If you hit with\nit, you deal 1d6 + your Strength modifier bludgeoning damage.</li>\n<li>When you use the Dash action during your turn, you can make a melee attack with your headbutt as a bonus action.</li>\n</ul>\n",
+    "html": "<p>Krogan are notorious for using any weapon within reach - even the armored plates that cover their foreheads.\nYou gain the following benefits:</p>\n<ul>\n<li>You can attack with a headbutt, which is a natural weapon that you can use to make unarmed strikes. If you hit with\nit, you deal 1d6 + your Strength modifier bludgeoning damage.</li>\n<li>When you use the Dash action during your turn, you can make a melee attack with your headbutt as a bonus action.</li>\n</ul>\n<p><me-source-reference pages=\"6\" source=\"races\"></me-source-reference></p>\n",
     "id": "cranial-bruiser"
   },
   {
