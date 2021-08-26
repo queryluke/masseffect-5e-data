@@ -17,7 +17,7 @@ function setType(dir) {
       items: ['manual','conditions', 'weapon-properties']
     },
     {
-      type: 'powers',
+      type: 'power',
       items: ['powers']
     },
     {
@@ -65,6 +65,8 @@ function setSubtype(file, messages) {
     case 'species-variants':
     case 'traits':
       return messages.species_title.split('|')[1].trim()
+    case 'powers':
+      return null
     case 'manual':
       return null
     case 'conditions':
@@ -176,8 +178,9 @@ for (const lang of langs) {
           break
 
         // MANUAL
-        case 'rules':
-          searchItem.link = `/manual/${item.section}#${item.id}`
+        case 'manual':
+          searchItem.link = false
+          searchItem.html = item.html
           break
 
         // MODS
@@ -192,6 +195,7 @@ for (const lang of langs) {
             for (const advKey in item.advancements)
             searchItem.body += `  ${item.advancements[advKey].name}: ${cleanBody(item.advancements[advKey].text)}`
           }
+          console.log(searchItem)
           break
 
         // VARIANTS
