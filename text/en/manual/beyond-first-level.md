@@ -69,7 +69,7 @@ In the __third tier__ (levels 11–16), characters have reached a level of noter
 populace and makes them special even among other operatives. This tier is equivalent to reaching N7 and would
 be the tier at which Shepard started in Mass Effect 1. Operatives gain access to __rare__ quality weapons and armor and might
 begin crafting their own unique armor with capabilities that further their potential. These operatives often confront threats
-to whole cities, are conscripted my major corporations to protect valuable assets, and are sent unexplored and dangerous
+to whole cities, are conscripted by major corporations to protect valuable assets, and are sent to unexplored and dangerous
 planets. Additionally, within this tier, the party generally acquires their own personal starship which opens up
 travel across the galaxy.
 
