@@ -195,7 +195,6 @@ for (const lang of langs) {
             for (const advKey in item.advancements)
             searchItem.body += `  ${item.advancements[advKey].name}: ${cleanBody(item.advancements[advKey].text)}`
           }
-          console.log(searchItem)
           break
 
         // VARIANTS

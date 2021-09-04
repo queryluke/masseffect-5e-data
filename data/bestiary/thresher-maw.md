@@ -69,6 +69,10 @@ entries:
         - {dieCount: '4', dieType: '6', mod: true, type: bludgeoning}
       target: one
       id: tail
+    - attack: ranged
+      proficient: true
+      range: 90
+
   legendary:
     actions:
       - cost: 2

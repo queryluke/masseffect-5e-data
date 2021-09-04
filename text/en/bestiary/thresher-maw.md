@@ -11,7 +11,7 @@ entries:
       text: >-
         Each creature of the thresher maw's choice that is within <me-distance
         length='150' /> of the name and aware of it must succeed on a DC 22
-        Wisdom saving throw or become {frightened} for 1 minute. A creature can
+        Wisdom saving throw or become <me-condition id='frightened' /> for 1 minute. A creature can
         repeat the saving throw at the end of each of its turns, ending the
         effect on itself on a success. If a creature's saving throw is
         successful or the effect ends for it, the creature is immune to the
@@ -33,7 +33,10 @@ entries:
         It can use its Swallow instead of its grasp.
       id: multiattack
     - name: Acid Spit
-      hit: ' Each creature within the area must succeed on a DC 22 Dexterity saving throw, taking 44 (8d10) acid damage on a failed save, or half as much on a successful one'
+      text: >-
+        The thresher maw targets a <me-distance length='15' adj /> radius within <me-distance length='150' />.
+        Each creature within the area must succeed on a DC 22 Dexterity saving throw,
+        taking 44 (8d10) acid damage on a failed save, or half as much on a successful one.
       id: acid-spit
     - name: Grasp
       hit: ' If the target is a creature, it is grappled (escape DC 22)'
@@ -46,8 +49,7 @@ entries:
         swallowed, the creature is blinded and restrained, it has total cover
         against attacks and other effects outside the thresher maw, and it takes
         56 (16d6) acid damage at the start of each of the thresher maw's turns.
-
-        --If the thresher maw takes 60 damage or more on a single turn from a
+        If the thresher maw takes 60 damage or more on a single turn from a
         creature inside it, the thresher maw must succeed on a DC 20
         Constitution saving throw at the end of that turn or regurgitate all
         swallowed creatures, which fall prone in a space within <me-distance
