@@ -16,7 +16,7 @@ entries:
         if it fails.
       id: evasion
     - name: N7 Training
-      text: The N7 Slayer has advantage on its first attack roll each turn.
+      text: The N7 Shadow has advantage on its first attack roll each turn.
       id: n7-training
     - name: Sneak Attack
       text: >-
@@ -40,6 +40,6 @@ entries:
       id: innate-powercasting
   actions:
     - name: Multiattack
-      text: The N7 Slayer makes three monomolecular blade attacks.
+      text: The N7 Shadow makes three monomolecular blade attacks.
       id: multiattack
 ---

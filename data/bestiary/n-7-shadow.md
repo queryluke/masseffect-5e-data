@@ -38,6 +38,10 @@ entries:
   actions:
     - ref: weapon
       proficient: true
+      id: monomolecular-blade
+      weaponId: monomolecular-blade
+    - ref: weapon
+      proficient: true
       id: m-97-viper
       weaponId: m-97-viper
 cr: '07000'

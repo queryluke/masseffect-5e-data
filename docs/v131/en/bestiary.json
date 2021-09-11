@@ -5406,7 +5406,7 @@
         },
         {
           "name": "N7 Training",
-          "text": "The N7 Slayer has advantage on its first attack roll each turn.",
+          "text": "The N7 Shadow has advantage on its first attack roll each turn.",
           "id": "n7-training"
         },
         {
@@ -5419,12 +5419,18 @@
         {
           "ref": "weapon",
           "proficient": true,
+          "id": "monomolecular-blade",
+          "weaponId": "monomolecular-blade"
+        },
+        {
+          "ref": "weapon",
+          "proficient": true,
           "id": "m-97-viper",
           "weaponId": "m-97-viper"
         },
         {
           "name": "Multiattack",
-          "text": "The N7 Slayer makes three monomolecular blade attacks.",
+          "text": "The N7 Shadow makes three monomolecular blade attacks.",
           "id": "multiattack"
         }
       ]
