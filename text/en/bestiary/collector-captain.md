@@ -18,7 +18,7 @@ entries:
         When the captain is possessed by a harbinger it gains temporary hit
         points equal to its total hit points and 8 barrier ticks. While it has
         barrier ticks it also gains resistance to bludgeoning, piercing, and
-        slashing damage. Instead of summoning a seaker swarm, it summons a
+        slashing damage. Instead of summoning a seeker swarm, it summons a
         seeker plague.
       id: possessed-captain
   actions:

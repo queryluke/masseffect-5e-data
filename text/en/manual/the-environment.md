@@ -20,7 +20,7 @@ For example, a creature with a Constitution of 14 can hold its breath for 3 minu
 rounds to reach air before it drops to 0 hit points.
 
 ### Space <v-chip color="info" small>new</v-chip>
-The vacuum of space will kill any organic (and most synthorganic creatures) in a matter of minutes unless that creature
+The vacuum of space will kill any organic (and most synth-organic creatures) in a matter of minutes unless that creature
 has some specific environmental suit or resilience to surviving in a vacuum. A creature in the vacuum of space
 will __remain conscious__ for a number of rounds equal to 1 + its Constitution modifier (minimum 1), after which it becomes
 incapacitated.

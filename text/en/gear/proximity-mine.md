@@ -6,7 +6,7 @@ disarm the mine, as long as you are within <me-distance length="500" /> of it. W
 <me-distance length="5" /> of the mine detonates it. If you arm the mine while a creature is within <me-distance length="5" />
 of it, it detonates immediately.
 
-A creature can spot the mine with a successful DC 15 Wisdom (Perception).
+A creature can spot the mine with a successful DC 15 Wisdom (Perception) check.
 
 To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates.
 Additionally, a successful ranged attack on the mine (AC 10) will destroy the mine if is it is disarmed or detonate it

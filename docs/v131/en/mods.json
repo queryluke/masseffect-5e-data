@@ -671,7 +671,7 @@
     ],
     "name": "ER Jetpack",
     "flavor": "An advanced jetpack that can be used for longer than the standard version, but takes longer to recharge.",
-    "html": "<p>As a bonus action, activate the jetpack to gain flying <me-distance length=\"15\" /> for 10 minutes.\nThis device cannot be used again until you finish a long rest.</p>\n",
+    "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 10 minutes.\nThis device cannot be used again until you finish a long rest.</p>\n",
     "id": "er-jetpack"
   },
   {
@@ -1111,7 +1111,7 @@
     ],
     "name": "Jetpack",
     "flavor": "This propulsion device generates mass effect fields for lift and gyroscopic attitude adjusters to maneuver the wearer for a short duration.",
-    "html": "<p>As a bonus action, activate the jetpack to gain flying <me-distance length=\"15\" /> for 1 minute. This device\ncannot be used again until you finish a short rest.</p>\n",
+    "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 1 minute. This device\ncannot be used again until you finish a short rest.</p>\n",
     "id": "jetpack"
   },
   {
@@ -1492,7 +1492,7 @@
     ],
     "name": "QR Jetpack",
     "flavor": "A better model of the standard jetpack that has a larger battery reserve, allowing for more uses before recharging.",
-    "html": "<p>As a bonus action, activate the jetpack to gain flying <me-distance length=\"15\" /> for 1 minute. You\nmay use this 3 times per short rest.</p>\n",
+    "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 1 minute. You\nmay use this 3 times per short rest.</p>\n",
     "id": "qr-jetpack"
   },
   {

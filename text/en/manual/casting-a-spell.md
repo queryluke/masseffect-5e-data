@@ -59,11 +59,11 @@ There are no other power components (such as verbal or material, as in D&D).
 
 ### Duration
 A power's duration is the length of time the power persists. A duration can be expressed in rounds, minutes, hours, or
-even years. Some powers specify that their effects last until the powers are dipowered or destroyed.
+even years. Some powers specify that their effects last until the powers are dispelled or destroyed.
 
 #### Instantaneous
 Many powers are instantaneous. The power harms, heals, creates, or alters a creature or an object in a way that can't
-be dipowered, because its effect exists only for an instant.
+be dispelled, because its effect exists only for an instant.
 
 #### Concentration
 Some powers require you to maintain concentration in order to keep the effect going. This is the case with many biotics.

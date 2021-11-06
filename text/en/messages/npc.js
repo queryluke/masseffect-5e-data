@@ -45,7 +45,7 @@ module.exports = {
     },
     types: {
         organic: 'Organic',
-        synorg: 'Snyth-organic',
+        synorg: 'Synth-organic',
         synthetic: 'Synthetic',
         organic_or_synthetic: 'Organic or Synthetic'
     },

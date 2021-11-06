@@ -81,7 +81,7 @@ Multi-directional Thrusters II|Helm|40,000|Multi-directional Thrusters I|+2 Spee
 Multi-directional Thrusters III|Helm|80,000|Multi-directional Thrusters II|+3 Speed and +3 bonus to Maneuver and Hard Maneuver Rolls
 Multi-directional Thrusters IV|Helm|120,000|Multi-directional Thrusters III|+4 Speed and +4 bonus to Maneuver and Hard Maneuver Rolls
 Multi-directional Thrusters V|Helm|200,000|Multi-directional Thrusters IV|+5 Speed and +5 bonus to Maneuver and Hard Maneuver Rolls
-Multicore Shielding|-|175,000|-|+50 shields for each Milticore Shielding installed. Maximum 10.
+Multicore Shielding|-|175,000|-|+50 shields for each Multicore Shielding installed. Maximum 10.
 Quantum Computing Processor|EWS|300,000|GEB Mobius Algorithm|For each Quantum Computing Processor installed, gain an additional +1 to Harden and Sabotage rolls. You can have up to 4 QCPs installed
 Rec Room|Special|100,000|-|When you roll a d6 to determine how many crew become disgruntled, subtract 2 from the roll. <br>__Downtime Activity__. Training in disguise kit, gaming set, musical instrument, or painter’s supplies
 Thanix Cannon|-|2,000,000|-|Recharge (4-6). 2600 (4d12[x100]) lightning damage

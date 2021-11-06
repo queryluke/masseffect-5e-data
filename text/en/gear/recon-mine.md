@@ -6,7 +6,7 @@ location then scans creatures within a <me-distance length="30" adj/> cone, rela
 armor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to
 its AC and cannot benefit from being <me-condition id="invisible"/>. Each creature can only be affected by this penalty once.
 
-A creature can spot the mine with a successful DC 10 Wisdom (Perception).
+A creature can spot the mine with a successful DC 10 Wisdom (Perception) check.
 
 To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and
 the creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the

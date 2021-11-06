@@ -19,7 +19,7 @@ for that casting. For instance, if an operative casts lance using one of their 2
 
 Effectively, the power expands to fill the slot it is put into.
 
-Some powers, such as lance and first ait, have more powerful effects when cast at a higher level, as detailed in a
+Some powers, such as lance and first aid, have more powerful effects when cast at a higher level, as detailed in a
 power's description.
 
 ### Tech Points <v-chip color="info" small>new</v-chip>
