@@ -1464,7 +1464,7 @@
       "psychic-strain": {
         "mechanics": [],
         "name": "Psychic Strain",
-        "text": "If successfully disrupt the power, the target takes Xd10 psychic damage, where X is the level of the power. Targets take 1d6 psychic damage for disrupted cantrips."
+        "text": "If you successfully disrupt the power, the target takes Xd10 psychic damage, where X is the level of the power. Targets take 1d6 psychic damage for disrupted cantrips."
       }
     },
     "classes": [
@@ -1518,7 +1518,7 @@
       "damage": {
         "mechanics": [],
         "name": "Damage",
-        "text": "While the creature is dominated, it takes 4d6 psychic damage at the end of its turn. This damage bypasses shields and does not proc an opportunity to end Dominate."
+        "text": "While the creature is dominated, it takes 4d6 psychic damage at the end of its turn. This damage bypasses shields and does not trigger an opportunity to end Dominate."
       }
     },
     "classes": [
@@ -2675,7 +2675,7 @@
       "sentinel"
     ],
     "name": "Nanite Cloud",
-    "reactionQualifier": " which you take when you would take acid",
+    "reactionQualifier": " which you take when you would take acid damage",
     "html": "<p>Deploy a cloud of fabricated nanites from your omni-tool that swarm and capture incoming energy from an attack, lessening\nits effect on you and storing it for your next attack. Until the end of your next turn, you gain resistance to the\ntriggering damage type, including against the triggering attack.</p>\n<p>The next time you hit with a melee attack or single-target, tech power, the target takes an extra 4d6 damage of the triggering\ndamage type, and the power ends.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d6\nfor each power slot about the 1st.</p>\n",
     "id": "nanite-cloud"
   },
@@ -3754,7 +3754,7 @@
       "solid-freeze": {
         "mechanics": [],
         "name": "Solid Freeze",
-        "text": "The ice rock solid. Creatures have disadvantage on their Strength checks to break it."
+        "text": "The ice is rock solid. Creatures have disadvantage on their Strength checks to break it."
       },
       "brittle-freeze": {
         "mechanics": [],
@@ -3824,7 +3824,7 @@
     ],
     "name": "Stasis",
     "reactionQualifier": false,
-    "html": "<p>Lock a target in a high-gravity mass effect field. Choose a creature you can see within range. The creature must make a\nStrength saving throw. On a failed save, the creature is paralyzed, primed (force), and has resistance to all damage for\nthe duration of the power. At the end of each of its turns, the target can make another Strength saving throw. On a success,\nthe power ends. A detonating attack immediately ends the power.</p>\n",
+    "html": "<p>Lock a target in a high-gravity mass effect field. Choose a creature you can see within range. The creature must make a\nStrength saving throw. On a failed save, the creature is <me-condition id=\"paralyzed\" />, <me-condition id=\"primed\" sub=\"force\" />, and has resistance to all damage for\nthe duration of the power. At the end of each of its turns, the target can make another Strength saving throw. On a success,\nthe power ends. A detonating attack immediately ends the power.</p>\n",
     "id": "stasis"
   },
   {
@@ -3868,7 +3868,7 @@
       "high-tolerance": {
         "mechanics": [],
         "name": "High Tolerance",
-        "text": "You can use stimulant pack twice long rest."
+        "text": "You can use stimulant pack twice per long rest."
       }
     },
     "classes": [
@@ -4236,7 +4236,7 @@
     ],
     "name": "Throw",
     "reactionQualifier": false,
-    "html": "<p>Make a ranged power attack on a target you can see within range. On a hit, the target takes force damage equal to 1d8\nforce damage. If the target is Medium or smaller, it is pushed backward <me-distance length=\"30\" />.</p>\n<p>This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).</p>\n",
+    "html": "<p>Make a ranged power attack on a target you can see within range. On a hit, the target takes 1d8\nforce damage. If the target is Medium or smaller, it is pushed backward <me-distance length=\"30\" />.</p>\n<p>This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).</p>\n",
     "id": "throw"
   },
   {
@@ -4383,7 +4383,7 @@
       "shield-restore": {
         "mechanics": [],
         "name": "Shield restore",
-        "text": "When you cast this at 2nd level, creatures also gain 1d4 shield points. This increases by 1d4 for each power slot above the 2nd."
+        "text": "Creatures also gain 1d4 shield points. This increases by 1d4 for each power slot above the 2nd."
       }
     },
     "classes": [

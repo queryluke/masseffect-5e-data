@@ -6,7 +6,7 @@ The Infiltrator table shows how many tech points you have to cast your powers of
 infiltrator powers, you must expend a number of tech points equal to the power’s level or higher. You regain all
 expended tech points when you finish a long rest.
 
-You are limited in the number of tech points you can spend to power a power as indicated in the Tech Point Limit column
+You are limited in the number of tech points you can spend to cast a power as indicated in the Tech Point Limit column
 of the Infiltrator table.
 
 For example, a 9th-level infiltrator can cast powers for 1 or 2 tech points.

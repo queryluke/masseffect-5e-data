@@ -11,11 +11,11 @@ entries:
       id: post-mortem-explosion
   actions:
     - name: Mass Accelerator Machinegun
-      hit: ' The ymir mech can make a burst fire attack instead'
+      hit: ' The YMIR mech can make a burst fire attack instead'
       id: mass-accelerator-machinegun
     - name: Rocket Launcher
       text: >-
-        The ymir mech targets an area within <me-distance length='150' />. Each
+        The YMIR mech targets an area within <me-distance length='150' />. Each
         creature within <me-distance length='15' /> of the target must make a DC
         18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12)
         thunder damage or half as much damage on a successful one.

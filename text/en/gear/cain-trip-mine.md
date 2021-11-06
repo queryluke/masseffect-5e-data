@@ -2,9 +2,9 @@
 name: Cain Trip Mine
 ---
 Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
-a beam <me-distance length="15" /> tripwire. When a creature or object passes through the tripwire, the mine detonates.
+a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.
 
-A creature can spot the mine with a successful DC 13 Wisdom (Perception).
+A creature can spot the mine with a successful DC 13 Wisdom (Perception) check.
 
 To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and
 the creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the
@@ -27,4 +27,4 @@ VI|Rare|17|6d12|9,800 credits
 VII|Very Rare|17|7d12|11,100 credits
 VIII|Very Rare|18|8d12|12,400 credits
 IX|Very Rare|18|9d12|13,700 credits
-X|Spectre|19|10d12|15,000
+X|Spectre|19|10d12|15,000 credits

@@ -7,7 +7,7 @@ advancements:
     text: If you successfully disrupt the power, you overload the target's biotic implant and it cannot cast biotic powers until the end of your next turn.
   psychic-strain:
     name: Psychic Strain
-    text: If successfully disrupt the power, the target takes Xd10 psychic damage, where X is the level of the power. Targets take 1d6 psychic damage for disrupted cantrips.
+    text: If you successfully disrupt the power, the target takes Xd10 psychic damage, where X is the level of the power. Targets take 1d6 psychic damage for disrupted cantrips.
 ---
 Attempt to interrupt a creature in the process of casting a biotic power. If the creature is casting a power of 2nd level
 or lower, its power fails and has no effect. If it is casting a power of 3rd level or higher, make an ability check

@@ -1,6 +1,6 @@
 ---
 name: Nanite Cloud
-reactionQualifier: ' which you take when you would take acid'
+reactionQualifier: ' which you take when you would take acid damage'
 advancements:
   nanite-grenade:
     name: Nanite Grenade

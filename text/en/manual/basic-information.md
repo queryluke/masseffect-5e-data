@@ -40,7 +40,7 @@ How much “stuff” a vehicle can hold. This is measured in Megagrams (also kno
 
 __1 Mg = 1,000 kg = 2,204 lbs.__
 
-This will be rounded to the nearest 0.5 mg (500 kg). When calculating cargo
+This will be rounded to the nearest 0.5 Mg (500 kg). When calculating cargo
 capacity, we suggest using this as a guideline to estimate cargo capacity rather than getting bogged down in specific
 calculations. For points of reference, a small hatchback car weighs just over 1 Mg while the largest tanker ships
 in the world have a capacity of over 200,000 Mg.
@@ -97,7 +97,7 @@ to acquire these vehicles.
 Transports have a CR between 0 and 30, which is based on its hp, ac, and damage. Starships have a __+__ symbol after
 their CR, which indicates that this CR is a relative representation based on other starships. It is unlikely that operatives
 will destroy a starship with traditional weapons. Instead, they'll likely have to use other vehicles. For example,
-a starship with a CR of __12+__ has the same XP reward as a level CR creature when the operatives destroy it
+a starship with a CR of __12+__ has the same XP reward as a level 12 CR creature when the operatives destroy it
 using other vehicles. If operatives did manage to destroy the vehicle using traditional means, we recommend
-providing XP equal to the standard amount multiplied by 10. For example, a cr 12 creature provides 8,400 XP. If players
+providing XP equal to the standard amount multiplied by 10. For example, a CR 12 creature provides 8,400 XP. If players
 destroyed this with traditional means, the GM can reward 84,000 XP.

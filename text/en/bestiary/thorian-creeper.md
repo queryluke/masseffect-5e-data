@@ -14,7 +14,7 @@ entries:
     - name: Acid Vomit
       text: >-
         The creeper regurgitates acid in a 4-meter cone. A creature within the
-        code must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid
+        cone must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid
         damage.
       id: acid-vomit
 ---

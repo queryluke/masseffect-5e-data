@@ -16,7 +16,7 @@ entries:
       id: possessed-collector
   actions:
     - name: Multiattack
-      text: The collector assassin makes two Particle Rifle.
+      text: The collector assassin makes two Particle Rifle attacks.
       id: multiattack
     - name: Claw
       id: claw

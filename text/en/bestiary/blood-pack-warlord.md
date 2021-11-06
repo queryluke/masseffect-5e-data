@@ -10,7 +10,7 @@ entries:
     - name: Tech Armor
       text: >-
         As a bonus action, the warlord can activate its Tech Armor. It
-        immediately gains 30 temporary hit points. While the legate has at least
+        immediately gains 30 temporary hit points. While the warlord has at least
         1 of these temporary hit points remaining, it has +2 AC and resistance
         to bludgeoning, piercing, and slashing damage.
       id: tech-armor

@@ -19,4 +19,6 @@ startingEquipment:
   - text: (a) Omni-Blade or (b) Omni-Hammer or (c) Monomolecular Blade or (d) Riot Shield
   - text: (a) Stock Light Armor or (b) Stock Medium Armor or (c) Stock Heavy Armor
 ---
-The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking cover much less necessary and rushing their enemies much more productive. Because Sentinels have access to both biotic powers and tech powers and use Charisma as their powercasting modifier.
+The Sentinel is able to combine tech and biotics to manipulate the environment, disable and track enemies, or defend
+the party. In addition to complete weapons training, Sentinels are equipped with an advanced shield that makes taking
+cover much less necessary and rushing their enemies much more productive.

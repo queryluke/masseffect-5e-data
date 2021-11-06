@@ -26,6 +26,6 @@ entries:
       miss: >-
         Hit or miss, if the target is a creature, it must succeed on a DC 12
         Dexterity saving throw or be knocked prone and is grappled. A creature
-        takes half damage on a successful saving throw.
+        takes half damage on a successful saving throw
       id: maul
 ---

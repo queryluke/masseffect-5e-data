@@ -22,7 +22,7 @@ entries:
       text: >-
         Gain all the benefits of Omni-Shield. In addition, targets hit by the
         Fire-Shield take 3d10 fire damage. This damage detonates primed targets,
-        but the N7 Sentinel immune by any detonating effects.
+        but the N7 Paladin is immune to any detonating effects.
       id: variant--fire-shield
     - name: 'Variant: Cryo-Shield'
       text: >-
@@ -32,7 +32,7 @@ entries:
       id: variant--cryo-shield
     - name: Innate Powercasting
       text: >-
-        The n7 paladin's innate powercasting ability is Charisma (power save DC
+        The N7 paladin's innate powercasting ability is Charisma (power save DC
         14, +6 to hit with power attacks). It can innately cast the following
         powers:
       id: innate-powercasting

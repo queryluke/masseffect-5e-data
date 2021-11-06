@@ -34,7 +34,7 @@ entries:
       id: tactical-cloak
     - name: Innate Powercasting
       text: >-
-        The n7 shadow's innate powercasting ability is Intelligence (power save
+        The N7 shadow's innate powercasting ability is Intelligence (power save
         DC 14, +6 to hit with power attacks). It can innately cast the following
         powers:
       id: innate-powercasting

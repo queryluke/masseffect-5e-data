@@ -193,7 +193,7 @@
   },
   {
     "mechanics": {
-      "uses": 1,
+      "uses": 3,
       "recharge": "long"
     },
     "name": "Lucky",
@@ -299,7 +299,7 @@
     "new": true,
     "name": "Squad Leader",
     "note": "Heal and inspire allies to overcome negative conditions.",
-    "html": "<p>You know just what to say in a tight situation.</p>\n<p>As a bonus action, you can inspire all allies within earshot to instantly roll a hit die and regain that many hit\npoints. This does not expend a hit die from their pool. Allies immediately recover from the following\nconditions: {charmed}, {frightened}, {incapacitated}, {paralyzed}, {poisoned}, {prone}, {restrained}, and {stunned}. You\nmay use this ability once per long rest.</p>\n",
+    "html": "<p>You know just what to say in a tight situation.</p>\n<p>As a bonus action, you can inspire all allies within earshot to instantly roll a hit die and regain that many hit\npoints. This does not expend a hit die from their pool. Allies immediately recover from the following\nconditions: <me-condition id=\"charmed\" />, <me-condition id=\"frightened\" />, <me-condition id=\"incapacitated\" />,\n<me-condition id=\"paralyzed\" />, <me-condition id=\"poisoned\" />, <me-condition id=\"prone\" />,\n<me-condition id=\"restrained\" />, and <me-condition id=\"stunned\" />. You\nmay use this ability once per long rest.</p>\n",
     "id": "squad-leader"
   },
   {

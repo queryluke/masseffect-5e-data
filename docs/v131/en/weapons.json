@@ -376,7 +376,7 @@
       "recoil"
     ],
     "name": "Disciple",
-    "html": "<p>On a hit, the target must make a Constitution saving throw (DC 8) or becomes {stunned}.</p>\n",
+    "html": "<p>On a hit, the target must make a Constitution saving throw (DC 8) or becomes <me-condition id=\"stunned\" />.</p>\n",
     "id": "disciple"
   },
   {
@@ -770,7 +770,7 @@
       "double-tap"
     ],
     "name": "Krysae Sniper Rifle",
-    "html": "<p>+2 damage to synthorganic enemies</p>\n",
+    "html": "<p>+2 damage to synth-organic enemies</p>\n",
     "id": "krysae-sniper-rifle"
   },
   {

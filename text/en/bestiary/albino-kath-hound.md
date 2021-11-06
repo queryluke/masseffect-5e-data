@@ -4,7 +4,7 @@ entries:
   features:
     - name: Barrier
       text: >-
-        The adjutant has 5 barrier ticks. When it is dealt damage, remove one
+        The albino kath hound has 5 barrier ticks. When it is dealt damage, remove one
         barrier tick and reduce the damage by 1d8.
       id: barrier
     - name: Keen Hearing and Smell
@@ -37,6 +37,6 @@ entries:
       miss: >-
         Hit or miss, if the target is a creature, it must succeed on a DC 12
         Dexterity saving throw or be knocked prone and is grappled. A creature
-        takes half damage on a successful saving throw.
+        takes half damage on a successful saving throw
       id: maul
 ---

@@ -1,5 +1,5 @@
 ---
 mechanics:
-  uses: 1
+  uses: 3
   recharge: long
 ---

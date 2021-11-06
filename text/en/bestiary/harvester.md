@@ -5,7 +5,7 @@ entries:
     - name: Frightful Presence
       text: >-
         Each creature of the harvester's choice that is within <me-distance
-        length='150' /> of the name and aware of it must succeed on a DC 19
+        length='150' /> of the harvester and aware of it must succeed on a DC 19
         Wisdom saving throw or become <me-condition id="frightened" /> for 1
         minute. A creature can repeat the saving throw at the end of each of its
         turns, ending the effect on itself on a success. If a creature's saving
@@ -50,6 +50,6 @@ entries:
         text: The harvester makes a stomp attack.
         id: stomp-attack
       - name: Trample Attack
-        text: 'The harvester moves <me-distance length=''30'' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature.'
+        text: 'The harvester moves <me-distance length=''30'' /> in a straight line, moving over Large or smaller creatures in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take 15 (2d6 + 8) piercing damage and be knocked <me-condition id="prone" />. The harvester cannot move through a Huge or larger creature.'
         id: trample-attack
 ---

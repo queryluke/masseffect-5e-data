@@ -15,7 +15,7 @@ entries:
     - name: Acid Splash
       text: >-
         The ravager spits acid in a <me-distance length='15' adj /> cube. Each
-        creature in that line must make a DC 15 Dexterity saving throw, taking
+        creature in the area must make a DC 15 Dexterity saving throw, taking
         27 (6d8) acid damage on a failed save, or half as much damage on a
         successful one.
       id: acid-splash

@@ -42,7 +42,7 @@
           "target": "one",
           "id": "grapple",
           "name": "Grapple",
-          "hit": "The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion."
+          "hit": "The creature is grappled (escape DC 11). At the start of the abomination's next turn, it uses Post-Mortem Explosion"
         }
       ],
       "features": [
@@ -177,7 +177,7 @@
               "type": "necrotic"
             }
           ],
-          "target": "one organic creature that is grappled by the weakened adjutant, incapacitated, or restrained",
+          "target": "one organic creature that is grappled by the adjutant, incapacitated, or restrained",
           "id": "reaper-infection",
           "name": "Reaper Infection",
           "hit": "The target's hit point maximum is reduced by an amount equal to the necrotic damage taken"
@@ -246,7 +246,7 @@
         },
         {
           "name": "Barrier",
-          "text": "The adjutant has 5 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
+          "text": "The albino kath hound has 5 barrier ticks. When it is dealt damage, remove one barrier tick and reduce the damage by 1d8.",
           "id": "barrier"
         },
         {
@@ -302,7 +302,7 @@
           "target": "one",
           "id": "maul",
           "name": "Maul",
-          "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw."
+          "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw"
         }
       ]
     },
@@ -1017,7 +1017,7 @@
           "perDay": true,
           "id": "tech-armor",
           "name": "Tech Armor",
-          "text": "As a bonus action, the warlord can activate its Tech Armor. It immediately gains 30 temporary hit points. While the legate has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage."
+          "text": "As a bonus action, the warlord can activate its Tech Armor. It immediately gains 30 temporary hit points. While the warlord has at least 1 of these temporary hit points remaining, it has +2 AC and resistance to bludgeoning, piercing, and slashing damage."
         },
         {
           "recharge": "short",
@@ -1932,7 +1932,7 @@
         },
         {
           "name": "Multiattack",
-          "text": "The collector assassin makes two Particle Rifle.",
+          "text": "The collector assassin makes two Particle Rifle attacks.",
           "id": "multiattack"
         }
       ],
@@ -2038,7 +2038,7 @@
         },
         {
           "name": "Possessed Captain",
-          "text": "When the captain is possessed by a harbinger it gains temporary hit points equal to its total hit points and 8 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. Instead of summoning a seaker swarm, it summons a seeker plague.",
+          "text": "When the captain is possessed by a harbinger it gains temporary hit points equal to its total hit points and 8 barrier ticks. While it has barrier ticks it also gains resistance to bludgeoning, piercing, and slashing damage. Instead of summoning a seeker swarm, it summons a seeker plague.",
           "id": "possessed-captain"
         }
       ]
@@ -4528,7 +4528,7 @@
             "cost": 2,
             "id": "trample-attack",
             "name": "Trample Attack",
-            "text": "The harvester moves <me-distance length='30' /> in a straight line moving over Large or smaller creature in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take [dmg: 2d6 + 8] piercing damage and be knocked {prone}. The harvester cannot move through a Huge or larger creature."
+            "text": "The harvester moves <me-distance length='30' /> in a straight line, moving over Large or smaller creatures in its path. Each creature caught in its path must succeed on a DC 19 Dexterity saving throw or take 15 (2d6 + 8) piercing damage and be knocked <me-condition id=\"prone\" />. The harvester cannot move through a Huge or larger creature."
           }
         ],
         "text": "The harvester can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The harvester regains spent legendary actions at the start of its turn."
@@ -4536,7 +4536,7 @@
       "features": [
         {
           "name": "Frightful Presence",
-          "text": "Each creature of the harvester's choice that is within <me-distance length='150' /> of the name and aware of it must succeed on a DC 19 Wisdom saving throw or become <me-condition id=\"frightened\" /> for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours.",
+          "text": "Each creature of the harvester's choice that is within <me-distance length='150' /> of the harvester and aware of it must succeed on a DC 19 Wisdom saving throw or become <me-condition id=\"frightened\" /> for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the harvester's Frightful Presence for the next 24 hours.",
           "id": "frightful-presence"
         },
         {
@@ -4785,7 +4785,7 @@
           "target": "one",
           "id": "maul",
           "name": "Maul",
-          "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw."
+          "miss": "Hit or miss, if the target is a creature, it must succeed on a DC 12 Dexterity saving throw or be knocked prone and is grappled. A creature takes half damage on a successful saving throw"
         }
       ],
       "features": [
@@ -5178,7 +5178,7 @@
           ],
           "id": "grenades",
           "name": "Grenades",
-          "text": "The n7 demolisher has the following grenades equipped. It can use a grenade as an action."
+          "text": "The N7 demolisher has the following grenades equipped. It can use a grenade as an action."
         },
         {
           "name": "N7 Training",
@@ -5206,7 +5206,7 @@
           "perDay": true,
           "id": "deploy-shield-pylon",
           "name": "Deploy Shield Pylon",
-          "text": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any fiendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
+          "text": "The N7 demolisher deploys a Shield Pylon to an unoccupied space within <me-distance length='5' />. The pylon has AC 10, 25 hit points and provides half cover. At the end of the N7 demolisher's turn, any friendly creature within <me-distance length='10' /> of the pylon gains 2 shield points. Shield points gained this way cannot exceed the creatures maximum shield points."
         },
         {
           "name": "Multiattack",
@@ -5281,7 +5281,7 @@
           "perDay": true,
           "id": "variant--fire-shield",
           "name": "Variant: Fire-Shield",
-          "text": "Gain all the benefits of Omni-Shield. In addition, targets hit by the Fire-Shield take 3d10 fire damage. This damage detonates primed targets, but the N7 Sentinel immune by any detonating effects."
+          "text": "Gain all the benefits of Omni-Shield. In addition, targets hit by the Fire-Shield take 3d10 fire damage. This damage detonates primed targets, but the N7 Paladin is immune to any detonating effects."
         },
         {
           "uses": 1,
@@ -5309,7 +5309,7 @@
           ],
           "id": "innate-powercasting",
           "name": "Innate Powercasting",
-          "text": "The n7 paladin's innate powercasting ability is Charisma (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
+          "text": "The N7 paladin's innate powercasting ability is Charisma (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
         },
         {
           "name": "N7 Training",
@@ -5392,7 +5392,7 @@
           ],
           "id": "innate-powercasting",
           "name": "Innate Powercasting",
-          "text": "The n7 shadow's innate powercasting ability is Intelligence (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
+          "text": "The N7 shadow's innate powercasting ability is Intelligence (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
         },
         {
           "name": "Assassinate",
@@ -5496,7 +5496,7 @@
           ],
           "id": "powercasting",
           "name": "Powercasting",
-          "text": "The n7 slayer is a 9th-level powercaster. Its powercasting ability is Wisdom (power save DC 13, +5 to hit with powers). The n7 slayer has the following powers:"
+          "text": "The N7 slayer is a 9th-level powercaster. Its powercasting ability is Wisdom (power save DC 13, +5 to hit with powers). The N7 slayer has the following powers:"
         },
         {
           "name": "Aggressive",
@@ -6196,7 +6196,7 @@
     "cr": "18000",
     "shields": false,
     "name": "Rachni Queen",
-    "html": "<h3>Lair Actions</h3>\n<p>On initiative count 20 (losing initiative ties), the rachni queen takes a lair action to cause one\nof the following effects; it can't use the same effect two rounds in a row:</p>\n<ul>\n<li>The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's\nnext turn and take their turn on the queen's initiative.</li>\n<li>The rachni queen summons 1d6 + 1 rachni workers. These arrive at the beginning of the queen's next\nturn and take their turn on the queen's initiative.</li>\n<li>The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next\nturn and takes its turn on the queen's initiative.</li>\n</ul>\n",
+    "html": "<h3>Lair Actions</h3>\n<p>On initiative count 20 (losing initiative ties), the rachni queen takes a lair action to cause one\nof the following effects; it can't use the same effect two rounds in a row:</p>\n<ul>\n<li>The rachni queen summons 1d10 + 3 rachni workers. These arrive at the beginning of the queen's\nnext turn and take their turn on the queen's initiative.</li>\n<li>The rachni queen summons 1d6 + 1 rachni soldiers. These arrive at the beginning of the queen's next\nturn and take their turn on the queen's initiative.</li>\n<li>The rachni queen summons one rachni brood warrior. It arrives at the beginning of the queen's next\nturn and takes its turn on the queen's initiative.</li>\n</ul>\n",
     "id": "rachni-queen"
   },
   {
@@ -6505,7 +6505,7 @@
           ],
           "id": "acid-splash",
           "name": "Acid Splash",
-          "text": "The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
+          "text": "The ravager spits acid in a <me-distance length='15' adj /> cube. Each creature in the area must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one."
         },
         {
           "attack": "ranged",
@@ -7608,7 +7608,7 @@
           ],
           "id": "acid-vomit",
           "name": "Acid Vomit",
-          "text": "The creeper regurgitates acid in a 4-meter cone. A creature within the code must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid damage."
+          "text": "The creeper regurgitates acid in a 4-meter cone. A creature within the cone must succeed on a DC 15 Dexterity saving throw or take 7 (2d6) acid damage."
         }
       ],
       "features": [
@@ -8613,7 +8613,7 @@
           "target": "one",
           "id": "mass-accelerator-machinegun",
           "name": "Mass Accelerator Machinegun",
-          "hit": " The ymir mech can make a burst fire attack instead"
+          "hit": " The YMIR mech can make a burst fire attack instead"
         },
         {
           "dc": false,
@@ -8624,7 +8624,7 @@
           ],
           "id": "rocket-launcher",
           "name": "Rocket Launcher",
-          "text": "The ymir mech targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
+          "text": "The YMIR mech targets an area within <me-distance length='150' />. Each creature within <me-distance length='15' /> of the target must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 52 (8d12) thunder damage or half as much damage on a successful one."
         }
       ],
       "features": [
