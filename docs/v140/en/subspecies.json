@@ -1,0 +1,86 @@
+[
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "ability",
+        "has": {
+          "ability": "int",
+          "bonus": 1
+        }
+      },
+      {
+        "type": "profs",
+        "subType": "skill",
+        "choices": {
+          "items": [
+            "electronics",
+            "engineering",
+            "investigation",
+            "science"
+          ],
+          "count": 1
+        }
+      }
+    ],
+    "name": "Cerebral",
+    "html": "<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n<p><strong>Ability Score Increase</strong>. Your Intelligence score increases by 1.</p>\n<p><strong>Mind Shielding Unit</strong>. You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.</p>\n<p><strong>Scientific Aptitude</strong>. You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.</p>\n",
+    "id": "cybernetic-augmentation-cerebral"
+  },
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "ability",
+        "has": {
+          "ability": "dex",
+          "bonus": 1
+        }
+      },
+      {
+        "type": "profs",
+        "subType": "skill",
+        "choices": {
+          "items": [
+            "acrobatics",
+            "athletics"
+          ],
+          "count": 1
+        }
+      }
+    ],
+    "name": "Muscular",
+    "html": "<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n<p><strong>Ability Score Increase</strong>. Your Dexterity score increases by 1.</p>\n<p><strong>Overclock Unit</strong>. You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving <me-distance length=\"0\" override=\"0 {metric}\"/> on one of your turns.</p>\n<p><strong>Peak Fitness</strong>. You have proficiency in either the Acrobatics or Athletics skill.</p>\n",
+    "id": "cybernetic-augmentation-muscular"
+  },
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "sense",
+        "has": {
+          "id": "darkvision",
+          "distance": 60
+        }
+      }
+    ],
+    "name": "Ocular",
+    "html": "<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n<p><strong>Darkvision</strong>. You can see in dim light within <me-distance length=\"60\" /> of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\n<p><strong>Clarity Unit</strong>. You have advantage on saving throws against being blinded.</p>\n<p><strong>Keen Eyesight</strong>. You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within <me-distance length=\"30\" /> of you that is lightly obscured as if it were unobscured and can see in an\narea within <me-distance length=\"15\" /> of you that is heavily obscured as if it were only lightly obscured.</p>\n",
+    "id": "cybernetic-augmentation-ocular"
+  },
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "ability",
+        "has": {
+          "ability": "con",
+          "bonus": 2
+        }
+      }
+    ],
+    "name": "Visceral",
+    "html": "<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n<p><strong>Ability Score Increase</strong>. Your Constitution score increases by 2.</p>\n<p><strong>Revival Unit</strong>. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.</p>\n",
+    "id": "cybernetic-augmentation-visceral"
+  }
+]

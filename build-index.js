@@ -6,7 +6,7 @@ function setType(dir) {
   const types = [
     {
       type: 'character',
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies']
     },
     {
       type: 'equipment',
@@ -32,7 +32,7 @@ function setPrimaryType(dir, messages) {
   const types = [
     {
       type: messages.character_title.split('|')[0].trim(),
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies']
     },
     {
       type: messages.equipment_title.split('|')[0].trim(),
@@ -63,6 +63,7 @@ function setSubtype(file, messages) {
     case 'species':
       return messages.class_title.split('|')[1].trim()
     case 'species-variants':
+    case 'subspecies':
     case 'traits':
       return messages.species_title.split('|')[1].trim()
     case 'powers':
@@ -100,6 +101,7 @@ const files = [
   'powers',
   'species',
   'species-variants',
+  'subspecies',
   'traits',
   'weapons',
   'weapon-properties'
@@ -114,6 +116,7 @@ for (const lang of langs) {
   const classes = require(`${versionDir}/${lang}/classes.json`)
   const subclasses = require(`${versionDir}/${lang}/subclasses.json`)
   const species = require(`${versionDir}/${lang}/species.json`)
+  const traits = require(`${versionDir}/${lang}/traits.json`)
 
   for (const file of files) {
     const items = require(`${versionDir}/${lang}/${file}.json`)
@@ -203,6 +206,17 @@ for (const lang of langs) {
           const vRace = species.find(i => i.id === item.species)
           searchItem.qualifiers.push(vRace.name)
           searchItem.qualifiers.push(messages.variants_title)
+          searchItem.qualifiers.push(item.name)
+          searchItem.html = item.html
+          break
+
+        // VARIANTS
+        case 'subspecies':
+          searchItem.link = false
+          const ssRace = species.find(i => i.id === item.species)
+          const ssTrait = traits.find(i => i.subspecies && i.species.includes(ssRace.id))
+          searchItem.qualifiers.push(ssRace.name)
+          searchItem.qualifiers.push(ssTrait.name)
           searchItem.qualifiers.push(item.name)
           searchItem.html = item.html
           break
