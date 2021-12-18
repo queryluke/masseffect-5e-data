@@ -1,15 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: dex
-  - amount: 1
-    ability: wis
-speed:
-  - type: walk
-    speed: 35
-    color: >-
-      Their light frames and wiry strength make drell slightly faster than other
-      species.
 bodyImg: >-
   http://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -39,4 +28,15 @@ randomDimensions:
         dieType: 4
         divisor: 4
 galaxy: milky_way
+type: primary
+mechanics:
+  - type: asi
+    amount: 2
+    ability: dex
+  - type: asi
+    amount: 1
+    ability: wis
+  - type: speed
+    speed: walk
+    distance: 35
 ---

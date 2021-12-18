@@ -1,5 +1,7 @@
 ---
 name: Elcor
+speedColor: >-
+  Elcor are relatively slow compared to other species.
 alignment: >-
   Elcor are methodical, deliberate creatures that never act on irrational
   decisions. The typical Elcor is often neutral or lawful.

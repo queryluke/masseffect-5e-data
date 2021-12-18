@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: wis
-  - amount: 1
-    ability: int
-speed:
-  - type: walk
-    speed: 25
 bodyImg: >-
   http://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -35,5 +27,16 @@ randomDimensions:
         dieCount: 0
         dieType: .nan
         divisor: .nan
-galaxy: ''
+galaxy: milky_way
+type: lesser_known
+mechanics:
+  - type: asi
+    amount: 2
+    ability: wis
+  - type: asi
+    amount: 1
+    ability: int
+  - type: speed
+    speed: walk
+    distance: 25
 ---

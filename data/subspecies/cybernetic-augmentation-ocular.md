@@ -1,3 +1,0 @@
----
-subspecies: cybernetic-augmentation
----

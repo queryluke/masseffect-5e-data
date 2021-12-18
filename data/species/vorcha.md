@@ -35,5 +35,16 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+type: villainous
+mechanics:
+  - type: asi
+    amount: 2
+    ability: dex
+  - type: asi
+    amount: 1
+    ability: con
+  - type: speed
+    speed: walk
+    distance: 40
 ---

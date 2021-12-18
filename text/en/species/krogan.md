@@ -1,5 +1,6 @@
 ---
 name: Krogan
+speedColor: Your speed is not reduced by wearing armor.
 alignment: >-
   Krogan are highly predisposed towards chaos, as their culture is violent,
   selfish, and brutal. While evil is more common among krogan, those of good and

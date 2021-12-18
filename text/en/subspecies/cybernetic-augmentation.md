@@ -1,4 +1,5 @@
 ---
 name: Cybernetic Augmentation
 ---
-You have a cybernetic augmentation. Choose one of the following:
+Along with their suits, quarians also have extensive cybernetic augmentations integrated into their bodies. When receiving
+your augmentations, you can choose from the following specializations.

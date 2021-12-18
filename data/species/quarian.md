@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 1
-    ability: int
-  - amount: 1
-    ability: dex
-speed:
-  - type: walk
-    speed: 30
 bodyImg: >-
   http://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -35,5 +27,16 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+type: primary
+mechanics:
+  - type: asi
+    amount: 1
+    ability: int
+  - type: asi
+    amount: 1
+    ability: con
+  - type: speed
+    speed: walk
+    distance: 30
 ---

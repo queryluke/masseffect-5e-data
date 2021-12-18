@@ -6,7 +6,7 @@ function setType(dir) {
   const types = [
     {
       type: 'character',
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies-options']
     },
     {
       type: 'equipment',
@@ -32,7 +32,7 @@ function setPrimaryType(dir, messages) {
   const types = [
     {
       type: messages.character_title.split('|')[0].trim(),
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies-options']
     },
     {
       type: messages.equipment_title.split('|')[0].trim(),
@@ -64,6 +64,7 @@ function setSubtype(file, messages) {
       return messages.class_title.split('|')[1].trim()
     case 'species-variants':
     case 'subspecies':
+    case 'subspecies-options':
     case 'traits':
       return messages.species_title.split('|')[1].trim()
     case 'powers':
@@ -101,7 +102,7 @@ const files = [
   'powers',
   'species',
   'species-variants',
-  'subspecies',
+  'subspecies-options',
   'traits',
   'weapons',
   'weapon-properties'
@@ -210,19 +211,23 @@ for (const lang of langs) {
           searchItem.html = item.html
           break
 
-        // VARIANTS
-        case 'subspecies':
-          searchItem.link = false
+        // SUBSPECIES
+        case 'subspecies-options':
+          /*
           const ssRace = species.find(i => i.id === item.species)
           const ssTrait = traits.find(i => i.subspecies && i.species.includes(ssRace.id))
           searchItem.qualifiers.push(ssRace.name)
           searchItem.qualifiers.push(ssTrait.name)
           searchItem.qualifiers.push(item.name)
-          searchItem.html = item.html
+
+           */
+          // FIXME: can be species or subspecies
+          // searchItem.link = `/species/${ssRace.id}`
           break
 
         // TRAITS
         case 'traits':
+          /*
           searchItem.link = false
           if (item.species.length > 1) {
             let newSearchItem = {}
@@ -239,6 +244,7 @@ for (const lang of langs) {
           searchItem.qualifiers.push(race.name)
           searchItem.qualifiers.push(messages.traits_title)
           searchItem.html = item.html
+           */
           break
 
         // WEAPON PROPERTIES

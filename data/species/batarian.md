@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: con
-  - amount: 1
-    ability: cha
-speed:
-  - type: walk
-    speed: 30
 bodyImg: >-
   http://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -36,4 +28,15 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: milky_way
+type: villainous
+mechanics:
+  - type: asi
+    amount: 2
+    ability: con
+  - type: asi
+    amount: 1
+    ability: cha
+  - type: speed
+    speed: walk
+    distance: 30
 ---

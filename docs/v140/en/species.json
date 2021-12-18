@@ -1,21 +1,5 @@
 [
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "cha"
-      },
-      {
-        "amount": 1,
-        "ability": "con"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "https://data.n7.world/images/species/angara.png",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351",
     "randomDimensions": {
@@ -54,6 +38,24 @@
       }
     },
     "galaxy": "andromeda",
+    "type": "andromeda",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "cha"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Angara",
     "alignment": "Angara are emotional creatures and strongly community oriented. Their emotion-driven tendencies make them often chaotic neutral or chaotic good.",
     "size": "Angara are slightly taller, on average, than humans, ranging from 174cm (5'8\") to 204cm (6'8\"). Your size is Medium.",
@@ -68,22 +70,6 @@
     "id": "angara"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "cha"
-      },
-      {
-        "amount": 1,
-        "ability": "wis"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
     "randomDimensions": {
@@ -122,6 +108,24 @@
       }
     },
     "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "cha"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Asari",
     "alignment": "Asari are biased towards goodness, but exhibit a range of alignments not dissimilar to humans. Most Maiden stage asari are chaotic, Matrons level out to neutral, Matriarchs are heavily lawful.",
     "size": "Asari have builds incredibly similar to female humans. Your size is Medium.",
@@ -136,22 +140,76 @@
     "id": "asari"
   },
   {
-    "abilityScoreIncrease": [
+    "bodyImg": "https://vignette.wikia.nocookie.net/masseffect/images/9/95/ME3_Awakened_Collector_Adept.png/revision/latest/scale-to-width-down/500?cb=20130227102752",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/aa/Collector_base_all-out.png/revision/latest/scale-to-width-down/500",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 58,
+          "metric": 147
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 115,
+          "metric": 52
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "type": "villainous",
+    "mechanics": [
       {
+        "type": "asi",
         "amount": 2,
-        "ability": "con"
+        "ability": "dex"
       },
       {
+        "type": "asi",
         "amount": 1,
-        "ability": "cha"
-      }
-    ],
-    "speed": [
+        "ability": "wis"
+      },
       {
-        "type": "walk",
-        "speed": 30
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
       }
     ],
+    "name": "Awakened Collector",
+    "alignment": "The results of years of indoctrination by Harbinger can have varied results on awakened collector individuals. Their alignment varies, but they tend towards lawful neutral.",
+    "size": "Like protheans, collectors are slightly taller than humans, but generally never taller than 2 meters (6'5\"). Your size is Medium.",
+    "snippet": "The Collectors are an enigmatic species that live beyond the Omega 4 Relay and controlled by the Reapers. When the Reaper-killer known as Leviathan fought the Collectors, it severed their connection to Harbinger",
+    "age": "Little is known about collector lifespans, but general speculation is that they have slightly longer lifespans than Protheans, between 400 and 500 years.",
+    "skinColor": "Shades of brown with hints of green",
+    "eyeColor": "Yellow, Green, Black, and Brown",
+    "bioticPotential": "All",
+    "homeworld": "Artificial planet on the edge of the Tartarus Debris Field",
+    "language": "Tch'tk",
+    "html": "<p>The Collectors are an enigmatic species that live beyond the Omega 4 Relay, a mass relay within the same system as\nOmega, in the Terminus Systems. They are rarely seen in the Terminus itself, let alone Citadel space, and are\ngenerally regarded as a myth by Citadel citizens. Definite sightings of Collectors have been made on Omega every few centuries.</p>\n<h3>Genetic Modification</h3>\n<p>Collectors are former Protheans that have been completely subjugated by their Reaper masters. Their DNA shows signs of\n&quot;extensive genetic rewrite&quot; including three fewer chromosomes, reduced heterochromatin structure, and the elimination\nof superfluous &quot;junk&quot; sequences.</p>\n<h3>The Awakening</h3>\n<p>When the Reaper-killer known as Leviathan fought the Collectors, it severed their connection to Harbinger with a\nthrall device. Most Collector forces died as a result, but a few survived. Now, these rare individuals fight for the\nmemory of their people, a proud species broken by the Reapers.</p>\n<h3>Collector Names</h3>\n<p>Collector communication mostly consists of insectoid chirps and trills and little is known about the meaning of their names (if any).</p>\n<p><strong>Collector Names</strong>: Ci’h Ci’z, E’e’e’e’eht, Eep’p Ip, Giii’iiig, Hhheeek, Ih Ih Ih, Khyck, Tch Tch, ‘uhk ‘uhk, Wir H’h’h, Ywt’Ywt, Zzzk</p>\n",
+    "id": "awakened-collector"
+  },
+  {
     "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Balak_ME_adversaryshot.png/revision/latest/scale-to-width-down/422?cb=20140812140358",
     "randomDimensions": {
@@ -190,6 +248,24 @@
       }
     },
     "galaxy": "milky_way",
+    "type": "villainous",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "cha"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Batarian",
     "alignment": "Because of the tenets of Hegemony, batarians tend to be lawful evil, although there are outliers on the moral spectrum.",
     "size": "Batarian bodies are similar to humans, with the exception of a large forehead to accommodate their additional four eyes, making them about 15cm (6\") taller. Your size is Medium.",
@@ -203,23 +279,6 @@
     "id": "batarian"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "dex"
-      },
-      {
-        "amount": 1,
-        "ability": "wis"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 35,
-        "color": "Their light frames and wiry strength make drell slightly faster than other species."
-      }
-    ],
     "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/c/cf/Drell_biotic_field.png/revision/latest/scale-to-width-down/640?cb=20130623224527",
     "randomDimensions": {
@@ -258,7 +317,26 @@
       }
     },
     "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      }
+    ],
     "name": "Drell",
+    "speedColor": "Their light frames and wiry strength make drell slightly faster than other species.",
     "alignment": "Their religious influences set the Drell firmly in a trend towards lawful neutral, but this is often dependent on their station in life and career.",
     "size": "Drell range from under 150 to 180 cm tall and have slender builds. Your size is Medium.",
     "snippet": "The drell are a reptile-like species that was rescued from their dying homeworld by the hanar following the first contact between the two. Since then, the drell have remained loyal to the hanar for their camaraderie and have fit comfortably into galactic civilization.",
@@ -271,23 +349,6 @@
     "id": "drell"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "str"
-      },
-      {
-        "amount": 1,
-        "ability": "wis"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 20,
-        "color": "Elcor are relatively slow compared to other species."
-      }
-    ],
     "bodyImg": "https://data.n7.world/images/species/elcor.png",
     "img": "https://data.n7.world/images/species/elcor_card.jpg",
     "randomDimensions": {
@@ -325,8 +386,27 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "lesser_known",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 20
+      }
+    ],
     "name": "Elcor",
+    "speedColor": "Elcor are relatively slow compared to other species.",
     "alignment": "Elcor are methodical, deliberate creatures that never act on irrational decisions. The typical Elcor is often neutral or lawful.",
     "size": "Elcor stand between 2 and 2.5 meters tall (7-8 feet) at the shoulder. Your size is Medium.",
     "snippet": "The elcor are a Citadel species native to the high-gravity world Dekuuna. They are massive creatures, standing on four muscular legs for increased stability. Elcor move slowly, an evolved response to an environment where a fall can be lethal.",
@@ -335,22 +415,6 @@
     "id": "elcor"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "int"
-      },
-      {
-        "amount": 1,
-        "ability": "str"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119",
     "randomDimensions": {
@@ -388,7 +452,25 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "villainous",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Geth",
     "alignment": "Your standard Geth platform is neutral good, wanting to prosper and communicate with others, defending themselves only if threatened. Heretics are lawful evil, serving the Reapers and slavishly accomplishing their will.",
     "size": "Standard geth are around 2 meters tall (6'5\"). Your size is Medium.",
@@ -398,23 +480,6 @@
     "id": "geth"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "wis"
-      },
-      {
-        "amount": 1,
-        "ability": "cha"
-      }
-    ],
-    "speed": [
-      {
-        "type": "swim",
-        "speed": 30,
-        "color": "Hanar are a water-based lifeform."
-      }
-    ],
     "bodyImg": "https://data.n7.world/images/species/hanar.png",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825",
     "randomDimensions": {
@@ -468,9 +533,28 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "lesser_known",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "cha"
+      },
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
     "name": "Hanar",
     "alignment": "Most hanar are lawful due to the religious influence on their society.",
+    "speedColor": "Hanar are a water-based lifeform.",
     "size": "Due to their long tentacles, hanar \"stand\" about as tall as humans. Their bodies are around 1.5 meters long (4-5'). Your size is Medium.",
     "snippet": "The hanar are a species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species. Hanar are known for their intense politeness when speaking and their strong religious beliefs.",
     "age": "Hanar usually reach maturity around 40 years and typically live to be 180 years old.",
@@ -478,38 +562,6 @@
     "id": "hanar"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 1,
-        "ability": "str"
-      },
-      {
-        "amount": 1,
-        "ability": "dex"
-      },
-      {
-        "amount": 1,
-        "ability": "con"
-      },
-      {
-        "amount": 1,
-        "ability": "int"
-      },
-      {
-        "amount": 1,
-        "ability": "wis"
-      },
-      {
-        "amount": 1,
-        "ability": "cha"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7c/Grissom_Academy_Students.png/revision/latest/scale-to-width-down/640?cb=20120312230100",
     "randomDimensions": {
@@ -547,7 +599,45 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "cha"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Human",
     "alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
     "size": "Humans vary widely in height and build, from barely 1.5 meters to well over 2 meters tall. Regardless of your position in that range, your size is Medium.",
@@ -571,7 +661,7 @@
       {
         "type": "walk",
         "speed": 30,
-        "color": "Your speed is not slowed by heavy armor."
+        "color": "Your speed is not reduced by wearing armor."
       }
     ],
     "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500",
@@ -611,8 +701,30 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "nullify-armor-str-restriction"
+      }
+    ],
     "name": "Krogan",
+    "speedColor": "Your speed is not reduced by wearing armor.",
     "alignment": "Krogan are highly predisposed towards chaos, as their culture is violent, selfish, and brutal. While evil is more common among krogan, those of good and neutral alignments do exist among them. Good krogan especially find it difficult to thrive in Tuchanka and krogan society.",
     "size": "Krogan stand at over 2 meters tall (~7') and weigh close to 400 pounds. Your size is Medium.",
     "snippet": "The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh environments, scarce resources, and an overabundance of vicious predators.",
@@ -621,22 +733,6 @@
     "id": "krogan"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "wis"
-      },
-      {
-        "amount": 1,
-        "ability": "dex"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "https://data.n7.world/images/species/prothean.png",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802",
     "randomDimensions": {
@@ -674,7 +770,25 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "expanded",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Prothean",
     "alignment": "Protheans come from a society that was heavily regulated and favored the strong. They are generally lawful neutral.",
     "size": "Protheans are slightly taller than humans, but generally never taller than 2 meters (6'5\"). Your size is Medium.",
@@ -684,22 +798,6 @@
     "id": "prothean"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 1,
-        "ability": "int"
-      },
-      {
-        "amount": 1,
-        "ability": "dex"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "http://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430",
     "randomDimensions": {
@@ -737,7 +835,25 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Quarian",
     "alignment": "The proximity and longstanding traditions of the Migrant Fleet make Quarians very lawful as a species, occasionally drifting toward neutral. Morality can vary but tends towards neutral or good, as evil quarians are typically exiled from the Flotilla.",
     "size": "Quarians have builds similar to humans. Your size is Medium.",
@@ -747,22 +863,6 @@
     "id": "quarian"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "int"
-      },
-      {
-        "amount": 1,
-        "ability": "dex"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/Mordin_-_objection_noted.png/revision/latest/scale-to-width-down/640?cb=20141223052318",
     "randomDimensions": {
@@ -800,7 +900,25 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Salarian",
     "alignment": "Salarians can have dubious morals, especially when it comes to experiments and advancing technology. Neutrality is a common alignment for salarians.",
     "size": "Salarians are tall with elongated bodies, with a height between 180 and 210 cm (6 to 7 feet), yet a weight below 100 lbs. Your size is Medium.",
@@ -810,26 +928,6 @@
     "id": "salarian"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 1,
-        "ability": "con"
-      },
-      {
-        "amount": 1,
-        "ability": "dex"
-      },
-      {
-        "amount": 1,
-        "ability": "str"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 30
-      }
-    ],
     "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040",
     "randomDimensions": {
@@ -867,7 +965,30 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "name": "Turian",
     "alignment": "Turians are a highly militaristic and disciplined species. Turians are born and raised in strict law and order and as a result are inclined towards lawful alignments, but it is not uncommon for neutral or chaotic turians to leave Palaven in search of freedom from command.",
     "size": "Turians are taller than humans, standing over 2 meters tall (6'5\"). Your size is Medium.",
@@ -877,22 +998,6 @@
     "id": "turian"
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "wis"
-      },
-      {
-        "amount": 1,
-        "ability": "int"
-      }
-    ],
-    "speed": [
-      {
-        "type": "walk",
-        "speed": 25
-      }
-    ],
     "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/b/b4/Volus.jpg/revision/latest/scale-to-width-down/640?cb=20121009195731",
     "randomDimensions": {
@@ -930,7 +1035,25 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "lesser_known",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 25
+      }
+    ],
     "name": "Volus",
     "alignment": "Volus society tends towards lawful as a whole, with clans fighting over economic resources and aggressive negotiating. Even if they are chaotic individuals. They tend towards neutral morality.",
     "size": "Volus are between 1 and 1.5 meters (3-5 feet). Your size is Small.",
@@ -993,7 +1116,25 @@
         }
       }
     },
-    "galaxy": "",
+    "galaxy": "milky_way",
+    "type": "villainous",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 40
+      }
+    ],
     "name": "Vorcha",
     "alignment": "Most vorcha are chaotic evil or almost always chaotic even if their morality is strengthened.",
     "size": "Vorcha are taller on average than humans (though they naturally slouch) and relatively slender. Your size is Medium.",

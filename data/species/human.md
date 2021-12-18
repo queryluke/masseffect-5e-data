@@ -1,20 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 1
-    ability: str
-  - amount: 1
-    ability: dex
-  - amount: 1
-    ability: con
-  - amount: 1
-    ability: int
-  - amount: 1
-    ability: wis
-  - amount: 1
-    ability: cha
-speed:
-  - type: walk
-    speed: 30
 bodyImg: >-
   http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -43,5 +27,28 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+type: primary
+mechanics:
+  - type: asi
+    amount: 1
+    ability: str
+  - type: asi
+    amount: 1
+    ability: dex
+  - type: asi
+    amount: 1
+    ability: con
+  - type: asi
+    amount: 1
+    ability: int
+  - type: asi
+    amount: 1
+    ability: wis
+  - type: asi
+    amount: 1
+    ability: cha
+  - type: speed
+    speed: walk
+    distance: 30
 ---

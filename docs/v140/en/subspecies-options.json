@@ -1,0 +1,52 @@
+[
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "name": "Cerebral",
+    "html": "<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n",
+    "id": "cybernetic-augmentation-cerebral"
+  },
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "options": true,
+        "amount": 1
+      }
+    ],
+    "name": "Muscular",
+    "html": "<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n",
+    "id": "cybernetic-augmentation-muscular"
+  },
+  {
+    "species": "quarian",
+    "mechanics": null,
+    "name": "Ocular",
+    "html": "<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n",
+    "id": "cybernetic-augmentation-ocular"
+  },
+  {
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 2
+      }
+    ],
+    "name": "Visceral",
+    "html": "<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n",
+    "id": "cybernetic-augmentation-visceral"
+  }
+]

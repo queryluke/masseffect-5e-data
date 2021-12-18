@@ -1,13 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: wis
-  - amount: 1
-    ability: cha
-speed:
-  - type: swim
-    speed: 30
-    color: Hanar are a water-based lifeform.
 bodyImg: https://data.n7.world/images/species/hanar.png
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825
@@ -46,5 +37,16 @@ randomDimensions:
       metric:
         dieCount: 5
         dieType: 6
-galaxy: ''
+galaxy: milky_way
+type: lesser_known
+mechanics:
+  - type: asi
+    amount: 2
+    ability: wis
+  - type: asi
+    amount: 1
+    ability: cha
+  - type: speed
+    speed: swim
+    distance: 30
 ---

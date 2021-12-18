@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: cha
-  - amount: 1
-    ability: con
-speed:
-  - type: walk
-    speed: 30
 bodyImg: https://data.n7.world/images/species/angara.png
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351
@@ -35,4 +27,15 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: andromeda
+type: andromeda
+mechanics:
+  - type: asi
+    amount: 2
+    ability: cha
+  - type: asi
+    amount: 1
+    ability: con
+  - type: speed
+    speed: walk
+    distance: 30
 ---

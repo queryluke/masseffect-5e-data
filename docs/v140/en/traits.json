@@ -268,6 +268,31 @@
   },
   {
     "species": [
+      "awakened-collector"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 13,
+        "mod": "dex"
+      }
+    ],
+    "name": "Chitinous Exoskeleton",
+    "html": "<p>When you aren’t wearing armor, your AC is 13 + your Dexterity modifier. You can use your\nexoskeleton to determine your AC if the armor you wear would leave you with a lower AC. A held shield’s\nbenefits apply as normal while you use your natural exoskeleton.</p>\n",
+    "id": "chitinous-exoskeleton"
+  },
+  {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-ocular"
+    ],
+    "mechanics": [],
+    "name": "Clarity Unit",
+    "html": "<p>You have advantage on saving throws against being blinded.</p>\n",
+    "id": "clarify-unit"
+  },
+  {
+    "species": [
       "hanar"
     ],
     "mechanics": [
@@ -285,13 +310,14 @@
     "id": "contra-gravitic-levitation"
   },
   {
-    "species": [
-      "quarian"
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-ocular"
     ],
-    "subspecies": true,
-    "name": "Cybernetic Augmentation",
-    "html": "<p>You have a cybernetic augmentation. Choose one of the following:</p>\n",
-    "id": "cybernetic-augmentation"
+    "mechanics": [],
+    "name": "Darkvision",
+    "html": "<p>You can see in dim light within <me-distance length=\"60\" /> of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\n",
+    "id": "darkvision-60"
   },
   {
     "species": [
@@ -369,6 +395,30 @@
   },
   {
     "species": [
+      "quarian"
+    ],
+    "mechanics": [
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "poison"
+        }
+      },
+      {
+        "type": "defenses",
+        "subType": "resistance",
+        "has": {
+          "id": "necrotic"
+        }
+      }
+    ],
+    "name": "Hermetic Suit",
+    "html": "<p>Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of\ntheir starting equipment.</p>\n<p>For each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.</p>\n",
+    "id": "hermetic-suit-quarian"
+  },
+  {
+    "species": [
       "volus"
     ],
     "mechanics": [
@@ -390,30 +440,6 @@
     "name": "Hermetic Suit",
     "html": "<p>Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gels as part of your\nstarting equipment.</p>\n<p>If you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus appropriate environment within\n10 minutes, you die.</p>\n",
     "id": "hermetic-suit-volus"
-  },
-  {
-    "species": [
-      "quarian"
-    ],
-    "mechanics": [
-      {
-        "type": "defenses",
-        "subType": "resistance",
-        "has": {
-          "id": "poison"
-        }
-      },
-      {
-        "type": "defenses",
-        "subType": "resistance",
-        "has": {
-          "id": "necrotic"
-        }
-      }
-    ],
-    "name": "Hermetic Suit",
-    "html": "<p>Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of\ntheir starting equipment.</p>\n<p>For each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.</p>\n",
-    "id": "hermetic-suit"
   },
   {
     "species": [
@@ -492,6 +518,16 @@
     "name": "Integrated Protection",
     "html": "<p>Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor,\nbut if you are wielding a weapon or shield that provides additional AC, you apply its bonus as normal.</p>\n<p>You can alter your armor type for 2 omni-gel each time you finish a long rest. Choose one mode to adopt from the\nIntegrated Protection table, provided you meet the mode’s prerequisite.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mode</th>\n<th>Prerequisite</th>\n<th>AC</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lithe</td>\n<td>None</td>\n<td>11 + your Dexterity Modifier. Advantage on Dexterity (Stealth) checks.</td>\n</tr>\n<tr>\n<td>Composite Plating</td>\n<td>Medium armor proficiency</td>\n<td>12 + your Dexterity modifier (maximum of 2) + proficiency bonus</td>\n</tr>\n<tr>\n<td>Asymmetric Defense Plating</td>\n<td>Heavy armor proficiency</td>\n<td>15 + proficiency bonus. Disadvantage on Dexterity (Stealth) checks.</td>\n</tr>\n</tbody>\n</template></v-simple-table><br>\n<h3>Innate Shielding</h3>\n<p>You have 5 shields (regen 5). You can upgrade these by using armor mods.</p>\n<h3>Armor Mods</h3>\n<p>You can augment your armor by integrating armor mods into your system. You can spend 8 hours removing, adding, or\nreplacing a mod. When you remove or replace a mod in this way, the replaced or removed mod is lost. The mod cannot be salvaged,\nnot even with the assistance of Armorsmith's or Tailor's tools.</p>\n<p>You have 2 chest mod slots, 1 mod slot in your arms, legs, and head each. You cannot add new slots in any way.</p>\n",
     "id": "integrated-protection"
+  },
+  {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-ocular"
+    ],
+    "mechanics": [],
+    "name": "Keen Eyesight",
+    "html": "<p>You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within <me-distance length=\"30\" /> of you that is lightly obscured as if it were unobscured and can see in an\narea within <me-distance length=\"15\" /> of you that is heavily obscured as if it were only lightly obscured.</p>\n",
+    "id": "keen-eyesight"
   },
   {
     "species": [
@@ -610,6 +646,16 @@
     "id": "mind-meld"
   },
   {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-cerebral"
+    ],
+    "mechanics": [],
+    "name": "Mind Shielding Unit",
+    "html": "<p>You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.</p>\n",
+    "id": "mind-shielding-unit"
+  },
+  {
     "species": [
       "asari"
     ],
@@ -677,6 +723,26 @@
     "name": "Non-Differentiated Cells",
     "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage.</p>\n",
     "id": "non-differentiated-cells"
+  },
+  {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-muscular"
+    ],
+    "mechanics": [],
+    "name": "Overclock Unit",
+    "html": "<p>You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving <me-distance length=\"0\" override=\"0 {metric}\"/> on one of your turns.</p>\n",
+    "id": "overclock-unit"
+  },
+  {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-muscular"
+    ],
+    "mechanics": [],
+    "name": "Peak Fitness",
+    "html": "<p>You have proficiency in either the Acrobatics or Athletics skill.</p>\n",
+    "id": "peak-fitness"
   },
   {
     "species": [
@@ -757,6 +823,16 @@
     "id": "repair-matrix"
   },
   {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-visceral"
+    ],
+    "mechanics": [],
+    "name": "Revival Unit",
+    "html": "<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.</p>\n",
+    "id": "revival-unit"
+  },
+  {
     "species": [
       "batarian"
     ],
@@ -791,6 +867,47 @@
     "name": "Savvy Dealings",
     "html": "<p>You have proficiency in the Persuasion skill.</p>\n",
     "id": "savvy-dealings"
+  },
+  {
+    "species": [],
+    "subspecies": [
+      "cybernetic-augmentation-cerebral"
+    ],
+    "mechanics": [],
+    "name": "Scientific Aptitude",
+    "html": "<p>You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.</p>\n",
+    "id": "scientific-aptitude"
+  },
+  {
+    "species": [
+      "awakened-collector"
+    ],
+    "mechanics": [
+      {
+        "type": "action",
+        "recharge": "long",
+        "uses": 1
+      },
+      {
+        "type": "bonus-action",
+        "recharge": "manual",
+        "uses": 3,
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 4,
+            "mod": false,
+            "type": "necrotic",
+            "bonus": 1
+          }
+        ],
+        "range": 150,
+        "note": "damage bypasses shields and detonates any primed condition"
+      }
+    ],
+    "name": "Seeker Swarm",
+    "html": "<p>Seeker Swarm\nAs an action, you call three seeker swarms that orbit around you. The swarms remain for 1 hour or until you dismiss\nthem as a bonus action. While active, you may use a bonus action to expend one to three swarms that hit a creature\nof your choice within 60 meters. A swarm deals 1d4 + 1 necrotic damage to its target and detonates any primed\ncondition (this damage bypasses shields). If you expend more than one swarm, they all strike simultaneously, and you\ncan direct them to hit one creature or several.</p>\n<p>Once you use this feature, you must take a long rest before using it again.</p>\n",
+    "id": "seeker-swarm"
   },
   {
     "species": [
@@ -1014,5 +1131,26 @@
     "name": "Twice as Bright",
     "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n",
     "id": "twice-as-bright"
+  },
+  {
+    "species": [
+      "awakened-collector"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "flying",
+        "distance": 30,
+        "note": "if you end your movement in the air, you fall to the ground at the end of your turn"
+      },
+      {
+        "type": "resistance",
+        "damageType": false,
+        "text": "whenever you suffer falling damage you only suffer half the amount"
+      }
+    ],
+    "name": "Wings",
+    "html": "<p>You have fully developed wings that allow you to fly over short distances. You gain a flying speed of 12 meters but if\nyou end your movement in the air, you fall to the ground at the end of your turn.</p>\n<p>Additionally, whenever you suffer falling damage you only suffer half the amount.</p>\n",
+    "id": "wings"
   }
 ]
