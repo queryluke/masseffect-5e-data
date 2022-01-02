@@ -1,5 +1,5 @@
 ---
 name: Bio-Electric Ward
 ---
-Increase your AC by 1. You have a resistance to lightning damage, but this resistance does not apply to damage
-done to your shields.
+Your innate bioelectricity provides resistance to both cold and lightning damage. This resistance is only
+applied to damage done to your hit points.

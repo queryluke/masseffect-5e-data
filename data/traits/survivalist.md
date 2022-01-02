@@ -2,8 +2,8 @@
 species:
   - angara
 mechanics:
-  - type: profs
-    subType: skill
+  - type: prof
+    profType: skill
     has:
-      - persuasion
+      - survival
 ---

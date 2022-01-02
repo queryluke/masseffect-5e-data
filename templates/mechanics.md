@@ -22,6 +22,17 @@ mechanics:
     amount: 1
     # results in
     # {type: asi, ability: (the selection), amount: 1, model: 'subspecies-options', id: 'cybernetic-augmentation-cerebral', path: 'species'}
+# Proficiencies
+  - type: prof
+    profType: enum [skill, weapon, armor, saving_throw, tool]
+    has: enum [types of that prof]
+    expertise: boolean
+  - type: prof-choice
+    profType: enum [skill, weapon, armor, saving_throw, tool]
+    options: true
+    limit: [types] #optional array
+    amount: integer
+    expertise: boolean
 # AC
   - type: natural-armor
     base: 13
@@ -34,27 +45,61 @@ mechanics:
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
   - type: speed
-    speed: walk
-    distance: 30
+    speed: enum [walk, fly, burrow, swim, climb]
+    distance: integer
     note: string #note is optional.
 # Attacks, Actions, Bonus Actions, and Reactions
-  - type: enum [action, bonus-action, reaction, attack]
-    recharge: enum [long, short, manual] # optional, 'manual' will display a "reload" button
-    uses: integer # optional, required if recharge is used
-    mod: enum [str, dex, con, int, wis, cha] # applied to damage, dc, etc
+  - type: enum [action, bonus-action, reaction, attack] # simply indicates where to render on the character sheet
+    resource:
+      displayType: enum [heat, counter, checkbox]
+      reset: enum [short, long, manual] # 'manual' will display a "reload" button
+      resetTo: enum [min, max] #optional, default min
+      max:
+        type: enum [flat, mod, proficiency]
+        value: any [integer for flat, enum for mod, null for proficiency]
+        min: integer # optional, if there were ever a use case for min 2
+      isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
+    range:
+      short: integer (0 = self, touch = 1)
+      long: integer (0 = self, touch = 1)
+    attack: # optional, renders attack attributes
+      proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
+      mod: enum [str, dex, con, int, wis, cha] # optional
     damage:
-      - dieCount: integer
+      - dieCount: integer (0 = special)
         dieType: integer
         mod: boolean # whether to add the mod to the damage
         type: enum [damage types]
         bonus: integer # flat bonus
-    proficient: boolean # whether or not to add the proficiency bonus to attack
-    range: integer
     dc:
       base: integer (should almost always be 8...)
       mod: boolean # whether to add the mod to the dc
       save: enum [str, dex, con, int, wis, cha]
+    notes:
+      - string # optional, appends to damage type as a caveat or used to display text for special damage types
+    shortDesc: string # optional
 # Misc
   # Do not check for STR requirements of armor (to reduce speed by 10)
   - type: nullify-armor-str-restriction
 ---
+
+
+Display (Attacks, Actions, Bonus Actions, Reactions)
+______________________________________________________________________________________
+| | $name |           [ $range ]  [ $attackHit / $dc ]         [ $damage ]  [$notes] |
+| | $properties OR $range-on-mobile |
+| | $shortDesc or $desc |
+| | $properties-on-mobile |                                            [ $resource ] |
+______________________________________________________________________________________
+
+Display Resource
+
+Heat
+| [$reload-if-manual] [progress-bar-md-and-up] [$fire] |
+|                     [$current] / [$max]              |
+
+Counter
+| [$minus] [$current] / [$max] [$plus] [$reset-if-manual]|
+
+Checkbox
+| [$checkboxes] [if reset === short || long ( / [$reset]) else [$reset-button] ]|
