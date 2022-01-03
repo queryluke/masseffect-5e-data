@@ -1,5 +1,5 @@
 ---
-species: quarian
+subspecies: cybernetic-augmentation
 mechanics:
   - type: asi
     ability: con

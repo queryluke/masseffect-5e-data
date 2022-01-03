@@ -31,9 +31,6 @@ galaxy: milky_way
 type: primary
 mechanics:
   - type: asi
-    amount: 2
-    ability: cha
-  - type: asi
     amount: 1
     ability: wis
   - type: speed

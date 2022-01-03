@@ -1,4 +1,4 @@
 ---
-species: quarian
-mechanics: null
+subspecies: cybernetic-augmentation
+mechanics: []
 ---
