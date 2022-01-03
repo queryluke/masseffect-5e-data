@@ -36,8 +36,8 @@ mechanics:
     expertise: boolean
 # AC
   - type: natural-armor
-    base: 13
-    mod: dex
+    base: integer
+    mod: enum [abilities]
 # IRVs
   #resistances
   - type: resistance

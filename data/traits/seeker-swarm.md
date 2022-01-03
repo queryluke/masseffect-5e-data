@@ -3,17 +3,23 @@ species:
   - awakened-collector
 mechanics:
   - type: action
-    recharge: long
-    uses: 1
+    resource:
+      isolated: true
   - type: bonus-action
-    recharge: manual
-    uses: 3
+    resource:
+      displayType: counter
+      reset: manual
+      max:
+        type: flat
+        value: 3
+      isolated: true
     damage:
       - dieCount: 1
         dieType: 4
         mod: false
         type: necrotic
         bonus: 1
-    range: 150
-    note: damage bypasses shields and detonates any primed condition
+    range:
+      short: 150
+    notes: damage bypasses shields and detonates any primed condition
 ---
