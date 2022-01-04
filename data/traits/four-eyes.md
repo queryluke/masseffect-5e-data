@@ -2,11 +2,9 @@
 species:
   - batarian
 mechanics:
-  - type: profs
-    subType: skill
-    has:
-      - perception
-  - type: bonus
-    has:
-      id: four-eyes
+  - type: prof
+    profType: skill
+    value: perception
+  - type: bonus-action
+    shortDesc: 'You make Search as a bonus action'
 ---

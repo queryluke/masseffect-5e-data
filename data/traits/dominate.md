@@ -6,6 +6,6 @@ subspecies:
 mechanics:
   - type: power
     powerId: dominate
-    resource: true # i.e., the defaults
+    resource: {} # i.e., the defaults
     mod: wis
 ---
