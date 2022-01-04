@@ -43,10 +43,21 @@ mechanics:
   - type: resistance
     damageType: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
-# Saving Throws
+# Saving Throws, skill checks
   - type: saving-throw
     note: string
     effect: enum [advantage, disadvantage]
+# Initiative
+  - type: initiative or skill-check
+    effect:
+      type: [advantage, disadvantage, flat, mod, proficiency]
+      value: any
+# skill checks
+  - type: skill-check
+    effect:
+      type: [advantage, disadvantage, flat, mod, proficiency]
+      value: any
+      note: string
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
   - type: speed

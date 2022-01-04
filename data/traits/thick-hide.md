@@ -2,11 +2,7 @@
 species:
   - elcor
 mechanics:
-  - type: ac
-    has:
-      bonus: 2
-  - type: modOverride
-    subType: ac
-    has:
-      mod: con
+  - type: natural-armor
+    base: 13
+    mod: con
 ---
