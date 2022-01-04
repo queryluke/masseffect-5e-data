@@ -2,7 +2,7 @@
 species:
   - batarian
 mechanics:
-  - type: trait
+  - type: other
     resource:
       reset: short
 ---

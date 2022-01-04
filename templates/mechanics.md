@@ -54,10 +54,10 @@ mechanics:
     distance: integer
     note: string #note is optional.
 # Attacks, Actions, Bonus Actions, and Reactions
-  - type: enum [action, bonus-action, reaction, attack, trait, feature, feat] # simply indicates where to render on the character sheet
+  - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
     resource: # @resource
-      displayType: enum [heat, counter, checkbox]
-      reset: enum [short, long, manual] # 'manual' will display a "reload" button, default long
+      displayType: enum [heat, counter, checkbox] # default checkbox
+      reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
       resetTo: enum [min, max] #optional, default min
       max: # optional, default is flat, 1 per
         type: enum [flat, mod, proficiency]
