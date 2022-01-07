@@ -1,7 +1,5 @@
 ---
-species: []
-subspecies:
-  - lifestage-matron
+species: [lifestage-matron]
 mechanics:
   - type: prof
     profType: skill

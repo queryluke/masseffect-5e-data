@@ -8,6 +8,27 @@
 # class/subclass
 # class/subclass/[n-level]
 
+# models
+
+# resource (e.g., x per rest)
+resource:
+  displayType: enum [heat, counter, checkbox] # default checkbox
+  reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
+  resetTo: enum [min, max] #optional, default min
+  max: # optional, default is flat, 1 per
+    type: enum [flat, mod, proficiency]
+    value: any [integer for flat, enum for mod, null for proficiency]
+    min: integer # optional, if there were ever a use case for min 2
+  isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
+
+# bonus
+bonus:
+  type: enum [flat, mod, proficiency, level]
+  value: integer, string, or null
+  multiplier: 1
+
+# damage
+
 # any mechanic that needs a selection should have
 #   options: true
 mechanics:
@@ -35,9 +56,14 @@ mechanics:
     selections: integer
     expertise: boolean
 # AC
+  - type: ac
+    bonus: integer
   - type: natural-armor
     base: integer
     mod: enum [abilities]
+# HP
+  - type: hp
+    bonus: @bonus
 # IRVs
   #resistances
   - type: resistance
@@ -66,15 +92,7 @@ mechanics:
     note: string #note is optional.
 # Attacks, Actions, Bonus Actions, and Reactions
   - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
-    resource: # @resource
-      displayType: enum [heat, counter, checkbox] # default checkbox
-      reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
-      resetTo: enum [min, max] #optional, default min
-      max: # optional, default is flat, 1 per
-        type: enum [flat, mod, proficiency]
-        value: any [integer for flat, enum for mod, null for proficiency]
-        min: integer # optional, if there were ever a use case for min 2
-      isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
+    resource: @resource #optional, default null
     range:
       short: integer (0 = self, touch = 1)
       long: integer (0 = self, touch = 1)
@@ -84,9 +102,9 @@ mechanics:
     damage:
       - dieCount: integer (0 = special)
         dieType: integer
-        mod: boolean # whether to add the mod to the damage
+        mod: enum [abilities]
         type: enum [damage types]
-        bonus: integer # flat bonus
+        bonus: @bonus
     dc:
       base: integer # default = true
       proficient: boolean # default = true
@@ -95,6 +113,7 @@ mechanics:
     notes:
       - string # optional, appends to damage type as a caveat or used to display text for special damage types
     shortDesc: string # optional
+    component: string # for pre-compiled components
 # Powers
   - type: power
     powerId: string
@@ -111,10 +130,15 @@ mechanics:
 # Misc
   # Do not check for STR requirements of armor (to reduce speed by 10)
   - type: nullify-armor-str-restriction
+  - type: regain-all-hit-dice
 # Unique
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off
   - type: ardat-yakshi-mating
+# senses
+  - type: sense
+    sense: enum [senses]
+    distance: integer
 ---
 
 

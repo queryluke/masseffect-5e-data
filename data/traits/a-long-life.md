@@ -1,6 +1,5 @@
 ---
-species: []
-subspecies:
+species:
   - lifestage-matriarch
 mechanics:
   - type: prof-choice

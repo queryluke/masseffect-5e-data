@@ -1,7 +1,5 @@
 ---
-species: []
-subspecies:
-  - ay-disposition-chaste
+species: [ay-disposition-chaste]
 mechanics:
   - ardat-yakshi-stave-off
 ---

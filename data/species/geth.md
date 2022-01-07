@@ -33,10 +33,4 @@ mechanics:
   - type: asi
     amount: 2
     ability: int
-  - type: asi
-    amount: 1
-    ability: str
-  - type: speed
-    speed: walk
-    distance: 30
 ---

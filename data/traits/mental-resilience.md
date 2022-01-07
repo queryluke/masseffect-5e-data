@@ -1,7 +1,5 @@
 ---
-species: []
-subspecies:
-  - ay-disposition-chaste
+species: [ay-disposition-chaste]
 mechanics:
   - type: saving-throw
     note: against being charmed or frightened

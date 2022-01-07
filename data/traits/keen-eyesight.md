@@ -1,6 +1,4 @@
 ---
-species: []
-subspecies:
-  - cybernetic-augmentation-ocular
+species: [cybernetic-augmentation-ocular]
 mechanics: []
 ---

@@ -1,6 +1,4 @@
 ---
-species: []
-subspecies:
-  - cybernetic-augmentation-cerebral
+species: [cybernetic-augmentation-cerebral]
 mechanics: []
 ---

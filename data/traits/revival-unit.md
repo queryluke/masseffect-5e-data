@@ -1,6 +1,4 @@
 ---
-species: []
-subspecies:
-  - cybernetic-augmentation-visceral
+species: [cybernetic-augmentation-visceral]
 mechanics: []
 ---

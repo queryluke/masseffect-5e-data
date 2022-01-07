@@ -1,6 +1,4 @@
 ---
-species: []
-subspecies:
-  - cybernetic-augmentation-muscular
+species: [cybernetic-augmentation-muscular]
 mechanics: []
 ---

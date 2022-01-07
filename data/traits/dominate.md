@@ -1,8 +1,5 @@
 ---
-species: []
-subspecies:
-  - ay-disposition-embrace
-  - ay-disposition-growing-power
+species: [ay-disposition-embrace, ay-disposition-growing-power]
 mechanics:
   - type: power
     powerId: dominate

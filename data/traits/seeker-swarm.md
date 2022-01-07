@@ -16,9 +16,10 @@ mechanics:
     damage:
       - dieCount: 1
         dieType: 4
-        mod: false
         type: necrotic
-        bonus: 1
+        bonus:
+          type: flat
+          value: 1
     range:
       short: 150
     notes: damage bypasses shields and detonates any primed condition
