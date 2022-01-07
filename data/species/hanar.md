@@ -45,7 +45,7 @@ mechanics:
     ability: wis
   - type: asi
     amount: 1
-    ability: cha
+    ability: int
   - type: speed
     speed: swim
     distance: 30
