@@ -131,6 +131,8 @@ mechanics:
   # Do not check for STR requirements of armor (to reduce speed by 10)
   - type: nullify-armor-str-restriction
   - type: regain-all-hit-dice
+  - type: feat-choice
+    options: true
 # Unique
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off
