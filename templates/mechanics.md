@@ -141,6 +141,7 @@ mechanics:
   - type: sense
     sense: enum [senses]
     distance: integer
+    note: string
 ---
 
 

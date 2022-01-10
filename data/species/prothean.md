@@ -32,9 +32,6 @@ mechanics:
   - type: asi
     amount: 2
     ability: wis
-  - type: asi
-    amount: 1
-    ability: dex
   - type: speed
     speed: walk
     distance: 30

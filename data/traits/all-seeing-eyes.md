@@ -2,20 +2,10 @@
 species:
   - prothean
 mechanics:
-  - type: profs
-    subType: skill
-    has:
-      - perception
+  - type: prof
+    profType: skill
+    value: perception
   - type: sense
-    has:
-      id: truesight
-      distance: 30
-  - type: defenses
-    subType: resistance
-    has:
-      id: cold
-  - type: defenses
-    subType: resistance
-    has:
-      id: radiant
+    sense: truesight
+    note: when you take the Search action, lasts until action is resolved
 ---
