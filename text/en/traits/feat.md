@@ -1,4 +1,4 @@
 ---
 name: Feat
 ---
-Your choice of feat.
+You gain one feat of your choice.

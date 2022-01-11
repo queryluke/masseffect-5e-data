@@ -137,6 +137,7 @@ mechanics:
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off
   - type: ardat-yakshi-mating
+  - type: avatars-inspiration
 # senses
   - type: sense
     sense: enum [senses]
