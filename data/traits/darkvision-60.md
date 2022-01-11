@@ -1,4 +1,7 @@
 ---
 species: [cybernetic-augmentation-ocular]
-mechanics: []
+mechanics:
+  - type: sense
+    sense: darkvision
+    distance: 60
 ---

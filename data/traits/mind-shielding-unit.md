@@ -1,4 +1,7 @@
 ---
 species: [cybernetic-augmentation-cerebral]
-mechanics: []
+mechanics:
+  - type: saving-throw
+    note: on being charmed or frightened
+    effect: advantage
 ---

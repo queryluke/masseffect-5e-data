@@ -16,7 +16,7 @@ resource:
   reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
   max: # optional, default is flat, 1 per
-    type: enum [flat, mod, proficiency]
+    type: enum [flat, mod, proficiency, omni-gel]
     value: any [integer for flat, enum for mod, null for proficiency]
     min: integer # optional, if there were ever a use case for min 2
   isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
@@ -68,6 +68,9 @@ mechanics:
   #resistances
   - type: resistance
     damageType: enum or false #false used when the type is "special" for oddballs like "falling damage"
+    note: string #optional, appends to damage type as a caveat or used to display text for special damage types
+  - type: condition-immunity
+    condition: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
 # Saving Throws, skill checks
   - type: saving-throw
@@ -133,6 +136,9 @@ mechanics:
   - type: regain-all-hit-dice
   - type: feat-choice
     options: true
+  - type: starting-equipment
+    equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
+    value: string or int
 # Unique
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off

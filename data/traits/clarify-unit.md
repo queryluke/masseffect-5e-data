@@ -1,4 +1,7 @@
 ---
 species: [cybernetic-augmentation-ocular]
-mechanics: []
+mechanics:
+  - type: saving-throw
+    note: on saving throws against being blinded
+    effect: advantage
 ---

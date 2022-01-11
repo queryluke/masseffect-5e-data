@@ -1,5 +1,5 @@
 ---
-name: Hermetic Suit
+name: Pressurized Suit
 ---
 Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to
 disease and provides resistance to poison and necrotic damage.
