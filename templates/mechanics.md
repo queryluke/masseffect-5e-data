@@ -77,12 +77,13 @@ mechanics:
     note: string
     effect: enum [advantage, disadvantage]
 # Initiative
-  - type: initiative or skill-check
+  - type: initiative
     effect:
       type: [advantage, disadvantage, flat, mod, proficiency]
       value: any
 # skill checks
   - type: skill-check
+    skill: enum [skills]
     effect:
       type: [advantage, disadvantage, flat, mod, proficiency]
       value: any

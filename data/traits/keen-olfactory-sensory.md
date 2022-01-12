@@ -3,18 +3,18 @@ species:
   - elcor
 mechanics:
   - type: skill-check
+    skill: investigation
     effect:
       type: advantage
-      value: investigation
       note: on checks that rely on smell
   - type: skill-check
+    skill: perception
     effect:
       type: advantage
-      value: perception
       note: on checks that rely on smell
   - type: skill-check
+    skill: survival
     effect:
       type: advantage
-      value: survival
       note: on checks that rely on smell
 ---

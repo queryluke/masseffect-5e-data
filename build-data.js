@@ -25,10 +25,6 @@ md.renderer.rules.blockquote_close = function () {
   return '</v-card-text></v-card>'
 }
 
-md.renderer.rules.link_open = function () {
-  return '</v-card-text></v-card>'
-}
-
 md.renderer.rules.container_alert_open = function () {
   return '<v-alert value type="info">';
 }
