@@ -145,6 +145,7 @@ mechanics:
   - type: ardat-yakshi-stave-off
   - type: ardat-yakshi-mating
   - type: avatars-inspiration
+  - type: twice-as-bright
 # senses
   - type: sense
     sense: enum [senses]
