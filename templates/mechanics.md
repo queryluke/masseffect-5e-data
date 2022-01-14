@@ -140,6 +140,13 @@ mechanics:
   - type: starting-equipment
     equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
     value: string or int
+  # appends, in theory for bonus actions that increase damage, to hit, etc
+  - type: append-note
+    model: enum [weapon, power]
+    note: string
+  - type: append-damage
+    model: weapon
+    damage: @damage
 # Unique
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off
