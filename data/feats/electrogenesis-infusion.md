@@ -6,10 +6,15 @@ mechanics:
     ability: con
     amount: 1
   - type: bonus-action
+    resource:
+      shared: trait-electrogenesis 
     shortDesc: Choose a weapon and roll a d6, then lose that much hp. For 1 minute, chosen weapon deals additional 1d6 lightning.
-  - type: append-note
+  - type: augment
     model: weapon
-    note: +1d6 lightning w/ Electrogenesis Infusion
+    augments:
+      - path: notes
+        value: +1d6 lightning w/ Electrogenesis Infusion
+        type: append
 prerequisite: Angara
 prereq:
   - type: species

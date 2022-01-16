@@ -22,5 +22,6 @@ mechanics:
           value: 1
     range:
       short: 150
-    notes: damage bypasses shields and detonates any primed condition
+    notes: 
+      - damage bypasses shields and detonates any primed condition
 ---

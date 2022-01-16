@@ -20,6 +20,7 @@ resource:
     value: any [integer for flat, enum for mod, null for proficiency]
     min: integer # optional, if there were ever a use case for min 2
   isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
+  shared: string # optional, {model}-{id} id of a trait, uses the resource of another trait
 
 # bonus
 bonus:
@@ -107,13 +108,14 @@ mechanics:
       - dieCount: integer (0 = special)
         dieType: integer
         mod: enum [abilities]
-        type: enum [damage types]
+        type: enum [damage types] or hp, sp, tempHp
         bonus: @bonus
     dc:
       base: integer # default = true
       proficient: boolean # default = true
       mod: enum [str, dex, con, int, wis, cha] # whether to add the mod to the dc
       save: enum [str, dex, con, int, wis, cha]
+      textBonus: string
     notes:
       - string # optional, appends to damage type as a caveat or used to display text for special damage types
     shortDesc: string # optional
@@ -140,19 +142,23 @@ mechanics:
   - type: starting-equipment
     equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
     value: string or int
-  # appends, in theory for bonus actions that increase damage, to hit, etc
-  - type: append-note
+  # augments
+  - type: augment
     model: enum [weapon, power]
-    note: string
-  - type: append-damage
-    model: weapon
-    damage: @damage
+    modelId: string
+    mechanicType: string
+    instance: integer
+    augments: 
+      - path: 'path.to.mechanic.attr'
+        value: any
+        type: enum [replace, append]
 # Unique
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off
   - type: ardat-yakshi-mating
   - type: avatars-inspiration
   - type: twice-as-bright
+  - type: biotic-prodigy
 # senses
   - type: sense
     sense: enum [senses]
