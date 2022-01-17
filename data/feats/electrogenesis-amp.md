@@ -6,7 +6,7 @@ mechanics:
     ability: con
     amount: 1
   - type: augment
-    model: trait
+    model: traits
     modelId: electrogenesis
     mechanicType: action
     instance: 0
@@ -27,7 +27,7 @@ prereq:
 You have trained with amplifying your electrogenesis to provide a boost to kinetic barrier devices.
 
 - Increase your Constitution score by 1, to a maximum of 20.
-- As an action on your turn, you may use your electrogenesis trait and touch one creature. The 
-creature gains shield points (up to its maximum shield point capacity) equal 1d4 + your 
-Constitution modifier. You can apply this effect when you use your action to stabilize a 
+- As an action on your turn, you may use your electrogenesis trait and touch one creature. The
+creature gains shield points (up to its maximum shield point capacity) equal 1d4 + your
+Constitution modifier. You can apply this effect when you use your action to stabilize a
 creature or remove the stunned condition.

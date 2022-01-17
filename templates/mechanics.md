@@ -142,13 +142,20 @@ mechanics:
   - type: starting-equipment
     equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
     value: string or int
+  - type: fighting-style
+    options: true
+    limit: enum [ambidextrous, assault, carnage, close-quarters-shooter, sniper]
+    selections: integer
   # augments
   - type: augment
     model: enum [weapon, power]
     modelId: string
     mechanicType: string
     instance: integer
-    augments: 
+    limits:
+      - path: 'path.to.attr'
+        values: array of matching values
+    augments:
       - path: 'path.to.mechanic.attr'
         value: any
         type: enum [replace, append]
@@ -156,9 +163,12 @@ mechanics:
   - type: ardat-yakshi-addiction
   - type: ardat-yakshi-stave-off
   - type: ardat-yakshi-mating
-  - type: avatars-inspiration
+  - type: avatars-inspiration #note check for imp ava insp
   - type: twice-as-bright
   - type: biotic-prodigy
+  - type: tentacle-blender
+  - type: fast-learner
+  - type: premium-genetics
 # senses
   - type: sense
     sense: enum [senses]
