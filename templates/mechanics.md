@@ -16,7 +16,7 @@ resource:
   reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
   max: # optional, default is flat, 1 per
-    type: enum [flat, mod, proficiency, omni-gel]
+    type: enum [flat, mod, proficiency, omni-gel, hit-dice]
     value: any [integer for flat, enum for mod, null for proficiency]
     min: integer # optional, if there were ever a use case for min 2
   isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
@@ -159,6 +159,7 @@ mechanics:
   - type: avatars-inspiration
   - type: twice-as-bright
   - type: biotic-prodigy
+  - type: regenerative-burst
 # senses
   - type: sense
     sense: enum [senses]
