@@ -9,7 +9,7 @@ not mate, the DC of this saving throw increases by 5. On a failed save, your add
 You suffer the effect of your current addiction level as well as all lower levels. Mating with a creature removes
 all levels of addiction and resets the DC of your addiction saving throw to 0.
 
-### Addiction Levels
+##### Addiction Levels
 
 Level|Effect
 ---|---
@@ -20,7 +20,7 @@ Level|Effect
 5|You can no longer distinguish friend from foe. Every creature is considered a hostile creature
 
 :::alert
-### Ardat-Yakshi mating
+#### Ardat-Yakshi mating
 
 Whether or not your Ardat-Yakshi can successfully mate is at your DMs discretion. A basic rule is that you must
 have a viable mate (an organic creature with an Intelligence score of 3 or higher) and you must pass a

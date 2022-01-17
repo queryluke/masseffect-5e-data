@@ -15,12 +15,24 @@
     "id": "actor"
   },
   {
-    "new": true,
-    "mechanics": [],
     "name": "Additional Augment",
-    "note": "Gain another cybernetic augmentation",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "additional-augment",
+        "options": true
+      }
+    ],
     "prerequisite": "Quarian",
-    "html": "<p>Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition to\nyour current one.</p>\n<p><me-source-reference pages=\"8\" source=\"races\"></me-source-reference></p>\n",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "quarian"
+        ]
+      }
+    ],
+    "html": "<p>Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition\nto your current one.</p>\n",
     "id": "additional-augment"
   },
   {
@@ -29,6 +41,59 @@
     "note": "+5 to Initiative, can't be surprised, no advantage for hidden attackers",
     "html": "<p>Player's Handbook, p. 165</p>\n",
     "id": "alert"
+  },
+  {
+    "name": "Ambushing Hunter Mode",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "action",
+        "resource": {},
+        "damage": [
+          {
+            "dieCount": "proficiency",
+            "dieType": 6
+          }
+        ],
+        "shortDesc": "For 1 minute, speed increases by <me-distance length=\"5\" />, become invisible until you attack or deal damage.",
+        "notes": [
+          "Once per turn, additional weapon damage w/ advantage on attack or friendly creature within <me-distance length=\"5\" /> of target."
+        ]
+      }
+    ],
+    "prerequisite": "Geth",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "geth"
+        ]
+      }
+    ],
+    "html": "<p>Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.</p>\n<p>As an action, you can activate Ambushing Hunter Mode, gaining the following benefits for 1 minute:</p>\n<ul>\n<li>Your movement speed increases by 2 meters.</li>\n<li>You become invisible until ambushing hunter mode ends or until you make an attack, cast a power, use a grenade or\nmine, or fire a heavy weapon.</li>\n<li>Once per turn, you can deal an extra damage to one creature you hit with an attack if you have advantage on the attack\nroll. The attack must be made with a melee or ranged weapon. You don't need advantage on the attack roll if\nanother enemy of the target is within 2 meters of it, that enemy isn't incapacitated, and you don't have\ndisadvantage on the attack roll. The extra damage is equal to Xd6 where X is your proficiency bonus.</li>\n</ul>\n<p>You may use this feat once per long rest.</p>\n",
+    "id": "ambushing-hunter-mode"
+  },
+  {
+    "name": "Assault Hunter Mode",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "action",
+        "resource": {},
+        "shortDesc": "For 1 minute, speed increases by <me-distance length=\"2\" />, +1 to weapon attack rolls, +1 attack w/ Attack action."
+      }
+    ],
+    "prerequisite": "Geth",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "geth"
+        ]
+      }
+    ],
+    "html": "<p>Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.</p>\n<p>As an action, you can activate Assault Hunter Mode, gaining the following benefits for 1 minute:</p>\n<ul>\n<li>Your movement speed increases by 2 meters.</li>\n<li>Whenever you make a weapon attack, gain a +1 bonus to the roll.</li>\n<li>While hunter mode is active, you can attack one additional time whenever you take the Attack action on your turn.</li>\n</ul>\n<p>You may use this feat once per long rest.</p>\n",
+    "id": "assault-hunter-mode"
   },
   {
     "mechanics": [],
@@ -46,11 +111,69 @@
     "id": "big-game-hunter"
   },
   {
+    "name": "Biotic Prodigy",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "biotic-prodigy"
+      }
+    ],
+    "prerequisite": "Asari",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "asari"
+        ]
+      }
+    ],
+    "html": "<p>Your innate biotics have been honed to be even more potent.</p>\n<ul>\n<li>Choose one advancement for both of the cantrips gained from your Innate Biotics. These\nadvancements do not count against your number of cantrips known.</li>\n<li>Once per long rest, you may cast the 1st level power gained from your Innate Biotics trait at\n2nd level without expending a spell slot.</li>\n</ul>\n",
+    "id": "biotic-prodigy"
+  },
+  {
     "mechanics": [],
     "name": "Biotic Slayer",
     "note": "You have practiced techniques useful in melee combat against biotic wielders",
     "html": "<p>Name change for Mage Slayer. Player's handbook pg. 168</p>\n",
     "id": "biotic-slayer"
+  },
+  {
+    "name": "Biotic Unconscious",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "reaction",
+        "resource": {},
+        "shortDesc": "when you cast one of your innate biotics powers, it does not require your concentration"
+      }
+    ],
+    "prerequisite": "Asari",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "asari"
+        ]
+      }
+    ],
+    "html": "<p>Your innate biotics are extensions of your limbs, and you no longer think twice about them,\nand can utilize them almost without thinking.</p>\n<p>Whenever you cast one of the powers you selected for your Innate Biotics trait, you may use\nyour reaction to sustain the power for its full duration without the need for concentration\n(you may cast a second Concentration power while this one is active, and you do not need to make\nConstitution saving throws to maintain it when you suffer damage).</p>\n<p>Once you use this feat, you must finish a long rest before you may use it again.</p>\n",
+    "id": "biotic-unconscious"
+  },
+  {
+    "name": "Blue Box Ejection",
+    "new": true,
+    "mechanics": [],
+    "prerequisite": "Unshackled AI",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "unshackled-ai"
+        ]
+      }
+    ],
+    "html": "<p>You have taken the necessary precautions to protect your blue box, should your hardware fail.\nGain the following (if you have selected the Hologram hardware, your Emitter gains the following instead):</p>\n<ul>\n<li>Your blue box is a Tiny object that weighs a few kgs (~5lbs). It is equipped with some basic optic\ninput, aural output devices, and a walking speed of 6 meters.</li>\n<li>Instead of making a death saving throw you may eject your blue box from your hardware. While\nejected you can see and speak, but can take no other action except the Help, Hide, or Dash action.\nWhenever you would suffer damage you take 1 death saving throw failure instead. If you suffer three\ndeath saving throw failures, your blue box is irreparable and you die.</li>\n<li>You can be reinstalled in a replacement hardware with 8 hours of work and a DC 15 Intelligence\n(Electronics) check. The cost and/or availability of the replacement hardware is at the GM’s\ndiscretion.</li>\n</ul>\n",
+    "id": "bluebox-ejection"
   },
   {
     "mechanics": [],
@@ -80,13 +203,101 @@
     "id": "come-get-me"
   },
   {
-    "mechanics": [],
+    "name": "Constrictor Build",
     "new": true,
+    "mechanics": [
+      {
+        "type": "reaction",
+        "shortDesc": "Use your attack of opportunity to attempt a grapple"
+      },
+      {
+        "type": "reaction",
+        "shortDesc": "Force a creature grappled by you to reroll a successful grapple escape"
+      }
+    ],
+    "prerequisite": "Yahg",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "yahg"
+        ]
+      }
+    ],
+    "html": "<p>Squeezing the life out of an enemy is just as satisfying as taking them down at range.</p>\n<ul>\n<li>When a creature attempts to break a grapple with you and succeeds, you can use your reaction to\nforce the creature to roll again. The creature must use the second result.</li>\n<li>When a creature provokes an opportunity attack from you, you may instead use your reaction to\nattempt to grapple the creature.</li>\n<li>At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature\ngrappled by you (no action required).</li>\n<li>Your movement is not halved when grappling a creature your size or smaller.</li>\n</ul>\n",
+    "id": "constrictor-build"
+  },
+  {
     "name": "Cranial Bruiser",
-    "note": "Headbutt stuff!",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "augment",
+        "model": "trait",
+        "modelId": "thick-frontal-plate",
+        "mechanicType": "attack",
+        "instance": 0,
+        "augments": [
+          {
+            "path": "damage[0].dieType",
+            "value": 10,
+            "type": "replace"
+          }
+        ]
+      },
+      {
+        "type": "bonus-action",
+        "shortDesc": "When you take the Dash action on your turn, you can make one unarmed strike with your thick frontal plate."
+      }
+    ],
     "prerequisite": "Krogan",
-    "html": "<p>Krogan are notorious for using any weapon within reach - even the armored plates that cover their foreheads.\nYou gain the following benefits:</p>\n<ul>\n<li>You can attack with a headbutt, which is a natural weapon that you can use to make unarmed strikes. If you hit with\nit, you deal 1d6 + your Strength modifier bludgeoning damage.</li>\n<li>When you use the Dash action during your turn, you can make a melee attack with your headbutt as a bonus action.</li>\n</ul>\n<p><me-source-reference pages=\"6\" source=\"races\"></me-source-reference></p>\n",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "krogan"
+        ]
+      }
+    ],
+    "html": "<p>You’ve mastered the Krogan headbutt and can use it as a ramming attack.</p>\n<ul>\n<li>Increase your Strength score by 1, to a maximum of 20.</li>\n<li>The die type of your Thick Frontal Plate unarmed strike becomes a d10.</li>\n<li>When you take the Dash action on your turn, you can make one unarmed strike with your frontal\nplate as a bonus action.</li>\n</ul>\n",
     "id": "cranial-bruiser"
+  },
+  {
+    "name": "Determination",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "amount": 1,
+        "selections": 1
+      },
+      {
+        "type": "other",
+        "resource": {
+          "reset": "short"
+        },
+        "shortDesc": "Gain advantage on an attack roll, ability check, or saving throw"
+      }
+    ],
+    "prerequisite": "Human, Batarian, or Quarian",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "human",
+          "batarian",
+          "quarian"
+        ]
+      }
+    ],
+    "html": "<p>You are filled with an immense determination that can turn events in your favor.</p>\n<ul>\n<li>Increase one ability score of your choice by 1, to a maximum of 20.</li>\n<li>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage.\nOnce you use this feat, you can’t use it again until you finish a short or long rest.</li>\n</ul>\n",
+    "id": "determination"
   },
   {
     "mechanics": [],
@@ -103,6 +314,91 @@
     "id": "durable"
   },
   {
+    "name": "Electrogenesis Amp",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "augment",
+        "model": "traits",
+        "modelId": "electrogenesis",
+        "mechanicType": "action",
+        "instance": 0,
+        "augments": [
+          {
+            "path": "damage",
+            "value": {
+              "damage": [
+                {
+                  "dieCount": 1,
+                  "dieType": 4,
+                  "mod": "con",
+                  "type": "sp"
+                }
+              ]
+            },
+            "type": "replace"
+          }
+        ]
+      }
+    ],
+    "prerequisite": "Angara",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "angara"
+        ]
+      }
+    ],
+    "html": "<p>You have trained with amplifying your electrogenesis to provide a boost to kinetic barrier devices.</p>\n<ul>\n<li>Increase your Constitution score by 1, to a maximum of 20.</li>\n<li>As an action on your turn, you may use your electrogenesis trait and touch one creature. The\ncreature gains shield points (up to its maximum shield point capacity) equal 1d4 + your\nConstitution modifier. You can apply this effect when you use your action to stabilize a\ncreature or remove the stunned condition.</li>\n</ul>\n",
+    "id": "electrogenesis-amp"
+  },
+  {
+    "name": "Electrogenesis Infusion",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "bonus-action",
+        "resource": {
+          "shared": "trait-electrogenesis"
+        },
+        "shortDesc": "Choose a weapon and roll a d6, then lose that much hp. For 1 minute, chosen weapon deals additional 1d6 lightning."
+      },
+      {
+        "type": "augment",
+        "model": "weapon",
+        "augments": [
+          {
+            "path": "notes",
+            "value": "+1d6 lightning w/ Electrogenesis Infusion",
+            "type": "append"
+          }
+        ]
+      }
+    ],
+    "prerequisite": "Angara",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "angara"
+        ]
+      }
+    ],
+    "html": "<p>You have trained with amplifying your electrogenesis into your weapons and can even electrify ammunition.</p>\n<ul>\n<li>Increase your Constitution score by 1, to a maximum of 20.</li>\n<li>As a bonus action on your turn, you may use your electrogenesis trait to charge a weapon you are wielding with\nbio-electric energy, draining the electric charge from your vitality. Roll a d6 and subtract the amount rolled\nfrom your hit points. Then, for the next minute or until you stow or drop the weapon, attacks made with the weapon\ndeal an additional 1d6 lightning damage.</li>\n</ul>\n",
+    "id": "electrogenesis-infusion"
+  },
+  {
     "mechanics": [],
     "name": "Elemental Adept",
     "note": "Powers you cast ignore resistance to damage of the chosen type",
@@ -111,12 +407,102 @@
     "id": "elemental-adept"
   },
   {
+    "name": "Empowered Hunter Mode",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "action",
+        "resource": {},
+        "shortDesc": "For 1 minute, +1 to power attack rolls and power DCs. Increase power damage by 1 die type."
+      }
+    ],
+    "prerequisite": "Geth and the ability to cast one tech or biotic spell",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "geth"
+        ]
+      }
+    ],
+    "html": "<p>Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.</p>\n<p>As an action, you can activate Empowered Hunter Mode. While active you gain a +1 bonus to power attack rolls and\nthe DC of your powers increases by 1. Additionally, increase the die type by 1 (max d12) for any damage rolls of powers you cast.\nIf the die type is already d12, add +1 for each d12 rolled instead of increasing the die type.</p>\n<p>Empowered Hunter Mode lasts 1 minute and you must finish a long rest before you can use this feat again.</p>\n",
+    "id": "empowered-hunter-mode"
+  },
+  {
     "mechanics": [],
     "new": true,
     "name": "Enhanced Optics",
     "note": "Increased vision. Proficiency in Perception, Investigation, and Insight",
     "html": "<p>Your optic nerves have been enhanced by science to perceive more.</p>\n<ul>\n<li>Gain darkvision.</li>\n<li>You now gain proficiency in Perception, Investigation, and Insight. If you are already proficient in any of these, gain\nexpertise instead.</li>\n</ul>\n",
     "id": "enhanced-optics"
+  },
+  {
+    "name": "Fake It 'til You Make It",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "skill-check",
+        "skill": [
+          "deception",
+          "performance"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "when attempting to convince a creature you can accomplish a task"
+        }
+      },
+      {
+        "type": "other",
+        "shortDesc": "When you fail an ability check or saving throw or miss with an attack roll, spent a hit dice to add a d4 to the roll.",
+        "resource": {
+          "reset": "short"
+        }
+      }
+    ],
+    "prerequisite": "Human or Batarian",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "human",
+          "batarian"
+        ]
+      }
+    ],
+    "html": "<p>You mimic confidence, competence and an optimistic mindset, which you hope help you realize those qualities in\nyour real life. You gain the following benefits:</p>\n<ul>\n<li>Increase your Charisma score by 1, to a maximum of 20.</li>\n<li>If you fail a saving throw or ability check, or miss with an attack roll, you spend a hit die to roll d4 and\nadd it to the total, possibly changing the outcome. Once you use this feature, you can’t use it again until you\nfinish a short or long rest.</li>\n<li>You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to convince a creature you\ncan accomplish something without a problem.</li>\n</ul>\n",
+    "id": "fake-it-til-you-make-it"
+  },
+  {
+    "name": "Fast Learner",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "fast-learner"
+      }
+    ],
+    "prerequisite": "Human, Batarian, or Salarian",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "human",
+          "batarian",
+          "salarian"
+        ]
+      }
+    ],
+    "html": "<p>You are extremely apt to learn new skills. You gain the following benefits:</p>\n<ul>\n<li>Increase your Intelligence score by 1, to a maximum of 20.</li>\n<li>If you spend at least 1 hour with a creature, you can learn from it a new proficiency. The interaction must be\npeaceful and the creature must have the proficiency you are intending to learn. You can choose between the following:\none tool proficiency, one skill proficiency, or proficiency with one specific weapon. You retain the proficiency until\nyou decide to change it for another, using the same process. This is considered light activity.</li>\n</ul>\n",
+    "id": "fast-learner"
   },
   {
     "mechanics": [],
@@ -178,6 +564,92 @@
     "id": "heavy-armor-master"
   },
   {
+    "name": "Hovering",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 40
+      },
+      {
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "proficiency"
+          }
+        },
+        "shortDesc": "If in the air, hover until the start of your next turn."
+      }
+    ],
+    "prerequisite": "Awakened Collector",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "awakened-collector"
+        ]
+      }
+    ],
+    "html": "<p>You’ve strengthened your wings to allow you to maneuver more deftly and hover for short periods.</p>\n<ul>\n<li>Your flying speed becomes 16 meters.</li>\n<li>At the end of your turn, if you are in the air, you can hover until the start of your next turn.\nYou can hover a number of times between short rests equal to your proficiency bonus.</li>\n</ul>\n",
+    "id": "hovering"
+  },
+  {
+    "name": "Improved Avatar's Inspiration",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "improved-avatars-inspiration"
+      }
+    ],
+    "prerequisite": "Prothean",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "prothean"
+        ]
+      }
+    ],
+    "html": "<p>Your avatar actions become even more inspiring to others.</p>\n<ul>\n<li>Increase your Wisdom by 1, to a maximum of 20.</li>\n<li>Increase your Avatar’s Inspiration die type to a d8.</li>\n</ul>\n",
+    "id": "improved-avatars-inspiration"
+  },
+  {
+    "name": "Improved Bio-Electric Ward",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "other",
+        "resource": {},
+        "shortDesc": "When you are reduced to 0 hit points by lightning or cold damage but not killed outright,  you can drop to 1 hit point instead."
+      }
+    ],
+    "prerequisite": "Angara",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "angara"
+        ]
+      }
+    ],
+    "html": "<p>You have honed your bio-electric ward to new heights providing greater defense.</p>\n<ul>\n<li>Your AC increases by 1.</li>\n<li>Once per long rest, if you suffer cold or lightning damage that would reduce you to 0\nhit points but not kill you outright, you can drop to 1 hit point instead.</li>\n</ul>\n",
+    "id": "improved-bio-electric-ward"
+  },
+  {
     "mechanics": [],
     "name": "Keen Mind",
     "note": "+1 Intelligence, track time, direction, and detail with uncanny precision",
@@ -190,6 +662,110 @@
     "note": "+1 Strength or Dexterity, proficiency with light armor",
     "html": "<p>Player's Handbook, p. 167</p>\n",
     "id": "lightly-armored"
+  },
+  {
+    "name": "Living Turret",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "selections": 1
+      },
+      {
+        "type": "fighting-style-choice",
+        "options": true,
+        "limit": [
+          "ambidextrous",
+          "assault",
+          "carnage",
+          "close-quarters-shooter",
+          "sniper"
+        ],
+        "selections": 1
+      },
+      {
+        "type": "other",
+        "shortDesc": "Reduce movement speed to 0 to engage in two-weapon fighting with non-light weapons until the end of your turn."
+      }
+    ],
+    "prerequisite": "Elcor",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "elcor"
+        ]
+      }
+    ],
+    "html": "<p>You can balance on your haunches and briefly dual-wield two weapons, becoming a living turret.</p>\n<ul>\n<li>Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>\n<li>At the beginning of your turn, you can reduce your movement speed to 0 to sit on your haunches.\nUntil the end of your turn, you may engage in two-weapon fighting even if the weapons you are wielding don’t have the\nlight property.</li>\n<li>Gain one of the following fighting styles: Ambidextrous, Assault, Carnage, Close-Quarters Shooter, or Sniper</li>\n</ul>\n",
+    "id": "living-turret"
+  },
+  {
+    "name": "Long Fist",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "selections": 1
+      },
+      {
+        "type": "augment",
+        "model": "weapon",
+        "limits": [
+          {
+            "path": "type",
+            "values": [
+              "melee"
+            ]
+          }
+        ],
+        "augments": [
+          {
+            "path": "range",
+            "value": 5,
+            "type": "append"
+          },
+          {
+            "path": "notes",
+            "value": "Re-roll 1's",
+            "type": "append"
+          }
+        ]
+      },
+      {
+        "type": "augment",
+        "model": "weapons",
+        "modelId": "unarmed-strike",
+        "augments": [
+          {
+            "path": "damage.dieType",
+            "value": 8,
+            "type": "replace"
+          }
+        ]
+      }
+    ],
+    "prerequisite": "Elcor",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "elcor"
+        ]
+      }
+    ],
+    "html": "<p>You’ve trained in an ancient Elcor martial art which adds range and impact to your slow and sweeping strikes.</p>\n<ul>\n<li>Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>\n<li>When you make a melee attack on your turn, your reach for it is 2 meters greater than normal.</li>\n<li>Your unarmed strike uses a d8 for damage.</li>\n<li>Whenever you roll a 1 on a damage die for a melee attack, you can reroll the die and must use the new roll.</li>\n</ul>\n",
+    "id": "long-fist"
   },
   {
     "mechanics": {
@@ -249,6 +825,158 @@
     "id": "observant"
   },
   {
+    "name": "Poison Skin",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "bonus-action",
+        "shortDesc": "Coat a weapon with your skin's poison. Creatures that suffer piercing or slashing damage take 1d4 damage and must succeed on a DC 13 saving throw or become poisoned for 1 hour."
+      }
+    ],
+    "prerequisite": "Drell",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "drell"
+        ]
+      }
+    ],
+    "html": "<p>You have taken steps to increase the potency of your skin’s natural toxin.</p>\n<ul>\n<li>Your skin produces a natural poison. A creature subjected to this poison suffers 1d4 poison damage and must succeed\non a DC 13 Constitution saving throw or be poisoned for 1 hour.</li>\n<li>A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</li>\n<li>As a bonus action, you may coat a weapon you are wielding in your poison.</li>\n</ul>\n",
+    "id": "poison-skin"
+  },
+  {
+    "name": "Poly-Avatar",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "poly-avatar",
+        "options": true
+      }
+    ],
+    "prerequisite": "Prothean",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "prothean"
+        ]
+      }
+    ],
+    "html": "<p>Choose (or work with your GM to create) a second avatar from the Avatar trait. You gain all features of that avatar,\nin addition to your current one.</p>\n",
+    "id": "poly-avatar"
+  },
+  {
+    "name": "Premium Genetics",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "premium-genetics",
+        "options": true
+      }
+    ],
+    "prerequisite": "Kett",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "kett"
+        ]
+      }
+    ],
+    "html": "<p>Through additional bioengineering, you’ve put yourself through a second exaltation process which has kept a valuable\ngenetic trait from the exalted species. Choose one species from the list below and gain the listed benefits.\nIn addition, you count as this species when meeting another feat’s prerequisite.</p>\n<p><strong>Angara</strong>. Your Constitution score increases by 1, to a maximum of 20. Additionally, gain the Electrogenesis trait.</p>\n<p><strong>Asari</strong>. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Innate Biotics trait.</p>\n<p><strong>Awakened Collector</strong>. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Wings trait.</p>\n<p><strong>Batarian</strong>. Increase one ability score of your choice by 1, to a maximum of 20. Additionally, gain the Four Eyes trait.</p>\n<p><strong>Drell</strong>. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Raw Agility trait.</p>\n<p><strong>Elcor</strong>. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Dense Build trait.</p>\n<p><strong>Hanar</strong>. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Amphibious and Bioluminescence traits.</p>\n<p><strong>Human</strong>. Increase two ability scores of your choice by 1 or one ability score of your choice by 2, to a maximum of 20.</p>\n<p><strong>Krogan</strong>. Your Constitution score increases by 1, to a maximum of 20. Additionally, gain the Blood Rage trait.</p>\n<p><strong>Prothean</strong>. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the All-Seeing Eyes trait.</p>\n<p><strong>Salarian</strong>. Your Intelligence score increases by 1, to a maximum of 20. Additionally, gain the Amphibious and High-Speed Metabolism traits.</p>\n<p><strong>Turian</strong>. Increase your Dexterity or Constitution score increases by 1 (your choice), to a maximum of 20. Additionally, gain the Thulium Skin trait.</p>\n<p><strong>Volus</strong>. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Lucky trait.</p>\n<p><strong>Vorcha</strong>. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Non-Differentiated Cells trait.</p>\n<p><strong>Yahg</strong>. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Predator Eyes Cells trait.</p>\n",
+    "id": "premium-genetics"
+  },
+  {
+    "name": "Quad-wielding",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "bonus-action",
+        "shortDesc": "When you engage with two-weapon fighting, you can simultaneously attack with a second ranged weapon that has not made an attack this turn."
+      },
+      {
+        "type": "reaction",
+        "shortDesc": "Make an attack with a ranged weapon that has not made an attack this turn."
+      }
+    ],
+    "prerequisite": "Hanar",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "hanar"
+        ]
+      }
+    ],
+    "html": "<p>Like Blasto himself, you’ve trained in the art of quad-wielding.</p>\n<ul>\n<li>When you engage in two-weapon fighting with a ranged weapon that has not made an attack this turn,\nyou can simultaneously make an attack with a second ranged weapon you are wielding that has not made an attack this turn.\nMake a single attack roll for both weapons, using the lower of the weapons’ ranges.</li>\n<li>At the end of your turn, if you are wielding a ranged weapon that has not made an attack this turn, you may use\nyour reaction to make an attack with that weapon.</li>\n</ul>\n",
+    "id": "quad-wielding"
+  },
+  {
+    "name": "Regenerative Burst",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "regenerative-burst"
+      }
+    ],
+    "prerequisite": "Vorcha",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "vorcha"
+        ]
+      }
+    ],
+    "html": "<p>You have adapted to quickly regenerate minor wounds, given a brief reprieve from injury.</p>\n<ul>\n<li>Increase your Constitution score by 1, to a maximum of 20.</li>\n<li>Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the\ndie, add your Constitution modifier, and regain a number of hit points equal to the total\n(minimum of 1).</li>\n</ul>\n",
+    "id": "regenerative-burst"
+  },
+  {
+    "name": "Rending Maw",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "bonus-action",
+        "shortDesc": "Make a Bite attack when you take the Dash action."
+      },
+      {
+        "type": "augment",
+        "model": "traits",
+        "modelId": "bite",
+        "mechanicType": "attack",
+        "instance": 0,
+        "augments": [
+          {
+            "path": "notes",
+            "value": "1d6 damage / turn. Ends w/ DC 10 WIS (medicine)"
+          }
+        ]
+      }
+    ],
+    "prerequisite": "Vorcha",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "vorcha"
+        ]
+      }
+    ],
+    "html": "<p>Your bite becomes a deadly weapon, and you’ve trained to pierce vital points.</p>\n<ul>\n<li>Increase your Dexterity by 1, to a maximum of 20.</li>\n<li>Whenever you take the Dash action on your turn, you may use your bonus action to make an attack\nwith your Bite.</li>\n<li>Whenever you hit an organic target with your bite attack, it continues to bleed, suffering 1d6\ndamage at the start of each of its turns due to blood loss. A creature can staunch the wound by\nusing its action to attempt a DC 10 Wisdom (Medicine) check. On a success, the bleeding stops.</li>\n</ul>\n",
+    "id": "rending-maw"
+  },
+  {
     "mechanics": [],
     "name": "Resilient",
     "note": "+1 and proficiency with saving throws to a chosen ability score",
@@ -303,6 +1031,246 @@
     "id": "squad-leader"
   },
   {
+    "name": "Squat Nimbleness",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "amount": 1,
+        "selections": 1
+      },
+      {
+        "type": "prof-choice",
+        "profType": "skill",
+        "limit": [
+          "acrobatics",
+          "athletics"
+        ],
+        "options": true,
+        "selections": 1
+      },
+      {
+        "type": "augment",
+        "model": "speed",
+        "modelId": "walk",
+        "augments": [
+          {
+            "value": 5,
+            "type": "append"
+          }
+        ]
+      },
+      {
+        "type": "skill-check",
+        "skills": [
+          "acrobatics",
+          "athletics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to escape being grappled"
+        }
+      }
+    ],
+    "prerequisite": "Volus",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "volus"
+        ]
+      }
+    ],
+    "html": "<p>You are uncommonly nimble for your species. You gain the following benefits:</p>\n<ul>\n<li>Increase your Strength or Dexterity score by 1 to a maximum of 20.</li>\n<li>Increase your walking speed by 5 feet.</li>\n<li>You gain proficiency in the Acrobatics or Athletics skill (your choice).</li>\n<li>You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to\nescape from being grappled.</li>\n</ul>\n",
+    "id": "squat-nimbleness"
+  },
+  {
+    "name": "STG Training",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "int",
+          "dex"
+        ],
+        "amount": 1,
+        "selections": 1
+      },
+      {
+        "type": "skill-check",
+        "skills": [
+          "vehicle-handling",
+          "acrobatics",
+          "stealth",
+          "slight-of-hand"
+        ],
+        "effect": {
+          "type": "mod",
+          "value": "int"
+        }
+      }
+    ],
+    "prerequisite": "Salarian",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "salarian"
+        ]
+      }
+    ],
+    "html": "<p>The Special Tasks Group is trained to run every step and action through potential outcome scenarios\nfor the best possible result.</p>\n<ul>\n<li>Increase your Intelligence or Dexterity score by 1, to a maximum of 20.</li>\n<li>Whenever you make a Dexterity check, you gain a bonus to the check equal to your\nIntelligence modifier (minimum of +1).</li>\n</ul>\n",
+    "id": "stg-training"
+  },
+  {
+    "name": "Strength In Numbers",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "other",
+        "shortDesc": "Whenever you make a ranged weapon attack, you gain a bonus to the attack roll for each friendly creature within 4 meters of you (maximum bonus of +5)"
+      }
+    ],
+    "prerequisite": "Turian",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "turian"
+        ]
+      }
+    ],
+    "html": "<p>When your allies are nearby, you can focus your shots with greater precision.</p>\n<p>Whenever you make a ranged weapon attack, you gain a bonus to the attack roll for each\nfriendly creature within 4 meters of you (maximum bonus of +5)</p>\n",
+    "id": "strength-in-numbers"
+  },
+  {
+    "name": "Stunning Swarm",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "augment",
+        "model": "trait",
+        "modelId": "seeker-swarm",
+        "mechanicTarget": "bonus-action",
+        "instance": 0,
+        "replacements": [
+          {
+            "path": "resource.max.value",
+            "value": 5,
+            "type": "replace"
+          },
+          {
+            "path": "dc",
+            "value": {
+              "base": 8,
+              "proficient": true,
+              "save": "con",
+              "textBonus": " + # swarms",
+              "type": "replace"
+            }
+          },
+          {
+            "path": "notes",
+            "value": "when a creature suffers damage from 2 or more swarms simultaneously, CON save or stunned until end of its next turn",
+            "type": "replace"
+          }
+        ]
+      }
+    ],
+    "prerequisite": "Awakened Collector",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "awakened-collector"
+        ]
+      }
+    ],
+    "html": "<p>You can summon additional swarms and multiple stings can briefly stun enemies.</p>\n<ul>\n<li>When you use your Seeker Swarm trait, you summon five swarms instead of three.</li>\n<li>Whenever a creature suffers damage from two or more of your seeker swarms simultaneously,\nit must succeed on a Constitution saving throw or become stunned until the end of its next\nturn. The DC of the saving throw is equal to 8 + your proficiency bonus + the number of\nsimultaneous seekers swarms that hit the target.</li>\n</ul>\n",
+    "id": "stunning-swarm"
+  },
+  {
+    "name": "Supreme Agility",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "reaction",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          }
+        },
+        "shortDesc": "Whenever you succeed on a Dexterity saving throw and suffer half damage, you may use your reaction to take no damage instead."
+      }
+    ],
+    "prerequisite": "Drell",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "drell"
+        ]
+      }
+    ],
+    "html": "<p>As a drell, you've gained incredible reflexes that allow you to dodge the dangers of your aquatic homeworld with\nrelative ease.</p>\n<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>Whenever you succeed on a Dexterity saving throw and suffer half damage, you may use your reaction to take no\ndamage instead. You may use this reaction a number of times equal to your proficiency bonus. You regain all uses during\na long rest.</li>\n</ul>\n",
+    "id": "supreme-agility"
+  },
+  {
+    "name": "Synthetic Healer",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "skills": [
+          "engineering",
+          "electronics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to stabilize a synthetic creature"
+        }
+      },
+      {
+        "type": "action",
+        "resource": {
+          "displayType": "counter",
+          "reset": "off",
+          "max": {
+            "type": "omni-gel"
+          }
+        },
+        "shortDesc": "Create 10 charges of epoxy"
+      },
+      {
+        "type": "action",
+        "resource": {
+          "displayType": "counter",
+          "reset": "off"
+        },
+        "shortDesc": "restore 1d6 + 4 hit points to a synthetic creature, plus additional hit points equal to its level"
+      }
+    ],
+    "prerequisite": "Intelligence 13 or higher",
+    "prereq": [
+      {
+        "type": "mod",
+        "limit": [
+          "intelligence"
+        ],
+        "value": 13
+      }
+    ],
+    "html": "<p>You’ve practiced in repairing and patching synthetics, gaining the following benefits:</p>\n<ul>\n<li>You have advantage on Intelligence (Engineering) and Intelligence (Electronics) checks to\nstabilize synthetic creatures.</li>\n<li>You can use your action to expend an omni-gel and create 10 charges of a fast-acting,\nconductive Epoxy.</li>\n<li>As an action, you can spend one epoxy to tend to a synthetic creature and restore\n1d6 + 4 hit points to it, plus additional hit points equal to the creature's level.\nThe creature can't regain hit points from this feat again until it finishes a short or long rest.</li>\n</ul>\n",
+    "id": "synthetic-healer"
+  },
+  {
     "mechanics": [],
     "name": "Tavern Brawler",
     "note": "+1 Strength or Constitution, improved improvised weapons",
@@ -310,11 +1278,68 @@
     "id": "tavern-brawler"
   },
   {
+    "name": "Tentacle Blender",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "tentacle-blender"
+      }
+    ],
+    "prerequisite": "Hanar",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "hanar"
+        ]
+      }
+    ],
+    "html": "<p>You’ve practiced an effective maneuver to hit multiple enemies simultaneously, keeping them at bay.</p>\n<ul>\n<li>Increase your Dexterity by 1, to a maximum of 20.</li>\n<li>As an action, you can make a special Tentacle Blender attack. Each creature within a <me-distance length=\"5\" adj /> radius\ncentered on you must make a Dexterity saving throw or suffer damage equal to the total damage of each melee weapon you\nare wielding. The DC of the saving throw is equal to 8 + your Dexterity modifier + your proficiency bonus.</li>\n<li>If you are wielding a ranged weapon when you make this attack, it is considered a melee weapon,\ndealing damage equivalent to your gun strike.</li>\n<li>If you are not wielding a weapon in a tentacle, you use the damage of your tentacle’s unarmed strike.</li>\n</ul>\n",
+    "id": "tentacle-blender"
+  },
+  {
     "mechanics": [],
     "name": "Tough",
     "note": "Gain +2 hit points per character level",
     "html": "<p>Player's Handbook, p. 170</p>\n",
     "id": "tough"
+  },
+  {
+    "name": "Turian Accuracy",
+    "new": true,
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "int",
+          "dex",
+          "wis"
+        ],
+        "amount": 1,
+        "selections": 1
+      },
+      {
+        "type": "other",
+        "shortDesc": "Whenever you have advantage on an attack roll using Dexterity, Intelligence, or Wisdom, you can reroll one of the dice once."
+      }
+    ],
+    "prerequisite": "Turian",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "turian"
+        ]
+      }
+    ],
+    "html": "<p>A virtuoso of ranged weaponry, you have uncanny aim with ranged weapons that rely on precision rather\nthan brute force:</p>\n<ul>\n<li>Increase your Dexterity, Intelligence, or Wisdom by 1, to a maximum of 20.</li>\n<li>Whenever you have advantage on an attack roll using Dexterity, Intelligence, or Wisdom,\nyou can reroll one of the dice once.</li>\n</ul>\n",
+    "id": "turian-accuracy"
   },
   {
     "mechanics": [],
@@ -325,12 +1350,24 @@
     "id": "war-caster"
   },
   {
-    "mechanics": [],
+    "name": "Warlord's Bloodrage",
     "new": true,
-    "name": "Warlord's Blood Rage",
-    "note": "An even deadlier blood rage.",
+    "mechanics": [
+      {
+        "type": "bonus-action",
+        "shortDesc": "While blood rage is active, move up to your speed toward an enemy."
+      }
+    ],
     "prerequisite": "Krogan",
-    "html": "<p>Your blood rage is exceptionally deadly, rivaling those of the krogan warlords in Tuchanka. You gain the\nfollowing benefits while using your Blood Rage trait:</p>\n<ul>\n<li>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon’s damage dice and use either total.</li>\n<li>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</li>\n<li>When you score a critical hit with a melee weapon attack, you can roll one additional damage dice and add it to the extra damage of the critical hit.</li>\n</ul>\n",
+    "prereq": [
+      {
+        "type": "species",
+        "limit": [
+          "krogan"
+        ]
+      }
+    ],
+    "html": "<p>You become even more dangerous when you enter a blood rage and can delay death even longer. While your blood rage is\nactive you gain the following:</p>\n<ul>\n<li>At the start of your turn, gain 5 temporary hit points.</li>\n<li>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll equal to your proficiency bonus.</li>\n<li>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You\nmust end this move closer to the enemy than you started.</li>\n</ul>\n",
     "id": "warlords-blood-rage"
   },
   {

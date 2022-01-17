@@ -1,6 +1,231 @@
 [
   {
-    "species": "quarian",
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "note": "against being frightened",
+        "effect": "advantage"
+      },
+      {
+        "type": "reaction",
+        "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+      }
+    ],
+    "name": "Bravery",
+    "html": "<ul>\n<li>You have advantage on saving throws against being frightened.</li>\n<li>Whenever you hit a target with a weapon attack that is one size or more larger than you,  you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within 12 meters that can see you.</li>\n</ul>\n",
+    "id": "avatar-bravery"
+  },
+  {
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "prof-choice",
+        "options": true,
+        "limit": [
+          "performance",
+          "persuasion"
+        ],
+        "selections": 1
+      },
+      {
+        "type": "bonus-action",
+        "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration."
+      }
+    ],
+    "name": "Humor",
+    "html": "<ul>\n<li>Your Charisma score increases by 1.</li>\n<li>You gain proficiency in either the Performance or Persuasion skill (your choice).</li>\n<li>You may use your bonus action to end the charmed or frightened condition on any other creature\nthat can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration.</li>\n</ul>\n",
+    "id": "avatar-humor"
+  },
+  {
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "bonus-action",
+        "resource": {
+          "reset": "short"
+        },
+        "notes": [
+          "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
+        ],
+        "shortDesc": "You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature that makes an attack roll against the target for the first time, gains Avatar’s Inspiration."
+      }
+    ],
+    "name": "Leadership",
+    "html": "<ul>\n<li>You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature\nthat makes an attack roll against the target for the first time, gains Avatar’s Inspiration. Once you\nuse this ability, you can’t use it again until you roll initiative at the start of combat or until you\nfinish a short or long rest.</li>\n<li>Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls.</li>\n</ul>\n",
+    "id": "avatar-leadership"
+  },
+  {
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "reaction",
+        "notes": [
+          "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
+        ],
+        "shortDesc": "When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack, you can use your reaction to reduce the damage of the attack by 1d10 + your proficiency bonus (to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration."
+      }
+    ],
+    "name": "Sacrifice",
+    "html": "<p>When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack,\nyou can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus\n(to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration.</p>\n",
+    "id": "avatar-sacrifice"
+  },
+  {
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration."
+      }
+    ],
+    "name": "Strength",
+    "html": "<ul>\n<li>Your Strength score increases by 1.</li>\n<li>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</li>\n<li>Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" />\nthat can see you gains Avatar’s Inspiration.</li>\n</ul>\n",
+    "id": "avatar-strength"
+  },
+  {
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "other",
+        "notes": [
+          "Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws."
+        ],
+        "shortDesc": "Whenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures, other than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you. The inspiration lasts 1 hour instead of 10 minutes."
+      }
+    ],
+    "name": "Tranquility",
+    "html": "<ul>\n<li>You do not need to sleep. Instead, you can meditate deeply, remaining semiconscious,\nfor 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</li>\n<li>Whenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures,\nother than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you.\nThe inspiration lasts 1 hour instead of 10 minutes.</li>\n<li>Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws.</li>\n</ul>\n",
+    "id": "avatar-tranquility"
+  },
+  {
+    "subspecies": "avatar",
+    "mechanics": [
+      {
+        "type": "other",
+        "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+      }
+    ],
+    "name": "Vengeance",
+    "html": "<p>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you\nadvantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have\nadvantage until your next turn. The first time you hit a creature with a melee weapon attack roll using\nStrength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you,\nwithin <me-distance length=\"30\" /> that can see you.</p>\n",
+    "id": "avatar-vengeance"
+  },
+  {
+    "subspecies": "ay-disposition",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "amount": 1
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "amount": 1
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "amount": 1
+      }
+    ],
+    "name": "Acceptance",
+    "abilityScoreIncrease": "+1 to three different ability scores of your choice",
+    "html": "<p>You have accepted your fate and believe that infrequent mating is necessary to your survival.</p>\n",
+    "id": "ay-disposition-acceptace"
+  },
+  {
+    "subspecies": "ay-disposition",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "dex",
+          "str",
+          "int",
+          "cha",
+          "con"
+        ],
+        "amount": 1
+      }
+    ],
+    "name": "Chaste",
+    "html": "<p>You understand the risks of your condition and make every attempt to avoid mating.</p>\n",
+    "id": "ay-disposition-chaste"
+  },
+  {
+    "subspecies": "ay-disposition",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "name": "Embrace",
+    "abilityScoreIncrease": "+1 to all ability scores",
+    "html": "<p>Being diagnosed with the condition was a blessing, not a curse. You mate with as many beings as possible,\ngaining as much power as you possibly can.</p>\n",
+    "id": "ay-disposition-embrace"
+  },
+  {
+    "subspecies": "ay-disposition",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true
+      },
+      {
+        "type": "asi-choice",
+        "options": true
+      }
+    ],
+    "name": "Variant: Growing Power",
+    "abilityScoreIncrease": "+1 to two different ability scores of your choice",
+    "html": "<p>GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gain the Dominate and Mating traits instead.</p>\n",
+    "id": "ay-disposition-growing-power"
+  },
+  {
+    "subspecies": "cybernetic-augmentation",
     "mechanics": [
       {
         "type": "asi",
@@ -13,7 +238,7 @@
     "id": "cybernetic-augmentation-cerebral"
   },
   {
-    "species": "quarian",
+    "subspecies": "cybernetic-augmentation",
     "mechanics": [
       {
         "type": "asi-choice",
@@ -30,23 +255,142 @@
     "id": "cybernetic-augmentation-muscular"
   },
   {
-    "species": "quarian",
-    "mechanics": null,
+    "subspecies": "cybernetic-augmentation",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "wis",
+          "int"
+        ],
+        "options": true,
+        "amount": 1
+      }
+    ],
     "name": "Ocular",
     "html": "<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n",
     "id": "cybernetic-augmentation-ocular"
   },
   {
-    "species": "quarian",
+    "subspecies": "cybernetic-augmentation",
     "mechanics": [
       {
         "type": "asi",
         "ability": "con",
-        "amount": 2
+        "amount": 1
       }
     ],
     "name": "Visceral",
     "html": "<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n",
     "id": "cybernetic-augmentation-visceral"
+  },
+  {
+    "subspecies": "lifestage",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 2
+      }
+    ],
+    "name": "Maiden",
+    "html": "<p>The Maiden stage begins at puberty and is marked by the drive to explore and experience. Most young asari\nare curious and restless, and it is not uncommon for many to try their hand at dancing in bars or\nworking as mercenaries during this time.</p>\n",
+    "id": "lifestage-maiden"
+  },
+  {
+    "subspecies": "lifestage",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "name": "Matriarch",
+    "html": "<p>The Matriarch stage begins around 700 years of age, or earlier if the individual melds rarely. Matriarchs become\nactive in their community as sages and councilors, dispensing wisdom from centuries of experience. Their knowledge\nand guidance may be one reason why Matriarchs are rarely seen outside asari space.</p>\n",
+    "id": "lifestage-matriarch"
+  },
+  {
+    "subspecies": "lifestage",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "name": "Matron",
+    "html": "<p>The Matron stage of life begins around the age of 350, though it can be triggered earlier if the individual melds\nfrequently. This period is marked by a desire to settle in one area and raise children.</p>\n",
+    "id": "lifestage-matron"
+  },
+  {
+    "subspecies": "mobile-platform",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 40
+      },
+      {
+        "type": "speed",
+        "speed": "climb",
+        "distance": 20,
+        "note": "equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages."
+      }
+    ],
+    "name": "Hopper",
+    "html": "<p>Hoppers are a specialized geth platform, used primarily for stealth attacks, cyberwarfare and sabotage.</p>\n",
+    "id": "mobile-platform-hopper"
+  },
+  {
+    "subspecies": "mobile-platform",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 25
+      }
+    ],
+    "name": "Juggernaut",
+    "html": "<p>Juggernauts tower above the ground and are an intimidating presence on the battlefield. Their size, strength, and armor\nmake them ideal for taking weapon fire, but they are slower than other mobile platforms.</p>\n",
+    "id": "mobile-platform-juggernaut"
+  },
+  {
+    "subspecies": "mobile-platform",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Trooper",
+    "html": "<p>Geth Troopers are the most common type of mobile platform, using a standard platform design with\nspecialized AI.</p>\n",
+    "id": "mobile-platform-trooper"
   }
 ]

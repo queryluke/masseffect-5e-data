@@ -40,6 +40,25 @@
   {
     "rarity": "rare",
     "type": "armor",
+    "cost": 30000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Advanced Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two ranged\nweapons that do not have the two-handed property. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "advanced-shoulder-mounts"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
     "cost": 40000,
     "manufacturer": "elanus-risk-control-services",
     "tags": [
@@ -188,6 +207,25 @@
     "flavor": "Eezo oscillator provides a biotic-like barrier.",
     "html": "<p>The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.</p>\n",
     "id": "barrier"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 5000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Basic Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two\nranged weapons that do not have the two-handed property. You must be proficient with any weapons you equip.\nThis is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "basic-shoulder-mounts"
   },
   {
     "rarity": "spectre",
@@ -562,6 +600,24 @@
     "id": "electrical-conduits"
   },
   {
+    "rarity": "very_rare",
+    "type": "armor",
+    "cost": 60000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "medium",
+      "heavy"
+    ],
+    "name": "Elite Heavy Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons.\nThis is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "elite-heavy-shoulder-mounts"
+  },
+  {
     "rarity": "spectre",
     "type": "armor",
     "cost": 90000,
@@ -889,6 +945,24 @@
     "flavor": "Greatly improves your weapons cooling capacity.",
     "html": "<p>The weapon gains additional heat equal to double its base heat.</p>\n",
     "id": "heat-sink"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "medium",
+      "heavy"
+    ],
+    "name": "Heavy Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons You must be\nproficient with any weapons you equip. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "heavy-shoulder-mounts"
   },
   {
     "rarity": "uncommon",

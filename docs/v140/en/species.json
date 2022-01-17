@@ -70,6 +70,14 @@
     "id": "angara"
   },
   {
+    "type": "variant",
+    "species": "asari",
+    "name": "Ardat-Yakshi",
+    "alignment": "Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.",
+    "html": "<p>A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot;\n(2 asari parents). The condition is impossible to identify until the asari reaches maturity, by which time it is too\nlate to correct. When diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed.\nThis is because ardat-yakshi develop an addiction to the power and feel intense compulsion to meld. The addiction only\ngrows stronger with each meld, and so a life of monastic celibacy allows asari to live in peace with a controllable desire.\nThose who are able to avoid isolation and execution, however, quickly become psychopathic in their intense lust for the\ndestructive melding.</p>\n",
+    "id": "ardat-yakshi"
+  },
+  {
     "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
     "randomDimensions": {
@@ -110,11 +118,6 @@
     "galaxy": "milky_way",
     "type": "primary",
     "mechanics": [
-      {
-        "type": "asi",
-        "amount": 2,
-        "ability": "cha"
-      },
       {
         "type": "asi",
         "amount": 1,
@@ -252,13 +255,33 @@
     "mechanics": [
       {
         "type": "asi",
-        "amount": 2,
-        "ability": "con"
+        "ability": "str",
+        "amount": 1
       },
       {
         "type": "asi",
-        "amount": 1,
-        "ability": "cha"
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
       },
       {
         "type": "speed",
@@ -267,6 +290,7 @@
       }
     ],
     "name": "Batarian",
+    "abilityScoreIncrease": "+1 to all ability scores",
     "alignment": "Because of the tenets of Hegemony, batarians tend to be lawful evil, although there are outliers on the moral spectrum.",
     "size": "Batarian bodies are similar to humans, with the exception of a large forehead to accommodate their additional four eyes, making them about 15cm (6\") taller. Your size is Medium.",
     "snippet": "A species of four-eyed bipeds native to the world of Khar'shan, the batarians are a disreputable species that chose to isolate itself from the rest of the galaxy.",
@@ -459,19 +483,10 @@
         "type": "asi",
         "amount": 2,
         "ability": "int"
-      },
-      {
-        "type": "asi",
-        "amount": 1,
-        "ability": "str"
-      },
-      {
-        "type": "speed",
-        "speed": "walk",
-        "distance": 30
       }
     ],
     "name": "Geth",
+    "speedColor": "Your speed is determined by your mobile platform chosen below.",
     "alignment": "Your standard Geth platform is neutral good, wanting to prosper and communicate with others, defending themselves only if threatened. Heretics are lawful evil, serving the Reapers and slavishly accomplishing their will.",
     "size": "Standard geth are around 2 meters tall (6'5\"). Your size is Medium.",
     "snippet": "The geth (\"Servant of the People\" in Khelish) are a species of networked artificial intelligences that reside beyond the Perseus Veil.",
@@ -544,7 +559,7 @@
       {
         "type": "asi",
         "amount": 1,
-        "ability": "cha"
+        "ability": "int"
       },
       {
         "type": "speed",
@@ -560,6 +575,22 @@
     "age": "Hanar usually reach maturity around 40 years and typically live to be 180 years old.",
     "html": "<p>The hanar are a genderless species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species.\nThe hanar homeworld, Kahje, has 90% ocean cover and orbits an energetic white star, resulting in a permanent blanket of\nclouds. Hanar are known for their strong religious beliefs regarding the Protheans, whom they call &quot;the Enkindlers&quot;.\nHanar are extremely polite, almost to a fault. They never refer to themselves in the first person with someone they know\non a face name basis: to do so is considered egotistical. Instead, they refer to themselves as &quot;this one,&quot; or the\nimpersonal &quot;it.&quot; Even when flustered or angry, a hanar will still maintain exquisite poise and will remain formal even\nwith those it wishes dead.</p>\n<h3>Enkindlers</h3>\n<p>Due to the presence of Prothean ruins on Kahje, the hanar have developed a religion centered on the ancient\nspecies, calling them the &quot;Enkindlers&quot;. The hanar practice a religious holiday called Nyahir or &quot;First Cresting Bloom&quot; which\nlasts a full thirteen days and revolves around celebrating the gift of speech, which they attribute to\nhaving come from the Enkindlers. It is a mixture of contemplation and competition, with the faithful engaged in stylized\ndebates, poetry duels, and other traditional hanar art forms. The winners of these events have their names inscribed in\nbio-luminescence on the side of Mount Vassla, an underwater volcano at the heart of one of the oldest Prothean ruins on Kahje.</p>\n<h3>The Compact</h3>\n<p>Several hundred years ago, the hanar made contact with the drell on their nearby homeworld of Rakhana. Drell society\nwas quickly collapsing due to overpopulation and warring over scarce resources, so the hanar rescued several\nhundred thousand drell and brought them to Kahje, where they integrated into hanar society with the remaining\ndrell dying out. Now the drell serve as a client species of the hanar, and although to outside observers the\nrelationship can be construed as a form of slavery, the reality is very different. Drell have integrated with every\nlevel of hanar society, and most consider it an honor to serve a hanar family in a tradition referred to as the Compact.\nMany drell become unofficial members of the family, and some even earn the privilege to learn their masters' &quot;soul names&quot;.</p>\n<h3>Language of Lights</h3>\n<p>The hanar communicate using sophisticated patterns of bioluminescence and speak with scrupulous precision and extreme politeness.\nOther species need machine assistance to translate, though many drell apply genetic modification to their eyes in order\nto perceive higher frequency flashes which allows them to understand the hanar. Most hanar take offense at improper\nlanguage and must take special courses to unlearn this tendency if they expect to deal with other species.</p>\n<h3>Hanar Names</h3>\n<p>The hanar have two names, a &quot;face name&quot; and a &quot;soul name.&quot; The face name is used as a general label for use by\nstrangers and acquaintances. The soul name is kept for use among close friends and relations and tends to be poetic.</p>\n<p><strong>Face Names</strong>: Anrynder, Delanynder, Ellanpo, Hymydwhyn, Lopyldis, Malvyll, Opold, Sedlyner, Tolystoyl, Wynold, Zymandis</p>\n<p><strong>Soul Names</strong>: Burns Brightest when the Foam Blooms, Casts Shadow on the Sun Flower, Emancipates the Tide from those that Pull,\nHeeds only to the Inner Lights, Illuminates the Folly of the Dancers, Regards the Works of the Enkindlers in Despair,\nTransforms the Stone into Water</p>\n<p><me-source-reference pages=\"Hanar\" source=\"wiki\"></me-source-reference></p>\n",
     "id": "hanar"
+  },
+  {
+    "type": "variant",
+    "species": "human",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "amount": 1,
+        "selections": 2
+      }
+    ],
+    "name": "Human Variant",
+    "abilityScoreIncrease": "+1 to two different ability scores of your choice",
+    "html": "",
+    "id": "human-variant"
   },
   {
     "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500",
@@ -639,6 +670,7 @@
       }
     ],
     "name": "Human",
+    "abilityScoreIncrease": "+1 to all ability scores",
     "alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
     "size": "Humans vary widely in height and build, from barely 1.5 meters to well over 2 meters tall. Regardless of your position in that range, your size is Medium.",
     "snippet": "Humans, from the planet Earth, are the newest sentient species of notable size to enter the galactic stage and are the most rapidly expanding and developing.",
@@ -733,6 +765,54 @@
     "id": "krogan"
   },
   {
+    "type": "variant",
+    "species": "salarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Lystheni",
+    "html": "<p>The Lystheni are an &quot;offshoot&quot; of the salarians, unwelcome in Council space. They may be found living among batarians,\nexiled quarians, and other galactic refuse at the Omega station. Little is known about Lystheni other than they are\nconsiderably stronger, durable, and live longer lives. There are rumors on the extranet that their genes have\nbeen spliced with Krogan DNA, though there is no evidence to support the claim.</p>\n<p>If you choose to play a Lystheni, replace the Ability Score Increase, High-Speed Metabolism, and Twice as Bright\nwith the following.</p>\n",
+    "id": "lystheni"
+  },
+  {
+    "type": "variant",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "No Avatar",
+    "html": "<p>If you do not wish to embody a particular aspect of society nor create your own avatar concept, you may replace the Avatar trait with the Feat and Aspiration traits.</p>\n",
+    "id": "prothean-no-avatar"
+  },
+  {
     "bodyImg": "https://data.n7.world/images/species/prothean.png",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802",
     "randomDimensions": {
@@ -777,11 +857,6 @@
         "type": "asi",
         "amount": 2,
         "ability": "wis"
-      },
-      {
-        "type": "asi",
-        "amount": 1,
-        "ability": "dex"
       },
       {
         "type": "speed",

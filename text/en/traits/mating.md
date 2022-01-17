@@ -9,7 +9,7 @@ Each time you reach the required number of mates, you may either gain +1 to an a
 choice or gain proficiency in a skill or tool of your choice. You may also gain expertise if you are already
 proficient in the skill.
 
-### Mating Table
+##### Mating Table
 
 Level requirement|Mates required
 ---|---

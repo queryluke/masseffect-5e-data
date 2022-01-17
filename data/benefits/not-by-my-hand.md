@@ -12,13 +12,13 @@ mechanics:
         value: cha
     shortDesc: add your Charisma modifier to another creature's ability check, if it can see or hear you
   - type: action
-      resource:
-        max:
-          type: mod
-          value: cha
-      shortDesc: >-
-        when you take the Help action, add your Charisma modifier to the creature's next ability check or attack roll
-        it makes before the start of your next turn
+    resource:
+      max:
+        type: mod
+        value: cha
+    shortDesc: >-
+      when you take the Help action, add your Charisma modifier to the creature's next ability check or attack roll
+      it makes before the start of your next turn
 ---
 When another creature that can see or hear you makes an ability check, you may add your Charisma modifier to the roll.
 Alternatively, in combat, whenever you take the Help action, you may add your Charisma modifier to the first attack

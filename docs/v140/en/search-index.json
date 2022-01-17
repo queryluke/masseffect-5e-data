@@ -5762,7 +5762,7 @@
       "Feat"
     ],
     "link": "/feats/additional-augment",
-    "body": "Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition to\nyour current one.\n\n",
+    "body": "Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition\nto your current one.\n",
     "html": false
   },
   {
@@ -5775,6 +5775,30 @@
     ],
     "link": "/feats/alert",
     "body": "Player's Handbook, p. 165\n",
+    "html": false
+  },
+  {
+    "id": "ambushing-hunter-mode",
+    "title": "Ambushing Hunter Mode",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/ambushing-hunter-mode",
+    "body": "Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.\nAs an action, you can activate Ambushing Hunter Mode, gaining the following benefits for 1 minute:\n\nYour movement speed increases by 2 meters.\nYou become invisible until ambushing hunter mode ends or until you make an attack, cast a power, use a grenade or\nmine, or fire a heavy weapon.\nOnce per turn, you can deal an extra damage to one creature you hit with an attack if you have advantage on the attack\nroll. The attack must be made with a melee or ranged weapon. You don't need advantage on the attack roll if\nanother enemy of the target is within 2 meters of it, that enemy isn't incapacitated, and you don't have\ndisadvantage on the attack roll. The extra damage is equal to Xd6 where X is your proficiency bonus.\n\nYou may use this feat once per long rest.\n",
+    "html": false
+  },
+  {
+    "id": "assault-hunter-mode",
+    "title": "Assault Hunter Mode",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/assault-hunter-mode",
+    "body": "Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.\nAs an action, you can activate Assault Hunter Mode, gaining the following benefits for 1 minute:\n\nYour movement speed increases by 2 meters.\nWhenever you make a weapon attack, gain a +1 bonus to the roll.\nWhile hunter mode is active, you can attack one additional time whenever you take the Attack action on your turn.\n\nYou may use this feat once per long rest.\n",
     "html": false
   },
   {
@@ -5802,6 +5826,18 @@
     "html": false
   },
   {
+    "id": "biotic-prodigy",
+    "title": "Biotic Prodigy",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/biotic-prodigy",
+    "body": "Your innate biotics have been honed to be even more potent.\n\nChoose one advancement for both of the cantrips gained from your Innate Biotics. These\nadvancements do not count against your number of cantrips known.\nOnce per long rest, you may cast the 1st level power gained from your Innate Biotics trait at\n2nd level without expending a spell slot.\n\n",
+    "html": false
+  },
+  {
     "id": "biotic-slayer",
     "title": "Biotic Slayer",
     "type": "character",
@@ -5811,6 +5847,30 @@
     ],
     "link": "/feats/biotic-slayer",
     "body": "Name change for Mage Slayer. Player's handbook pg. 168\n",
+    "html": false
+  },
+  {
+    "id": "biotic-unconscious",
+    "title": "Biotic Unconscious",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/biotic-unconscious",
+    "body": "Your innate biotics are extensions of your limbs, and you no longer think twice about them,\nand can utilize them almost without thinking.\nWhenever you cast one of the powers you selected for your Innate Biotics trait, you may use\nyour reaction to sustain the power for its full duration without the need for concentration\n(you may cast a second Concentration power while this one is active, and you do not need to make\nConstitution saving throws to maintain it when you suffer damage).\nOnce you use this feat, you must finish a long rest before you may use it again.\n",
+    "html": false
+  },
+  {
+    "id": "bluebox-ejection",
+    "title": "Blue Box Ejection",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/bluebox-ejection",
+    "body": "You have taken the necessary precautions to protect your blue box, should your hardware fail.\nGain the following (if you have selected the Hologram hardware, your Emitter gains the following instead):\n\nYour blue box is a Tiny object that weighs a few kgs (~5lbs). It is equipped with some basic optic\ninput, aural output devices, and a walking speed of 6 meters.\nInstead of making a death saving throw you may eject your blue box from your hardware. While\nejected you can see and speak, but can take no other action except the Help, Hide, or Dash action.\nWhenever you would suffer damage you take 1 death saving throw failure instead. If you suffer three\ndeath saving throw failures, your blue box is irreparable and you die.\nYou can be reinstalled in a replacement hardware with 8 hours of work and a DC 15 Intelligence\n(Electronics) check. The cost and/or availability of the replacement hardware is at the GM’s\ndiscretion.\n\n",
     "html": false
   },
   {
@@ -5850,6 +5910,18 @@
     "html": false
   },
   {
+    "id": "constrictor-build",
+    "title": "Constrictor Build",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/constrictor-build",
+    "body": "Squeezing the life out of an enemy is just as satisfying as taking them down at range.\n\nWhen a creature attempts to break a grapple with you and succeeds, you can use your reaction to\nforce the creature to roll again. The creature must use the second result.\nWhen a creature provokes an opportunity attack from you, you may instead use your reaction to\nattempt to grapple the creature.\nAt the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature\ngrappled by you (no action required).\nYour movement is not halved when grappling a creature your size or smaller.\n\n",
+    "html": false
+  },
+  {
     "id": "cranial-bruiser",
     "title": "Cranial Bruiser",
     "type": "character",
@@ -5858,7 +5930,19 @@
       "Feat"
     ],
     "link": "/feats/cranial-bruiser",
-    "body": "Krogan are notorious for using any weapon within reach - even the armored plates that cover their foreheads.\nYou gain the following benefits:\n\nYou can attack with a headbutt, which is a natural weapon that you can use to make unarmed strikes. If you hit with\nit, you deal 1d6 + your Strength modifier bludgeoning damage.\nWhen you use the Dash action during your turn, you can make a melee attack with your headbutt as a bonus action.\n\n\n",
+    "body": "You’ve mastered the Krogan headbutt and can use it as a ramming attack.\n\nIncrease your Strength score by 1, to a maximum of 20.\nThe die type of your Thick Frontal Plate unarmed strike becomes a d10.\nWhen you take the Dash action on your turn, you can make one unarmed strike with your frontal\nplate as a bonus action.\n\n",
+    "html": false
+  },
+  {
+    "id": "determination",
+    "title": "Determination",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/determination",
+    "body": "You are filled with an immense determination that can turn events in your favor.\n\nIncrease one ability score of your choice by 1, to a maximum of 20.\nWhen you make an attack roll, an ability check, or a saving throw, you can do so with advantage.\nOnce you use this feat, you can’t use it again until you finish a short or long rest.\n\n",
     "html": false
   },
   {
@@ -5886,6 +5970,30 @@
     "html": false
   },
   {
+    "id": "electrogenesis-amp",
+    "title": "Electrogenesis Amp",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/electrogenesis-amp",
+    "body": "You have trained with amplifying your electrogenesis to provide a boost to kinetic barrier devices.\n\nIncrease your Constitution score by 1, to a maximum of 20.\nAs an action on your turn, you may use your electrogenesis trait and touch one creature. The\ncreature gains shield points (up to its maximum shield point capacity) equal 1d4 + your\nConstitution modifier. You can apply this effect when you use your action to stabilize a\ncreature or remove the stunned condition.\n\n",
+    "html": false
+  },
+  {
+    "id": "electrogenesis-infusion",
+    "title": "Electrogenesis Infusion",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/electrogenesis-infusion",
+    "body": "You have trained with amplifying your electrogenesis into your weapons and can even electrify ammunition.\n\nIncrease your Constitution score by 1, to a maximum of 20.\nAs a bonus action on your turn, you may use your electrogenesis trait to charge a weapon you are wielding with\nbio-electric energy, draining the electric charge from your vitality. Roll a d6 and subtract the amount rolled\nfrom your hit points. Then, for the next minute or until you stow or drop the weapon, attacks made with the weapon\ndeal an additional 1d6 lightning damage.\n\n",
+    "html": false
+  },
+  {
     "id": "elemental-adept",
     "title": "Elemental Adept",
     "type": "character",
@@ -5898,6 +6006,18 @@
     "html": false
   },
   {
+    "id": "empowered-hunter-mode",
+    "title": "Empowered Hunter Mode",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/empowered-hunter-mode",
+    "body": "Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.\nAs an action, you can activate Empowered Hunter Mode. While active you gain a +1 bonus to power attack rolls and\nthe DC of your powers increases by 1. Additionally, increase the die type by 1 (max d12) for any damage rolls of powers you cast.\nIf the die type is already d12, add +1 for each d12 rolled instead of increasing the die type.\nEmpowered Hunter Mode lasts 1 minute and you must finish a long rest before you can use this feat again.\n",
+    "html": false
+  },
+  {
     "id": "enhanced-optics",
     "title": "Enhanced Optics",
     "type": "character",
@@ -5907,6 +6027,30 @@
     ],
     "link": "/feats/enhanced-optics",
     "body": "Your optic nerves have been enhanced by science to perceive more.\n\nGain darkvision.\nYou now gain proficiency in Perception, Investigation, and Insight. If you are already proficient in any of these, gain\nexpertise instead.\n\n",
+    "html": false
+  },
+  {
+    "id": "fake-it-til-you-make-it",
+    "title": "Fake It 'til You Make It",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/fake-it-til-you-make-it",
+    "body": "You mimic confidence, competence and an optimistic mindset, which you hope help you realize those qualities in\nyour real life. You gain the following benefits:\n\nIncrease your Charisma score by 1, to a maximum of 20.\nIf you fail a saving throw or ability check, or miss with an attack roll, you spend a hit die to roll d4 and\nadd it to the total, possibly changing the outcome. Once you use this feature, you can’t use it again until you\nfinish a short or long rest.\nYou have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to convince a creature you\ncan accomplish something without a problem.\n\n",
+    "html": false
+  },
+  {
+    "id": "fast-learner",
+    "title": "Fast Learner",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/fast-learner",
+    "body": "You are extremely apt to learn new skills. You gain the following benefits:\n\nIncrease your Intelligence score by 1, to a maximum of 20.\nIf you spend at least 1 hour with a creature, you can learn from it a new proficiency. The interaction must be\npeaceful and the creature must have the proficiency you are intending to learn. You can choose between the following:\none tool proficiency, one skill proficiency, or proficiency with one specific weapon. You retain the proficiency until\nyou decide to change it for another, using the same process. This is considered light activity.\n\n",
     "html": false
   },
   {
@@ -5994,6 +6138,42 @@
     "html": false
   },
   {
+    "id": "hovering",
+    "title": "Hovering",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/hovering",
+    "body": "You’ve strengthened your wings to allow you to maneuver more deftly and hover for short periods.\n\nYour flying speed becomes 16 meters.\nAt the end of your turn, if you are in the air, you can hover until the start of your next turn.\nYou can hover a number of times between short rests equal to your proficiency bonus.\n\n",
+    "html": false
+  },
+  {
+    "id": "improved-avatars-inspiration",
+    "title": "Improved Avatar's Inspiration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/improved-avatars-inspiration",
+    "body": "Your avatar actions become even more inspiring to others.\n\nIncrease your Wisdom by 1, to a maximum of 20.\nIncrease your Avatar’s Inspiration die type to a d8.\n\n",
+    "html": false
+  },
+  {
+    "id": "improved-bio-electric-ward",
+    "title": "Improved Bio-Electric Ward",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/improved-bio-electric-ward",
+    "body": "You have honed your bio-electric ward to new heights providing greater defense.\n\nYour AC increases by 1.\nOnce per long rest, if you suffer cold or lightning damage that would reduce you to 0\nhit points but not kill you outright, you can drop to 1 hit point instead.\n\n",
+    "html": false
+  },
+  {
     "id": "keen-mind",
     "title": "Keen Mind",
     "type": "character",
@@ -6015,6 +6195,30 @@
     ],
     "link": "/feats/lightly-armored",
     "body": "Player's Handbook, p. 167\n",
+    "html": false
+  },
+  {
+    "id": "living-turret",
+    "title": "Living Turret",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/living-turret",
+    "body": "You can balance on your haunches and briefly dual-wield two weapons, becoming a living turret.\n\nIncrease your Dexterity or Strength score by 1, to a maximum of 20.\nAt the beginning of your turn, you can reduce your movement speed to 0 to sit on your haunches.\nUntil the end of your turn, you may engage in two-weapon fighting even if the weapons you are wielding don’t have the\nlight property.\nGain one of the following fighting styles: Ambidextrous, Assault, Carnage, Close-Quarters Shooter, or Sniper\n\n",
+    "html": false
+  },
+  {
+    "id": "long-fist",
+    "title": "Long Fist",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/long-fist",
+    "body": "You’ve trained in an ancient Elcor martial art which adds range and impact to your slow and sweeping strikes.\n\nIncrease your Dexterity or Strength score by 1, to a maximum of 20.\nWhen you make a melee attack on your turn, your reach for it is 2 meters greater than normal.\nYour unarmed strike uses a d8 for damage.\nWhenever you roll a 1 on a damage die for a melee attack, you can reroll the die and must use the new roll.\n\n",
     "html": false
   },
   {
@@ -6102,6 +6306,78 @@
     "html": false
   },
   {
+    "id": "poison-skin",
+    "title": "Poison Skin",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/poison-skin",
+    "body": "You have taken steps to increase the potency of your skin’s natural toxin.\n\nYour skin produces a natural poison. A creature subjected to this poison suffers 1d4 poison damage and must succeed\non a DC 13 Constitution saving throw or be poisoned for 1 hour.\nA creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.\nAs a bonus action, you may coat a weapon you are wielding in your poison.\n\n",
+    "html": false
+  },
+  {
+    "id": "poly-avatar",
+    "title": "Poly-Avatar",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/poly-avatar",
+    "body": "Choose (or work with your GM to create) a second avatar from the Avatar trait. You gain all features of that avatar,\nin addition to your current one.\n",
+    "html": false
+  },
+  {
+    "id": "premium-genetics",
+    "title": "Premium Genetics",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/premium-genetics",
+    "body": "Through additional bioengineering, you’ve put yourself through a second exaltation process which has kept a valuable\ngenetic trait from the exalted species. Choose one species from the list below and gain the listed benefits.\nIn addition, you count as this species when meeting another feat’s prerequisite.\nAngara. Your Constitution score increases by 1, to a maximum of 20. Additionally, gain the Electrogenesis trait.\nAsari. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Innate Biotics trait.\nAwakened Collector. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Wings trait.\nBatarian. Increase one ability score of your choice by 1, to a maximum of 20. Additionally, gain the Four Eyes trait.\nDrell. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Raw Agility trait.\nElcor. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Dense Build trait.\nHanar. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Amphibious and Bioluminescence traits.\nHuman. Increase two ability scores of your choice by 1 or one ability score of your choice by 2, to a maximum of 20.\nKrogan. Your Constitution score increases by 1, to a maximum of 20. Additionally, gain the Blood Rage trait.\nProthean. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the All-Seeing Eyes trait.\nSalarian. Your Intelligence score increases by 1, to a maximum of 20. Additionally, gain the Amphibious and High-Speed Metabolism traits.\nTurian. Increase your Dexterity or Constitution score increases by 1 (your choice), to a maximum of 20. Additionally, gain the Thulium Skin trait.\nVolus. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Lucky trait.\nVorcha. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Non-Differentiated Cells trait.\nYahg. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Predator Eyes Cells trait.\n",
+    "html": false
+  },
+  {
+    "id": "quad-wielding",
+    "title": "Quad-wielding",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/quad-wielding",
+    "body": "Like Blasto himself, you’ve trained in the art of quad-wielding.\n\nWhen you engage in two-weapon fighting with a ranged weapon that has not made an attack this turn,\nyou can simultaneously make an attack with a second ranged weapon you are wielding that has not made an attack this turn.\nMake a single attack roll for both weapons, using the lower of the weapons’ ranges.\nAt the end of your turn, if you are wielding a ranged weapon that has not made an attack this turn, you may use\nyour reaction to make an attack with that weapon.\n\n",
+    "html": false
+  },
+  {
+    "id": "regenerative-burst",
+    "title": "Regenerative Burst",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/regenerative-burst",
+    "body": "You have adapted to quickly regenerate minor wounds, given a brief reprieve from injury.\n\nIncrease your Constitution score by 1, to a maximum of 20.\nWhenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the\ndie, add your Constitution modifier, and regain a number of hit points equal to the total\n(minimum of 1).\n\n",
+    "html": false
+  },
+  {
+    "id": "rending-maw",
+    "title": "Rending Maw",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/rending-maw",
+    "body": "Your bite becomes a deadly weapon, and you’ve trained to pierce vital points.\n\nIncrease your Dexterity by 1, to a maximum of 20.\nWhenever you take the Dash action on your turn, you may use your bonus action to make an attack\nwith your Bite.\nWhenever you hit an organic target with your bite attack, it continues to bleed, suffering 1d6\ndamage at the start of each of its turns due to blood loss. A creature can staunch the wound by\nusing its action to attempt a DC 10 Wisdom (Medicine) check. On a success, the bleeding stops.\n\n",
+    "html": false
+  },
+  {
     "id": "resilient",
     "title": "Resilient",
     "type": "character",
@@ -6186,6 +6462,78 @@
     "html": false
   },
   {
+    "id": "squat-nimbleness",
+    "title": "Squat Nimbleness",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/squat-nimbleness",
+    "body": "You are uncommonly nimble for your species. You gain the following benefits:\n\nIncrease your Strength or Dexterity score by 1 to a maximum of 20.\nIncrease your walking speed by 5 feet.\nYou gain proficiency in the Acrobatics or Athletics skill (your choice).\nYou have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to\nescape from being grappled.\n\n",
+    "html": false
+  },
+  {
+    "id": "stg-training",
+    "title": "STG Training",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/stg-training",
+    "body": "The Special Tasks Group is trained to run every step and action through potential outcome scenarios\nfor the best possible result.\n\nIncrease your Intelligence or Dexterity score by 1, to a maximum of 20.\nWhenever you make a Dexterity check, you gain a bonus to the check equal to your\nIntelligence modifier (minimum of +1).\n\n",
+    "html": false
+  },
+  {
+    "id": "strength-in-numbers",
+    "title": "Strength In Numbers",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/strength-in-numbers",
+    "body": "When your allies are nearby, you can focus your shots with greater precision.\nWhenever you make a ranged weapon attack, you gain a bonus to the attack roll for each\nfriendly creature within 4 meters of you (maximum bonus of +5)\n",
+    "html": false
+  },
+  {
+    "id": "stunning-swarm",
+    "title": "Stunning Swarm",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/stunning-swarm",
+    "body": "You can summon additional swarms and multiple stings can briefly stun enemies.\n\nWhen you use your Seeker Swarm trait, you summon five swarms instead of three.\nWhenever a creature suffers damage from two or more of your seeker swarms simultaneously,\nit must succeed on a Constitution saving throw or become stunned until the end of its next\nturn. The DC of the saving throw is equal to 8 + your proficiency bonus + the number of\nsimultaneous seekers swarms that hit the target.\n\n",
+    "html": false
+  },
+  {
+    "id": "supreme-agility",
+    "title": "Supreme Agility",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/supreme-agility",
+    "body": "As a drell, you've gained incredible reflexes that allow you to dodge the dangers of your aquatic homeworld with\nrelative ease.\n\nIncrease your Dexterity score by 1, to a maximum of 20.\nWhenever you succeed on a Dexterity saving throw and suffer half damage, you may use your reaction to take no\ndamage instead. You may use this reaction a number of times equal to your proficiency bonus. You regain all uses during\na long rest.\n\n",
+    "html": false
+  },
+  {
+    "id": "synthetic-healer",
+    "title": "Synthetic Healer",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/synthetic-healer",
+    "body": "You’ve practiced in repairing and patching synthetics, gaining the following benefits:\n\nYou have advantage on Intelligence (Engineering) and Intelligence (Electronics) checks to\nstabilize synthetic creatures.\nYou can use your action to expend an omni-gel and create 10 charges of a fast-acting,\nconductive Epoxy.\nAs an action, you can spend one epoxy to tend to a synthetic creature and restore\n1d6 + 4 hit points to it, plus additional hit points equal to the creature's level.\nThe creature can't regain hit points from this feat again until it finishes a short or long rest.\n\n",
+    "html": false
+  },
+  {
     "id": "tavern-brawler",
     "title": "Tavern Brawler",
     "type": "character",
@@ -6198,6 +6546,18 @@
     "html": false
   },
   {
+    "id": "tentacle-blender",
+    "title": "Tentacle Blender",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/tentacle-blender",
+    "body": "You’ve practiced an effective maneuver to hit multiple enemies simultaneously, keeping them at bay.\n\nIncrease your Dexterity by 1, to a maximum of 20.\nAs an action, you can make a special Tentacle Blender attack. Each creature within a  radius\ncentered on you must make a Dexterity saving throw or suffer damage equal to the total damage of each melee weapon you\nare wielding. The DC of the saving throw is equal to 8 + your Dexterity modifier + your proficiency bonus.\nIf you are wielding a ranged weapon when you make this attack, it is considered a melee weapon,\ndealing damage equivalent to your gun strike.\nIf you are not wielding a weapon in a tentacle, you use the damage of your tentacle’s unarmed strike.\n\n",
+    "html": false
+  },
+  {
     "id": "tough",
     "title": "Tough",
     "type": "character",
@@ -6207,6 +6567,18 @@
     ],
     "link": "/feats/tough",
     "body": "Player's Handbook, p. 170\n",
+    "html": false
+  },
+  {
+    "id": "turian-accuracy",
+    "title": "Turian Accuracy",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Feat"
+    ],
+    "link": "/feats/turian-accuracy",
+    "body": "A virtuoso of ranged weaponry, you have uncanny aim with ranged weapons that rely on precision rather\nthan brute force:\n\nIncrease your Dexterity, Intelligence, or Wisdom by 1, to a maximum of 20.\nWhenever you have advantage on an attack roll using Dexterity, Intelligence, or Wisdom,\nyou can reroll one of the dice once.\n\n",
     "html": false
   },
   {
@@ -6223,14 +6595,14 @@
   },
   {
     "id": "warlords-blood-rage",
-    "title": "Warlord's Blood Rage",
+    "title": "Warlord's Bloodrage",
     "type": "character",
     "qualifiers": [
       "Character",
       "Feat"
     ],
     "link": "/feats/warlords-blood-rage",
-    "body": "Your blood rage is exceptionally deadly, rivaling those of the krogan warlords in Tuchanka. You gain the\nfollowing benefits while using your Blood Rage trait:\n\nOnce per turn when you roll damage for a melee weapon attack, you can reroll the weapon’s damage dice and use either total.\nAs a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.\nWhen you score a critical hit with a melee weapon attack, you can roll one additional damage dice and add it to the extra damage of the critical hit.\n\n",
+    "body": "You become even more dangerous when you enter a blood rage and can delay death even longer. While your blood rage is\nactive you gain the following:\n\nAt the start of your turn, gain 5 temporary hit points.\nWhen you make a melee weapon attack using Strength, you gain a bonus to the damage roll equal to your proficiency bonus.\nAs a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You\nmust end this move closer to the enemy than you started.\n\n",
     "html": false
   },
   {
@@ -7712,6 +8084,17 @@
     "html": "<p>Characters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their\nstat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.</p>\n<p>Your proficiency bonus can’t be added to a single die roll or other number more than once. For example, if two different\nrules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when\nyou make the save.</p>\n<p>Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it.\nFor example, the infiltrator’s Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance\nsuggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or\ndivide it only once.</p>\n<p>By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that\nwouldn’t normally benefit from your proficiency bonus, you still don’t add the bonus to the check. For that check, your\nproficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency\nin the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make\nIntelligence (History) checks.</p>\n<p>In general, you don’t multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows\nyou to do so, these same rules apply.</p>\n<p><me-source-reference pages=\"77\"></me-source-reference></p>\n"
   },
   {
+    "id": "reputation",
+    "title": "Reputation: Paragon & Renegade",
+    "type": "manual",
+    "qualifiers": [
+      "Player's Manual"
+    ],
+    "link": false,
+    "body": "Reputation in ME5e is the measure of your operative’s actions, whereas alignment in ME5e is the\nrepresentation of your character’s ideals or moral attitudes (your character wants to be good or evil,\nbut there may be outstanding circumstances or exceptions). In ME5e, the reputation of your\noperative’s actions is measured in &quot;Paragon&quot; and &quot;Renegade&quot;, but these are not synonymous\nwith “good” and “evil.” The culmination of actions can rarely be judged as\nempirically “good” or “evil.” Therefore “Paragon” and “Renegade” represent\ncharacteristics of your action’s motivation and/or outcomes rather than any subjective “goodness” or “evilness.”\nParagon actions are open-ended (allowing for future possibilities), utilitarian (benefits the most people),\nlogical, and tend to use persuasion over intimidation or brute force.\nRenegade actions are decisive and final, emotional, gain immediate results, and often use a show of force.\nWhile paragon actions tend to be lawful and/or good, and renegade actions tend to be evil and/or chaotic, this\nis not an absolute. See A Complex Renegade and Paragon Example below.\nParagon and renegade are not a single sliding scale. A paragon action will not make up for a renegade one;\ntherefore, a low paragon reputation will not stop people from fearing a killer or remove the reputation\nof an unsympathetic heel. Nor will the occasional brutal action significantly damage the reputation of an\notherwise upstanding soldier.\nEarning Reputation\nLike inspiration, gaining reputation is a reward for roleplaying your character and is entirely at the GMs discretion.\nYour GM can choose to reward paragon or renegade reputation for a variety of reasons, but typically it is\nrewarded based on an action you take or an action your party makes. You can gain any amount\nof paragon and/or renegade simultaneously. Additionally, reputation can be rewarded\nto the entire party, individually, or both. See A Complex Renegade and Paragon Example below for a detailed example.\nYour GM can award any amount of paragon or renegade reputation for your actions, but you can never have more than\na score of 100 in either reputation. For example’s sake, a character with a 100 reputation score in either would have\ngalactic-wide notoriety. So your GM can certainly allow totals more than 100, but there are no additional\nbenefits for exceeding 100. For GMs, see the Total Reputation per Tier table to assist with how often and\nhow much reputation you should reward. Note that total reputation equals the summation of a player’s paragon and\nrenegade scores.\nTotal Reputation per Tier\n\n\nLevels\nTotal Reputation\n\n\n\n\n1-4\n1-20\n\n\n5-10\n21-50\n\n\n11-17\n51-99\n\n\n17+\n100+\n\n\nA Complex Renegade and Paragon Example\nIn Mass Effect 2, you are faced with the decision to save the genophage data (which might result in curing the genophage)\nor destroying it.\nAssume a player party of a neutral human, a lawful good salarian, and a chaotic evil krogan. The salarian thinks curing\nthe genophage could result in the destruction of the galaxy; thus, the most logical and utilitarian decision would be to\ndestroy it; he even threatens his own party at gunpoint. The krogan speaks emotionally about her difficult upbringing\nand the countless children she’s lost, and wants to save the data. The human listens intently and ultimately\nsides with one or the other.\nIn this scenario, the outcome (saving or destroying the data) will represent the largest distribution of paragon or\nrenegade points. Saving the data presents future possibilities (paragon) whereas destroying it is final (renegade).\nThus, the GM may award 10 paragon or renegade points to the entire party. However, the GM can also award points\nbased on the individual character's actions:\n\n2 renegade points to the salarian. Their actions may have appeared logical, but their emotional fear of krogan\ndestruction and threatening their own party was extremely “renegade-esque”\n1 paragon point and 1 renegade point to the krogan, their actions were emotional but they used their words rather\nthan drawing their weapon and trying to intimidate the salarian\n2 paragon points to the human for remaining calm and emotionless and listening to all sides\n\nThe most important aspect of this new Reputation system is to give players more freedom with their actions\noutside of their chosen alignment. Thus, it is a reward for good role-playing rather than a\nresource one is meant to “grind.”\nBenefits of Reputation\nWhenever you gain reputation, you can choose one benefit from the list below. Each benefit lists a threshold and a\nprerequisite. To gain that benefit, your total reputation score must meet or exceed the threshold, and your\nindividual scores (paragon or renegade) must meet the listed prerequisite. You gain benefits at certain thresholds\n\n15, 30, 60, and 100 - but you can only gain one benefit per threshold.\n\nIn most cases, a prerequisite indicates a comparison of your renegade and paragon scores. For example,\nall paragon-based benefits require your paragon score to be greater than your renegade score, and vice versa.\nHowever, there are benefits that require your paragon and renegade scores to be relatively close to one another.\nFor example, Prerequisite: Renegade = Paragon ± 5, indicates your renegade score must be equal to your paragon\nscore plus or minus 5. Thus, if you had a renegade score of 10, you could have a paragon score between 5 and 15.\nLosing and Changing Benefits\nIf gaining paragon or renegade causes you to no longer meet a benefit’s requirements, you lose that benefit\nwhen you take a long rest, representing the time it takes for your reputation to spread throughout social circles.\nDuring this long rest, you can replace the lost benefit with a new benefit as long as you meet the new benefit’s\nprerequisites and only select one benefit per threshold.\nReputation Ability\nYour reputation is further advanced by your Charisma and you use your Charisma modifier when setting the saving throw\nDC of a reputation benefit. The DC = 8 + your proficiency bonus + your Charisma modifier.\nBenefits\nList of ME5e Reputation Benefits\n",
+    "html": "<p>Reputation in ME5e is the measure of your operative’s <em>actions</em>, whereas alignment in ME5e is the\nrepresentation of your character’s <em>ideals</em> or <em>moral attitudes</em> (your character wants to be good or evil,\nbut there may be outstanding circumstances or exceptions). In ME5e, the reputation of your\noperative’s actions is measured in &quot;Paragon&quot; and &quot;Renegade&quot;, but these are not synonymous\nwith “good” and “evil.” The culmination of actions can rarely be judged as\nempirically “good” or “evil.” Therefore “Paragon” and “Renegade” represent\ncharacteristics of your action’s motivation and/or outcomes rather than any subjective “goodness” or “evilness.”</p>\n<p><strong>Paragon</strong> actions are open-ended (allowing for future possibilities), utilitarian (benefits the most people),\nlogical, and tend to use persuasion over intimidation or brute force.</p>\n<p><strong>Renegade</strong> actions are decisive and final, emotional, gain immediate results, and often use a show of force.</p>\n<p>While paragon actions <em>tend</em> to be lawful and/or good, and renegade actions <em>tend</em> to be evil and/or chaotic, this\nis not an absolute. See <strong>A Complex Renegade and Paragon Example</strong> below.</p>\n<p>Paragon and renegade are not a single sliding scale. A paragon action will not make up for a renegade one;\ntherefore, a low paragon reputation will not stop people from fearing a killer or remove the reputation\nof an unsympathetic heel. Nor will the occasional brutal action significantly damage the reputation of an\notherwise upstanding soldier.</p>\n<h3>Earning Reputation</h3>\n<p>Like inspiration, gaining reputation is a reward for roleplaying your character and is entirely at the GMs discretion.\nYour GM can choose to reward paragon or renegade reputation for a variety of reasons, but typically it is\nrewarded based on an action you take or an action your party makes. You can gain any amount\nof paragon and/or renegade simultaneously. Additionally, reputation can be rewarded\nto the entire party, individually, or both. See <strong>A Complex Renegade and Paragon Example</strong> below for a detailed example.</p>\n<p>Your GM can award any amount of paragon or renegade reputation for your actions, but you can never have more than\na score of 100 in either reputation. For example’s sake, a character with a 100 reputation score in either would have\ngalactic-wide notoriety. So your GM can certainly allow totals more than 100, but there are no additional\nbenefits for exceeding 100. For GMs, see the <strong>Total Reputation per Tier</strong> table to assist with how often and\nhow much reputation you should reward. Note that total reputation equals the summation of a player’s paragon and\nrenegade scores.</p>\n<p><strong>Total Reputation per Tier</strong></p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Levels</th>\n<th>Total Reputation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1-4</td>\n<td>1-20</td>\n</tr>\n<tr>\n<td>5-10</td>\n<td>21-50</td>\n</tr>\n<tr>\n<td>11-17</td>\n<td>51-99</td>\n</tr>\n<tr>\n<td>17+</td>\n<td>100+</td>\n</tr>\n</tbody>\n</template></v-simple-table><v-alert value type=\"info\"><h4>A Complex Renegade and Paragon Example</h4>\n<p>In Mass Effect 2, you are faced with the decision to save the genophage data (which might result in curing the genophage)\nor destroying it.</p>\n<p>Assume a player party of a neutral human, a lawful good salarian, and a chaotic evil krogan. The salarian thinks curing\nthe genophage could result in the destruction of the galaxy; thus, the most logical and utilitarian decision would be to\ndestroy it; he even threatens his own party at gunpoint. The krogan speaks emotionally about her difficult upbringing\nand the countless children she’s lost, and wants to save the data. The human listens intently and ultimately\nsides with one or the other.</p>\n<p>In this scenario, the outcome (saving or destroying the data) will represent the largest distribution of paragon or\nrenegade points. Saving the data presents future possibilities (paragon) whereas destroying it is final (renegade).\nThus, the GM may award 10 paragon or renegade points to the entire party. However, the GM can also award points\nbased on the individual character's actions:</p>\n<ul>\n<li>2 renegade points to the salarian. Their actions may have appeared logical, but their emotional fear of krogan\ndestruction and threatening their own party was extremely “renegade-esque”</li>\n<li>1 paragon point and 1 renegade point to the krogan, their actions were emotional but they used their words rather\nthan drawing their weapon and trying to intimidate the salarian</li>\n<li>2 paragon points to the human for remaining calm and emotionless and listening to all sides</li>\n</ul>\n<p>The most important aspect of this new Reputation system is to give players more freedom with their actions\noutside of their chosen alignment. Thus, it is a reward for good role-playing rather than a\nresource one is meant to “grind.”</p>\n<h3>Benefits of Reputation</h3>\n<p>Whenever you gain reputation, you can choose one benefit from the list below. Each benefit lists a <strong>threshold</strong> and a\n<strong>prerequisite</strong>. To gain that benefit, your total reputation score must meet or exceed the threshold, and your\nindividual scores (paragon or renegade) must meet the listed prerequisite. You gain benefits at certain thresholds</p>\n<ul>\n<li>15, 30, 60, and 100 - but you can only gain one benefit per threshold.</li>\n</ul>\n<p>In most cases, a prerequisite indicates a comparison of your renegade and paragon scores. For example,\nall paragon-based benefits require your paragon score to be greater than your renegade score, and vice versa.\nHowever, there are benefits that require your paragon and renegade scores to be relatively close to one another.\nFor example, <strong>Prerequisite: Renegade = Paragon ± 5</strong>, indicates your renegade score must be equal to your paragon\nscore plus or minus 5. Thus, if you had a renegade score of 10, you could have a paragon score between 5 and 15.</p>\n<h4>Losing and Changing Benefits</h4>\n<p>If gaining paragon or renegade causes you to no longer meet a benefit’s requirements, you lose that benefit\nwhen you take a long rest, representing the time it takes for your reputation to spread throughout social circles.\nDuring this long rest, you can replace the lost benefit with a new benefit as long as you meet the new benefit’s\nprerequisites and only select one benefit per threshold.</p>\n<h4>Reputation Ability</h4>\n<p>Your reputation is further advanced by your Charisma and you use your Charisma modifier when setting the saving throw\nDC of a reputation benefit. The DC = <strong>8 + your proficiency bonus + your Charisma modifier</strong>.</p>\n<h4>Benefits</h4>\n<p><nuxt-link to=\"/benefits\">List of ME5e Reputation Benefits</nuxt-link></p>\n</v-alert>"
+  },
+  {
     "id": "resting",
     "title": "Resting",
     "type": "manual",
@@ -7932,17 +8315,6 @@
     "html": "<p>This manual uses the <a href=\"https://dnd.wizards.com/articles/features/basicrules\" target=\"_blank\">Dungeons &amp; Dragons 5th Edition Basic Rules</a>\nas its core rule set. If you have never played D&amp;D 5e, we recommend that you familiarize yourself with the basic rules\nfirst. Most of those rules are replicated and referenced in the rules section of this Player's Manual.</p>\n<p>Not repeated here are basic rules for Dungeon (Galaxy) Masters which have additional rules on running successful campaigns.</p>\n<h3>Using the Site</h3>\n<p>The <strong>Rules</strong> dropdown on the left contains the necessary information you need for creating characters, going on missions,\nleveling up, casting powers, and acquiring all the different types of equipment and vehicles available to you. Sections\nthat contain significant changes are:</p>\n<ul>\n<li><nuxt-link to=\"/manual/equipment\">Equipment</nuxt-link>, which includes brand-new rules for armor, weapons, and mods</li>\n<li><nuxt-link to=\"/manual/combat\">Combat</nuxt-link>, which includes information on kinetic barriers (shields)</li>\n<li><nuxt-link to=\"/manual/vehicles\">Vehicles</nuxt-link>, which contains a &quot;bolt-on&quot; set of rules for traveling through the galaxy</li>\n</ul>\n<p>The <strong>Characters</strong> dropdown contains the list of options you have when creating your characters which has brand new:</p>\n<ul>\n<li><nuxt-link to=\"/species\">Species</nuxt-link></li>\n<li><nuxt-link to=\"/classes\">Classes</nuxt-link></li>\n<li><nuxt-link to=\"/backgrounds\">Backgrounds</nuxt-link></li>\n<li><nuxt-link to=\"/feats\">Feats</nuxt-link></li>\n</ul>\n<p>The <strong>Equipment</strong> section has links to all of the equipment lists, <nuxt-link to=\"/weapons\">weapons</nuxt-link>, <nuxt-link to=\"/mods\">mods</nuxt-link>, <nuxt-link to=\"/armor\">armor</nuxt-link>, <nuxt-link to=\"/gear\">gear</nuxt-link>, and <nuxt-link to=\"/vehicles\">vehicles</nuxt-link>.</p>\n<p><strong><nuxt-link to=\"/powers\">Powers</nuxt-link></strong> contains the list of all the new powers in this homebrew.</p>\n<p>The <strong><nuxt-link to=\"/bestiary\">Bestiary</nuxt-link></strong> has entirely new monsters and aliens to fight.</p>\n<p>The <strong>Appendix</strong> has information on new and existing skills, conditions, weapon properties, and tool proficiencies.</p>\n<p>A <strong>Character Builder</strong> is currently in beta production, but you can find character sheets in the list of <nuxt-link to=\"/assets\">assets</nuxt-link>.</p>\n<p>The <strong>Generators</strong> section has loot of npc generators for quickly making components for your game.</p>\n<p><strong>Guides</strong> provides some guidelines for creating your own encounters, vehicles, and armor.</p>\n<p>Printable and digital <strong><nuxt-link to=\"/assets\">Assets</nuxt-link></strong>, like character sheets are available for when your ready to play with this homebrew.</p>\n<v-alert value type=\"info\"><p><strong>VARIANT RULES</strong></p>\n<p>Occasionally, you'll see a rule preceded by the word &quot;Variant&quot;. This means the rule is optional. In some cases,\nit may replace an existing rule. For example, the Variant: Encumbrance rule replaces the standard Lifting &amp; Carrying rules.</p>\n<p>In other instances, the rule may be completely ignored. For example, the Paragon &amp; Renegade system adds rules for utilizing\nparagon and renegade points. While this adds a nice touch of flavor from the original <em>Mass Effect</em> trilogy, it is not required\nfor this system to work, and it can safely be left out of your campaign if desired.</p>\n</v-alert>"
   },
   {
-    "id": "variant-paragon-renegade",
-    "title": "Variant: Paragon & Renegade",
-    "type": "manual",
-    "qualifiers": [
-      "Player's Manual"
-    ],
-    "link": false,
-    "body": "With the Variant: Paragon &amp; Renegade (P/R) rule, players accrue points in either Paragon or Renegade which can add\nbonuses to skill checks.\nEarning Points\nThe primary way to each Paragon or Renegade points is by taking actions or role-playing that personality. This mechanic\nworks similarly to rewarding Inspiration (described above), but the reward can be 1 to 5 points based on the impact of the\nchoice and whether the choice aligns with Paragon or Renegade. GMs can also reward points to the entire party based on a\ndecision they make while playing the game. Did the party destroy the potentially life-threatening biological weapon\n(Renegade) or send it to authorities for research in vaccinations (Paragon).\nPoint maximum\nYou can gain points in Paragon and Renegade, but your total combined points can never be more than 100.\nFor Galaxy Masters, you want to award about 5 points of paragon or renegade per player level. I.e., a level 20 character\nshould have about 100 points if they added their P/R scores together.\nUsing points\nYour Paragon and Renegade points can add a bonus to skill checks. You gain a +1 bonus to your skill check for every\n10 Paragon or Renegade points you have. For example, if you had 14 Paragon points and 22 Renegade points, you would\nadd +1 to any paragon rolls and +2 to any renegade rolls.\nA Paragon or Renegade roll is any skill check in which your GM allows your P/R bonus to augment the outcome of the roll.\nIt's the player's responsibility to ask the Galaxy Master about adding the P/R bonus, but the Galaxy Master can\nproactively ask for a check with the P/R bonus added.\nWhen to or when not to apply P/R bonus to a roll is entirely up to the GM. However, the rule of thumb is that the\naction taken is more Paragon-like or more Renegade-like than what an average sentient being would do.\nParagon vs Renegade\nWhat constitutes Paragon and what constitutes Renegade is a bit fuzzy. Paragon is neither Lawful nor Good, just as Renegade\nis neither Evil nor Chaotic. However, both traits tend to fall closer to those respective spectra.\nTry to think of Paragon and Renegade as flavors of a character's or party's choices. Paragon choices are open-ended,\nallowing for future possibilities, utilitarian (benefits the most people), logical, and rely on the pen over the sword.\nRenegade choices are decisive and final, emotional, gain immediate results, and often use a show of force.\nParagon examples\n\nAcrobatics: jump in front of a bullet to protect someone\nAthletics: Hold fast a door while your party escapes a threat\nIntimidation: Threaten someone with justice\nMedicine: Stabilize an enemy because they might provide information\nVehicle Handling: Lead your chasers right to the authorities\n\nRenegade examples\n\nAthletics: Hold fast a door so the threat burns inside\nDeception: Convince the bounty hunters their target fled into that cave (which happens to be booby-trapped)\nElectronics: Broadcast the controversial research to the galaxy, let the politicians and scientists figure it out\nIntimidation: Threaten someone with pain\nVehicle Handling: Lead your chasers right into a reinforced-steel wall\n\n",
-    "html": "<p>With the Variant: Paragon &amp; Renegade (P/R) rule, players accrue points in either Paragon or Renegade which can add\nbonuses to skill checks.</p>\n<h3>Earning Points</h3>\n<p>The primary way to each Paragon or Renegade points is by taking actions or role-playing that personality. This mechanic\nworks similarly to rewarding Inspiration (described above), but the reward can be 1 to 5 points based on the impact of the\nchoice and whether the choice aligns with Paragon or Renegade. GMs can also reward points to the entire party based on a\ndecision they make while playing the game. Did the party destroy the potentially life-threatening biological weapon\n(Renegade) or send it to authorities for research in vaccinations (Paragon).</p>\n<h3>Point maximum</h3>\n<p>You can gain points in Paragon and Renegade, but your total combined points can never be more than 100.\nFor Galaxy Masters, you want to award about 5 points of paragon or renegade per player level. I.e., a level 20 character\nshould have about 100 points if they added their P/R scores together.</p>\n<h3>Using points</h3>\n<p>Your Paragon and Renegade points can add a bonus to skill checks. You gain a +1 bonus to your skill check for every\n10 Paragon or Renegade points you have. For example, if you had 14 Paragon points and 22 Renegade points, you would\nadd +1 to any paragon rolls and +2 to any renegade rolls.</p>\n<p>A Paragon or Renegade roll is any skill check in which your GM allows your P/R bonus to augment the outcome of the roll.\nIt's the player's responsibility to ask the Galaxy Master about adding the P/R bonus, but the Galaxy Master can\nproactively ask for a check with the P/R bonus added.</p>\n<p>When to or when not to apply P/R bonus to a roll is entirely up to the GM. However, the rule of thumb is that the\naction taken is more Paragon-like or more Renegade-like than what an average sentient being would do.</p>\n<h3>Paragon vs Renegade</h3>\n<p>What constitutes Paragon and what constitutes Renegade is a bit fuzzy. Paragon is neither Lawful nor Good, just as Renegade\nis neither Evil nor Chaotic. However, both traits <em>tend</em> to fall closer to those respective spectra.</p>\n<p>Try to think of Paragon and Renegade as flavors of a character's or party's choices. Paragon choices are open-ended,\nallowing for future possibilities, utilitarian (benefits the most people), logical, and rely on the pen over the sword.\nRenegade choices are decisive and final, emotional, gain immediate results, and often use a show of force.</p>\n<h4>Paragon examples</h4>\n<ul>\n<li>Acrobatics: jump in front of a bullet to protect someone</li>\n<li>Athletics: Hold fast a door while your party escapes a threat</li>\n<li>Intimidation: Threaten someone with justice</li>\n<li>Medicine: Stabilize an enemy because they might provide information</li>\n<li>Vehicle Handling: Lead your chasers right to the authorities</li>\n</ul>\n<h4>Renegade examples</h4>\n<ul>\n<li>Athletics: Hold fast a door so the threat burns inside</li>\n<li>Deception: Convince the bounty hunters their target fled into that cave (which happens to be booby-trapped)</li>\n<li>Electronics: Broadcast the controversial research to the galaxy, let the politicians and scientists figure it out</li>\n<li>Intimidation: Threaten someone with pain</li>\n<li>Vehicle Handling: Lead your chasers right into a reinforced-steel wall</li>\n</ul>\n"
-  },
-  {
     "id": "variant-rules",
     "title": "Variant Rules",
     "type": "manual",
@@ -8032,6 +8404,19 @@
     ],
     "link": "/mods/adrenaline-regulator",
     "body": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.\n",
+    "html": false
+  },
+  {
+    "id": "advanced-shoulder-mounts",
+    "title": "Advanced Shoulder Mounts",
+    "type": "equipment",
+    "qualifiers": [
+      "Equipment",
+      "Mod",
+      "Armor Mod"
+    ],
+    "link": "/mods/advanced-shoulder-mounts",
+    "body": "You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two ranged\nweapons that do not have the two-handed property. This is considered light activity.\nWhile you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.\nReloading mounted weapons is no different than a weapon you are wielding.\nYour armor can only have one shoulder mounts mod installed at once.\n",
     "html": false
   },
   {
@@ -8136,6 +8521,19 @@
     ],
     "link": "/mods/barrier",
     "body": "The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.\n",
+    "html": false
+  },
+  {
+    "id": "basic-shoulder-mounts",
+    "title": "Basic Shoulder Mounts",
+    "type": "equipment",
+    "qualifiers": [
+      "Equipment",
+      "Mod",
+      "Armor Mod"
+    ],
+    "link": "/mods/basic-shoulder-mounts",
+    "body": "You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two\nranged weapons that do not have the two-handed property. You must be proficient with any weapons you equip.\nThis is considered light activity.\nWhile you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.\nReloading mounted weapons is no different than a weapon you are wielding.\nYour armor can only have one shoulder mounts mod installed at once.\n",
     "html": false
   },
   {
@@ -8386,6 +8784,19 @@
     "html": false
   },
   {
+    "id": "elite-heavy-shoulder-mounts",
+    "title": "Elite Heavy Shoulder Mounts",
+    "type": "equipment",
+    "qualifiers": [
+      "Equipment",
+      "Mod",
+      "Armor Mod"
+    ],
+    "link": "/mods/elite-heavy-shoulder-mounts",
+    "body": "You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons.\nThis is considered light activity.\nWhile you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.\nReloading mounted weapons is no different than a weapon you are wielding.\nYour armor can only have one shoulder mounts mod installed at once.\n",
+    "html": false
+  },
+  {
     "id": "energized-plating",
     "title": "Energized Plating",
     "type": "equipment",
@@ -8604,6 +9015,19 @@
     ],
     "link": "/mods/heat-sink",
     "body": "The weapon gains additional heat equal to double its base heat.\n",
+    "html": false
+  },
+  {
+    "id": "heavy-shoulder-mounts",
+    "title": "Heavy Shoulder Mounts",
+    "type": "equipment",
+    "qualifiers": [
+      "Equipment",
+      "Mod",
+      "Armor Mod"
+    ],
+    "link": "/mods/heavy-shoulder-mounts",
+    "body": "You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons You must be\nproficient with any weapons you equip. This is considered light activity.\nWhile you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.\nReloading mounted weapons is no different than a weapon you are wielding.\nYour armor can only have one shoulder mounts mod installed at once.\n",
     "html": false
   },
   {
@@ -10424,6 +10848,18 @@
     "html": false
   },
   {
+    "id": "ardat-yakshi",
+    "title": "Ardat-Yakshi",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/ardat-yakshi",
+    "body": "A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot;\n(2 asari parents). The condition is impossible to identify until the asari reaches maturity, by which time it is too\nlate to correct. When diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed.\nThis is because ardat-yakshi develop an addiction to the power and feel intense compulsion to meld. The addiction only\ngrows stronger with each meld, and so a life of monastic celibacy allows asari to live in peace with a controllable desire.\nThose who are able to avoid isolation and execution, however, quickly become psychopathic in their intense lust for the\ndestructive melding.\n",
+    "html": false
+  },
+  {
     "id": "asari",
     "title": "Asari",
     "type": "character",
@@ -10508,6 +10944,18 @@
     "html": false
   },
   {
+    "id": "human-variant",
+    "title": "Human Variant",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/human-variant",
+    "body": "",
+    "html": false
+  },
+  {
     "id": "human",
     "title": "Human",
     "type": "character",
@@ -10529,6 +10977,30 @@
     ],
     "link": "/species/krogan",
     "body": "The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh\nenvironments, scarce resources, and an overabundance of vicious predators. The krogan managed to not only survive on their\nunforgiving homeworld but actually thrived in the extreme conditions. Unfortunately, as krogan society became more\ntechnologically advanced, so did their weaponry. The end result is that they destroyed their homeworld in a nuclear war\nthat reduced their species into primitive warring tribes.\nBiologically Impervious\nKrogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous\nplates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,\nfor the resources in Tuchanka are scarce.\nCuriously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These\ntraits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as &quot;Blood Rage.&quot;\nBlood Rage\nThe blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless\nkilling machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and\nsuppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant\norgans, allows the krogan to defeat creatures many times his size or power.\nClimb Atop the Dead\nKrogan's value one thing above all else: strength. Krogan society is built upon this hierarchy, where the strong rule\nand the weak perish. They live in clans lead by a Warlord, and those clans constantly war for resources and for power.\nEven within these clans, treachery and distrust run rampant. Krogan often fight for dominance within these clans and\nwill sacrifice their clan for personal gain without a second thought. Females are considered prizes and trophies and\nlive in clans separate from the males.\nRites and Rituals\nThe krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When he wishes to join his\nfirst clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of\nHonor. When facing a new enemy, the Rite of Firsts is invoked.\nA krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and\ntorturous; most krogan who attempt the rite perish. Those who survive become the most respected member of their clan\nand are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit world itself.\nKrogan Names\nKrogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.\nMale Names: Archuk, Brood, Charr, Drax, Fortak, Grunt, Guld, Jarrod Nax, Okeer, Skarr, Strux, Uvenk, Wreav, Wrex\nFemale Names: Bakara, Chormi, Derge, Hazka, Jonde Kesh, Khorga, Kherake, Morda, Tegash, Vruxa, Zrogoga\nClan Names: Garbon, Gatatog, Jorgal, Khutarum, Nakmor, Srarkan, Traash, Urdnot, Verbok, Weryloc, Wudark\n\n",
+    "html": false
+  },
+  {
+    "id": "lystheni",
+    "title": "Lystheni",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/lystheni",
+    "body": "The Lystheni are an &quot;offshoot&quot; of the salarians, unwelcome in Council space. They may be found living among batarians,\nexiled quarians, and other galactic refuse at the Omega station. Little is known about Lystheni other than they are\nconsiderably stronger, durable, and live longer lives. There are rumors on the extranet that their genes have\nbeen spliced with Krogan DNA, though there is no evidence to support the claim.\nIf you choose to play a Lystheni, replace the Ability Score Increase, High-Speed Metabolism, and Twice as Bright\nwith the following.\n",
+    "html": false
+  },
+  {
+    "id": "prothean-no-avatar",
+    "title": "No Avatar",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/prothean-no-avatar",
+    "body": "If you do not wish to embody a particular aspect of society nor create your own avatar concept, you may replace the Avatar trait with the Feat and Aspiration traits.\n",
     "html": false
   },
   {
@@ -10649,6 +11121,138 @@
     "html": "<p>If your campaign uses the optional feat rules, your Galaxy Master might allow these variant traits, all of which replace\nthe human’s <em>Ability Score Increase</em> trait.</p>\n<p><strong>Ability Score Increase</strong>: Two different ability scores of your choice increase by 1.</p>\n<p><strong>Skills</strong>: You gain proficiency in one skill of your choice.</p>\n<p><strong>Feat</strong>: You gain one feat of your choice.</p>\n"
   },
   {
+    "id": "avatar-bravery",
+    "title": "Bravery",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-bravery",
+    "body": "\nYou have advantage on saving throws against being frightened.\nWhenever you hit a target with a weapon attack that is one size or more larger than you,  you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within 12 meters that can see you.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-humor",
+    "title": "Humor",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-humor",
+    "body": "\nYour Charisma score increases by 1.\nYou gain proficiency in either the Performance or Persuasion skill (your choice).\nYou may use your bonus action to end the charmed or frightened condition on any other creature\nthat can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-leadership",
+    "title": "Leadership",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-leadership",
+    "body": "\nYou may use your bonus action to target a creature within . Each other creature\nthat makes an attack roll against the target for the first time, gains Avatar’s Inspiration. Once you\nuse this ability, you can’t use it again until you roll initiative at the start of combat or until you\nfinish a short or long rest.\nCreatures can apply their Avatar’s Inspiration die gained from you to damage rolls.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-sacrifice",
+    "title": "Sacrifice",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-sacrifice",
+    "body": "When a creature you can see hits a target, other than you, within  of you with an attack,\nyou can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus\n(to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration.\n",
+    "html": false
+  },
+  {
+    "id": "avatar-strength",
+    "title": "Strength",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-strength",
+    "body": "\nYour Strength score increases by 1.\nYou count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nWhenever you succeed on a Strength saving throw, each friendly creature, except you, within \nthat can see you gains Avatar’s Inspiration.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-tranquility",
+    "title": "Tranquility",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-tranquility",
+    "body": "\nYou do not need to sleep. Instead, you can meditate deeply, remaining semiconscious,\nfor 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\nWhenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures,\nother than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you.\nThe inspiration lasts 1 hour instead of 10 minutes.\nCreatures can apply their Avatar’s Inspiration die gained from you to death saving throws.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-vengeance",
+    "title": "Vengeance",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/avatar-vengeance",
+    "body": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you\nadvantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have\nadvantage until your next turn. The first time you hit a creature with a melee weapon attack roll using\nStrength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you,\nwithin  that can see you.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-acceptace",
+    "title": "Acceptance",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/ay-disposition-acceptace",
+    "body": "You have accepted your fate and believe that infrequent mating is necessary to your survival.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-chaste",
+    "title": "Chaste",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/ay-disposition-chaste",
+    "body": "You understand the risks of your condition and make every attempt to avoid mating.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-embrace",
+    "title": "Embrace",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/ay-disposition-embrace",
+    "body": "Being diagnosed with the condition was a blessing, not a curse. You mate with as many beings as possible,\ngaining as much power as you possibly can.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-growing-power",
+    "title": "Variant: Growing Power",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/ay-disposition-growing-power",
+    "body": "GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gain the Dominate and Mating traits instead.\n",
+    "html": false
+  },
+  {
     "id": "cybernetic-augmentation-cerebral",
     "title": "Cerebral",
     "type": "character",
@@ -10697,6 +11301,90 @@
     "html": false
   },
   {
+    "id": "lifestage-maiden",
+    "title": "Maiden",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/lifestage-maiden",
+    "body": "The Maiden stage begins at puberty and is marked by the drive to explore and experience. Most young asari\nare curious and restless, and it is not uncommon for many to try their hand at dancing in bars or\nworking as mercenaries during this time.\n",
+    "html": false
+  },
+  {
+    "id": "lifestage-matriarch",
+    "title": "Matriarch",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/lifestage-matriarch",
+    "body": "The Matriarch stage begins around 700 years of age, or earlier if the individual melds rarely. Matriarchs become\nactive in their community as sages and councilors, dispensing wisdom from centuries of experience. Their knowledge\nand guidance may be one reason why Matriarchs are rarely seen outside asari space.\n",
+    "html": false
+  },
+  {
+    "id": "lifestage-matron",
+    "title": "Matron",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/lifestage-matron",
+    "body": "The Matron stage of life begins around the age of 350, though it can be triggered earlier if the individual melds\nfrequently. This period is marked by a desire to settle in one area and raise children.\n",
+    "html": false
+  },
+  {
+    "id": "mobile-platform-hopper",
+    "title": "Hopper",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/mobile-platform-hopper",
+    "body": "Hoppers are a specialized geth platform, used primarily for stealth attacks, cyberwarfare and sabotage.\n",
+    "html": false
+  },
+  {
+    "id": "mobile-platform-juggernaut",
+    "title": "Juggernaut",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/mobile-platform-juggernaut",
+    "body": "Juggernauts tower above the ground and are an intimidating presence on the battlefield. Their size, strength, and armor\nmake them ideal for taking weapon fire, but they are slower than other mobile platforms.\n",
+    "html": false
+  },
+  {
+    "id": "mobile-platform-trooper",
+    "title": "Trooper",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/subspecies-options/mobile-platform-trooper",
+    "body": "Geth Troopers are the most common type of mobile platform, using a standard platform design with\nspecialized AI.\n",
+    "html": false
+  },
+  {
+    "id": "a-long-life",
+    "title": "A Long Life",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/a-long-life",
+    "body": "You gain expertise in one of the following skills of your choice: Deception, Insight, History, or Persuasion.\n",
+    "html": false
+  },
+  {
     "id": "adaptation",
     "title": "Adaptation",
     "type": "character",
@@ -10709,6 +11397,30 @@
     "html": false
   },
   {
+    "id": "addiction",
+    "title": "Addiction",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/addiction",
+    "body": "All ardat-yakshi feel the urge to mate. Some choose to live in isolation to help reduce this urge, but it never truly abates.\nAddiction is measured in five levels. Once per day, you must make a DC 0 Constitution saving throw. Every day you do\nnot mate, the DC of this saving throw increases by 5. On a failed save, your addiction level increases by 1.\nYou suffer the effect of your current addiction level as well as all lower levels. Mating with a creature removes\nall levels of addiction and resets the DC of your addiction saving throw to 0.\nAddiction Levels\n\n\nLevel\nEffect\n\n\n\n\n1\nDisadvantage on initiative rolls\n\n\n2\nDisadvantage on attack rolls\n\n\n3\nDisadvantage on ability checks\n\n\n4\nDisadvantage on saving throws\n\n\n5\nYou can no longer distinguish friend from foe. Every creature is considered a hostile creature\n\n\nArdat-Yakshi mating\nWhether or not your Ardat-Yakshi can successfully mate is at your DMs discretion. A basic rule is that you must\nhave a viable mate (an organic creature with an Intelligence score of 3 or higher) and you must pass a\nCharisma (Persuasion) or Charisma (Performance) check contested by the creature’s Wisdom (Insight).\nAdditionally, whether or not the target survives the mating is at the GMs discretion. GMs may have the mated\ntarget roll a Constitution saving throw, apply a flat “unconscious for 1d4 hours”, suffer 1 level of exhaustion,\nany combination, or adjudicate their own result.\n",
+    "html": false
+  },
+  {
+    "id": "aggressive",
+    "title": "Aggressive",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/aggressive",
+    "body": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end\nthis move closer to the enemy than you started.\n",
+    "html": false
+  },
+  {
     "id": "all-seeing-eyes",
     "title": "All-Seeing Eyes",
     "type": "character",
@@ -10717,7 +11429,7 @@
       "Species"
     ],
     "link": "/traits/all-seeing-eyes",
-    "body": "Your four eyes can look in multiple directions and have a nascent ability to see cloaked objects.\nYou have truesight up to  and proficiency in Perception.\n",
+    "body": "Your four eyes can look in multiple directions and have some ability to see through cloaked objects. You have\nproficiency in the Perception skill and when you take the Search action on your turn, you gain truesight\nuntil your Search action is resolved.\n",
     "html": false
   },
   {
@@ -10733,15 +11445,39 @@
     "html": false
   },
   {
-    "id": "bio-electric-focus",
-    "title": "Bio-Electric Focus",
+    "id": "aspiration",
+    "title": "Aspiration",
     "type": "character",
     "qualifiers": [
       "Character",
       "Species"
     ],
-    "link": "/traits/bio-electric-focus",
-    "body": "You can cast a 1st-level version of shocking grasp without expending a power slot or tech point. Charisma is your\npowercasting modifier for this ability. This does not count against your max number of cantrips known or powers prepared.\nIf you wish to cast an advanced version of shocking grasp or cast it at a higher level, you must prepare it and/or\nexpend power slots/tech points as normal.\n",
+    "link": "/traits/aspiration",
+    "body": "You aspire to become an Avatar one day, but have not quite achieved the mantle. Whenever you make an attack roll,\nskill check, or saving throw you may roll a d4 and add it to the roll. You can wait until after you roll the\nd20 before deciding to use the d4, but must decide before the GM says whether the roll succeeds or fails.\nOnce you use this feature, you cannot do so again until you finish a short rest or long rest.\n",
+    "html": false
+  },
+  {
+    "id": "asymmetric-defense-plating",
+    "title": "Asymmetric Defense Plating",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/asymmetric-defense-plating",
+    "body": "You gain a +1 bonus to Armor Class. Additionally, your hit point maximum increases by 1, and it increases by 1\nevery time you gain a level.\n",
+    "html": false
+  },
+  {
+    "id": "avatars-inspiration",
+    "title": "Avatar's Inspiration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/avatars-inspiration",
+    "body": "You can inspire others by being an exemplar of your selected virtue, allowing creature’s to gain an Avatar’s\nInspiration die; a d4.\nOnce within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check,\nattack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use\nthe Avatar’s Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the\nAvatar’s Inspiration die is rolled, it is lost. A creature can have only one Avatar’s Inspiration die at a time.\nYour chosen avatar identifies the conditions that allow granting Avatar’s Inspiration.\n",
     "html": false
   },
   {
@@ -10753,7 +11489,7 @@
       "Species"
     ],
     "link": "/traits/bio-electric-ward",
-    "body": "Increase your AC by 1. You have a resistance to lightning damage, but this resistance does not apply to damage\ndone to your shields.\n",
+    "body": "Your innate bioelectricity provides resistance to both cold and lightning damage. This resistance is only\napplied to damage done to your hit points.\n",
     "html": false
   },
   {
@@ -10793,6 +11529,30 @@
     "html": false
   },
   {
+    "id": "body-and-soul",
+    "title": "Body and Soul",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/body-and-soul",
+    "body": "If you spend 10 minutes in prayer, you can mental focus your body and soul into a true Whole. The next time you are\nreduced to 0 hit points but not killed outright, you gain advantage on all death saving throws until you are\nstabilized or regain hit points, at which point you cannot benefit from this feature again until you finish a long rest.\n",
+    "html": false
+  },
+  {
+    "id": "burst-of-speed",
+    "title": "Burst of Speed",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/burst-of-speed",
+    "body": "When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait,\nyou can’t use it again until you move  on one of your turns.\n",
+    "html": false
+  },
+  {
     "id": "careful",
     "title": "Careful",
     "type": "character",
@@ -10829,6 +11589,18 @@
     "html": false
   },
   {
+    "id": "composite-plating",
+    "title": "Composite Plating",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/composite-plating",
+    "body": "You gain a +1 bonus to Armor Class.\n",
+    "html": false
+  },
+  {
     "id": "contra-gravitic-levitation",
     "title": "Contra-Gravitic Levitation",
     "type": "character",
@@ -10837,7 +11609,7 @@
       "Species"
     ],
     "link": "/traits/contra-gravitic-levitation",
-    "body": "When not in water, you use a contra-gravitic levitation pack to move. It provides a walking speed of ,\nthough you actually hover  from the ground. You are immune to\nbecoming prone and you ignore any penalties caused by difficult terrain.\nHowever, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall to the\nground. Your walking speed becomes 0 and you are considered prone. You or another creature can use an\nAction to repair the pack with a successful DC 15 Intelligence (Engineering) check.\n",
+    "body": "When not in water, you use a contra-gravitic levitation pack to move. It provides a\nwalking speed of 12 meters and you hover 1 meter from the ground, providing the following benefits:\n\nYou are immune to becoming prone\nYou reduce falling damage by 4d6\nYou ignore any penalties caused by difficult terrain.\n\nHowever, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall\nto the ground. Your walking speed becomes 0 and you are considered prone. You or another creature can use\nan Action to repair the pack with a successful DC 15 Intelligence (Engineering) check.\n",
     "html": false
   },
   {
@@ -10853,6 +11625,30 @@
     "html": false
   },
   {
+    "id": "dense-build",
+    "title": "Dense Build",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/dense-build",
+    "body": "You count as one size larger when determining your carrying capacity, the weight you can push, drag, or lift,\nand when targeted by powers with a size restriction.\n",
+    "html": false
+  },
+  {
+    "id": "dominate",
+    "title": "Dominate",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/dominate",
+    "body": "You learn the dominate power. Wisdom is your powercasting modifier for this power and it does not count toward your\npowers known or prepared. You can cast a 3rd-level version of this power once per long rest.\n",
+    "html": false
+  },
+  {
     "id": "eidetic-memory",
     "title": "Eidetic Memory",
     "type": "character",
@@ -10862,6 +11658,18 @@
     ],
     "link": "/traits/eidetic-memory",
     "body": "You can recall memories in intricate detail, including details from all your senses. Distant or inconsequential\nmemories require a DC 14 Wisdom check. On a failure, you can only recall details from one or two senses.\n",
+    "html": false
+  },
+  {
+    "id": "electrogenesis",
+    "title": "Electrogenesis",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/electrogenesis",
+    "body": "When you are hit by a melee weapon attack by a creature you can see, you may use your reaction to release a powerful\nbioelectrical charge. The attacking creature suffers 2d4 lightning damage and cannot take reactions until the end of its next turn.\nAlternatively, you may use your Action to touch one creature and end the stunned condition or stabilize it.\nYou may use this feature between long rests equal to your Constitution modifier (minimum 1).\n",
     "html": false
   },
   {
@@ -10889,6 +11697,30 @@
     "html": false
   },
   {
+    "id": "eye-canon",
+    "title": "Eye Canon",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/eye-canon",
+    "body": "Your eye can emit a powerful and damaging laser beam that is a natural ranged weapon with a normal range of 36m (90ft)\nand no long range. You are considered proficient with it and add your Dexterity modifier to its attack rolls. If you\nhit with it, you deal radiant damage equal to 1d10 + your Dexterity modifier.\n",
+    "html": false
+  },
+  {
+    "id": "feat",
+    "title": "Feat",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/feat",
+    "body": "You gain one feat of your choice.\n",
+    "html": false
+  },
+  {
     "id": "four-eyes",
     "title": "Four Eyes",
     "type": "character",
@@ -10898,18 +11730,6 @@
     ],
     "link": "/traits/four-eyes",
     "body": "You have proficiency in the Perception skill and you can take the Search action as a bonus action on each of your turns.\n",
-    "html": false
-  },
-  {
-    "id": "fragile",
-    "title": "Fragile",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/fragile",
-    "body": "Your hit point maximum is decreased by 1. Every time you gain a level you gain 1 less hit point.\n",
     "html": false
   },
   {
@@ -10925,27 +11745,15 @@
     "html": false
   },
   {
-    "id": "hermetic-suit-quarian",
+    "id": "hermetic-suit",
     "title": "Hermetic Suit",
     "type": "character",
     "qualifiers": [
       "Character",
       "Species"
     ],
-    "link": "/traits/hermetic-suit-quarian",
-    "body": "Your suit is your lifeblood and consists of a reinforced, skin-tight body suit and a helmet. It makes your immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of\ntheir starting equipment.\nFor each hour in which you have a breach in your suit, you suffer one level of exhaustion. For each hour you spend\noutside of your suit if not in a compatible environment, suffer 3 levels of exhaustion.\n",
-    "html": false
-  },
-  {
-    "id": "hermetic-suit-volus",
-    "title": "Hermetic Suit",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/hermetic-suit-volus",
-    "body": "Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gels as part of your\nstarting equipment.\nIf you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus appropriate environment within\n10 minutes, you die.\n",
+    "link": "/traits/hermetic-suit",
+    "body": "You have a weak immune system and dress, by necessity, in a highly sophisticated, skin-tight\nenviro-suit to protect you from disease or infection.\nWhile you are within your suit, you are immune to disease and you have resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage,\nyour suit becomes breached. For each hour in which you have a breach in your suit, you suffer one level of\nexhaustion. For each hour you spend outside of your suit if not in a compatible environment,\nsuffer 3 levels of exhaustion.\nAs an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of your starting equipment.\n",
     "html": false
   },
   {
@@ -10961,15 +11769,39 @@
     "html": false
   },
   {
-    "id": "hunter-mode",
-    "title": "Hunter Mode",
+    "id": "hooks",
+    "title": "Hooks",
     "type": "character",
     "qualifiers": [
       "Character",
       "Species"
     ],
-    "link": "/traits/hunter-mode",
-    "body": "Geth were designed as lethal weapons and can activate subroutines to enhance their lethality.\nAs an action, you can activate Hunter Mode, gaining the following benefits:\n\nIncrease movement by .\n+1 bonus to ranged and melee weapon attack rolls.\n\n\nThis effect lasts 1 minute. You can only use Hunter Mode once per long rest.\nAt 11th level, you gain an additional benefit based on your class:\n\n\nClass\nBenefit\n\n\n\n\nEngineer\nWhen you cast a power, the die type of that power increases by 1 die type (max d12). If the die type is already d12, add +1 for each die rolled instead.\n\n\nSoldier\nYour extra attack features grants you 1 additional attack the first time you take the Attack action on your turn.\n\n\nInfiltrator\nIncrease your sneak attack die type to d8 (if you are a Shadow Infiltrator, your sneak attack for melee weapons attacks is a d10).\n\n\n",
+    "link": "/traits/hooks",
+    "body": "Your appendages have tiny monomolecular hooks that grip onto almost any substance. If you use all\nfour appendages, your climbing speed is equal to your walking speed and you can move up, down, and\nacross vertical surfaces and upside down along ceilings.\n",
+    "html": false
+  },
+  {
+    "id": "hunger",
+    "title": "Hunger",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/hunger",
+    "body": "You have disadvantage on your Addiction saving throws.\n",
+    "html": false
+  },
+  {
+    "id": "infrared-vision-60",
+    "title": "Infrared Vision",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/infrared-vision-60",
+    "body": "Your optic sensors have built-in enhancements. As a bonus action on each of your turns, you can toggle your\ninfrared vision on or off. While on, your sight becomes a gradient map of the heat produced by your surroundings (hotter\nobjects appear brighter and cooler objects appear darker; you cannot discern color). Your can see in darkness\nand your sight is unaffected by lightly and heavily obscured areas within . You can also\nsee hidden and invisible creatures within  as long as a creature's body is a\nfew degrees cooler or warmer than its surroundings.\n",
     "html": false
   },
   {
@@ -10981,7 +11813,7 @@
       "Species"
     ],
     "link": "/traits/innate-biotics",
-    "body": "Asari do not require biotic implants to control their abilities. Instead, their biotic talents rely on their ability\nto project their will onto the world. As an Asari, you use your Charisma whenever a power refers to your powercasting\nability. In addition, you use your Charisma modifier when setting the saving throw DC for a biotic power you cast and\nwhen making an attack roll with one.\nChoose a class: Adept or Vanguard. You learn two biotic cantrips of your choice from that class’s power list. In addition,\nchoose one 1st-level power from that same list. You learn that power and can cast it at its lowest level. Once you cast\nit, you must finish a long rest before you can cast it again.\nNeither of the cantrips nor the power can be an advanced version. But you can learn or prepare an advanced version of\nthe power as your class permits.\n",
+    "body": "Choose a class: Adept or Vanguard. You learn two biotic cantrips of your choice from that class’s power list.\nIn addition, choose one 1st-level power from that same list. You learn that power and can cast it at its\nlowest level. Once you cast it, you must finish a long rest before you can cast it again. Wisdom is your\npowercasting modifier for these powers.\nNeither of the cantrips nor the power can be an advanced version. But you can learn or prepare an\nadvanced version of the power as your class permits.\n",
     "html": false
   },
   {
@@ -10993,7 +11825,19 @@
       "Species"
     ],
     "link": "/traits/integrated-protection",
-    "body": "Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor,\nbut if you are wielding a weapon or shield that provides additional AC, you apply its bonus as normal.\nYou can alter your armor type for 2 omni-gel each time you finish a long rest. Choose one mode to adopt from the\nIntegrated Protection table, provided you meet the mode’s prerequisite.\n\n\nMode\nPrerequisite\nAC\n\n\n\n\nLithe\nNone\n11 + your Dexterity Modifier. Advantage on Dexterity (Stealth) checks.\n\n\nComposite Plating\nMedium armor proficiency\n12 + your Dexterity modifier (maximum of 2) + proficiency bonus\n\n\nAsymmetric Defense Plating\nHeavy armor proficiency\n15 + proficiency bonus. Disadvantage on Dexterity (Stealth) checks.\n\n\n\nInnate Shielding\nYou have 5 shields (regen 5). You can upgrade these by using armor mods.\nArmor Mods\nYou can augment your armor by integrating armor mods into your system. You can spend 8 hours removing, adding, or\nreplacing a mod. When you remove or replace a mod in this way, the replaced or removed mod is lost. The mod cannot be salvaged,\nnot even with the assistance of Armorsmith's or Tailor's tools.\nYou have 2 chest mod slots, 1 mod slot in your arms, legs, and head each. You cannot add new slots in any way.\n",
+    "body": "Your body has built-in defensive layers, which can be enhanced with armor:\n\nYou can equip only armor with which you have proficiency. To equip armor other than a shield,\nyou must incorporate it into your body over the course of 1 hour, during which you remain in\ncontact with the armor. To unequip armor, you must spend 1 hour removing it.\nYou can rest while equipping or unequipping armor in this way.\n\nWhile you inhabit this mobile platform, the armor incorporated into your body can’t be removed against your will.\n",
+    "html": false
+  },
+  {
+    "id": "jump-start-aura",
+    "title": "Jump-start Aura",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/jump-start-aura",
+    "body": "As an action, cycle kinetic barriers for yourself and each creature of your choice within .\nA creature gains shield points equal to its armor’s regen, to a maximum of its armor’s shield capacity.\nYou may use this trait between long rests a number of times equal to your proficiency bonus.\n",
     "html": false
   },
   {
@@ -11005,7 +11849,31 @@
       "Species"
     ],
     "link": "/traits/keen-eyesight",
-    "body": "You have advantage on Wisdom (Perception) checks that rely on sight. Additionally, you can see in an\narea within  of you that is lightly obscured as if it were unobscured and can see in an\narea within  of you that is heavily obscured as if it were only lightly obscured.\n",
+    "body": "You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks that rely on sight.\n",
+    "html": false
+  },
+  {
+    "id": "keen-olfactory-sensory",
+    "title": "Keen Olfactory Sensory",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/keen-olfactory-sensory",
+    "body": "You have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation)\nchecks that rely on smell.\n",
+    "html": false
+  },
+  {
+    "id": "limited-integration",
+    "title": "Limited Integration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/limited-integration",
+    "body": "You may only integrate Light Armor using your Integrated Protection trait.\n",
     "html": false
   },
   {
@@ -11021,18 +11889,6 @@
     "html": false
   },
   {
-    "id": "living-construct",
-    "title": "Living Construct",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/living-construct",
-    "body": "You are immune to psychic and poison damage, the poisoned condition, and disease. You do not need to eat, drink, or breathe.\nWhen you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping.\nIn this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.\n",
-    "html": false
-  },
-  {
     "id": "lucky",
     "title": "Lucky",
     "type": "character",
@@ -11042,6 +11898,18 @@
     ],
     "link": "/traits/lucky",
     "body": "You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one\nluck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die,\nbut before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.\nYou can also spend one luck point when an attack roll is made against you. Roll a d20, and then\nchoose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to\ninfluence the outcome of a roll, the points cancel each other out; no additional dice are rolled.\nYou regain your expended luck points when you finish a long rest.\n",
+    "html": false
+  },
+  {
+    "id": "lystheni-resilience",
+    "title": "Lystheni Resilience",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/lystheni-resilience",
+    "body": "You have advantage on saving throws against poison, and you have resistance against poison damage.\n",
     "html": false
   },
   {
@@ -11057,6 +11925,18 @@
     "html": false
   },
   {
+    "id": "mating",
+    "title": "Mating",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/mating",
+    "body": "Each time an Ardat-Yakshi mates it becomes stronger, smarter, and deadlier. The Mating table below shows how many\ndifferent additional mates the Ardat-Yakshi needs to feed upon (after 1st level) in order to obtain their\nnewfound strengths.\nEach time you reach the required number of mates, you may either gain +1 to an ability score of your\nchoice or gain proficiency in a skill or tool of your choice. You may also gain expertise if you are already\nproficient in the skill.\nMating Table\n\n\nLevel requirement\nMates required\n\n\n\n\nLevel 1-4\n25\n\n\nLevel 5-10\n50\n\n\nLevel 11-16\n100\n\n\nLevel 17-20\n200\n\n\n",
+    "html": false
+  },
+  {
     "id": "menacing",
     "title": "Menacing",
     "type": "character",
@@ -11069,6 +11949,18 @@
     "html": false
   },
   {
+    "id": "mental-resilience",
+    "title": "Mental Resilience",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/mental-resilience",
+    "body": "Suppressing a constant urge has given you a strong mental resilience. You have advantage on saving throws against\nbeing charmed or frightened.\n",
+    "html": false
+  },
+  {
     "id": "mind-meld",
     "title": "Mind Meld",
     "type": "character",
@@ -11077,7 +11969,7 @@
       "Species"
     ],
     "link": "/traits/mind-meld",
-    "body": "You can transfer and receive thoughts to another creature. You must concentrate and if the creature is not willing,\nthe thoughts become jumbled and disjointed. Unintelligent creatures have unpredictable results.\n",
+    "body": "As an action, you can attempt to transfer or receive thoughts from another organic creature within\n. If the creature is unwilling, it must make a Wisdom saving throw equal to\n8 + your proficiency bonus + your Wisdom modifier. If it fails, you can successfully begin the meld,\ninitially learning the surface thoughts of the creature -- what is most on its mind in that moment.\nIf you choose a creature that has an Intelligence of 3 or lower, the creature is unaffected.\nIf you have an active mind meld, you can attempt to probe deeper into the creature's mind as an Action.\nIf you do, you gain insight into its reasoning (if any), its emotional state, and something that looms\nlarge in its mind (such as something it worries over, loves, or hates). Alternatively, you may use\nyour action to direct questions at the target creature to naturally shape the course of its thoughts.\nMind meld lasts 1 minute. An unwilling creature makes another Wisdom saving throw at the start of\neach of its turns. On a successful save, the meld ends. Mind meld also ends if you attempt to mind\nmeld another creature or the creature is farther than  from you. You may also end the meld\nas a free action on your turn.\nYou may use Mind Meld a number of times between long rests equal to your Wisdom modifier (minimum 1).\n",
     "html": false
   },
   {
@@ -11089,7 +11981,7 @@
       "Species"
     ],
     "link": "/traits/mind-shielding-unit",
-    "body": "You have advantage on saving throws against mind-altering effects such as being charmed,\nconfused, compelled, frightened, or put to sleep by powers. In addition, your mind cannot be read by an Asari's mind meld.\n",
+    "body": "You have advantage on saving throws against being charmed or frightened and your mind cannot be read by an\nasari's mind meld.\n",
     "html": false
   },
   {
@@ -11101,7 +11993,7 @@
       "Species"
     ],
     "link": "/traits/natural-diplomat",
-    "body": "You have proficiency in the Persuasion skill.\n",
+    "body": "You have proficiency in the Persuasion skill and your choice of one other skill\nfrom the following: Deception, History, Insight, Intimidation, Investigation, Medicine, Performance.\n",
     "html": false
   },
   {
@@ -11113,19 +12005,7 @@
       "Species"
     ],
     "link": "/traits/natural-hunters",
-    "body": "You gain proficiency with two of the following skills of your choice: Athletics, Perception, Stealth, and Survival.\n",
-    "html": false
-  },
-  {
-    "id": "no-feats",
-    "title": "No Feats",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/no-feats",
-    "body": "Geth cannot take any feats.\n",
+    "body": "You gain proficiency with two of the following skills of your choice: Athletics, Acrobatics, Perception, Stealth, and Survival.\n",
     "html": false
   },
   {
@@ -11141,18 +12021,6 @@
     "html": false
   },
   {
-    "id": "overclock-unit",
-    "title": "Overclock Unit",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/overclock-unit",
-    "body": "You can activate your muscular augments for a burst of speed. When you move on your turn in\ncombat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you\nrecharge the unit by moving  on one of your turns.\n",
-    "html": false
-  },
-  {
     "id": "peak-fitness",
     "title": "Peak Fitness",
     "type": "character",
@@ -11161,7 +12029,7 @@
       "Species"
     ],
     "link": "/traits/peak-fitness",
-    "body": "You have proficiency in either the Acrobatics or Athletics skill.\n",
+    "body": "You gain proficiency in either the Acrobatics or Athletics skill (your choice).\n",
     "html": false
   },
   {
@@ -11189,6 +12057,18 @@
     "html": false
   },
   {
+    "id": "pressurized-suit",
+    "title": "Pressurized Suit",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/pressurized-suit",
+    "body": "Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to\ndisease and provides resistance to poison and necrotic damage.\nHowever, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gels as part of your\nstarting equipment.\nIf you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus appropriate environment within\n10 minutes, you die.\n",
+    "html": false
+  },
+  {
     "id": "psychometry",
     "title": "Psychometry",
     "type": "character",
@@ -11197,19 +12077,7 @@
       "Species"
     ],
     "link": "/traits/psychometry",
-    "body": "While in physical contact with a creature or object, a Prothean can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within   of the\nobject or creature within the past 24 hours. If in contact with an object, you see the last creature to\nhold the object, regardless of how long ago it was last handled. This ability may only be used once per long rest.\n",
-    "html": false
-  },
-  {
-    "id": "quad-strand-dna",
-    "title": "Quad-Strand DNA",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/quad-strand-dna",
-    "body": "Your unique quad-strand DNA helps to protect you against radiation and cold. You have resistance to radiant and cold damage.\n",
+    "body": "While in physical contact with a creature or object, you can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within   of the\nobject or creature within the past 24 hours. If in contact with an object, you see the last creature to\nhold the object, regardless of how long ago it was last handled.\nYou may use your psychometry once per long rest.\n",
     "html": false
   },
   {
@@ -11221,19 +12089,7 @@
       "Species"
     ],
     "link": "/traits/quadrupedal",
-    "body": "You count as one size larger when determining your carrying capacity and the weight you can push or drag.\nIn addition, any climb that requires hands and feet is especially difficult for you because of your size and weight.\nWhen you make such a climb, each  of movement costs you\n, instead of the normal .\nFinally, a Medium or smaller creature can ride on your back if you allow it. In such a situation, you continue\nto act independently, not as a controlled mount.\n",
-    "html": false
-  },
-  {
-    "id": "raw-agility",
-    "title": "Raw Agility",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/raw-agility",
-    "body": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can\ndouble your speed until the end of the turn. Once you use this trait, you can’t use it again until you move\n on one of your turns.\n",
+    "body": "In addition, any climb that requires hands and feet is especially difficult for you because of your size and weight.\nWhen you make such a climb, each  of movement costs you\n, instead of the normal .\nFinally, a Medium or smaller creature can ride on your back if you allow it. In such a situation, you continue\nto act independently, not as a controlled mount.\n",
     "html": false
   },
   {
@@ -11245,7 +12101,19 @@
       "Species"
     ],
     "link": "/traits/repair-matrix",
-    "body": "As a construct, you cannot be healed by medi-gel or powers that heal organic creatures (such as the first aid power).\nInstead, you can use your Action to expend a Hit Die. Roll the die and add your Constitution modifier to it. You regain\nhit points equal to the total. You also regain all spent hit dice at the end of a long rest, instead of the usual amount.\nYou gain additional hit dice based on your level. At the 4th level, you gain one d8 as an additional hit dice. You gain\nan additional d8 at 8th, 12th, 16th, and 20th level.\nAdditionally, If you drop to 0 hit points, you must be stabilized with an Intelligence (Engineering) or Intelligence (Electronics) check,\ninstead of a Wisdom (Medicine) check.\n",
+    "body": "You have internal failsafes and repair protocols to assist with your longevity. You can expend one or more Hit Dice\nas an Action. Additionally, you regain all spent Hit Dice during a long rest, instead of the usual amount.\n",
+    "html": false
+  },
+  {
+    "id": "restless-curiosity",
+    "title": "Restless Curiosity",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/restless-curiosity",
+    "body": "Maidens tend to spend hundreds of years mastering talents, exploring, and experiencing\nanything and everything the galaxy has to offer. You have spent the past few decades mastering a\nparticular skill or trade, one you may forget about in your later years, but it's certainly a fun hobby for now.\nYou gain proficiency with one tool and one skill of your choice.\n",
     "html": false
   },
   {
@@ -11257,7 +12125,7 @@
       "Species"
     ],
     "link": "/traits/revival-unit",
-    "body": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead. You can’t use this feature again until you finish a long rest.\n",
+    "body": "Once per long rest, when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead.\n",
     "html": false
   },
   {
@@ -11293,7 +12161,7 @@
       "Species"
     ],
     "link": "/traits/scientific-aptitude",
-    "body": "You gain proficiency with one of the following skills of your choice: Electronics, Engineering,\nInvestigation, or Science.\n",
+    "body": "You gain proficiency with two of the following skills of your choice: Electronics, Engineering, History,\nInvestigation, or Science.\n",
     "html": false
   },
   {
@@ -11309,15 +12177,15 @@
     "html": false
   },
   {
-    "id": "shoulder-mounts",
-    "title": "Shoulder Mounts",
+    "id": "sentry-mode",
+    "title": "Sentry Mode",
     "type": "character",
     "qualifiers": [
       "Character",
       "Species"
     ],
-    "link": "/traits/shoulder-mounts",
-    "body": "Your ranged weapons are shoulder mounted to your armor or in holsters and use a VI to aim and fire. When you make a\nranged weapon attack, use your Intelligence modifier instead of your Dexterity modifier.\nYou can have one ranged weapon mounted on each shoulder. Mounting a ranged weapon requires you to be proficient with\nthe weapon type and takes at least 10 minutes of work during a short or long rest.\n",
+    "link": "/traits/sentry-mode",
+    "body": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping.\nIn this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.\n",
     "html": false
   },
   {
@@ -11333,6 +12201,42 @@
     "html": false
   },
   {
+    "id": "skill-expertise",
+    "title": "Skill Expertise",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/skill-expertise",
+    "body": "Your choice of expertise in one skill.\n",
+    "html": false
+  },
+  {
+    "id": "skill-proficiencies",
+    "title": "Skill Proficiencies",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/skill-proficiencies",
+    "body": "Your choice of two skill proficiencies.\n",
+    "html": false
+  },
+  {
+    "id": "skill-proficiency",
+    "title": "Skill Proficiency",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/skill-proficiency",
+    "body": "Your choice of skill proficiency.\n",
+    "html": false
+  },
+  {
     "id": "solar-dependency",
     "title": "Solar Dependency",
     "type": "character",
@@ -11341,7 +12245,55 @@
       "Species"
     ],
     "link": "/traits/solar-dependency",
-    "body": "If you fail to immerse yourself in sunlight for at least 1 hour during a day, you suffer one level of exhaustion at the\nend of that day.\n",
+    "body": "In addition to food and water, you must also immerse yourself in a source of UV radiation for at least 1 hour per\nday. If you do not, you automatically suffer one level of exhaustion at the end of that day.\n",
+    "html": false
+  },
+  {
+    "id": "specialized-design",
+    "title": "Specialized Design",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/specialized-design",
+    "body": "You gain expertise in one skill of your choice. You also gain proficiency in one tool and one weapon of your choice.\n",
+    "html": false
+  },
+  {
+    "id": "spring-loaded",
+    "title": "Spring Loaded",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/spring-loaded",
+    "body": "You can jump three times the normal distance.\n",
+    "html": false
+  },
+  {
+    "id": "stave-off",
+    "title": "Stave Off",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/stave-off",
+    "body": "If you spend one hour meditating each day, the DC of your Addiction saving throw does not increase.\nYou may meditate as part of a long rest. If you mate with another creature, replace this trait with the\nHunger trait from the Embrace disposition.\n",
+    "html": false
+  },
+  {
+    "id": "stealth-unit",
+    "title": "Stealth Unit",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/stealth-unit",
+    "body": "Hopper platforms are designed for covert operations. You have proficiency in Stealth.\n",
     "html": false
   },
   {
@@ -11353,7 +12305,31 @@
       "Species"
     ],
     "link": "/traits/survivalist",
-    "body": "Angara have a knack for living in harsh environments. You have proficiency in Survival.\n",
+    "body": "Angara have a knack for living in harsh environments. You have proficiency in the Survival skill.\n",
+    "html": false
+  },
+  {
+    "id": "synthetic-construct",
+    "title": "Synthetic Construct",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/synthetic-construct",
+    "body": "As a synthetic creature you gain the benefits and detriments of not being composed of biological material.\nYour creature type is synthetic and you cannot be the target of any power, item, or feature that\nindicates an organic target. You gain the following:\n\nYou are immune to psychic and poison damage\nYou are immune to disease and the poisoned condition\nYou are vulnerable to lightning damage.\nBeing stabilized requires a successful DC 10 Intelligence (Engineering) or\nIntelligence (Electronics) check instead of Wisdom (Medicine).\nYou do not need to eat, drink, or breathe.\nYou do not need to sleep.\n\n",
+    "html": false
+  },
+  {
+    "id": "tentacle-bind",
+    "title": "Tentacle Bind",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/tentacle-bind",
+    "body": "When you attack a target with three or more tentacles simultaneously and hit, you can attempt to grapple the target as\na bonus action. You gain a +1 bonus to your Strength (Athletics) check for each tentacle used.\nIf you successfully grapple a creature with all six tentacles it becomes restrained until the grapple ends.\n",
     "html": false
   },
   {
@@ -11365,7 +12341,7 @@
       "Species"
     ],
     "link": "/traits/tentacles",
-    "body": "You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms, meaning\nyou can only wield weapons with the light property.\nIn addition, your tentacles are natural weapons, which you can use to make unarmed strikes. If you hit with them,\nyou deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for\nan unarmed strike. Immediately after hitting a target with your tentacle attack, you can attempt to grapple the target\nas a bonus action.\nIf a creature is grappled by one of your tentacles, you may use your action to secrete a toxin into the creature.\nIt must succeed a Constitution saving throw or becomes poisoned for 1 hour. The DC of this\nsaving throw is equal to 11 + your proficiency bonus.\n",
+    "body": "You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms.\nYou can only wield weapons with the light property.\nIn addition, your tentacles are natural weapons, which you can use to make unarmed strikes. When you attack\nwith multiple tentacles simultaneously, gain a +1 bonus to the attack roll for each additional tentacle used.\nWhen you hit with your tentacles, you deal 1d8 poison damage and the target must succeed on a\nConstitution saving throw or become poisoned for one minute. The DC of this saving throw is equal to\n10 + your proficiency bonus + the number of tentacles used on this attack.\n",
     "html": false
   },
   {
@@ -11377,7 +12353,7 @@
       "Species"
     ],
     "link": "/traits/thick-hide",
-    "body": "Your base AC is 12 and you determine your AC using your Constitution modifier instead of your Dexterity modifier.\n",
+    "body": "When you aren’t wearing armor, your AC is 13 + your Constitution modifier. You can use your natural armor to\ndetermine your AC if the armor you wear would leave you with a lower AC. A held shield’s benefits apply\nas normal while you use your natural armor.\n",
     "html": false
   },
   {
@@ -11393,6 +12369,18 @@
     "html": false
   },
   {
+    "id": "tool-proficiency",
+    "title": "Tool Proficiency",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/tool-proficiency",
+    "body": "Your choice of Tool proficiency.\n",
+    "html": false
+  },
+  {
     "id": "toughness",
     "title": "Toughness",
     "type": "character",
@@ -11402,6 +12390,18 @@
     ],
     "link": "/traits/toughness",
     "body": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.\n",
+    "html": false
+  },
+  {
+    "id": "tripedal-combat",
+    "title": "Tripedal Combat",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/tripedal-combat",
+    "body": "Due to their massive size, Elcor can only use one forelimb to use objects. You cannot wield more than one\nweapon or object (such as a riot shield) at a time and you must stow your weapon to use items\n(such as grenades and medi-gel) or interact with objects.\nHowever, you ignore the heavy and two-handed property of all weapons and when you deal damage\nwith a weapon that has the versatile property, you deal damage as if you were attacking with two hands.\nAdditionally, you may cast powers while wielding a weapon.\n",
     "html": false
   },
   {
