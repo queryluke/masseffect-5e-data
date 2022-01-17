@@ -168,6 +168,7 @@ mechanics:
   - type: biotic-prodigy
   - type: tentacle-blender
   - type: fast-learner
+  - type: poly-avatar
   - type: premium-genetics
   - type: regenerative-burst
 # senses
