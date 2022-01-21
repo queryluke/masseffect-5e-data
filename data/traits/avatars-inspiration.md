@@ -1,6 +1,5 @@
 ---
 species:
-  - avatar-bravery
   - avatar-humor
   - avatar-leadership
   - avatar-sacrifice

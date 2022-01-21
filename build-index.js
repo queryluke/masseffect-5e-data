@@ -6,7 +6,7 @@ function setType(dir) {
   const types = [
     {
       type: 'character',
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies-options']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features', 'subspecies-options']
     },
     {
       type: 'equipment',
@@ -32,7 +32,7 @@ function setPrimaryType(dir, messages) {
   const types = [
     {
       type: messages.character_title.split('|')[0].trim(),
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features', 'subspecies-options']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features', 'subspecies-options']
     },
     {
       type: messages.equipment_title.split('|')[0].trim(),
@@ -62,7 +62,6 @@ function setSubtype(file, messages) {
     case 'class-features':
     case 'species':
       return messages.class_title.split('|')[1].trim()
-    case 'species-variants':
     case 'subspecies':
     case 'subspecies-options':
     case 'traits':
@@ -101,7 +100,6 @@ const files = [
   'mods',
   'powers',
   'species',
-  'species-variants',
   'subspecies-options',
   'traits',
   'weapons',
@@ -199,16 +197,6 @@ for (const lang of langs) {
             for (const advKey in item.advancements)
             searchItem.body += `  ${item.advancements[advKey].name}: ${cleanBody(item.advancements[advKey].text)}`
           }
-          break
-
-        // VARIANTS
-        case 'species-variants':
-          searchItem.link = false
-          const vRace = species.find(i => i.id === item.species)
-          searchItem.qualifiers.push(vRace.name)
-          searchItem.qualifiers.push(messages.variants_title)
-          searchItem.qualifiers.push(item.name)
-          searchItem.html = item.html
           break
 
         // SUBSPECIES

@@ -4,6 +4,7 @@ species: human
 mechanics:
   - type: asi-choice
     options: true
-    amount: 1
+    total: 2
     selections: 2
+    max: 1
 ---

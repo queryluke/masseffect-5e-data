@@ -273,9 +273,7 @@
     "mechanics": [
       {
         "type": "asi-choice",
-        "options": true,
-        "amount": 1,
-        "selections": 1
+        "options": true
       },
       {
         "type": "other",
@@ -673,8 +671,7 @@
         "limit": [
           "str",
           "dex"
-        ],
-        "selections": 1
+        ]
       },
       {
         "type": "fighting-style-choice",
@@ -715,8 +712,7 @@
         "limit": [
           "str",
           "dex"
-        ],
-        "selections": 1
+        ]
       },
       {
         "type": "augment",

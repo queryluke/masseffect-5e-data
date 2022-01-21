@@ -3,11 +3,7 @@ subspecies: ay-disposition
 mechanics:
   - type: asi-choice
     options: true
-    amount: 1
-  - type: asi-choice
-    options: true
-    amount: 1
-  - type: asi-choice
-    options: true
-    amount: 1
+    total: 3
+    selections: 3
+    max: 1
 ---

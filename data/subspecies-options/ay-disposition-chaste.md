@@ -7,5 +7,4 @@ mechanics:
   - type: asi-choice
     options: true
     limit: [dex, str, int, cha, con]
-    amount: 1
 ---

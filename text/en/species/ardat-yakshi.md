@@ -10,3 +10,6 @@ This is because ardat-yakshi develop an addiction to the power and feel intense 
 grows stronger with each meld, and so a life of monastic celibacy allows asari to live in peace with a controllable desire.
 Those who are able to avoid isolation and execution, however, quickly become psychopathic in their intense lust for the
 destructive melding.
+
+If you would like to play an ardat-yakshi, gain the Addiction trait and replace Life Stage with Disposition or the
+Variant: Growing Power

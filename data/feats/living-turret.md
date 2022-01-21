@@ -5,7 +5,6 @@ mechanics:
   - type: asi-choice
     options: true
     limit: [str, dex]
-    selections: 1
   - type: fighting-style-choice
     options: true
     limit: [ambidextrous, assault, carnage, close-quarters-shooter, sniper]

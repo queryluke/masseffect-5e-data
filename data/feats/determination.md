@@ -4,8 +4,6 @@ new: true
 mechanics:
   - type: asi-choice
     options: true
-    amount: 1
-    selections: 1
   - type: other
     resource:
       reset: short

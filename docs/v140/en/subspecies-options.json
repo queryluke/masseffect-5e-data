@@ -125,17 +125,9 @@
       {
         "type": "asi-choice",
         "options": true,
-        "amount": 1
-      },
-      {
-        "type": "asi-choice",
-        "options": true,
-        "amount": 1
-      },
-      {
-        "type": "asi-choice",
-        "options": true,
-        "amount": 1
+        "total": 3,
+        "selections": 3,
+        "max": 1
       }
     ],
     "name": "Acceptance",
@@ -160,11 +152,11 @@
           "int",
           "cha",
           "con"
-        ],
-        "amount": 1
+        ]
       }
     ],
     "name": "Chaste",
+    "abilityScoreIncrease": "+1 Wisdom and +1 to one other ability score of your choice that isn't Wisdom",
     "html": "<p>You understand the risks of your condition and make every attempt to avoid mating.</p>\n",
     "id": "ay-disposition-chaste"
   },
@@ -212,16 +204,15 @@
     "mechanics": [
       {
         "type": "asi-choice",
-        "options": true
-      },
-      {
-        "type": "asi-choice",
-        "options": true
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
       }
     ],
     "name": "Variant: Growing Power",
     "abilityScoreIncrease": "+1 to two different ability scores of your choice",
-    "html": "<p>GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gain the Dominate and Mating traits instead.</p>\n",
+    "html": "<p>GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gains the following instead.</p>\n",
     "id": "ay-disposition-growing-power"
   },
   {
@@ -246,8 +237,7 @@
           "str",
           "dex"
         ],
-        "options": true,
-        "amount": 1
+        "options": true
       }
     ],
     "name": "Muscular",
@@ -263,8 +253,7 @@
           "wis",
           "int"
         ],
-        "options": true,
-        "amount": 1
+        "options": true
       }
     ],
     "name": "Ocular",
