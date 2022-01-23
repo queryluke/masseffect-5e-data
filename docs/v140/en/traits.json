@@ -242,12 +242,12 @@
     "mechanics": [
       {
         "type": "resistance",
-        "damageType": "lightening",
+        "value": "lightening",
         "note": "only applies to hit points"
       },
       {
         "type": "resistance",
-        "damageType": "cold",
+        "value": "cold",
         "note": "only applies to hit points"
       }
     ],
@@ -354,9 +354,7 @@
       },
       {
         "type": "initiative",
-        "effect": {
-          "type": "disadvantage"
-        }
+        "effect": "disadvantage"
       }
     ],
     "name": "Careful",
@@ -385,7 +383,9 @@
     "mechanics": [
       {
         "type": "saving-throw",
-        "note": "on saving throws against being blinded",
+        "against": [
+          "blinded"
+        ],
         "effect": "advantage"
       }
     ],
@@ -427,7 +427,7 @@
       },
       {
         "type": "condition-immunity",
-        "condition": "prone",
+        "value": "prone",
         "note": "only if contra-gravitic levitation device is functional"
       }
     ],
@@ -504,7 +504,7 @@
           {
             "dieCount": 2,
             "dieType": 4,
-            "type": "lightening"
+            "type": "lightning"
           }
         ],
         "notes": [
@@ -628,17 +628,17 @@
     "mechanics": [
       {
         "type": "resistance",
-        "damageType": "poison",
+        "value": "poison",
         "note": "while within your hermetic suit"
       },
       {
         "type": "resistance",
-        "damageType": "necrotic",
+        "value": "necrotic",
         "note": "while within your hermetic suit"
       },
       {
         "type": "condition-immunity",
-        "condition": false,
+        "value": false,
         "note": "immune to disease while within your hermetic suit"
       },
       {
@@ -686,7 +686,9 @@
     "mechanics": [
       {
         "type": "saving-throw",
-        "note": "Addiction saving throws",
+        "against": [
+          "Addiction saves"
+        ],
         "effect": "disadvantage"
       }
     ],
@@ -720,20 +722,30 @@
     "mechanics": [
       {
         "type": "power-choice",
+        "label": "Choose two cantrips",
         "options": true,
         "limit": {
-          "type": "biotic",
-          "level": 0
+          "type": [
+            "biotic"
+          ],
+          "level": [
+            0
+          ]
         },
         "mod": "wis",
         "selections": 2
       },
       {
         "type": "power-choice",
+        "label": "Choose one 1st level power",
         "options": true,
         "limit": {
-          "type": "biotic",
-          "level": 1
+          "type": [
+            "biotic"
+          ],
+          "level": [
+            1
+          ]
         },
         "mod": "wis",
         "resource": {
@@ -779,19 +791,12 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "skill": "perception",
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on sight"
-        }
-      },
-      {
-        "type": "skill-check",
-        "skill": "investigation",
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on sight"
-        }
+        "limit": [
+          "perception",
+          "investigation"
+        ],
+        "effect": "advantage",
+        "note": "on checks that rely on sight"
       }
     ],
     "name": "Keen Eyesight",
@@ -805,27 +810,13 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "skill": "investigation",
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on smell"
-        }
-      },
-      {
-        "type": "skill-check",
-        "skill": "perception",
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on smell"
-        }
-      },
-      {
-        "type": "skill-check",
-        "skill": "survival",
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on smell"
-        }
+        "limit": [
+          "investigation",
+          "perception",
+          "survival"
+        ],
+        "effect": "advantage",
+        "note": "on checks that rely on smell"
       }
     ],
     "name": "Keen Olfactory Sensory",
@@ -875,12 +866,14 @@
     "mechanics": [
       {
         "type": "saving-throw",
-        "note": "against being poisoned",
+        "against": [
+          "poisoned"
+        ],
         "effect": "advantage"
       },
       {
         "type": "resistance",
-        "damageType": "poison"
+        "value": "poison"
       }
     ],
     "name": "Lystheni Resilience",
@@ -956,7 +949,10 @@
     "mechanics": [
       {
         "type": "saving-throw",
-        "note": "against being charmed or frightened",
+        "against": [
+          "charmed",
+          "frightened"
+        ],
         "effect": "advantage"
       }
     ],
@@ -998,7 +994,10 @@
     "mechanics": [
       {
         "type": "saving-throw",
-        "note": "on being charmed or frightened",
+        "against": [
+          "charmed",
+          "frightened"
+        ],
         "effect": "advantage"
       }
     ],
@@ -1103,11 +1102,8 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "skill": "all",
-        "effect": {
-          "type": "advantage",
-          "note": "on information you have seen or read"
-        }
+        "effect": "advantage",
+        "note": "on information you have seen or read"
       }
     ],
     "name": "Photographic Memory",
@@ -1479,9 +1475,7 @@
       {
         "type": "prof",
         "profType": "skill",
-        "has": [
-          "survival"
-        ]
+        "value": "survival"
       }
     ],
     "name": "Survivalist",
@@ -1495,19 +1489,19 @@
     "mechanics": [
       {
         "type": "immunity",
-        "damageType": "psychic"
+        "value": "psychic"
       },
       {
         "type": "immunity",
-        "damageType": "poison"
+        "value": "poison"
       },
       {
         "type": "condition-immunity",
-        "condition": "poisoned"
+        "value": "poisoned"
       },
       {
         "type": "vulnerability",
-        "damageType": "lightening"
+        "value": "lightning"
       }
     ],
     "name": "Synthetic Construct",
@@ -1668,14 +1662,14 @@
     "mechanics": [
       {
         "type": "speed",
-        "speed": "flying",
+        "speed": "fly",
         "distance": 30,
         "note": "if you end your movement in the air, you fall to the ground at the end of your turn"
       },
       {
         "type": "resistance",
         "damageType": false,
-        "note": "whenever you suffer falling damage you only suffer half the amount"
+        "note": "Falling"
       }
     ],
     "name": "Wings",

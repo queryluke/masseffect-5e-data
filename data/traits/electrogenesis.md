@@ -12,7 +12,7 @@ mechanics:
     damage:
       - dieCount: 2
         dieType: 4
-        type: lightening
+        type: lightning
     notes:
       - creature cannot take reactions until the end of its next turn
     shortDesc: "* - when you are hit by a melee weapon attack by a creature you can see"

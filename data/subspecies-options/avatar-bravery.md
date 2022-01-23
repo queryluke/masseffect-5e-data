@@ -2,7 +2,7 @@
 subspecies: avatar
 mechanics:
   - type: saving-throw
-    note: against being frightened
+    against: [frightened]
     effect: advantage
   - type: reaction
     shortDesc: >-

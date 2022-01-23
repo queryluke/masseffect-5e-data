@@ -4,6 +4,5 @@ species:
 mechanics:
   - type: prof
     profType: skill
-    has:
-      - survival
+    value: survival
 ---

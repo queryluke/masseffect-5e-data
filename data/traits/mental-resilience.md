@@ -2,6 +2,6 @@
 species: [ay-disposition-chaste]
 mechanics:
   - type: saving-throw
-    note: against being charmed or frightened
+    against: [charmed, frightened]
     effect: advantage
 ---

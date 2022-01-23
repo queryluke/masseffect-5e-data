@@ -3,13 +3,13 @@ species:
   - quarian
 mechanics:
   - type: resistance
-    damageType: poison
+    value: poison
     note: while within your hermetic suit
   - type: resistance
-    damageType: necrotic
+    value: necrotic
     note: while within your hermetic suit
   - type: condition-immunity
-    condition: false
+    value: false
     note: immune to disease while within your hermetic suit
   - type: action
     resource:

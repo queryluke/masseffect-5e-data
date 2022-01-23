@@ -2,11 +2,11 @@
 species: [geth]
 mechanics:
   - type: immunity
-    damageType: psychic
+    value: psychic
   - type: immunity
-    damageType: poison
+    value: poison
   - type: condition-immunity
-    condition: poisoned
+    value: poisoned
   - type: vulnerability
-    damageType: lightening
+    value: lightning
 ---

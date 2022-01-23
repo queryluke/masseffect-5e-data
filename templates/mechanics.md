@@ -68,27 +68,25 @@ mechanics:
 # IRVs
   #resistances
   - type: resistance
-    damageType: enum or false #false used when the type is "special" for oddballs like "falling damage"
+    value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
   - type: condition-immunity
-    condition: enum or false #false used when the type is "special" for oddballs like "falling damage"
+    value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
 # Saving Throws, skill checks
   - type: saving-throw
+    against: array
+    ability: enum [abilities]
     note: string
-    effect: enum [advantage, disadvantage]
+    effect: enum [advantage, disadvantage, bonus]
 # Initiative
   - type: initiative
-    effect:
-      type: [advantage, disadvantage, flat, mod, proficiency]
-      value: any
+    effect: enum [advantage, disadvantage, @bonus]
 # skill checks
   - type: skill-check
-    skill: enum [skills]
-    effect:
-      type: [advantage, disadvantage, flat, mod, proficiency]
-      value: any
-      note: string
+    limit: enum [skills]
+    effect: enum [advantage, disadvantage, @bonus]
+    note: string
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
   - type: speed

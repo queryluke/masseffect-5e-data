@@ -2,6 +2,6 @@
 species: [ay-disposition-embrace]
 mechanics:
   - type: saving-throw
-    note: Addiction saving throws
+    against: [Addiction saves]
     effect: disadvantage
 ---

@@ -9,6 +9,5 @@ mechanics:
     profType: skill
     value: perception
   - type: initiative
-    effect:
-      type: disadvantage
+    effect: disadvantage
 ---

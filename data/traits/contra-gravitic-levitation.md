@@ -9,6 +9,6 @@ mechanics:
   - type: resistance
     note: reduce fall damage by 4d6 if contra-gravitic levitation device is functional
   - type: condition-immunity
-    condition: prone
+    value: prone
     note: only if contra-gravitic levitation device is functional
 ---
