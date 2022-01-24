@@ -32,9 +32,6 @@ type: primary
 mechanics:
   - type: asi
     amount: 1
-    ability: str
-  - type: asi
-    amount: 1
     ability: con
   - type: asi
     amount: 1

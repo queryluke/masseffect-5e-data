@@ -2,8 +2,7 @@
 species:
   - turian
 mechanics:
-  - type: defenses
-    subType: resistance
-    has:
-      id: radiant
+  - type: resistance
+    value: radiant
+    note: to your hit points
 ---
