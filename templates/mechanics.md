@@ -28,10 +28,9 @@ bonus:
   value: integer, string, or null
   multiplier: 1
 
-# damage
-
 # any mechanic that needs a selection should have
 #   options: true
+
 mechanics:
 # Ability Score Increases
   # +X to a score
@@ -40,11 +39,10 @@ mechanics:
     amount: 1
   - type: asi-choice
     options: true
-    limit: [dex, str] #optional array
-    amount: 1
-    selections: integer (default 1)
-    # results in
-    # {type: asi, ability: (the selection), amount: 1, model: 'subspecies-options', id: 'cybernetic-augmentation-cerebral', path: 'species'}
+    limit: enum [abilities]
+    selections: integer # default 1
+    total: integer # default 1
+    max: integer #default 1, max 2
 # Proficiencies
   - type: prof
     profType: enum [skill, weapon, armor, saving_throw, tool]
@@ -93,6 +91,33 @@ mechanics:
     speed: enum [walk, fly, burrow, swim, climb]
     distance: integer
     note: string #note is optional.
+# Feats
+  - type: feat-choice
+    limit: enum [feats]
+    options: true
+# TODO
+  - type: fighting-style
+    options: true
+    limit: enum [fighting-styles]
+    selections: integer
+  - type: regain-all-hit-dice
+# Unique
+  - type: ardat-yakshi-addiction
+  - type: ardat-yakshi-stave-off
+  - type: ardat-yakshi-mating
+  - type: avatars-inspiration #note check for imp ava insp
+  - type: twice-as-bright
+  - type: biotic-prodigy
+  - type: tentacle-blender
+  - type: fast-learner
+  - type: poly-avatar
+  - type: premium-genetics
+  - type: regenerative-burst
+# senses
+  - type: sense
+    sense: enum [senses]
+    distance: integer
+    note: string
 # Attacks, Actions, Bonus Actions, and Reactions
   - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
@@ -131,20 +156,7 @@ mechanics:
     resource: @resource
     selections: integer # optional, default 1
     mod: enum [abilities]
-# Misc
-  # Do not check for STR requirements of armor (to reduce speed by 10)
-  - type: nullify-armor-str-restriction
-  - type: regain-all-hit-dice
-  - type: feat-choice
-    options: true
-  - type: starting-equipment
-    equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
-    value: string or int
-  - type: fighting-style
-    options: true
-    limit: enum [ambidextrous, assault, carnage, close-quarters-shooter, sniper]
-    selections: integer
-  # augments
+# augments
   - type: augment
     model: enum [weapon, power]
     modelId: string
@@ -157,23 +169,13 @@ mechanics:
       - path: 'path.to.mechanic.attr'
         value: any
         type: enum [replace, append]
-# Unique
-  - type: ardat-yakshi-addiction
-  - type: ardat-yakshi-stave-off
-  - type: ardat-yakshi-mating
-  - type: avatars-inspiration #note check for imp ava insp
-  - type: twice-as-bright
-  - type: biotic-prodigy
-  - type: tentacle-blender
-  - type: fast-learner
-  - type: poly-avatar
-  - type: premium-genetics
-  - type: regenerative-burst
-# senses
-  - type: sense
-    sense: enum [senses]
-    distance: integer
-    note: string
+
+# NOT IMPLEMENTED
+- type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
+- type: starting-equipment
+  equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
+  value: string or int
+
 ---
 
 
