@@ -1,8 +1,7 @@
 ---
 species: [cybernetic-augmentation-cerebral]
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     limit: [electronics, engineering, history, investigation, science]
 ---

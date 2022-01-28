@@ -3,7 +3,7 @@ species:
   - angara
 mechanics:
   - type: resistance
-    value: lightening
+    value: lightning
     note: only applies to hit points
   - type: resistance
     value: cold

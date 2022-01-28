@@ -4,8 +4,7 @@ mechanics:
   - type: prof
     profType: skill
     value: persuasion
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     limit: ['deception', 'history', 'insight', 'intimidation', 'investigation', 'medicine', 'performance']
 ---

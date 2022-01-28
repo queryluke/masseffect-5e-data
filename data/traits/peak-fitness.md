@@ -1,8 +1,7 @@
 ---
 species: [cybernetic-augmentation-muscular]
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     limit: [acrobatics, athletics]
     selections: 1

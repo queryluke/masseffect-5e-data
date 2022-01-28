@@ -19,8 +19,8 @@ resource:
     type: enum [flat, mod, proficiency, omni-gel, hit-dice]
     value: any [integer for flat, enum for mod, null for proficiency]
     min: integer # optional, if there were ever a use case for min 2
-  isolated: boolean # optional, default false # electrogenesis vs seeker swarm. egen needs uses that are combined, ss needs isolated
-  shared: string # optional, {model}-{id} id of a trait, uses the resource of another trait
+  increment: integer # default 1, for when a single click uses 2
+  id: string # a uuid to track the resources. Allows for sharing resources
 
 # bonus
 bonus:
@@ -56,7 +56,7 @@ mechanics:
     expertise: boolean
 # AC
   - type: ac
-    bonus: integer
+    bonus: @bonus
   - type: natural-armor
     base: integer
     mod: enum [abilities]
@@ -95,54 +95,19 @@ mechanics:
   - type: feat-choice
     limit: enum [feats]
     options: true
-# TODO
+# Fighting Styles
   - type: fighting-style
+    value: enum [fighting-styles]
+  - type: fighting-style-choice
     options: true
     limit: enum [fighting-styles]
-    selections: integer
-  - type: regain-all-hit-dice
-# Unique
-  - type: ardat-yakshi-addiction
-  - type: ardat-yakshi-stave-off
-  - type: ardat-yakshi-mating
-  - type: avatars-inspiration #note check for imp ava insp
-  - type: twice-as-bright
-  - type: biotic-prodigy
-  - type: tentacle-blender
-  - type: fast-learner
-  - type: poly-avatar
-  - type: premium-genetics
-  - type: regenerative-burst
-# senses
+# Senses
   - type: sense
     sense: enum [senses]
     distance: integer
     note: string
-# Attacks, Actions, Bonus Actions, and Reactions
-  - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
-    resource: @resource #optional, default null
-    range:
-      short: integer (0 = self, touch = 1)
-      long: integer (0 = self, touch = 1)
-    attack: # optional, renders attack attributes
-      proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
-      mod: enum [str, dex, con, int, wis, cha] # optional
-    damage:
-      - dieCount: integer (0 = special)
-        dieType: integer
-        mod: enum [abilities]
-        type: enum [damage types] or hp, sp, tempHp
-        bonus: @bonus
-    dc:
-      base: integer # default = true
-      proficient: boolean # default = true
-      mod: enum [str, dex, con, int, wis, cha] # whether to add the mod to the dc
-      save: enum [str, dex, con, int, wis, cha]
-      textBonus: string
-    notes:
-      - string # optional, appends to damage type as a caveat or used to display text for special damage types
-    shortDesc: string # optional
-    component: string # for pre-compiled components
+# Unique
+  - type: regain-all-hit-dice
 # Powers
   - type: power
     powerId: string
@@ -156,6 +121,82 @@ mechanics:
     resource: @resource
     selections: integer # optional, default 1
     mod: enum [abilities]
+# Attacks, Actions, Bonus Actions, and Reactions
+  - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
+    resource: @resource #optional, default null
+    range:
+      short: integer (0 = self, touch = 1)
+      long: integer (0 = self, touch = 1)
+      note: string
+      aoe:
+        type: enum [aoe types]
+        size: integer
+    attack: # optional, renders attack attributes
+      proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
+      mod: enum [str, dex, con, int, wis, cha] # optional
+      note: string
+    damage:
+      - dieCount: integer (0 = special)
+        dieType: integer
+        mod: enum [abilities]
+        type: enum [damage types] or hp, sp, tempHp
+        bonus: @bonus
+    dc:
+      base: integer # default = true
+      proficient: boolean # default = true
+      mod: enum [str, dex, con, int, wis, cha] # whether to add the mod to the dc
+      save: enum [str, dex, con, int, wis, cha]
+      note: string
+    notes:
+      - string # optional, appends to damage type as a caveat or used to display text for special damage types
+    shortDesc: string # optional
+    moreInfo: # can also be false to override
+      component: string
+      bind: object
+      model: string
+      id: string
+
+# TODO
+# choices
+  # note, should return object, appends can use object attributes
+  # the resulting selection should look like
+  # { path: 'some/path', values: [{type: 'model', model: 'species', value: 'selectedValue', appendModelMechanics, appendId] }
+  # then, to get mechanics
+  #  1. extract from mechanicBagSelections where type === 'model'
+  #  2. get updated model data this.getter(model, value)
+  #  if appendModelMechanics
+  #    3.1 hydrate with model mechanics
+  #  else
+  #    3.2 hydrate with appends
+          # find matching model choice from this.UNHYDRATED_MECHANIC_BAG.filter(i => type = 'model-choice' && appendId)
+  # unsure if this is achievable
+  - type: model-choice
+    options: true
+    model: string
+    limits:
+      - path: string
+        values: []
+    append:
+      limit: [mechanicTypes]
+      mechanics: []
+
+
+# Unique
+  - type: exalted-lineage
+  - type: additional-augment
+  - type: ardat-yakshi-addiction
+  - type: ardat-yakshi-stave-off
+  - type: ardat-yakshi-mating
+  - type: avatars-inspiration #note check for imp ava insp
+  - type: twice-as-bright
+  - type: biotic-prodigy
+  - type: tentacle-blender
+  - type: fast-learner
+  - type: poly-avatar
+  - type: premium-genetics
+  - type: regenerative-burst
+  - type: repair-matrix
+  - type: imprinted-enemies # can be model choice
 # augments
   - type: augment
     model: enum [weapon, power]
@@ -175,6 +216,7 @@ mechanics:
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
+- type: advanced-medigel-application #d6 for medigel
 
 ---
 

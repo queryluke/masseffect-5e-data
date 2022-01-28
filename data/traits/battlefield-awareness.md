@@ -3,8 +3,7 @@ name: Battlefield Awareness
 species:
   - military-doctrine-combat-officer
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     limit: [perception, insight]
 ---

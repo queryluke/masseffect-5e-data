@@ -2,7 +2,9 @@
 species:
   - human-variant
   - prothean-no-avatar
+  - turian-non-hierarchy
 mechanics:
-  - type: feat-choice
+  - type: model-choice
     options: true
+    model: 'feats'
 ---

@@ -9,8 +9,15 @@
     },
     "mechanics": [
       {
+        "name": "Beguile",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "beguile"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "beguile"
+        },
         "dc": {
           "base": 8,
           "proficient": true,
@@ -33,8 +40,15 @@
     },
     "mechanics": [
       {
+        "name": "Calm Emotions",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "calm-emotions"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "calm-emotions"
+        },
         "dc": {
           "base": 8,
           "proficient": true,
@@ -57,8 +71,15 @@
     },
     "mechanics": [
       {
+        "name": "Compel",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "compel"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "compel"
+        },
         "dc": {
           "base": 8,
           "proficient": true,
@@ -81,12 +102,18 @@
     },
     "mechanics": [
       {
+        "name": "Convince",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "convince"
+        },
         "type": "other",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "convince"
         },
         "shortDesc": "roll a d6 and add to a Charisma (Persuasion) check"
       }
@@ -105,8 +132,15 @@
     },
     "mechanics": [
       {
+        "name": "Fear",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "fear"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "fear"
+        },
         "dc": {
           "base": 8,
           "proficient": true,
@@ -129,8 +163,15 @@
     },
     "mechanics": [
       {
+        "name": "Frightening Presence",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "frightening-presence"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "frightening-presence"
+        },
         "dc": {
           "base": 8,
           "proficient": true,
@@ -153,8 +194,15 @@
     },
     "mechanics": [
       {
+        "name": "Glibness",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "glibness"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "glibness"
+        },
         "shortDesc": "for the next hour you can replace your Charisma check rolls with a 15 and creatures cannot determine if you are being truthful"
       }
     ],
@@ -172,12 +220,18 @@
     },
     "mechanics": [
       {
+        "name": "Matter over Mind",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "matter-over-mind"
+        },
         "type": "other",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "matter-over-mind"
         },
         "shortDesc": "on failed Strength or Dexterity check, reroll and add your Charisma plus the original modifier to the roll"
       }
@@ -195,22 +249,34 @@
     },
     "mechanics": [
       {
+        "name": "Not by my Hand",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "not-by-my-hand"
+        },
         "type": "other",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "not-by-my-hand"
         },
         "shortDesc": "add your Charisma modifier to another creature's ability check, if it can see or hear you"
       },
       {
+        "name": "Not by my Hand",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "not-by-my-hand"
+        },
         "type": "action",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "not-by-my-hand"
         },
         "shortDesc": "when you take the Help action, add your Charisma modifier to the creature's next ability check or attack roll it makes before the start of your next turn"
       }
@@ -228,12 +294,18 @@
     },
     "mechanics": [
       {
+        "name": "Obfuscate",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "obfuscate"
+        },
         "type": "other",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "obfuscate"
         },
         "shortDesc": "when you fail a Charisma (Deception) check, reroll the die and use the new roll"
       }
@@ -252,12 +324,18 @@
     },
     "mechanics": [
       {
+        "name": "Pen before Sword",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "pen-before-sword"
+        },
         "type": "other",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "pen-before-sword"
         },
         "shortDesc": "on failed Intelligence or Wisdom check, reroll and add your Charisma plus the original modifier to the roll"
       }
@@ -276,12 +354,18 @@
     },
     "mechanics": [
       {
+        "name": "Presence",
+        "moreInfo": {
+          "model": "benefits",
+          "id": "presence"
+        },
         "type": "other",
         "resource": {
           "max": {
             "type": "mod",
             "value": "cha"
-          }
+          },
+          "id": "presence"
         },
         "shortDesc": "treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check"
       }

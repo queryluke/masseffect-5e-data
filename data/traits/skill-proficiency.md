@@ -1,9 +1,9 @@
 ---
 species:
   - human-variant
+  - turian-non-hierarchy
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     selections: 1
 ---

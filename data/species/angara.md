@@ -27,7 +27,7 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: andromeda
-type: andromeda
+group: andromeda
 mechanics:
   - type: asi
     amount: 2

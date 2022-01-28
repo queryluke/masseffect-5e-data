@@ -2,8 +2,7 @@
 species:
   - human
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     selections: 2
 ---

@@ -10,6 +10,11 @@
         "effect": "advantage"
       },
       {
+        "name": "Bravery",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-bravery"
+        },
         "type": "reaction",
         "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
       }
@@ -36,6 +41,11 @@
         "selections": 1
       },
       {
+        "name": "Humor",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-humor"
+        },
         "type": "bonus-action",
         "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration."
       }
@@ -48,9 +58,15 @@
     "subspecies": "avatar",
     "mechanics": [
       {
+        "name": "Leadership",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-leadership"
+        },
         "type": "bonus-action",
         "resource": {
-          "reset": "short"
+          "reset": "short",
+          "id": "avatar-leadership"
         },
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
@@ -66,6 +82,11 @@
     "subspecies": "avatar",
     "mechanics": [
       {
+        "name": "Sacrifice",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-sacrifice"
+        },
         "type": "reaction",
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
@@ -86,6 +107,11 @@
         "amount": 1
       },
       {
+        "name": "Strength",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-strength"
+        },
         "type": "other",
         "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration."
       }
@@ -98,6 +124,11 @@
     "subspecies": "avatar",
     "mechanics": [
       {
+        "name": "Tranquility",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-tranquility"
+        },
         "type": "other",
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws."
@@ -113,6 +144,11 @@
     "subspecies": "avatar",
     "mechanics": [
       {
+        "name": "Vengeance",
+        "moreInfo": {
+          "model": "subspecies-options",
+          "id": "avatar-vengeance"
+        },
         "type": "other",
         "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
       }
@@ -323,6 +359,84 @@
     "name": "Matron",
     "html": "<p>The Matron stage of life begins around the age of 350, though it can be triggered earlier if the individual melds\nfrequently. This period is marked by a desire to settle in one area and raise children.</p>\n",
     "id": "lifestage-matron"
+  },
+  {
+    "name": "Combat Officer",
+    "subspecies": "military-doctrine",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "html": "<p>Combat officers are typically infantry who have served long enough to become officers and/or bright, young turians\nthat have an aptitude for leadership. In addition to their military training, they also serve in a variety of\nadministrative roles.</p>\n",
+    "id": "military-doctrine-combat-officer"
+  },
+  {
+    "name": "Demolitions",
+    "subspecies": "military-doctrine",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "html": "<p>Demolitions experts focus on both the combative application of explosive but also can support in construction, mining,\nand colonization efforts.</p>\n",
+    "id": "military-doctrine-demolitions"
+  },
+  {
+    "name": "Engineering Corps",
+    "subspecies": "military-doctrine",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "html": "<p>The engineering corps is responsible for building and maintaining the majority of the Hierarchy’s infrastructure,\nincluding spaceports, schools, water purification plants, and power stations.</p>\n",
+    "id": "military-doctrine-engineering-corps"
+  },
+  {
+    "name": "Field Medics",
+    "subspecies": "military-doctrine",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      }
+    ],
+    "html": "<p>Field medics serve in public health services, including hospitals, rehabilitation centers, alien disease control, and\npreventative care. Due to their dextro-protein based biology, this corps heavily monitors imported alien perishables\nto avoid fatal allergenic outbreaks.</p>\n",
+    "id": "military-doctrine-field-medics"
+  },
+  {
+    "name": "Infantry",
+    "subspecies": "military-doctrine",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "html": "<p>The infantry serve as the civic police and make up the majority of the turian army. They train as soldiers\nand focus on the success of the mission, resolving any combative conflict as swiftly as possible.</p>\n",
+    "id": "military-doctrine-infantry"
+  },
+  {
+    "name": "Recon",
+    "subspecies": "military-doctrine",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      }
+    ],
+    "html": "<p>The recon teams are divided into three categories. Field recon focuses on mapping terrain and advantageous positioning.\nForce recon specializes in gaining knowledge about enemy strength and threats. Special Operations recon is tasked\nwith bespoke intelligence missions and are generally deployed behind enemy lines.</p>\n",
+    "id": "military-doctrine-recon"
   },
   {
     "subspecies": "mobile-platform",

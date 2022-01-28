@@ -2,11 +2,10 @@
 species:
   - salarian
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     selections: 2
-  - type: prof-choice
+  - type: tool-choice
     profType: tool
     options: true
     selections: 2

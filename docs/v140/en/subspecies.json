@@ -24,6 +24,12 @@
     "id": "lifestage"
   },
   {
+    "name": "Military Doctrine",
+    "species": "turian",
+    "html": "<p>Boot camp begins on the 15th birthday. Soldiers receive a year of training before being assigned to a field unit;\nofficers train for even longer. Most serve until the age of 30, at which they become part of the Reserves. You might be\ncurrently enlisted, a lifer, part of the reserves, or have moved on to other pursuits. Either way, your dogged service\nand commitment to your field unit has made a lasting impact on you. Choose one of the following military doctrines.</p>\n",
+    "id": "military-doctrine"
+  },
+  {
     "species": "geth",
     "name": "Mobile Platform",
     "html": "<p>Your mobile platform is your “body”, a mechanical structure that your consciousness inhabits. The platform provides\nadditional benefits based on its model. You can change your platform provided you have a new platform to inhabit\nand spend 8 hours in an unconscious state as you transfer your programs from one platform to another.</p>\n<v-alert value type=\"info\"><p>Should your platform become damaged beyond repair, the persistence of your consciousness is dependent\non numerous variables, such as the time since your most recent back-up, network availability to a hub,\nand the location(s) of your consciousness’ storage. Work with your GM to decide if your consciousness\nis recoverable and the process in which you will need to be loaded into a new platform.</p>\n</v-alert>",

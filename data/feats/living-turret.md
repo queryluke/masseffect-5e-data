@@ -8,7 +8,6 @@ mechanics:
   - type: fighting-style-choice
     options: true
     limit: [ambidextrous, assault, carnage, close-quarters-shooter, sniper]
-    selections: 1
   - type: other
     shortDesc: Reduce movement speed to 0 to engage in two-weapon fighting with non-light weapons until the end of your turn.
 prerequisite: Elcor

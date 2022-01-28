@@ -1,6 +1,8 @@
 ---
 species:
   - cybernetic-augmentation-visceral
+  - krogan
+  - tankbred
 mechanics:
   - type: hp
     bonus:

@@ -120,7 +120,7 @@ for (const lang of langs) {
     const modelTargetFile = `${targetPath}/${dir}.json`
     const modelFns = fs.readdirSync(modelDataPath)
     const items = modelFns.map(file => {
-      const item = combineItem(file,`${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
+      const item = combineItem(file,dir, `${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
       if (dir === 'changelog') {
         item.date = new Date(item.date)
         item.url = `/changelog/${item.slug}`
@@ -145,13 +145,13 @@ for (const lang of langs) {
     const modelTargetFile = `${targetPath}/${dir}.json`
     const modelFns = fs.readdirSync(modelTextPath)
     const items = modelFns.map(file => {
-      return  combineItem(file, `${modelTextPath}/${file}`)
+      return  combineItem(file, dir, `${modelTextPath}/${file}`)
     })
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
   }
 }
 
-function combineItem(id, file1, file2 = null) {
+function combineItem(id, dir, file1, file2 = null) {
   const fc = fm(fs.readFileSync(file1, 'utf8'))
   let item = fc.attributes
   let body = fc.body
@@ -180,5 +180,38 @@ function combineItem(id, file1, file2 = null) {
   }
   item.html = md.render(body)
   item.id = id.replace(/.md$/, '')
+  if (item.mechanics?.length) {
+    item.mechanics = appendResourceIds(item.mechanics, item.id, item.name, dir)
+  }
   return item
+}
+
+function appendResourceIds (mechanics, id, name, model) {
+  const newMechanics = []
+  for (const m of mechanics) {
+    let newM = m
+    if (m.resource) {
+      if (!m.resource.id) {
+        newM = {
+          ...m,
+          resource: {
+            ...m.resource,
+            id
+          }
+        }
+      }
+    }
+    if (['action', 'reaction', 'other', 'bonus-action', 'attack'].includes(m.type)) {
+      newM = {
+        name,
+        moreInfo: {
+          model: model,
+          id: id
+        },
+        ...newM,
+      }
+    }
+    newMechanics.push(newM)
+  }
+  return newMechanics
 }

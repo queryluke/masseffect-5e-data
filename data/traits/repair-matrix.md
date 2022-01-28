@@ -2,7 +2,6 @@
 species:
   - geth
 mechanics:
-  - type: action
-    component: expend-hit-dice
+  - type: repair-matrix
   - type: regain-all-hit-dice
 ---

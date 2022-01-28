@@ -2,8 +2,7 @@
 species:
   - drell
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     limit: [athletics, acrobatics, perception, stealth, survival]
     selections: 2

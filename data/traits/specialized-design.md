@@ -1,14 +1,12 @@
 ---
 species: [mobile-platform-trooper]
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     expertise: true
-  - type: prof-choice
-    profType: tool
+  - type: tool-choice
     options: true
-  - type: prof-choice
+  - type: weapon-choice
     profType: weapon
     options: true
 ---

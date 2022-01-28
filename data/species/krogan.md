@@ -1,13 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: con
-  - amount: 1
-    ability: str
-speed:
-  - type: walk
-    speed: 30
-    color: Your speed is not reduced by wearing armor.
 bodyImg: >-
   http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500
 img: >-

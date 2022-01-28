@@ -47,8 +47,15 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Ambushing Hunter Mode",
+        "moreInfo": {
+          "model": "feats",
+          "id": "ambushing-hunter-mode"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "ambushing-hunter-mode"
+        },
         "damage": [
           {
             "dieCount": "proficiency",
@@ -78,8 +85,15 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Assault Hunter Mode",
+        "moreInfo": {
+          "model": "feats",
+          "id": "assault-hunter-mode"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "assault-hunter-mode"
+        },
         "shortDesc": "For 1 minute, speed increases by <me-distance length=\"2\" />, +1 to weapon attack rolls, +1 attack w/ Attack action."
       }
     ],
@@ -142,8 +156,15 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Biotic Unconscious",
+        "moreInfo": {
+          "model": "feats",
+          "id": "biotic-unconscious"
+        },
         "type": "reaction",
-        "resource": {},
+        "resource": {
+          "id": "biotic-unconscious"
+        },
         "shortDesc": "when you cast one of your innate biotics powers, it does not require your concentration"
       }
     ],
@@ -207,10 +228,20 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Constrictor Build",
+        "moreInfo": {
+          "model": "feats",
+          "id": "constrictor-build"
+        },
         "type": "reaction",
         "shortDesc": "Use your attack of opportunity to attempt a grapple"
       },
       {
+        "name": "Constrictor Build",
+        "moreInfo": {
+          "model": "feats",
+          "id": "constrictor-build"
+        },
         "type": "reaction",
         "shortDesc": "Force a creature grappled by you to reroll a successful grapple escape"
       }
@@ -251,6 +282,11 @@
         ]
       },
       {
+        "name": "Cranial Bruiser",
+        "moreInfo": {
+          "model": "feats",
+          "id": "cranial-bruiser"
+        },
         "type": "bonus-action",
         "shortDesc": "When you take the Dash action on your turn, you can make one unarmed strike with your thick frontal plate."
       }
@@ -276,9 +312,15 @@
         "options": true
       },
       {
+        "name": "Determination",
+        "moreInfo": {
+          "model": "feats",
+          "id": "determination"
+        },
         "type": "other",
         "resource": {
-          "reset": "short"
+          "reset": "short",
+          "id": "determination"
         },
         "shortDesc": "Gain advantage on an attack roll, ability check, or saving throw"
       }
@@ -366,9 +408,15 @@
         "amount": 1
       },
       {
+        "name": "Electrogenesis Infusion",
+        "moreInfo": {
+          "model": "feats",
+          "id": "electrogenesis-infusion"
+        },
         "type": "bonus-action",
         "resource": {
-          "shared": "trait-electrogenesis"
+          "shared": "trait-electrogenesis",
+          "id": "electrogenesis-infusion"
         },
         "shortDesc": "Choose a weapon and roll a d6, then lose that much hp. For 1 minute, chosen weapon deals additional 1d6 lightning."
       },
@@ -409,8 +457,15 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Empowered Hunter Mode",
+        "moreInfo": {
+          "model": "feats",
+          "id": "empowered-hunter-mode"
+        },
         "type": "action",
-        "resource": {},
+        "resource": {
+          "id": "empowered-hunter-mode"
+        },
         "shortDesc": "For 1 minute, +1 to power attack rolls and power DCs. Increase power damage by 1 die type."
       }
     ],
@@ -455,10 +510,16 @@
         }
       },
       {
+        "name": "Fake It 'til You Make It",
+        "moreInfo": {
+          "model": "feats",
+          "id": "fake-it-til-you-make-it"
+        },
         "type": "other",
         "shortDesc": "When you fail an ability check or saving throw or miss with an attack roll, spent a hit dice to add a d4 to the roll.",
         "resource": {
-          "reset": "short"
+          "reset": "short",
+          "id": "fake-it-til-you-make-it"
         }
       }
     ],
@@ -571,12 +632,18 @@
         "distance": 40
       },
       {
+        "name": "Hovering",
+        "moreInfo": {
+          "model": "feats",
+          "id": "hovering"
+        },
         "type": "other",
         "resource": {
           "reset": "short",
           "max": {
             "type": "proficiency"
-          }
+          },
+          "id": "hovering"
         },
         "shortDesc": "If in the air, hover until the start of your next turn."
       }
@@ -630,8 +697,15 @@
         }
       },
       {
+        "name": "Improved Bio-Electric Ward",
+        "moreInfo": {
+          "model": "feats",
+          "id": "improved-bio-electric-ward"
+        },
         "type": "other",
-        "resource": {},
+        "resource": {
+          "id": "improved-bio-electric-ward"
+        },
         "shortDesc": "When you are reduced to 0 hit points by lightning or cold damage but not killed outright,  you can drop to 1 hit point instead."
       }
     ],
@@ -682,10 +756,14 @@
           "carnage",
           "close-quarters-shooter",
           "sniper"
-        ],
-        "selections": 1
+        ]
       },
       {
+        "name": "Living Turret",
+        "moreInfo": {
+          "model": "feats",
+          "id": "living-turret"
+        },
         "type": "other",
         "shortDesc": "Reduce movement speed to 0 to engage in two-weapon fighting with non-light weapons until the end of your turn."
       }
@@ -825,6 +903,11 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Poison Skin",
+        "moreInfo": {
+          "model": "feats",
+          "id": "poison-skin"
+        },
         "type": "bonus-action",
         "shortDesc": "Coat a weapon with your skin's poison. Creatures that suffer piercing or slashing damage take 1d4 damage and must succeed on a DC 13 saving throw or become poisoned for 1 hour."
       }
@@ -888,10 +971,20 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Quad-wielding",
+        "moreInfo": {
+          "model": "feats",
+          "id": "quad-wielding"
+        },
         "type": "bonus-action",
         "shortDesc": "When you engage with two-weapon fighting, you can simultaneously attack with a second ranged weapon that has not made an attack this turn."
       },
       {
+        "name": "Quad-wielding",
+        "moreInfo": {
+          "model": "feats",
+          "id": "quad-wielding"
+        },
         "type": "reaction",
         "shortDesc": "Make an attack with a ranged weapon that has not made an attack this turn."
       }
@@ -943,6 +1036,11 @@
         "amount": 1
       },
       {
+        "name": "Rending Maw",
+        "moreInfo": {
+          "model": "feats",
+          "id": "rending-maw"
+        },
         "type": "bonus-action",
         "shortDesc": "Make a Bite attack when you take the Dash action."
       },
@@ -1130,6 +1228,11 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Strength In Numbers",
+        "moreInfo": {
+          "model": "feats",
+          "id": "strength-in-numbers"
+        },
         "type": "other",
         "shortDesc": "Whenever you make a ranged weapon attack, you gain a bonus to the attack roll for each friendly creature within 4 meters of you (maximum bonus of +5)"
       }
@@ -1168,7 +1271,7 @@
               "base": 8,
               "proficient": true,
               "save": "con",
-              "textBonus": " + # swarms",
+              "note": " + # swarms",
               "type": "replace"
             }
           },
@@ -1197,11 +1300,17 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Supreme Agility",
+        "moreInfo": {
+          "model": "feats",
+          "id": "supreme-agility"
+        },
         "type": "reaction",
         "resource": {
           "max": {
             "type": "proficiency"
-          }
+          },
+          "id": "supreme-agility"
         },
         "shortDesc": "Whenever you succeed on a Dexterity saving throw and suffer half damage, you may use your reaction to take no damage instead."
       }
@@ -1234,21 +1343,33 @@
         }
       },
       {
+        "name": "Synthetic Healer",
+        "moreInfo": {
+          "model": "feats",
+          "id": "synthetic-healer"
+        },
         "type": "action",
         "resource": {
           "displayType": "counter",
           "reset": "off",
           "max": {
             "type": "omni-gel"
-          }
+          },
+          "id": "synthetic-healer"
         },
         "shortDesc": "Create 10 charges of epoxy"
       },
       {
+        "name": "Synthetic Healer",
+        "moreInfo": {
+          "model": "feats",
+          "id": "synthetic-healer"
+        },
         "type": "action",
         "resource": {
           "displayType": "counter",
-          "reset": "off"
+          "reset": "off",
+          "id": "synthetic-healer"
         },
         "shortDesc": "restore 1d6 + 4 hit points to a synthetic creature, plus additional hit points equal to its level"
       }
@@ -1321,6 +1442,11 @@
         "selections": 1
       },
       {
+        "name": "Turian Accuracy",
+        "moreInfo": {
+          "model": "feats",
+          "id": "turian-accuracy"
+        },
         "type": "other",
         "shortDesc": "Whenever you have advantage on an attack roll using Dexterity, Intelligence, or Wisdom, you can reroll one of the dice once."
       }
@@ -1350,6 +1476,11 @@
     "new": true,
     "mechanics": [
       {
+        "name": "Warlord's Bloodrage",
+        "moreInfo": {
+          "model": "feats",
+          "id": "warlords-blood-rage"
+        },
         "type": "bonus-action",
         "shortDesc": "While blood rage is active, move up to your speed toward an enemy."
       }

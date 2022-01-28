@@ -1,10 +1,8 @@
 ---
 species: [lifestage-maiden]
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
-  - type: prof-choice
-    profType: tool
+  - type: tool-choice
     options: true
 ---

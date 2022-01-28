@@ -46,30 +46,32 @@ Levels|Total Reputation
 11-17|51-99
 17+|100+
 
-:::alert
-#### A Complex Renegade and Paragon Example
-In Mass Effect 2, you are faced with the decision to save the genophage data (which might result in curing the genophage)
-or destroying it.
 
-Assume a player party of a neutral human, a lawful good salarian, and a chaotic evil krogan. The salarian thinks curing
-the genophage could result in the destruction of the galaxy; thus, the most logical and utilitarian decision would be to
-destroy it; he even threatens his own party at gunpoint. The krogan speaks emotionally about her difficult upbringing
-and the countless children she’s lost, and wants to save the data. The human listens intently and ultimately
-sides with one or the other.
-
-In this scenario, the outcome (saving or destroying the data) will represent the largest distribution of paragon or
-renegade points. Saving the data presents future possibilities (paragon) whereas destroying it is final (renegade).
-Thus, the GM may award 10 paragon or renegade points to the entire party. However, the GM can also award points
-based on the individual character's actions:
-- 2 renegade points to the salarian. Their actions may have appeared logical, but their emotional fear of krogan
-destruction and threatening their own party was extremely “renegade-esque”
-- 1 paragon point and 1 renegade point to the krogan, their actions were emotional but they used their words rather
-than drawing their weapon and trying to intimidate the salarian
-- 2 paragon points to the human for remaining calm and emotionless and listening to all sides
-
-The most important aspect of this new Reputation system is to give players more freedom with their actions
-outside of their chosen alignment. Thus, it is a reward for good role-playing rather than a
-resource one is meant to “grind.”
+>#### A Complex Renegade and Paragon Example
+>In Mass Effect 2, you are faced with the decision to save the genophage data (which might result in curing the genophage)
+>or destroying it.
+>
+>Assume a player party of a neutral human, a lawful good salarian, and a chaotic evil krogan. The salarian thinks curing
+>the genophage could result in the destruction of the galaxy; thus, the most logical and utilitarian decision would be to
+>destroy it; he even threatens his own party at gunpoint. The krogan speaks emotionally about her difficult upbringing
+>and the countless children she’s lost, and wants to save the data. The human listens intently and ultimately
+>sides with one or the other.
+><br>
+><br>
+>In this scenario, the outcome (saving or destroying the data) will represent the largest distribution of paragon or
+>renegade points. Saving the data presents future possibilities (paragon) whereas destroying it is final (renegade).
+>Thus, the GM may award 10 paragon or renegade points to the entire party. However, the GM can also award points
+>based on the individual character's actions:
+>- 2 renegade points to the salarian. Their actions may have appeared logical, but their emotional fear of krogan
+>destruction and threatening their own party was extremely “renegade-esque”
+>- 1 paragon point and 1 renegade point to the krogan, their actions were emotional but they used their words rather
+>than drawing their weapon and trying to intimidate the salarian
+>- 2 paragon points to the human for remaining calm and emotionless and listening to all sides
+>
+><br>
+>The most important aspect of this new Reputation system is to give players more freedom with their actions
+>outside of their chosen alignment. Thus, it is a reward for good role-playing rather than a
+>resource one is meant to “grind.”
 
 ### Benefits of Reputation
 
@@ -96,6 +98,6 @@ DC of a reputation benefit. The DC = __8 + your proficiency bonus + your Charism
 
 #### Benefits
 
-[List of ME5e Reputation Benefits](/benefits)
+[List of ME5e Reputation Benefits](/appendix/benefits)
 
 

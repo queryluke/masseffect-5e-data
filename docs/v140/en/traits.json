@@ -5,8 +5,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "limit": [
           "deception",
@@ -136,11 +135,29 @@
     "id": "addiction"
   },
   {
+    "name": "Advanced Medi-gel Application",
+    "species": [
+      "military-doctrine-field-medics"
+    ],
+    "mechanics": [
+      {
+        "type": "advanced-medigel-application"
+      }
+    ],
+    "html": "<p>Whenever you apply medi-gel to a creature the healing die type is a d6 instead of a d4.</p>\n",
+    "id": "advanced-medigel-application"
+  },
+  {
     "species": [
       "lystheni"
     ],
     "mechanics": [
       {
+        "name": "Aggressive",
+        "moreInfo": {
+          "model": "traits",
+          "id": "aggressive"
+        },
         "type": "bonus-action"
       }
     ],
@@ -186,9 +203,15 @@
     ],
     "mechanics": [
       {
+        "name": "Aspiration",
+        "moreInfo": {
+          "model": "traits",
+          "id": "aspiration"
+        },
         "type": "other",
         "resource": {
-          "reset": "short"
+          "reset": "short",
+          "id": "aspiration"
         },
         "shortDesc": "Whenever you make an attack roll, skill check, or saving throw you may roll a d4 and add it to the roll."
       }
@@ -236,13 +259,31 @@
     "id": "avatars-inspiration"
   },
   {
+    "name": "Battlefield Awareness",
+    "species": [
+      "military-doctrine-combat-officer"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "perception",
+          "insight"
+        ]
+      }
+    ],
+    "html": "<p>You gain proficiency in Perception or Insight skill (your choice).</p>\n",
+    "id": "battlefield-awareness"
+  },
+  {
     "species": [
       "angara"
     ],
     "mechanics": [
       {
         "type": "resistance",
-        "value": "lightening",
+        "value": "lightning",
         "note": "only applies to hit points"
       },
       {
@@ -270,6 +311,11 @@
     ],
     "mechanics": [
       {
+        "name": "Bite",
+        "moreInfo": {
+          "model": "traits",
+          "id": "bite"
+        },
         "type": "attack",
         "has": {
           "id": "bite-attack",
@@ -289,21 +335,34 @@
     "id": "bite"
   },
   {
+    "name": "Blind Rage",
     "species": [
-      "krogan"
+      "tankbred"
+    ],
+    "mechanics": [],
+    "html": "<p>Whenever you have less than half your hit points remaining and suffer damage to your hit points, you must succeed on a\nDC 15 Wisdom saving throw or enter a blind rage, immediately losing concentration on any powers you are maintaining.\nYou must also make the saving throw whenever you choose to enter your blood rage.</p>\n<p>While in a blind rage, you must use your action and any potential bonus actions or reactions each round to attack the\ncreature nearest to you. If you can make extra attacks as part of the Attack action, you use those extra attacks,\nmoving to attack the next nearest creature after you kill your current target. If you have multiple possible targets,\nyou attack one at random.</p>\n<p>You are in a blind range until you die, are incapacitated, or start your turn with no creatures within\n<me-distance length=\"60\" /> of you that you can see or hear.</p>\n",
+    "id": "blind-rage"
+  },
+  {
+    "name": "Blood Rage",
+    "species": [
+      "krogan",
+      "tankbred"
     ],
     "mechanics": [
       {
-        "type": "bonus",
-        "has": {
-          "id": "blood-rage",
-          "uses": 1,
-          "recharge": "long"
+        "name": "Blood Rage",
+        "moreInfo": {
+          "model": "traits",
+          "id": "blood-rage"
+        },
+        "type": "other",
+        "resource": {
+          "id": "blood-rage"
         }
       }
     ],
-    "name": "Blood Rage",
-    "html": "<p>When you kill an enemy, you can use a bonus action to enter a mindless blood rage. Blood rage lasts for 1 minute or\nuntil you end it as a bonus action. For the duration, you must move towards and attack an enemy on your turn and you\ncannot concentrate on powers. While in blood rage, you are immune to being charmed or frightened and you gain temporary\nhit points equal to your Constitution modifier at the start of each of your turns. When blood rage ends, you lose any\nremaining temporary hit points from blood rage.</p>\n<p>You must finish a long rest before you can enter blood rage again.</p>\n",
+    "html": "<p>When you are reduced to 0 hit points but not killed outright, you can choose to not fall unconscious and enter a\nblood rage instead. When you enter your blood rage, you lose concentration on any powers you are maintaining.</p>\n<p>The blood rage lasts for 1 minute. It ends early if you regain hit points or if your turn ends and\nyou haven’t attacked a hostile creature since your last turn or taken damage since then.</p>\n<p>For the duration, you are immune to being charmed or frightened and the only Action you may take is\neither Attack or Dash. You continue to make death saving throws as normal and damage causes death saving throw\nfailures. However, no amount of success or failures cause you to stabilize or die until blood rage ends.\nAdditionally, when you would receive a death saving throw success you may, instead, remove a death saving throw\nfailure, or vice versa.</p>\n<p>When blood rage ends, if you have four or more death saving throw failures, you die. Otherwise,\nyou fall unconscious.</p>\n<p>Once you use this feature, you can’t use it again until you finish a long rest.</p>\n",
     "id": "blood-rage"
   },
   {
@@ -312,13 +371,38 @@
     ],
     "mechanics": [
       {
+        "name": "Body and Soul",
+        "moreInfo": {
+          "model": "traits",
+          "id": "body-and-soul"
+        },
         "type": "other",
-        "resource": {}
+        "resource": {
+          "id": "body-and-soul"
+        }
       }
     ],
     "name": "Body and Soul",
     "html": "<p>If you spend 10 minutes in prayer, you can mental focus your body and soul into a true Whole. The next time you are\nreduced to 0 hit points but not killed outright, you gain advantage on all death saving throws until you are\nstabilized or regain hit points, at which point you cannot benefit from this feature again until you finish a long rest.</p>\n",
     "id": "body-and-soul"
+  },
+  {
+    "name": "Bomb Defusal",
+    "species": [
+      "military-doctrine-demolitions"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "limit": [
+          "electronics"
+        ],
+        "effect": "advantage",
+        "note": "to disarm explosive devices (ex. mines)"
+      }
+    ],
+    "html": "<p>You have advantage on Intelligence (Electronics) checks to disarm mines and other explosive devices.</p>\n",
+    "id": "bomb-defusal"
   },
   {
     "species": [
@@ -327,9 +411,15 @@
     ],
     "mechanics": [
       {
+        "name": "Burst of Speed",
+        "moreInfo": {
+          "model": "traits",
+          "id": "burst-of-speed"
+        },
         "type": "other",
         "resource": {
-          "reset": "manual"
+          "reset": "manual",
+          "id": "burst-of-speed"
         }
       }
     ],
@@ -411,6 +501,22 @@
     "id": "composite-plating"
   },
   {
+    "name": "Constant Patrol",
+    "species": [
+      "military-doctrine-recon"
+    ],
+    "mechanics": [
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "proficiency"
+        }
+      }
+    ],
+    "html": "<p>Constantly monitoring battlefields has made you keenly aware of when combat is about to break out. You can add your\nproficiency bonus to your initiative rolls.</p>\n",
+    "id": "constant-patrol"
+  },
+  {
     "species": [
       "hanar"
     ],
@@ -468,7 +574,9 @@
       {
         "type": "power",
         "powerId": "dominate",
-        "resource": {},
+        "resource": {
+          "id": "dominate"
+        },
         "mod": "wis"
       }
     ],
@@ -491,6 +599,11 @@
     ],
     "mechanics": [
       {
+        "name": "Electrogenesis",
+        "moreInfo": {
+          "model": "traits",
+          "id": "electrogenesis"
+        },
         "type": "reaction",
         "resource": {
           "displayType": "checkbox",
@@ -498,7 +611,8 @@
           "max": {
             "type": "mod",
             "value": "con"
-          }
+          },
+          "id": "electrogenesis"
         },
         "damage": [
           {
@@ -513,6 +627,11 @@
         "shortDesc": "* - when you are hit by a melee weapon attack by a creature you can see"
       },
       {
+        "name": "Electrogenesis",
+        "moreInfo": {
+          "model": "traits",
+          "id": "electrogenesis"
+        },
         "type": "action",
         "range": {
           "short": 1
@@ -523,7 +642,8 @@
           "max": {
             "type": "mod",
             "value": "con"
-          }
+          },
+          "id": "electrogenesis"
         },
         "shortDesc": "Stabilize one creature or end the stunned condition on one creature"
       }
@@ -533,22 +653,91 @@
     "id": "electrogenesis"
   },
   {
+    "name": "Engineering Knowledge",
     "species": [
-      "turian"
+      "military-doctrine-engineering-corps"
+    ],
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "armorsmiths-workbench",
+          "tailors-tools",
+          "tinkers-tools",
+          "weaponsmiths-workbench"
+        ],
+        "options": true,
+        "selections": 1
+      },
+      {
+        "type": "skill-choice",
+        "profType": "skill",
+        "limit": [
+          "electronics",
+          "engineering",
+          "investigation",
+          "science"
+        ],
+        "options": true,
+        "selections": 1
+      },
+      {
+        "type": "expertise-choice",
+        "profType": "skill",
+        "limit": [
+          "electronics",
+          "engineering",
+          "investigation",
+          "science"
+        ],
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "html": "<p>You gain proficiency in one tool of your choice from the following: Amorsmith’s Workbench, Tailor’s Tools, Tinker’s\nTools, or Weaponsmith’s Workbench.</p>\n<p>Additionally, you gain proficiency in one skill and expertise in another skill from the following: Electronics,\nEngineering, Investigation, or Science.</p>\n",
+    "id": "engineering-knowledge"
+  },
+  {
+    "name": "Esprit de Boom",
+    "species": [
+      "military-doctrine-demolitions"
     ],
     "mechanics": [],
+    "html": "<p>Whenever a creature suffers damage from a grenade or mine, you have advantage on the next attack roll you make\nagainst the creature until the end of your next turn.</p>\n",
+    "id": "esprit-de-boom"
+  },
+  {
     "name": "Esprit De Corps",
+    "species": [
+      "military-doctrine-infantry"
+    ],
+    "mechanics": [],
     "html": "<p>Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within <me-distance length=\"5\" /> of the creature and the ally isn’t incapacitated.</p>\n",
     "id": "esprit-de-corps"
   },
   {
+    "name": "Exalted Lineage",
     "species": [
-      "krogan"
+      "kett"
     ],
-    "mechanics": [],
-    "name": "Extremophile",
-    "html": "<p>Your body is naturally acclimated to live in the harshest environments. You have advantage on Constitution saving\nthrows to resist exhaustion due to environmental hazards such as extreme heat or cold. Additionally, you can go\ntwice as long without food or water before you suffer exhaustion.</p>\n",
-    "id": "extremophile"
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "species",
+        "append": {
+          "limit": [
+            "skill",
+            "skill-choice",
+            "asi",
+            "asi-choice",
+            "speed"
+          ]
+        }
+      }
+    ],
+    "html": "<p>You are an exalted version of another species. Pick an organic specie (or synthetic at you\nGM's discretion) species and gain the following elements from it: any ability score increases, any skill\nproficiencies, and any climbing, flying, or swimming speed.</p>\n<p>If you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.</p>\n",
+    "id": "exalted-lineage"
   },
   {
     "species": [
@@ -556,6 +745,11 @@
     ],
     "mechanics": [
       {
+        "name": "Eye Canon",
+        "moreInfo": {
+          "model": "traits",
+          "id": "eye-canon"
+        },
         "type": "attack",
         "range": {
           "short": 90
@@ -581,12 +775,14 @@
   {
     "species": [
       "human-variant",
-      "prothean-no-avatar"
+      "prothean-no-avatar",
+      "turian-non-hierarchy"
     ],
     "mechanics": [
       {
-        "type": "feat-choice",
-        "options": true
+        "type": "model-choice",
+        "options": true,
+        "model": "feat"
       }
     ],
     "name": "Feat",
@@ -604,6 +800,11 @@
         "value": "perception"
       },
       {
+        "name": "Four Eyes",
+        "moreInfo": {
+          "model": "traits",
+          "id": "four-eyes"
+        },
         "type": "bonus-action",
         "shortDesc": "You make Search as a bonus action"
       }
@@ -642,13 +843,19 @@
         "note": "immune to disease while within your hermetic suit"
       },
       {
+        "name": "Hermetic Suit",
+        "moreInfo": {
+          "model": "traits",
+          "id": "hermetic-suit"
+        },
         "type": "action",
         "resource": {
           "displayType": "counter",
           "reset": "off",
           "max": {
             "type": "omni-gel"
-          }
+          },
+          "id": "hermetic-suit"
         }
       },
       {
@@ -697,6 +904,15 @@
     "id": "hunger"
   },
   {
+    "name": "Imprinted Enemies",
+    "species": [
+      "tankbred"
+    ],
+    "mechanics": [],
+    "html": "<p>Your tank imprints have also imparted tactics and knowledge against specific species. Choose two species to be\nyour imprinted enemies.</p>\n<p>You have advantage on Intelligence checks to recall information about your imprinted enemies.</p>\n<p>The first time on each of your turns that you hit a creature of your imprinted enemies’ species with a weapon attack,\nyou can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type.</p>\n",
+    "id": "imprinted-enemies"
+  },
+  {
     "species": [
       "geth"
     ],
@@ -707,12 +923,17 @@
         "distance": 60
       },
       {
+        "name": "Infrared Vision",
+        "moreInfo": {
+          "model": "traits",
+          "id": "infrared-vision-60"
+        },
         "type": "bonus-action",
         "shortDesc": "Toggle your infrared-vision on or off."
       }
     ],
     "name": "Infrared Vision",
-    "html": "<p>Your optic sensors have built-in enhancements. As a bonus action on each of your turns, you can toggle your\ninfrared vision on or off. While on, your sight becomes a gradient map of the heat produced by your surroundings (hotter\nobjects appear brighter and cooler objects appear darker; you cannot discern color). Your can see in darkness\nand your sight is unaffected by lightly and heavily obscured areas within <me-distance length=\"60\" />. You can also\nsee hidden and invisible creatures within <me-distance length=\"60\" /> as long as a creature's body is a\nfew degrees cooler or warmer than its surroundings.</p>\n",
+    "html": "<p>Your optic sensors have built-in enhancements. As a bonus action on each of your turns, you can toggle your\ninfrared vision on or off.</p>\n<p>While on, your sight becomes a gradient map of the heat produced by your surroundings (hotter\nobjects appear brighter and cooler objects appear darker; you cannot discern color). You can see creatures and objects\nin darkness as well as creatures and objects hidden by technological means within <me-distance :length=\"60\" />,\nas long those elements are few degrees cooler or warmer than its surroundings.</p>\n",
     "id": "infrared-vision-60"
   },
   {
@@ -749,7 +970,8 @@
         },
         "mod": "wis",
         "resource": {
-          "displayType": "checkbox"
+          "displayType": "checkbox",
+          "id": "innate-biotics"
         }
       }
     ],
@@ -772,11 +994,17 @@
     ],
     "mechanics": [
       {
+        "name": "Jump-start Aura",
+        "moreInfo": {
+          "model": "traits",
+          "id": "jump-start-aura"
+        },
         "type": "action",
         "resource": {
           "max": {
             "type": "proficiency"
-          }
+          },
+          "id": "jump-start-aura"
         }
       }
     ],
@@ -822,6 +1050,34 @@
     "name": "Keen Olfactory Sensory",
     "html": "<p>You have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation)\nchecks that rely on smell.</p>\n",
     "id": "keen-olfactory-sensory"
+  },
+  {
+    "name": "Leadership",
+    "species": [
+      "military-doctrine-combat-officer"
+    ],
+    "mechanics": [
+      {
+        "name": "Leadership",
+        "moreInfo": {
+          "model": "traits",
+          "id": "leadership"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "mod",
+            "value": "cha",
+            "min": 1
+          },
+          "id": "leadership"
+        },
+        "shortDesc": "when another creature makes and attack roll or saving throw, add 1d4 to the roll"
+      }
+    ],
+    "html": "<p>Whenever a friendly creature you can see makes an attack roll or saving throw, you may use your reaction to issue a\nspecial warning or command. The creature can add a d4 to its roll, provided it can hear you.</p>\n<p>You can use this trait between short or long rests a number of times equal to your Charisma modifier (minimum once).</p>\n",
+    "id": "leadership"
   },
   {
     "species": [
@@ -882,38 +1138,6 @@
   },
   {
     "species": [
-      "turian"
-    ],
-    "mechanics": [
-      {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "athletics"
-        ]
-      },
-      {
-        "type": "profs",
-        "subType": "weapon",
-        "choices": {
-          "items": [
-            "assault_rifle",
-            "heavy_pistol",
-            "melee",
-            "shotgun",
-            "smg",
-            "sniper_rifle"
-          ],
-          "count": 1
-        }
-      }
-    ],
-    "name": "Martial Training",
-    "html": "<p>You are proficient in the Athletics skill and one additional weapon type (Assault Rifle, Heavy Pistol, Melee, Shotgun, SMG,\nor Sniper Rifle). The additional weapon type proficiency is not limited by your selected class.</p>\n",
-    "id": "martial-training"
-  },
-  {
-    "species": [
       "ay-disposition-growing-power"
     ],
     "mechanics": [
@@ -926,21 +1150,24 @@
     "id": "mating"
   },
   {
+    "name": "Medic's Knowledge",
     "species": [
-      "krogan"
+      "military-doctrine-field-medics"
     ],
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "intimidation"
-        ]
+        "type": "prof",
+        "profType": "tool",
+        "value": "medical-kit"
+      },
+      {
+        "type": "prof",
+        "profType": "skill",
+        "value": "medicine"
       }
     ],
-    "name": "Menacing",
-    "html": "<p>You gain proficiency in the Intimidation skill.</p>\n",
-    "id": "menacing"
+    "html": "<p>You gain proficiency with the Medial Kit and Medicine skill.</p>\n",
+    "id": "medics-knowledge"
   },
   {
     "species": [
@@ -966,13 +1193,19 @@
     ],
     "mechanics": [
       {
+        "name": "Mind Meld",
+        "moreInfo": {
+          "model": "traits",
+          "id": "mind-meld"
+        },
         "type": "action",
         "resource": {
           "displayType": "checkbox",
           "max": {
             "type": "mod",
             "value": "wis"
-          }
+          },
+          "id": "mind-meld"
         },
         "range": {
           "short": 5
@@ -1006,6 +1239,22 @@
     "id": "mind-shielding-unit"
   },
   {
+    "name": "Natural Armor",
+    "species": [
+      "krogan",
+      "tankbred"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 12,
+        "mod": "con"
+      }
+    ],
+    "html": "<p>When you aren’t wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to\ndetermine your AC if the armor you wear would leave you with a lower AC. A held shield’s benefits apply\nas normal while you use your natural armor.</p>\n",
+    "id": "natural-armor"
+  },
+  {
     "species": [
       "lifestage-matron"
     ],
@@ -1016,8 +1265,7 @@
         "value": "persuasion"
       },
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "limit": [
           "deception",
@@ -1040,8 +1288,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "limit": [
           "athletics",
@@ -1075,13 +1322,21 @@
     "id": "non-differentiated-cells"
   },
   {
+    "name": "Nutrient Hump",
+    "species": [
+      "krogan"
+    ],
+    "mechanics": [],
+    "html": "<p>Your large shoulder humps store fluids and nutrients, enabling you to survive extended periods without food or water.\nYou can go twice as long without food or water before you suffer exhaustion.</p>\n",
+    "id": "nutrient-hump"
+  },
+  {
     "species": [
       "cybernetic-augmentation-muscular"
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "limit": [
           "acrobatics",
@@ -1150,8 +1405,15 @@
     ],
     "mechanics": [
       {
+        "name": "Psychometry",
+        "moreInfo": {
+          "model": "traits",
+          "id": "psychometry"
+        },
         "type": "other",
-        "resource": {}
+        "resource": {
+          "id": "psychometry"
+        }
       }
     ],
     "name": "Psychometry",
@@ -1168,20 +1430,38 @@
     "id": "quadrupedal"
   },
   {
+    "name": "Recon Training",
+    "species": [
+      "military-doctrine-recon"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "limit": [
+          "perception",
+          "stealth",
+          "survival"
+        ],
+        "options": true
+      }
+    ],
+    "html": "<p>You gain proficiency in the Perception, Stealth, or Survival skill (your choice).</p>\n",
+    "id": "recon-training"
+  },
+  {
     "species": [
       "geth"
     ],
     "mechanics": [
       {
-        "type": "action",
-        "component": "expend-hit-dice"
+        "type": "repair-matrix"
       },
       {
         "type": "regain-all-hit-dice"
       }
     ],
     "name": "Repair Matrix",
-    "html": "<p>You have internal failsafes and repair protocols to assist with your longevity. You can expend one or more Hit Dice\nas an Action. Additionally, you regain all spent Hit Dice during a long rest, instead of the usual amount.</p>\n",
+    "html": "<p>You have internal failsafes and repair protocols to assist with your longevity. You can expend one or more Hit Dice\nas an Action.</p>\n<p>Additionally, you regain all spent Hit Dice during a long rest, instead of the usual amount.</p>\n",
     "id": "repair-matrix"
   },
   {
@@ -1190,13 +1470,11 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true
       },
       {
-        "type": "prof-choice",
-        "profType": "tool",
+        "type": "tool-choice",
         "options": true
       }
     ],
@@ -1210,8 +1488,15 @@
     ],
     "mechanics": [
       {
+        "name": "Revival Unit",
+        "moreInfo": {
+          "model": "traits",
+          "id": "revival-unit"
+        },
         "type": "other",
-        "resource": {},
+        "resource": {
+          "id": "revival-unit"
+        },
         "shortDesc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead."
       }
     ],
@@ -1225,9 +1510,15 @@
     ],
     "mechanics": [
       {
+        "name": "Saving Face",
+        "moreInfo": {
+          "model": "traits",
+          "id": "saving-face"
+        },
         "type": "other",
         "resource": {
-          "reset": "short"
+          "reset": "short",
+          "id": "saving-face"
         }
       }
     ],
@@ -1258,8 +1549,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "limit": [
           "electronics",
@@ -1280,12 +1570,23 @@
     ],
     "mechanics": [
       {
+        "name": "Seeker Swarm",
+        "moreInfo": {
+          "model": "traits",
+          "id": "seeker-swarm"
+        },
         "type": "action",
         "resource": {
-          "isolated": true
+          "isolated": true,
+          "id": "seeker-swarm"
         }
       },
       {
+        "name": "Seeker Swarm",
+        "moreInfo": {
+          "model": "traits",
+          "id": "seeker-swarm"
+        },
         "type": "bonus-action",
         "resource": {
           "displayType": "counter",
@@ -1294,7 +1595,8 @@
             "type": "flat",
             "value": 3
           },
-          "isolated": true
+          "isolated": true,
+          "id": "seeker-swarm"
         },
         "damage": [
           {
@@ -1334,8 +1636,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "limit": [
           "insight",
@@ -1354,11 +1655,10 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
+        "type": "expertise-choice",
         "profType": "skill",
         "options": true,
-        "selections": 1,
-        "expertise": true
+        "selections": 1
       }
     ],
     "name": "Skill Expertise",
@@ -1371,8 +1671,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "selections": 2
       }
@@ -1383,12 +1682,12 @@
   },
   {
     "species": [
-      "human-variant"
+      "human-variant",
+      "turian-non-hierarchy"
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "selections": 1
       }
@@ -1412,18 +1711,16 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "expertise": true
       },
       {
-        "type": "prof-choice",
-        "profType": "tool",
+        "type": "tool-choice",
         "options": true
       },
       {
-        "type": "prof-choice",
+        "type": "weapon-choice",
         "profType": "weapon",
         "options": true
       }
@@ -1509,11 +1806,38 @@
     "id": "synthetic-construct"
   },
   {
+    "name": "Tank Imprints",
+    "species": [
+      "tankbred"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true
+      },
+      {
+        "type": "weapon-choice",
+        "options": true
+      },
+      {
+        "type": "tool-choice",
+        "options": true
+      }
+    ],
+    "html": "<p>The tank has imparted knowledge into you via imprints. You gain proficiency with one weapon of your choice, one skill\nof your choice, and one tool of your choice.</p>\n",
+    "id": "tank-imprints"
+  },
+  {
     "species": [
       "hanar"
     ],
     "mechanics": [
       {
+        "name": "Tentacle Bind",
+        "moreInfo": {
+          "model": "traits",
+          "id": "tentacle-bind"
+        },
         "type": "bonus-action",
         "shortDesc": "Attack w/ three or more tentacles and hit, you may use your bonus action to attempt to grapple the target. +1 to Strength (Athletics) check for each tentacle used."
       }
@@ -1528,6 +1852,11 @@
     ],
     "mechanics": [
       {
+        "name": "Tentacles",
+        "moreInfo": {
+          "model": "traits",
+          "id": "tentacles"
+        },
         "type": "attack",
         "attack": {
           "proficient": true,
@@ -1556,6 +1885,39 @@
     "id": "tentacles"
   },
   {
+    "name": "Thick Frontal Plate",
+    "species": [
+      "krogan"
+    ],
+    "mechanics": [
+      {
+        "name": "Thick Frontal Plate",
+        "moreInfo": {
+          "model": "traits",
+          "id": "thick-frontal-plate"
+        },
+        "type": "attack",
+        "range": {
+          "short": 5
+        },
+        "attack": {
+          "proficient": true,
+          "mod": "str"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 6,
+            "mod": "con",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Your frontal plate is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal\nbludgeoning damage equal to 1d6 + your Constitution modifier, instead of the damage normal for an unarmed strike.</p>\n",
+    "id": "thick-frontal-plate"
+  },
+  {
     "species": [
       "elcor"
     ],
@@ -1572,15 +1934,14 @@
   },
   {
     "species": [
-      "turian"
+      "turian",
+      "turian-non-hierarchy"
     ],
     "mechanics": [
       {
-        "type": "defenses",
-        "subType": "resistance",
-        "has": {
-          "id": "radiant"
-        }
+        "type": "resistance",
+        "value": "radiant",
+        "note": "to your hit points"
       }
     ],
     "name": "Thulium Skin",
@@ -1593,8 +1954,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "tool",
+        "type": "tool-choice",
         "options": true,
         "selections": 1
       }
@@ -1605,7 +1965,9 @@
   },
   {
     "species": [
-      "cybernetic-augmentation-visceral"
+      "cybernetic-augmentation-visceral",
+      "krogan",
+      "tankbred"
     ],
     "mechanics": [
       {
@@ -1636,13 +1998,12 @@
     ],
     "mechanics": [
       {
-        "type": "prof-choice",
-        "profType": "skill",
+        "type": "skill-choice",
         "options": true,
         "selections": 2
       },
       {
-        "type": "prof-choice",
+        "type": "tool-choice",
         "profType": "tool",
         "options": true,
         "selections": 2
@@ -1654,6 +2015,21 @@
     "name": "Twice as Bright",
     "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n",
     "id": "twice-as-bright"
+  },
+  {
+    "name": "Weapon Training",
+    "species": [
+      "military-doctrine-infantry"
+    ],
+    "mechanics": [
+      {
+        "type": "weapon-choice",
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "html": "<p>You gain proficiency in one weapon type of your choice.</p>\n",
+    "id": "weapon-training"
   },
   {
     "species": [

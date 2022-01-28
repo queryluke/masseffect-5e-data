@@ -2,8 +2,7 @@
 species:
   - batarian
 mechanics:
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     options: true
     limit: [insight, intimidation]
     selections: 1
