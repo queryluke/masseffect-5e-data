@@ -1,5 +1,6 @@
 ---
-subspecies: ay-disposition
+type: subspecies
+species: ardat-yakshi
 mechanics:
   - type: asi
     ability: wis

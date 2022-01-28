@@ -26,7 +26,7 @@ randomDimensions:
         dieType: 20
         divisor: 2
 galaxy: milky_way
-type: lesser_known
+group: lesser_known
 mechanics:
   - type: asi
     amount: 2

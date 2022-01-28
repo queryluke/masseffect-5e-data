@@ -28,7 +28,8 @@ randomDimensions:
         dieType: 8
         divisor: 2
 galaxy: milky_way
-type: villainous
+group: villainous
+subspecies: mobile-platform
 mechanics:
   - type: asi
     amount: 2

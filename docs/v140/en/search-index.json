@@ -10872,6 +10872,90 @@
     "html": false
   },
   {
+    "id": "avatar-bravery",
+    "title": "Bravery",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-bravery",
+    "body": "\nYou have advantage on saving throws against being frightened.\nWhenever you hit a target with a weapon attack that is one size or more larger than you,  you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within 12 meters that can see you.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-humor",
+    "title": "Humor",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-humor",
+    "body": "\nYour Charisma score increases by 1.\nYou gain proficiency in either the Performance or Persuasion skill (your choice).\nYou may use your bonus action to end the charmed or frightened condition on any other creature\nthat can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-leadership",
+    "title": "Leadership",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-leadership",
+    "body": "\nYou may use your bonus action to target a creature within . Each other creature\nthat makes an attack roll against the target for the first time, gains Avatar’s Inspiration. Once you\nuse this ability, you can’t use it again until you roll initiative at the start of combat or until you\nfinish a short or long rest.\nCreatures can apply their Avatar’s Inspiration die gained from you to damage rolls.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-sacrifice",
+    "title": "Sacrifice",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-sacrifice",
+    "body": "When a creature you can see hits a target, other than you, within  of you with an attack,\nyou can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus\n(to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration.\n",
+    "html": false
+  },
+  {
+    "id": "avatar-strength",
+    "title": "Strength",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-strength",
+    "body": "\nYour Strength score increases by 1.\nYou count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nWhenever you succeed on a Strength saving throw, each friendly creature, except you, within \nthat can see you gains Avatar’s Inspiration.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-tranquility",
+    "title": "Tranquility",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-tranquility",
+    "body": "\nYou do not need to sleep. Instead, you can meditate deeply, remaining semiconscious,\nfor 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\nWhenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures,\nother than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you.\nThe inspiration lasts 1 hour instead of 10 minutes.\nCreatures can apply their Avatar’s Inspiration die gained from you to death saving throws.\n\n",
+    "html": false
+  },
+  {
+    "id": "avatar-vengeance",
+    "title": "Vengeance",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/avatar-vengeance",
+    "body": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you\nadvantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have\nadvantage until your next turn. The first time you hit a creature with a melee weapon attack roll using\nStrength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you,\nwithin  that can see you.\n",
+    "html": false
+  },
+  {
     "id": "awakened-collector",
     "title": "Awakened Collector",
     "type": "character",
@@ -10884,6 +10968,54 @@
     "html": false
   },
   {
+    "id": "ay-disposition-acceptace",
+    "title": "Acceptance",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/ay-disposition-acceptace",
+    "body": "You have accepted your fate and believe that infrequent mating is necessary to your survival.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-chaste",
+    "title": "Chaste",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/ay-disposition-chaste",
+    "body": "You understand the risks of your condition and make every attempt to avoid mating.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-embrace",
+    "title": "Embrace",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/ay-disposition-embrace",
+    "body": "Being diagnosed with the condition was a blessing, not a curse. You mate with as many beings as possible,\ngaining as much power as you possibly can.\n",
+    "html": false
+  },
+  {
+    "id": "ay-disposition-growing-power",
+    "title": "Variant: Growing Power",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/ay-disposition-growing-power",
+    "body": "GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gains the following instead.\n",
+    "html": false
+  },
+  {
     "id": "batarian",
     "title": "Batarian",
     "type": "character",
@@ -10893,6 +11025,54 @@
     ],
     "link": "/species/batarian",
     "body": "A species of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.\nThe Terminus Systems are infested with batarian pirate gangs and slaving\nrings, fueling the stereotype of the batarian thug. It should be noted that these criminals do not represent average\ncitizens, who are forbidden to leave batarian space by their ubiquitous and paranoid government.\nCaste Through Credits\nBatarians place an extremely high value on social caste and appearance, and overstepping one's place is frowned upon.\nEffective caste status can be bought on an ongoing basis like a subscription service, allowing the buyer to worm their\nway into the elite circles of batarian society given enough funds. Casting aspersions on the monetary worth of a\nsocial better is considered a serious insult. Batarians strongly believe that species with fewer than four eyes are\nless intelligent; they often gain the upper hand in interspecies arguments because other species find it difficult\nto know which eyes to focus on when speaking to them.\nThe Hegemony\nTheir government, known as the Batarian Hegemony, is hostile to the Systems Alliance (human government), but beneath\nthe notice of the powerful Council species. Humans receive the brunt of batarians' antagonism in the form of scams, slave raids,\nand terrorist attacks, incidents which the Hegemony covertly supports but is always quick to publicly distance itself from.\nGiven the batarian government's oppressive nature, it is speculated their\nsupreme leadership is autocratic or totalitarian in nature, although the batarian homeworld of Khar'shan remains\ndivided into various competing nation-states.\nBatarian Names\nLike humans, batarian names consist of a given name and family name.\nMale Names: Afothor, Carn, Dhapo, Drathar, Ecray, Eporn, Irorok, Khamak, Okorem, Prathan, Sato, Sonk, Uderlak\nFemale Names: Apenine, Adrechia, Banim, Della, Erakis, Famisa, Fophe, Igosin, Iraphi, Kranine, Krathe, Okhefin, Pravile, Ramye\nFamily Names: Can'dabar, Das'codah, Dhen'gess, Dran'fapos, Ghapsacan, Gronnopos, Kasbovran, Khognalak, Krak'gork, Pec'bawen, Sanrowar\n\n",
+    "html": false
+  },
+  {
+    "id": "cybernetic-augmentation-cerebral",
+    "title": "Cerebral",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/cybernetic-augmentation-cerebral",
+    "body": "Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.\n",
+    "html": false
+  },
+  {
+    "id": "cybernetic-augmentation-muscular",
+    "title": "Muscular",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/cybernetic-augmentation-muscular",
+    "body": "Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.\n",
+    "html": false
+  },
+  {
+    "id": "cybernetic-augmentation-ocular",
+    "title": "Ocular",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/cybernetic-augmentation-ocular",
+    "body": "Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.\n",
+    "html": false
+  },
+  {
+    "id": "cybernetic-augmentation-visceral",
+    "title": "Visceral",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/cybernetic-augmentation-visceral",
+    "body": "Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.\n",
     "html": false
   },
   {
@@ -10992,6 +11172,42 @@
     "html": false
   },
   {
+    "id": "lifestage-maiden",
+    "title": "Maiden",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/lifestage-maiden",
+    "body": "The Maiden stage begins at puberty and is marked by the drive to explore and experience. Most young asari\nare curious and restless, and it is not uncommon for many to try their hand at dancing in bars or\nworking as mercenaries during this time.\n",
+    "html": false
+  },
+  {
+    "id": "lifestage-matriarch",
+    "title": "Matriarch",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/lifestage-matriarch",
+    "body": "The Matriarch stage begins around 700 years of age, or earlier if the individual melds rarely. Matriarchs become\nactive in their community as sages and councilors, dispensing wisdom from centuries of experience. Their knowledge\nand guidance may be one reason why Matriarchs are rarely seen outside asari space.\n",
+    "html": false
+  },
+  {
+    "id": "lifestage-matron",
+    "title": "Matron",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/lifestage-matron",
+    "body": "The Matron stage of life begins around the age of 350, though it can be triggered earlier if the individual melds\nfrequently. This period is marked by a desire to settle in one area and raise children.\n",
+    "html": false
+  },
+  {
     "id": "lystheni",
     "title": "Lystheni",
     "type": "character",
@@ -11001,6 +11217,114 @@
     ],
     "link": "/species/lystheni",
     "body": "The Lystheni are an &quot;offshoot&quot; of the salarians, unwelcome in Council space. They may be found living among batarians,\nexiled quarians, and other galactic refuse at the Omega station. Little is known about Lystheni other than they are\nconsiderably stronger, durable, and live longer lives. There are rumors on the extranet that their genes have\nbeen spliced with Krogan DNA, though there is no evidence to support the claim.\nIf you choose to play a Lystheni, replace the Ability Score Increase, High-Speed Metabolism, and Twice as Bright\nwith the following.\n",
+    "html": false
+  },
+  {
+    "id": "military-doctrine-combat-officer",
+    "title": "Combat Officer",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/military-doctrine-combat-officer",
+    "body": "Combat officers are typically infantry who have served long enough to become officers and/or bright, young turians\nthat have an aptitude for leadership. In addition to their military training, they also serve in a variety of\nadministrative roles.\n",
+    "html": false
+  },
+  {
+    "id": "military-doctrine-demolitions",
+    "title": "Demolitions",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/military-doctrine-demolitions",
+    "body": "Demolitions experts focus on both the combative application of explosive but also can support in construction, mining,\nand colonization efforts.\n",
+    "html": false
+  },
+  {
+    "id": "military-doctrine-engineering-corps",
+    "title": "Engineering Corps",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/military-doctrine-engineering-corps",
+    "body": "The engineering corps is responsible for building and maintaining the majority of the Hierarchy’s infrastructure,\nincluding spaceports, schools, water purification plants, and power stations.\n",
+    "html": false
+  },
+  {
+    "id": "military-doctrine-field-medics",
+    "title": "Field Medics",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/military-doctrine-field-medics",
+    "body": "Field medics serve in public health services, including hospitals, rehabilitation centers, alien disease control, and\npreventative care. Due to their dextro-protein based biology, this corps heavily monitors imported alien perishables\nto avoid fatal allergenic outbreaks.\n",
+    "html": false
+  },
+  {
+    "id": "military-doctrine-infantry",
+    "title": "Infantry",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/military-doctrine-infantry",
+    "body": "The infantry serve as the civic police and make up the majority of the turian army. They train as soldiers\nand focus on the success of the mission, resolving any combative conflict as swiftly as possible.\n",
+    "html": false
+  },
+  {
+    "id": "military-doctrine-recon",
+    "title": "Recon",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/military-doctrine-recon",
+    "body": "The recon teams are divided into three categories. Field recon focuses on mapping terrain and advantageous positioning.\nForce recon specializes in gaining knowledge about enemy strength and threats. Special Operations recon is tasked\nwith bespoke intelligence missions and are generally deployed behind enemy lines.\n",
+    "html": false
+  },
+  {
+    "id": "mobile-platform-hopper",
+    "title": "Hopper",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/mobile-platform-hopper",
+    "body": "Hoppers are a specialized geth platform, used primarily for stealth attacks, cyberwarfare and sabotage.\n",
+    "html": false
+  },
+  {
+    "id": "mobile-platform-juggernaut",
+    "title": "Juggernaut",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/mobile-platform-juggernaut",
+    "body": "Juggernauts tower above the ground and are an intimidating presence on the battlefield. Their size, strength, and armor\nmake them ideal for taking weapon fire, but they are slower than other mobile platforms.\n",
+    "html": false
+  },
+  {
+    "id": "mobile-platform-trooper",
+    "title": "Trooper",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/mobile-platform-trooper",
+    "body": "Geth Troopers are the most common type of mobile platform, using a standard platform design with\nspecialized AI.\n",
     "html": false
   },
   {
@@ -11109,330 +11433,6 @@
     ],
     "link": "/species/vorcha",
     "body": "The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.\nNon-differentiated cells\nThe vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.\nClan Violence\nVorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien species. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.\nVorcha Names\nLike their lifespans, vorcha names are brutal and short.\nMale names: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,\nFemale names: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath\n\n",
-    "html": false
-  },
-  {
-    "id": "avatar-bravery",
-    "title": "Bravery",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-bravery",
-    "body": "\nYou have advantage on saving throws against being frightened.\nWhenever you hit a target with a weapon attack that is one size or more larger than you,  you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within 12 meters that can see you.\n\n",
-    "html": false
-  },
-  {
-    "id": "avatar-humor",
-    "title": "Humor",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-humor",
-    "body": "\nYour Charisma score increases by 1.\nYou gain proficiency in either the Performance or Persuasion skill (your choice).\nYou may use your bonus action to end the charmed or frightened condition on any other creature\nthat can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration.\n\n",
-    "html": false
-  },
-  {
-    "id": "avatar-leadership",
-    "title": "Leadership",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-leadership",
-    "body": "\nYou may use your bonus action to target a creature within . Each other creature\nthat makes an attack roll against the target for the first time, gains Avatar’s Inspiration. Once you\nuse this ability, you can’t use it again until you roll initiative at the start of combat or until you\nfinish a short or long rest.\nCreatures can apply their Avatar’s Inspiration die gained from you to damage rolls.\n\n",
-    "html": false
-  },
-  {
-    "id": "avatar-sacrifice",
-    "title": "Sacrifice",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-sacrifice",
-    "body": "When a creature you can see hits a target, other than you, within  of you with an attack,\nyou can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus\n(to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration.\n",
-    "html": false
-  },
-  {
-    "id": "avatar-strength",
-    "title": "Strength",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-strength",
-    "body": "\nYour Strength score increases by 1.\nYou count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nWhenever you succeed on a Strength saving throw, each friendly creature, except you, within \nthat can see you gains Avatar’s Inspiration.\n\n",
-    "html": false
-  },
-  {
-    "id": "avatar-tranquility",
-    "title": "Tranquility",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-tranquility",
-    "body": "\nYou do not need to sleep. Instead, you can meditate deeply, remaining semiconscious,\nfor 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\nWhenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures,\nother than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you.\nThe inspiration lasts 1 hour instead of 10 minutes.\nCreatures can apply their Avatar’s Inspiration die gained from you to death saving throws.\n\n",
-    "html": false
-  },
-  {
-    "id": "avatar-vengeance",
-    "title": "Vengeance",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/avatar-vengeance",
-    "body": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you\nadvantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have\nadvantage until your next turn. The first time you hit a creature with a melee weapon attack roll using\nStrength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you,\nwithin  that can see you.\n",
-    "html": false
-  },
-  {
-    "id": "ay-disposition-acceptace",
-    "title": "Acceptance",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/ay-disposition-acceptace",
-    "body": "You have accepted your fate and believe that infrequent mating is necessary to your survival.\n",
-    "html": false
-  },
-  {
-    "id": "ay-disposition-chaste",
-    "title": "Chaste",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/ay-disposition-chaste",
-    "body": "You understand the risks of your condition and make every attempt to avoid mating.\n",
-    "html": false
-  },
-  {
-    "id": "ay-disposition-embrace",
-    "title": "Embrace",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/ay-disposition-embrace",
-    "body": "Being diagnosed with the condition was a blessing, not a curse. You mate with as many beings as possible,\ngaining as much power as you possibly can.\n",
-    "html": false
-  },
-  {
-    "id": "ay-disposition-growing-power",
-    "title": "Variant: Growing Power",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/ay-disposition-growing-power",
-    "body": "GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gains the following instead.\n",
-    "html": false
-  },
-  {
-    "id": "cybernetic-augmentation-cerebral",
-    "title": "Cerebral",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/cybernetic-augmentation-cerebral",
-    "body": "Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.\n",
-    "html": false
-  },
-  {
-    "id": "cybernetic-augmentation-muscular",
-    "title": "Muscular",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/cybernetic-augmentation-muscular",
-    "body": "Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.\n",
-    "html": false
-  },
-  {
-    "id": "cybernetic-augmentation-ocular",
-    "title": "Ocular",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/cybernetic-augmentation-ocular",
-    "body": "Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.\n",
-    "html": false
-  },
-  {
-    "id": "cybernetic-augmentation-visceral",
-    "title": "Visceral",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/cybernetic-augmentation-visceral",
-    "body": "Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.\n",
-    "html": false
-  },
-  {
-    "id": "lifestage-maiden",
-    "title": "Maiden",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/lifestage-maiden",
-    "body": "The Maiden stage begins at puberty and is marked by the drive to explore and experience. Most young asari\nare curious and restless, and it is not uncommon for many to try their hand at dancing in bars or\nworking as mercenaries during this time.\n",
-    "html": false
-  },
-  {
-    "id": "lifestage-matriarch",
-    "title": "Matriarch",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/lifestage-matriarch",
-    "body": "The Matriarch stage begins around 700 years of age, or earlier if the individual melds rarely. Matriarchs become\nactive in their community as sages and councilors, dispensing wisdom from centuries of experience. Their knowledge\nand guidance may be one reason why Matriarchs are rarely seen outside asari space.\n",
-    "html": false
-  },
-  {
-    "id": "lifestage-matron",
-    "title": "Matron",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/lifestage-matron",
-    "body": "The Matron stage of life begins around the age of 350, though it can be triggered earlier if the individual melds\nfrequently. This period is marked by a desire to settle in one area and raise children.\n",
-    "html": false
-  },
-  {
-    "id": "military-doctrine-combat-officer",
-    "title": "Combat Officer",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/military-doctrine-combat-officer",
-    "body": "Combat officers are typically infantry who have served long enough to become officers and/or bright, young turians\nthat have an aptitude for leadership. In addition to their military training, they also serve in a variety of\nadministrative roles.\n",
-    "html": false
-  },
-  {
-    "id": "military-doctrine-demolitions",
-    "title": "Demolitions",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/military-doctrine-demolitions",
-    "body": "Demolitions experts focus on both the combative application of explosive but also can support in construction, mining,\nand colonization efforts.\n",
-    "html": false
-  },
-  {
-    "id": "military-doctrine-engineering-corps",
-    "title": "Engineering Corps",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/military-doctrine-engineering-corps",
-    "body": "The engineering corps is responsible for building and maintaining the majority of the Hierarchy’s infrastructure,\nincluding spaceports, schools, water purification plants, and power stations.\n",
-    "html": false
-  },
-  {
-    "id": "military-doctrine-field-medics",
-    "title": "Field Medics",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/military-doctrine-field-medics",
-    "body": "Field medics serve in public health services, including hospitals, rehabilitation centers, alien disease control, and\npreventative care. Due to their dextro-protein based biology, this corps heavily monitors imported alien perishables\nto avoid fatal allergenic outbreaks.\n",
-    "html": false
-  },
-  {
-    "id": "military-doctrine-infantry",
-    "title": "Infantry",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/military-doctrine-infantry",
-    "body": "The infantry serve as the civic police and make up the majority of the turian army. They train as soldiers\nand focus on the success of the mission, resolving any combative conflict as swiftly as possible.\n",
-    "html": false
-  },
-  {
-    "id": "military-doctrine-recon",
-    "title": "Recon",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/military-doctrine-recon",
-    "body": "The recon teams are divided into three categories. Field recon focuses on mapping terrain and advantageous positioning.\nForce recon specializes in gaining knowledge about enemy strength and threats. Special Operations recon is tasked\nwith bespoke intelligence missions and are generally deployed behind enemy lines.\n",
-    "html": false
-  },
-  {
-    "id": "mobile-platform-hopper",
-    "title": "Hopper",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/mobile-platform-hopper",
-    "body": "Hoppers are a specialized geth platform, used primarily for stealth attacks, cyberwarfare and sabotage.\n",
-    "html": false
-  },
-  {
-    "id": "mobile-platform-juggernaut",
-    "title": "Juggernaut",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/mobile-platform-juggernaut",
-    "body": "Juggernauts tower above the ground and are an intimidating presence on the battlefield. Their size, strength, and armor\nmake them ideal for taking weapon fire, but they are slower than other mobile platforms.\n",
-    "html": false
-  },
-  {
-    "id": "mobile-platform-trooper",
-    "title": "Trooper",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/subspecies-options/mobile-platform-trooper",
-    "body": "Geth Troopers are the most common type of mobile platform, using a standard platform design with\nspecialized AI.\n",
     "html": false
   },
   {

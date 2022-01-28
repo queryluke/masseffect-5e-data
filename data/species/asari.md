@@ -28,7 +28,8 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: milky_way
-type: primary
+group: primary
+subspecies: lifestage
 mechanics:
   - type: asi
     amount: 1

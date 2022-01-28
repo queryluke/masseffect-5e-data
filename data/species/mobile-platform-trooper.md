@@ -1,10 +1,11 @@
 ---
-subspecies: mobile-platform
+type: subspecies
+species: geth
 mechanics:
   - type: asi
-    ability: str
+    ability: con
     amount: 1
   - type: speed
     speed: walk
-    distance: 25
+    distance: 30
 ---

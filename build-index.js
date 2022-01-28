@@ -6,7 +6,7 @@ function setType(dir) {
   const types = [
     {
       type: 'character',
-      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features', 'subspecies-options']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features']
     },
     {
       type: 'equipment',
@@ -32,7 +32,7 @@ function setPrimaryType(dir, messages) {
   const types = [
     {
       type: messages.character_title.split('|')[0].trim(),
-      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features', 'subspecies-options']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features']
     },
     {
       type: messages.equipment_title.split('|')[0].trim(),
@@ -100,7 +100,6 @@ const files = [
   'mods',
   'powers',
   'species',
-  'subspecies-options',
   'traits',
   'weapons',
   'weapon-properties'

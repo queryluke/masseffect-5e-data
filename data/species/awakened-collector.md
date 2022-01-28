@@ -27,7 +27,7 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: milky_way
-type: villainous
+group: villainous
 mechanics:
   - type: asi
     amount: 2

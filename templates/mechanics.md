@@ -91,10 +91,6 @@ mechanics:
     speed: enum [walk, fly, burrow, swim, climb]
     distance: integer
     note: string #note is optional.
-# Feats
-  - type: feat-choice
-    limit: enum [feats]
-    options: true
 # Fighting Styles
   - type: fighting-style
     value: enum [fighting-styles]
@@ -108,19 +104,6 @@ mechanics:
     note: string
 # Unique
   - type: regain-all-hit-dice
-# Powers
-  - type: power
-    powerId: string
-    resource: @resource
-    mod: enum [abilities]
-  - type: power-choice
-    options: true
-    limit:
-      type: enum [biotic, tech, combat]
-      level: enum [0, 1, 2, 3, 4]
-    resource: @resource
-    selections: integer # optional, default 1
-    mod: enum [abilities]
 # Attacks, Actions, Bonus Actions, and Reactions
   - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
@@ -172,13 +155,12 @@ mechanics:
   # unsure if this is achievable
   - type: model-choice
     options: true
+    label: string
     model: string
     limits:
-      - path: string
-        values: []
-    append:
-      limit: [mechanicTypes]
-      mechanics: []
+      - attr: string
+        value: []
+    append: any
 
 
 # Unique

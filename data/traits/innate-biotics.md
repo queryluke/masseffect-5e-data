@@ -2,21 +2,31 @@
 species:
   - asari
 mechanics:
-  - type: power-choice
+  - type: model-choice
     label: 'Choose two cantrips'
+    model: powers
     options: true
-    limit:
-      type: [biotic]
-      level: [0]
-    mod: wis
+    limits:
+      - attr: type
+        value: [biotic]
+      - attr: level
+        value: [0]
     selections: 2
-  - type: power-choice
+    hide: true
+    append:
+      mod: wis
+  - type: model-choice
     label: 'Choose one 1st level power'
+    model: powers
     options: true
-    limit:
-      type: [biotic]
-      level: [1]
-    mod: wis
-    resource:
-      displayType: checkbox
+    limits:
+      - attr: type
+        value: [biotic]
+      - attr: level
+        value: [1]
+    hide: true
+    append:
+      mod: wis
+      resource:
+        displayType: checkbox
 ---

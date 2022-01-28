@@ -1,5 +1,6 @@
 ---
-subspecies: avatar
+type: subspecies
+species: prothean
 mechanics:
   - type: reaction
     notes:

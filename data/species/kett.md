@@ -40,7 +40,7 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: milky_way
-type: andromeda
+group: andromeda
 mechanics:
   - type: speed
     speed: walk

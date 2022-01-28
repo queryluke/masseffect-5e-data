@@ -28,7 +28,7 @@ randomDimensions:
         dieType: 4
         divisor: 4
 galaxy: milky_way
-type: primary
+group: primary
 mechanics:
   - type: asi
     amount: 2

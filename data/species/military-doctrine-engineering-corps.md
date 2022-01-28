@@ -1,6 +1,7 @@
 ---
 name: Engineering Corps
-subspecies: military-doctrine
+type: subspecies
+species: turian
 mechanics:
   - type: asi
     ability: int

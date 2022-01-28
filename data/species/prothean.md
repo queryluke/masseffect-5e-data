@@ -27,7 +27,8 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: milky_way
-type: expanded
+group: expanded
+subspecies: avatar
 mechanics:
   - type: asi
     amount: 2

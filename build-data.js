@@ -64,7 +64,7 @@ const setLinkLocalePrefix = (lang = null) => {
   }
 }
 
-const ignore = ['messages']
+const ignore = ['messages', 'subspecies']
 const staticData = ['about.json']
 const staticMdData = ['guides-index.md', 'manual-index.md']
 const versionDir = `./docs/v${config.version.replace(/\./g,'')}`
@@ -124,6 +124,17 @@ for (const lang of langs) {
       if (dir === 'changelog') {
         item.date = new Date(item.date)
         item.url = `/changelog/${item.slug}`
+      }
+      if (dir === 'species') {
+        if (item.subspecies) {
+          const subspecies = fm(fs.readFileSync(`${dataPath}/subspecies/${item.subspecies}.md`, 'utf8'))
+          item.subspecies = {
+            name: subspecies.attributes.name,
+            html: md.render(subspecies.body)
+          }
+        } else {
+          item.subspecies = false
+        }
       }
       return item
     })

@@ -1,6 +1,7 @@
 ---
 name: Combat Officer
-subspecies: military-doctrine
+type: subspecies
+species: turian
 mechanics:
   - type: asi
     ability: cha

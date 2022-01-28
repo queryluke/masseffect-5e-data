@@ -1,6 +1,7 @@
 ---
 name: Field Medics
-subspecies: military-doctrine
+type: subspecies
+species: turian
 mechanics:
   - type: asi
     ability: wis

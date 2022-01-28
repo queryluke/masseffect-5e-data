@@ -1,5 +1,6 @@
 ---
-subspecies: mobile-platform
+type: subspecies
+species: geth
 mechanics:
   - type: asi
     ability: dex

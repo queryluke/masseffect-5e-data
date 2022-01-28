@@ -28,7 +28,8 @@ randomDimensions:
         dieType: 10
         divisor: 2
 galaxy: milky_way
-type: primary
+group: primary
+subspecies: military-doctrine
 mechanics:
   - type: asi
     amount: 1

@@ -38,7 +38,7 @@ randomDimensions:
         dieCount: 5
         dieType: 6
 galaxy: milky_way
-type: lesser_known
+group: lesser_known
 mechanics:
   - type: asi
     amount: 2

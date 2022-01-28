@@ -1,6 +1,7 @@
 ---
 name: Recon
-subspecies: military-doctrine
+type: subspecies
+species: turian
 mechanics:
   - type: asi
     ability: dex
