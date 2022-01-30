@@ -10,15 +10,26 @@
 
 # models
 
+# bonus types
+
+- type: progressive
+  limit: # klasses
+  value:
+    level: amount
+- type: level
+  value: klass || null
+  multiplier: float
+- type: progressionColumn
+  value:
+    klass: klasses
+    column: column id
+
 # resource (e.g., x per rest)
 resource:
   displayType: enum [heat, counter, checkbox] # default checkbox
   reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
-  max: # optional, default is flat, 1 per
-    type: enum [flat, mod, proficiency, omni-gel, hit-dice]
-    value: any [integer for flat, enum for mod, null for proficiency]
-    min: integer # optional, if there were ever a use case for min 2
+  max: @bonus
   increment: integer # default 1, for when a single click uses 2
   id: string # a uuid to track the resources. Allows for sharing resources
 
@@ -26,7 +37,8 @@ resource:
 bonus:
   type: enum [flat, mod, proficiency, level]
   value: integer, string, or null
-  multiplier: 1
+  multiplier: 1,
+  min: integer # default 0
 
 # any mechanic that needs a selection should have
 #   options: true
@@ -44,12 +56,10 @@ mechanics:
     total: integer # default 1
     max: integer #default 1, max 2
 # Proficiencies
-  - type: prof
-    profType: enum [skill, weapon, armor, saving_throw, tool]
+  - type: enum [skill, weapon, armor, saving_throw, tool]
     value: enum [types of that prof]
     expertise: boolean
-  - type: prof-choice
-    profType: enum [skill, weapon, armor, saving_throw, tool]
+  - type: # [prof]-choice
     options: true
     limit: [types] #optional array
     selections: integer

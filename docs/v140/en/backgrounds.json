@@ -3,121 +3,33 @@
     "startingCredits": 1500,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "insight",
-          "persuasion"
-        ]
+        "type": "skill",
+        "value": "insight"
       },
       {
-        "id": "artisan_tool",
-        "type": "picker",
-        "choices": {
-          "items": [
-            {
-              "id": "armorsmith",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "armorsmiths-workbench"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "brewer",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "brewers-supplies"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "chemist",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "chemists-supplies"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "cook",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "cooks-utensils"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "mechanic",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "choices": {
-                    "items": [
-                      "tinkers-tools",
-                      "starship-system-drive"
-                    ],
-                    "count": 1
-                  }
-                }
-              ]
-            },
-            {
-              "id": "painter",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "painters-supplies"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "tailor",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "tailors-tools"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "weaponsmith",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "weaponsmiths-workbench"
-                  ]
-                }
-              ]
-            }
-          ],
-          "count": 1
-        }
+        "type": "skill",
+        "value": "persuasion"
+      },
+      {
+        "type": "model-choice",
+        "model": "subgrounds",
+        "label": "Choose a trade",
+        "options": true,
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "armorsmith",
+              "brewer",
+              "chemist",
+              "cook",
+              "mechanic",
+              "painter",
+              "tailor",
+              "weaponsmith"
+            ]
+          }
+        ]
       }
     ],
     "name": "Artisan",
@@ -128,22 +40,19 @@
     "startingCredits": 5000,
     "mechanics": [
       {
-        "id": "bureaucrat-skill",
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "history"
-        ],
-        "choices": {
-          "items": [
-            "deception",
-            "investigation",
-            "insight",
-            "perception",
-            "persuasion"
-          ],
-          "count": 1
-        }
+        "type": "skill",
+        "value": "history"
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "deception",
+          "investigation",
+          "insight",
+          "perception",
+          "persuasion"
+        ]
       }
     ],
     "name": "Bureaucrat",
@@ -154,34 +63,27 @@
     "startingCredits": 500,
     "mechanics": [
       {
-        "id": "colonist-tool",
-        "type": "profs",
-        "subType": "tool",
-        "choices": {
-          "items": [
-            "artisan",
-            "medical-kit",
-            "tinkers-tools",
-            "vehicles"
-          ],
-          "count": 1
-        }
+        "type": "tool-choice",
+        "options": true,
+        "limit": [
+          "artisan",
+          "medical-kit",
+          "tinkers-tools",
+          "vehicles"
+        ]
       },
       {
-        "id": "colonist-skill",
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "survival"
-        ],
-        "choices": {
-          "items": [
-            "medicine",
-            "science",
-            "vehicle-handling"
-          ],
-          "count": 1
-        }
+        "type": "skill",
+        "value": "survival"
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "medicine",
+          "science",
+          "vehicle-handling"
+        ]
       }
     ],
     "name": "Colonist",
@@ -192,23 +94,18 @@
     "startingCredits": 1000,
     "mechanics": [
       {
-        "id": "crewman-tool",
-        "type": "profs",
-        "subType": "tool",
-        "choices": {
-          "items": [
-            "starship"
-          ],
-          "count": 2
-        }
+        "type": "tool-choice",
+        "options": true,
+        "limit": "starship",
+        "selections": 2
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "electronics",
-          "engineering"
-        ]
+        "type": "skill",
+        "value": "electronics"
+      },
+      {
+        "type": "skill",
+        "value": "engineering"
       }
     ],
     "name": "Crewman",
@@ -219,125 +116,33 @@
     "startingCredits": 1500,
     "mechanics": [
       {
-        "id": "criminal_specialty",
-        "type": "picker",
-        "choices": {
-          "items": [
-            {
-              "id": "assassin",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "acrobatics",
-                    "stealth"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "blackmailer",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "deception",
-                    "intimidation"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "fence",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "deception",
-                    "persuasion"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "gambler",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "deception",
-                    "sleight-of-hand"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "gang_member",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "intimidation",
-                    "stealth"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "pickpocket",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "sleight-of-hand",
-                    "stealth"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "smuggler",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "sleight-of-hand",
-                    "vehicle-handling"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "thief",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "skill",
-                  "has": [
-                    "perception",
-                    "stealth"
-                  ]
-                }
-              ]
-            }
-          ],
-          "count": 1
-        }
+        "type": "model-choice",
+        "model": "subgrounds",
+        "label": "Choose a criminal specialty",
+        "options": true,
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "assassin",
+              "blackmailer",
+              "fence",
+              "gambler",
+              "gang-member",
+              "pickpocket",
+              "smuggler",
+              "thief"
+            ]
+          }
+        ]
       },
       {
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "gaming-set",
-          "thieves-tools"
-        ]
+        "type": "tool",
+        "value": "gaming-set"
+      },
+      {
+        "type": "tool",
+        "value": "thieves-tools"
       }
     ],
     "name": "Criminal",
@@ -348,19 +153,16 @@
     "startingCredits": 3000,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "medical-kit"
-        ]
+        "type": "tool",
+        "value": "medical-kit"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "medicine",
-          "science"
-        ]
+        "type": "skill",
+        "value": "medicine"
+      },
+      {
+        "type": "skill",
+        "value": "science"
       }
     ],
     "name": "Doctor",
@@ -371,20 +173,20 @@
     "startingCredits": 2000,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "disguise-kit",
-          "musical-instrument"
-        ]
+        "type": "tool",
+        "value": "disguise-kit"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "acrobatics",
-          "performance"
-        ]
+        "type": "tool",
+        "value": "musical-instrument"
+      },
+      {
+        "type": "skill",
+        "value": "acrobatics"
+      },
+      {
+        "type": "skill",
+        "value": "performance"
       }
     ],
     "name": "Entertainer",
@@ -395,20 +197,20 @@
     "startingCredits": 5000,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "disguise-kit",
-          "musical-instrument"
-        ]
+        "type": "tool",
+        "value": "disguise-kit"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "insight",
-          "performance"
-        ]
+        "type": "tool",
+        "value": "musical-instrument"
+      },
+      {
+        "type": "skill",
+        "value": "insight"
+      },
+      {
+        "type": "skill",
+        "value": "performance"
       }
     ],
     "name": "Escort",
@@ -419,28 +221,25 @@
     "startingCredits": 5000,
     "mechanics": [
       {
-        "id": "experiment-skill",
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "tinkers-tools"
-        ],
-        "choices": {
-          "items": [
-            "medical-kit",
-            "disguise-kit",
-            "chemists-supplies"
-          ],
-          "count": 1
-        }
+        "type": "tool",
+        "value": "tinkers-tools"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "science",
-          "survival"
+        "type": "tool-choice",
+        "options": true,
+        "limit": [
+          "medical-kit",
+          "disguise-kit",
+          "chemists-supplies"
         ]
+      },
+      {
+        "type": "skill",
+        "value": "science"
+      },
+      {
+        "type": "skill",
+        "value": "survival"
       }
     ],
     "name": "Experiment",
@@ -451,34 +250,28 @@
     "startingCredits": 3000,
     "mechanics": [
       {
-        "id": "faction-agent-tool",
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "disguise-kit"
-        ],
-        "choices": {
-          "items": [
-            "thieves-tools",
-            "hacking-tools",
-            "starship"
-          ],
-          "count": 1
-        }
+        "type": "tool",
+        "value": "disguise-kit"
       },
       {
-        "id": "faction-agent-skill",
-        "type": "profs",
-        "subType": "skill",
-        "choices": {
-          "items": [
-            "deception",
-            "investigation",
-            "persuasion",
-            "stealth"
-          ],
-          "count": 2
-        }
+        "type": "tool-choice",
+        "options": true,
+        "limit": [
+          "thieves-tools",
+          "hacking-tools",
+          "starship"
+        ]
+      },
+      {
+        "type": "skill",
+        "options": true,
+        "limit": [
+          "deception",
+          "investigation",
+          "persuasion",
+          "stealth"
+        ],
+        "selections": 2
       }
     ],
     "name": "Faction Agent",
@@ -489,25 +282,22 @@
     "startingCredits": 2500,
     "mechanics": [
       {
-        "id": "pilot-tool",
-        "type": "profs",
-        "subType": "tool",
-        "choices": {
-          "items": [
-            "starship-system-helm",
-            "starship-system-navigation",
-            "vehicles"
-          ],
-          "count": 2
-        }
+        "type": "tool-choice",
+        "options": true,
+        "limit": [
+          "starship-system-helm",
+          "starship-system-navigation",
+          "vehicles"
+        ],
+        "selections": 2
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "perception",
-          "vehicle-handling"
-        ]
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "skill",
+        "value": "vehicle-handling"
       }
     ],
     "name": "Pilot",
@@ -518,128 +308,32 @@
     "startingCredits": 2000,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "medicine",
-          "science"
-        ]
+        "type": "skill",
+        "value": "medicine"
       },
       {
-        "id": "scholar_field_of_study",
-        "type": "picker",
-        "choices": {
-          "items": [
-            {
-              "id": "chemistry",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "choices": {
-                    "items": [
-                      "chemists-supplies",
-                      "brewers-supplies"
-                    ],
-                    "count": 1
-                  }
-                }
-              ]
-            },
-            {
-              "id": "astronomy",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "starship-system-navigation"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "engineering",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "tinkers-tools"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "physics",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "starship-system-drive"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "computer_science",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "starship-system-ews"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "biology",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "has": [
-                    "medical-kit"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "philosophy",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "items": [
-                    "musical-instrument",
-                    "gaming-set"
-                  ],
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "id": "general_studies",
-              "mechanics": [
-                {
-                  "type": "profs",
-                  "subType": "tool",
-                  "choices": {
-                    "items": [
-                      "brewers-supplies",
-                      "hacking-tools",
-                      "starship-system-ssc"
-                    ],
-                    "count": 1
-                  }
-                }
-              ]
-            }
-          ],
-          "count": 1
-        }
+        "type": "skill",
+        "value": "science"
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "subgrounds",
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "chemistry",
+              "astronomy",
+              "engineering",
+              "physics",
+              "computer-science",
+              "biology",
+              "philosophy",
+              "general-studies"
+            ]
+          }
+        ]
       }
     ],
     "name": "Scholar",
@@ -650,28 +344,25 @@
     "startingCredits": 500,
     "mechanics": [
       {
-        "id": "scrapper-tool",
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "tinkers-tools"
-        ],
-        "choices": {
-          "items": [
-            "starship-system-drive",
-            "starship-system-ssc",
-            "starship-system-weapons"
-          ],
-          "count": 1
-        }
+        "type": "tool",
+        "value": "tinkers-tools"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "engineering",
-          "survival"
+        "type": "tool-choice",
+        "options": true,
+        "limit": [
+          "starship-system-drive",
+          "starship-system-ssc",
+          "starship-system-weapons"
         ]
+      },
+      {
+        "type": "skill",
+        "value": "engineering"
+      },
+      {
+        "type": "skill",
+        "value": "survival"
       }
     ],
     "name": "Scrapper",
@@ -682,20 +373,20 @@
     "startingCredits": 1000,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "hacking-tools",
-          "starship-system-ews"
-        ]
+        "type": "tool",
+        "value": "hacking-tools"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "electronics",
-          "investigation"
-        ]
+        "type": "tool",
+        "value": "starship-system-ews"
+      },
+      {
+        "type": "skill",
+        "value": "electronics"
+      },
+      {
+        "type": "skill",
+        "value": "investigation"
       }
     ],
     "name": "SysOp",
@@ -706,20 +397,20 @@
     "startingCredits": 1000,
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "disguise-kit",
-          "thieves-tools"
-        ]
+        "type": "tool",
+        "value": "disguise-kit"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "sleight-of-hand",
-          "stealth"
-        ]
+        "type": "tool",
+        "value": "thieves-tools"
+      },
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
       }
     ],
     "name": "Urchin",
@@ -730,26 +421,23 @@
     "startingCredits": 1000,
     "mechanics": [
       {
-        "id": "veteran-tool",
-        "type": "profs",
-        "subType": "tool",
-        "has": [
-          "gaming-set"
-        ],
-        "choices": {
-          "items": [
-            "starship"
-          ],
-          "count": 1
-        }
+        "type": "tool",
+        "value": "gaming-set"
       },
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "athletics",
-          "perception"
+        "type": "tool-choice",
+        "options": true,
+        "limit": [
+          "starship"
         ]
+      },
+      {
+        "type": "skill",
+        "value": "athletics"
+      },
+      {
+        "type": "skill",
+        "value": "perception"
       }
     ],
     "name": "Veteran",

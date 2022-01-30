@@ -3,6 +3,9 @@ level: 3
 klass: soldier
 subclass: gladiator
 mechanics:
-  uses: 3
-  recharge: long
+  - type: bonus-action
+    resource:
+      max:
+        type: flat
+        value: 3
 ---

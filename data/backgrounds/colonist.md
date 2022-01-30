@@ -1,18 +1,12 @@
 ---
 startingCredits: 500
 mechanics:
-  - id: colonist-tool
-    type: profs
-    subType: tool
-    choices:
-      items: [artisan, medical-kit, tinkers-tools, vehicles]
-      count: 1
-  - id: colonist-skill
-    type: profs
-    subType: skill
-    has:
-      - survival
-    choices:
-      items: [medicine, science, vehicle-handling]
-      count: 1
+  - type: tool-choice
+    options: true
+    limit: [artisan, medical-kit, tinkers-tools, vehicles]
+  - type: skill
+    value: survival
+  - type: skill-choice
+    options: true
+    limit: [medicine, science, vehicle-handling]
 ---

@@ -2,6 +2,9 @@
 level: 1
 klass: sentinel
 mechanics:
-  uses: 2
-  recharge: long
+  - type: bonus-action
+    resource:
+      max:
+        type: flat
+        value: 2
 ---

@@ -1,14 +1,12 @@
 ---
 startingCredits: 1000
 mechanics:
-  - type: profs
-    subType: tool
-    has:
-      - disguise-kit
-      - thieves-tools
-  - type: profs
-    subType: skill
-    has:
-      - sleight-of-hand
-      - stealth
+  - type: tool
+    value: disguise-kit
+  - type: tool
+    value: thieves-tools
+  - type: skill
+    value: sleight-of-hand
+  - type: skill
+    value: stealth
 ---

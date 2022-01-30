@@ -3,10 +3,20 @@
     "level": 14,
     "klass": "vanguard",
     "subclass": "shock-trooper",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "A Touch of Force",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "a-touch-of-force"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "short",
+          "id": "a-touch-of-force"
+        }
+      }
+    ],
     "name": "A Touch of Force",
     "html": "<p>At 14th level, you gain the ability to augment your weapons with your barrier. As a bonus action, you can expend\nup to 3 barrier ticks to grant one weapon you're carrying a bonus to damage rolls equal to the number\nof barrier ticks spent. The additional damage is force damage and can detonate primed targets. This effect lasts\n1 minute.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
     "id": "a-touch-of-force"
@@ -46,25 +56,28 @@
   {
     "level": 2,
     "klass": "soldier",
-    "mechanics": {
-      "uses": {
-        "method": "byLevel",
-        "params": [
-          "soldier",
-          [
-            {
-              "level": 2,
-              "uses": 1
-            },
-            {
-              "level": 17,
-              "uses": 2
+    "mechanics": [
+      {
+        "name": "Adrenaline Rush",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "adrenaline-rush-1"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "2": 1,
+              "17": 2
             }
-          ]
-        ]
-      },
-      "recharge": "short"
-    },
+          },
+          "id": "adrenaline-rush-1"
+        }
+      }
+    ],
     "name": "Adrenaline Rush",
     "html": "<p>You can inject yourself with a shot of adrenaline, pushing yourself beyond your normal limits for a moment.\nAt 2nd level, you can take one additional action this turn on top of your regular action and a possible\nbonus action.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n",
     "id": "adrenaline-rush-1"
@@ -119,9 +132,6 @@
   {
     "level": 1,
     "klass": "adept",
-    "mechanics": {
-      "recharge": "short"
-    },
     "name": "Barrier",
     "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
     "id": "barrier-adept"
@@ -129,9 +139,6 @@
   {
     "level": 1,
     "klass": "sentinel",
-    "mechanics": {
-      "recharge": "short"
-    },
     "name": "Barrier",
     "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
     "id": "barrier-sentinel"
@@ -139,9 +146,6 @@
   {
     "level": 1,
     "klass": "vanguard",
-    "mechanics": {
-      "recharge": "short"
-    },
     "name": "Barrier",
     "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
     "id": "barrier-vanguard"
@@ -150,16 +154,26 @@
     "level": 6,
     "klass": "adept",
     "subclass": "blackstar",
-    "mechanics": {
-      "uses": {
-        "method": "halfKlassLevel",
-        "params": [
-          "adept",
-          1
-        ]
-      },
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Bend Luck",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "bend-luck"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "level",
+            "value": "adept",
+            "min": 1,
+            "multiplier": 0.5
+          },
+          "id": "bend-luck"
+        }
+      }
+    ],
     "name": "Bend Luck",
     "html": "<p>You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions.\nIt might be a small burst under the muzzle of a gun to throw off the attacker's aim or a negative field around a\nfriendly creature as it leaps away from a grenade.</p>\n<p>At 6th level, when another creature you can see makes an attack roll, an ability check, or a saving throw, you can use\nyour reaction to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You\ncan do so after the creature rolls but before any effects of the roll occur.</p>\n<p>You can use Bend Luck a number of times equal to half of your Adept level (minimum 1). You regain all expended uses\nafter a long rest.</p>\n",
     "id": "bend-luck"
@@ -184,10 +198,20 @@
     "level": 14,
     "klass": "adept",
     "subclass": "disruptor",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Biotic Concentration",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-concentration"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "biotic-concentration"
+        }
+      }
+    ],
     "name": "Biotic Concentration",
     "html": "<p>Starting at 14th level, you can push your biotics to the limit. If you are already maintaining a concentration power,\nyou can cast another power that requires concentration and maintain it. If you take damage you must make a separate\nConstitution saving throw to maintain each power.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
     "id": "biotic-concentration"
@@ -204,10 +228,19 @@
     "level": 6,
     "klass": "vanguard",
     "subclass": "battle-master",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Biotic Focus",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-focus"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "id": "biotic-focus"
+        }
+      }
+    ],
     "name": "Biotic Focus",
     "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your speed is doubled.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "biotic-focus"
@@ -278,10 +311,20 @@
     "level": 6,
     "klass": "adept",
     "subclass": "disruptor",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Biotic Surge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-surge"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "biotic-surge"
+        }
+      }
+    ],
     "name": "Biotic Surge",
     "html": "<p>Starting at 6th level, you can empower your biotics that unleash harm on groups of foes. When you force multiple\ncreatures to make saving throws against the damage of one of your powers, you can increase the power's damage by rolling\ntwo more of its damage dice. This increase occurs only on the turn you cast the power.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
     "id": "biotic-surge"
@@ -334,18 +377,25 @@
     "level": 10,
     "klass": "sentinel",
     "subclass": "bastion",
-    "mechanics": {
-      "uses": {
-        "method": "equalToAbilityMod",
-        "params": [
-          "cha",
-          1
-        ]
-      },
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Call the Shots",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "call-shots"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "powercastingMod",
+            "min": 1
+          },
+          "id": "call-shots"
+        }
+      }
+    ],
     "name": "Call the Shots",
-    "html": "<p>Starting at 10th level, you can use your action to focus all of your attention on your tactical focus, calling out\nthreats, troop movements, and enemy weaknesses.</p>\n<p>Until the start of your next turn:</p>\n<ul>\n<li>Whenever a friendly creature makes an attack roll or saving throw, it rolls 1d6 and adds the result to its attack roll or saving throw.</li>\n<li>Whenever a hostile creature makes an attack roll or saving throw, it rolls 1d6 and subtracts the result to its attack roll or saving throw.</li>\n</ul>\n<br>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended\nuses when you finish a long rest.</p>\n",
+    "html": "<p>Starting at 10th level, you can use your action to focus all of your attention on your tactical focus, calling out\nthreats, troop movements, and enemy weaknesses.</p>\n<p>Until the start of your next turn:</p>\n<ul>\n<li>Whenever a friendly creature makes an attack roll or saving throw, it rolls 1d6 and adds the result to its attack roll or saving throw.</li>\n<li>Whenever a hostile creature makes an attack roll or saving throw, it rolls 1d6 and subtracts the result to its attack roll or saving throw.</li>\n</ul>\n<br>\n<p>You can use this feature a number of times equal to your powercasting modifier (a minimum of once). You regain any expended\nuses when you finish a long rest.</p>\n",
     "id": "call-shots"
   },
   {
@@ -489,16 +539,23 @@
     "level": 2,
     "klass": "engineer",
     "subclass": "mastermind",
-    "mechanics": {
-      "uses": {
-        "method": "equalToAbilityMod",
-        "params": [
-          "int",
-          1
-        ]
-      },
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Enfilade",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "enfilade"
+        },
+        "type": "reaction",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "int"
+          },
+          "id": "enfilade"
+        }
+      }
+    ],
     "name": "Enfilade",
     "html": "<p>Starting at 2nd level, if an ally uses a power that primes an enemy within <me-distance length=\"30\" />, you may use your reaction to detonate the primed enemy with a\nquick tech burst that cannot miss.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any\nexpended uses when you finish a long rest.</p>\n",
     "id": "enfilade"
@@ -611,10 +668,23 @@
     "level": 3,
     "klass": "soldier",
     "subclass": "gladiator",
-    "mechanics": {
-      "uses": 3,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Fighting Spirit",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fighting-spirit"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "fighting-spirit"
+        }
+      }
+    ],
     "name": "Fighting Spirit",
     "html": "<p>Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on\nyour turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,\nyou also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this\nclass, increasing to 10 at 10th level and 15 at 15th level.</p>\n<p>You can use this feature three times, and you regain all expended uses of it when you finish a long rest.</p>\n",
     "id": "fighting-spirit"
@@ -697,29 +767,28 @@
   {
     "level": 9,
     "klass": "soldier",
-    "mechanics": {
-      "uses": {
-        "method": "byLevel",
-        "params": [
-          "soldier",
-          [
-            {
-              "level": 9,
-              "uses": 1
-            },
-            {
-              "level": 13,
-              "uses": 2
-            },
-            {
-              "level": 13,
-              "uses": 3
+    "mechanics": [
+      {
+        "name": "Indomitable",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "indomitable-1"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "progressive",
+            "limit": "solder",
+            "value": {
+              "9": 1,
+              "13": 2,
+              "17": 3
             }
-          ]
-        ]
-      },
-      "recharge": "short"
-    },
+          },
+          "id": "indomitable-1"
+        }
+      }
+    ],
     "name": "Indomitable",
     "html": "<p>At 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature\nagain until you finish a Long Rest.</p>\n",
     "id": "indomitable-1"
@@ -865,10 +934,20 @@
     "level": 3,
     "klass": "sentinel",
     "subclass": "guardian",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Omni-Shield",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "omni-shield-1"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "short",
+          "id": "omni-shield-1"
+        }
+      }
+    ],
     "name": "Omni-Shield",
     "html": "<p>Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.</p>\n<p>While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a\nhit creature backward <me-distance length=\"5\" />.</li>\n</ul>\n<br>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n",
     "id": "omni-shield-1"
@@ -901,11 +980,23 @@
     "level": 14,
     "klass": "adept",
     "subclass": "commando",
-    "mechanics": {
-      "uses": 10,
-      "overload": "todo, some way to indicate overloading 1 min but everything beyond has some adverse effect",
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Overchannel",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "overchannel"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 10
+          },
+          "id": "overchannel"
+        }
+      }
+    ],
     "name": "Overchannel",
     "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.</p>\n",
     "id": "overchannel"
@@ -938,10 +1029,19 @@
     "level": 18,
     "klass": "engineer",
     "subclass": "mastermind",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Power Steal",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "power-steal"
+        },
+        "type": "reaction",
+        "resource": {
+          "id": "power-steal"
+        }
+      }
+    ],
     "name": "Power Steal",
     "html": "<p>At 18th level, you gain the ability to clone power effects onto your omni-tool.</p>\n<p>Immediately after a creature casts a power that targets you or includes you in its area of effect, you can use your\nreaction to force the creature to make a saving throw with its powercasting ability modifier. The DC equals your power\nsave DC. On a failed save, you negate the power's effect on you and you copy a temporary version of the power onto\nyour omni-tool if it is at least 1st level and of a level you can cast (it does not have to be a tech power). For the\nnext 8 hours, you know the power and can cast it using your tech points. The creature can't cast that power until the\n8 hours have passed.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "power-steal"
@@ -1058,10 +1158,19 @@
   {
     "level": 20,
     "klass": "sentinel",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Reset",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "reset"
+        },
+        "type": "other",
+        "resource": {
+          "id": "reset"
+        }
+      }
+    ],
     "name": "Reset",
     "html": "<p>At 20th level, you can draw power from the depths of exhaustion. If you spend one minute calming your mind or recalibrating\nyour armor you can regain all of your expended power slots or all spent uses of your tech armor. Once you use this feature,\nyou must finish a long rest before you can do so again.</p>\n",
     "id": "reset"
@@ -1117,10 +1226,20 @@
     "level": 10,
     "klass": "engineer",
     "subclass": "medic",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Shield Boost",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "shield-boost"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "short",
+          "id": "shield-boost"
+        }
+      }
+    ],
     "name": "Shield Boost",
     "html": "<p>At 10th level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n",
     "id": "shield-boost"
@@ -1166,10 +1285,24 @@
     "level": 3,
     "klass": "infiltrator",
     "subclass": "sniper",
-    "mechanics": {
-      "uses": 3,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Steady Aim",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "steady-aim"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "steady-aim"
+        }
+      }
+    ],
     "name": "Steady Aim",
     "html": "<p>At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:</p>\n<ul>\n<li>The attacks ignore half and three-quarters cover.</li>\n<li>On a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.</li>\n</ul>\n<br>\n<p>This effect lasts 1 minute or until you use Steady Aim on a different target.</p>\n<p>You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</p>\n",
     "id": "steady-aim"
@@ -1186,10 +1319,19 @@
     "level": 18,
     "klass": "soldier",
     "subclass": "gladiator",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Strength before Death",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "strength-before-death"
+        },
+        "type": "other",
+        "resource": {
+          "id": "strength-before-death"
+        }
+      }
+    ],
     "name": "Strength before Death",
     "html": "<p>Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you\nto 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious, and you can\nimmediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking\ndamage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the\nextra turn ends, you fall unconscious if you still have 0 hit points.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "strength-before-death"
@@ -1197,10 +1339,20 @@
   {
     "level": 20,
     "klass": "infiltrator",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Stroke of Luck",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "stroke-of-luck"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "stroke-of-luck"
+        }
+      }
+    ],
     "name": "Stroke of Luck",
     "html": "<p>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within\nrange, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\nOnce you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
     "id": "stroke-of-luck"
@@ -1217,10 +1369,19 @@
     "level": 18,
     "klass": "engineer",
     "subclass": "medic",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Supply Pylon",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "supply-pylon"
+        },
+        "type": "other",
+        "resource": {
+          "id": "supply-pylon"
+        }
+      }
+    ],
     "name": "Supply Pylon",
     "html": "<p>By 18th level, you can call in a <me-distance length=\"5\" /> tall by <me-distance length=\"2\" /> wide supply pylon to a location within <me-distance length=\"10\" />. At the start of your next turn, the pylon arrives. If any creature is\nstanding in the targeted location, the creature must make a Dexterity saving throw with advantage.\nOn a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.</p>\n<p>The pylon contains 5 resources from the following list, which you choose when you call the pylon:</p>\n<ul>\n<li>1 heavy weapon ammo charges</li>\n<li>10 thermal clips</li>\n<li>A battery capable to quickly recharging your Omni-tool, recovering 5 tech points</li>\n<li>A stim pack capable of staving off biotic fatigue, recovering 5 levels worth of power slots</li>\n<li>4 enhanced medi-gel</li>\n<li>2 Mk II Frag grenades</li>\n<li>2 Mk II Lift Grenades</li>\n<li>2 Mk IV Flashbang</li>\n<li>2 Mk IV Smoke grenades</li>\n</ul>\n<p>Once the pylon has landed, friendly creatures (including you) within melee range of the pylon can use their action to collect\none of the resources you chose.</p>\n<p>Once you use this feature, you cannot use it again until you finish a long rest and restock the pylon with 5 omni-gel.</p>\n",
     "id": "supply-pylon"
@@ -1229,10 +1390,19 @@
     "level": 18,
     "klass": "sentinel",
     "subclass": "bastion",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Synchronized Assault",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "synchronized-assault"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "id": "synchronized-assault"
+        }
+      }
+    ],
     "name": "Synchronized Assault",
     "html": "<p>Starting at 18th level, you gain the ability to unleash a devastating combination of your allies' abilities. As a\nbonus action, select up to five allies within <me-distance length=\"120\" />. They can use their reactions to immediately take actions.</p>\n<p>Once you use this ability, you cannot use it again until you complete a long rest.</p>\n",
     "id": "synchronized-assault"
@@ -1263,16 +1433,27 @@
   {
     "level": 1,
     "klass": "infiltrator",
-    "mechanics": {
-      "uses": {
-        "method": "klassProgressionColumn",
-        "params": [
-          "infiltrator",
-          "tactical_cloak_uses"
-        ]
-      },
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Tactical Cloak",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-cloak"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "progressionColumn",
+            "value": {
+              "klass": "infiltrator",
+              "column": "tactical_cloak_uses"
+            }
+          },
+          "id": "tactical-cloak"
+        }
+      }
+    ],
     "name": "Tactical Cloak",
     "html": "<p>As an action, you activate your tactical cloak, becoming <me-condition id=\"invisible\"/>. Tactical cloak lasts 1 minute or\nuntil you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.</p>\n<p>Once you have used tactical cloak the maximum number of times for your Infiltrator level,\nyou must finish a short rest before you can use it again. You may use tactical cloak 2 times at 1st level, 3 at 6th, 4 at 11th,\nand 5 at 18th.</p>\n",
     "id": "tactical-cloak"
@@ -1319,10 +1500,23 @@
   {
     "level": 1,
     "klass": "sentinel",
-    "mechanics": {
-      "uses": 2,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Tech Armor",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-armor"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "tech-armor"
+        }
+      }
+    ],
     "name": "Tech Armor",
     "html": "<p>You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,\nactivate your Tech Armor.</p>\n<p>When activated, tech armor creates a new kinetic barrier with additional hit points equal to the sum of your sentinel level\nand powercasting modifier, multiplied by 2. When you have tech armor hit points and take damage, the tech armor hit points\nare lost first, and any leftover damage carries over to your shields and/or normal hit points. Tech armor lasts 1 minute\nor until it has 0 hit points remaining.</p>\n<p>While tech armor is active, you can use your action to overload it. Each creature within <me-distance length=\"10\" /> must make a Constitution\nsaving throw. On a failed save, a creature takes force damage equal to the remaining hit points of your tech armor,\nor half as much on a successful one.</p>\n<p>You can use Tech Armor twice between long rests.</p>\n",
     "id": "tech-armor"
@@ -1394,10 +1588,19 @@
     "level": 7,
     "klass": "soldier",
     "subclass": "gladiator",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "name": "Vengeance",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "vengeance"
+        },
+        "type": "other",
+        "resource": {
+          "id": "vengeance"
+        }
+      }
+    ],
     "name": "Vengeance",
     "html": "<p>Starting at 7th level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.</p>\n<p>If the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "vengeance"
@@ -1406,29 +1609,29 @@
     "level": 3,
     "klass": "soldier",
     "subclass": "weapon-master",
-    "mechanics": {
-      "uses": {
-        "method": "byLevel",
-        "params": [
-          "soldier",
-          [
-            {
-              "level": 3,
-              "uses": 4
-            },
-            {
-              "level": 10,
-              "uses": 5
-            },
-            {
-              "level": 18,
-              "uses": 6
+    "mechanics": [
+      {
+        "name": "Weapon of Choice",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "weapon-of-choice-1"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
             }
-          ]
-        ]
-      },
-      "recharge": "short"
-    },
+          },
+          "id": "weapon-of-choice-1"
+        }
+      }
+    ],
     "name": "Weapon of Choice",
     "html": "<p>By 3rd level, you have undergone extensive training with a single weapon type. Choose a weapon type which becomes your Weapon of Choice.\nWhen you are holding your Weapon of Choice you gain a set of abilities that are fueled by special dice called superiority dice.\nYou may spend 1 month of intensive training to exchange your Weapon of Choice with another weapon type.</p>\n<p><strong>Superiority Dice</strong>: You have four superiority dice, which are d8s. A superiority die is expended when you use it.\nYou regain all of your expended superiority dice when you finish a short or long rest.</p>\n<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with your Weapon of Choice, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a weapon attack from your Weapon of Choice, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding your Weapon of Choice, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
     "id": "weapon-of-choice-1"
@@ -1452,10 +1655,20 @@
   {
     "level": 2,
     "klass": "vanguard",
-    "mechanics": {
-      "uses": 1,
-      "recharge": "short"
-    },
+    "mechanics": [
+      {
+        "name": "Zero-Sum",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "zero-sum"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "zero-sum"
+        }
+      }
+    ],
     "name": "Zero-Sum",
     "html": "<p>At 2nd level, when you make a melee attack, instead of rolling a dice, you can flip a coin. On heads, it's a critical hit. On tails,\nit's a critical miss. You can use this ability once per short rest.</p>\n",
     "id": "zero-sum"

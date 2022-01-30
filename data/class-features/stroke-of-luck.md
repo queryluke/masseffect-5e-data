@@ -2,6 +2,7 @@
 level: 20
 klass: infiltrator
 mechanics:
-  uses: 1
-  recharge: short
+  - type: other
+    resource:
+      reset: short
 ---

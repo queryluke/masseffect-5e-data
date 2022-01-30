@@ -11,5 +11,5 @@ Until the start of your next turn:
 
 <br>
 
-You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended
+You can use this feature a number of times equal to your powercasting modifier (a minimum of once). You regain any expended
 uses when you finish a long rest.
