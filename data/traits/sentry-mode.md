@@ -1,4 +1,4 @@
 ---
-species: [geth]
+species: [geth, unshackled-ai]
 mechanics: []
 ---

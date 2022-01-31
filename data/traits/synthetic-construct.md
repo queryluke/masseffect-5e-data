@@ -1,5 +1,5 @@
 ---
-species: [geth]
+species: [geth, unshackled-ai]
 mechanics:
   - type: immunity
     value: psychic

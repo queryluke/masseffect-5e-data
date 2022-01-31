@@ -1,5 +1,5 @@
 ---
-species: [mobile-platform-hopper]
+species: [mobile-platform-hopper, hardware-aiu]
 mechanics:
   - type: prof
     profType: skill
