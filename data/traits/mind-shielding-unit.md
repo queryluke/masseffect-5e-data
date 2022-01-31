@@ -1,7 +1,8 @@
 ---
 species: [cybernetic-augmentation-cerebral]
 mechanics:
-  - type: saving-throw
+  - type: savingThrow
     against: [charmed, frightened]
-    effect: advantage
+    effect:
+      type: advantage
 ---

@@ -40,6 +40,12 @@ bonus:
   multiplier: 1,
   min: integer # default 0
 
+effect:
+  type: enum [advantage, disadvantage, bonus, limited]
+  bonus: @bonus
+  resource: @resource # for limited
+  note: string
+
 # any mechanic that needs a selection should have
 #   options: true
 
@@ -82,19 +88,17 @@ mechanics:
     value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
 # Saving Throws, skill checks
-  - type: saving-throw
+  - type: savingThrow
     against: array
     value: enum [abilities]
-    note: string
-    effect: enum [advantage, disadvantage, bonus]
+    effect: @effect
 # Initiative
   - type: initiative
-    effect: enum [advantage, disadvantage, @bonus]
+    effect: @effect
 # skill checks
   - type: skill-check
     limit: enum [skills]
-    effect: enum [advantage, disadvantage, @bonus]
-    note: string
+    effect: @effect
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
   - type: speed

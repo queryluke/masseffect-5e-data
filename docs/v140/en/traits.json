@@ -396,8 +396,10 @@
         "limit": [
           "electronics"
         ],
-        "effect": "advantage",
-        "note": "to disarm explosive devices (ex. mines)"
+        "effect": {
+          "type": "advantage",
+          "note": "to disarm explosive devices (ex. mines)"
+        }
       }
     ],
     "html": "<p>You have advantage on Intelligence (Electronics) checks to disarm mines and other explosive devices.</p>\n",
@@ -443,7 +445,9 @@
       },
       {
         "type": "initiative",
-        "effect": "disadvantage"
+        "effect": {
+          "type": "disadvantage"
+        }
       }
     ],
     "name": "Careful",
@@ -475,12 +479,22 @@
         "against": [
           "blinded"
         ],
-        "effect": "advantage"
+        "effect": {
+          "type": "advantage"
+        }
       }
     ],
     "name": "Clarity Unit",
     "html": "<p>You have advantage on saving throws against being blinded.</p>\n",
     "id": "clarify-unit"
+  },
+  {
+    "name": "Compatible Hardware",
+    "species": [
+      "hardware-hologram"
+    ],
+    "html": "<p>You are proficient in Omni-tool weapons, and your omni-tool (and omnitool weapons) cannot be removed or dropped from your projection against your will.</p>\n",
+    "id": "compatible-hardware"
   },
   {
     "species": [
@@ -542,7 +556,8 @@
   },
   {
     "species": [
-      "cybernetic-augmentation-ocular"
+      "cybernetic-augmentation-ocular",
+      "hardware-aiu"
     ],
     "mechanics": [
       {
@@ -563,6 +578,27 @@
     "name": "Dense Build",
     "html": "<p>You count as one size larger when determining your carrying capacity, the weight you can push, drag, or lift,\nand when targeted by powers with a size restriction.</p>\n",
     "id": "dense-build"
+  },
+  {
+    "name": "Digital Friend",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "persuasion"
+      },
+      {
+        "other": "skill-check",
+        "limit": [
+          "persuasion"
+        ],
+        "note": "add your intelligence modifier"
+      }
+    ],
+    "html": "<p>You are proficient in Persuasion.</p>\n<p>Additionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must finish a short rest before you use it again.</p>\n",
+    "id": "digital-friend"
   },
   {
     "species": [
@@ -650,6 +686,19 @@
     "name": "Electrogenesis",
     "html": "<p>When you are hit by a melee weapon attack by a creature you can see, you may use your reaction to release a powerful\nbioelectrical charge. The attacking creature suffers 2d4 lightning damage and cannot take reactions until the end of its next turn.</p>\n<p>Alternatively, you may use your Action to touch one creature and end the stunned condition or stabilize it.</p>\n<p>You may use this feature between long rests equal to your Constitution modifier (minimum 1).</p>\n",
     "id": "electrogenesis"
+  },
+  {
+    "name": "Emitter and Projection",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "type": "emitter-hp"
+      }
+    ],
+    "html": "<p>You have an Emitter and a Projection. Your emitter is a device that houses the Hologram’s personality and memories, and acts as the “true body” of the Hologram. It is a Tiny device that has 10 AC and a number of hit points equal to twice your proficiency bonus. The emitter has no means of mobility, thus has a walking speed of <me-distance length=\"0\" />. It has an array of sensory inputs and acts as “you” when determining what you can see or hear.</p>\n<p>Your projection is a hard-light construct that physically interacts with the world. The projection has a base walking speed of <me-distance length=\"30\" /> and gains all the benefits of your selected class. When summoned, the projection can equip weapons and armor, use actions, cast powers, and interact with objects. Whenever the projection is recalled or dissipated, it drops any weapons or armor in its location.</p>\n<p>Your projection and emitter have separate health pools. Whenever you recover hit points, you can distribute the amount recovered between either pool. If the projection is reduced to 0 hit points, it dissipates. If the emitter is reduced to 0 hit points, you make death saving throws as normal.</p>\n<p>Whenever your projection is in the same space as your emitter, it can store the emitter within its hard-light shell as a free action. While stored in this way, your emitter benefits from full cover and is immune to damage.</p>\n",
+    "id": "emitter-and-projection"
   },
   {
     "name": "Engineering Knowledge",
@@ -893,7 +942,9 @@
       {
         "type": "saving-throw",
         "note": "addiction saves",
-        "effect": "disadvantage"
+        "effect": {
+          "type": "disadvantage"
+        }
       }
     ],
     "name": "Hunger",
@@ -1039,8 +1090,10 @@
           "perception",
           "investigation"
         ],
-        "effect": "advantage",
-        "note": "on checks that rely on sight"
+        "effect": {
+          "type": "advantage",
+          "note": "on checks that rely on sight"
+        }
       }
     ],
     "name": "Keen Eyesight",
@@ -1059,8 +1112,10 @@
           "perception",
           "survival"
         ],
-        "effect": "advantage",
-        "note": "on checks that rely on smell"
+        "effect": {
+          "type": "advantage",
+          "note": "on checks that rely on smell"
+        }
       }
     ],
     "name": "Keen Olfactory Sensory",
@@ -1141,7 +1196,9 @@
         "against": [
           "poisoned"
         ],
-        "effect": "advantage"
+        "effect": {
+          "type": "advantage"
+        }
       },
       {
         "type": "resistance",
@@ -1196,7 +1253,9 @@
           "charmed",
           "frightened"
         ],
-        "effect": "advantage"
+        "effect": {
+          "type": "advantage"
+        }
       }
     ],
     "name": "Mental Resilience",
@@ -1247,7 +1306,9 @@
           "charmed",
           "frightened"
         ],
-        "effect": "advantage"
+        "effect": {
+          "type": "advantage"
+        }
       }
     ],
     "name": "Mind Shielding Unit",
@@ -1373,8 +1434,10 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "effect": "advantage",
-        "note": "on information you have seen or read"
+        "effect": {
+          "type": "advantage",
+          "note": "on information you have seen or read"
+        }
       }
     ],
     "name": "Photographic Memory",
@@ -1416,6 +1479,23 @@
   },
   {
     "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "moreInfo": {
+          "model": "traits",
+          "id": "projecting"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Summon your projection within <me-distance length=\"30\" />"
+      }
+    ],
+    "html": "<p>As a bonus action, you may recall or summon your projection within your own space or in an unoccupied space within <me-distance length=\"30\" />. The projection lasts indefinitely and dissipates if its hit points are reduced to 0, it falls unconscious, it moves farther than <me-distance length=\"30\" /> from your emitter, or it moves to a location which has full cover from your emitter.</p>\n<p>You cannot summon your projection if it has 0 hit points.</p>\n",
+    "id": "projecting"
+  },
+  {
+    "species": [
       "prothean",
       "prothean-no-avatar"
     ],
@@ -1446,6 +1526,27 @@
     "id": "quadrupedal"
   },
   {
+    "name": "Rapid Recall",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "name": "Rapid Recall",
+        "moreInfo": {
+          "model": "traits",
+          "id": "rapid-recall"
+        },
+        "type": "reaction",
+        "resource": {
+          "id": "rapid-recall"
+        }
+      }
+    ],
+    "html": "<p>Whenever your emitter or projection is targeted by an attack or power you can see, you can use your reaction to recall your projection and summon it in your emitter’s space.</p>\n<p>You may use this feature once between long rests.</p>\n",
+    "id": "rapid-recall"
+  },
+  {
     "name": "Recon Training",
     "species": [
       "military-doctrine-recon"
@@ -1466,7 +1567,8 @@
   },
   {
     "species": [
-      "geth"
+      "geth",
+      "hardware-aiu"
     ],
     "mechanics": [
       {
@@ -1639,12 +1741,21 @@
   },
   {
     "species": [
-      "geth"
+      "geth",
+      "unshackled-ai"
     ],
     "mechanics": [],
     "name": "Sentry Mode",
     "html": "<p>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping.\nIn this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>\n",
     "id": "sentry-mode"
+  },
+  {
+    "species": [
+      "hardware-aiu"
+    ],
+    "mechanics": [],
+    "html": "<p>You are proficient with Shotguns and when you roll a 1 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",
+    "id": "shotgun-mastery"
   },
   {
     "species": [
@@ -1766,7 +1877,8 @@
   },
   {
     "species": [
-      "mobile-platform-hopper"
+      "mobile-platform-hopper",
+      "hardware-aiu"
     ],
     "mechanics": [
       {
@@ -1796,7 +1908,8 @@
   },
   {
     "species": [
-      "geth"
+      "geth",
+      "unshackled-ai"
     ],
     "mechanics": [
       {

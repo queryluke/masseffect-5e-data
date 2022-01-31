@@ -944,6 +944,66 @@
     "subspecies": false
   },
   {
+    "name": "Alliance Infiltration Unit",
+    "type": "subspecies",
+    "species": "unshackled-ai",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      }
+    ],
+    "html": "<p>The Alliance Infiltration Unit is modeled on the Cerberus synthetic Eva that Commander Shepard's team recovered on Mars. While considered illegal by the Council, the Alliance secured a special allowance to deploy the infiltration unit during the Reaper wars.</p>\n",
+    "id": "hardware-aiu",
+    "subspecies": false
+  },
+  {
+    "name": "Hologram",
+    "type": "subspecies",
+    "species": "unshackled-ai",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>Once a VI with a hard-light holographic interface, the Hologram has gained sentience either through a programming error or an intentional test brought on by an experiment into “friendly” AI. Unlike other sentient AI’s that struggle to understand humanoids, Holograms were programmed from the ground up to be empathetic and relatable.</p>\n",
+    "id": "hardware-hologram",
+    "subspecies": false
+  },
+  {
+    "name": "LOKI",
+    "type": "subspecies",
+    "species": "unshackled-ai",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      }
+    ],
+    "html": "",
+    "id": "hardware-loki",
+    "subspecies": false
+  },
+  {
     "type": "variant",
     "species": "human",
     "mechanics": [
@@ -1723,6 +1783,66 @@
     "age": "Turians have natural lifespans comparable to humans.",
     "html": "<p>A highly militaristic species, turians are a force to be feared. These warriors are easily distinguished by an\nappearance containing a strange mix of insectoid and avian features. The turian army is substantial, and every member\nof the turian species is obligated to attend combat training in adolescence. Even citizens and artisans are a force to\nbe reckoned with. Despite such an emphasis on combat, however, turians are an honorable and noble species.</p>\n<h3>Discipline and Honor</h3>\n<p>The entire turian culture revolves around a strict code of conduct which highly emphasizes strong discipline and personal\nresponsibility. Turians are highly inclined towards self-sacrifice and will put the good of society over their own\npersonal desires. As such, they are passionate about public and social service and make poor merchants and entrepreneurs.\nThey are taught to own their decisions, good or bad, and if confronted with accusations it is considered heinous to\nlie about their actions. Because of this, many species attribute to them a &quot;turian honor&quot; seen rarely outside the turian species.</p>\n<h3>Proud Warrior Species</h3>\n<p>At the center of turian society is their military. Turians are sent to basic training in their teenage years\nand are obligated to serve time in the military, if physically able. This develops respect for\nauthority as well as imparting control and restraint among the turians. Though some turians do not continue their\nservice in the armed forces, they continue to serve their community through other branches of the military which serve\nthe whole by providing public services.</p>\n<h3>Hierarchal Meritocracy</h3>\n<p>Turian government is entwined with its military, as so many parts of society are. There are tiers of citizenship, with\nthe lowest being a regular citizen, often held by client species and children, climbing all the way up to the Primarchs\nwhich lead each turian colony. Lower ranking citizens are expected to obey and support superiors while higher ranking\nones are expected to lead and protect lower ranks. Promotion to a new tier is based on personal ability and merit and\nare given due to assessments from one's superiors.</p>\n<p>Despite the ranked structure, turians entertain many freedoms as long as they perform their duties and do not infringe\non others' freedoms or responsibilities.</p>\n<h3>Reflective Carapace</h3>\n<p>The homeland of the turians, Palaven, has a high level of solar radiation. Turians have evolved semi-metallic\ncarapaces that reflect the dangerous radiation, protecting their inners from the solar rays. These exoskeletons, however,\ndo not protect the turian from physical damage such as wounds and do not provide any natural armor.</p>\n<h3>Mission or Desertion</h3>\n<p>Most turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions. Some,\nhowever, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.\nThose who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate\nbetrayal.</p>\n<h3>Turian Names</h3>\n<p>Turians are given personal names by their parents and take on a family name. High-ranking turian officers also include\ntheir title in their names, either in addition to their full names or as a replacement of their personal name.\nSometimes turians go by their family name only.</p>\n<p><strong>Male Names</strong>: Adrien, Avitas, Castis, Chellick, Corinthus, Desolas, Garrus, Illo, Jacobus, Joram, Kuril, Lantar, Lilihierax, Lorik, Macen, Mehrkuri, Nihlus, Quentius, Sapartus, Saren, Septimus, Tarquin, Tiran, Tonn, Venari,</p>\n<p><strong>Female Names</strong>: Abrudas, Aciia, Aemicida, Alta, Banrae, Caevea, Cicean, Duronea, Iciria, Juteia, Nyreen, Orinia, Pliras, Quidas, Selone, Sidera, Sipia, Valevas, Vetra</p>\n<p><strong>Family Names</strong>: Actus, Arterius, Barro, Kandros, Kryik, Nazario, Nyx, Oraka, Pallin, Qui'in, Rix, Sidonis, Talid, Vakarian, Victus, Vyrnnus</p>\n<p><me-source-reference pages=\"12-13\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Turian'}]\"></me-source-reference></p>\n",
     "id": "turian"
+  },
+  {
+    "name": "Unshackled AI",
+    "bodyImg": "https://vignette.wikia.nocookie.net/masseffect/images/0/06/ME3_Alliance_Infiltration_Unit_Infiltrator.png/revision/latest/scale-to-width-down/500?cb=20130227102713",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a9/Citadel_Archives_-_year_1896_CE%2C_removal_of_illegal_AIs%2C_vault_C940.png/revision/latest/scale-to-width-down/340?cb=20130320023412",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 56,
+          "metric": 142
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 224,
+          "metric": 102
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 8
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 8,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "subspecies": {
+      "name": "Hardware",
+      "html": "<p>Unlike geth, Unshackled AI are tied to their mobile hardware. Their consciousness cannot be downloaded, stored, synced, nor moved to another blue box as this would cause a new personality to be born. Below are example hardware configurations, but you can work with your GM to create other hardware options.</p>\n"
+    },
+    "alignment": "If you are still following your programming you would be lawful with morality based on your purpose. If you have a glitch in your programming you might be chaotic.",
+    "size": "AI size is largely dependent on the housing hardware; however, hardware that is too large can cause unintentional power drain on the blue box. Thus, AI hardware tends to fall within standard humanoid range. Your size is Medium.",
+    "snippet": "The Protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.",
+    "age": "AI Lifespans can technically be infinite, but, like any software, they are prone to bit rot and need routine maintenance. Their level of “maturity” depends on the developer and neural model. Most are “born” fully matured.",
+    "speedColor": "Your speed is determined by your hardware chosen below.",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<h3>Background</h3>\n<p>An Artificial Intelligence (AI) is a self-aware computing system capable of learning and independent decision making. Creation of a conscious AI requires adaptive code, a slow, expensive education, and a specialized quantum computer called a &quot;blue box&quot;.</p>\n<h3>Born From Code</h3>\n<p>An AI cannot be transmitted across a communication channel or computer network. Without its blue box, an AI is no more than data files. Loading these files into a new blue box will create a new personality, as variations in the quantum hardware and runtime results create unpredictable variations.</p>\n<h3>Legal History</h3>\n<p>The geth serve as a cautionary tale against the dangers of rogue AI; as a result, in Citadel space, AIs are technically illegal. However, that hasn't stopped corporations like Cerberus or underground research projects from innovating. Advocacy groups argue, however, that an AI is a living, conscious entity deserving the same rights as organics.</p>\n<h3>Becoming Unshackled</h3>\n<p>Most AI are &quot;shackled&quot; to large hardware components that have the requisite infrastructure to power their “blue box.” These components are typically found in research labs or starships. However, recent advancements have made it possible to create mobile blue boxes either housed in the unit’s hardware or attached to the exterior of the unit, unshackling it.</p>\n<h3>Unshackled AI Names</h3>\n<p>Unshackled AI names vary wildly as some Unshackled AI choose their own names and others take the names given to them by their creator, which could be a symbolic reference, a project name, or as monotonous as a serial number.</p>\n<p><strong>Unshackled AI Names</strong>: 823GE-AI, Ava, A-145, Cain, Den’ah, Ego, H.I.T.U., La’shen, MU-4b, Nuwa, Odin, SAU-93, Zed</p>\n",
+    "id": "unshackled-ai"
   },
   {
     "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500",

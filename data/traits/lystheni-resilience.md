@@ -2,9 +2,10 @@
 species:
   - lystheni
 mechanics:
-  - type: saving-throw
+  - type: savingThrow
     against: [poisoned]
-    effect: advantage
+    effect:
+      type: advantage
   - type: resistance
     value: poison
 ---
