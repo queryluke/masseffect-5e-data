@@ -1,5 +1,5 @@
 ---
-species: [cybernetic-augmentation-ocular]
+species: [cybernetic-augmentation-ocular, hardware-aiu]
 mechanics:
   - type: sense
     sense: darkvision
