@@ -43,13 +43,11 @@
         },
         "text": "Choose three from Acrobatics, Deception, History, Insight, Intimidation, Performance, Sleight of Hand, and Survival"
       },
-      "saving-throw": {
+      "savingThrow": {
         "has": [
           "cha",
           "wis"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Charisma, Wisdom"
       }
     },
@@ -381,13 +379,11 @@
         },
         "text": "Choose three from Athletics, Electronics, Engineering, History, Investigation, Medicine, Science, and Vehicle Handling"
       },
-      "saving-throw": {
+      "savingThrow": {
         "has": [
           "con",
           "int"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Constitution, Intelligence"
       }
     },
@@ -559,13 +555,11 @@
         },
         "text": "Choose three from Athletics, Acrobatics, Deception, Electronics, History, Insight, Investigation, Perception, Persuasion, Sleight of Hand, Stealth, and Vehicle Handling"
       },
-      "saving-throw": {
+      "savingThrow": {
         "has": [
           "dex",
           "int"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Dexterity, Intelligence"
       }
     },
@@ -800,13 +794,11 @@
         },
         "text": "Choose three from Athletics, Engineering, Insight, Intimidation, Medicine, Persuasion, Science, and Survival"
       },
-      "saving-throw": {
+      "savingThrow": {
         "has": [
           "cha",
           "con"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Charisma, Constitution"
       }
     },
@@ -1066,13 +1058,11 @@
         },
         "text": "Choose three from Acrobatics, Athletics, History, Intimidation, Medicine, Perception, Persuasion, Stealth, Survival, Vehicle Handling"
       },
-      "saving-throw": {
+      "savingThrow": {
         "has": [
           "str",
           "dex"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Strength, Dexterity"
       }
     },
@@ -1210,13 +1200,11 @@
         },
         "text": "Choose three from Acrobatics, Athletics, Deception, Insight, Intimidation, Performance, Persuasion, Sleight of Hand, and Survival"
       },
-      "saving-throw": {
+      "savingThrow": {
         "has": [
           "str",
           "wis"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Strength, Wisdom"
       }
     },

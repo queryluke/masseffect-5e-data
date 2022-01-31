@@ -475,7 +475,7 @@
     ],
     "mechanics": [
       {
-        "type": "saving-throw",
+        "type": "savingThrow",
         "against": [
           "blinded"
         ],
@@ -940,7 +940,7 @@
     ],
     "mechanics": [
       {
-        "type": "saving-throw",
+        "type": "savingThrow",
         "note": "addiction saves",
         "effect": {
           "type": "disadvantage"
@@ -1192,7 +1192,7 @@
     ],
     "mechanics": [
       {
-        "type": "saving-throw",
+        "type": "savingThrow",
         "against": [
           "poisoned"
         ],
@@ -1248,7 +1248,7 @@
     ],
     "mechanics": [
       {
-        "type": "saving-throw",
+        "type": "savingThrow",
         "against": [
           "charmed",
           "frightened"
@@ -1301,7 +1301,7 @@
     ],
     "mechanics": [
       {
-        "type": "saving-throw",
+        "type": "savingThrow",
         "against": [
           "charmed",
           "frightened"
