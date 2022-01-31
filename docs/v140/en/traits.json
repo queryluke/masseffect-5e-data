@@ -5,15 +5,14 @@
     ],
     "mechanics": [
       {
-        "type": "skill-choice",
+        "type": "expertise-choice",
         "options": true,
         "limit": [
           "deception",
           "insight",
           "history",
           "persuasion"
-        ],
-        "expertise": true
+        ]
       }
     ],
     "name": "A Long Life",
@@ -893,9 +892,7 @@
     "mechanics": [
       {
         "type": "saving-throw",
-        "against": [
-          "Addiction saves"
-        ],
+        "note": "addiction saves",
         "effect": "disadvantage"
       }
     ],
@@ -1730,9 +1727,8 @@
     ],
     "mechanics": [
       {
-        "type": "skill-choice",
-        "options": true,
-        "expertise": true
+        "type": "expertise-choice",
+        "options": true
       },
       {
         "type": "tool-choice",

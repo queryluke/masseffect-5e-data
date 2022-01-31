@@ -1,9 +1,8 @@
 ---
 species: [mobile-platform-trooper]
 mechanics:
-  - type: skill-choice
+  - type: expertise-choice
     options: true
-    expertise: true
   - type: tool-choice
     options: true
   - type: weapon-choice

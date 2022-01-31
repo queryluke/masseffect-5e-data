@@ -56,7 +56,7 @@ mechanics:
     total: integer # default 1
     max: integer #default 1, max 2
 # Proficiencies
-  - type: enum [skill, weapon, armor, saving_throw, tool]
+  - type: enum [skill, weapon, armor, saving_throw, tool, expertise]
     value: enum [types of that prof]
     expertise: boolean
   - type: # [prof]-choice
@@ -84,7 +84,7 @@ mechanics:
 # Saving Throws, skill checks
   - type: saving-throw
     against: array
-    ability: enum [abilities]
+    value: enum [abilities]
     note: string
     effect: enum [advantage, disadvantage, bonus]
 # Initiative

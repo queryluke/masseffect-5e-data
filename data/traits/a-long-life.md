@@ -2,8 +2,7 @@
 species:
   - lifestage-matriarch
 mechanics:
-  - type: skill-choice
+  - type: expertise-choice
     options: true
     limit: ['deception', 'insight', 'history', 'persuasion']
-    expertise: true
 ---
