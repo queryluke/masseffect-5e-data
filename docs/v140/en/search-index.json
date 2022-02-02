@@ -11156,7 +11156,7 @@
       "Classes"
     ],
     "link": "/species/hardware-loki",
-    "body": "",
+    "body": "One of the “easiest” solutions to deploying an unshackled AI is to attach its blue box to an existing mech. LOKI mechs are an effective and cost-affordable solution.\n",
     "html": false
   },
   {
@@ -11532,6 +11532,18 @@
     "html": false
   },
   {
+    "id": "advanced-optics",
+    "title": "Advanced Optics",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/advanced-optics",
+    "body": "Your optic sensors have two additional optic modes: darkvision 24m (60ft) and infrared vision 24m (60ft). You can\ntoggle these modes on or off (or between the two) as a bonus action.\n",
+    "html": false
+  },
+  {
     "id": "aggressive",
     "title": "Aggressive",
     "type": "character",
@@ -11828,7 +11840,7 @@
       "Species"
     ],
     "link": "/traits/digital-friend",
-    "body": "You are proficient in Persuasion.\nAdditionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must finish a short rest before you use it again.\n",
+    "body": "You are proficient in Persuasion.\nAdditionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must\nfinish a short rest before you use it again.\n",
     "html": false
   },
   {
@@ -11877,6 +11889,18 @@
     ],
     "link": "/traits/emitter-and-projection",
     "body": "You have an Emitter and a Projection. Your emitter is a device that houses the Hologram’s personality and memories, and acts as the “true body” of the Hologram. It is a Tiny device that has 10 AC and a number of hit points equal to twice your proficiency bonus. The emitter has no means of mobility, thus has a walking speed of . It has an array of sensory inputs and acts as “you” when determining what you can see or hear.\nYour projection is a hard-light construct that physically interacts with the world. The projection has a base walking speed of  and gains all the benefits of your selected class. When summoned, the projection can equip weapons and armor, use actions, cast powers, and interact with objects. Whenever the projection is recalled or dissipated, it drops any weapons or armor in its location.\nYour projection and emitter have separate health pools. Whenever you recover hit points, you can distribute the amount recovered between either pool. If the projection is reduced to 0 hit points, it dissipates. If the emitter is reduced to 0 hit points, you make death saving throws as normal.\nWhenever your projection is in the same space as your emitter, it can store the emitter within its hard-light shell as a free action. While stored in this way, your emitter benefits from full cover and is immune to damage.\n",
+    "html": false
+  },
+  {
+    "id": "energy-pulse",
+    "title": "Energy Pulse",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/energy-pulse",
+    "body": "Your hands can discharge electrical pulses and are considered natural weapons, which you can use to make unarmed strikes.\nIf you hit with them, you can deal 1d8 lightning damage instead of the bludgeoning damage normal for an unarmed strike.\nIn addition, a target hit by this attack can’t take reactions until the start of its next turn.\n",
     "html": false
   },
   {
@@ -12300,6 +12324,18 @@
     "html": false
   },
   {
+    "id": "perfect-disguise",
+    "title": "Perfect Disguise",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/perfect-disguise",
+    "body": "You are indiscernible from other LOKI mechs and can calibrate your voice to make it unreadable and void of emotion. You have proficiency in Deception.\n",
+    "html": false
+  },
+  {
     "id": "photographic-memory",
     "title": "Photographic Memory",
     "type": "character",
@@ -12479,6 +12515,18 @@
     "html": false
   },
   {
+    "id": "self-destruct",
+    "title": "Self Destruct",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/self-destruct",
+    "body": "If you have less than half your hit points remaining, you can use your reaction to initiate a self-destruct sequence.\nIf you do so, each creature within 4 meters of you must make a Dexterity saving throw. The DC of this saving throw is\nequal to 15 plus your proficiency bonus. On a failed save, a creature suffers fire damage equal to 8d6 + your\nremaining hit points, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death\nsaving throw failure.\nAfter you use your this trait, you cannot do so again until you’ve successfully reinstalled your explosive devices.\nThe process takes 4 hours and 5,000 credits worth of explosives.\nVariant: Aftermath\nAfter you use your this trait, roll a d8 and consult the Self Destruct Aftermath table. The result of the d8\nindicates the parts of your hardware that are irreparable and must be replaced. When you are stabilized or healed you\nsuffer the effect listed in the table which persists until you can purchase or find replacement parts and install them.\nTypically installation requires 4 hours of work and a successful DC 15 Intelligence (Engineering) or (Electronics) check.\nYou cannot use Self Destruct again until all of your parts are replaced.\nSelf Destruct Aftermath\n\n\nd8\nEffect\nReplacement Cost\n\n\n\n\n1\nDamage to voice and expression modulators. You have disadvantage on Charisma checks and saving throws.\n1,000 credits\n\n\n2\nDamage to auxiliary CPUs. You have disadvantage on Intelligence checks and saving throws.\n1,000 credits\n\n\n3\nDamage to power modulators. You have disadvantage on all ability checks.\n2,000 credits\n\n\n4\nLoss of 1 arm. You cannot perform tasks or take actions that would require two hands.\n2,000 credits\n\n\n5\nLoss of 1 leg. Your speed becomes 6 meters, you cannot take the Dash action, and you have disadvantage on Dexterity saving throws.\n2,000 credits\n\n\n6\nLoss of one leg and one arm. Combined effects of 4 and 5 on this table.\n4,000 credits\n\n\n7\nLoss of lower body. Your speed becomes 2 meters, you cannot take the Dash action, and you automatically fail Dexterity saving throws.\n5,000 credits\n\n\n8\nLoss of both arms. You cannot wield weapons or cast powers.\n4,000 credits\n\n\n",
+    "html": false
+  },
+  {
     "id": "sentry-mode",
     "title": "Sentry Mode",
     "type": "character",
@@ -12619,6 +12667,18 @@
     ],
     "link": "/traits/survivalist",
     "body": "Angara have a knack for living in harsh environments. You have proficiency in the Survival skill.\n",
+    "html": false
+  },
+  {
+    "id": "swarm-tactics",
+    "title": "Swarm Tactics",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/swarm-tactics",
+    "body": "Your underlying LOKI programming is built on swarming enemies with superior numbers. Once per turn, you have advantage on\nan attack roll against a creature if at least one of your allies is within 2 meters of the creature and the\nally isn’t incapacitated.\n",
     "html": false
   },
   {

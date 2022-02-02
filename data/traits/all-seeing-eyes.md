@@ -3,8 +3,7 @@ species:
   - prothean
   - prothean-no-avatar
 mechanics:
-  - type: prof
-    profType: skill
+  - type: skill
     value: perception
   - type: sense
     sense: truesight

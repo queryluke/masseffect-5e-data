@@ -5,5 +5,5 @@ mechanics:
     sense: infrared-vision
     distance: 60
   - type: bonus-action
-    shortDesc: Toggle your infrared-vision on or off.
+    baseGroup: Toggle Infrared Vision
 ---

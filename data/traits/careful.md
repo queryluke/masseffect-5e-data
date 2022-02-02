@@ -2,11 +2,9 @@
 species:
   - elcor
 mechanics:
-  - type: prof
-    profType: skill
+  - type: skill
     value: insight
-  - type: prof
-    profType: skill
+  - type: skill
     value: perception
   - type: initiative
     effect:

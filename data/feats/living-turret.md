@@ -5,7 +5,8 @@ mechanics:
   - type: asi-choice
     options: true
     limit: [str, dex]
-  - type: fighting-style-choice
+  - type: model-choice
+    model: fighting-styles
     options: true
     limit: [ambidextrous, assault, carnage, close-quarters-shooter, sniper]
   - type: other

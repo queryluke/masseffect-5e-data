@@ -2,8 +2,6 @@
 species:
   - volus
 mechanics:
-  - type: profs
-    subType: skill
-    has:
-      - persuasion
+  - type: skill
+    value: persuasion
 ---

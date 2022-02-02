@@ -147,6 +147,35 @@
     "id": "advanced-medigel-application"
   },
   {
+    "name": "Advanced Optics",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "name": "Advanced Optics",
+        "moreInfo": {
+          "model": "traits",
+          "id": "advanced-optics"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Toggle Darkvision / Infrared Vision"
+      }
+    ],
+    "html": "<p>Your optic sensors have two additional optic modes: darkvision 24m (60ft) and infrared vision 24m (60ft). You can\ntoggle these modes on or off (or between the two) as a bonus action.</p>\n",
+    "id": "advanced-optics"
+  },
+  {
     "species": [
       "lystheni"
     ],
@@ -171,8 +200,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "perception"
       },
       {
@@ -434,13 +462,11 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "insight"
       },
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "perception"
       },
       {
@@ -522,7 +548,10 @@
       {
         "type": "initiative",
         "effect": {
-          "type": "proficiency"
+          "type": "bonus",
+          "bonus": {
+            "type": "proficiency"
+          }
         }
       }
     ],
@@ -597,7 +626,7 @@
         "note": "add your intelligence modifier"
       }
     ],
-    "html": "<p>You are proficient in Persuasion.</p>\n<p>Additionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must finish a short rest before you use it again.</p>\n",
+    "html": "<p>You are proficient in Persuasion.</p>\n<p>Additionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must\nfinish a short rest before you use it again.</p>\n",
     "id": "digital-friend"
   },
   {
@@ -699,6 +728,38 @@
     ],
     "html": "<p>You have an Emitter and a Projection. Your emitter is a device that houses the Hologram’s personality and memories, and acts as the “true body” of the Hologram. It is a Tiny device that has 10 AC and a number of hit points equal to twice your proficiency bonus. The emitter has no means of mobility, thus has a walking speed of <me-distance length=\"0\" />. It has an array of sensory inputs and acts as “you” when determining what you can see or hear.</p>\n<p>Your projection is a hard-light construct that physically interacts with the world. The projection has a base walking speed of <me-distance length=\"30\" /> and gains all the benefits of your selected class. When summoned, the projection can equip weapons and armor, use actions, cast powers, and interact with objects. Whenever the projection is recalled or dissipated, it drops any weapons or armor in its location.</p>\n<p>Your projection and emitter have separate health pools. Whenever you recover hit points, you can distribute the amount recovered between either pool. If the projection is reduced to 0 hit points, it dissipates. If the emitter is reduced to 0 hit points, you make death saving throws as normal.</p>\n<p>Whenever your projection is in the same space as your emitter, it can store the emitter within its hard-light shell as a free action. While stored in this way, your emitter benefits from full cover and is immune to damage.</p>\n",
     "id": "emitter-and-projection"
+  },
+  {
+    "name": "Energy Pulse",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "name": "Energy Pulse",
+        "moreInfo": {
+          "model": "traits",
+          "id": "energy-pulse"
+        },
+        "type": "attack",
+        "attack": {
+          "proficient": true,
+          "mod": "str"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "lightning"
+          }
+        ],
+        "notes": [
+          "Hit, can’t take reactions until the start of its next turn"
+        ]
+      }
+    ],
+    "html": "<p>Your hands can discharge electrical pulses and are considered natural weapons, which you can use to make unarmed strikes.\nIf you hit with them, you can deal 1d8 lightning damage instead of the bludgeoning damage normal for an unarmed strike.\nIn addition, a target hit by this attack can’t take reactions until the start of its next turn.</p>\n",
+    "id": "energy-pulse"
   },
   {
     "name": "Engineering Knowledge",
@@ -843,8 +904,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "perception"
       },
       {
@@ -854,7 +914,7 @@
           "id": "four-eyes"
         },
         "type": "bonus-action",
-        "shortDesc": "You make Search as a bonus action"
+        "baseGroup": "Search"
       }
     ],
     "name": "Four Eyes",
@@ -977,7 +1037,7 @@
           "id": "infrared-vision-60"
         },
         "type": "bonus-action",
-        "shortDesc": "Toggle your infrared-vision on or off."
+        "baseGroup": "Toggle Infrared Vision"
       }
     ],
     "name": "Infrared Vision",
@@ -1037,7 +1097,7 @@
         "append": {
           "mod": "wis",
           "resource": {
-            "displayType": "checkbox"
+            "id": "innate-biotics"
           }
         }
       }
@@ -1229,13 +1289,11 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "tool",
+        "type": "tool",
         "value": "medical-kit"
       },
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "medicine"
       }
     ],
@@ -1337,8 +1395,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "persuasion"
       },
       {
@@ -1425,6 +1482,20 @@
     "name": "Peak Fitness",
     "html": "<p>You gain proficiency in either the Acrobatics or Athletics skill (your choice).</p>\n",
     "id": "peak-fitness"
+  },
+  {
+    "name": "Perfect Disguise",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "sense": "deception"
+      }
+    ],
+    "html": "<p>You are indiscernible from other LOKI mechs and can calibrate your voice to make it unreadable and void of emotion. You have proficiency in Deception.</p>\n",
+    "id": "perfect-disguise"
   },
   {
     "species": [
@@ -1540,7 +1611,8 @@
         "type": "reaction",
         "resource": {
           "id": "rapid-recall"
-        }
+        },
+        "shortDesc": "Recall your projection and summon in your emitter's space when you are targeted by an attack or power you can see"
       }
     ],
     "html": "<p>Whenever your emitter or projection is targeted by an attack or power you can see, you can use your reaction to recall your projection and summon it in your emitter’s space.</p>\n<p>You may use this feature once between long rests.</p>\n",
@@ -1650,11 +1722,8 @@
     ],
     "mechanics": [
       {
-        "type": "profs",
-        "subType": "skill",
-        "has": [
-          "persuasion"
-        ]
+        "type": "skill",
+        "value": "persuasion"
       }
     ],
     "name": "Savvy Dealings",
@@ -1738,6 +1807,39 @@
     "name": "Seeker Swarm",
     "html": "<p>Seeker Swarm\nAs an action, you call three seeker swarms that orbit around you. The swarms remain for 1 hour or until you dismiss\nthem as a bonus action. While active, you may use a bonus action to expend one to three swarms that hit a creature\nof your choice within 60 meters. A swarm deals 1d4 + 1 necrotic damage to its target and detonates any primed\ncondition (this damage bypasses shields). If you expend more than one swarm, they all strike simultaneously, and you\ncan direct them to hit one creature or several.</p>\n<p>Once you use this feature, you must take a long rest before using it again.</p>\n",
     "id": "seeker-swarm"
+  },
+  {
+    "name": "Self Destruct",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "name": "Self Destruct",
+        "moreInfo": {
+          "model": "traits",
+          "id": "self-destruct"
+        },
+        "type": "reaction",
+        "dc": {
+          "proficient": true,
+          "base": 15
+        },
+        "damage": [
+          {
+            "dieCount": 8,
+            "dieType": 6,
+            "type": "fire",
+            "bonus": {
+              "type": "hp"
+            }
+          }
+        ],
+        "shortDesc": "when you have half you hit points or less remaining"
+      }
+    ],
+    "html": "<p>If you have less than half your hit points remaining, you can use your reaction to initiate a self-destruct sequence.\nIf you do so, each creature within 4 meters of you must make a Dexterity saving throw. The DC of this saving throw is\nequal to 15 plus your proficiency bonus. On a failed save, a creature suffers fire damage equal to 8d6 + your\nremaining hit points, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death\nsaving throw failure.</p>\n<p>After you use your this trait, you cannot do so again until you’ve successfully reinstalled your explosive devices.\nThe process takes 4 hours and 5,000 credits worth of explosives.</p>\n<h5>Variant: Aftermath</h5>\n<p>After you use your this trait, roll a d8 and consult the Self Destruct Aftermath table. The result of the d8\nindicates the parts of your hardware that are irreparable and must be replaced. When you are stabilized or healed you\nsuffer the effect listed in the table which persists until you can purchase or find replacement parts and install them.\nTypically installation requires 4 hours of work and a successful DC 15 Intelligence (Engineering) or (Electronics) check.</p>\n<p>You cannot use Self Destruct again until all of your parts are replaced.</p>\n<p><strong>Self Destruct Aftermath</strong></p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>d8</th>\n<th>Effect</th>\n<th>Replacement Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Damage to voice and expression modulators. You have disadvantage on Charisma checks and saving throws.</td>\n<td>1,000 credits</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Damage to auxiliary CPUs. You have disadvantage on Intelligence checks and saving throws.</td>\n<td>1,000 credits</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Damage to power modulators. You have disadvantage on all ability checks.</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Loss of 1 arm. You cannot perform tasks or take actions that would require two hands.</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Loss of 1 leg. Your speed becomes 6 meters, you cannot take the Dash action, and you have disadvantage on Dexterity saving throws.</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Loss of one leg and one arm. Combined effects of 4 and 5 on this table.</td>\n<td>4,000 credits</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Loss of lower body. Your speed becomes 2 meters, you cannot take the Dash action, and you automatically fail Dexterity saving throws.</td>\n<td>5,000 credits</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Loss of both arms. You cannot wield weapons or cast powers.</td>\n<td>4,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "self-destruct"
   },
   {
     "species": [
@@ -1882,8 +1984,7 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "stealth"
       }
     ],
@@ -1897,14 +1998,22 @@
     ],
     "mechanics": [
       {
-        "type": "prof",
-        "profType": "skill",
+        "type": "skill",
         "value": "survival"
       }
     ],
     "name": "Survivalist",
     "html": "<p>Angara have a knack for living in harsh environments. You have proficiency in the Survival skill.</p>\n",
     "id": "survivalist"
+  },
+  {
+    "name": "Swarm Tactics",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [],
+    "html": "<p>Your underlying LOKI programming is built on swarming enemies with superior numbers. Once per turn, you have advantage on\nan attack roll against a creature if at least one of your allies is within 2 meters of the creature and the\nally isn’t incapacitated.</p>\n",
+    "id": "swarm-tactics"
   },
   {
     "species": [

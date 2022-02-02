@@ -748,7 +748,8 @@
         ]
       },
       {
-        "type": "fighting-style-choice",
+        "type": "model-choice",
+        "model": "fighting-styles",
         "options": true,
         "limit": [
           "ambidextrous",

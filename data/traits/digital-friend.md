@@ -10,4 +10,5 @@ mechanics:
 ---
 You are proficient in Persuasion.
 
-Additionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must finish a short rest before you use it again.
+Additionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must
+finish a short rest before you use it again.

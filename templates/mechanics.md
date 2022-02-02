@@ -35,7 +35,7 @@ resource:
 
 # bonus
 bonus:
-  type: enum [flat, mod, proficiency, level]
+  type: enum [flat, mod, proficiency, level, hp]
   value: integer, string, or null
   multiplier: 1,
   min: integer # default 0
@@ -105,12 +105,6 @@ mechanics:
     speed: enum [walk, fly, burrow, swim, climb]
     distance: integer
     note: string #note is optional.
-# Fighting Styles
-  - type: fighting-style
-    value: enum [fighting-styles]
-  - type: fighting-style-choice
-    options: true
-    limit: enum [fighting-styles]
 # Senses
   - type: sense
     sense: enum [senses]
@@ -146,7 +140,8 @@ mechanics:
       note: string
     notes:
       - string # optional, appends to damage type as a caveat or used to display text for special damage types
-    shortDesc: string # optional
+    shortDesc: string # optional, gets it's own object
+    baseGroup: string (adds the string to the base group), i.e. actions > use an object, dash, etc
     moreInfo: # can also be false to override
       component: string
       bind: object

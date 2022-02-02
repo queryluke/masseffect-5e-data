@@ -28,5 +28,5 @@ mechanics:
     append:
       mod: wis
       resource:
-        displayType: checkbox
+        id: innate-biotics
 ---

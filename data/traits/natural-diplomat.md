@@ -1,8 +1,7 @@
 ---
 species: [lifestage-matron]
 mechanics:
-  - type: prof
-    profType: skill
+  - type: skill
     value: persuasion
   - type: skill-choice
     options: true
