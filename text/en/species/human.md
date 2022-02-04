@@ -1,5 +1,6 @@
 ---
 name: Human
+abilityScoreIncrease: +1 to all ability scores
 alignment: >-
   Humans tend toward no particular alignment. The best and the worst are found
   among them.

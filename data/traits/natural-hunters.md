@@ -2,10 +2,8 @@
 species:
   - drell
 mechanics:
-  - id: natural-hunters
-    type: profs
-    subType: skill
-    choices:
-      items: [athletics,perception,stealth,survival]
-      count: 2
+  - type: skill-choice
+    options: true
+    limit: [athletics, acrobatics, perception, stealth, survival]
+    selections: 2
 ---

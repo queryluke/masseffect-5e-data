@@ -1,13 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: con
-  - amount: 1
-    ability: str
-speed:
-  - type: walk
-    speed: 30
-    color: Your speed is not slowed by heavy armor.
 bodyImg: >-
   http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -36,5 +27,17 @@ randomDimensions:
         dieCount: 1
         dieType: 20
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+group: primary
+mechanics:
+  - type: asi
+    amount: 2
+    ability: con
+  - type: asi
+    amount: 1
+    ability: str
+  - type: speed
+    speed: walk
+    distance: 30
+  - type: nullify-armor-str-restriction
 ---

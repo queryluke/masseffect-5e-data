@@ -1,16 +1,15 @@
 ---
 name: Tentacles
 ---
-You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms, meaning
-you can only wield weapons with the _light_ property. 
+You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms.
+You can only wield weapons with the light property.
 
-In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. If you hit with them, 
-you deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for 
-an unarmed strike. Immediately after hitting a target with your tentacle attack, you can attempt to grapple the target 
-as a bonus action.
+In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. When you attack
+with multiple tentacles simultaneously, gain a +1 bonus to the attack roll for each additional tentacle used.
 
-If a creature is grappled by one of your tentacles, you may use your action to secrete a toxin into the creature.
-It must succeed a Constitution saving throw or becomes <me-condition id="poisoned"/> for 1 hour. The DC of this
-saving throw is equal to 11 + your proficiency bonus.
+When you hit with your tentacles, you deal 1d8 poison damage and the target must succeed on a
+Constitution saving throw or become poisoned for one minute. The DC of this saving throw is equal to
+10 + your proficiency bonus + the number of tentacles used on this attack.
+
 
 

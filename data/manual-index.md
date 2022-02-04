@@ -88,7 +88,7 @@
       sections: []
       is_change: false
       is_new: false
-    - id: variant-paragon-renegade
+    - id: reputation
       sections: []
       is_change: false
       is_new: true

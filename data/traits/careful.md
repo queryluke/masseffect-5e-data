@@ -2,12 +2,11 @@
 species:
   - elcor
 mechanics:
-  - type: profs
-    subType: skill
-    has:
-      - insight
-      - perception
+  - type: skill
+    value: insight
+  - type: skill
+    value: perception
   - type: initiative
-    has:
-      disadvantage: true
+    effect:
+      type: disadvantage
 ---

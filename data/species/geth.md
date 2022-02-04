@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: int
-  - amount: 1
-    ability: str
-speed:
-  - type: walk
-    speed: 30
 bodyImg: >-
   http://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -35,5 +27,11 @@ randomDimensions:
         dieCount: 1
         dieType: 8
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+group: villainous
+subspecies: mobile-platform
+mechanics:
+  - type: asi
+    amount: 2
+    ability: int
 ---

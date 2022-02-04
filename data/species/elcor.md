@@ -1,13 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: str
-  - amount: 1
-    ability: wis
-speed:
-  - type: walk
-    speed: 20
-    color: Elcor are relatively slow compared to other species.
 bodyImg: https://data.n7.world/images/species/elcor.png
 img: https://data.n7.world/images/species/elcor_card.jpg
 randomDimensions:
@@ -34,5 +25,16 @@ randomDimensions:
         dieCount: 1
         dieType: 20
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+group: lesser_known
+mechanics:
+  - type: asi
+    amount: 2
+    ability: str
+  - type: asi
+    amount: 1
+    ability: wis
+  - type: speed
+    speed: walk
+    distance: 20
 ---

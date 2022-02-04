@@ -2,6 +2,7 @@
 level: 2
 klass: vanguard
 mechanics:
-  uses: 1
-  recharge: short
+  - type: other
+    resource:
+      reset: short
 ---

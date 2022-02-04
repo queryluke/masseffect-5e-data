@@ -1,13 +1,10 @@
 ---
 startingCredits: 3000
 mechanics:
-  - type: profs
-    subType: tool
-    has:
-      - medical-kit
-  - type: profs
-    subType: skill
-    has:
-      - medicine
-      - science
+  - type: tool
+    value: medical-kit
+  - type: skill
+    value: medicine
+  - type: skill
+    value: science
 ---

@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: wis
-  - amount: 1
-    ability: dex
-speed:
-  - type: walk
-    speed: 30
 bodyImg: https://data.n7.world/images/species/prothean.png
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802
@@ -34,5 +26,14 @@ randomDimensions:
         dieCount: 1
         dieType: 4
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+group: expanded
+subspecies: avatar
+mechanics:
+  - type: asi
+    amount: 2
+    ability: wis
+  - type: speed
+    speed: walk
+    distance: 30
 ---

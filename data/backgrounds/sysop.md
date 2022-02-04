@@ -1,14 +1,12 @@
 ---
 startingCredits: 1000
 mechanics:
-  - type: profs
-    subType: tool
-    has:
-      - hacking-tools
-      - starship-system-ews
-  - type: profs
-    subType: skill
-    has:
-      - electronics
-      - investigation
+  - type: tool
+    value: hacking-tools
+  - type: tool
+    value: starship-system-ews
+  - type: skill
+    value: electronics
+  - type: skill
+    value: investigation
 ---

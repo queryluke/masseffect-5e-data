@@ -1,5 +1,6 @@
 ---
 name: Batarian
+abilityScoreIncrease: +1 to all ability scores
 alignment: >-
   Because of the tenets of Hegemony, batarians tend to be lawful evil, although
   there are outliers on the moral spectrum.

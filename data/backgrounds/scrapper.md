@@ -1,20 +1,16 @@
 ---
 startingCredits: 500
 mechanics:
-  - id: scrapper-tool
-    type: profs
-    subType: tool
-    has:
-      - tinkers-tools
-    choices:
-      items:
-        - starship-system-drive
-        - starship-system-ssc
-        - starship-system-weapons
-      count: 1
-  - type: profs
-    subType: skill
-    has:
-      - engineering
-      - survival
+  - type: tool
+    value: tinkers-tools
+  - type: tool-choice
+    options: true
+    limit:
+      - starship-system-drive
+      - starship-system-ssc
+      - starship-system-weapons
+  - type: skill
+    value: engineering
+  - type: skill
+    value: survival
 ---

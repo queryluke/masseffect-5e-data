@@ -1,9 +1,8 @@
 ---
 species:
   - geth
+  - hardware-aiu
 mechanics:
-  - type: action
-    subType: traits
-    has:
-      id: repair-matrix
+  - type: repair-matrix
+  - type: regain-all-hit-dice
 ---

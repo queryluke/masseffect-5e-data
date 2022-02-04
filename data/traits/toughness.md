@@ -1,5 +1,12 @@
 ---
 species:
+  - cybernetic-augmentation-visceral
   - krogan
-mechanics: []
+  - tankbred
+mechanics:
+  - type: hp
+    bonus:
+      type: level
+      value: 1
+      multiplier: 1
 ---

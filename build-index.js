@@ -6,7 +6,7 @@ function setType(dir) {
   const types = [
     {
       type: 'character',
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features']
     },
     {
       type: 'equipment',
@@ -32,7 +32,7 @@ function setPrimaryType(dir, messages) {
   const types = [
     {
       type: messages.character_title.split('|')[0].trim(),
-      items: ['backgrounds', 'feats', 'species', 'traits', 'species-variants', 'class-features']
+      items: ['backgrounds', 'feats', 'species', 'traits', 'class-features']
     },
     {
       type: messages.equipment_title.split('|')[0].trim(),
@@ -62,7 +62,8 @@ function setSubtype(file, messages) {
     case 'class-features':
     case 'species':
       return messages.class_title.split('|')[1].trim()
-    case 'species-variants':
+    case 'subspecies':
+    case 'subspecies-options':
     case 'traits':
       return messages.species_title.split('|')[1].trim()
     case 'powers':
@@ -99,7 +100,6 @@ const files = [
   'mods',
   'powers',
   'species',
-  'species-variants',
   'traits',
   'weapons',
   'weapon-properties'
@@ -114,6 +114,7 @@ for (const lang of langs) {
   const classes = require(`${versionDir}/${lang}/classes.json`)
   const subclasses = require(`${versionDir}/${lang}/subclasses.json`)
   const species = require(`${versionDir}/${lang}/species.json`)
+  const traits = require(`${versionDir}/${lang}/traits.json`)
 
   for (const file of files) {
     const items = require(`${versionDir}/${lang}/${file}.json`)
@@ -197,18 +198,23 @@ for (const lang of langs) {
           }
           break
 
-        // VARIANTS
-        case 'species-variants':
-          searchItem.link = false
-          const vRace = species.find(i => i.id === item.species)
-          searchItem.qualifiers.push(vRace.name)
-          searchItem.qualifiers.push(messages.variants_title)
+        // SUBSPECIES
+        case 'subspecies-options':
+          /*
+          const ssRace = species.find(i => i.id === item.species)
+          const ssTrait = traits.find(i => i.subspecies && i.species.includes(ssRace.id))
+          searchItem.qualifiers.push(ssRace.name)
+          searchItem.qualifiers.push(ssTrait.name)
           searchItem.qualifiers.push(item.name)
-          searchItem.html = item.html
+
+           */
+          // FIXME: can be species or subspecies
+          // searchItem.link = `/species/${ssRace.id}`
           break
 
         // TRAITS
         case 'traits':
+          /*
           searchItem.link = false
           if (item.species.length > 1) {
             let newSearchItem = {}
@@ -225,6 +231,7 @@ for (const lang of langs) {
           searchItem.qualifiers.push(race.name)
           searchItem.qualifiers.push(messages.traits_title)
           searchItem.html = item.html
+           */
           break
 
         // WEAPON PROPERTIES

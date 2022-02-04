@@ -1,5 +1,8 @@
 ---
 name: Drell
+speedColor: >-
+  Their light frames and wiry strength make drell slightly faster than other
+  species.
 alignment: >-
   Their religious influences set the Drell firmly in a trend towards lawful
   neutral, but this is often dependent on their station in life and career.

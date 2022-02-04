@@ -1,5 +1,7 @@
 ---
 name: Geth
+speedColor: >-
+  Your speed is determined by your mobile platform chosen below.
 alignment: >-
   Your standard Geth platform is neutral good, wanting to prosper and
   communicate with others, defending themselves only if threatened. Heretics are

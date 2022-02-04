@@ -1,15 +1,12 @@
 ---
 startingCredits: 1000
 mechanics:
-  - id: crewman-tool
-    type: profs
-    subType: tool
-    choices:
-      items: [starship]
-      count: 2
-  - type: profs
-    subType: skill
-    has:
-      - electronics
-      - engineering
+  - type: tool-choice
+    options: true
+    limit: starship
+    selections: 2
+  - type: skill
+    value: electronics
+  - type: skill
+    value: engineering
 ---

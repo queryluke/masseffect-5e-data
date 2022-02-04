@@ -1,5 +1,8 @@
 ---
 species:
   - prothean
-mechanics: []
+  - prothean-no-avatar
+mechanics:
+  - type: other
+    resource: {}
 ---

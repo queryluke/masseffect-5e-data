@@ -1,6 +1,7 @@
 ---
 name: Hanar
 alignment: Most hanar are lawful due to the religious influence on their society.
+speedColor: Hanar are a water-based lifeform.
 size: >-
   Due to their long tentacles, hanar "stand" about as tall as humans. Their
   bodies are around 1.5 meters long (4-5'). Your size is Medium.

@@ -2,12 +2,10 @@
 species:
   - angara
 mechanics:
-  - type: ac
-    has:
-      bonus: 1
-  - type: defenses
-    subType: resistance
-    has:
-      id: lightning
-      note: does not apply to shields
+  - type: resistance
+    value: lightning
+    note: only applies to hit points
+  - type: resistance
+    value: cold
+    note: only applies to hit points
 ---

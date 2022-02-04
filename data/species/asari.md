@@ -1,12 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: cha
-  - amount: 1
-    ability: wis
-speed:
-  - type: walk
-    speed: 30
 bodyImg: >-
   http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -36,4 +28,13 @@ randomDimensions:
         dieType: 4
         divisor: 2
 galaxy: milky_way
+group: primary
+subspecies: lifestage
+mechanics:
+  - type: asi
+    amount: 1
+    ability: wis
+  - type: speed
+    speed: walk
+    distance: 30
 ---

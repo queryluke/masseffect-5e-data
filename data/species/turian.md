@@ -1,14 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 1
-    ability: con
-  - amount: 1
-    ability: dex
-  - amount: 1
-    ability: str
-speed:
-  - type: walk
-    speed: 30
 bodyImg: >-
   http://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500
 img: >-
@@ -37,5 +27,17 @@ randomDimensions:
         dieCount: 1
         dieType: 10
         divisor: 2
-galaxy: ''
+galaxy: milky_way
+group: primary
+subspecies: military-doctrine
+mechanics:
+  - type: asi
+    amount: 1
+    ability: con
+  - type: asi
+    amount: 1
+    ability: dex
+  - type: speed
+    speed: walk
+    distance: 30
 ---

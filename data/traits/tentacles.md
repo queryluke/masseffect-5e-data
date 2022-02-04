@@ -3,21 +3,18 @@ species:
   - hanar
 mechanics:
   - type: attack
-    has:
-      id: tentacle-attack
-      name: Tentacle Attack
-      range: 5
-      damage:
-        type: bludgeoning
-        dieCount: 1
-        dieType: 6
+    attack:
+      proficient: true
       mod: str
-  - type: bonus
-    subType: traits
-    has:
-      id: tentacles
-  - type: action
-    subType: traits
-    has:
-      id: tentacles
+    damage:
+      - dieCount: 1
+        dieType: 8
+        type: poison
+    dc:
+      base: 11
+      proficient: true
+      save: con
+    notes:
+      - +1 to attack roll and dc for each additional tentacle used.
+      - On a failed save, target is poisoned for 1 minute.
 ---
