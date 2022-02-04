@@ -692,6 +692,13 @@
   {
     "level": 2,
     "klass": "sentinel",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
     "name": "Fighting Style",
     "html": "<p>At 2nd level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n<p><strong>The Free Hand.</strong> When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" />\nof you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack\nhits, the damage is reduced by your barrier tick roll.</p>\n<p><strong>Sniper.</strong> If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks\nmade with a sniper rifle.</p>\n",
     "id": "fighting-style-sentinel"
@@ -699,6 +706,13 @@
   {
     "level": 1,
     "klass": "soldier",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
     "name": "Fighting Style",
     "html": "<p>At 1st level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n<p><strong>The Free Hand.</strong> When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" />\nof you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack\nhits, the damage is reduced by your barrier tick roll.</p>\n<p><strong>Sniper.</strong> If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks\nmade with a sniper rifle.</p>\n",
     "id": "fighting-style-soldier"
@@ -706,6 +720,13 @@
   {
     "level": 1,
     "klass": "vanguard",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
     "name": "Fighting Style",
     "html": "<p>At 1st level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n<p><strong>The Free Hand.</strong> When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" />\nof you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack\nhits, the damage is reduced by your barrier tick roll.</p>\n<p><strong>Sniper.</strong> If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks\nmade with a sniper rifle.</p>\n",
     "id": "fighting-style-vanguard"

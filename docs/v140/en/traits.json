@@ -23,99 +23,7 @@
     "species": [
       "vorcha"
     ],
-    "mechanics": [
-      {
-        "type": "picker",
-        "id": "adaptation",
-        "choices": {
-          "items": [
-            {
-              "id": "aquatic",
-              "mechanics": [
-                {
-                  "type": "speed",
-                  "has": {
-                    "type": "swim",
-                    "speed": 30
-                  }
-                }
-              ]
-            },
-            {
-              "id": "desert",
-              "mechanics": [
-                {
-                  "type": "ability",
-                  "has": {
-                    "ability": "con",
-                    "bonus": 1
-                  }
-                }
-              ]
-            },
-            {
-              "id": "frozen",
-              "mechanics": [
-                {
-                  "type": "defenses",
-                  "subType": "resistance",
-                  "has": {
-                    "id": "cold"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "high_gravity",
-              "mechanics": [
-                {
-                  "type": "ability",
-                  "has": {
-                    "ability": "str",
-                    "bonus": 1
-                  }
-                }
-              ]
-            },
-            {
-              "id": "underground",
-              "mechanics": [
-                {
-                  "type": "sense",
-                  "has": {
-                    "id": "darkvision",
-                    "distance": 60
-                  }
-                },
-                {
-                  "type": "sense",
-                  "has": {
-                    "id": "blindsight",
-                    "distance": 30
-                  }
-                }
-              ]
-            },
-            {
-              "id": "volcanic",
-              "mechanics": [
-                {
-                  "type": "defenses",
-                  "subType": "resistance",
-                  "has": {
-                    "id": "fire"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "zero_gravity",
-              "mechanics": []
-            }
-          ]
-        }
-      }
-    ],
+    "mechanics": [],
     "name": "Adaptation",
     "html": "<p>Growing up in a harsh environment, your body evolved so you could survive. Choose one of the following environments:</p>\n<ul>\n<li><strong>Aquatic</strong>: Amphibious. Swim speed <me-distance length=\"30\" />.</li>\n<li><strong>Desert</strong>: Constitution +1. Ignore one level of exhaustion.</li>\n<li><strong>Frozen</strong>: Resistance to cold damage.</li>\n<li><strong>High-gravity</strong>: Strength +1.</li>\n<li><strong>Underground</strong>: Darkvision <me-distance length=\"60\" />. Blindsight <me-distance length=\"30\" />.</li>\n<li><strong>Volcanic</strong>: Resistance to fire damage.</li>\n<li><strong>Zero-gravity</strong>: While lifted or in zero-g, your speed is <me-distance length=\"5\" /> and you do not have disadvantage on your attack rolls.</li>\n</ul>\n",
     "id": "adaptation"
@@ -336,27 +244,7 @@
     "species": [
       "vorcha"
     ],
-    "mechanics": [
-      {
-        "name": "Bite",
-        "moreInfo": {
-          "model": "traits",
-          "id": "bite"
-        },
-        "type": "attack",
-        "has": {
-          "id": "bite-attack",
-          "name": "Bite Attack",
-          "range": 5,
-          "damage": {
-            "type": "piercing",
-            "dieCount": 1,
-            "dieType": 6
-          },
-          "mod": "str"
-        }
-      }
-    ],
+    "mechanics": [],
     "name": "Bite",
     "html": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>\n",
     "id": "bite"
@@ -829,22 +717,7 @@
     "species": [
       "kett"
     ],
-    "mechanics": [
-      {
-        "type": "model-choice",
-        "options": true,
-        "model": "species",
-        "append": {
-          "limit": [
-            "skill",
-            "skill-choice",
-            "asi",
-            "asi-choice",
-            "speed"
-          ]
-        }
-      }
-    ],
+    "mechanics": [],
     "html": "<p>You are an exalted version of another species. Pick an organic specie (or synthetic at you\nGM's discretion) species and gain the following elements from it: any ability score increases, any skill\nproficiencies, and any climbing, flying, or swimming speed.</p>\n<p>If you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.</p>\n",
     "id": "exalted-lineage"
   },
@@ -1232,16 +1105,7 @@
     "species": [
       "volus"
     ],
-    "mechanics": [
-      {
-        "type": "limited",
-        "has": {
-          "id": "lucky",
-          "uses": 3,
-          "recharge": "long"
-        }
-      }
-    ],
+    "mechanics": [],
     "name": "Lucky",
     "html": "<p>You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one\nluck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die,\nbut before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</p>\n<p>You can also spend one luck point when an attack roll is made against you. Roll a d20, and then\nchoose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to\ninfluence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</p>\n<p>You regain your expended luck points when you finish a long rest.</p>\n",
     "id": "lucky"
@@ -1442,15 +1306,7 @@
     "species": [
       "vorcha"
     ],
-    "mechanics": [
-      {
-        "type": "defenses",
-        "subType": "resistance",
-        "has": {
-          "id": "poison"
-        }
-      }
-    ],
+    "mechanics": [],
     "name": "Non-Differentiated Cells",
     "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage.</p>\n",
     "id": "non-differentiated-cells"
@@ -1528,22 +1384,7 @@
     "species": [
       "volus"
     ],
-    "mechanics": [
-      {
-        "type": "defenses",
-        "subType": "resistance",
-        "has": {
-          "id": "poison"
-        }
-      },
-      {
-        "type": "defenses",
-        "subType": "resistance",
-        "has": {
-          "id": "necrotic"
-        }
-      }
-    ],
+    "mechanics": [],
     "name": "Pressurized Suit",
     "html": "<p>Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gels as part of your\nstarting equipment.</p>\n<p>If you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus appropriate environment within\n10 minutes, you die.</p>\n",
     "id": "pressurized-suit"
@@ -1720,12 +1561,7 @@
     "species": [
       "volus"
     ],
-    "mechanics": [
-      {
-        "type": "skill",
-        "value": "persuasion"
-      }
-    ],
+    "mechanics": [],
     "name": "Savvy Dealings",
     "html": "<p>You have proficiency in the Persuasion skill.</p>\n",
     "id": "savvy-dealings"

@@ -2035,5 +2035,76 @@
     "html": "<p>The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.</p>\n<h3>Non-differentiated cells</h3>\n<p>The vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.</p>\n<h3>Clan Violence</h3>\n<p>Vorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien species. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.</p>\n<h3>Vorcha Names</h3>\n<p>Like their lifespans, vorcha names are brutal and short.</p>\n<p><strong>Male names</strong>: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,</p>\n<p><strong>Female names</strong>: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath</p>\n<p><me-source-reference pages=\"Vorcha\" source=\"wiki\"></me-source-reference></p>\n",
     "id": "vorcha",
     "subspecies": false
+  },
+  {
+    "name": "Yahg",
+    "speedColor": "Your speed is not reduced by wearing armor.",
+    "alignment": "Yahg are an aggressive species that tend to focus on their own needs over others. Often chaotic, their intentions are generally neutral or evil.",
+    "size": "Yahg average around 2 meters tall (between 6' to 8') and weigh between 250 and 350 pounds. Your size is Medium.",
+    "snippet": "The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and aggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.",
+    "age": "Yahg have natural lifespans comparable to humans.",
+    "bodyImg": "/images/species/yahg.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/75/Sur%27kesh_yahg.png/revision/latest/scale-to-width-down/722?cb=20120724103813",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 81,
+          "metric": 206
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 4
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 330,
+          "metric": 150
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 20
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 20,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "villainous",
+    "homeworld": "Parnack",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      },
+      {
+        "type": "nullify-armor-str-restriction"
+      }
+    ],
+    "html": "<p>The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and\naggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.</p>\n<h3>Apex Predator</h3>\n<p>The yahg evolved to fill the niche of apex predator on Parnack. Yahg have four pairs of eyes, each pair designed to\ntrack and predict the movements of prey. A keen sensitivity to movement and light allows the yahg to easily read the\nbody language of any species, making it almost impossible to lie to a yahg.</p>\n<p>They have scaly, partially armored skin, a triangular mouth adorned with sharp teeth, two large horns and facial\nmarkings on their heads. Their hands each have three fingers which include a thumb, as well as three toes on each foot.</p>\n<p>The yahg possess a large, muscular body, standing over even the krogan, which provides considerable physical strength and agility.</p>\n<h3>Discovery</h3>\n<p>When Parnack was discovered by Citadel Council surveyors in 2125 CE, the yahg were a pre-spaceflight civilization with\ntechnology equivalent to that of 20th century Earth. A Council delegation of ambassadors made first contact with the\nyahg and attempted to establish diplomatic relations. Unfortunately, the yahg perceived the ambassadors' attitudes and\nbehavior as equal individuals instead of subordinates as a sign of contempt, and attacked and massacred the entire\ndelegation. Immediately following that incident, the Citadel Council severed all contact with the yahg and declared\nParnack off-limits. The Council maintains that the yahg's aggression and obsession with control make them poorly suited\nto integrate with the galactic community.</p>\n<h3>Clan Culture</h3>\n<p>Yahg society is built around a pack mentality. A group of yahg will not cooperate until a single leader has attained\ndominance through either social maneuvering or brute force. Once the leader is established, the defeated yahg do not\nhold a grudge and former rivals serve their new superior loyally. Due to this mentality, the concept of equality is\noffensive to them.</p>\n<h3>Yahg Names</h3>\n<p>Yahg individuals typically carry three names with them. The first name is their status name, representing their status\nwithin their clan. This name can change often. The second name is their isle name, which represents one of the\ncontinents of Parnack. The final name is their given name.</p>\n<p><strong>Status names</strong>: Bahk (Shamed), Daug (Vanished), Eobath (Champion), Pique (Adored), Wooban (Honored), Yolat (Victorious)</p>\n<p><strong>Clan/Isle names</strong>: Chend, Foesk, Gohm-Hak, Gohm-Nur, Icktah, Kurteck, Koltash, Mokash, Niche, Soltahg</p>\n<p><strong>Given Names</strong>: Bak, Behm, Chok, Dut, Dahm, Fosk, Gur, Kaht, Mos, Nur, Par, Tur</p>\n",
+    "id": "yahg",
+    "subspecies": false
   }
 ]

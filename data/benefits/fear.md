@@ -14,7 +14,10 @@ mechanics:
       mod: cha
       save: wis
 ---
-When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.
+You attempt to frighten a sentient creature (Intelligence 4 or more) that can see or hear you. It must succeed on a
+Wisdom saving throw or it becomes frightened of you for 1 minute. The creature may use its action to make another
+Wisdom saving throw on each of its turns. On a successful save, it is no longer frightened of you.
 
-You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).
+You may use this benefit once per long rest.
+
 
