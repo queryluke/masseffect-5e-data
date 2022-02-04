@@ -1,5 +1,7 @@
 ---
 species:
   - volus
-mechanics: []
+mechanics:
+  - type: skill
+    value: persuasion
 ---
