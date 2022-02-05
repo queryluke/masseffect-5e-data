@@ -2675,7 +2675,7 @@
       "sentinel"
     ],
     "name": "Nanite Cloud",
-    "reactionQualifier": " which you take when you would take acid damage",
+    "reactionQualifier": " which you take when you would take acid, cold, fire, lightning, or thunder damage.",
     "html": "<p>Deploy a cloud of fabricated nanites from your omni-tool that swarm and capture incoming energy from an attack, lessening\nits effect on you and storing it for your next attack. Until the end of your next turn, you gain resistance to the\ntriggering damage type, including against the triggering attack.</p>\n<p>The next time you hit with a melee attack or single-target, tech power, the target takes an extra 4d6 damage of the triggering\ndamage type, and the power ends.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d6\nfor each power slot about the 1st.</p>\n",
     "id": "nanite-cloud"
   },
