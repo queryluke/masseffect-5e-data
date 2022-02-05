@@ -147,6 +147,13 @@ mechanics:
       bind: object
       model: string
       id: string
+  - type: model-choice
+    options: true
+    label: string
+    model: string
+    limits:
+      - attr: string
+        value: []
 
 # TODO
 # choices
@@ -162,14 +169,7 @@ mechanics:
   #    3.2 hydrate with appends
           # find matching model choice from this.UNHYDRATED_MECHANIC_BAG.filter(i => type = 'model-choice' && appendId)
   # unsure if this is achievable
-  - type: model-choice
-    options: true
-    label: string
-    model: string
-    limits:
-      - attr: string
-        value: []
-    append: any
+
 
 
 # Unique
@@ -188,7 +188,8 @@ mechanics:
   - type: regenerative-burst
   - type: repair-matrix
   - type: imprinted-enemies # can be model choice
-# augments
+  - type: advanced-medigel-application #d6 for medigel
+# augments?
   - type: augment
     model: enum [weapon, power]
     modelId: string
@@ -207,9 +208,12 @@ mechanics:
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
-- type: advanced-medigel-application #d6 for medigel
+
 
 ---
+
+- [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,
+  or and id of omni-gel...but the quantity of omni-gel is stored on the equipment model
 
 
 Display (Attacks, Actions, Bonus Actions, Reactions)
