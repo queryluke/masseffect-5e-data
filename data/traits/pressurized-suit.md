@@ -1,9 +1,14 @@
 ---
 species:
-<<<<<<< HEAD:data/traits/pressurized-suit.md
   - volus
-=======
-  - elcor
->>>>>>> master:data/traits/tripedal-combat.md
-mechanics: []
+mechanics:
+  - type: resistance
+    value: poison
+    note: while within your pressurized suit
+  - type: resistance
+    value: necrotic
+    note: while within your pressurized suit
+  - type: condition-immunity
+    value: false
+    note: immune to disease while within your hermetic suit
 ---

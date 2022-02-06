@@ -190,6 +190,7 @@ mechanics:
   - type: imprinted-enemies # can be model choice
   - type: speed-note
 # augments
+  - type: advanced-medigel-application #d6 for medigel
   - type: augment
     model: enum [weapon, power]
     modelId: string
@@ -208,10 +209,11 @@ mechanics:
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
-- type: advanced-medigel-application #d6 for medigel
 
 ---
 
+- [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,
+  or and id of omni-gel...but the quantity of omni-gel is stored on the equipment model
 
 Display (Attacks, Actions, Bonus Actions, Reactions)
 ______________________________________________________________________________________

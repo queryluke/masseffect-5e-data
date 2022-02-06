@@ -11,13 +11,4 @@ mechanics:
   - type: condition-immunity
     value: false
     note: immune to disease while within your hermetic suit
-  - type: action
-    resource:
-      displayType: counter
-      reset: off
-      max:
-        type: omni-gel
-  - type: starting-equipment
-    equipmentType: omni-gel
-    value: 3
 ---
