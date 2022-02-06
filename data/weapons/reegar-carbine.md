@@ -10,7 +10,7 @@ damage:
   dieType: 12
   type: lightning
 range: 15
-image: http://vignette2.wikia.nocookie.net/masseffect/images/6/60/ME3_Reegar_Carbine.png/revision/latest?cb=20120530214009
+image: https://vignette2.wikia.nocookie.net/masseffect/images/6/60/ME3_Reegar_Carbine.png/revision/latest?cb=20120530214009
 andromeda: false
 properties:
   - two-handed

@@ -10,7 +10,7 @@ damage:
   dieType: 4
   type: piercing
 range: 200
-image: http://vignette1.wikia.nocookie.net/masseffect/images/2/2f/ME3_Krysae_Sniper_Rifle.png/revision/latest?cb=20120530214006
+image: https://vignette1.wikia.nocookie.net/masseffect/images/2/2f/ME3_Krysae_Sniper_Rifle.png/revision/latest?cb=20120530214006
 andromeda: false
 properties:
   - two-handed

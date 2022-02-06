@@ -10,7 +10,7 @@ damage:
   dieType: 10
   type: piercing
 range: 75
-image: http://vignette3.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png/revision/latest?cb=20120317185630
+image: https://vignette3.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png/revision/latest?cb=20120317185630
 andromeda: false
 properties:
   - double-tap

@@ -10,7 +10,7 @@ damage:
   dieType: 12
   type: piercing
 range: 25
-image: http://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Striker_Assault_Rifle.png/revision/latest?cb=20120411201310
+image: https://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Striker_Assault_Rifle.png/revision/latest?cb=20120411201310
 andromeda: false
 properties:
   - recoil

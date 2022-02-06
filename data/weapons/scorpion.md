@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: thunder
 range: 50
-image: http://vignette3.wikia.nocookie.net/masseffect/images/4/40/ME3_Scorpion_Heavy_Pistol.png/revision/latest?cb=20120317185843
+image: https://vignette3.wikia.nocookie.net/masseffect/images/4/40/ME3_Scorpion_Heavy_Pistol.png/revision/latest?cb=20120317185843
 andromeda: false
 properties:
   - special

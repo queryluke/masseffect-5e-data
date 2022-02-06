@@ -1,6 +1,6 @@
 ---
 bodyImg: >-
-  http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500
+  https://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/7/7c/Grissom_Academy_Students.png/revision/latest/scale-to-width-down/640?cb=20120312230100
 randomDimensions:

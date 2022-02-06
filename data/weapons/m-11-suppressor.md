@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: piercing
 range: 50
-image: http://vignette1.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png/revision/latest?cb=20130227094606
+image: https://vignette1.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png/revision/latest?cb=20130227094606
 andromeda: false
 properties:
   - silent

@@ -10,7 +10,7 @@ damage:
   dieType: 4
   type: piercing
 range: 50
-image: http://vignette1.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png/revision/latest?cb=20120317185811
+image: https://vignette1.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png/revision/latest?cb=20120317185811
 andromeda: false
 properties:
   - burst-fire

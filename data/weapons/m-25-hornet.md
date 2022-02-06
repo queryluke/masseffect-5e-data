@@ -10,7 +10,7 @@ damage:
   dieType: 4
   type: piercing
 range: 20
-image: http://vignette3.wikia.nocookie.net/masseffect/images/6/66/ME3_Hornet_Smg.png/revision/latest?cb=20120317184337
+image: https://vignette3.wikia.nocookie.net/masseffect/images/6/66/ME3_Hornet_Smg.png/revision/latest?cb=20120317184337
 andromeda: false
 properties:
   - double-tap

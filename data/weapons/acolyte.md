@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: force
 range: 50
-image: http://vignette3.wikia.nocookie.net/masseffect/images/b/b9/ME3_Acolyte_Pistol.png/revision/latest?cb=20120714073045
+image: https://vignette3.wikia.nocookie.net/masseffect/images/b/b9/ME3_Acolyte_Pistol.png/revision/latest?cb=20120714073045
 andromeda: false
 properties:
   - light

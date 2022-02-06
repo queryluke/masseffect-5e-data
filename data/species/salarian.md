@@ -1,6 +1,6 @@
 ---
 bodyImg: >-
-  http://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500
+  https://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/3/39/Mordin_-_objection_noted.png/revision/latest/scale-to-width-down/640?cb=20141223052318
 randomDimensions:

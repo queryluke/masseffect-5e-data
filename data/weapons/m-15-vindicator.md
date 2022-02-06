@@ -10,7 +10,7 @@ damage:
   dieType: 10
   type: piercing
 range: 125
-image: http://vignette2.wikia.nocookie.net/masseffect/images/7/7d/ME3_Vindicator_Assault_Rifle.png/revision/latest?cb=20120317173921
+image: https://vignette2.wikia.nocookie.net/masseffect/images/7/7d/ME3_Vindicator_Assault_Rifle.png/revision/latest?cb=20120317173921
 andromeda: false
 properties:
   - burst-fire

@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: piercing
 range: 125
-image: http://vignette4.wikia.nocookie.net/masseffect/images/6/65/ME3_Saber_Assault_Rifle.png/revision/latest?cb=20120317175044
+image: https://vignette4.wikia.nocookie.net/masseffect/images/6/65/ME3_Saber_Assault_Rifle.png/revision/latest?cb=20120317175044
 andromeda: false
 properties:
   - double-tap

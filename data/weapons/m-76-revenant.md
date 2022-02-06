@@ -10,7 +10,7 @@ damage:
   dieType: 4
   type: piercing
 range: 25
-image: http://vignette2.wikia.nocookie.net/masseffect/images/1/17/ME3_Revenant_Assault_Rifle.png/revision/latest?cb=20120317174455
+image: https://vignette2.wikia.nocookie.net/masseffect/images/1/17/ME3_Revenant_Assault_Rifle.png/revision/latest?cb=20120317174455
 andromeda: false
 properties:
   - burst-fire

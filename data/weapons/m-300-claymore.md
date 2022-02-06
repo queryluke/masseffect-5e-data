@@ -10,7 +10,7 @@ damage:
   dieType: 8
   type: piercing
 range: 10
-image: http://vignette4.wikia.nocookie.net/masseffect/images/a/a2/ME3_Claymore_Shotgun.png/revision/latest?cb=20120317200800
+image: https://vignette4.wikia.nocookie.net/masseffect/images/a/a2/ME3_Claymore_Shotgun.png/revision/latest?cb=20120317200800
 andromeda: false
 properties:
   - two-handed

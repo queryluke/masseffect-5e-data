@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: piercing
 range: 10
-image: http://vignette1.wikia.nocookie.net/masseffect/images/a/a2/ME3_Katana_Shotgun.png/revision/latest?cb=20120317200552
+image: https://vignette1.wikia.nocookie.net/masseffect/images/a/a2/ME3_Katana_Shotgun.png/revision/latest?cb=20120317200552
 andromeda: false
 properties:
   - two-handed
