@@ -22,7 +22,7 @@ senses: false
 size: medium
 skills: false
 speed:
-  walk: 25
+  walk: 30
 entries:
   actions:
     - ref: weapon

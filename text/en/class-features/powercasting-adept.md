@@ -19,7 +19,7 @@ cast lance using either slot.
 You know three 1st-level powers of your choice from the adept power list.
 
 The powers Known column of the Adept table shows when you learn more adept powers of your choice. Each of these powers
-must be of a level for which you have power slots. For instance, when you reach 3rd level in this class, you can learn
+must be of a level for which you have power slots. For instance, when you reach 5th level in this class, you can learn
 one new power of 1st or 2nd level.
 
 Additionally, when you learn a new power, you may instead choose one of the powers you know and learn an advanced

@@ -7,7 +7,7 @@ barrier ticks cannot exceed the amount listed in the Barrier Ticks column of you
 ticks gained in excess of this number are lost.
 
 Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply
-any remaining damage it to other hit pools like tech armor, shields, temporary hit points, or hit points.
+any remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.
 
 Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.
 You can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.
