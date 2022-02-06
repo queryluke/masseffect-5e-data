@@ -6,7 +6,7 @@ mechanics:
     ability: cha
     amount: 1
   - type: skill-check
-    skill: [deception, performance]
+    value: [deception, performance]
     effect:
       type: advantage
       note: when attempting to convince a creature you can accomplish a task

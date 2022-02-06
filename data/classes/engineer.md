@@ -21,7 +21,7 @@ profs:
     choices:
       items: [athletics,electronics,engineering,history,investigation,medicine,science,vehicle-handling]
       count: 3
-  savingThrow:
+  saving-throw:
     has:
       - con
       - int

@@ -3,7 +3,7 @@ name: Synthetic Healer
 new: true
 mechanics:
   - type: skill-check
-    skills: [engineering, electronics]
+    value: [engineering, electronics]
     effect:
       type: advantage
       note: to stabilize a synthetic creature

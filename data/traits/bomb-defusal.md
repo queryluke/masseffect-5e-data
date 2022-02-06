@@ -4,7 +4,7 @@ species:
   - military-doctrine-demolitions
 mechanics:
   - type: skill-check
-    limit: [electronics]
+    value: [electronics]
     effect:
       type: advantage
       note: to disarm explosive devices (ex. mines)

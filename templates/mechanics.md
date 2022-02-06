@@ -88,7 +88,7 @@ mechanics:
     value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
 # Saving Throws, skill checks
-  - type: savingThrow
+  - type: saving-throw
     against: array
     value: enum [abilities]
     effect: @effect
@@ -97,7 +97,7 @@ mechanics:
     effect: @effect
 # skill checks
   - type: skill-check
-    limit: enum [skills]
+    value: enum [skills]
     effect: @effect
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
@@ -147,13 +147,6 @@ mechanics:
       bind: object
       model: string
       id: string
-  - type: model-choice
-    options: true
-    label: string
-    model: string
-    limits:
-      - attr: string
-        value: []
 
 # TODO
 # choices
@@ -169,7 +162,14 @@ mechanics:
   #    3.2 hydrate with appends
           # find matching model choice from this.UNHYDRATED_MECHANIC_BAG.filter(i => type = 'model-choice' && appendId)
   # unsure if this is achievable
-
+  - type: model-choice
+    options: true
+    label: string
+    model: string
+    limits:
+      - attr: string
+        value: []
+    append: any
 
 
 # Unique
@@ -188,8 +188,9 @@ mechanics:
   - type: regenerative-burst
   - type: repair-matrix
   - type: imprinted-enemies # can be model choice
+  - type: speed-note
+# augments
   - type: advanced-medigel-application #d6 for medigel
-# augments?
   - type: augment
     model: enum [weapon, power]
     modelId: string
@@ -209,12 +210,10 @@ mechanics:
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
 
-
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,
   or and id of omni-gel...but the quantity of omni-gel is stored on the equipment model
-
 
 Display (Attacks, Actions, Bonus Actions, Reactions)
 ______________________________________________________________________________________

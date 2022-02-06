@@ -500,7 +500,7 @@
       },
       {
         "type": "skill-check",
-        "skill": [
+        "value": [
           "deception",
           "performance"
         ],
@@ -752,11 +752,11 @@
         "model": "fighting-styles",
         "options": true,
         "limit": [
-          "ambidextrous",
-          "assault",
-          "carnage",
-          "close-quarters-shooter",
-          "sniper"
+          "FS_ambidextrous",
+          "FS_assault",
+          "FS_carnage",
+          "FS_close-quarters-shooter",
+          "FS_sniper"
         ]
       },
       {
@@ -1162,7 +1162,7 @@
       },
       {
         "type": "skill-check",
-        "skills": [
+        "value": [
           "acrobatics",
           "athletics"
         ],
@@ -1200,7 +1200,7 @@
       },
       {
         "type": "skill-check",
-        "skills": [
+        "value": [
           "vehicle-handling",
           "acrobatics",
           "stealth",
@@ -1334,7 +1334,7 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "skills": [
+        "value": [
           "engineering",
           "electronics"
         ],

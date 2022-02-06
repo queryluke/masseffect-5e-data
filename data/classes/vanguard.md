@@ -20,7 +20,7 @@ profs:
     choices:
       items: [acrobatics,athletics,deception,insight,intimidation,performance,persuasion,sleight-of-hand,survival]
       count: 3
-  savingThrow:
+  saving-throw:
     has:
       - str
       - wis

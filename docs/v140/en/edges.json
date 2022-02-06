@@ -1,0 +1,937 @@
+[
+  {
+    "name": "Armorsmith",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "armorsmiths-workbench"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_armorsmith"
+  },
+  {
+    "name": "Assassin",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "acrobatics"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_assassin"
+  },
+  {
+    "name": "Astronomy",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "starship-system-navigation"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_astronomy"
+  },
+  {
+    "name": "Biology",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "medical-kit"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_biology"
+  },
+  {
+    "name": "Blackmailer",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "deception"
+      },
+      {
+        "type": "skill",
+        "value": "intimidation"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_blackmailer"
+  },
+  {
+    "name": "Brewer",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "brewers-supplies"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_brewer"
+  },
+  {
+    "name": "Chemist",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "chemists-supplies"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_chemist"
+  },
+  {
+    "name": "Chemistry",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "chemists-supplies",
+          "brewers-supplies"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_chemistry"
+  },
+  {
+    "name": "Computer Science",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "starship-system-ews"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_computer-science"
+  },
+  {
+    "name": "Cook",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "cooks-utensils"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_cook"
+  },
+  {
+    "name": "Engineering",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "tinkers-tools"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_engineering"
+  },
+  {
+    "name": "Fence",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "deception"
+      },
+      {
+        "type": "skill",
+        "value": "persuasion"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_fence"
+  },
+  {
+    "name": "Gambler",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "deception"
+      },
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_gambler"
+  },
+  {
+    "name": "Gang Member",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "intimidation"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_gang-member"
+  },
+  {
+    "name": "General Studies",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "brewers-supplies",
+          "hacking-tools",
+          "starship-system-ssc"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_general-studies"
+  },
+  {
+    "name": "Mechanic",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "tinkers-tools",
+          "starship"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_mechanic"
+  },
+  {
+    "name": "Painter",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "painters-supplies"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_painter"
+  },
+  {
+    "name": "Philosophy",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "musical-instrument",
+          "gaming-set"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_philosophy"
+  },
+  {
+    "name": "Physics",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "starship-system-drive"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_physics"
+  },
+  {
+    "name": "Pickpocket",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "stealth"
+      },
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_pickpocket"
+  },
+  {
+    "name": "Smuggler",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      },
+      {
+        "type": "skill",
+        "value": "vehicle-handling"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_smuggler"
+  },
+  {
+    "name": "Tailor",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "tailors-tools"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_tailor"
+  },
+  {
+    "name": "Thief",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_thief"
+  },
+  {
+    "name": "Weaponsmith",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "weaponsmiths-workbench"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_weaponsmith"
+  },
+  {
+    "name": "Ambidextrous",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n",
+    "id": "FS_ambidextrous"
+  },
+  {
+    "name": "Assault",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n",
+    "id": "FS_assault"
+  },
+  {
+    "name": "Brawler",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>Add your proficiency bonus to your melee attack damage rolls.</p>\n",
+    "id": "FS_brawler"
+  },
+  {
+    "name": "Carnage",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",
+    "id": "FS_carnage"
+  },
+  {
+    "name": "Close-Quarters Shooter",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n",
+    "id": "FS_close-quarters-shooter"
+  },
+  {
+    "name": "Defense",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>+1 AC.</p>\n",
+    "id": "FS_defense"
+  },
+  {
+    "name": "Protection",
+    "mechanics": [
+      {
+        "name": "Protection",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_protection"
+        },
+        "type": "reaction",
+        "shortDesc": "When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" /> of you, expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll."
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" /> of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.</p>\n",
+    "id": "FS_protection"
+  },
+  {
+    "name": "Sniper",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks made with a sniper rifle.</p>\n",
+    "id": "FS_sniper"
+  },
+  {
+    "name": "The Free Hand",
+    "mechanics": [],
+    "type": "fighting-styles",
+    "html": "<p>When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n",
+    "id": "FS_the-free-hand"
+  },
+  {
+    "name": "Beguile",
+    "type": "benefits",
+    "threshold": 30,
+    "prereq": {
+      "paragon": {
+        "within": 10
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Beguile",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_beguile"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_beguile"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        }
+      }
+    ],
+    "html": "<p>You can start monologing for up to 1 minute, causing creatures of your choice that you can see within range and that\ncan hear you to make a Wisdom saving throw. Any creature with an Intelligence of 3 or lower succeeds on this\nsaving throw automatically, and if you or your companions are fighting a creature, it has advantage on the\nsave. On a failed save, the target has disadvantage on attack rolls against any creature other than you and\nWisdom (Perception) checks made to perceive any creature other than you until you stop talking or until the\ntarget can no longer hear you. The effect also ends if you are incapacitated or can no longer speak.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_beguile"
+  },
+  {
+    "name": "Calm Emotions",
+    "type": "benefits",
+    "threshold": 30,
+    "prereq": {
+      "paragon": {
+        "min": 20,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Calm Emotions",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_calm-emotions"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_calm-emotions"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "cha"
+        }
+      }
+    ],
+    "html": "<p>You attempt to suppress strong emotions in a group of people. Each sentient creature (Intelligence 4 more) that can\nhear you must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature\nfails its saving throw, choose one of the following two effects.</p>\n<p>You can suppress any effect causing a target to be charmed or frightened, immediately ending the condition.</p>\n<p>Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This\nindifference ends if the target is attacked or harmed or if it witnesses any of its friends being harmed.\nThe indifference lasts at least 1 minute, unless the GM rules otherwise.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_calm-emotions"
+  },
+  {
+    "name": "Compel",
+    "type": "benefits",
+    "threshold": 100,
+    "prereq": {
+      "paragon": {
+        "min": 70,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Compel",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_compel"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_compel"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        }
+      }
+    ],
+    "html": "<p>You attempt to compel a sentient creature (Intelligence of 4 or more) that you can see and that can hear you.\nIt must succeed on a Wisdom saving throw or be charmed by you for the next hour. If you or creatures that are friendly\nto you are fighting it, it has advantage on the saving throw.</p>\n<p>While the creature is charmed, you can issue commands to it while you are conscious (no action required), which it\ndoes its best to obey. You can specify a simple and general course of action, such as &quot;Attack that creature,&quot;\n&quot;Run over there,&quot; or &quot;Fetch that object.&quot; If the creature completes the order and doesn't receive further direction\nfrom you, it defends and preserves itself to the best of its ability.</p>\n<p>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds,\nthe spell ends.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_compel"
+  },
+  {
+    "name": "Convince",
+    "type": "benefits",
+    "threshold": 15,
+    "prereq": {
+      "paragon": {
+        "min": 10,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Convince",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_convince"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_convince"
+        },
+        "shortDesc": "roll a d6 and add to a Charisma (Persuasion) check"
+      }
+    ],
+    "html": "<p>When you make Charisma (Persuasion) check, you may roll a d6 and add the number rolled to the result.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_convince"
+  },
+  {
+    "name": "Fear",
+    "type": "benefits",
+    "threshold": 30,
+    "prereq": {
+      "renegade": {
+        "min": 20,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Fear",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_fear"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_fear"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        }
+      }
+    ],
+    "html": "<p>You attempt to frighten a sentient creature (Intelligence 4 or more) that can see or hear you. It must succeed on a\nWisdom saving throw or it becomes frightened of you for 1 minute. The creature may use its action to make another\nWisdom saving throw on each of its turns. On a successful save, it is no longer frightened of you.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_fear"
+  },
+  {
+    "name": "Frightening Presence",
+    "type": "benefits",
+    "threshold": 100,
+    "prereq": {
+      "renegade": {
+        "min": 70,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Frightening Presence",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_frightening-presence"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_frightening-presence"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        },
+        "shortDesc": "For the next hour, creatures that can see you within <me-distance length=\"60\" /> must succeed on a Wisdom saving throw or become frightened."
+      }
+    ],
+    "html": "<p>Your presence can cause even the most battle hardened veterans to quiver. For the next hour when a sentient\ncreature (Intelligence 4 or more) can see you and comes within <me-distance length=\"60\" /> of you, the creature must\nsucceed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see you or is\nwithin <me-distance length=\"60\" /> of you. While frightened by you, the creature must use its movement to move to the nearest safe\nspot from which it can't see you. If the creature moves more than <me-distance length=\"60\" /> from you and can't see you, the creature\nis no longer frightened, but the creature becomes frightened again if it regains sight of you or moves within\n<me-distance length=\"60\" /> of you.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_frightening-presence"
+  },
+  {
+    "name": "Glibness",
+    "type": "benefits",
+    "threshold": 100,
+    "prereq": {
+      "paragon": {
+        "within": 20
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Glibness",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_glibness"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_glibness"
+        },
+        "shortDesc": "for the next hour you can replace your Charisma check rolls with a 15 and creatures cannot determine if you are being truthful"
+      }
+    ],
+    "html": "<p>For the next hour, when you make a Charisma check, you can replace the number you roll with a 15. Additionally,\nno matter what you say, effects that would determine if you are telling the truth indicate that you are being truthful.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_glibness"
+  },
+  {
+    "name": "Matter over Mind",
+    "type": "benefits",
+    "threshold": 60,
+    "prereq": {
+      "renegade": {
+        "min": 40,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Matter over Mind",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_matter-over-mind"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_matter-over-mind"
+        },
+        "shortDesc": "on failed Strength or Dexterity check, reroll and add your Charisma plus the original modifier to the roll"
+      }
+    ],
+    "html": "<p>When you fail an Strength or Dexterity check, you can reroll the die and add your Charisma modifier, in addition\nto the original modifier, to the new roll. You must use the now roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_matter-over-mind"
+  },
+  {
+    "name": "Not by my Hand",
+    "type": "benefits",
+    "threshold": 60,
+    "prereq": {
+      "paragon": {
+        "within": 15
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Not by my Hand",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_not-by-my-hand"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_not-by-my-hand"
+        },
+        "shortDesc": "add your Charisma modifier to another creature's ability check, if it can see or hear you"
+      },
+      {
+        "name": "Not by my Hand",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_not-by-my-hand"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_not-by-my-hand"
+        },
+        "shortDesc": "when you take the Help action, add your Charisma modifier to the creature's next ability check or attack roll it makes before the start of your next turn"
+      }
+    ],
+    "html": "<p>When another creature that can see or hear you makes an ability check, you may add your Charisma modifier to the roll.\nAlternatively, in combat, whenever you take the Help action, you may add your Charisma modifier to the first attack\nroll or the next ability check the creature you aid makes before the start of your next turn.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_not-by-my-hand"
+  },
+  {
+    "name": "Obfuscate",
+    "type": "benefits",
+    "threshold": 15,
+    "prereq": {
+      "paragon": {
+        "within": 5
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Obfuscate",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_obfuscate"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_obfuscate"
+        },
+        "shortDesc": "when you fail a Charisma (Deception) check, reroll the die and use the new roll"
+      }
+    ],
+    "html": "<p>When you fail a Charisma (Deception) check, you can reroll the die, and you must use the new roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_obfuscate"
+  },
+  {
+    "name": "Pen before Sword",
+    "type": "benefits",
+    "threshold": 60,
+    "prereq": {
+      "paragon": {
+        "min": 40,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Pen before Sword",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_pen-before-sword"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_pen-before-sword"
+        },
+        "shortDesc": "on failed Intelligence or Wisdom check, reroll and add your Charisma plus the original modifier to the roll"
+      }
+    ],
+    "html": "<p>When you fail an Intelligence or Wisdom check, you can reroll the die and add your Charisma modifier, in addition\nto the original modifier, to the new roll. You must use the now roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_pen-before-sword"
+  },
+  {
+    "name": "Presence",
+    "type": "benefits",
+    "threshold": 15,
+    "prereq": {
+      "renegade": {
+        "min": 10,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Presence",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_presence"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_presence"
+        },
+        "shortDesc": "treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check"
+      }
+    ],
+    "html": "<p>When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_presence"
+  },
+  {
+    "name": "Aquatic",
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>You gain a swimming speed of 12 meters.\tYou can breathe both air and water.</p>\n",
+    "id": "VA_aquatic"
+  },
+  {
+    "name": "Desert",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>You can go twice as long without food or water before you suffer exhaustion. Increase your Constitution score by 1 to a maximum of 20.</p>\n",
+    "id": "VA_desert"
+  },
+  {
+    "name": "Frozen",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": [
+          "con"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to resist exhaustion due to extreme cold"
+        }
+      },
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "to your hit points"
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>You have advantage on Constitution saving throws to resist exhaustion due to extreme cold and resistance to cold damage.</p>\n",
+    "id": "VA_frozen"
+  },
+  {
+    "name": "High-Gravity",
+    "mechanics": [
+      {
+        "type": "speed-note",
+        "note": "Ignore difficult terrain caused by high gravity"
+      },
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>You ignore difficult terrain caused by high gravity. Increase your strength score by 1 to a maximum of 20.</p>\n",
+    "id": "VA_high-gravity"
+  },
+  {
+    "name": "Underground",
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "blindsight",
+        "distance": 30
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "stealth"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "while in darkness"
+        }
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>Darkvision <me-distance length=\"60\" />. Blindsight <me-distance length=\"30\" />. Additionally, you have advantage on stealth checks while in darkness.</p>\n",
+    "id": "VA_underground"
+  },
+  {
+    "name": "Volcanic",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": [
+          "con"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to resist exhaustion due to extreme heat"
+        }
+      },
+      {
+        "type": "resistance",
+        "value": "fire",
+        "note": "to your hit points"
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>You have advantage on Constitution saving throws to resist exhaustion due to extreme heat and resistance to fire damage.</p>\n",
+    "id": "VA_volcanic"
+  },
+  {
+    "name": "Zero-gravity",
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 5,
+        "note": "while lifted or in zero-g"
+      }
+    ],
+    "type": "vorchaAdaptations",
+    "html": "<p>While lifted or in zero-g, you gain a flying speed of 2 meters and you do not have disadvantage on attack rolls.</p>\n",
+    "id": "VA_zero-gravity"
+  }
+]

@@ -21,7 +21,7 @@ profs:
     choices:
       items: [athletics,engineering,insight,intimidation,medicine,persuasion,science,survival]
       count: 3
-  savingThrow:
+  saving-throw:
     has:
       - cha
       - con

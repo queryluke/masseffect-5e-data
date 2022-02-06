@@ -17,7 +17,7 @@ profs:
     choices:
       items: [acrobatics,deception,history,insight,intimidation,performance,sleight-of-hand,survival]
       count: 3
-  savingThrow:
+  saving-throw:
     has:
       - cha
       - wis

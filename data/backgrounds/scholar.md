@@ -10,5 +10,5 @@ mechanics:
     model: subgrounds
     limits:
       - attr: id
-        value: ['chemistry', 'astronomy', 'engineering', 'physics', 'computer-science', 'biology', 'philosophy', 'general-studies']
+        value: ['BG_chemistry', 'BG_astronomy', 'BG_engineering', 'BG_physics', 'BG_computer-science', 'BG_biology', 'BG_philosophy', 'BG_general-studies']
 ---

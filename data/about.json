@@ -3,37 +3,42 @@
     {
       "name": "Luke Aeschleman",
       "image": "https://avatars0.githubusercontent.com/u/12414786?s=460&v=4",
-      "roles": "creator"
+      "roles": ["creator"]
     },
     {
       "name": "Hugh Thompson",
       "image": "https://avatars0.githubusercontent.com/u/679172?s=460&v=4",
-      "roles": "editor"
+      "roles": ["editor"]
     },
     {
       "name": "Noblesse Oblige",
       "image": "https://data.n7.world/images/classes/engineer.svg",
-      "roles": "discord"
+      "roles": ["discord", "content"]
     },
     {
       "name": "Nerdsworth",
       "image": "https://data.n7.world/images/classes/sentinel.svg",
-      "roles": "reddit"
+      "roles": ["reddit"]
     },
     {
       "name": "Bryce Gelinas",
       "image": "https://data.n7.world/images/misc/bryce.jpg",
-      "roles": "developer"
+      "roles": ["developer", "content"]
     },
     {
       "name": "Spagheddy",
       "image": "https://data.n7.world/images/misc/spageddy.jpg",
-      "roles": "discord"
+      "roles": ["discord", "content"]
     },
     {
       "name": "Tech Knight",
       "image": "https://data.n7.world/images/misc/Tech_Knight.png",
-      "roles": "discord"
+      "roles": ["discord", "content"]
+    },
+    {
+      "name": "Helios",
+      "image": "https://data.n7.world/images/misc/helios.png",
+      "roles": ["discord", "content"]
     }
   ],
   "former":[
