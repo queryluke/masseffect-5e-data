@@ -2,7 +2,6 @@
 primaryAbility:
   - wis
   - int
-  - cha
 hitDie: 10
 profs:
   armor:

@@ -29,10 +29,8 @@ you cast the advanced version of it. You can only learn one advancement for each
 ### Powercasting Ability
 
 Sentinels use a unique L5t biotic implant that integrates with the operative's omni-tool maximizes their innate talents.
-As a sentinel you choose your powercasting modifier from Charisma, Intelligence, or Wisdom.
+As a sentinel you choose either Intelligence or Wisdom as your powercasting modifier.
 
-- Choosing Charisma means that your operative has immense willpower and uses it to overcome the mental strain of casting
-  biotic powers and interfacing with their omni-tool. They use their innate talent to maximize the potency of their powers.
 - Choosing Intelligence means that your operative takes advantage of their omni-tool, using it to assist in the casting
   of biotic powers. Their keen intellect helps them choose strategic targets to maximize the potency of their powers.
 - Choosing Wisdom means that your operative has unmatched concentration and can use the physical mnemonics of their

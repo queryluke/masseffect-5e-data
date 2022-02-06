@@ -47,9 +47,7 @@
         "has": [
           "cha",
           "wis"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Charisma, Wisdom"
       }
     },
@@ -385,9 +383,7 @@
         "has": [
           "con",
           "int"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Constitution, Intelligence"
       }
     },
@@ -563,9 +559,7 @@
         "has": [
           "dex",
           "int"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Dexterity, Intelligence"
       }
     },
@@ -753,8 +747,7 @@
   {
     "primaryAbility": [
       "wis",
-      "int",
-      "cha"
+      "int"
     ],
     "hitDie": 10,
     "profs": {
@@ -804,9 +797,7 @@
         "has": [
           "cha",
           "con"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Charisma, Constitution"
       }
     },
@@ -1070,9 +1061,7 @@
         "has": [
           "str",
           "dex"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Strength, Dexterity"
       }
     },
@@ -1214,9 +1203,7 @@
         "has": [
           "str",
           "wis"
-        ]
-      },
-      "savingThrow": {
+        ],
         "text": "Strength, Wisdom"
       }
     },
