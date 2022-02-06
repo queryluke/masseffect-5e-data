@@ -20,12 +20,18 @@
     "id": "a-long-life"
   },
   {
+    "name": "Adaptation",
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
-    "name": "Adaptation",
-    "html": "<p>Growing up in a harsh environment, your body evolved so you could survive. Choose one of the following environments:</p>\n<ul>\n<li><strong>Aquatic</strong>: Amphibious. Swim speed <me-distance length=\"30\" />.</li>\n<li><strong>Desert</strong>: Constitution +1. Ignore one level of exhaustion.</li>\n<li><strong>Frozen</strong>: Resistance to cold damage.</li>\n<li><strong>High-gravity</strong>: Strength +1.</li>\n<li><strong>Underground</strong>: Darkvision <me-distance length=\"60\" />. Blindsight <me-distance length=\"30\" />.</li>\n<li><strong>Volcanic</strong>: Resistance to fire damage.</li>\n<li><strong>Zero-gravity</strong>: While lifted or in zero-g, your speed is <me-distance length=\"5\" /> and you do not have disadvantage on your attack rolls.</li>\n</ul>\n",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "model": "vorchaAdaptations",
+        "options": true
+      }
+    ],
+    "html": "<p>Your cells allow you to adapt to harsh environments. Choose one adaptation from the Adaptation table below and gain\nboth of its 1 week and 1 year benefits.</p>\n<p>You may gain additional adaptations if you spend the requisite amount of time in an environment listed below (1 week\nand 1 year). To gain the benefit, you must spend more than fifty percent of your time within the environment with\nlittle to no protection. At your GM’s discretion, you can gain additional adaptations at a faster rate or at character\ncreation.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Environment</th>\n<th>1 week</th>\n<th>1 year</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Aquatic</td>\n<td>You gain a swimming speed of 12 meters.</td>\n<td>You can breathe both air and water.</td>\n</tr>\n<tr>\n<td>Desert</td>\n<td>You can go twice as long without food or water before you suffer exhaustion.</td>\n<td>+1 Constitution</td>\n</tr>\n<tr>\n<td>Frozen</td>\n<td>You have advantage on Constitution saving throws to resist exhaustion due to extreme cold.</td>\n<td>You have resistance to cold damage.</td>\n</tr>\n<tr>\n<td>High-gravity</td>\n<td>You ignore difficult terrain caused by high gravity.</td>\n<td>+1 Strength</td>\n</tr>\n<tr>\n<td>Underground</td>\n<td>You can see in dim light within 24 meters of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</td>\n<td>You can perceive your surroundings in a 12 meter radius without relying on sight. Additionally, You have advantage on stealth checks while in darkness.</td>\n</tr>\n<tr>\n<td>Volcanic</td>\n<td>You have advantage on Constitution saving throws to resist exhaustion due to extreme heat.</td>\n<td>You have resistance to fire damage.</td>\n</tr>\n<tr>\n<td>Zero-gravity</td>\n<td>While lifted or in zero-g, you gain a flying speed of 2 meters.</td>\n<td>You do not have disadvantage on attack rolls while you are lifted or in zero-g.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "adaptation"
   },
   {
@@ -241,11 +247,32 @@
     "id": "bioluminescence"
   },
   {
+    "name": "Bite",
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
-    "name": "Bite",
+    "mechanics": [
+      {
+        "name": "Bite",
+        "moreInfo": false,
+        "type": "attack",
+        "range": {
+          "short": 5
+        },
+        "attack": {
+          "proficient": true,
+          "mod": "str"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 6,
+            "mod": "str",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
     "html": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>\n",
     "id": "bite"
   },
@@ -309,7 +336,7 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "limit": [
+        "value": [
           "electronics"
         ],
         "effect": {
@@ -389,7 +416,7 @@
     ],
     "mechanics": [
       {
-        "type": "savingThrow",
+        "type": "saving-throw",
         "against": [
           "blinded"
         ],
@@ -507,8 +534,8 @@
         "value": "persuasion"
       },
       {
-        "other": "skill-check",
-        "limit": [
+        "type": "skill-check",
+        "value": [
           "persuasion"
         ],
         "note": "add your intelligence modifier"
@@ -873,7 +900,7 @@
     ],
     "mechanics": [
       {
-        "type": "savingThrow",
+        "type": "saving-throw",
         "note": "addiction saves",
         "effect": {
           "type": "disadvantage"
@@ -1019,7 +1046,7 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "limit": [
+        "value": [
           "perception",
           "investigation"
         ],
@@ -1040,7 +1067,7 @@
     "mechanics": [
       {
         "type": "skill-check",
-        "limit": [
+        "value": [
           "investigation",
           "perception",
           "survival"
@@ -1093,11 +1120,15 @@
     "id": "limited-integration"
   },
   {
+    "name": "Limited Regeneration",
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
-    "name": "Limited Regeneration",
+    "mechanics": [
+      {
+        "type": "regain-all-hit-dice"
+      }
+    ],
     "html": "<p>You regain all your Hit Dice on a long rest. Additionally, if you lose a body part, the missing part will regrow\nand return to full functionality after a passing of time, based on the body part:</p>\n<ul>\n<li><strong>Fingers &amp; Toes</strong>: 1 week</li>\n<li><strong>Hands &amp; Feet</strong>: 2 weeks</li>\n<li><strong>Arm (to elbow) &amp; Leg (to knee)</strong>: 4 weeks</li>\n<li><strong>Eye</strong>: 6 weeks</li>\n<li><strong>Arm (to shoulder) &amp; Leg (to hip)</strong>: 8 weeks</li>\n</ul>\n",
     "id": "limited-regeneration"
   },
@@ -1116,7 +1147,7 @@
     ],
     "mechanics": [
       {
-        "type": "savingThrow",
+        "type": "saving-throw",
         "against": [
           "poisoned"
         ],
@@ -1170,7 +1201,7 @@
     ],
     "mechanics": [
       {
-        "type": "savingThrow",
+        "type": "saving-throw",
         "against": [
           "charmed",
           "frightened"
@@ -1223,7 +1254,7 @@
     ],
     "mechanics": [
       {
-        "type": "savingThrow",
+        "type": "saving-throw",
         "against": [
           "charmed",
           "frightened"
@@ -1303,12 +1334,22 @@
     "id": "natural-hunters"
   },
   {
+    "name": "Non-Differentiated Cells",
     "species": [
       "vorcha"
     ],
-    "mechanics": [],
-    "name": "Non-Differentiated Cells",
-    "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have\nresistance against poison damage.</p>\n",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "poison",
+        "note": "to your hit points"
+      },
+      {
+        "type": "condition-immunity",
+        "value": "poisoned"
+      }
+    ],
+    "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have resistance\nagainst poison damage to your hit points.</p>\n",
     "id": "non-differentiated-cells"
   },
   {

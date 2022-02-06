@@ -1,5 +1,6 @@
 ---
 name: Calm Emotions
+type: benefits
 threshold: 30
 prereq:
   paragon:

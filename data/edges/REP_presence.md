@@ -1,5 +1,6 @@
 ---
 name: Presence
+type: benefits
 threshold: 15
 prereq:
   renegade:

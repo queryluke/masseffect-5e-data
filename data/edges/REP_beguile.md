@@ -1,5 +1,6 @@
 ---
 name: Beguile
+type: benefits
 threshold: 30
 prereq:
   paragon:

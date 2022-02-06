@@ -1,5 +1,6 @@
 ---
 name: Pen before Sword
+type: benefits
 threshold: 60
 prereq:
   paragon:

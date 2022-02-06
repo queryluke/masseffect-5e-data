@@ -1,5 +1,6 @@
 ---
 name: Convince
+type: benefits
 threshold: 15
 prereq:
   paragon:

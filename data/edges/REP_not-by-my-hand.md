@@ -1,5 +1,6 @@
 ---
 name: Not by my Hand
+type: benefits
 threshold: 60
 prereq:
   paragon:

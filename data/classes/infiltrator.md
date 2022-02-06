@@ -21,7 +21,7 @@ profs:
     choices:
       items: [athletics,acrobatics,deception,electronics,history,insight,investigation,perception,persuasion,sleight-of-hand,stealth,vehicle-handling]
       count: 3
-  savingThrow:
+  saving-throw:
     has:
       - dex
       - int

@@ -88,7 +88,7 @@ mechanics:
     value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
 # Saving Throws, skill checks
-  - type: savingThrow
+  - type: saving-throw
     against: array
     value: enum [abilities]
     effect: @effect
@@ -97,7 +97,7 @@ mechanics:
     effect: @effect
 # skill checks
   - type: skill-check
-    limit: enum [skills]
+    value: enum [skills]
     effect: @effect
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
@@ -188,6 +188,7 @@ mechanics:
   - type: regenerative-burst
   - type: repair-matrix
   - type: imprinted-enemies # can be model choice
+  - type: speed-note
 # augments
   - type: augment
     model: enum [weapon, power]

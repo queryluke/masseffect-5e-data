@@ -1,5 +1,6 @@
 ---
 name: Matter over Mind
+type: benefits
 threshold: 60
 prereq:
   renegade:

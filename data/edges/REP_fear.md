@@ -1,5 +1,6 @@
 ---
 name: Fear
+type: benefits
 threshold: 30
 prereq:
   renegade:

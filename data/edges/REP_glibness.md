@@ -1,5 +1,6 @@
 ---
 name: Glibness
+type: benefits
 threshold: 100
 prereq:
   paragon:

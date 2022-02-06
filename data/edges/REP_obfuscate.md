@@ -1,5 +1,6 @@
 ---
 name: Obfuscate
+type: benefits
 threshold: 15
 prereq:
   paragon:

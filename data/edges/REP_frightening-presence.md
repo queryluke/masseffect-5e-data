@@ -1,5 +1,6 @@
 ---
 name: Frightening Presence
+type: benefits
 threshold: 100
 prereq:
   renegade:

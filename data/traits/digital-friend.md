@@ -4,8 +4,8 @@ species: [hardware-hologram]
 mechanics:
   - type: skill
     value: persuasion
-  - other: skill-check
-    limit: [persuasion]
+  - type: skill-check
+    value: [persuasion]
     note: add your intelligence modifier
 ---
 You are proficient in Persuasion.
