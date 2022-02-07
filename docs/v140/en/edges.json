@@ -337,6 +337,35 @@
     "id": "BG_weaponsmith"
   },
   {
+    "name": "None",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 2
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "str",
+          "dex",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" /> of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.</p>\n",
+    "id": "EXL_kett"
+  },
+  {
     "name": "Ambidextrous",
     "mechanics": [],
     "type": "fighting-styles",
@@ -933,5 +962,667 @@
     "type": "vorchaAdaptations",
     "html": "<p>While lifted or in zero-g, you gain a flying speed of 2 meters and you do not have disadvantage on attack rolls.</p>\n",
     "id": "VA_zero-gravity"
+  },
+  {
+    "id": "EXL_angara",
+    "name": "Angara",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "survival"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_asari-lifestage-maiden",
+    "name": "Asari (Maiden)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 2
+      },
+      {
+        "type": "skill-choice",
+        "options": true
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_asari-lifestage-matriarch",
+    "name": "Asari (Matriarch)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_asari-lifestage-matron",
+    "name": "Asari (Matron)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "value": "persuasion"
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "deception",
+          "history",
+          "insight",
+          "intimidation",
+          "investigation",
+          "medicine",
+          "performance"
+        ]
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_awakened-collector",
+    "name": "Awakened Collector",
+    "mechanics": [],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_batarian",
+    "name": "Batarian",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "insight",
+          "intimidation"
+        ],
+        "selections": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_drell",
+    "name": "Drell",
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "athletics",
+          "acrobatics",
+          "perception",
+          "stealth",
+          "survival"
+        ],
+        "selections": 2
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_elcor",
+    "name": "Elcor",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "insight"
+      },
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "investigation",
+          "perception",
+          "survival"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "on checks that rely on smell"
+        }
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_geth-mobile-platform-hopper",
+    "name": "Geth (Hopper)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 40
+      },
+      {
+        "type": "speed",
+        "speed": "climb",
+        "distance": 20,
+        "note": "equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages."
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_geth-mobile-platform-juggernaut",
+    "name": "Geth (Juggernaut)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 25
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_geth-mobile-platform-trooper",
+    "name": "Geth (Trooper)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hanar",
+    "name": "Hanar",
+    "mechanics": [],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_human",
+    "name": "Human",
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_krogan",
+    "name": "Krogan",
+    "mechanics": [],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-bravery",
+    "name": "Prothean (Bravery)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-humor",
+    "name": "Prothean (Humor)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-leadership",
+    "name": "Prothean (Leadership)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-sacrifice",
+    "name": "Prothean (Sacrifice)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-strength",
+    "name": "Prothean (Strength)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-tranquility",
+    "name": "Prothean (Tranquility)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-vengeance",
+    "name": "Prothean (Vengeance)",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_quarian-cybernetic-augmentation-cerebral",
+    "name": "Quarian (Cerebral)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "electronics",
+          "engineering",
+          "history",
+          "investigation",
+          "science"
+        ]
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_quarian-cybernetic-augmentation-muscular",
+    "name": "Quarian (Muscular)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "options": true
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "acrobatics",
+          "athletics"
+        ],
+        "selections": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_quarian-cybernetic-augmentation-ocular",
+    "name": "Quarian (Ocular)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "wis",
+          "int"
+        ],
+        "options": true
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "perception",
+          "investigation"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "on checks that rely on sight"
+        }
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_quarian-cybernetic-augmentation-visceral",
+    "name": "Quarian (Visceral)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_salarian",
+    "name": "Salarian",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "effect": {
+          "type": "advantage",
+          "note": "on information you have seen or read"
+        }
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-military-doctrine-combat-officer",
+    "name": "Turian (Combat Officer)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "perception",
+          "insight"
+        ]
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-military-doctrine-demolitions",
+    "name": "Turian (Demolitions)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "electronics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to disarm explosive devices (ex. mines)"
+        }
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-military-doctrine-engineering-corps",
+    "name": "Turian (Engineering Corps)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "skill-choice",
+        "profType": "skill",
+        "limit": [
+          "electronics",
+          "engineering",
+          "investigation",
+          "science"
+        ],
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-military-doctrine-field-medics",
+    "name": "Turian (Field Medics)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "value": "medicine"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-military-doctrine-infantry",
+    "name": "Turian (Infantry)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-military-doctrine-recon",
+    "name": "Turian (Recon)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "skill-choice",
+        "limit": [
+          "perception",
+          "stealth",
+          "survival"
+        ],
+        "options": true
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_unshackled-ai-hardware-aiu",
+    "name": "Unshackled AI (Alliance Infiltration Unit)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_unshackled-ai-hardware-hologram",
+    "name": "Unshackled AI (Hologram)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "skill",
+        "value": "persuasion"
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "persuasion"
+        ],
+        "note": "add your intelligence modifier"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_unshackled-ai-hardware-loki",
+    "name": "Unshackled AI (LOKI)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex",
+          "con",
+          "wis",
+          "cha"
+        ],
+        "options": true
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "skill",
+        "sense": "deception"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_volus",
+    "name": "Volus",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "persuasion"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_vorcha",
+    "name": "Vorcha",
+    "mechanics": [],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_yahg",
+    "name": "Yahg",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "athletics",
+          "acrobatics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to avoid/escape grapples if the grappler is your size or smaller"
+        }
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "insight"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to determine lies"
+        }
+      }
+    ],
+    "type": "exalted-lineages"
   }
 ]

@@ -141,7 +141,7 @@ mechanics:
     notes:
       - string # optional, appends to damage type as a caveat or used to display text for special damage types
     shortDesc: string # optional, gets it's own object
-    baseGroup: string (adds the string to the base group), i.e. actions > use an object, dash, etc
+    baseGroup: boolean (adds the string to the base group), i.e. actions > use an object, dash, etc
     moreInfo: # can also be false to override
       component: string
       bind: object

@@ -138,6 +138,9 @@ for (const lang of langs) {
       }
       return item
     })
+    if (dir === 'edges') {
+      items.push(...generateExaltedLineages())
+    }
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
     processedModels.push(dir)
   }
@@ -160,6 +163,75 @@ for (const lang of langs) {
     })
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
   }
+}
+
+function generateExaltedLineages () {
+  const speciesNames = fs.readdirSync('./text/en/species').map(file => {
+    const species = fm(fs.readFileSync(`./text/en/species/${file}`, 'utf8'))
+    return {
+      id: file.replace('.md', ''),
+      ...species.attributes
+    }
+  })
+
+  const species = fs.readdirSync('./data/species').map(file => {
+    const species = fm(fs.readFileSync(`./data/species/${file}`, 'utf8'))
+    return {
+      id: file.replace('.md', ''),
+      ...species.attributes
+    }
+  })
+  const traits = fs.readdirSync('./data/traits').map(file => {
+    const traits = fm(fs.readFileSync(`./data/traits/${file}`, 'utf8'))
+    return {
+      id: file.replace('.md', ''),
+      ...traits.attributes
+    }
+  })
+  const exaltedLineages = []
+  const edgeType = 'exalted-lineages'
+  for (const sp of species) {
+    if (sp.type === 'subspecies' || sp.type === 'variant' || sp.id === 'kett') {
+      continue
+    }
+    let id = `EXL_${sp.id}`
+    let name = sp.name || speciesNames.find(i => i.id === sp.id)?.name
+    const mechanics = [
+      ...sp.mechanics.filter(i => i.type.startsWith('asi') || i.type.startsWith('speed'))
+    ]
+    const profMechanics = traits.filter(i => i.species.includes(sp.id))
+      .reduce((acc, curr) => acc.concat(curr.mechanics), [])
+      .filter(i => i.type.startsWith('skill'))
+    mechanics.push(...profMechanics)
+    if (sp.subspecies) {
+      for (const sub of species.filter(i => i.type === 'subspecies' && i.species === sp.id)) {
+        const subId = `${id}-${sub.id}`
+        let subName = sub.name || speciesNames.find(i => i.id === sub.id)?.name
+        subName = `${name} (${subName})`
+        const subMechanics = [
+          ...sub.mechanics.filter(i => i.type.startsWith('asi') || i.type.startsWith('speed'))
+        ]
+        const subProfMechanics = traits.filter(i => i.species.includes(sub.id))
+          .reduce((acc, curr) => acc.concat(curr.mechanics), [])
+          .filter(i => i?.type.startsWith('skill'))
+        subMechanics.push(...subProfMechanics)
+        exaltedLineages.push({
+          id: subId,
+          name: subName,
+          mechanics: [...profMechanics, ...subMechanics].sort((a, b) => a.type - b.type),
+          type: edgeType
+        })
+      }
+    } else {
+      exaltedLineages.push({
+        id,
+        name,
+        mechanics: profMechanics,
+        type: edgeType
+      })
+    }
+  }
+  return exaltedLineages
 }
 
 function combineItem(id, dir, file1, file2 = null) {

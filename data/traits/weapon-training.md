@@ -2,6 +2,8 @@
 name: Weapon Training
 species:
   - military-doctrine-infantry
+  - exaltation-chosen
+  - exaltation-anointed
 mechanics:
   - type: weapon-choice
     options: true

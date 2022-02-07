@@ -91,7 +91,8 @@
   },
   {
     "species": [
-      "lystheni"
+      "lystheni",
+      "behemoth"
     ],
     "mechanics": [
       {
@@ -632,6 +633,31 @@
     "id": "electrogenesis"
   },
   {
+    "name": "Electromagnetic Blast",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "type": "model",
+        "model": "power",
+        "value": "overload",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "electromagnetic-blast"
+        },
+        "append": {
+          "mod": "wis"
+        }
+      }
+    ],
+    "html": "<p>You know the Overload power and it doesn’t count against your powers known or\nprepared. Once per long rest, you may cast a 1-tech-point version of it. Wisdom\nis your powercasting modifier for it.</p>\n<p>You cannot learn an advancement for it, but you may prepare another version of\nOverload with advancements as you class permits.</p>\n",
+    "id": "electromagnetic-blast"
+  },
+  {
     "name": "Emitter and Projection",
     "species": [
       "hardware-hologram"
@@ -722,6 +748,31 @@
     "id": "engineering-knowledge"
   },
   {
+    "name": "Erratic Hop",
+    "species": [
+      "exaltation-chosen"
+    ],
+    "mechanics": [
+      {
+        "name": "Erratic Hop",
+        "moreInfo": {
+          "model": "traits",
+          "id": "erratic-hop"
+        },
+        "type": "reaction",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "erratic-hop"
+        },
+        "shortDesc": "When a creature you can see attacks you, imposed disadvantage. Or advantage on a DEX save"
+      }
+    ],
+    "html": "<p>Your genes and training are hard for most to understand, resulting in unpredictable\nfighting styles. When a creature you can see attacks you, you can use your reaction\nto impose disadvantage on the attack roll. Alternatively, whenever you make a\nDexterity saving throw, you may use your reaction to gain advantage on the saving throw.</p>\n<p>You can use this trait a number of times between long rests equal to your proficiency bonus.</p>\n",
+    "id": "erratic-hop"
+  },
+  {
     "name": "Esprit de Boom",
     "species": [
       "military-doctrine-demolitions"
@@ -744,9 +795,30 @@
     "species": [
       "kett"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "exalted-lineages"
+      }
+    ],
     "html": "<p>You are an exalted version of another species. Pick an organic specie (or synthetic at you\nGM's discretion) species and gain the following elements from it: any ability score increases, any skill\nproficiencies, and any climbing, flying, or swimming speed.</p>\n<p>If you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.</p>\n",
     "id": "exalted-lineage"
+  },
+  {
+    "name": "Exoskeleton",
+    "species": [
+      "kett"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 12,
+        "mod": "con"
+      }
+    ],
+    "html": "<p>You have an exoskeleton which contains fluid-filled sacs that capture dissolved\ngasses from the circulatory system, slowly releasing them if you are oxygen-deprived\nand can stabilize internal body pressure.</p>\n<p>Your AC when not wearing armor is 12 + your Constitution modifier. You can use your\nnatural armor to determine your AC if the armor you wear would leave you with a\nlower AC. A held shield’s benefits apply as normal while you use your natural armor.</p>\n<p>Additionally, you can hold your breath or survive in the vacuum of space for up to one hour.</p>\n",
+    "id": "exoskeleton"
   },
   {
     "species": [
@@ -845,6 +917,23 @@
     "id": "fury-of-the-small"
   },
   {
+    "name": "Geneticism",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "limit": [
+          "medicine",
+          "science"
+        ]
+      }
+    ],
+    "html": "<p>You are trained in genetic manipulation and bio-engineering. You have proficiency\nin Medicine or Science.</p>\n",
+    "id": "geneticism"
+  },
+  {
     "species": [
       "quarian"
     ],
@@ -886,6 +975,27 @@
     "name": "Hooks",
     "html": "<p>Your appendages have tiny monomolecular hooks that grip onto almost any substance. If you use all\nfour appendages, your climbing speed is equal to your walking speed and you can move up, down, and\nacross vertical surfaces and upside down along ceilings.</p>\n",
     "id": "hooks"
+  },
+  {
+    "name": "Hulking Build",
+    "species": [
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "athletics",
+          "acrobatics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to avoid/escape grapples if the grappler is your size or smaller"
+        }
+      }
+    ],
+    "html": "<p>You count as one size larger when determining your carrying capacity and the\nweight you can push, drag, or lift. Additionally, you have advantage on\nStrength (Athletics) and Dexterity (Acrobatics) checks to avoid being\ngrappled or to escape a grapple if the grappler is your size or smaller.</p>\n",
+    "id": "hulking-build"
   },
   {
     "species": [
@@ -1078,7 +1188,8 @@
   {
     "name": "Leadership",
     "species": [
-      "military-doctrine-combat-officer"
+      "military-doctrine-combat-officer",
+      "exaltation-destined"
     ],
     "mechanics": [
       {
@@ -1102,6 +1213,21 @@
     ],
     "html": "<p>Whenever a friendly creature you can see makes an attack roll or saving throw, you may use your reaction to issue a\nspecial warning or command. The creature can add a d4 to its roll, provided it can hear you.</p>\n<p>You can use this trait between short or long rests a number of times equal to your Charisma modifier (minimum once).</p>\n",
     "id": "leadership"
+  },
+  {
+    "name": "Levitate",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 4
+      }
+    ],
+    "html": "<p>You have a flying speed of 4 meters.</p>\n",
+    "id": "levitate"
   },
   {
     "species": [
@@ -1355,6 +1481,37 @@
     "id": "nutrient-hump"
   },
   {
+    "name": "Orb",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "name": "Orb",
+        "moreInfo": {
+          "model": "traits",
+          "id": "orb"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "orb"
+        },
+        "damage": {
+          "type": "tempHp",
+          "bonus": {
+            "type": "flat",
+            "value": 5
+          }
+        }
+      }
+    ],
+    "html": "<p>As an action, you may summon a protective orb that floats around you,\nintercepting incoming fire. Gain temporary 5 hit points.</p>\n<p>You can summon the orb a number of times between long rests equal to your\nproficiency bonus.</p>\n",
+    "id": "orb"
+  },
+  {
     "species": [
       "cybernetic-augmentation-muscular"
     ],
@@ -1427,12 +1584,39 @@
   },
   {
     "species": [
-      "krogan"
+      "krogan",
+      "exaltation-anointed",
+      "behemoth"
     ],
     "mechanics": [],
     "name": "Powerful Build",
     "html": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>\n",
     "id": "powerful-build"
+  },
+  {
+    "name": "Predator Eyes",
+    "species": [
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "insight"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to determine lies"
+        }
+      }
+    ],
+    "html": "<p>You have darkvision 24m (60ft) and gain proficiency in Insight. Additionally,\nyou have advantage on Wisdom (Insight) checks to determine if a creature is lying.</p>\n",
+    "id": "predator-eyes"
   },
   {
     "species": [
@@ -1508,6 +1692,15 @@
     "id": "quadrupedal"
   },
   {
+    "name": "Rally Point",
+    "species": [
+      "exaltation-anointed"
+    ],
+    "mechanics": [],
+    "html": "<p>At the start of your turn, you may reduce your speed to 0 to increase the DC of\nthe next Burst Fire action you take this turn by your proficiency bonus.</p>\n",
+    "id": "rally-point"
+  },
+  {
     "name": "Rapid Recall",
     "species": [
       "hardware-hologram"
@@ -1547,6 +1740,28 @@
     ],
     "html": "<p>You gain proficiency in the Perception, Stealth, or Survival skill (your choice).</p>\n",
     "id": "recon-training"
+  },
+  {
+    "name": "Relentless Endurance",
+    "species": [
+      "behemoth"
+    ],
+    "mechanics": [
+      {
+        "name": "Relentless Endurance",
+        "moreInfo": {
+          "model": "traits",
+          "id": "relentless-endurance"
+        },
+        "type": "other",
+        "resource": {
+          "id": "relentless-endurance"
+        },
+        "shortDesc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead."
+      }
+    ],
+    "html": "<p>When you are reduced to 0 hit points but not killed outright, you can drop to\n1 hit point instead. You can’t use this feature again until you finish a long rest.</p>\n",
+    "id": "relentless-endurance"
   },
   {
     "species": [
@@ -1604,6 +1819,15 @@
     "name": "Revival Unit",
     "html": "<p>Once per long rest, when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead.</p>\n",
     "id": "revival-unit"
+  },
+  {
+    "name": "Savage Attacks",
+    "species": [
+      "behemoth"
+    ],
+    "mechanics": [],
+    "html": "<p>When you score a critical hit with a melee weapon attack, you can roll one of\nthe weapon’s damage dice one additional time and add it to the extra damage\nof the critical hit.</p>\n",
+    "id": "savage-attacks"
   },
   {
     "species": [
@@ -1837,6 +2061,33 @@
     "id": "skill-proficiency"
   },
   {
+    "name": "Smoke Screen",
+    "species": [
+      "exaltation-destined"
+    ],
+    "mechanics": [
+      {
+        "name": "Smoke Screen",
+        "moreInfo": {
+          "model": "traits",
+          "id": "smoke-screen"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "smoke-screen"
+        },
+        "shortDesc": "Create an <me-distance length=\"20\" adj />-radius sphere of smoke centered on you."
+      }
+    ],
+    "html": "<p>As an action, you can create an <me-distance length=\"20\" adj />-radius sphere of smoke centered on you.\nThe sphere spreads around corners, and its area is heavily obscured. It lasts\nfor 1 minute or until a wind of moderate or greater speed (at least\n<me-distance large length=\"10\" /> per hour) disperses it.</p>\n<p>You may use this twice between short or long rests.</p>\n",
+    "id": "smoke-screen"
+  },
+  {
     "species": [
       "angara"
     ],
@@ -1952,6 +2203,25 @@
     "name": "Synthetic Construct",
     "html": "<p>As a synthetic creature you gain the benefits and detriments of not being composed of biological material.\nYour creature type is synthetic and you cannot be the target of any power, item, or feature that\nindicates an organic target. You gain the following:</p>\n<ul>\n<li>You are immune to psychic and poison damage</li>\n<li>You are immune to disease and the poisoned condition</li>\n<li>You are vulnerable to lightning damage.</li>\n<li>Being stabilized requires a successful DC 10 Intelligence (Engineering) or\nIntelligence (Electronics) check instead of Wisdom (Medicine).</li>\n<li>You do not need to eat, drink, or breathe.</li>\n<li>You do not need to sleep.</li>\n</ul>\n",
     "id": "synthetic-construct"
+  },
+  {
+    "name": "Tackler",
+    "species": [
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "name": "Tackler",
+        "moreInfo": {
+          "model": "traits",
+          "id": "tackler"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Take the Dash action and move at least 20ft, to attempt a grapple."
+      }
+    ],
+    "html": "<p>Immediately after you use the Dash action on your turn and move at least\n<me-distance length=\"20\" />, you can attempt to grapple one creature as a bonus\naction. If you succeed on the grapple, the creature becomes prone.</p>\n",
+    "id": "tackler"
   },
   {
     "name": "Tank Imprints",
@@ -2115,7 +2385,8 @@
     "species": [
       "cybernetic-augmentation-visceral",
       "krogan",
-      "tankbred"
+      "tankbred",
+      "yahg"
     ],
     "mechanics": [
       {
@@ -2165,9 +2436,28 @@
     "id": "twice-as-bright"
   },
   {
+    "name": "Undeterred",
+    "species": [
+      "exaltation-chosen"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": "frightened",
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "html": "<p>Self-preservation has been nearly eradicated from your genetic profile. You\nhave advantage on saving throws against being frightened.</p>\n",
+    "id": "undeterred"
+  },
+  {
     "name": "Weapon Training",
     "species": [
-      "military-doctrine-infantry"
+      "military-doctrine-infantry",
+      "exaltation-chosen",
+      "exaltation-anointed"
     ],
     "mechanics": [
       {

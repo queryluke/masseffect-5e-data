@@ -634,6 +634,31 @@
     "subspecies": false
   },
   {
+    "name": "Variant: Behemoth",
+    "type": "variant",
+    "species": "kett",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>These unfortunate individuals were once krogan. After capture, experimentation,\nand attempts at exaltation, they are now Behemoths, bearing the characteristic\nwhite carapace of the kett and the strength of a krogan in full fury. If you\nwish to play as a Behemoth, replace the exalted lineage trait with the following.</p>\n",
+    "id": "behemoth",
+    "subspecies": false
+  },
+  {
     "type": "subspecies",
     "species": "quarian",
     "mechanics": [
@@ -835,6 +860,42 @@
     "age": "The average elcor lives to be around 300 years old. 100-year-old elcor are considered young.",
     "html": "<p>Elcor evolved on a high-gravity world, making them slow, but incredibly strong. Their large, heavy bodies are\nincapable of moving quickly, but they possess a rather imposing stature as well as thick, tough skin. They move using\nall four limbs to support and balance their massive bodies. Given their method of communication, they have highly-attuned\nolfactory senses. They also have at least three stomachs.</p>\n<h3>Language of Smells and Sight</h3>\n<p>Elcor speech is heard by most species as a flat, ponderous monotone. Among themselves, scent, extremely\nslight body movements, and subvocalized infrasound convey shades of meaning that make a human smile seem as subtle\nas a fireworks display. Since their subtlety can lead to misunderstandings with other species, the elcor\nprefix all their dialog with non-elcor with an emotive statement to clarify their tone.</p>\n<h3>Migratory Nature</h3>\n<p>Prehistoric elcor traveled across Dekuuna in large tribal groups. As their civilizations grew, they kept\ntheir migratory nature and established twin capitals on their homeworld, one for the wet season and one for the dry season.\nHowever, their migration is limited to a single planet as most elcor find the confines of space travel very uncomfortable.</p>\n<h3>Living Tanks</h3>\n<p>Because of their slow, conservative psyches, elcor are not suitable for making the spur-of-the-moment decisions\nnecessary in combat situations. Instead, they rely on sophisticated VI combat systems. While easy targets, their durable\nhide allows them to shrug off most incoming fire. Elcor warriors use their broad shoulders as a mount for weaponry and\ntheir VI as a targeting mechanism. Some elcor are equipped with mass-accelerator cannons, the same weapons\ntypically mounted on military vehicles.</p>\n<h3>Elcor Names</h3>\n<p>Elcor do not have gender-binary names because their gender is discerned through smell. While the names appear singular,\nthey are made up of a much more complex set of sounds that only other elcor can hear.</p>\n<p><strong>Elcor Names</strong>: Calyn, Cyllyn, Detinos, Delzino, Felitos, Fazuti, Halzan, Harrot, Pedezlan, Petelenti, Petozi, Vatozi, Voletzi, Xeltan, Zatzoni</p>\n<p><me-source-reference pages=\"Elcor\" source=\"wiki\"></me-source-reference></p>\n",
     "id": "elcor",
+    "subspecies": false
+  },
+  {
+    "name": "Anointed",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>The kett soldiers known as Anointed appear to be of similar caste to the Chosen:\ninfantry equipped with light armor. Anointed, however, are slightly larger and\nwield heavy plasma cannons, making them a rallying point for other kett forces.</p>\n",
+    "id": "exaltation-anointed",
+    "subspecies": false
+  },
+  {
+    "name": "Ascendant",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>The Ascendant are the highest caste of kett known. Element zero cores throughout\nits armor allow an Ascendant to levitate off the ground. They also have biological\ncontrol over electromagnetic force.</p>\n",
+    "id": "exaltation-ascendant",
+    "subspecies": false
+  },
+  {
+    "name": "Chosen",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>Chosen are the front-line soldiers of the kett, encountered on multiple worlds\nas support for other kett combatants.</p>\n",
+    "id": "exaltation-chosen",
+    "subspecies": false
+  },
+  {
+    "name": "Destined",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>Destined act as battlefield commanders, rallying infantry into tightly cohesive\nunits, providing shield support and directing operations from the center. The\nmost interesting characteristic of the Destined is their ability to produce an\nobscuring &quot;smoke&quot; cloud without mechanical assistance.</p>\n",
+    "id": "exaltation-destined",
     "subspecies": false
   },
   {
