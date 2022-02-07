@@ -1,6 +1,17 @@
 [
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "electronics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to disarm explosive devices (ex. mines)"
+        }
+      }
+    ],
     "new": true,
     "name": "A Beautiful Mine",
     "note": "You're an ace with explosives.",
@@ -8,7 +19,24 @@
     "id": "a-beautiful-mine"
   },
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "deception",
+          "performance"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "when trying to pass as a different person"
+        }
+      }
+    ],
     "name": "Actor",
     "note": "+1 Charisma, skilled at mimicry and dramatics",
     "html": "<p>Player's Handbook, p. 165</p>\n",
@@ -43,7 +71,15 @@
     "id": "additional-augment"
   },
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "initiative",
+        "bonus": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "name": "Alert",
     "note": "+5 to Initiative, can't be surprised, no advantage for hidden attackers",
     "html": "<p>Player's Handbook, p. 165</p>\n",

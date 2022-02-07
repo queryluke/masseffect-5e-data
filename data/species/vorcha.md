@@ -1,9 +1,4 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: dex
-  - amount: 1
-    ability: con
 speed:
   - type: walk
     speed: 40

@@ -2,13 +2,8 @@
   {
     "species": "vorcha",
     "name": "Aquatic",
-    "mechanics": [
-      {
-        "type": "speed",
-        "speed": "swim",
-        "distance": 30
-      }
-    ],
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-aquatic",
     "subspecies": false
@@ -16,6 +11,8 @@
   {
     "species": "vorcha",
     "name": "Desert",
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-desert",
     "subspecies": false
@@ -23,6 +20,8 @@
   {
     "name": "Frozen",
     "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-frozen",
     "subspecies": false
@@ -30,6 +29,8 @@
   {
     "name": "High-Gravity",
     "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-high-gravity",
     "subspecies": false
@@ -37,6 +38,8 @@
   {
     "name": "Underground",
     "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-underground",
     "subspecies": false
@@ -44,6 +47,8 @@
   {
     "name": "Volcanic",
     "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-volcanic",
     "subspecies": false
@@ -51,6 +56,8 @@
   {
     "name": "Zero-gravity",
     "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
     "html": "",
     "id": "adaptation-zero-gravity",
     "subspecies": false
@@ -1319,6 +1326,10 @@
     },
     "galaxy": "milky_way",
     "group": "andromeda",
+    "subspecies": {
+      "name": "Exaltation",
+      "html": "<p>Kett DNA is implanted into subjects through several rounds of injections,\nbuilding up the subject's systems, while kett scientists take the opportunity\nto run further tests upon the subject's genetic structure in hopes of isolating\nvaluable traits to be harvested and applied to the rest of the species.</p>\n<p>As kett gain rank and the patronage of their superiors, so too do they receive\nfurther genetic modifications, up to and including traits acquired from newer\nspecies encountered and assimilated into the Empire.</p>\n"
+    },
     "mechanics": [
       {
         "type": "speed",
@@ -1327,8 +1338,7 @@
       }
     ],
     "html": "<p>Kett are a dangerous race native to the Andromeda galaxy. They are brutal conquerors from an unknown area of Andromeda\nbeyond the borders of the Heleus Cluster. Seemingly genderless, they prize physical supremacy and genetic dominance,\nassimilating conquered peoples. The kett believe their species is superior to all others, and as such, the conquered\nhave two fates: either become Exalted, altered on a genetic level to become kett, or enslaved for the glory of the\nempire.</p>\n<h3>Threat from the Void</h3>\n<p>The kett are not native to the Heleus Cluster, which they call Sector 1-19-NYKZ, and began invading it in 2744.\nWhen the angara encountered them, the kett lured them into a false sense of security with gifts and offers of\nfriendship, before kidnapping their leadership and providing information which provoked arguments between angaran\nworlds. Little is known about how large the Kett empire truly is, but the advance on the Heleus Cluster represents\nonly a portion of their invading force.</p>\n<h3>Masters of Bioengineering</h3>\n<p>The kett possess technology that is comparable in advancement to the Andromeda Initiative, but have an unparalleled\nmastery of biotechnology and medical technology. Bio-engineered components are used in all of their machines and\ndevices. Instead of conventional research and development programs, kett prefer to improve their technology\nincrementally by taking features and designs from other species' technology.</p>\n<h3>Exaltation</h3>\n<p>Kett possess no reproductive organs, and they reproduce only through an artificial process called exaltation. It is\nspeculated that exaltation arose long ago in kett history when their genetics reached a point of stagnation, leaving\nthe species unable to breed through natural means. The kett began adding beneficial genes from other species into their\nown genome in order to continually improve themselves, which they refer to as harmonization. Kett mastery over genetic\nmanipulation enabled them to develop a serum to rapidly convert other species into obedient kett, which became the\nbasis for exaltation.</p>\n<p>Kett biology retains traits taken from many other species. One such trait is that kett can survive for limited periods\nin inhospitable environments without protective suits, including vacuum. However, nothing from the original species'\nbody is left: a kett exalted from an angara, for example, only has traces of angaran genome remaining. Internal scans\nshow kett organs, not angaran ones. They are physically kett, for all intents and purposes, and exaltation appears to\nbe permanent and irreversible thus far.</p>\n<p>The kett revere exaltation as a sacred ritual, believing that the species selected to undergo exaltation are ascending\nto greatness while helping the kett do the same. These subjugated species are initially called &quot;Chosen&quot;, and may later\nadvance to higher tiers with the kett hierarchy, such as &quot;Anointed&quot;.</p>\n<h3>Kett Names</h3>\n<p>Kett are mostly known through titles related to their position in society. Their personal names as translated appear\nto consist of barely pronounceable strings of consonants with no vowels.</p>\n<p><strong>Kett names</strong>: Bxckr, Chbcd, Jtksb, Ksmzh, Pqtk, Pcnht, Rkshq, Xjbrk, Zgtt</p>\n",
-    "id": "kett",
-    "subspecies": false
+    "id": "kett"
   },
   {
     "bodyImg": "https://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500",
@@ -1985,7 +1995,7 @@
       }
     },
     "galaxy": "milky_way",
-    "group": "primary",
+    "group": "lesser_known",
     "subspecies": {
       "name": "Hardware",
       "html": "<p>Unlike geth, Unshackled AI are tied to their mobile hardware. Their consciousness cannot be downloaded, stored, synced, nor moved to another blue box as this would cause a new personality to be born. Below are example hardware configurations, but you can work with your GM to create other hardware options.</p>\n"
@@ -2072,16 +2082,6 @@
     "subspecies": false
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "dex"
-      },
-      {
-        "amount": 1,
-        "ability": "con"
-      }
-    ],
     "speed": [
       {
         "type": "walk",

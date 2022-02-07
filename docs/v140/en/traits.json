@@ -232,21 +232,6 @@
     "id": "a-long-life"
   },
   {
-    "name": "Adaptation",
-    "species": [
-      "vorcha"
-    ],
-    "mechanics": [
-      {
-        "type": "model-choice",
-        "model": "vorchaAdaptations",
-        "options": true
-      }
-    ],
-    "html": "<p>Your cells allow you to adapt to harsh environments. Choose one adaptation from the Adaptation table below and gain\nboth of its 1 week and 1 year benefits.</p>\n<p>You may gain additional adaptations if you spend the requisite amount of time in an environment listed below (1 week\nand 1 year). To gain the benefit, you must spend more than fifty percent of your time within the environment with\nlittle to no protection. At your GM’s discretion, you can gain additional adaptations at a faster rate or at character\ncreation.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Environment</th>\n<th>1 week</th>\n<th>1 year</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Aquatic</td>\n<td>You gain a swimming speed of 12 meters.</td>\n<td>You can breathe both air and water.</td>\n</tr>\n<tr>\n<td>Desert</td>\n<td>You can go twice as long without food or water before you suffer exhaustion.</td>\n<td>+1 Constitution</td>\n</tr>\n<tr>\n<td>Frozen</td>\n<td>You have advantage on Constitution saving throws to resist exhaustion due to extreme cold.</td>\n<td>You have resistance to cold damage.</td>\n</tr>\n<tr>\n<td>High-gravity</td>\n<td>You ignore difficult terrain caused by high gravity.</td>\n<td>+1 Strength</td>\n</tr>\n<tr>\n<td>Underground</td>\n<td>You can see in dim light within 24 meters of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</td>\n<td>You can perceive your surroundings in a 12 meter radius without relying on sight. Additionally, You have advantage on stealth checks while in darkness.</td>\n</tr>\n<tr>\n<td>Volcanic</td>\n<td>You have advantage on Constitution saving throws to resist exhaustion due to extreme heat.</td>\n<td>You have resistance to fire damage.</td>\n</tr>\n<tr>\n<td>Zero-gravity</td>\n<td>While lifted or in zero-g, you gain a flying speed of 2 meters.</td>\n<td>You do not have disadvantage on attack rolls while you are lifted or in zero-g.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
-    "id": "adaptation"
-  },
-  {
     "species": [
       "ardat-yakshi"
     ],
@@ -1015,7 +1000,7 @@
         "model": "exalted-lineages"
       }
     ],
-    "html": "<p>You are an exalted version of another species. Pick an organic specie (or synthetic at you\nGM's discretion) species and gain the following elements from it: any ability score increases, any skill\nproficiencies, and any climbing, flying, or swimming speed.</p>\n<p>If you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.</p>\n",
+    "html": "<p>You are an exalted version of another species. Pick an organic species (or synthetic at you\nGM's discretion) and gain the following elements from it: any ability score increases, any resistances,\nany immunities, any senses, and any climbing, flying, or swimming speed.</p>\n<p>If you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.</p>\n",
     "id": "exalted-lineage"
   },
   {
@@ -2346,7 +2331,9 @@
       "ay-disposition-chaste"
     ],
     "mechanics": [
-      "ardat-yakshi-stave-off"
+      {
+        "type": "ardat-yakshi-stave-off"
+      }
     ],
     "name": "Stave Off",
     "html": "<p>If you spend one hour meditating each day, the DC of your Addiction saving throw does not increase.\nYou may meditate as part of a long rest. If you mate with another creature, replace this trait with the\nHunger trait from the Embrace disposition.</p>\n",

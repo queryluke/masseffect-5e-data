@@ -11820,18 +11820,6 @@
     "html": false
   },
   {
-    "id": "adaptation",
-    "title": "Adaptation",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Species"
-    ],
-    "link": "/traits/adaptation",
-    "body": "Your cells allow you to adapt to harsh environments. Choose one adaptation from the Adaptation table below and gain\nboth of its 1 week and 1 year benefits.\nYou may gain additional adaptations if you spend the requisite amount of time in an environment listed below (1 week\nand 1 year). To gain the benefit, you must spend more than fifty percent of your time within the environment with\nlittle to no protection. At your GM’s discretion, you can gain additional adaptations at a faster rate or at character\ncreation.\n\n\nEnvironment\n1 week\n1 year\n\n\n\n\nAquatic\nYou gain a swimming speed of 12 meters.\nYou can breathe both air and water.\n\n\nDesert\nYou can go twice as long without food or water before you suffer exhaustion.\n+1 Constitution\n\n\nFrozen\nYou have advantage on Constitution saving throws to resist exhaustion due to extreme cold.\nYou have resistance to cold damage.\n\n\nHigh-gravity\nYou ignore difficult terrain caused by high gravity.\n+1 Strength\n\n\nUnderground\nYou can see in dim light within 24 meters of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\nYou can perceive your surroundings in a 12 meter radius without relying on sight. Additionally, You have advantage on stealth checks while in darkness.\n\n\nVolcanic\nYou have advantage on Constitution saving throws to resist exhaustion due to extreme heat.\nYou have resistance to fire damage.\n\n\nZero-gravity\nWhile lifted or in zero-g, you gain a flying speed of 2 meters.\nYou do not have disadvantage on attack rolls while you are lifted or in zero-g.\n\n\n",
-    "html": false
-  },
-  {
     "id": "addiction",
     "title": "Addiction",
     "type": "character",
@@ -12296,7 +12284,7 @@
       "Species"
     ],
     "link": "/traits/exalted-lineage",
-    "body": "You are an exalted version of another species. Pick an organic specie (or synthetic at you\nGM's discretion) species and gain the following elements from it: any ability score increases, any skill\nproficiencies, and any climbing, flying, or swimming speed.\nIf you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.\n",
+    "body": "You are an exalted version of another species. Pick an organic species (or synthetic at you\nGM's discretion) and gain the following elements from it: any ability score increases, any resistances,\nany immunities, any senses, and any climbing, flying, or swimming speed.\nIf you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.\n",
     "html": false
   },
   {
