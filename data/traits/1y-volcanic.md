@@ -1,5 +1,5 @@
 ---
-name: Callused SKin
+name: Callused Skin
 species:
   - adaptation-volcanic
 mechanics:
