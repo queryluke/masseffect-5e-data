@@ -5,8 +5,8 @@ mechanics:
   - type: action
     resource: {}
     shortDesc: >-
-      For 1 minute, speed increases by <me-distance length="2" />, +1 to weapon attack rolls,
-      +1 attack w/ Attack action.
+      For 1 minute, speed increases by <me-distance length="5" />, +1 to weapon attack rolls,
+      1 additional attack when you take the Attack action.
 prerequisite: Geth
 prereq:
   - type: species
@@ -21,7 +21,3 @@ As an action, you can activate Assault Hunter Mode, gaining the following benefi
 - While hunter mode is active, you can attack one additional time whenever you take the Attack action on your turn.
 
 You may use this feat once per long rest.
-
-
-
-
