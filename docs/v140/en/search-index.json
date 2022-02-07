@@ -10836,6 +10836,90 @@
     "html": false
   },
   {
+    "id": "adaptation-aquatic",
+    "title": "Aquatic",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-aquatic",
+    "body": "",
+    "html": false
+  },
+  {
+    "id": "adaptation-desert",
+    "title": "Desert",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-desert",
+    "body": "",
+    "html": false
+  },
+  {
+    "id": "adaptation-frozen",
+    "title": "Frozen",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-frozen",
+    "body": "",
+    "html": false
+  },
+  {
+    "id": "adaptation-high-gravity",
+    "title": "High-Gravity",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-high-gravity",
+    "body": "",
+    "html": false
+  },
+  {
+    "id": "adaptation-underground",
+    "title": "Underground",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-underground",
+    "body": "",
+    "html": false
+  },
+  {
+    "id": "adaptation-volcanic",
+    "title": "Volcanic",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-volcanic",
+    "body": "",
+    "html": false
+  },
+  {
+    "id": "adaptation-zero-gravity",
+    "title": "Zero-gravity",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes"
+    ],
+    "link": "/species/adaptation-zero-gravity",
+    "body": "",
+    "html": false
+  },
+  {
     "id": "angara",
     "title": "Angara",
     "type": "character",
@@ -11553,6 +11637,174 @@
     ],
     "link": "/species/yahg",
     "body": "The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and\naggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.\nApex Predator\nThe yahg evolved to fill the niche of apex predator on Parnack. Yahg have four pairs of eyes, each pair designed to\ntrack and predict the movements of prey. A keen sensitivity to movement and light allows the yahg to easily read the\nbody language of any species, making it almost impossible to lie to a yahg.\nThey have scaly, partially armored skin, a triangular mouth adorned with sharp teeth, two large horns and facial\nmarkings on their heads. Their hands each have three fingers which include a thumb, as well as three toes on each foot.\nThe yahg possess a large, muscular body, standing over even the krogan, which provides considerable physical strength and agility.\nDiscovery\nWhen Parnack was discovered by Citadel Council surveyors in 2125 CE, the yahg were a pre-spaceflight civilization with\ntechnology equivalent to that of 20th century Earth. A Council delegation of ambassadors made first contact with the\nyahg and attempted to establish diplomatic relations. Unfortunately, the yahg perceived the ambassadors' attitudes and\nbehavior as equal individuals instead of subordinates as a sign of contempt, and attacked and massacred the entire\ndelegation. Immediately following that incident, the Citadel Council severed all contact with the yahg and declared\nParnack off-limits. The Council maintains that the yahg's aggression and obsession with control make them poorly suited\nto integrate with the galactic community.\nClan Culture\nYahg society is built around a pack mentality. A group of yahg will not cooperate until a single leader has attained\ndominance through either social maneuvering or brute force. Once the leader is established, the defeated yahg do not\nhold a grudge and former rivals serve their new superior loyally. Due to this mentality, the concept of equality is\noffensive to them.\nYahg Names\nYahg individuals typically carry three names with them. The first name is their status name, representing their status\nwithin their clan. This name can change often. The second name is their isle name, which represents one of the\ncontinents of Parnack. The final name is their given name.\nStatus names: Bahk (Shamed), Daug (Vanished), Eobath (Champion), Pique (Adored), Wooban (Honored), Yolat (Victorious)\nClan/Isle names: Chend, Foesk, Gohm-Hak, Gohm-Nur, Icktah, Kurteck, Koltash, Mokash, Niche, Soltahg\nGiven Names: Bak, Behm, Chok, Dut, Dahm, Fosk, Gur, Kaht, Mos, Nur, Par, Tur\n",
+    "html": false
+  },
+  {
+    "id": "1w-aquatic",
+    "title": "Webbed Appendages",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-aquatic",
+    "body": "After 1 week, you gain a swimming speed of 12 meters.\n",
+    "html": false
+  },
+  {
+    "id": "1w-desert",
+    "title": "Scarcity",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-desert",
+    "body": "After 1 week, you can go twice as long without food or water before you suffer exhaustion.\n",
+    "html": false
+  },
+  {
+    "id": "1w-frozen",
+    "title": "Light Fur",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-frozen",
+    "body": "After 1 week, you have advantage on Constitution saving throws to resist exhaustion due to extreme cold.\n",
+    "html": false
+  },
+  {
+    "id": "1w-high-gravity",
+    "title": "Muscle Adaptation",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-high-gravity",
+    "body": "After 1 week, you ignore difficult terrain caused by high gravity.\n",
+    "html": false
+  },
+  {
+    "id": "1w-underground",
+    "title": "Ocular Adjustment",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-underground",
+    "body": "After 1 week, you gain darkvision .\n",
+    "html": false
+  },
+  {
+    "id": "1w-volcanic",
+    "title": "Cold Blooded",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-volcanic",
+    "body": "After 1 week, you have advantage on Constitution saving throws to resist exhaustion due to extreme heat.\n",
+    "html": false
+  },
+  {
+    "id": "1w-zero-gravity",
+    "title": "Micro Thrusts",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1w-zero-gravity",
+    "body": "After 1 week, while lifted or in zero-g, you are not restrained and gain a flying speed of \n",
+    "html": false
+  },
+  {
+    "id": "1y-aquatic",
+    "title": "Amphibious",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-aquatic",
+    "body": "After 1 year, you can breathe both air and water.\n",
+    "html": false
+  },
+  {
+    "id": "1y-desert",
+    "title": "Hardened Biology",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-desert",
+    "body": "After 1 year, your Constitution score increases by 1 to a maximum of 20.\n",
+    "html": false
+  },
+  {
+    "id": "1y-frozen",
+    "title": "Cold Acclimation",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-frozen",
+    "body": "After 1 year, you have resistance to cold damage.\n",
+    "html": false
+  },
+  {
+    "id": "1y-high-gravity",
+    "title": "Muscle Density",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-high-gravity",
+    "body": "After 1 year, your Strength score increases by 1 to a maximum of 20.\n",
+    "html": false
+  },
+  {
+    "id": "1y-underground",
+    "title": "Creature of Darkness",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-underground",
+    "body": "After 1 year, you gain blindsight . Additionally, you have advantage on stealth checks while\nin darkness.\n",
+    "html": false
+  },
+  {
+    "id": "1y-volcanic",
+    "title": "Callused Skin",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-volcanic",
+    "body": "After 1 year, you gain resistance to fire damage.\n",
+    "html": false
+  },
+  {
+    "id": "1y-zero-gravity",
+    "title": "Vestibular Regulation",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Species"
+    ],
+    "link": "/traits/1y-zero-gravity",
+    "body": "After 1 year, you do not have disadvantage on attack rolls while you are lifted or in zero-g.\n",
     "html": false
   },
   {

@@ -139,7 +139,7 @@ for (const lang of langs) {
       return item
     })
     if (dir === 'edges') {
-      items.push(...generateExaltedLineages())
+      items.push(...generateExaltedLineages().sort((a, b) => a.id - b.id))
     }
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
     processedModels.push(dir)
@@ -195,35 +195,60 @@ function generateExaltedLineages () {
   const { speciesNames, species, traits } = getSpeciesInfo()
   const exaltedLineages = []
   const edgeType = 'exalted-lineages'
+  const asiRiciSSFilter = (mechanic) => {
+    return ['resistance', 'speed', 'sense', 'comdition-immunity', 'immunity'].includes(mechanic.type) || mechanic.type.startsWith('asi')
+  }
   for (const sp of species) {
-    if (sp.type === 'subspecies' || sp.type === 'variant' || sp.id === 'kett') {
+    if (sp.type === 'subspecies' || sp.id === 'kett') {
       continue
     }
     let id = `EXL_${sp.id}`
     let name = sp.name || speciesNames.find(i => i.id === sp.id)?.name
+
+    if (sp.type === 'variant' && sp.species !== 'ardat-yakshi') {
+      const parent = species.find(i => i.id === sp.species)
+      const parentName = parent.name || speciesNames.find(i => i.id === species)
+      const subId = `${parent.id}-${sp.id}`
+      name = `${parentName} (${name})`
+      let mechanics = sp.mechanics || parent.mechanics
+      mechanics = mechanics.filter(asiRiciSSFilter)
+      const asiRiciSS = traits.filter(i => i.species.includes(sp.id))
+        .reduce((acc, curr) => acc.concat(curr.mechanics), [])
+        .filter(asiRiciSSFilter)
+      mechanics.push(...asiRiciSS)
+      exaltedLineages.push({
+        id,
+        name,
+        mechanics,
+        type: edgeType
+      })
+      continue
+    }
     const mechanics = [
-      ...sp.mechanics.filter(i => i.type.startsWith('asi') || i.type.startsWith('speed'))
+      ...(sp.mechanics || []).filter(asiRiciSSFilter)
     ]
-    const profMechanics = traits.filter(i => i.species.includes(sp.id))
+    const asiRiciSS= traits.filter(i => i.species.includes(sp.id))
       .reduce((acc, curr) => acc.concat(curr.mechanics), [])
-      .filter(i => i.type.startsWith('skill'))
-    mechanics.push(...profMechanics)
+      .filter(asiRiciSSFilter)
+    mechanics.push(...asiRiciSS)
+
+
     if (sp.subspecies) {
       for (const sub of species.filter(i => i.type === 'subspecies' && i.species === sp.id)) {
         const subId = `${id}-${sub.id}`
         let subName = sub.name || speciesNames.find(i => i.id === sub.id)?.name
         subName = `${name} (${subName})`
         const subMechanics = [
-          ...sub.mechanics.filter(i => i.type.startsWith('asi') || i.type.startsWith('speed'))
+          ...sub.mechanics.filter(asiRiciSSFilter)
         ]
-        const subProfMechanics = traits.filter(i => i.species.includes(sub.id))
+        const subAsiRiciSS = traits.filter(i => i.species.includes(sub.id))
           .reduce((acc, curr) => acc.concat(curr.mechanics), [])
-          .filter(i => i?.type.startsWith('skill'))
-        subMechanics.push(...subProfMechanics)
+          .filter(asiRiciSSFilter)
+        subMechanics.push(...subAsiRiciSS)
         exaltedLineages.push({
           id: subId,
           name: subName,
-          mechanics: [...profMechanics, ...subMechanics].sort((a, b) => a.type - b.type),
+          mechanics: subMechanics.sort((a, b) => a.type - b.type),
           type: edgeType
         })
       }
@@ -231,7 +256,7 @@ function generateExaltedLineages () {
       exaltedLineages.push({
         id,
         name,
-        mechanics: profMechanics,
+        mechanics: asiRiciSS,
         type: edgeType
       })
     }

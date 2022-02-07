@@ -833,6 +833,7 @@
     "id": "REP_presence"
   },
   {
+    "id": "EXL_adaptation-aquatic",
     "name": "Aquatic",
     "mechanics": [
       {
@@ -841,11 +842,10 @@
         "distance": 30
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You gain a swimming speed of 12 meters.\tYou can breathe both air and water.</p>\n",
-    "id": "VA_aquatic"
+    "type": "exalted-lineages"
   },
   {
+    "id": "EXL_adaptation-desert",
     "name": "Desert",
     "mechanics": [
       {
@@ -854,51 +854,34 @@
         "amount": 1
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You can go twice as long without food or water before you suffer exhaustion. Increase your Constitution score by 1 to a maximum of 20.</p>\n",
-    "id": "VA_desert"
+    "type": "exalted-lineages"
   },
   {
+    "id": "EXL_adaptation-frozen",
     "name": "Frozen",
     "mechanics": [
-      {
-        "type": "saving-throw",
-        "value": [
-          "con"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to resist exhaustion due to extreme cold"
-        }
-      },
       {
         "type": "resistance",
         "value": "cold",
         "note": "to your hit points"
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You have advantage on Constitution saving throws to resist exhaustion due to extreme cold and resistance to cold damage.</p>\n",
-    "id": "VA_frozen"
+    "type": "exalted-lineages"
   },
   {
+    "id": "EXL_adaptation-high-gravity",
     "name": "High-Gravity",
     "mechanics": [
-      {
-        "type": "speed-note",
-        "note": "Ignore difficult terrain caused by high gravity"
-      },
       {
         "type": "asi",
         "ability": "str",
         "amount": 1
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You ignore difficult terrain caused by high gravity. Increase your strength score by 1 to a maximum of 20.</p>\n",
-    "id": "VA_high-gravity"
+    "type": "exalted-lineages"
   },
   {
+    "id": "EXL_adaptation-underground",
     "name": "Underground",
     "mechanics": [
       {
@@ -910,46 +893,24 @@
         "type": "sense",
         "sense": "blindsight",
         "distance": 30
-      },
-      {
-        "type": "skill-check",
-        "value": [
-          "stealth"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "while in darkness"
-        }
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>Darkvision <me-distance length=\"60\" />. Blindsight <me-distance length=\"30\" />. Additionally, you have advantage on stealth checks while in darkness.</p>\n",
-    "id": "VA_underground"
+    "type": "exalted-lineages"
   },
   {
+    "id": "EXL_adaptation-volcanic",
     "name": "Volcanic",
     "mechanics": [
-      {
-        "type": "saving-throw",
-        "value": [
-          "con"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to resist exhaustion due to extreme heat"
-        }
-      },
       {
         "type": "resistance",
         "value": "fire",
         "note": "to your hit points"
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You have advantage on Constitution saving throws to resist exhaustion due to extreme heat and resistance to fire damage.</p>\n",
-    "id": "VA_volcanic"
+    "type": "exalted-lineages"
   },
   {
+    "id": "EXL_adaptation-zero-gravity",
     "name": "Zero-gravity",
     "mechanics": [
       {
@@ -959,17 +920,33 @@
         "note": "while lifted or in zero-g"
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>While lifted or in zero-g, you gain a flying speed of 2 meters and you do not have disadvantage on attack rolls.</p>\n",
-    "id": "VA_zero-gravity"
+    "type": "exalted-lineages"
   },
   {
     "id": "EXL_angara",
     "name": "Angara",
     "mechanics": [
       {
-        "type": "skill",
-        "value": "survival"
+        "type": "resistance",
+        "value": "lightning",
+        "note": "only applies to hit points"
+      },
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "only applies to hit points"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ardat-yakshi",
+    "name": "undefined (Ardat-Yakshi)",
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
       }
     ],
     "type": "exalted-lineages"
@@ -982,10 +959,6 @@
         "type": "asi",
         "ability": "cha",
         "amount": 2
-      },
-      {
-        "type": "skill-choice",
-        "options": true
       }
     ],
     "type": "exalted-lineages"
@@ -1020,23 +993,6 @@
         "type": "asi",
         "ability": "cha",
         "amount": 1
-      },
-      {
-        "type": "skill",
-        "value": "persuasion"
-      },
-      {
-        "type": "skill-choice",
-        "options": true,
-        "limit": [
-          "deception",
-          "history",
-          "insight",
-          "intimidation",
-          "investigation",
-          "medicine",
-          "performance"
-        ]
       }
     ],
     "type": "exalted-lineages"
@@ -1044,25 +1000,45 @@
   {
     "id": "EXL_awakened-collector",
     "name": "Awakened Collector",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 30,
+        "note": "if you end your movement in the air, you fall to the ground at the end of your turn"
+      },
+      {
+        "type": "resistance",
+        "damageType": false,
+        "note": "Falling"
+      }
+    ],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_batarian",
     "name": "Batarian",
+    "mechanics": [],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_behemoth",
+    "name": "Kett (Variant: Behemoth)",
     "mechanics": [
       {
-        "type": "skill",
-        "value": "perception"
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
       },
       {
-        "type": "skill-choice",
-        "options": true,
-        "limit": [
-          "insight",
-          "intimidation"
-        ],
-        "selections": 1
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
       }
     ],
     "type": "exalted-lineages"
@@ -1070,47 +1046,13 @@
   {
     "id": "EXL_drell",
     "name": "Drell",
-    "mechanics": [
-      {
-        "type": "skill-choice",
-        "options": true,
-        "limit": [
-          "athletics",
-          "acrobatics",
-          "perception",
-          "stealth",
-          "survival"
-        ],
-        "selections": 2
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_elcor",
     "name": "Elcor",
-    "mechanics": [
-      {
-        "type": "skill",
-        "value": "insight"
-      },
-      {
-        "type": "skill",
-        "value": "perception"
-      },
-      {
-        "type": "skill-check",
-        "value": [
-          "investigation",
-          "perception",
-          "survival"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on smell"
-        }
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
@@ -1132,10 +1074,6 @@
         "speed": "climb",
         "distance": 20,
         "note": "equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages."
-      },
-      {
-        "type": "skill",
-        "value": "stealth"
       }
     ],
     "type": "exalted-lineages"
@@ -1177,19 +1115,43 @@
   {
     "id": "EXL_hanar",
     "name": "Hanar",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30,
+        "note": "if contra-gravitic levitation device is functional, ignore difficult terrain. If not functional, walking speed becomes 0."
+      },
+      {
+        "type": "resistance",
+        "note": "reduce fall damage by 4d6 if contra-gravitic levitation device is functional"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_human-variant",
+    "name": "undefined (Human Variant)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_human",
     "name": "Human",
-    "mechanics": [
-      {
-        "type": "skill-choice",
-        "options": true,
-        "selections": 2
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
@@ -1199,24 +1161,68 @@
     "type": "exalted-lineages"
   },
   {
-    "id": "EXL_prothean-avatar-bravery",
-    "name": "Prothean (Bravery)",
+    "id": "EXL_lystheni",
+    "name": "undefined (Lystheni)",
     "mechanics": [
       {
-        "type": "skill",
-        "value": "perception"
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "resistance",
+        "value": "poison"
       }
     ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-no-avatar",
+    "name": "undefined (No Avatar)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "sense",
+        "sense": "truesight",
+        "note": "when you take the Search action, lasts until action is resolved"
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-avatar-bravery",
+    "name": "Prothean (Bravery)",
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_prothean-avatar-humor",
     "name": "Prothean (Humor)",
     "mechanics": [
-      {
-        "type": "skill",
-        "value": "perception"
-      },
       {
         "type": "asi",
         "ability": "cha",
@@ -1228,33 +1234,19 @@
   {
     "id": "EXL_prothean-avatar-leadership",
     "name": "Prothean (Leadership)",
-    "mechanics": [
-      {
-        "type": "skill",
-        "value": "perception"
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_prothean-avatar-sacrifice",
     "name": "Prothean (Sacrifice)",
-    "mechanics": [
-      {
-        "type": "skill",
-        "value": "perception"
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_prothean-avatar-strength",
     "name": "Prothean (Strength)",
     "mechanics": [
-      {
-        "type": "skill",
-        "value": "perception"
-      },
       {
         "type": "asi",
         "ability": "str",
@@ -1266,23 +1258,13 @@
   {
     "id": "EXL_prothean-avatar-tranquility",
     "name": "Prothean (Tranquility)",
-    "mechanics": [
-      {
-        "type": "skill",
-        "value": "perception"
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
     "id": "EXL_prothean-avatar-vengeance",
     "name": "Prothean (Vengeance)",
-    "mechanics": [
-      {
-        "type": "skill",
-        "value": "perception"
-      }
-    ],
+    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
@@ -1293,17 +1275,6 @@
         "type": "asi",
         "ability": "int",
         "amount": 1
-      },
-      {
-        "type": "skill-choice",
-        "options": true,
-        "limit": [
-          "electronics",
-          "engineering",
-          "history",
-          "investigation",
-          "science"
-        ]
       }
     ],
     "type": "exalted-lineages"
@@ -1319,15 +1290,6 @@
           "dex"
         ],
         "options": true
-      },
-      {
-        "type": "skill-choice",
-        "options": true,
-        "limit": [
-          "acrobatics",
-          "athletics"
-        ],
-        "selections": 1
       }
     ],
     "type": "exalted-lineages"
@@ -1345,15 +1307,9 @@
         "options": true
       },
       {
-        "type": "skill-check",
-        "value": [
-          "perception",
-          "investigation"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "on checks that rely on sight"
-        }
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
       }
     ],
     "type": "exalted-lineages"
@@ -1373,18 +1329,54 @@
   {
     "id": "EXL_salarian",
     "name": "Salarian",
+    "mechanics": [],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_tankbred",
+    "name": "undefined (Tank-Bred)",
     "mechanics": [
       {
-        "type": "skill-check",
-        "effect": {
-          "type": "advantage",
-          "note": "on information you have seen or read"
-        }
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
       },
       {
-        "type": "skill-choice",
-        "options": true,
-        "selections": 2
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-non-hierarchy",
+    "name": "undefined (Non-Hierarchy)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "resistance",
+        "value": "radiant",
+        "note": "to your hit points"
       }
     ],
     "type": "exalted-lineages"
@@ -1397,14 +1389,6 @@
         "type": "asi",
         "ability": "cha",
         "amount": 1
-      },
-      {
-        "type": "skill-choice",
-        "options": true,
-        "limit": [
-          "perception",
-          "insight"
-        ]
       }
     ],
     "type": "exalted-lineages"
@@ -1417,16 +1401,6 @@
         "type": "asi",
         "ability": "con",
         "amount": 1
-      },
-      {
-        "type": "skill-check",
-        "value": [
-          "electronics"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to disarm explosive devices (ex. mines)"
-        }
       }
     ],
     "type": "exalted-lineages"
@@ -1439,18 +1413,6 @@
         "type": "asi",
         "ability": "int",
         "amount": 1
-      },
-      {
-        "type": "skill-choice",
-        "profType": "skill",
-        "limit": [
-          "electronics",
-          "engineering",
-          "investigation",
-          "science"
-        ],
-        "options": true,
-        "selections": 1
       }
     ],
     "type": "exalted-lineages"
@@ -1463,10 +1425,6 @@
         "type": "asi",
         "ability": "wis",
         "amount": 1
-      },
-      {
-        "type": "skill",
-        "value": "medicine"
       }
     ],
     "type": "exalted-lineages"
@@ -1491,15 +1449,6 @@
         "type": "asi",
         "ability": "dex",
         "amount": 1
-      },
-      {
-        "type": "skill-choice",
-        "limit": [
-          "perception",
-          "stealth",
-          "survival"
-        ],
-        "options": true
       }
     ],
     "type": "exalted-lineages"
@@ -1519,8 +1468,9 @@
         "distance": 35
       },
       {
-        "type": "skill",
-        "value": "stealth"
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
       }
     ],
     "type": "exalted-lineages"
@@ -1538,17 +1488,6 @@
         "type": "speed",
         "speed": "walk",
         "distance": 30
-      },
-      {
-        "type": "skill",
-        "value": "persuasion"
-      },
-      {
-        "type": "skill-check",
-        "value": [
-          "persuasion"
-        ],
-        "note": "add your intelligence modifier"
       }
     ],
     "type": "exalted-lineages"
@@ -1574,8 +1513,14 @@
         "distance": 30
       },
       {
-        "type": "skill",
-        "sense": "deception"
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
       }
     ],
     "type": "exalted-lineages"
@@ -1585,16 +1530,16 @@
     "name": "Volus",
     "mechanics": [
       {
-        "type": "skill",
-        "value": "persuasion"
+        "type": "resistance",
+        "value": "poison",
+        "note": "while within your pressurized suit"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic",
+        "note": "while within your pressurized suit"
       }
     ],
-    "type": "exalted-lineages"
-  },
-  {
-    "id": "EXL_vorcha",
-    "name": "Vorcha",
-    "mechanics": [],
     "type": "exalted-lineages"
   },
   {
@@ -1602,25 +1547,9 @@
     "name": "Yahg",
     "mechanics": [
       {
-        "type": "skill-check",
-        "value": [
-          "athletics",
-          "acrobatics"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to avoid/escape grapples if the grappler is your size or smaller"
-        }
-      },
-      {
-        "type": "skill-check",
-        "value": [
-          "insight"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to determine lies"
-        }
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
       }
     ],
     "type": "exalted-lineages"
