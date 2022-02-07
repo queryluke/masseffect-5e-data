@@ -189,7 +189,7 @@ mechanics:
   - type: repair-matrix
   - type: imprinted-enemies # can be model choice
   - type: speed-note
-# augments
+# augments...might want to split this into two different ones..augment-model and augment(general)
   - type: advanced-medigel-application #d6 for medigel
   - type: augment
     model: enum [weapon, power]
