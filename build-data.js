@@ -165,7 +165,7 @@ for (const lang of langs) {
   }
 }
 
-function generateExaltedLineages () {
+function getSpeciesInfo () {
   const speciesNames = fs.readdirSync('./text/en/species').map(file => {
     const species = fm(fs.readFileSync(`./text/en/species/${file}`, 'utf8'))
     return {
@@ -188,6 +188,11 @@ function generateExaltedLineages () {
       ...traits.attributes
     }
   })
+  return { speciesNames, species, traits }
+}
+
+function generateExaltedLineages () {
+  const { speciesNames, species, traits } = getSpeciesInfo()
   const exaltedLineages = []
   const edgeType = 'exalted-lineages'
   for (const sp of species) {

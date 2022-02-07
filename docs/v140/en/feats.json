@@ -19,8 +19,15 @@
     "new": true,
     "mechanics": [
       {
-        "type": "additional-augment",
-        "options": true
+        "type": "model-choice",
+        "options": true,
+        "model": "species",
+        "limits": [
+          {
+            "attr": "species",
+            "value": "quarian"
+          }
+        ]
       }
     ],
     "prerequisite": "Quarian",
