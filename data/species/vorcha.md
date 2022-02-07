@@ -37,6 +37,7 @@ randomDimensions:
         divisor: 2
 galaxy: milky_way
 group: villainous
+subspecies: adaptation
 mechanics:
   - type: asi
     amount: 2
