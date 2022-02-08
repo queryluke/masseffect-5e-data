@@ -18,9 +18,3 @@ You are filled with an immense determination that can turn events in your favor.
 - Increase one ability score of your choice by 1, to a maximum of 20.
 - When you make an attack roll, an ability check, or a saving throw, you can do so with advantage.
 Once you use this feat, you can’t use it again until you finish a short or long rest.
-
-
-
-
-
-

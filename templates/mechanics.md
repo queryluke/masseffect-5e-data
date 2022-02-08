@@ -166,6 +166,20 @@ mechanics:
       - attr: string
         value: []
     append: any
+  - type: augment
+    value: # or value lookup
+      model: enum
+      id: string
+      limit: [enum types]
+      instances: 0
+    merge:
+      @type
+  - type: additional-damage
+    model: [weapon, power]
+    limits:
+      - attr: string
+        value: [potential matches]
+    damage: @damage
 
 
 # TODO
@@ -182,13 +196,15 @@ mechanics:
     klass: klasses
     column: column id
 
-- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
 
 - type: advancements-choice
+- type: skill-or-expertise
+- type: featherlight
 
 
 # Unique
   - type: avatars-inspiration #note check for imp ava insp
+  - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   - type: tentacle-blender
   - type: fast-learner
   - type: poly-avatar
@@ -199,30 +215,16 @@ mechanics:
   - type: speed-note
   - type: advanced-medigel-application #d6 for medigel
 # augments...might want to split this into two different ones..augment-model and augment(general)
-  - type: augment
-    value: # or value lookup
-      model: enum
-      id: string
-      limit: [enum types]
-      instances: 0
-    model: enum [weapon, power]
-    modelId: string
-    mechanicType: string
-    instance: integer
-    limits:
-      - path: 'path.to.attr'
-        values: array of matching values
-    augments:
-      - path: 'path.to.mechanic.attr'
-        value: any
-        type: enum [replace, append]
 
 # NOT IMPLEMENTED
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
-
+- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
+- type: additional-note # see elemental adept, add note to indicate bypass resistance
+- # fake it till you make it, hit dice tracker
+- # fast learner, an all profs selection
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,
