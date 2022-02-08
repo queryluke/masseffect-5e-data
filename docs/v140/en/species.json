@@ -276,7 +276,7 @@
           "id": "avatar-bravery"
         },
         "type": "reaction",
-        "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+        "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration ({{avatarsDie}}) to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
       }
     ],
     "name": "Bravery",
@@ -309,7 +309,7 @@
           "id": "avatar-humor"
         },
         "type": "bonus-action",
-        "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration."
+        "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Humor",
@@ -335,7 +335,7 @@
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
         ],
-        "shortDesc": "You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature that makes an attack roll against the target for the first time, gains Avatar’s Inspiration."
+        "shortDesc": "You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature that makes an attack roll against the target for the first time, gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Leadership",
@@ -357,7 +357,7 @@
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
         ],
-        "shortDesc": "When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack, you can use your reaction to reduce the damage of the attack by 1d10 + your proficiency bonus (to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration."
+        "shortDesc": "When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack, you can use your reaction to reduce the damage of the attack by 1d10 + your proficiency bonus (to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Sacrifice",
@@ -381,7 +381,7 @@
           "id": "avatar-strength"
         },
         "type": "other",
-        "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration."
+        "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Strength",
@@ -403,7 +403,7 @@
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws."
         ],
-        "shortDesc": "Whenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures, other than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you. The inspiration lasts 1 hour instead of 10 minutes."
+        "shortDesc": "Whenever you take a short or long rest, you can grant Avatar’s Inspiration ({{avatarsDie}}) to a number of creatures, other than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you. The inspiration lasts 1 hour instead of 10 minutes."
       }
     ],
     "name": "Tranquility",
@@ -422,7 +422,7 @@
           "id": "avatar-vengeance"
         },
         "type": "other",
-        "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+        "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration ({{avatarsDie}}) to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
       }
     ],
     "name": "Vengeance",

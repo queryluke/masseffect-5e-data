@@ -99,16 +99,7 @@
         "resource": {
           "id": "ambushing-hunter-mode"
         },
-        "damage": [
-          {
-            "dieCount": "proficiency",
-            "dieType": 6
-          }
-        ],
-        "shortDesc": "For 1 minute, speed increases by <me-distance length=\"5\" />, become invisible until you attack or deal damage.",
-        "notes": [
-          "Once per turn, additional weapon damage w/ advantage on attack or friendly creature within <me-distance length=\"5\" /> of target."
-        ]
+        "shortDesc": "For 1 minute, speed increases by <me-distance length=\"5\" />, become invisible until you attack or deal damage, and 1/turn deal {{ profBonus }}d6 damage w/ weapon attacks when attack has advantage or friendly creature within <me-distance length=\"5\" abbr /> of target."
       }
     ],
     "prerequisite": "Geth",
@@ -137,7 +128,7 @@
         "resource": {
           "id": "assault-hunter-mode"
         },
-        "shortDesc": "For 1 minute, speed increases by <me-distance length=\"2\" />, +1 to weapon attack rolls, +1 attack w/ Attack action."
+        "shortDesc": "For 1 minute, speed increases by <me-distance length=\"5\" />, +1 to weapon attack rolls, 1 additional attack when you take the Attack action."
       }
     ],
     "prerequisite": "Geth",
@@ -153,14 +144,28 @@
     "id": "assault-hunter-mode"
   },
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex"
+        ]
+      }
+    ],
     "name": "Athlete",
     "note": "+1 to Strength or Dexterity - you have undergone extensive physical training",
     "html": "<p>Player's Handbook, p. 165</p>\n",
     "id": "athlete"
   },
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
     "new": true,
     "name": "Big Game Hunter",
     "note": "+1 Strength, additional damage to larger, organic creatures",
@@ -172,7 +177,38 @@
     "new": true,
     "mechanics": [
       {
-        "type": "biotic-prodigy"
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "valueLookup": {
+            "model": "trait",
+            "id": "innate-biotics",
+            "limit": [
+              "powers"
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "trait",
+          "id": "innate-biotics",
+          "limit": [
+            "powers"
+          ],
+          "instances": [
+            2
+          ]
+        },
+        "merge": {
+          "resource": {
+            "resource": {
+              "id": "biotic-prodigy",
+              "label": "@ 2nd Level / long rest"
+            }
+          }
+        }
       }
     ],
     "prerequisite": "Asari",
@@ -188,7 +224,24 @@
     "id": "biotic-prodigy"
   },
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "name": "Biotic Slayer",
+        "moreInfo": {
+          "model": "feats",
+          "id": "biotic-slayer"
+        },
+        "type": "reaction",
+        "shortDesc": "When a creature within <me-distance length=\"5\" /> of you casts a power, make a melee weapon attack against it."
+      },
+      {
+        "type": "saving-throw",
+        "effect": {
+          "type": "advantage",
+          "note": "against powers cast by creatures within <me-distance length=\"5\" /> of you"
+        }
+      }
+    ],
     "name": "Biotic Slayer",
     "note": "You have practiced techniques useful in melee combat against biotic wielders",
     "html": "<p>Name change for Mage Slayer. Player's handbook pg. 168</p>\n",
@@ -240,8 +293,38 @@
     "id": "bluebox-ejection"
   },
   {
-    "mechanics": [],
     "new": true,
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "tool",
+        "value": "gaming-set"
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "deception"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to bluff opponents in games of chance"
+        }
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "persuasion"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to convince others to join you for a game of chance"
+        }
+      }
+    ],
     "name": "Card Shark",
     "note": "No one can beat you in games of chance.",
     "prerequisite": "Charisma 12 or higher",
@@ -249,17 +332,57 @@
     "id": "card-shark"
   },
   {
-    "mechanics": [],
+    "mechanics": [
+      {
+        "name": "Charger",
+        "moreInfo": {
+          "model": "feats",
+          "id": "charger"
+        },
+        "type": "bonus-action",
+        "shortDesc": "After you take the Dash action, make a melee attack or shove. With > <me-distance length=\"10\" abbr /> movement in a straight line, +5 to damage roll or push <me-distance length=\"10\" abbr /> away."
+      }
+    ],
     "name": "Charger",
     "note": "Make a melee attack or shove after the Dash action",
     "html": "<p>Player's Handbook, p. 165</p>\n",
     "id": "charger"
   },
   {
-    "mechanics": {
-      "uses": 1,
-      "recharge": "long"
-    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "name": "Come Get Me",
+        "moreInfo": {
+          "model": "feats",
+          "id": "come-get-me"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "short",
+          "id": "come-get-me"
+        },
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 20
+          }
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha"
+        },
+        "notes": [
+          "disadvantage attacking other creatures except you for 1 minute or until it attacks you"
+        ]
+      }
+    ],
     "new": true,
     "name": "Come Get Me",
     "note": "Draw the enemy fire.",
@@ -312,17 +435,23 @@
       },
       {
         "type": "augment",
-        "model": "trait",
-        "modelId": "thick-frontal-plate",
-        "mechanicType": "attack",
-        "instance": 0,
-        "augments": [
-          {
-            "path": "damage[0].dieType",
-            "value": 10,
-            "type": "replace"
-          }
-        ]
+        "value": {
+          "model": "trait",
+          "id": "thick-frontal-plate",
+          "limit": [
+            "attack"
+          ],
+          "instances": [
+            0
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "dieType": 10
+            }
+          ]
+        }
       },
       {
         "name": "Cranial Bruiser",

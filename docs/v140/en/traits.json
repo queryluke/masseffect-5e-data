@@ -237,7 +237,33 @@
     ],
     "mechanics": [
       {
-        "type": "ardat-yakshi-addiction"
+        "type": "ardat-yakshi-addiction-dc",
+        "resource": {
+          "label": "Addiction saving throw DC, WIS",
+          "displayType": "counter",
+          "reset": "manual",
+          "increment": 5,
+          "max": {
+            "type": "flat",
+            "value": 50,
+            "min": 0
+          },
+          "id": "ardat-yakshi-addiction-dc"
+        }
+      },
+      {
+        "type": "ardat-yakshi-addiction-level",
+        "resource": {
+          "label": "Addiction Level",
+          "displayType": "counter",
+          "reset": "manual",
+          "max": {
+            "type": "flat",
+            "value": 5,
+            "min": 0
+          },
+          "id": "ardat-yakshi-addiction-level"
+        }
       }
     ],
     "name": "Addiction",
@@ -392,7 +418,12 @@
       "avatar-tranquility",
       "avatar-vengeance"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "avatars-inspiration",
+        "die": "d4"
+      }
+    ],
     "name": "Avatar's Inspiration",
     "html": "<p>You can inspire others by being an exemplar of your selected virtue, allowing creature’s to gain an Avatar’s\nInspiration die; a d4.</p>\n<p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check,\nattack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use\nthe Avatar’s Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the\nAvatar’s Inspiration die is rolled, it is lost. A creature can have only one Avatar’s Inspiration die at a time.</p>\n<p>Your chosen avatar identifies the conditions that allow granting Avatar’s Inspiration.</p>\n",
     "id": "avatars-inspiration"
@@ -1298,7 +1329,8 @@
         "append": {
           "mod": "wis",
           "resource": {
-            "id": "innate-biotics"
+            "id": "innate-biotics",
+            "label": "@ 1st Level / long rest"
           }
         }
       }
@@ -1487,7 +1519,17 @@
     ],
     "mechanics": [
       {
-        "type": "ardat-yakshi-mating"
+        "type": "ardat-yakshi-mating",
+        "resource": {
+          "reset": "manual",
+          "max": {
+            "type": "flat",
+            "value": 300,
+            "min": 0
+          },
+          "label": "successful mates",
+          "id": "ardat-yakshi-mating"
+        }
       }
     ],
     "name": "Mating",
@@ -2332,7 +2374,12 @@
     ],
     "mechanics": [
       {
-        "type": "ardat-yakshi-stave-off"
+        "type": "ardat-yakshi-stave-off",
+        "resource": {
+          "reset": "off",
+          "label": "Hunger, disadvantage of Addiction saving throws",
+          "id": "ardat-yakshi-stave-off"
+        }
       }
     ],
     "name": "Stave Off",
@@ -2505,7 +2552,8 @@
   {
     "name": "Thick Frontal Plate",
     "species": [
-      "krogan"
+      "krogan",
+      "tankbred"
     ],
     "mechanics": [
       {
@@ -2628,11 +2676,23 @@
         "selections": 2
       },
       {
-        "type": "twice-as-bright"
+        "type": "skill-check",
+        "effect": {
+          "type": "die-bonus",
+          "note": "add a d4 to the roll"
+        },
+        "valueLookup": {
+          "model": "traits",
+          "id": "twice-as-bright",
+          "limit": [
+            "skill",
+            "tool"
+          ]
+        }
       }
     ],
     "name": "Twice as Bright",
-    "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n",
+    "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n<p>Whenever you make an ability check with one of the chosen skills or tools from\nTwice as Bright, roll a d4, and add the number rolled to the check’s total.</p>\n",
     "id": "twice-as-bright"
   },
   {

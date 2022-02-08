@@ -463,15 +463,20 @@
           "id": "REP_beguile"
         },
         "type": "action",
+        "layout": "stats-right",
         "resource": {
           "id": "REP_beguile"
+        },
+        "range": {
+          "short": 120
         },
         "dc": {
           "base": 8,
           "proficient": true,
           "mod": "cha",
           "save": "wis"
-        }
+        },
+        "shortDesc": "Monolog for 1 minute, causing creatures of your choice within {{ range }} to make a DC {{ dc }} Wisdom saving throw. A creature has advantage if you or your companions are fighting it. A creature with Intelligence 3 or lower succeeds. On a failure, a creature has disadvantage on attack rolls against creatures other than you and Wisdom (Perception) checks to perceive creatures other than you."
       }
     ],
     "html": "<p>You can start monologing for up to 1 minute, causing creatures of your choice that you can see within range and that\ncan hear you to make a Wisdom saving throw. Any creature with an Intelligence of 3 or lower succeeds on this\nsaving throw automatically, and if you or your companions are fighting a creature, it has advantage on the\nsave. On a failed save, the target has disadvantage on attack rolls against any creature other than you and\nWisdom (Perception) checks made to perceive any creature other than you until you stop talking or until the\ntarget can no longer hear you. The effect also ends if you are incapacitated or can no longer speak.</p>\n<p>You may use this benefit once per long rest.</p>\n",

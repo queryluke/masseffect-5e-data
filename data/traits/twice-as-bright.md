@@ -11,11 +11,10 @@ mechanics:
     selections: 2
   - type: skill-check
     effect:
-      type: other
+      type: die-bonus
       note: add a d4 to the roll
     valueLookup:
       model: traits
       id: twice-as-bright
       limit: [skill, tool]
-
 ---

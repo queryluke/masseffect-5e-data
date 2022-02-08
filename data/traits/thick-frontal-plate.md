@@ -2,6 +2,7 @@
 name: Thick Frontal Plate
 species:
   - krogan
+  - tankbred
 mechanics:
   - type: attack
     range:

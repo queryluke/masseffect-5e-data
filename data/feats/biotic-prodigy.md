@@ -6,24 +6,20 @@ mechanics:
     options: true
     limit:
       valueLookup:
-        model: string
+        model: trait
         id: innate-biotics
         limit: [powers]
   - type: augment
-    valueLookup:
-      model: string
+    value:
+      model: trait
       id: innate-biotics
       limit: [powers]
-      limits:
-        - attr: type
-          value: [biotic]
-        - attr: level
-          value: [1]
+      instances: [2]
     merge:
       resource:
         resource:
           id: biotic-prodigy
-          label: @ 2nd Level / long rest
+          label: '@ 2nd Level / long rest'
 prerequisite: Asari
 prereq:
   - type: species

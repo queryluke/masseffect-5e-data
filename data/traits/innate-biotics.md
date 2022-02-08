@@ -29,5 +29,5 @@ mechanics:
       mod: wis
       resource:
         id: innate-biotics
-        label: @ 1st Level / long rest
+        label: '@ 1st Level / long rest'
 ---

@@ -27,9 +27,15 @@ bonus:
   multiplier: 1,
   min: integer # default 0
 
+dieBonus:
+  dieType: enum die types
+  dieCount: integer
+
 effect:
-  type: enum [advantage, disadvantage, bonus, limited, other] #other is generic effect, usually just a note, parsed individually by the component that consumes it
+  type: enum [advantage, disadvantage, bonus, limited, die-bonus] #other is generic effect, usually just a note, parsed individually by the component that consumes it
   bonus: @bonus
+  dieType: enum die types
+  dieCount: integer
   resource: @resource # for limited, can disable when uses are out
   note: string
 
@@ -48,7 +54,6 @@ valueLookup:
   model: string
   id: string
   limit: enum of types
-  instances: [] #optional, instances of each type
 
 
 # any mechanic that needs a selection should have
