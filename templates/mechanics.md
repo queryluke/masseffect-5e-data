@@ -72,7 +72,7 @@ mechanics:
     total: integer # default 1
     max: integer #default 1, max 2
 # Proficiencies
-  - type: enum [skill, weapon, armor, saving_throw, tool, expertise]
+  - type: enum [skill, weapon, armor, saving-throw, tool, expertise]
     value: enum [types of that prof]
     expertise: boolean
   - type: # [prof]-choice
@@ -183,30 +183,20 @@ mechanics:
 
 
 # TODO
-# bonus types
-- type: progressive
-  limit: # klasses
-  value:
-    level: amount
-- type: level
-  value: klass || null
-  multiplier: float
-- type: progressionColumn
-  value:
-    klass: klasses
-    column: column id
-
-
 - type: advancements-choice
 - type: skill-or-expertise
 - type: featherlight
+- type: add-prof-to-dt # add prof bonus to dw rolls, hair trigger
+- type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
+- type: innate-strike-damage # see long fist, melee gunner
+  value: enum [unarmed-strike,gun-strike]
+  damage: @damage
+- type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
 
 
 # Unique
   - type: avatars-inspiration #note check for imp ava insp
-  - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   - type: tentacle-blender
-  - type: fast-learner
   - type: poly-avatar
   - type: premium-genetics
   - type: regenerative-burst
@@ -222,9 +212,12 @@ mechanics:
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
 - type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
-- type: additional-note # see elemental adept, add note to indicate bypass resistance
+- type: additional-note # see elemental adept, long fist, add note to indicate bypass resistance
 - # fake it till you make it, hit dice tracker
-- # fast learner, an all profs selection
+- type: fast-learner # fast learner, an all profs selection
+- type: innate-strike-damage # see long fist, melee gunner
+  innate: enum [unarmed-strike,gun-strike]
+- type: medium-armor-master # seems worthless cause in me5e medium armor
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,

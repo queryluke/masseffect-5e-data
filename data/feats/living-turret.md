@@ -10,7 +10,10 @@ mechanics:
     options: true
     limit: [FS_ambidextrous, FS_assault, FS_carnage, FS_close-quarters-shooter, FS_sniper]
   - type: other
-    shortDesc: Reduce movement speed to 0 to engage in two-weapon fighting with non-light weapons until the end of your turn.
+    shortDesc: >-
+      At the beginning of your turn, you can reduce your movement speed to 0.
+      Until the end of your turn, you may engage in two-weapon fighting even
+      if the weapons you are wielding don’t have the light property.
 prerequisite: Elcor
 prereq:
   - type: species
@@ -23,5 +26,3 @@ You can balance on your haunches and briefly dual-wield two weapons, becoming a 
 Until the end of your turn, you may engage in two-weapon fighting even if the weapons you are wielding don’t have the
 light property.
 - Gain one of the following fighting styles: Ambidextrous, Assault, Carnage, Close-Quarters Shooter, or Sniper
-
-
