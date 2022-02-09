@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: piercing
 range: 50
-image: http://vignette4.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559
+image: https://vignette4.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559
 andromeda: false
 properties:
   - burst-fire

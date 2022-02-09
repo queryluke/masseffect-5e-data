@@ -12,7 +12,7 @@ profs:
     text: None
   skill:
     text: Choose three from Acrobatics, Athletics, History, Intimidation, Medicine, Perception, Persuasion, Stealth, Survival, Vehicle Handling
-  savingThrow:
+  saving-throw:
     text: Strength, Dexterity
 startingEquipment:
   - text: (a) M-3 Predator or (b) M-4 Shuriken or (c) M-8 Avenger or (d) M-92 Mantis or (e) M-23 Katana

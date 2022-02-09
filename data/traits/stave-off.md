@@ -1,5 +1,9 @@
 ---
 species: [ay-disposition-chaste]
 mechanics:
-  - ardat-yakshi-stave-off
+  - type: ardat-yakshi-stave-off
+    resource:
+      reset: off
+      label: Hunger, disadvantage of Addiction saving throws
+      id: ardat-yakshi-stave-off
 ---

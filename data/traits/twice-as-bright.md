@@ -9,5 +9,12 @@ mechanics:
     profType: tool
     options: true
     selections: 2
-  - type: twice-as-bright
+  - type: skill-check
+    effect:
+      type: die-bonus
+      note: add a d4 to the roll
+    valueLookup:
+      model: traits
+      id: twice-as-bright
+      limit: [skill, tool]
 ---

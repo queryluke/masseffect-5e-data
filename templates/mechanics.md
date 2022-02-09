@@ -10,20 +10,6 @@
 
 # models
 
-# bonus types
-
-- type: progressive
-  limit: # klasses
-  value:
-    level: amount
-- type: level
-  value: klass || null
-  multiplier: float
-- type: progressionColumn
-  value:
-    klass: klasses
-    column: column id
-
 # resource (e.g., x per rest)
 resource:
   displayType: enum [heat, counter, checkbox] # default checkbox
@@ -32,19 +18,43 @@ resource:
   max: @bonus
   increment: integer # default 1, for when a single click uses 2
   id: string # a uuid to track the resources. Allows for sharing resources
+  label: string #default is '/ [short or long] rest'
 
 # bonus
 bonus:
-  type: enum [flat, mod, proficiency, level, hp]
+  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn]
   value: integer, string, or null
   multiplier: 1,
   min: integer # default 0
 
+dieBonus:
+  dieType: enum die types
+  dieCount: integer
+
 effect:
-  type: enum [advantage, disadvantage, bonus, limited]
+  type: enum [advantage, disadvantage, bonus, limited, die-bonus] #other is generic effect, usually just a note, parsed individually by the component that consumes it
   bonus: @bonus
-  resource: @resource # for limited
+  dieType: enum die types
+  dieCount: integer
+  resource: @resource # for limited, can disable when uses are out
   note: string
+
+# used for looking up player selections
+# in theory, all selections are:
+{
+  path: '...'
+  value: [{type: 'type', value: 'value'}]
+}
+# so we can search for
+#   path.includes(model/id)
+#     .reduce to all values
+#     .filter(limit.includes(type))
+#     .map(value.value) for the value
+valueLookup:
+  model: string
+  id: string
+  limit: enum of types
+
 
 # any mechanic that needs a selection should have
 #   options: true
@@ -98,6 +108,7 @@ mechanics:
 # skill checks
   - type: skill-check
     value: enum [skills]
+    valueLookup: @valueLookup
     effect: @effect
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
@@ -141,27 +152,12 @@ mechanics:
     notes:
       - string # optional, appends to damage type as a caveat or used to display text for special damage types
     shortDesc: string # optional, gets it's own object
-    baseGroup: string (adds the string to the base group), i.e. actions > use an object, dash, etc
+    baseGroup: boolean (adds the string to the base group), i.e. actions > use an object, dash, etc
     moreInfo: # can also be false to override
       component: string
       bind: object
       model: string
       id: string
-
-# TODO
-# choices
-  # note, should return object, appends can use object attributes
-  # the resulting selection should look like
-  # { path: 'some/path', values: [{type: 'model', model: 'species', value: 'selectedValue', appendModelMechanics, appendId] }
-  # then, to get mechanics
-  #  1. extract from mechanicBagSelections where type === 'model'
-  #  2. get updated model data this.getter(model, value)
-  #  if appendModelMechanics
-  #    3.1 hydrate with model mechanics
-  #  else
-  #    3.2 hydrate with appends
-          # find matching model choice from this.UNHYDRATED_MECHANIC_BAG.filter(i => type = 'model-choice' && appendId)
-  # unsure if this is achievable
   - type: model-choice
     options: true
     label: string
@@ -170,17 +166,45 @@ mechanics:
       - attr: string
         value: []
     append: any
+  - type: augment
+    value: # or value lookup
+      model: enum
+      id: string
+      limit: [enum types]
+      instances: 0
+    merge:
+      @type
+  - type: additional-damage
+    model: [weapon, power]
+    limits:
+      - attr: string
+        value: [potential matches]
+    damage: @damage
+
+
+# TODO
+# bonus types
+- type: progressive
+  limit: # klasses
+  value:
+    level: amount
+- type: level
+  value: klass || null
+  multiplier: float
+- type: progressionColumn
+  value:
+    klass: klasses
+    column: column id
+
+
+- type: advancements-choice
+- type: skill-or-expertise
+- type: featherlight
 
 
 # Unique
-  - type: exalted-lineage
-  - type: additional-augment
-  - type: ardat-yakshi-addiction
-  - type: ardat-yakshi-stave-off
-  - type: ardat-yakshi-mating
   - type: avatars-inspiration #note check for imp ava insp
-  - type: twice-as-bright
-  - type: biotic-prodigy
+  - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   - type: tentacle-blender
   - type: fast-learner
   - type: poly-avatar
@@ -189,27 +213,18 @@ mechanics:
   - type: repair-matrix
   - type: imprinted-enemies # can be model choice
   - type: speed-note
-# augments
   - type: advanced-medigel-application #d6 for medigel
-  - type: augment
-    model: enum [weapon, power]
-    modelId: string
-    mechanicType: string
-    instance: integer
-    limits:
-      - path: 'path.to.attr'
-        values: array of matching values
-    augments:
-      - path: 'path.to.mechanic.attr'
-        value: any
-        type: enum [replace, append]
+# augments...might want to split this into two different ones..augment-model and augment(general)
 
 # NOT IMPLEMENTED
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
-
+- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
+- type: additional-note # see elemental adept, add note to indicate bypass resistance
+- # fake it till you make it, hit dice tracker
+- # fast learner, an all profs selection
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,

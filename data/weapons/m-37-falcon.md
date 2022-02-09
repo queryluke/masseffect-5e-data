@@ -10,7 +10,7 @@ damage:
   dieType: 8
   type: thunder
 range: 25
-image: http://vignette2.wikia.nocookie.net/masseffect/images/8/8a/ME3_Falcon_Assault_Rifle.png/revision/latest?cb=20120317172936
+image: https://vignette2.wikia.nocookie.net/masseffect/images/8/8a/ME3_Falcon_Assault_Rifle.png/revision/latest?cb=20120317172936
 andromeda: false
 properties:
   - double-tap

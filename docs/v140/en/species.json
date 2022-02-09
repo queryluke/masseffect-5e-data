@@ -1,5 +1,68 @@
 [
   {
+    "species": "vorcha",
+    "name": "Aquatic",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-aquatic",
+    "subspecies": false
+  },
+  {
+    "species": "vorcha",
+    "name": "Desert",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-desert",
+    "subspecies": false
+  },
+  {
+    "name": "Frozen",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-frozen",
+    "subspecies": false
+  },
+  {
+    "name": "High-Gravity",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-high-gravity",
+    "subspecies": false
+  },
+  {
+    "name": "Underground",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-underground",
+    "subspecies": false
+  },
+  {
+    "name": "Volcanic",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-volcanic",
+    "subspecies": false
+  },
+  {
+    "name": "Zero-gravity",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-zero-gravity",
+    "subspecies": false
+  },
+  {
     "bodyImg": "https://data.n7.world/images/species/angara.png",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351",
     "randomDimensions": {
@@ -77,7 +140,7 @@
       "name": "Disposition",
       "html": "<p>As an Ardat-Yakshi, you choose your character's disposition about this condition. Your disposition affects the\nstrength of your addiction and the abilities you’ve gained from mating.</p>\n"
     },
-    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
     "randomDimensions": {
       "height": {
@@ -127,7 +190,7 @@
     "id": "ardat-yakshi"
   },
   {
-    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
     "randomDimensions": {
       "height": {
@@ -213,7 +276,7 @@
           "id": "avatar-bravery"
         },
         "type": "reaction",
-        "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+        "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration ({{avatarsDie}}) to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
       }
     ],
     "name": "Bravery",
@@ -246,7 +309,7 @@
           "id": "avatar-humor"
         },
         "type": "bonus-action",
-        "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration."
+        "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Humor",
@@ -272,7 +335,7 @@
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
         ],
-        "shortDesc": "You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature that makes an attack roll against the target for the first time, gains Avatar’s Inspiration."
+        "shortDesc": "You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature that makes an attack roll against the target for the first time, gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Leadership",
@@ -294,7 +357,7 @@
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
         ],
-        "shortDesc": "When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack, you can use your reaction to reduce the damage of the attack by 1d10 + your proficiency bonus (to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration."
+        "shortDesc": "When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack, you can use your reaction to reduce the damage of the attack by 1d10 + your proficiency bonus (to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Sacrifice",
@@ -318,7 +381,7 @@
           "id": "avatar-strength"
         },
         "type": "other",
-        "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration."
+        "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration ({{avatarsDie}})."
       }
     ],
     "name": "Strength",
@@ -340,7 +403,7 @@
         "notes": [
           "Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws."
         ],
-        "shortDesc": "Whenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures, other than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you. The inspiration lasts 1 hour instead of 10 minutes."
+        "shortDesc": "Whenever you take a short or long rest, you can grant Avatar’s Inspiration ({{avatarsDie}}) to a number of creatures, other than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you. The inspiration lasts 1 hour instead of 10 minutes."
       }
     ],
     "name": "Tranquility",
@@ -359,7 +422,7 @@
           "id": "avatar-vengeance"
         },
         "type": "other",
-        "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+        "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration ({{avatarsDie}}) to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
       }
     ],
     "name": "Vengeance",
@@ -543,7 +606,7 @@
     "subspecies": false
   },
   {
-    "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Balak_ME_adversaryshot.png/revision/latest/scale-to-width-down/422?cb=20140812140358",
     "randomDimensions": {
       "height": {
@@ -634,6 +697,31 @@
     "subspecies": false
   },
   {
+    "name": "Variant: Behemoth",
+    "type": "variant",
+    "species": "kett",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>These unfortunate individuals were once krogan. After capture, experimentation,\nand attempts at exaltation, they are now Behemoths, bearing the characteristic\nwhite carapace of the kett and the strength of a krogan in full fury. If you\nwish to play as a Behemoth, replace the exalted lineage trait with the following.</p>\n",
+    "id": "behemoth",
+    "subspecies": false
+  },
+  {
     "type": "subspecies",
     "species": "quarian",
     "mechanics": [
@@ -700,7 +788,7 @@
     "subspecies": false
   },
   {
-    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/c/cf/Drell_biotic_field.png/revision/latest/scale-to-width-down/640?cb=20130623224527",
     "randomDimensions": {
       "height": {
@@ -838,7 +926,43 @@
     "subspecies": false
   },
   {
-    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500",
+    "name": "Anointed",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>The kett soldiers known as Anointed appear to be of similar caste to the Chosen:\ninfantry equipped with light armor. Anointed, however, are slightly larger and\nwield heavy plasma cannons, making them a rallying point for other kett forces.</p>\n",
+    "id": "exaltation-anointed",
+    "subspecies": false
+  },
+  {
+    "name": "Ascendant",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>The Ascendant are the highest caste of kett known. Element zero cores throughout\nits armor allow an Ascendant to levitate off the ground. They also have biological\ncontrol over electromagnetic force.</p>\n",
+    "id": "exaltation-ascendant",
+    "subspecies": false
+  },
+  {
+    "name": "Chosen",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>Chosen are the front-line soldiers of the kett, encountered on multiple worlds\nas support for other kett combatants.</p>\n",
+    "id": "exaltation-chosen",
+    "subspecies": false
+  },
+  {
+    "name": "Destined",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>Destined act as battlefield commanders, rallying infantry into tightly cohesive\nunits, providing shield support and directing operations from the center. The\nmost interesting characteristic of the Destined is their ability to produce an\nobscuring &quot;smoke&quot; cloud without mechanical assistance.</p>\n",
+    "id": "exaltation-destined",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119",
     "randomDimensions": {
       "height": {
@@ -1071,7 +1195,7 @@
     "subspecies": false
   },
   {
-    "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7c/Grissom_Academy_Students.png/revision/latest/scale-to-width-down/640?cb=20120312230100",
     "randomDimensions": {
       "height": {
@@ -1202,6 +1326,10 @@
     },
     "galaxy": "milky_way",
     "group": "andromeda",
+    "subspecies": {
+      "name": "Exaltation",
+      "html": "<p>Kett DNA is implanted into subjects through several rounds of injections,\nbuilding up the subject's systems, while kett scientists take the opportunity\nto run further tests upon the subject's genetic structure in hopes of isolating\nvaluable traits to be harvested and applied to the rest of the species.</p>\n<p>As kett gain rank and the patronage of their superiors, so too do they receive\nfurther genetic modifications, up to and including traits acquired from newer\nspecies encountered and assimilated into the Empire.</p>\n"
+    },
     "mechanics": [
       {
         "type": "speed",
@@ -1210,11 +1338,10 @@
       }
     ],
     "html": "<p>Kett are a dangerous race native to the Andromeda galaxy. They are brutal conquerors from an unknown area of Andromeda\nbeyond the borders of the Heleus Cluster. Seemingly genderless, they prize physical supremacy and genetic dominance,\nassimilating conquered peoples. The kett believe their species is superior to all others, and as such, the conquered\nhave two fates: either become Exalted, altered on a genetic level to become kett, or enslaved for the glory of the\nempire.</p>\n<h3>Threat from the Void</h3>\n<p>The kett are not native to the Heleus Cluster, which they call Sector 1-19-NYKZ, and began invading it in 2744.\nWhen the angara encountered them, the kett lured them into a false sense of security with gifts and offers of\nfriendship, before kidnapping their leadership and providing information which provoked arguments between angaran\nworlds. Little is known about how large the Kett empire truly is, but the advance on the Heleus Cluster represents\nonly a portion of their invading force.</p>\n<h3>Masters of Bioengineering</h3>\n<p>The kett possess technology that is comparable in advancement to the Andromeda Initiative, but have an unparalleled\nmastery of biotechnology and medical technology. Bio-engineered components are used in all of their machines and\ndevices. Instead of conventional research and development programs, kett prefer to improve their technology\nincrementally by taking features and designs from other species' technology.</p>\n<h3>Exaltation</h3>\n<p>Kett possess no reproductive organs, and they reproduce only through an artificial process called exaltation. It is\nspeculated that exaltation arose long ago in kett history when their genetics reached a point of stagnation, leaving\nthe species unable to breed through natural means. The kett began adding beneficial genes from other species into their\nown genome in order to continually improve themselves, which they refer to as harmonization. Kett mastery over genetic\nmanipulation enabled them to develop a serum to rapidly convert other species into obedient kett, which became the\nbasis for exaltation.</p>\n<p>Kett biology retains traits taken from many other species. One such trait is that kett can survive for limited periods\nin inhospitable environments without protective suits, including vacuum. However, nothing from the original species'\nbody is left: a kett exalted from an angara, for example, only has traces of angaran genome remaining. Internal scans\nshow kett organs, not angaran ones. They are physically kett, for all intents and purposes, and exaltation appears to\nbe permanent and irreversible thus far.</p>\n<p>The kett revere exaltation as a sacred ritual, believing that the species selected to undergo exaltation are ascending\nto greatness while helping the kett do the same. These subjugated species are initially called &quot;Chosen&quot;, and may later\nadvance to higher tiers with the kett hierarchy, such as &quot;Anointed&quot;.</p>\n<h3>Kett Names</h3>\n<p>Kett are mostly known through titles related to their position in society. Their personal names as translated appear\nto consist of barely pronounceable strings of consonants with no vowels.</p>\n<p><strong>Kett names</strong>: Bxckr, Chbcd, Jtksb, Ksmzh, Pqtk, Pcnht, Rkshq, Xjbrk, Zgtt</p>\n",
-    "id": "kett",
-    "subspecies": false
+    "id": "kett"
   },
   {
-    "bodyImg": "http://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/0/03/Wreav_rally_-_destroy_2.png/revision/latest/scale-to-width-down/640?cb=20130215150038",
     "randomDimensions": {
       "height": {
@@ -1609,7 +1736,7 @@
     "id": "prothean"
   },
   {
-    "bodyImg": "http://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430",
     "randomDimensions": {
       "height": {
@@ -1678,7 +1805,7 @@
     "id": "quarian"
   },
   {
-    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/Mordin_-_objection_noted.png/revision/latest/scale-to-width-down/640?cb=20141223052318",
     "randomDimensions": {
       "height": {
@@ -1760,7 +1887,7 @@
     "subspecies": false
   },
   {
-    "bodyImg": "http://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040",
     "randomDimensions": {
       "height": {
@@ -1868,7 +1995,7 @@
       }
     },
     "galaxy": "milky_way",
-    "group": "primary",
+    "group": "lesser_known",
     "subspecies": {
       "name": "Hardware",
       "html": "<p>Unlike geth, Unshackled AI are tied to their mobile hardware. Their consciousness cannot be downloaded, stored, synced, nor moved to another blue box as this would cause a new personality to be born. Below are example hardware configurations, but you can work with your GM to create other hardware options.</p>\n"
@@ -1889,7 +2016,7 @@
     "id": "unshackled-ai"
   },
   {
-    "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/b/b4/Volus.jpg/revision/latest/scale-to-width-down/640?cb=20121009195731",
     "randomDimensions": {
       "height": {
@@ -1955,23 +2082,13 @@
     "subspecies": false
   },
   {
-    "abilityScoreIncrease": [
-      {
-        "amount": 2,
-        "ability": "dex"
-      },
-      {
-        "amount": 1,
-        "ability": "con"
-      }
-    ],
     "speed": [
       {
         "type": "walk",
         "speed": 40
       }
     ],
-    "bodyImg": "http://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500",
+    "bodyImg": "https://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500",
     "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/d6/Omega_vermin.png/revision/latest/scale-to-width-down/640?cb=20140624121030",
     "randomDimensions": {
       "height": {
@@ -2010,6 +2127,10 @@
     },
     "galaxy": "milky_way",
     "group": "villainous",
+    "subspecies": {
+      "name": "Adaptation",
+      "html": "<p>Your cells allow you to adapt to harsh environments. Choose one adaptation gain all of its benefits.</p>\n<p>You may gain additional adaptations if you spend the requisite amount of time in an environment. To gain the benefit,\nyou must spend more than fifty percent of your time within the environment with little to no protection. At your GM’s\ndiscretion, you can gain additional adaptations at a faster rate or at character creation.</p>\n"
+    },
     "mechanics": [
       {
         "type": "asi",
@@ -2033,8 +2154,7 @@
     "snippet": "Known for their unique biology and aggressive behavior, the vorcha of Heshtok are a primitive species that lives among the galaxy's darker and more dangerous locations, such as Omega.",
     "age": "Vorcha have extremely short lifespans and only live for 20 years. They reach adulthood shortly after their first year.",
     "html": "<p>The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.</p>\n<h3>Non-differentiated cells</h3>\n<p>The vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.</p>\n<h3>Clan Violence</h3>\n<p>Vorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien species. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.</p>\n<h3>Vorcha Names</h3>\n<p>Like their lifespans, vorcha names are brutal and short.</p>\n<p><strong>Male names</strong>: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,</p>\n<p><strong>Female names</strong>: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath</p>\n<p><me-source-reference pages=\"Vorcha\" source=\"wiki\"></me-source-reference></p>\n",
-    "id": "vorcha",
-    "subspecies": false
+    "id": "vorcha"
   },
   {
     "name": "Yahg",

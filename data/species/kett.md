@@ -41,6 +41,7 @@ randomDimensions:
         divisor: 2
 galaxy: milky_way
 group: andromeda
+subspecies: exaltation
 mechanics:
   - type: speed
     speed: walk

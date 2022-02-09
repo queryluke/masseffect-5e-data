@@ -1,14 +1,9 @@
 ---
-abilityScoreIncrease:
-  - amount: 2
-    ability: dex
-  - amount: 1
-    ability: con
 speed:
   - type: walk
     speed: 40
 bodyImg: >-
-  http://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500
+  https://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500
 img: >-
   https://vignette.wikia.nocookie.net/masseffect/images/d/d6/Omega_vermin.png/revision/latest/scale-to-width-down/640?cb=20140624121030
 randomDimensions:
@@ -37,6 +32,7 @@ randomDimensions:
         divisor: 2
 galaxy: milky_way
 group: villainous
+subspecies: adaptation
 mechanics:
   - type: asi
     amount: 2

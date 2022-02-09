@@ -10,7 +10,7 @@ damage:
   dieType: 12
   type: piercing
 range: 50
-image: http://vignette2.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png/revision/latest?cb=20120317173420
+image: https://vignette2.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png/revision/latest?cb=20120317173420
 andromeda: false
 properties:
   - burst-fire

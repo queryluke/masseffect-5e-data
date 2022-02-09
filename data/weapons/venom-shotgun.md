@@ -10,7 +10,7 @@ damage:
   dieType: 10
   type: thunder
 range: 25
-image: http://vignette1.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317
+image: https://vignette1.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317
 andromeda: false
 properties:
   - two-handed

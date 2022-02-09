@@ -10,7 +10,7 @@ damage:
   dieType: 6
   type: lightning
 range: 75
-image: http://vignette1.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747
+image: https://vignette1.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747
 andromeda: false
 properties:
   - arc

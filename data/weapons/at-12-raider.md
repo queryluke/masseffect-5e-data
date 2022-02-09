@@ -10,7 +10,7 @@ damage:
   dieType: 8
   type: piercing
 range: 5
-image: http://vignette2.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png/revision/latest?cb=20120317200919
+image: https://vignette2.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png/revision/latest?cb=20120317200919
 andromeda: false
 properties:
   - double-tap

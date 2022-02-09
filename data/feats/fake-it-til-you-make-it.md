@@ -28,10 +28,3 @@ add it to the total, possibly changing the outcome. Once you use this feature, y
 finish a short or long rest.
 - You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to convince a creature you
 can accomplish something without a problem.
-
-
-
-
-
-
-

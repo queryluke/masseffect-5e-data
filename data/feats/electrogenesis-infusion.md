@@ -7,14 +7,19 @@ mechanics:
     amount: 1
   - type: bonus-action
     resource:
-      shared: trait-electrogenesis 
-    shortDesc: Choose a weapon and roll a d6, then lose that much hp. For 1 minute, chosen weapon deals additional 1d6 lightning.
-  - type: augment
-    model: weapon
-    augments:
-      - path: notes
-        value: +1d6 lightning w/ Electrogenesis Infusion
-        type: append
+      displayType: checkbox
+      reset: long
+      max:
+        type: mod
+        value: con
+      id: electrogenesis
+    shortDesc: Choose a weapon and roll a d6, then lose that much hp. For 1 minute, the chosen weapon deals additional 1d6 lightning.
+  - type: additional-damage
+    models: [weapon]
+    damage:
+      - dieType: 1
+        dieCount: 6
+        type: lightning
 prerequisite: Angara
 prereq:
   - type: species
@@ -27,4 +32,3 @@ You have trained with amplifying your electrogenesis into your weapons and can e
 bio-electric energy, draining the electric charge from your vitality. Roll a d6 and subtract the amount rolled
 from your hit points. Then, for the next minute or until you stow or drop the weapon, attacks made with the weapon
 deal an additional 1d6 lightning damage.
-

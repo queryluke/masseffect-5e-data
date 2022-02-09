@@ -12,7 +12,7 @@ profs:
     text: Choose 1 from Hacking Tools or Thieves' Tools
   skill:
     text: Choose three from Athletics, Acrobatics, Deception, Electronics, History, Insight, Investigation, Perception, Persuasion, Sleight of Hand, Stealth, and Vehicle Handling
-  savingThrow:
+  saving-throw:
     text: Dexterity, Intelligence
 startingEquipment:
   - text: (a) M-3 Predator or (b) M-4 Shuriken or (c) M-92 Mantis

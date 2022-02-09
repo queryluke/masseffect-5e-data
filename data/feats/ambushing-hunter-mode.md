@@ -4,13 +4,10 @@ new: true
 mechanics:
   - type: action
     resource: {}
-    damage:
-      - dieCount: proficiency
-        dieType: 6
     shortDesc: >-
-      For 1 minute, speed increases by <me-distance length="5" />, become invisible until you attack or deal damage.
-    notes:
-      - Once per turn, additional weapon damage w/ advantage on attack or friendly creature within <me-distance length="5" /> of target.
+      For 1 minute, speed increases by <me-distance length="5" />, become invisible until you attack or deal damage,
+      and 1/turn deal {{ profBonus }}d6 damage w/ weapon attacks when attack has advantage or friendly creature within <me-distance length="5" abbr />
+      of target.
 prerequisite: Geth
 prereq:
   - type: species
@@ -29,8 +26,3 @@ another enemy of the target is within 2 meters of it, that enemy isn't incapacit
 disadvantage on the attack roll. The extra damage is equal to Xd6 where X is your proficiency bonus.
 
 You may use this feat once per long rest.
-
-
-
-
-

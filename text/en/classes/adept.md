@@ -12,7 +12,7 @@ profs:
     text: None
   skill:
     text: Choose three from Acrobatics, Deception, History, Insight, Intimidation, Performance, Sleight of Hand, and Survival
-  savingThrow:
+  saving-throw:
     text: Charisma, Wisdom
 startingEquipment:
   - text: (a) M-3 Predator or (b) M-4 Shuriken

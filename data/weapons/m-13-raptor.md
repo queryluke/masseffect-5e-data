@@ -10,7 +10,7 @@ damage:
   dieType: 8
   type: piercing
 range: 150
-image: http://vignette3.wikia.nocookie.net/masseffect/images/7/70/ME3_Raptor_Sniper_Rifle.png/revision/latest?cb=20120317191426
+image: https://vignette3.wikia.nocookie.net/masseffect/images/7/70/ME3_Raptor_Sniper_Rifle.png/revision/latest?cb=20120317191426
 andromeda: false
 properties:
   - two-handed

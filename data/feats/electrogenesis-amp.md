@@ -6,19 +6,18 @@ mechanics:
     ability: con
     amount: 1
   - type: augment
-    model: traits
-    modelId: electrogenesis
-    mechanicType: action
-    instance: 0
-    augments:
-      - path: damage
-        value:
-          damage:
-            - dieCount: 1
-              dieType: 4
-              mod: con
-              type: sp
-        type: replace
+    value:
+      model: traits
+      id: electrogenesis
+      limit: [action]
+    merge:
+      damage:
+        - dieCount: 1
+          dieType: 4
+          mod: con
+          type: shields
+      shortDesc: >-
+        Touch one creature to restore 1d4 + {{ conMod }} shield points and stabilize or end the stunned condition on it.
 prerequisite: Angara
 prereq:
   - type: species

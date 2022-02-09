@@ -29,7 +29,7 @@ randomDimensions:
         dieType: 8
         divisor: 2
 galaxy: milky_way
-group: primary
+group: lesser_known
 subspecies: hardware
 alignment: >-
   If you are still following your programming you would be lawful with morality based on your purpose. If you have a glitch in your programming you might be chaotic.

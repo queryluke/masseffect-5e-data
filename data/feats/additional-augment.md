@@ -2,12 +2,16 @@
 name: Additional Augment
 new: true
 mechanics:
-  - type: additional-augment
+  - type: model-choice
     options: true
-prerequisite: Quarian 
+    model: species
+    limits:
+      - attr: species
+        value: quarian
+prerequisite: Quarian
 prereq:
   - type: species
     limit: [quarian]
 ---
-Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition 
+Choose an augment as listed in the Cybernetic Augmentation trait. You gain all features of that augment, in addition
 to your current one.

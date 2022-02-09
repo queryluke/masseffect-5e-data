@@ -138,6 +138,9 @@ for (const lang of langs) {
       }
       return item
     })
+    if (dir === 'edges') {
+      items.push(...generateExaltedLineages().sort((a, b) => a.name < b.name ? -1 : 1))
+    }
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
     processedModels.push(dir)
   }
@@ -160,6 +163,94 @@ for (const lang of langs) {
     })
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
   }
+}
+
+function getSpeciesInfo () {
+  const species = fs.readdirSync('./data/species').map(file => {
+    return combineItem(file, 'species', `./data/species/${file}`, `./text/en/species/${file}`)
+  })
+
+  const traits = fs.readdirSync('./data/traits').map(file => {
+    return combineItem(file, 'traits', `./data/traits/${file}`, `./text/en/traits/${file}`)
+  })
+  return { species, traits }
+}
+
+function generateExaltedLineages () {
+  const { species, traits } = getSpeciesInfo()
+  const exaltedLineages = []
+  const edgeType = 'exalted-lineages'
+  const asiRiciSSFilter = (mechanic) => {
+    // console.log(mechanic)
+    return ['resistance', 'sense', 'comdition-immunity', 'immunity'].includes(mechanic.type)
+      || mechanic.type === 'speed' && mechanic.speed !== 'walk'
+      || mechanic.type.startsWith('asi')
+  }
+  for (const sp of species) {
+    if (sp.id === 'kett' || sp.id === 'behemoth') {
+      continue
+    }
+    let id = `EXL_${sp.id}`
+    let name = sp.name
+    let mechanics = []
+
+    if (['variant', 'subspecies'].includes(sp.type) && sp.id !== 'ardat-yakshi') {
+      const parent = species.find(i => i.id === sp.species)
+      const parentName = parent.name
+      name = `${parentName} (${name})`
+      if (sp.type === 'variant') {
+        mechanics.push(...(sp.mechanics || parent.mechanics))
+      } else {
+        mechanics.push(...[...sp.mechanics, ...parent.mechanics])
+      }
+    } else if (sp.subspecies) {
+      continue
+    } else {
+      mechanics.push(...sp.mechanics)
+    }
+
+    const exclusions = ['hermetic-suit', 'pressurized-suit', 'contra-gravitic-levitation']
+    const traitMechanics = traits.filter(i => i.species.includes(sp.id) && !exclusions.includes(i.id))
+      .reduce((acc, curr) => acc.concat(curr.mechanics), [])
+    mechanics.push(...traitMechanics)
+    mechanics = mechanics.filter(asiRiciSSFilter).sort((a, b) => a.type - b.type)
+    let html = ''
+    const asis = mechanics.filter(i => i.type === 'asi').map(i => `+${i.amount} ${i.ability.toUpperCase()}`)
+    html += '<div class="text-subtitle-1">Ability Score Increase</div>'
+    if (asis.length) {
+      html += `<p>${asis.join(', ')}</p>`
+    }
+    const resistances = mechanics.filter(i => i.type === 'resistance').map(i => `${i.value || ''}${i.note ? ` (${i.note})` : ''}`)
+    if (resistances.length) {
+      html += '<div class="text-subtitle-1">Resistances</div>'
+      html += `<p>${resistances.join(', ')}</p>`
+    }
+    const conImms = mechanics.filter(i => i.type === 'condition-immunity').map(i => `${i.value || ''}${i.note || ''}`)
+    if (conImms.length) {
+      html += '<div class="text-subtitle-1">Condition Immunities</div>'
+      html += `<p>${conImms.join(', ')}</p>`
+    }
+    const speeds = mechanics.filter(i => i.type === 'speed' && i.speed !== 'walk').map(i => `${i.speed}ing <me-distance length="${i.distance}" />${i.note ? ` (${i.note})` : ''}`)
+    if (speeds.length) {
+      html += '<div class="text-subtitle-1">Speeds</div>'
+      html += `<p>${speeds.join(', ')}</p>`
+    }
+    const senses = mechanics.filter(i => i.type === 'sense').map(i => `${i.sense} <me-distance length="${i.distance}" />`)
+    if (senses.length) {
+      html += '<div class="text-subtitle-1">Senses</div>'
+      html += `<p>${senses.join(', ')}</p>`
+    }
+
+    exaltedLineages.push({
+      id,
+      name,
+      mechanics,
+      html,
+      type: edgeType
+    })
+  }
+
+  return exaltedLineages
 }
 
 function combineItem(id, dir, file1, file2 = null) {

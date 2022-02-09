@@ -12,7 +12,7 @@ profs:
     text: None
   skill:
     text: Choose three from Athletics, Engineering, Insight, Intimidation, Medicine, Persuasion, Science, and Survival
-  savingThrow:
+  saving-throw:
     text: Charisma, Constitution
 startingEquipment:
   - text: (a) M-3 Predator or (b) M-4 Shuriken or (c) M-8 Avenger

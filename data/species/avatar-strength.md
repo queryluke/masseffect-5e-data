@@ -8,5 +8,5 @@ mechanics:
   - type: other
     shortDesc: >-
       Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length="60" />
-      that can see you gains Avatar’s Inspiration.
+      that can see you gains Avatar’s Inspiration ({{avatarsDie}}).
 ---

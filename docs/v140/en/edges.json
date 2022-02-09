@@ -337,6 +337,35 @@
     "id": "BG_weaponsmith"
   },
   {
+    "name": "None",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 2
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "str",
+          "dex",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "type": "exalted-lineages",
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>\n+2 CON\n",
+    "id": "EXL_kett"
+  },
+  {
     "name": "Ambidextrous",
     "mechanics": [],
     "type": "fighting-styles",
@@ -434,15 +463,20 @@
           "id": "REP_beguile"
         },
         "type": "action",
+        "layout": "stats-right",
         "resource": {
           "id": "REP_beguile"
+        },
+        "range": {
+          "short": 120
         },
         "dc": {
           "base": 8,
           "proficient": true,
           "mod": "cha",
           "save": "wis"
-        }
+        },
+        "shortDesc": "Monolog for 1 minute, causing creatures of your choice within {{ range }} to make a DC {{ dc }} Wisdom saving throw. A creature has advantage if you or your companions are fighting it. A creature with Intelligence 3 or lower succeeds. On a failure, a creature has disadvantage on attack rolls against creatures other than you and Wisdom (Perception) checks to perceive creatures other than you."
       }
     ],
     "html": "<p>You can start monologing for up to 1 minute, causing creatures of your choice that you can see within range and that\ncan hear you to make a Wisdom saving throw. Any creature with an Intelligence of 3 or lower succeeds on this\nsaving throw automatically, and if you or your companions are fighting a creature, it has advantage on the\nsave. On a failed save, the target has disadvantage on attack rolls against any creature other than you and\nWisdom (Perception) checks made to perceive any creature other than you until you stop talking or until the\ntarget can no longer hear you. The effect also ends if you are incapacitated or can no longer speak.</p>\n<p>You may use this benefit once per long rest.</p>\n",
@@ -804,43 +838,1078 @@
     "id": "REP_presence"
   },
   {
-    "name": "Aquatic",
+    "id": "EXL_angara",
+    "name": "Angara",
     "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "cha"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "resistance",
+        "value": "lightning",
+        "note": "only applies to hit points"
+      },
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "only applies to hit points"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CHA, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>lightning (only applies to hit points), cold (only applies to hit points)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-acceptace",
+    "name": "Ardat-Yakshi (Acceptance)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 3,
+        "selections": 3,
+        "max": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-chaste",
+    "name": "Ardat-Yakshi (Chaste)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "dex",
+          "str",
+          "int",
+          "cha",
+          "con"
+        ]
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-embrace",
+    "name": "Ardat-Yakshi (Embrace)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 DEX, +1 CON, +1 INT, +1 WIS, +1 CHA</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-growing-power",
+    "name": "Ardat-Yakshi (Variant: Growing Power)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lifestage-maiden",
+    "name": "Asari (Maiden)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 2
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CHA, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lifestage-matriarch",
+    "name": "Asari (Matriarch)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS, +1 INT, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lifestage-matron",
+    "name": "Asari (Matron)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS, +1 CHA, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_awakened-collector",
+    "name": "Awakened Collector",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 30,
+        "note": "if you end your movement in the air, you fall to the ground at the end of your turn"
+      },
+      {
+        "type": "resistance",
+        "damageType": false,
+        "note": "Falling"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 WIS</p><div class=\"text-subtitle-1\">Resistances</div><p> (Falling)</p><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"30\" /> (if you end your movement in the air, you fall to the ground at the end of your turn)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_batarian",
+    "name": "Batarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 DEX, +1 CON, +1 INT, +1 WIS, +1 CHA</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_drell",
+    "name": "Drell",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_elcor",
+    "name": "Elcor",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 STR, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_mobile-platform-hopper",
+    "name": "Geth (Hopper)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "climb",
+        "distance": 20,
+        "note": "equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages."
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 DEX, +2 INT</p><div class=\"text-subtitle-1\">Speeds</div><p>climbing <me-distance length=\"20\" /> (equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages.)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_mobile-platform-juggernaut",
+    "name": "Geth (Juggernaut)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_mobile-platform-trooper",
+    "name": "Geth (Trooper)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hanar",
+    "name": "Hanar",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
       {
         "type": "speed",
         "speed": "swim",
         "distance": 30
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You gain a swimming speed of 12 meters.\tYou can breathe both air and water.</p>\n",
-    "id": "VA_aquatic"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS, +1 INT</p><div class=\"text-subtitle-1\">Speeds</div><p>swiming <me-distance length=\"30\" /></p>",
+    "type": "exalted-lineages"
   },
   {
-    "name": "Desert",
+    "id": "EXL_human",
+    "name": "Human",
     "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "cha"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 DEX, +1 CON, +1 INT, +1 WIS, +1 CHA</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_human-variant",
+    "name": "Human (Human Variant)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-anointed",
+    "name": "Kett (Anointed)",
+    "mechanics": [],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-ascendant",
+    "name": "Kett (Ascendant)",
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 4
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"4\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-chosen",
+    "name": "Kett (Chosen)",
+    "mechanics": [],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-destined",
+    "name": "Kett (Destined)",
+    "mechanics": [],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_krogan",
+    "name": "Krogan",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CON, +1 STR</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_tankbred",
+    "name": "Krogan (Tank-Bred)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CON, +1 STR</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-bravery",
+    "name": "Prothean (Bravery)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-humor",
+    "name": "Prothean (Humor)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CHA, +2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-leadership",
+    "name": "Prothean (Leadership)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-no-avatar",
+    "name": "Prothean (No Avatar)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "sense",
+        "sense": "truesight",
+        "note": "when you take the Search action, lasts until action is resolved"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p><div class=\"text-subtitle-1\">Senses</div><p>truesight <me-distance length=\"undefined\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-sacrifice",
+    "name": "Prothean (Sacrifice)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-strength",
+    "name": "Prothean (Strength)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-tranquility",
+    "name": "Prothean (Tranquility)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-vengeance",
+    "name": "Prothean (Vengeance)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-cerebral",
+    "name": "Quarian (Cerebral)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 INT, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-muscular",
+    "name": "Quarian (Muscular)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "options": true
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-ocular",
+    "name": "Quarian (Ocular)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "wis",
+          "int"
+        ],
+        "options": true
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 CON</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-visceral",
+    "name": "Quarian (Visceral)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +1 INT, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_salarian",
+    "name": "Salarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lystheni",
+    "name": "Salarian (Lystheni)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "resistance",
+        "value": "poison"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 STR, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>poison</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-combat-officer",
+    "name": "Turian (Combat Officer)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CHA, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-demolitions",
+    "name": "Turian (Demolitions)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-engineering-corps",
+    "name": "Turian (Engineering Corps)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-field-medics",
+    "name": "Turian (Field Medics)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-infantry",
+    "name": "Turian (Infantry)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-non-hierarchy",
+    "name": "Turian (Non-Hierarchy)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "resistance",
+        "value": "radiant",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +1 DEX</p><div class=\"text-subtitle-1\">Resistances</div><p>radiant (to your hit points)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-recon",
+    "name": "Turian (Recon)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 DEX, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hardware-aiu",
+    "name": "Unshackled AI (Alliance Infiltration Unit)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 DEX, +2 INT</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hardware-hologram",
+    "name": "Unshackled AI (Hologram)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CHA, +2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hardware-loki",
+    "name": "Unshackled AI (LOKI)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex",
+          "con",
+          "wis",
+          "cha"
+        ],
+        "options": true
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT</p><div class=\"text-subtitle-1\">Senses</div><p>infrared-vision <me-distance length=\"60\" />, darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_volus",
+    "name": "Volus",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS, +1 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-aquatic",
+    "name": "Vorcha (Aquatic)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Speeds</div><p>swiming <me-distance length=\"30\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-desert",
+    "name": "Vorcha (Desert)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
       {
         "type": "asi",
         "ability": "con",
         "amount": 1
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You can go twice as long without food or water before you suffer exhaustion. Increase your Constitution score by 1 to a maximum of 20.</p>\n",
-    "id": "VA_desert"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON, +1 CON</p>",
+    "type": "exalted-lineages"
   },
   {
-    "name": "Frozen",
+    "id": "EXL_adaptation-frozen",
+    "name": "Vorcha (Frozen)",
     "mechanics": [
       {
-        "type": "saving-throw",
-        "value": [
-          "con"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to resist exhaustion due to extreme cold"
-        }
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
       },
       {
         "type": "resistance",
@@ -848,16 +1917,22 @@
         "note": "to your hit points"
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You have advantage on Constitution saving throws to resist exhaustion due to extreme cold and resistance to cold damage.</p>\n",
-    "id": "VA_frozen"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>cold (to your hit points)</p>",
+    "type": "exalted-lineages"
   },
   {
-    "name": "High-Gravity",
+    "id": "EXL_adaptation-high-gravity",
+    "name": "Vorcha (High-Gravity)",
     "mechanics": [
       {
-        "type": "speed-note",
-        "note": "Ignore difficult terrain caused by high gravity"
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
       },
       {
         "type": "asi",
@@ -865,13 +1940,23 @@
         "amount": 1
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You ignore difficult terrain caused by high gravity. Increase your strength score by 1 to a maximum of 20.</p>\n",
-    "id": "VA_high-gravity"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON, +1 STR</p>",
+    "type": "exalted-lineages"
   },
   {
-    "name": "Underground",
+    "id": "EXL_adaptation-underground",
+    "name": "Vorcha (Underground)",
     "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
       {
         "type": "sense",
         "sense": "darkvision",
@@ -881,34 +1966,24 @@
         "type": "sense",
         "sense": "blindsight",
         "distance": 30
-      },
-      {
-        "type": "skill-check",
-        "value": [
-          "stealth"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "while in darkness"
-        }
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>Darkvision <me-distance length=\"60\" />. Blindsight <me-distance length=\"30\" />. Additionally, you have advantage on stealth checks while in darkness.</p>\n",
-    "id": "VA_underground"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" />, blindsight <me-distance length=\"30\" /></p>",
+    "type": "exalted-lineages"
   },
   {
-    "name": "Volcanic",
+    "id": "EXL_adaptation-volcanic",
+    "name": "Vorcha (Volcanic)",
     "mechanics": [
       {
-        "type": "saving-throw",
-        "value": [
-          "con"
-        ],
-        "effect": {
-          "type": "advantage",
-          "note": "to resist exhaustion due to extreme heat"
-        }
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
       },
       {
         "type": "resistance",
@@ -916,13 +1991,23 @@
         "note": "to your hit points"
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>You have advantage on Constitution saving throws to resist exhaustion due to extreme heat and resistance to fire damage.</p>\n",
-    "id": "VA_volcanic"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>fire (to your hit points)</p>",
+    "type": "exalted-lineages"
   },
   {
-    "name": "Zero-gravity",
+    "id": "EXL_adaptation-zero-gravity",
+    "name": "Vorcha (Zero-gravity)",
     "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
       {
         "type": "speed",
         "speed": "fly",
@@ -930,8 +2015,30 @@
         "note": "while lifted or in zero-g"
       }
     ],
-    "type": "vorchaAdaptations",
-    "html": "<p>While lifted or in zero-g, you gain a flying speed of 2 meters and you do not have disadvantage on attack rolls.</p>\n",
-    "id": "VA_zero-gravity"
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"5\" /> (while lifted or in zero-g)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_yahg",
+    "name": "Yahg",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 STR, +1 CON</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
   }
 ]

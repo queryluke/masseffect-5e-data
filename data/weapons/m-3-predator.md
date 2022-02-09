@@ -10,7 +10,7 @@ damage:
   dieType: 4
   type: piercing
 range: 50
-image: http://vignette1.wikia.nocookie.net/masseffect/images/c/c8/ME3_Predator_Heavy_Pistol.png/revision/latest?cb=20120317185446
+image: https://vignette1.wikia.nocookie.net/masseffect/images/c/c8/ME3_Predator_Heavy_Pistol.png/revision/latest?cb=20120317185446
 andromeda: false
 properties:
   - double-tap

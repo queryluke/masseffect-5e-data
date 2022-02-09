@@ -10,7 +10,7 @@ damage:
   dieType: 4
   type: piercing
 range: 10
-image: http://vignette4.wikia.nocookie.net/masseffect/images/0/0d/ME3_Scimitar_Shotgun.png/revision/latest?cb=20120317200715
+image: https://vignette4.wikia.nocookie.net/masseffect/images/0/0d/ME3_Scimitar_Shotgun.png/revision/latest?cb=20120317200715
 andromeda: false
 properties:
   - two-handed

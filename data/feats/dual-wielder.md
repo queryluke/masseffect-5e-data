@@ -1,3 +1,4 @@
 ---
-mechanics: []
+mechanics:
+  - type: dual-wielder
 ---

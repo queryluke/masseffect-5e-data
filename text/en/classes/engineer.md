@@ -12,7 +12,7 @@ profs:
     text: Choose 1 from Armorsmith's Workbench, Tailor's Tools, Tinker's Tools, and Weaponsmith's Workbench
   skill:
     text: Choose three from Athletics, Electronics, Engineering, History, Investigation, Medicine, Science, and Vehicle Handling
-  savingThrow:
+  saving-throw:
     text: Constitution, Intelligence
 startingEquipment:
   - text: (a) M-3 Predator or (b) M-4 Shuriken or (c) M-8 Avenger

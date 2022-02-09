@@ -6,5 +6,7 @@ species:
   - avatar-strength
   - avatar-tranquility
   - avatar-vengeance
-mechanics: []
+mechanics:
+  - type: avatars-inspiration
+    die: d4
 ---
