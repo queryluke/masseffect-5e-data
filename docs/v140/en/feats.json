@@ -181,11 +181,8 @@
         "options": true,
         "limit": {
           "valueLookup": {
-            "model": "trait",
-            "id": "innate-biotics",
-            "limit": [
-              "powers"
-            ]
+            "model": "traits",
+            "id": "innate-biotics"
           }
         }
       },
