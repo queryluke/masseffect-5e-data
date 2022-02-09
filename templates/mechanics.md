@@ -192,6 +192,10 @@ mechanics:
   value: enum [unarmed-strike,gun-strike]
   damage: @damage
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
+- type: speed-bonus
+  value: [enum speeds]
+  bonus: @bonus
+
 
 
 # Unique
