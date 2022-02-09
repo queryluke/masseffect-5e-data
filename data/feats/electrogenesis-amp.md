@@ -15,7 +15,9 @@ mechanics:
         - dieCount: 1
           dieType: 4
           mod: con
-          type: sp
+          type: shields
+      shortDesc: >-
+        Touch one creature to restore 1d4 + {{ conMod }} shield points and stabilize or end the stunned condition on it.
 prerequisite: Angara
 prereq:
   - type: species

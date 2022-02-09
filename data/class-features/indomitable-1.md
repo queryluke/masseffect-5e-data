@@ -6,7 +6,7 @@ mechanics:
     resource:
       max:
         type: progressive
-        limit: solder
+        limit: soldier
         value:
           9: 1
           13: 2
