@@ -2139,9 +2139,9 @@
         },
         "type": "action",
         "resource": {
-          "isolated": true,
           "id": "seeker-swarm"
-        }
+        },
+        "shortDesc": "Summon three seeker swarms that orbit around you for 1 hour."
       },
       {
         "name": "Seeker Swarm",
@@ -2157,8 +2157,7 @@
             "type": "flat",
             "value": 3
           },
-          "isolated": true,
-          "id": "seeker-swarm"
+          "id": "seeker-swarm-count"
         },
         "damage": [
           {
@@ -2174,9 +2173,7 @@
         "range": {
           "short": 150
         },
-        "notes": [
-          "damage bypasses shields and detonates any primed condition"
-        ]
+        "shortDesc": "Use a bonus action to expend one to three swarms that hit a creature of your choice within {{ range }}. A swarm deals 1d4 + 1 necrotic damage its target that bypasses shields and detonates any primed conditions. If you expend more than one swarm, they all strike simultaneously, and you can direct them to hit one creature or several."
       }
     ],
     "name": "Seeker Swarm",
@@ -2743,7 +2740,7 @@
       {
         "type": "resistance",
         "damageType": false,
-        "note": "Falling"
+        "note": "Falling damage"
       }
     ],
     "name": "Wings",

@@ -1044,10 +1044,10 @@
       {
         "type": "resistance",
         "damageType": false,
-        "note": "Falling"
+        "note": "Falling damage"
       }
     ],
-    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 WIS</p><div class=\"text-subtitle-1\">Resistances</div><p> (Falling)</p><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"30\" /> (if you end your movement in the air, you fall to the ground at the end of your turn)</p>",
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 WIS</p><div class=\"text-subtitle-1\">Resistances</div><p> (Falling damage)</p><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"30\" /> (if you end your movement in the air, you fall to the ground at the end of your turn)</p>",
     "type": "exalted-lineages"
   },
   {
