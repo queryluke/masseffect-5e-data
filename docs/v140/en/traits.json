@@ -482,24 +482,23 @@
     ],
     "mechanics": [
       {
-        "name": "Bite",
-        "moreInfo": false,
-        "type": "attack",
-        "range": {
-          "short": 5
-        },
-        "attack": {
-          "proficient": true,
-          "mod": "str"
-        },
-        "damage": [
-          {
+        "type": "natural-weapon",
+        "value": {
+          "type": "natural-melee",
+          "name": "Bite",
+          "notes": [],
+          "properties": [],
+          "range": 5,
+          "damage": {
             "dieCount": 1,
             "dieType": 6,
-            "mod": "str",
             "type": "piercing"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "bite"
           }
-        ]
+        }
       }
     ],
     "html": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>\n",
@@ -907,26 +906,26 @@
     ],
     "mechanics": [
       {
-        "name": "Energy Pulse",
-        "moreInfo": {
-          "model": "traits",
-          "id": "energy-pulse"
-        },
-        "type": "attack",
-        "attack": {
-          "proficient": true,
-          "mod": "str"
-        },
-        "damage": [
-          {
+        "type": "natural-weapon",
+        "value": {
+          "damageModOverride": "noMod",
+          "type": "natural-melee",
+          "name": "Energy Pulse",
+          "notes": [
+            "On a hit, target can't take reactions until the start of its next turn"
+          ],
+          "properties": [],
+          "range": 5,
+          "damage": {
             "dieCount": 1,
             "dieType": 8,
             "type": "lightning"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "energy-pulse"
           }
-        ],
-        "notes": [
-          "Hit, can’t take reactions until the start of its next turn"
-        ]
+        }
       }
     ],
     "html": "<p>Your hands can discharge electrical pulses and are considered natural weapons, which you can use to make unarmed strikes.\nIf you hit with them, you can deal 1d8 lightning damage instead of the bludgeoning damage normal for an unarmed strike.\nIn addition, a target hit by this attack can’t take reactions until the start of its next turn.</p>\n",
@@ -1056,27 +1055,23 @@
     ],
     "mechanics": [
       {
-        "name": "Eye Canon",
-        "moreInfo": {
-          "model": "traits",
-          "id": "eye-canon"
-        },
-        "type": "attack",
-        "range": {
-          "short": 90
-        },
-        "attack": {
-          "proficient": true,
-          "mod": "dex"
-        },
-        "damage": [
-          {
+        "type": "natural-weapon",
+        "value": {
+          "type": "natural-ranged",
+          "name": "Eye Canon",
+          "notes": [],
+          "properties": [],
+          "range": 90,
+          "damage": {
             "dieCount": 1,
             "dieType": 10,
-            "mod": "dex",
             "type": "radiant"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "eye-canon"
           }
-        ]
+        }
       }
     ],
     "name": "Eye Canon",
@@ -2526,32 +2521,27 @@
     ],
     "mechanics": [
       {
-        "name": "Tentacles",
-        "moreInfo": {
-          "model": "traits",
-          "id": "tentacles"
-        },
-        "type": "attack",
-        "attack": {
-          "proficient": true,
-          "mod": "str"
-        },
-        "damage": [
-          {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": true,
+        "value": {
+          "damageModOverride": "noMod",
+          "name": "Tentacles",
+          "type": "natural-melee",
+          "range": 5,
+          "damage": {
             "dieCount": 1,
             "dieType": 8,
             "type": "poison"
+          },
+          "notes": [
+            "On a hit, DC {{ 8 + profBonus + conMod }} or poisoned for 1 minute",
+            "+1 to attack roll and DC for each additional tentacle used"
+          ],
+          "moreInfo": {
+            "model": "traits",
+            "id": "tentacles"
           }
-        ],
-        "dc": {
-          "base": 11,
-          "proficient": true,
-          "save": "con"
-        },
-        "notes": [
-          "+1 to attack roll and dc for each additional tentacle used.",
-          "On a failed save, target is poisoned for 1 minute."
-        ]
+        }
       }
     ],
     "name": "Tentacles",
@@ -2566,27 +2556,24 @@
     ],
     "mechanics": [
       {
-        "name": "Thick Frontal Plate",
-        "moreInfo": {
-          "model": "traits",
-          "id": "thick-frontal-plate"
-        },
-        "type": "attack",
-        "range": {
-          "short": 5
-        },
-        "attack": {
-          "proficient": true,
-          "mod": "str"
-        },
-        "damage": [
-          {
+        "type": "natural-weapon",
+        "value": {
+          "damageModOverride": "con",
+          "type": "natural-melee",
+          "name": "Thick Frontal Plate",
+          "notes": null,
+          "properties": [],
+          "range": 5,
+          "damage": {
             "dieCount": 1,
             "dieType": 6,
-            "mod": "con",
             "type": "bludgeoning"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "thick-frontal-plate"
           }
-        ]
+        }
       }
     ],
     "html": "<p>Your frontal plate is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal\nbludgeoning damage equal to 1d6 + your Constitution modifier, instead of the damage normal for an unarmed strike.</p>\n",

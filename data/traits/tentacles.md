@@ -2,19 +2,21 @@
 species:
   - hanar
 mechanics:
-  - type: attack
-    attack:
-      proficient: true
-      mod: str
-    damage:
-      - dieCount: 1
+  - type: natural-weapon
+    replacesUnarmedStrike: true
+    value:
+      damageModOverride: noMod
+      name: Tentacles
+      type: natural-melee
+      range: 5
+      damage:
+        dieCount: 1
         dieType: 8
         type: poison
-    dc:
-      base: 11
-      proficient: true
-      save: con
-    notes:
-      - +1 to attack roll and dc for each additional tentacle used.
-      - On a failed save, target is poisoned for 1 minute.
+      notes:
+        - On a hit, DC {{ 8 + profBonus + conMod }} or poisoned for 1 minute
+        - +1 to attack roll and DC for each additional tentacle used
+      moreInfo:
+        model: traits
+        id: tentacles
 ---

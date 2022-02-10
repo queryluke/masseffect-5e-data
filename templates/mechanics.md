@@ -22,7 +22,7 @@ resource:
 
 # bonus
 bonus:
-  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn]
+  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison]
   value: integer, string, or null
   multiplier: 1,
   min: integer # default 0
@@ -122,8 +122,25 @@ mechanics:
     note: string
 # Unique
   - type: regain-all-hit-dice
-# Attacks, Actions, Bonus Actions, and Reactions
-  - type: enum [action, bonus-action, reaction, attack, other] # simply indicates where to render on the character sheet
+# Attacks
+  - type: natural-weapon
+    replacesUnarmedStrike: # boolean
+    value:
+      noMod: boolean # see tentacles, damage doesn't add str
+      type: enum [natural-melee,natural-ranged]
+      damage: @damage
+      notes: array of strings
+      properties: [enum [weapon properties]]
+      moreInfo:
+        model: string
+        id: string
+  - type: gun-strike-augment
+    value:
+      damage: @damage
+      notes: array of strings
+
+# Actions, Bonus Actions, and Reactions
+  - type: enum [action, bonus-action, reaction, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
     range:
       short: integer (0 = self, touch = 1)
@@ -134,8 +151,8 @@ mechanics:
         size: integer
     attack: # optional, renders attack attributes
       proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
-      mod: enum [str, dex, con, int, wis, cha, max] # optional
-      modComparison: enum [abilities] #required for max mod
+      mod: enum [str, dex, con, int, wis, cha] # optional
+      bonus: @bonus
       note: string
     damage:
       - dieCount: integer (0 = special)
@@ -147,8 +164,8 @@ mechanics:
     dc:
       base: integer # default = true
       proficient: boolean # default = true
-      mod: enum [str, dex, con, int, wis, cha, max] # optional
-      modComparison: enum [abilities] #required for max mod
+      mod: enum [str, dex, con, int, wis, cha] # optional
+      bonus: @bonus
       save: enum [str, dex, con, int, wis, cha]
       note: string
     notes:
@@ -182,22 +199,26 @@ mechanics:
 
 # TODO
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
-- type: additional-damage
-    model: [weapon, power]
-    limits:
-      - attr: string
-        value: [potential matches]
-    damage: @damage
+- type: attack-augment, bf-augment, twf-augment, dt-augment
+  augment: enum [attack,damage,dc,notes]
+  limits:
+    attack: enum [melee,ranged]
+    model: enum [weapons,powers]
+    modelType: [enum [weapon types, power types]]
+    ids: [model ids]
+  value: @bonus || array (for notes) || abilityMod
 - type: skill-or-expertise
 - type: featherlight
 - type: add-prof-double-tap # add prof bonus to dw rolls, hair trigger
+- type: add-prof-twf # add prof bonus to two weapon fighting rolls, ambidextrous
+- type: add-prof-burst-fire
+- type: add-prof-melee
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
 - type: speed-bonus
   value: [enum speeds]
   bonus: @bonus
-- type: innate-strike-damage # see long fist, melee gunner
-  value: enum [unarmed-strike,gun-strike]
-  damage: @damage
+- type: unarmed-strike, gun-strike # see long fist, melee gunner
+  merge: @newWeaponModel
 - type: passive
   value: enum @skills
 - resource: # see regenerative burst

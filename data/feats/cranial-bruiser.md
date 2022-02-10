@@ -7,13 +7,14 @@ mechanics:
     amount: 1
   - type: augment
     value:
-      model: trait
+      model: traits
       id: thick-frontal-plate
-      limit: [attack]
+      limit: [natural-weapon]
       instances: [0]
     merge:
-      damage:
-        - dieType: 10
+      value:
+        damage:
+          dieType: 10
   - type: bonus-action
     shortDesc: >-
       When you take the Dash action on your turn, you can make one unarmed strike with your thick frontal plate.

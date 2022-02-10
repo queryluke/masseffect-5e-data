@@ -13,11 +13,11 @@ mechanics:
     value:
       model: traits
       id: bite
-      limit: [attack]
+      limit: [natural-weapon]
       instances: [0]
     merge:
-      notes:
-        - 1d6 damage per turn. Ends w/ DC 10 WIS (medicine)
+      value:
+        notes: [1d6 damage per turn. Ends w/ DC 10 WIS (medicine)]
 prerequisite: Vorcha
 prereq:
   - type: species

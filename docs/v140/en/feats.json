@@ -434,21 +434,21 @@
       {
         "type": "augment",
         "value": {
-          "model": "trait",
+          "model": "traits",
           "id": "thick-frontal-plate",
           "limit": [
-            "attack"
+            "natural-weapon"
           ],
           "instances": [
             0
           ]
         },
         "merge": {
-          "damage": [
-            {
+          "value": {
+            "damage": {
               "dieType": 10
             }
-          ]
+          }
         }
       },
       {
@@ -604,17 +604,15 @@
         "shortDesc": "Choose a weapon and roll a d6, then lose that much hp. For 1 minute, the chosen weapon deals additional 1d6 lightning."
       },
       {
-        "type": "additional-damage",
-        "models": [
-          "weapon"
-        ],
-        "damage": [
-          {
-            "dieType": 1,
-            "dieCount": 6,
-            "type": "lightning"
-          }
-        ]
+        "type": "attack-augment",
+        "limits": {
+          "model": "weapon"
+        },
+        "inject": {
+          "notes": [
+            "Electrogenesis Infusion: 1d6 lightning"
+          ]
+        }
       }
     ],
     "prerequisite": "Angara",
@@ -878,7 +876,18 @@
         "amount": 1
       },
       {
-        "type": "add-prof-to-dt"
+        "type": "attack-augment",
+        "special": "double-tap",
+        "merge": {
+          "damage": [
+            {
+              "modComparison": [
+                "str",
+                "dex"
+              ]
+            }
+          ]
+        }
       }
     ],
     "name": "Hair Trigger",
@@ -1109,15 +1118,19 @@
         ]
       },
       {
-        "type": "innate-strike-damage",
-        "value": "unarmed-strike",
-        "damage": [
-          {
-            "dieType": 8,
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": true,
+        "value": {
+          "type": "natural-melee",
+          "notes": [],
+          "properties": [],
+          "range": 5,
+          "damage": {
             "dieCount": 1,
+            "dieType": 8,
             "type": "bludgeoning"
           }
-        ]
+        }
       }
     ],
     "prerequisite": "Elcor",
@@ -1173,15 +1186,12 @@
         "amount": 1
       },
       {
-        "type": "innate-strike-damage",
-        "value": "gun-strike",
-        "damage": [
-          {
-            "dieType": 6,
-            "dieCount": 1,
-            "type": "bludgeoning"
+        "type": "gun-strike-augment",
+        "value": {
+          "damage": {
+            "dieType": 6
           }
-        ]
+        }
       },
       {
         "type": "melee-gunner"
@@ -1460,16 +1470,18 @@
           "model": "traits",
           "id": "bite",
           "limit": [
-            "attack"
+            "natural-weapon"
           ],
           "instances": [
             0
           ]
         },
         "merge": {
-          "notes": [
-            "1d6 damage per turn. Ends w/ DC 10 WIS (medicine)"
-          ]
+          "value": {
+            "notes": [
+              "1d6 damage per turn. Ends w/ DC 10 WIS (medicine)"
+            ]
+          }
         }
       }
     ],
@@ -1874,16 +1886,19 @@
         ]
       },
       {
-        "type": "innate-strike-damage",
-        "value": "unarmed-strike",
-        "damage": [
-          {
-            "dieType": 4,
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": true,
+        "value": {
+          "type": "natural-melee",
+          "notes": [],
+          "properties": [],
+          "range": 5,
+          "damage": {
             "dieCount": 1,
-            "type": "bludgeoning",
-            "mod": "str"
+            "dieType": 4,
+            "type": "bludgeoning"
           }
-        ]
+        }
       },
       {
         "name": "Tavern Brawler",

@@ -5,11 +5,16 @@ mechanics:
   - type: asi-choice
     options: true
     limit: [str, dex]
-  - type: innate-strike-damage
-    value: unarmed-strike
-    damage:
-      - dieType: 8
+  - type: natural-weapon
+    replacesUnarmedStrike: true
+    value:
+      type: natural-melee
+      notes: []
+      properties: []
+      range: 5
+      damage:
         dieCount: 1
+        dieType: 8
         type: bludgeoning
 prerequisite: Elcor
 prereq:

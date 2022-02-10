@@ -367,21 +367,62 @@
   },
   {
     "name": "Ambidextrous",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "special": "twf",
+        "merge": {
+          "damage": [
+            {
+              "modComparison": [
+                "str",
+                "dex"
+              ]
+            }
+          ]
+        }
+      }
+    ],
     "type": "fighting-styles",
     "html": "<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n",
     "id": "FS_ambidextrous"
   },
   {
     "name": "Assault",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "special": "burst-fire",
+        "merge": {
+          "dc": {
+            "base": 17
+          }
+        }
+      }
+    ],
     "type": "fighting-styles",
     "html": "<p>When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n",
     "id": "FS_assault"
   },
   {
     "name": "Brawler",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "limit": {
+          "model": "melee"
+        },
+        "merge": {
+          "damage": [
+            {
+              "bonus": {
+                "type": "proficiency"
+              }
+            }
+          ]
+        }
+      }
+    ],
     "type": "fighting-styles",
     "html": "<p>Add your proficiency bonus to your melee attack damage rolls.</p>\n",
     "id": "FS_brawler"
