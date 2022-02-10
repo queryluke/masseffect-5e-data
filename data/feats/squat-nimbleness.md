@@ -7,17 +7,15 @@ mechanics:
     limit: [str, dex]
     amount: 1
     selections: 1
-  - type: prof-choice
-    profType: skill
+  - type: skill-choice
     limit: [acrobatics, athletics]
     options: true
     selections: 1
-  - type: augment
-    model: speed
-    modelId: walk
-    augments:
-      - value: 5
-        type: append
+  - type: speed-bonus
+    value: [walk]
+    bonus:
+      type: flat
+      value: 5
   - type: skill-check
     value: [acrobatics, athletics]
     effect:

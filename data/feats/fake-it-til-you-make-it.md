@@ -14,6 +14,8 @@ mechanics:
     shortDesc: When you fail an ability check or saving throw or miss with an attack roll, spent a hit dice to add a d4 to the roll.
     resource:
       reset: short
+      resource:
+        displayType: hit-dice
 prerequisite: Human or Batarian
 prereq:
   - type: species

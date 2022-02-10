@@ -6,9 +6,8 @@ mechanics:
     options: true
     limit:
       valueLookup:
-        model: trait
+        model: traits
         id: innate-biotics
-        limit: [powers]
   - type: augment
     value:
       model: trait

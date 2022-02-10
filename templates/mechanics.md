@@ -34,8 +34,6 @@ dieBonus:
 effect:
   type: enum [advantage, disadvantage, bonus, limited, die-bonus] #other is generic effect, usually just a note, parsed individually by the component that consumes it
   bonus: @bonus
-  dieType: enum die types
-  dieCount: integer
   resource: @resource # for limited, can disable when uses are out
   note: string
 
@@ -72,7 +70,7 @@ mechanics:
     total: integer # default 1
     max: integer #default 1, max 2
 # Proficiencies
-  - type: enum [skill, weapon, armor, saving_throw, tool, expertise]
+  - type: enum [skill, weapon, armor, saving-throw, tool, expertise]
     value: enum [types of that prof]
     expertise: boolean
   - type: # [prof]-choice
@@ -101,6 +99,7 @@ mechanics:
   - type: saving-throw
     against: array
     value: enum [abilities]
+    valueLookup: @valueLookup
     effect: @effect
 # Initiative
   - type: initiative
@@ -135,18 +134,21 @@ mechanics:
         size: integer
     attack: # optional, renders attack attributes
       proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
-      mod: enum [str, dex, con, int, wis, cha] # optional
+      mod: enum [str, dex, con, int, wis, cha, max] # optional
+      modComparison: enum [abilities] #required for max mod
       note: string
     damage:
       - dieCount: integer (0 = special)
         dieType: integer
-        mod: enum [abilities]
+        mod: enum [str, dex, con, int, wis, cha, max] # optional
+        modComparison: enum [abilities] #required for max mod
         type: enum [damage types] or hp, sp, tempHp
         bonus: @bonus
     dc:
       base: integer # default = true
       proficient: boolean # default = true
-      mod: enum [str, dex, con, int, wis, cha] # whether to add the mod to the dc
+      mod: enum [str, dex, con, int, wis, cha, max] # optional
+      modComparison: enum [abilities] #required for max mod
       save: enum [str, dex, con, int, wis, cha]
       note: string
     notes:
@@ -158,6 +160,7 @@ mechanics:
       bind: object
       model: string
       id: string
+  # Model Choice
   - type: model-choice
     options: true
     label: string
@@ -166,6 +169,7 @@ mechanics:
       - attr: string
         value: []
     append: any
+  # Augments
   - type: augment
     value: # or value lookup
       model: enum
@@ -174,47 +178,32 @@ mechanics:
       instances: 0
     merge:
       @type
-  - type: additional-damage
+
+
+# TODO
+- type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
+- type: additional-damage
     model: [weapon, power]
     limits:
       - attr: string
         value: [potential matches]
     damage: @damage
-
-
-# TODO
-# bonus types
-- type: progressive
-  limit: # klasses
-  value:
-    level: amount
-- type: level
-  value: klass || null
-  multiplier: float
-- type: progressionColumn
-  value:
-    klass: klasses
-    column: column id
-
-
-- type: advancements-choice
 - type: skill-or-expertise
 - type: featherlight
+- type: add-prof-double-tap # add prof bonus to dw rolls, hair trigger
+- type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
+- type: speed-bonus
+  value: [enum speeds]
+  bonus: @bonus
+- type: innate-strike-damage # see long fist, melee gunner
+  value: enum [unarmed-strike,gun-strike]
+  damage: @damage
+- type: passive
+  value: enum @skills
+- resource: # see regenerative burst
+    displayType: hitDice
+- type: tentacle-blender
 
-
-# Unique
-  - type: avatars-inspiration #note check for imp ava insp
-  - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
-  - type: tentacle-blender
-  - type: fast-learner
-  - type: poly-avatar
-  - type: premium-genetics
-  - type: regenerative-burst
-  - type: repair-matrix
-  - type: imprinted-enemies # can be model choice
-  - type: speed-note
-  - type: advanced-medigel-application #d6 for medigel
-# augments...might want to split this into two different ones..augment-model and augment(general)
 
 # NOT IMPLEMENTED
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
@@ -222,9 +211,15 @@ mechanics:
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
 - type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
-- type: additional-note # see elemental adept, add note to indicate bypass resistance
-- # fake it till you make it, hit dice tracker
-- # fast learner, an all profs selection
+- type: additional-note # see elemental adept, long fist, add note to indicate bypass resistance
+- type: innate-strike-damage # see long fist, melee gunner
+  innate: enum [unarmed-strike,gun-strike]
+- type: medium-armor-master # seems worthless cause in me5e medium armor
+- type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
+- type: repair-matrix
+- type: imprinted-enemies # can be model choice
+- type: speed-note
+- type: advanced-medigel-application #d6 for medigel
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,

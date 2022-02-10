@@ -8,17 +8,25 @@ mechanics:
       type: advantage
       note: to stabilize a synthetic creature
   - type: action
-    resource:
-      displayType: counter
-      reset: off
-      max:
-        type: omni-gel
-    shortDesc: Create 10 charges of epoxy
+    baseGroup: Create 10 charges of epoxy
   - type: action
     resource:
       displayType: counter
-      reset: off
-    shortDesc: restore 1d6 + 4 hit points to a synthetic creature, plus additional hit points equal to its level
+      reset: manual
+      resetTo: max
+      max:
+        type: flat
+        value: 10
+    damage:
+      - dieCount: 1
+        dieType: 6
+        bonus:
+          type: flat
+          value: 4
+        type: hp
+    shortDesc: >-
+      Restore 1d6 + 4 hit points to a synthetic creature, plus additional hit
+      points equal to its level
 prerequisite: Intelligence 13 or higher
 prereq:
   - type: mod

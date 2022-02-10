@@ -2,8 +2,10 @@
 name: Premium Genetics
 new: true
 mechanics:
-  - type: premium-genetics
+  - type: model-choice
     options: true
+    label: Select a species
+    model: premium-genetics
 prerequisite: Kett
 prereq:
   - type: species
@@ -21,7 +23,7 @@ __Awakened Collector__. Your Dexterity score increases by 1, to a maximum of 20.
 
 __Batarian__. Increase one ability score of your choice by 1, to a maximum of 20. Additionally, gain the Four Eyes trait.
 
-__Drell__. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Raw Agility trait.
+__Drell__. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Burst of Speed trait.
 
 __Elcor__. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Dense Build trait.
 
@@ -33,15 +35,17 @@ __Krogan__. Your Constitution score increases by 1, to a maximum of 20. Addition
 
 __Prothean__. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the All-Seeing Eyes trait.
 
-__Salarian__. Your Intelligence score increases by 1, to a maximum of 20. Additionally, gain the Amphibious and High-Speed Metabolism traits.
+__Quarian__. Increase your Intelligence or Constitution score by 1, to a maximum of 20. Additionally, gain your choice of the following traits: Mind Shielding Unit, Burst of Speed, Darkvision, or Toughness.
 
-__Turian__. Increase your Dexterity or Constitution score increases by 1 (your choice), to a maximum of 20. Additionally, gain the Thulium Skin trait.
+__Salarian__. Your Intelligence score increases by 1, to a maximum of 20. Additionally, gain the Amphibious and Photographic Memory traits.
+
+__Turian__. Increase your Dexterity or Constitution score by 1, to a maximum of 20. Additionally, gain the Thulium Skin trait.
 
 __Volus__. Your Wisdom score increases by 1, to a maximum of 20. Additionally, gain the Lucky trait.
 
 __Vorcha__. Your Dexterity score increases by 1, to a maximum of 20. Additionally, gain the Non-Differentiated Cells trait.
 
-__Yahg__. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Predator Eyes Cells trait.
+__Yahg__. Your Strength score increases by 1, to a maximum of 20. Additionally, gain the Predator Eyes trait.
 
 
 
