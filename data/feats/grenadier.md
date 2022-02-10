@@ -8,11 +8,13 @@ mechanics:
       long: 60
     attack:
       proficient: true
-      maxMod: [str,dex]
+      mod: max
+      modComparison: [str,dex]
     damage:
       - dieCount: 1
         dieType: 4
-        maxMod: [str,dex]
+        mod: max
+        modComparison: [str,dex]
         type: bludgeoning
     notes:
       - On a hit, target has disadvantage on the grenade's saving throw.

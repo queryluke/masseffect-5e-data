@@ -593,7 +593,8 @@
         "resource": {
           "reset": "manual",
           "id": "burst-of-speed"
-        }
+        },
+        "shortDesc": "When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
       }
     ],
     "name": "Burst of Speed",
@@ -2010,14 +2011,24 @@
     ],
     "mechanics": [
       {
-        "type": "repair-matrix"
+        "name": "Repair Matrix",
+        "moreInfo": {
+          "model": "traits",
+          "id": "repair-matrix"
+        },
+        "type": "action",
+        "resource": {
+          "display": "hit-dice",
+          "id": "repair-matrix"
+        },
+        "shortDesc": "Expend a hit die, roll it, and gain that many hit points."
       },
       {
         "type": "regain-all-hit-dice"
       }
     ],
     "name": "Repair Matrix",
-    "html": "<p>You have internal failsafes and repair protocols to assist with your longevity. You can expend one or more Hit Dice\nas an Action.</p>\n<p>Additionally, you regain all spent Hit Dice during a long rest, instead of the usual amount.</p>\n",
+    "html": "<p>You have internal failsafes and repair protocols to assist with your longevity. You can expend one or more Hit Dice\nas an Action, roll the die, and gain that many hit points.</p>\n<p>Additionally, you regain all spent Hit Dice during a long rest, instead of the usual amount.</p>\n",
     "id": "repair-matrix"
   },
   {
@@ -2150,6 +2161,7 @@
           "id": "seeker-swarm"
         },
         "type": "bonus-action",
+        "layout": "stats-right",
         "resource": {
           "displayType": "counter",
           "reset": "manual",

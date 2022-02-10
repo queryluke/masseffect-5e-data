@@ -10,8 +10,10 @@ mechanics:
   - type: skill-check
     value: [vehicle-handling, acrobatics, stealth, slight-of-hand]
     effect:
-      type: mod
-      value: int
+      type: bonus
+      bonus:
+        type: mod
+        value: int
 prerequisite: Salarian
 prereq:
   - type: species

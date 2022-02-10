@@ -447,6 +447,347 @@
     "id": "FS_the-free-hand"
   },
   {
+    "name": "Angara",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "electrogenesis"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Constitution score increases by 1, to a maximum of 20.</li>\n<li>Gain the Electrogenesis trait.</li>\n</ul>\n",
+    "id": "PG_angara"
+  },
+  {
+    "name": "Asari",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "innate-biotics"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Wisdom score increases by 1, to a maximum of 20.</li>\n<li>Gain the Innate Biotics trait.</li>\n</ul>\n",
+    "id": "PG_asari"
+  },
+  {
+    "name": "Awakened Collector",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "wings"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Dexterity score increases by 1, to a maximum of 20.</li>\n<li>Gain the Wings trait.</li>\n</ul>\n",
+    "id": "PG_awakened-collector"
+  },
+  {
+    "name": "Batarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "four-eyes"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your one ability score of your choice by 1, to a maximum of 20.</li>\n<li>Gain the Four Eyes trait.</li>\n</ul>\n",
+    "id": "PG_batarian"
+  },
+  {
+    "name": "Drell",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "burst-of-speed"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Dexterity score increases by 1, to a maximum of 20.</li>\n<li>Gain the Burst of Speed trait.</li>\n</ul>\n",
+    "id": "PG_drell"
+  },
+  {
+    "name": "Elcor",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "dense-build"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Strength score increases by 1, to a maximum of 20.</li>\n<li>Gain the Dense Build trait.</li>\n</ul>\n",
+    "id": "PG_elcor"
+  },
+  {
+    "name": "Hanar",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "amphibious",
+          "bioluminescence"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Strength score increases by 1, to a maximum of 20.</li>\n<li>Gain the Amphibious and Bioluminescence traits.</li>\n</ul>\n",
+    "id": "PG_hanar"
+  },
+  {
+    "name": "Batarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "html": "<ul>\n<li>Increase two ability scores of your choice by 1 or one ability score of your choice by 2, to a maximum of 20.</li>\n</ul>\n",
+    "id": "PG_human"
+  },
+  {
+    "name": "Krogan",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "blood-rage"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Constitution score increases by 1, to a maximum of 20.</li>\n<li>Gain the Blood Rage trait.</li>\n</ul>\n",
+    "id": "PG_krogan"
+  },
+  {
+    "name": "Prothean",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "all-seeing-eyes"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Wisdom score increases by 1, to a maximum of 20.</li>\n<li>Gain the All-Seeing Eyes trait.</li>\n</ul>\n",
+    "id": "PG_prothean"
+  },
+  {
+    "name": "Quarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "int",
+          "con"
+        ]
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "mind-shielding-unit",
+              "burst-of-speed",
+              "darkvision-60",
+              "toughness"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Intelligence or Constitution score by 1, to a maximum of 20.</li>\n<li>Gain one of the following traits: Mind Shielding Unit, Burst of Speed, Darkvision, or Toughness.</li>\n</ul>\n",
+    "id": "PG_quarian"
+  },
+  {
+    "name": "Salarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "amphibious",
+          "photographic-memory"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Intelligence score increases by 1, to a maximum of 20.</li>\n<li>Gain the Amphibious and Photographic Memory traits.</li>\n</ul>\n",
+    "id": "PG_salarian"
+  },
+  {
+    "name": "Turian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "dex",
+          "con"
+        ]
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "thilium-skin"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Dexterity or Constitution score by 1, to a maximum of 20.</li>\n<li>Gain the Thulium Skin trait.</li>\n</ul>\n",
+    "id": "PG_turian"
+  },
+  {
+    "name": "Volus",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "lucky"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Wisdom score by 1, to a maximum of 20.</li>\n<li>Gain the Lucky trait.</li>\n</ul>\n",
+    "id": "PG_volus"
+  },
+  {
+    "name": "Vorcha",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "non-differentiated-cells"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>Gain the Non-differentiated Cells trait.</li>\n</ul>\n",
+    "id": "PG_vorcha"
+  },
+  {
+    "name": "Yahg",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "predator-eyes"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Strength score by 1, to a maximum of 20.</li>\n<li>Gain the Predator Eyes trait.</li>\n</ul>\n",
+    "id": "PG_yahg"
+  },
+  {
     "name": "Beguile",
     "type": "benefits",
     "threshold": 30,

@@ -8,6 +8,7 @@ mechanics:
     shortDesc: >-
       Summon three seeker swarms that orbit around you for 1 hour.
   - type: bonus-action
+    layout: stats-right
     resource:
       displayType: counter
       reset: manual
