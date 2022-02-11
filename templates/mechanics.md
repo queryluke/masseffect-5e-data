@@ -195,17 +195,19 @@ mechanics:
       instances: 0
     merge:
       @type
-
+  - type: attack-augment, bf-augment, twf-augment, dt-augment
+    augment: enum [attack,damage,dc,notes]
+    limits:
+      attack: enum [melee,ranged]
+      model: enum [weapons,powers]
+      modelType: [enum [weapon types, power types]]
+      ids: [model ids]
+  - type: global-attack-note
+    attack: enum [melee, ranged]
+    value: array
 
 # TODO
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
-- type: attack-augment, bf-augment, twf-augment, dt-augment
-  augment: enum [attack,damage,dc,notes]
-  limits:
-    attack: enum [melee,ranged]
-    model: enum [weapons,powers]
-    modelType: [enum [weapon types, power types]]
-    ids: [model ids]
   value: @bonus || array (for notes) || abilityMod
 - type: skill-or-expertise
 - type: featherlight
@@ -217,8 +219,6 @@ mechanics:
 - type: speed-bonus
   value: [enum speeds]
   bonus: @bonus
-- type: unarmed-strike, gun-strike # see long fist, melee gunner
-  merge: @newWeaponModel
 - type: passive
   value: enum @skills
 - resource: # see regenerative burst

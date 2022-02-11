@@ -8,6 +8,7 @@ mechanics:
   - type: other
     resource:
       displayType: hit-dice
+      label: false
     shortDesc: >-
       Whenever you take the Dodge action in combat, you can spend one Hit Die to heal
       yourself equal to the roll + {{ conMod }}

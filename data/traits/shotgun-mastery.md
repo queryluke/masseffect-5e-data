@@ -1,4 +1,5 @@
 ---
+name: Shotgun Mastery
 species: [hardware-aiu]
 mechanics: []
 ---

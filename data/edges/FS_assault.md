@@ -1,11 +1,13 @@
 ---
 name: Assault
 mechanics:
-  - type: attack-augment
-    special: burst-fire
-    merge:
-      dc:
-        base: 17
+  - type: bf-augment
+    augment: dc
+    limits:
+      model: weapons
+    value:
+      type: flat
+      value: 2
 type: fighting-styles
 ---
 When you make a Burst Fire attack, the DC of the saving throw is 17.

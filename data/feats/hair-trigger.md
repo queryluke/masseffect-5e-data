@@ -4,9 +4,9 @@ mechanics:
   - type: asi
     ability: dex
     amount: 1
-  - type: attack-augment
-    special: double-tap
-    merge:
-      damage:
-        - modComparison: [str,dex]
+  - type: dt-augment
+    augment: damage
+    limits:
+      model: weapons
+    value: abilityMod
 ---

@@ -5,7 +5,8 @@ species:
 mechanics:
   - type: action
     resource:
-      display: hit-dice
+      displayType: hit-dice
+      label: false
     shortDesc: >-
       Expend a hit die, roll it, and gain that many hit points.
   - type: regain-all-hit-dice

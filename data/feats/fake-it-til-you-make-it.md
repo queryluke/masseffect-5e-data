@@ -16,6 +16,8 @@ mechanics:
       reset: short
       resource:
         displayType: hit-dice
+        label: false
+        id: hitDice
 prerequisite: Human or Batarian
 prereq:
   - type: species

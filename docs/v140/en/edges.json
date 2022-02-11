@@ -369,18 +369,12 @@
     "name": "Ambidextrous",
     "mechanics": [
       {
-        "type": "attack-augment",
-        "special": "twf",
-        "merge": {
-          "damage": [
-            {
-              "modComparison": [
-                "str",
-                "dex"
-              ]
-            }
-          ]
-        }
+        "type": "twf-augment",
+        "augment": "damage",
+        "limits": {
+          "model": "weapons"
+        },
+        "value": "abilityMod"
       }
     ],
     "type": "fighting-styles",
@@ -391,12 +385,14 @@
     "name": "Assault",
     "mechanics": [
       {
-        "type": "attack-augment",
-        "special": "burst-fire",
-        "merge": {
-          "dc": {
-            "base": 17
-          }
+        "type": "bf-augment",
+        "augment": "dc",
+        "limits": {
+          "model": "weapons"
+        },
+        "value": {
+          "type": "flat",
+          "value": 2
         }
       }
     ],
@@ -409,17 +405,13 @@
     "mechanics": [
       {
         "type": "attack-augment",
-        "limit": {
-          "model": "melee"
+        "augment": "damage",
+        "limits": {
+          "attack": "melee",
+          "model": "weapons"
         },
-        "merge": {
-          "damage": [
-            {
-              "bonus": {
-                "type": "proficiency"
-              }
-            }
-          ]
+        "value": {
+          "type": "proficiency"
         }
       }
     ],
@@ -429,16 +421,38 @@
   },
   {
     "name": "Carnage",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "augment": "notes",
+        "limits": {
+          "modelType": "shotgun"
+        },
+        "value": [
+          "Reroll 1 or 2"
+        ]
+      }
+    ],
     "type": "fighting-styles",
     "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",
     "id": "FS_carnage"
   },
   {
     "name": "Close-Quarters Shooter",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "global-attack-note",
+        "attack": "ranged",
+        "value": "Ranged attacks within <me-distance length=\"5\" /> of a hostile creature do not impose disadvantage"
+      },
+      {
+        "type": "global-attack-note",
+        "attack": "ranged",
+        "value": "Ranged attacks ignore 1/2 cover on targets within <me-distance length=\"30\" abbr />"
+      }
+    ],
     "type": "fighting-styles",
-    "html": "<p>When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n",
+    "html": "<p>When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile creature, you do not have\ndisadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n",
     "id": "FS_close-quarters-shooter"
   },
   {
@@ -475,14 +489,24 @@
   },
   {
     "name": "Sniper",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "global-attack-note",
+        "attack": "ranged",
+        "value": "If no hostile creature is within <me-distance length=\"30\" />, gain +2 to damage rolls w/ sniper rifles."
+      }
+    ],
     "type": "fighting-styles",
     "html": "<p>If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks made with a sniper rifle.</p>\n",
     "id": "FS_sniper"
   },
   {
     "name": "The Free Hand",
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "free-hand-fs"
+      }
+    ],
     "type": "fighting-styles",
     "html": "<p>When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n",
     "id": "FS_the-free-hand"

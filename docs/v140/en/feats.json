@@ -717,7 +717,9 @@
         "resource": {
           "reset": "short",
           "resource": {
-            "displayType": "hit-dice"
+            "displayType": "hit-dice",
+            "label": false,
+            "id": "hitDice"
           },
           "id": "fake-it-til-you-make-it"
         }
@@ -876,18 +878,12 @@
         "amount": 1
       },
       {
-        "type": "attack-augment",
-        "special": "double-tap",
-        "merge": {
-          "damage": [
-            {
-              "modComparison": [
-                "str",
-                "dex"
-              ]
-            }
-          ]
-        }
+        "type": "dt-augment",
+        "augment": "damage",
+        "limits": {
+          "model": "weapons"
+        },
+        "value": "abilityMod"
       }
     ],
     "name": "Hair Trigger",
@@ -1429,6 +1425,7 @@
         "type": "other",
         "resource": {
           "displayType": "hit-dice",
+          "label": false,
           "id": "regenerative-burst"
         },
         "shortDesc": "Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself equal to the roll + {{ conMod }}"
