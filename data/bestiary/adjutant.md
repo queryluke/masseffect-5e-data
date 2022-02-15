@@ -14,8 +14,8 @@ abilityScores:
   dex: 18
   con: 16
   int: 10
-  wis: 8
-  cha: 12
+  wis: 12
+  cha: 8
 irv: false
 savingThrows:
   - dex
@@ -27,7 +27,7 @@ speed:
   walk: 30
 entries:
   features:
-    - mod: cha
+    - mod: wis
       list:
         - {id: singularity, perDay: 3}
       id: innate-powercasting

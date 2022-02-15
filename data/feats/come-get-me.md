@@ -15,7 +15,9 @@ mechanics:
       base: 8
       proficient: true
       mod: cha
-    notes:
-      - disadvantage attacking other creatures except you for 1 minute or until it attacks you
+      save: wis
+    shortDesc: >-
+      Each creature of your choice within <me-distance length="20" abbr /> must succeed on a DC {{ dc }} WIS saving throw
+      or suffer disadvantage on attack rolls against creatures other than you until it makes an attack against you.
 new: true
 ---

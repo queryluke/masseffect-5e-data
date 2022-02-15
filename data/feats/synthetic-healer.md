@@ -8,7 +8,9 @@ mechanics:
       type: advantage
       note: to stabilize a synthetic creature
   - type: action
-    baseGroup: Create 10 charges of epoxy
+    name: Create epoxy
+    baseGroup: action
+    shortDesc: Expend 1 omni-gel and create 10 charges of a fast-acting, conductive Epoxy.
   - type: action
     resource:
       displayType: counter

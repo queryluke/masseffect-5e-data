@@ -14,8 +14,8 @@ abilityScores:
   dex: 16
   con: 11
   int: 12
-  wis: 18
-  cha: 20
+  wis: 20
+  cha: 18
 irv: false
 savingThrows:
   - dex
@@ -31,7 +31,7 @@ entries:
     - uses: 3
       perDay: true
       id: barrier
-    - mod: cha
+    - mod: wis
       list:
         - {id: charge, perDay: at_will}
         - {id: nova, perDay: at_will}

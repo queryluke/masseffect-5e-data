@@ -14,8 +14,8 @@ abilityScores:
   dex: 13
   con: 15
   int: 14
-  wis: 14
-  cha: 16
+  wis: 16
+  cha: 14
 irv: false
 savingThrows:
   - wis
@@ -30,7 +30,7 @@ entries:
     - uses: 3
       perDay: true
       id: barrier
-    - mod: cha
+    - mod: wis
       casterLevel: '12'
       list:
         - charge

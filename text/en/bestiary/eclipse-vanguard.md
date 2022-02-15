@@ -17,7 +17,7 @@ entries:
     - name: Powercasting
       text: >-
         The eclipse vanguard is a 6th-level powercaster. Its powercasting
-        ability is Charisma (power save DC 12, +4 to hit with powers). The
+        ability is Wisdom (power save DC 12, +4 to hit with powers). The
         eclipse vanguard has the following powers:
       id: powercasting
   actions:

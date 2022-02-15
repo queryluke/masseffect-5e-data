@@ -32,7 +32,7 @@ entries:
       id: variant--cryo-shield
     - name: Innate Powercasting
       text: >-
-        The N7 paladin's innate powercasting ability is Charisma (power save DC
+        The N7 paladin's innate powercasting ability is Wisdom (power save DC
         14, +6 to hit with power attacks). It can innately cast the following
         powers:
       id: innate-powercasting

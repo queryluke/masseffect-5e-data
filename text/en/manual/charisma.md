@@ -14,8 +14,16 @@ and Persuasion skills reflect aptitude in certain kinds of Charisma checks (see 
   - Find the best person to talk to for news, rumors, and gossip
   - Blend into a crowd to get a sense of key topics of conversation
 
+### Reputation Ability
+Your Paragon and Renegade benefits use Charisma to determine saving throw DCs.
+
 ### Powercasting Ability
-Asari and some other subspecies use Charisma as their powercasting ability, which helps determine the saving
-throw DCs of powers they cast.
+In Mass Effect 5e, Charisma is not used as a powercasting ability. The debate about which classes should
+use Charisma has been constant and never reached consensus. As such, these rules outline using Widsom for Biotic powers
+and Intelligence for Tech powers. But we encourage each group and/or GM to use whatever rules they feel best suits their
+own interpretation of the Mass Effect games and the mental stats (Widsom, Intelligence, Charisma).
+
+Additionally, anyone who creates new classes for this system can freely use Charisma as a powercasting modifier if
+they feel it is a more representative stat for the class's powercasting ability.
 
 <me-source-reference pages="82-83"></me-source-reference>

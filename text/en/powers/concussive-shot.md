@@ -9,7 +9,7 @@ advancements:
     name: Improved shot
     text: Increase the bonus damage of concussive shot to d12.
 ---
-Load a specialized thermal clip into the weapon you are currently holding. Until you reload, any successful ranged
+Load a specialized thermal clip into a ranged weapon you are currently holding. Until you reload, any successful ranged
 attacks deal an additional 1d8 bludgeoning damage and medium-sized or smaller creatures must pass a Strength saving
 throw (DC 8 + proficiency bonus + DEX modifier) or are knocked <me-condition id="prone"/>.
 

@@ -14,7 +14,7 @@ entries:
       id: grappler
     - name: Innate Powercasting
       text: >-
-        The adjutant's innate powercasting ability is Charisma (power save DC
+        The adjutant's innate powercasting ability is Wisdom (power save DC
         12, +4 to hit with power attacks). It can innately cast the following
         powers:
       id: innate-powercasting

@@ -454,12 +454,12 @@
       {
         "type": "resistance",
         "value": "lightning",
-        "note": "only applies to hit points"
+        "note": "to your hit points"
       },
       {
         "type": "resistance",
         "value": "cold",
-        "note": "only applies to hit points"
+        "note": "to your hit points"
       }
     ],
     "name": "Bio-Electric Ward",
@@ -553,7 +553,7 @@
       }
     ],
     "name": "Body and Soul",
-    "html": "<p>If you spend 10 minutes in prayer, you can mental focus your body and soul into a true Whole. The next time you are\nreduced to 0 hit points but not killed outright, you gain advantage on all death saving throws until you are\nstabilized or regain hit points, at which point you cannot benefit from this feature again until you finish a long rest.</p>\n",
+    "html": "<p>If you spend 10 minutes in prayer, you can mentally focus your body and soul into a true Whole. The next time you are\nreduced to 0 hit points but not killed outright, you gain advantage on all death saving throws until you are\nstabilized or regain hit points, at which point you cannot benefit from this feature again until you finish a long rest.</p>\n",
     "id": "body-and-soul"
   },
   {
@@ -712,16 +712,17 @@
         "type": "speed",
         "speed": "walk",
         "distance": 30,
-        "note": "if contra-gravitic levitation device is functional, ignore difficult terrain. If not functional, walking speed becomes 0."
+        "note": "If contra-gravitic levitation device is functional, ignore difficult terrain. If not functional, walking speed becomes 0."
       },
       {
         "type": "resistance",
-        "note": "reduce fall damage by 4d6 if contra-gravitic levitation device is functional"
+        "value": "fall",
+        "note": "reduce by 4d6 if contra-gravitic levitation device is functional"
       },
       {
         "type": "condition-immunity",
         "value": "prone",
-        "note": "only if contra-gravitic levitation device is functional"
+        "note": "if contra-gravitic levitation device is functional"
       }
     ],
     "name": "Contra-Gravitic Levitation",
@@ -1011,12 +1012,12 @@
     "id": "esprit-de-boom"
   },
   {
-    "name": "Esprit De Corps",
+    "name": "Esprit de Corps",
     "species": [
       "military-doctrine-infantry"
     ],
     "mechanics": [],
-    "html": "<p>Your military training has taught you to work seamlessly as part of a team. You have advantage on an attack roll against\na creature if at least one of your allies is within <me-distance length=\"5\" /> of the creature and the ally isn’t incapacitated.</p>\n",
+    "html": "<p>Your military training has taught you to work seamlessly as part of a team. Once per turn, you have advantage on\nan attack roll against a creature if at least one of your allies is within 2 meters of the creature and the\nally isn’t incapacitated.</p>\n",
     "id": "esprit-de-corps"
   },
   {
@@ -1175,7 +1176,7 @@
       },
       {
         "type": "condition-immunity",
-        "value": false,
+        "value": "disease",
         "note": "immune to disease while within your hermetic suit"
       }
     ],
@@ -1361,7 +1362,11 @@
             "type": "proficiency"
           },
           "id": "jump-start-aura"
-        }
+        },
+        "range": {
+          "short": 60
+        },
+        "shortDesc": "Each creature of your choice within {{ range }}. A creature gains shield points equal to its armor’s regen, to a maximum of its armor’s shield capacity."
       }
     ],
     "name": "Jump-start Aura",
@@ -1594,9 +1599,11 @@
           "short": 5
         },
         "dc": {
+          "proficient": true,
           "mod": "wis",
           "save": "wis"
-        }
+        },
+        "shortDesc": "For 1 minute, transfer or receive thoughts from a willing creature within {{ range }}. An unwilling creature must succeed on a DC {{ dc }} WIS saving throw or you learn its surface thoughts. While active, you may probe deeper into its thoughts or direct questions to shape its thoughts as an Action. Lasts 1 minute. An unwilling creature makes another saving throw at the start of each of its turn. Creatures with intelligence 3 or less are unaffected."
       }
     ],
     "name": "Mind Meld",
@@ -1735,16 +1742,19 @@
           },
           "id": "orb"
         },
-        "damage": {
-          "type": "tempHp",
-          "bonus": {
-            "type": "flat",
-            "value": 5
+        "damage": [
+          {
+            "type": "temp",
+            "bonus": {
+              "type": "flat",
+              "value": 5
+            }
           }
-        }
+        ],
+        "shortDesc": "Summon an orb that floats around you. Gain 5 temporary hit points."
       }
     ],
-    "html": "<p>As an action, you may summon a protective orb that floats around you,\nintercepting incoming fire. Gain temporary 5 hit points.</p>\n<p>You can summon the orb a number of times between long rests equal to your\nproficiency bonus.</p>\n",
+    "html": "<p>As an action, you may summon a protective orb that floats around you,\nintercepting incoming fire. Gain 5 temporary hit points.</p>\n<p>You can summon the orb a number of times between long rests equal to your\nproficiency bonus.</p>\n",
     "id": "orb"
   },
   {
@@ -1799,6 +1809,7 @@
     "id": "photographic-memory"
   },
   {
+    "name": "Power Armor Training",
     "species": [
       "volus"
     ],
@@ -1815,7 +1826,7 @@
         "type": "nullify-armor-str-restriction"
       }
     ],
-    "html": "",
+    "html": "<p>Volus are trained to use power armor in combat, seamlessly integrating the armor with their hermetic suits and adding\nmechanisms to increase the weight and mobility. You have proficiency with light and medium armor and your speed is not\nreduced by wearing armor.</p>\n",
     "id": "power-armor-training"
   },
   {
@@ -1871,8 +1882,8 @@
       },
       {
         "type": "condition-immunity",
-        "value": false,
-        "note": "immune to disease while within your hermetic suit"
+        "value": "disease",
+        "note": "immune to disease while within your pressurized suit"
       }
     ],
     "name": "Pressurized Suit",
@@ -2319,6 +2330,13 @@
           "id": "smoke-screen"
         },
         "type": "action",
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 20
+          }
+        },
         "resource": {
           "reset": "short",
           "max": {
@@ -2547,7 +2565,7 @@
       }
     ],
     "name": "Tentacles",
-    "html": "<p>You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms.\nYou can only wield weapons with the light property.</p>\n<p>In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. When you attack\nwith multiple tentacles simultaneously, gain a +1 bonus to the attack roll for each additional tentacle used.</p>\n<p>When you hit with your tentacles, you deal 1d8 poison damage and the target must succeed on a\nConstitution saving throw or become poisoned for one minute. The DC of this saving throw is equal to\n10 + your proficiency bonus + the number of tentacles used on this attack.</p>\n",
+    "html": "<p>You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms.\nYou can only wield weapons with the <em>light</em> property.</p>\n<p>In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. When you attack\nwith multiple tentacles simultaneously, gain a +1 bonus to the attack roll for each additional tentacle used.</p>\n<p>When you hit with your tentacles, you deal 1d8 poison damage and the target must succeed on a\nConstitution saving throw or become poisoned for one minute. The DC of this saving throw is equal to\n10 + your proficiency bonus + the number of tentacles used on this attack.</p>\n",
     "id": "tentacles"
   },
   {
@@ -2740,8 +2758,7 @@
       },
       {
         "type": "resistance",
-        "damageType": false,
-        "note": "Falling damage"
+        "value": "fall"
       }
     ],
     "name": "Wings",

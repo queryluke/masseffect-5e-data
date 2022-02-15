@@ -5,9 +5,9 @@ mechanics:
   - type: action
     resource: {}
     shortDesc: >-
-      For 1 minute, speed increases by <me-distance length="5" />, become invisible until you attack or deal damage,
-      and 1/turn deal {{ profBonus }}d6 damage w/ weapon attacks when attack has advantage or friendly creature within <me-distance length="5" abbr />
-      of target.
+      Become <me-condition id="invisible" /> for 1 minute or until you make an attack or deal damage. Additionally, for the next minute,
+      your movement speed increases by <me-distance length="5" /> and, once per turn, you deal {{ profBonus }}d6 additional damage
+      with a weapon attack when the attack has advantage or a friendly creature is within <me-distance length="5" abbr /> of the target.
 prerequisite: Geth
 prereq:
   - type: species

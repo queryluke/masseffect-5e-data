@@ -80,8 +80,8 @@
       "dex": 18,
       "con": 16,
       "int": 10,
-      "wis": 8,
-      "cha": 12
+      "wis": 12,
+      "cha": 8
     },
     "irv": false,
     "savingThrows": [
@@ -98,7 +98,7 @@
     "entries": {
       "features": [
         {
-          "mod": "cha",
+          "mod": "wis",
           "list": [
             {
               "id": "singularity",
@@ -107,7 +107,7 @@
           ],
           "id": "innate-powercasting",
           "name": "Innate Powercasting",
-          "text": "The adjutant's innate powercasting ability is Charisma (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:"
+          "text": "The adjutant's innate powercasting ability is Wisdom (power save DC 12, +4 to hit with power attacks). It can innately cast the following powers:"
         },
         {
           "name": "Barrier",
@@ -612,8 +612,8 @@
       "dex": 16,
       "con": 11,
       "int": 12,
-      "wis": 18,
-      "cha": 20
+      "wis": 20,
+      "cha": 18
     },
     "irv": false,
     "savingThrows": [
@@ -638,7 +638,7 @@
           "text": "As an action or bonus action, the banshee gains 20 barrier ticks. When the banshee is dealt damage, remove one barrier tick and reduce the damage by 1d8."
         },
         {
-          "mod": "cha",
+          "mod": "wis",
           "list": [
             {
               "id": "charge",
@@ -656,7 +656,7 @@
           ],
           "id": "innate-powercasting",
           "name": "Innate Powercasting",
-          "text": "The banshee's innate powercasting ability is Charisma (power save DC 18, +10 to hit with power attacks). It can innately cast the following powers:"
+          "text": "The banshee's innate powercasting ability is Wisdom (power save DC 18, +10 to hit with power attacks). It can innately cast the following powers:"
         }
       ],
       "actions": [
@@ -2145,8 +2145,8 @@
       "dex": 12,
       "con": 12,
       "int": 14,
-      "wis": 16,
-      "cha": 18
+      "wis": 18,
+      "cha": 16
     },
     "irv": {
       "conImm": [
@@ -2171,7 +2171,7 @@
     "entries": {
       "features": [
         {
-          "mod": "cha",
+          "mod": "wis",
           "casterLevel": "12",
           "list": [
             "dark-channel",
@@ -2182,7 +2182,7 @@
           ],
           "id": "powercasting",
           "name": "Powercasting",
-          "text": "The collector general is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 16, +8 to hit with powers). The collector general has the following powers:"
+          "text": "The collector general is a 12th-level powercaster. Its powercasting ability is Wisdom (power save DC 16, +8 to hit with powers). The collector general has the following powers:"
         },
         {
           "name": "Barrier",
@@ -2808,8 +2808,8 @@
       "dex": 13,
       "con": 15,
       "int": 14,
-      "wis": 14,
-      "cha": 16
+      "wis": 16,
+      "cha": 14
     },
     "irv": false,
     "savingThrows": [
@@ -2832,7 +2832,7 @@
           "text": "As an action or bonus action, the eclipse commando gains 10 barrier ticks. When the eclipse commando is dealt damage, remove one barrier tick and reduce the damage by 1d8."
         },
         {
-          "mod": "cha",
+          "mod": "wis",
           "casterLevel": "12",
           "list": [
             "charge",
@@ -2840,7 +2840,7 @@
           ],
           "id": "powercasting",
           "name": "Powercasting",
-          "text": "The eclipse commando is a 12th-level powercaster. Its powercasting ability is Charisma (power save DC 14, +6 to hit with powers). The eclipse commando has the following powers:"
+          "text": "The eclipse commando is a 12th-level powercaster. Its powercasting ability is Wisdom (power save DC 14, +6 to hit with powers). The eclipse commando has the following powers:"
         },
         {
           "name": "Aggressive",
@@ -3183,8 +3183,8 @@
       "dex": 13,
       "con": 14,
       "int": 14,
-      "wis": 13,
-      "cha": 15
+      "wis": 15,
+      "cha": 13
     },
     "irv": false,
     "savingThrows": false,
@@ -3211,7 +3211,7 @@
           "text": "As a bonus action, the vanguard can activate its Tech Armor. It immediately gains 10 temporary hit points. While the vanguard has at least 1 of these temporary hit points remaining, it has +2 AC."
         },
         {
-          "mod": "cha",
+          "mod": "wis",
           "casterLevel": "6",
           "list": [
             "shockwave",
@@ -3219,7 +3219,7 @@
           ],
           "id": "powercasting",
           "name": "Powercasting",
-          "text": "The eclipse vanguard is a 6th-level powercaster. Its powercasting ability is Charisma (power save DC 12, +4 to hit with powers). The eclipse vanguard has the following powers:"
+          "text": "The eclipse vanguard is a 6th-level powercaster. Its powercasting ability is Wisdom (power save DC 12, +4 to hit with powers). The eclipse vanguard has the following powers:"
         }
       ],
       "actions": [
@@ -5245,8 +5245,8 @@
       "dex": 12,
       "con": 16,
       "int": 13,
-      "wis": 13,
-      "cha": 16
+      "wis": 16,
+      "cha": 13
     },
     "irv": false,
     "savingThrows": [
@@ -5291,7 +5291,7 @@
           "text": "Gain all the benefits of Omni-Shield. In addition, a creature hit by the Cryo-Shield take 1d8 cold damage and must succeed on a DC 13 Strength saving throw or become Frozen until the end its next turn."
         },
         {
-          "mod": "cha",
+          "mod": "wis",
           "list": [
             {
               "id": "incinerate",
@@ -5309,7 +5309,7 @@
           ],
           "id": "innate-powercasting",
           "name": "Innate Powercasting",
-          "text": "The N7 paladin's innate powercasting ability is Charisma (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
+          "text": "The N7 paladin's innate powercasting ability is Wisdom (power save DC 14, +6 to hit with power attacks). It can innately cast the following powers:"
         },
         {
           "name": "N7 Training",

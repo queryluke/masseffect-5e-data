@@ -4,8 +4,8 @@ species:
 mechanics:
   - type: resistance
     value: lightning
-    note: only applies to hit points
+    note: to your hit points
   - type: resistance
     value: cold
-    note: only applies to hit points
+    note: to your hit points
 ---

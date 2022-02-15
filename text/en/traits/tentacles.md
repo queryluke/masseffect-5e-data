@@ -2,7 +2,7 @@
 name: Tentacles
 ---
 You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms.
-You can only wield weapons with the light property.
+You can only wield weapons with the _light_ property.
 
 In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. When you attack
 with multiple tentacles simultaneously, gain a +1 bonus to the attack roll for each additional tentacle used.

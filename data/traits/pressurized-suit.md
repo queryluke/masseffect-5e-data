@@ -9,6 +9,6 @@ mechanics:
     value: necrotic
     note: while within your pressurized suit
   - type: condition-immunity
-    value: false
-    note: immune to disease while within your hermetic suit
+    value: disease
+    note: immune to disease while within your pressurized suit
 ---

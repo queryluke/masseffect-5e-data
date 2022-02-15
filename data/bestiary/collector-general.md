@@ -14,8 +14,8 @@ abilityScores:
   dex: 12
   con: 12
   int: 14
-  wis: 16
-  cha: 18
+  wis: 18
+  cha: 16
 irv:
   conImm:
     - charmed
@@ -33,7 +33,7 @@ speed:
   walk: 30
 entries:
   features:
-    - mod: cha
+    - mod: wis
       casterLevel: '12'
       list:
         - dark-channel

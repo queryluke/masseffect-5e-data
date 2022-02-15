@@ -14,8 +14,8 @@ abilityScores:
   dex: 13
   con: 14
   int: 14
-  wis: 13
-  cha: 15
+  wis: 15
+  cha: 13
 irv: false
 savingThrows: false
 senses: false
@@ -31,7 +31,7 @@ entries:
     - uses: 1
       perDay: true
       id: tech-armor
-    - mod: cha
+    - mod: wis
       casterLevel: '6'
       list:
         - shockwave

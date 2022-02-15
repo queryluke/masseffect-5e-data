@@ -4,6 +4,11 @@ species:
   - exaltation-destined
 mechanics:
   - type: action
+    range:
+      short: 0
+      aoe:
+        type: sphere
+        size: 20
     resource:
       reset: short
       max:

@@ -10,7 +10,7 @@ entries:
     - name: Powercasting
       text: >-
         The collector general is a 12th-level powercaster. Its powercasting
-        ability is Charisma (power save DC 16, +8 to hit with powers). The
+        ability is Wisdom (power save DC 16, +8 to hit with powers). The
         collector general has the following powers:
       id: powercasting
   actions:

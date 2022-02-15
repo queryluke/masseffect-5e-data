@@ -10,7 +10,7 @@ entries:
       id: barrier
     - name: Innate Powercasting
       text: >-
-        The banshee's innate powercasting ability is Charisma (power save DC 18,
+        The banshee's innate powercasting ability is Wisdom (power save DC 18,
         +10 to hit with power attacks). It can innately cast the following
         powers:
       id: innate-powercasting

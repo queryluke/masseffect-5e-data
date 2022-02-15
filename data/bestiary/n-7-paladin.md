@@ -14,8 +14,8 @@ abilityScores:
   dex: 12
   con: 16
   int: 13
-  wis: 13
-  cha: 16
+  wis: 16
+  cha: 13
 irv: false
 savingThrows:
   - con
@@ -39,7 +39,7 @@ entries:
     - uses: 1
       perDay: true
       id: variant--cryo-shield
-    - mod: cha
+    - mod: wis
       list:
         - {id: incinerate, perDay: at_will}
         - {id: energy-drain, perDay: 3}

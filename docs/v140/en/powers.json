@@ -1023,7 +1023,7 @@
     "mod": "dex",
     "name": "Concussive Shot",
     "reactionQualifier": false,
-    "html": "<p>Load a specialized thermal clip into the weapon you are currently holding. Until you reload, any successful ranged\nattacks deal an additional 1d8 bludgeoning damage and medium-sized or smaller creatures must pass a Strength saving\nthrow (DC 8 + proficiency bonus + DEX modifier) or are knocked <me-condition id=\"prone\"/>.</p>\n<p>The damage increases by 1d8 when you reach the 5th level (2d8), 11th level (3d8) and 17th level (4d8).</p>\n<p>You have 3 charges of Concussive Shot. You regain all of your charges when you finish a long rest.</p>\n",
+    "html": "<p>Load a specialized thermal clip into a ranged weapon you are currently holding. Until you reload, any successful ranged\nattacks deal an additional 1d8 bludgeoning damage and medium-sized or smaller creatures must pass a Strength saving\nthrow (DC 8 + proficiency bonus + DEX modifier) or are knocked <me-condition id=\"prone\"/>.</p>\n<p>The damage increases by 1d8 when you reach the 5th level (2d8), 11th level (3d8) and 17th level (4d8).</p>\n<p>You have 3 charges of Concussive Shot. You regain all of your charges when you finish a long rest.</p>\n",
     "id": "concussive-shot"
   },
   {
@@ -4342,7 +4342,7 @@
     "recharge": "short",
     "name": "Turbocharge",
     "reactionQualifier": false,
-    "html": "<p>Activate a subroutine that temporarily vents weapon heat through your armor to improve thermal clip efficiency and\nweapon damage. Until the end of your turn, the weapon you're currently holding gains Burst Fire, the heat cost for making\na Burst Fire attack is reduced by 1 heat, and you may make a Burst Fire attack as an Attack action.</p>\n<p>You must finish a short or long rest before using Turbocharge again.</p>\n",
+    "html": "<p>Activate a subroutine that temporarily vents weapon heat through your armor to improve thermal clip efficiency and\nweapon damage. Until the end of your turn, a ranged weapon you're holding gains Burst Fire, the heat cost for making\na Burst Fire attack is reduced by 1 heat, and you may make a Burst Fire attack as an Attack action.</p>\n<p>You must finish a short or long rest before using Turbocharge again.</p>\n",
     "id": "turbocharge"
   },
   {

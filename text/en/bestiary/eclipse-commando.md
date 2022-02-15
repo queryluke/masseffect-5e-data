@@ -16,7 +16,7 @@ entries:
     - name: Powercasting
       text: >-
         The eclipse commando is a 12th-level powercaster. Its powercasting
-        ability is Charisma (power save DC 14, +6 to hit with powers). The
+        ability is Wisdom (power save DC 14, +6 to hit with powers). The
         eclipse commando has the following powers:
       id: powercasting
   actions:

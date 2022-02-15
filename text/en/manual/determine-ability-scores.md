@@ -15,7 +15,7 @@ increases which abilities, and what classes consider each ability particularly i
 |Constitution|Health, stamina, vital force|everyone|
 |Intelligence|Mental acuity, information recall, analytical skill|engineer, infiltrator, sentinel|
 |Wisdom|Awareness, intuition, insight, biotic capabilities|adept, vanguard, sentinel|
-|Charisma|Confidence, eloquence, leadership|asari, performers, politicians|
+|Charisma|Confidence, eloquence, leadership|squad leaders, performers, politicians|
 
 You generate your character’s six ability scores randomly. Roll four 6-sided dice and record the total of the highest
 three dice on a piece of scratch paper. Do this five more times, so that you have six numbers. If you want to save time
