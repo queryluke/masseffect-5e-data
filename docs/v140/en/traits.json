@@ -300,13 +300,24 @@
         "distance": 60
       },
       {
-        "name": "Advanced Optics",
+        "name": "Toggle darkvision",
         "moreInfo": {
           "model": "traits",
           "id": "advanced-optics"
         },
         "type": "bonus-action",
-        "shortDesc": "Toggle Darkvision / Infrared Vision"
+        "baseGroup": true,
+        "shortDesc": "Toggle your darkvision on or off"
+      },
+      {
+        "name": "Toggle infrared vision",
+        "moreInfo": {
+          "model": "traits",
+          "id": "advanced-optics"
+        },
+        "type": "bonus-action",
+        "baseGroup": true,
+        "shortDesc": "Toggle your infrared vision on or off"
       }
     ],
     "html": "<p>Your optic sensors have two additional optic modes: darkvision 24m (60ft) and infrared vision 24m (60ft). You can\ntoggle these modes on or off (or between the two) as a bonus action.</p>\n",
@@ -324,7 +335,8 @@
           "model": "traits",
           "id": "aggressive"
         },
-        "type": "bonus-action"
+        "type": "bonus-action",
+        "shortDesc": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
       }
     ],
     "name": "Aggressive",
@@ -1106,13 +1118,13 @@
         "value": "perception"
       },
       {
-        "name": "Four Eyes",
+        "name": "Search",
         "moreInfo": {
           "model": "traits",
           "id": "four-eyes"
         },
         "type": "bonus-action",
-        "baseGroup": "Search"
+        "baseGroup": true
       }
     ],
     "name": "Four Eyes",
@@ -1260,13 +1272,14 @@
         "distance": 60
       },
       {
-        "name": "Infrared Vision",
+        "name": "Toggle infrared vision",
         "moreInfo": {
           "model": "traits",
           "id": "infrared-vision-60"
         },
         "type": "bonus-action",
-        "baseGroup": "Toggle Infrared Vision"
+        "baseGroup": true,
+        "shortDesc": "Toggle your infrared vision on or off"
       }
     ],
     "name": "Infrared Vision",
@@ -1896,6 +1909,7 @@
     ],
     "mechanics": [
       {
+        "name": "Summon Projection",
         "moreInfo": {
           "model": "traits",
           "id": "projecting"
@@ -2247,7 +2261,22 @@
     "species": [
       "hardware-aiu"
     ],
-    "mechanics": [],
+    "mechanics": [
+      {
+        "type": "weapon",
+        "value": "shotgun"
+      },
+      {
+        "type": "attack-augment",
+        "augment": "notes",
+        "limits": {
+          "modelType": "shotgun"
+        },
+        "value": [
+          "Reroll 1"
+        ]
+      }
+    ],
     "html": "<p>You are proficient with Shotguns and when you roll a 1 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",
     "id": "shotgun-mastery"
   },

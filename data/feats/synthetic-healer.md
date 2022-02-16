@@ -9,7 +9,7 @@ mechanics:
       note: to stabilize a synthetic creature
   - type: action
     name: Create epoxy
-    baseGroup: action
+    baseGroup: true
     shortDesc: Expend 1 omni-gel and create 10 charges of a fast-acting, conductive Epoxy.
   - type: action
     resource:

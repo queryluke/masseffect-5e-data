@@ -16,6 +16,19 @@ mechanics:
         dieCount: 1
         dieType: 8
         type: bludgeoning
+  - type: attack-augment
+    augment: range
+    limits:
+      attack: melee
+    value:
+      type: flat
+      value: 5
+  - type: attack-augment
+    augment: notes
+    limits:
+      attack: melee
+    value:
+      - Reroll 1
 prerequisite: Elcor
 prereq:
   - type: species

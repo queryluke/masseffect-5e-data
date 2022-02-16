@@ -1133,6 +1133,27 @@
             "type": "bludgeoning"
           }
         }
+      },
+      {
+        "type": "attack-augment",
+        "augment": "range",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": {
+          "type": "flat",
+          "value": 5
+        }
+      },
+      {
+        "type": "attack-augment",
+        "augment": "notes",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": [
+          "Reroll 1"
+        ]
       }
     ],
     "prerequisite": "Elcor",
@@ -1290,7 +1311,11 @@
         "value": [
           "perception",
           "investigation"
-        ]
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 5
+        }
       }
     ],
     "name": "Observant",
@@ -1833,7 +1858,7 @@
           "id": "synthetic-healer"
         },
         "type": "action",
-        "baseGroup": "action",
+        "baseGroup": true,
         "shortDesc": "Expend 1 omni-gel and create 10 charges of a fast-acting, conductive Epoxy."
       },
       {

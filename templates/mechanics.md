@@ -201,7 +201,7 @@ mechanics:
       attack: enum [melee,ranged]
       model: enum [weapons,powers]
       modelType: [enum [weapon types, power types]]
-      ids: [model ids]
+    value: array or @bonus
   - type: global-attack-note
     attack: enum [melee, ranged]
     value: array
