@@ -10,11 +10,6 @@
       sections: []
     - id: armor-creation-creating-a-set
       sections: []
-- id: encounter-creation
-  title: guide.creating_encounters
-  sections:
-    - id: creating-encounters
-      sections: []
 - id: vehicle-creation
   title: guide.creating_vehicles
   sections:
