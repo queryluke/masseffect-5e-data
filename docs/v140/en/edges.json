@@ -979,7 +979,7 @@
           },
           "id": "REP_convince"
         },
-        "shortDesc": "roll a d6 and add to a Charisma (Persuasion) check"
+        "shortDesc": "Roll a d6 and add to a Charisma (Persuasion) check"
       }
     ],
     "html": "<p>When you make Charisma (Persuasion) check, you may roll a d6 and add the number rolled to the result.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
@@ -1102,7 +1102,7 @@
           },
           "id": "REP_matter-over-mind"
         },
-        "shortDesc": "on failed Strength or Dexterity check, reroll and add your Charisma plus the original modifier to the roll"
+        "shortDesc": "On failed Strength or Dexterity check, reroll the check and add your Charisma plus the original modifier (STR or DEX) to the roll."
       }
     ],
     "html": "<p>When you fail an Strength or Dexterity check, you can reroll the die and add your Charisma modifier, in addition\nto the original modifier, to the new roll. You must use the now roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
@@ -1178,7 +1178,7 @@
           },
           "id": "REP_obfuscate"
         },
-        "shortDesc": "when you fail a Charisma (Deception) check, reroll the die and use the new roll"
+        "shortDesc": "When you fail a Charisma (Deception) check, reroll the die and use the new roll."
       }
     ],
     "html": "<p>When you fail a Charisma (Deception) check, you can reroll the die, and you must use the new roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
@@ -1209,7 +1209,7 @@
           },
           "id": "REP_pen-before-sword"
         },
-        "shortDesc": "on failed Intelligence or Wisdom check, reroll and add your Charisma plus the original modifier to the roll"
+        "shortDesc": "On failed Wisdom or Intelligence check, reroll the check and add your Charisma plus the original modifier (WIS or INT) to the roll."
       }
     ],
     "html": "<p>When you fail an Intelligence or Wisdom check, you can reroll the die and add your Charisma modifier, in addition\nto the original modifier, to the new roll. You must use the now roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
@@ -1240,7 +1240,7 @@
           },
           "id": "REP_presence"
         },
-        "shortDesc": "treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check"
+        "shortDesc": "Treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check"
       }
     ],
     "html": "<p>When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",

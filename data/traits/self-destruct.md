@@ -3,19 +3,30 @@ name: Self Destruct
 species: [hardware-loki]
 mechanics:
   - type: reaction
+    layout: statsRight
+    range:
+      short: 0
+      aoe:
+        type: sphere
+        size: 10
     dc:
       proficient: true
       base: 15
+      save: dex
     damage:
       - dieCount: 8
         dieType: 6
         type: fire
         bonus:
           type: hp
-    shortDesc: when you have half you hit points or less remaining
+    shortDesc: >-
+      When you have half you hit points or less remaining, initiate a self-destruct sequence. Each creature
+      within <me-distance length="10" abbr /> of you must make DC {{ dc }} DEX saving throw. On a failed save
+      a creature suffers 8d6 + {{ hp }} fire damage, or half as much on a successful save. Then, you drop to 0 hit
+      points and suffer one death saving throw failure.
 ---
 If you have less than half your hit points remaining, you can use your reaction to initiate a self-destruct sequence.
-If you do so, each creature within 4 meters of you must make a Dexterity saving throw. The DC of this saving throw is
+If you do so, each creature within <me-distance length="10" /> of you must make a Dexterity saving throw. The DC of this saving throw is
 equal to 15 plus your proficiency bonus. On a failed save, a creature suffers fire damage equal to 8d6 + your
 remaining hit points, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death
 saving throw failure.

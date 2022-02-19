@@ -7,7 +7,9 @@ mechanics:
     resource:
       max:
         type: proficiency
-    shortDesc: When a creature you can see attacks you, imposed disadvantage. Or advantage on a DEX save
+    shortDesc: >-
+      When a creature you can see attacks you, imposed disadvantage on the attack roll. Or, when you make a
+      DEX save, gain advantage.
 ---
 Your genes and training are hard for most to understand, resulting in unpredictable
 fighting styles. When a creature you can see attacks you, you can use your reaction

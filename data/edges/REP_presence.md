@@ -12,7 +12,7 @@ mechanics:
       max:
         type: mod
         value: cha
-    shortDesc: treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check
+    shortDesc: Treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check
 ---
 When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.
 

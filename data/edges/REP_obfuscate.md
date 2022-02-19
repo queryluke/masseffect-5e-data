@@ -11,7 +11,7 @@ mechanics:
       max:
         type: mod
         value: cha
-    shortDesc: when you fail a Charisma (Deception) check, reroll the die and use the new roll
+    shortDesc: When you fail a Charisma (Deception) check, reroll the die and use the new roll.
 ---
 When you fail a Charisma (Deception) check, you can reroll the die, and you must use the new roll.
 

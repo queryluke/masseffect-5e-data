@@ -12,7 +12,9 @@ mechanics:
       max:
         type: mod
         value: cha
-    shortDesc: on failed Strength or Dexterity check, reroll and add your Charisma plus the original modifier to the roll
+    shortDesc: >-
+      On failed Strength or Dexterity check, reroll the check and add your Charisma plus the original modifier
+      (STR or DEX) to the roll.
 ---
 When you fail an Strength or Dexterity check, you can reroll the die and add your Charisma modifier, in addition
 to the original modifier, to the new roll. You must use the now roll.

@@ -259,7 +259,7 @@
         "resource": {
           "id": "biotic-unconscious"
         },
-        "shortDesc": "when you cast one of your innate biotics powers, it does not require your concentration"
+        "shortDesc": "When you cast one of your innate biotics powers, you may sustain it for its full duration without concentration."
       }
     ],
     "prerequisite": "Asari",
@@ -397,7 +397,7 @@
           "id": "constrictor-build"
         },
         "type": "reaction",
-        "shortDesc": "Use your attack of opportunity to attempt a grapple"
+        "shortDesc": "Use your attack of opportunity to attempt a grapple."
       },
       {
         "name": "Constrictor Build",
@@ -406,7 +406,7 @@
           "id": "constrictor-build"
         },
         "type": "reaction",
-        "shortDesc": "Force a creature grappled by you to reroll a successful grapple escape"
+        "shortDesc": "Force a creature grappled by you to reroll a successful grapple escape."
       }
     ],
     "prerequisite": "Yahg",
@@ -1414,7 +1414,7 @@
           "id": "quad-wielding"
         },
         "type": "bonus-action",
-        "shortDesc": "When you engage with two-weapon fighting, you can simultaneously attack with a second ranged weapon that has not made an attack this turn."
+        "shortDesc": "When you engage in two-weapon fighting, you can simultaneously attack with a second ranged weapon that has not made an attack this turn. Make a single attack roll for both weapons, using the lower of the weapons' ranges."
       },
       {
         "name": "Quad-wielding",
@@ -1954,7 +1954,26 @@
         "amount": 1
       },
       {
-        "type": "tentacle-blender"
+        "name": "Tentacle Blender",
+        "moreInfo": {
+          "model": "feats",
+          "id": "tentacle-blender"
+        },
+        "type": "action",
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 5
+          }
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "dex",
+          "save": "dex"
+        },
+        "shortDesc": "Each creature within <me-distance length=\"5\" abbr /> must succeed on a DC {{ dc }} DEX saving throw or suffer {{ tentacleBlender }} damage."
       }
     ],
     "prerequisite": "Hanar",
@@ -1966,7 +1985,7 @@
         ]
       }
     ],
-    "html": "<p>You’ve practiced an effective maneuver to hit multiple enemies simultaneously, keeping them at bay.</p>\n<ul>\n<li>Increase your Dexterity by 1, to a maximum of 20.</li>\n<li>As an action, you can make a special Tentacle Blender attack. Each creature within a <me-distance length=\"5\" adj /> radius\ncentered on you must make a Dexterity saving throw or suffer damage equal to the total damage of each melee weapon you\nare wielding. The DC of the saving throw is equal to 8 + your Dexterity modifier + your proficiency bonus.</li>\n<li>If you are wielding a ranged weapon when you make this attack, it is considered a melee weapon,\ndealing damage equivalent to your gun strike.</li>\n<li>If you are not wielding a weapon in a tentacle, you use the damage of your tentacle’s unarmed strike.</li>\n</ul>\n",
+    "html": "<p>You’ve practiced an effective maneuver to hit multiple enemies simultaneously, keeping them at bay.</p>\n<ul>\n<li>Increase your Dexterity by 1, to a maximum of 20.</li>\n<li>As an action, you can make a special Tentacle Blender attack. Each creature within a <me-distance length=\"5\" adj /> radius\ncentered on you must make a Dexterity saving throw. The DC of the saving throw is equal to 8 + your Dexterity modifier</li>\n</ul>\n<ul>\n<li>your proficiency bonus. On a failed save, a creature suffers damage equal to the total weapon damage of each melee\nweapon you are wielding, plus 1d4 bludgeoning damage for each ranged weapon you are wielding, plus 1d4 poison damage\nfor each empty tentacle. You do not add your ability modifiers to any of the damage rolls.</li>\n</ul>\n",
     "id": "tentacle-blender"
   },
   {

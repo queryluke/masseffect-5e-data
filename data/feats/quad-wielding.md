@@ -3,7 +3,9 @@ name: Quad-wielding
 new: true
 mechanics:
   - type: bonus-action
-    shortDesc: When you engage with two-weapon fighting, you can simultaneously attack with a second ranged weapon that has not made an attack this turn.
+    shortDesc: >-
+      When you engage in two-weapon fighting, you can simultaneously attack with a second ranged weapon that has not
+      made an attack this turn. Make a single attack roll for both weapons, using the lower of the weapons' ranges.
   - type: reaction
     shortDesc: Make an attack with a ranged weapon that has not made an attack this turn.
 prerequisite: Hanar

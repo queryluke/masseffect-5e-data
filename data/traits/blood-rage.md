@@ -11,7 +11,7 @@ When you are reduced to 0 hit points but not killed outright, you can choose to 
 blood rage instead. When you enter your blood rage, you lose concentration on any powers you are maintaining.
 
 The blood rage lasts for 1 minute. It ends early if you regain hit points or if your turn ends and
-you haven’t attacked a hostile creature since your last turn or taken damage since then.
+you haven’t attacked a hostile creature or taken damage since the end of your last turn.
 
 For the duration, you are immune to being charmed or frightened and the only Action you may take is
 either Attack or Dash. You continue to make death saving throws as normal and damage causes death saving throw

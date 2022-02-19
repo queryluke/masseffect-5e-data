@@ -12,7 +12,7 @@ mechanics:
       max:
         type: mod
         value: cha
-    shortDesc: roll a d6 and add to a Charisma (Persuasion) check
+    shortDesc: Roll a d6 and add to a Charisma (Persuasion) check
 ---
 When you make Charisma (Persuasion) check, you may roll a d6 and add the number rolled to the result.
 

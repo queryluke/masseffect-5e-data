@@ -15,7 +15,7 @@ mechanics:
         type: lightning
     notes:
       - creature cannot take reactions until the end of its next turn
-    shortDesc: When you are hit by a melee weapon attack by a creature you can see, deal 2d4 lightning damage to the attacker"
+    shortDesc: When you are hit by a melee weapon attack by a creature you can see, deal 2d4 lightning damage to the attacker.
   - type: action
     range:
       short: 1

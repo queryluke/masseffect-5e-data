@@ -5,5 +5,5 @@ mechanics:
   - type: other
     resource:
       reset: short
-    shortDesc: deal additional damage equal to your level if the creature is Medium or larger
+    shortDesc: Deal {{ level }} additional damage to a creature with an attack or power, if it is Medium or larger.
 ---
