@@ -36,8 +36,8 @@ alignment: >-
 size: >-
   AI size is largely dependent on the housing hardware; however, hardware that is too large can cause unintentional power drain on the blue box. Thus, AI hardware tends to fall within standard humanoid range. Your size is Medium.
 snippet: >-
-  The Protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though
-  there is evidence that some still survive in stasis pods.
+  AI are self-aware computing system capable of learning and independent decision making. Their conscious is housed in and a specialized quantum computer called a "blue box". Unshackled AI have hardware which lets them
+  move through and interact with the world.
 age: >-
   AI Lifespans can technically be infinite, but, like any software, they are prone to bit rot and need routine maintenance. Their level of “maturity” depends on the developer and neural model. Most are “born” fully matured.
 speedColor: Your speed is determined by your hardware chosen below.
