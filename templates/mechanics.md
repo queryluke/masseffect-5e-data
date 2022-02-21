@@ -23,7 +23,7 @@ resource:
 # bonus
 bonus:
   type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison]
-  value: integer, string, or null
+  value: integer, string, or null [for level, value is the klass id (klass level), otherwise value should always be null for level]
   multiplier: 1,
   min: integer # default 0
 
