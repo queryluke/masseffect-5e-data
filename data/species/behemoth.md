@@ -16,4 +16,4 @@ mechanics:
 These unfortunate individuals were once krogan. After capture, experimentation,
 and attempts at exaltation, they are now Behemoths, bearing the characteristic
 white carapace of the kett and the strength of a krogan in full fury. If you
-wish to play as a Behemoth, replace the exalted lineage trait with the following.
+wish to play as a Behemoth, replace the Exalted Lineage trait and Exaltation with the following.
