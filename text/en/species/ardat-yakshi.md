@@ -12,4 +12,4 @@ Those who are able to avoid isolation and execution, however, quickly become psy
 destructive melding.
 
 If you would like to play an ardat-yakshi, gain the Addiction trait and replace Life Stage with Disposition or the
-Variant: Growing Power
+Variant: Growing Power.

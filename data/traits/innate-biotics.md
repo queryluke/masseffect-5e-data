@@ -1,6 +1,7 @@
 ---
 species:
   - asari
+  - ardat-yakshi
 mechanics:
   - type: model-choice
     label: 'Choose two cantrips'

@@ -186,7 +186,7 @@
     ],
     "name": "Ardat-Yakshi",
     "alignment": "Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.",
-    "html": "<p>A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot;\n(2 asari parents). The condition is impossible to identify until the asari reaches maturity, by which time it is too\nlate to correct. When diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed.\nThis is because ardat-yakshi develop an addiction to the power and feel intense compulsion to meld. The addiction only\ngrows stronger with each meld, and so a life of monastic celibacy allows asari to live in peace with a controllable desire.\nThose who are able to avoid isolation and execution, however, quickly become psychopathic in their intense lust for the\ndestructive melding.</p>\n<p>If you would like to play an ardat-yakshi, gain the Addiction trait and replace Life Stage with Disposition or the\nVariant: Growing Power</p>\n",
+    "html": "<p>A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot;\n(2 asari parents). The condition is impossible to identify until the asari reaches maturity, by which time it is too\nlate to correct. When diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed.\nThis is because ardat-yakshi develop an addiction to the power and feel intense compulsion to meld. The addiction only\ngrows stronger with each meld, and so a life of monastic celibacy allows asari to live in peace with a controllable desire.\nThose who are able to avoid isolation and execution, however, quickly become psychopathic in their intense lust for the\ndestructive melding.</p>\n<p>If you would like to play an ardat-yakshi, gain the Addiction trait and replace Life Stage with Disposition or the\nVariant: Growing Power.</p>\n",
     "id": "ardat-yakshi"
   },
   {
@@ -1190,7 +1190,7 @@
     ],
     "name": "Human Variant",
     "abilityScoreIncrease": "+1 to two different ability scores of your choice",
-    "html": "",
+    "html": "<p>If you wish to play a Variant: Human, replace the Ability Score Increase, Skill Expertise, Skill Proficiencies, and Tool\nproficiency traits with the following.</p>\n",
     "id": "human-variant",
     "subspecies": false
   },
@@ -1667,7 +1667,7 @@
       }
     ],
     "name": "No Avatar",
-    "html": "<p>If you do not wish to embody a particular aspect of society nor create your own avatar concept, you may replace the Avatar trait with the Feat and Aspiration traits.</p>\n",
+    "html": "<p>If you do not wish to embody a particular aspect of society nor create your own avatar concept, you may replace\nthe Avatar with the following.</p>\n",
     "id": "prothean-no-avatar",
     "subspecies": false
   },
@@ -1874,7 +1874,7 @@
     "name": "Tank-Bred",
     "type": "variant",
     "species": "krogan",
-    "html": "<p>Tank-bred krogan were developed by the warlord Okeer, who was originally investigating the genophage. However,\nOkeer gradually became obsessed with his work and realized that surviving the genophage had become the only\nbenchmark for a good krogan, which was weakening the species as a whole. He decided to produce a genetically pure,\nsuperior krogan—a super soldier—and poured all his efforts into his experiments, even seeking help from the Collectors.</p>\n<p>As a tank-bred krogan, you may be a prototype from Okeer’s research or developed in another lab setting that\nbranched off of Okeer’s research.</p>\n",
+    "html": "<p>Tank-bred krogan were developed by the warlord Okeer, who was originally investigating the genophage. However,\nOkeer gradually became obsessed with his work and realized that surviving the genophage had become the only\nbenchmark for a good krogan, which was weakening the species as a whole. He decided to produce a genetically pure,\nsuperior krogan—a super soldier—and poured all his efforts into his experiments, even seeking help from the Collectors.</p>\n<p>As a tank-bred krogan, you may be a prototype from Okeer’s research or developed in another lab setting that\nbranched off of Okeer’s research.</p>\n<p>If you would like to play a Tankbred Krogan, gain the following traits in addition to all Krogan traits.</p>\n",
     "id": "tankbred",
     "subspecies": false
   },
@@ -1882,7 +1882,7 @@
     "name": "Non-Hierarchy",
     "type": "variant",
     "species": "turian",
-    "html": "<p>Though uncommon, turians that grow up on other homeworlds may not be raised in the strict bureaucratic society of the\nturian Hierarchy. If you wish to play a Non-Hierarchy turian, you can replace the Military Doctrine option above with\nthe following.</p>\n<v-alert value type=\"info\"><h5>Barefaced Turians</h5>\n<p>During the Unification War, turians began utilizing facial markings to differentiate themselves from members of other\ncolonies, a tradition that exists to this day. However, some turians choose not to receive these markings; others may\nhave grown up outside of the Hierarchy. Whatever the reason, a barefaced turian is generally associated with someone\nwho is beguiling or cannot be trusted in turian society. However, as with any society, an individual’s perception of\nthe “bareface” stereotype might be anywhere from extremely potent to completely indifferent. Therefore, the ME5e\ndesigners believe this stylistic choice should be ruled by the GM during roleplay and not globally codified.</p>\n<p>As a general guideline, GMs may impose disadvantage or increase the DC of Charisma-based skill checks when a\nbarefaced turian interacts with a turian with facial markings.</p>\n</v-alert>",
+    "html": "<p>Though uncommon, turians that grow up on other homeworlds may not be raised in the strict bureaucratic society of the\nturian Hierarchy. If you wish to play a Non-Hierarchy turian, you can replace Military Doctrine with\nthe following.</p>\n<v-alert value type=\"info\"><h5>Barefaced Turians</h5>\n<p>During the Unification War, turians began utilizing facial markings to differentiate themselves from members of other\ncolonies, a tradition that exists to this day. However, some turians choose not to receive these markings; others may\nhave grown up outside of the Hierarchy. Whatever the reason, a barefaced turian is generally associated with someone\nwho is beguiling or cannot be trusted in turian society. However, as with any society, an individual’s perception of\nthe “bareface” stereotype might be anywhere from extremely potent to completely indifferent. Therefore, the ME5e\ndesigners believe this stylistic choice should be ruled by the GM during roleplay and not globally codified.</p>\n<p>As a general guideline, GMs may impose disadvantage or increase the DC of Charisma-based skill checks when a\nbarefaced turian interacts with a turian with facial markings.</p>\n</v-alert>",
     "id": "turian-non-hierarchy",
     "subspecies": false
   },

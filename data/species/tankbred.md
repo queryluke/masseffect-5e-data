@@ -10,3 +10,5 @@ superior krogan—a super soldier—and poured all his efforts into his experime
 
 As a tank-bred krogan, you may be a prototype from Okeer’s research or developed in another lab setting that
 branched off of Okeer’s research.
+
+If you would like to play a Tankbred Krogan, gain the following traits in addition to all Krogan traits.

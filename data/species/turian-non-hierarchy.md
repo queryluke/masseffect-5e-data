@@ -4,7 +4,7 @@ type: variant
 species: turian
 ---
 Though uncommon, turians that grow up on other homeworlds may not be raised in the strict bureaucratic society of the
-turian Hierarchy. If you wish to play a Non-Hierarchy turian, you can replace the Military Doctrine option above with
+turian Hierarchy. If you wish to play a Non-Hierarchy turian, you can replace Military Doctrine with
 the following.
 
 :::alert
