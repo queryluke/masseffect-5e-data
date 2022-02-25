@@ -6,7 +6,7 @@ EMTs, and military personnel, produced by the Sirta Foundation. It heals various
 injuries against infection and allowing for rapid healing by having the gel grip tight to flesh until subjected to a frequency
 of ultrasound. It is sealable against liquids - most notably blood - as well as contaminants and gases.
 
-__Use__. When you use this item, you or a willing creature within <me-distance length="5" /> regains hit points equal to the medi-gel's potency.
+__Use__. When you use this item, you or a willing, organic creature within <me-distance length="5" /> regains hit points equal to the medi-gel's potency.
 
 Type|Rarity|Credits|HP Regained
 ---|---|---|---
