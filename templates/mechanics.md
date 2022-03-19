@@ -211,10 +211,6 @@ mechanics:
   value: @bonus || array (for notes) || abilityMod
 - type: skill-or-expertise
 - type: featherlight
-- type: add-prof-double-tap # add prof bonus to dw rolls, hair trigger
-- type: add-prof-twf # add prof bonus to two weapon fighting rolls, ambidextrous
-- type: add-prof-burst-fire
-- type: add-prof-melee
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
 - type: speed-bonus
   value: [enum speeds]
@@ -233,8 +229,6 @@ mechanics:
   value: string or int
 - type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
 - type: additional-note # see elemental adept, long fist, add note to indicate bypass resistance
-- type: innate-strike-damage # see long fist, melee gunner
-  innate: enum [unarmed-strike,gun-strike]
 - type: medium-armor-master # seems worthless cause in me5e medium armor
 - type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
 - type: repair-matrix

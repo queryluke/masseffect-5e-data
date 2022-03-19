@@ -21,7 +21,8 @@ damage:
     dieCount: 2
 damageTypes:
   - fire
-castingTimes: []
+castingTimes:
+  - action
 duration: false
 instant: true
 concentration: false
