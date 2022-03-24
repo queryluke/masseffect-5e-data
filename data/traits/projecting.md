@@ -1,4 +1,5 @@
 ---
+name: Projecting
 species: [hardware-hologram]
 mechanics:
   - type: bonus-action

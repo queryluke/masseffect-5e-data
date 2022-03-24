@@ -12,7 +12,7 @@
 
 # resource (e.g., x per rest)
 resource:
-  displayType: enum [heat, counter, checkbox] # default checkbox
+  displayType: enum [heat, counter, checkbox, hit-dice] # default checkbox
   reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
   max: @bonus
@@ -22,10 +22,19 @@ resource:
 
 # bonus
 bonus:
-  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison]
-  value: integer, string, or null [for level, value is the klass id (klass level), otherwise value should always be null for level]
-  multiplier: 1,
+  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison, dice]
+  value: any
+    # flat = integer
+    # mod = string (abilities)
+    # proficiency = null
+    # level = null (for all levels), or string (klass-id) for klass levels
+    # hp = null
+    # progressive = object { [level]: value }
+    # modComparison = array of abilities
+    # dice = object { dieCount: @bonus, dieType: @bonus }
+  multiplier: float
   min: integer # default 0
+  round: up or down, default down
 
 dieBonus:
   dieType: enum die types
@@ -36,6 +45,19 @@ effect:
   bonus: @bonus
   resource: @resource # for limited, can disable when uses are out
   note: string
+
+attackLimit:
+  type: melee or ranged
+  model: weapon or power
+  type: weapon types or power types
+
+damage:
+  dieCount: integer (0 = special)
+  dieType: integer
+  mod: enum [str, dex, con, int, wis, cha, max] # optional
+  modComparison: enum [abilities] #required for max mod
+  type: enum [damage types] or hp, sp, tempHp
+  bonus: @bonus
 
 # used for looking up player selections
 # in theory, all selections are:
@@ -56,6 +78,22 @@ valueLookup:
 
 # any mechanic that needs a selection should have
 #   options: true
+
+# any mechanic can have progressionColumn as an attribute
+progressionColumn:
+  label: string
+  values: array
+  order: int
+# column orders are
+# 0 = level, then prof bonus
+# 1-4 = custom before features
+# 5 = features
+# 6-9 = custom before barrier
+# 10 = barrier
+# 11-14 = custom before cantrips
+# 15 = cantrips
+# 16-19 = custom before powercasting
+# 20 = point, then pact, then slot
 
 mechanics:
 # Ability Score Increases
@@ -78,6 +116,8 @@ mechanics:
     limit: [types] #optional array
     selections: integer
     expertise: boolean
+  - type: skill-or-expertise
+    value: [@skills]
 # AC
   - type: ac
     bonus: @bonus
@@ -109,12 +149,20 @@ mechanics:
     value: enum [skills]
     valueLookup: @valueLookup
     effect: @effect
+  - type: passive
+    value: enum @skills
+    bonus: @bonus
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
   - type: speed
     speed: enum [walk, fly, burrow, swim, climb]
     distance: integer
     note: string #note is optional.
+  - type: speed-bonus
+    value: [enum speeds]
+    bonus: @bonus
+  - type: speed-note
+    note: string
 # Senses
   - type: sense
     sense: enum [senses]
@@ -209,31 +257,74 @@ mechanics:
 # TODO
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod
-- type: skill-or-expertise
 - type: featherlight
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
-- type: speed-bonus
-  value: [enum speeds]
-  bonus: @bonus
-- type: passive
-  value: enum @skills
-- resource: # see regenerative burst
-    displayType: hitDice
-- type: tentacle-blender
 
+# TODO attacks should be their own component, different from regular features
 
 # NOT IMPLEMENTED
+- type: powercasting-slots
+  multiclassConversion: float (default 1)
+  known: array or false
+  prepared:
+    levelMultiplier: float
+    modBonus: boolean
+  slots:
+    1: array
+    2: array
+    3: array
+    4: array
+    5: array
+  mod: enum @abilities
+- type: powercasting-points
+  multiclassConversion: float (default 1)
+  known: array or false
+  prepared:
+    levelMultiplier: float
+    modBonus: boolean
+  points: array
+  limit: array
+  mod: enum @abilities
+- type: powercasting-pact
+  multiclassConversion: float (default 1)
+  known: array or false
+  prepared:
+    levelMultiplier: float
+    modBonus: boolean
+  slotLevel: array
+  numSlots: array
+  mod: enum @abilities
+- type: cantrips
+  columnName: string (default Cantrips)
+  known: array
+- type: barrier
+  multiclassConversion: float (default 1)
+  ticks: array
+  uses: array
+  dieType: int
+  dieCount: int
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
+- type: reroll-damage # can replace attack-augment, elemental adept & carnage
+  attackLimit: @attackLimit
+  damageTypeLimit: enum damages
+  min: int #default 1
+- type: conditional-attack-bonus # displays an icon with a list of all conditional attack bonuses (potentially armor piercing, might be others)
+  attackLimit: @attackLimit
+  bonus: @bonus
+- type: conditional-damage-bonus # displays an icon with a list of all conditional damage bonus options
+  attackLimit: @attackLimit
+  bonus: @bonus
+  damageType: enum damage types
+- type: extra-attack # highest of all of these
+  amount: int
+  additive: boolean #default false
+- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
-- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
-- type: additional-note # see elemental adept, long fist, add note to indicate bypass resistance
 - type: medium-armor-master # seems worthless cause in me5e medium armor
 - type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
-- type: repair-matrix
 - type: imprinted-enemies # can be model choice
-- type: speed-note
 - type: advanced-medigel-application #d6 for medigel
 ---
 
