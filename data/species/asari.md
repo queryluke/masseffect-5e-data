@@ -1,8 +1,7 @@
 ---
-bodyImg: >-
-  https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819
+bodyImg: https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500
+# img: https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819
+img: /images/af-2022/asari.jpg
 randomDimensions:
   height:
     base:

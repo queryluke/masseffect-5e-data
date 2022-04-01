@@ -1,8 +1,7 @@
 ---
-bodyImg: >-
-  https://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040
+bodyImg: https://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500
+# img: https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040
+img: /images/af-2022/turian.jpg
 randomDimensions:
   height:
     base:

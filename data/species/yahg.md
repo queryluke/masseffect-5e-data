@@ -13,8 +13,8 @@ age: >-
   Yahg have natural lifespans comparable to humans.
 bodyImg: >-
   /images/species/yahg.png
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/7/75/Sur%27kesh_yahg.png/revision/latest/scale-to-width-down/722?cb=20120724103813
+# img: https://vignette.wikia.nocookie.net/masseffect/images/7/75/Sur%27kesh_yahg.png/revision/latest/scale-to-width-down/722?cb=20120724103813
+img: /images/af-2022/yahg.jpg
 randomDimensions:
   height:
     base:

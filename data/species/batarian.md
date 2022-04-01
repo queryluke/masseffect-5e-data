@@ -1,8 +1,7 @@
 ---
-bodyImg: >-
-  https://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Balak_ME_adversaryshot.png/revision/latest/scale-to-width-down/422?cb=20140812140358
+bodyImg: https://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500
+# img: https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Balak_ME_adversaryshot.png/revision/latest/scale-to-width-down/422?cb=20140812140358
+img: /images/af-2022/batarian.jpg
 randomDimensions:
   height:
     base:
