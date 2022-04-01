@@ -1,8 +1,7 @@
 ---
-bodyImg: >-
-  https://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119
+bodyImg: https://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500
+# img: https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119
+img: /images/af-2022/geth.jpg
 randomDimensions:
   height:
     base:

@@ -1,8 +1,7 @@
 ---
-bodyImg: >-
-  https://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430
+bodyImg: https://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500
+# img: https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430
+img: /images/af-2022/quarian.jpg
 randomDimensions:
   height:
     base:

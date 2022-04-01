@@ -1,9 +1,8 @@
 ---
 name: Unshackled AI
-bodyImg: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/06/ME3_Alliance_Infiltration_Unit_Infiltrator.png/revision/latest/scale-to-width-down/500?cb=20130227102713
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/a/a9/Citadel_Archives_-_year_1896_CE%2C_removal_of_illegal_AIs%2C_vault_C940.png/revision/latest/scale-to-width-down/340?cb=20130320023412
+bodyImg: https://vignette.wikia.nocookie.net/masseffect/images/0/06/ME3_Alliance_Infiltration_Unit_Infiltrator.png/revision/latest/scale-to-width-down/500?cb=20130227102713
+# img: https://vignette.wikia.nocookie.net/masseffect/images/a/a9/Citadel_Archives_-_year_1896_CE%2C_removal_of_illegal_AIs%2C_vault_C940.png/revision/latest/scale-to-width-down/340?cb=20130320023412
+img: /images/af-2022/unshackled-ai.jpg
 randomDimensions:
   height:
     base:

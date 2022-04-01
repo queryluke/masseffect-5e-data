@@ -1,7 +1,7 @@
 ---
 bodyImg: https://data.n7.world/images/species/angara.png
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351
+# img: https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351
+img: /images/af-2022/angara.jpg
 randomDimensions:
   height:
     base:

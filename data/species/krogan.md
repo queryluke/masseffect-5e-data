@@ -1,8 +1,7 @@
 ---
-bodyImg: >-
-  https://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/03/Wreav_rally_-_destroy_2.png/revision/latest/scale-to-width-down/640?cb=20130215150038
+bodyImg: https://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500
+# img: https://vignette.wikia.nocookie.net/masseffect/images/0/03/Wreav_rally_-_destroy_2.png/revision/latest/scale-to-width-down/640?cb=20130215150038
+img: /images/af-2022/krogan.jpg
 randomDimensions:
   height:
     base:

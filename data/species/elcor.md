@@ -1,6 +1,7 @@
 ---
 bodyImg: https://data.n7.world/images/species/elcor.png
-img: https://data.n7.world/images/species/elcor_card.jpg
+# img: https://data.n7.world/images/species/elcor_card.jpg
+img: /images/af-2022/elcor.jpg
 randomDimensions:
   height:
     base:
