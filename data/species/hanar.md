@@ -1,7 +1,6 @@
 ---
 bodyImg: https://data.n7.world/images/species/hanar.png
-# img: https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825
-img: /images/af-2022/hanar.jpg
+img: https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825
 randomDimensions:
   height:
     base:
