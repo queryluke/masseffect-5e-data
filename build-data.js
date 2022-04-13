@@ -119,12 +119,15 @@ for (const lang of langs) {
     const modelTextPath = `${textSourcePath}/${dir}`
     const modelTargetFile = `${targetPath}/${dir}.json`
     const modelFns = fs.readdirSync(modelDataPath)
-    const items = modelFns.map(file => {
-      const item = combineItem(file,dir, `${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
+    const items = []
+    for (const file of modelFns) {
+      let item = combineItem(file,dir, `${modelDataPath}/${file}`, `${modelTextPath}/${file}`)
+      // changelog
       if (dir === 'changelog') {
         item.date = new Date(item.date)
         item.url = `/changelog/${item.slug}`
       }
+      // species
       if (dir === 'species') {
         if (item.subspecies) {
           const subspecies = fm(fs.readFileSync(`${dataPath}/subspecies/${item.subspecies}.md`, 'utf8'))
@@ -136,8 +139,15 @@ for (const lang of langs) {
           item.subspecies = false
         }
       }
-      return item
-    })
+      // spells
+      if (dir === 'powers') {
+        if (!item.version) {
+          continue
+        }
+      }
+      items.push(item)
+    }
+    // edges
     if (dir === 'edges') {
       items.push(...generateExaltedLineages().sort((a, b) => a.name < b.name ? -1 : 1))
     }
@@ -164,6 +174,28 @@ for (const lang of langs) {
     fs.writeFileSync(modelTargetFile, JSON.stringify(items, null, 2))
   }
 }
+
+/*
+function createSpellLevels (item) {
+  if (item.version === 1) {
+    const baseMechanics = _.cloneDeep(item.mechanics[0])
+    for (const [index, mechanic] of item.mechanics.entries()) {
+      if (index === 0) {
+        continue
+      }
+      item.mechanics[index] = _.merge(_.cloneDeep(baseMechanics), mechanic)
+    }
+    for (const [advIndex, adv] of item.advancements.entries()) {
+      const baseAdvancement = adv.mechanics.length ? {...adv.mechanics[0]} : {}
+      for (const [mechanicIndex, mechanic] of item.mechanics.entries()) {
+        const toMerge = adv.mechanics[mechanicIndex] || baseAdvancement
+        item.advancements[advIndex].mechanics[mechanicIndex] = _.merge({ ...mechanic}, toMerge)
+      }
+    }
+  }
+  return item
+}
+*/
 
 function getSpeciesInfo () {
   const species = fs.readdirSync('./data/species').map(file => {

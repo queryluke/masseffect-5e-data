@@ -1,0 +1,397 @@
+[
+  {
+    "name": "AI Hacking",
+    "version": 1,
+    "level": 3,
+    "type": "tech",
+    "tags": [
+      "control"
+    ],
+    "classes": [
+      "engineer",
+      "infiltrator"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "unit": "action"
+        },
+        "damage": false,
+        "dc": {
+          "save": "int"
+        },
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 90
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        }
+      },
+      {
+        "duration": {
+          "length": 1,
+          "unit": "hour"
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "total-control",
+        "name": "Total Control",
+        "text": "You take the hacked synthetic's action. You may use its powers and abilities.",
+        "mechanics": []
+      },
+      {
+        "id": "power-down",
+        "name": "Power Down",
+        "text": "When you have a creature hacked, you may use your action to attempt to shut it down. To do so, make an Intelligence check contested by the hacked creature's Intelligence check. If you win the contest, the creature becomes incapacitated for 1 hour and the power ends.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Target a synthetic creature within <me-distance length=\"90\" />. It must succeed on an Intelligence saving throw or it becomes Hacked (it is considered\n<me-condition id=\"charmed\"/> and can't use powers or abilities). If you or creatures that are friendly to you are fighting it, it has advantage\non the saving throw.</p>\n<p>On its turn, the hacked creature attacks the closest creature hostile to the power caster, making a ranged weapon\nattack or melee attack if it does not have a weapon. If there are no hostile creatures within range, the hacked\ncreature uses its turn to dash towards the closest hostile creature.</p>\n<p>Each time the hacked creature takes damage, it makes a new Intelligence saving throw against the power. If the saving throw\nsucceeds, the power ends.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a 4th-level power slot, the duration is concentration, up to 10\nminutes. When you use a 5th-level power slot, the duration is concentration, up to 1 hour.</p>\n",
+    "id": "ai-hacking"
+  },
+  {
+    "name": "Alter Center Mass",
+    "version": 1,
+    "level": 1,
+    "type": "biotic",
+    "tags": [
+      "debuff"
+    ],
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "reactionQualifier": false,
+    "mechanics": [
+      {
+        "castingTime": {
+          "unit": "action"
+        },
+        "dc": {
+          "save": "con"
+        },
+        "damage": false,
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 90
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "disorient",
+        "name": "Disorient",
+        "text": "Creatures that fail the saving throw become disoriented. Until the end of your next turn, attacks made against the creature have advantage and the creature can't take reactions.",
+        "mechanics": []
+      },
+      {
+        "id": "debilitate",
+        "name": "Debilitate",
+        "text": "Creatures that fail the saving throw can barely move. Until the end of your next turn, the creature's speed becomes 0 and it automatically fails Dexterity saving throws.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Up to three creatures of your choice that you can see within range must make Constitution saving throws as you generate\nminor mass effect fields that alter their center mass. Whenever a target that fails this saving throw makes an attack\nroll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack\nroll or saving throw.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, you can target two additional\ncreatures for each slot level above 1st.</p>\n",
+    "id": "alter-center-mass"
+  },
+  {
+    "name": "Annihilation Field",
+    "version": 1,
+    "level": 4,
+    "type": "biotic",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "adept"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 12,
+            "dieType": 6,
+            "type": "necrotic"
+          }
+        ],
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "detonates": false,
+        "primes": "necrotic",
+        "toggle": [
+          {
+            "id": "annihilation-field",
+            "mechanics": [
+              {
+                "type": "speed-bonus",
+                "bonus": {
+                  "type": "flat",
+                  "value": 0,
+                  "multiplier": 0.5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "range": {
+          "aoe": {
+            "size": 20
+          }
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "disorient",
+        "name": "Disorient",
+        "text": "Creatures that fail the Constitution saving throw have disadvantage on their next attack roll.",
+        "mechanics": []
+      },
+      {
+        "id": "phasic",
+        "name": "Phasic",
+        "text": "Annihilation Field's damage bypasses shields.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Spin a field of dark energy originating from you in a <me-distance length=\"10\" adj />-radius sphere.\nFor the duration, the field moves with you and reduces your walking speed by half.</p>\n<p>Each creature within the sphere must make a Constitution saving throw. A creature takes 12d6 necrotic damage on a failed\nsave or half as much damage on a successful one. A creature must also make the saving throw when it enters the field's\nspace for the first time on a turn or ends its turn there.</p>\n<p>Any creature within the sphere is <me-condition id=\"primed\" sub=\"necrotic\"/>. This condition ends immediately if the\ncreature leaves the sphere.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 5th level, increase the radius by <me-distance length=\"10\" />.</p>\n",
+    "id": "annihilation-field"
+  },
+  {
+    "name": "Ballistic Blades",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "infiltrator",
+      "soldier",
+      "vanguard"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "unit": "attack"
+        },
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "ballistic-blades"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true,
+          "mod": "dex"
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 12,
+            "type": "piercing"
+          }
+        ],
+        "concentration": false,
+        "range": {
+          "short": 30
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "bleeding-blades",
+        "name": "Bleeding Blades",
+        "text": "On a hit, the target takes an additional 3d12 damage at the start of its turn due to blood loss. This damage bypasses shields.",
+        "mechanics": [
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 3,
+                "dieType": 12,
+                "type": "bleeding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "exploding-blades",
+        "name": "Exploding blades",
+        "text": "On a hit, the target takes an additional 1d12 thunder damage and must pass a Constitution saving throw (DC 8 + proficiency bonus) or becomes stunned until the end of your next turn.",
+        "mechanics": [
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 1,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "notes": [
+              "DC {{ 8 + profBonus }} or stunned."
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Fire a salvo of blades at a target creature or object you can see within range. Make a ranged weapon attack, you add\nyour proficiency bonus to this roll. On a hit, the target takes 2d12 piercing damage.</p>\n<p>You must spend a short or long rest reloading the armguard before you can this ability again.</p>\n<p>This feature's damage increases by 2d12 when you reach 5th level (4d12), 11th level (6d12), 17th level (8d12)</p>\n",
+    "id": "ballistic-blades"
+  },
+  {
+    "name": "Incinerate",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 10,
+            "type": "fire"
+          }
+        ],
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 120
+        },
+        "primes": "fire",
+        "detonates": true
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "frozen-combo",
+        "name": "Frozen Combo",
+        "text": "When you hit a creature or object with incinerate, if the target is primed cold, you deal a critical hit.",
+        "mechanics": []
+      },
+      {
+        "id": "radial-blast",
+        "name": "Radial Blast",
+        "text": "On a miss, the target makes a Dexterity saving throw. On a failed save, the target takes half damage.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Hurl a high-explosive, plasma round at a creature or object within range. Make a ranged power attack against the target.\nOn a hit, the target is <me-condition id=\"primed\" sub=\"fire\"/> until the end of your next turn and takes 2d10 fire damage.\nA flammable object hit by this power ignites if it isn't being worn or carried.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d10 for each slot level above 1st.</p>\n",
+    "id": "incinerate"
+  }
+]

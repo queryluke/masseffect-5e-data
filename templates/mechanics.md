@@ -198,6 +198,7 @@ mechanics:
         type: enum [aoe types]
         size: integer
     attack: # optional, renders attack attributes
+      type: enum [melee, ranged]
       proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
       mod: enum [str, dex, con, int, wis, cha] # optional
       bonus: @bonus
