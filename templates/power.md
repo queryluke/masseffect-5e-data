@@ -32,7 +32,7 @@ mechanics:
     concentration: boolean
     range: @range
     detonates: boolean
-    primes: necrotic
+    primes: enum [prime types]
     resource: @resource
     notes:
       - string
