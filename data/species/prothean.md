@@ -1,7 +1,6 @@
 ---
 bodyImg: https://data.n7.world/images/species/prothean.png
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802
+img: https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802
 randomDimensions:
   height:
     base:

@@ -13,8 +13,7 @@ age: >-
   reproduction process via exaltation, Kett are fully mature when the exaltation is complete.
 bodyImg: >-
   /images/species/kett.png
-img: >-
-  https://vignette.wikia.nocookie.net/masseffect/images/0/0e/Habitat_7_-_kett_Chosen.png/revision/latest/scale-to-width-down/1000?cb=20191013042530
+img: https://vignette.wikia.nocookie.net/masseffect/images/0/0e/Habitat_7_-_kett_Chosen.png/revision/latest/scale-to-width-down/1000?cb=20191013042530
 randomDimensions:
   height:
     base:
