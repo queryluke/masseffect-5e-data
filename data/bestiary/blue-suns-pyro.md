@@ -25,7 +25,7 @@ skills:
 speed:
   walk: 30
 entries: {}
-cr: '00250'
+cr: '01000'
 shields:
   capacity: 10
   regen: 0
