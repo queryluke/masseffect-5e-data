@@ -61,7 +61,7 @@ advancements:
             dieType: 12
             type: thunder
         notes:
-          - DC {{ 8 + profBonus }} or stunned.
+          - DC {{ 8 + profBonus }} or stunned
 ---
 Fire a salvo of blades at a target creature or object you can see within range. Make a ranged weapon attack, you add
 your proficiency bonus to this roll. On a hit, the target takes 2d12 piercing damage.

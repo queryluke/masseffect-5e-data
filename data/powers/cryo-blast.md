@@ -58,16 +58,32 @@ advancements:
             type: piercing
       - damage:
           - dieCount: 2
+            dieType: 8
+            type: cold
           - dieCount: 4
+            dieType: 4
+            type: piercing
       - damage:
           - dieCount: 3
+            dieType: 8
+            type: cold
           - dieCount: 6
+            dieType: 4
+            type: cold
       - damage:
           - dieCount: 4
+            dieType: 8
+            type: cold
           - dieCount: 8
+            dieType: 4
+            type: piercing
       - damage:
           - dieCount: 5
+            dieType: 8
+            type: cold
           - dieCount: 10
+            dieType: 4
+            type: piercing
   - id: frigid-air
     name: Frigid Air
     text: The blast creates a pocket of frigid air that lasts until the end of your next turn. Each creature that enters the frozen space for the first time on a turn or ends its turn there becomes primed cold until the end of its next turn and takes 2d6 cold damage.

@@ -9912,6 +9912,18 @@
     "html": false
   },
   {
+    "id": "backlash",
+    "title": "Backlash",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/backlash",
+    "body": "Generate a frontal biotic aegis barrier with 15 hit points. If a creature you can see hits you with an attack while the\naegis is active, including the triggering attack, split the damage equally between yourself and the aegis. If the attack\nis a ranged weapon attack from a non-heavy weapon, the portion of the damage that would be dealt to you is dealt to the\nattacking creature instead.\nIf the damage is an odd number, you may choose where the extra 1 damage is dealt.\nIf damage that would be dealt to the aegis is greater than its remaining hit points, deal any remaining damage to yourself.\nWhen the aegis drops to 0 hit points the power ends.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, the aegis's hit points increase\nby 10 for each slot level above the 2nd.\n  Durable: Increase the aegis's hit points to 30.  Counterstrike: If you cast Backlash as a reaction against a melee attack, gain an attack of opportunity against the attacking creature.",
+    "html": false
+  },
+  {
     "id": "ballistic-blades",
     "title": "Ballistic Blades",
     "type": "power",
@@ -9921,6 +9933,186 @@
     ],
     "link": "/powers/ballistic-blades",
     "body": "Fire a salvo of blades at a target creature or object you can see within range. Make a ranged weapon attack, you add\nyour proficiency bonus to this roll. On a hit, the target takes 2d12 piercing damage.\nYou must spend a short or long rest reloading the armguard before you can this ability again.\nThis feature's damage increases by 2d12 when you reach 5th level (4d12), 11th level (6d12), 17th level (8d12)\n  Bleeding Blades: On a hit, the target takes an additional 3d12 damage at the start of its turn due to blood loss. This damage bypasses shields.  Exploding blades: On a hit, the target takes an additional 1d12 thunder damage and must pass a Constitution saving throw (DC 8 + proficiency bonus) or becomes stunned until the end of your next turn.",
+    "html": false
+  },
+  {
+    "id": "barrier-detonation",
+    "title": "Barrier Detonation",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/barrier-detonation",
+    "body": "Expend all of your remaining barrier ticks to create a negative mass effect field in a  sphere originating from you.\nEach Medium or smaller creature or object within the sphere must succeed on Strength saving throw or becomes\nlifted until the end of your next turn. If you expend at least 4 barrier ticks, Large targets must make\nthe saving throw. Creatures with at least 1 shield point have advantage on this saving throw.\nIncrease the range of the sphere by  at 5th level (), 11th level (), and 17th level ().\n  Shaped Lift: You may change the shape of the detonation into a cone, cube, or cylinder. You may also shape it into a line, if you do, the line is twice as long as the sphere's radius and  wide.  Heavy Lift: Large creatures are effected. If you spend at least 4 barrier ticks, Huge creatures must make the saving throw.",
+    "html": false
+  },
+  {
+    "id": "bec-field",
+    "title": "B.E.C. Field",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/bec-field",
+    "body": "You generate a Bose-Einstein Condensate field around your armor that acts to entangle incoming attacks on a quantum level.\nYou gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit\npoints, the creature takes 5 cold damage.\nAt Higher Levels. When you cast this power using a power slot of 2nd level or higher, both the temporary\nhit points and the cold damage increase by 5 for each slot.\n  Reactive: When you are hit by a ranged attack while the this power is active, you may use your reaction to deal the cold damage to a creature within  of you.  Cold Aura: While the BEC field is active, you are immune to the Frozen condition. Creatures that take damage from this power are primed (cold).",
+    "html": false
+  },
+  {
+    "id": "beehive",
+    "title": "Beehive",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/beehive",
+    "body": "Draw and fire your antipersonnel cannon, colloquially called &quot;the beehive&quot;. It ejects superheated shrapnel in a  cone,\noriginating from you. Each creature caught in the blast must make Dexterity saving throw. The DC of this saving throw is\n8 + your proficiency bonus + your Dexterity modifier. On a failed save, a creature takes 3d6 piercing damage or half as\nmuch damage on a successful one.\nYou must spend a short or long rest reconfiguring the cannon to use it again.\nThis feature's damage increases by 2d6 when you reach 5th level (5d6), 11th level (7d6), 17th level (9d6)\n  Anti-flesh: Deals twice as much damage to organic creatures with no shield points.  Remote Deploy: As an action, you can set up your Beehive in a separate location. Once it is deployed you can use an Attack action to fire it. You can also fire it as a reaction whenever a creature enters this power's cone.",
+    "html": false
+  },
+  {
+    "id": "biotic-jump",
+    "title": "Biotic Jump",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/biotic-jump",
+    "body": "Your powercasting ability determines how far you can jump.\nLong Jump. When you make a long jump, you cover a number of  up to your powercasting ability score. If jumping\nover an obstacle, subtract  of distance per  of the obstacle's height.\nHigh Jump. When you make a high jump, you leap into the air a number of  equal to  + your powercasting modifier.\n  Hover: At any point during your jump, you can end your movement and hover in place. At the start of your next turn, you float to the ground, taking half your movement for that turn.  Safe Landing: When landing in Difficult Terrain, you automatically succeed on your Dexterity (Acrobatics) check to remain standing. Additionally, if you would land within an area that causes a Dexterity saving throw, you have advantage on the save.",
+    "html": false
+  },
+  {
+    "id": "biotic-orbs",
+    "title": "Biotic Orbs",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/biotic-orbs",
+    "body": "Summon 3 biotic orbs that float around you, fueling your biotic energies. As an action, you may expend an orb and make a\nranged power attack on a creature within . On a hit, deal 2d10 force damage.\nAs an action, you may expend 3 orbs to cast a power using your highest available power slot. Casting a power in this way\ndoes not consume the power slot.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, the number of orbs increases by\n2 for each slot level above the 2nd.\n  Improved Orbs: You may expend 2 orbs to cast a power using your highest available power slot.  Retribution: As a reaction to taking damage, you may expend all of your remaining biotic orbs. For each expended orb, make a ranged power attack on a target you can see within range. You can direct all attacks to hit one creature or several.",
+    "html": false
+  },
+  {
+    "id": "biotic-punch",
+    "title": "Biotic Punch",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/biotic-punch",
+    "body": "Increase the mass of your fist and strike at a target. Make a melee power attack on a target creature or object within range.\nOn a hit, deal 1d8 bludgeoning damage. If you have an active barrier, regain 2 barrier ticks and reset the duration of\nyour barrier to 1 minute.\nThis power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).\n  Efficient Punch: On a hit, gain 3 barrier ticks.  Siphoning Strike: On a hit, instead of gaining barrier ticks, gain 10 shield points.",
+    "html": false
+  },
+  {
+    "id": "biotic-slash",
+    "title": "Biotic Slash",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/biotic-slash",
+    "body": "The next time you hit a creature with a melee weapon attack during the power's duration, increase the density of the\nweapon dealing an extra 2d8 force damage to the target. This damage detonates primed targets.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the extra damage dealt by the\nattack increases by 2d8 for each slot above the 1st.\n  Improved Damage: Increase the damage die to 2d12  Destined Hit: Gain a +5 bonus to your next melee weapon attack roll",
+    "html": false
+  },
+  {
+    "id": "biotic-sphere",
+    "title": "Biotic Sphere",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/biotic-sphere",
+    "body": "A shimmering barrier with 100 hit points extends out from you in a  sphere and moves with you, remaining centered on\nyou and hedging out hostile creatures. If a hostile creature is within the sphere when you cast this power, it is pushed\noutside of the sphere's radius.\nAny attack against a creature or targeted at a location within the sphere automatically hits the barrier instead. The barrier\nautomatically fails any saving throws.\nThe barrier dissipates when it has 0 hit points. If an attack would deal more damage than the remaining hit points of the\nbarrier, it soaks all of the damage and then dissipates.\nAt Higher Levels: When you cast this power using a power slot of 5th level, the barrier's health increases by 50 hit points.\n  Infuse Ammo: Friendly creatures inside the sphere add 1d6 force damage to all ranged weapon attacks against creatures outside of the sphere. This damage can detonate primed targets.  Armored: The sphere has resistance to bludgeoning, piercing, slashing, and thunder damage, but only has 75 hit points.",
+    "html": false
+  },
+  {
+    "id": "biotic-wall",
+    "title": "Biotic Wall",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/biotic-wall",
+    "body": "With an immense positive charge, create an invisible mass effect field that acts as a wall at a point you choose within\nrange. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free\nfloating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to ,\nor you can shape a flat surface made up of ten -by-- panels.\nEach panel must be contiguous with another panel. In any form, the wall is  thick.\nIt lasts for the duration. If the wall cuts through a creature's space when it appears, the\ncreature is pushed to one side of the wall (your choice which side).\nNothing can physically pass through the wall. It is immune to all damage.\n  Lifting Wall: If a creature comes within  of the wall, you can use your reaction to make a pocket of negatively charged space near the creature's location. It must pass a Strength saving throw or become lifted until the end of your next turn.  Shifting Wall: As a bonus action, you can either move the wall up to  in any direction, rotate the wall up to 180 degrees, or reshape the wall within the parameters listed above.",
+    "html": false
+  },
+  {
+    "id": "blade-armor",
+    "title": "Blade Armor",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/blade-armor",
+    "body": "As a bonus action or as a reaction to taking damage, you reinforce your armor with razor-sharp blades that damage\nnearby enemies. Until the power ends, you AC increases by 2 but you are unable to Dodge and have disadvantage on Dexterity\nsaving throws. You can use a bonus action to deactivate blade armor.\nWhile blade armor is active, it is considered a melee weapon that deals 1d6 piercing damage. If a creature is grappled by\nyou, you have advantage on attack rolls made with blade armor against the grappled creature.\nYou have advantage on your Strength (Athletics) to grapple and deal 1d6 piercing damage when you grapple the target.\nA creature that is grappled by you while blade armor is active takes 1d6 piercing damage each time it attempts to\nescape from the grapple.\nYou must finish a long rest before you can use this ability again.\nBlade armor's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), 17th level (4d6).\n  Poisoned Armor: Creatures hit by your blade armor must succeed on a DC 14 Constitution saving throw or become poisoned for 1 hour.  Retribution: When a creature within  of you hits you with a melee attack while blade armor is active, you may use your reaction to make a melee weapon attack with blade armor against the creature.",
+    "html": false
+  },
+  {
+    "id": "catapult",
+    "title": "Catapult",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/catapult",
+    "body": "Choose one Tiny object that is not being worn or carried within range. The object is thrown in a straight line up to  in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface.\nIf the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the creature and stops moving. When the object strikes something, the object and what it strikes each take 3d10 bludgeoning damage.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the size of the object increases by 1 (Small, Medium, Large, Huge) and the damage increases by 2d10, for each slot level above 1st.\nDisarm\n  Disarm: You may target objects being carried. If the creature carrying the object is unwilling, it must succeed on a STR saving throw, or the target is object by this power.  Counterstrike: When a creature you can see casts a power or makes an attack within range, you may use your reaction to cast this power, flinging the object toward the creature. The creature automatically fails its Dexterity saving throw. If the creature was casting a power, it must succeed on a Constitution saving throw or the power fails (DC 10 or half the Catapult damage, whichever is higher). If the creature was making an attack roll, it has disadvantage on the attack roll.",
+    "html": false
+  },
+  {
+    "id": "charge",
+    "title": "Charge",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/charge",
+    "body": "Choose a creature or object within range and use the target's mass to pull yourself to its location with incredible force\n(this movement does not provoke opportunity attacks). The target must make a Dexterity saving throw.\nOn a failed save the target takes 1d10 force damage and becomes prone. Charge ignores half cover.\nThe damage increases by 1d10 when you reach the 5th level (2d10), 11th level (3d10) and 17th level (4d10).\n  Barrier Regen: After you cast Charge, if you have an active barrier, regain 2 barrier ticks and reset the duration of your barrier to 1 minute.  Area Charge: Each creature within  of the target must make the Dexterity saving throw.",
+    "html": false
+  },
+  {
+    "id": "concussive-shot",
+    "title": "Concussive Shot",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/concussive-shot",
+    "body": "Whenever you make a ranged weapon attack, you can expend a concussive shot charge to load a specialized thermal clip into the weapon. When you do so, the ranged attack gains advantage. If the attack is successful, it deals an additional 1d8 bludgeoning damage and medium-sized or smaller creatures must pass a Strength saving throw (DC 8 + proficiency bonus + DEX modifier) or become prone.\nYou have 3 charges of Concussive Shot. You regain all of your charges when you finish a short rest.\nThe damage increases by 1d8 and charges increase by 1 when you reach the 5th level (2d8 and 4 charges), 11th level (3d8 and 5 charges) and 17th level (4d8 and 6 charges).\n  Stunning Shot: A creature hit by concussive shot must make a Constitution saving throw instead of a Strength saving throw. On a failed save, the creature is stunned until the end of its next turn.  Improved shot: Increase the bonus damage of concussive shot to d12.",
+    "html": false
+  },
+  {
+    "id": "cryo-beam",
+    "title": "Cryo Beam",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/cryo-beam",
+    "body": "Blast a continuous stream of liquid hydrogen from your omni-tool in an  long by  wide line. Each creature in the beam\nmust make a Strength saving throw. On a failed save, a creature takes 5d8 cold damage and then becomes frozen\nuntil the start of your next turn. On a successful save, a creature takes half as much damage and isn't frozen by this power.\nCreatures with at least 1 shield point have advantage on this saving throw.\nA creature must also make the saving throw when it enters the beam's space for the first time on a turn or ends its turn there.\nAt the start of your turn, you may spend your action and 1 additional tech point to continue casting the beam. Your\nmovement speed is  while casting it in this manner. The power ends if you become incapacitated.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the damage increases by 2d8\nand the length of the beam increases by  for each slot level above 3rd.\n  Brittle Freeze: Shields no longer provide advantage on the saving throw. On a successful save, a creature is primed-cold until the end of your next turn.  Frozen Ground: Cryo beam leaves a patch of ice on the ground that lasts for 1 minute. The ground is considered difficult terrain.",
+    "html": false
+  },
+  {
+    "id": "cryo-blast",
+    "title": "Cryo Blast",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/cryo-blast",
+    "body": "Fire a mass of supercooled, subatomic particles that explode in a -radius sphere centered on a point within\nrange. Each creature within the sphere has its movement reduced by  until the start of your next turn and must make a\nStrength saving throw. On a failed saved, a creature becomes frozen until the start of your next turn.\nA target with shield points has advantage on this saving throw.\nIf the blast strikes a body of water or a liquid that is principally water (not including water-based creatures), it\nfreezes the liquid to a depth of  over an area . This ice lasts for 1 minute. Creatures that were\nswimming on the surface of frozen water are trapped in the ice. A trapped creature can use an action to make a Strength\ncheck against your power save DC to break free.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the radius of the blast increases\nby  for each slot level above 1st.\n  Ice Lance: Transform the blast into a deadly lance. Make a ranged power attack dealing 1d8 cold and 2d4 piercing damage. It deals an additional 1d8 and 2d4 for each slot level above the 1st.  Frigid Air: The blast creates a pocket of frigid air that lasts until the end of your next turn. Each creature that enters the frozen space for the first time on a turn or ends its turn there becomes primed cold until the end of its next turn and takes 2d6 cold damage.",
     "html": false
   },
   {

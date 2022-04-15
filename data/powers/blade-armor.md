@@ -51,7 +51,9 @@ advancements:
   - id: poisoned-armor
     name: Poisoned Armor
     text: Creatures hit by your blade armor must succeed on a DC 14 Constitution saving throw or become poisoned for 1 hour.
-    mechanics: []
+    mechanics:
+      - notes:
+          - DC 14 or poisoned 1H
   - id: retribution
     name: Retribution
     text: When a creature within <me-distance length="5" /> of you hits you with a melee attack while blade armor is active, you may use your reaction to make a melee weapon attack with blade armor against the creature.

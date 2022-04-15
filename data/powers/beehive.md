@@ -44,20 +44,18 @@ mechanics:
 advancements:
   - id: anti-flesh
     name: Anti-flesh
-    text: >-
-      Deals twice as much damage to organic creatures with no shield points.
+    text: Deals twice as much damage to organic creatures with no shield points.
     mechanics: []
   - id: remote-deploy
     name: Remote Deploy
-    text: >-
-      As an action, you can set up your Beehive in a separate location. Once it is deployed you can use an Attack action to fire it. You can also fire it as a reaction whenever a creature enters this power's cone.
+    text: As an action, you can set up your Beehive in a separate location. Once it is deployed you can use an Attack action to fire it. You can also fire it as a reaction whenever a creature enters this power's cone.
     mechanics:
       - altCasting:
           - length: 1
             unit: action
           - length: 1
             unit: reaction
-            reaction: 'After using remote deploy, when a creature enters this power's cone'
+            reaction: After using remote deploy, when a creature enters this power's cone
 ---
 Draw and fire your antipersonnel cannon, colloquially called "the beehive". It ejects superheated shrapnel in a <me-distance length="15" adj/> cone,
 originating from you. Each creature caught in the blast must make Dexterity saving throw. The DC of this saving throw is
