@@ -10116,6 +10116,54 @@
     "html": false
   },
   {
+    "id": "damping",
+    "title": "Damping",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/damping",
+    "body": "Target a creature you can see within range and cause interference with their biotic implant and omni-tool, reducing their\nability to use them effectively. The creature must make a saving throw using its powercasting ability or it suffers a penalty\nto its next biotic or tech power. If the next power it casts requires an attack roll, it has disadvantage on the attack.\nIf the next power forces one or more creatures to make a saving throw, those creatures have advantage on the saving throw.\nAt Higher Levels. When you cast this power using a power slot of 2nd level or higher, you can affect one additional\ncreature for each slot level above 1st.\n  Cooldown: If creature that fails its saving throw casts a tech or biotic power, it cannot cast another tech or biotic power until the end of its next turn.  Power Damping: Creatures have disadvantage on the saving throw against this power.",
+    "html": false
+  },
+  {
+    "id": "dark-channel",
+    "title": "Dark Channel",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/dark-channel",
+    "body": "Make a ranged power attack on a creature you can see within range. On a hit, you plague the target with a persistent,\ndamaging biotic field. The creature is primed-necrotic and takes 1d6 necrotic damage and 1d6\nnecrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to\nthe nearest hostile creature within  of the target.\nThe damage increases by 1d6 when you reach the 5th level (2d6), 11th level (3d6) and 17th level (4d6).\n  Cripple: If the affected creature would make a saving throw or attack roll, as a reaction you may increase the severity of Dark Channel. The affected creature must roll a d4 and subtract the number rolled from the attack roll or saving throw.  Improved Damage: Increase the damage die type to d10",
+    "html": false
+  },
+  {
+    "id": "dark-sphere",
+    "title": "Dark Sphere",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/dark-sphere",
+    "body": "Launch a slow-moving,  wide sphere of dark energy in a straight line. It moves  at the end of each of your turns.\nA creature caught in the sphere's path becomes primed-necrotic until the end of its next turn and\nmust make a Constitution saving throw. On a failed save, a creature takes necrotic damage equal to 6d8, or half as much on a successful one.\nAt the start of your turn, if the sphere has traveled , it detonates and the power ends. Each creature within\na  radius must make a Constitution saving throw. On a failed save a creature takes necrotic damage equal to\n6d8 or half as much damage on a successful one. This damage detonates any primed targets.\nYou can use an action to detonate the sphere before it travels . If you lose concentration while casting the power,\nit does not detonate.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the damage increases by 2d8\nfor each slot level above 3rd.\n  Control: Before the sphere moves, you may change its direction and speed. Its speed becomes , , or .  Amplify: Add 1d8 to the detonation damage for each  the sphere travels.",
+    "html": false
+  },
+  {
+    "id": "decoy",
+    "title": "Decoy",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/decoy",
+    "body": "Summon a holographic copy of yourself at a location within range. Until the power ends, the decoy moves with you and\nmimics your actions. You can use your action to dismiss the decoy. Each time a creature targets you with an attack\nduring the power's duration, it must first make a Wisdom (Perception) check. On a failure, a creature attacks\nthe decoy. On a success, the creature ignores the decoy, attacks you, and no longer needs to pass the Wisdom check to\ntarget you.\n  Explosive: As an action, you can detonate your Decoy. Each creature within 4m of the decoy must make a Dexterity saving throw. On a failed save, a creature takes 3d6 thunder damage or half as much on a successful one.  Improved Decoy: Your decoy becomes so life-like that creatures have disadvantage on the Wisdom (Perception) check.",
+    "html": false
+  },
+  {
     "id": "incinerate",
     "title": "Incinerate",
     "type": "power",

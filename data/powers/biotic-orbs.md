@@ -38,6 +38,7 @@ mechanics:
         type: flat
         value: 3
       id: biotic-orbs
+      label: biotic orbs
   - resource:
       max:
         value: 5

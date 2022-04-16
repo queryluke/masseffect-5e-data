@@ -27,6 +27,7 @@ mechanics:
         value: [1]
     hide: true
     append:
+      preventUpcast: true
       mod: wis
       resource:
         id: innate-biotics

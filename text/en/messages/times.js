@@ -16,6 +16,8 @@ module.exports = {
     reaction_abbr: 'R*',
     round: '1 round | {n} rounds',
     round_title: '1 Round | {n} Rounds',
+    round_abbr: '{n}RND',
     turn: '1 turn | {n} turns',
-    turn_title: '1 Turn | {n} Turns'
+    turn_title: '1 Turn | {n} Turns',
+    turn_abr: '{n}TRN'
 }

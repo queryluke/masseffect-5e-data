@@ -17,7 +17,7 @@ mechanics:
     dc: false
     damage: false
     duration:
-      length: 1
+      length: 0
       unit: instant
     concentration: false
     range:

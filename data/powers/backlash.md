@@ -22,7 +22,7 @@ mechanics:
         type: flat
         value: 15
       id: backlash
-      label: false      
+      label: false
     attack: false
     dc: false
     damage: false

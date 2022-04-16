@@ -1338,6 +1338,7 @@
         ],
         "hide": true,
         "append": {
+          "preventUpcast": true,
           "mod": "wis",
           "resource": {
             "id": "innate-biotics",

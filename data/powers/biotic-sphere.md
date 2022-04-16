@@ -33,7 +33,7 @@ mechanics:
         type: flat
         value: 100
       id: biotic-sphere
-      label: false
+      label: hit points
   - resource:
       max:
         value: 150
