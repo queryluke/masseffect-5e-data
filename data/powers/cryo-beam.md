@@ -30,7 +30,8 @@ mechanics:
         type: line
         size: 20
     detonates: false
-    primes: cold
+    primes: false
+    conditions: [cold]
   - damage:
       - dieCount: 7
   - damage:

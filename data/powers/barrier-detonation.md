@@ -28,6 +28,7 @@ mechanics:
         size: 5
     detonates: false
     primes: false
+    conditions: [lifted]
   - range:
       aoe:
         size: 10

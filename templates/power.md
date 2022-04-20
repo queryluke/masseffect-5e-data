@@ -26,6 +26,7 @@ mechanics:
         mod: enum [str, dex, con, int, wis, cha, max] # optional
         type: enum [damage types] or hp, sp, tempHp
         bonus: @bonus
+    conditions: array, enum[conditions] // what it does instead of damage
     duration:
       length: int // default 0
       unit: string // default instant

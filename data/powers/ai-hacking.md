@@ -22,6 +22,7 @@ mechanics:
       short: 90
     detonates: false
     primes: false
+    conditions: [charmed]
   - duration:
       length: 10
       unit: minute

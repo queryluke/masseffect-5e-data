@@ -29,6 +29,7 @@ mechanics:
       short: 0
     detonates: true
     primes: false
+    conditions: [prone]
     resource:
       reset: short
       max:

@@ -28,6 +28,7 @@ mechanics:
         type: sphere
     detonates: false
     primes: false
+    conditions: [frozen]
   - range:
       aoe:
         size: 10

@@ -35,7 +35,6 @@ advancements:
     text: >-
       When landing in Difficult Terrain, you automatically succeed on your Dexterity (Acrobatics) check to remain standing. Additionally, if you would land within an area that causes a Dexterity saving throw, you have advantage on the save.
     mechanics: []
-
 ---
 Your powercasting ability determines how far you can jump.
 
