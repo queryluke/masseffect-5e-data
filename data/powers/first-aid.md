@@ -18,8 +18,7 @@ mechanics:
     damage:
       - dieCount: 1
         dieType: 8
-        bonus:
-          type: powercastingMod
+        mod: pc
         type: hp
     conditions: false
     duration:

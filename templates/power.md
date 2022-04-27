@@ -23,7 +23,7 @@ mechanics:
     damage:
       - dieCount: integer
         dieType: integer
-        mod: enum [str, dex, con, int, wis, cha] # optional
+        mod: enum [str, dex, con, int, wis, cha, pc] # optional, "pc" is replaced when power is calculated, only available for powers
         type: enum [damage types] or hp, sp, tempHp
         bonus: @bonus
     conditions: array, enum[conditions] // what it does instead of damage

@@ -10164,6 +10164,78 @@
     "html": false
   },
   {
+    "id": "defense-matrix",
+    "title": "Defense Matrix",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/defense-matrix",
+    "body": "Reinforce your armor with special Foucault currents. You gain +2 to your AC while defense matrix is active.\n  Shield: Deploy the matrix as a stationary shield. Up to 2 creatures of medium size can stand behind the shield, gaining half-cover. It lasts 1 minute and no longer requires concentration.  Custom Current: When you cast defense matrix, choose one damage type. You have resistance to that type while defense matrix is active.",
+    "html": false
+  },
+  {
+    "id": "disrupt-biotics",
+    "title": "Disrupt Biotics",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/disrupt-biotics",
+    "body": "Attempt to interrupt a creature in the process of casting a biotic power. If the creature is casting a power of 2nd level\nor lower, its power fails and has no effect. If it is casting a power of 3rd level or higher, make an ability check\nusing your powercasting ability. The DC equals 10 + twice power's level. On a success, the creature's power fails and\nhas no effect.\nAt Higher Levels. When you cast this power using a power slot of 3rd level or higher, the interrupted power has no\neffect if its level is less than or equal to the level of the power slot you used.\n  Lockdown: If you successfully disrupt the power, you overload the target's biotic implant and it cannot cast biotic powers until the end of your next turn.  Psychic Strain: If you successfully disrupt the power, the target takes Xd10 psychic damage, where X is the level of the power. Targets take 1d6 psychic damage for disrupted cantrips.",
+    "html": false
+  },
+  {
+    "id": "dominate",
+    "title": "Dominate",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/dominate",
+    "body": "Target an organic creature within . It must succeed on a Wisdom saving throw or it becomes Dominated (it is considered\ncharmed and can't use powers or abilities). If you or creatures that are friendly to you are fighting it, it has advantage\non the saving throw.\nOn its turn, the dominated creature attacks the closest creature hostile to the power caster, making a ranged weapon\nattack or melee attack if it does not have a weapon. If there are no hostile creatures within range, the dominated\ncreature uses its turn to dash towards the closest hostile creature.\nEach time the dominated creature takes damage, it makes a new Wisdom saving throw against the power. If the saving throw\nsucceeds, the power ends.\nAt Higher Levels. When you cast this power using a 4th-level power slot, the duration is concentration, up to 10\nminutes. When you use a 5th-level power slot, the duration is concentration, up to 1 hour.\n  Total Control: You take the dominated creature's action. You may use its powers and abilities.  Damage: While the creature is dominated, it takes 4d6 psychic damage at the end of its turn. This damage bypasses shields and does not trigger an opportunity to end Dominate.",
+    "html": false
+  },
+  {
+    "id": "electric-slash",
+    "title": "Electric Slash",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/electric-slash",
+    "body": "Fabricate an electrified whip that lashes out in front of you in an  cone. Each creature must make a Constitution saving\nthrow. On a failed save, a creature takes 6d6 lightning damage or half as much damage on a successful one.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d6 for\neach power slot above the 2nd.\n  Shield Restore: If you are wearing armor, gain shield points equal to half of your damage roll.  Paralyze: Creatures that fail the saving throw are paralyzed until the end of their next turn.",
+    "html": false
+  },
+  {
+    "id": "energy-drain",
+    "title": "Energy Drain",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/energy-drain",
+    "body": "Cycle your omni-tool, sapping electromagnetic energy from a creature you can see within range. Make a ranged power attack\nagainst the target. On a hit, the target takes 3d6 lightning damage, and you regain shield points equal to half the\namount of lightning damage dealt.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 1d6 for each slot level above 1st.\n  Linked Current: On a successful hit, you can designate yourself or an ally within range of the ability to direct a positive current. Instead of gaining shield points, this current doubles a creature's waking speed for 1d4 rounds. Using this advanced tech skill more than once does not stack the speed boost.  Improved Regen: On a successful hit, you regain shield points equal to the amount of lightning damage dealt.",
+    "html": false
+  },
+  {
+    "id": "first-aid",
+    "title": "First Aid",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/first-aid",
+    "body": "Inject a friendly, organic creature with nanobots that reduce pain and heal internal injuries. The creature gains hit points\nequal to 1d8 + your powercasting ability modifier.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the healing increases\nby 2d8 for each slot level above 1st.\n  Adaptive: The healed creature gains resistance to the last damage type it suffered. This effect lasts for 1 minute.  Improved Healing: Increase the healing die type to d12",
+    "html": false
+  },
+  {
     "id": "incinerate",
     "title": "Incinerate",
     "type": "power",
@@ -10173,6 +10245,18 @@
     ],
     "link": "/powers/incinerate",
     "body": "Hurl a high-explosive, plasma round at a creature or object within range. Make a ranged power attack against the target.\nOn a hit, the target is primed-fire until the end of your next turn and takes 2d10 fire damage.\nA flammable object hit by this power ignites if it isn't being worn or carried.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d10 for each slot level above 1st.\n  Frozen Combo: When you hit a creature or object with incinerate, if the target is primed cold, you deal a critical hit.  Radial Blast: On a miss, the target makes a Dexterity saving throw. On a failed save, the target takes half damage.",
+    "html": false
+  },
+  {
+    "id": "pull",
+    "title": "Pull",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/pull",
+    "body": "Make a ranged power attack on a Medium or smaller creature or object within range. On a hit, you create a mass\neffect field around the target and it becomes lifted in the air until the end of your next turn.\nWhile you maintain this power, as a bonus action, you can move the target up to  in any direction. If you move the\ntarget further than  away from you, the power ends and the target falls to the ground.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, increase the duration.\n1 minute at 2nd level, 10 minutes at 3rd level, and 1 hour at 4th level.\n  Heavy Pull: You may target a Large or smaller creature or object.  Grip: While maintaining this power, you may use your bonus action to increase pressure around the target, dealing 2d6 bludgeoning damage.",
     "html": false
   },
   {

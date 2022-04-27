@@ -32,6 +32,7 @@ bonus:
     # progressive = object { [level]: value }
     # modComparison = array of abilities
     # dice = object { dieCount: @bonus, dieType: @bonus }
+    # powercastingMod = string, klass-id
   multiplier: float
   min: integer # default 0
   round: up or down, default down

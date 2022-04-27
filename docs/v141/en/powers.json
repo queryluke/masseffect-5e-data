@@ -29,7 +29,10 @@
           "short": 90
         },
         "detonates": false,
-        "primes": false
+        "primes": false,
+        "conditions": [
+          "charmed"
+        ]
       },
       {
         "duration": {
@@ -459,7 +462,10 @@
           }
         },
         "detonates": false,
-        "primes": false
+        "primes": false,
+        "conditions": [
+          "lifted"
+        ]
       },
       {
         "range": {
@@ -1335,8 +1341,11 @@
         "text": "Creatures hit by your blade armor must succeed on a DC 14 Constitution saving throw or become poisoned for 1 hour.",
         "mechanics": [
           {
+            "conditions": [
+              "poisoned"
+            ],
             "notes": [
-              "DC 14 or poisoned 1H"
+              "DC 14 CON or poisoned 1H"
             ]
           }
         ]
@@ -1580,6 +1589,9 @@
         },
         "detonates": true,
         "primes": false,
+        "conditions": [
+          "prone"
+        ],
         "resource": {
           "reset": "short",
           "max": {
@@ -1703,7 +1715,10 @@
           }
         },
         "detonates": false,
-        "primes": "cold"
+        "primes": false,
+        "conditions": [
+          "cold"
+        ]
       },
       {
         "damage": [
@@ -1774,7 +1789,10 @@
           }
         },
         "detonates": false,
-        "primes": false
+        "primes": false,
+        "conditions": [
+          "frozen"
+        ]
       },
       {
         "range": {
@@ -2192,6 +2210,467 @@
     "id": "decoy"
   },
   {
+    "name": "Defense Matrix",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "tags": [
+      "buff"
+    ],
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "bonus_action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 0,
+          "aoe": false
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "shield",
+        "name": "Shield",
+        "text": "Deploy the matrix as a stationary shield. Up to 2 creatures of medium size can stand behind the shield, gaining half-cover. It lasts 1 minute and no longer requires concentration.",
+        "mechanics": []
+      },
+      {
+        "id": "custom-current",
+        "name": "Custom Current",
+        "text": "When you cast defense matrix, choose one damage type. You have resistance to that type while defense matrix is active.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Reinforce your armor with special Foucault currents. You gain +2 to your AC while defense matrix is active.</p>\n",
+    "id": "defense-matrix"
+  },
+  {
+    "name": "Disrupt Biotics",
+    "version": 1,
+    "level": 2,
+    "type": "tech",
+    "tags": [
+      "control"
+    ],
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "reaction",
+          "reaction": "which you take when you see a creature casting a biotic power"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 1,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 90,
+          "aoe": false
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "lockdown",
+        "name": "Lockdown",
+        "text": "If you successfully disrupt the power, you overload the target's biotic implant and it cannot cast biotic powers until the end of your next turn.",
+        "mechanics": []
+      },
+      {
+        "id": "psychic-strain",
+        "name": "Psychic Strain",
+        "text": "If you successfully disrupt the power, the target takes Xd10 psychic damage, where X is the level of the power. Targets take 1d6 psychic damage for disrupted cantrips.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Attempt to interrupt a creature in the process of casting a biotic power. If the creature is casting a power of 2nd level\nor lower, its power fails and has no effect. If it is casting a power of 3rd level or higher, make an ability check\nusing your powercasting ability. The DC equals 10 + twice power's level. On a success, the creature's power fails and\nhas no effect.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 3rd level or higher, the interrupted power has no\neffect if its level is less than or equal to the level of the power slot you used.</p>\n",
+    "id": "disrupt-biotics"
+  },
+  {
+    "name": "Dominate",
+    "version": 1,
+    "level": 3,
+    "type": "biotic",
+    "tags": [
+      "control"
+    ],
+    "classes": [
+      "adept"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "save": "wis"
+        },
+        "damage": false,
+        "conditions": [
+          "charmed"
+        ],
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 90,
+          "aoe": false
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        }
+      },
+      {
+        "duration": {
+          "length": 1,
+          "unit": "hour"
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "total-control",
+        "name": "Total Control",
+        "text": "You take the dominated creature's action. You may use its powers and abilities.",
+        "mechanics": []
+      },
+      {
+        "id": "damage",
+        "name": "Damage",
+        "text": "While the creature is dominated, it takes 4d6 psychic damage at the end of its turn. This damage bypasses shields and does not trigger an opportunity to end Dominate.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieCount": 4,
+                "dieType": 6,
+                "type": "psychic"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Target an organic creature within <me-distance length=\"90\" />. It must succeed on a Wisdom saving throw or it becomes Dominated (it is considered\n<me-condition id=\"charmed\"/> and can't use powers or abilities). If you or creatures that are friendly to you are fighting it, it has advantage\non the saving throw.</p>\n<p>On its turn, the dominated creature attacks the closest creature hostile to the power caster, making a ranged weapon\nattack or melee attack if it does not have a weapon. If there are no hostile creatures within range, the dominated\ncreature uses its turn to dash towards the closest hostile creature.</p>\n<p>Each time the dominated creature takes damage, it makes a new Wisdom saving throw against the power. If the saving throw\nsucceeds, the power ends.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a 4th-level power slot, the duration is concentration, up to 10\nminutes. When you use a 5th-level power slot, the duration is concentration, up to 1 hour.</p>\n",
+    "id": "dominate"
+  },
+  {
+    "name": "Electric Slash",
+    "version": 1,
+    "level": 2,
+    "type": "tech",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "engineer",
+      "infiltrator"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 6,
+            "dieType": 6,
+            "type": "lightning"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "cone",
+            "size": 20
+          }
+        },
+        "detonates": true,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 12
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "shield-restore",
+        "name": "Shield Restore",
+        "text": "If you are wearing armor, gain shield points equal to half of your damage roll.",
+        "mechanics": []
+      },
+      {
+        "id": "paralyze",
+        "name": "Paralyze",
+        "text": "Creatures that fail the saving throw are paralyzed until the end of their next turn.",
+        "mechanics": [
+          {
+            "conditions": [
+              "paralyzed"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Fabricate an electrified whip that lashes out in front of you in an <me-distance length=\"20\" adj /> cone. Each creature must make a Constitution saving\nthrow. On a failed save, a creature takes 6d6 lightning damage or half as much damage on a successful one.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d6 for\neach power slot above the 2nd.</p>\n",
+    "id": "electric-slash"
+  },
+  {
+    "name": "Energy Drain",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "engineer",
+      "sentinel"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 6,
+            "type": "lightning"
+          }
+        ],
+        "duration": {
+          "length": 1,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150,
+          "aoe": false
+        },
+        "detonates": true,
+        "primes": false,
+        "notes": [
+          "Regain Shields = 1/2 damage"
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 7
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "linked-current",
+        "name": "Linked Current",
+        "text": "On a successful hit, you can designate yourself or an ally within range of the ability to direct a positive current. Instead of gaining shield points, this current doubles a creature's waking speed for 1d4 rounds. Using this advanced tech skill more than once does not stack the speed boost.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-regen",
+        "name": "Improved Regen",
+        "text": "On a successful hit, you regain shield points equal to the amount of lightning damage dealt.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Cycle your omni-tool, sapping electromagnetic energy from a creature you can see within range. Make a ranged power attack\nagainst the target. On a hit, the target takes 3d6 lightning damage, and you regain shield points equal to half the\namount of lightning damage dealt.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 1d6 for each slot level above 1st.</p>\n",
+    "id": "energy-drain"
+  },
+  {
+    "name": "First Aid",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "tags": [
+      "heal"
+    ],
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 8,
+            "mod": "pc",
+            "type": "hp"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 1,
+          "aoe": false
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 3
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 7
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "adaptive",
+        "name": "Adaptive",
+        "text": "The healed creature gains resistance to the last damage type it suffered. This effect lasts for 1 minute.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-healing",
+        "name": "Improved Healing",
+        "text": "Increase the healing die type to d12",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieType": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Inject a friendly, organic creature with nanobots that reduce pain and heal internal injuries. The creature gains hit points\nequal to 1d8 + your powercasting ability modifier.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the healing increases\nby 2d8 for each slot level above 1st.</p>\n",
+    "id": "first-aid"
+  },
+  {
     "name": "Incinerate",
     "version": 1,
     "level": 1,
@@ -2278,5 +2757,103 @@
     ],
     "html": "<p>Hurl a high-explosive, plasma round at a creature or object within range. Make a ranged power attack against the target.\nOn a hit, the target is <me-condition id=\"primed\" sub=\"fire\"/> until the end of your next turn and takes 2d10 fire damage.\nA flammable object hit by this power ignites if it isn't being worn or carried.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d10 for each slot level above 1st.</p>\n",
     "id": "incinerate"
+  },
+  {
+    "name": "Pull",
+    "version": 1,
+    "level": 1,
+    "type": "biotic",
+    "tags": [
+      "control"
+    ],
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "altCasting": [
+          {
+            "length": 1,
+            "unit": "bonus_action"
+          }
+        ],
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": false,
+        "duration": {
+          "length": 1,
+          "unit": "round"
+        },
+        "concentration": true,
+        "range": {
+          "short": 90,
+          "aoe": false
+        },
+        "detonates": false,
+        "primes": false,
+        "conditions": [
+          "lifted"
+        ]
+      },
+      {
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        }
+      },
+      {
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        }
+      },
+      {
+        "duration": {
+          "length": 30,
+          "unit": "minute"
+        }
+      },
+      {
+        "duration": {
+          "length": 1,
+          "unit": "hour"
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "heavy-pull",
+        "name": "Heavy Pull",
+        "text": "You may target a Large or smaller creature or object.",
+        "mechanics": []
+      },
+      {
+        "id": "grip",
+        "name": "Grip",
+        "text": "While maintaining this power, you may use your bonus action to increase pressure around the target, dealing 2d6 bludgeoning damage.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "bludgeoning"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Make a ranged power attack on a Medium or smaller creature or object within range. On a hit, you create a mass\neffect field around the target and it becomes <me-condition id=\"lifted\"/> <me-distance length=\"5\" /> in the air until the end of your next turn.\nWhile you maintain this power, as a bonus action, you can move the target up to <me-distance length=\"10\" /> in any direction. If you move the\ntarget further than <me-distance length=\"90\" /> away from you, the power ends and the target falls to the ground.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, increase the duration.\n1 minute at 2nd level, 10 minutes at 3rd level, and 1 hour at 4th level.</p>\n",
+    "id": "pull"
   }
 ]
