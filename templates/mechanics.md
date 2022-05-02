@@ -20,6 +20,38 @@ resource:
   id: string # a uuid to track the resources. Allows for sharing resources
   label: string #default is '/ [short or long] rest'
 
+companion:
+  name: string
+  type: string
+  profBonus: 2
+  abilityScores:
+    str: integer
+    dex: integer
+    con: integer
+    wis: integer
+    int: integer
+  hp:
+    dieCount: integer
+    dieType: integer
+    bonus: @bonus
+  savingThrows:
+    str:
+      proficient: boolean
+      bonus: @bonus
+    ...
+  irv:
+    - type: enum [resistance, immunity, condition-immunity, vulnerability]
+      value: [enum, string]
+  senses:
+    - sense: [enum senses]
+      distance: integer
+      note: string
+  speeds:
+    - speed: [enum speeds]
+      distance: integer
+      note: string
+
+
 # bonus
 bonus:
   type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison, dice]
@@ -32,7 +64,10 @@ bonus:
     # progressive = object { [level]: value }
     # modComparison = array of abilities
     # dice = object { dieCount: @bonus, dieType: @bonus }
+    # TODO
     # powercastingMod = string, klass-id
+    # resource = string, resource-id
+    # multi = array of bonus
   multiplier: float
   min: integer # default 0
   round: up or down, default down
@@ -301,14 +336,21 @@ mechanics:
 
 
 # TODO
+- type: tech-armor # new health circle and damage/heal buttons
+- type: companion
+  options:
+    - @companion
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod
 - type: featherlight
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
 
 # NOT IMPLEMENTED
+- type: extra-attack # highest of all of these
+  amount: int
+  additive: boolean #default false
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
-- type: reroll-damage # can replace attack-augment, elemental adept & carnage
+- type: reroll-damage # can replace attack-augment, elemental adept & carnage, auto-reroll (need to figure out auto rerolling)
   attackLimit: @attackLimit
   damageTypeLimit: enum damages
   min: int #default 1
@@ -319,10 +361,6 @@ mechanics:
   attackLimit: @attackLimit
   bonus: @bonus
   damageType: enum damage types
-- type: extra-attack # highest of all of these
-  amount: int
-  additive: boolean #default false
-- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
@@ -330,6 +368,7 @@ mechanics:
 - type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
 - type: imprinted-enemies # can be model choice
 - type: advanced-medigel-application #d6 for medigel
+- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,

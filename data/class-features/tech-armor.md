@@ -2,12 +2,63 @@
 level: 1
 klass: sentinel
 mechanics:
+  - type: tech-armor
   - type: bonus-action
     resource:
       max:
         type: flat
         value: 2
-    shortDesc: >-
+    damage:
+      - dieCount: 0
+        type: tech-armor-hp
+        bonus:
+          type: multi
+          value:
+            - type: level
+              value: sentinel
+              multiplier: 2
+            - type: powercastingMod
+              value: sentinel
+              multiplier: 2
+    label: Activate Tech Armor
+  - type: reaction
+    resource:
+      max:
+        type: flat
+        value: 2
+    damage:
+      - dieCount: 0
+        type: tech-armor-hp
+        bonus:
+          type: multi
+          value:
+            - type: level
+              value: sentinel
+              multiplier: 2
+            - type: powercastingMod
+              value: sentinel
+              multiplier: 2
+    label: Activate Tech Armor
+    reactionQualifier: when you take damage
+  - type: action
+    label: Detonate Tech Armor
+    range:
+      short: 0
+      aoe:
+        type: sphere
+        size: 10
+    dc:
+      base: 8
+      proficient: true
+      bonus:
+        type: powercastingMod
+        value: sentinel
+    damage:
+      - dieCount: 0
+        type: force
+        bonus:
+          type: resource
+          value: tech-armor-hp
 name: Tech Armor
 ---
 You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,
