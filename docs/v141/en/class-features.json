@@ -1,5 +1,6 @@
 [
   {
+    "name": "A Touch of Force",
     "level": 14,
     "klass": "vanguard",
     "subclass": "shock-trooper",
@@ -14,10 +15,10 @@
         "resource": {
           "reset": "short",
           "id": "a-touch-of-force"
-        }
+        },
+        "shortDesc": "Expend up to 3 barrier ticks, granting one weapon a bonus to damage rolls equal to the number of barrier ticks spent. The additional damage is force damage and can detonate primed targets."
       }
     ],
-    "name": "A Touch of Force",
     "html": "<p>At 14th level, you gain the ability to augment your weapons with your barrier. As a bonus action, you can expend\nup to 3 barrier ticks to grant one weapon you're carrying a bonus to damage rolls equal to the number\nof barrier ticks spent. The additional damage is force damage and can detonate primed targets. This effect lasts\n1 minute.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n",
     "id": "a-touch-of-force"
   },
@@ -26,6 +27,17 @@
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Adaptive Tech Armor",
+    "mechanics": [
+      {
+        "name": "Adaptive Tech Armor",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "adaptive-tech-armor"
+        },
+        "type": "other",
+        "shortDesc": "When your tech armor takes damage, it gains resistance to that damage type."
+      }
+    ],
     "html": "<p>At 18th level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.</p>\n",
     "id": "adaptive-tech-armor"
   },
@@ -34,6 +46,13 @@
     "klass": "soldier",
     "subclass": "gladiator",
     "name": "Additional Fighting Style",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
     "html": "<p>At 10th level, you can choose a second option from the Fighting Style class feature.</p>\n",
     "id": "additional-fighting-style"
   },
@@ -42,6 +61,13 @@
     "klass": "sentinel",
     "subclass": "bastion",
     "name": "Additional Tactic",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "bastion-tactics"
+      }
+    ],
     "html": "<p>At 7th level, you learn an additional tactic of your choice.</p>\n",
     "id": "additional-tactic-1"
   },
@@ -50,6 +76,13 @@
     "klass": "sentinel",
     "subclass": "bastion",
     "name": "Additional Tactic",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "bastion-tactics"
+      }
+    ],
     "html": "<p>At 14th level, you learn an additional tactic of your choice.</p>\n",
     "id": "additional-tactic-2"
   },
@@ -94,6 +127,15 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Advanced Combat Powers",
+    "mechanics": [
+      {
+        "type": "additional-cantrips",
+        "bonus": {
+          "type": "flat",
+          "value": 4
+        }
+      }
+    ],
     "html": "<p>Starting at 7th level, when you learn a new combat power, you automatically learn one of the advanced\noptions for it. For each combat power you have already learned, pick an advanced option for it. If you have already learned\nan advanced option, you may learn and advance a new combat power.</p>\n",
     "id": "advanced-combat-powers"
   },
@@ -180,8 +222,8 @@
           6,
           6
         ],
-        "dieType": 1,
-        "dieCount": 8
+        "dieCount": 1,
+        "dieType": 8
       }
     ],
     "name": "Barrier",
@@ -239,8 +281,8 @@
           6,
           6
         ],
-        "dieType": 1,
-        "dieCount": 8
+        "dieCount": 1,
+        "dieType": 8
       }
     ],
     "name": "Barrier",
@@ -298,8 +340,8 @@
           6,
           6
         ],
-        "dieType": 1,
-        "dieCount": 8
+        "dieCount": 1,
+        "dieType": 8
       }
     ],
     "name": "Barrier",
@@ -2282,7 +2324,15 @@
     "klass": "sentinel",
     "subclass": "bastion",
     "name": "Tactical Focus",
-    "html": "<p>At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.</p>\n<p>As a bonus action, you can select an area within <me-distance length=\"60\" /> on the ground that measures <me-distance length=\"15\" /> on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become <me-condition id=\"incapacitated\"/>.</p>\n<p>When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.</p>\n<h4>Tactics</h4>\n<p><strong>Advance</strong>.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n<p><strong>Analysis</strong>.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points</p>\n<p><strong>Clear the area</strong>.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.</p>\n<p><strong>Heads up</strong>.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n<p><strong>Pin down</strong>.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n<p><strong>Recon</strong>.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "bastion-tactics",
+        "selections": 3
+      }
+    ],
+    "html": "<p>At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.</p>\n<p>As a bonus action, you can select an area within <me-distance length=\"60\" /> on the ground that measures <me-distance length=\"15\" /> on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become <me-condition id=\"incapacitated\"/>.</p>\n<p>When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.</p>\n<h5>Tactics</h5>\n<p><strong>Advance</strong>.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n<p><strong>Analysis</strong>.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points</p>\n<p><strong>Clear the area</strong>.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.</p>\n<p><strong>Heads up</strong>.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n<p><strong>Pin down</strong>.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n<p><strong>Recon</strong>.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n",
     "id": "tactical-focus"
   },
   {

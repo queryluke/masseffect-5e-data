@@ -337,6 +337,150 @@
     "id": "BG_weaponsmith"
   },
   {
+    "name": "Advance",
+    "mechanics": [
+      {
+        "name": "Advance",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. If an ally spends all of its movement moving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of opportunity.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Update your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n",
+    "id": "BT_advance"
+  },
+  {
+    "name": "Analysis",
+    "mechanics": [
+      {
+        "name": "Analysis",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus and choose a hostile creature within it. Now, and at the start of each of your turns, you learn if the creature is your equal, superior, or inferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity, Constitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Focus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points.</p>\n",
+    "id": "BT_analysis"
+  },
+  {
+    "name": "Clear the area",
+    "mechanics": [
+      {
+        "name": "Clear the area",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. If an ally hit s a creature in your tactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Pick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.</p>\n",
+    "id": "BT_clear-the-area"
+  },
+  {
+    "name": "Heads Up",
+    "mechanics": [
+      {
+        "name": "Heads Up",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. If an ally in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>If an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n",
+    "id": "BT_heads-up"
+  },
+  {
+    "name": "Pin Down",
+    "mechanics": [
+      {
+        "name": "Pin Down",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. When a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use a reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes 0, it falls prone and remains in your tactical focus.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>When a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n",
+    "id": "BT_pin-down"
+  },
+  {
+    "name": "Recon",
+    "mechanics": [
+      {
+        "name": "Recon",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured, or heavily obscured.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Your VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n",
+    "id": "BT_recon"
+  },
+  {
     "name": "None",
     "mechanics": [
       {

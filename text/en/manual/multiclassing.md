@@ -68,10 +68,15 @@ When you gain a new level in a class, you get its features for that level. You d
 starting equipment, and a few features have additional rules when you're multiclassing: Barrier, Extra Attack, and Powercasting.
 
 #### Barrier <v-chip color="info" small>new</v-chip>
-Your barrier capacity depends partly on your combined levels in all your powercasting classes and partly on your
-individual levels in those classes. You determine your barrier capacity by adding together all your levels in the
+Your barrier capacity depends either on the maximum number of ticks between your classes or on your combined levels in all
+your classes. You determine your barrier capacity by adding together all your levels in the
 vanguard class and half your levels (rounded down) in the adept and sentinel classes. Use this total to determine your
-barrier capacity by consulting the Multiclassing Barrier table.
+barrier capacity by consulting the Multiclassing Barrier table. Then, compare that number to the barrier capacity for
+each individual class, taking the highest of the comparisons. More succinctly, multiclassing cannot reduce your barrier capacity.
+
+For example, a 5th-level sentinel player takes 1 level of adept. Their combined levels are 3 (half their sentinel plus adept levels, rounded down).
+The Multiclassing Barrier table grants 3 barrier ticks. Their one level in adept grants 2 barrier ticks. But their 5 levels in
+sentinel grants 4 barrier ticks. Thus, they would take the maximum of these for 4 barrier ticks.
 
 |Multiclass Barrier: Barrier Ticks per Level||
 |Level|Barrier Ticks|

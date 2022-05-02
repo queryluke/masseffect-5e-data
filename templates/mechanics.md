@@ -255,16 +255,6 @@ mechanics:
   - type: global-attack-note
     attack: enum [melee, ranged]
     value: array
-
-# TODO
-- type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
-  value: @bonus || array (for notes) || abilityMod
-- type: featherlight
-- type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
-
-# TODO attacks should be their own component, different from regular features
-
-# NOT IMPLEMENTED
 - type: powercasting-slots
   multiclassConversion: float (default 1)
   known: array or false
@@ -305,6 +295,18 @@ mechanics:
   uses: array
   dieType: int
   dieCount: int
+- type: additional-cantrips
+  bonus: @bonus
+
+
+
+# TODO
+- type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
+  value: @bonus || array (for notes) || abilityMod
+- type: featherlight
+- type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
+
+# NOT IMPLEMENTED
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
 - type: reroll-damage # can replace attack-augment, elemental adept & carnage
   attackLimit: @attackLimit
