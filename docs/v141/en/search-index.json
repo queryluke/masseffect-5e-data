@@ -9944,7 +9944,7 @@
       "Biotic"
     ],
     "link": "/powers/barrier-detonation",
-    "body": "Expend all of your remaining barrier ticks to create a negative mass effect field in a  sphere originating from you.\nEach Medium or smaller creature or object within the sphere must succeed on Strength saving throw or becomes\nlifted until the end of your next turn. If you expend at least 4 barrier ticks, Large targets must make\nthe saving throw. Creatures with at least 1 shield point have advantage on this saving throw.\nIncrease the range of the sphere by  at 5th level (), 11th level (), and 17th level ().\n  Shaped Lift: You may change the shape of the detonation into a cone, cube, or cylinder. You may also shape it into a line, if you do, the line is twice as long as the sphere's radius and  wide.  Heavy Lift: Large creatures are effected. If you spend at least 4 barrier ticks, Huge creatures must make the saving throw.",
+    "body": "Expend all of your remaining barrier ticks to create a negative mass effect field in a -radius sphere originating from you.\nEach Medium or smaller creature or object within the sphere must succeed on Strength saving throw or becomes\nlifted until the end of your next turn. If you expend at least 4 barrier ticks, Large targets must make\nthe saving throw. Creatures with at least 1 shield point have advantage on this saving throw.\nIncrease the radius of the sphere by  at 5th level (), 11th level (), and 17th level ().\n  Shaped Lift: You may change the shape of the detonation into a cone, cube, or cylinder. You may also shape it into a line, if you do, the line is twice as long as the sphere's radius and  wide.  Heavy Lift: Large creatures are effected. If you spend at least 4 barrier ticks, Huge creatures must make the saving throw.",
     "html": false
   },
   {
@@ -14074,8 +14074,8 @@
       "Weapon Properties"
     ],
     "link": false,
-    "body": "This weapon can be used to make a normal single-target attack, or can be used target a <me-distance \nlength=\"10\" adj /> cube within it's normal range. Each creature in the area must succeed on a DC 15\nDexterity saving throw or suffer the weapon's normal damage. This action uses 3 heat.\n",
-    "html": "<p>This weapon can be used to make a normal single-target attack, or can be used target a <me-distance \nlength=\"10\" adj /> cube within it's normal range. Each creature in the area must succeed on a DC 15\nDexterity saving throw or suffer the weapon's normal damage. This action uses 3 heat.</p>\n"
+    "body": "This weapon can be used to make a normal single-target attack, or can be used to target a <me-distance\nlength=\"10\" adj /> cube within its normal range. Each creature in the area must succeed on a DC 15\nDexterity saving throw or suffer the weapon's normal damage. This action uses 3 heat.\n",
+    "html": "<p>This weapon can be used to make a normal single-target attack, or can be used to target a <me-distance\nlength=\"10\" adj /> cube within its normal range. Each creature in the area must succeed on a DC 15\nDexterity saving throw or suffer the weapon's normal damage. This action uses 3 heat.</p>\n"
   },
   {
     "id": "double-tap",

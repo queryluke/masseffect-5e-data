@@ -27,17 +27,6 @@
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Adaptive Tech Armor",
-    "mechanics": [
-      {
-        "name": "Adaptive Tech Armor",
-        "moreInfo": {
-          "model": "class-features",
-          "id": "adaptive-tech-armor"
-        },
-        "type": "other",
-        "shortDesc": "When your tech armor takes damage, it gains resistance to that damage type."
-      }
-    ],
     "html": "<p>At 18th level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.</p>\n",
     "id": "adaptive-tech-armor"
   },
@@ -160,6 +149,37 @@
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Assault Armor",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "class-features",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action",
+            "reaction"
+          ]
+        },
+        "merge": {
+          "range": {
+            "short": 0,
+            "aoe": {
+              "type": "sphere",
+              "size": 60
+            }
+          },
+          "dc": {
+            "base": 8,
+            "proficient": true,
+            "bonus": {
+              "type": "powercastingMod",
+              "value": "sentinel"
+            }
+          },
+          "shortDesc": "Each hostile creature within range must succeed on a DC {{ dc }} Wisdom saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you."
+        }
+      }
+    ],
     "html": "<p>Starting at 3rd level, your Tech Armor is rigged for keeping the action on you. When\nyou activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within <me-distance length=\"60\" />\nthat can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + powercasting modifier). On a failure,\na creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always\ntargets you when it makes a weapon or power attack.</p>\n<p>Each time a creature that is compelled to attack you takes damage from a source other than you, it makes a new Wisdom saving\nthrow against the power. If the saving throw succeeds, the creature is no longer compelled to attack you and is immune to\nAssault Armor for the next 24 hours.</p>\n<p>Synthetic creatures have advantage on the Wisdom saving throw.</p>\n",
     "id": "assault-armor"
   },
@@ -369,7 +389,13 @@
             "multiplier": 0.5
           },
           "id": "bend-luck"
-        }
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 4
+          }
+        ]
       }
     ],
     "name": "Bend Luck",
@@ -2371,12 +2397,60 @@
     "klass": "sentinel",
     "mechanics": [
       {
-        "name": "Tech Armor",
+        "type": "tech-armor"
+      },
+      {
+        "name": "Activate Tech Armor",
         "moreInfo": {
           "model": "class-features",
           "id": "tech-armor"
         },
         "type": "bonus-action",
+        "toggle": {
+          "id": "tech-armor",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "tech-armor-hp",
+              "method": "set",
+              "value": {
+                "type": "multi",
+                "value": [
+                  {
+                    "type": "level",
+                    "value": "sentinel",
+                    "multiplier": 2
+                  },
+                  {
+                    "type": "powercastingMod",
+                    "value": "sentinel",
+                    "multiplier": 2
+                  }
+                ]
+              }
+            },
+            {
+              "type": "resource",
+              "id": "tech-armor",
+              "method": "add",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            }
+          ],
+          "whenOff": [
+            {
+              "type": "resource",
+              "id": "tech-armor-hp",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 0
+              }
+            }
+          ]
+        },
         "resource": {
           "max": {
             "type": "flat",
@@ -2384,6 +2458,101 @@
           },
           "id": "tech-armor"
         }
+      },
+      {
+        "name": "Activate Tech Armor",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-armor"
+        },
+        "type": "reaction",
+        "toggle": {
+          "id": "tech-armor",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "tech-armor-hp",
+              "method": "set",
+              "value": {
+                "type": "multi",
+                "value": [
+                  {
+                    "type": "level",
+                    "value": "sentinel",
+                    "multiplier": 2
+                  },
+                  {
+                    "type": "powercastingMod",
+                    "value": "sentinel",
+                    "multiplier": 2
+                  }
+                ]
+              }
+            },
+            {
+              "type": "resource",
+              "id": "tech-armor",
+              "method": "add",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            }
+          ],
+          "whenOff": [
+            {
+              "type": "resource",
+              "id": "tech-armor-hp",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "tech-armor"
+        },
+        "reactionQualifier": "when you take damage"
+      },
+      {
+        "name": "Detonate Tech Armor",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-armor"
+        },
+        "type": "action",
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "sentinel"
+          },
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 0,
+            "type": "force",
+            "bonus": {
+              "type": "resource",
+              "value": "tech-armor-hp"
+            }
+          }
+        ]
       }
     ],
     "name": "Tech Armor",

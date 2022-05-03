@@ -38,7 +38,6 @@ companion:
     str:
       proficient: boolean
       bonus: @bonus
-    ...
   irv:
     - type: enum [resistance, immunity, condition-immunity, vulnerability]
       value: [enum, string]

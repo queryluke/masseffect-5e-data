@@ -4,44 +4,78 @@ klass: sentinel
 mechanics:
   - type: tech-armor
   - type: bonus-action
+    name: Activate Tech Armor
+    toggle:
+      id: tech-armor
+      whenOn:
+        - type: resource
+          id: tech-armor-hp
+          method: set
+          value:
+            type: multi
+            value:
+              - type: level
+                value: sentinel
+                multiplier: 2
+              - type: powercastingMod
+                value: sentinel
+                multiplier: 2
+        - type: resource
+          id: tech-armor
+          method: add
+          value:
+            type: flat
+            value: 1
+      whenOff:
+        - type: resource
+          id: tech-armor-hp
+          method: set
+          value:
+            type: flat
+            value: 0
     resource:
       max:
         type: flat
         value: 2
-    damage:
-      - dieCount: 0
-        type: tech-armor-hp
-        bonus:
-          type: multi
-          value:
-            - type: level
-              value: sentinel
-              multiplier: 2
-            - type: powercastingMod
-              value: sentinel
-              multiplier: 2
-    label: Activate Tech Armor
+      id: tech-armor
   - type: reaction
+    name: Activate Tech Armor
+    toggle:
+      id: tech-armor
+      whenOn:
+        - type: resource
+          id: tech-armor-hp
+          method: set
+          value:
+            type: multi
+            value:
+              - type: level
+                value: sentinel
+                multiplier: 2
+              - type: powercastingMod
+                value: sentinel
+                multiplier: 2
+        - type: resource
+          id: tech-armor
+          method: add
+          value:
+            type: flat
+            value: 1
+      whenOff:
+        - type: resource
+          id: tech-armor-hp
+          method: set
+          value:
+            type: flat
+            value: 0
     resource:
       max:
         type: flat
         value: 2
-    damage:
-      - dieCount: 0
-        type: tech-armor-hp
-        bonus:
-          type: multi
-          value:
-            - type: level
-              value: sentinel
-              multiplier: 2
-            - type: powercastingMod
-              value: sentinel
-              multiplier: 2
-    label: Activate Tech Armor
+      id: tech-armor
     reactionQualifier: when you take damage
   - type: action
-    label: Detonate Tech Armor
+    name: Detonate Tech Armor
     range:
       short: 0
       aoe:
@@ -53,6 +87,7 @@ mechanics:
       bonus:
         type: powercastingMod
         value: sentinel
+      save: con
     damage:
       - dieCount: 0
         type: force
