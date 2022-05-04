@@ -26,6 +26,26 @@ mechanics:
           value:
             type: flat
             value: 1
+        - type: action
+          name: Detonate Tech Armor
+          range:
+            short: 0
+            aoe:
+              type: sphere
+              size: 10
+          dc:
+            base: 8
+            proficient: true
+            bonus:
+              type: powercastingMod
+              value: sentinel
+            save: con
+          damage:
+            - dieCount: 0
+              type: force
+              bonus:
+                type: resource
+                value: tech-armor-hp
       whenOff:
         - type: resource
           id: tech-armor-hp
@@ -39,61 +59,12 @@ mechanics:
         value: 2
       id: tech-armor
   - type: reaction
+    baseGroup: true
     name: Activate Tech Armor
-    toggle:
+    shortDesc: When you take damage
+    moreInfo:
+      model: class-features
       id: tech-armor
-      whenOn:
-        - type: resource
-          id: tech-armor-hp
-          method: set
-          value:
-            type: multi
-            value:
-              - type: level
-                value: sentinel
-                multiplier: 2
-              - type: powercastingMod
-                value: sentinel
-                multiplier: 2
-        - type: resource
-          id: tech-armor
-          method: add
-          value:
-            type: flat
-            value: 1
-      whenOff:
-        - type: resource
-          id: tech-armor-hp
-          method: set
-          value:
-            type: flat
-            value: 0
-    resource:
-      max:
-        type: flat
-        value: 2
-      id: tech-armor
-    reactionQualifier: when you take damage
-  - type: action
-    name: Detonate Tech Armor
-    range:
-      short: 0
-      aoe:
-        type: sphere
-        size: 10
-    dc:
-      base: 8
-      proficient: true
-      bonus:
-        type: powercastingMod
-        value: sentinel
-      save: con
-    damage:
-      - dieCount: 0
-        type: force
-        bonus:
-          type: resource
-          value: tech-armor-hp
 name: Tech Armor
 ---
 You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,

@@ -2802,6 +2802,36 @@
                 "type": "flat",
                 "value": 1
               }
+            },
+            {
+              "type": "action",
+              "name": "Detonate Tech Armor",
+              "range": {
+                "short": 0,
+                "aoe": {
+                  "type": "sphere",
+                  "size": 10
+                }
+              },
+              "dc": {
+                "base": 8,
+                "proficient": true,
+                "bonus": {
+                  "type": "powercastingMod",
+                  "value": "sentinel"
+                },
+                "save": "con"
+              },
+              "damage": [
+                {
+                  "dieCount": 0,
+                  "type": "force",
+                  "bonus": {
+                    "type": "resource",
+                    "value": "tech-armor-hp"
+                  }
+                }
+              ]
             }
           ],
           "whenOff": [
@@ -2831,93 +2861,8 @@
           "id": "tech-armor"
         },
         "type": "reaction",
-        "toggle": {
-          "id": "tech-armor",
-          "whenOn": [
-            {
-              "type": "resource",
-              "id": "tech-armor-hp",
-              "method": "set",
-              "value": {
-                "type": "multi",
-                "value": [
-                  {
-                    "type": "level",
-                    "value": "sentinel",
-                    "multiplier": 2
-                  },
-                  {
-                    "type": "powercastingMod",
-                    "value": "sentinel",
-                    "multiplier": 2
-                  }
-                ]
-              }
-            },
-            {
-              "type": "resource",
-              "id": "tech-armor",
-              "method": "add",
-              "value": {
-                "type": "flat",
-                "value": 1
-              }
-            }
-          ],
-          "whenOff": [
-            {
-              "type": "resource",
-              "id": "tech-armor-hp",
-              "method": "set",
-              "value": {
-                "type": "flat",
-                "value": 0
-              }
-            }
-          ]
-        },
-        "resource": {
-          "max": {
-            "type": "flat",
-            "value": 2
-          },
-          "id": "tech-armor"
-        },
-        "reactionQualifier": "when you take damage"
-      },
-      {
-        "name": "Detonate Tech Armor",
-        "moreInfo": {
-          "model": "class-features",
-          "id": "tech-armor"
-        },
-        "type": "action",
-        "range": {
-          "short": 0,
-          "aoe": {
-            "type": "sphere",
-            "size": 10
-          }
-        },
-        "dc": {
-          "base": 8,
-          "proficient": true,
-          "bonus": {
-            "type": "powercastingMod",
-            "value": "sentinel"
-          },
-          "save": "con"
-        },
-        "damage": [
-          {
-            "dieCount": 0,
-            "type": "force",
-            "bonus": {
-              "type": "resource",
-              "value": "tech-armor-hp"
-            }
-          }
-        ]
+        "baseGroup": true,
+        "shortDesc": "When you take damage"
       }
     ],
     "name": "Tech Armor",
@@ -2936,13 +2881,26 @@
           "model": "sentinel",
           "id": "tech-armor",
           "limit": [
-            "bonus-action",
-            "reaction"
+            "bonus-action"
           ]
         },
         "merge": {
+          "name": "Activate Tech Armor/Aura",
+          "shortDesc": "Instead of your standard tech armor, you may activate a tech aura package which lasts 1 hour.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-aura-1"
+              }
+            ]
+          },
           "toggle": {
+            "id": "tech-armor",
             "whenOn": [
+              {
+                "type": false
+              },
               {
                 "type": "resource",
                 "id": "tech-armor",
@@ -2951,9 +2909,11 @@
                   "type": "flat",
                   "value": 1
                 }
+              },
+              {
+                "type": false
               }
             ],
-            "whenOff": false,
             "options": [
               {
                 "id": "defensive",
@@ -2978,17 +2938,36 @@
                         }
                       ]
                     }
-                  }
-                ],
-                "whenOff": [
+                  },
                   {
-                    "type": "resource",
-                    "id": "tech-armor-hp",
-                    "method": "set",
-                    "value": {
-                      "type": "flat",
-                      "value": 0
-                    }
+                    "type": "action",
+                    "name": "Detonate Tech Armor",
+                    "range": {
+                      "short": 0,
+                      "aoe": {
+                        "type": "sphere",
+                        "size": 10
+                      }
+                    },
+                    "dc": {
+                      "base": 8,
+                      "proficient": true,
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
+                      },
+                      "save": "con"
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 0,
+                        "type": "force",
+                        "bonus": {
+                          "type": "resource",
+                          "value": "tech-armor-hp"
+                        }
+                      }
+                    ]
                   }
                 ]
               },
@@ -3005,8 +2984,14 @@
                     "value": "necrotic"
                   },
                   {
-                    "type": "reminder",
-                    "value": "Each friendly creature within <me-distance length=\"30\" /> gains resistance to force and necrotic damage."
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-aura-1",
+                      "merge": {
+                        "shortDesc": "Each creature within range gains resistance to force and necrotic damage."
+                      }
+                    }
                   }
                 ]
               }

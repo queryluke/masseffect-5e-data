@@ -1,6 +1,8 @@
 ---
 name: Opportunity Attack
 type: reaction
+shortDesc: >-
+  When a hostile creature that you can see moves out of your reach.
 ---
 You can make an opportunity attack when a hostile creature that you can see moves out of your
 reach. To make the opportunity attack, you use your reaction to make one melee attack
