@@ -12,15 +12,15 @@ classes:
   - sentinel
 mechanics:
   - castingTime:
-      - length: 1
-        unit: action
+      length: 1
+      unit: action
     attack: false
     dc:
-      save: 'powercasting'
+      save: 'Special'
     damage: false
     duration:
-      - length: 0
-        unit: instant
+      length: 0
+      unit: instant
     concentration: false
     range:
       short: 90

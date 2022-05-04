@@ -1314,6 +1314,10 @@
         "selections": 2,
         "hide": true,
         "append": {
+          "provider": {
+            "model": "species",
+            "id": "asari"
+          },
           "mod": "wis"
         }
       },
@@ -1338,7 +1342,12 @@
         ],
         "hide": true,
         "append": {
-          "preventUpcast": true,
+          "castAt": 1,
+          "alwaysCastable": true,
+          "provider": {
+            "model": "species",
+            "id": "asari"
+          },
           "mod": "wis",
           "resource": {
             "id": "innate-biotics",

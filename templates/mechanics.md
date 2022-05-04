@@ -20,6 +20,24 @@ resource:
   id: string # a uuid to track the resources. Allows for sharing resources
   label: string #default is '/ [short or long] rest'
 
+toggle:
+  id: string # toggleable id
+  options:
+    - id: string
+      name: string
+      whenOn: [whenable]
+      whenOff: [whenable]
+  whenOn: [whenable]
+  whenOff: [whenable]
+
+whenable:
+  type: string, resource or a mechanic type
+  # if resource
+  id: string, resource-id
+  method: enum, set, add, remove
+  value: @bonus
+  # or any other mechanic type
+
 companion:
   name: string
   type: string
@@ -225,6 +243,7 @@ mechanics:
 # Actions, Bonus Actions, and Reactions
   - type: enum [action, bonus-action, reaction, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
+    toggle: @toggle
     range:
       short: integer (0 = self, touch = 1)
       long: integer (0 = self, touch = 1)
@@ -335,7 +354,6 @@ mechanics:
 
 
 # TODO
-- type: tech-armor # new health circle and damage/heal buttons
 - type: companion
   options:
     - @companion

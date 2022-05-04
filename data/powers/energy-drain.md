@@ -21,7 +21,7 @@ mechanics:
         dieType: 6
         type: lightning
     duration:
-      length: 1
+      length: 0
       unit: instant
     concentration: false
     range:

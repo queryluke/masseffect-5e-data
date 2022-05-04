@@ -1942,23 +1942,19 @@
     ],
     "mechanics": [
       {
-        "castingTime": [
-          {
-            "length": 1,
-            "unit": "action"
-          }
-        ],
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
         "attack": false,
         "dc": {
-          "save": "powercasting"
+          "save": "Special"
         },
         "damage": false,
-        "duration": [
-          {
-            "length": 0,
-            "unit": "instant"
-          }
-        ],
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
         "concentration": false,
         "range": {
           "short": 90,
@@ -2514,7 +2510,7 @@
           }
         ],
         "duration": {
-          "length": 1,
+          "length": 0,
           "unit": "instant"
         },
         "concentration": false,
