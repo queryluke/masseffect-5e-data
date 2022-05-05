@@ -2920,6 +2920,19 @@
                 "name": "Defensive",
                 "whenOn": [
                   {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor",
+                      "limit": [
+                        "bonus-action"
+                      ]
+                    },
+                    "merge": {
+                      "shortDesc": "Tech Armor active for 1 minute."
+                    }
+                  },
+                  {
                     "type": "resource",
                     "id": "tech-armor-hp",
                     "method": "set",
@@ -2987,10 +3000,150 @@
                     "type": "augment",
                     "value": {
                       "model": "sentinel",
-                      "id": "tech-aura-1",
-                      "merge": {
-                        "shortDesc": "Each creature within range gains resistance to force and necrotic damage."
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each creature within range gains resistance to force and necrotic damage."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "anti-tech",
+                "name": "Anti-Tech",
+                "whenOn": [
+                  {
+                    "type": "resistance",
+                    "value": "fire"
+                  },
+                  {
+                    "type": "resistance",
+                    "value": "cold"
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each creature within range gains resistance to fire and cold damage."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "grounded",
+                "name": "Grounded",
+                "whenOn": [
+                  {
+                    "type": "resistance",
+                    "value": "lightning"
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each creature within range gains resistance to lightning damage."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "reactive",
+                "name": "Reactive",
+                "whenOn": [
+                  {
+                    "type": "saving-throw",
+                    "value": [
+                      "str",
+                      "dex"
+                    ],
+                    "effect": {
+                      "type": "bonus",
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
                       }
+                    }
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each creature within range adds {{ powercastingMod:sentinel }} to Strength and Dexterity saving throws."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "speed",
+                "name": "Speed",
+                "whenOn": [
+                  {
+                    "type": "speed-bonus",
+                    "value": [
+                      "walk"
+                    ],
+                    "bonus": {
+                      "flat": null,
+                      "value": 15
+                    }
+                  },
+                  {
+                    "type": "bonus-action",
+                    "name": "Disengage",
+                    "baseGroup": true
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each creature within gains a <me-distance length=\"15\" /> walking speed bonus and can take the Disengage action as a bonus action."
                     }
                   }
                 ]
