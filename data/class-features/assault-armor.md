@@ -8,22 +8,37 @@ mechanics:
     value:
       model: class-features
       id: tech-armor
-      limit: [bonus-action, reaction]
+      limit: [bonus-action]
     merge:
-      range:
-        short: 0
-        aoe:
-          type: sphere
-          size: 60
-      dc:
-        base: 8
-        proficient: true
-        bonus:
-          type: powercastingMod
-          value: sentinel
-      shortDesc: >-
-        Each hostile creature within range must succeed on a DC {{ dc }} Wisdom
-        saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you.
+      toggle:
+        whenOn:
+          - {}
+          - {}
+          - {}
+          - type: augment
+            value:
+              model: class-features
+              id: tech-armor
+              limit: [bonus-action]
+            merge:
+              moreInfo:
+                additional:
+                  - model: class-features
+                    id: assault-armor
+              range:
+                short: 0
+                aoe:
+                  type: sphere
+                  size: 60
+              dc:
+                base: 8
+                proficient: true
+                bonus:
+                  type: powercastingMod
+                  value: sentinel
+              shortDesc: >-
+                Each hostile creature within range must succeed on a DC {{ dc }} Wisdom
+                saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you.
 ---
 Starting at 3rd level, your Tech Armor is rigged for keeping the action on you. When
 you activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within <me-distance length="60" />

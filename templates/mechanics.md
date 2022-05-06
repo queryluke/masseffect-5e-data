@@ -308,6 +308,11 @@ mechanics:
   - type: global-attack-note
     attack: enum [melee, ranged]
     value: array
+  - type: global-power-note
+    name: string
+    moreInfo:
+      model: string
+      id: string
 - type: powercasting-slots
   multiclassConversion: float (default 1)
   known: array or false
@@ -352,8 +357,14 @@ mechanics:
   bonus: @bonus
 
 
-
 # TODO
+# Idea replacement for attack-augment, *-augment (TODO for weapon/action card refactor)
+- type: action-augment
+  augments: enum [dc, hit, damage, notes, heat]
+  limits:
+    attackRange: enum [melee, ranged, false]
+    attackType: enum [weapon, power, false]
+    attackSubType: enum [weapon types or power types]
 - type: companion
   options:
     - @companion

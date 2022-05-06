@@ -1275,11 +1275,9 @@
           "frightened",
           "stunned"
         ],
-        "effect": [
-          {
-            "type": "advantage"
-          }
-        ]
+        "effect": {
+          "type": "advantage"
+        }
       },
       {
         "name": "Nerves of Steel",

@@ -29,10 +29,57 @@
     "name": "Adaptive Tech Armor",
     "mechanics": [
       {
-        "type": "resistance",
-        "value": "tech-armor",
-        "label": "Tech Armor",
-        "note": "Your tech armor hit points gain resistance to the last damage type it took"
+        "type": "augment",
+        "value": {
+          "model": "class-features",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {},
+              {
+                "type": "augment",
+                "value": {
+                  "model": "class-features",
+                  "id": "tech-armor",
+                  "limit": [
+                    "bonus-action"
+                  ]
+                },
+                "merge": {
+                  "moreInfo": {
+                    "additional": [
+                      [],
+                      [],
+                      [],
+                      {
+                        "model": "class-features",
+                        "id": "adaptive-tech-armor"
+                      }
+                    ]
+                  },
+                  "shortDesc": "+1 AC. Immunity to critical hits. Each hostile creature within range must succeed on a DC {{ dc }} Wisdom saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {
+                "type": "resistance",
+                "value": "tech-armor",
+                "label": "Tech Armor",
+                "note": "Your tech armor hit points gain resistance to the last damage type it took"
+              }
+            ]
+          }
+        }
       }
     ],
     "html": "<p>At 18th level, when your tech armor takes damage, it gains resistance to that damage type. If more than one\ntype of damage happens simultaneously, tech armor gains resistance to both.</p>\n",
@@ -141,6 +188,16 @@
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Advanced Tech Armor",
+    "mechanics": [
+      {
+        "type": "global-power-note",
+        "name": "+Tech Armor HP @ cast",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "advanced-tech-armor"
+        }
+      }
+    ],
     "html": "<p>Starting at 10th level, your tech armor benefits from the energy used to cast biotic and tech powers. Whenever you\ncast a power of 1st-level or higher, your tech armor gains 10 hit points. When you cast a cantrip, you tech armor gains 3 hit points.</p>\n",
     "id": "advanced-tech-armor"
   },
@@ -164,27 +221,53 @@
           "model": "class-features",
           "id": "tech-armor",
           "limit": [
-            "bonus-action",
-            "reaction"
+            "bonus-action"
           ]
         },
         "merge": {
-          "range": {
-            "short": 0,
-            "aoe": {
-              "type": "sphere",
-              "size": 60
-            }
-          },
-          "dc": {
-            "base": 8,
-            "proficient": true,
-            "bonus": {
-              "type": "powercastingMod",
-              "value": "sentinel"
-            }
-          },
-          "shortDesc": "Each hostile creature within range must succeed on a DC {{ dc }} Wisdom saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you."
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {},
+              {
+                "type": "augment",
+                "value": {
+                  "model": "class-features",
+                  "id": "tech-armor",
+                  "limit": [
+                    "bonus-action"
+                  ]
+                },
+                "merge": {
+                  "moreInfo": {
+                    "additional": [
+                      {
+                        "model": "class-features",
+                        "id": "assault-armor"
+                      }
+                    ]
+                  },
+                  "range": {
+                    "short": 0,
+                    "aoe": {
+                      "type": "sphere",
+                      "size": 60
+                    }
+                  },
+                  "dc": {
+                    "base": 8,
+                    "proficient": true,
+                    "bonus": {
+                      "type": "powercastingMod",
+                      "value": "sentinel"
+                    }
+                  },
+                  "shortDesc": "Each hostile creature within range must succeed on a DC {{ dc }} Wisdom saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you."
+                }
+              }
+            ]
+          }
         }
       }
     ],
@@ -1057,6 +1140,54 @@
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Hardened Tech Armor",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "class-features",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {},
+              {
+                "type": "augment",
+                "value": {
+                  "model": "class-features",
+                  "id": "tech-armor",
+                  "limit": [
+                    "bonus-action"
+                  ]
+                },
+                "merge": {
+                  "moreInfo": {
+                    "additional": [
+                      [],
+                      {
+                        "model": "class-features",
+                        "id": "hardened-tech-armor"
+                      }
+                    ]
+                  },
+                  "shortDesc": "+1 AC. Immunity to critical hits. Each hostile creature within range must succeed on a DC {{ dc }} Wisdom saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you."
+                }
+              },
+              {
+                "type": "immunity",
+                "id": "critical",
+                "label": "Critical Hits"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 7th level, you're able to shrug off hits that would normally devastate others. While your tech armor\nis active, you have +1 AC and any critical hit against you becomes a normal hit.</p>\n",
     "id": "hardened-tech-armor"
   },
@@ -1558,6 +1689,137 @@
     "klass": "sentinel",
     "subclass": "guardian",
     "name": "Omni-Shield",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "omni-shield-1",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "shortDesc": "Activate your regular omni-shield, or a fire or cryo shield.",
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {},
+              {
+                "type": false
+              }
+            ],
+            "options": [
+              {
+                "id": "omni-shield",
+                "name": "Omni-Shield",
+                "whenOn": [
+                  {
+                    "type": "action",
+                    "name": "Omni-Shield Attack",
+                    "range": {
+                      "short": 5
+                    },
+                    "attack": {
+                      "type": "melee",
+                      "proficient": true,
+                      "mod": "str"
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 1,
+                        "dieType": 12,
+                        "type": "bludgeoning"
+                      }
+                    ],
+                    "notes": [
+                      "Hit: shove creature <me-distance length=\"5\" />."
+                    ],
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "omni-shield-1"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "fire-shield",
+                "name": "Fire Shield",
+                "whenOn": [
+                  {
+                    "type": "action",
+                    "name": "Fire-Shield Attack",
+                    "range": {
+                      "short": 5
+                    },
+                    "attack": {
+                      "type": "melee",
+                      "proficient": true,
+                      "mod": "str"
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 1,
+                        "dieType": 12,
+                        "type": "bludgeoning"
+                      }
+                    ],
+                    "notes": [
+                      "Hit: 3d10 fire damage, detonate primed conditions, and shove creature <me-distance length=\"5\" />."
+                    ],
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "omni-shield-1",
+                      "additional": {
+                        "model": "class-features",
+                        "id": "omni-shield-2"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "cryo-shield",
+                "name": "Cryo Shield",
+                "whenOn": [
+                  {
+                    "type": "action",
+                    "name": "Cryo-Shield Attack",
+                    "range": {
+                      "short": 5
+                    },
+                    "attack": {
+                      "type": "melee",
+                      "proficient": true,
+                      "mod": "str"
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 1,
+                        "dieType": 12,
+                        "type": "bludgeoning"
+                      }
+                    ],
+                    "notes": [
+                      "Hit: 1d8 cold damage, shove creature <me-distance length=\"5\" />, and DC 13 STR save or frozen."
+                    ],
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "omni-shield-1",
+                      "additional": {
+                        "model": "class-features",
+                        "id": "omni-shield-2"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.</p>\n<p><strong>Fire Shield</strong>. Gain all the benefits of Omni-Shield. In addition, a target hit by a Fire Shield attack takes 3d10 fire damage.\nThis damage detonates primed targets, but you are immune to any detonating effects.</p>\n<p><strong>Cryo Shield</strong>. Gain all the benefits of Omni-Shield. In addition, a target hit by a Cryo Shield attack takes 1d8 cold\ndamage and must succeed on a DC 13 Strength saving throw or become <me-condition id=\"frozen\"/> until the end its next turn.</p>\n",
     "id": "omni-shield-2"
   },
@@ -2334,6 +2596,16 @@
     "klass": "sentinel",
     "subclass": "guardian",
     "name": "Sculpt Powers",
+    "mechanics": [
+      {
+        "type": "global-power-note",
+        "name": "Sculpt Powers",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sculpt-powers"
+        }
+      }
+    ],
     "html": "<p>Starting at 10th, you can create pockets of relative safety within the effects of your powers. When you cast a power that\naffects other creatures that you can see, you can choose a number of them equal to 1+the power's level. The chosen creatures\nautomatically succeed on their saving throws against the power, and they take no damage if they would normally take half\ndamage on a successful save.</p>\n",
     "id": "sculpt-powers"
   },
@@ -2886,7 +3158,7 @@
         },
         "merge": {
           "name": "Activate Tech Armor/Aura",
-          "shortDesc": "Instead of your standard tech armor, you may activate a tech aura package which lasts 1 hour.",
+          "shortDesc": "When you would activate your tech armor, you may activate a tech aura package instead, lasting 1 hour.",
           "moreInfo": {
             "additional": [
               {
@@ -3010,7 +3282,7 @@
                           "size": 30
                         }
                       },
-                      "shortDesc": "Each creature within range gains resistance to force and necrotic damage."
+                      "shortDesc": "Each friendly creature within range gains resistance to force and necrotic damage."
                     }
                   }
                 ]
@@ -3041,7 +3313,7 @@
                           "size": 30
                         }
                       },
-                      "shortDesc": "Each creature within range gains resistance to fire and cold damage."
+                      "shortDesc": "Each friendly creature within range gains resistance to fire and cold damage."
                     }
                   }
                 ]
@@ -3068,7 +3340,7 @@
                           "size": 30
                         }
                       },
-                      "shortDesc": "Each creature within range gains resistance to lightning damage."
+                      "shortDesc": "Each friendly creature within range gains resistance to lightning damage."
                     }
                   }
                 ]
@@ -3105,7 +3377,7 @@
                           "size": 30
                         }
                       },
-                      "shortDesc": "Each creature within range adds {{ powercastingMod:sentinel }} to Strength and Dexterity saving throws."
+                      "shortDesc": "Each friendly creature within range gains +{{ powercastingMod:sentinel }} to Strength and Dexterity saving throws."
                     }
                   }
                 ]
@@ -3120,7 +3392,7 @@
                       "walk"
                     ],
                     "bonus": {
-                      "flat": null,
+                      "type": "flat",
                       "value": 15
                     }
                   },
@@ -3143,7 +3415,123 @@
                           "size": 30
                         }
                       },
-                      "shortDesc": "Each creature within gains a <me-distance length=\"15\" /> walking speed bonus and can take the Disengage action as a bonus action."
+                      "shortDesc": "Each friendly creature within range can take the Disengage as a bonus action and has its walking speed increased by <me-distance length=\"15\" />."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "regen",
+                "name": "Regen",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each friendly creature within range gains {{ powercastingMod:sentinel }} shield point(s) at the start of each of your turns."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "inspiring-music",
+                "name": "Inspiring Music",
+                "whenOn": [
+                  {
+                    "type": "saving-throw",
+                    "against": [
+                      "charmed",
+                      "frightened"
+                    ],
+                    "effect": {
+                      "type": "advantage"
+                    }
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each friendly creature within range gains advantage on saving throws against becoming charmed or frightened."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "brute-force",
+                "name": "Brute Force",
+                "whenOn": [
+                  {
+                    "type": "attack-augment",
+                    "augment": "notes",
+                    "limits": {
+                      "attack": "melee"
+                    },
+                    "value": [
+                      "+1d8 bldg dmg"
+                    ]
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each friendly creature within range deals an additional 1d8 bludgeoning damage with melee attacks."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "negation-field",
+                "name": "Negation Field",
+                "whenOn": [
+                  {
+                    "type": "condition-immunity",
+                    "value": "primed"
+                  },
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor"
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 0,
+                        "aoe": {
+                          "type": "sphere",
+                          "size": 30
+                        }
+                      },
+                      "shortDesc": "Each friendly creature within range is immune to the primed condition."
                     }
                   }
                 ]
@@ -3161,6 +3549,31 @@
     "klass": "sentinel",
     "subclass": "guardian",
     "name": "Tech Aura",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "shortDesc": "When you would activate your tech armor, you may activate a tech aura package instead, lasting 1 hour. Additionally, you may expend a power slot to activate your tech armor/aura when you have no uses remaining.",
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "tech-aura-2",
+                "name": "Tech Aura (14th Level)"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 14th level, if you have no remaining uses of Tech Armor, you can expend a power slot to activate it.</p>\n",
     "id": "tech-aura-2"
   },
@@ -3169,6 +3582,175 @@
     "klass": "sentinel",
     "subclass": "guardian",
     "name": "Tech Aura",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "tech-aura-3",
+                "name": "Tech Aura (18th Level)"
+              }
+            ]
+          },
+          "toggle": {
+            "options": [
+              {
+                "id": "defensive"
+              },
+              {
+                "id": "anti-biotic",
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "anti-tech",
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "grounded",
+                "whenOn": [
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "reactive",
+                "whenOn": [
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "speed",
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "regen",
+                "whenOn": [
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "inspiring-music",
+                "whenOn": [
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "brute-force",
+                "whenOn": [
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "negation-field",
+                "whenOn": [
+                  {},
+                  {
+                    "merge": {
+                      "range": {
+                        "aoe": {
+                          "size": 60
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 18th level, increase the distance of your Tech Aura packages to <me-distance length=\"60\" />.</p>\n",
     "id": "tech-aura-3"
   },
@@ -3200,6 +3782,74 @@
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Unyielding Assault",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "frozen",
+          "paralyzed",
+          "stunned"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "class-features",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {},
+              {
+                "type": "augment",
+                "value": {
+                  "model": "class-features",
+                  "id": "tech-armor",
+                  "limit": [
+                    "bonus-action"
+                  ]
+                },
+                "merge": {
+                  "moreInfo": {
+                    "additional": [
+                      [],
+                      [],
+                      {
+                        "model": "class-features",
+                        "id": "unyielding-assault"
+                      }
+                    ]
+                  },
+                  "shortDesc": "+1 AC. Immunity to critical hits. Each hostile creature within range must succeed on a DC {{ dc }} Wisdom saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active. Creatures make a new save when dealt damage from a source other than you."
+                }
+              },
+              {},
+              {
+                "type": "condition-immunity",
+                "value": "frozen"
+              },
+              {
+                "type": "condition-immunity",
+                "value": "paralyzed"
+              },
+              {
+                "type": "condition-immunity",
+                "value": "stunned"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 14th level, you have advantage on saving throws to avoid becoming paralyzed, stunned, or frozen.\nWhile tech armor is active, you are immune to becoming paralyzed, stunned, or frozen.</p>\n",
     "id": "unyielding-assault"
   },

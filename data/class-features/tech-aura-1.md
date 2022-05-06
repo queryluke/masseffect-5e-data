@@ -11,7 +11,7 @@ mechanics:
       limit: [bonus-action]
     merge:
       name: Activate Tech Armor/Aura
-      shortDesc: Instead of your standard tech armor, you may activate a tech aura package which lasts 1 hour.
+      shortDesc: When you would activate your tech armor, you may activate a tech aura package instead, lasting 1 hour.
       moreInfo:
         additional:
           - model: class-features
@@ -88,7 +88,7 @@ mechanics:
                       type: sphere
                       size: 30
                   shortDesc: >-
-                    Each creature within range gains resistance to force and necrotic damage.
+                    Each friendly creature within range gains resistance to force and necrotic damage.
           - id: anti-tech
             name: Anti-Tech
             whenOn:
@@ -107,7 +107,7 @@ mechanics:
                       type: sphere
                       size: 30
                   shortDesc: >-
-                    Each creature within range gains resistance to fire and cold damage.
+                    Each friendly creature within range gains resistance to fire and cold damage.
           - id: grounded
             name: Grounded
             whenOn:
@@ -124,7 +124,7 @@ mechanics:
                       type: sphere
                       size: 30
                   shortDesc: >-
-                    Each creature within range gains resistance to lightning damage.
+                    Each friendly creature within range gains resistance to lightning damage.
           - id: reactive
             name: Reactive
             whenOn:
@@ -146,14 +146,15 @@ mechanics:
                       type: sphere
                       size: 30
                   shortDesc: >-
-                    Each creature within range adds {{ powercastingMod:sentinel }} to Strength and Dexterity saving throws.
+                    Each friendly creature within range gains
+                    +{{ powercastingMod:sentinel }} to Strength and Dexterity saving throws.
           - id: speed
             name: Speed
             whenOn:
               - type: speed-bonus
                 value: [walk]
                 bonus:
-                  flat:
+                  type: flat
                   value: 15
               - type: bonus-action
                 name: Disengage
@@ -169,7 +170,81 @@ mechanics:
                       type: sphere
                       size: 30
                   shortDesc: >-
-                    Each creature within gains a <me-distance length="15" /> walking speed bonus and can take the Disengage action as a bonus action.
+                    Each friendly creature within range can take the Disengage as a bonus action and has its walking speed
+                    increased by <me-distance length="15" />.
+          - id: regen
+            name: Regen
+            whenOn:
+              - type: augment
+                value:
+                  model: sentinel
+                  id: tech-armor
+                merge:
+                  range:
+                    short: 0
+                    aoe:
+                      type: sphere
+                      size: 30
+                  shortDesc: >-
+                    Each friendly creature within range gains {{ powercastingMod:sentinel }} shield point(s) at the start
+                    of each of your turns.
+          - id: inspiring-music
+            name: Inspiring Music
+            whenOn:
+              - type: saving-throw
+                against: [charmed,frightened]
+                effect:
+                  type: advantage
+              - type: augment
+                value:
+                  model: sentinel
+                  id: tech-armor
+                merge:
+                  range:
+                    short: 0
+                    aoe:
+                      type: sphere
+                      size: 30
+                  shortDesc: >-
+                    Each friendly creature within range gains advantage on saving throws against becoming charmed or frightened.
+          - id: brute-force
+            name: Brute Force
+            whenOn:
+              - type: attack-augment
+                augment: notes
+                limits:
+                  attack: melee
+                value:
+                  - '+1d8 bldg dmg'
+              - type: augment
+                value:
+                  model: sentinel
+                  id: tech-armor
+                merge:
+                  range:
+                    short: 0
+                    aoe:
+                      type: sphere
+                      size: 30
+                  shortDesc: >-
+                    Each friendly creature within range deals an additional 1d8 bludgeoning damage with melee attacks.
+          - id: negation-field
+            name: Negation Field
+            whenOn:
+              - type: condition-immunity
+                value: primed
+              - type: augment
+                value:
+                  model: sentinel
+                  id: tech-armor
+                merge:
+                  range:
+                    short: 0
+                    aoe:
+                      type: sphere
+                      size: 30
+                  shortDesc: >-
+                    Each friendly creature within range is immune to the primed condition.
 ---
 In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.
 At 7th level, when you activate
