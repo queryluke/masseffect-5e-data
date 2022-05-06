@@ -6,32 +6,22 @@ name: Adaptive Tech Armor
 mechanics:
   - type: augment
     value:
-      model: class-features
+      model: sentinel
       id: tech-armor
       limit: [bonus-action]
     merge:
+      moreInfo:
+        additional:
+          - {}
+          - {}
+          - {}
+          - model: class-features
+            id: adaptive-tech-armor
       toggle:
         whenOn:
           - {}
           - {}
           - {}
-          - type: augment
-            value:
-              model: class-features
-              id: tech-armor
-              limit: [bonus-action]
-            merge:
-              moreInfo:
-                additional:
-                  - []
-                  - []
-                  - []
-                  - model: class-features
-                    id: adaptive-tech-armor
-              shortDesc: >-
-                +1 AC. Immunity to critical hits. Each hostile creature within range must succeed on a DC {{ dc }} Wisdom
-                saving throw (advantage for synthetic creatures) or be compelled to attack you while tech armor is active.
-                Creatures make a new save when dealt damage from a source other than you.
           - {}
           - {}
           - {}
