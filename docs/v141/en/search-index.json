@@ -10236,6 +10236,138 @@
     "html": false
   },
   {
+    "id": "flak-cannon",
+    "title": "Flak Cannon",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/flak-cannon",
+    "body": "As an Attack action, you load and fire krogan-designed shells that burst into shrapnel upon impact. Choose a target location\nwithin range. Each creature in a -radius sphere centered on the point of impact of the shell must make a Dexterity\nsaving throw (DC 8 + proficiency bonus + DEX modifier). A target takes 2d6 piercing damage on a failed save,\nor half as much damage on a successful one.\nYou have 3 charges of Flak Cannon. You regain all of your charges on a long rest.\nThis feature's damage increases by 2d6 when you reach 5th level (4d6), 11th level (6d6), 17th level (8d6)\n  Shredder: If a creature with 0 shield points takes damage from Flak Cannon, it becomes wounded. A wounded creature takes 1d4 damage from blood loss at the start of each of its turns. A wounded creature can make a DC 15 Constitution saving throw, ending the effect on a success. Alternatively, any creature (including the wounded creature), can make a DC 15 Wisdom (Medicine) check or use a charge of Medi-gel, ending the effect on a success.  Stunner: When you attack with Flak Cannon, you can choose to fire concussive blasts dealing no damage. Creatures within the sphere must instead make a Constitution saving throw. On a failed save, a creature becomes stunned until the start of your next turn.",
+    "html": false
+  },
+  {
+    "id": "flamethrower",
+    "title": "Flamethrower",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/flamethrower",
+    "body": "Overload your omni-tool's acetylene torch, spewing flames in front of you. Each creature within an  cone is\nprimed-fire until the start of your next turn and must make a Dexterity saving throw. A creature\ntakes 6d10 fire damage on a failed save or half as much damage on a successful one.\nAt the start of your turn, you may spend your action and 1 additional tech point to continue casting this power. Your\nmovement speed is  while casting it in this manner. The power ends if you become incapacitated.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the damage increases by 2d10\nfor each slot level above 3rd.\n  Concentrated Burn: Increase the damage to d12 and the distance to , but the area-of-effect is now a  wide line instead of a cone.  Exhaust: The flames create a thick smoke in an  cube that must encompass the cone. The area is considered heavily obscured until the end of your next turn.",
+    "html": false
+  },
+  {
+    "id": "flare",
+    "title": "Flare",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/flare",
+    "body": "Rapidly altering the mass of air particles creates radioactive projectiles that seek out the targets and explode. Choose\nup to 4 creatures that you can see within range. Each creature must make a Constitution saving throw. On a failed save,\na creature is blinded until the end of your next turn and takes radiant damage equal to 6d12. On a\nsuccessful save, a creature takes half damage but suffers no other negative effect.\nAt Higher Levels: When you cast this power using a power slot of 5th level, increase the damage by 2d12.\n  Improved Blind: Each creature is blinded no matter the result of its saving throw.  Heat seeking flare: Instead of choosing 4 targets, you may instead choose 1. If you do so, the target has disadvantage on the saving throw. Increase the damage by 4d12.",
+    "html": false
+  },
+  {
+    "id": "fly",
+    "title": "Fly",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/fly",
+    "body": "Create a negative mass effect field around yourself allowing you to move freely through the air. During the duration of\nthis power, you gain a flying speed of . When the power ends if you are still aloft, you fall to the ground.\n  Speed: You may cast Fly as a bonus action. Increase the flying speed to   Extended Cast: The duration of fly becomes 30 minutes.",
+    "html": false
+  },
+  {
+    "id": "fortification",
+    "title": "Fortification",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/fortification",
+    "body": "Reinforce your armor using protective Foucault currents. Gain +5 AC until the start of your next turn, including against\nthe triggering attack.\nYou must finish a short or long rest before you can use this ability again.\n  Lasting Fortification: Fortification lasts an additional turn.  Venting Fortification: When fortification ends, the currents are sent to your gauntlets. Your next melee weapon attack is made at advantage and deals an additional 2d10 bludgeoning damage.",
+    "html": false
+  },
+  {
+    "id": "gravity-field",
+    "title": "Gravity Field",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/gravity-field",
+    "body": "You create a field of unstable gravity in a  cube starting from a point within range.  For the duration, this\nspace becomes difficult terrain.\nA creature in the area when you cast the power must succeed on a Strength saving throw or be restrained\nuntil the power ends. A creature restrained by this power can use its action to make a Strength check against your\npower save DC. On a success, it frees itself.\nWhen the power ends, the gravity field dissipates.\n  Pulsing Field: As a bonus action, for the duration of the power, you can force a number of creatures equal to twice the power level that are within the gravity field to make a Strength saving throw or be restrained until the power ends.  Warping Field: A creature takes 1d6 necrotic damage per power level when it enters the gravity field for the first time on a turn or ends its turn there.",
+    "html": false
+  },
+  {
+    "id": "guidance",
+    "title": "Guidance",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/guidance",
+    "body": "Tap into the VI of a willing creature. Once within the next 10 minutes, the target can roll a d6 and add the number\nrolled to one ability check, saving throw, or attack roll of its choice. It can roll the die before or after making the roll.\nYou may only have guidance active on a single target.\n  Multi-Tap: Guidance can be active on up to 3 different targets.  Improved Tap: Increase the die type to d10",
+    "html": false
+  },
+  {
+    "id": "havoc-strike",
+    "title": "Havoc Strike",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/havoc-strike",
+    "body": "Use a propulsion jet built into your leg armor to spring to a location within  and strike the ground with violent force.\nEach creature within a  radius of where you land must make a Dexterity saving throw (DC 8 + proficiency bonus + STR modifier).\nOn a failed save, a creature takes 2d8 thunder damage or half as much on a successful one.\nYou can use this feature twice between short or long rests.\nThis feature's damage increases by 2d8 when you reach 5th level (4d8), 11th level (6d8), 17th level (8d8).\n  Improved Distance: You can jump up to .  Improved Radius: Increase the radius of the impact to .",
+    "html": false
+  },
+  {
+    "id": "hawk-missile-launcher",
+    "title": "Hawk Missile Launcher",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/hawk-missile-launcher",
+    "body": "Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits a target within range\ndealing 3d6 thunder damage.\nYou can use the Hawk Missile Launcher once per short rest.\nThis feature's damage increases by 3d6 when you reach 5th level (6d6), 11th level (9d6), 17th level (12d6).\n  Anti-Shield: The missile detonates a small EMP, transforming the damage to lightning.  Three-headed beast: Your missile splits into three separate missiles, each dealing 1d6 damage (2d6 at 5th level, 3d6 at 11th level and 4d6 at 17th level). You can direct the missiles at the same target or at different ones.",
+    "html": false
+  },
+  {
+    "id": "heavy-charge",
+    "title": "Heavy Charge",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/heavy-charge",
+    "body": "Choose a creature or object within range and use the target's mass to pull yourself to its location\n(this movement does not provoke opportunity attacks). Each creature within  of the target must make Dexterity saving\nthrow, taking 4d10 force damage on a failed save, or half as much on a successful one.\nYou may transport any number of creatures or objects with you to the target location. To\ndo so, each creature or object must be within  of you when you cast this power and the total weight of all creatures and\nobjects cannot exceed twice your carrying capacity. A creature transported this way must be willing and of your\nsize or smaller and the target location must have an unoccupied space for the creature to be transported to. A creature or\nobject brought with you automatically passes the Dexterity saving throw and takes no damage.\nAt Higher Levels. When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d10\nfor each slot level above 2nd.\n  Stutter Step: This power's range is decreased to , but you may cast this power twice as part of the same action, choosing a different target for each cast. Each cast consumes power slots as normal.  Heavy Step: You can transport Large or smaller creatures and objects as long as the total weight does not exceed four times your carrying capacity.",
+    "html": false
+  },
+  {
+    "id": "hex-shield",
+    "title": "Hex Shield",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/hex-shield",
+    "body": "Toss a portable shield generator onto the ground in front of you. It generates  tall and wide, hexagon-shaped shield\nwith 5 AC and 50 shield points.\nAs long as the Hex Shield has shield points, it provides full cover to creatures behind it.\nHex shield regains all shield points when you finish a long rest.\n  Hearty Shield: Increase the shield's hit points to 100.  Large Shield: The Shield covers a  wide area.",
+    "html": false
+  },
+  {
     "id": "incinerate",
     "title": "Incinerate",
     "type": "power",
@@ -10248,6 +10380,150 @@
     "html": false
   },
   {
+    "id": "invasion",
+    "title": "Invasion",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/invasion",
+    "body": "Unleash a VI-controlled machine swarm at a creature or object within range. Two swarms then spread from that target\nto as many as two other targets, each of which must be within  of the first target. A target can be a creature or an\nobject and can be targeted by only one of the swarms.\nA target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic and has disadvantage on\nattack rolls until the power ends. A creature affected by the swarm can use its action to make a Constitution check\nagainst your power save DC. On a success, it breaks free of the swarm.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d8\nand the range the swarms can spread increases by 2m for each slot level above 1st.\n  Exploding Swarm: As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage.  Plague: Three swarms spread from the initial target to as many as three other targets. When you cast this power using a power slot of 2nd level or higher, the number of swarms increases by 1 for each power slot above the 1st.",
+    "html": false
+  },
+  {
+    "id": "lance",
+    "title": "Lance",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/lance",
+    "body": "Release a lance of energy at a creature within range. Make a ranged power attack against the target. On a hit, the target\ntakes 3d8 force damage.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d8\nfor each slot level above the 1st.\n  Anti-shield: Lance deals an additional 2d4 lightning damage. This damage increases by 2d4 for each power slot level above the first.  Improved Damage: Increase the damage die type to d12.",
+    "html": false
+  },
+  {
+    "id": "lash",
+    "title": "Lash",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/lash",
+    "body": "Make a ranged power attack on a target you can see within range. On a hit, the target takes 4d8 force damage and becomes\ngrappled-force. To escape the grapple,\nthe creature must succeed on a contested Strength (Athletics) check against your Constitution. This power also ends if\nthe creature is hit with a detonating attack or if you move more than  away from the target.\nAt Higher Levels: When you cast this power using a power slot of 3rd or higher, the damage increases by 2d8 for each\nslot level above the 2nd.\n  Improved Grapple: The grappled creature has disadvantage when trying to escape.  Improved Damage: Increase the damage die type to d12.",
+    "html": false
+  },
+  {
+    "id": "lift",
+    "title": "Lift",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/lift",
+    "body": "You can manipulate light objects with a series of mass effect fields. When you cast this cantrip, you can try to move an\nobject that weighs up to . If the object isn't being worn or carried, you automatically move it up to\n in any direction, but not beyond the range of this power.\nIf the object is worn or carried by a creature, you must make an ability check with your powercasting ability contested\nby that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to \nin any direction but not beyond the range of this power.\n  Magician: You can exert fine motor control over the object, such as manipulating a simple tool or removing an object from a container.  Improved Lift: You can manipulate an object that weighs up to .",
+    "html": false
+  },
+  {
+    "id": "nanite-cloud",
+    "title": "Nanite Cloud",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/nanite-cloud",
+    "body": "Deploy a cloud of fabricated nanites from your omni-tool that swarm and capture incoming energy from an attack, lessening\nits effect on you and storing it for your next attack. Until the end of your next turn, you gain resistance to the\ntriggering damage type, including against the triggering attack.\nThe next time you hit with a melee attack or single-target, tech power, the target takes an extra 4d6 damage of the triggering\ndamage type, and the power ends.\nAt Higher Levels. When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d6\nfor each power slot about the 1st.\n  Nanite Grenade: While active, use a bonus action to compress the nanites into a grenade. The grenade remains stable for 1 hour before becoming inert. The grenade has a  range,  blast radius, DC 14 Dexterity saving throw and deals 4d6 damage of the triggering damage type. The grenade deals and additional 2d6 damage for each power level beyond 1st.  Aegis: You may cast this power as a reaction when a creature within  of you takes acid, cold, fire, lightning, or thunder damage. Choose up to 3 creatures including yourself within  of you to gain resistance to the chosen damage type until the start of your next turn, including against the triggering attack.",
+    "html": false
+  },
+  {
+    "id": "neural-shock",
+    "title": "Neural Shock",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/neural-shock",
+    "body": "Flash an ion laser at an organic creature within range. The creature makes a Charisma saving throw. On a failed save,\nthe creature has disadvantage on melee and ranged attack rolls and can't take reactions until the end of its\nnext turn.\n  Damage: The target takes 2d6 psychic damage when hit by the ion laser. This damage increases by 2d6 for each slot level above the 1st.  Paralyze: If a creature fails the saving throw, it is paralyzed until the end of its next turn.",
+    "html": false
+  },
+  {
+    "id": "nightshade-blades",
+    "title": "Nightshade Blades",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/nightshade-blades",
+    "body": "Your omni-tool is equipped with three microscopic, poison-tipped blades that are able to pierce through shields and armor.\nMake a ranged weapon attack on a creature you can see within range, expending one blade. You add your proficiency bonus\nto this roll. On a hit, the target takes 1d12 poison damage and must succeed on a Constitution saving throw (DC 8 + proficiency bonus)\nor becomes poisoned until it finishes a short rest. All damage caused by nightshade blades bypasses shields.\nYou must be within melee range and use an action to recover a blade, at which point you can reapply your poison and reload\nit into your omni-tool during a short rest. If you fail to recover your blades, you can create 3 new ones for 1 hour of work\nduring a long rest.\nThis feature's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level (4d12).\n  Paralyze: A creature that fails the Constitution saving throw becomes paralyzed until the end of your next turn.  Powerful Poison: The creature has disadvantage on its Constitution saving throw.",
+    "html": false
+  },
+  {
+    "id": "nova",
+    "title": "Nova",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/nova",
+    "body": "Transfer the energy of your barrier into a biotic explosion, consuming your remaining barrier ticks. Creatures within a\n sphere centered on you must make a Dexterity saving throw. On a failed save, a creature is knocked prone and takes\nforce damage equal to Xd8, where X is the number of barrier ticks. On a successful save, a creature takes half as much\ndamage.\nThis power's damage increases by 1d8 when you reach 5th level (X + 1d8), 11th level (X + 2d8), 17th level (X + 3d8)\n  Improved Damage: Increase the damage die to d12.  Half blast: When you cast nova, it consumes half of your remaining barrier ticks (rounded up) but deals damage as if you had used all of your remaining barrier ticks.",
+    "html": false
+  },
+  {
+    "id": "overload",
+    "title": "Overload",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/overload",
+    "body": "Unleash an electrostatic discharge at a creature or object within range. Three bolts then leap from that target to as\nmany as three other targets, each of which must be within  of the first target. A target can be a creature or an\nobject and can be targeted by only one of the bolts.\nA target becomes primed-lightning until the start of your next turn and must make a Dexterity\nsaving throw. The target takes 3d6 lightning damage on a failed save, or half as much on a successful one.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d6 for each slot level above 1st.\n  Extended Leap: Overload can leap to as many as five other targets within .  Heavy Overload: Increase the damage die type to d8.",
+    "html": false
+  },
+  {
+    "id": "phase-disruptor",
+    "title": "Phase Disruptor",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/phase-disruptor",
+    "body": "You focus the energy of your barrier into a high-powered beam at a target creature or object within range. Remove 1\nbarrier tick and make a ranged power attack on that target. On a hit, the creature takes 3d4 force damage.\nYou may use additional barrier ticks to create more than one beam at higher levels: two beams at 5th level, three beams\nat 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones.\nMake a separate attack roll for each beam.\n  Improved Damage: Increase the damage die type to d6.  Cripple: A creature hit by Phase Disruptor has disadvantage on its next attack roll.",
+    "html": false
+  },
+  {
+    "id": "pheromone-spray",
+    "title": "Pheromone Spray",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/pheromone-spray",
+    "body": "A spray of chemical pheromones lets you convince a beast that you mean it no harm. Choose an organic creature that you can see\nwithin range. It must see you and be capable of smelling. If the creature's Intelligence is 4 or higher, the power fails.\nOtherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the ability's duration.\nIf you or one of your companions harms the creature, the effect ends.\nAt Higher Levels. When you cast this power using a power slot of 2nd level or higher, you can affect one additional\ncreature for each slot level above 1st.\n  Loyalty: If you successfully use this ability on a creature for 30 days in a row, the creature develops a fierce, chemically-induced sense of loyalty to you and remains charmed by you indefinitely.  Aggression: You are able to modify the pheromone cocktail to send creatures into a frenzy. When you use this ability, you may choose to frenzy creatures instead of charming them. A creature that becomes frenzied must use its movement to move towards the nearest creature and attack them if able. A frenzied creature may repeat its save at the end of each of its turns.",
+    "html": false
+  },
+  {
+    "id": "poison-spray",
+    "title": "Poison Spray",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/poison-spray",
+    "body": "Shoot an aerosol spray of noxious chemicals from your omni-tool at a creature within melee range. The creature must\nsucceed on a Constitution saving throw or take 2d12 poison damage and becomes poisoned until the end\nof your next turn.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d12 for each slot level above 1st.\n  Pepper spray: Creatures that fail the Constitution saving throw are also blinded for 1 minute.  Poison Cloud: Create a  radius cloud of poison that persists for 1 minute. Each creature that enters the sphere for the first time on a turn or ends its turn there must make the Constitution saving throw.",
+    "html": false
+  },
+  {
     "id": "pull",
     "title": "Pull",
     "type": "power",
@@ -10257,6 +10533,114 @@
     ],
     "link": "/powers/pull",
     "body": "Make a ranged power attack on a Medium or smaller creature or object within range. On a hit, you create a mass\neffect field around the target and it becomes lifted in the air until the end of your next turn.\nWhile you maintain this power, as a bonus action, you can move the target up to  in any direction. If you move the\ntarget further than  away from you, the power ends and the target falls to the ground.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, increase the duration.\n1 minute at 2nd level, 10 minutes at 3rd level, and 1 hour at 4th level.\n  Heavy Pull: You may target a Large or smaller creature or object.  Grip: While maintaining this power, you may use your bonus action to increase pressure around the target, dealing 2d6 bludgeoning damage.",
+    "html": false
+  },
+  {
+    "id": "reave",
+    "title": "Reave",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/reave",
+    "body": "Hurl an orb of dark energy at one creature within range. Make a range power attack against the target. On a hit, you\ndeal 2d10 necrotic damage and the target becomes primed-necrotic until the end of your next turn.\nThe target also has disadvantage on their next attack, ability check, or saving throw. This disadvantage lasts one minute\nor until the target becomes incapacitated.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, increase the damage by 2d10\nfor each level above the 1st.\n  Area Reave: The orb becomes unstable and explodes when it reaches the target. Hit or miss, the target and each creature within  of it must succeed on a Constitution saving throw or take 2d6 necrotic damage. This damage increases by 2d6 for each power slot level above the first.  Immediate Detonation: When you hit a target with reave, it detonates the primed condition at the end of your turn.",
+    "html": false
+  },
+  {
+    "id": "sabotage",
+    "title": "Sabotage",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/sabotage",
+    "body": "Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target\nweapon has disadvantage.\nCasting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.\nIf the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,\nthis power has no effect unless the creature fails an Intelligence saving throw. Whether or not the synthetic creature\nsucceeds on this saving throw, it becomes aware that it has been targeted by a power.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional\nweapons for each power slot above the 1st.\n  Primed: After the weapon fires, it vents its heat and the attacking creature becomes primed (fire) until the start of its next turn.  Backfire: After the weapon fires, it deals 2d6 thunder damage to the attacking creature.",
+    "html": false
+  },
+  {
+    "id": "salvo",
+    "title": "Salvo",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/salvo",
+    "body": "Create three glowing darts of plasma. Each dart hits a creature of your choice that you can see within range. A dart\ndeals 1d4+1 radiant damage to its target. The darts all strike simultaneously and you can direct them to hit one\ncreature or several.\nAt Higher Levels. When you cast this power using a power slot of 2nd level or higher, the power creates two\nmore darts for each slot level above 1st.\n  Exploding Salvo: Each dart deals an additional 1d4 thunder damage.  Blinding Salvo: When you cast salvo, you may create phosphorous darts instead. The darts no longer deal damage and cannot detonate primed targets. Instead, each dart explodes in a bright flash of light. Each creature hit by a dart must succeed on a Constitution saving throw or becomes blinded until the end of your next turn.",
+    "html": false
+  },
+  {
+    "id": "shocking-grasp",
+    "title": "Shocking Grasp",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/shocking-grasp",
+    "body": "Send an electric shock from your omni-tool to a creature you try to touch. Make a melee power attack against the target.\nYou have advantage on the attack roll if the target is wearing armor. On a hit, the target becomes\nprimed-lightning until the end of your next turn and takes 1d6 lightning damage.\nThen the target must succeed on a Constitution saving throw or become stunned until the end of your next turn. A target\nwith at least 1 shield point has advantage on this saving throw.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d6 for each slot level above 1st.\n  Restoring Shock: Gain shield points equal to half the damage dealt. This cannot increase your shield points beyond their maximum capacity.  Improved Shock: Increase the range to  and damage to d8.",
+    "html": false
+  },
+  {
+    "id": "shockwave",
+    "title": "Shockwave",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/shockwave",
+    "body": "Create a cascading shockwave in a  wide by  long line originating from you. Each creature caught in the line must\nmake a Dexterity saving throw. On a failed save, a creature takes 3d6 force damage and is knocked prone.\nOn a successful save, a creature takes half as much damage.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d6 for\neach slot level above the 1st.\n  Controlled Shockwave: The shockwave travels . You may change the direction of the line every .  Improved Damage: Increase damage die type to d10",
+    "html": false
+  },
+  {
+    "id": "siege-pulse",
+    "title": "Siege Pulse",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/siege-pulse",
+    "body": "Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a -radius\nsphere centered on you. Each creature within the sphere becomes deafened and must\nmake a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes\n2d8 psychic damage and is stunned until the end of your next turn. On a successful save, a creature\ntakes half as much damage. Synthetic creatures have advantage on this saving throw.\nThe first time you use siege pulse, your armor suffers no adverse effect. If you use this power again before you\nfinish a short rest, roll a d20. On a 5 or lower you shields overload. You lose\nall shield points, take 2d12 lightning damage, and cannot gain shield points unless you repair your armor. Each time you\nuse this feature again before finishing a short rest, you suffer a -5 penalty to the roll.\nThis feature's psychic damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), 17th level (5d8).\n  Improved Pulse: Add your Constitution modifier to the DC of the saving throw as you increase the frequency of the pulse to a level you can barely withstand.  Lingering Pulse: Each creature that takes psychic damage from siege pulse has disadvantage on its melee or ranged attack rolls until the start of your next turn.",
+    "html": false
+  },
+  {
+    "id": "singularity",
+    "title": "Singularity",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/singularity",
+    "body": "Create a negative mass effect field in a  sphere at a target location within range. Each creature or object within the\nsphere's radius must succeed on a Strength saving throw or becomes lifted. Only Medium or smaller creature and objects\nare affected. Any creature or object that enters the sphere for the first time or ends its turn there must succeed on a\nStrength (Athletics) check or they are drawn into the sphere and become lifted. Creatures with at least 1 shield point\nhave advantage on the Strength saving throw or Strength (Athletics) check.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, increase the size of the sphere\nby  per power slot above the 3rd.\n  Heavy Singularity: Creatures have disadvantage when making the Strength saving throw or Strength (Athletics) check.  Damage: Any creature within singularity's radius is primed (necrotic) and takes 1d8 necrotic damage at the end of each of your turns.",
+    "html": false
+  },
+  {
+    "id": "slam",
+    "title": "Slam",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/slam",
+    "body": "Target a lifted creature or object and slam it to the ground dealing 2d8 bludgeoning damage and knocking it prone. The\ntarget is no longer lifted.\nThe number of targets increases by 1 when you reach 5th level (2), 11th level (3) and 17th level (4).\n  Stun: If the target is a creature, it must pass a Constitution saving throw or becomes stunned until the end of your next turn.  Reaction: When a creature or object you can see becomes lifted, you may cast Slam on it as a reaction.",
+    "html": false
+  },
+  {
+    "id": "slow-fall",
+    "title": "Slow Fall",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/slow-fall",
+    "body": "When you or a creature within  of you falls, choose up to five falling creatures within range. Create a negative mass\neffect field around each creature, slowing the rate of descent to  per round. If the creature lands before the power\nends, it takes no Falling damage and can land on its feet, and the power ends for that creature.\n  Improved Duration: Increase the duration to 5 minutes  Navigate: As you fall, you can direct your fall by  in any direction except up. You may do this once per round.",
     "html": false
   },
   {

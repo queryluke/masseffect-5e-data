@@ -16,8 +16,8 @@ mechanics:
     dc: false
     damage: false
     duration:
-      - length: 1
-        unit: minute
+      length: 1
+      unit: minute
     concentration: false
     range:
       short: 30

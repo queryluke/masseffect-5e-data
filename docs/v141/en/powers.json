@@ -2088,12 +2088,10 @@
             "type": "necrotic"
           }
         ],
-        "duration": [
-          {
-            "length": 1,
-            "unit": "minute"
-          }
-        ],
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
         "concentration": true,
         "range": {
           "short": 0,
@@ -2160,12 +2158,10 @@
         "attack": false,
         "dc": false,
         "damage": false,
-        "duration": [
-          {
-            "length": 1,
-            "unit": "minute"
-          }
-        ],
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
         "concentration": false,
         "range": {
           "short": 30,
@@ -2667,6 +2663,948 @@
     "id": "first-aid"
   },
   {
+    "name": "Flak Cannon",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "soldier"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "attack"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "dex",
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 6,
+            "type": "piercing"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 30,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "detonates": false,
+        "primes": false,
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "flak-cannon"
+        }
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "shredder",
+        "name": "Shredder",
+        "text": "If a creature with 0 shield points takes damage from Flak Cannon, it becomes wounded. A wounded creature takes 1d4 damage from blood loss at the start of each of its turns. A wounded creature can make a DC 15 Constitution saving throw, ending the effect on a success. Alternatively, any creature (including the wounded creature), can make a DC 15 Wisdom (Medicine) check or use a charge of Medi-gel, ending the effect on a success.",
+        "mechanics": [
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 1,
+                "dieType": 4,
+                "type": "bleeding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stunner",
+        "name": "Stunner",
+        "text": "When you attack with Flak Cannon, you can choose to fire concussive blasts dealing no damage. Creatures within the sphere must instead make a Constitution saving throw. On a failed save, a creature becomes stunned until the start of your next turn."
+      }
+    ],
+    "html": "<p>As an Attack action, you load and fire krogan-designed shells that burst into shrapnel upon impact. Choose a target location\nwithin range. Each creature in a <me-distance length=\"10\" adj />-radius sphere centered on the point of impact of the shell must make a Dexterity\nsaving throw (DC 8 + proficiency bonus + DEX modifier). A target takes 2d6 piercing damage on a failed save,\nor half as much damage on a successful one.</p>\n<p>You have 3 charges of Flak Cannon. You regain all of your charges on a long rest.</p>\n<p>This feature's damage increases by 2d6 when you reach 5th level (4d6), 11th level (6d6), 17th level (8d6)</p>\n",
+    "id": "flak-cannon"
+  },
+  {
+    "name": "Flamethrower",
+    "level": 3,
+    "version": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 6,
+            "dieType": 10,
+            "type": "fire"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "cone",
+            "size": 20
+          }
+        },
+        "detonates": false,
+        "primes": "fire"
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "concentrated-burn",
+        "name": "Concentrated Burn",
+        "text": "Increase the damage to d12 and the distance to <me-distance length=\"30\" />, but the area-of-effect is now a <me-distance length=\"5\" adj /> wide line instead of a cone.",
+        "mechanics": [
+          {
+            "dieType": "d12",
+            "range": {
+              "aoe": {
+                "size": 30,
+                "type": "line"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "exhaust",
+        "name": "Exhaust",
+        "text": "The flames create a thick smoke in an <me-distance length=\"20\" adj /> cube that must encompass the cone. The area is considered heavily obscured until the end of your next turn.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Overload your omni-tool's acetylene torch, spewing flames in front of you. Each creature within an <me-distance length=\"20\" adj /> cone is\n<me-condition id=\"primed\" sub=\"fire\"/> until the start of your next turn and must make a Dexterity saving throw. A creature\ntakes 6d10 fire damage on a failed save or half as much damage on a successful one.</p>\n<p>At the start of your turn, you may spend your action and 1 additional tech point to continue casting this power. Your\nmovement speed is <me-distance length=\"5\" /> while casting it in this manner. The power ends if you become incapacitated.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 4th level or higher, the damage increases by 2d10\nfor each slot level above 3rd.</p>\n",
+    "id": "flamethrower"
+  },
+  {
+    "name": "Flare",
+    "level": 4,
+    "version": 2,
+    "type": "biotic",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "adept"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 6,
+            "dieType": 12,
+            "type": "radiant"
+          }
+        ],
+        "conditions": "blinded",
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150
+        },
+        "detonates": true,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-blind",
+        "name": "Improved Blind",
+        "text": "Each creature is blinded no matter the result of its saving throw.",
+        "mechanics": []
+      },
+      {
+        "id": "heat-seeking-flare",
+        "name": "Heat seeking flare",
+        "text": "Instead of choosing 4 targets, you may instead choose 1. If you do so, the target has disadvantage on the saving throw. Increase the damage by 4d12.",
+        "mechanics": [
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 10
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Rapidly altering the mass of air particles creates radioactive projectiles that seek out the targets and explode. Choose\nup to 4 creatures that you can see within range. Each creature must make a Constitution saving throw. On a failed save,\na creature is <me-condition id=\"blinded\"/> until the end of your next turn and takes radiant damage equal to 6d12. On a\nsuccessful save, a creature takes half damage but suffers no other negative effect.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 5th level, increase the damage by 2d12.</p>\n",
+    "id": "flare"
+  },
+  {
+    "name": "Fly",
+    "version": 1,
+    "level": 2,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "tags": [
+      "movement"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 0
+        },
+        "detonates": false,
+        "primes": false,
+        "toggle": {
+          "id": "power-fly",
+          "whenOn": [
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 60
+            }
+          ]
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "speed",
+        "name": "Speed",
+        "text": "You may cast Fly as a bonus action. Increase the flying speed to <me-distance length=\"90\" />",
+        "mechanics": [
+          {
+            "altCasting": [
+              {
+                "length": 1,
+                "unit": "bonus_action"
+              }
+            ],
+            "toggle": {
+              "whenOn": [
+                {
+                  "distance": 90
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "extended-cast",
+        "name": "Extended Cast",
+        "text": "The duration of fly becomes 30 minutes.",
+        "mechanics": [
+          {
+            "duration": {
+              "length": 30
+            }
+          }
+        ]
+      }
+    ],
+    "html": "<p>Create a negative mass effect field around yourself allowing you to move freely through the air. During the duration of\nthis power, you gain a flying speed of <me-distance length=\"60\" />. When the power ends if you are still aloft, you fall to the ground.</p>\n",
+    "id": "fly"
+  },
+  {
+    "name": "Fortification",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "classes": [
+      "soldier",
+      "vanguard"
+    ],
+    "tags": [
+      "buff"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "reaction",
+          "reaction": "which you take when you are targeted by an attack you can see"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 1,
+          "unit": "round"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0
+        },
+        "detonates": false,
+        "primes": false,
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "fortification"
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "lasting-fortification",
+        "name": "Lasting Fortification",
+        "text": "Fortification lasts an additional turn.",
+        "mechanics": [
+          {
+            "duration": {
+              "length": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "venting-fortification",
+        "name": "Venting Fortification",
+        "text": "When fortification ends, the currents are sent to your gauntlets. Your next melee weapon attack is made at advantage and deals an additional 2d10 bludgeoning damage.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Reinforce your armor using protective Foucault currents. Gain +5 AC until the start of your next turn, including against\nthe triggering attack.</p>\n<p>You must finish a short or long rest before you can use this ability again.</p>\n",
+    "id": "fortification"
+  },
+  {
+    "name": "Gravity Field",
+    "version": 1,
+    "level": 1,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "vanguard"
+    ],
+    "tags": [
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "str"
+        },
+        "damage": false,
+        "conditions": "restrained",
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 90,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        },
+        "detonates": false,
+        "primes": "force"
+      }
+    ],
+    "advancements": [
+      {
+        "id": "pulsing-field",
+        "name": "Pulsing Field",
+        "text": "As a bonus action, for the duration of the power, you can force a number of creatures equal to twice the power level that are within the gravity field to make a Strength saving throw or be restrained until the power ends.",
+        "mechanics": []
+      },
+      {
+        "id": "warping-field",
+        "name": "Warping Field",
+        "text": "A creature takes 1d6 necrotic damage per power level when it enters the gravity field for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "damage": {
+              "dieCount": 1,
+              "dieType": 6,
+              "type": "necrotic"
+            }
+          }
+        ]
+      }
+    ],
+    "html": "<p>You create a field of unstable gravity in a <me-distance length=\"15\" adj/> cube starting from a point within range.  For the duration, this\nspace becomes difficult terrain.</p>\n<p>A creature in the area when you cast the power must succeed on a Strength saving throw or be <me-condition id=\"restrained\"/>\nuntil the power ends. A creature restrained by this power can use its action to make a Strength check against your\npower save DC. On a success, it frees itself.</p>\n<p>When the power ends, the gravity field dissipates.</p>\n",
+    "id": "gravity-field"
+  },
+  {
+    "name": "Guidance",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "tags": [
+      "buff"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "bonus_action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        },
+        "concentration": false,
+        "range": {
+          "short": 90
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "multi-tap",
+        "name": "Multi-Tap",
+        "text": "Guidance can be active on up to 3 different targets.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-tap",
+        "name": "Improved Tap",
+        "text": "Increase the die type to d10",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Tap into the VI of a willing creature. Once within the next 10 minutes, the target can roll a d6 and add the number\nrolled to one ability check, saving throw, or attack roll of its choice. It can roll the die before or after making the roll.</p>\n<p>You may only have guidance active on a single target.</p>\n",
+    "id": "guidance"
+  },
+  {
+    "name": "Havoc Strike",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "classes": [
+      "soldier",
+      "vanguard"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "attack"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "str",
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 8,
+            "type": "thunder"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 25,
+          "aoe": {
+            "type": "sphere",
+            "size": 5
+          }
+        },
+        "detonates": false,
+        "primes": false,
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "havoc-strike"
+        }
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-distance",
+        "name": "Improved Distance",
+        "text": "You can jump up to <me-distance length=\"35\" />.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-radius",
+        "name": "Improved Radius",
+        "text": "Increase the radius of the impact to <me-distance length=\"10\" />.",
+        "mechanics": [
+          {
+            "range": {
+              "aoe": {
+                "size": 10
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "html": "<p>Use a propulsion jet built into your leg armor to spring to a location within <me-distance length=\"25\" /> and strike the ground with violent force.\nEach creature within a <me-distance length=\"5\" adj/> radius of where you land must make a Dexterity saving throw (DC 8 + proficiency bonus + STR modifier).\nOn a failed save, a creature takes 2d8 thunder damage or half as much on a successful one.</p>\n<p>You can use this feature twice between short or long rests.</p>\n<p>This feature's damage increases by 2d8 when you reach 5th level (4d8), 11th level (6d8), 17th level (8d8).</p>\n",
+    "id": "havoc-strike"
+  },
+  {
+    "name": "Hawk Missile Launcher",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "classes": [
+      "soldier"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "bonus_action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 6,
+            "type": "thunder"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150
+        },
+        "detonates": false,
+        "primes": false,
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "hawk-missile-launcher"
+        }
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 12
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "anti-shield",
+        "name": "Anti-Shield",
+        "text": "The missile detonates a small EMP, transforming the damage to lightning.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "type": "lightning"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "three-headed-beast",
+        "name": "Three-headed beast",
+        "text": "Your missile splits into three separate missiles, each dealing 1d6 damage (2d6 at 5th level, 3d6 at 11th level and 4d6 at 17th level). You can direct the missiles at the same target or at different ones.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieCount": 1
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 2
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 3
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits a target within range\ndealing 3d6 thunder damage.</p>\n<p>You can use the Hawk Missile Launcher once per short rest.</p>\n<p>This feature's damage increases by 3d6 when you reach 5th level (6d6), 11th level (9d6), 17th level (12d6).</p>\n",
+    "id": "hawk-missile-launcher"
+  },
+  {
+    "name": "Heavy Charge",
+    "version": 1,
+    "level": 2,
+    "type": "biotic",
+    "classes": [
+      "vanguard"
+    ],
+    "tags": [
+      "damage",
+      "movement"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 4,
+            "dieType": 10,
+            "type": "force"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 90,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "detonates": true,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "stutter-step",
+        "name": "Stutter Step",
+        "text": "This power's range is decreased to <me-distance length=\"30\" />, but you may cast this power twice as part of the same action, choosing a different target for each cast. Each cast consumes power slots as normal.",
+        "mechanics": [
+          {
+            "range": {
+              "short": 30
+            }
+          }
+        ]
+      },
+      {
+        "id": "heavy-step",
+        "name": "Heavy Step",
+        "text": "You can transport Large or smaller creatures and objects as long as the total weight does not exceed four times your carrying capacity.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Choose a creature or object within range and use the target's mass to pull yourself to its location\n(this movement does not provoke opportunity attacks). Each creature within <me-distance length=\"10\" /> of the target must make Dexterity saving\nthrow, taking 4d10 force damage on a failed save, or half as much on a successful one.</p>\n<p>You may transport any number of creatures or objects with you to the target location. To\ndo so, each creature or object must be within <me-distance length=\"5\" /> of you when you cast this power and the total weight of all creatures and\nobjects cannot exceed twice your carrying capacity. A creature transported this way must be willing and of your\nsize or smaller and the target location must have an unoccupied space for the creature to be transported to. A creature or\nobject brought with you automatically passes the Dexterity saving throw and takes no damage.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d10\nfor each slot level above 2nd.</p>\n",
+    "id": "heavy-charge"
+  },
+  {
+    "name": "Hex Shield",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "classes": [
+      "soldier"
+    ],
+    "tags": [
+      "protection"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "bonus_action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "size": 5,
+            "type": "line"
+          }
+        },
+        "detonates": false,
+        "primes": false,
+        "resource": {
+          "displayType": "counter",
+          "reset": "short",
+          "resetTo": "max",
+          "max": {
+            "type": "flat",
+            "value": 50
+          },
+          "id": "hex-shield",
+          "label": "hit points / long rest"
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "hearty-shield",
+        "name": "Hearty Shield",
+        "text": "Increase the shield's hit points to 100.",
+        "mechanics": [
+          {
+            "resource": {
+              "max": {
+                "value": 100
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "large-shield",
+        "name": "Large Shield",
+        "text": "The Shield covers a <me-distance length=\"10\" /> wide area.",
+        "mechanics": [
+          {
+            "range": {
+              "aoe": {
+                "size": 10
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "html": "<p>Toss a portable shield generator onto the ground in front of you. It generates <me-distance length=\"5\" adj/> tall and wide, hexagon-shaped shield\nwith 5 AC and 50 shield points.</p>\n<p>As long as the Hex Shield has shield points, it provides full cover to creatures behind it.</p>\n<p>Hex shield regains all shield points when you finish a long rest.</p>\n",
+    "id": "hex-shield"
+  },
+  {
     "name": "Incinerate",
     "version": 1,
     "level": 1,
@@ -2753,6 +3691,1071 @@
     ],
     "html": "<p>Hurl a high-explosive, plasma round at a creature or object within range. Make a ranged power attack against the target.\nOn a hit, the target is <me-condition id=\"primed\" sub=\"fire\"/> until the end of your next turn and takes 2d10 fire damage.\nA flammable object hit by this power ignites if it isn't being worn or carried.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d10 for each slot level above 1st.</p>\n",
     "id": "incinerate"
+  },
+  {
+    "name": "Invasion",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "tags": [
+      "damage",
+      "debuff"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "psychic"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 60
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 2
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 3
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "exploding-swarm",
+        "name": "Exploding Swarm",
+        "text": "As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage.",
+        "mechanics": [
+          {
+            "altCasting": [
+              {
+                "length": 1,
+                "unit": "bonus_action"
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 3,
+                "dieType": 8,
+                "type": "thunder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "plague",
+        "name": "Plague",
+        "text": "Three swarms spread from the initial target to as many as three other targets. When you cast this power using a power slot of 2nd level or higher, the number of swarms increases by 1 for each power slot above the 1st.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Unleash a VI-controlled machine swarm at a creature or object within range. Two swarms then spread from that target\nto as many as two other targets, each of which must be within <me-distance length=\"15\" /> of the first target. A target can be a creature or an\nobject and can be targeted by only one of the swarms.</p>\n<p>A target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic and has disadvantage on\nattack rolls until the power ends. A creature affected by the swarm can use its action to make a Constitution check\nagainst your power save DC. On a success, it breaks free of the swarm.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d8\nand the range the swarms can spread increases by 2m for each slot level above 1st.</p>\n",
+    "id": "invasion"
+  },
+  {
+    "name": "Lance",
+    "version": 1,
+    "level": 1,
+    "type": "biotic",
+    "tags": [
+      "damage"
+    ],
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 8,
+            "type": "force"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150
+        },
+        "detonates": true,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 7
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 11
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "anti-shield",
+        "name": "Anti-shield",
+        "text": "Lance deals an additional 2d4 lightning damage. This damage increases by 2d4 for each power slot level above the first.",
+        "mechanics": [
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 2,
+                "dieType": 4,
+                "type": "lightning"
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 4
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 6
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 8
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "improved-damage",
+        "name": "Improved Damage",
+        "text": "Increase the damage die type to d12.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieType": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Release a lance of energy at a creature within range. Make a ranged power attack against the target. On a hit, the target\ntakes 3d8 force damage.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d8\nfor each slot level above the 1st.</p>\n",
+    "id": "lance"
+  },
+  {
+    "name": "Lash",
+    "version": 1,
+    "level": 2,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "tags": [
+      "damage",
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 4,
+            "dieType": 8,
+            "type": "force"
+          }
+        ],
+        "conditions": "grappled",
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 60
+        },
+        "detonates": false,
+        "primes": "force"
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-grapple",
+        "name": "Improved Grapple",
+        "text": "The grappled creature has disadvantage when trying to escape.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-damage",
+        "name": "Improved Damage",
+        "text": "Increase the damage die type to d12.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieType": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Make a ranged power attack on a target you can see within range. On a hit, the target takes 4d8 force damage and becomes\n<me-condition id=\"grappled\"/>. While grappled the creature is <me-condition id=\"primed\" sub=\"force\"/>. To escape the grapple,\nthe creature must succeed on a contested Strength (Athletics) check against your Constitution. This power also ends if\nthe creature is hit with a detonating attack or if you move more than <me-distance length=\"60\" /> away from the target.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 3rd or higher, the damage increases by 2d8 for each\nslot level above the 2nd.</p>\n",
+    "id": "lash"
+  },
+  {
+    "name": "Lift",
+    "version": 1,
+    "level": 0,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "tags": [
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 10,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 120
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "magician",
+        "name": "Magician",
+        "text": "You can exert fine motor control over the object, such as manipulating a simple tool or removing an object from a container.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-lift",
+        "name": "Improved Lift",
+        "text": "You can manipulate an object that weighs up to <me-weight amount=\"55\" />.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>You can manipulate light objects with a series of mass effect fields. When you cast this cantrip, you can try to move an\nobject that weighs up to <me-weight amount=\"20\" />. If the object isn't being worn or carried, you automatically move it up to\n<me-distance length=\"30\" /> in any direction, but not beyond the range of this power.</p>\n<p>If the object is worn or carried by a creature, you must make an ability check with your powercasting ability contested\nby that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to <me-distance length=\"30\" />\nin any direction but not beyond the range of this power.</p>\n",
+    "id": "lift"
+  },
+  {
+    "name": "Nanite Cloud",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "sentinel"
+    ],
+    "tags": [
+      "protection"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "reaction",
+          "reaction": "which you take when you would take acid, cold, fire, lightning, or thunder damage"
+        },
+        "attack": false,
+        "dc": false,
+        "conditions": false,
+        "duration": {
+          "length": 1,
+          "unit": "round"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "nanite-grenade",
+        "name": "Nanite Grenade",
+        "text": "While active, use a bonus action to compress the nanites into a grenade. The grenade remains stable for 1 hour before becoming inert. The grenade has a <me-distance length=\"30\" adj/> range, <me-distance length=\"10\" adj/> blast radius, DC 14 Dexterity saving throw and deals 4d6 damage of the triggering damage type. The grenade deals and additional 2d6 damage for each power level beyond 1st.",
+        "mechanics": []
+      },
+      {
+        "id": "aegis",
+        "name": "Aegis",
+        "text": "You may cast this power as a reaction when a creature within <me-distance length=\"5\" /> of you takes acid, cold, fire, lightning, or thunder damage. Choose up to 3 creatures including yourself within <me-distance length=\"5\" /> of you to gain resistance to the chosen damage type until the start of your next turn, including against the triggering attack.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Deploy a cloud of fabricated nanites from your omni-tool that swarm and capture incoming energy from an attack, lessening\nits effect on you and storing it for your next attack. Until the end of your next turn, you gain resistance to the\ntriggering damage type, including against the triggering attack.</p>\n<p>The next time you hit with a melee attack or single-target, tech power, the target takes an extra 4d6 damage of the triggering\ndamage type, and the power ends.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d6\nfor each power slot about the 1st.</p>\n",
+    "id": "nanite-cloud"
+  },
+  {
+    "name": "Neural Shock",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator"
+    ],
+    "tags": [
+      "debuff"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "cha"
+        },
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "damage",
+        "name": "Damage",
+        "text": "The target takes 2d6 psychic damage when hit by the ion laser. This damage increases by 2d6 for each slot level above the 1st.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "psychic"
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 4
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 6
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 8
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paralyze",
+        "name": "Paralyze",
+        "text": "If a creature fails the saving throw, it is paralyzed until the end of its next turn.",
+        "mechanics": [
+          {
+            "conditions": [
+              "paralyzed"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Flash an ion laser at an organic creature within range. The creature makes a Charisma saving throw. On a failed save,\nthe creature has disadvantage on melee and ranged attack rolls and can't take reactions until the end of its\nnext turn.</p>\n",
+    "id": "neural-shock"
+  },
+  {
+    "name": "Nightshade Blades",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "classes": [
+      "infiltrator",
+      "soldier",
+      "vanguard"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "attack"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true,
+          "mod": "dex"
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 12,
+            "type": "poison"
+          }
+        ],
+        "conditions": "poisoned",
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 30
+        },
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "nightshade-blades"
+        },
+        "notes": [
+          "DC {{ 8 + profBonus }} CON or poisoned"
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 2
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 3
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "paralyze",
+        "name": "Paralyze",
+        "text": "A creature that fails the Constitution saving throw becomes paralyzed until the end of your next turn.",
+        "mechanics": [
+          {
+            "notes": [
+              "DC {{ 8 + profBonus }} CON or paralyzed 1 RND"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "powerful-poison",
+        "name": "Powerful Poison",
+        "text": "The creature has disadvantage on its Constitution saving throw.",
+        "mechanics": [
+          {
+            "notes": [
+              "DC {{ 8 + profBonus }} CON (disadvantage) or poisoned"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Your omni-tool is equipped with three microscopic, poison-tipped blades that are able to pierce through shields and armor.\nMake a ranged weapon attack on a creature you can see within range, expending one blade. You add your proficiency bonus\nto this roll. On a hit, the target takes 1d12 poison damage and must succeed on a Constitution saving throw (DC 8 + proficiency bonus)\nor becomes <me-condition id=\"poisoned\"/> until it finishes a short rest. All damage caused by nightshade blades bypasses shields.</p>\n<p>You must be within melee range and use an action to recover a blade, at which point you can reapply your poison and reload\nit into your omni-tool during a short rest. If you fail to recover your blades, you can create 3 new ones for 1 hour of work\nduring a long rest.</p>\n<p>This feature's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level (4d12).</p>\n",
+    "id": "nightshade-blades"
+  },
+  {
+    "name": "Nova",
+    "version": 1,
+    "level": 0,
+    "type": "biotic",
+    "classes": [
+      "vanguard"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierRemaining",
+            "dieType": 8,
+            "type": "force"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 5
+          }
+        },
+        "detonates": true,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": "barrierRemaining + 1"
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": "barrierRemaining + 2"
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": "barrierRemaining + 3"
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-damage",
+        "name": "Improved Damage",
+        "text": "Increase the damage die to d12.",
+        "mechanics": [
+          {
+            "damage": {
+              "dieType": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "half-blast",
+        "name": "Half blast",
+        "text": "When you cast nova, it consumes half of your remaining barrier ticks (rounded up) but deals damage as if you had used all of your remaining barrier ticks.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Transfer the energy of your barrier into a biotic explosion, consuming your remaining barrier ticks. Creatures within a\n<me-distance length=\"5\" adj/> sphere centered on you must make a Dexterity saving throw. On a failed save, a creature is knocked prone and takes\nforce damage equal to Xd8, where X is the number of barrier ticks. On a successful save, a creature takes half as much\ndamage.</p>\n<p>This power's damage increases by 1d8 when you reach 5th level (X + 1d8), 11th level (X + 2d8), 17th level (X + 3d8)</p>\n",
+    "id": "nova"
+  },
+  {
+    "name": "Overload",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 6,
+            "type": "lightning"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 120
+        },
+        "detonates": false,
+        "primes": "lightning"
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 7
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 11
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "extended-leap",
+        "name": "Extended Leap",
+        "text": "Overload can leap to as many as five other targets within <me-distance length=\"30\" />.",
+        "mechanics": []
+      },
+      {
+        "id": "heavy-overload",
+        "name": "Heavy Overload",
+        "text": "Increase the damage die type to d8.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieType": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Unleash an electrostatic discharge at a creature or object within range. Three bolts then leap from that target to as\nmany as three other targets, each of which must be within <me-distance length=\"15\" /> of the first target. A target can be a creature or an\nobject and can be targeted by only one of the bolts.</p>\n<p>A target becomes <me-condition id=\"primed\" sub=\"lightning\"/> until the start of your next turn and must make a Dexterity\nsaving throw. The target takes 3d6 lightning damage on a failed save, or half as much on a successful one.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d6 for each slot level above 1st.</p>\n",
+    "id": "overload"
+  },
+  {
+    "name": "Phase Disruptor",
+    "version": 1,
+    "level": 0,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 4,
+            "type": "force"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 120
+        },
+        "detonates": true,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-damage",
+        "name": "Improved Damage",
+        "text": "Increase the damage die type to d6.",
+        "mechanics": []
+      },
+      {
+        "id": "cripple",
+        "name": "Cripple",
+        "text": "A creature hit by Phase Disruptor has disadvantage on its next attack roll.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>You focus the energy of your barrier into a high-powered beam at a target creature or object within range. Remove 1\nbarrier tick and make a ranged power attack on that target. On a hit, the creature takes 3d4 force damage.</p>\n<p>You may use additional barrier ticks to create more than one beam at higher levels: two beams at 5th level, three beams\nat 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones.\nMake a separate attack roll for each beam.</p>\n",
+    "id": "phase-disruptor"
+  },
+  {
+    "name": "Pheromone Spray",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "sentinel",
+      "infiltrator"
+    ],
+    "tags": [
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "wis"
+        },
+        "damage": false,
+        "conditions": [
+          "charmed"
+        ],
+        "duration": {
+          "length": 24,
+          "unit": "hour"
+        },
+        "concentration": false,
+        "range": {
+          "short": 30
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "loyalty",
+        "name": "Loyalty",
+        "text": "If you successfully use this ability on a creature for 30 days in a row, the creature develops a fierce, chemically-induced sense of loyalty to you and remains charmed by you indefinitely.",
+        "mechanics": []
+      },
+      {
+        "id": "aggression",
+        "name": "Aggression",
+        "text": "You are able to modify the pheromone cocktail to send creatures into a frenzy. When you use this ability, you may choose to frenzy creatures instead of charming them. A creature that becomes frenzied must use its movement to move towards the nearest creature and attack them if able. A frenzied creature may repeat its save at the end of each of its turns.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>A spray of chemical pheromones lets you convince a beast that you mean it no harm. Choose an organic creature that you can see\nwithin range. It must see you and be capable of smelling. If the creature's Intelligence is 4 or higher, the power fails.\nOtherwise, the beast must succeed on a Wisdom saving throw or be <me-condition id=\"charmed\"/> by you for the ability's duration.\nIf you or one of your companions harms the creature, the effect ends.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, you can affect one additional\ncreature for each slot level above 1st.</p>\n",
+    "id": "pheromone-spray"
+  },
+  {
+    "name": "Poison Spray",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 12,
+            "type": "poison"
+          }
+        ],
+        "conditions": [
+          "poisoned"
+        ],
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 5
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "pepper-spray",
+        "name": "Pepper spray",
+        "text": "Creatures that fail the Constitution saving throw are also blinded for 1 minute.",
+        "mechanics": [
+          {
+            "conditions": [
+              "poisoned",
+              "blinded"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "poison-cloud",
+        "name": "Poison Cloud",
+        "text": "Create a <me-distance length=\"5\" adj/> radius cloud of poison that persists for 1 minute. Each creature that enters the sphere for the first time on a turn or ends its turn there must make the Constitution saving throw.",
+        "mechanics": [
+          {
+            "duration": {
+              "length": 1,
+              "unit": "minute"
+            },
+            "range": {
+              "aoe": {
+                "size": 5,
+                "type": "radius"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "html": "<p>Shoot an aerosol spray of noxious chemicals from your omni-tool at a creature within melee range. The creature must\nsucceed on a Constitution saving throw or take 2d12 poison damage and becomes <me-condition id=\"poisoned\"/> until the end\nof your next turn.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d12 for each slot level above 1st.</p>\n",
+    "id": "poison-spray"
   },
   {
     "name": "Pull",
@@ -2851,5 +4854,838 @@
     ],
     "html": "<p>Make a ranged power attack on a Medium or smaller creature or object within range. On a hit, you create a mass\neffect field around the target and it becomes <me-condition id=\"lifted\"/> <me-distance length=\"5\" /> in the air until the end of your next turn.\nWhile you maintain this power, as a bonus action, you can move the target up to <me-distance length=\"10\" /> in any direction. If you move the\ntarget further than <me-distance length=\"90\" /> away from you, the power ends and the target falls to the ground.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, increase the duration.\n1 minute at 2nd level, 10 minutes at 3rd level, and 1 hour at 4th level.</p>\n",
     "id": "pull"
+  },
+  {
+    "name": "Reave",
+    "version": 1,
+    "level": 1,
+    "type": "biotic",
+    "classes": [
+      "adept"
+    ],
+    "tags": [
+      "damage",
+      "debuff"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true
+        },
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 10,
+            "type": "necrotic"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150
+        },
+        "detonates": false,
+        "primes": "necrotic"
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 10
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "area-reave",
+        "name": "Area Reave",
+        "text": "The orb becomes unstable and explodes when it reaches the target. Hit or miss, the target and each creature within <me-distance length=\"5\" /> of it must succeed on a Constitution saving throw or take 2d6 necrotic damage. This damage increases by 2d6 for each power slot level above the first.",
+        "mechanics": [
+          {
+            "range": {
+              "aoe": {
+                "type": "sphere",
+                "size": 5
+              }
+            },
+            "damage": [
+              {},
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "necrotic"
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 4
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 6
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 8
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "immediate-detonation",
+        "name": "Immediate Detonation",
+        "text": "When you hit a target with reave, it detonates the primed condition at the end of your turn.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Hurl an orb of dark energy at one creature within range. Make a range power attack against the target. On a hit, you\ndeal 2d10 necrotic damage and the target becomes <me-condition id=\"primed\" sub=\"necrotic\"/> until the end of your next turn.\nThe target also has disadvantage on their next attack, ability check, or saving throw. This disadvantage lasts one minute\nor until the target becomes incapacitated.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, increase the damage by 2d10\nfor each level above the 1st.</p>\n",
+    "id": "reave"
+  },
+  {
+    "name": "Sabotage",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator"
+    ],
+    "tags": [
+      "debuff",
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "int"
+        },
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 1,
+          "unit": "hour"
+        },
+        "concentration": false,
+        "range": {
+          "short": 90
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "primed",
+        "name": "Primed",
+        "text": "After the weapon fires, it vents its heat and the attacking creature becomes primed (fire) until the start of its next turn.",
+        "mechanics": []
+      },
+      {
+        "id": "backfire",
+        "name": "Backfire",
+        "text": "After the weapon fires, it deals 2d6 thunder damage to the attacking creature.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target\nweapon has disadvantage.</p>\n<p>Casting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.</p>\n<p>If the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,\nthis power has no effect unless the creature fails an Intelligence saving throw. Whether or not the synthetic creature\nsucceeds on this saving throw, it becomes aware that it has been targeted by a power.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional\nweapons for each power slot above the 1st.</p>\n",
+    "id": "sabotage"
+  },
+  {
+    "name": "Salvo",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator",
+      "sentinel"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 4,
+            "type": "radiant",
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 150
+        },
+        "detonates": true,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "exploding-salvo",
+        "name": "Exploding Salvo",
+        "text": "Each dart deals an additional 1d4 thunder damage.",
+        "mechanics": [
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 1,
+                "dieType": 4,
+                "type": "thunder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "blinding-salvo",
+        "name": "Blinding Salvo",
+        "text": "When you cast salvo, you may create phosphorous darts instead. The darts no longer deal damage and cannot detonate primed targets. Instead, each dart explodes in a bright flash of light. Each creature hit by a dart must succeed on a Constitution saving throw or becomes blinded until the end of your next turn.",
+        "mechanics": [
+          {
+            "damage": false,
+            "dc": {
+              "base": 8,
+              "proficient": true,
+              "save": "con"
+            },
+            "conditions": [
+              "blinded"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Create three glowing darts of plasma. Each dart hits a creature of your choice that you can see within range. A dart\ndeals 1d4+1 radiant damage to its target. The darts all strike simultaneously and you can direct them to hit one\ncreature or several.</p>\n<p><strong>At Higher Levels</strong>. When you cast this power using a power slot of 2nd level or higher, the power creates two\nmore darts for each slot level above 1st.</p>\n",
+    "id": "salvo"
+  },
+  {
+    "name": "Shocking Grasp",
+    "version": 1,
+    "level": 1,
+    "type": "tech",
+    "classes": [
+      "engineer",
+      "infiltrator"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": {
+          "type": "melee",
+          "proficient": true
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 6,
+            "type": "lightning"
+          }
+        ],
+        "conditions": [
+          "stunned"
+        ],
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 5
+        },
+        "detonates": false,
+        "primes": "lightning",
+        "notes": [
+          "Hit: CON save (DC {{ dc }}) or stunned"
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 3
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 7
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
+      }
+    ],
+    "primes": "lightning",
+    "advancements": [
+      {
+        "id": "restoring-shock",
+        "name": "Restoring Shock",
+        "text": "Gain shield points equal to half the damage dealt. This cannot increase your shield points beyond their maximum capacity.",
+        "mechanics": []
+      },
+      {
+        "id": "improved-shock",
+        "name": "Improved Shock",
+        "text": "Increase the range to <me-distance length=\"10\" /> and damage to d8.",
+        "mechanics": [
+          {
+            "range": {
+              "short": 10
+            },
+            "damage": [
+              {
+                "dieType": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Send an electric shock from your omni-tool to a creature you try to touch. Make a melee power attack against the target.\nYou have advantage on the attack roll if the target is wearing armor. On a hit, the target becomes\n<me-condition id=\"primed\" sub=\"lightning\"/> until the end of your next turn and takes 1d6 lightning damage.\nThen the target must succeed on a Constitution saving throw or become stunned until the end of your next turn. A target\nwith at least 1 shield point has advantage on this saving throw.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases\nby 2d6 for each slot level above 1st.</p>\n",
+    "id": "shocking-grasp"
+  },
+  {
+    "name": "Shockwave",
+    "version": 1,
+    "level": 1,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 6,
+            "type": "force"
+          }
+        ],
+        "conditions": [
+          "prone"
+        ],
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "line",
+            "size": 30
+          }
+        },
+        "detonates": true,
+        "primes": false
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 7
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 11
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "controlled-shockwave",
+        "name": "Controlled Shockwave",
+        "text": "The shockwave travels <me-distance length=\"40\" />. You may change the direction of the line every <me-distance length=\"10\" />.",
+        "mechanics": [
+          {
+            "range": {
+              "aoe": {
+                "size": 40
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "improved-damage",
+        "name": "Improved Damage",
+        "text": "Increase damage die type to d10",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieType": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Create a cascading shockwave in a <me-distance length=\"5\" adj/> wide by <me-distance length=\"30\" adj/> long line originating from you. Each creature caught in the line must\nmake a Dexterity saving throw. On a failed save, a creature takes 3d6 force damage and is knocked <me-condition id=\"prone\"/>.\nOn a successful save, a creature takes half as much damage.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, the damage increases by 2d6 for\neach slot level above the 1st.</p>\n",
+    "id": "shockwave"
+  },
+  {
+    "name": "Siege Pulse",
+    "version": 1,
+    "level": 0,
+    "type": "combat",
+    "classes": [
+      "soldier",
+      "vanguard"
+    ],
+    "tags": [
+      "damage",
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": false,
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 8,
+            "type": "psychic"
+          }
+        ],
+        "conditions": [
+          "deafened",
+          "stunned"
+        ],
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "detonates": false,
+        "primes": false,
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "siege-pulse"
+        }
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 3
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 4
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 5
+          }
+        ]
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-pulse",
+        "name": "Improved Pulse",
+        "text": "Add your Constitution modifier to the DC of the saving throw as you increase the frequency of the pulse to a level you can barely withstand.",
+        "mechanics": [
+          {
+            "dc": {
+              "proficient": true,
+              "mod": "con"
+            }
+          }
+        ]
+      },
+      {
+        "id": "lingering-pulse",
+        "name": "Lingering Pulse",
+        "text": "Each creature that takes psychic damage from siege pulse has disadvantage on its melee or ranged attack rolls until the start of your next turn.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>Spend 5 shield points as you overload your shield capacitors causing a loud, kinetic wave to erupt in a <me-distance length=\"10\" adj/>-radius\nsphere centered on you. Each creature within the sphere becomes <me-condition id=\"deafened\"/> and must\nmake a Constitution saving throw (DC 8 + proficiency bonus). On a failed save, a creature takes\n2d8 psychic damage and is <me-condition id=\"stunned\"/> until the end of your next turn. On a successful save, a creature\ntakes half as much damage. Synthetic creatures have advantage on this saving throw.</p>\n<p>The first time you use siege pulse, your armor suffers no adverse effect. If you use this power again before you\nfinish a short rest, roll a d20. On a 5 or lower you shields overload. You lose\nall shield points, take 2d12 lightning damage, and cannot gain shield points unless you repair your armor. Each time you\nuse this feature again before finishing a short rest, you suffer a -5 penalty to the roll.</p>\n<p>This feature's psychic damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), 17th level (5d8).</p>\n",
+    "id": "siege-pulse"
+  },
+  {
+    "name": "Singularity",
+    "version": 1,
+    "level": 3,
+    "type": "biotic",
+    "classes": [
+      "adept"
+    ],
+    "tags": [
+      "control"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "save": "str"
+        },
+        "damage": false,
+        "conditions": [
+          "lifted"
+        ],
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 90,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "detonates": false,
+        "primes": false
+      },
+      {
+        "range": {
+          "aoe": {
+            "size": 20
+          }
+        }
+      },
+      {
+        "range": {
+          "aoe": {
+            "size": 30
+          }
+        }
+      }
+    ],
+    "advancements": [
+      {
+        "id": "heavy-singularity",
+        "name": "Heavy Singularity",
+        "text": "Creatures have disadvantage when making the Strength saving throw or Strength (Athletics) check.",
+        "mechanics": []
+      },
+      {
+        "id": "damage",
+        "name": "Damage",
+        "text": "Any creature within singularity's radius is primed (necrotic) and takes 1d8 necrotic damage at the end of each of your turns.",
+        "mechanics": [
+          {
+            "damage": [
+              {
+                "dieCount": 1,
+                "dieType": 8,
+                "type": "necrotic"
+              }
+            ],
+            "primes": "necrotic"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Create a negative mass effect field in a <me-distance length=\"10\" adj/> sphere at a target location within range. Each creature or object within the\nsphere's radius must succeed on a Strength saving throw or becomes lifted. Only Medium or smaller creature and objects\nare affected. Any creature or object that enters the sphere for the first time or ends its turn there must succeed on a\nStrength (Athletics) check or they are drawn into the sphere and become lifted. Creatures with at least 1 shield point\nhave advantage on the Strength saving throw or Strength (Athletics) check.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 4th level or higher, increase the size of the sphere\nby <me-distance length=\"10\" /> per power slot above the 3rd.</p>\n",
+    "id": "singularity"
+  },
+  {
+    "name": "Slam",
+    "level": 0,
+    "type": "biotic",
+    "version": 1,
+    "classes": [
+      "adept",
+      "sentinel",
+      "vanguard"
+    ],
+    "tags": [
+      "damage"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 8,
+            "type": "bludgeoning"
+          }
+        ],
+        "conditions": false,
+        "duration": {
+          "length": 0,
+          "unit": "instant"
+        },
+        "concentration": false,
+        "range": {
+          "short": 90
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "stun",
+        "name": "Stun",
+        "text": "If the target is a creature, it must pass a Constitution saving throw or becomes stunned until the end of your next turn.",
+        "mechanics": [
+          {
+            "dc": {
+              "base": 8,
+              "proficient": true,
+              "save": "con"
+            },
+            "notes": [
+              "CON save (DC {{ dc }}) or stunned"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reaction",
+        "name": "Reaction",
+        "text": "When a creature or object you can see becomes lifted, you may cast Slam on it as a reaction.",
+        "mechanics": [
+          {
+            "altCasting": [
+              {
+                "length": 1,
+                "unit": "reaction",
+                "reaction": "When a creature you can see becomes lifted"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Target a lifted creature or object and slam it to the ground dealing 2d8 bludgeoning damage and knocking it prone. The\ntarget is no longer lifted.</p>\n<p>The number of targets increases by 1 when you reach 5th level (2), 11th level (3) and 17th level (4).</p>\n",
+    "id": "slam"
+  },
+  {
+    "name": "Slow Fall",
+    "version": 1,
+    "level": 0,
+    "type": "biotic",
+    "classes": [
+      "adept",
+      "vanguard"
+    ],
+    "tags": [
+      "movement"
+    ],
+    "mechanics": [
+      {
+        "castingTime": {
+          "length": 1,
+          "unit": "reaction",
+          "reaction": "when you or a creature within <me-distance length=\"30\" abbr /> of you falls"
+        },
+        "attack": false,
+        "dc": false,
+        "damage": false,
+        "conditions": false,
+        "duration": {
+          "length": 1,
+          "unit": "minute"
+        },
+        "concentration": true,
+        "range": {
+          "short": 30
+        },
+        "detonates": false,
+        "primes": false
+      }
+    ],
+    "advancements": [
+      {
+        "id": "improved-duration",
+        "name": "Improved Duration",
+        "text": "Increase the duration to 5 minutes",
+        "mechanics": [
+          {
+            "duration": {
+              "length": 5,
+              "unit": "minute"
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigate",
+        "name": "Navigate",
+        "text": "As you fall, you can direct your fall by <me-distance length=\"5\" /> in any direction except up. You may do this once per round.",
+        "mechanics": []
+      }
+    ],
+    "html": "<p>When you or a creature within <me-distance length=\"30\" /> of you falls, choose up to five falling creatures within range. Create a negative mass\neffect field around each creature, slowing the rate of descent to <me-distance length=\"60\" /> per round. If the creature lands before the power\nends, it takes no Falling damage and can land on its feet, and the power ends for that creature.</p>\n",
+    "id": "slow-fall"
   }
 ]

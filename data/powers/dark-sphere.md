@@ -19,8 +19,8 @@ mechanics:
         dieType: 8
         type: necrotic
     duration:
-      - length: 1
-        unit: minute
+      length: 1
+      unit: minute
     concentration: true
     range:
       short: 0
