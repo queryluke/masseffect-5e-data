@@ -29,14 +29,6 @@ mechanics:
         size: 10
     detonates: false
     primes: necrotic
-    toggle:
-      - id: annihilation-field
-        mechanics:
-          - type: speed-bonus
-            bonus:
-              type: flat
-              value: 0
-              multiplier: 0.5
   - range:
       aoe:
         size: 20
