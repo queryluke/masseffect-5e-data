@@ -5,26 +5,26 @@ randomDimensions:
   height:
     base:
       imperial: 34
-      metric: 86
+      metric: 90
     mod:
       imperial:
         dieCount: 2
         dieType: 6
       metric:
-        dieCount: 5
-        dieType: 6
+        dieCount: 6
+        dieType: 10
   weight:
     base:
       imperial: 60
       metric: 27
     mod:
       imperial:
-        dieCount: 1
-        dieType: .nan
+        dieCount: 2
+        dieType: 4
       metric:
-        dieCount: 0
-        dieType: .nan
-        divisor: .nan
+        dieCount: 1
+        dieType: 4
+        divisor: 2
 galaxy: milky_way
 group: lesser_known
 mechanics:

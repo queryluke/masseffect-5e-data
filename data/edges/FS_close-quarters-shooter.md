@@ -8,7 +8,7 @@ mechanics:
   - type: global-attack-note
     attack: ranged
     value: >-
-      Ranged attacks ignore 1/2 cover on targets within <me-distance length="30" abbr />
+      Ranged attacks ignore half-cover on targets within <me-distance length="30" abbr />
 type: fighting-styles
 ---
 When making a ranged attack while you are within <me-distance length="5" /> of a hostile creature, you do not have

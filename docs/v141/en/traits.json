@@ -1,0 +1,2819 @@
+[
+  {
+    "name": "Webbed Appendages",
+    "species": [
+      "adaptation-aquatic"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
+    "html": "<p>After 1 week, you gain a swimming speed of 12 meters.</p>\n",
+    "id": "1w-aquatic"
+  },
+  {
+    "name": "Scarcity",
+    "species": [
+      "adaptation-desert"
+    ],
+    "mechanics": [],
+    "html": "<p>After 1 week, you can go twice as long without food or water before you suffer exhaustion.</p>\n",
+    "id": "1w-desert"
+  },
+  {
+    "name": "Light Fur",
+    "species": [
+      "adaptation-frozen"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": [
+          "con"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to resist exhaustion due to extreme cold"
+        }
+      }
+    ],
+    "html": "<p>After 1 week, you have advantage on Constitution saving throws to resist exhaustion due to extreme cold.</p>\n",
+    "id": "1w-frozen"
+  },
+  {
+    "name": "Muscle Adaptation",
+    "species": [
+      "adaptation-high-gravity"
+    ],
+    "mechanics": [
+      {
+        "type": "speed-note",
+        "note": "Ignore difficult terrain caused by high gravity"
+      }
+    ],
+    "html": "<p>After 1 week, you ignore difficult terrain caused by high gravity.</p>\n",
+    "id": "1w-high-gravity"
+  },
+  {
+    "name": "Ocular Adjustment",
+    "species": [
+      "adaptation-underground"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<p>After 1 week, you gain darkvision <me-distance length=\"60\" />.</p>\n",
+    "id": "1w-underground"
+  },
+  {
+    "name": "Cold Blooded",
+    "species": [
+      "adaptation-volcanic"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": [
+          "con"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to resist exhaustion due to extreme heat"
+        }
+      }
+    ],
+    "html": "<p>After 1 week, you have advantage on Constitution saving throws to resist exhaustion due to extreme heat.</p>\n",
+    "id": "1w-volcanic"
+  },
+  {
+    "name": "Micro Thrusts",
+    "species": [
+      "adaptation-zero-gravity"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 5,
+        "note": "while lifted or in zero-g"
+      }
+    ],
+    "html": "<p>After 1 week, while lifted or in zero-g, you are not restrained and gain a flying speed of <me-distance length=\"5\" /></p>\n",
+    "id": "1w-zero-gravity"
+  },
+  {
+    "name": "Amphibious",
+    "species": [
+      "adaptation-aquatic"
+    ],
+    "mechanics": [],
+    "html": "<p>After 1 year, you can breathe both air and water.</p>\n",
+    "id": "1y-aquatic"
+  },
+  {
+    "name": "Hardened Biology",
+    "species": [
+      "adaptation-desert"
+    ],
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "html": "<p>After 1 year, your Constitution score increases by 1 to a maximum of 20.</p>\n",
+    "id": "1y-desert"
+  },
+  {
+    "name": "Cold Acclimation",
+    "species": [
+      "adaptation-frozen"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<p>After 1 year, you have resistance to cold damage.</p>\n",
+    "id": "1y-frozen"
+  },
+  {
+    "name": "Muscle Density",
+    "species": [
+      "adaptation-high-gravity"
+    ],
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "html": "<p>After 1 year, your Strength score increases by 1 to a maximum of 20.</p>\n",
+    "id": "1y-high-gravity"
+  },
+  {
+    "name": "Creature of Darkness",
+    "species": [
+      "adaptation-underground"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "blindsight",
+        "distance": 30
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "stealth"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "while in darkness"
+        }
+      }
+    ],
+    "html": "<p>After 1 year, you gain blindsight <me-distance length=\"30\" />. Additionally, you have advantage on stealth checks while\nin darkness.</p>\n",
+    "id": "1y-underground"
+  },
+  {
+    "name": "Callused Skin",
+    "species": [
+      "adaptation-volcanic"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "fire",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<p>After 1 year, you gain resistance to fire damage.</p>\n",
+    "id": "1y-volcanic"
+  },
+  {
+    "name": "Vestibular Regulation",
+    "species": [
+      "adaptation-zero-gravity"
+    ],
+    "mechanics": [],
+    "html": "<p>After 1 year, you do not have disadvantage on attack rolls while you are lifted or in zero-g.</p>\n",
+    "id": "1y-zero-gravity"
+  },
+  {
+    "species": [
+      "lifestage-matriarch"
+    ],
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "options": true,
+        "limit": [
+          "deception",
+          "insight",
+          "history",
+          "persuasion"
+        ]
+      }
+    ],
+    "name": "A Long Life",
+    "html": "<p>You gain expertise in one of the following skills of your choice: Deception, Insight, History, or Persuasion.</p>\n",
+    "id": "a-long-life"
+  },
+  {
+    "species": [
+      "ardat-yakshi"
+    ],
+    "mechanics": [
+      {
+        "type": "ardat-yakshi-addiction-dc",
+        "resource": {
+          "label": "Addiction saving throw DC, WIS",
+          "displayType": "counter",
+          "reset": "manual",
+          "increment": 5,
+          "max": {
+            "type": "flat",
+            "value": 50,
+            "min": 0
+          },
+          "id": "ardat-yakshi-addiction-dc"
+        }
+      },
+      {
+        "type": "ardat-yakshi-addiction-level",
+        "resource": {
+          "label": "Addiction Level",
+          "displayType": "counter",
+          "reset": "manual",
+          "max": {
+            "type": "flat",
+            "value": 5,
+            "min": 0
+          },
+          "id": "ardat-yakshi-addiction-level"
+        }
+      }
+    ],
+    "name": "Addiction",
+    "html": "<p>All ardat-yakshi feel the urge to mate. Some choose to live in isolation to help reduce this urge, but it never truly abates.</p>\n<p>Addiction is measured in five levels. Once per day, you must make a DC 0 Constitution saving throw. Every day you do\nnot mate, the DC of this saving throw increases by 5. On a failed save, your addiction level increases by 1.</p>\n<p>You suffer the effect of your current addiction level as well as all lower levels. Mating with a creature removes\nall levels of addiction and resets the DC of your addiction saving throw to 0.</p>\n<h5>Addiction Levels</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Disadvantage on initiative rolls</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Disadvantage on attack rolls</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Disadvantage on ability checks</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Disadvantage on saving throws</td>\n</tr>\n<tr>\n<td>5</td>\n<td>You can no longer distinguish friend from foe. Every creature is considered a hostile creature</td>\n</tr>\n</tbody>\n</template></v-simple-table><v-alert value type=\"info\"><h4>Ardat-Yakshi mating</h4>\n<p>Whether or not your Ardat-Yakshi can successfully mate is at your DMs discretion. A basic rule is that you must\nhave a viable mate (an organic creature with an Intelligence score of 3 or higher) and you must pass a\nCharisma (Persuasion) or Charisma (Performance) check contested by the creature’s Wisdom (Insight).</p>\n<p>Additionally, whether or not the target survives the mating is at the GMs discretion. GMs may have the mated\ntarget roll a Constitution saving throw, apply a flat “unconscious for 1d4 hours”, suffer 1 level of exhaustion,\nany combination, or adjudicate their own result.</p>\n</v-alert>",
+    "id": "addiction"
+  },
+  {
+    "name": "Advanced Medi-gel Application",
+    "species": [
+      "military-doctrine-field-medics"
+    ],
+    "mechanics": [
+      {
+        "type": "advanced-medigel-application"
+      }
+    ],
+    "html": "<p>Whenever you apply medi-gel to a creature the healing die type is a d6 instead of a d4.</p>\n",
+    "id": "advanced-medigel-application"
+  },
+  {
+    "name": "Advanced Optics",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "name": "Toggle darkvision",
+        "moreInfo": {
+          "model": "traits",
+          "id": "advanced-optics"
+        },
+        "type": "bonus-action",
+        "baseGroup": true,
+        "shortDesc": "Toggle your darkvision on or off"
+      },
+      {
+        "name": "Toggle infrared vision",
+        "moreInfo": {
+          "model": "traits",
+          "id": "advanced-optics"
+        },
+        "type": "bonus-action",
+        "baseGroup": true,
+        "shortDesc": "Toggle your infrared vision on or off"
+      }
+    ],
+    "html": "<p>Your optic sensors have two additional optic modes: darkvision 24m (60ft) and infrared vision 24m (60ft). You can\ntoggle these modes on or off (or between the two) as a bonus action.</p>\n",
+    "id": "advanced-optics"
+  },
+  {
+    "species": [
+      "lystheni",
+      "behemoth"
+    ],
+    "mechanics": [
+      {
+        "name": "Aggressive",
+        "moreInfo": {
+          "model": "traits",
+          "id": "aggressive"
+        },
+        "type": "bonus-action",
+        "shortDesc": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+      }
+    ],
+    "name": "Aggressive",
+    "html": "<p>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end\nthis move closer to the enemy than you started.</p>\n",
+    "id": "aggressive"
+  },
+  {
+    "species": [
+      "prothean",
+      "prothean-no-avatar"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "sense",
+        "sense": "truesight",
+        "note": "when you take the Search action, lasts until action is resolved"
+      }
+    ],
+    "name": "All-Seeing Eyes",
+    "html": "<p>Your four eyes can look in multiple directions and have some ability to see through cloaked objects. You have\nproficiency in the Perception skill and when you take the Search action on your turn, you gain truesight\nuntil your Search action is resolved.</p>\n",
+    "id": "all-seeing-eyes"
+  },
+  {
+    "species": [
+      "hanar",
+      "salarian",
+      "lystheni"
+    ],
+    "mechanics": [],
+    "name": "Amphibious",
+    "html": "<p>Can breathe both air and water.</p>\n",
+    "id": "amphibious"
+  },
+  {
+    "species": [
+      "prothean-no-avatar"
+    ],
+    "mechanics": [
+      {
+        "name": "Aspiration",
+        "moreInfo": {
+          "model": "traits",
+          "id": "aspiration"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "aspiration"
+        },
+        "shortDesc": "Whenever you make an attack roll, skill check, or saving throw you may roll a d4 and add it to the roll."
+      }
+    ],
+    "name": "Aspiration",
+    "html": "<p>You aspire to become an Avatar one day, but have not quite achieved the mantle. Whenever you make an attack roll,\nskill check, or saving throw you may roll a d4 and add it to the roll. You can wait until after you roll the\nd20 before deciding to use the d4, but must decide before the GM says whether the roll succeeds or fails.</p>\n<p>Once you use this feature, you cannot do so again until you finish a short rest or long rest.</p>\n",
+    "id": "aspiration"
+  },
+  {
+    "species": [
+      "mobile-platform-juggernaut"
+    ],
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level",
+          "multiplier": 1
+        }
+      }
+    ],
+    "name": "Asymmetric Defense Plating",
+    "html": "<p>You gain a +1 bonus to Armor Class. Additionally, your hit point maximum increases by 1, and it increases by 1\nevery time you gain a level.</p>\n",
+    "id": "asymmetric-defense-plating"
+  },
+  {
+    "species": [
+      "avatar-humor",
+      "avatar-leadership",
+      "avatar-sacrifice",
+      "avatar-strength",
+      "avatar-tranquility",
+      "avatar-vengeance"
+    ],
+    "mechanics": [
+      {
+        "type": "avatars-inspiration",
+        "die": "d4"
+      }
+    ],
+    "name": "Avatar's Inspiration",
+    "html": "<p>You can inspire others by being an exemplar of your selected virtue, allowing creature’s to gain an Avatar’s\nInspiration die; a d4.</p>\n<p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check,\nattack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use\nthe Avatar’s Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the\nAvatar’s Inspiration die is rolled, it is lost. A creature can have only one Avatar’s Inspiration die at a time.</p>\n<p>Your chosen avatar identifies the conditions that allow granting Avatar’s Inspiration.</p>\n",
+    "id": "avatars-inspiration"
+  },
+  {
+    "name": "Battlefield Awareness",
+    "species": [
+      "military-doctrine-combat-officer"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "perception",
+          "insight"
+        ]
+      }
+    ],
+    "html": "<p>You gain proficiency in Perception or Insight skill (your choice).</p>\n",
+    "id": "battlefield-awareness"
+  },
+  {
+    "species": [
+      "angara"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "lightning",
+        "note": "to your hit points"
+      },
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "to your hit points"
+      }
+    ],
+    "name": "Bio-Electric Ward",
+    "html": "<p>Your innate bioelectricity provides resistance to both cold and lightning damage. This resistance is only\napplied to damage done to your hit points.</p>\n",
+    "id": "bio-electric-ward"
+  },
+  {
+    "species": [
+      "hanar"
+    ],
+    "mechanics": [],
+    "name": "Bioluminescence",
+    "html": "<p>You can shed dim light in a <me-distance length=\"30\" /> radius.</p>\n",
+    "id": "bioluminescence"
+  },
+  {
+    "name": "Bite",
+    "species": [
+      "vorcha"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "value": {
+          "type": "natural-melee",
+          "name": "Bite",
+          "notes": [],
+          "properties": [],
+          "range": 5,
+          "damage": {
+            "dieCount": 1,
+            "dieType": 6,
+            "type": "piercing"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "bite"
+          }
+        }
+      }
+    ],
+    "html": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing\ndamage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>\n",
+    "id": "bite"
+  },
+  {
+    "name": "Blind Rage",
+    "species": [
+      "tankbred"
+    ],
+    "mechanics": [],
+    "html": "<p>Whenever you have less than half your hit points remaining and suffer damage to your hit points, you must succeed on a\nDC 15 Wisdom saving throw or enter a blind rage, immediately losing concentration on any powers you are maintaining.\nYou must also make the saving throw whenever you choose to enter your blood rage.</p>\n<p>While in a blind rage, you must use your action and any potential bonus actions or reactions each round to attack the\ncreature nearest to you. If you can make extra attacks as part of the Attack action, you use those extra attacks,\nmoving to attack the next nearest creature after you kill your current target. If you have multiple possible targets,\nyou attack one at random.</p>\n<p>You are in a blind range until you die, are incapacitated, or start your turn with no creatures within\n<me-distance length=\"60\" /> of you that you can see or hear.</p>\n",
+    "id": "blind-rage"
+  },
+  {
+    "name": "Blood Rage",
+    "species": [
+      "krogan",
+      "tankbred"
+    ],
+    "mechanics": [
+      {
+        "name": "Blood Rage",
+        "moreInfo": {
+          "model": "traits",
+          "id": "blood-rage"
+        },
+        "type": "other",
+        "resource": {
+          "id": "blood-rage"
+        }
+      }
+    ],
+    "html": "<p>When you are reduced to 0 hit points but not killed outright, you can choose to not fall unconscious and enter a\nblood rage instead. When you enter your blood rage, you lose concentration on any powers you are maintaining.</p>\n<p>The blood rage lasts for 1 minute. It ends early if you regain hit points or if your turn ends and\nyou haven’t attacked a hostile creature or taken damage since the end of your last turn.</p>\n<p>For the duration, you are immune to being charmed or frightened and the only Action you may take is\neither Attack or Dash. You continue to make death saving throws as normal and damage causes death saving throw\nfailures. However, no amount of success or failures cause you to stabilize or die until blood rage ends.\nAdditionally, when you would receive a death saving throw success you may, instead, remove a death saving throw\nfailure, or vice versa.</p>\n<p>When blood rage ends, if you have four or more death saving throw failures, you die. Otherwise,\nyou fall unconscious.</p>\n<p>Once you use this feature, you can’t use it again until you finish a long rest.</p>\n",
+    "id": "blood-rage"
+  },
+  {
+    "species": [
+      "drell"
+    ],
+    "mechanics": [
+      {
+        "name": "Body and Soul",
+        "moreInfo": {
+          "model": "traits",
+          "id": "body-and-soul"
+        },
+        "type": "other",
+        "resource": {
+          "id": "body-and-soul"
+        }
+      }
+    ],
+    "name": "Body and Soul",
+    "html": "<p>If you spend 10 minutes in prayer, you can mentally focus your body and soul into a true Whole. The next time you are\nreduced to 0 hit points but not killed outright, you gain advantage on all death saving throws until you are\nstabilized or regain hit points, at which point you cannot benefit from this feature again until you finish a long rest.</p>\n",
+    "id": "body-and-soul"
+  },
+  {
+    "name": "Bomb Defusal",
+    "species": [
+      "military-doctrine-demolitions"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "electronics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to disarm explosive devices (ex. mines)"
+        }
+      }
+    ],
+    "html": "<p>You have advantage on Intelligence (Electronics) checks to disarm mines and other explosive devices.</p>\n",
+    "id": "bomb-defusal"
+  },
+  {
+    "species": [
+      "drell",
+      "cybernetic-augmentation-muscular"
+    ],
+    "mechanics": [
+      {
+        "name": "Burst of Speed",
+        "moreInfo": {
+          "model": "traits",
+          "id": "burst-of-speed"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "manual",
+          "id": "burst-of-speed"
+        },
+        "shortDesc": "When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
+      }
+    ],
+    "name": "Burst of Speed",
+    "html": "<p>When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait,\nyou can’t use it again until you move <me-distance length=\"0\" override=\"0 {metric}\"/> on one of your turns.</p>\n",
+    "id": "burst-of-speed"
+  },
+  {
+    "species": [
+      "elcor"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "insight"
+      },
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "disadvantage"
+        }
+      }
+    ],
+    "name": "Careful",
+    "html": "<p>You have proficiency in Insight and Perception. But your careful nature makes you slow to act, giving you disadvantage on\nInitiative rolls.</p>\n",
+    "id": "careful"
+  },
+  {
+    "species": [
+      "awakened-collector"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 13,
+        "mod": "dex"
+      }
+    ],
+    "name": "Chitinous Exoskeleton",
+    "html": "<p>When you aren’t wearing armor, your AC is 13 + your Dexterity modifier. You can use your\nexoskeleton to determine your AC if the armor you wear would leave you with a lower AC. A held shield’s\nbenefits apply as normal while you use your natural exoskeleton.</p>\n",
+    "id": "chitinous-exoskeleton"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-ocular"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "blinded"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "name": "Clarity Unit",
+    "html": "<p>You have advantage on saving throws against being blinded.</p>\n",
+    "id": "clarify-unit"
+  },
+  {
+    "name": "Compatible Hardware",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [],
+    "html": "<p>You are proficient in Omni-tool weapons, and your omni-tool (and omnitool weapons) cannot be removed or dropped from your projection against your will.</p>\n",
+    "id": "compatible-hardware"
+  },
+  {
+    "species": [
+      "mobile-platform-trooper"
+    ],
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "name": "Composite Plating",
+    "html": "<p>You gain a +1 bonus to Armor Class.</p>\n",
+    "id": "composite-plating"
+  },
+  {
+    "name": "Constant Patrol",
+    "species": [
+      "military-doctrine-recon"
+    ],
+    "mechanics": [
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "proficiency"
+          }
+        }
+      }
+    ],
+    "html": "<p>Constantly monitoring battlefields has made you keenly aware of when combat is about to break out. You can add your\nproficiency bonus to your initiative rolls.</p>\n",
+    "id": "constant-patrol"
+  },
+  {
+    "species": [
+      "hanar"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30,
+        "note": "If contra-gravitic levitation device is functional, ignore difficult terrain. If not functional, walking speed becomes 0."
+      },
+      {
+        "type": "resistance",
+        "value": "fall",
+        "note": "reduce by 4d6 if contra-gravitic levitation device is functional"
+      },
+      {
+        "type": "condition-immunity",
+        "value": "prone",
+        "note": "if contra-gravitic levitation device is functional"
+      }
+    ],
+    "name": "Contra-Gravitic Levitation",
+    "html": "<p>When not in water, you use a contra-gravitic levitation pack to move. It provides a\nwalking speed of 12 meters and you hover 1 meter from the ground, providing the following benefits:</p>\n<ul>\n<li>You are immune to becoming prone</li>\n<li>You reduce falling damage by 4d6</li>\n<li>You ignore any penalties caused by difficult terrain.</li>\n</ul>\n<p>However, when you suffer a critical hit, you must roll a d20. On a 1 or a 2, the device malfunctions and you fall\nto the ground. Your walking speed becomes 0 and you are considered prone. You or another creature can use\nan Action to repair the pack with a successful DC 15 Intelligence (Engineering) check.</p>\n",
+    "id": "contra-gravitic-levitation"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-ocular",
+      "hardware-aiu"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "name": "Darkvision",
+    "html": "<p>You can see in dim light within <me-distance length=\"60\" /> of you as if it were bright light, and in\ndarkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\n",
+    "id": "darkvision-60"
+  },
+  {
+    "species": [
+      "elcor"
+    ],
+    "mechanics": [],
+    "name": "Dense Build",
+    "html": "<p>You count as one size larger when determining your carrying capacity, the weight you can push, drag, or lift,\nand when targeted by powers with a size restriction.</p>\n",
+    "id": "dense-build"
+  },
+  {
+    "name": "Digital Friend",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "persuasion"
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "persuasion"
+        ],
+        "note": "add your intelligence modifier"
+      }
+    ],
+    "html": "<p>You are proficient in Persuasion.</p>\n<p>Additionally, you may add your intelligence modifier to your persuasion check. Once you use this feature, you must\nfinish a short rest before you use it again.</p>\n",
+    "id": "digital-friend"
+  },
+  {
+    "species": [
+      "ay-disposition-embrace",
+      "ay-disposition-growing-power"
+    ],
+    "mechanics": [
+      {
+        "type": "power",
+        "powerId": "dominate",
+        "resource": {
+          "id": "dominate"
+        },
+        "mod": "wis"
+      }
+    ],
+    "name": "Dominate",
+    "html": "<p>You learn the dominate power. Wisdom is your powercasting modifier for this power and it does not count toward your\npowers known or prepared. You can cast a 3rd-level version of this power once per long rest.</p>\n",
+    "id": "dominate"
+  },
+  {
+    "species": [
+      "drell"
+    ],
+    "mechanics": [],
+    "name": "Eidetic Memory",
+    "html": "<p>You can recall memories in intricate detail, including details from all your senses. Distant or inconsequential\nmemories require a DC 14 Wisdom check. On a failure, you can only recall details from one or two senses.</p>\n",
+    "id": "eidetic-memory"
+  },
+  {
+    "species": [
+      "angara"
+    ],
+    "mechanics": [
+      {
+        "name": "Electrogenesis",
+        "moreInfo": {
+          "model": "traits",
+          "id": "electrogenesis"
+        },
+        "type": "reaction",
+        "resource": {
+          "displayType": "checkbox",
+          "reset": "long",
+          "max": {
+            "type": "mod",
+            "value": "con"
+          },
+          "id": "electrogenesis"
+        },
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 4,
+            "type": "lightning"
+          }
+        ],
+        "notes": [
+          "creature cannot take reactions until the end of its next turn"
+        ],
+        "shortDesc": "When you are hit by a melee weapon attack by a creature you can see, deal 2d4 lightning damage to the attacker."
+      },
+      {
+        "name": "Electrogenesis",
+        "moreInfo": {
+          "model": "traits",
+          "id": "electrogenesis"
+        },
+        "type": "action",
+        "range": {
+          "short": 1
+        },
+        "resource": {
+          "displayType": "checkbox",
+          "reset": "long",
+          "max": {
+            "type": "mod",
+            "value": "con"
+          },
+          "id": "electrogenesis"
+        },
+        "shortDesc": "Touch one creature to stabilize it or end the stunned condition on it."
+      }
+    ],
+    "name": "Electrogenesis",
+    "html": "<p>When you are hit by a melee weapon attack by a creature you can see, you may use your reaction to release a powerful\nbioelectrical charge. The attacking creature suffers 2d4 lightning damage and cannot take reactions until the end of its next turn.</p>\n<p>Alternatively, you may use your Action to touch one creature and end the stunned condition or stabilize it.</p>\n<p>You may use this feature between long rests equal to your Constitution modifier (minimum 1).</p>\n",
+    "id": "electrogenesis"
+  },
+  {
+    "name": "Electromagnetic Blast",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "type": "model",
+        "model": "power",
+        "value": "overload",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "electromagnetic-blast"
+        },
+        "append": {
+          "mod": "wis"
+        }
+      }
+    ],
+    "html": "<p>You know the Overload power and it doesn’t count against your powers known or\nprepared. Once per long rest, you may cast a 1-tech-point version of it. Wisdom\nis your powercasting modifier for it.</p>\n<p>You cannot learn an advancement for it, but you may prepare another version of\nOverload with advancements as you class permits.</p>\n",
+    "id": "electromagnetic-blast"
+  },
+  {
+    "name": "Emitter and Projection",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "type": "emitter-hp"
+      }
+    ],
+    "html": "<p>You have an Emitter and a Projection. Your emitter is a device that houses the Hologram’s personality and memories, and acts as the “true body” of the Hologram. It is a Tiny device that has 10 AC and a number of hit points equal to twice your proficiency bonus. The emitter has no means of mobility, thus has a walking speed of <me-distance length=\"0\" override=\"0\" />. It has an array of sensory inputs and acts as “you” when determining what you can see or hear.</p>\n<p>Your projection is a hard-light construct that physically interacts with the world. The projection has a base walking speed of <me-distance length=\"30\" /> and gains all the benefits of your selected class. When summoned, the projection can equip weapons and armor, use actions, cast powers, and interact with objects. Whenever the projection is recalled or dissipated, it drops any weapons or armor in its location.</p>\n<p>Your projection and emitter have separate health pools. Whenever you recover hit points, you can distribute the amount recovered between either pool. If the projection is reduced to 0 hit points, it dissipates. If the emitter is reduced to 0 hit points, you make death saving throws as normal.</p>\n<p>Whenever your projection is in the same space as your emitter, it can store the emitter within its hard-light shell as a free action. While stored in this way, your emitter benefits from full cover and is immune to damage.</p>\n",
+    "id": "emitter-and-projection"
+  },
+  {
+    "name": "Energy Pulse",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "value": {
+          "damageModOverride": "noMod",
+          "type": "natural-melee",
+          "name": "Energy Pulse",
+          "notes": [
+            "On a hit, target can't take reactions until the start of its next turn"
+          ],
+          "properties": [],
+          "range": 5,
+          "damage": {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "lightning"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "energy-pulse"
+          }
+        }
+      }
+    ],
+    "html": "<p>Your hands can discharge electrical pulses and are considered natural weapons, which you can use to make unarmed strikes.\nIf you hit with them, you can deal 1d8 lightning damage instead of the bludgeoning damage normal for an unarmed strike.\nIn addition, a target hit by this attack can’t take reactions until the start of its next turn.</p>\n",
+    "id": "energy-pulse"
+  },
+  {
+    "name": "Engineering Knowledge",
+    "species": [
+      "military-doctrine-engineering-corps"
+    ],
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "armorsmiths-workbench",
+          "tailors-tools",
+          "tinkers-tools",
+          "weaponsmiths-workbench"
+        ],
+        "options": true,
+        "selections": 1
+      },
+      {
+        "type": "skill-choice",
+        "profType": "skill",
+        "limit": [
+          "electronics",
+          "engineering",
+          "investigation",
+          "science"
+        ],
+        "options": true,
+        "selections": 1
+      },
+      {
+        "type": "expertise-choice",
+        "profType": "skill",
+        "limit": [
+          "electronics",
+          "engineering",
+          "investigation",
+          "science"
+        ],
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "html": "<p>You gain proficiency in one tool of your choice from the following: Amorsmith’s Workbench, Tailor’s Tools, Tinker’s\nTools, or Weaponsmith’s Workbench.</p>\n<p>Additionally, you gain proficiency in one skill and expertise in another skill from the following: Electronics,\nEngineering, Investigation, or Science.</p>\n",
+    "id": "engineering-knowledge"
+  },
+  {
+    "name": "Erratic Hop",
+    "species": [
+      "exaltation-chosen"
+    ],
+    "mechanics": [
+      {
+        "name": "Erratic Hop",
+        "moreInfo": {
+          "model": "traits",
+          "id": "erratic-hop"
+        },
+        "type": "reaction",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "erratic-hop"
+        },
+        "shortDesc": "When a creature you can see attacks you, imposed disadvantage on the attack roll. Or, when you make a DEX save, gain advantage."
+      }
+    ],
+    "html": "<p>Your genes and training are hard for most to understand, resulting in unpredictable\nfighting styles. When a creature you can see attacks you, you can use your reaction\nto impose disadvantage on the attack roll. Alternatively, whenever you make a\nDexterity saving throw, you may use your reaction to gain advantage on the saving throw.</p>\n<p>You can use this trait a number of times between long rests equal to your proficiency bonus.</p>\n",
+    "id": "erratic-hop"
+  },
+  {
+    "name": "Esprit de Boom",
+    "species": [
+      "military-doctrine-demolitions"
+    ],
+    "mechanics": [],
+    "html": "<p>Whenever a creature suffers damage from a grenade or mine, you have advantage on the next attack roll you make\nagainst the creature until the end of your next turn.</p>\n",
+    "id": "esprit-de-boom"
+  },
+  {
+    "name": "Esprit de Corps",
+    "species": [
+      "military-doctrine-infantry"
+    ],
+    "mechanics": [],
+    "html": "<p>Your military training has taught you to work seamlessly as part of a team. Once per turn, you have advantage on\nan attack roll against a creature if at least one of your allies is within 2 meters of the creature and the\nally isn’t incapacitated.</p>\n",
+    "id": "esprit-de-corps"
+  },
+  {
+    "name": "Exalted Lineage",
+    "species": [
+      "kett"
+    ],
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "exalted-lineages"
+      }
+    ],
+    "html": "<p>You are an exalted version of another species. Pick an organic species (or synthetic at you\nGM's discretion) and gain the following elements from it: any ability score increases, any resistances,\nany immunities, any senses, and any climbing, flying, or swimming speed.</p>\n<p>If you are not using an exalted version, you may instead gain +2 Constitution,\n+1 to another ability score of your choice, and proficiency in two skills of\nyour choice.</p>\n",
+    "id": "exalted-lineage"
+  },
+  {
+    "name": "Exoskeleton",
+    "species": [
+      "kett"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 12,
+        "mod": "con"
+      }
+    ],
+    "html": "<p>You have an exoskeleton which contains fluid-filled sacs that capture dissolved\ngasses from the circulatory system, slowly releasing them if you are oxygen-deprived\nand can stabilize internal body pressure.</p>\n<p>Your AC when not wearing armor is 12 + your Constitution modifier. You can use your\nnatural armor to determine your AC if the armor you wear would leave you with a\nlower AC. A held shield’s benefits apply as normal while you use your natural armor.</p>\n<p>Additionally, you can hold your breath or survive in the vacuum of space for up to one hour.</p>\n",
+    "id": "exoskeleton"
+  },
+  {
+    "species": [
+      "mobile-platform-hopper"
+    ],
+    "name": "Eye Beam",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "value": {
+          "type": "natural-ranged",
+          "name": "Eye Beam",
+          "notes": [],
+          "properties": [],
+          "range": 90,
+          "damage": {
+            "dieCount": 1,
+            "dieType": 10,
+            "type": "radiant"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "eye-beam"
+          }
+        }
+      }
+    ],
+    "html": "<p>Your eye can emit a powerful and damaging laser beam that is a natural ranged weapon with a normal range of 36m (90ft)\nand no long range. You are considered proficient with it and add your Dexterity modifier to its attack rolls. If you\nhit with it, you deal radiant damage equal to 1d10 + your Dexterity modifier.</p>\n",
+    "id": "eye-beam"
+  },
+  {
+    "species": [
+      "human-variant",
+      "prothean-no-avatar",
+      "turian-non-hierarchy"
+    ],
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "feats"
+      }
+    ],
+    "name": "Feat",
+    "html": "<p>You gain one feat of your choice.</p>\n",
+    "id": "feat"
+  },
+  {
+    "species": [
+      "batarian"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "name": "Search",
+        "moreInfo": {
+          "model": "traits",
+          "id": "four-eyes"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      }
+    ],
+    "name": "Four Eyes",
+    "html": "<p>You have proficiency in the Perception skill and you can take the Search action as a bonus action on each of your turns.</p>\n",
+    "id": "four-eyes"
+  },
+  {
+    "species": [
+      "volus"
+    ],
+    "mechanics": [
+      {
+        "name": "Fury of the Small",
+        "moreInfo": {
+          "model": "traits",
+          "id": "fury-of-the-small"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "fury-of-the-small"
+        },
+        "shortDesc": "Deal {{ level }} additional damage to a creature with an attack or power, if it is Medium or larger."
+      }
+    ],
+    "name": "Fury of the Small",
+    "html": "<p>When you damage a creature with an attack or a power and the creature's size is larger than yours, you can cause the\nattack or power to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you\ncan't use it again until you finish a short or long rest.</p>\n",
+    "id": "fury-of-the-small"
+  },
+  {
+    "name": "Geneticism",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "limit": [
+          "medicine",
+          "science"
+        ]
+      }
+    ],
+    "html": "<p>You are trained in genetic manipulation and bio-engineering. You have proficiency\nin Medicine or Science.</p>\n",
+    "id": "geneticism"
+  },
+  {
+    "species": [
+      "quarian"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "poison",
+        "note": "while within your hermetic suit"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic",
+        "note": "while within your hermetic suit"
+      },
+      {
+        "type": "condition-immunity",
+        "value": "disease",
+        "note": "immune to disease while within your hermetic suit"
+      }
+    ],
+    "name": "Hermetic Suit",
+    "html": "<p>You have a weak immune system and dress, by necessity, in a highly sophisticated, skin-tight\nenviro-suit to protect you from disease or infection.</p>\n<p>While you are within your suit, you are immune to disease and you have resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage,\nyour suit becomes breached. For each hour in which you have a breach in your suit, you suffer one level of\nexhaustion. For each hour you spend outside of your suit if not in a compatible environment,\nsuffer 3 levels of exhaustion.</p>\n<p>As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gel as part of your starting equipment.</p>\n",
+    "id": "hermetic-suit"
+  },
+  {
+    "species": [
+      "salarian"
+    ],
+    "mechanics": [],
+    "name": "High-Speed Metabolism",
+    "html": "<p>Salarians don't need to sleep for as long as other species. Instead, their unique biology requires that they only\nneed to sleep for 1 hour a day to gain the same benefit that a human does from 8 hours of sleep. Because of this,\nsalarians only need 4 hours for a long rest.</p>\n",
+    "id": "high-speed-metabolism"
+  },
+  {
+    "species": [
+      "mobile-platform-hopper"
+    ],
+    "mechanics": [],
+    "name": "Hooks",
+    "html": "<p>Your appendages have tiny monomolecular hooks that grip onto almost any substance. If you use all\nfour appendages, your climbing speed is equal to your walking speed and you can move up, down, and\nacross vertical surfaces and upside down along ceilings.</p>\n",
+    "id": "hooks"
+  },
+  {
+    "name": "Hulking Build",
+    "species": [
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "athletics",
+          "acrobatics"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to avoid/escape grapples if the grappler is your size or smaller"
+        }
+      }
+    ],
+    "html": "<p>You count as one size larger when determining your carrying capacity and the\nweight you can push, drag, or lift. Additionally, you have advantage on\nStrength (Athletics) and Dexterity (Acrobatics) checks to avoid being\ngrappled or to escape a grapple if the grappler is your size or smaller.</p>\n",
+    "id": "hulking-build"
+  },
+  {
+    "species": [
+      "ay-disposition-embrace"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "note": "addiction saves",
+        "effect": {
+          "type": "disadvantage"
+        }
+      }
+    ],
+    "name": "Hunger",
+    "html": "<p>You have disadvantage on your Addiction saving throws.</p>\n",
+    "id": "hunger"
+  },
+  {
+    "name": "Imprinted Enemies",
+    "species": [
+      "tankbred"
+    ],
+    "mechanics": [],
+    "html": "<p>Your tank imprints have also imparted tactics and knowledge against specific species. Choose two species to be\nyour imprinted enemies.</p>\n<p>You have advantage on Intelligence checks to recall information about your imprinted enemies.</p>\n<p>The first time on each of your turns that you hit a creature of your imprinted enemies’ species with a weapon attack,\nyou can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type.</p>\n",
+    "id": "imprinted-enemies"
+  },
+  {
+    "species": [
+      "geth"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "name": "Toggle infrared vision",
+        "moreInfo": {
+          "model": "traits",
+          "id": "infrared-vision-60"
+        },
+        "type": "bonus-action",
+        "baseGroup": true,
+        "shortDesc": "Toggle your infrared vision on or off"
+      }
+    ],
+    "name": "Infrared Vision",
+    "html": "<p>Your optic sensors have built-in enhancements. As a bonus action on each of your turns, you can toggle your\ninfrared vision on or off.</p>\n<p>While on, your sight becomes a gradient map of the heat produced by your surroundings (hotter\nobjects appear brighter and cooler objects appear darker; you cannot discern color). You can see creatures and objects\nin darkness as well as creatures and objects hidden by technological means within <me-distance :length=\"60\" />,\nas long those elements are few degrees cooler or warmer than its surroundings.</p>\n",
+    "id": "infrared-vision-60"
+  },
+  {
+    "species": [
+      "asari",
+      "ardat-yakshi"
+    ],
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose two cantrips",
+        "model": "powers",
+        "options": true,
+        "limits": [
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          },
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          }
+        ],
+        "selections": 2,
+        "hide": true,
+        "append": {
+          "provider": {
+            "model": "species",
+            "id": "asari"
+          },
+          "mod": "wis"
+        }
+      },
+      {
+        "type": "model-choice",
+        "label": "Choose one 1st level power",
+        "model": "powers",
+        "options": true,
+        "limits": [
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          },
+          {
+            "attr": "level",
+            "value": [
+              1
+            ]
+          }
+        ],
+        "hide": true,
+        "append": {
+          "castAt": 1,
+          "alwaysCastable": true,
+          "provider": {
+            "model": "species",
+            "id": "asari"
+          },
+          "mod": "wis",
+          "resource": {
+            "id": "innate-biotics",
+            "label": "@ 1st Level / long rest"
+          }
+        }
+      }
+    ],
+    "name": "Innate Biotics",
+    "html": "<p>Choose a class: Adept or Vanguard. You learn two biotic cantrips of your choice from that class’s power list.\nIn addition, choose one 1st-level power from that same list. You learn that power and can cast it at its\nlowest level. Once you cast it, you must finish a long rest before you can cast it again. Wisdom is your\npowercasting modifier for these powers.</p>\n<p>Neither of the cantrips nor the power can be an advanced version. But you can learn or prepare an\nadvanced version of the power as your class permits.</p>\n",
+    "id": "innate-biotics"
+  },
+  {
+    "species": [
+      "geth"
+    ],
+    "mechanics": [],
+    "name": "Integrated Protection",
+    "html": "<p>Your body has built-in defensive layers, which can be enhanced with armor:</p>\n<ul>\n<li>You can equip only armor with which you have proficiency. To equip armor other than a shield,\nyou must incorporate it into your body over the course of 1 hour, during which you remain in\ncontact with the armor. To unequip armor, you must spend 1 hour removing it.</li>\n<li>You can rest while equipping or unequipping armor in this way.</li>\n</ul>\n<p>While you inhabit this mobile platform, the armor incorporated into your body can’t be removed against your will.</p>\n",
+    "id": "integrated-protection"
+  },
+  {
+    "species": [
+      "mobile-platform-juggernaut"
+    ],
+    "mechanics": [
+      {
+        "name": "Jump-start Aura",
+        "moreInfo": {
+          "model": "traits",
+          "id": "jump-start-aura"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "jump-start-aura"
+        },
+        "range": {
+          "short": 60
+        },
+        "shortDesc": "Each creature of your choice within {{ range }}. A creature gains shield points equal to its armor’s regen, to a maximum of its armor’s shield capacity."
+      }
+    ],
+    "name": "Jump-start Aura",
+    "html": "<p>As an action, cycle kinetic barriers for yourself and each creature of your choice within <me-distance length=\"60\" />.\nA creature gains shield points equal to its armor’s regen, to a maximum of its armor’s shield capacity.</p>\n<p>You may use this trait between long rests a number of times equal to your proficiency bonus.</p>\n",
+    "id": "jump-start-aura"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-ocular"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "perception",
+          "investigation"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "on checks that rely on sight"
+        }
+      }
+    ],
+    "name": "Keen Eyesight",
+    "html": "<p>You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks that rely on sight.</p>\n",
+    "id": "keen-eyesight"
+  },
+  {
+    "species": [
+      "elcor"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "investigation",
+          "perception",
+          "survival"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "on checks that rely on smell"
+        }
+      }
+    ],
+    "name": "Keen Olfactory Sensory",
+    "html": "<p>You have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation)\nchecks that rely on smell.</p>\n",
+    "id": "keen-olfactory-sensory"
+  },
+  {
+    "name": "Leadership",
+    "species": [
+      "military-doctrine-combat-officer",
+      "exaltation-destined"
+    ],
+    "mechanics": [
+      {
+        "name": "Leadership",
+        "moreInfo": {
+          "model": "traits",
+          "id": "leadership"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "mod",
+            "value": "cha",
+            "min": 1
+          },
+          "id": "leadership"
+        },
+        "shortDesc": "When another friendly creature you can see makes and attack roll or saving throw, add 1d4 to the roll if the creature can hear you."
+      }
+    ],
+    "html": "<p>Whenever a friendly creature you can see makes an attack roll or saving throw,\nyou may use your reaction to issue a special warning or command. The creature can add a d4 to its roll,\nprovided it can hear you.</p>\n<p>You can use this trait between short or long rests a number of times equal to your Charisma modifier (minimum once).</p>\n",
+    "id": "leadership"
+  },
+  {
+    "name": "Levitate",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 4
+      }
+    ],
+    "html": "<p>You have a flying speed of 4 meters.</p>\n",
+    "id": "levitate"
+  },
+  {
+    "species": [
+      "mobile-platform-hopper"
+    ],
+    "mechanics": [],
+    "name": "Limited Integration",
+    "html": "<p>You may only integrate Light Armor using your Integrated Protection trait.</p>\n",
+    "id": "limited-integration"
+  },
+  {
+    "name": "Limited Regeneration",
+    "species": [
+      "vorcha"
+    ],
+    "mechanics": [
+      {
+        "type": "regain-all-hit-dice"
+      }
+    ],
+    "html": "<p>You regain all your Hit Dice on a long rest. Additionally, if you lose a body part, the missing part will regrow\nand return to full functionality after a passing of time, based on the body part:</p>\n<ul>\n<li><strong>Fingers &amp; Toes</strong>: 1 week</li>\n<li><strong>Hands &amp; Feet</strong>: 2 weeks</li>\n<li><strong>Arm (to elbow) &amp; Leg (to knee)</strong>: 4 weeks</li>\n<li><strong>Eye</strong>: 6 weeks</li>\n<li><strong>Arm (to shoulder) &amp; Leg (to hip)</strong>: 8 weeks</li>\n</ul>\n",
+    "id": "limited-regeneration"
+  },
+  {
+    "species": [
+      "volus"
+    ],
+    "mechanics": [],
+    "name": "Lucky",
+    "html": "<p>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw,\nyou can reroll the die and must use the new roll.</p>\n",
+    "id": "lucky"
+  },
+  {
+    "species": [
+      "lystheni"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "poisoned"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "resistance",
+        "value": "poison"
+      }
+    ],
+    "name": "Lystheni Resilience",
+    "html": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>\n",
+    "id": "lystheni-resilience"
+  },
+  {
+    "species": [
+      "ay-disposition-growing-power"
+    ],
+    "mechanics": [
+      {
+        "type": "ardat-yakshi-mating",
+        "resource": {
+          "reset": "manual",
+          "max": {
+            "type": "flat",
+            "value": 300,
+            "min": 0
+          },
+          "label": "successful mates",
+          "id": "ardat-yakshi-mating"
+        }
+      }
+    ],
+    "name": "Mating",
+    "html": "<p>Each time an Ardat-Yakshi mates it becomes stronger, smarter, and deadlier. The Mating table below shows how many\ndifferent additional mates the Ardat-Yakshi needs to feed upon (after 1st level) in order to obtain their\nnewfound strengths.</p>\n<p>Each time you reach the required number of mates, you may either gain +1 to an ability score of your\nchoice or gain proficiency in a skill or tool of your choice. You may also gain expertise if you are already\nproficient in the skill.</p>\n<h5>Mating Table</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level requirement</th>\n<th>Mates required</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Level 1-4</td>\n<td>25</td>\n</tr>\n<tr>\n<td>Level 5-10</td>\n<td>50</td>\n</tr>\n<tr>\n<td>Level 11-16</td>\n<td>100</td>\n</tr>\n<tr>\n<td>Level 17-20</td>\n<td>200</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "mating"
+  },
+  {
+    "name": "Medic's Knowledge",
+    "species": [
+      "military-doctrine-field-medics"
+    ],
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "medical-kit"
+      },
+      {
+        "type": "skill",
+        "value": "medicine"
+      }
+    ],
+    "html": "<p>You gain proficiency with the Medial Kit and Medicine skill.</p>\n",
+    "id": "medics-knowledge"
+  },
+  {
+    "species": [
+      "ay-disposition-chaste"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "charmed",
+          "frightened"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "name": "Mental Resilience",
+    "html": "<p>Suppressing a constant urge has given you a strong mental resilience. You have advantage on saving throws against\nbeing charmed or frightened.</p>\n",
+    "id": "mental-resilience"
+  },
+  {
+    "species": [
+      "asari",
+      "ardat-yakshi"
+    ],
+    "mechanics": [
+      {
+        "name": "Mind Meld",
+        "moreInfo": {
+          "model": "traits",
+          "id": "mind-meld"
+        },
+        "type": "action",
+        "resource": {
+          "displayType": "checkbox",
+          "max": {
+            "type": "mod",
+            "value": "wis"
+          },
+          "id": "mind-meld"
+        },
+        "range": {
+          "short": 5
+        },
+        "dc": {
+          "proficient": true,
+          "mod": "wis",
+          "save": "wis"
+        },
+        "shortDesc": "For 1 minute, transfer or receive thoughts from a willing creature within {{ range }}. An unwilling creature must succeed on a DC {{ dc }} WIS saving throw or you learn its surface thoughts. While active, you may probe deeper into its thoughts or direct questions to shape its thoughts as an Action. Lasts 1 minute. An unwilling creature makes another saving throw at the start of each of its turn. Creatures with intelligence 3 or less are unaffected."
+      }
+    ],
+    "name": "Mind Meld",
+    "html": "<p>As an action, you can attempt to transfer or receive thoughts from another organic creature within\n<me-distance length=\"5\" />. If the creature is unwilling, it must make a Wisdom saving throw equal to\n8 + your proficiency bonus + your Wisdom modifier. If it fails, you can successfully begin the meld,\ninitially learning the surface thoughts of the creature -- what is most on its mind in that moment.\nIf you choose a creature that has an Intelligence of 3 or lower, the creature is unaffected.</p>\n<p>If you have an active mind meld, you can attempt to probe deeper into the creature's mind as an Action.\nIf you do, you gain insight into its reasoning (if any), its emotional state, and something that looms\nlarge in its mind (such as something it worries over, loves, or hates). Alternatively, you may use\nyour action to direct questions at the target creature to naturally shape the course of its thoughts.</p>\n<p>Mind meld lasts 1 minute. An unwilling creature makes another Wisdom saving throw at the start of\neach of its turns. On a successful save, the meld ends. Mind meld also ends if you attempt to mind\nmeld another creature or the creature is farther than <me-distance length=\"5\" /> from you. You may also end the meld\nas a free action on your turn.</p>\n<p>You may use Mind Meld a number of times between long rests equal to your Wisdom modifier (minimum 1).</p>\n",
+    "id": "mind-meld"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-cerebral"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "charmed",
+          "frightened"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "name": "Mind Shielding Unit",
+    "html": "<p>You have advantage on saving throws against being charmed or frightened and your mind cannot be read by an\nasari's mind meld.</p>\n",
+    "id": "mind-shielding-unit"
+  },
+  {
+    "name": "Natural Armor",
+    "species": [
+      "krogan",
+      "tankbred"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 12,
+        "mod": "con"
+      }
+    ],
+    "html": "<p>When you aren’t wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to\ndetermine your AC if the armor you wear would leave you with a lower AC. A held shield’s benefits apply\nas normal while you use your natural armor.</p>\n",
+    "id": "natural-armor"
+  },
+  {
+    "species": [
+      "lifestage-matron"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "persuasion"
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "deception",
+          "history",
+          "insight",
+          "intimidation",
+          "investigation",
+          "medicine",
+          "performance"
+        ]
+      }
+    ],
+    "name": "Natural Diplomat",
+    "html": "<p>You have proficiency in the Persuasion skill and your choice of one other skill\nfrom the following: Deception, History, Insight, Intimidation, Investigation, Medicine, Performance.</p>\n",
+    "id": "natural-diplomat"
+  },
+  {
+    "species": [
+      "drell"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "athletics",
+          "acrobatics",
+          "perception",
+          "stealth",
+          "survival"
+        ],
+        "selections": 2
+      }
+    ],
+    "name": "Natural Hunters",
+    "html": "<p>You gain proficiency with two of the following skills of your choice: Athletics, Acrobatics, Perception, Stealth, and Survival.</p>\n",
+    "id": "natural-hunters"
+  },
+  {
+    "name": "Non-Differentiated Cells",
+    "species": [
+      "vorcha"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "poison",
+        "note": "to your hit points"
+      },
+      {
+        "type": "condition-immunity",
+        "value": "poisoned"
+      }
+    ],
+    "html": "<p>You are immune to disease. In addition, you have advantage on saving throws against poison, and you have resistance\nagainst poison damage to your hit points.</p>\n",
+    "id": "non-differentiated-cells"
+  },
+  {
+    "name": "Nutrient Hump",
+    "species": [
+      "krogan"
+    ],
+    "mechanics": [],
+    "html": "<p>Your large shoulder humps store fluids and nutrients, enabling you to survive extended periods without food or water.\nYou can go twice as long without food or water before you suffer exhaustion.</p>\n",
+    "id": "nutrient-hump"
+  },
+  {
+    "name": "Orb",
+    "species": [
+      "exaltation-ascendant"
+    ],
+    "mechanics": [
+      {
+        "name": "Orb",
+        "moreInfo": {
+          "model": "traits",
+          "id": "orb"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "orb"
+        },
+        "damage": [
+          {
+            "type": "temp",
+            "bonus": {
+              "type": "flat",
+              "value": 5
+            }
+          }
+        ],
+        "shortDesc": "Summon an orb that floats around you. Gain 5 temporary hit points."
+      }
+    ],
+    "html": "<p>As an action, you may summon a protective orb that floats around you,\nintercepting incoming fire. Gain 5 temporary hit points.</p>\n<p>You can summon the orb a number of times between long rests equal to your\nproficiency bonus.</p>\n",
+    "id": "orb"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-muscular"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "acrobatics",
+          "athletics"
+        ],
+        "selections": 1
+      }
+    ],
+    "name": "Peak Fitness",
+    "html": "<p>You gain proficiency in either the Acrobatics or Athletics skill (your choice).</p>\n",
+    "id": "peak-fitness"
+  },
+  {
+    "name": "Perfect Disguise",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "sense": "deception"
+      }
+    ],
+    "html": "<p>You are indiscernible from other LOKI mechs and can calibrate your voice to make it unreadable and void of emotion. You have proficiency in Deception.</p>\n",
+    "id": "perfect-disguise"
+  },
+  {
+    "species": [
+      "salarian",
+      "lystheni"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "effect": {
+          "type": "advantage",
+          "note": "on information you have seen or read"
+        }
+      }
+    ],
+    "name": "Photographic Memory",
+    "html": "<p>Whenever you make an Intelligence (Engineering, Electronics, History, or Science) check to recall information, add\ntwice your proficiency bonus even if you are not proficient in that skill.</p>\n",
+    "id": "photographic-memory"
+  },
+  {
+    "name": "Power Armor Training",
+    "species": [
+      "volus"
+    ],
+    "mechanics": [
+      {
+        "type": "armor",
+        "value": "light"
+      },
+      {
+        "type": "armor",
+        "value": "medium"
+      },
+      {
+        "type": "nullify-armor-str-restriction"
+      }
+    ],
+    "html": "<p>Volus are trained to use power armor in combat, seamlessly integrating the armor with their hermetic suits and adding\nmechanisms to increase the weight and mobility. You have proficiency with light and medium armor and your speed is not\nreduced by wearing armor.</p>\n",
+    "id": "power-armor-training"
+  },
+  {
+    "species": [
+      "krogan",
+      "exaltation-anointed",
+      "behemoth"
+    ],
+    "mechanics": [],
+    "name": "Powerful Build",
+    "html": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>\n",
+    "id": "powerful-build"
+  },
+  {
+    "name": "Predator Eyes",
+    "species": [
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "insight"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to determine lies"
+        }
+      }
+    ],
+    "html": "<p>You have darkvision 24m (60ft) and gain proficiency in Insight. Additionally,\nyou have advantage on Wisdom (Insight) checks to determine if a creature is lying.</p>\n",
+    "id": "predator-eyes"
+  },
+  {
+    "species": [
+      "volus"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "poison",
+        "note": "while within your pressurized suit"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic",
+        "note": "while within your pressurized suit"
+      },
+      {
+        "type": "condition-immunity",
+        "value": "disease",
+        "note": "immune to disease while within your pressurized suit"
+      }
+    ],
+    "name": "Pressurized Suit",
+    "html": "<p>Your suit is your lifeblood and consists of a reinforced, pressurized bodysuit and helmet. It makes you immune to\ndisease and provides resistance to poison and necrotic damage.</p>\n<p>However, you are always at risk. If you are the victim of a critical hit that deals piercing or slashing damage, your\nsuit becomes breached. As an action, you may spend 1 omni-gel to seal your suit. You have 3 omni-gels as part of your\nstarting equipment.</p>\n<p>If you are not in an environment made for volus, for each minute in which you have a breach in your suit, you suffer\n2d6 poison and 1d6 slashing damage. If you do not repair your suit or get to a volus appropriate environment within\n10 minutes, you die.</p>\n",
+    "id": "pressurized-suit"
+  },
+  {
+    "name": "Projecting",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "name": "Summon Projection",
+        "moreInfo": {
+          "model": "traits",
+          "id": "projecting"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Recall your projection or summon in to an unoccupied spaced within <me-distance length=\"30\" />."
+      }
+    ],
+    "html": "<p>As a bonus action, you may recall or summon your projection within your own space or in an unoccupied space within <me-distance length=\"30\" />. The projection lasts indefinitely and dissipates if its hit points are reduced to 0, it falls unconscious, it moves farther than <me-distance length=\"30\" /> from your emitter, or it moves to a location which has full cover from your emitter.</p>\n<p>You cannot summon your projection if it has 0 hit points.</p>\n",
+    "id": "projecting"
+  },
+  {
+    "species": [
+      "prothean",
+      "prothean-no-avatar"
+    ],
+    "mechanics": [
+      {
+        "name": "Psychometry",
+        "moreInfo": {
+          "model": "traits",
+          "id": "psychometry"
+        },
+        "type": "other",
+        "resource": {
+          "id": "psychometry"
+        }
+      }
+    ],
+    "name": "Psychometry",
+    "html": "<p>While in physical contact with a creature or object, you can recall its experiences. If you touch an object or\ncreature and concentrate on it for 1 minute, you learn a few basic facts about it. You gain a mental image from the object\nor creature's point of view, learning of any events that have occurred within <me-distance length=\"30\" />  of the\nobject or creature within the past 24 hours. If in contact with an object, you see the last creature to\nhold the object, regardless of how long ago it was last handled.</p>\n<p>You may use your psychometry once per long rest.</p>\n",
+    "id": "psychometry"
+  },
+  {
+    "species": [
+      "elcor"
+    ],
+    "mechanics": [],
+    "name": "Quadrupedal",
+    "html": "<p>In addition, any climb that requires hands and feet is especially difficult for you because of your size and weight.\nWhen you make such a climb, each <me-distance length=\"1\" /> of movement costs you\n<me-distance length=\"4\" override=\"extra {metric}\"/>, instead of the normal <me-distance length=\"1\" override=\"extra {metric}\"/>.</p>\n<p>Finally, a Medium or smaller creature can ride on your back if you allow it. In such a situation, you continue\nto act independently, not as a controlled mount.</p>\n",
+    "id": "quadrupedal"
+  },
+  {
+    "name": "Rally Point",
+    "species": [
+      "exaltation-anointed"
+    ],
+    "mechanics": [],
+    "html": "<p>At the start of your turn, you may reduce your speed to 0 to increase the DC of\nthe next Burst Fire action you take this turn by your proficiency bonus.</p>\n",
+    "id": "rally-point"
+  },
+  {
+    "name": "Rapid Recall",
+    "species": [
+      "hardware-hologram"
+    ],
+    "mechanics": [
+      {
+        "name": "Rapid Recall",
+        "moreInfo": {
+          "model": "traits",
+          "id": "rapid-recall"
+        },
+        "type": "reaction",
+        "resource": {
+          "id": "rapid-recall"
+        },
+        "shortDesc": "Recall your projection and summon in your emitter's space when you are targeted by an attack or power you can see."
+      }
+    ],
+    "html": "<p>Whenever your emitter or projection is targeted by an attack or power you can see, you can use your reaction to recall your projection and summon it in your emitter’s space.</p>\n<p>You may use this feature once between long rests.</p>\n",
+    "id": "rapid-recall"
+  },
+  {
+    "name": "Recon Training",
+    "species": [
+      "military-doctrine-recon"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "limit": [
+          "perception",
+          "stealth",
+          "survival"
+        ],
+        "options": true
+      }
+    ],
+    "html": "<p>You gain proficiency in the Perception, Stealth, or Survival skill (your choice).</p>\n",
+    "id": "recon-training"
+  },
+  {
+    "name": "Relentless Endurance",
+    "species": [
+      "behemoth"
+    ],
+    "mechanics": [
+      {
+        "name": "Relentless Endurance",
+        "moreInfo": {
+          "model": "traits",
+          "id": "relentless-endurance"
+        },
+        "type": "other",
+        "resource": {
+          "id": "relentless-endurance"
+        },
+        "shortDesc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead."
+      }
+    ],
+    "html": "<p>When you are reduced to 0 hit points but not killed outright, you can drop to\n1 hit point instead. You can’t use this feature again until you finish a long rest.</p>\n",
+    "id": "relentless-endurance"
+  },
+  {
+    "species": [
+      "geth",
+      "hardware-aiu"
+    ],
+    "mechanics": [
+      {
+        "name": "Repair Matrix",
+        "moreInfo": {
+          "model": "traits",
+          "id": "repair-matrix"
+        },
+        "type": "action",
+        "resource": {
+          "displayType": "hit-dice",
+          "label": false,
+          "id": "repair-matrix"
+        },
+        "shortDesc": "Expend a hit die, roll it, and gain that many hit points."
+      },
+      {
+        "type": "regain-all-hit-dice"
+      }
+    ],
+    "name": "Repair Matrix",
+    "html": "<p>You have internal failsafes and repair protocols to assist with your longevity. You can expend one or more Hit Dice\nas an Action, roll the die, and gain that many hit points.</p>\n<p>Additionally, you regain all spent Hit Dice during a long rest, instead of the usual amount.</p>\n",
+    "id": "repair-matrix"
+  },
+  {
+    "species": [
+      "lifestage-maiden"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true
+      },
+      {
+        "type": "tool-choice",
+        "options": true
+      }
+    ],
+    "name": "Restless Curiosity",
+    "html": "<p>Maidens tend to spend hundreds of years mastering talents, exploring, and experiencing\nanything and everything the galaxy has to offer. You have spent the past few decades mastering a\nparticular skill or trade, one you may forget about in your later years, but it's certainly a fun hobby for now.\nYou gain proficiency with one tool and one skill of your choice.</p>\n",
+    "id": "restless-curiosity"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-visceral"
+    ],
+    "mechanics": [
+      {
+        "name": "Revival Unit",
+        "moreInfo": {
+          "model": "traits",
+          "id": "revival-unit"
+        },
+        "type": "other",
+        "resource": {
+          "id": "revival-unit"
+        },
+        "shortDesc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead."
+      }
+    ],
+    "name": "Revival Unit",
+    "html": "<p>Once per long rest, when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point\ninstead.</p>\n",
+    "id": "revival-unit"
+  },
+  {
+    "name": "Savage Attacks",
+    "species": [
+      "behemoth"
+    ],
+    "mechanics": [],
+    "html": "<p>When you score a critical hit with a melee weapon attack, you can roll one of\nthe weapon’s damage dice one additional time and add it to the extra damage\nof the critical hit.</p>\n",
+    "id": "savage-attacks"
+  },
+  {
+    "species": [
+      "batarian"
+    ],
+    "mechanics": [
+      {
+        "name": "Saving Face",
+        "moreInfo": {
+          "model": "traits",
+          "id": "saving-face"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "saving-face"
+        }
+      }
+    ],
+    "name": "Saving Face",
+    "html": "<p>Batarians are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an\nattack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies\nyou can see (maximum bonus of +5). Once you use this trait, you can't use it again until you finish\na short or long rest.</p>\n",
+    "id": "saving-face"
+  },
+  {
+    "species": [
+      "volus"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "persuasion"
+      }
+    ],
+    "name": "Savvy Dealings",
+    "html": "<p>You have proficiency in the Persuasion skill.</p>\n",
+    "id": "savvy-dealings"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-cerebral"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "electronics",
+          "engineering",
+          "history",
+          "investigation",
+          "science"
+        ],
+        "selections": 2
+      }
+    ],
+    "name": "Scientific Aptitude",
+    "html": "<p>You gain proficiency with two of the following skills of your choice: Electronics, Engineering, History,\nInvestigation, or Science.</p>\n",
+    "id": "scientific-aptitude"
+  },
+  {
+    "species": [
+      "awakened-collector"
+    ],
+    "mechanics": [
+      {
+        "name": "Seeker Swarm",
+        "moreInfo": {
+          "model": "traits",
+          "id": "seeker-swarm"
+        },
+        "type": "action",
+        "resource": {
+          "id": "seeker-swarm"
+        },
+        "shortDesc": "Summon three seeker swarms that orbit around you for 1 hour."
+      },
+      {
+        "name": "Seeker Swarm",
+        "moreInfo": {
+          "model": "traits",
+          "id": "seeker-swarm"
+        },
+        "type": "bonus-action",
+        "layout": "stats-right",
+        "resource": {
+          "displayType": "counter",
+          "reset": "manual",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "seeker-swarm-count"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 4,
+            "type": "necrotic",
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ],
+        "range": {
+          "short": 150
+        },
+        "shortDesc": "Use a bonus action to expend one to three swarms that hit a creature of your choice within {{ range }}. A swarm deals 1d4 + 1 necrotic damage its target that bypasses shields and detonates any primed conditions. If you expend more than one swarm, they all strike simultaneously, and you can direct them to hit one creature or several."
+      }
+    ],
+    "name": "Seeker Swarm",
+    "html": "<p>Seeker Swarm\nAs an action, you call three seeker swarms that orbit around you. The swarms remain for 1 hour or until you dismiss\nthem as a bonus action. While active, you may use a bonus action to expend one to three swarms that hit a creature\nof your choice within 60 meters. A swarm deals 1d4 + 1 necrotic damage to its target and detonates any primed\ncondition (this damage bypasses shields). If you expend more than one swarm, they all strike simultaneously, and you\ncan direct them to hit one creature or several.</p>\n<p>Once you use this feature, you must take a long rest before using it again.</p>\n",
+    "id": "seeker-swarm"
+  },
+  {
+    "name": "Self Destruct",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [
+      {
+        "name": "Self Destruct",
+        "moreInfo": {
+          "model": "traits",
+          "id": "self-destruct"
+        },
+        "type": "reaction",
+        "layout": "statsRight",
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "dc": {
+          "proficient": true,
+          "base": 15,
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": 8,
+            "dieType": 6,
+            "type": "fire",
+            "bonus": {
+              "type": "hp"
+            }
+          }
+        ],
+        "shortDesc": "When you have half you hit points or less remaining, initiate a self-destruct sequence. Each creature within <me-distance length=\"10\" abbr /> of you must make DC {{ dc }} DEX saving throw. On a failed save a creature suffers 8d6 + {{ hp }} fire damage, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death saving throw failure."
+      }
+    ],
+    "html": "<p>If you have less than half your hit points remaining, you can use your reaction to initiate a self-destruct sequence.\nIf you do so, each creature within <me-distance length=\"10\" /> of you must make a Dexterity saving throw. The DC of this saving throw is\nequal to 15 plus your proficiency bonus. On a failed save, a creature suffers fire damage equal to 8d6 + your\nremaining hit points, or half as much on a successful save. Then, you drop to 0 hit points and suffer one death\nsaving throw failure.</p>\n<p>After you use your this trait, you cannot do so again until you’ve successfully reinstalled your explosive devices.\nThe process takes 4 hours and 5,000 credits worth of explosives.</p>\n<h5>Variant: Aftermath</h5>\n<p>After you use your this trait, roll a d8 and consult the Self Destruct Aftermath table. The result of the d8\nindicates the parts of your hardware that are irreparable and must be replaced. When you are stabilized or healed you\nsuffer the effect listed in the table which persists until you can purchase or find replacement parts and install them.\nTypically installation requires 4 hours of work and a successful DC 15 Intelligence (Engineering) or (Electronics) check.</p>\n<p>You cannot use Self Destruct again until all of your parts are replaced.</p>\n<p><strong>Self Destruct Aftermath</strong></p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>d8</th>\n<th>Effect</th>\n<th>Replacement Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Damage to voice and expression modulators. You have disadvantage on Charisma checks and saving throws.</td>\n<td>1,000 credits</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Damage to auxiliary CPUs. You have disadvantage on Intelligence checks and saving throws.</td>\n<td>1,000 credits</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Damage to power modulators. You have disadvantage on all ability checks.</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Loss of 1 arm. You cannot perform tasks or take actions that would require two hands.</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Loss of 1 leg. Your speed becomes 6 meters, you cannot take the Dash action, and you have disadvantage on Dexterity saving throws.</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Loss of one leg and one arm. Combined effects of 4 and 5 on this table.</td>\n<td>4,000 credits</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Loss of lower body. Your speed becomes 2 meters, you cannot take the Dash action, and you automatically fail Dexterity saving throws.</td>\n<td>5,000 credits</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Loss of both arms. You cannot wield weapons or cast powers.</td>\n<td>4,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "self-destruct"
+  },
+  {
+    "species": [
+      "geth",
+      "unshackled-ai"
+    ],
+    "mechanics": [],
+    "name": "Sentry Mode",
+    "html": "<p>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping.\nIn this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>\n",
+    "id": "sentry-mode"
+  },
+  {
+    "name": "Shotgun Mastery",
+    "species": [
+      "hardware-aiu"
+    ],
+    "mechanics": [
+      {
+        "type": "weapon",
+        "value": "shotgun"
+      },
+      {
+        "type": "attack-augment",
+        "augment": "notes",
+        "limits": {
+          "modelType": "shotgun"
+        },
+        "value": [
+          "Reroll 1"
+        ]
+      }
+    ],
+    "html": "<p>You are proficient with Shotguns and when you roll a 1 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",
+    "id": "shotgun-mastery"
+  },
+  {
+    "species": [
+      "batarian"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "insight",
+          "intimidation"
+        ],
+        "selections": 1
+      }
+    ],
+    "name": "Shrewd Negotiator",
+    "html": "<p>Gain proficiency in either Insight or Intimidation.</p>\n",
+    "id": "shrewd-negotiator"
+  },
+  {
+    "species": [
+      "human"
+    ],
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "profType": "skill",
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "name": "Skill Expertise",
+    "html": "<p>Your choice of expertise in one skill.</p>\n",
+    "id": "skill-expertise"
+  },
+  {
+    "species": [
+      "human"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "name": "Skill Proficiencies",
+    "html": "<p>Your choice of two skill proficiencies.</p>\n",
+    "id": "skill-proficiencies"
+  },
+  {
+    "species": [
+      "human-variant",
+      "turian-non-hierarchy"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "name": "Skill Proficiency",
+    "html": "<p>Your choice of skill proficiency.</p>\n",
+    "id": "skill-proficiency"
+  },
+  {
+    "name": "Smoke Screen",
+    "species": [
+      "exaltation-destined"
+    ],
+    "mechanics": [
+      {
+        "name": "Smoke Screen",
+        "moreInfo": {
+          "model": "traits",
+          "id": "smoke-screen"
+        },
+        "type": "action",
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 20
+          }
+        },
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "smoke-screen"
+        },
+        "shortDesc": "Create an <me-distance length=\"20\" adj />-radius sphere of smoke centered on you."
+      }
+    ],
+    "html": "<p>As an action, you can create an <me-distance length=\"20\" adj />-radius sphere of smoke centered on you.\nThe sphere spreads around corners, and its area is heavily obscured. It lasts\nfor 1 minute or until a wind of moderate or greater speed (at least\n<me-distance large length=\"10\" /> per hour) disperses it.</p>\n<p>You may use this twice between short or long rests.</p>\n",
+    "id": "smoke-screen"
+  },
+  {
+    "species": [
+      "angara"
+    ],
+    "mechanics": [],
+    "name": "Solar Dependency",
+    "html": "<p>In addition to food and water, you must also immerse yourself in a source of UV radiation for at least 1 hour per\nday. If you do not, you automatically suffer one level of exhaustion at the end of that day.</p>\n",
+    "id": "solar-dependency"
+  },
+  {
+    "species": [
+      "mobile-platform-trooper"
+    ],
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "options": true
+      },
+      {
+        "type": "tool-choice",
+        "options": true
+      },
+      {
+        "type": "weapon-choice",
+        "profType": "weapon",
+        "options": true
+      }
+    ],
+    "name": "Specialized Design",
+    "html": "<p>You gain expertise in one skill of your choice. You also gain proficiency in one tool and one weapon of your choice.</p>\n",
+    "id": "specialized-design"
+  },
+  {
+    "species": [
+      "mobile-platform-hopper"
+    ],
+    "mechanics": [],
+    "name": "Spring Loaded",
+    "html": "<p>You can jump three times the normal distance.</p>\n",
+    "id": "spring-loaded"
+  },
+  {
+    "species": [
+      "ay-disposition-chaste"
+    ],
+    "mechanics": [
+      {
+        "type": "ardat-yakshi-stave-off",
+        "resource": {
+          "reset": "off",
+          "label": "Hunger, disadvantage of Addiction saving throws",
+          "id": "ardat-yakshi-stave-off"
+        }
+      }
+    ],
+    "name": "Stave Off",
+    "html": "<p>If you spend one hour meditating each day, the DC of your Addiction saving throw does not increase.\nYou may meditate as part of a long rest. If you mate with another creature, replace this trait with the\nHunger trait from the Embrace disposition.</p>\n",
+    "id": "stave-off"
+  },
+  {
+    "species": [
+      "mobile-platform-hopper",
+      "hardware-aiu"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "name": "Stealth Unit",
+    "html": "<p>Hopper platforms are designed for covert operations. You have proficiency in Stealth.</p>\n",
+    "id": "stealth-unit"
+  },
+  {
+    "species": [
+      "angara"
+    ],
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "survival"
+      }
+    ],
+    "name": "Survivalist",
+    "html": "<p>Angara have a knack for living in harsh environments. You have proficiency in the Survival skill.</p>\n",
+    "id": "survivalist"
+  },
+  {
+    "name": "Swarm Tactics",
+    "species": [
+      "hardware-loki"
+    ],
+    "mechanics": [],
+    "html": "<p>Your underlying LOKI programming is built on swarming enemies with superior numbers. Once per turn, you have advantage on\nan attack roll against a creature if at least one of your allies is within 2 meters of the creature and the\nally isn’t incapacitated.</p>\n",
+    "id": "swarm-tactics"
+  },
+  {
+    "species": [
+      "geth",
+      "unshackled-ai"
+    ],
+    "mechanics": [
+      {
+        "type": "immunity",
+        "value": "psychic"
+      },
+      {
+        "type": "immunity",
+        "value": "poison"
+      },
+      {
+        "type": "condition-immunity",
+        "value": "poisoned"
+      },
+      {
+        "type": "vulnerability",
+        "value": "lightning"
+      }
+    ],
+    "name": "Synthetic Construct",
+    "html": "<p>As a synthetic creature you gain the benefits and detriments of not being composed of biological material.\nYour creature type is synthetic and you cannot be the target of any power, item, or feature that\nindicates an organic target. You gain the following:</p>\n<ul>\n<li>You are immune to psychic and poison damage</li>\n<li>You are immune to disease and the poisoned condition</li>\n<li>You are vulnerable to lightning damage.</li>\n<li>Being stabilized requires a successful DC 10 Intelligence (Engineering) or\nIntelligence (Electronics) check instead of Wisdom (Medicine).</li>\n<li>You do not need to eat, drink, or breathe.</li>\n<li>You do not need to sleep.</li>\n</ul>\n",
+    "id": "synthetic-construct"
+  },
+  {
+    "name": "Tackler",
+    "species": [
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "name": "Tackler",
+        "moreInfo": {
+          "model": "traits",
+          "id": "tackler"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you take the Dash action and move at least <me-distance length=\"20\" abbr />, you may attempt to grapple a creature. On a success, the creature becomes prone."
+      }
+    ],
+    "html": "<p>Immediately after you use the Dash action on your turn and move at least\n<me-distance length=\"20\" />, you can attempt to grapple one creature as a bonus\naction. If you succeed on the grapple, the creature becomes prone.</p>\n",
+    "id": "tackler"
+  },
+  {
+    "name": "Tank Imprints",
+    "species": [
+      "tankbred"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true
+      },
+      {
+        "type": "weapon-choice",
+        "options": true
+      },
+      {
+        "type": "tool-choice",
+        "options": true
+      }
+    ],
+    "html": "<p>The tank has imparted knowledge into you via imprints. You gain proficiency with one weapon of your choice, one skill\nof your choice, and one tool of your choice.</p>\n",
+    "id": "tank-imprints"
+  },
+  {
+    "species": [
+      "hanar"
+    ],
+    "mechanics": [
+      {
+        "name": "Tentacle Bind",
+        "moreInfo": {
+          "model": "traits",
+          "id": "tentacle-bind"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Attack w/ three or more tentacles and hit, you may use your bonus action to attempt to grapple the target. +1 to Strength (Athletics) check for each tentacle used."
+      }
+    ],
+    "name": "Tentacle Bind",
+    "html": "<p>When you attack a target with three or more tentacles simultaneously and hit, you can attempt to grapple the target as\na bonus action. You gain a +1 bonus to your Strength (Athletics) check for each tentacle used.</p>\n<p>If you successfully grapple a creature with all six tentacles it becomes restrained until the grapple ends.</p>\n",
+    "id": "tentacle-bind"
+  },
+  {
+    "species": [
+      "hanar"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": true,
+        "value": {
+          "damageModOverride": "noMod",
+          "name": "Tentacles",
+          "type": "natural-melee",
+          "range": 5,
+          "damage": {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "poison"
+          },
+          "notes": [
+            "On a hit, DC {{ 8 + profBonus + conMod }} or poisoned for 1 minute",
+            "+1 to attack roll and DC for each additional tentacle used"
+          ],
+          "moreInfo": {
+            "model": "traits",
+            "id": "tentacles"
+          }
+        }
+      }
+    ],
+    "name": "Tentacles",
+    "html": "<p>You have six tentacles instead of arms that can grip tightly but can't lift anything heavier than a few kilograms.\nYou can only wield weapons with the <em>light</em> property.</p>\n<p>In addition, your tentacles are natural weapons, which you can use to make unarmed strikes. When you attack\nwith multiple tentacles simultaneously, gain a +1 bonus to the attack roll for each additional tentacle used.</p>\n<p>When you hit with your tentacles, you deal 1d8 poison damage and the target must succeed on a\nConstitution saving throw or become poisoned for one minute. The DC of this saving throw is equal to\n10 + your proficiency bonus + the number of tentacles used on this attack.</p>\n",
+    "id": "tentacles"
+  },
+  {
+    "name": "Thick Frontal Plate",
+    "species": [
+      "krogan",
+      "tankbred"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "value": {
+          "damageModOverride": "con",
+          "type": "natural-melee",
+          "name": "Thick Frontal Plate",
+          "notes": null,
+          "properties": [],
+          "range": 5,
+          "damage": {
+            "dieCount": 1,
+            "dieType": 6,
+            "type": "bludgeoning"
+          },
+          "moreInfo": {
+            "model": "traits",
+            "id": "thick-frontal-plate"
+          }
+        }
+      }
+    ],
+    "html": "<p>Your frontal plate is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal\nbludgeoning damage equal to 1d6 + your Constitution modifier, instead of the damage normal for an unarmed strike.</p>\n",
+    "id": "thick-frontal-plate"
+  },
+  {
+    "species": [
+      "elcor"
+    ],
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 13,
+        "mod": "con"
+      }
+    ],
+    "name": "Thick Hide",
+    "html": "<p>When you aren’t wearing armor, your AC is 13 + your Constitution modifier. You can use your natural armor to\ndetermine your AC if the armor you wear would leave you with a lower AC. A held shield’s benefits apply\nas normal while you use your natural armor.</p>\n",
+    "id": "thick-hide"
+  },
+  {
+    "species": [
+      "turian",
+      "turian-non-hierarchy"
+    ],
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "radiant",
+        "note": "to your hit points"
+      }
+    ],
+    "name": "Thulium Skin",
+    "html": "<p>You have resistance to radiant damage and immunity to diseases caused by radiation.</p>\n",
+    "id": "thulium-skin"
+  },
+  {
+    "species": [
+      "human"
+    ],
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "name": "Tool Proficiency",
+    "html": "<p>Your choice of Tool proficiency.</p>\n",
+    "id": "tool-proficiency"
+  },
+  {
+    "species": [
+      "cybernetic-augmentation-visceral",
+      "krogan",
+      "tankbred",
+      "yahg"
+    ],
+    "mechanics": [
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level",
+          "multiplier": 1
+        }
+      }
+    ],
+    "name": "Toughness",
+    "html": "<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>\n",
+    "id": "toughness"
+  },
+  {
+    "species": [
+      "elcor"
+    ],
+    "mechanics": [],
+    "name": "Tripedal Combat",
+    "html": "<p>Due to their massive size, Elcor can only use one forelimb to use objects. You cannot wield more than one\nweapon or object (such as a riot shield) at a time and you must stow your weapon to use items\n(such as grenades and medi-gel) or interact with objects.</p>\n<p>However, you ignore the heavy and two-handed property of all weapons and when you deal damage\nwith a weapon that has the versatile property, you deal damage as if you were attacking with two hands.\nAdditionally, you may cast powers while wielding a weapon.</p>\n",
+    "id": "tripedal-combat"
+  },
+  {
+    "species": [
+      "salarian"
+    ],
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      },
+      {
+        "type": "tool-choice",
+        "profType": "tool",
+        "options": true,
+        "selections": 2
+      },
+      {
+        "type": "skill-check",
+        "effect": {
+          "type": "die-bonus",
+          "note": "add a d4 to the roll"
+        },
+        "valueLookup": {
+          "model": "traits",
+          "id": "twice-as-bright",
+          "limit": [
+            "skill",
+            "tool"
+          ]
+        }
+      }
+    ],
+    "name": "Twice as Bright",
+    "html": "<p>You gain proficiency in two skills of your choice and two tools or kits of your choice.</p>\n<p>Whenever you make an ability check with one of the chosen skills or tools from\nTwice as Bright, roll a d4, and add the number rolled to the check’s total.</p>\n",
+    "id": "twice-as-bright"
+  },
+  {
+    "name": "Undeterred",
+    "species": [
+      "exaltation-chosen"
+    ],
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": "frightened",
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "html": "<p>Self-preservation has been nearly eradicated from your genetic profile. You\nhave advantage on saving throws against being frightened.</p>\n",
+    "id": "undeterred"
+  },
+  {
+    "name": "Weapon Training",
+    "species": [
+      "military-doctrine-infantry",
+      "exaltation-chosen",
+      "exaltation-anointed"
+    ],
+    "mechanics": [
+      {
+        "type": "weapon-choice",
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "html": "<p>You gain proficiency in one weapon type of your choice.</p>\n",
+    "id": "weapon-training"
+  },
+  {
+    "species": [
+      "awakened-collector"
+    ],
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 30,
+        "note": "if you end your movement in the air, you fall to the ground at the end of your turn"
+      },
+      {
+        "type": "resistance",
+        "value": "fall"
+      }
+    ],
+    "name": "Wings",
+    "html": "<p>You have fully developed wings that allow you to fly over short distances. You gain a flying speed of 12 meters but if\nyou end your movement in the air, you fall to the ground at the end of your turn.</p>\n<p>Additionally, whenever you suffer falling damage you only suffer half the amount.</p>\n",
+    "id": "wings"
+  }
+]

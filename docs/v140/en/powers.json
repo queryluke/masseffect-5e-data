@@ -2351,7 +2351,9 @@
     "damageTypes": [
       "fire"
     ],
-    "castingTimes": [],
+    "castingTimes": [
+      "action"
+    ],
     "duration": false,
     "instant": true,
     "concentration": false,
@@ -4403,8 +4405,8 @@
       "ranged": false
     },
     "save": {
-      "dex": true,
-      "str": false,
+      "dex": false,
+      "str": true,
       "con": false,
       "int": false,
       "wis": false,

@@ -12,7 +12,7 @@
 
 # resource (e.g., x per rest)
 resource:
-  displayType: enum [heat, counter, checkbox] # default checkbox
+  displayType: enum [heat, counter, checkbox, hit-dice] # default checkbox
   reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
   max: @bonus
@@ -20,12 +20,74 @@ resource:
   id: string # a uuid to track the resources. Allows for sharing resources
   label: string #default is '/ [short or long] rest'
 
+toggle:
+  id: string # toggleable id
+  options:
+    - id: string
+      name: string
+      whenOn: [whenable]
+      whenOff: [whenable]
+  whenOn: [whenable]
+  whenOff: [whenable]
+
+whenable:
+  type: string, resource or a mechanic type
+  # if resource
+  id: string, resource-id
+  method: enum, set, add, remove
+  value: @bonus
+  # or any other mechanic type
+
+companion:
+  name: string
+  type: string
+  profBonus: 2
+  abilityScores:
+    str: integer
+    dex: integer
+    con: integer
+    wis: integer
+    int: integer
+  hp:
+    dieCount: integer
+    dieType: integer
+    bonus: @bonus
+  savingThrows:
+    str:
+      proficient: boolean
+      bonus: @bonus
+  irv:
+    - type: enum [resistance, immunity, condition-immunity, vulnerability]
+      value: [enum, string]
+  senses:
+    - sense: [enum senses]
+      distance: integer
+      note: string
+  speeds:
+    - speed: [enum speeds]
+      distance: integer
+      note: string
+
+
 # bonus
 bonus:
-  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison]
-  value: integer, string, or null [for level, value is the klass id (klass level), otherwise value should always be null for level]
-  multiplier: 1,
+  type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison, dice]
+  value: any
+    # flat = integer
+    # mod = string (abilities)
+    # proficiency = null
+    # level = null (for all levels), or string (klass-id) for klass levels
+    # hp = null
+    # progressive = object { [level]: value }
+    # modComparison = array of abilities
+    # dice = object { dieCount: @bonus, dieType: @bonus }
+    # TODO
+    # powercastingMod = string, klass-id
+    # resource = string, resource-id
+    # multi = array of bonus
+  multiplier: float
   min: integer # default 0
+  round: up or down, default down
 
 dieBonus:
   dieType: enum die types
@@ -36,6 +98,19 @@ effect:
   bonus: @bonus
   resource: @resource # for limited, can disable when uses are out
   note: string
+
+attackLimit:
+  type: melee or ranged
+  model: weapon or power
+  type: weapon types or power types
+
+damage:
+  dieCount: integer (0 = special)
+  dieType: integer
+  mod: enum [str, dex, con, int, wis, cha, max] # optional
+  modComparison: enum [abilities] #required for max mod
+  type: enum [damage types] or hp, sp, tempHp
+  bonus: @bonus
 
 # used for looking up player selections
 # in theory, all selections are:
@@ -56,6 +131,22 @@ valueLookup:
 
 # any mechanic that needs a selection should have
 #   options: true
+
+# any mechanic can have progressionColumn as an attribute
+progressionColumn:
+  label: string
+  values: array
+  order: int
+# column orders are
+# 0 = level, then prof bonus
+# 1-4 = custom before features
+# 5 = features
+# 6-9 = custom before barrier
+# 10 = barrier
+# 11-14 = custom before cantrips
+# 15 = cantrips
+# 16-19 = custom before powercasting
+# 20 = point, then pact, then slot
 
 mechanics:
 # Ability Score Increases
@@ -78,6 +169,8 @@ mechanics:
     limit: [types] #optional array
     selections: integer
     expertise: boolean
+  - type: skill-or-expertise
+    value: [@skills]
 # AC
   - type: ac
     bonus: @bonus
@@ -109,12 +202,20 @@ mechanics:
     value: enum [skills]
     valueLookup: @valueLookup
     effect: @effect
+  - type: passive
+    value: enum @skills
+    bonus: @bonus
 # Speeds
   # when rendering, 1) take the farther of identical speeds and/or the one without a note
   - type: speed
     speed: enum [walk, fly, burrow, swim, climb]
     distance: integer
     note: string #note is optional.
+  - type: speed-bonus
+    value: [enum speeds]
+    bonus: @bonus
+  - type: speed-note
+    note: string
 # Senses
   - type: sense
     sense: enum [senses]
@@ -142,6 +243,7 @@ mechanics:
 # Actions, Bonus Actions, and Reactions
   - type: enum [action, bonus-action, reaction, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
+    toggle: @toggle
     range:
       short: integer (0 = self, touch = 1)
       long: integer (0 = self, touch = 1)
@@ -150,6 +252,7 @@ mechanics:
         type: enum [aoe types]
         size: integer
     attack: # optional, renders attack attributes
+      type: enum [melee, ranged]
       proficient: boolean # optional, whether or not to add the proficiency bonus to attack, damage, etc
       mod: enum [str, dex, con, int, wis, cha] # optional
       bonus: @bonus
@@ -205,42 +308,95 @@ mechanics:
   - type: global-attack-note
     attack: enum [melee, ranged]
     value: array
+  - type: global-power-note
+    name: string
+    moreInfo:
+      model: string
+      id: string
+- type: powercasting-slots
+  multiclassConversion: float (default 1)
+  known: array or false
+  prepared:
+    levelMultiplier: float
+    modBonus: boolean
+  slots:
+    1: array
+    2: array
+    3: array
+    4: array
+    5: array
+  mod: enum @abilities
+- type: powercasting-points
+  multiclassConversion: float (default 1)
+  known: array or false
+  prepared:
+    levelMultiplier: float
+    modBonus: boolean
+  points: array
+  limit: array
+  mod: enum @abilities
+- type: powercasting-pact
+  multiclassConversion: float (default 1)
+  known: array or false
+  prepared:
+    levelMultiplier: float
+    modBonus: boolean
+  slotLevel: array
+  numSlots: array
+  mod: enum @abilities
+- type: cantrips
+  columnName: string (default Cantrips)
+  known: array
+- type: barrier
+  multiclassConversion: float (default 1)
+  ticks: array
+  uses: array
+  dieType: int
+  dieCount: int
+- type: additional-cantrips
+  bonus: @bonus
+
 
 # TODO
+# Idea replacement for attack-augment, *-augment (TODO for weapon/action card refactor)
+- type: action-augment
+  augments: enum [dc, hit, damage, notes, heat]
+  limits:
+    attackRange: enum [melee, ranged, false]
+    attackType: enum [weapon, power, false]
+    attackSubType: enum [weapon types or power types]
+- type: companion
+  options:
+    - @companion
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod
-- type: skill-or-expertise
 - type: featherlight
-- type: add-prof-double-tap # add prof bonus to dw rolls, hair trigger
-- type: add-prof-twf # add prof bonus to two weapon fighting rolls, ambidextrous
-- type: add-prof-burst-fire
-- type: add-prof-melee
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
-- type: speed-bonus
-  value: [enum speeds]
-  bonus: @bonus
-- type: passive
-  value: enum @skills
-- resource: # see regenerative burst
-    displayType: hitDice
-- type: tentacle-blender
-
 
 # NOT IMPLEMENTED
+- type: extra-attack # highest of all of these
+  amount: int
+  additive: boolean #default false
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
+- type: reroll-damage # can replace attack-augment, elemental adept & carnage, auto-reroll (need to figure out auto rerolling)
+  attackLimit: @attackLimit
+  damageTypeLimit: enum damages
+  min: int #default 1
+- type: conditional-attack-bonus # displays an icon with a list of all conditional attack bonuses (potentially armor piercing, might be others)
+  attackLimit: @attackLimit
+  bonus: @bonus
+- type: conditional-damage-bonus # displays an icon with a list of all conditional damage bonus options
+  attackLimit: @attackLimit
+  bonus: @bonus
+  damageType: enum damage types
 - type: starting-equipment
   equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
   value: string or int
-- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
-- type: additional-note # see elemental adept, long fist, add note to indicate bypass resistance
-- type: innate-strike-damage # see long fist, melee gunner
-  innate: enum [unarmed-strike,gun-strike]
 - type: medium-armor-master # seems worthless cause in me5e medium armor
 - type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
-- type: repair-matrix
 - type: imprinted-enemies # can be model choice
-- type: speed-note
 - type: advanced-medigel-application #d6 for medigel
+- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,

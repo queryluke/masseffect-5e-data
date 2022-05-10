@@ -6,8 +6,14 @@ mechanics:
     resource:
       reset: short
       max:
-        type: progressionColumn
+        type: progressive
         value:
-          klass: infiltrator
-          column: tactical_cloak_uses
+          1: 2
+          6: 3
+          11: 4
+          18: 5
+    progressionColumn:
+      label: Tactical Cloak Uses
+      values: [2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4,4,5,5,5]
+      order: 11
 ---
