@@ -142,6 +142,7 @@ for (const lang of langs) {
       // spells
       if (dir === 'powers') {
         if (!item.version) {
+          console.log('no version for: ' + item.name)
           continue
         }
       }

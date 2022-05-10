@@ -10572,6 +10572,18 @@
     "html": false
   },
   {
+    "id": "sentry-turret",
+    "title": "Sentry Turret",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/sentry-turret",
+    "body": "Construct a sentry turret in an unoccupied space within . You have complete control over the turret. Any hacking\nattempts on the turret are rolled against your Intelligence, not the turret's.\nThe turret has its own turn in the initiative order, which occurs immediately following your turn.\nThe turret lasts until its hit points become 0 or lower or until you use a bonus action to destroy it.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the turret deals an additional\n1d6 piercing and 1d6 radiant damage with its mass accelerator machinegun and gains 10 additional hit points for\neach power slot above the 3rd.\n  Cryo Turret: The turret's mass accelerator machine gun deals 7 (2d6) piercing and 7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.  Shields: The turret has 30 shield points (regen 0).",
+    "html": false
+  },
+  {
     "id": "shocking-grasp",
     "title": "Shocking Grasp",
     "type": "power",
@@ -10641,6 +10653,186 @@
     ],
     "link": "/powers/slow-fall",
     "body": "When you or a creature within  of you falls, choose up to five falling creatures within range. Create a negative mass\neffect field around each creature, slowing the rate of descent to  per round. If the creature lands before the power\nends, it takes no Falling damage and can land on its feet, and the power ends for that creature.\n  Improved Duration: Increase the duration to 5 minutes  Navigate: As you fall, you can direct your fall by  in any direction except up. You may do this once per round.",
+    "html": false
+  },
+  {
+    "id": "snap-freeze",
+    "title": "Snap Freeze",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/snap-freeze",
+    "body": "Launch a globe of supercooled helium. Make a ranged power attack on a target within range, choosing a location on its\nbody. The location can be body, legs, or head.\nLegs. +2 bonus to hit. The target is restrained for the next minute. Any creature can use its\naction to make a Strength check against your power save DC to try and break the ice. On a success, the affected\ncreature is freed but suffers 6d4 bludgeoning damage.\nBody. On a hit, the target takes 6d8 cold damage.\nHead (Large or smaller creature). -5 penalty to hit. The creature becomes blinded and\ndeafened for the next minute. Any creature can use an action to make a Strength check against your\npower save DC to and break the ice. On a success, the affected creature is freed but suffers 6d12 bludgeoning damage.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the damage increases\nby 2 dice for each slot level above 3rd.\n  Solid Freeze: The ice is rock solid. Creatures have disadvantage on their Strength checks to break it.  undefined: A critical success on the Strength check completely shatters the affected creature's appendage. If legs, it falls prone and loses half its remaining hit points. If head, it immediately dies.",
+    "html": false
+  },
+  {
+    "id": "stasis",
+    "title": "Stasis",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/stasis",
+    "body": "Lock a target in a high-gravity mass effect field. Choose a creature you can see within range. The creature must make a\nStrength saving throw. On a failed save, the creature is paralyzed-force, and has resistance to all damage for\nthe duration of the power. At the end of each of its turns, the target can make another Strength saving throw. On a success,\nthe power ends. A detonating attack immediately ends the power.\n  Shatter: When stasis ends via a successful saving throw or detonating attack, the target takes 2d8 force damage for each round of combat it was in stasis.  Deep Stasis: The creature has disadvantage on its saving throws to escape Stasis.",
+    "html": false
+  },
+  {
+    "id": "stimulant-pack",
+    "title": "Stimulant Pack",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/stimulant-pack",
+    "body": "Inject yourself with a stimulant pack. For the next minute, whenever you make an attack roll or saving throw,\nyou can roll a d4 and add the number rolled to the attack roll or saving throw.\nYou must finish a long rest before you can use this feature again.\n  Friendly: You can inject a willing creature within melee range with the stimulant pack.  High Tolerance: You can use stimulant pack twice per long rest.",
+    "html": false
+  },
+  {
+    "id": "storm",
+    "title": "Storm",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/storm",
+    "body": "An -radius sphere of rapid shifting mass effect fields springs into existence centered on a point you choose within\nrange, creating a dangerous whirlwind of debris and energy. The sphere remains for the power’s duration. Each creature\nin the sphere when it appears or that ends its turn there must succeed on a Strength saving throw. On a failed save, a\ncreature takes 8d10 force damage or half as much on a successful one. The sphere’s space is difficult terrain.\nAt Higher Levels: When you cast this power using a power slot of 5th level, the damage increases for each of its effects by 2d10.\n  Necrotic Bolts: Until the power ends, you can use a bonus action on each of your turns to cause a bolt of necrotic energy to leap from the center of the sphere toward one creature you choose within  of the center. Make a ranged power attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes 4d10 necrotic damage. Necrotic bolts can detonate primed targets.  Growing Storm: While the power is maintained, the storm's radius grows by  at the start of your turn.",
+    "html": false
+  },
+  {
+    "id": "submission-net",
+    "title": "Submission Net",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/submission-net",
+    "body": "Shoot a swarm of miniature pylons to a target location within range. Each creature within a  cylinder of the target\nlocation must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,\nbecoming restrained and cannot cast tech powers.\nUntil the power ends, the area is considered difficult terrain. A creature that enters the cylinder for the first time\non its turn or ends its turn there must also make the Dexterity saving throw.\nA creature restrained by submission net may use its action to make a Strength (Athletics) check against your power save\nDC to escape the net. On each attempt, the creature takes 1d6 lightning damage as it struggles against the net. On a\nsuccess, the creature is no longer restrained.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, increase the size of the\nnet by  for each power slot about the 2nd.\n  Electrified Net: If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.  Anti-Tech: If a creature you can see begins to cast a tech power, you can use your reaction to cast submission net.",
+    "html": false
+  },
+  {
+    "id": "tactical-scan",
+    "title": "Tactical Scan",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/tactical-scan",
+    "body": "Spend your action scanning a creature you can see, studying its movement and revealing weaknesses.\nMake a Wisdom (Insight) check, contested by the target's Charisma (Deception) check. On a success, you have advantage on\nattack rolls against the target and you score a critical hit on a roll of 19 or 20.\nThis benefit lasts 1 minute or until you successfully use this feature against a different target.\n  Area Scan: Scan a  cube. Each creature within the cube must make the Charisma (Deception) check against your Wisdom (Insight). This feature only affects a single target, but you can choose one creature from the ones that failed the contested check.  Telegraphed Attacks: Your HUD alerts you when the creature is about to attack. It has disadvantage on ranged and melee attacks against you and you have advantage on any saving throws caused by powers and abilities of the creature.",
+    "html": false
+  },
+  {
+    "id": "target-painting",
+    "title": "Target Painting",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/target-painting",
+    "body": "Scan an  cube within range. Until the end of your next turn, any creature in the area when the power is cast is\nhighlighted on all friendly creatures HUDs if it fails a Dexterity saving throw.\nAny attack roll against an affected creature or object has advantage if the attacker can see it, and the affected\ncreature or object can't benefit from being invisible.\n  Heavy Weapon Sync: Information about the painted targets sync with heavy weapon systems. Any creature that would make a saving throw to avoid heavy weapon damage has disadvantage on the saving throw.  Lasting Scan: Becomes a concentration power with a duration of 1 minute.",
+    "html": false
+  },
+  {
+    "id": "tear",
+    "title": "Tear",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/tear",
+    "body": "A concentrated ray of warp energy erupts from your outstretched hand toward a target that you can see within range.\nThe target can be a creature, an object, or a biotic creation, such as a biotic wall.\nA creature targeted by this power must make a Dexterity saving throw. On a failed save, the target takes\n10d6 + 40 necrotic damage. If this damage leaves it with 0 hit points, the target and everything\nit is wearing and carrying is ripped apart at the atomic level, reducing it to a mist of radiated atoms.\nThis power automatically disintegrates a Large or smaller unshielded object or a biotic creation. If the target is a\nHuge or larger object or creation of force, this power disintegrates a  cube portion of it.\nAt Higher Levels. When you cast this power using a power slot of 5th level or higher, the damage increases by 5d6\nfor each slot level above 4th.\n  Anti-Biotics: A creature with an active barrier that is hit by this power must expend all remaining barrier ticks to reduce the damage. The total damage reduction from the remaining barrier ticks is reduced by half.  Anti-Synthetic: Non-organic creatures or objects take an extra 40 force damage. This power disintegrates up to a 6m cube of synthetic materials.",
+    "html": false
+  },
+  {
+    "id": "throw",
+    "title": "Throw",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/throw",
+    "body": "Make a ranged power attack on a target you can see within range. On a hit, the target takes 1d8\nforce damage. If the target is Medium or smaller, it is pushed backward .\nThis power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).\n  Radial Blast: On a hit, the damage is dealt to each creature within a  radius of the target.  Improved Damage: Increase the damage die type to d12",
+    "html": false
+  },
+  {
+    "id": "trophy-system",
+    "title": "Trophy System",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/trophy-system",
+    "body": "Your omni-tool's trophy system detects incoming explosives that fires a small ordinance charge to preemptively detonate\nhostile explosives. As a reaction to an explosive projectile (grenade or rocket from a heavy weapon) that you can see\nwithin  of you, you may preemptively detonate it. If the blast would cause you to make a Dexterity saving throw,\nyou have advantage on the save.\nYou may use this ability only once per long rest.\n  Advanced Notice: The triggering range increases to , and you may detonate the explosive at any point along its trajectory.  Dual Trophy: You may use your trophy system twice between long rests.",
+    "html": false
+  },
+  {
+    "id": "turbocharge",
+    "title": "Turbocharge",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/turbocharge",
+    "body": "Activate a subroutine that temporarily vents weapon heat through your armor to improve thermal clip efficiency and\nweapon damage. Until the end of your turn, a ranged weapon you're holding gains Burst Fire, the heat cost for making\na Burst Fire attack is reduced by 1 heat, and you may make a Burst Fire attack as an Attack action.\nYou must finish a short or long rest before using Turbocharge again.\n  Improved Damage: +2 damage with the turbocharged weapon  Improved Accuracy: The DC of the Dexterity saving throw is increased to 18",
+    "html": false
+  },
+  {
+    "id": "unity",
+    "title": "Unity",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Tech"
+    ],
+    "link": "/powers/unity",
+    "body": "Spawn a swarm of healing nanobots that heal allies. Up to six organic creatures of your choice that you can see within range\nregain hit points equal to 1d6 + your powercasting ability modifier.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, the healing increases\nby 2d6 for each slot level above 2nd.\n  Unrestricted (Engineer only): Engineers can spend any amount of tech points to cast this power. They are not limited by their Tech Point Limit column.  Shield restore: Creatures also gain 1d4 shield points. This increases by 1d4 for each power slot above the 2nd.",
+    "html": false
+  },
+  {
+    "id": "vortex",
+    "title": "Vortex",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/vortex",
+    "body": "You intertwine negative and positive mass effect fields to create a swirling vortex. Creatures within a  cone must\nmake a Strength saving throw. On a failed save a creature takes 6d10 force damage, or half as much damage on a successful one.\nCreatures that fail the saving throw are thrown 1d6 +  away from you and become prone.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, increase the damage by 2d10 for\neach slot level above the 3rd.\n  Radial: You may cast the vortex in a -radius sphere centered on you instead.  Damage: Increase the damage to d12",
+    "html": false
+  },
+  {
+    "id": "warp-cloud",
+    "title": "Warp Cloud",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/warp-cloud",
+    "body": "Target a point within range, creating a highly-concentrated warp field in a  cube. A creature takes\n4d4 necrotic damage when it enters the power area for the first time on a turn or starts its turn there. A creature\nwithin the cloud is primed-necrotic.\nAt Higher Levels. When you cast this power using a power slot of 2nd level or higher, the damage increases by 4d4\nfor each slot level above 1st.\n  Burst: As a bonus action, you can end this power and force each creature within  of the cloud to make a Dexterity saving throw. A creature takes 4d4 force damage on a failed save or half as much on a successful one. This damage increases by 4d4 force damage per power level.  Shift: As a bonus action, you can move this cube of warp energy up to  in any direction you choose. It can pass through solid objects, but you can only control it's movement while you have line of sight.",
+    "html": false
+  },
+  {
+    "id": "warp",
+    "title": "Warp",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Biotic"
+    ],
+    "link": "/powers/warp",
+    "body": "Make a ranged power attack on an organic creature you can see within range. On a hit, you generate a rapidly shifting mass\neffect field inside the target dealing 3d10 necrotic damage. In addition,\nthe target is primed-necrotic until the end of your next turn. This damage bypasses shields.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d10 for\neach slot level above the 2nd.\n  Internal Bleeding: The shifting causes internal bleeding. At the start of each of your turns, the target suffers 1d6 damage from blood loss, bypassing its shields. This effect ends if the creature uses medi-gel or if it or another creature passes a DC 10 Wisdom (Medicine) check to stabilize the bleeding.  Disorient: A target hit by warp must pass a Constitution saving throw. On a failed save, the force of warp is so intense the target is stunned until the end of its next turn.",
     "html": false
   },
   {

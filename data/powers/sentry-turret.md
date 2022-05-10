@@ -1,5 +1,6 @@
 ---
 name: Sentry Turret
+version: 1
 level: 3
 type: tech
 classes:

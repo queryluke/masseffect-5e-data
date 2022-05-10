@@ -3,7 +3,6 @@ name: Slam
 version: 1
 level: 0
 type: biotic
-version: 1
 classes:
   - adept
   - sentinel
