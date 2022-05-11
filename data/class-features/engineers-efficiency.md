@@ -13,7 +13,12 @@ mechanics:
     hide: true
     append:
       klass: engineer
-      alwaysCastable: 1
+      alwaysCastable:
+        type: progressive
+        limit: engineer
+        value:
+          3: 1
+          11: 2
   - type: advancements-choice
     options: true
     limit:

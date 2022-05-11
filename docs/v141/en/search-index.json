@@ -4109,20 +4109,6 @@
     "html": "<p>Starting at 2nd level, if an ally uses a power that primes an enemy within <me-distance length=\"30\" />, you may use your reaction to detonate the primed enemy with a\nquick tech burst that cannot miss.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any\nexpended uses when you finish a long rest.</p>\n"
   },
   {
-    "id": "engineers-efficiency-1",
-    "title": "Engineer's Efficiency",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Engineer",
-      "11th level"
-    ],
-    "link": false,
-    "body": "Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.\nYou can prepare the advanced version of the selected power at the cost of 1 prepared power.\nAt 11th level, you can cast a 2 tech point version of this power without expending any tech points.\nWith 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.\n",
-    "html": "<p>Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected power at the cost of 1 prepared power.</p>\n<p>At 11th level, you can cast a 2 tech point version of this power without expending any tech points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.</p>\n"
-  },
-  {
     "id": "engineers-efficiency",
     "title": "Engineer's Efficiency",
     "type": "character",
@@ -10594,7 +10580,7 @@
       "Tech"
     ],
     "link": "/powers/sentry-turret",
-    "body": "Construct a sentry turret in an unoccupied space within . You have complete control over the turret. Any hacking\nattempts on the turret are rolled against your Intelligence, not the turret's.\nThe turret has its own turn in the initiative order, which occurs immediately following your turn.\nThe turret lasts until its hit points become 0 or lower or until you use a bonus action to destroy it.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the turret deals an additional\n1d6 piercing and 1d6 radiant damage with its mass accelerator machinegun and gains 10 additional hit points for\neach power slot above the 3rd.\n  Cryo Turret: The turret's mass accelerator machine gun deals 7 (2d6) piercing and 7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.  Shields: The turret has 30 shield points (regen 0).",
+    "body": "Construct a sentry turret (stats can be found in the bestiary) in an unoccupied space within . You have complete control over the turret. Any hacking\nattempts on the turret are rolled against your Intelligence, not the turret's.\nThe turret has its own turn in the initiative order, which occurs immediately following your turn.\nThe turret lasts until its hit points become 0 or lower or until you use a bonus action to destroy it.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the turret deals an additional\n1d6 piercing and 1d6 radiant damage with its mass accelerator machinegun and gains 10 additional hit points for\neach power slot above the 3rd.\n  Cryo Turret: The turret's mass accelerator machine gun deals 7 (2d6) piercing and 7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.  Shields: The turret has 30 shield points (regen 0).",
     "html": false
   },
   {
