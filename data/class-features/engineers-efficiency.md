@@ -13,8 +13,13 @@ mechanics:
     hide: true
     append:
       klass: engineer
-      isLearned: true
-      atWill: 1
+      alwaysCastable: 1
+  - type: advancements-choice
+    options: true
+    limit:
+      valueLookup:
+        model: class-features
+        id: engineers-efficiency
 ---
 Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following
 tech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version

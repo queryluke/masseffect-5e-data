@@ -956,8 +956,17 @@
         "hide": true,
         "append": {
           "klass": "engineer",
-          "isLearned": true,
-          "atWill": 1
+          "alwaysCastable": 1
+        }
+      },
+      {
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "valueLookup": {
+            "model": "class-features",
+            "id": "engineers-efficiency"
+          }
         }
       }
     ],
