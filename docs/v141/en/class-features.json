@@ -835,6 +835,17 @@
     "level": 1,
     "klass": "engineer",
     "name": "Drone",
+    "mechanics": [
+      {
+        "name": "Drone",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "drone"
+        },
+        "type": "action",
+        "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, or rocket drone."
+      }
+    ],
     "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <nuxt-link to=\"/bestiary\">bestiary</nuxt-link>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your Intelligence,\nnot the drone's. The drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n",
     "id": "drone"
   },
@@ -902,9 +913,54 @@
     "id": "enfilade"
   },
   {
+    "level": 11,
+    "klass": "engineer",
+    "name": "Engineer's Efficiency",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "engineers-efficiency"
+        },
+        "merge": {
+          "append": {
+            "castAt": 2
+          }
+        }
+      }
+    ],
+    "html": "<p>Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected power at the cost of 1 prepared power.</p>\n<p>At 11th level, you can cast a 2 tech point version of this power without expending any tech points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.</p>\n",
+    "id": "engineers-efficiency-1"
+  },
+  {
     "level": 3,
     "klass": "engineer",
     "name": "Engineer's Efficiency",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose one power",
+        "model": "powers",
+        "options": true,
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "cryo-blast",
+              "incinerate",
+              "overload"
+            ]
+          }
+        ],
+        "hide": true,
+        "append": {
+          "klass": "engineer",
+          "isLearned": true,
+          "atWill": 1
+        }
+      }
+    ],
     "html": "<p>Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected power at the cost of 1 prepared power.</p>\n<p>At 11th level, you can cast a 2 tech point version of this power without expending any tech points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.</p>\n",
     "id": "engineers-efficiency"
   },

@@ -4109,6 +4109,20 @@
     "html": "<p>Starting at 2nd level, if an ally uses a power that primes an enemy within <me-distance length=\"30\" />, you may use your reaction to detonate the primed enemy with a\nquick tech burst that cannot miss.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any\nexpended uses when you finish a long rest.</p>\n"
   },
   {
+    "id": "engineers-efficiency-1",
+    "title": "Engineer's Efficiency",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "11th level"
+    ],
+    "link": false,
+    "body": "Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.\nYou can prepare the advanced version of the selected power at the cost of 1 prepared power.\nAt 11th level, you can cast a 2 tech point version of this power without expending any tech points.\nWith 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.\n",
+    "html": "<p>Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected power at the cost of 1 prepared power.</p>\n<p>At 11th level, you can cast a 2 tech point version of this power without expending any tech points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.</p>\n"
+  },
+  {
     "id": "engineers-efficiency",
     "title": "Engineer's Efficiency",
     "type": "character",

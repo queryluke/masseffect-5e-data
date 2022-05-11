@@ -1,5 +1,15 @@
 ---
+level: 11
+klass: engineer
 name: Engineer's Efficiency
+mechanics:
+  - type: augment
+    value:
+      model: engineer
+      id: engineers-efficiency
+    merge:
+      append:
+        castAt: 2
 ---
 Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following
 tech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version
@@ -10,4 +20,3 @@ You can prepare the advanced version of the selected power at the cost of 1 prep
 At 11th level, you can cast a 2 tech point version of this power without expending any tech points.
 
 With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.
-
