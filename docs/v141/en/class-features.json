@@ -177,8 +177,9 @@
     "name": "Advanced Tech Armor",
     "mechanics": [
       {
-        "type": "global-power-note",
-        "name": "+Tech Armor HP @ cast",
+        "type": "global-note",
+        "subType": "power",
+        "value": "+Tech Armor HP @ cast",
         "moreInfo": {
           "model": "class-features",
           "id": "advanced-tech-armor"
@@ -774,6 +775,16 @@
     "klass": "engineer",
     "subclass": "drone-jockey",
     "name": "Coordinated Attack",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "On ATK, companion may use reaction to ATK",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "coordinated-attack"
+        }
+      }
+    ],
     "html": "<p>Beginning at 6th level, you and your drone companion form a more potent fighting force. When you use the Attack\naction on your turn, if your companion can see you, it can use its reaction to make an attack.</p>\n",
     "id": "coordinated-attack"
   },
@@ -820,6 +831,17 @@
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Disrupting Attack",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Hit: disadv on next save",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "disrupting-attack"
+        }
+      }
+    ],
     "html": "<p>At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your tech powers.\nWhen you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against\na power you cast before the end of your next turn.</p>\n",
     "id": "disrupting-attack"
   },
@@ -828,7 +850,7 @@
     "klass": "engineer",
     "subclass": "drone-jockey",
     "name": "Drone Companion",
-    "html": "<p>At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.</p>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n",
+    "html": "<p>At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket. It gains the following:</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n<h5>Choose your companion's trait, or roll on the table below.</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h5>Choose your companion's flaw, or roll on the table below.</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "drone-companion"
   },
   {
@@ -843,19 +865,11 @@
           "id": "drone"
         },
         "type": "action",
-        "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, or rocket drone."
+        "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls."
       }
     ],
     "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <nuxt-link to=\"/bestiary\">bestiary</nuxt-link>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your Intelligence,\nnot the drone's. The drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n",
     "id": "drone"
-  },
-  {
-    "level": 2,
-    "klass": "engineer",
-    "subclass": "drone-jockey",
-    "name": "Drone's Bond",
-    "html": "<p>Your drone companion gains a variety of benefits while it is linked to you.</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<h3>Choose your companion's trait, or roll on the table below.</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h3>Choose your companion's flaw, or roll on the table below.</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
-    "id": "drones-bond"
   },
   {
     "level": 10,
@@ -899,6 +913,7 @@
           "id": "enfilade"
         },
         "type": "reaction",
+        "shortDesc": "When a creature is primed within <me-distance length=\"30\" />, detonate it.",
         "resource": {
           "max": {
             "type": "mod",
@@ -1041,6 +1056,12 @@
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
     "html": "<p>Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-engineer-mastermind"
   },
@@ -1048,6 +1069,12 @@
     "level": 5,
     "klass": "soldier",
     "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
     "html": "<p>Beginning at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-soldier-1"
   },
@@ -1055,6 +1082,12 @@
     "level": 11,
     "klass": "soldier",
     "name": "Extra Attack (2)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 3
+      }
+    ],
     "html": "<p>Beginning at 11th level, you can attack three times instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-soldier-2"
   },
@@ -1062,6 +1095,12 @@
     "level": 20,
     "klass": "soldier",
     "name": "Extra Attack (3)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 4
+      }
+    ],
     "html": "<p>Beginning at 20th level, you can attack four times instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-solider-3"
   },
@@ -1070,6 +1109,12 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Extra Attack (2)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 3
+      }
+    ],
     "html": "<p>Beginning at 14th level, you can attack three times instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-vanguard-bm-2"
   },
@@ -1077,6 +1122,12 @@
     "level": 5,
     "klass": "vanguard",
     "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
     "html": "<p>Beginning at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-vanguard"
   },
@@ -1292,6 +1343,11 @@
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Jack of All Trades",
+    "mechanics": [
+      {
+        "type": "half-proficiency"
+      }
+    ],
     "html": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.</p>\n",
     "id": "jack-of-all-trades"
   },
@@ -1908,9 +1964,19 @@
           "id": "power-steal"
         },
         "type": "reaction",
+        "layout": "simple",
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "engineer"
+          }
+        },
         "resource": {
           "id": "power-steal"
-        }
+        },
+        "shortDesc": "When you are targeted by a power, the creature must succeed on a powercasting check (DC {{ dc }}) or the power fails. If the power was 1st-level or higher, you copy a temporary version for 1 hour and can cast it with your tech points."
       }
     ],
     "name": "Power Steal",
@@ -2571,6 +2637,27 @@
     "klass": "engineer",
     "subclass": "medic",
     "name": "Repair Drone",
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 1,
+        "newIf": "medicine"
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "drone"
+        },
+        "limit": [
+          "action"
+        ],
+        "merge": {
+          "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, repair, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls."
+        }
+      }
+    ],
     "html": "<p>At 2nd level, you gain proficiency in Medicine. If you are already proficient in Medicine, you may choose\nanother skill to become proficient in.</p>\n<p>Add the Repair drone to the list of drones available for you to summon.</p>\n",
     "id": "repair-drone-1"
   },
@@ -2579,6 +2666,21 @@
     "klass": "engineer",
     "subclass": "medic",
     "name": "Repair Drone",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "drone"
+        },
+        "limit": [
+          "action"
+        ],
+        "merge": {
+          "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, repair, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls. If a repair drone, it gains twice its hit points and shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it."
+        }
+      }
+    ],
     "html": "<p>At 14th level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.</p>\n",
     "id": "repair-drone-2"
   },
@@ -2641,8 +2743,9 @@
     "name": "Sculpt Powers",
     "mechanics": [
       {
-        "type": "global-power-note",
-        "name": "Sculpt Powers",
+        "type": "global-note",
+        "subType": "power",
+        "value": "Sculpt Powers",
         "moreInfo": {
           "model": "class-features",
           "id": "sculpt-powers"
@@ -2672,6 +2775,14 @@
           "id": "shield-boost"
         },
         "type": "action",
+        "damage": [
+          {
+            "dieCount": 4,
+            "dieType": 8,
+            "type": "shields"
+          }
+        ],
+        "shortDesc": "Restore 4d8 shield points to up to 5 friendly creatures you can see.",
         "resource": {
           "reset": "short",
           "id": "shield-boost"

@@ -372,7 +372,7 @@
       {
         "id": "bleeding-blades",
         "name": "Bleeding Blades",
-        "text": "On a hit, the target takes an additional 3d12 damage at the start of its turn due to blood loss. This damage bypasses shields.",
+        "text": "On a hit, the target takes an additional 3d12 damage at the start of its next turn due to blood loss. This damage bypasses shields.",
         "mechanics": [
           {
             "damage": [
@@ -2957,24 +2957,14 @@
           "short": 0
         },
         "detonates": false,
-        "primes": false,
-        "toggle": {
-          "id": "power-fly",
-          "whenOn": [
-            {
-              "type": "speed",
-              "speed": "fly",
-              "distance": 60
-            }
-          ]
-        }
+        "primes": false
       }
     ],
     "advancements": [
       {
         "id": "speed",
         "name": "Speed",
-        "text": "You may cast Fly as a bonus action. Increase the flying speed to <me-distance length=\"90\" />",
+        "text": "You may cast fly as a bonus action. Increase the flying speed to <me-distance length=\"90\" />",
         "mechanics": [
           {
             "altCasting": [
@@ -2982,14 +2972,7 @@
                 "length": 1,
                 "unit": "bonus_action"
               }
-            ],
-            "toggle": {
-              "whenOn": [
-                {
-                  "distance": 90
-                }
-              ]
-            }
+            ]
           }
         ]
       },
@@ -3755,7 +3738,7 @@
       {
         "id": "exploding-swarm",
         "name": "Exploding Swarm",
-        "text": "As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage.",
+        "text": "As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage and is no longer affected by the swarm.",
         "mechanics": [
           {
             "altCasting": [
@@ -5036,7 +5019,7 @@
         ]
       }
     ],
-    "html": "<p>Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target\nweapon has disadvantage.</p>\n<p>Casting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.</p>\n<p>If the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,\nthis power has no effect unless the creature fails an Intelligence saving throw. Whether or not the synthetic creature\nsucceeds on this saving throw, it becomes aware that it has been targeted by a power.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional\nweapons for each power slot above the 1st.</p>\n",
+    "html": "<p>Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target\nweapon has disadvantage.</p>\n<p>Casting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.</p>\n<p>If the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,\nthis power has no effect unless the creature fails an Intelligence saving throw against your powercasting DC. Whether or not the synthetic creature\nsucceeds on this saving throw, it becomes aware that it has been targeted by a power.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional\nweapons for each power slot above the 1st.</p>\n",
     "id": "sabotage"
   },
   {
@@ -5923,26 +5906,6 @@
             "value": 1
           },
           "id": "stimulant-pack"
-        },
-        "toggle": {
-          "id": "stimulant-pack",
-          "mechanics": {
-            "whenOn": [
-              {
-                "type": "global-attack-note",
-                "value": [
-                  "Add 1d4 to attack rolls"
-                ]
-              },
-              {
-                "type": "saving-throw",
-                "effect": {
-                  "type": "die-bonus",
-                  "note": "add a d4 to the roll"
-                }
-              }
-            ]
-          }
         }
       }
     ],

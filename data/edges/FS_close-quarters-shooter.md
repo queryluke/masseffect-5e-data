@@ -1,14 +1,20 @@
 ---
 name: Close-Quarters Shooter
 mechanics:
-  - type: global-attack-note
+  - type: global-note
+    subType: action
     attack: ranged
-    value: >-
-      Ranged attacks within <me-distance length="5" /> of a hostile creature do not impose disadvantage
-  - type: global-attack-note
+    value: No disadvantage @ <me-distance length="5" abbr />
+    moreInfo:
+      model: edges
+      id: FS_close-quarters-shooter
+  - type: global-note
+    subType: action
     attack: ranged
-    value: >-
-      Ranged attacks ignore half-cover on targets within <me-distance length="30" abbr />
+    value: Ignore 1/2-cover w/i <me-distance length="30" abbr />
+    moreInfo:
+      model: edges
+      id: FS_close-quarters-shooter
 type: fighting-styles
 ---
 When making a ranged attack while you are within <me-distance length="5" /> of a hostile creature, you do not have

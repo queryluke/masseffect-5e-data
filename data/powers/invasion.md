@@ -43,7 +43,7 @@ mechanics:
 advancements:
   - id: exploding-swarm
     name: Exploding Swarm
-    text: As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage.
+    text: As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage and is no longer affected by the swarm.
     mechanics:
       - altCasting:
           - length: 1

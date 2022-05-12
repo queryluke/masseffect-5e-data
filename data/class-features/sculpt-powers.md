@@ -4,8 +4,9 @@ klass: sentinel
 subclass: guardian
 name: Sculpt Powers
 mechanics:
-  - type: global-power-note
-    name: Sculpt Powers
+  - type: global-note
+    subType: power
+    value: Sculpt Powers
     moreInfo:
       model: class-features
       id: sculpt-powers

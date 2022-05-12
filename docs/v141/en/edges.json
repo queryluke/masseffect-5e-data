@@ -585,14 +585,24 @@
     "name": "Close-Quarters Shooter",
     "mechanics": [
       {
-        "type": "global-attack-note",
+        "type": "global-note",
+        "subType": "action",
         "attack": "ranged",
-        "value": "Ranged attacks within <me-distance length=\"5\" /> of a hostile creature do not impose disadvantage"
+        "value": "No disadvantage @ <me-distance length=\"5\" abbr />",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_close-quarters-shooter"
+        }
       },
       {
-        "type": "global-attack-note",
+        "type": "global-note",
+        "subType": "action",
         "attack": "ranged",
-        "value": "Ranged attacks ignore half-cover on targets within <me-distance length=\"30\" abbr />"
+        "value": "Ignore 1/2-cover w/i <me-distance length=\"30\" abbr />",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_close-quarters-shooter"
+        }
       }
     ],
     "type": "fighting-styles",
@@ -635,9 +645,14 @@
     "name": "Sniper",
     "mechanics": [
       {
-        "type": "global-attack-note",
+        "type": "global-note",
+        "subType": "action",
         "attack": "ranged",
-        "value": "If no hostile creature is within <me-distance length=\"30\" />, gain +2 to damage rolls w/ sniper rifles."
+        "value": "+2 SR dmg when 0 enemies w/i <me-distance length=\"30\" abbr />",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_sniper"
+        }
       }
     ],
     "type": "fighting-styles",
