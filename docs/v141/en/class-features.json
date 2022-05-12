@@ -179,7 +179,7 @@
       {
         "type": "global-note",
         "subType": "power",
-        "value": "+Tech Armor HP @ cast",
+        "value": "Advanced Tech Armor",
         "moreInfo": {
           "model": "class-features",
           "id": "advanced-tech-armor"
@@ -618,6 +618,13 @@
     "level": 14,
     "klass": "infiltrator",
     "name": "Blindsense",
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "blindsight",
+        "distance": 10
+      }
+    ],
     "html": "<p>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible\ncreature within <me-distance length=\"10\" /> of you.</p>\n",
     "id": "blindsense"
   },
@@ -689,6 +696,26 @@
     "klass": "infiltrator",
     "subclass": "sniper",
     "name": "Careful Eyes",
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "perception",
+          "investigation",
+          "survival"
+        ]
+      },
+      {
+        "name": "Search",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "careful-eyes"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      }
+    ],
     "html": "<p>Starting at 9th level, you excel at picking out hidden enemies and other threats. You can take the Search action\nas a bonus action.</p>\n<p>You also gain proficiency in the Perception, Investigation, or Survival skill (choose one).</p>\n",
     "id": "careful-eyes"
   },
@@ -697,6 +724,17 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Combat Heuristics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Combat Heuristics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "combat-heuristics"
+        }
+      }
+    ],
     "html": "<p>Starting at 3rd level, every time you bring an enemy to 0 hit points or score a critical hit, your HUD updates your tactical\nfeedback, restoring 1 tech point.</p>\n",
     "id": "combat-heuristics"
   },
@@ -778,7 +816,7 @@
     "mechanics": [
       {
         "type": "global-note",
-        "value": "On ATK, companion may use reaction to ATK",
+        "value": "Coordinated Attack",
         "moreInfo": {
           "model": "class-features",
           "id": "coordinated-attack"
@@ -792,6 +830,44 @@
     "level": 2,
     "klass": "infiltrator",
     "name": "Cunning Action",
+    "mechanics": [
+      {
+        "name": "Dash",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cunning-action"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      },
+      {
+        "name": "Disengage",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cunning-action"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      },
+      {
+        "name": "Hide",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cunning-action"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      },
+      {
+        "name": "Activate Tactical Cloak",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-cloak"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      }
+    ],
     "html": "<p>At 2nd level, you can take a bonus action on each of your turns in combat. This action can be used only to Dash, Disengage, Hide, or\nactivate Tactical Cloak.</p>\n",
     "id": "cunning-action"
   },
@@ -815,6 +891,17 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Death Strike",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Death Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "death-strike"
+        }
+      }
+    ],
     "html": "<p>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.</p>\n",
     "id": "death-strike"
   },
@@ -835,7 +922,7 @@
       {
         "type": "global-note",
         "subType": "action",
-        "value": "Hit: disadv on next save",
+        "value": "Disrupting Attack",
         "moreInfo": {
           "model": "class-features",
           "id": "disrupting-attack"
@@ -891,6 +978,17 @@
     "level": 18,
     "klass": "infiltrator",
     "name": "Elusive",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Elusive",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "elusive"
+        }
+      }
+    ],
     "html": "<p>At 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.</p>\n",
     "id": "elusive"
   },
@@ -978,6 +1076,17 @@
     "level": 7,
     "klass": "infiltrator",
     "name": "Evasion",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Evasion",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "evasion"
+        }
+      }
+    ],
     "html": "<p>At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>\n",
     "id": "evasion"
   },
@@ -1009,6 +1118,14 @@
     "level": 1,
     "klass": "infiltrator",
     "name": "Expertise",
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "options": true,
+        "limit": "acquired",
+        "selections": 2
+      }
+    ],
     "html": "<p>At 1st level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n",
     "id": "expertise-1"
   },
@@ -1016,6 +1133,14 @@
     "level": 6,
     "klass": "infiltrator",
     "name": "Expertise",
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "options": true,
+        "limit": "acquired",
+        "selections": 2
+      }
+    ],
     "html": "<p>At 6th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n",
     "id": "expertise-2"
   },
@@ -1631,6 +1756,30 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Melee Prowess",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "augment": "damage",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "attack-augment",
+        "augment": "attack",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>Starting at 9th level, your skill with melee weapons becomes unmatched. You have +1 to melee weapon attack and damage rolls.</p>\n",
     "id": "melee-prowess"
   },
@@ -1663,6 +1812,17 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Misdirection",
+    "mechanics": [
+      {
+        "name": "Misdirection",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "misdirection"
+        },
+        "type": "reaction",
+        "shortDesc": "When you are targeted by an attack while a creature within <me-distance length=\"5\" /> of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+      }
+    ],
     "html": "<p>Starting at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within <me-distance length=\"5\" /> of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.</p>\n",
     "id": "misdirection"
   },
@@ -1933,6 +2093,26 @@
     "klass": "infiltrator",
     "subclass": "sniper",
     "name": "Overwatch",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Overwatch",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "overwatch"
+        }
+      },
+      {
+        "name": "Overwatch",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "overwatch"
+        },
+        "type": "reaction",
+        "shortDesc": "When one of your overwatch target moves from 1/2- or 3/4-cover, make a ranged weapon attack. The attack benefits from your Sneak Attack if you have not used sneak attack on the target this turn."
+      }
+    ],
     "html": "<p>At 13th level, you've become attuned to monitoring the movements of the battlefield, taking advantage of\nwhen enemies break cover.</p>\n<p>At the end of each of your turns, you may ready the following action. Choose up to 5 creatures you can see that are behind\nhalf or three-quarter cover. Until the start of your next turn, if any of those creatures move into an area providing\nno cover, you may use your reaction to make a ranged weapon attack targeting that creature. This attack can benefit from\nyour Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target\nmore than once in a turn.</p>\n",
     "id": "overwatch"
   },
@@ -2629,6 +2809,17 @@
     "level": 11,
     "klass": "infiltrator",
     "name": "Reliable Talent",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "proficient",
+        "effect": {
+          "type": "die-bonus",
+          "note": "min roll = 10",
+          "dieType": 10
+        }
+      }
+    ],
     "html": "<p>At 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add\nyour proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</p>\n",
     "id": "reliable-talent"
   },
@@ -2725,6 +2916,26 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Saboteur's Touch",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "sabotage",
+        "klass": "infiltrator",
+        "merge": {
+          "altCasting": [
+            {
+              "length": 1,
+              "unit": "bonus_action"
+            },
+            {
+              "length": 1,
+              "unit": "reaction",
+              "reaction": "when you see a creature making a ranged weapon attack"
+            }
+          ]
+        }
+      }
+    ],
     "html": "<p>At 3rd level, you always have the sabotage power prepared (it does not count against your list of prepared powers). Preparing the advanced\nversion of the power counts as one power, not two.</p>\n<p>You can cast sabotage as a bonus action or as a reaction to a ranged weapon attack you can see.</p>\n",
     "id": "saboteurs-touch"
   },
@@ -2760,6 +2971,29 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Shadow Strike",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "tactical-cloak",
+          "limit": [
+            "action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "shadow-strike"
+              }
+            ]
+          },
+          "shortDesc": "Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. When you activate tactical cloak, you may teleport to a target location within <me-distance length=\"30\" /> and use your reaction to make one melee attack (which benefits from your Sneak Attack)."
+        }
+      }
+    ],
     "html": "<p>At 13th level, whenever you activate Tactical Cloak you may teleport to a target location within <me-distance length=\"30\" />. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.</p>\n<p>When you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.</p>\n<p>The teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.</p>\n",
     "id": "shadow-strike"
   },
@@ -2813,6 +3047,16 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Silent Cloak",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "stealth",
+        "effect": {
+          "type": "advantage",
+          "note": "while tactical cloak is active and you move no more that half your speed"
+        }
+      }
+    ],
     "html": "<p>At 9th level, your Tactical Cloak dampens noise. You have advantage on a Dexterity (Stealth) check if you move no more than half your\nspeed on the same turn.</p>\n",
     "id": "silent-cloak"
   },
@@ -2820,6 +3064,12 @@
     "level": 15,
     "klass": "infiltrator",
     "name": "Slippery Mind",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "wis"
+      }
+    ],
     "html": "<p>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</p>\n",
     "id": "slippery-mind"
   },
@@ -2828,24 +3078,12 @@
     "klass": "infiltrator",
     "mechanics": [
       {
-        "type": "conditional-damage",
-        "attackLimit": {
-          "model": "weapon"
-        },
-        "bonus": {
-          "type": "dice",
-          "value": {
-            "dieType": {
-              "type": "flat",
-              "value": 6
-            },
-            "dieCount": {
-              "type": "level",
-              "value": "infiltrator",
-              "multiplier": 0.5,
-              "round": "up"
-            }
-          }
+        "type": "global-note",
+        "subType": "action",
+        "value": "Sneak Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sneak-attack"
         },
         "progressionColumn": {
           "label": "Sneak Attack Damage",
@@ -2871,7 +3109,7 @@
             "10d6",
             "10d6"
           ],
-          "order": 1
+          "order": 2
         }
       }
     ],
@@ -2891,6 +3129,26 @@
           "id": "steady-aim"
         },
         "type": "bonus-action",
+        "layout": "simple",
+        "shortDesc": "For the next minute, you ignore 3/4-cover and deal {{ damage }} additional damage with sniper rifles.",
+        "damage": [
+          {
+            "dieCount": 0,
+            "bonus": {
+              "type": "multi",
+              "value": [
+                {
+                  "type": "flat",
+                  "value": 2
+                },
+                {
+                  "type": "level",
+                  "value": "infiltrator"
+                }
+              ]
+            }
+          }
+        ],
         "resource": {
           "reset": "short",
           "max": {
@@ -2945,6 +3203,7 @@
           "id": "stroke-of-luck"
         },
         "type": "other",
+        "shortDesc": "Turn a missed attack into a hit. Or treat a failed ability check as a 20.",
         "resource": {
           "reset": "short",
           "id": "stroke-of-luck"
@@ -3019,6 +3278,17 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Tactical Ambush",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Tactical Ambush",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-ambush"
+        }
+      }
+    ],
     "html": "<p>Starting at 9th level, if you are hidden from a creature when you cast a power on it, the creature has disadvantage\nof any saving throw against the power this turn.</p>\n",
     "id": "tactical-ambush"
   },
@@ -3040,6 +3310,7 @@
           "id": "tactical-cloak"
         },
         "type": "action",
+        "shortDesc": "Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.",
         "resource": {
           "reset": "short",
           "max": {
@@ -3928,6 +4199,17 @@
     "level": 5,
     "klass": "infiltrator",
     "name": "Uncanny Dodge",
+    "mechanics": [
+      {
+        "name": "Uncanny Dodge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "uncanny-dodge"
+        },
+        "type": "reaction",
+        "shortDesc": "when an attacker that you can see hits you with an attack, halve the attack's damage against you."
+      }
+    ],
     "html": "<p>At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>\n",
     "id": "uncanny-dodge"
   },

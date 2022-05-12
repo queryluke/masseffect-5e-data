@@ -5,7 +5,7 @@ subclass: drone-jockey
 name: Coordinated Attack
 mechanics:
   - type: global-note
-    value: 'On ATK, companion may use reaction to ATK'
+    value: Coordinated Attack
     moreInfo:
       model: class-features
       id: coordinated-attack

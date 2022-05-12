@@ -6,7 +6,7 @@ name: Advanced Tech Armor
 mechanics:
  - type: global-note
    subType: power
-   value: +Tech Armor HP @ cast
+   value: Advanced Tech Armor
    moreInfo:
      model: class-features
      id: advanced-tech-armor

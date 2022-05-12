@@ -6,7 +6,7 @@ name: Disrupting Attack
 mechanics:
   - type: global-note
     subType: action
-    value: 'Hit: disadv on next save'
+    value: Disrupting Attack
     moreInfo:
       model: class-features
       id: disrupting-attack

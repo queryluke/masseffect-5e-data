@@ -4,7 +4,7 @@ mechanics:
   - type: global-note
     subType: action
     attack: ranged
-    value: '+2 SR dmg when 0 enemies w/i <me-distance length="30" abbr />'
+    value: Sniper
     moreInfo:
       model: edges
       id: FS_sniper

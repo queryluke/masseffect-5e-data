@@ -4,14 +4,7 @@ mechanics:
   - type: global-note
     subType: action
     attack: ranged
-    value: No disadvantage @ <me-distance length="5" abbr />
-    moreInfo:
-      model: edges
-      id: FS_close-quarters-shooter
-  - type: global-note
-    subType: action
-    attack: ranged
-    value: Ignore 1/2-cover w/i <me-distance length="30" abbr />
+    value: Close-Quarters Shooter
     moreInfo:
       model: edges
       id: FS_close-quarters-shooter

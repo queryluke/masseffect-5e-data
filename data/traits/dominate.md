@@ -1,8 +1,12 @@
 ---
 species: [ay-disposition-embrace, ay-disposition-growing-power]
 mechanics:
-  - type: power
-    powerId: dominate
+  - type: powers
+    value: dominate
+    provider:
+      model: species
+      id: ardat-yakshi
+    castAt: 3
     resource: {} # i.e., the defaults
     mod: wis
 ---
