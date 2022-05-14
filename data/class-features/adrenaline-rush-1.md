@@ -3,6 +3,9 @@ level: 2
 klass: soldier
 mechanics:
   - type: other
+    shortDesc: >-
+      Take one additional action this turn on top of your regular action and a possible
+      bonus action.
     resource:
       reset: short
       max:

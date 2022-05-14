@@ -128,6 +128,7 @@
           "id": "adrenaline-rush-1"
         },
         "type": "other",
+        "shortDesc": "Take one additional action this turn on top of your regular action and a possible bonus action.",
         "resource": {
           "reset": "short",
           "max": {
@@ -1488,6 +1489,21 @@
           "id": "fighting-spirit"
         },
         "type": "bonus-action",
+        "damage": [
+          {
+            "type": "temp",
+            "bonus": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "1": 5,
+                "10": 10,
+                "15": 15
+              }
+            }
+          }
+        ],
+        "shortDesc": "Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn.",
         "resource": {
           "max": {
             "type": "flat",
@@ -1689,6 +1705,7 @@
           "id": "indomitable-1"
         },
         "type": "other",
+        "shortDesc": "Reroll a saving throw you fail.",
         "resource": {
           "max": {
             "type": "progressive",
@@ -1978,6 +1995,26 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Makeshift Grenades",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "gear",
+        "hide": true,
+        "limits": [
+          {
+            "attr": "type",
+            "value": [
+              "grenade"
+            ]
+          }
+        ],
+        "append": {
+          "type": "grenade-attack",
+          "mechanics": []
+        }
+      }
+    ],
     "html": "<p>When you reach 3rd level, you can program your omni-tool to transform omni-gel into grenades. Choose two grenades from the grenade\nlist. As an action, you can spend 1 omni-gel to create and use a grenade of that type. The Mark of the grenade you create\nis equal to your soldier level divided by 3 (rounded down).</p>\n<p>You can spend 8 hours of programming to exchange a selected grenade with a different one.</p>\n",
     "id": "makeshift-grenades-1"
   },
@@ -3090,6 +3127,17 @@
     "klass": "soldier",
     "subclass": "gladiator",
     "name": "Rapid Strike",
+    "mechanics": [
+      {
+        "name": "Rapid Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "rapid-strike"
+        },
+        "type": "bonus-action",
+        "shortDesc": "If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action."
+      }
+    ],
     "html": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.</p>\n",
     "id": "rapid-strike"
   },
@@ -3580,10 +3628,11 @@
           "model": "class-features",
           "id": "strength-before-death"
         },
-        "type": "other",
+        "type": "reaction",
         "resource": {
           "id": "strength-before-death"
-        }
+        },
+        "shortDesc": "When you are reduced to 0 hp and not killed outright, delay falling unconscious and immediately take an extra turn, interrupting the current turn. Taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points."
       }
     ],
     "name": "Strength before Death",
@@ -3886,6 +3935,17 @@
     "level": 7,
     "klass": "soldier",
     "name": "Tactical Reload",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Tactical Reload",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-reload"
+        }
+      }
+    ],
     "html": "<p>By 7th level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.</p>\n",
     "id": "tactical-reload"
   },
@@ -4644,6 +4704,29 @@
     "klass": "soldier",
     "subclass": "gladiator",
     "name": "Tireless Spirit",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "fighting-spirit",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "shortDesc": "Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn. When you roll initiative and have no uses remaining, you regain one use.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tireless-spirit"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>\n",
     "id": "tireless-spirit"
   },
@@ -4751,7 +4834,17 @@
         "type": "other",
         "resource": {
           "id": "vengeance"
-        }
+        },
+        "damage": [
+          {
+            "type": "hp",
+            "bonus": {
+              "type": "hp",
+              "multiplier": 0.5
+            }
+          }
+        ],
+        "shortDesc": "Instead of making a death saving throw, regain {{ damage }} hit points and you may stand up. Then, you may draw any weapon you are carrying, choose a target a creature within that weapon's normal range, and make 2 attacks with the weapon."
       }
     ],
     "name": "Vengeance",

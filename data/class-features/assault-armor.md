@@ -9,7 +9,6 @@ mechanics:
       model: sentinel
       id: tech-armor
       limit: [bonus-action]
-
     merge:
       moreInfo:
         additional:
