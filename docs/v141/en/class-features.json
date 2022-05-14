@@ -521,13 +521,51 @@
           "id": "biotic-focus"
         },
         "type": "bonus-action",
+        "shortDesc": "For the next minute, your walking speed increases by <me-distance length=\"30\" />, +4 to all melee weapon damage rolls, and you have advantage on Strength and Dexterity saving throws.",
+        "toggle": {
+          "id": "biotic-focus",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 30
+              }
+            },
+            {
+              "type": "attack-augment",
+              "augment": "damage",
+              "limits": {
+                "attack": "melee",
+                "model": "weapons"
+              },
+              "value": {
+                "type": "flat",
+                "value": 4
+              }
+            },
+            {
+              "type": "saving-throw",
+              "value": [
+                "str",
+                "dex"
+              ],
+              "effect": {
+                "type": "advantage"
+              }
+            }
+          ]
+        },
         "resource": {
           "id": "biotic-focus"
         }
       }
     ],
     "name": "Biotic Focus",
-    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your speed is doubled.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
+    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your walking speed increases by <me-distance length=\"30\" />.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "biotic-focus"
   },
   {
@@ -543,7 +581,15 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Biotic Maneuvers",
-    "html": "<p>At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"5\" /> of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "maneuvers",
+        "selections": 3
+      }
+    ],
+    "html": "<p>At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"5\" /> of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "biotic-maneuvers-1"
   },
   {
@@ -551,6 +597,14 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Biotic Maneuvers",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "maneuvers",
+        "selections": 2
+      }
+    ],
     "html": "<p>At 10th level, learn 2 additional biotic maneuvers.</p>\n",
     "id": "biotic-maneuvers-2"
   },
@@ -558,6 +612,14 @@
     "level": 14,
     "klass": "vanguard",
     "subclass": "battle-master",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "maneuvers",
+        "selections": 2
+      }
+    ],
     "name": "Biotic Maneuvers",
     "html": "<p>At 14th level, learn 2 additional biotic maneuvers.</p>\n",
     "id": "biotic-maneuvers-3"
@@ -648,6 +710,18 @@
     "level": 9,
     "klass": "vanguard",
     "name": "Brutal Critical",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "attack": "melee",
+        "value": "Brutal Critical",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "brutal-critical-1"
+        }
+      }
+    ],
     "html": "<p>Beginning at 9th, you can roll one additional damage die when determining the extra damage for a critical hit with a melee attack.</p>\n",
     "id": "brutal-critical-1"
   },
@@ -655,6 +729,23 @@
     "level": 13,
     "klass": "vanguard",
     "name": "Brutal Critical (2)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "id": "brutal-critical-2"
+          }
+        }
+      }
+    ],
     "html": "<p>At 13th level, you can roll two additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n",
     "id": "brutal-critical-2"
   },
@@ -662,6 +753,23 @@
     "level": 17,
     "klass": "vanguard",
     "name": "Brutal Critical (3)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "id": "brutal-critical-3"
+          }
+        }
+      }
+    ],
     "html": "<p>At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n",
     "id": "brutal-critical-3"
   },
@@ -875,6 +983,18 @@
     "level": 2,
     "klass": "vanguard",
     "name": "Danger Sense",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": [
+          "dex"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "when you can see the effect"
+        }
+      }
+    ],
     "html": "<p>Starting at 2nd, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.\nYou have advantage on Dexterity saving throws against effects that you can see, such as traps and powers. To gain this\nbenefit, you can't be blinded, deafened, or incapacitated.</p>\n",
     "id": "danger-sense"
   },
@@ -1379,6 +1499,21 @@
     "level": 11,
     "klass": "vanguard",
     "name": "Heavy Barrier",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "barrier-vanguard"
+        },
+        "limit": [
+          "barrier"
+        ],
+        "merge": {
+          "dieCount": 2
+        }
+      }
+    ],
     "html": "<p>At 11th level, when you expend a barrier tick to reduce damage, each barrier tick reduces the damage by 2d8.</p>\n",
     "id": "heavy-barrier"
   },
@@ -1395,6 +1530,21 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Improved Barrier",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "barrier-vanguard"
+        },
+        "limit": [
+          "barrier"
+        ],
+        "merge": {
+          "dieType": 10
+        }
+      }
+    ],
     "html": "<p>At the 10th level, increase the die type of your barrier ticks to d10.</p>\n",
     "id": "improved-barrier-1"
   },
@@ -1403,6 +1553,21 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Improved Barrier",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "barrier-vanguard"
+        },
+        "limit": [
+          "barrier"
+        ],
+        "merge": {
+          "dieType": 12
+        }
+      }
+    ],
     "html": "<p>At the 18th level, increase the die type of your barrier ticks to d12.</p>\n",
     "id": "improved-barrier-2"
   },
@@ -1787,6 +1952,14 @@
     "level": 3,
     "klass": "vanguard",
     "subclass": "nemesis",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "meta-biotics",
+        "selections": 2
+      }
+    ],
     "name": "Metabiotics",
     "html": "<p>At 3rd level, you gain the ability to use the power stored in your barrier to twist your powers to suit your needs.\nYou gain two of the following Metabiotic options of your choice.</p>\n<p>Metabiotics can only be applied to powers of 1st level or higher.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Enhancement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Careful power</td>\n<td>When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from the power's full force. To do so, you spend 1 barrier tick and choose a number of those creatures up to your powercasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the power.</td>\n</tr>\n<tr>\n<td>Distant power</td>\n<td>When you cast a power that has a range of <me-distance length=\"5\" /> or greater, you can spend 1 barrier tick to double the range of the power. When you cast a power that has a range of touch, you can spend 1 barrier tick to make the range of the power <me-distance length=\"30\" />.</td>\n</tr>\n<tr>\n<td>Empowered power</td>\n<td>When you roll damage for a power, you can spend 1 barrier tick to reroll a number of the damage dice up to your powercasting ability modifier (minimum of one). You must use the new rolls. You can use Empowered power even if you have already used a different Metabiotic option during the casting of the power.</td>\n</tr>\n<tr>\n<td>Heightened power</td>\n<td>When you cast a power that forces a creature to make a saving throw to resist its effects, you can spend 3 barrier ticks to give one target of the power disadvantage on its first saving throw made against the power.</td>\n</tr>\n<tr>\n<td>Quickened power</td>\n<td>When you cast a power that has a casting time of 1 action, you can spend 2 barrier ticks to change the casting time to 1 bonus action for this casting.</td>\n</tr>\n<tr>\n<td>Twinned power</td>\n<td>When you cast a power that doesn't have a range of self and is incapable of targeting more than one creature at the power's current level, you can spend a number of barrier ticks equal to the power's level to target a second creature in range with the same power.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "metabiotics-1"
@@ -1796,6 +1969,14 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Metabiotics",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "meta-biotics",
+        "selections": 1
+      }
+    ],
     "html": "<p>At 10th level, learn an additional metabiotic option.</p>\n",
     "id": "metabiotics-2"
   },
@@ -1804,6 +1985,14 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Metabiotics",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "meta-biotics",
+        "selections": 1
+      }
+    ],
     "html": "<p>At 14th level, learn an additional metabiotic option.</p>\n",
     "id": "metabiotics-3"
   },
@@ -2060,6 +2249,17 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Opportunist",
+    "mechanics": [
+      {
+        "name": "Opportunist",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "opportunist"
+        },
+        "type": "reaction",
+        "shortDesc": "Whenever a creature within <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+      }
+    ],
     "html": "<p>At 18th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature\nwithin <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack\nagainst that creature.</p>\n",
     "id": "opportunist"
   },
@@ -2711,6 +2911,26 @@
     "level": 20,
     "klass": "vanguard",
     "name": "Primal Biotics",
+    "mechanics": [
+      {
+        "type": "asi-maximum",
+        "abilities": [
+          "str",
+          "con"
+        ],
+        "max": 24
+      },
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 4
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 4
+      }
+    ],
     "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n",
     "id": "primal-biotics"
   },
@@ -2900,6 +3120,17 @@
     "level": 15,
     "klass": "vanguard",
     "name": "Retaliation",
+    "mechanics": [
+      {
+        "name": "Retaliation",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "retaliation"
+        },
+        "type": "reaction",
+        "shortDesc": "When you take damage from a creature that is within <me-distance length=\"5\" /> of you, you can use your reaction to make a melee weapon attack against that creature."
+      }
+    ],
     "html": "<p>At 15th level, when you take damage from a creature that is within <me-distance length=\"5\" /> of you, you can use your reaction to make a melee weapon attack\nagainst that creature.</p>\n",
     "id": "retaliation"
   },
@@ -3296,6 +3527,17 @@
     "level": 7,
     "klass": "vanguard",
     "name": "Tactical Barrier",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Tactical Barrier",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-barrier"
+        }
+      }
+    ],
     "html": "<p>At 7th level, whenever you take damage while barrier is active, you choose how many barrier ticks to spend. You may choose to spend 0\nbarrier ticks.</p>\n",
     "id": "tactical-barrier"
   },
@@ -4364,6 +4606,7 @@
           "id": "zero-sum"
         },
         "type": "other",
+        "shortDesc": "Instead on an attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
         "resource": {
           "reset": "short",
           "id": "zero-sum"

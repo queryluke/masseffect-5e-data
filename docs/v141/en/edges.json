@@ -337,6 +337,341 @@
     "id": "BG_weaponsmith"
   },
   {
+    "name": "Disarming Attack",
+    "mechanics": [
+      {
+        "name": "Disarming Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_disarming-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_disarming-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "str"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or drop an object you choose."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop\none item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target\nmust make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</p>\n",
+    "id": "BMM_disarming-attack"
+  },
+  {
+    "name": "Distracting Attack",
+    "mechanics": [
+      {
+        "name": "Distracting Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_distracting-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_distracting-attack"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to give your allies an opening. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your\nallies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</p>\n",
+    "id": "BMM_distracting-attack"
+  },
+  {
+    "name": "Feinting Attack",
+    "mechanics": [
+      {
+        "name": "Feinting Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_feinting-attack"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_feinting-attack"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "Your next melee attack roll on a target within <me-distance length=\"2\" abbr /> has advantage. If that attack hits, add <strong>{{ damage }}</strong> to the attack’s damage roll."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"2\" /> of\nyou as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</p>\n",
+    "id": "BMM_feinting-attack"
+  },
+  {
+    "name": "Goading Attack",
+    "mechanics": [
+      {
+        "name": "Goading Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_goading-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_goading-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "wis"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to goad the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save or have disadvantage on all attack rolls against targets other than you until the end of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into\nattacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw.\nOn a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</p>\n",
+    "id": "BMM_goading-attack"
+  },
+  {
+    "name": "Lift Attack",
+    "mechanics": [
+      {
+        "name": "Lift Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_lift-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_lift-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to lift it. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Medium or smaller, it must succeed on a <strong>DC {{ dc }} DEX</strong> save or become lifted until the end of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size\ncreature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity\nsaving throw. On a failed save, the target is lifted until the end of your next turn.</p>\n",
+    "id": "BMM_lift-attack"
+  },
+  {
+    "name": "Menacing Attack",
+    "mechanics": [
+      {
+        "name": "Menacing Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_menacing-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_menacing-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "wis"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to frighten the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save or becomes <me-condition id=\"frightened\" /> of your until the end of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target.\nYou add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save,\nit is <me-condition id=\"frightened\" /> of you until the end of your next turn.</p>\n",
+    "id": "BMM_menacing-attack"
+  },
+  {
+    "name": "Pushing Attack",
+    "mechanics": [
+      {
+        "name": "Pushing Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_pushing-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_pushing-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "str"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Large or smaller, if must succeed on a <strong>DC {{ dc }} STR</strong> save or be pushed up to <me-distance length=\"20\" /> away from you."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You\nadd the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a\nStrength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</p>\n",
+    "id": "BMM_pushing-attack"
+  },
+  {
+    "name": "Riposte",
+    "mechanics": [
+      {
+        "name": "Riposte",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_riposte"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_riposte"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add <strong>{{ damage }}</strong> to the attack’s damage roll."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee\nattack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</p>\n",
+    "id": "BMM_riposte"
+  },
+  {
+    "name": "Sweeping Attack",
+    "mechanics": [
+      {
+        "name": "Sweeping Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_sweeping-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_sweeping-attack"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie",
+            "type": "force"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes <strong>{{ damage }} force</strong>damage."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature\nwith the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within\nyour reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</p>\n",
+    "id": "BMM_sweeping-attack"
+  },
+  {
+    "name": "Trip Attack",
+    "mechanics": [
+      {
+        "name": "Trip Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_trip-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_trip-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "str"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or become <me-condition id=\"prone\" />."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down.\nYou add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a\nStrength saving throw. On a failed save, you knock the target <me-condition id=\"prone\" />.</p>\n",
+    "id": "BMM_trip-attack"
+  },
+  {
     "name": "Advance",
     "mechanics": [
       {
@@ -659,6 +994,52 @@
     "type": "fighting-styles",
     "html": "<p>When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n",
     "id": "FS_the-free-hand"
+  },
+  {
+    "name": "Careful Power",
+    "mechanics": [
+      {
+        "name": "Careful Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_careful-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_careful-power"
+        },
+        "shortDesc": "Up to {{ powercastingMod:vanguard }} creatures succeed on their saving throw against a power you cast."
+      }
+    ],
+    "type": "meta-biotics",
+    "html": "<p>When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from\nthe power's full force. To do so, you spend 1 barrier tick and choose a number of those creatures up to your\npowercasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the power.</p>\n",
+    "id": "NMB_careful-power"
+  },
+  {
+    "name": "Careful Power",
+    "mechanics": [
+      {
+        "name": "Careful Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_distant-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_distant-power"
+        },
+        "shortDesc": "Double the range of a power or increase the range of power with a range of touch to <me-distance length=\"30\" abbr />"
+      }
+    ],
+    "type": "meta-biotics",
+    "html": "<p>When you cast a power that has a range of <me-distance length=\"5\" /> or greater, you can spend 1 barrier tick to\ndouble the range of the power. When you cast a power that has a range of touch, you can spend 1 barrier tick to\nmake the range of the power <me-distance length=\"30\" />.</p>\n",
+    "id": "NMB_distant-power"
   },
   {
     "name": "Angara",
