@@ -475,6 +475,30 @@
     "level": 3,
     "klass": "vanguard",
     "subclass": "shock-trooper",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "charge",
+        "klass": "vanguard",
+        "merge": {
+          "range": {
+            "short": 60
+          },
+          "notes": [
+            "Bull Rush"
+          ]
+        }
+      },
+      {
+        "name": "Biotic Bull Rush",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-bull-rush"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you use your action to cast Charge, you may use your bonus action to shove or make one weapon attack against the target. You gain +5 to the attack’s damage roll or shove the target <me-distance length=\"15\" />. To shove a target this way, it must be no more than one size larger than you."
+      }
+    ],
     "name": "Biotic Bull Rush",
     "html": "<p>At 3rd level, you learn the charge cantrip. If you have already learned it, you may learn a new cantrip instead.</p>\n<p>The distance of charge is now <me-distance length=\"60\" />. When you use your action to cast charge, you may use a bonus action to shove or make one\nweapon attack against the target. You gain +5 to the attack’s damage roll or shove the target <me-distance length=\"15\" />. To shove a target this\nway, it must be no more than one size larger than you.</p>\n",
     "id": "biotic-bull-rush"
@@ -573,6 +597,49 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Biotic Fury",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "biotic-fury"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "zero-sum"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "shortDesc": "Instead on a melee or power attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "biotic-fury"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 10th level, the effects of brutal critical and zero-sum can be applied to your biotic powers\nthat require a power attack roll.</p>\n",
     "id": "biotic-fury"
   },
@@ -636,6 +703,17 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Biotic Recovery",
+    "mechanics": [
+      {
+        "type": "ps-recovery",
+        "max": {
+          "type": "level",
+          "value": "vanguard",
+          "multiplier": 0.33,
+          "min": 1
+        }
+      }
+    ],
     "html": "<p>At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.</p>\n",
     "id": "biotic-recovery-nemesis"
   },
@@ -695,6 +773,17 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Blitz",
+    "mechanics": [
+      {
+        "name": "Blitz",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "blitz"
+        },
+        "type": "reaction",
+        "shortDesc": "When a creature within <me-distance length=\"60\" /> that you can see makes a weapon attack or casts a power, you can use your reaction to cast charge, targeting that creature."
+      }
+    ],
     "html": "<p>Starting at 18th level, whenever a creature within <me-distance length=\"60\" /> that you can see makes a weapon attack or casts a power, you can use your reaction to\ncast charge, targeting that creature. Resolve any effects caused by charge before the creature takes its action. The creature\nmay choose to make a different action this turn.</p>\n",
     "id": "blitz"
   },
@@ -703,6 +792,17 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Bombardment",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Bombardment",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "bombardment"
+        }
+      }
+    ],
     "html": "<p>Beginning at 18th level, the harmful energy of your biotics intensifies. When you roll damage for a power and roll the\nhighest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.\nYou can use the feature only once per turn.</p>\n",
     "id": "bombardment"
   },
@@ -1956,7 +2056,7 @@
       {
         "type": "model-choice",
         "options": true,
-        "model": "meta-biotics",
+        "model": "metabiotics",
         "selections": 2
       }
     ],
@@ -1973,7 +2073,7 @@
       {
         "type": "model-choice",
         "options": true,
-        "model": "meta-biotics",
+        "model": "metabiotics",
         "selections": 1
       }
     ],
@@ -1989,7 +2089,7 @@
       {
         "type": "model-choice",
         "options": true,
-        "model": "meta-biotics",
+        "model": "metabiotics",
         "selections": 1
       }
     ],
@@ -2241,6 +2341,30 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Onslaught",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bull-rush"
+        },
+        "limit": [
+          "powers"
+        ],
+        "merge": {
+          "merge": {
+            "damage": [
+              {
+                "bonus": {
+                  "type": "powercastingMod",
+                  "value": "vanguard"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 10th level, you've mastered your charge power, maximizing its damage. The damage of charge becomes d10 +\nyour powercasting modifier.</p>\n",
     "id": "onslaught"
   },
@@ -3263,6 +3387,49 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Shotgun Savvy",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "shotgun-savvy"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "zero-sum"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "shortDesc": "Instead of a melee or shotgun attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "biotic-fury"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 10th level, Brutal critical and Zero-sum can be applied to shotgun weapon attacks.</p>\n",
     "id": "shotgun-savvy"
   },
@@ -3450,7 +3617,33 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Stunning Strike",
-    "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you hit a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n",
+    "mechanics": [
+      {
+        "name": "Stunning Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "stunning-strike"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "stunning-strike"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "con"
+        },
+        "shortDesc": "When you deal damage to a creature with charge, spend 1 barrier tick to force the creature to succeed a DC {{ dc }} CON save or become <me-condition id=\"stunned\"/> until the end of your next turn."
+      }
+    ],
+    "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you deal damage to a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n",
     "id": "stunning-strike"
   },
   {
@@ -4426,6 +4619,23 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Teleporting Dodge",
+    "mechanics": [
+      {
+        "name": "Teleporting Dodge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "teleporting-dodge"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "teleporting-dodge"
+        },
+        "shortDesc": "When you are subjected to a DEX save, spend 2 barrier ticks to automatically succeed."
+      }
+    ],
     "html": "<p>At 14th level, as a reaction to an effect that causes you to make a Dexterity saving throw, you can use 2 Barrier ticks to automatically\npass the saving throw.</p>\n",
     "id": "teleporting-dodge"
   },
@@ -4606,7 +4816,7 @@
           "id": "zero-sum"
         },
         "type": "other",
-        "shortDesc": "Instead on an attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
+        "shortDesc": "Instead of a melee attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
         "resource": {
           "reset": "short",
           "id": "zero-sum"

@@ -1014,7 +1014,7 @@
         "shortDesc": "Up to {{ powercastingMod:vanguard }} creatures succeed on their saving throw against a power you cast."
       }
     ],
-    "type": "meta-biotics",
+    "type": "metabiotics",
     "html": "<p>When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from\nthe power's full force. To do so, you spend 1 barrier tick and choose a number of those creatures up to your\npowercasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the power.</p>\n",
     "id": "NMB_careful-power"
   },
@@ -1037,9 +1037,101 @@
         "shortDesc": "Double the range of a power or increase the range of power with a range of touch to <me-distance length=\"30\" abbr />"
       }
     ],
-    "type": "meta-biotics",
+    "type": "metabiotics",
     "html": "<p>When you cast a power that has a range of <me-distance length=\"5\" /> or greater, you can spend 1 barrier tick to\ndouble the range of the power. When you cast a power that has a range of touch, you can spend 1 barrier tick to\nmake the range of the power <me-distance length=\"30\" />.</p>\n",
     "id": "NMB_distant-power"
+  },
+  {
+    "name": "Empowered Power",
+    "mechanics": [
+      {
+        "name": "Empowered Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_empowered-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_empowered-power"
+        },
+        "shortDesc": "Reroll up to {{ powercastingMod:vanguard }} damage die for a power you cast. Can be combined with other metabiotics."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you roll damage for a power, you can spend 1 barrier tick to reroll a number of the damage dice up to your\npowercasting ability modifier (minimum of one). You must use the new rolls. You can use Empowered power even if\nyou have already used a different Metabiotic option during the casting of the power.</p>\n",
+    "id": "NMB_empowered-power"
+  },
+  {
+    "name": "Heightened Power",
+    "mechanics": [
+      {
+        "name": "Heightened Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_heightened-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_heightened-power"
+        },
+        "shortDesc": "Spend 3 barrier ticks to give one target of your cast disadvantage on a saving throw caused by the power."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that forces a creature to make a saving throw to resist\nits effects, you can spend 3 barrier ticks to give one target of the power\ndisadvantage on its first saving throw made against the power.</p>\n",
+    "id": "NMB_heightened-power"
+  },
+  {
+    "name": "Quickened Power",
+    "mechanics": [
+      {
+        "name": "Quickened Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_quickened-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_quickened-power"
+        },
+        "shortDesc": "Spend 2 barrier ticks to change the casting time of one power to a bonus action (the chosen power's casting time must be 1 action)."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that has a casting time of 1 action, you can spend 2\nbarrier ticks to change the casting time to 1 bonus action for this casting.</p>\n",
+    "id": "NMB_quickened-power"
+  },
+  {
+    "name": "Twinned Power",
+    "mechanics": [
+      {
+        "name": "Twinned Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_twinned-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_twinned-power"
+        },
+        "shortDesc": "When you cast a power that doesn't have a range of self and is incapable of targeting more than one creature at the power's current level, you can spend a number of barrier ticks equal to the power's level to target a second creature in range with the same power."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that doesn't have a range of self and is incapable of\ntargeting more than one creature at the power's current level, you can spend a\nnumber of barrier ticks equal to the power's level to target a second creature\nin range with the same power.</p>\n",
+    "id": "NMB_twinned-power"
   },
   {
     "name": "Angara",
