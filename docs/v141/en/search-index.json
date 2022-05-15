@@ -3522,6 +3522,20 @@
     "html": "<p>You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions.\nIt might be a small burst under the muzzle of a gun to throw off the attacker's aim or a negative field around a\nfriendly creature as it leaps away from a grenade.</p>\n<p>At 6th level, when another creature you can see makes an attack roll, an ability check, or a saving throw, you can use\nyour reaction to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You\ncan do so after the creature rolls but before any effects of the roll occur.</p>\n<p>You can use Bend Luck a number of times equal to half of your Adept level (minimum 1). You regain all expended uses\nafter a long rest.</p>\n"
   },
   {
+    "id": "biotic-aptitude",
+    "title": "Biotic Aptitude",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "By 3rd level, you have an aptitude for dealing damage with biotics. Whenever you deal damage with a biotic power,\nadd your powercasting modifier to the damage.\n",
+    "html": "<p>By 3rd level, you have an aptitude for dealing damage with biotics. Whenever you deal damage with a biotic power,\nadd your powercasting modifier to the damage.</p>\n"
+  },
+  {
     "id": "biotic-attacks",
     "title": "Biotic Attacks",
     "type": "character",
@@ -3664,11 +3678,11 @@
       "Character",
       "Classes",
       "Adept",
-      "17th level"
+      "15th level"
     ],
     "link": false,
-    "body": "At 17th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.\nBy spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.\n",
-    "html": "<p>At 17th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n"
+    "body": "At 15th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.\nBy spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.\n",
+    "html": "<p>At 15th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n"
   },
   {
     "id": "biotic-recovery-nemesis",
@@ -3707,12 +3721,11 @@
       "Character",
       "Classes",
       "Adept",
-      "Commando",
-      "10th level"
+      "11th level"
     ],
     "link": false,
-    "body": "At 10th level, when you cast a biotic power that targets only one creature, you can have it target a second creature.\n",
-    "html": "<p>At 10th level, when you cast a biotic power that targets only one creature, you can have it target a second creature.</p>\n"
+    "body": "At 11th level, when you cast a power that targets only one creature, you can target a second creature in range\nwith the same power. To be eligible, a power must be incapable of targeting more than one creature at the\npower’s current level. You can only use Biotic Split once on a power when you cast it.\nYou may use this feature a number of times between short rests equal to your proficiency bonus.\n",
+    "html": "<p>At 11th level, when you cast a power that targets only one creature, you can target a second creature in range\nwith the same power. To be eligible, a power must be incapable of targeting more than one creature at the\npower’s current level. You can only use Biotic Split once on a power when you cast it.</p>\n<p>You may use this feature a number of times between short rests equal to your proficiency bonus.</p>\n"
   },
   {
     "id": "biotic-surge",
@@ -4065,20 +4078,6 @@
     "html": "<p>At 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.</p>\n"
   },
   {
-    "id": "empowered-biotics",
-    "title": "Empowered Biotics",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Adept",
-      "17th level"
-    ],
-    "link": false,
-    "body": "At 17th level, whenever you roll a 1 on a damage roll for a biotic power or cantrip you cast, you can reroll the die and must use the\nnew roll.\n",
-    "html": "<p>At 17th level, whenever you roll a 1 on a damage roll for a biotic power or cantrip you cast, you can reroll the die and must use the\nnew roll.</p>\n"
-  },
-  {
     "id": "enfilade",
     "title": "Enfilade",
     "type": "character",
@@ -4144,12 +4143,11 @@
       "Character",
       "Classes",
       "Adept",
-      "Commando",
-      "6th level"
+      "7th level"
     ],
     "link": false,
-    "body": "By 6th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.\n",
-    "html": "<p>By 6th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.</p>\n"
+    "body": "By 7th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.\n",
+    "html": "<p>By 7th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.</p>\n"
   },
   {
     "id": "expertise-1",
@@ -4223,6 +4221,20 @@
     "link": false,
     "body": "Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.\n",
     "html": "<p>Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n"
+  },
+  {
+    "id": "extra-attack-sentinel",
+    "title": "Extra Attack",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "5th level"
+    ],
+    "link": false,
+    "body": "At 5th level, you’ve mastered harmonizing your weapon attacks and powers. You can attack twice,\ninstead of once, whenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip\nin place of one of those attacks.\n",
+    "html": "<p>At 5th level, you’ve mastered harmonizing your weapon attacks and powers. You can attack twice,\ninstead of once, whenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip\nin place of one of those attacks.</p>\n"
   },
   {
     "id": "extra-attack-soldier-1",
@@ -4967,20 +4979,6 @@
     "html": "<p>At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.</p>\n"
   },
   {
-    "id": "quick-cast",
-    "title": "Quick Cast",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Sentinel",
-      "5th level"
-    ],
-    "link": false,
-    "body": "At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.\n",
-    "html": "<p>At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.</p>\n"
-  },
-  {
     "id": "rapid-strike",
     "title": "Rapid Strike",
     "type": "character",
@@ -5222,11 +5220,11 @@
       "Character",
       "Classes",
       "Adept",
-      "20th level"
+      "18th level"
     ],
     "link": false,
-    "body": "When you reach 20th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.\n",
-    "html": "<p>When you reach 20th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.</p>\n"
+    "body": "When you reach 18th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.\n",
+    "html": "<p>When you reach 18th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.</p>\n"
   },
   {
     "id": "silent-cloak",
@@ -5609,6 +5607,20 @@
     "link": false,
     "body": "At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.\n",
     "html": "<p>At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>\n"
+  },
+  {
+    "id": "unmatched-biotics",
+    "title": "Unmatched Biotics",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "20th level"
+    ],
+    "link": false,
+    "body": "By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.\n",
+    "html": "<p>By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.</p>\n"
   },
   {
     "id": "unyielding-assault",
