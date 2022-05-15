@@ -453,10 +453,12 @@
           },
           "id": "bend-luck"
         },
+        "shortDesc": "when another creature you can see makes an attack roll, an ability check, or a saving throw, roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.",
         "damage": [
           {
             "dieCount": 1,
-            "dieType": 4
+            "dieType": 4,
+            "label": "Bend Luck"
           }
         ]
       }
@@ -587,6 +589,7 @@
           "id": "biotic-concentration"
         },
         "type": "other",
+        "shortDesc": "If you are already maintaining a concentration power, you can cast another power that requires concentration and maintain it. If you take damage you must make a separate Constitution saving throw to maintain each power.",
         "resource": {
           "reset": "short",
           "id": "biotic-concentration"
@@ -602,6 +605,17 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Biotic Control",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Biotic Control",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-control"
+        }
+      }
+    ],
     "html": "<p>At 14th level, you've increased your mastery with biotic powers that control the battlefield. Gain the following\nbenefits to the powers below:</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Power</th>\n<th>Improvement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lift</td>\n<td>When casting Lift, you are considered to have both advancement options.</td>\n</tr>\n<tr>\n<td>Pull</td>\n<td>When you cast Pull, you may target 2 creatures. Make a ranged power attack for each target.</td>\n</tr>\n<tr>\n<td>Singularity</td>\n<td>Large or smaller objects and creatures are affected by Singularity.</td>\n</tr>\n<tr>\n<td>Stasis</td>\n<td>Targets have disadvantage on their saving throw.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "biotic-control"
   },
@@ -714,6 +728,25 @@
     ],
     "html": "<p>Starting at 10th level, the effects of brutal critical and zero-sum can be applied to your biotic powers\nthat require a power attack roll.</p>\n",
     "id": "biotic-fury"
+  },
+  {
+    "level": 14,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Biotic Harmony",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "1st-level Power Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-harmony"
+        }
+      }
+    ],
+    "html": "<p>Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you\ncan cast a 1st level biotic power in place of one of those attacks.</p>\n",
+    "id": "biotic-harmony"
   },
   {
     "level": 3,
@@ -880,6 +913,7 @@
           "id": "biotic-surge"
         },
         "type": "other",
+        "shortDesc": "When you force multiple creatures to make saving throws against the damage of one of your powers, you can increase the power's damage by rolling two more of its damage dice. This increase occurs only on the turn you cast the power.",
         "resource": {
           "reset": "short",
           "id": "biotic-surge"
@@ -1153,6 +1187,20 @@
     "id": "combat-power-soldier"
   },
   {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Combat Training",
+    "mechanics": [
+      {
+        "type": "weapon-choice",
+        "options": true
+      }
+    ],
+    "html": "<p>Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.</p>\n",
+    "id": "combat-training"
+  },
+  {
     "level": 6,
     "klass": "engineer",
     "subclass": "drone-jockey",
@@ -1239,7 +1287,18 @@
     "klass": "adept",
     "subclass": "disruptor",
     "name": "Dark Biotics",
-    "html": "<p>At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.</p>\n",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Dark Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "dark-biotics"
+        }
+      }
+    ],
+    "html": "<p>By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.</p>\n",
     "id": "dark-biotics"
   },
   {
@@ -1548,6 +1607,29 @@
   },
   {
     "level": 6,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      },
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Cantrip Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "extra-attack-commando"
+        }
+      }
+    ],
+    "html": "<p>At 6th level, you’ve mastered harmonizing your weapon attacks and biotic powers. You can attack twice, instead of once,\nwhenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip in place of one of those attacks.</p>\n",
+    "id": "extra-attack-commando"
+  },
+  {
+    "level": 6,
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Extra Attack",
@@ -1731,10 +1813,48 @@
     "id": "fighting-style-vanguard"
   },
   {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Fitness",
+    "mechanics": [
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level",
+          "value": "adept"
+        }
+      },
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
+    "html": "<p>Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by <me-distance length=\"5\" />.</p>\n",
+    "id": "fitness"
+  },
+  {
     "level": 10,
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Focused Biotics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Focused Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "focused-biotics"
+        }
+      }
+    ],
     "html": "<p>Beginning at 10th level, while you are concentrating on a biotic power, your concentration can't be broken as a\nresult of taking damage.</p>\n",
     "id": "focused-biotics"
   },
@@ -1874,6 +1994,24 @@
     ],
     "html": "<p>At the 18th level, increase the die type of your barrier ticks to d12.</p>\n",
     "id": "improved-barrier-2"
+  },
+  {
+    "level": 10,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Improved Barrier",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        },
+        "condition": "barrier-active"
+      }
+    ],
+    "html": "<p>By 10th level, you’ve learned to harden your barrier against attacks. While you have an active barrier, you gain +2 AC.</p>\n",
+    "id": "improved-barrier-commando"
   },
   {
     "level": 11,
@@ -2649,31 +2787,6 @@
     "id": "opportunist"
   },
   {
-    "level": 14,
-    "klass": "adept",
-    "subclass": "commando",
-    "mechanics": [
-      {
-        "name": "Overchannel",
-        "moreInfo": {
-          "model": "class-features",
-          "id": "overchannel"
-        },
-        "type": "other",
-        "resource": {
-          "max": {
-            "type": "flat",
-            "value": 10
-          },
-          "id": "overchannel"
-        }
-      }
-    ],
-    "name": "Overchannel",
-    "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.</p>\n",
-    "id": "overchannel"
-  },
-  {
     "level": 13,
     "klass": "infiltrator",
     "subclass": "sniper",
@@ -2725,6 +2838,17 @@
     "klass": "adept",
     "subclass": "disruptor",
     "name": "Potent Biotics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Potent Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "potent-biotics"
+        }
+      }
+    ],
     "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die\nand must use the new roll.</p>\n",
     "id": "potent-biotics"
   },
@@ -3331,14 +3455,6 @@
     "id": "primal-biotics"
   },
   {
-    "level": 2,
-    "klass": "adept",
-    "subclass": "commando",
-    "name": "Pure Biotics",
-    "html": "<p>At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.</p>\n",
-    "id": "pure-biotics"
-  },
-  {
     "level": 15,
     "klass": "soldier",
     "subclass": "gladiator",
@@ -3563,6 +3679,17 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Sculpt Biotics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Sculpt Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sculpt-biotics"
+        }
+      }
+    ],
     "html": "<p>Starting at 2nd level, you can create pockets of relative safety within the effects of your biotic powers. When you\ncast a biotic power that affects other creatures that you can see, you can choose a number of them equal to 1+ the\npower's level. The chosen creatures automatically succeed on their saving throws against the power, and they take no\ndamage if they would normally take half damage on a successful save.</p>\n",
     "id": "sculpt-biotics"
   },

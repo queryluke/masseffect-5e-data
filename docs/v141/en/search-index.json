@@ -3626,6 +3626,21 @@
     "html": "<p>Starting at 10th level, the effects of brutal critical and zero-sum can be applied to your biotic powers\nthat require a power attack roll.</p>\n"
   },
   {
+    "id": "biotic-harmony",
+    "title": "Biotic Harmony",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "14th level"
+    ],
+    "link": false,
+    "body": "Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you\ncan cast a 1st level biotic power in place of one of those attacks.\n",
+    "html": "<p>Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you\ncan cast a 1st level biotic power in place of one of those attacks.</p>\n"
+  },
+  {
     "id": "biotic-maneuvers-1",
     "title": "Biotic Maneuvers",
     "type": "character",
@@ -3902,6 +3917,21 @@
     "html": "<p>At 1st level, you know one combat power of your choice from the soldier power list. You learn additional combat powers of\nyour choice at higher levels, as shown in the Combat Powers column of the Soldier table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n"
   },
   {
+    "id": "combat-training",
+    "title": "Combat Training",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.\n",
+    "html": "<p>Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.</p>\n"
+  },
+  {
     "id": "coordinated-attack",
     "title": "Coordinated Attack",
     "type": "character",
@@ -3956,8 +3986,8 @@
       "2nd level"
     ],
     "link": false,
-    "body": "At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.\n",
-    "html": "<p>At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.</p>\n"
+    "body": "By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.\n",
+    "html": "<p>By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.</p>\n"
   },
   {
     "id": "death-strike",
@@ -4208,6 +4238,21 @@
     "html": "<p>At 10th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n"
   },
   {
+    "id": "extra-attack-commando",
+    "title": "Extra Attack",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, you’ve mastered harmonizing your weapon attacks and biotic powers. You can attack twice, instead of once,\nwhenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip in place of one of those attacks.\n",
+    "html": "<p>At 6th level, you’ve mastered harmonizing your weapon attacks and biotic powers. You can attack twice, instead of once,\nwhenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip in place of one of those attacks.</p>\n"
+  },
+  {
     "id": "extra-attack-engineer-mastermind",
     "title": "Extra Attack",
     "type": "character",
@@ -4365,6 +4410,21 @@
     "html": "<p>At 1st level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n<p><strong>The Free Hand.</strong> When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" />\nof you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack\nhits, the damage is reduced by your barrier tick roll.</p>\n<p><strong>Sniper.</strong> If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks\nmade with a sniper rifle.</p>\n"
   },
   {
+    "id": "fitness",
+    "title": "Fitness",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by .\n",
+    "html": "<p>Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by <me-distance length=\"5\" />.</p>\n"
+  },
+  {
     "id": "focused-biotics",
     "title": "Focused Biotics",
     "type": "character",
@@ -4452,6 +4512,21 @@
     "link": false,
     "body": "At the 18th level, increase the die type of your barrier ticks to d12.\n",
     "html": "<p>At the 18th level, increase the die type of your barrier ticks to d12.</p>\n"
+  },
+  {
+    "id": "improved-barrier-commando",
+    "title": "Improved Barrier",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "10th level"
+    ],
+    "link": false,
+    "body": "By 10th level, you’ve learned to harden your barrier against attacks. While you have an active barrier, you gain +2 AC.\n",
+    "html": "<p>By 10th level, you’ve learned to harden your barrier against attacks. While you have an active barrier, you gain +2 AC.</p>\n"
   },
   {
     "id": "improved-efficiency",
@@ -4805,21 +4880,6 @@
     "html": "<p>At 18th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature\nwithin <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack\nagainst that creature.</p>\n"
   },
   {
-    "id": "overchannel",
-    "title": "Overchannel",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Adept",
-      "Commando",
-      "14th level"
-    ],
-    "link": false,
-    "body": "Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.\n",
-    "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.</p>\n"
-  },
-  {
     "id": "overwatch",
     "title": "Overwatch",
     "type": "character",
@@ -4962,21 +5022,6 @@
     "link": false,
     "body": "At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.\n",
     "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n"
-  },
-  {
-    "id": "pure-biotics",
-    "title": "Pure Biotics",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Adept",
-      "Commando",
-      "2nd level"
-    ],
-    "link": false,
-    "body": "At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.\n",
-    "html": "<p>At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.</p>\n"
   },
   {
     "id": "rapid-strike",
