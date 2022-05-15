@@ -195,6 +195,7 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Advanced Weapon Holsters",
+    "mechanics": [],
     "html": "<p>You've outfitted your armor with special rigs that make carrying weapons a cinch.</p>\n<p>At 3rd level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.</p>\n",
     "id": "advanced-weapon-holsters"
   },
@@ -978,7 +979,7 @@
         ]
       }
     ],
-    "name": "Combat Power",
+    "name": "Combat Powers",
     "html": "<p>At 2nd level, you know one combat power of your choice from the infiltrator power list. You learn additional\ncombat powers of your choice at higher levels, as shown in the Combat Powers column of the Infiltrator table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n",
     "id": "combat-power-infiltrator"
   },
@@ -1013,7 +1014,7 @@
         ]
       }
     ],
-    "name": "Combat Power",
+    "name": "Combat Powers",
     "html": "<p>At 1st level, you know one combat power of your choice from the soldier power list. You learn additional combat powers of\nyour choice at higher levels, as shown in the Combat Powers column of the Soldier table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n",
     "id": "combat-power-soldier"
   },
@@ -1131,6 +1132,17 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Devastating Critical",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Devastating Critical",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "devastating-critical"
+        }
+      }
+    ],
     "html": "<p>Starting at the 15th level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.</p>\n",
     "id": "devastating-critical"
   },
@@ -1638,6 +1650,23 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Heavy Weapon Hack",
+    "mechanics": [
+      {
+        "name": "Heavy Weapon Hack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "heavy-weapon-hack"
+        },
+        "type": "action",
+        "resource": {
+          "displayType": "omni-gel",
+          "reset": "off",
+          "label": "omni-gel",
+          "id": "heavy-weapon-hack"
+        },
+        "shortDesc": "Spend 2 omni-gel to make an additional charge for a heavy weapon."
+      }
+    ],
     "html": "<p>Starting at 10th level, when your heavy weapon runs out of ammo, you can jerry-rig an additional charge for 2 omni-gel.</p>\n",
     "id": "heavy-weapon-hack"
   },
@@ -1997,22 +2026,30 @@
     "name": "Makeshift Grenades",
     "mechanics": [
       {
-        "type": "model-choice",
-        "options": true,
-        "model": "gear",
-        "hide": true,
-        "limits": [
-          {
-            "attr": "type",
-            "value": [
-              "grenade"
-            ]
+        "name": "Makeshift Grenades",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "makeshift-grenades-1"
+        },
+        "type": "action",
+        "layout": "simple",
+        "resource": {
+          "displayType": "omni-gel",
+          "reset": "off",
+          "label": "omni-gel",
+          "id": "makeshift-grenades-1"
+        },
+        "dc": {
+          "base": 0,
+          "proficient": false,
+          "bonus": {
+            "type": "level",
+            "value": "soldier",
+            "multiplier": 0.3333,
+            "min": 1
           }
-        ],
-        "append": {
-          "type": "grenade-attack",
-          "mechanics": []
-        }
+        },
+        "shortDesc": "Create and fire one of your makeshift grenades at Mark {{ dc }}"
       }
     ],
     "html": "<p>When you reach 3rd level, you can program your omni-tool to transform omni-gel into grenades. Choose two grenades from the grenade\nlist. As an action, you can spend 1 omni-gel to create and use a grenade of that type. The Mark of the grenade you create\nis equal to your soldier level divided by 3 (rounded down).</p>\n<p>You can spend 8 hours of programming to exchange a selected grenade with a different one.</p>\n",
@@ -2023,6 +2060,34 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Makeshift Grenades",
+    "mechanics": [
+      {
+        "name": "Makeshift Grenades",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "makeshift-grenades-2"
+        },
+        "type": "bonus-action",
+        "layout": "simple",
+        "resource": {
+          "displayType": "omni-gel",
+          "reset": "off",
+          "label": "omni-gel",
+          "id": "makeshift-grenades-2"
+        },
+        "dc": {
+          "base": 0,
+          "proficient": false,
+          "bonus": {
+            "type": "level",
+            "value": "soldier",
+            "multiplier": 0.3333,
+            "min": 1
+          }
+        },
+        "shortDesc": "Create one of your makeshift grenades at Mark {{ dc }}. You may use the grenade as an attack."
+      }
+    ],
     "html": "<p>At 15th level, you can have 4 grenades programmed into your Omni-tool at once.</p>\n<p>In addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.</p>\n",
     "id": "makeshift-grenades-2"
   },
@@ -2482,6 +2547,17 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Paint by Number",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Paint by Number",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "paint-by-number"
+        }
+      }
+    ],
     "html": "<p>At 18th level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\n<me-condition id=\"targeting\" />, you may target and fire on the same turn.</p>\n",
     "id": "paint-by-number"
   },
@@ -3614,7 +3690,18 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Strafe",
-    "html": "<p>At 7th level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n",
+    "mechanics": [
+      {
+        "name": "Strafe",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "strafe"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you take the Dash or Disengage action, you can make one weapon attack with your Weapon of Choice as a bonus action at any point during your movement."
+      }
+    ],
+    "html": "<p>At 7th level, when you take the Dash or Disengage action, you can make one weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n",
     "id": "strafe"
   },
   {
@@ -4857,25 +4944,10 @@
     "subclass": "weapon-master",
     "mechanics": [
       {
-        "name": "Weapon of Choice",
-        "moreInfo": {
-          "model": "class-features",
-          "id": "weapon-of-choice-1"
-        },
-        "type": "other",
-        "resource": {
-          "reset": "short",
-          "max": {
-            "type": "progressive",
-            "limit": "soldier",
-            "value": {
-              "3": 4,
-              "10": 5,
-              "18": 6
-            }
-          },
-          "id": "weapon-of-choice-1"
-        }
+        "type": "model-choice",
+        "options": true,
+        "model": "weapon-of-choice",
+        "hide": true
       }
     ],
     "name": "Weapon of Choice",
@@ -4887,6 +4959,7 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Weapon of Choice",
+    "mechanics": [],
     "html": "<p>You gain another superiority die (5 total) at 10th level and the die type becomes a d10.</p>\n",
     "id": "weapon-of-choice-2"
   },
@@ -4895,6 +4968,7 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Weapon of Choice",
+    "mechanics": [],
     "html": "<p>You gain another superiority die (6 total) at 18th level and the die type becomes a d12.</p>\n",
     "id": "weapon-of-choice-3"
   },

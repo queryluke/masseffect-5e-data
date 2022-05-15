@@ -5,7 +5,7 @@ mechanics:
   - type: cantrips
     columnName: Combat Powers
     known: [1,1,1,2,2,2,2,3,3,3,3,4,4,4,5,5,5,6,6,6]
-name: Combat Power
+name: Combat Powers
 ---
 At 1st level, you know one combat power of your choice from the soldier power list. You learn additional combat powers of
 your choice at higher levels, as shown in the Combat Powers column of the Soldier table.
