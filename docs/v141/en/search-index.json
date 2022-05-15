@@ -3522,6 +3522,20 @@
     "html": "<p>You've mastered the art of using small mass effect fields to slightly alter the outcome of other creature's actions.\nIt might be a small burst under the muzzle of a gun to throw off the attacker's aim or a negative field around a\nfriendly creature as it leaps away from a grenade.</p>\n<p>At 6th level, when another creature you can see makes an attack roll, an ability check, or a saving throw, you can use\nyour reaction to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You\ncan do so after the creature rolls but before any effects of the roll occur.</p>\n<p>You can use Bend Luck a number of times equal to half of your Adept level (minimum 1). You regain all expended uses\nafter a long rest.</p>\n"
   },
   {
+    "id": "biotic-aptitude",
+    "title": "Biotic Aptitude",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "By 3rd level, you have an aptitude for dealing damage with biotics. Whenever you deal damage with a biotic power,\nadd your powercasting modifier to the damage.\n",
+    "html": "<p>By 3rd level, you have an aptitude for dealing damage with biotics. Whenever you deal damage with a biotic power,\nadd your powercasting modifier to the damage.</p>\n"
+  },
+  {
     "id": "biotic-attacks",
     "title": "Biotic Attacks",
     "type": "character",
@@ -3593,8 +3607,8 @@
       "6th level"
     ],
     "link": false,
-    "body": "At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:\n\nYour speed is doubled.\n+4 to all melee weapon damage rolls.\nYou have advantage on Strength and Dexterity saving throws.\n\n\nOnce you use this feature, you can't use it again until you finish a long rest.\n",
-    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your speed is doubled.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+    "body": "At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:\n\nYour walking speed increases by .\n+4 to all melee weapon damage rolls.\nYou have advantage on Strength and Dexterity saving throws.\n\n\nOnce you use this feature, you can't use it again until you finish a long rest.\n",
+    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your walking speed increases by <me-distance length=\"30\" />.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
   },
   {
     "id": "biotic-fury",
@@ -3612,6 +3626,21 @@
     "html": "<p>Starting at 10th level, the effects of brutal critical and zero-sum can be applied to your biotic powers\nthat require a power attack roll.</p>\n"
   },
   {
+    "id": "biotic-harmony",
+    "title": "Biotic Harmony",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "14th level"
+    ],
+    "link": false,
+    "body": "Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you\ncan cast a 1st level biotic power in place of one of those attacks.\n",
+    "html": "<p>Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you\ncan cast a 1st level biotic power in place of one of those attacks.</p>\n"
+  },
+  {
     "id": "biotic-maneuvers-1",
     "title": "Biotic Maneuvers",
     "type": "character",
@@ -3623,8 +3652,8 @@
       "3rd level"
     ],
     "link": false,
-    "body": "At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.\n\n\nName\nManeuver\n\n\n\n\nDisarming Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.\n\n\nDistracting Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.\n\n\nFeinting Attack\nYou can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within  of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.\n\n\nGoading Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.\n\n\nLift Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted.\n\n\nMenacing Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.\n\n\nPushing Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to  away from you.\n\n\nRiposte\nWhen a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.\n\n\nSweeping Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within  of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.\n\n\nTrip Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.\n\n\n",
-    "html": "<p>At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"5\" /> of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+    "body": "At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.\n\n\nName\nManeuver\n\n\n\n\nDisarming Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.\n\n\nDistracting Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.\n\n\nFeinting Attack\nYou can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within  of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.\n\n\nGoading Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.\n\n\nLift Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted until the end of your next turn.\n\n\nMenacing Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.\n\n\nPushing Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to  away from you.\n\n\nRiposte\nWhen a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.\n\n\nSweeping Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within  of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.\n\n\nTrip Attack\nWhen you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.\n\n\n",
+    "html": "<p>At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"5\" /> of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "id": "biotic-maneuvers-2",
@@ -3664,11 +3693,11 @@
       "Character",
       "Classes",
       "Adept",
-      "17th level"
+      "15th level"
     ],
     "link": false,
-    "body": "At 17th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.\nBy spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.\n",
-    "html": "<p>At 17th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n"
+    "body": "At 15th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.\nBy spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.\n",
+    "html": "<p>At 15th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n"
   },
   {
     "id": "biotic-recovery-nemesis",
@@ -3707,12 +3736,11 @@
       "Character",
       "Classes",
       "Adept",
-      "Commando",
-      "10th level"
+      "11th level"
     ],
     "link": false,
-    "body": "At 10th level, when you cast a biotic power that targets only one creature, you can have it target a second creature.\n",
-    "html": "<p>At 10th level, when you cast a biotic power that targets only one creature, you can have it target a second creature.</p>\n"
+    "body": "At 11th level, when you cast a power that targets only one creature, you can target a second creature in range\nwith the same power. To be eligible, a power must be incapable of targeting more than one creature at the\npower’s current level. You can only use Biotic Split once on a power when you cast it.\nYou may use this feature a number of times between short rests equal to your proficiency bonus.\n",
+    "html": "<p>At 11th level, when you cast a power that targets only one creature, you can target a second creature in range\nwith the same power. To be eligible, a power must be incapable of targeting more than one creature at the\npower’s current level. You can only use Biotic Split once on a power when you cast it.</p>\n<p>You may use this feature a number of times between short rests equal to your proficiency bonus.</p>\n"
   },
   {
     "id": "biotic-surge",
@@ -3862,7 +3890,7 @@
   },
   {
     "id": "combat-power-infiltrator",
-    "title": "Combat Power",
+    "title": "Combat Powers",
     "type": "character",
     "qualifiers": [
       "Character",
@@ -3876,7 +3904,7 @@
   },
   {
     "id": "combat-power-soldier",
-    "title": "Combat Power",
+    "title": "Combat Powers",
     "type": "character",
     "qualifiers": [
       "Character",
@@ -3887,6 +3915,21 @@
     "link": false,
     "body": "At 1st level, you know one combat power of your choice from the soldier power list. You learn additional combat powers of\nyour choice at higher levels, as shown in the Combat Powers column of the Soldier table.\nInstead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.\n",
     "html": "<p>At 1st level, you know one combat power of your choice from the soldier power list. You learn additional combat powers of\nyour choice at higher levels, as shown in the Combat Powers column of the Soldier table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n"
+  },
+  {
+    "id": "combat-training",
+    "title": "Combat Training",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.\n",
+    "html": "<p>Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.</p>\n"
   },
   {
     "id": "coordinated-attack",
@@ -3943,8 +3986,8 @@
       "2nd level"
     ],
     "link": false,
-    "body": "At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.\n",
-    "html": "<p>At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.</p>\n"
+    "body": "By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.\n",
+    "html": "<p>By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.</p>\n"
   },
   {
     "id": "death-strike",
@@ -4003,8 +4046,8 @@
       "2nd level"
     ],
     "link": false,
-    "body": "At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.\nIf your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.\nYou can still summon a temporary drone using your tech points.\n",
-    "html": "<p>At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.</p>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n"
+    "body": "At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket. It gains the following:\n\nThe drone companion loses its Multiattack action, if it has one.\nThe drone companion loses its vulnerability to lightning damage.\nThe drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.\nYour drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.\nYour drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.\nFor each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.\nWhenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.\nYour companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”\n\nIf your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.\nYou can still summon a temporary drone using your tech points.\nChoose your companion's trait, or roll on the table below.\n\n\nRoll\nTrait\n\n\n\n\n1\nDesignation: Large. Assessment: Falls hard.\n\n\n2\nEliminate!\n\n\n3\nScanning for enemies...Scanning for enemies...Scanning for enemies\n\n\n4\nAnalyzing target...Weakness identified\n\n\n5\nCalculating all variables...optimal action determined.\n\n\n6\nPrioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation\n\n\nChoose your companion's flaw, or roll on the table below.\n\n\nRoll\nFlaw\n\n\n\n\n1\nProbability of survival: 0.00234%\n\n\n2\nFriendly creature in range. Activating CUTE protocol\n\n\n3\nElectrical current detected. Priority: avoid\n\n\n4\nThis workspace can be optimized for 15% more efficiency\n\n\n5\nOrganic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!\n\n\n6\nOther VI's must not be trusted\n\n\n",
+    "html": "<p>At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket. It gains the following:</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n<h5>Choose your companion's trait, or roll on the table below.</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h5>Choose your companion's flaw, or roll on the table below.</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "id": "drone",
@@ -4019,21 +4062,6 @@
     "link": false,
     "body": "As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the bestiary.\nWhen summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.\nYou have complete control over the drone. Any hacking attempts on the drone are rolled against your Intelligence,\nnot the drone's. The drone has its own turn in the initiative order, which occurs immediately following your turn.\nThe drone lasts 1 minute or until its hit points become 0 or lower.\n",
     "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <nuxt-link to=\"/bestiary\">bestiary</nuxt-link>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your Intelligence,\nnot the drone's. The drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n"
-  },
-  {
-    "id": "drones-bond",
-    "title": "Drone's Bond",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Engineer",
-      "Drone Jockey",
-      "2nd level"
-    ],
-    "link": false,
-    "body": "Your drone companion gains a variety of benefits while it is linked to you.\n\nThe drone companion loses its Multiattack action, if it has one.\nThe drone companion loses its vulnerability to lightning damage.\nThe drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.\nYour drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.\nYour drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.\nFor each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.\nWhenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.\nYour companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”\n\nChoose your companion's trait, or roll on the table below.\n\n\nRoll\nTrait\n\n\n\n\n1\nDesignation: Large. Assessment: Falls hard.\n\n\n2\nEliminate!\n\n\n3\nScanning for enemies...Scanning for enemies...Scanning for enemies\n\n\n4\nAnalyzing target...Weakness identified\n\n\n5\nCalculating all variables...optimal action determined.\n\n\n6\nPrioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation\n\n\nChoose your companion's flaw, or roll on the table below.\n\n\nRoll\nFlaw\n\n\n\n\n1\nProbability of survival: 0.00234%\n\n\n2\nFriendly creature in range. Activating CUTE protocol\n\n\n3\nElectrical current detected. Priority: avoid\n\n\n4\nThis workspace can be optimized for 15% more efficiency\n\n\n5\nOrganic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!\n\n\n6\nOther VI's must not be trusted\n\n\n",
-    "html": "<p>Your drone companion gains a variety of benefits while it is linked to you.</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<h3>Choose your companion's trait, or roll on the table below.</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h3>Choose your companion's flaw, or roll on the table below.</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
   },
   {
     "id": "drones-defense-1",
@@ -4078,20 +4106,6 @@
     "link": false,
     "body": "At 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.\n",
     "html": "<p>At 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.</p>\n"
-  },
-  {
-    "id": "empowered-biotics",
-    "title": "Empowered Biotics",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Adept",
-      "17th level"
-    ],
-    "link": false,
-    "body": "At 17th level, whenever you roll a 1 on a damage roll for a biotic power or cantrip you cast, you can reroll the die and must use the\nnew roll.\n",
-    "html": "<p>At 17th level, whenever you roll a 1 on a damage roll for a biotic power or cantrip you cast, you can reroll the die and must use the\nnew roll.</p>\n"
   },
   {
     "id": "enfilade",
@@ -4159,12 +4173,11 @@
       "Character",
       "Classes",
       "Adept",
-      "Commando",
-      "6th level"
+      "7th level"
     ],
     "link": false,
-    "body": "By 6th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.\n",
-    "html": "<p>By 6th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.</p>\n"
+    "body": "By 7th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.\n",
+    "html": "<p>By 7th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.</p>\n"
   },
   {
     "id": "expertise-1",
@@ -4225,6 +4238,21 @@
     "html": "<p>At 10th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n"
   },
   {
+    "id": "extra-attack-commando",
+    "title": "Extra Attack",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, you’ve mastered harmonizing your weapon attacks and biotic powers. You can attack twice, instead of once,\nwhenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip in place of one of those attacks.\n",
+    "html": "<p>At 6th level, you’ve mastered harmonizing your weapon attacks and biotic powers. You can attack twice, instead of once,\nwhenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip in place of one of those attacks.</p>\n"
+  },
+  {
     "id": "extra-attack-engineer-mastermind",
     "title": "Extra Attack",
     "type": "character",
@@ -4238,6 +4266,20 @@
     "link": false,
     "body": "Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.\n",
     "html": "<p>Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n"
+  },
+  {
+    "id": "extra-attack-sentinel",
+    "title": "Extra Attack",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "5th level"
+    ],
+    "link": false,
+    "body": "At 5th level, you’ve mastered harmonizing your weapon attacks and powers. You can attack twice,\ninstead of once, whenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip\nin place of one of those attacks.\n",
+    "html": "<p>At 5th level, you’ve mastered harmonizing your weapon attacks and powers. You can attack twice,\ninstead of once, whenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip\nin place of one of those attacks.</p>\n"
   },
   {
     "id": "extra-attack-soldier-1",
@@ -4368,6 +4410,21 @@
     "html": "<p>At 1st level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, the DC of the saving throw is 17.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n<p><strong>The Free Hand.</strong> When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" />\nof you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack\nhits, the damage is reduced by your barrier tick roll.</p>\n<p><strong>Sniper.</strong> If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks\nmade with a sniper rifle.</p>\n"
   },
   {
+    "id": "fitness",
+    "title": "Fitness",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by .\n",
+    "html": "<p>Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by <me-distance length=\"5\" />.</p>\n"
+  },
+  {
     "id": "focused-biotics",
     "title": "Focused Biotics",
     "type": "character",
@@ -4455,6 +4512,21 @@
     "link": false,
     "body": "At the 18th level, increase the die type of your barrier ticks to d12.\n",
     "html": "<p>At the 18th level, increase the die type of your barrier ticks to d12.</p>\n"
+  },
+  {
+    "id": "improved-barrier-commando",
+    "title": "Improved Barrier",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Commando",
+      "10th level"
+    ],
+    "link": false,
+    "body": "By 10th level, you’ve learned to harden your barrier against attacks. While you have an active barrier, you gain +2 AC.\n",
+    "html": "<p>By 10th level, you’ve learned to harden your barrier against attacks. While you have an active barrier, you gain +2 AC.</p>\n"
   },
   {
     "id": "improved-efficiency",
@@ -4808,21 +4880,6 @@
     "html": "<p>At 18th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature\nwithin <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack\nagainst that creature.</p>\n"
   },
   {
-    "id": "overchannel",
-    "title": "Overchannel",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Adept",
-      "Commando",
-      "14th level"
-    ],
-    "link": false,
-    "body": "Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.\n",
-    "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.</p>\n"
-  },
-  {
     "id": "overwatch",
     "title": "Overwatch",
     "type": "character",
@@ -4965,35 +5022,6 @@
     "link": false,
     "body": "At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.\n",
     "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n"
-  },
-  {
-    "id": "pure-biotics",
-    "title": "Pure Biotics",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Adept",
-      "Commando",
-      "2nd level"
-    ],
-    "link": false,
-    "body": "At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.\n",
-    "html": "<p>At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.</p>\n"
-  },
-  {
-    "id": "quick-cast",
-    "title": "Quick Cast",
-    "type": "character",
-    "qualifiers": [
-      "Character",
-      "Classes",
-      "Sentinel",
-      "5th level"
-    ],
-    "link": false,
-    "body": "At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.\n",
-    "html": "<p>At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.</p>\n"
   },
   {
     "id": "rapid-strike",
@@ -5237,11 +5265,11 @@
       "Character",
       "Classes",
       "Adept",
-      "20th level"
+      "18th level"
     ],
     "link": false,
-    "body": "When you reach 20th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.\n",
-    "html": "<p>When you reach 20th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.</p>\n"
+    "body": "When you reach 18th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.\n",
+    "html": "<p>When you reach 18th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.</p>\n"
   },
   {
     "id": "silent-cloak",
@@ -5313,8 +5341,8 @@
       "7th level"
     ],
     "link": false,
-    "body": "At 7th level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.\n",
-    "html": "<p>At 7th level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n"
+    "body": "At 7th level, when you take the Dash or Disengage action, you can make one weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.\n",
+    "html": "<p>At 7th level, when you take the Dash or Disengage action, you can make one weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n"
   },
   {
     "id": "strength-before-death",
@@ -5357,8 +5385,8 @@
       "6th level"
     ],
     "link": false,
-    "body": "Starting at 6th level, you can focus your barrier into the impact of your charge power. When you hit a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be stunned until the end of your next turn.\n",
-    "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you hit a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n"
+    "body": "Starting at 6th level, you can focus your barrier into the impact of your charge power. When you deal damage to a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be stunned until the end of your next turn.\n",
+    "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you deal damage to a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n"
   },
   {
     "id": "supply-pylon",
@@ -5624,6 +5652,20 @@
     "link": false,
     "body": "At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.\n",
     "html": "<p>At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>\n"
+  },
+  {
+    "id": "unmatched-biotics",
+    "title": "Unmatched Biotics",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "20th level"
+    ],
+    "link": false,
+    "body": "By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.\n",
+    "html": "<p>By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.</p>\n"
   },
   {
     "id": "unyielding-assault",
@@ -9932,7 +9974,7 @@
       "Combat"
     ],
     "link": "/powers/ballistic-blades",
-    "body": "Fire a salvo of blades at a target creature or object you can see within range. Make a ranged weapon attack, you add\nyour proficiency bonus to this roll. On a hit, the target takes 2d12 piercing damage.\nYou must spend a short or long rest reloading the armguard before you can this ability again.\nThis feature's damage increases by 2d12 when you reach 5th level (4d12), 11th level (6d12), 17th level (8d12)\n  Bleeding Blades: On a hit, the target takes an additional 3d12 damage at the start of its turn due to blood loss. This damage bypasses shields.  Exploding blades: On a hit, the target takes an additional 1d12 thunder damage and must pass a Constitution saving throw (DC 8 + proficiency bonus) or becomes stunned until the end of your next turn.",
+    "body": "Fire a salvo of blades at a target creature or object you can see within range. Make a ranged weapon attack, you add\nyour proficiency bonus to this roll. On a hit, the target takes 2d12 piercing damage.\nYou must spend a short or long rest reloading the armguard before you can this ability again.\nThis feature's damage increases by 2d12 when you reach 5th level (4d12), 11th level (6d12), 17th level (8d12)\n  Bleeding Blades: On a hit, the target takes an additional 3d12 damage at the start of its next turn due to blood loss. This damage bypasses shields.  Exploding blades: On a hit, the target takes an additional 1d12 thunder damage and must pass a Constitution saving throw (DC 8 + proficiency bonus) or becomes stunned until the end of your next turn.",
     "html": false
   },
   {
@@ -10280,7 +10322,7 @@
       "Biotic"
     ],
     "link": "/powers/fly",
-    "body": "Create a negative mass effect field around yourself allowing you to move freely through the air. During the duration of\nthis power, you gain a flying speed of . When the power ends if you are still aloft, you fall to the ground.\n  Speed: You may cast Fly as a bonus action. Increase the flying speed to   Extended Cast: The duration of fly becomes 30 minutes.",
+    "body": "Create a negative mass effect field around yourself allowing you to move freely through the air. During the duration of\nthis power, you gain a flying speed of . When the power ends if you are still aloft, you fall to the ground.\n  Speed: You may cast fly as a bonus action. Increase the flying speed to   Extended Cast: The duration of fly becomes 30 minutes.",
     "html": false
   },
   {
@@ -10388,7 +10430,7 @@
       "Tech"
     ],
     "link": "/powers/invasion",
-    "body": "Unleash a VI-controlled machine swarm at a creature or object within range. Two swarms then spread from that target\nto as many as two other targets, each of which must be within  of the first target. A target can be a creature or an\nobject and can be targeted by only one of the swarms.\nA target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic and has disadvantage on\nattack rolls until the power ends. A creature affected by the swarm can use its action to make a Constitution check\nagainst your power save DC. On a success, it breaks free of the swarm.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d8\nand the range the swarms can spread increases by 2m for each slot level above 1st.\n  Exploding Swarm: As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage.  Plague: Three swarms spread from the initial target to as many as three other targets. When you cast this power using a power slot of 2nd level or higher, the number of swarms increases by 1 for each power slot above the 1st.",
+    "body": "Unleash a VI-controlled machine swarm at a creature or object within range. Two swarms then spread from that target\nto as many as two other targets, each of which must be within  of the first target. A target can be a creature or an\nobject and can be targeted by only one of the swarms.\nA target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic and has disadvantage on\nattack rolls until the power ends. A creature affected by the swarm can use its action to make a Constitution check\nagainst your power save DC. On a success, it breaks free of the swarm.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d8\nand the range the swarms can spread increases by 2m for each slot level above 1st.\n  Exploding Swarm: As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage and is no longer affected by the swarm.  Plague: Three swarms spread from the initial target to as many as three other targets. When you cast this power using a power slot of 2nd level or higher, the number of swarms increases by 1 for each power slot above the 1st.",
     "html": false
   },
   {
@@ -10556,7 +10598,7 @@
       "Tech"
     ],
     "link": "/powers/sabotage",
-    "body": "Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target\nweapon has disadvantage.\nCasting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.\nIf the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,\nthis power has no effect unless the creature fails an Intelligence saving throw. Whether or not the synthetic creature\nsucceeds on this saving throw, it becomes aware that it has been targeted by a power.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional\nweapons for each power slot above the 1st.\n  Primed: After the weapon fires, it vents its heat and the attacking creature becomes primed (fire) until the start of its next turn.  Backfire: After the weapon fires, it deals 2d6 thunder damage to the attacking creature.",
+    "body": "Target a ranged weapon you can see within range and sabotage its internal systems. The next attack made with the target\nweapon has disadvantage.\nCasting sabotage does not break tactical cloak, and creatures are unaware of the casting of this power.\nIf the weapon is integrated into a synthetic creature, such as an atlas mech's mass accelerator cannon or a drone's particle rifle,\nthis power has no effect unless the creature fails an Intelligence saving throw against your powercasting DC. Whether or not the synthetic creature\nsucceeds on this saving throw, it becomes aware that it has been targeted by a power.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, you can target 2 additional\nweapons for each power slot above the 1st.\n  Primed: After the weapon fires, it vents its heat and the attacking creature becomes primed (fire) until the start of its next turn.  Backfire: After the weapon fires, it deals 2d6 thunder damage to the attacking creature.",
     "html": false
   },
   {
@@ -10580,7 +10622,7 @@
       "Tech"
     ],
     "link": "/powers/sentry-turret",
-    "body": "Construct a sentry turret in an unoccupied space within . You have complete control over the turret. Any hacking\nattempts on the turret are rolled against your Intelligence, not the turret's.\nThe turret has its own turn in the initiative order, which occurs immediately following your turn.\nThe turret lasts until its hit points become 0 or lower or until you use a bonus action to destroy it.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the turret deals an additional\n1d6 piercing and 1d6 radiant damage with its mass accelerator machinegun and gains 10 additional hit points for\neach power slot above the 3rd.\n  Cryo Turret: The turret's mass accelerator machine gun deals 7 (2d6) piercing and 7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.  Shields: The turret has 30 shield points (regen 0).",
+    "body": "Construct a sentry turret (stats can be found in the bestiary) in an unoccupied space within . You have complete control over the turret. Any hacking\nattempts on the turret are rolled against your Intelligence, not the turret's.\nThe turret has its own turn in the initiative order, which occurs immediately following your turn.\nThe turret lasts until its hit points become 0 or lower or until you use a bonus action to destroy it.\nAt Higher Levels: When you cast this power using a power slot of 4th level or higher, the turret deals an additional\n1d6 piercing and 1d6 radiant damage with its mass accelerator machinegun and gains 10 additional hit points for\neach power slot above the 3rd.\n  Cryo Turret: The turret's mass accelerator machine gun deals 7 (2d6) piercing and 7 (2d6) cold damage. Instead of flamethrower, the turret can innately cast cryo beam 5 times per day.  Shields: The turret has 30 shield points (regen 0).",
     "html": false
   },
   {

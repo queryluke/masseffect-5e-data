@@ -3,6 +3,14 @@ name: Ambushing Hunter Mode
 new: true
 mechanics:
   - type: action
+    toggle:
+      id: ambushing-hunter-mode
+      whenOn:
+        - type: speed-bonus
+          value: [walk]
+          bonus:
+            type: flat
+            value: 5
     resource: {}
     shortDesc: >-
       Become <me-condition id="invisible" /> for 1 minute or until you make an attack or deal damage. Additionally, for the next minute,

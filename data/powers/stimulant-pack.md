@@ -30,17 +30,6 @@ mechanics:
       max:
         type: flat
         value: 1
-    toggle:
-      id: stimulant-pack
-      mechanics:
-        whenOn:
-          - type: global-attack-note
-            value:
-              - Add 1d4 to attack rolls
-          - type: saving-throw
-            effect:
-              type: die-bonus
-              note: add a d4 to the roll
 advancements:
   - id: friendly
     name: Friendly

@@ -8,7 +8,7 @@ mechanics:
     amount: 1
     selections: 1
   - type: skill-check
-    value: [vehicle-handling, acrobatics, stealth, slight-of-hand]
+    value: [vehicle-handling, acrobatics, stealth, sleight-of-hand]
     effect:
       type: bonus
       bonus:

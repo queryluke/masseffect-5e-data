@@ -96,6 +96,21 @@
           "id": "ambushing-hunter-mode"
         },
         "type": "action",
+        "toggle": {
+          "id": "ambushing-hunter-mode",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 5
+              }
+            }
+          ]
+        },
         "resource": {
           "id": "ambushing-hunter-mode"
         },
@@ -127,6 +142,35 @@
         "type": "action",
         "resource": {
           "id": "assault-hunter-mode"
+        },
+        "toggle": {
+          "id": "assault-hunter-mode",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 5
+              }
+            },
+            {
+              "type": "attack-augment",
+              "augment": "attack",
+              "limits": {
+                "model": "weapons"
+              },
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "extra-attack-add"
+            }
+          ]
         },
         "shortDesc": "For 1 minute, your speed increases by <me-distance length=\"5\" />, you gain +1 to weapon attack rolls, and you may make 1 additional attack when you take the Attack action."
       }
@@ -645,6 +689,44 @@
           "id": "empowered-hunter-mode"
         },
         "type": "action",
+        "toggle": {
+          "id": "empowered-hunter-mode",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 5
+              }
+            },
+            {
+              "type": "power-augment",
+              "augment": "attack",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "power-augment",
+              "augment": "damage",
+              "value": {
+                "type": "dieIncrease"
+              }
+            },
+            {
+              "type": "power-augment",
+              "augment": "dc",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            }
+          ]
+        },
         "resource": {
           "id": "empowered-hunter-mode"
         },
@@ -1700,7 +1782,7 @@
           "vehicle-handling",
           "acrobatics",
           "stealth",
-          "slight-of-hand"
+          "sleight-of-hand"
         ],
         "effect": {
           "type": "bonus",

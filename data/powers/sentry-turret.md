@@ -33,7 +33,7 @@ advancements:
     text: The turret has 30 shield points (regen 0).
     mechanics: []
 ---
-Construct a sentry turret in an unoccupied space within <me-distance length="5" />. You have complete control over the turret. Any hacking
+Construct a sentry turret (stats can be found in the bestiary) in an unoccupied space within <me-distance length="5" />. You have complete control over the turret. Any hacking
 attempts on the turret are rolled against your Intelligence, not the turret's.
 
 The turret has its own turn in the initiative order, which occurs immediately following your turn.

@@ -41,7 +41,7 @@ advancements:
   - id: bleeding-blades
     name: Bleeding Blades
     text: >-
-      On a hit, the target takes an additional 3d12 damage at the start of its turn due to
+      On a hit, the target takes an additional 3d12 damage at the start of its next turn due to
       blood loss. This damage bypasses shields.
     mechanics:
       - damage:

@@ -1,0 +1,26 @@
+---
+name: Disarming Attack
+mechanics:
+  - type: other
+    resource:
+      reset: 'off'
+      displayType: barrier-ticks
+      label: 'Barrier Ticks'
+    dc:
+      base: 8
+      proficient: true
+      bonus:
+        type: powercastingMod
+        value: vanguard
+      save: str
+    damage:
+      - dieCount: barrierDie
+    shortDesc: >-
+      When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target.
+      Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save
+      or drop an object you choose.
+type: maneuvers
+---
+When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop
+one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target
+must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.

@@ -25,23 +25,14 @@ mechanics:
       short: 0
     detonates: false
     primes: false
-    toggle:
-      id: power-fly
-      whenOn:
-        - type: speed
-          speed: fly
-          distance: 60
 advancements:
   - id: speed
     name: Speed
-    text: You may cast Fly as a bonus action. Increase the flying speed to <me-distance length="90" />
+    text: You may cast fly as a bonus action. Increase the flying speed to <me-distance length="90" />
     mechanics:
       - altCasting:
           - length: 1
             unit: bonus_action
-        toggle:
-          whenOn:
-            - distance: 90
   - id: extended-cast
     name: Extended Cast
     text: The duration of fly becomes 30 minutes.

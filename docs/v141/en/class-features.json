@@ -128,6 +128,7 @@
           "id": "adrenaline-rush-1"
         },
         "type": "other",
+        "shortDesc": "Take one additional action this turn on top of your regular action and a possible bonus action.",
         "resource": {
           "reset": "short",
           "max": {
@@ -177,8 +178,9 @@
     "name": "Advanced Tech Armor",
     "mechanics": [
       {
-        "type": "global-power-note",
-        "name": "+Tech Armor HP @ cast",
+        "type": "global-note",
+        "subType": "power",
+        "value": "Advanced Tech Armor",
         "moreInfo": {
           "model": "class-features",
           "id": "advanced-tech-armor"
@@ -193,6 +195,7 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Advanced Weapon Holsters",
+    "mechanics": [],
     "html": "<p>You've outfitted your armor with special rigs that make carrying weapons a cinch.</p>\n<p>At 3rd level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.</p>\n",
     "id": "advanced-weapon-holsters"
   },
@@ -450,10 +453,12 @@
           },
           "id": "bend-luck"
         },
+        "shortDesc": "when another creature you can see makes an attack roll, an ability check, or a saving throw, roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.",
         "damage": [
           {
             "dieCount": 1,
-            "dieType": 4
+            "dieType": 4,
+            "label": "Bend Luck"
           }
         ]
       }
@@ -463,10 +468,80 @@
     "id": "bend-luck"
   },
   {
+    "level": 3,
+    "klass": "adept",
+    "name": "Biotic Aptitude",
+    "mechanics": [
+      {
+        "type": "power-augment",
+        "augment": "damage",
+        "limits": {
+          "type": "biotic"
+        },
+        "value": {
+          "type": "powercastingMod",
+          "value": "adept"
+        }
+      }
+    ],
+    "html": "<p>By 3rd level, you have an aptitude for dealing damage with biotics. Whenever you deal damage with a biotic power,\nadd your powercasting modifier to the damage.</p>\n",
+    "id": "biotic-aptitude"
+  },
+  {
     "level": 6,
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Biotic Attacks",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "powers",
+        "limits": [
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          },
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          }
+        ],
+        "known": true,
+        "hide": true,
+        "append": {
+          "type": "power-attack"
+        }
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "powers",
+        "limits": [
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          },
+          {
+            "attr": "level",
+            "value": [
+              1
+            ]
+          }
+        ],
+        "known": true,
+        "hide": true,
+        "append": {
+          "type": "power-attack"
+        }
+      }
+    ],
     "html": "<p>At 6th level, you choose one biotic cantrip you know and one biotic power of 1st level you know.\nYou may cast either power as an attack.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n",
     "id": "biotic-attacks"
   },
@@ -474,6 +549,30 @@
     "level": 3,
     "klass": "vanguard",
     "subclass": "shock-trooper",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "charge",
+        "klass": "vanguard",
+        "merge": {
+          "range": {
+            "short": 60
+          },
+          "notes": [
+            "Bull Rush"
+          ]
+        }
+      },
+      {
+        "name": "Biotic Bull Rush",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-bull-rush"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you use your action to cast Charge, you may use your bonus action to shove or make one weapon attack against the target. You gain +5 to the attack’s damage roll or shove the target <me-distance length=\"15\" />. To shove a target this way, it must be no more than one size larger than you."
+      }
+    ],
     "name": "Biotic Bull Rush",
     "html": "<p>At 3rd level, you learn the charge cantrip. If you have already learned it, you may learn a new cantrip instead.</p>\n<p>The distance of charge is now <me-distance length=\"60\" />. When you use your action to cast charge, you may use a bonus action to shove or make one\nweapon attack against the target. You gain +5 to the attack’s damage roll or shove the target <me-distance length=\"15\" />. To shove a target this\nway, it must be no more than one size larger than you.</p>\n",
     "id": "biotic-bull-rush"
@@ -490,6 +589,7 @@
           "id": "biotic-concentration"
         },
         "type": "other",
+        "shortDesc": "If you are already maintaining a concentration power, you can cast another power that requires concentration and maintain it. If you take damage you must make a separate Constitution saving throw to maintain each power.",
         "resource": {
           "reset": "short",
           "id": "biotic-concentration"
@@ -505,6 +605,17 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Biotic Control",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Biotic Control",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-control"
+        }
+      }
+    ],
     "html": "<p>At 14th level, you've increased your mastery with biotic powers that control the battlefield. Gain the following\nbenefits to the powers below:</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Power</th>\n<th>Improvement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lift</td>\n<td>When casting Lift, you are considered to have both advancement options.</td>\n</tr>\n<tr>\n<td>Pull</td>\n<td>When you cast Pull, you may target 2 creatures. Make a ranged power attack for each target.</td>\n</tr>\n<tr>\n<td>Singularity</td>\n<td>Large or smaller objects and creatures are affected by Singularity.</td>\n</tr>\n<tr>\n<td>Stasis</td>\n<td>Targets have disadvantage on their saving throw.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "biotic-control"
   },
@@ -520,13 +631,51 @@
           "id": "biotic-focus"
         },
         "type": "bonus-action",
+        "shortDesc": "For the next minute, your walking speed increases by <me-distance length=\"30\" />, +4 to all melee weapon damage rolls, and you have advantage on Strength and Dexterity saving throws.",
+        "toggle": {
+          "id": "biotic-focus",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 30
+              }
+            },
+            {
+              "type": "attack-augment",
+              "augment": "damage",
+              "limits": {
+                "attack": "melee",
+                "model": "weapons"
+              },
+              "value": {
+                "type": "flat",
+                "value": 4
+              }
+            },
+            {
+              "type": "saving-throw",
+              "value": [
+                "str",
+                "dex"
+              ],
+              "effect": {
+                "type": "advantage"
+              }
+            }
+          ]
+        },
         "resource": {
           "id": "biotic-focus"
         }
       }
     ],
     "name": "Biotic Focus",
-    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your speed is doubled.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
+    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your walking speed increases by <me-distance length=\"30\" />.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "biotic-focus"
   },
   {
@@ -534,15 +683,85 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Biotic Fury",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "biotic-fury"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "zero-sum"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "shortDesc": "Instead on a melee or power attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "biotic-fury"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 10th level, the effects of brutal critical and zero-sum can be applied to your biotic powers\nthat require a power attack roll.</p>\n",
     "id": "biotic-fury"
+  },
+  {
+    "level": 14,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Biotic Harmony",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "1st-level Power Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-harmony"
+        }
+      }
+    ],
+    "html": "<p>Starting at 14th level, you can harmonize more exhaustive biotic powers with ease. When you use Extra Attack, you\ncan cast a 1st level biotic power in place of one of those attacks.</p>\n",
+    "id": "biotic-harmony"
   },
   {
     "level": 3,
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Biotic Maneuvers",
-    "html": "<p>At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"5\" /> of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "maneuvers",
+        "selections": 3
+      }
+    ],
+    "html": "<p>At 3rd level, you learn three maneuvers that are fueled by your barrier ticks. You can use only one maneuver per attack. Some of your maneuvers\nrequire your target to make a saving throw to resist the maneuver effects. The saving throw DC is 8 + your proficiency\nbonus + your powercasting ability modifier.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Maneuver</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Disarming Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</td>\n</tr>\n<tr>\n<td>Distracting Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your allies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</td>\n</tr>\n<tr>\n<td>Feinting Attack</td>\n<td>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"5\" /> of you as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</td>\n</tr>\n<tr>\n<td>Goading Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into attacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Lift Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size creature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity saving throw. On a failed save, the target is lifted until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Menacing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</td>\n</tr>\n<tr>\n<td>Pushing Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You add the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</td>\n</tr>\n<tr>\n<td>Riposte</td>\n<td>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</td>\n</tr>\n<tr>\n<td>Sweeping Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature with the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</td>\n</tr>\n<tr>\n<td>Trip Attack</td>\n<td>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down. You add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "biotic-maneuvers-1"
   },
   {
@@ -550,6 +769,14 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Biotic Maneuvers",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "maneuvers",
+        "selections": 2
+      }
+    ],
     "html": "<p>At 10th level, learn 2 additional biotic maneuvers.</p>\n",
     "id": "biotic-maneuvers-2"
   },
@@ -557,15 +784,49 @@
     "level": 14,
     "klass": "vanguard",
     "subclass": "battle-master",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "maneuvers",
+        "selections": 2
+      }
+    ],
     "name": "Biotic Maneuvers",
     "html": "<p>At 14th level, learn 2 additional biotic maneuvers.</p>\n",
     "id": "biotic-maneuvers-3"
   },
   {
-    "level": 17,
+    "level": 15,
     "klass": "adept",
     "name": "Biotic Mastery",
-    "html": "<p>At 17th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose two powers",
+        "model": "powers",
+        "options": true,
+        "known": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              1
+            ]
+          }
+        ],
+        "hide": true,
+        "isolated": true,
+        "selections": 2,
+        "append": {
+          "type": "power-at-will",
+          "levels": [
+            1
+          ]
+        }
+      }
+    ],
+    "html": "<p>At 15th level, you have achieved such mastery over certain biotics that you can cast them at will. Choose two 1st-level\nbiotic powers that you have learned. You can cast those powers at 1st level without\nexpending a power slot. If you want to cast either power at a higher level, you must expend a power slot as normal.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n",
     "id": "biotic-mastery"
   },
   {
@@ -573,6 +834,17 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Biotic Recovery",
+    "mechanics": [
+      {
+        "type": "ps-recovery",
+        "max": {
+          "type": "level",
+          "value": "vanguard",
+          "multiplier": 0.33,
+          "min": 1
+        }
+      }
+    ],
     "html": "<p>At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.</p>\n",
     "id": "biotic-recovery-nemesis"
   },
@@ -580,15 +852,53 @@
     "level": 1,
     "klass": "adept",
     "name": "Biotic Recovery",
+    "mechanics": [
+      {
+        "type": "ps-recovery",
+        "max": {
+          "type": "level",
+          "value": "adept",
+          "multiplier": 0.5,
+          "min": 1,
+          "ceil": true
+        }
+      }
+    ],
     "html": "<p>You have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than half your adept level (rounded up), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 4th-level adept, you can recover up to two levels worth of power slots. You can recover either\na 2nd-level power slot or two 1st-level power slots.</p>\n",
     "id": "biotic-recovery"
   },
   {
-    "level": 10,
+    "level": 11,
     "klass": "adept",
-    "subclass": "commando",
     "name": "Biotic Split",
-    "html": "<p>At 10th level, when you cast a biotic power that targets only one creature, you can have it target a second creature.</p>\n",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Biotic Split",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-split"
+        }
+      },
+      {
+        "name": "Biotic Split",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-split"
+        },
+        "type": "other",
+        "shortDesc": "When you cast a power that targets only one creature, you can target a second creature in range with the same power. To be eligible, a power must be incapable of targeting more than one creature at the power’s current level. You can only use Biotic Split once on a power when you cast it.",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "biotic-split"
+        }
+      }
+    ],
+    "html": "<p>At 11th level, when you cast a power that targets only one creature, you can target a second creature in range\nwith the same power. To be eligible, a power must be incapable of targeting more than one creature at the\npower’s current level. You can only use Biotic Split once on a power when you cast it.</p>\n<p>You may use this feature a number of times between short rests equal to your proficiency bonus.</p>\n",
     "id": "biotic-split"
   },
   {
@@ -603,6 +913,7 @@
           "id": "biotic-surge"
         },
         "type": "other",
+        "shortDesc": "When you force multiple creatures to make saving throws against the damage of one of your powers, you can increase the power's damage by rolling two more of its damage dice. This increase occurs only on the turn you cast the power.",
         "resource": {
           "reset": "short",
           "id": "biotic-surge"
@@ -617,6 +928,13 @@
     "level": 14,
     "klass": "infiltrator",
     "name": "Blindsense",
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "blindsight",
+        "distance": 10
+      }
+    ],
     "html": "<p>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible\ncreature within <me-distance length=\"10\" /> of you.</p>\n",
     "id": "blindsense"
   },
@@ -625,6 +943,17 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Blitz",
+    "mechanics": [
+      {
+        "name": "Blitz",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "blitz"
+        },
+        "type": "reaction",
+        "shortDesc": "When a creature within <me-distance length=\"60\" /> that you can see makes a weapon attack or casts a power, you can use your reaction to cast charge, targeting that creature."
+      }
+    ],
     "html": "<p>Starting at 18th level, whenever a creature within <me-distance length=\"60\" /> that you can see makes a weapon attack or casts a power, you can use your reaction to\ncast charge, targeting that creature. Resolve any effects caused by charge before the creature takes its action. The creature\nmay choose to make a different action this turn.</p>\n",
     "id": "blitz"
   },
@@ -633,6 +962,17 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Bombardment",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Bombardment",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "bombardment"
+        }
+      }
+    ],
     "html": "<p>Beginning at 18th level, the harmful energy of your biotics intensifies. When you roll damage for a power and roll the\nhighest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.\nYou can use the feature only once per turn.</p>\n",
     "id": "bombardment"
   },
@@ -640,6 +980,18 @@
     "level": 9,
     "klass": "vanguard",
     "name": "Brutal Critical",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "attack": "melee",
+        "value": "Brutal Critical",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "brutal-critical-1"
+        }
+      }
+    ],
     "html": "<p>Beginning at 9th, you can roll one additional damage die when determining the extra damage for a critical hit with a melee attack.</p>\n",
     "id": "brutal-critical-1"
   },
@@ -647,6 +999,23 @@
     "level": 13,
     "klass": "vanguard",
     "name": "Brutal Critical (2)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "id": "brutal-critical-2"
+          }
+        }
+      }
+    ],
     "html": "<p>At 13th level, you can roll two additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n",
     "id": "brutal-critical-2"
   },
@@ -654,6 +1023,23 @@
     "level": 17,
     "klass": "vanguard",
     "name": "Brutal Critical (3)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "id": "brutal-critical-3"
+          }
+        }
+      }
+    ],
     "html": "<p>At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n",
     "id": "brutal-critical-3"
   },
@@ -688,6 +1074,26 @@
     "klass": "infiltrator",
     "subclass": "sniper",
     "name": "Careful Eyes",
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "limit": [
+          "perception",
+          "investigation",
+          "survival"
+        ]
+      },
+      {
+        "name": "Search",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "careful-eyes"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      }
+    ],
     "html": "<p>Starting at 9th level, you excel at picking out hidden enemies and other threats. You can take the Search action\nas a bonus action.</p>\n<p>You also gain proficiency in the Perception, Investigation, or Survival skill (choose one).</p>\n",
     "id": "careful-eyes"
   },
@@ -696,6 +1102,17 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Combat Heuristics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Combat Heuristics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "combat-heuristics"
+        }
+      }
+    ],
     "html": "<p>Starting at 3rd level, every time you bring an enemy to 0 hit points or score a critical hit, your HUD updates your tactical\nfeedback, restoring 1 tech point.</p>\n",
     "id": "combat-heuristics"
   },
@@ -730,7 +1147,7 @@
         ]
       }
     ],
-    "name": "Combat Power",
+    "name": "Combat Powers",
     "html": "<p>At 2nd level, you know one combat power of your choice from the infiltrator power list. You learn additional\ncombat powers of your choice at higher levels, as shown in the Combat Powers column of the Infiltrator table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n",
     "id": "combat-power-infiltrator"
   },
@@ -765,15 +1182,39 @@
         ]
       }
     ],
-    "name": "Combat Power",
+    "name": "Combat Powers",
     "html": "<p>At 1st level, you know one combat power of your choice from the soldier power list. You learn additional combat powers of\nyour choice at higher levels, as shown in the Combat Powers column of the Soldier table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n",
     "id": "combat-power-soldier"
+  },
+  {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Combat Training",
+    "mechanics": [
+      {
+        "type": "weapon-choice",
+        "options": true
+      }
+    ],
+    "html": "<p>Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.</p>\n",
+    "id": "combat-training"
   },
   {
     "level": 6,
     "klass": "engineer",
     "subclass": "drone-jockey",
     "name": "Coordinated Attack",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "Coordinated Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "coordinated-attack"
+        }
+      }
+    ],
     "html": "<p>Beginning at 6th level, you and your drone companion form a more potent fighting force. When you use the Attack\naction on your turn, if your companion can see you, it can use its reaction to make an attack.</p>\n",
     "id": "coordinated-attack"
   },
@@ -781,6 +1222,44 @@
     "level": 2,
     "klass": "infiltrator",
     "name": "Cunning Action",
+    "mechanics": [
+      {
+        "name": "Dash",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cunning-action"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      },
+      {
+        "name": "Disengage",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cunning-action"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      },
+      {
+        "name": "Hide",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cunning-action"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      },
+      {
+        "name": "Activate Tactical Cloak",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-cloak"
+        },
+        "type": "bonus-action",
+        "baseGroup": true
+      }
+    ],
     "html": "<p>At 2nd level, you can take a bonus action on each of your turns in combat. This action can be used only to Dash, Disengage, Hide, or\nactivate Tactical Cloak.</p>\n",
     "id": "cunning-action"
   },
@@ -788,6 +1267,18 @@
     "level": 2,
     "klass": "vanguard",
     "name": "Danger Sense",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": [
+          "dex"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "when you can see the effect"
+        }
+      }
+    ],
     "html": "<p>Starting at 2nd, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.\nYou have advantage on Dexterity saving throws against effects that you can see, such as traps and powers. To gain this\nbenefit, you can't be blinded, deafened, or incapacitated.</p>\n",
     "id": "danger-sense"
   },
@@ -796,7 +1287,18 @@
     "klass": "adept",
     "subclass": "disruptor",
     "name": "Dark Biotics",
-    "html": "<p>At 2nd level, your skill in dealing damage with withering biotic powers is unmatched. Add your proficiency bonus to\nall necrotic damage dealt by your biotic powers.</p>\n",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Dark Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "dark-biotics"
+        }
+      }
+    ],
+    "html": "<p>By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.</p>\n",
     "id": "dark-biotics"
   },
   {
@@ -804,6 +1306,17 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Death Strike",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Death Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "death-strike"
+        }
+      }
+    ],
     "html": "<p>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.</p>\n",
     "id": "death-strike"
   },
@@ -812,6 +1325,17 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Devastating Critical",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Devastating Critical",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "devastating-critical"
+        }
+      }
+    ],
     "html": "<p>Starting at the 15th level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.</p>\n",
     "id": "devastating-critical"
   },
@@ -820,6 +1344,17 @@
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Disrupting Attack",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Disrupting Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "disrupting-attack"
+        }
+      }
+    ],
     "html": "<p>At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your tech powers.\nWhen you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against\na power you cast before the end of your next turn.</p>\n",
     "id": "disrupting-attack"
   },
@@ -828,23 +1363,26 @@
     "klass": "engineer",
     "subclass": "drone-jockey",
     "name": "Drone Companion",
-    "html": "<p>At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket.</p>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n",
+    "html": "<p>At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,\nyou augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.\nChoose one of the following drones: assault, combat, defense, recon, rocket. It gains the following:</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<p>If your drone companion is ever slain, 8 hours of work and the expenditure of 2500 credits worth of materials, can create\na new body and replicate the AI from a backup.</p>\n<p>You can still summon a temporary drone using your tech points.</p>\n<h5>Choose your companion's trait, or roll on the table below.</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h5>Choose your companion's flaw, or roll on the table below.</h5>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "drone-companion"
   },
   {
     "level": 1,
     "klass": "engineer",
     "name": "Drone",
+    "mechanics": [
+      {
+        "name": "Drone",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "drone"
+        },
+        "type": "action",
+        "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls."
+      }
+    ],
     "html": "<p>As an Action, spend 1 tech point to summon one of the following drones: assault, combat, defense, disruption, recon, or rocket.\nThe stat blocks for the drones can be found in the <nuxt-link to=\"/bestiary\">bestiary</nuxt-link>.</p>\n<p>When summoned, the drone has additional hit points equal to twice your engineer level. Whenever the drone makes a saving\nthrow, damage or healing roll, add your proficiency bonus to the roll. Whenever the drone attacks, apply your proficiency bonus\ninstead of the drone's to the roll.</p>\n<p>You have complete control over the drone. Any hacking attempts on the drone are rolled against your Intelligence,\nnot the drone's. The drone has its own turn in the initiative order, which occurs immediately following your turn.</p>\n<p>The drone lasts 1 minute or until its hit points become 0 or lower.</p>\n",
     "id": "drone"
-  },
-  {
-    "level": 2,
-    "klass": "engineer",
-    "subclass": "drone-jockey",
-    "name": "Drone's Bond",
-    "html": "<p>Your drone companion gains a variety of benefits while it is linked to you.</p>\n<ul>\n<li>The drone companion loses its Multiattack action, if it has one.</li>\n<li>The drone companion loses its vulnerability to lightning damage.</li>\n<li>The drone companion obeys your commands as best it can. It rolls for initiative like any other creature, but you\ndetermine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its\nown. It has advantage on saving throws against any ability that tries to influence its actions.</li>\n<li>Your drone companion has abilities and game statistics determined in part by your level. Your companion uses your\nproficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, a drone\ncompanion also adds its proficiency bonus to its AC and to its damage rolls.</li>\n<li>Your drone companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.</li>\n<li>For each level you gain after the 2nd, your drone companion gains an additional hit die and increases its hit points 1d8 (or 5) + its constitution modifier.</li>\n<li>Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion\ncan increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As\nnormal, your companion can’t increase an ability score above 20 using this feature unless its description specifies\notherwise.</li>\n<li>Your companion shares your alignment and has a personality trait and a flaw that you can roll for or select from the\ntables below. Your companion shares your ideal, and its bond is always, “The Engineer who created me is a beloved\ncompanion for whom I would gladly give my life.”</li>\n</ul>\n<h3>Choose your companion's trait, or roll on the table below.</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Trait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Designation: Large. Assessment: Falls hard.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Eliminate!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Scanning for enemies...Scanning for enemies...Scanning for enemies</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Analyzing target...Weakness identified</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Calculating all variables...optimal action determined.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Prioritizing...Maker's Life greater than Maker's friends' lives greater than Self-preservation</td>\n</tr>\n</tbody>\n</template></v-simple-table><h3>Choose your companion's flaw, or roll on the table below.</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Roll</th>\n<th>Flaw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Probability of survival: 0.00234%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Friendly creature in range. Activating CUTE protocol</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Electrical current detected. Priority: avoid</td>\n</tr>\n<tr>\n<td>4</td>\n<td>This workspace can be optimized for 15% more efficiency</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Organic life requires constant monitoring and prompting to ensure optimal nutrition and peak health!</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Other VI's must not be trusted</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
-    "id": "drones-bond"
   },
   {
     "level": 10,
@@ -866,15 +1404,19 @@
     "level": 18,
     "klass": "infiltrator",
     "name": "Elusive",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Elusive",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "elusive"
+        }
+      }
+    ],
     "html": "<p>At 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while\nyou aren't incapacitated.</p>\n",
     "id": "elusive"
-  },
-  {
-    "level": 17,
-    "klass": "adept",
-    "name": "Empowered Biotics",
-    "html": "<p>At 17th level, whenever you roll a 1 on a damage roll for a biotic power or cantrip you cast, you can reroll the die and must use the\nnew roll.</p>\n",
-    "id": "empowered-biotics"
   },
   {
     "level": 2,
@@ -888,6 +1430,7 @@
           "id": "enfilade"
         },
         "type": "reaction",
+        "shortDesc": "When a creature is primed within <me-distance length=\"30\" />, detonate it.",
         "resource": {
           "max": {
             "type": "mod",
@@ -905,6 +1448,46 @@
     "level": 3,
     "klass": "engineer",
     "name": "Engineer's Efficiency",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose one power",
+        "model": "powers",
+        "options": true,
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "cryo-blast",
+              "incinerate",
+              "overload"
+            ]
+          }
+        ],
+        "hide": true,
+        "append": {
+          "klass": "engineer",
+          "alwaysCastable": {
+            "type": "progressive",
+            "limit": "engineer",
+            "value": {
+              "3": 1,
+              "11": 2
+            }
+          }
+        }
+      },
+      {
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "valueLookup": {
+            "model": "class-features",
+            "id": "engineers-efficiency"
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected power at the cost of 1 prepared power.</p>\n<p>At 11th level, you can cast a 2 tech point version of this power without expending any tech points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.</p>\n",
     "id": "engineers-efficiency"
   },
@@ -912,6 +1495,17 @@
     "level": 7,
     "klass": "infiltrator",
     "name": "Evasion",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Evasion",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "evasion"
+        }
+      }
+    ],
     "html": "<p>At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>\n",
     "id": "evasion"
   },
@@ -932,17 +1526,35 @@
     "id": "ever-ready"
   },
   {
-    "level": 6,
+    "level": 7,
     "klass": "adept",
-    "subclass": "commando",
     "name": "Expert Biotic",
-    "html": "<p>By 6th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.</p>\n",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Expert Biotic",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "expert-biotic"
+        }
+      }
+    ],
+    "html": "<p>By 7th level, casting biotic powers comes so easily to you that it expends only a fraction of your efforts. When you\ncast a biotic power of 2nd level or higher using a power slot, you regain one expended power slot. The slot you regain\nmust be of a level lower than the power you cast.</p>\n",
     "id": "expert-biotic"
   },
   {
     "level": 1,
     "klass": "infiltrator",
     "name": "Expertise",
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "options": true,
+        "limit": "acquired",
+        "selections": 2
+      }
+    ],
     "html": "<p>At 1st level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n",
     "id": "expertise-1"
   },
@@ -950,6 +1562,14 @@
     "level": 6,
     "klass": "infiltrator",
     "name": "Expertise",
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "options": true,
+        "limit": "acquired",
+        "selections": 2
+      }
+    ],
     "html": "<p>At 6th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either\nof the chosen proficiencies.</p>\n",
     "id": "expertise-2"
   },
@@ -987,16 +1607,73 @@
   },
   {
     "level": 6,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      },
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Cantrip Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "extra-attack-commando"
+        }
+      }
+    ],
+    "html": "<p>At 6th level, you’ve mastered harmonizing your weapon attacks and biotic powers. You can attack twice, instead of once,\nwhenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip in place of one of those attacks.</p>\n",
+    "id": "extra-attack-commando"
+  },
+  {
+    "level": 6,
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
     "html": "<p>Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-engineer-mastermind"
   },
   {
     "level": 5,
+    "klass": "sentinel",
+    "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      },
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Cantrip Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "extra-attack-sentinel"
+        }
+      }
+    ],
+    "html": "<p>At 5th level, you’ve mastered harmonizing your weapon attacks and powers. You can attack twice,\ninstead of once, whenever you take the Attack action on your turn. Additionally, you can cast a biotic cantrip\nin place of one of those attacks.</p>\n",
+    "id": "extra-attack-sentinel"
+  },
+  {
+    "level": 5,
     "klass": "soldier",
     "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
     "html": "<p>Beginning at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-soldier-1"
   },
@@ -1004,6 +1681,12 @@
     "level": 11,
     "klass": "soldier",
     "name": "Extra Attack (2)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 3
+      }
+    ],
     "html": "<p>Beginning at 11th level, you can attack three times instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-soldier-2"
   },
@@ -1011,6 +1694,12 @@
     "level": 20,
     "klass": "soldier",
     "name": "Extra Attack (3)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 4
+      }
+    ],
     "html": "<p>Beginning at 20th level, you can attack four times instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-solider-3"
   },
@@ -1019,6 +1708,12 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Extra Attack (2)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 3
+      }
+    ],
     "html": "<p>Beginning at 14th level, you can attack three times instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-vanguard-bm-2"
   },
@@ -1026,6 +1721,12 @@
     "level": 5,
     "klass": "vanguard",
     "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
     "html": "<p>Beginning at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-vanguard"
   },
@@ -1041,6 +1742,21 @@
           "id": "fighting-spirit"
         },
         "type": "bonus-action",
+        "damage": [
+          {
+            "type": "temp",
+            "bonus": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "1": 5,
+                "10": 10,
+                "15": 15
+              }
+            }
+          }
+        ],
+        "shortDesc": "Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn.",
         "resource": {
           "max": {
             "type": "flat",
@@ -1097,10 +1813,48 @@
     "id": "fighting-style-vanguard"
   },
   {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Fitness",
+    "mechanics": [
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level",
+          "value": "adept"
+        }
+      },
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
+    "html": "<p>Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by <me-distance length=\"5\" />.</p>\n",
+    "id": "fitness"
+  },
+  {
     "level": 10,
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Focused Biotics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Focused Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "focused-biotics"
+        }
+      }
+    ],
     "html": "<p>Beginning at 10th level, while you are concentrating on a biotic power, your concentration can't be broken as a\nresult of taking damage.</p>\n",
     "id": "focused-biotics"
   },
@@ -1152,6 +1906,21 @@
     "level": 11,
     "klass": "vanguard",
     "name": "Heavy Barrier",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "barrier-vanguard"
+        },
+        "limit": [
+          "barrier"
+        ],
+        "merge": {
+          "dieCount": 2
+        }
+      }
+    ],
     "html": "<p>At 11th level, when you expend a barrier tick to reduce damage, each barrier tick reduces the damage by 2d8.</p>\n",
     "id": "heavy-barrier"
   },
@@ -1160,6 +1929,23 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Heavy Weapon Hack",
+    "mechanics": [
+      {
+        "name": "Heavy Weapon Hack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "heavy-weapon-hack"
+        },
+        "type": "action",
+        "resource": {
+          "displayType": "omni-gel",
+          "reset": "off",
+          "label": "omni-gel",
+          "id": "heavy-weapon-hack"
+        },
+        "shortDesc": "Spend 2 omni-gel to make an additional charge for a heavy weapon."
+      }
+    ],
     "html": "<p>Starting at 10th level, when your heavy weapon runs out of ammo, you can jerry-rig an additional charge for 2 omni-gel.</p>\n",
     "id": "heavy-weapon-hack"
   },
@@ -1168,6 +1954,21 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Improved Barrier",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "barrier-vanguard"
+        },
+        "limit": [
+          "barrier"
+        ],
+        "merge": {
+          "dieType": 10
+        }
+      }
+    ],
     "html": "<p>At the 10th level, increase the die type of your barrier ticks to d10.</p>\n",
     "id": "improved-barrier-1"
   },
@@ -1176,8 +1977,41 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Improved Barrier",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "barrier-vanguard"
+        },
+        "limit": [
+          "barrier"
+        ],
+        "merge": {
+          "dieType": 12
+        }
+      }
+    ],
     "html": "<p>At the 18th level, increase the die type of your barrier ticks to d12.</p>\n",
     "id": "improved-barrier-2"
+  },
+  {
+    "level": 10,
+    "klass": "adept",
+    "subclass": "commando",
+    "name": "Improved Barrier",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        },
+        "condition": "barrier-active"
+      }
+    ],
+    "html": "<p>By 10th level, you’ve learned to harden your barrier against attacks. While you have an active barrier, you gain +2 AC.</p>\n",
+    "id": "improved-barrier-commando"
   },
   {
     "level": 11,
@@ -1197,6 +2031,7 @@
           "id": "indomitable-1"
         },
         "type": "other",
+        "shortDesc": "Reroll a saving throw you fail.",
         "resource": {
           "max": {
             "type": "progressive",
@@ -1241,6 +2076,11 @@
     "klass": "engineer",
     "subclass": "mastermind",
     "name": "Jack of All Trades",
+    "mechanics": [
+      {
+        "type": "half-proficiency"
+      }
+    ],
     "html": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.</p>\n",
     "id": "jack-of-all-trades"
   },
@@ -1481,6 +2321,34 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Makeshift Grenades",
+    "mechanics": [
+      {
+        "name": "Makeshift Grenades",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "makeshift-grenades-1"
+        },
+        "type": "action",
+        "layout": "simple",
+        "resource": {
+          "displayType": "omni-gel",
+          "reset": "off",
+          "label": "omni-gel",
+          "id": "makeshift-grenades-1"
+        },
+        "dc": {
+          "base": 0,
+          "proficient": false,
+          "bonus": {
+            "type": "level",
+            "value": "soldier",
+            "multiplier": 0.3333,
+            "min": 1
+          }
+        },
+        "shortDesc": "Create and fire one of your makeshift grenades at Mark {{ dc }}"
+      }
+    ],
     "html": "<p>When you reach 3rd level, you can program your omni-tool to transform omni-gel into grenades. Choose two grenades from the grenade\nlist. As an action, you can spend 1 omni-gel to create and use a grenade of that type. The Mark of the grenade you create\nis equal to your soldier level divided by 3 (rounded down).</p>\n<p>You can spend 8 hours of programming to exchange a selected grenade with a different one.</p>\n",
     "id": "makeshift-grenades-1"
   },
@@ -1489,6 +2357,34 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Makeshift Grenades",
+    "mechanics": [
+      {
+        "name": "Makeshift Grenades",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "makeshift-grenades-2"
+        },
+        "type": "bonus-action",
+        "layout": "simple",
+        "resource": {
+          "displayType": "omni-gel",
+          "reset": "off",
+          "label": "omni-gel",
+          "id": "makeshift-grenades-2"
+        },
+        "dc": {
+          "base": 0,
+          "proficient": false,
+          "bonus": {
+            "type": "level",
+            "value": "soldier",
+            "multiplier": 0.3333,
+            "min": 1
+          }
+        },
+        "shortDesc": "Create one of your makeshift grenades at Mark {{ dc }}. You may use the grenade as an attack."
+      }
+    ],
     "html": "<p>At 15th level, you can have 4 grenades programmed into your Omni-tool at once.</p>\n<p>In addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.</p>\n",
     "id": "makeshift-grenades-2"
   },
@@ -1524,6 +2420,30 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Melee Prowess",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "augment": "damage",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "attack-augment",
+        "augment": "attack",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>Starting at 9th level, your skill with melee weapons becomes unmatched. You have +1 to melee weapon attack and damage rolls.</p>\n",
     "id": "melee-prowess"
   },
@@ -1531,6 +2451,14 @@
     "level": 3,
     "klass": "vanguard",
     "subclass": "nemesis",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "metabiotics",
+        "selections": 2
+      }
+    ],
     "name": "Metabiotics",
     "html": "<p>At 3rd level, you gain the ability to use the power stored in your barrier to twist your powers to suit your needs.\nYou gain two of the following Metabiotic options of your choice.</p>\n<p>Metabiotics can only be applied to powers of 1st level or higher.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Name</th>\n<th>Enhancement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Careful power</td>\n<td>When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from the power's full force. To do so, you spend 1 barrier tick and choose a number of those creatures up to your powercasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the power.</td>\n</tr>\n<tr>\n<td>Distant power</td>\n<td>When you cast a power that has a range of <me-distance length=\"5\" /> or greater, you can spend 1 barrier tick to double the range of the power. When you cast a power that has a range of touch, you can spend 1 barrier tick to make the range of the power <me-distance length=\"30\" />.</td>\n</tr>\n<tr>\n<td>Empowered power</td>\n<td>When you roll damage for a power, you can spend 1 barrier tick to reroll a number of the damage dice up to your powercasting ability modifier (minimum of one). You must use the new rolls. You can use Empowered power even if you have already used a different Metabiotic option during the casting of the power.</td>\n</tr>\n<tr>\n<td>Heightened power</td>\n<td>When you cast a power that forces a creature to make a saving throw to resist its effects, you can spend 3 barrier ticks to give one target of the power disadvantage on its first saving throw made against the power.</td>\n</tr>\n<tr>\n<td>Quickened power</td>\n<td>When you cast a power that has a casting time of 1 action, you can spend 2 barrier ticks to change the casting time to 1 bonus action for this casting.</td>\n</tr>\n<tr>\n<td>Twinned power</td>\n<td>When you cast a power that doesn't have a range of self and is incapable of targeting more than one creature at the power's current level, you can spend a number of barrier ticks equal to the power's level to target a second creature in range with the same power.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "metabiotics-1"
@@ -1540,6 +2468,14 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Metabiotics",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "metabiotics",
+        "selections": 1
+      }
+    ],
     "html": "<p>At 10th level, learn an additional metabiotic option.</p>\n",
     "id": "metabiotics-2"
   },
@@ -1548,6 +2484,14 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Metabiotics",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "metabiotics",
+        "selections": 1
+      }
+    ],
     "html": "<p>At 14th level, learn an additional metabiotic option.</p>\n",
     "id": "metabiotics-3"
   },
@@ -1556,6 +2500,17 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Misdirection",
+    "mechanics": [
+      {
+        "name": "Misdirection",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "misdirection"
+        },
+        "type": "reaction",
+        "shortDesc": "When you are targeted by an attack while a creature within <me-distance length=\"5\" /> of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+      }
+    ],
     "html": "<p>Starting at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within <me-distance length=\"5\" /> of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.</p>\n",
     "id": "misdirection"
   },
@@ -1785,6 +2740,30 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Onslaught",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bull-rush"
+        },
+        "limit": [
+          "powers"
+        ],
+        "merge": {
+          "merge": {
+            "damage": [
+              {
+                "bonus": {
+                  "type": "powercastingMod",
+                  "value": "vanguard"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 10th level, you've mastered your charge power, maximizing its damage. The damage of charge becomes d10 +\nyour powercasting modifier.</p>\n",
     "id": "onslaught"
   },
@@ -1793,39 +2772,45 @@
     "klass": "vanguard",
     "subclass": "battle-master",
     "name": "Opportunist",
-    "html": "<p>At 18th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature\nwithin <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack\nagainst that creature.</p>\n",
-    "id": "opportunist"
-  },
-  {
-    "level": 14,
-    "klass": "adept",
-    "subclass": "commando",
     "mechanics": [
       {
-        "name": "Overchannel",
+        "name": "Opportunist",
         "moreInfo": {
           "model": "class-features",
-          "id": "overchannel"
+          "id": "opportunist"
         },
-        "type": "other",
-        "resource": {
-          "max": {
-            "type": "flat",
-            "value": 10
-          },
-          "id": "overchannel"
-        }
+        "type": "reaction",
+        "shortDesc": "Whenever a creature within <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
       }
     ],
-    "name": "Overchannel",
-    "html": "<p>Beginning at 14th level, you can increase the power of your simpler biotics. When you cast a biotic power of 1st or 2nd level that deals damage,\nyou can deal maximum damage with that power.</p>\n<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest,\nyou take 2d12 psychic damage for each level of the power, immediately after you cast it. Each time you use this feature\nagain before finishing a long rest, the psychic damage per power level increases by 1d12. This damage ignores\nresistance and immunity.</p>\n",
-    "id": "overchannel"
+    "html": "<p>At 18th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature\nwithin <me-distance length=\"5\" /> of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack\nagainst that creature.</p>\n",
+    "id": "opportunist"
   },
   {
     "level": 13,
     "klass": "infiltrator",
     "subclass": "sniper",
     "name": "Overwatch",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Overwatch",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "overwatch"
+        }
+      },
+      {
+        "name": "Overwatch",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "overwatch"
+        },
+        "type": "reaction",
+        "shortDesc": "When one of your overwatch target moves from 1/2- or 3/4-cover, make a ranged weapon attack. The attack benefits from your Sneak Attack if you have not used sneak attack on the target this turn."
+      }
+    ],
     "html": "<p>At 13th level, you've become attuned to monitoring the movements of the battlefield, taking advantage of\nwhen enemies break cover.</p>\n<p>At the end of each of your turns, you may ready the following action. Choose up to 5 creatures you can see that are behind\nhalf or three-quarter cover. Until the start of your next turn, if any of those creatures move into an area providing\nno cover, you may use your reaction to make a ranged weapon attack targeting that creature. This attack can benefit from\nyour Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target\nmore than once in a turn.</p>\n",
     "id": "overwatch"
   },
@@ -1834,6 +2819,17 @@
     "klass": "soldier",
     "subclass": "havoc",
     "name": "Paint by Number",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Paint by Number",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "paint-by-number"
+        }
+      }
+    ],
     "html": "<p>At 18th level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\n<me-condition id=\"targeting\" />, you may target and fire on the same turn.</p>\n",
     "id": "paint-by-number"
   },
@@ -1842,6 +2838,17 @@
     "klass": "adept",
     "subclass": "disruptor",
     "name": "Potent Biotics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Potent Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "potent-biotics"
+        }
+      }
+    ],
     "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die\nand must use the new roll.</p>\n",
     "id": "potent-biotics"
   },
@@ -1857,9 +2864,19 @@
           "id": "power-steal"
         },
         "type": "reaction",
+        "layout": "simple",
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "engineer"
+          }
+        },
         "resource": {
           "id": "power-steal"
-        }
+        },
+        "shortDesc": "When you are targeted by a power, the creature must succeed on a powercasting check (DC {{ dc }}) or the power fails. If the power was 1st-level or higher, you copy a temporary version for 1 hour and can cast it with your tech points."
       }
     ],
     "name": "Power Steal",
@@ -2414,41 +3431,45 @@
     "level": 20,
     "klass": "vanguard",
     "name": "Primal Biotics",
-    "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n",
-    "id": "primal-biotics"
-  },
-  {
-    "level": 2,
-    "klass": "adept",
-    "subclass": "commando",
-    "name": "Pure Biotics",
-    "html": "<p>At 2nd level, your skill in dealing damage with biotic force powers becomes unmatched. Add your proficiency bonus to\nall force damage dealt by your biotic powers.</p>\n",
-    "id": "pure-biotics"
-  },
-  {
-    "level": 5,
-    "klass": "sentinel",
-    "name": "Quick Cast",
     "mechanics": [
       {
-        "name": "Weapon Attack (Quick Cast)",
-        "moreInfo": {
-          "model": "class-features",
-          "id": "quick-cast"
-        },
-        "type": "bonus-action",
-        "shortDesc": "When you use your action to cast a power, you may make a weapon attack as a bonus action.",
-        "baseGroup": true
+        "type": "asi-maximum",
+        "abilities": [
+          "str",
+          "con"
+        ],
+        "max": 24
+      },
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 4
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 4
       }
     ],
-    "html": "<p>At 5th level, when you use your action to cast a power, you may make a weapon attack as a\nbonus action.</p>\n",
-    "id": "quick-cast"
+    "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n",
+    "id": "primal-biotics"
   },
   {
     "level": 15,
     "klass": "soldier",
     "subclass": "gladiator",
     "name": "Rapid Strike",
+    "mechanics": [
+      {
+        "name": "Rapid Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "rapid-strike"
+        },
+        "type": "bonus-action",
+        "shortDesc": "If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action."
+      }
+    ],
     "html": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.</p>\n",
     "id": "rapid-strike"
   },
@@ -2456,6 +3477,17 @@
     "level": 7,
     "klass": "engineer",
     "name": "Recharge (1d4)",
+    "mechanics": [
+      {
+        "type": "tp-recharge",
+        "dieCount": 1,
+        "dieType": 4,
+        "bonus": {
+          "type": "mod",
+          "value": "int"
+        }
+      }
+    ],
     "html": "<p>Beginning at 7th level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your Intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).</p>\n",
     "id": "recharge-1"
   },
@@ -2463,6 +3495,18 @@
     "level": 11,
     "klass": "engineer",
     "name": "Recharge (1d6)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "recharge-1"
+        },
+        "merge": {
+          "dieType": 6
+        }
+      }
+    ],
     "html": "<p>At 11th level, when you use your recharge feature, you gain tech points equal to 1d6 + your Intelligence modifier.</p>\n",
     "id": "recharge-2"
   },
@@ -2470,6 +3514,18 @@
     "level": 15,
     "klass": "engineer",
     "name": "Recharge (1d8)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "recharge-1"
+        },
+        "merge": {
+          "dieType": 8
+        }
+      }
+    ],
     "html": "<p>At 15th level, when you use your recharge feature, you gain tech points equal to 1d8 + your Intelligence modifier.</p>\n",
     "id": "recharge-3"
   },
@@ -2477,6 +3533,17 @@
     "level": 11,
     "klass": "infiltrator",
     "name": "Reliable Talent",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "proficient",
+        "effect": {
+          "type": "die-bonus",
+          "note": "min roll = 10",
+          "dieType": 10
+        }
+      }
+    ],
     "html": "<p>At 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add\nyour proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</p>\n",
     "id": "reliable-talent"
   },
@@ -2485,6 +3552,27 @@
     "klass": "engineer",
     "subclass": "medic",
     "name": "Repair Drone",
+    "mechanics": [
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 1,
+        "newIf": "medicine"
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "drone"
+        },
+        "limit": [
+          "action"
+        ],
+        "merge": {
+          "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, repair, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls."
+        }
+      }
+    ],
     "html": "<p>At 2nd level, you gain proficiency in Medicine. If you are already proficient in Medicine, you may choose\nanother skill to become proficient in.</p>\n<p>Add the Repair drone to the list of drones available for you to summon.</p>\n",
     "id": "repair-drone-1"
   },
@@ -2493,6 +3581,21 @@
     "klass": "engineer",
     "subclass": "medic",
     "name": "Repair Drone",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "drone"
+        },
+        "limit": [
+          "action"
+        ],
+        "merge": {
+          "shortDesc": "Spent 1 tech point to summon an assault, combat, defense, disruption, recon, repair, or rocket drone. It gains additional hit points equal to twice your engineer level and you add your proficiency bonus to its rolls. If a repair drone, it gains twice its hit points and shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it."
+        }
+      }
+    ],
     "html": "<p>At 14th level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.</p>\n",
     "id": "repair-drone-2"
   },
@@ -2521,6 +3624,17 @@
     "level": 15,
     "klass": "vanguard",
     "name": "Retaliation",
+    "mechanics": [
+      {
+        "name": "Retaliation",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "retaliation"
+        },
+        "type": "reaction",
+        "shortDesc": "When you take damage from a creature that is within <me-distance length=\"5\" /> of you, you can use your reaction to make a melee weapon attack against that creature."
+      }
+    ],
     "html": "<p>At 15th level, when you take damage from a creature that is within <me-distance length=\"5\" /> of you, you can use your reaction to make a melee weapon attack\nagainst that creature.</p>\n",
     "id": "retaliation"
   },
@@ -2537,6 +3651,26 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Saboteur's Touch",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "sabotage",
+        "klass": "infiltrator",
+        "merge": {
+          "altCasting": [
+            {
+              "length": 1,
+              "unit": "bonus_action"
+            },
+            {
+              "length": 1,
+              "unit": "reaction",
+              "reaction": "when you see a creature making a ranged weapon attack"
+            }
+          ]
+        }
+      }
+    ],
     "html": "<p>At 3rd level, you always have the sabotage power prepared (it does not count against your list of prepared powers). Preparing the advanced\nversion of the power counts as one power, not two.</p>\n<p>You can cast sabotage as a bonus action or as a reaction to a ranged weapon attack you can see.</p>\n",
     "id": "saboteurs-touch"
   },
@@ -2545,6 +3679,17 @@
     "klass": "adept",
     "subclass": "blackstar",
     "name": "Sculpt Biotics",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Sculpt Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sculpt-biotics"
+        }
+      }
+    ],
     "html": "<p>Starting at 2nd level, you can create pockets of relative safety within the effects of your biotic powers. When you\ncast a biotic power that affects other creatures that you can see, you can choose a number of them equal to 1+ the\npower's level. The chosen creatures automatically succeed on their saving throws against the power, and they take no\ndamage if they would normally take half damage on a successful save.</p>\n",
     "id": "sculpt-biotics"
   },
@@ -2555,8 +3700,9 @@
     "name": "Sculpt Powers",
     "mechanics": [
       {
-        "type": "global-power-note",
-        "name": "Sculpt Powers",
+        "type": "global-note",
+        "subType": "power",
+        "value": "Sculpt Powers",
         "moreInfo": {
           "model": "class-features",
           "id": "sculpt-powers"
@@ -2571,6 +3717,29 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Shadow Strike",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "tactical-cloak",
+          "limit": [
+            "action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "shadow-strike"
+              }
+            ]
+          },
+          "shortDesc": "Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. When you activate tactical cloak, you may teleport to a target location within <me-distance length=\"30\" /> and use your reaction to make one melee attack (which benefits from your Sneak Attack)."
+        }
+      }
+    ],
     "html": "<p>At 13th level, whenever you activate Tactical Cloak you may teleport to a target location within <me-distance length=\"30\" />. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.</p>\n<p>When you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.</p>\n<p>The teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.</p>\n",
     "id": "shadow-strike"
   },
@@ -2586,6 +3755,14 @@
           "id": "shield-boost"
         },
         "type": "action",
+        "damage": [
+          {
+            "dieCount": 4,
+            "dieType": 8,
+            "type": "shields"
+          }
+        ],
+        "shortDesc": "Restore 4d8 shield points to up to 5 friendly creatures you can see.",
         "resource": {
           "reset": "short",
           "id": "shield-boost"
@@ -2601,14 +3778,88 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Shotgun Savvy",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "brutal-critical-1"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "shotgun-savvy"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "zero-sum"
+        },
+        "limit": [
+          "global-note"
+        ],
+        "merge": {
+          "shortDesc": "Instead of a melee or shotgun attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "biotic-fury"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>At 10th level, Brutal critical and Zero-sum can be applied to shotgun weapon attacks.</p>\n",
     "id": "shotgun-savvy"
   },
   {
-    "level": 20,
+    "level": 18,
     "klass": "adept",
     "name": "Signature Biotics",
-    "html": "<p>When you reach 20th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.</p>\n",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose two powers",
+        "model": "powers",
+        "options": true,
+        "known": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              1,
+              2
+            ]
+          }
+        ],
+        "hide": true,
+        "isolated": true,
+        "selections": 2,
+        "append": {
+          "type": "power-resource",
+          "levels": [
+            2
+          ],
+          "resource": {
+            "reset": "short",
+            "id": "signature-biotics"
+          }
+        }
+      }
+    ],
+    "html": "<p>When you reach 18th level, you gain mastery over two powerful powers and can cast them with little effort. Choose\ntwo 1st or 2nd-level biotic powers you know as your signature biotics. You can cast each of them once at 2nd level without\nexpending a power slot. When you do so, you can't do so again until you finish a short or long rest.</p>\n<p>If you want to cast either power at 3rd-level or higher, you must expend a power slot as normal.</p>\n",
     "id": "signature-biotics"
   },
   {
@@ -2616,6 +3867,16 @@
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Silent Cloak",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "stealth",
+        "effect": {
+          "type": "advantage",
+          "note": "while tactical cloak is active and you move no more that half your speed"
+        }
+      }
+    ],
     "html": "<p>At 9th level, your Tactical Cloak dampens noise. You have advantage on a Dexterity (Stealth) check if you move no more than half your\nspeed on the same turn.</p>\n",
     "id": "silent-cloak"
   },
@@ -2623,6 +3884,12 @@
     "level": 15,
     "klass": "infiltrator",
     "name": "Slippery Mind",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "wis"
+      }
+    ],
     "html": "<p>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</p>\n",
     "id": "slippery-mind"
   },
@@ -2631,24 +3898,12 @@
     "klass": "infiltrator",
     "mechanics": [
       {
-        "type": "conditional-damage",
-        "attackLimit": {
-          "model": "weapon"
-        },
-        "bonus": {
-          "type": "dice",
-          "value": {
-            "dieType": {
-              "type": "flat",
-              "value": 6
-            },
-            "dieCount": {
-              "type": "level",
-              "value": "infiltrator",
-              "multiplier": 0.5,
-              "round": "up"
-            }
-          }
+        "type": "global-note",
+        "subType": "action",
+        "value": "Sneak Attack",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sneak-attack"
         },
         "progressionColumn": {
           "label": "Sneak Attack Damage",
@@ -2674,7 +3929,7 @@
             "10d6",
             "10d6"
           ],
-          "order": 1
+          "order": 2
         }
       }
     ],
@@ -2694,6 +3949,26 @@
           "id": "steady-aim"
         },
         "type": "bonus-action",
+        "layout": "simple",
+        "shortDesc": "For the next minute, you ignore 3/4-cover and deal {{ damage }} additional damage with sniper rifles.",
+        "damage": [
+          {
+            "dieCount": 0,
+            "bonus": {
+              "type": "multi",
+              "value": [
+                {
+                  "type": "flat",
+                  "value": 2
+                },
+                {
+                  "type": "level",
+                  "value": "infiltrator"
+                }
+              ]
+            }
+          }
+        ],
         "resource": {
           "reset": "short",
           "max": {
@@ -2713,7 +3988,18 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Strafe",
-    "html": "<p>At 7th level, when you take the Dash or Disengage action, you can make 1 weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n",
+    "mechanics": [
+      {
+        "name": "Strafe",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "strafe"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you take the Dash or Disengage action, you can make one weapon attack with your Weapon of Choice as a bonus action at any point during your movement."
+      }
+    ],
+    "html": "<p>At 7th level, when you take the Dash or Disengage action, you can make one weapon attack with your Weapon of Choice as a bonus action at\nany point during your movement.</p>\n",
     "id": "strafe"
   },
   {
@@ -2727,10 +4013,11 @@
           "model": "class-features",
           "id": "strength-before-death"
         },
-        "type": "other",
+        "type": "reaction",
         "resource": {
           "id": "strength-before-death"
-        }
+        },
+        "shortDesc": "When you are reduced to 0 hp and not killed outright, delay falling unconscious and immediately take an extra turn, interrupting the current turn. Taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points."
       }
     ],
     "name": "Strength before Death",
@@ -2748,6 +4035,7 @@
           "id": "stroke-of-luck"
         },
         "type": "other",
+        "shortDesc": "Turn a missed attack into a hit. Or treat a failed ability check as a 20.",
         "resource": {
           "reset": "short",
           "id": "stroke-of-luck"
@@ -2763,7 +4051,33 @@
     "klass": "vanguard",
     "subclass": "shock-trooper",
     "name": "Stunning Strike",
-    "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you hit a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n",
+    "mechanics": [
+      {
+        "name": "Stunning Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "stunning-strike"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "stunning-strike"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "con"
+        },
+        "shortDesc": "When you deal damage to a creature with charge, spend 1 barrier tick to force the creature to succeed a DC {{ dc }} CON save or become <me-condition id=\"stunned\"/> until the end of your next turn."
+      }
+    ],
+    "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you deal damage to a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n",
     "id": "stunning-strike"
   },
   {
@@ -2822,6 +4136,17 @@
     "klass": "infiltrator",
     "subclass": "saboteur",
     "name": "Tactical Ambush",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Tactical Ambush",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-ambush"
+        }
+      }
+    ],
     "html": "<p>Starting at 9th level, if you are hidden from a creature when you cast a power on it, the creature has disadvantage\nof any saving throw against the power this turn.</p>\n",
     "id": "tactical-ambush"
   },
@@ -2829,6 +4154,17 @@
     "level": 7,
     "klass": "vanguard",
     "name": "Tactical Barrier",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Tactical Barrier",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-barrier"
+        }
+      }
+    ],
     "html": "<p>At 7th level, whenever you take damage while barrier is active, you choose how many barrier ticks to spend. You may choose to spend 0\nbarrier ticks.</p>\n",
     "id": "tactical-barrier"
   },
@@ -2843,6 +4179,7 @@
           "id": "tactical-cloak"
         },
         "type": "action",
+        "shortDesc": "Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.",
         "resource": {
           "reset": "short",
           "max": {
@@ -2983,6 +4320,17 @@
     "level": 7,
     "klass": "soldier",
     "name": "Tactical Reload",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Tactical Reload",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-reload"
+        }
+      }
+    ],
     "html": "<p>By 7th level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.</p>\n",
     "id": "tactical-reload"
   },
@@ -3716,6 +5064,23 @@
     "klass": "vanguard",
     "subclass": "nemesis",
     "name": "Teleporting Dodge",
+    "mechanics": [
+      {
+        "name": "Teleporting Dodge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "teleporting-dodge"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "teleporting-dodge"
+        },
+        "shortDesc": "When you are subjected to a DEX save, spend 2 barrier ticks to automatically succeed."
+      }
+    ],
     "html": "<p>At 14th level, as a reaction to an effect that causes you to make a Dexterity saving throw, you can use 2 Barrier ticks to automatically\npass the saving throw.</p>\n",
     "id": "teleporting-dodge"
   },
@@ -3724,6 +5089,29 @@
     "klass": "soldier",
     "subclass": "gladiator",
     "name": "Tireless Spirit",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "fighting-spirit",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "shortDesc": "Gain {{ damage }} temporary hit points. Additionally, gain advantage on all weapon attack rolls until the end of your turn. When you roll initiative and have no uses remaining, you regain one use.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tireless-spirit"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "html": "<p>Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>\n",
     "id": "tireless-spirit"
   },
@@ -3731,8 +5119,40 @@
     "level": 5,
     "klass": "infiltrator",
     "name": "Uncanny Dodge",
+    "mechanics": [
+      {
+        "name": "Uncanny Dodge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "uncanny-dodge"
+        },
+        "type": "reaction",
+        "shortDesc": "when an attacker that you can see hits you with an attack, halve the attack's damage against you."
+      }
+    ],
     "html": "<p>At 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>\n",
     "id": "uncanny-dodge"
+  },
+  {
+    "level": 20,
+    "klass": "adept",
+    "name": "Unmatched Biotics",
+    "mechanics": [
+      {
+        "type": "asi-maximum",
+        "abilities": [
+          "wis"
+        ],
+        "max": 24
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 4
+      }
+    ],
+    "html": "<p>By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.</p>\n",
+    "id": "unmatched-biotics"
   },
   {
     "level": 14,
@@ -3820,7 +5240,17 @@
         "type": "other",
         "resource": {
           "id": "vengeance"
-        }
+        },
+        "damage": [
+          {
+            "type": "hp",
+            "bonus": {
+              "type": "hp",
+              "multiplier": 0.5
+            }
+          }
+        ],
+        "shortDesc": "Instead of making a death saving throw, regain {{ damage }} hit points and you may stand up. Then, you may draw any weapon you are carrying, choose a target a creature within that weapon's normal range, and make 2 attacks with the weapon."
       }
     ],
     "name": "Vengeance",
@@ -3833,25 +5263,10 @@
     "subclass": "weapon-master",
     "mechanics": [
       {
-        "name": "Weapon of Choice",
-        "moreInfo": {
-          "model": "class-features",
-          "id": "weapon-of-choice-1"
-        },
-        "type": "other",
-        "resource": {
-          "reset": "short",
-          "max": {
-            "type": "progressive",
-            "limit": "soldier",
-            "value": {
-              "3": 4,
-              "10": 5,
-              "18": 6
-            }
-          },
-          "id": "weapon-of-choice-1"
-        }
+        "type": "model-choice",
+        "options": true,
+        "model": "weapon-of-choice",
+        "hide": true
       }
     ],
     "name": "Weapon of Choice",
@@ -3863,6 +5278,7 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Weapon of Choice",
+    "mechanics": [],
     "html": "<p>You gain another superiority die (5 total) at 10th level and the die type becomes a d10.</p>\n",
     "id": "weapon-of-choice-2"
   },
@@ -3871,6 +5287,7 @@
     "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Weapon of Choice",
+    "mechanics": [],
     "html": "<p>You gain another superiority die (6 total) at 18th level and the die type becomes a d12.</p>\n",
     "id": "weapon-of-choice-3"
   },
@@ -3885,6 +5302,7 @@
           "id": "zero-sum"
         },
         "type": "other",
+        "shortDesc": "Instead of a melee attack roll, flip a coin. On heads, it's a critical hit. On tails, it's a critical miss.",
         "resource": {
           "reset": "short",
           "id": "zero-sum"
