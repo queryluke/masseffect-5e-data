@@ -22,7 +22,7 @@ mechanics:
       - dieCount: 4
         dieType: 8
         type: force
-    conditions: grappled
+    conditions: [grappled]
     duration:
       length: 1
       unit: minute

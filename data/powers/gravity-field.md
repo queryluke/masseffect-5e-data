@@ -18,7 +18,7 @@ mechanics:
       proficient: true
       save: str
     damage: false
-    conditions: restrained
+    conditions: [restrained]
     duration:
       length: 1
       unit: minute

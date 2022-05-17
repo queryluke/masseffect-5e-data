@@ -3,6 +3,7 @@ name: Hawk Missile Launcher
 version: 1
 level: 0
 type: combat
+tags: [damage]
 classes:
   - soldier
 mechanics:

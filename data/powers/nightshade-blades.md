@@ -22,7 +22,7 @@ mechanics:
       - dieCount: 1
         dieType: 12
         type: poison
-    conditions: poisoned
+    conditions: [poisoned]
     duration:
       length: 0
       unit: instant

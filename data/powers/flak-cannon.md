@@ -64,6 +64,7 @@ advancements:
       When you attack with Flak Cannon, you can choose to fire concussive blasts dealing no damage. Creatures within
       the sphere must instead make a Constitution saving throw. On a failed save, a creature becomes stunned until
       the start of your next turn.
+    mechanics: []
 ---
 As an Attack action, you load and fire krogan-designed shells that burst into shrapnel upon impact. Choose a target location
 within range. Each creature in a <me-distance length="10" adj />-radius sphere centered on the point of impact of the shell must make a Dexterity

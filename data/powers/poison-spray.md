@@ -54,7 +54,7 @@ advancements:
         range:
           aoe:
             size: 5
-            type: radius
+            type: sphere
 ---
 Shoot an aerosol spray of noxious chemicals from your omni-tool at a creature within melee range. The creature must
 succeed on a Constitution saving throw or take 2d12 poison damage and becomes <me-condition id="poisoned"/> until the end

@@ -9,8 +9,8 @@ classes:
   - adept
 mechanics:
   - castingTime:
-      - length: 1
-        unit: action
+      length: 1
+      unit: action
     attack: false
     dc:
       save: con

@@ -9,6 +9,8 @@ module.exports = {
     hour_title: '1 Hour | {n} Hours',
     hour_abbr: '{n}H',
     instant: 'Instant',
+    instant_title: 'Instant',
+    instant_abbr: 'INST',
     minute: '1 minute | {n} minutes',
     minute_title: '1 Minute | {n} Minutes',
     minute_abbr: '{n}M',
@@ -19,5 +21,5 @@ module.exports = {
     round_abbr: '{n}RND',
     turn: '1 turn | {n} turns',
     turn_title: '1 Turn | {n} Turns',
-    turn_abr: '{n}TRN'
+    turn_abbr: '{n}TRN'
 }
