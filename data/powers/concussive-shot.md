@@ -58,7 +58,7 @@ advancements:
       - dc:
           save: con
   - id: improved-shot
-    name: Improved shot
+    name: Improved Shot
     text: Increase the bonus damage of concussive shot to d12.
     mechanics:
       - damage:
