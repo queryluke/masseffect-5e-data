@@ -145,6 +145,10 @@ for (const lang of langs) {
           console.log('no version for: ' + item.name)
           continue
         }
+        if (!item.tags) {
+          console.log('no tags for: ' + item.name)
+          continue
+        }
       }
       items.push(item)
     }

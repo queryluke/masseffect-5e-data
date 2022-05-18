@@ -20,7 +20,7 @@ mechanics:
       - dieCount: 6
         dieType: 12
         type: radiant
-    conditions: blinded
+    conditions: [blinded]
     duration:
       length: 0
       unit: instant

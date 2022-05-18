@@ -10,8 +10,8 @@ classes:
   - infiltrator
 mechanics:
   - castingTime:
-      - length: 1
-        unit: action
+      length: 1
+      unit: action
     attack: false
     dc: false
     damage: false

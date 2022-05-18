@@ -2056,12 +2056,10 @@
     ],
     "mechanics": [
       {
-        "castingTime": [
-          {
-            "length": 1,
-            "unit": "action"
-          }
-        ],
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
         "attack": false,
         "dc": {
           "save": "con"
@@ -2134,12 +2132,10 @@
     ],
     "mechanics": [
       {
-        "castingTime": [
-          {
-            "length": 1,
-            "unit": "action"
-          }
-        ],
+        "castingTime": {
+          "length": 1,
+          "unit": "action"
+        },
         "attack": false,
         "dc": false,
         "damage": false,
@@ -2745,7 +2741,8 @@
       {
         "id": "stunner",
         "name": "Stunner",
-        "text": "When you attack with Flak Cannon, you can choose to fire concussive blasts dealing no damage. Creatures within the sphere must instead make a Constitution saving throw. On a failed save, a creature becomes stunned until the start of your next turn."
+        "text": "When you attack with Flak Cannon, you can choose to fire concussive blasts dealing no damage. Creatures within the sphere must instead make a Constitution saving throw. On a failed save, a creature becomes stunned until the start of your next turn.",
+        "mechanics": []
       }
     ],
     "html": "<p>As an Attack action, you load and fire krogan-designed shells that burst into shrapnel upon impact. Choose a target location\nwithin range. Each creature in a <me-distance length=\"10\" adj />-radius sphere centered on the point of impact of the shell must make a Dexterity\nsaving throw (DC 8 + proficiency bonus + DEX modifier). A target takes 2d6 piercing damage on a failed save,\nor half as much damage on a successful one.</p>\n<p>You have 3 charges of Flak Cannon. You regain all of your charges on a long rest.</p>\n<p>This feature's damage increases by 2d6 when you reach 5th level (4d6), 11th level (6d6), 17th level (8d6)</p>\n",
@@ -2871,7 +2868,9 @@
             "type": "radiant"
           }
         ],
-        "conditions": "blinded",
+        "conditions": [
+          "blinded"
+        ],
         "duration": {
           "length": 0,
           "unit": "instant"
@@ -3083,7 +3082,9 @@
           "save": "str"
         },
         "damage": false,
-        "conditions": "restrained",
+        "conditions": [
+          "restrained"
+        ],
         "duration": {
           "length": 1,
           "unit": "minute"
@@ -3285,6 +3286,9 @@
     "version": 1,
     "level": 0,
     "type": "combat",
+    "tags": [
+      "damage"
+    ],
     "classes": [
       "soldier"
     ],
@@ -3942,7 +3946,9 @@
             "type": "force"
           }
         ],
-        "conditions": "grappled",
+        "conditions": [
+          "grappled"
+        ],
         "duration": {
           "length": 1,
           "unit": "minute"
@@ -4235,7 +4241,9 @@
             "type": "poison"
           }
         ],
-        "conditions": "poisoned",
+        "conditions": [
+          "poisoned"
+        ],
         "duration": {
           "length": 0,
           "unit": "instant"
@@ -4715,7 +4723,7 @@
             "range": {
               "aoe": {
                 "size": 5,
-                "type": "radius"
+                "type": "sphere"
               }
             }
           }
