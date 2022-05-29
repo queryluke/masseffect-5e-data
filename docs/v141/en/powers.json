@@ -593,6 +593,20 @@
             }
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "bonus": {
+              "value": 30
+            }
+          },
+          {
+            "bonus": {
+              "value": 30
+            }
+          }
+        ]
       }
     ],
     "advancements": [
@@ -1718,6 +1732,13 @@
             "dieCount": 9
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 11
+          }
+        ]
       }
     ],
     "advancements": [
@@ -1806,6 +1827,13 @@
             "size": 25
           }
         }
+      },
+      {
+        "range": {
+          "aoe": {
+            "size": 30
+          }
+        }
       }
     ],
     "advancements": [
@@ -1884,6 +1912,20 @@
               },
               {
                 "dieCount": 10,
+                "dieType": 4,
+                "type": "piercing"
+              }
+            ]
+          },
+          {
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 8,
+                "type": "cold"
+              },
+              {
+                "dieCount": 12,
                 "dieType": 4,
                 "type": "piercing"
               }
@@ -2431,6 +2473,13 @@
             "dieCount": 12
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 14
+          }
+        ]
       }
     ],
     "advancements": [
@@ -2528,6 +2577,13 @@
             "dieCount": 7
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 8
+          }
+        ]
       }
     ],
     "advancements": [
@@ -2614,6 +2670,13 @@
         "damage": [
           {
             "dieCount": 9
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 11
           }
         ]
       }
@@ -2807,6 +2870,13 @@
         "damage": [
           {
             "dieCount": 10
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 12
           }
         ]
       }
@@ -3645,6 +3715,13 @@
             "dieCount": 10
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 12
+          }
+        ]
       }
     ],
     "advancements": [
@@ -3704,7 +3781,11 @@
         },
         "concentration": true,
         "range": {
-          "short": 60
+          "short": 60,
+          "aoe": {
+            "type": "sphere",
+            "size": 6
+          }
         },
         "detonates": false,
         "primes": false
@@ -3714,28 +3795,65 @@
           {
             "dieCount": 2
           }
-        ]
+        ],
+        "range": {
+          "aoe": {
+            "type": "sphere",
+            "size": 8
+          }
+        }
       },
       {
         "damage": [
           {
             "dieCount": 3
           }
-        ]
+        ],
+        "range": {
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        }
       },
       {
         "damage": [
           {
             "dieCount": 4
           }
-        ]
+        ],
+        "range": {
+          "aoe": {
+            "type": "sphere",
+            "size": 12
+          }
+        }
       },
       {
         "damage": [
           {
             "dieCount": 5
           }
-        ]
+        ],
+        "range": {
+          "aoe": {
+            "type": "sphere",
+            "size": 14
+          }
+        }
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 6
+          }
+        ],
+        "range": {
+          "aoe": {
+            "type": "sphere",
+            "size": 16
+          }
+        }
       }
     ],
     "advancements": [
@@ -4476,6 +4594,13 @@
             "dieCount": 11
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 13
+          }
+        ]
       }
     ],
     "advancements": [
@@ -4692,6 +4817,13 @@
         "damage": [
           {
             "dieCount": 10
+          }
+        ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 12
           }
         ]
       }
@@ -5243,9 +5375,15 @@
             "dieCount": 9
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 11
+          }
+        ]
       }
     ],
-    "primes": "lightning",
     "advancements": [
       {
         "id": "restoring-shock",
@@ -5797,6 +5935,19 @@
             "dieCount": 10
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 12
+          },
+          {
+            "dieCount": 12
+          },
+          {
+            "dieCount": 12
+          }
+        ]
       }
     ],
     "advancements": [
@@ -6096,6 +6247,13 @@
         "range": {
           "aoe": {
             "size": 25
+          }
+        }
+      },
+      {
+        "range": {
+          "aoe": {
+            "size": 30
           }
         }
       }
@@ -6633,6 +6791,13 @@
             "dieCount": 7
           }
         ]
+      },
+      {
+        "damage": [
+          {
+            "dieCount": 9
+          }
+        ]
       }
     ],
     "advancements": [
@@ -6686,6 +6851,14 @@
               {},
               {
                 "dieCount": 5
+              }
+            ]
+          },
+          {
+            "damage": [
+              {},
+              {
+                "dieCount": 6
               }
             ]
           }

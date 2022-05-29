@@ -45,6 +45,10 @@ mechanics:
       - dieCount: 10
       - dieCount: 10
       - dieCount: 10
+  - damage:
+      - dieCount: 12
+      - dieCount: 12
+      - dieCount: 12
 advancements:
   - id: solid-freeze
     name: Solid Freeze

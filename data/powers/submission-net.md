@@ -42,6 +42,9 @@ mechanics:
   - range:
       aoe:
         size: 25
+  - range:
+      aoe:
+        size: 30
 advancements:
   - id: electrified-net
     name: Electrified Net

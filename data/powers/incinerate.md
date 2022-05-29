@@ -37,6 +37,8 @@ mechanics:
       - dieCount: 8
   - damage:
       - dieCount: 10
+  - damage:
+      - dieCount: 12
 advancements:
   - id: frozen-combo
     name: Frozen Combo

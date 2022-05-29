@@ -34,6 +34,8 @@ mechanics:
       - dieCount: 5
   - damage:
       - dieCount: 7
+  - damage:
+      - dieCount: 9
 advancements:
   - id: unrestricted--engineer-only-
     name: Unrestricted (Engineer only)
@@ -60,6 +62,9 @@ advancements:
       - damage:
           - {}
           - dieCount: 5
+      - damage:
+          - {}
+          - dieCount: 6
 ---
 Spawn a swarm of healing nanobots that heal allies. Up to six organic creatures of your choice that you can see within range
 regain hit points equal to 1d6 + your powercasting ability modifier.

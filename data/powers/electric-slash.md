@@ -37,6 +37,8 @@ mechanics:
       - dieCount: 10
   - damage:
       - dieCount: 12
+  - damage:
+      - dieCount: 14
 advancements:
   - id: shield-restore
     name: Shield Restore

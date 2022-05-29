@@ -42,7 +42,8 @@ mechanics:
       - dieCount: 7
   - damage:
       - dieCount: 9
-primes: lightning
+  - damage:
+      - dieCount: 11
 advancements:
   - id: restoring-shock
     name: Restoring Shock

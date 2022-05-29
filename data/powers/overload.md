@@ -38,6 +38,8 @@ mechanics:
       - dieCount: 9
   - damage:
       - dieCount: 11
+  - damage:
+      - dieCount: 13
 advancements:
   - id: extended-leap
     name: Extended Leap

@@ -36,6 +36,8 @@ mechanics:
       - dieCount: 7
   - damage:
       - dieCount: 9
+  - damage:
+      - dieCount: 11
 advancements:
   - id: brittle-freeze
     name: Brittle Freeze

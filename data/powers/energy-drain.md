@@ -39,6 +39,8 @@ mechanics:
       - dieCount: 6
   - damage:
       - dieCount: 7
+  - damage:
+      - dieCount: 8
 advancements:
   - id: linked-current
     name: Linked Current

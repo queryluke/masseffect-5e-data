@@ -30,16 +30,41 @@ mechanics:
     concentration: true
     range:
       short: 60
+      aoe:
+        type: sphere
+        size: 6
     detonates: false
     primes: false
   - damage:
       - dieCount: 2
+    range:
+      aoe:
+        type: sphere
+        size: 8
   - damage:
       - dieCount: 3
+    range:
+      aoe:
+        type: sphere
+        size: 10
   - damage:
       - dieCount: 4
+    range:
+      aoe:
+        type: sphere
+        size: 12
   - damage:
       - dieCount: 5
+    range:
+      aoe:
+        type: sphere
+        size: 14
+  - damage:
+      - dieCount: 6
+    range:
+      aoe:
+        type: sphere
+        size: 16
 advancements:
   - id: exploding-swarm
     name: Exploding Swarm

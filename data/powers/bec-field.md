@@ -51,6 +51,11 @@ mechanics:
           value: 25
       - bonus:
           value: 25
+  - damage:
+      - bonus:
+          value: 30
+      - bonus:
+          value: 30
 advancements:
   - id: reactive
     name: Reactive

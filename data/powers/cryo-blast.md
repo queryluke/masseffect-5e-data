@@ -41,6 +41,9 @@ mechanics:
   - range:
       aoe:
         size: 25
+  - range:
+      aoe:
+        size: 30
 advancements:
   - id: ice-lance
     name: Ice Lance
@@ -85,6 +88,13 @@ advancements:
           - dieCount: 10
             dieType: 4
             type: piercing
+      - damage:
+        - dieCount: 6
+          dieType: 8
+          type: cold
+        - dieCount: 12
+          dieType: 4
+          type: piercing
   - id: frigid-air
     name: Frigid Air
     text: The blast creates a pocket of frigid air that lasts until the end of your next turn. Each creature that enters the frozen space for the first time on a turn or ends its turn there becomes primed cold until the end of its next turn and takes 2d6 cold damage.
