@@ -3669,6 +3669,13 @@
             }
           ]
         }
+      },
+      {
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "value": "sabotage"
+        }
       }
     ],
     "html": "<p>At 3rd level, you always have the sabotage power prepared (it does not count against your list of prepared powers). Preparing the advanced\nversion of the power counts as one power, not two.</p>\n<p>You can cast sabotage as a bonus action or as a reaction to a ranged weapon attack you can see.</p>\n",
