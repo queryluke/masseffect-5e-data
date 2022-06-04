@@ -28,7 +28,7 @@ mechanics:
     primes: false
     resource:
       displayType: counter
-      reset: short
+      reset: long
       resetTo: max
       max:
         type: flat

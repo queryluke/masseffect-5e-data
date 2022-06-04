@@ -50,4 +50,4 @@ hostile explosives. As a reaction to an explosive projectile (grenade or rocket 
 within <me-distance length="15" /> of you, you may preemptively detonate it. If the blast would cause you to make a Dexterity saving throw,
 you have advantage on the save.
 
-You may use this ability only once per long rest.
+You may use this ability once per long rest.

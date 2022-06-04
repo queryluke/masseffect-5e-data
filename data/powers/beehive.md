@@ -33,7 +33,7 @@ mechanics:
     detonates: false
     primes: false
     resource:
-      recharge: short
+      reset: short
       id: beehive
   - damage:
       - dieCount: 5

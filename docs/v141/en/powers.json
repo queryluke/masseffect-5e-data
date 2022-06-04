@@ -686,7 +686,7 @@
         "detonates": false,
         "primes": false,
         "resource": {
-          "recharge": "short",
+          "reset": "short",
           "id": "beehive"
         }
       },
@@ -1303,7 +1303,7 @@
         "detonates": false,
         "primes": false,
         "resource": {
-          "reset": "short",
+          "reset": "long",
           "max": {
             "type": "flat",
             "value": 1
@@ -3602,7 +3602,7 @@
         "primes": false,
         "resource": {
           "displayType": "counter",
-          "reset": "short",
+          "reset": "long",
           "resetTo": "max",
           "max": {
             "type": "flat",
@@ -6670,7 +6670,7 @@
         ]
       }
     ],
-    "html": "<p>Your omni-tool's trophy system detects incoming explosives that fires a small ordinance charge to preemptively detonate\nhostile explosives. As a reaction to an explosive projectile (grenade or rocket from a heavy weapon) that you can see\nwithin <me-distance length=\"15\" /> of you, you may preemptively detonate it. If the blast would cause you to make a Dexterity saving throw,\nyou have advantage on the save.</p>\n<p>You may use this ability only once per long rest.</p>\n",
+    "html": "<p>Your omni-tool's trophy system detects incoming explosives that fires a small ordinance charge to preemptively detonate\nhostile explosives. As a reaction to an explosive projectile (grenade or rocket from a heavy weapon) that you can see\nwithin <me-distance length=\"15\" /> of you, you may preemptively detonate it. If the blast would cause you to make a Dexterity saving throw,\nyou have advantage on the save.</p>\n<p>You may use this ability once per long rest.</p>\n",
     "id": "trophy-system"
   },
   {

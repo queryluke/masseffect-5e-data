@@ -37,7 +37,7 @@ mechanics:
     detonates: false
     primes: false
     resource:
-      reset: short
+      reset: long
       max:
         type: flat
         value: 1
