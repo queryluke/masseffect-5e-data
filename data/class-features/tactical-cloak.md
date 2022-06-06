@@ -8,6 +8,7 @@ mechanics:
       reset: short
       max:
         type: progressive
+        limit: infiltrator
         value:
           1: 2
           6: 3

@@ -55,6 +55,7 @@ advancements:
     text: The ice is rock solid. Creatures have disadvantage on their Strength checks to break it.
     mechanics: []
   - id: brittle-freeze
+    name: Brittle Freeze
     text: A critical success on the Strength check completely shatters the affected creature's appendage. If legs, it falls prone and loses half its remaining hit points. If head, it immediately dies.
     mechanics: []
 ---
