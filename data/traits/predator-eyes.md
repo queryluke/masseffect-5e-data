@@ -6,6 +6,8 @@ mechanics:
   - type: sense
     sense: darkvision
     distance: 60
+  - type: skill
+    value: insight
   - type: skill-check
     value: [insight]
     effect:
