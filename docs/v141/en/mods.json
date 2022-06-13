@@ -15,6 +15,12 @@
     ],
     "name": "Ablative Coating",
     "flavor": "Ablative coating is designed to chip away when impacted, redirecting the energy of incoming projectiles away from the body.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "piercing"
+      }
+    ],
     "html": "<p>Resistance to piercing damage.</p>\n",
     "id": "ablative-coating"
   },
@@ -34,6 +40,19 @@
     ],
     "name": "Adrenaline Regulator",
     "flavor": "Biofeedback system regulating wearer's adrenaline surges.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "augment": "notes",
+        "limits": {
+          "attack": "melee",
+          "model": "weapons"
+        },
+        "value": [
+          "Reroll 1 or 2"
+        ]
+      }
+    ],
     "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
     "id": "adrenaline-regulator"
   },
@@ -53,6 +72,12 @@
     ],
     "name": "Advanced Shoulder Mounts",
     "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "slots": 2
+      }
+    ],
     "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two ranged\nweapons that do not have the two-handed property. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
     "id": "advanced-shoulder-mounts"
   },
