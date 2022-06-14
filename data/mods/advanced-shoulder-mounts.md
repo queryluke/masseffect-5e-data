@@ -17,6 +17,7 @@ flavor: >-
 mechanics:
   - type: shoulder-mounts
     slots: 2
+    max: 2
 ---
 You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two ranged
 weapons that do not have the two-handed property. This is considered light activity.

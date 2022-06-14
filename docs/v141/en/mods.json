@@ -75,7 +75,8 @@
     "mechanics": [
       {
         "type": "shoulder-mounts",
-        "slots": 2
+        "slots": 2,
+        "max": 2
       }
     ],
     "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two ranged\nweapons that do not have the two-handed property. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
@@ -97,6 +98,17 @@
     ],
     "name": "Aerial Performance Optimizer",
     "flavor": "Enhance your jet pack or jump jet armor modification with an advanced aerial lubricant and stabilizer.",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "+2 w/ Jump Jet or Jetpack",
+        "moreInfo": {
+          "model": "mods",
+          "id": "aerial-performance-optimizer"
+        }
+      }
+    ],
     "html": "<p>Requires a Jump Jet or Jetpack mod also be installed. When you are hovering (via Jump Jets) or flying (via Jetpack), you have a +2 bonus to all attack and damage rolls.</p>\n",
     "id": "aerial-performance-optimizer"
   },
@@ -249,6 +261,14 @@
     ],
     "name": "Basic Shoulder Mounts",
     "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "proficient": true,
+        "slots": 2,
+        "max": 2
+      }
+    ],
     "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two\nranged weapons that do not have the two-handed property. You must be proficient with any weapons you equip.\nThis is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
     "id": "basic-shoulder-mounts"
   },
@@ -639,6 +659,13 @@
     ],
     "name": "Elite Heavy Shoulder Mounts",
     "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "slots": 4,
+        "max": 2
+      }
+    ],
     "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons.\nThis is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
     "id": "elite-heavy-shoulder-mounts"
   },
@@ -986,6 +1013,14 @@
     ],
     "name": "Heavy Shoulder Mounts",
     "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "proficient": true,
+        "slots": 4,
+        "max": 2
+      }
+    ],
     "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons You must be\nproficient with any weapons you equip. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
     "id": "heavy-shoulder-mounts"
   },
