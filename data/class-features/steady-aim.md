@@ -15,6 +15,7 @@ mechanics:
               value: 2
             - type: level
               value: infiltrator
+              multiplier: 0.5
     resource:
       reset: short
       max:
