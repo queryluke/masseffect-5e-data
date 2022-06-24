@@ -38,37 +38,6 @@ whenable:
   value: @bonus
   # or any other mechanic type
 
-companion:
-  name: string
-  type: string
-  profBonus: 2
-  abilityScores:
-    str: integer
-    dex: integer
-    con: integer
-    wis: integer
-    int: integer
-  hp:
-    dieCount: integer
-    dieType: integer
-    bonus: @bonus
-  savingThrows:
-    str:
-      proficient: boolean
-      bonus: @bonus
-  irv:
-    - type: enum [resistance, immunity, condition-immunity, vulnerability]
-      value: [enum, string]
-  senses:
-    - sense: [enum senses]
-      distance: integer
-      note: string
-  speeds:
-    - speed: [enum speeds]
-      distance: integer
-      note: string
-
-
 # bonus
 bonus:
   type: enum [flat, mod, proficiency, level, hp, progressive, progressionColumn, modComparison, dice]
@@ -185,10 +154,11 @@ mechanics:
   - type: resistance
     value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
+  # condition immunities
   - type: condition-immunity
     value: enum or false #false used when the type is "special" for oddballs like "falling damage"
     note: string #optional, appends to damage type as a caveat or used to display text for special damage types
-# Saving Throws, skill checks
+# Saving Throws
   - type: saving-throw
     against: array
     value: enum [abilities]
@@ -202,6 +172,7 @@ mechanics:
     value: enum [skills]
     valueLookup: @valueLookup
     effect: @effect
+# Passive skills
   - type: passive
     value: enum @skills
     bonus: @bonus
@@ -221,8 +192,6 @@ mechanics:
     sense: enum [senses]
     distance: integer
     note: string
-# Unique
-  - type: regain-all-hit-dice
 # Attacks
   - type: natural-weapon
     replacesUnarmedStrike: # boolean
@@ -239,8 +208,7 @@ mechanics:
     value:
       damage: @damage
       notes: array of strings
-
-# Actions, Bonus Actions, and Reactions
+# Actions, Bonus Actions, Reactions, Other
   - type: enum [action, bonus-action, reaction, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
     toggle: @toggle
@@ -280,7 +248,7 @@ mechanics:
       bind: object
       model: string
       id: string
-  # Model Choice
+# Model Choice (feats, edges, etc)
   - type: model-choice
     options: true
     label: string
@@ -289,7 +257,7 @@ mechanics:
       - attr: string
         value: []
     append: any
-  # Augments
+# Augments
   - type: augment
     value: # or value lookup
       model: enum
@@ -298,6 +266,7 @@ mechanics:
       instances: 0
     merge:
       @type
+# Attack Augments
   - type: attack-augment, bf-augment, twf-augment, dt-augment
     augment: enum [attack,damage,dc,notes]
     limits:
@@ -305,98 +274,98 @@ mechanics:
       model: enum [weapons,powers]
       modelType: [enum [weapon types, power types]]
     value: array or @bonus
-  - type: global-attack-note
+# Global Notes
+  - type: global-note
+    subType: enum [power, attack, defenses]
     attack: enum [melee, ranged]
-    value: array
-  - type: global-power-note
-    name: string
+    value: string
     moreInfo:
       model: string
       id: string
-- type: powercasting-slots
-  multiclassConversion: float (default 1)
-  known: array or false
-  prepared:
-    levelMultiplier: float
-    modBonus: boolean
-  slots:
-    1: array
-    2: array
-    3: array
-    4: array
-    5: array
-  mod: enum @abilities
-- type: powercasting-points
-  multiclassConversion: float (default 1)
-  known: array or false
-  prepared:
-    levelMultiplier: float
-    modBonus: boolean
-  points: array
-  limit: array
-  mod: enum @abilities
-- type: powercasting-pact
-  multiclassConversion: float (default 1)
-  known: array or false
-  prepared:
-    levelMultiplier: float
-    modBonus: boolean
-  slotLevel: array
-  numSlots: array
-  mod: enum @abilities
-- type: cantrips
-  columnName: string (default Cantrips)
-  known: array
-- type: barrier
-  multiclassConversion: float (default 1)
-  ticks: array
-  uses: array
-  dieType: int
-  dieCount: int
-- type: additional-cantrips
-  bonus: @bonus
+# Powercasting
+  # slots
+  - type: powercasting-slots
+    multiclassConversion: float (default 1)
+    known: array or false
+    prepared:
+      levelMultiplier: float
+      modBonus: boolean
+    slots:
+      1: array
+      2: array
+      3: array
+      4: array
+      5: array
+    mod: enum @abilities
+  # points
+  - type: powercasting-points
+    multiclassConversion: float (default 1)
+    known: array or false
+    prepared:
+      levelMultiplier: float
+      modBonus: boolean
+    points: array
+    limit: array
+    mod: enum @abilities
+  # pact
+  - type: powercasting-pact
+    multiclassConversion: float (default 1)
+    known: array or false
+    prepared:
+      levelMultiplier: float
+      modBonus: boolean
+    slotLevel: array
+    numSlots: array
+    mod: enum @abilities
+# cantrips
+  - type: cantrips
+    columnName: string (default Cantrips)
+    known: array
+  - type: additional-cantrips
+    bonus: @bonus
+# barrier
+  - type: barrier
+    multiclassConversion: float (default 1)
+    ticks: array
+    uses: array
+    dieType: int
+    dieCount: int
+# Extra Attack
+  # regular
+  - type: extra-attack # highest of all of these
+    value: int
+  # additive
+  - type: extra-attack-add # adds 1 to the extra attack total
+# Power resource recovery
+  - type: power-resource-recovery
+    dieCount: int
+    dieType: int
+    bonus: @bonus
+    limit: enum [points, slots]
+    label: string
+    maxSlot: int
+# Unique
+  - type: regain-all-hit-dice
 
 
-# TODO
-# Idea replacement for attack-augment, *-augment (TODO for weapon/action card refactor)
-- type: action-augment
-  augments: enum [dc, hit, damage, notes, heat]
-  limits:
-    attackRange: enum [melee, ranged, false]
-    attackType: enum [weapon, power, false]
-    attackSubType: enum [weapon types or power types]
-- type: companion
-  options:
-    - @companion
+# NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod
 - type: featherlight
 - type: melee-gunner #twf w/ two-handed weapon if other is gun strike and other is omni-tool?
-
-# NOT IMPLEMENTED
-- type: extra-attack # highest of all of these
-  amount: int
-  additive: boolean #default false
 - type: nullify-armor-str-restriction # Do not check for STR requirements of armor (to reduce speed by 10)
-- type: reroll-damage # can replace attack-augment, elemental adept & carnage, auto-reroll (need to figure out auto rerolling)
-  attackLimit: @attackLimit
-  damageTypeLimit: enum damages
-  min: int #default 1
-- type: conditional-attack-bonus # displays an icon with a list of all conditional attack bonuses (potentially armor piercing, might be others)
-  attackLimit: @attackLimit
-  bonus: @bonus
-- type: conditional-damage-bonus # displays an icon with a list of all conditional damage bonus options
-  attackLimit: @attackLimit
-  bonus: @bonus
-  damageType: enum damage types
-- type: starting-equipment
-  equipmentType: enum [weapon, armor, omni-gel, medi-gel, hw-charges, tool]
-  value: string or int
 - type: medium-armor-master # seems worthless cause in me5e medium armor
 - type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
 - type: imprinted-enemies # can be model choice
 - type: advanced-medigel-application #d6 for medigel
-- type: toggle # potential toggle that overrides/appends other states, i.e. hunter mode + 2 speed, disadvantage on addition saves
+
+# IDEAS
+- type: companion
+  options:
+    - @companion
+- type: reroll-damage # can replace attack-augment, elemental adept & carnage, auto-reroll (need to figure out auto rerolling)
+- type: conditional-attack-bonus # displays an icon with a list of all conditional attack bonuses (potentially armor piercing, might be others)
+- type: conditional-damage-bonus # displays an icon with a list of all conditional damage bonus options
 ---
 
 - [ ] A link to omni-gel for hermetic and pressurized suit...could be a resource with type omni-gel,

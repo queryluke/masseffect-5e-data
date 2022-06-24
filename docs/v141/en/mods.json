@@ -113,6 +113,7 @@
     "id": "aerial-performance-optimizer"
   },
   {
+    "name": "Amplifier Plates",
     "rarity": "rare",
     "type": "armor",
     "cost": 12000,
@@ -126,12 +127,22 @@
       "medium",
       "heavy"
     ],
-    "name": "Amplifier Plates",
     "flavor": "Includes an internal micro-control system to maximize resources.",
+    "mechanics": [
+      {
+        "type": "power-augment",
+        "augment": "damage",
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>+1 bonus to power damage rolls</p>\n",
     "id": "amplifier-plates"
   },
   {
+    "name": "Archon AI",
     "rarity": "spectre",
     "type": "armor",
     "cost": 30000,
@@ -145,8 +156,15 @@
       "medium",
       "heavy"
     ],
-    "name": "Archon AI",
     "flavor": "An efficient algorithm to balance processing power for biotic amps and omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cooldown period between energy expenditures.",
+    "mechanics": [
+      {
+        "type": "power-resource-recovery",
+        "dieCount": 1,
+        "dieType": 4,
+        "label": "Archon AI"
+      }
+    ],
     "html": "<p>You regain 1d4 worth of power slots or tech points when you take a short rest.</p>\n",
     "id": "archon-ai"
   },
@@ -166,6 +184,15 @@
     ],
     "name": "Asymmetric Defense Layer",
     "flavor": "Offering increased protection where it's needed most, Rosenkov Materials' proprietary coating process increases stopping power of standard ceramic armor.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
     "html": "<p>+2 AC</p>\n",
     "id": "asymmetric-defense-layer"
   },
@@ -185,6 +212,21 @@
     ],
     "name": "Autogel",
     "flavor": "Microprocessors in this interface monitor vital functions and release small localized doses of medi-gel to accelerate the healing process. Manually timed heavy doses of medi-gel can be released in response to major trauma.",
+    "mechanics": [
+      {
+        "name": "Autogel",
+        "moreInfo": {
+          "model": "mods",
+          "id": "autogel"
+        },
+        "type": "reaction",
+        "resource": {
+          "displayType": "medi-gel",
+          "id": "autogel"
+        },
+        "shortDesc": "When you lose hit points, you may use one medi-gel on yourself."
+      }
+    ],
     "html": "<p>When you lose hit points, as a reaction, you may expend a charge of medi-gel.</p>\n",
     "id": "autogel"
   },
