@@ -10,78 +10,22 @@ subsets:
     rarity: common
     cost: 200
     name: Standard Medi-gel
-    mechanics:
-      - type: action
-        resource:
-          id: medi-gel-common
-          displayType: medi-gel
-          reset: 'off'
-          label: 'standard medi-gel'
-        damage:
-          - dieCount: 2
-            dieType: 4
-            type: hp
-            bonus:
-              type: flat
-              value: 2
-        shortDesc: You or a willing creature within <me-distance length="5" /> regains {{ damage }} hit points.
+    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 2d4 + 2 hit points. Administering the medi-gel takes an action.
   - id: medi-gel-enhanced
     rarity: uncommon
     cost: 500
     name: Enhanced Medi-gel
-    mechanics:
-      - type: action
-        resource:
-          id: medi-gel-uncommon
-          displayType: medi-gel
-          reset: 'off'
-          label: 'enhanced medi-gel'
-        damage:
-          - dieCount: 4
-            dieType: 4
-            type: hp
-            bonus:
-              type: flat
-              value: 4
-        shortDesc: You or a willing creature within <me-distance length="5" /> regains {{ damage }} hit points.
+    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 4d4 + 4 hit points. Administering the medi-gel takes an action.
   - id: medi-gel-superior
     rarity: rare
     cost: 1500
     name: Superior Medi-gel
-    mechanics:
-      - type: action
-        resource:
-          id: medi-gel-superior
-          displayType: medi-gel
-          reset: 'off'
-          label: 'superior medi-gel'
-        damage:
-          - dieCount: 8
-            dieType: 4
-            type: hp
-            bonus:
-              type: flat
-              value: 8
-        shortDesc: You or a willing creature within <me-distance length="5" /> regains {{ damage }} hit points.
+    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 8d4 + 8 hit points. Administering the medi-gel takes an action.
   - id: medi-gel-ultimate
     rarity: spectre
     cost: military
     name: Ultimate Medi-gel
-    mechanics:
-      - type: action
-        resource:
-          id: medi-gel-ultimate
-          displayType: medi-gel
-          reset: 'off'
-          label: 'standard medi-gel'
-        damage:
-          - dieCount: 10
-            dieType: 4
-            type: hp
-            bonus:
-              type: flat
-              value: 20
-        shortDesc: You or a willing creature within <me-distance length="5" /> regains {{ damage }} hit points.
+    html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 10d4 + 20 hit points. Administering the medi-gel takes an action.
 ---
 >Medi-gel (medical gel) is an all-purpose medicinal salve combining an anaesthetic and clotting agent used by paramedics,
 EMTs, and military personnel, produced by the Sirta Foundation. It heals various wounds and ailments, instantly sealing
