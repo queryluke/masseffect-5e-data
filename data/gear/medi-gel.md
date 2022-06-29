@@ -17,12 +17,12 @@ subsets:
         group: Medi-gel
         resource:
           id: medi-gel-standard
-          displayType: medi-gel
-          medigelType: standard
+          displayType: gear-consumable
         shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 2
             dieType: 4
+            type: hp
             bonus:
               type: flat
               value: 2
@@ -39,12 +39,12 @@ subsets:
         name: Enhanced Medi-gel
         resource:
           id: medi-gel-enhanced
-          displayType: medi-gel
-          medigelType: enhanced
+          displayType: gear-consumable
         shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 4
             dieType: 4
+            type: hp
             bonus:
               type: flat
               value: 4
@@ -61,12 +61,12 @@ subsets:
         name: Superior Medi-gel
         resource:
           id: medi-gel-superior
-          displayType: medi-gel
-          medigelType: superior
+          displayType: gear-consumable
         shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 8
             dieType: 4
+            type: hp
             bonus:
               type: flat
               value: 8
@@ -83,12 +83,12 @@ subsets:
         name: Ultimate Medi-gel
         resource:
           id: medi-gel-ultimate
-          displayType: medi-gel
-          medigelType: ultimate
+          displayType: gear-consumable
         shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 10
             dieType: 4
+            type: hp
             bonus:
               type: flat
               value: 20
