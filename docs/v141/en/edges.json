@@ -3522,19 +3522,9 @@
         "type": "asi",
         "amount": 2,
         "ability": "int"
-      },
-      {
-        "type": "sense",
-        "sense": "infrared-vision",
-        "distance": 60
-      },
-      {
-        "type": "sense",
-        "sense": "darkvision",
-        "distance": 60
       }
     ],
-    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT</p><div class=\"text-subtitle-1\">Senses</div><p>infrared-vision <me-distance length=\"60\" />, darkvision <me-distance length=\"60\" /></p>",
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT</p>",
     "type": "exalted-lineages"
   },
   {

@@ -12,7 +12,8 @@
 
 # resource (e.g., x per rest)
 resource:
-  displayType: enum [heat, counter, checkbox, hit-dice] # default checkbox
+  displayType: enum [heat, counter, checkbox, hit-dice, omni-gel, barrier, barrier-ticks, medi-gel] # default checkbox
+  medigelType: string # medigel only
   reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
   max: @bonus
@@ -211,6 +212,7 @@ mechanics:
 # Actions, Bonus Actions, Reactions, Other
   - type: enum [action, bonus-action, reaction, other] # simply indicates where to render on the character sheet
     resource: @resource #optional, default null
+    name: string # custom name
     toggle: @toggle
     range:
       short: integer (0 = self, touch = 1)

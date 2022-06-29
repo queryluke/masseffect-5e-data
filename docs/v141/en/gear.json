@@ -1,15 +1,32 @@
 [
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "uncommon",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Active_Camo.exe",
-    "html": "<p>The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use an action toggle this effect off or on as a free action.</p>\n",
+    "installation": true,
+    "mechanics": [
+      {
+        "type": "bonus_action",
+        "shortDesc": "When on, Wisdom (Perception) checks made to see you have disadvantage and you have advantage on Dexterity (Stealth) checks made to hide.",
+        "toggle": {
+          "id": "active-camo-exe",
+          "whenOn": [
+            {
+              "type": "skill-check",
+              "value": "stealth",
+              "effect": {
+                "type": "advantage",
+                "note": "to hide"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use a bonus action to toggle this effect on or off.</p>\n",
     "id": "active-camo-exe"
   },
   {
@@ -312,6 +329,7 @@
     "cost": 82000,
     "weight": 24,
     "subType": "",
+    "charges": 4,
     "name": "Cobra Missile Launcher",
     "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.</p>\n",
     "id": "cobra-missile-launcher"
@@ -596,6 +614,7 @@
     "cost": 40000,
     "weight": 14,
     "subType": "",
+    "charges": 3,
     "name": "Geth Spitfire",
     "html": "<p>As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.</p>\n",
     "id": "geth-spitfire"
@@ -834,6 +853,7 @@
     "cost": 20500,
     "weight": 12,
     "subType": "",
+    "charges": 12,
     "name": "M-100 Grenade Launcher",
     "html": "<p>Target an area within <me-distance length=\"90\" /> that you can see and fire a grenade at it. Each creature\nwithin a <me-distance length=\"10\" adj /> radius sphere must make a DC 14 Dexterity saving throw.\nOn a failed save a creature takes 3d6 thunder damage or half as much on a successful one.</p>\n",
     "id": "m-100-grenade-launcher"
@@ -851,6 +871,7 @@
     "cost": 24000,
     "weight": 12,
     "subType": "",
+    "charges": 10,
     "name": "M-451 Firestorm",
     "html": "<p>Sweep fire across the battlefield. Creatures within a <me-distance length=\"15\" /> cone originating from you must make a\nDC 13 Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage, or half as much damage on a successful one.</p>\n",
     "id": "m-451-firestorm"
@@ -868,6 +889,7 @@
     "cost": 76000,
     "weight": 24,
     "subType": "",
+    "charges": 1,
     "name": "M-560 Hydra",
     "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you\nremain targeting until the start of your next turn, fire a unique missile that automatically hits the target .\nThe missile deploys 3 shaped charges. The first disrupts any barriers or shields, completely removing all barrier ticks\nand shield points. The second charge cripples armor; the creature's AC is reduced by 3 for the next hour. The final charge\nexplodes and the creature must make a DC 18 Constitution saving throw. On a failed save the creature takes 4d12 thunder\ndamage or half as much on a successful one.</p>\n",
     "id": "m-560-hydra"
@@ -885,6 +907,7 @@
     "cost": 68000,
     "weight": 22,
     "subType": "",
+    "charges": 10,
     "name": "M-597 Landon",
     "html": "<p>As an Attack, begin targeting, choosing up to 10 creatures within <me-distance length=\"300\" />. If you remain targeting\nuntil the start of your next turn, launch a miniature missile at each target, dealing 4d8 thunder damage. Each missile\nused consumes a weapon charge.</p>\n",
     "id": "m-597-landon"
@@ -902,6 +925,7 @@
     "cost": 82500,
     "weight": 22,
     "subType": "",
+    "charges": 5,
     "name": "M-920 Cain",
     "html": "<p>As an Attack, choose a location within <me-distance length=\"300\" /> and begin targeting. If you remain targeting until\nthe start of your next turn, you can choose to continue targeting, consuming another charge, or you may use an Attack\nto fire the Cain. When fired, any creature within <me-distance length=\"5\" /> of the target location automatically fails\nthe saving throw. Creatures within <me-distance length=\"30\" /> of the target make a DC 18 Dexterity saving throw.\nOn a failed save, a creature takes X + 5d12 radiant damage where X is the number of charges you used multiplied by 2.\nOn a success, a creature takes half damage.</p>\n",
     "id": "m-920-cain"
@@ -915,32 +939,136 @@
     "subType": "",
     "subsets": [
       {
-        "id": "medi-gel-common",
+        "id": "medi-gel-standard",
         "rarity": "common",
         "cost": 200,
         "name": "Standard Medi-gel",
-        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 2d4 + 2 hit points. Administering the medi-gel takes an action."
+        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 2d4 + 2 hit points. Administering the medi-gel takes an action.",
+        "mechanics": [
+          {
+            "type": "action",
+            "name": "Standard Medi-gel",
+            "group": "Medi-gel",
+            "resource": {
+              "id": "medi-gel-standard",
+              "displayType": "medi-gel",
+              "medigelType": "standard"
+            },
+            "shortDesc": "Regain {{ damage }} hit points.",
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 4,
+                "bonus": {
+                  "type": "flat",
+                  "value": 2
+                }
+              }
+            ],
+            "range": {
+              "short": 5
+            }
+          }
+        ]
       },
       {
         "id": "medi-gel-enhanced",
         "rarity": "uncommon",
         "cost": 500,
         "name": "Enhanced Medi-gel",
-        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 4d4 + 4 hit points. Administering the medi-gel takes an action."
+        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 4d4 + 4 hit points. Administering the medi-gel takes an action.",
+        "mechanics": [
+          {
+            "type": "action",
+            "group": "Medi-gel",
+            "name": "Enhanced Medi-gel",
+            "resource": {
+              "id": "medi-gel-enhanced",
+              "displayType": "medi-gel",
+              "medigelType": "enhanced"
+            },
+            "shortDesc": "Regain {{ damage }} hit points.",
+            "damage": [
+              {
+                "dieCount": 4,
+                "dieType": 4,
+                "bonus": {
+                  "type": "flat",
+                  "value": 4
+                }
+              }
+            ],
+            "range": {
+              "short": 5
+            }
+          }
+        ]
       },
       {
         "id": "medi-gel-superior",
         "rarity": "rare",
         "cost": 1500,
         "name": "Superior Medi-gel",
-        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 8d4 + 8 hit points. Administering the medi-gel takes an action."
+        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 8d4 + 8 hit points. Administering the medi-gel takes an action.",
+        "mechanics": [
+          {
+            "type": "action",
+            "group": "Medi-gel",
+            "name": "Superior Medi-gel",
+            "resource": {
+              "id": "medi-gel-superior",
+              "displayType": "medi-gel",
+              "medigelType": "superior"
+            },
+            "shortDesc": "Regain {{ damage }} hit points.",
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 4,
+                "bonus": {
+                  "type": "flat",
+                  "value": 8
+                }
+              }
+            ],
+            "range": {
+              "short": 5
+            }
+          }
+        ]
       },
       {
         "id": "medi-gel-ultimate",
         "rarity": "spectre",
         "cost": "military",
         "name": "Ultimate Medi-gel",
-        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 10d4 + 20 hit points. Administering the medi-gel takes an action."
+        "html": "You may administer this medi-gel to yourself or a willing creature within <me-distance length=\"5\" /> to regain 10d4 + 20 hit points. Administering the medi-gel takes an action.",
+        "mechanics": [
+          {
+            "type": "action",
+            "group": "Medi-gel",
+            "name": "Ultimate Medi-gel",
+            "resource": {
+              "id": "medi-gel-ultimate",
+              "displayType": "medi-gel",
+              "medigelType": "ultimate"
+            },
+            "shortDesc": "Regain {{ damage }} hit points.",
+            "damage": [
+              {
+                "dieCount": 10,
+                "dieType": 4,
+                "bonus": {
+                  "type": "flat",
+                  "value": 20
+                }
+              }
+            ],
+            "range": {
+              "short": 5
+            }
+          }
+        ]
       }
     ],
     "html": "<v-card class=\"blockquote-card\"><v-card-text><p>Medi-gel (medical gel) is an all-purpose medicinal salve combining an anaesthetic and clotting agent used by paramedics,\nEMTs, and military personnel, produced by the Sirta Foundation. It heals various wounds and ailments, instantly sealing\ninjuries against infection and allowing for rapid healing by having the gel grip tight to flesh until subjected to a frequency\nof ultrasound. It is sealable against liquids - most notably blood - as well as contaminants and gases.</p>\n</v-card-text></v-card><p><strong>Use</strong>. When you use this item, you or a willing, organic creature within <me-distance length=\"5\" /> regains hit points equal to the medi-gel's potency.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Type</th>\n<th>Rarity</th>\n<th>Credits</th>\n<th>HP Regained</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Standard</td>\n<td>Common</td>\n<td>200 credits</td>\n<td>2d4 + 2</td>\n</tr>\n<tr>\n<td>Enhanced</td>\n<td>Uncommon</td>\n<td>500 credits</td>\n<td>4d4 + 4</td>\n</tr>\n<tr>\n<td>Superior</td>\n<td>Rare</td>\n<td>1,500 credits</td>\n<td>8d4+8</td>\n</tr>\n<tr>\n<td>Ultimate</td>\n<td>Very Rare</td>\n<td>Military</td>\n<td>10d4 + 20</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
@@ -969,6 +1097,7 @@
     "cost": 29500,
     "weight": 20,
     "subType": "",
+    "charges": 6,
     "name": "ML-77 Missile Launcher",
     "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If\nyou remain targeting until the start of your next turn, fire a missile at the target. Each creature within a\n<me-distance length=\"10\" adj /> cube centered on the target must make a DC 14 Dexterity saving throw. On a failed save a\ncreature takes 6d12 thunder damage or half as much on a successful one.</p>\n",
     "id": "ml-77-missile-launcher"
@@ -1196,6 +1325,7 @@
     "cost": 132500,
     "weight": 24,
     "subType": "",
+    "charges": 1,
     "name": "Reaper Blackstar",
     "html": "<p>As an Attack, choose a creature within <me-distance length=\"300\" /> that you can see and begin targeting. If you remain\ntargeting until the start of your next turn, fire a sub-atomic particle beam at the target, dealing 15d10 necrotic damage.\nThis weapon counts as a Small Reaper Tech and can cause creatures to become indoctrinated.</p>\n",
     "id": "reaper-blackstar"
@@ -1397,6 +1527,7 @@
     "cost": 82000,
     "weight": 18,
     "subType": "",
+    "charges": 2,
     "name": "Sync Laser",
     "html": "<p>As an Attack, choose a <me-distance length=\"30\" adj num-only />-by-<me-distance length=\"60\" adj /> rectangle and begin\ntargeting. If you remain targeting until the start of your next turn, call down an orbital strike at the target location.\nEach creature within the rectangle must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 8d12\nthunder damage. On a success, a creature takes half damage.</p>\n",
     "id": "sync-laser"

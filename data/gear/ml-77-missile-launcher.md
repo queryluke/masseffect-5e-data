@@ -11,4 +11,5 @@ type: heavy_weapon
 cost: 29500
 weight: 20
 subType: ''
+charges: 6
 ---
