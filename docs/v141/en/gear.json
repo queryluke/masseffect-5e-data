@@ -7,9 +7,15 @@
     "subType": "",
     "name": "Active_Camo.exe",
     "installation": true,
+    "equippable": true,
     "mechanics": [
       {
-        "type": "bonus_action",
+        "name": "Active_Camo.exe",
+        "moreInfo": {
+          "model": "gear",
+          "id": "active-camo-exe"
+        },
+        "type": "bonus-action",
         "shortDesc": "When on, Wisdom (Perception) checks made to see you have disadvantage and you have advantage on Dexterity (Stealth) checks made to hide.",
         "toggle": {
           "id": "active-camo-exe",
@@ -30,92 +36,492 @@
     "id": "active-camo-exe"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "uncommon",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "All_Terrain.exe",
-    "html": "<p>You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>\n",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "name": "All_Terrain.exe",
+        "moreInfo": {
+          "model": "gear",
+          "id": "all-terrain-exe"
+        },
+        "type": "other",
+        "shortDesc": "When on, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.",
+        "toggle": {
+          "id": "all-terrain-exe",
+          "whenOn": [
+            {
+              "type": "skill-check",
+              "value": "athletics",
+              "effect": {
+                "type": "advantage",
+                "note": "to climb or swim"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain advantage on Strength (Athletics) checks made to climb or swim.</p>\n",
     "id": "all-terrain-exe"
   },
   {
-    "mechanics": {
-      "range": 30,
-      "blast": 10,
-      "damageType": "lightning",
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common",
-          "damage": "2d6",
-          "dc": 11
-        },
-        {
-          "mark": "II",
-          "rarity": "Common",
-          "damage": "2d6",
-          "dc": 13
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon",
-          "damage": "3d6",
-          "dc": 13
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon",
-          "damage": "3d6",
-          "dc": 15
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare",
-          "damage": "5d6",
-          "dc": 15
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare",
-          "damage": "5d6",
-          "dc": 17
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare",
-          "damage": "6d6",
-          "dc": 17
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare",
-          "damage": "6d6",
-          "dc": 18
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare",
-          "damage": "7d6",
-          "dc": 18
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre",
-          "damage": "8d6",
-          "dc": 19
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "arc-grenade-i",
+        "rarity": "common",
+        "cost": 1400,
+        "name": "Arc Grenade I",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 11 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade I",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-i",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 11,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-ii",
+        "rarity": "common",
+        "cost": 2400,
+        "name": "Arc Grenade II",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade II",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-ii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-iii",
+        "rarity": "uncommon",
+        "cost": 3100,
+        "name": "Arc Grenade III",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade III",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-iii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-iv",
+        "rarity": "uncommon",
+        "cost": 4100,
+        "name": "Arc Grenade IV",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-iv",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-v",
+        "rarity": "rare",
+        "cost": 5500,
+        "name": "Arc Grenade V",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 5d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade V",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-v",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-vi",
+        "rarity": "rare",
+        "cost": 6500,
+        "name": "Arc Grenade VI",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 5d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-vi",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-vii",
+        "rarity": "very_rare",
+        "cost": 7200,
+        "name": "Arc Grenade VII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 6d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-vii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-viii",
+        "rarity": "very_rare",
+        "cost": 7700,
+        "name": "Arc Grenade VIII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 18 Dexterity saving throw. A creature takes 6d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-ix",
+        "rarity": "very_rare",
+        "cost": 8400,
+        "name": "Arc Grenade IX",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 18 Dexterity saving throw. A creature takes 7d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-ix",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 7,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "arc-grenade-x",
+        "rarity": "spectre",
+        "cost": 9600,
+        "name": "Arc Grenade X",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 19 Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Arc Grenade X",
+            "group": "Grenades",
+            "resource": {
+              "id": "arc-grenade-x",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 6,
+                "type": "lightning"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 19,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common",
+        "damage": "2d6",
+        "dc": 11
+      },
+      {
+        "mark": "II",
+        "rarity": "Common",
+        "damage": "2d6",
+        "dc": 13
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon",
+        "damage": "3d6",
+        "dc": 13
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon",
+        "damage": "3d6",
+        "dc": 15
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare",
+        "damage": "5d6",
+        "dc": 15
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare",
+        "damage": "5d6",
+        "dc": 17
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare",
+        "damage": "6d6",
+        "dc": 17
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare",
+        "damage": "6d6",
+        "dc": 18
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare",
+        "damage": "7d6",
+        "dc": 18
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre",
+        "damage": "8d6",
+        "dc": 19
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
     "name": "Arc Grenade",
+    "consumable": true,
     "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nA creature takes lightning damage on a failed save, or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and cost.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d6</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d6</td>\n<td>7,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d6</td>\n<td>8,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d6</td>\n<td>9,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "arc-grenade"
   },
@@ -150,82 +556,466 @@
     "id": "brewers-supplies"
   },
   {
-    "mechanics": {
-      "range": 60,
-      "blast": 5,
-      "damageType": "thunder",
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common",
-          "damage": "1d12"
-        },
-        {
-          "mark": "II",
-          "rarity": "Common",
-          "damage": "2d12"
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon",
-          "damage": "3d12"
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon",
-          "damage": "4d12"
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare",
-          "damage": "5d12"
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare",
-          "damage": "6d12"
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare",
-          "damage": "7d12"
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare",
-          "damage": "8d12"
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare",
-          "damage": "9d12"
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre",
-          "damage": "10d12"
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "cain-trip-mine-i",
+        "rarity": "common",
+        "cost": 3300,
+        "name": "Cain Trip Mine I",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 1d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 11 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine I",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-i",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 1,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-ii",
+        "rarity": "common",
+        "cost": 4600,
+        "name": "Cain Trip Mine II",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 2d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine II",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-ii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-iii",
+        "rarity": "uncommon",
+        "cost": 5900,
+        "name": "Cain Trip Mine III",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 3d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 13 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine III",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-iii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-iv",
+        "rarity": "uncommon",
+        "cost": 7200,
+        "name": "Cain Trip Mine IV",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 4d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-iv",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 4,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-v",
+        "rarity": "rare",
+        "cost": 8500,
+        "name": "Cain Trip Mine V",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 5d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 15 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine V",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-v",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-vi",
+        "rarity": "rare",
+        "cost": 9800,
+        "name": "Cain Trip Mine VI",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 6d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-vi",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-vii",
+        "rarity": "very_rare",
+        "cost": 11100,
+        "name": "Cain Trip Mine VII",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 7d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 17 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-vii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 7,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-viii",
+        "rarity": "very_rare",
+        "cost": 12400,
+        "name": "Cain Trip Mine VIII",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 8d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-ix",
+        "rarity": "very_rare",
+        "cost": 13700,
+        "name": "Cain Trip Mine IX",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 9d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 18 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-ix",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 9,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cain-trip-mine-x",
+        "rarity": "spectre",
+        "cost": 13700,
+        "name": "Cain Trip Mine X",
+        "html": "Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects a <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates and each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must make a DC 15 Dexterity saving throw. A creature suffers 10d12 thunder damage on a failed save or half as much damage on a successful one. The mine can be found with a DC 13 Wisdom (Perception) check and disarmed with a DC 19 Intelligence (Electronics) check. If a creature fails to disarm the mine, it detonates. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cain Trip Mine IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "cain-trip-mine-ix",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 10,
+                "dieType": 12,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 60,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common",
+        "damage": "1d12"
+      },
+      {
+        "mark": "II",
+        "rarity": "Common",
+        "damage": "2d12"
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon",
+        "damage": "3d12"
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon",
+        "damage": "4d12"
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare",
+        "damage": "5d12"
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare",
+        "damage": "6d12"
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare",
+        "damage": "7d12"
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare",
+        "damage": "8d12"
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare",
+        "damage": "9d12"
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre",
+        "damage": "10d12"
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
     "name": "Cain Trip Mine",
-    "html": "<p>Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects\na <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.</p>\n<p>A creature can spot the mine with a successful DC 13 Wisdom (Perception) check.</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.</p>\n<p>The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>3,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>4,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>4d12</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>9,800 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>7d12</td>\n<td>11,100 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>8d12</td>\n<td>12,400 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>9d12</td>\n<td>13,700 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>10d12</td>\n<td>15,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "consumable": true,
+    "html": "<p>Launch a Cain Trip Mine to a point you can see within <me-distance length=\"60\" />. The mine affixes to a solid surface and projects\na <me-distance length=\"15\" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.</p>\n<p>A creature can spot the mine with a successful DC 13 Wisdom (Perception) check.</p>\n<p>To disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.</p>\n<p>When the mine detonates, each creature within a <me-distance length=\"10\" adj/>-radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.</p>\n<p>The mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Intelligence (Electronics) DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>3,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>4,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>4d12</td>\n<td>7,200 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>9,800 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>7d12</td>\n<td>11,100 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>8d12</td>\n<td>12,400 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>9d12</td>\n<td>13,700 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>10d12</td>\n<td>15,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "cain-trip-mine"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Cardio_Muscular_Optimizer.exe",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "type": "asi-minimum",
+        "ability": "con",
+        "minimum": 19
+      }
+    ],
     "html": "<p>A program that syncs up with the user's VI to run a full-body performance optimizer. Your Constitution score is 19 while\nyou are running this program. It has no effect if your Constitution score is already 19 or higher.</p>\n",
     "id": "cardio-muscular-optimizer-exe"
   },
@@ -250,100 +1040,509 @@
     "id": "chess-set"
   },
   {
-    "mechanics": {
-      "range": 30,
-      "blast": 15,
-      "damageType": "thunder",
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common",
-          "damage": "2d6"
-        },
-        {
-          "mark": "II",
-          "rarity": "Common",
-          "damage": "2d6"
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon",
-          "damage": "3d6"
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon",
-          "damage": "3d6"
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare",
-          "damage": "5d6"
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare",
-          "damage": "5d6"
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare",
-          "damage": "6d6"
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare",
-          "damage": "6d6"
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare",
-          "damage": "7d6"
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre",
-          "damage": "8d6"
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "cluster-grenade-i",
+        "rarity": "common",
+        "cost": 2400,
+        "name": "Cluster Grenade I",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade I",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-i",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-ii",
+        "rarity": "common",
+        "cost": 3400,
+        "name": "Cluster Grenade II",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade II",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-ii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-iii",
+        "rarity": "uncommon",
+        "cost": 4100,
+        "name": "Cluster Grenade III",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade III",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-iii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-iv",
+        "rarity": "uncommon",
+        "cost": 5100,
+        "name": "Cluster Grenade IV",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-iv",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-v",
+        "rarity": "rare",
+        "cost": 6500,
+        "name": "Cluster Grenade V",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade V",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-v",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-vi",
+        "rarity": "rare",
+        "cost": 7500,
+        "name": "Cluster Grenade VI",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 19 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-vi",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 19,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-vii",
+        "rarity": "very_rare",
+        "cost": 8200,
+        "name": "Cluster Grenade VII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 19 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-vii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 19,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-viii",
+        "rarity": "very_rare",
+        "cost": 9200,
+        "name": "Cluster Grenade VIII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 21 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 21,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-ix",
+        "rarity": "very_rare",
+        "cost": 9900,
+        "name": "Cluster Grenade IX",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 21 Dexterity saving throw. A creature takes 7d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-ix",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 7,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 21,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-grenade-x",
+        "rarity": "spectre",
+        "cost": 11600,
+        "name": "Cluster Grenade X",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a DC 23 Dexterity saving throw. A creature takes 8d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Cluster Grenade X",
+            "group": "Grenades",
+            "resource": {
+              "id": "cluster-grenade-x",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 23,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 15,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common",
+        "damage": "2d6"
+      },
+      {
+        "mark": "II",
+        "rarity": "Common",
+        "damage": "2d6"
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon",
+        "damage": "3d6"
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon",
+        "damage": "3d6"
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare",
+        "damage": "5d6"
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare",
+        "damage": "5d6"
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare",
+        "damage": "6d6"
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare",
+        "damage": "6d6"
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare",
+        "damage": "7d6"
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre",
+        "damage": "8d6"
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
     "name": "Cluster Grenade",
+    "consumable": true,
     "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"15\" /> of the target must make a Dexterity saving throw.\nA creature takes thunder damage on a failed save, or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>13</td>\n<td>2d6</td>\n<td>2,400 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>15</td>\n<td>2d6</td>\n<td>3,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d6</td>\n<td>4,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>17</td>\n<td>3d6</td>\n<td>5,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d6</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>19</td>\n<td>5d6</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>6d6</td>\n<td>8,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>21</td>\n<td>6d6</td>\n<td>9,200 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>21</td>\n<td>7d6</td>\n<td>9,900 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>23</td>\n<td>8d6</td>\n<td>11,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "cluster-grenade"
   },
   {
-    "mechanics": {
-      "damage": "8d12",
-      "range": 300,
-      "damageType": "thunder",
-      "rounds": 4,
-      "image": "https://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543"
-    },
+    "mechanics": [
+      {
+        "name": "Cobra Missile Launcher",
+        "moreInfo": {
+          "model": "gear",
+          "id": "cobra-missile-launcher"
+        },
+        "type": "action",
+        "layout": "attack",
+        "group": "Heavy Weapons",
+        "resource": {
+          "id": "cobra-missile-launcher",
+          "max": {
+            "type": "flat",
+            "value": 4
+          },
+          "reset": "manual",
+          "label": "charges"
+        },
+        "damage": [
+          {
+            "dieCount": 8,
+            "dieType": 12,
+            "type": "thunder"
+          }
+        ],
+        "range": {
+          "short": 300
+        }
+      }
+    ],
+    "image": "https://vignette2.wikia.nocookie.net/masseffect/images/f/f9/ME3_Hydra_Heavy_Weapon.png/revision/latest?cb=20120317194543",
     "rarity": "rare",
     "type": "heavy_weapon",
     "cost": 82000,
     "weight": 24,
     "subType": "",
     "charges": 4,
+    "equippable": true,
     "name": "Cobra Missile Launcher",
-    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.</p>\n",
+    "html": "<p>As an Attack, choose a creature within <me-distance length=\"150\" /> that you can see and begin targeting. If you remain\ntargeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.</p>\n",
     "id": "cobra-missile-launcher"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Cognition_Booster.exe",
+    "installation": true,
+    "mechanics": [
+      {
+        "type": "asi-minimum",
+        "ability": "int",
+        "minimum": 19
+      }
+    ],
     "html": "<p>This program diverts positive energy from your omni-tool to the nerve clusters in your brain, accelerating your thought\nprocesses and critical thinking. Your Intelligence score becomes 19 while this program is active. If your Intelligence\nis equal to or higher than 19, this program has no effect.</p>\n",
     "id": "cognition-booster-exe"
   },
@@ -358,16 +1557,27 @@
     "id": "cooks-utensils"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Deflector_Array.exe",
-    "html": "<p>Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.</p>\n<p>The user gains +2 to AC while not wearing Medium or Heavy Armor, or using a Riot Shield. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)</p>\n",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        },
+        "limit": [
+          "light"
+        ]
+      }
+    ],
+    "html": "<p>Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.</p>\n<p>The user gains +2 to AC while not wearing Medium or Heavy Armor. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)</p>\n",
     "id": "deflector-array-exe"
   },
   {
@@ -381,68 +1591,153 @@
     "id": "disguise-kit"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Distortion_Veil.exe",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Distortion Veil"
+      }
+    ],
     "html": "<p>While this program is active, highly-synced, micro-holo projectors blur the user's visual image and electromagnetic\npresence on non-IFF'd sensors. This causes attack rolls against the user to have disadvantage. If the user takes damage,\nthis property ceases to function until the start of their next turn (due to the projectors re-routing power and re-compensating).\nThis property is suppressed while the user is incapacitated, restrained, or otherwise unable to move.</p>\n",
     "id": "distortion-veil-exe"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Double_Time.exe",
-    "html": "<p>While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. You double your walking speed, and any attack of\nopportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.</p>\n<p>(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)</p>\n",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "name": "Double_Time.exe",
+        "moreInfo": {
+          "model": "gear",
+          "id": "double-time-exe"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "long",
+          "id": "double-time-exe"
+        },
+        "shortDesc": "walking speed increases by <me-distance length=\"12\" />, and any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes.",
+        "toggle": {
+          "id": "double-time-exe",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 30
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. Your walking speed increases by <me-distance length=\"12\" />,\nand any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.</p>\n<p>(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)</p>\n",
     "id": "double-time-exe"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
+    "mechanics": [],
     "rarity": "uncommon",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "EM_Trail_Scrambler.exe",
+    "installation": true,
+    "equippable": true,
     "html": "<p>As an action, activate an ionized laser that targets the environment behind you. This makes attempts to track the user\nvia traditional or electromagnetic signal tracing harder, and Survival/Science checks made to do so are made at\ndisadvantage. One installation of this program lasts for 1 hour.</p>\n",
     "id": "em-trail-scrambler-exe"
   },
   {
-    "mechanics": {
-      "installation": false
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Experimental_Barrier_Generator.exe",
-    "html": "<p>Convert 10 omni-gel into 1d4+4 black beads that measure <me-distance length=\"1\" tiny /> in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.</p>\n<p>As an action, you can launch a bead at a target location within <me-distance length=\"90\" />. The bead explodes on impact and is destroyed. Each\ncreature within a <me-distance length=\"15\" adj /> radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.</p>\n<p>Only breathable air can pass through the sphere's wall. No attack or other effect penetrate it.</p>\n<p>An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.</p>\n<p>The sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.</p>\n<p><strong>Single-use</strong>: Once you use this program, it deletes itself from your omni-tool.</p>\n",
+    "installation": false,
+    "equippable": true,
+    "mechanics": [
+      {
+        "name": "Experimental Barrier Generator",
+        "moreInfo": {
+          "model": "gear",
+          "id": "experimental-barrier-generator-exe"
+        },
+        "type": "action",
+        "resource": {
+          "displayType": "counter",
+          "reset": "off",
+          "label": "beads",
+          "max": {
+            "type": "flat",
+            "value": 8
+          },
+          "id": "experimental-barrier-generator-exe"
+        },
+        "range": {
+          "short": 90,
+          "aoe": {
+            "size": 15,
+            "type": "sphere"
+          }
+        },
+        "damage": [
+          {
+            "dieCount": 5,
+            "dieType": 4,
+            "tpe": "force"
+          }
+        ],
+        "dc": {
+          "save": "dex",
+          "base": 13,
+          "proficient": false
+        }
+      }
+    ],
+    "html": "<p>Convert 10 omni-gel into 1d4+4 black beads that measure <me-distance length=\"1\" tiny /> in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.</p>\n<p>As an action, you can launch a bead at a target location within <me-distance length=\"90\" />. The bead explodes on impact and is destroyed. Each\ncreature within a <me-distance length=\"15\" adj /> radius of where the bead landed must make a DC 13 Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.</p>\n<p>Only breathable air can pass through the sphere's wall. No attack or other effect penetrate it.</p>\n<p>An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.</p>\n<p>The sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.</p>\n<p><strong>Single-use</strong>: Once you use this program, it deletes itself from your omni-tool.</p>\n",
     "id": "experimental-barrier-generator-exe"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "uncommon",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Expert_Hand.exe",
-    "html": "<p>Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.</p>\n",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": [
+          "electronics",
+          "sleight-of-hand"
+        ],
+        "effect": {
+          "type": "advantage",
+          "note": "to bypass locks"
+        }
+      }
+    ],
+    "html": "<p>Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you have advantage on Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.</p>\n",
     "id": "expert-hand-exe"
   },
   {
@@ -456,138 +1751,851 @@
     "id": "fire-breathing-thresher-maws-of-doom-set"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
+    "mechanics": [
+      {
+        "name": "Flash_Hypno.exe",
+        "moreInfo": {
+          "model": "gear",
+          "id": "flash-hypno-exe"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "reset": "long",
+          "id": "flash-hypno-exe"
+        },
+        "dc": {
+          "base": 13,
+          "save": "cha",
+          "proficient": false
+        },
+        "range": {
+          "short": 30
+        },
+        "shortDesc": "Charm a creature for 1 hour or until your companions do anything harmful to it."
+      }
+    ],
     "rarity": "uncommon",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Flash_Hypno.exe",
-    "html": "<p>This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to cast the 'Charm Person' power (save DC 13) on an organic creature within <me-distance length=\"30\" /> of you, provided that you and the\ntarget can see each other. Your omni-tool regains all expended charges after a long rest, provided that the program is\nActive.</p>\n",
+    "installation": true,
+    "equippable": true,
+    "html": "<p>This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to attempt to charm a sentient creature (Intelligence score of 4 or more) with which you have eye contact\nwithin <me-distance length=\"12\" />. It must make a DC 13 Charisma saving\nthrow, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is\ncharmed by you for 1 hour or until your companions do anything harmful to it. The charmed creature\nregards you as a friendly acquaintance. When the effect ends, the creature knows it was charmed by you.</p>\n<p>Your omni-tool regains all expended charges after a long rest, provided that the program is Active.</p>\n",
     "id": "flash-hypno-exe"
   },
   {
-    "mechanics": {
-      "range": 30,
-      "blast": 10,
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common"
-        },
-        {
-          "mark": "II",
-          "rarity": "Common"
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon"
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon"
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare"
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare"
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare"
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare"
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare"
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre"
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "flashbang-grenade-i",
+        "rarity": "common",
+        "cost": 500,
+        "name": "Flashbang Grenade I",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 11 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade I",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-i",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 11,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-ii",
+        "rarity": "common",
+        "cost": 1500,
+        "name": "Flashbang Grenade II",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 12 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade II",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-ii",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 12,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-iii",
+        "rarity": "uncommon",
+        "cost": 2500,
+        "name": "Flashbang Grenade III",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 13 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade III",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-iii",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-iv",
+        "rarity": "uncommon",
+        "cost": 3500,
+        "name": "Flashbang Grenade IV",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 14 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-iv",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 14,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-v",
+        "rarity": "rare",
+        "cost": 4500,
+        "name": "Flashbang Grenade V",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 15 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade V",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-v",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-vi",
+        "rarity": "rare",
+        "cost": 5500,
+        "name": "Flashbang Grenade VI",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 16 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-vi",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 16,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-vii",
+        "rarity": "very_rare",
+        "cost": 6500,
+        "name": "Flashbang Grenade VII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 17 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-vii",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-viii",
+        "rarity": "very_rare",
+        "cost": 7500,
+        "name": "Flashbang Grenade VIII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 18 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-ix",
+        "rarity": "very_rare",
+        "cost": 8500,
+        "name": "Flashbang Grenade IX",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 18 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-ix",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 19,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "flashbang-grenade-x",
+        "rarity": "spectre",
+        "cost": 9500,
+        "name": "Flashbang Grenade X",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must succeed on a DC 20 Constitution saving throw or become <me-condition id=\"blinded\"/> until the end of your next turn.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Flashbang Grenade X",
+            "group": "Grenades",
+            "resource": {
+              "id": "flashbang-grenade-x",
+              "displayType": "gear-consumable"
+            },
+            "dc": {
+              "save": "con",
+              "base": 20,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common"
+      },
+      {
+        "mark": "II",
+        "rarity": "Common"
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon"
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon"
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare"
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare"
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare"
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare"
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare"
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre"
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
     "name": "Flashbang Grenade",
+    "consumable": true,
     "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Constitution saving throw.\nOn a failed save, a creature is <me-condition id=\"blinded\"/> until the end of your next turn.</p>\n<p>The mark of this grenade determines its Save DC and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>500 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>12</td>\n<td>1,500 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>14</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>16</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>19</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>20</td>\n<td>9,500 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "flashbang-grenade"
   },
   {
-    "mechanics": {
-      "range": 30,
-      "blast": 10,
-      "damageType": "piercing",
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common",
-          "damage": "1d12"
-        },
-        {
-          "mark": "II",
-          "rarity": "Common",
-          "damage": "2d12"
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon",
-          "damage": "3d12"
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon",
-          "damage": "3d12"
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare",
-          "damage": "5d12"
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare",
-          "damage": "5d12"
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare",
-          "damage": "6d12"
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare",
-          "damage": "6d12"
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare",
-          "damage": "7d12"
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre",
-          "damage": "8d12"
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "frag-grenade-i",
+        "rarity": "common",
+        "cost": 1300,
+        "name": "Frag Grenade I",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 11 Dexterity saving throw. A creature takes 1d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade I",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-i",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 1,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 11,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-ii",
+        "rarity": "common",
+        "cost": 3600,
+        "name": "Frag Grenade II",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 2d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade II",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-ii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-iii",
+        "rarity": "uncommon",
+        "cost": 4900,
+        "name": "Frag Grenade III",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade III",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-iii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-iv",
+        "rarity": "uncommon",
+        "cost": 5900,
+        "name": "Frag Grenade IV",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 3d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-iv",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-v",
+        "rarity": "rare",
+        "cost": 8500,
+        "name": "Frag Grenade V",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 5d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade V",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-v",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-vi",
+        "rarity": "rare",
+        "cost": 9500,
+        "name": "Frag Grenade VI",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 5d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-vi",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-vii",
+        "rarity": "very_rare",
+        "cost": 10800,
+        "name": "Frag Grenade VII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 6d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-vii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-viii",
+        "rarity": "very_rare",
+        "cost": 11300,
+        "name": "Frag Grenade VIII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 18 Dexterity saving throw. A creature takes 6d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-ix",
+        "rarity": "very_rare",
+        "cost": 12600,
+        "name": "Frag Grenade IX",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 18 Dexterity saving throw. A creature takes 7d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-ix",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 7,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "frag-grenade-x",
+        "rarity": "spectre",
+        "cost": 14400,
+        "name": "Frag Grenade X",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 19 Dexterity saving throw. A creature takes 8d12 piercing damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Frag Grenade X",
+            "group": "Grenades",
+            "resource": {
+              "id": "frag-grenade-x",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 12,
+                "type": "piercing"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 19,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common",
+        "damage": "1d12"
+      },
+      {
+        "mark": "II",
+        "rarity": "Common",
+        "damage": "2d12"
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon",
+        "damage": "3d12"
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon",
+        "damage": "3d12"
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare",
+        "damage": "5d12"
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare",
+        "damage": "5d12"
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare",
+        "damage": "6d12"
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare",
+        "damage": "6d12"
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare",
+        "damage": "7d12"
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre",
+        "damage": "8d12"
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
     "name": "Frag Grenade",
+    "consumable": true,
     "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nOn a failed save, a creature takes piercing damage or half as much damage on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>1d12</td>\n<td>1,300 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d12</td>\n<td>3,600 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d12</td>\n<td>4,900 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d12</td>\n<td>5,900 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d12</td>\n<td>8,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d12</td>\n<td>9,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d12</td>\n<td>10,800 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d12</td>\n<td>11,300 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d12</td>\n<td>12,600 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d12</td>\n<td>14,400 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "frag-grenade"
   },
@@ -602,13 +2610,47 @@
     "id": "galaxy-of-fantasy-link"
   },
   {
-    "mechanics": {
-      "damage": "12d4",
-      "range": 50,
-      "damageType": "radiant",
-      "rounds": 3,
-      "image": "https://vignette3.wikia.nocookie.net/masseffect/images/b/b6/ME3_Geth_Antivirus_Heavy_Weapon.png/revision/latest?cb=20120317195710"
-    },
+    "mechanics": [
+      {
+        "name": "Geth Spitfire",
+        "moreInfo": {
+          "model": "gear",
+          "id": "geth-spitfire"
+        },
+        "type": "action",
+        "layout": "attack",
+        "group": "Heavy Weapons",
+        "resource": {
+          "id": "geth-spitfire",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "reset": "manual",
+          "label": "charges"
+        },
+        "damage": [
+          {
+            "dieCount": 12,
+            "dieType": 4,
+            "type": "radiant"
+          }
+        ],
+        "dc": {
+          "save": "dex",
+          "base": 14,
+          "proficient": false
+        },
+        "range": {
+          "short": 0,
+          "aoe": {
+            "size": 30,
+            "type": "cone"
+          }
+        }
+      }
+    ],
+    "image": "https://vignette3.wikia.nocookie.net/masseffect/images/b/b6/ME3_Geth_Antivirus_Heavy_Weapon.png/revision/latest?cb=20120317195710",
     "rarity": "uncommon",
     "type": "heavy_weapon",
     "cost": 40000,
@@ -616,7 +2658,8 @@
     "subType": "",
     "charges": 3,
     "name": "Geth Spitfire",
-    "html": "<p>As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.</p>\n",
+    "equippable": true,
+    "html": "<p>As an Attack, begin targeting, releasing a torrent of bullets in a <me-distance length=\"30\" adj /> cone extending from your location and\nconsuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area\nfor the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a\ncreature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn,\nyou may choose to continue targeting, consuming another charge.</p>\n",
     "id": "geth-spitfire"
   },
   {
@@ -636,139 +2679,896 @@
     "weight": 1,
     "subType": "",
     "name": "Heavy Weapon Charge",
+    "consumable": true,
     "html": "<p>A heavy weapon charge is a generic term that can refer to a missile, energy source, or\nraw material. Heavy weapons require charges to be used. Generally, heavy weapon charges are not available to purchase\nby the general public. They must be bought at your local black market dealer or obtained from a military connection.</p>\n<p><strong>Use.</strong> Each heavy weapon has a maximum number of charges it can hold at one time. Loading new charges into a weapon\nrequires 1 heavy weapon charge and the Reload action.</p>\n",
     "id": "heavy-weapon-charge"
   },
   {
-    "mechanics": {
-      "range": 30,
-      "blast": 5,
-      "damageType": "thunder",
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common",
-          "damage": "1d6"
-        },
-        {
-          "mark": "II",
-          "rarity": "Common",
-          "damage": "2d6"
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon",
-          "damage": "3d6"
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon",
-          "damage": "3d6"
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare",
-          "damage": "5d6"
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare",
-          "damage": "5d6"
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare",
-          "damage": "6d6"
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare",
-          "damage": "6d6"
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare",
-          "damage": "7d6"
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre",
-          "damage": "8d6"
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "homing-grenade-i",
+        "rarity": "common",
+        "cost": 700,
+        "name": "Homing Grenade I",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 1d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 10 Dexterity saving throw. A creature takes 1d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade I",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-i",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 1,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 10,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-ii",
+        "rarity": "common",
+        "cost": 1400,
+        "name": "Homing Grenade II",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 2d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 11 Dexterity saving throw. A creature takes 2d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade II",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-ii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 11,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-iii",
+        "rarity": "uncommon",
+        "cost": 2100,
+        "name": "Homing Grenade III",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 3d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 11 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade III",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-iii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 11,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-iv",
+        "rarity": "uncommon",
+        "cost": 3100,
+        "name": "Homing Grenade IV",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 3d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-iv",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-v",
+        "rarity": "rare",
+        "cost": 4500,
+        "name": "Homing Grenade V",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 5d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade V",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-v",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-vi",
+        "rarity": "rare",
+        "cost": 5500,
+        "name": "Homing Grenade VI",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 5d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 5d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-vi",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-vii",
+        "rarity": "very_rare",
+        "cost": 6200,
+        "name": "Homing Grenade VII",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 6d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-vii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-viii",
+        "rarity": "very_rare",
+        "cost": 6700,
+        "name": "Homing Grenade VIII",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 6d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 16 Dexterity saving throw. A creature takes 6d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 16,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-ix",
+        "rarity": "very_rare",
+        "cost": 7400,
+        "name": "Homing Grenade IX",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 7d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 16 Dexterity saving throw. A creature takes 7d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 7,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 16,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "homing-grenade-x",
+        "rarity": "spectre",
+        "cost": 8600,
+        "name": "Homing Grenade X",
+        "html": "Target a creature within <me-distance length=\"30\" />. The target creature suffers 8d6 thunder damage. Then, each other creature within <me-distance length=\"5\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 8d6 thunder damage on a failed save, or half as much damage on a successful one.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Homing Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "homing-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 6,
+                "type": "thunder"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 5,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common",
+        "damage": "1d6"
+      },
+      {
+        "mark": "II",
+        "rarity": "Common",
+        "damage": "2d6"
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon",
+        "damage": "3d6"
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon",
+        "damage": "3d6"
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare",
+        "damage": "5d6"
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare",
+        "damage": "5d6"
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare",
+        "damage": "6d6"
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare",
+        "damage": "6d6"
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare",
+        "damage": "7d6"
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre",
+        "damage": "8d6"
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
     "name": "Homing Grenade",
+    "consumable": true,
     "html": "<p>Target a creature you can see within <me-distance length=\"30\" />. The target creature suffers thunder damage (see below). Each other creature\nwithin <me-distance length=\"5\" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage\nor half as much on a successful one.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>10</td>\n<td>1d6</td>\n<td>700 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>11</td>\n<td>2d6</td>\n<td>1,400 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>11</td>\n<td>3d6</td>\n<td>2,100 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d6</td>\n<td>3,100 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>13</td>\n<td>5d6</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d6</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>15</td>\n<td>6d6</td>\n<td>6,200 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>16</td>\n<td>6d6</td>\n<td>6,700 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>16</td>\n<td>7d6</td>\n<td>7,400 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>17</td>\n<td>8d6</td>\n<td>8,600 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "homing-grenade"
   },
   {
-    "mechanics": {
-      "range": 30,
-      "blast": 10,
-      "damageType": "fire",
-      "marks": [
-        {
-          "mark": "I",
-          "rarity": "Common",
-          "damage": "2d4"
-        },
-        {
-          "mark": "II",
-          "rarity": "Common",
-          "damage": "2,000 credits"
-        },
-        {
-          "mark": "III",
-          "rarity": "Uncommon",
-          "damage": "3d4"
-        },
-        {
-          "mark": "IV",
-          "rarity": "Uncommon",
-          "damage": "3d4"
-        },
-        {
-          "mark": "V",
-          "rarity": "Rare",
-          "damage": "5d4"
-        },
-        {
-          "mark": "VI",
-          "rarity": "Rare",
-          "damage": "5d4"
-        },
-        {
-          "mark": "VII",
-          "rarity": "Very Rare",
-          "damage": "6d4"
-        },
-        {
-          "mark": "VIII",
-          "rarity": "Very Rare",
-          "damage": "6d4"
-        },
-        {
-          "mark": "IX",
-          "rarity": "Very Rare",
-          "damage": "7d4"
-        },
-        {
-          "mark": "X",
-          "rarity": "Spectre",
-          "damage": "8d4"
-        }
-      ]
-    },
+    "subsets": [
+      {
+        "id": "inferno-grenade-i",
+        "rarity": "common",
+        "cost": 1000,
+        "name": "Inferno Grenade I",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 11 Dexterity saving throw. A creature takes 2d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade I",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-i",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 11,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-ii",
+        "rarity": "common",
+        "cost": 2000,
+        "name": "Inferno Grenade II",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 2d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade II",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-ii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 2,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-iii",
+        "rarity": "uncommon",
+        "cost": 2500,
+        "name": "Inferno Grenade III",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 13 Dexterity saving throw. A creature takes 3d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade III",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-iii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 13,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-iv",
+        "rarity": "uncommon",
+        "cost": 3500,
+        "name": "Inferno Grenade IV",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 3d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade IV",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-iv",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 3,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-v",
+        "rarity": "rare",
+        "cost": 4500,
+        "name": "Inferno Grenade V",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. A creature takes 5d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade V",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-v",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 15,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-vi",
+        "rarity": "rare",
+        "cost": 5500,
+        "name": "Inferno Grenade VI",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 5d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade VI",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-vi",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 5,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-vii",
+        "rarity": "very_rare",
+        "cost": 6000,
+        "name": "Inferno Grenade VII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 17 Dexterity saving throw. A creature takes 6d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade VII",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-vii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 17,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-viii",
+        "rarity": "very_rare",
+        "cost": 6500,
+        "name": "Inferno Grenade VIII",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 18 Dexterity saving throw. A creature takes 6d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade VIII",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-viii",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 6,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-ix",
+        "rarity": "very_rare",
+        "cost": 7000,
+        "name": "Inferno Grenade IX",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 18 Dexterity saving throw. A creature takes 7d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade IX",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-IX",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 7,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 18,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "inferno-grenade-x",
+        "rarity": "spectre",
+        "cost": 8000,
+        "name": "Inferno Grenade X",
+        "html": "Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a DC 19 Dexterity saving throw. A creature takes 8d4 fire damage on a failed save or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.",
+        "mechanics": [
+          {
+            "type": "action",
+            "layout": "attack",
+            "name": "Inferno Grenade X",
+            "group": "Grenades",
+            "resource": {
+              "id": "inferno-grenade-x",
+              "displayType": "gear-consumable"
+            },
+            "damage": [
+              {
+                "dieCount": 8,
+                "dieType": 4,
+                "type": "fire"
+              }
+            ],
+            "dc": {
+              "save": "dex",
+              "base": 19,
+              "proficient": false
+            },
+            "range": {
+              "short": 30,
+              "aoe": {
+                "size": 10,
+                "type": "sphere"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "mark": "I",
+        "rarity": "Common",
+        "damage": "2d4"
+      },
+      {
+        "mark": "II",
+        "rarity": "Common",
+        "damage": "2,000 credits"
+      },
+      {
+        "mark": "III",
+        "rarity": "Uncommon",
+        "damage": "3d4"
+      },
+      {
+        "mark": "IV",
+        "rarity": "Uncommon",
+        "damage": "3d4"
+      },
+      {
+        "mark": "V",
+        "rarity": "Rare",
+        "damage": "5d4"
+      },
+      {
+        "mark": "VI",
+        "rarity": "Rare",
+        "damage": "5d4"
+      },
+      {
+        "mark": "VII",
+        "rarity": "Very Rare",
+        "damage": "6d4"
+      },
+      {
+        "mark": "VIII",
+        "rarity": "Very Rare",
+        "damage": "6d4"
+      },
+      {
+        "mark": "IX",
+        "rarity": "Very Rare",
+        "damage": "7d4"
+      },
+      {
+        "mark": "X",
+        "rarity": "Spectre",
+        "damage": "8d4"
+      }
+    ],
     "rarity": "varies",
     "type": "grenade",
     "cost": "Varies",
     "weight": 1,
     "subType": "",
+    "consumable": true,
     "name": "Inferno Grenade",
     "html": "<p>Target an area within <me-distance length=\"30\" />. Each creature within <me-distance length=\"10\" /> of the target must make a Dexterity saving throw.\nOn a failed save, a creature suffers fire damage or half as much on a successful one. The area within a <me-distance length=\"10\" adj /> radius, centered on the target\ncontinues to burn for 1 minute.</p>\n<p>A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n<p>The mark of this grenade determines its Save DC, damage, and credits.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Mark</th>\n<th>Rarity</th>\n<th>Save DC</th>\n<th>Damage</th>\n<th>Credits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I</td>\n<td>Common</td>\n<td>11</td>\n<td>2d4</td>\n<td>1,000 credits</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Common</td>\n<td>13</td>\n<td>2d4</td>\n<td>2,000 credits</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Uncommon</td>\n<td>13</td>\n<td>3d4</td>\n<td>2,500 credits</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Uncommon</td>\n<td>15</td>\n<td>3d4</td>\n<td>3,500 credits</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Rare</td>\n<td>15</td>\n<td>5d4</td>\n<td>4,500 credits</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Rare</td>\n<td>17</td>\n<td>5d4</td>\n<td>5,500 credits</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Very Rare</td>\n<td>17</td>\n<td>6d4</td>\n<td>6,000 credits</td>\n</tr>\n<tr>\n<td>VIII</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>6d4</td>\n<td>6,500 credits</td>\n</tr>\n<tr>\n<td>IX</td>\n<td>Very Rare</td>\n<td>18</td>\n<td>7d4</td>\n<td>7,000 credits</td>\n</tr>\n<tr>\n<td>X</td>\n<td>Spectre</td>\n<td>19</td>\n<td>8d4</td>\n<td>8,000 credits</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "inferno-grenade"
@@ -841,13 +3641,47 @@
     "id": "lift-grenade"
   },
   {
-    "mechanics": {
-      "damage": "3d6",
-      "range": 90,
-      "damageType": "thunder",
-      "rounds": 12,
-      "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png/revision/latest?cb=20140823054132"
-    },
+    "mechanics": [
+      {
+        "name": "M-100 Grenade Launcher",
+        "moreInfo": {
+          "model": "gear",
+          "id": "m-100-grenade-launcher"
+        },
+        "type": "action",
+        "layout": "attack",
+        "group": "Heavy Weapons",
+        "resource": {
+          "id": "m-100-grenade-launcher",
+          "max": {
+            "type": "flat",
+            "value": 12
+          },
+          "reset": "manual",
+          "label": "charges"
+        },
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 6,
+            "type": "thunder"
+          }
+        ],
+        "dc": {
+          "save": "dex",
+          "base": 14,
+          "proficient": false
+        },
+        "range": {
+          "short": 90,
+          "aoe": {
+            "size": 10,
+            "type": "sphere"
+          }
+        }
+      }
+    ],
+    "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f0/ME2_HW_-_Grenade_Launcher.png/revision/latest?cb=20140823054132",
     "rarity": "uncommon",
     "type": "heavy_weapon",
     "cost": 20500,
@@ -855,6 +3689,7 @@
     "subType": "",
     "charges": 12,
     "name": "M-100 Grenade Launcher",
+    "equippable": true,
     "html": "<p>Target an area within <me-distance length=\"90\" /> that you can see and fire a grenade at it. Each creature\nwithin a <me-distance length=\"10\" adj /> radius sphere must make a DC 14 Dexterity saving throw.\nOn a failed save a creature takes 3d6 thunder damage or half as much on a successful one.</p>\n",
     "id": "m-100-grenade-launcher"
   },
@@ -937,6 +3772,7 @@
     "cost": "Varies",
     "weight": 0,
     "subType": "",
+    "consumable": true,
     "subsets": [
       {
         "id": "medi-gel-standard",
@@ -966,7 +3802,7 @@
               }
             ],
             "range": {
-              "short": 5
+              "short": 1
             }
           }
         ]
@@ -999,7 +3835,7 @@
               }
             ],
             "range": {
-              "short": 5
+              "short": 1
             }
           }
         ]
@@ -1032,7 +3868,7 @@
               }
             ],
             "range": {
-              "short": 5
+              "short": 1
             }
           }
         ]
@@ -1065,7 +3901,7 @@
               }
             ],
             "range": {
-              "short": 5
+              "short": 1
             }
           }
         ]
@@ -1186,6 +4022,7 @@
     "weight": 1,
     "subType": "",
     "name": "Omni-gel",
+    "consumable": true,
     "html": "<p>Omni-gel is a technological material that can be obtained by breaking down unwanted items, such as weapons, armor, and\nupgrades. Doing so will usually give an amount of omni-gel based on the item that was dismantled.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\">Equipment</th>\n<th style=\"text-align:center\">Yield</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">Mods</td>\n<td style=\"text-align:center\">1</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Tools &amp; Kits</td>\n<td style=\"text-align:center\">1</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Heavy Pistols, SMGs, &amp; Melee Weapons</td>\n<td style=\"text-align:center\">3</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Helmets</td>\n<td style=\"text-align:center\">3</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Arm &amp; Leg Armor</td>\n<td style=\"text-align:center\">3</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Chest Armor</td>\n<td style=\"text-align:center\">6</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Assault Rifles, Shotguns, &amp; Sniper Rifles</td>\n<td style=\"text-align:center\">6</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Heavy Weapons</td>\n<td style=\"text-align:center\">10</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "omni-gel"
   },
@@ -1562,6 +4399,7 @@
     "weight": 0,
     "subType": "",
     "name": "Thermal Clip",
+    "consumable": true,
     "html": "<v-card class=\"blockquote-card\"><v-card-text><p>It was discovered that, in an age of kinetic barriers, most firefights were won by the side who could put the most\nrounds downrange the fastest. As such, detachable heat sinks, known as thermal clips, were adopted first by the geth,\nand shortly thereafter by organic arms manufacturers. Ammunition may never be a concern with modern arms, but the\navailability of thermal clips is; weapons without thermal clips have nowhere to disperse their heat and are incapable of\nfiring. Luckily, thermal clips litter modern battlefields and can be obtained from fallen enemies or found around the\nenvironment.</p>\n</v-card-text></v-card><p><strong>Use.</strong> You use a thermal clip when you take the <nuxt-link to=\"/manual/combat#actions-in-combat\">Reload</nuxt-link> action.</p>\n<v-alert value type=\"info\"><p>Because thermal clips are so easily attainable, GMs might find it more manageable to simply not keep track of\nthermal clips and assume players will always have a steady supply available to them.</p>\n</v-alert>",
     "id": "thermal-clip"
   },
@@ -1589,15 +4427,41 @@
     "id": "thieves-tools"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "rare",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Threat_Assessment.exe",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "saving-throw",
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ],
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "flat",
+            "value": 1
+          }
+        }
+      }
+    ],
     "html": "<p>Your omni-tool powers a specialized VI whose purpose is to detect incoming threats and identify them for the user. This\ndata appears as audio and visual warnings on the user's HUD and gives the user +1 to their AC and all Saving Throws.</p>\n",
     "id": "threat-assessment-exe"
   },
@@ -1612,15 +4476,21 @@
     "id": "tinkers-tools"
   },
   {
-    "mechanics": {
-      "installation": true
-    },
     "rarity": "uncommon",
     "type": "omni_tool_program",
     "cost": 0,
     "weight": 0,
     "subType": "",
     "name": "Trace_Signal_Jammer.exe",
+    "installation": true,
+    "equippable": true,
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Signal Jammer"
+      }
+    ],
     "html": "<p>While this program is Activated, the user is hidden from long-range sensors. You cannot be targeted by any tracking\ndevice that functions by receiving a tracking device's signal, and targeting lasers cannot pinpoint your precise\nlocation, giving you advantage on any saving throws against Heavy Weapons that require Targeting to fire.</p>\n",
     "id": "trace-signal-jammer-exe"
   },

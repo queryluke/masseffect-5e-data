@@ -6694,7 +6694,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/all-terrain-exe",
-    "body": "You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.\n",
+    "body": "You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain advantage on Strength (Athletics) checks made to climb or swim.\n",
     "html": false
   },
   {
@@ -6759,7 +6759,7 @@
       "Grenade"
     ],
     "link": "/gear/cain-trip-mine",
-    "body": "Launch a Cain Trip Mine to a point you can see within . The mine affixes to a solid surface and projects\na -long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.\nA creature can spot the mine with a successful DC 13 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d12\n3,300 credits\n\n\nII\nCommon\n13\n2d12\n4,600 credits\n\n\nIII\nUncommon\n13\n3d12\n5,900 credits\n\n\nIV\nUncommon\n15\n4d12\n7,200 credits\n\n\nV\nRare\n15\n5d12\n8,500 credits\n\n\nVI\nRare\n17\n6d12\n9,800 credits\n\n\nVII\nVery Rare\n17\n7d12\n11,100 credits\n\n\nVIII\nVery Rare\n18\n8d12\n12,400 credits\n\n\nIX\nVery Rare\n18\n9d12\n13,700 credits\n\n\nX\nSpectre\n19\n10d12\n15,000 credits\n\n\n",
+    "body": "Launch a Cain Trip Mine to a point you can see within . The mine affixes to a solid surface and projects\na -long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.\nA creature can spot the mine with a successful DC 13 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d12\n3,300 credits\n\n\nII\nCommon\n13\n2d12\n4,600 credits\n\n\nIII\nUncommon\n13\n3d12\n5,900 credits\n\n\nIV\nUncommon\n15\n4d12\n7,200 credits\n\n\nV\nRare\n15\n5d12\n8,500 credits\n\n\nVI\nRare\n17\n6d12\n9,800 credits\n\n\nVII\nVery Rare\n17\n7d12\n11,100 credits\n\n\nVIII\nVery Rare\n18\n8d12\n12,400 credits\n\n\nIX\nVery Rare\n18\n9d12\n13,700 credits\n\n\nX\nSpectre\n19\n10d12\n15,000 credits\n\n\n",
     "html": false
   },
   {
@@ -6824,7 +6824,7 @@
       "Heavy Weapon"
     ],
     "link": "/gear/cobra-missile-launcher",
-    "body": "As an Attack, choose a creature within  that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.\n",
+    "body": "As an Attack, choose a creature within  that you can see and begin targeting. If you remain\ntargeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.\n",
     "html": false
   },
   {
@@ -6863,7 +6863,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/deflector-array-exe",
-    "body": "Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.\nThe user gains +2 to AC while not wearing Medium or Heavy Armor, or using a Riot Shield. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)\n",
+    "body": "Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.\nThe user gains +2 to AC while not wearing Medium or Heavy Armor. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)\n",
     "html": false
   },
   {
@@ -6902,7 +6902,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/double-time-exe",
-    "body": "While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. You double your walking speed, and any attack of\nopportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.\n(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)\n",
+    "body": "While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. Your walking speed increases by ,\nand any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.\n(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)\n",
     "html": false
   },
   {
@@ -6928,7 +6928,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/experimental-barrier-generator-exe",
-    "body": "Convert 10 omni-gel into 1d4+4 black beads that measure  in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.\nAs an action, you can launch a bead at a target location within . The bead explodes on impact and is destroyed. Each\ncreature within a  radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.\nOnly breathable air can pass through the sphere's wall. No attack or other effect penetrate it.\nAn enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.\nThe sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.\nSingle-use: Once you use this program, it deletes itself from your omni-tool.\n",
+    "body": "Convert 10 omni-gel into 1d4+4 black beads that measure  in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.\nAs an action, you can launch a bead at a target location within . The bead explodes on impact and is destroyed. Each\ncreature within a  radius of where the bead landed must make a DC 13 Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.\nOnly breathable air can pass through the sphere's wall. No attack or other effect penetrate it.\nAn enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.\nThe sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.\nSingle-use: Once you use this program, it deletes itself from your omni-tool.\n",
     "html": false
   },
   {
@@ -6941,7 +6941,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/expert-hand-exe",
-    "body": "Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.\n",
+    "body": "Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you have advantage on Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.\n",
     "html": false
   },
   {
@@ -6967,7 +6967,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/flash-hypno-exe",
-    "body": "This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to cast the 'Charm Person' power (save DC 13) on an organic creature within  of you, provided that you and the\ntarget can see each other. Your omni-tool regains all expended charges after a long rest, provided that the program is\nActive.\n",
+    "body": "This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to attempt to charm a sentient creature (Intelligence score of 4 or more) with which you have eye contact\nwithin . It must make a DC 13 Charisma saving\nthrow, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is\ncharmed by you for 1 hour or until your companions do anything harmful to it. The charmed creature\nregards you as a friendly acquaintance. When the effect ends, the creature knows it was charmed by you.\nYour omni-tool regains all expended charges after a long rest, provided that the program is Active.\n",
     "html": false
   },
   {
@@ -7019,7 +7019,7 @@
       "Heavy Weapon"
     ],
     "link": "/gear/geth-spitfire",
-    "body": "As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.\n",
+    "body": "As an Attack, begin targeting, releasing a torrent of bullets in a  cone extending from your location and\nconsuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area\nfor the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a\ncreature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn,\nyou may choose to continue targeting, consuming another charge.\n",
     "html": false
   },
   {

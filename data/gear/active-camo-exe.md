@@ -6,8 +6,9 @@ weight: 0
 subType: ''
 name: Active_Camo.exe
 installation: true
+equippable: true
 mechanics:
-  - type: bonus_action
+  - type: bonus-action
     shortDesc: >-
       When on, Wisdom (Perception) checks made to see you have disadvantage and you have
       advantage on Dexterity (Stealth) checks made to hide.

@@ -5,6 +5,7 @@ type: medi_gel
 cost: Varies
 weight: 0
 subType: ''
+consumable: true
 subsets:
   - id: medi-gel-standard
     rarity: common
@@ -27,7 +28,7 @@ subsets:
               type: flat
               value: 2
         range:
-          short: 5
+          short: 1
   - id: medi-gel-enhanced
     rarity: uncommon
     cost: 500
@@ -49,7 +50,7 @@ subsets:
               type: flat
               value: 4
         range:
-          short: 5
+          short: 1
   - id: medi-gel-superior
     rarity: rare
     cost: 1500
@@ -71,7 +72,7 @@ subsets:
               type: flat
               value: 8
         range:
-          short: 5
+          short: 1
   - id: medi-gel-ultimate
     rarity: spectre
     cost: military
@@ -93,7 +94,7 @@ subsets:
               type: flat
               value: 20
         range:
-          short: 5
+          short: 1
 ---
 >Medi-gel (medical gel) is an all-purpose medicinal salve combining an anaesthetic and clotting agent used by paramedics,
 EMTs, and military personnel, produced by the Sirta Foundation. It heals various wounds and ailments, instantly sealing
