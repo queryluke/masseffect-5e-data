@@ -348,7 +348,11 @@ mechanics:
     maxSlot: int
 # Unique
   - type: regain-all-hit-dice
-
+# Shields
+  - type: shield-source
+    capacity: @bonus
+    regen: @bonus
+    additive: boolean
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light

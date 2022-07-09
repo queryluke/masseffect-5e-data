@@ -6,6 +6,7 @@ weight: 0
 subType: ''
 name: Cognition_Booster.exe
 installation: true
+equippable: true
 mechanics:
   - type: asi-minimum
     ability: int
