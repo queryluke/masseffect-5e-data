@@ -15,6 +15,26 @@
     "rarity": "rare",
     "name": "Andromeda Elite Helmet",
     "flavor": "This special-issue Andromeda Initiative helmet is custom designed for explorers who excel in the Initiative training programs taken on prior to departing for Andromeda. Its Pathfinder-grade construction is strong enough to protect the wearer from the dangers of unexplored space while remaining light enough to allow full mobility.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      },
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>+2 AC.</li>\n<li>+5 Shields and +5 Shield Regen</li>\n</ul>\n",
     "id": "andromeda-elite-helmet"
   },
@@ -33,6 +53,15 @@
     "rarity": "rare",
     "name": "Angaran Arms",
     "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>+5 shields</li>\n</ul>\n",
     "id": "angaran-arms"
   },
@@ -52,6 +81,19 @@
     "rarity": "rare",
     "name": "Angaran Chestpiece",
     "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 15
+        },
+        "regen": {
+          "type": "flat",
+          "value": 15
+        }
+      }
+    ],
     "html": "<ul>\n<li>15 shields (regen 15)</li>\n</ul>\n",
     "id": "angaran-chestpiece"
   },
@@ -70,6 +112,15 @@
     "rarity": "rare",
     "name": "Angaran Helmet",
     "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>+5 shields</li>\n</ul>\n",
     "id": "angaran-helmet"
   },
@@ -88,6 +139,15 @@
     "rarity": "rare",
     "name": "Angaran Legs",
     "flavor": "This armor integrates angaran hardware with Initiative software, resulting in a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster. Various adjustments have been made to the design to accommodate non-angaran biology.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>+5 shields</li>\n</ul>\n",
     "id": "angaran-legs"
   },
@@ -105,6 +165,21 @@
     "rarity": "uncommon",
     "name": "Archon Visor",
     "flavor": "The Archon visor uses an efficient algorithm to balance processing power for omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cool-down period between energy expenditures.",
+    "mechanics": [
+      {
+        "name": "Archon Visor",
+        "moreInfo": {
+          "model": "armor",
+          "id": "archon-visor"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "long",
+          "id": "archon-visor"
+        },
+        "shortDesc": "Gain 1d4 worth of power slots or tech points"
+      }
+    ],
     "html": "<ul>\n<li>As an action, gain 1d4 worth of power slots or tech points. You can’t use this property again\nuntil you finish a long rest.</li>\n</ul>\n",
     "id": "archon-visor"
   },
@@ -122,6 +197,22 @@
     "rarity": "spectre",
     "name": "Asari Initiate Armor",
     "flavor": "Standard issue armor for all Asari infantry. Build-in biotic amps provide a minor boost to biotic powers.",
+    "mechanics": [
+      {
+        "type": "cantrip-boost"
+      },
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>While wearing this armor, your cantrips are considered to be 1 step higher in their progression.\nFor example, a 1st level player casts a cantrip as if they were at the 5th level. 5th -&gt; 11th. 11th\n-&gt; 17th. There is no additional effect at the 17th level.</li>\n</ul>\n",
     "id": "asari-initiate-armor"
   },
@@ -139,6 +230,21 @@
     "rarity": "uncommon",
     "name": "Assassin Armor",
     "flavor": "Elkoss Combine was commissioned by the Salarian Tactics Group to make a set of armor that would allow their agents to remain unseen and unheard.",
+    "mechanics": [
+      {
+        "name": "Assassin Armor",
+        "moreInfo": {
+          "model": "armor",
+          "id": "assassin-armor"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "short",
+          "id": "assassin-armor"
+        },
+        "shortDesc": "Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon."
+      }
+    ],
     "html": "<ul>\n<li>As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or\nuntil you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. You may use\nthis feature once per short rest.</li>\n</ul>\n",
     "id": "assassin-armor"
   },
@@ -157,6 +263,21 @@
     "rarity": "uncommon",
     "name": "Batarian Talon Gauntlets",
     "flavor": "A set of spiked, clawed gauntlets that give the appearance of their wearer possessing demonic hands.",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "attack": "melee",
+        "value": "+1 slashing dmg"
+      },
+      {
+        "type": "skill-check",
+        "value": "intimidation",
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
     "html": "<ul>\n<li>Add 1 point of Slashing damage to all melee damage rolls. Advantage on Intimidation skill\nchecks.</li>\n</ul>\n",
     "id": "batarian-talon-gauntlets"
   },
@@ -175,6 +296,14 @@
     "rarity": "spectre",
     "name": "Blood Dragon Armet",
     "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
+    "mechanics": [
+      {
+        "type": "power-resource-recovery",
+        "dieCount": 1,
+        "dieType": 4,
+        "label": "Blood Dragon Armet"
+      }
+    ],
     "html": "<ul>\n<li>You regain 1d4 worth of power slots or tech points when you take a short rest.</li>\n</ul>\n",
     "id": "blood-dragon-armet"
   },
@@ -194,6 +323,19 @@
     "rarity": "spectre",
     "name": "Blood Dragon Curiass",
     "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance. The chest and shoulder piece bears the logo of the Edmonton Blood Dragons, and the inside of the armor bears the signatures of the entire team.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 20
+        },
+        "regen": {
+          "type": "flat",
+          "value": 10
+        }
+      }
+    ],
     "html": "<ul>\n<li>20 shields (regen 10).</li>\n</ul>\n",
     "id": "blood-dragon-curiass"
   },
@@ -212,6 +354,36 @@
     "rarity": "spectre",
     "name": "Blood Dragon Greaves",
     "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
+    "mechanics": [
+      {
+        "type": "power-augment",
+        "augment": "attack",
+        "limits": {
+          "type": [
+            "biotic",
+            "tech"
+          ]
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "power-augment",
+        "augment": "dc",
+        "limits": {
+          "type": [
+            "biotic",
+            "tech"
+          ]
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<ul>\n<li>+1 bonus to power attack rolls and power saving throw DCs.</li>\n</ul>\n",
     "id": "blood-dragon-greaves"
   },
@@ -230,6 +402,36 @@
     "rarity": "spectre",
     "name": "Blood Dragon Vambraces",
     "flavor": "Originally created for Earth's Urban Combat Championship league, this set of armor has undergone as much or more field testing than those of modern militaries. It uses a unique, proprietary power cell that costs as much as a EUCC rookie's contract. The armor's microframe computer adapts to any top-tier omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free performance.",
+    "mechanics": [
+      {
+        "type": "power-augment",
+        "augment": "attack",
+        "limits": {
+          "type": [
+            "biotic",
+            "tech"
+          ]
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "power-augment",
+        "augment": "dc",
+        "limits": {
+          "type": [
+            "biotic",
+            "tech"
+          ]
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<ul>\n<li>+1 bonus to power attack rolls and power saving throw DCs.</li>\n</ul>\n",
     "id": "blood-dragon-vambraces"
   },

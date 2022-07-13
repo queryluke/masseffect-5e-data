@@ -278,7 +278,7 @@ mechanics:
     value: array or @bonus
 # Global Notes
   - type: global-note
-    subType: enum [power, attack, defenses]
+    subType: enum [power, action, defenses]
     attack: enum [melee, ranged]
     value: string
     moreInfo:
@@ -346,13 +346,19 @@ mechanics:
     limit: enum [points, slots]
     label: string
     maxSlot: int
+# power bonus
+  - type: power-augment
+    augment: enum damage, dc, attack
+    limits: array, key value of any power attrs
+    value: @bonus
 # Unique
   - type: regain-all-hit-dice
 # Shields
-  - type: shield-source
+  - type: shields
     capacity: @bonus
     regen: @bonus
     additive: boolean
+  - type: cantrip-boost #see asari initiate armor
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
