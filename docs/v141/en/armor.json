@@ -243,6 +243,17 @@
           "id": "assassin-armor"
         },
         "shortDesc": "Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon."
+      },
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
       }
     ],
     "html": "<ul>\n<li>As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or\nuntil you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. You may use\nthis feature once per short rest.</li>\n</ul>\n",
@@ -449,6 +460,25 @@
     "rarity": "rare",
     "name": "BT Suit",
     "flavor": "Equipped with a full battle telemetry system to increase Omni-tool power efficiency.",
+    "mechanics": [
+      {
+        "type": "power-resource-recovery",
+        "dieCount": 2,
+        "dieType": 4,
+        "label": "BT Suit"
+      },
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>You can regain 2d4 tech points every short rest.</li>\n</ul>\n",
     "id": "bt-suit"
   },
@@ -467,6 +497,28 @@
     "rarity": "uncommon",
     "name": "Capacitor Helmet",
     "flavor": "A recent design, this Alliance-made helmet stores micro capacitors in its structure to replenish spent kinetic barriers. The transpari-plast armor panel on its top can be removed to access capacitors for field maintenance.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "name": "Capacitor Helmet",
+        "moreInfo": {
+          "model": "armor",
+          "id": "capacitor-helmet"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "id": "capacitor-helmet"
+        },
+        "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points."
+      }
+    ],
     "html": "<ul>\n<li>+1 AC. Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen\nand immediately gain shield points equal to your regen amount.</li>\n</ul>\n",
     "id": "capacitor-helmet"
   },
@@ -485,6 +537,12 @@
     "rarity": "uncommon",
     "name": "Cerberus Ajax Gauntlets",
     "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 8
+      }
+    ],
     "html": "<ul>\n<li>Increase thermal clip capacity by 8.</li>\n</ul>\n",
     "id": "cerberus-ajax-gauntlets"
   },
@@ -503,6 +561,12 @@
     "rarity": "uncommon",
     "name": "Cerberus Ajax Greaves",
     "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "mechanics": [
+      {
+        "type": "grenade-capacity",
+        "value": 4
+      }
+    ],
     "html": "<ul>\n<li>Increase your grenade capacity by 4.</li>\n</ul>\n",
     "id": "cerberus-ajax-greaves"
   },
@@ -521,6 +585,15 @@
     "rarity": "uncommon",
     "name": "Cerberus Ajax Helmet",
     "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<ul>\n<li>+1 AC</li>\n</ul>\n",
     "id": "cerberus-ajax-helmet"
   },
@@ -539,6 +612,19 @@
     "rarity": "uncommon",
     "name": "Cerberus Ajax Vest",
     "flavor": "Among Cerberus soldiers, Ajax armor is favored by those brave or unlucky enough to lead charges to break enemy formations. Its role is to keep the wearer standing and shooting as long as possible. It offers some benefit to omni-tool and biotic amp systems, but its main emphasis is boosting and recharging its kinetic barrier and bleeding off weapon heat through coolant circulation in its gloves.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 20
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<ul>\n<li>20 shields.</li>\n</ul>\n",
     "id": "cerberus-ajax-vest"
   },

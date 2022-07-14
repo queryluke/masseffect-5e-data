@@ -1228,14 +1228,14 @@
         }
       },
       {
-        "type": "attack-augment",
-        "augment": "notes",
+        "type": "reroll-damage",
         "limits": {
-          "attack": "melee"
+          "source": "attack",
+          "types": [
+            "melee"
+          ]
         },
-        "value": [
-          "Reroll 1"
-        ]
+        "ifLessThan": 2
       }
     ],
     "prerequisite": "Elcor",

@@ -33,7 +33,7 @@ the Armor / AC table.
 | Chest | +1 AC | +2 AC | +3 AC |
 | Arms | No bonus | +1 AC | +2 AC |
 | Legs | No bonus | +1 AC | +2 AC |
-| Head | Unless otherwise listed, headware provides no bonus to AC. |||
+| Head | Unless otherwise listed, headwear provides no bonus to AC. |||
 
 Additionally, there are bonuses and limitations for the combination of armor types you are wearing,
 explained in the Armor Bonuses and Limitations table.
@@ -71,7 +71,7 @@ use the Armor Piece Weights table to determine the total weight of the armor you
 |Chest|3kg|6kg|10kg|
 |Arms|1kg|2kg|3kg|
 |Legs|1kg|2kg|3kg|
-|Head|All headware weighs 2kg|||
+|Head|All headwear weighs 2kg|||
 
 ### Set Bonuses
 Some armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors

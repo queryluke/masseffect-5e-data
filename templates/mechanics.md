@@ -20,6 +20,7 @@ resource:
   increment: integer # default 1, for when a single click uses 2
   id: string # a uuid to track the resources. Allows for sharing resources
   label: string #default is '/ [short or long] rest'
+  trigger: enum [shield-regen]
 
 toggle:
   id: string # toggleable id
@@ -359,8 +360,25 @@ mechanics:
     regen: @bonus
     additive: boolean
   - type: cantrip-boost #see asari initiate armor
+# reroll damage
+  - type: reroll-damage
+    limits:
+      source: attack, power, or weapon
+      types: all, array, (power = powerType, weapon = weaponType, attack = ranged or melee)
+      damageTypes: array, @damageTypes
+    ifLessThan: int
+# shield jumpstart
+  - type: shield-jumpstart
+    value: @bonus
 
 # NOT IMPLEMENTED
+TODO: additive shield bonuses
+- type: grenade-capacity
+  value: int
+- type: thermal-clip-capacity
+  value: int
+- type: weapon-heat
+  value: int or 'half-base'
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod
 - type: featherlight

@@ -23,12 +23,11 @@ mechanics:
     value:
       type: flat
       value: 5
-  - type: attack-augment
-    augment: notes
+  - type: reroll-damage
     limits:
-      attack: melee
-    value:
-      - Reroll 1
+      source: attack
+      types: [melee]
+    ifLessThan: 2
 prerequisite: Elcor
 prereq:
   - type: species

@@ -18,6 +18,13 @@ mechanics:
     resource:
       reset: short
     shortDesc: Become invisible for 1 minute or until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon.
+  - type: shields
+    capacity:
+      type: flat
+      value: 5
+    regen:
+      type: flat
+      value: 5
 ---
 - As an action, you can activate a tactical cloak, becoming invisible. The cloak lasts 1 minute or
 until you make an attack, cast a power, use a grenade or mine, or fire a heavy weapon. You may use
