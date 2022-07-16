@@ -16,4 +16,5 @@ properties:
   - burst-fire
   - special
   - two-handed
+  - vented
 ---

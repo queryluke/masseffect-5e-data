@@ -17,4 +17,5 @@ properties:
   - special
   - heavy
   - double-tap
+  - vented
 ---

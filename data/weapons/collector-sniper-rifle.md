@@ -15,4 +15,5 @@ andromeda: false
 properties:
   - two-handed
   - burst-fire
+  - vented
 ---

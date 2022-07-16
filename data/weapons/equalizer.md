@@ -16,4 +16,5 @@ properties:
   - double-tap
   - light
   - burst-fire
+  - vented
 ---

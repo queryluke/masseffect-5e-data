@@ -14878,6 +14878,19 @@
     "html": "<p>This weapon requires two hands when you attack with it. Takes up 2 weapon slots.</p>\n"
   },
   {
+    "id": "vented",
+    "title": "Vented",
+    "type": "manual",
+    "qualifiers": [
+      "Player's Manual",
+      "Appendix",
+      "Weapon Properties"
+    ],
+    "link": false,
+    "body": "This weapon does not use thermal clips. Its description indicates the number of times it can be fired before overheating.\n",
+    "html": "<p>This weapon does not use thermal clips. Its description indicates the number of times it can be fired before overheating.</p>\n"
+  },
+  {
     "id": "versatile",
     "title": "Versatile",
     "type": "manual",

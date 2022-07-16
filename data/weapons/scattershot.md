@@ -17,4 +17,5 @@ properties:
   - heavy
   - hip-fire
   - special
+  - vented
 ---
