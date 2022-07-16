@@ -268,6 +268,7 @@ weight: 1
 subType: ''
 name: Lift Grenade
 consumable: true
+equippable: true
 ---
 Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Strength saving throw.
 On a failed save, a creature is <me-condition id="lifted" /> until the end of your next turn.

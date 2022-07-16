@@ -23,6 +23,12 @@ mechanics:
     regen:
       type: flat
       value: 5
+  - type: thermal-clip-capacity
+    value: 10
+  - type: medi-gel-capacity
+    value: 4
+  - type: grenade-capacity
+    value: 2
 ---
 - While wearing this armor, your cantrips are considered to be 1 step higher in their progression.
 For example, a 1st level player casts a cantrip as if they were at the 5th level. 5th -> 11th. 11th

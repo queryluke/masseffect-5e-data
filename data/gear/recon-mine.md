@@ -388,6 +388,7 @@ weight: 1
 subType: ''
 name: Recon Mine
 consumable: true
+equippable: true
 ---
 Launch a recon mine to a location of your choice within <me-distance length="30" />. It first sticks to the target
 location then scans creatures within a <me-distance length="30" adj/> cone, relaying tactical weak points about the creature's

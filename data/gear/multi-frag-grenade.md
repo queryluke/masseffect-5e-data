@@ -318,6 +318,7 @@ weight: 1
 subType: ''
 name: Multi-frag Grenade
 consumable: true
+equippable: true
 ---
 Target 3 areas within <me-distance length="30" />. Each creature within <me-distance length="10" /> of each target must
 make a Dexterity saving throw. On a failed save, a creature takes piercing damage or half as much on a successful one.

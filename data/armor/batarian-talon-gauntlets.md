@@ -24,6 +24,10 @@ mechanics:
     value: intimidation
     effect:
       type: advantage
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
 ---
 - Add 1 point of Slashing damage to all melee damage rolls. Advantage on Intimidation skill
 checks.

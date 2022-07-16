@@ -370,14 +370,16 @@ mechanics:
 # shield jumpstart
   - type: shield-jumpstart
     value: @bonus
+# capacities
+  - type: grenade-capacity
+    value: int
+  - type: thermal-clip-capacity
+    value: int
+  - type: medi-gel-capacity
+    value: int
 
 # NOT IMPLEMENTED
-TODO: additive shield bonuses
-- type: grenade-capacity
-  value: int
-- type: thermal-clip-capacity
-  value: int
-- type: weapon-heat
+- type: weapon-heat-increase
   value: int or 'half-base'
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod

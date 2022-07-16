@@ -34,5 +34,9 @@ mechanics:
     value:
       type: flat
       value: 1
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
 ---
 - +1 bonus to power attack rolls and power saving throw DCs.

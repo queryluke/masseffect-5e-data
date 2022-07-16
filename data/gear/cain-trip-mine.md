@@ -358,6 +358,7 @@ weight: 1
 subType: ''
 name: Cain Trip Mine
 consumable: true
+equippable: true
 ---
 Launch a Cain Trip Mine to a point you can see within <me-distance length="60" />. The mine affixes to a solid surface and projects
 a <me-distance length="15" adj />-long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.

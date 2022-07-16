@@ -11,6 +11,7 @@ mechanics:
       id: smoke-grenade
       displayType: gear-consumable
 consumable: true
+equippable: true
 ---
 Target an area within <me-distance length="30" />. A cloud of thick smoke erupts out in a <me-distance length="10" adj/>
 cube centered on the target location. The cloud's area is heavily obscured. The cloud persists for 30 seconds.

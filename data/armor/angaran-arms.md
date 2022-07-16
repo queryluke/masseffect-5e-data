@@ -22,5 +22,9 @@ mechanics:
     capacity:
       type: flat
       value: 5
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
 ---
 - +5 shields

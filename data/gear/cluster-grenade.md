@@ -328,6 +328,7 @@ weight: 1
 subType: ''
 name: Cluster Grenade
 consumable: true
+equippable: true
 ---
 Target an area within <me-distance length="30" />. Each creature within <me-distance length="15" /> of the target must make a Dexterity saving throw.
 A creature takes thunder damage on a failed save, or half as much damage on a successful one.

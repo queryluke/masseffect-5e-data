@@ -328,6 +328,7 @@ weight: 1
 subType: ''
 name: Frag Grenade
 consumable: true
+equippable: true
 ---
 Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.
 On a failed save, a creature takes piercing damage or half as much damage on a successful one.

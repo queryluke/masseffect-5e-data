@@ -6,6 +6,7 @@ cost: Varies
 weight: 0
 subType: ''
 consumable: true
+equippable: true
 subsets:
   - id: medi-gel-standard
     rarity: common

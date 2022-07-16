@@ -26,5 +26,11 @@ mechanics:
     regen:
       type: flat
       value: 5
+  - type: thermal-clip-capacity
+    value: 10
+  - type: medi-gel-capacity
+    value: 4
+  - type: grenade-capacity
+    value: 2
 ---
 - You can regain 2d4 tech points every short rest.

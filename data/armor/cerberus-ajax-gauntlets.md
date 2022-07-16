@@ -21,6 +21,8 @@ flavor: >-
   circulation in its gloves.
 mechanics:
   - type: thermal-clip-capacity
-    value: 8
+    value: 10
+  - type: medi-gel-capacity
+    value: 2
 ---
-- Increase thermal clip capacity by 8.
+- 10 thermal clip capacity.

@@ -20,7 +20,9 @@ flavor: >-
   recharging its kinetic barrier and bleeding off weapon heat through coolant
   circulation in its gloves.
 mechanics:
+  - type: thermal-clip-capacity
+    value: 2
   - type: grenade-capacity
-    value: 4
+    value: 6
 ---
-- Increase your grenade capacity by 4.
+- 6 grenade capacity.

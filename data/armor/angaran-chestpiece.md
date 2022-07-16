@@ -26,5 +26,9 @@ mechanics:
     regen:
       type: flat
       value: 15
+  - type: thermal-clip-capacity
+    value: 6
+  - type: medi-gel-capacity
+    value: 2
 ---
 - 15 shields (regen 15)

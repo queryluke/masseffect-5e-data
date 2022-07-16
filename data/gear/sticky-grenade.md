@@ -358,6 +358,7 @@ weight: 1
 subType: ''
 name: Sticky Grenade
 consumable: true
+equippable: true
 ---
 Target an area within <me-distance length="30" />. At the beginning of your next turn, creatures within
 <me-distance length="10" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers

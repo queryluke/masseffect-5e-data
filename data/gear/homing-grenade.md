@@ -328,6 +328,7 @@ weight: 1
 subType: ''
 name: Homing Grenade
 consumable: true
+equippable: true
 ---
 Target a creature you can see within <me-distance length="30" />. The target creature suffers thunder damage (see below). Each other creature
 within <me-distance length="5" /> of the target must make a Dexterity saving throw. On a failed save, a creature suffers thunder damage

@@ -347,6 +347,7 @@ cost: Varies
 weight: 1
 subType: ''
 consumable: true
+equippable: true
 name: Inferno Grenade
 ---
 Target an area within <me-distance length="30" />. Each creature within <me-distance length="10" /> of the target must make a Dexterity saving throw.

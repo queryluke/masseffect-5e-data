@@ -17,8 +17,10 @@ __Armor Class (AC)__. Armor protects its wearer from attacks. The armor you wear
 __Shield Points__. All armor chest pieces provide some amount of shield points.
 See the [Combat > Shields](/manual/combat#shields) for more information.
 
-__Consumable Capacities__. All armor has slots and hidden compartments for mission-critical gear: 10 thermal clips, 4 medi-gel, and 2 grenades.
-The armor will indicate if it has an increase in any of these capacities. Armor mods can also increase these capacities.
+__Consumable Capacities__. Each armor type, except headwear has compartments for certain mission-critical gear. Chest armor
+has 6 thermal clip slots, and 2 medi-gel slots. Leg armor has 2 thermal clip slots and 2 grenade slots. Arm armor has 2 thermal clip slots and 2 medi-gel slots.
+Because body armor is a combination of chest, legs, and arms, it's resulting totals are 10 thermal clip, 4 medi-gel, and 2 grenade slots.
+An armor piece will indicate if it has an increase in any of these capacities.
 
 ### Mix & Match <v-chip color="info" small>new</v-chip>
 Unlike D&D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:
