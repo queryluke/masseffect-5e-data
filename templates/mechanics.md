@@ -71,9 +71,10 @@ effect:
   note: string
 
 attackLimit:
-  type: melee or ranged
-  model: weapon or power
-  type: weapon types or power types
+  type: [melee,ranged]
+  model: [weapon, power]
+  modelTypes: [enum powerTypes, weaponTypes]
+  special: twf, bf, dt
 
 damage:
   dieCount: integer (0 = special)
@@ -269,14 +270,6 @@ mechanics:
       instances: 0
     merge:
       @type
-# Attack Augments
-  - type: attack-augment, bf-augment, twf-augment, dt-augment
-    augment: enum [attack,damage,dc,notes]
-    limits:
-      attack: enum [melee,ranged]
-      model: enum [weapons,powers]
-      modelType: [enum [weapon types, power types]]
-    value: array or @bonus
 # Global Notes
   - type: global-note
     subType: enum [power, action, defenses]
@@ -347,11 +340,6 @@ mechanics:
     limit: enum [points, slots]
     label: string
     maxSlot: int
-# power bonus, TODO: refactor this and attack-augment
-  - type: power-augment
-    augment: enum damage, dc, attack
-    limits: array, key value of any power attrs
-    value: @bonus
 # Unique
   - type: regain-all-hit-dice
 # Shields
@@ -360,12 +348,6 @@ mechanics:
     regen: @bonus
     additive: boolean
   - type: cantrip-boost #see asari initiate armor
-# reroll damage
-  - type: reroll-damage
-    limits:
-      source: attack, power, or weapon
-      types: all, array, (power = powerType, weapon = weaponType, attack = ranged or melee)
-    ifLessThan: int
 # capacities
   - type: grenade-capacity
     value: int
@@ -376,6 +358,14 @@ mechanics:
 # weapon heat
   - type: weapon-heat-increase
     multiplier: float
+# attack and damage bonuses
+  - type: attack-augment
+    attackLimit: @attackLimit
+    augmentTypes: [enum damage, dc, hit, range]
+    bonus: @bonus
+    abilityMod: boolean #damageOnly
+    dieIncrease: int #damageOnly
+    rerollIfLessThan: int #damageOnly
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light

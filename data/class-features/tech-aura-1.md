@@ -210,12 +210,6 @@ mechanics:
           - id: brute-force
             name: Brute Force
             whenOn:
-              - type: attack-augment
-                augment: notes
-                limits:
-                  attack: melee
-                value:
-                  - '+1d8 bldg dmg'
               - type: augment
                 value:
                   model: sentinel

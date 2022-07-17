@@ -25,19 +25,11 @@ mechanics:
   - type: medi-gel-capacity
     value: 2
   - type: attack-augment
-    augment: attack
-    limits:
-      attack: melee
-      model: weapons
-    value:
-      type: flat
-      value: 1
-  - type: attack-augment
-    augment: damage
-    limits:
-      attack: melee
-      model: weapons
-    value:
+    attackLimit:
+      type: melee
+      model: weapon
+    augmentTypes: [damage, hit]
+    bonus:
       type: flat
       value: 1
 ---

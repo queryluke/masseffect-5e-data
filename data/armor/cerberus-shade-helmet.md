@@ -20,14 +20,11 @@ flavor: >-
   amps and omni-tools, heat management and kinetic coils for ranged weapons, and
   synthetic muscle assistors for melee capability.
 mechanics:
-  - type: power-augment
-    augment: attack
-    value:
-      type: flat
-      value: 1
-  - type: power-augment
-    augment: damage
-    value:
+  - type: attack-augment
+    attackLimit:
+      model: power
+    augmentTypes: [damage, hit]
+    bonus:
       type: flat
       value: 1
 ---

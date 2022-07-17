@@ -13,10 +13,11 @@ mechanics:
             type: flat
             value: 5
         - type: attack-augment
-          augment: attack
-          limits:
-            model: weapons
-          value:
+          attackLimit:
+            type: melee
+            model: weapon
+          augmentTypes: [hit]
+          bonus:
             type: flat
             value: 1
         - type: extra-attack-add

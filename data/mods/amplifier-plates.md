@@ -13,9 +13,11 @@ availability:
   - heavy
 flavor: Includes an internal micro-control system to maximize resources.
 mechanics:
-  - type: power-augment
-    augment: damage
-    value:
+  - type: attack-augment
+    attackLimit:
+      model: power
+    augmentTypes: [damage]
+    bonus:
       type: flat
       value: 1
 ---

@@ -5,17 +5,11 @@ subclass: shadow
 name: Melee Prowess
 mechanics:
   - type: attack-augment
-    augment: damage
-    limits:
-      attack: melee
-    value:
-      type: flat
-      value: 1
-  - type: attack-augment
-    augment: attack
-    limits:
-      attack: melee
-    value:
+    attackLimit:
+      type: melee
+      model: weapon
+    augmentTypes: [damage, hit]
+    bonus:
       type: flat
       value: 1
 ---

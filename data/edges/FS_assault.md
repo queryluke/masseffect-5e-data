@@ -1,11 +1,12 @@
 ---
 name: Assault
 mechanics:
-  - type: bf-augment
-    augment: dc
-    limits:
-      model: weapons
-    value:
+  - type: attack-augment
+    attackLimit:
+      model: weapon
+      special: bf
+    augmentTypes: [dc]
+    bonus:
       type: flat
       value: 2
 type: fighting-styles

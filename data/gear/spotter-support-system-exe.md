@@ -1,12 +1,12 @@
 ---
 mechanics:
   - type: attack-augment
-    augment: attack
-    limits:
-      attack: ranged
-      model: weapons
-      modelType: sniper_rifle
-    value:
+    attackLimit:
+      type: melee
+      model: weapon
+      modelTypes: [sniper_rifle]
+    augmentTypes: [damage]
+    bonus:
       type: flat
       value: 2
   - type: weapon

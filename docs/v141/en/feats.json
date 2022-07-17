@@ -158,11 +158,14 @@
             },
             {
               "type": "attack-augment",
-              "augment": "attack",
-              "limits": {
-                "model": "weapons"
+              "attackLimit": {
+                "type": "melee",
+                "model": "weapon"
               },
-              "value": {
+              "augmentTypes": [
+                "hit"
+              ],
+              "bonus": {
                 "type": "flat",
                 "value": 1
               }
@@ -645,17 +648,6 @@
           "id": "electrogenesis"
         },
         "shortDesc": "Choose a weapon and roll a d6, then lose that much hp. For 1 minute, the chosen weapon deals additional 1d6 lightning."
-      },
-      {
-        "type": "attack-augment",
-        "limits": {
-          "model": "weapon"
-        },
-        "inject": {
-          "notes": [
-            "Electrogenesis Infusion: 1d6 lightning"
-          ]
-        }
       }
     ],
     "prerequisite": "Angara",
@@ -703,27 +695,28 @@
               }
             },
             {
-              "type": "power-augment",
-              "augment": "attack",
-              "value": {
+              "type": "attack-augment",
+              "attackLimit": {
+                "model": "power"
+              },
+              "augmentTypes": [
+                "hit",
+                "dc"
+              ],
+              "bonus": {
                 "type": "flat",
                 "value": 1
               }
             },
             {
-              "type": "power-augment",
-              "augment": "damage",
-              "value": {
-                "type": "dieIncrease"
-              }
-            },
-            {
-              "type": "power-augment",
-              "augment": "dc",
-              "value": {
-                "type": "flat",
-                "value": 1
-              }
+              "type": "attack-augment",
+              "attackLimit": {
+                "model": "power"
+              },
+              "augmentTypes": [
+                "damage"
+              ],
+              "dieIncrease": 1
             }
           ]
         },
@@ -966,12 +959,15 @@
         "amount": 1
       },
       {
-        "type": "dt-augment",
-        "augment": "damage",
-        "limits": {
-          "model": "weapons"
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "special": "dt"
         },
-        "value": "abilityMod"
+        "augmentTypes": [
+          "damage"
+        ],
+        "abilityMod": true
       }
     ],
     "name": "Hair Trigger",
@@ -1218,24 +1214,26 @@
       },
       {
         "type": "attack-augment",
-        "augment": "range",
-        "limits": {
-          "attack": "melee"
+        "attackLimit": {
+          "type": "melee"
         },
-        "value": {
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 2
+      },
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "type": "melee"
+        },
+        "augmentTypes": [
+          "range"
+        ],
+        "bonus": {
           "type": "flat",
           "value": 5
         }
-      },
-      {
-        "type": "reroll-damage",
-        "limits": {
-          "source": "attack",
-          "types": [
-            "melee"
-          ]
-        },
-        "ifLessThan": 2
       }
     ],
     "prerequisite": "Elcor",

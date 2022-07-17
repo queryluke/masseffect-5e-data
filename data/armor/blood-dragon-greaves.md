@@ -20,18 +20,11 @@ flavor: >-
   omni-tool, kinetic barrier, or biotic amp, giving breathtaking and error-free
   performance.
 mechanics:
-  - type: power-augment
-    augment: attack
-    limits:
-      type: [biotic, tech]
-    value:
-      type: flat
-      value: 1
-  - type: power-augment
-    augment: dc
-    limits:
-      type: [biotic, tech]
-    value:
+  - type: attack-augment
+    attackLimit:
+      model: power
+    augmentTypes: [dc, hit]
+    bonus:
       type: flat
       value: 1
   - type: thermal-clip-capacity

@@ -14,12 +14,6 @@ mechanics:
         value: con
       id: electrogenesis
     shortDesc: Choose a weapon and roll a d6, then lose that much hp. For 1 minute, the chosen weapon deals additional 1d6 lightning.
-  - type: attack-augment
-    limits:
-      model: weapon
-    inject:
-      notes:
-        - 'Electrogenesis Infusion: 1d6 lightning'
 prerequisite: Angara
 prereq:
   - type: species

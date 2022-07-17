@@ -848,12 +848,15 @@
     "name": "Ambidextrous",
     "mechanics": [
       {
-        "type": "twf-augment",
-        "augment": "damage",
-        "limits": {
-          "model": "weapons"
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "special": "twf"
         },
-        "value": "abilityMod"
+        "augmentTypes": [
+          "damage"
+        ],
+        "abilityMod": true
       }
     ],
     "type": "fighting-styles",
@@ -864,12 +867,15 @@
     "name": "Assault",
     "mechanics": [
       {
-        "type": "bf-augment",
-        "augment": "dc",
-        "limits": {
-          "model": "weapons"
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "special": "bf"
         },
-        "value": {
+        "augmentTypes": [
+          "dc"
+        ],
+        "bonus": {
           "type": "flat",
           "value": 2
         }
@@ -884,32 +890,36 @@
     "mechanics": [
       {
         "type": "attack-augment",
-        "augment": "damage",
-        "limits": {
-          "attack": "melee",
-          "model": "weapons"
+        "attackLimit": {
+          "type": "melee"
         },
-        "value": {
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
           "type": "proficiency"
         }
       }
     ],
     "type": "fighting-styles",
-    "html": "<p>Add your proficiency bonus to your melee attack damage rolls.</p>\n",
+    "html": "<p>Add your proficiency bonus to your melee damage rolls.</p>\n",
     "id": "FS_brawler"
   },
   {
     "name": "Carnage",
     "mechanics": [
       {
-        "type": "reroll-damage",
-        "limits": {
-          "source": "weapon",
-          "types": [
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "modelTypes": [
             "shotgun"
           ]
         },
-        "ifLessThan": 3
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
       }
     ],
     "type": "fighting-styles",

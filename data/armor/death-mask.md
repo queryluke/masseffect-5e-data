@@ -19,20 +19,12 @@ flavor: >-
   feedback that helps coordinate the wearer's melee attacks.
 mechanics:
   - type: attack-augment
-    augment: attack
-    limits:
-      attack: melee
-      model: weapons
-    value:
-      type: flat
-      value: 1
-  - type: power-augment
-    augment: attack
-    limits:
-      attackType: melee
-    value:
+    attackLimit:
+      type: melee
+    augmentTypes: [damage, hit]
+    bonus:
       type: flat
       value: 1
 ---
 - +1 AC.
-- +1 on melee attack and damage rolls
+- +1 bonus to melee attack and damage rolls

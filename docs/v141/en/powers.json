@@ -328,6 +328,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "weapon",
           "proficient": true,
           "mod": "dex"
         },
@@ -815,6 +816,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -922,6 +924,7 @@
         },
         "attack": {
           "type": "melee",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -1276,6 +1279,7 @@
         ],
         "attack": {
           "type": "melee",
+          "wp": "weapon",
           "proficient": true,
           "mod": "str"
         },
@@ -1846,6 +1850,7 @@
             "dc": false,
             "attack": {
               "type": "ranged",
+              "wp": "power",
               "proficient": true
             },
             "damage": [
@@ -2027,6 +2032,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -2525,6 +2531,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -3667,6 +3674,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -3913,6 +3921,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -4054,6 +4063,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -4348,6 +4358,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "weapon",
           "proficient": true,
           "mod": "dex"
         },
@@ -4649,6 +4660,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -4892,6 +4904,7 @@
         ],
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -4983,6 +4996,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -5317,6 +5331,7 @@
         },
         "attack": {
           "type": "melee",
+          "wp": "power",
           "proficient": true
         },
         "dc": {
@@ -5874,6 +5889,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -6522,6 +6538,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
@@ -7087,6 +7104,7 @@
         },
         "attack": {
           "type": "ranged",
+          "wp": "power",
           "proficient": true
         },
         "dc": false,
