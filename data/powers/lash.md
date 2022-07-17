@@ -16,6 +16,7 @@ mechanics:
       unit: action
     attack:
       type: ranged
+      wp: power
       proficient: true
     dc: false
     damage:

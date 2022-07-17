@@ -25,4 +25,4 @@ mechanics:
   - type: medi-gel-capacity
     value: 2
 ---
-- 10 thermal clip capacity.
+- +8 thermal clip capacity.

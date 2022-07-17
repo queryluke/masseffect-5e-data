@@ -52,6 +52,7 @@ advancements:
       - dc: false
         attack:
           type: ranged
+          wp: power
           proficient: true
         damage:
           - dieCount: 1

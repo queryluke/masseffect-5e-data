@@ -347,7 +347,7 @@ mechanics:
     limit: enum [points, slots]
     label: string
     maxSlot: int
-# power bonus
+# power bonus, TODO: refactor this and attack-augment
   - type: power-augment
     augment: enum damage, dc, attack
     limits: array, key value of any power attrs
@@ -365,11 +365,7 @@ mechanics:
     limits:
       source: attack, power, or weapon
       types: all, array, (power = powerType, weapon = weaponType, attack = ranged or melee)
-      damageTypes: array, @damageTypes
     ifLessThan: int
-# shield jumpstart
-  - type: shield-jumpstart
-    value: @bonus
 # capacities
   - type: grenade-capacity
     value: int
@@ -377,10 +373,11 @@ mechanics:
     value: int
   - type: medi-gel-capacity
     value: int
+# weapon heat
+  - type: weapon-heat-increase
+    multiplier: float
 
 # NOT IMPLEMENTED
-- type: weapon-heat-increase
-  value: int or 'half-base'
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
   value: @bonus || array (for notes) || abilityMod
 - type: featherlight
@@ -395,7 +392,6 @@ mechanics:
 - type: companion
   options:
     - @companion
-- type: reroll-damage # can replace attack-augment, elemental adept & carnage, auto-reroll (need to figure out auto rerolling)
 - type: conditional-attack-bonus # displays an icon with a list of all conditional attack bonuses (potentially armor piercing, might be others)
 - type: conditional-damage-bonus # displays an icon with a list of all conditional damage bonus options
 ---

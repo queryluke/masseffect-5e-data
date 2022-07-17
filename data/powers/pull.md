@@ -18,6 +18,7 @@ mechanics:
         unit: bonus_action
     attack:
       type: ranged
+      wp: power
       proficient: true
     dc: false
     damage: false

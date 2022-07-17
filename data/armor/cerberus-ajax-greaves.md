@@ -25,4 +25,4 @@ mechanics:
   - type: grenade-capacity
     value: 6
 ---
-- 6 grenade capacity.
+- +4 grenade capacity.

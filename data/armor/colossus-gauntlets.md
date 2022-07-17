@@ -11,4 +11,19 @@ tags:
 andromeda: false
 set: colossus
 rarity: rare
+name: Colossus Gauntlets
+flavor: >-
+  A bulky, heavy armor set that is difficult to wear for those not in superior
+  shape. But considered the galaxy's best defensive suit.
+mechanics:
+  - type: ac
+    bonus:
+      type: flat
+      value: 1
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
 ---
+- Requires STR 18.
+- +1 AC.

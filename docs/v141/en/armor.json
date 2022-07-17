@@ -639,7 +639,7 @@
         "value": 2
       }
     ],
-    "html": "<ul>\n<li>10 thermal clip capacity.</li>\n</ul>\n",
+    "html": "<ul>\n<li>+8 thermal clip capacity.</li>\n</ul>\n",
     "id": "cerberus-ajax-gauntlets"
   },
   {
@@ -667,7 +667,7 @@
         "value": 6
       }
     ],
-    "html": "<ul>\n<li>6 grenade capacity.</li>\n</ul>\n",
+    "html": "<ul>\n<li>+4 grenade capacity.</li>\n</ul>\n",
     "id": "cerberus-ajax-greaves"
   },
   {
@@ -753,7 +753,39 @@
     "rarity": "rare",
     "name": "Cerberus Assault Armor",
     "flavor": "Cerberus assault armor is designed for shock troops, who are expected to turn the tide of battle against creatures or forces that would decimate normal soldiers. The troops demanded three things in its design: shields and armor thick enough to last against a superior foe, and compartments for extra thermal clips. The only drawback of the armor is its weight, which the troops carry as a point of pride. They have a saying: \"Out of shape going in, in shape coming out.\"",
-    "html": "<ul>\n<li>30 Shields.</li>\n<li>+1 AC.</li>\n<li>Increase thermal clip capacity by 8.</li>\n</ul>\n",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 30
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 18
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 4
+      },
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      },
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<ul>\n<li>30 Shields.</li>\n<li>+1 AC.</li>\n<li>+8 thermal clip capacity.</li>\n</ul>\n",
     "id": "cerberus-assault-armor"
   },
   {
@@ -772,7 +804,16 @@
     "rarity": "rare",
     "name": "Cerberus Assault Helmet",
     "flavor": "Cerberus assault armor is designed for shock troops, who are expected to turn the tide of battle against creatures or forces that would decimate normal soldiers. The troops demanded three things in its design: shields and armor thick enough to last against a superior foe, and compartments for extra thermal clips. The only drawback of the armor is its weight, which the troops carry as a point of pride. They have a saying: \"Out of shape going in, in shape coming out.\"",
-    "html": "<ul>\n<li>Shield Regen 15.</li>\n<li>+1 AC.</li>\n</ul>\n",
+    "mechanics": [
+      {
+        "type": "shields",
+        "regen": {
+          "type": "flat",
+          "value": 10
+        }
+      }
+    ],
+    "html": "<ul>\n<li>+10 shield regen</li>\n<li>+1 AC.</li>\n</ul>\n",
     "id": "cerberus-assault-helmet"
   },
   {
@@ -790,6 +831,26 @@
     "rarity": "spectre",
     "name": "Cerberus Nightmare Boots",
     "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "mechanics": [
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 15
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 2
+      },
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      }
+    ],
     "html": "<ul>\n<li>Walking speed increased by <me-distance length='15' />.</li>\n</ul>\n",
     "id": "cerberus-nightmare-boots"
   },
@@ -810,7 +871,28 @@
     "rarity": "spectre",
     "name": "Cerberus Nightmare Chestpiece",
     "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
-    "html": "<ul>\n<li>10 shields (regen 10).</li>\n<li>Increase your thermal clip capacity by 4.</li>\n</ul>\n",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 10
+        },
+        "regen": {
+          "type": "flat",
+          "value": 10
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 10
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 2
+      }
+    ],
+    "html": "<ul>\n<li>10 shields (regen 10).</li>\n<li>+4 thermal clip capacity.</li>\n</ul>\n",
     "id": "cerberus-nightmare-chestpiece"
   },
   {
@@ -828,6 +910,20 @@
     "rarity": "spectre",
     "name": "Cerberus Nightmare Gloves",
     "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 2
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 2
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 2
+      }
+    ],
     "html": "<ul>\n<li>Equipped weapons have increased heat equal to twice the weapon's base heat.</li>\n</ul>\n",
     "id": "cerberus-nightmare-gloves"
   },
@@ -846,6 +942,32 @@
     "rarity": "spectre",
     "name": "Cerberus Nightmare Helmet",
     "flavor": "Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts. Powerful capacitors deliver punishing energy to the Phantom's weapons, and circulating coolant in its gloves allows for more shots before a given thermal clip overheats. The remaining energy focuses on shield strength and regeneration time to help survivability.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "augment": "attack",
+        "limits": {
+          "attack": "melee",
+          "model": "weapons"
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "attack-augment",
+        "augment": "damage",
+        "limits": {
+          "attack": "melee",
+          "model": "weapons"
+        },
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<ul>\n<li>+1 bonus to melee weapon attack and damage rolls.</li>\n</ul>\n",
     "id": "cerberus-nightmare-helmet"
   },
@@ -2387,6 +2509,31 @@
     "rarity": "common",
     "name": "Stock Heavy Armor",
     "flavor": "A cheap and simple set of heavy armor.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 10
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 4
+      },
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      }
+    ],
     "html": "",
     "id": "stock-heavy-armor"
   },
@@ -2402,6 +2549,31 @@
     "rarity": "common",
     "name": "Stock Light Armor",
     "flavor": "A cheap and simple set of light armor.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 10
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 4
+      },
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      }
+    ],
     "html": "",
     "id": "stock-light-armor"
   },
@@ -2417,6 +2589,31 @@
     "rarity": "common",
     "name": "Stock Medium Armor",
     "flavor": "A cheap and simple set of medium armor.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 10
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 4
+      },
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      }
+    ],
     "html": "",
     "id": "stock-medium-armor"
   },
