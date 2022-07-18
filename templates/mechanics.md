@@ -133,7 +133,7 @@ mechanics:
     total: integer # default 1
     max: integer #default 1, max 2
 # Proficiencies
-  - type: enum [skill, weapon, armor, saving-throw, tool, expertise]
+  - type: enum [skill, weapon, armor, saving-throw, tool, expertise] #note that 'saving-throw' has a double meaning. Could be rectified by adding -prof to the end of these
     value: enum [types of that prof]
     expertise: boolean
   - type: # [prof]-choice

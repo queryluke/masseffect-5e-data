@@ -25,6 +25,10 @@ mechanics:
     bonus:
       type: flat
       value: 1
+  - type: ac
+    bonus:
+      type: flat
+      value: 1
 ---
 - +1 AC.
 - +1 bonus to melee attack and damage rolls

@@ -10,4 +10,18 @@ tags:
 andromeda: false
 set: false
 rarity: uncommon
+name: Enviro-Greaves
+flavor: >-
+  A set of leg armor that makes the user much more maneuverable in a mountainous
+  or aquatic environment with normally unsuitable terrain.
+  - type: thermal-clip-capacity
+    value: 2
+  - type: grenade-capacity
+    value: 2
+  - type: skill-check
+    value: [athletics]
+    effect:
+      type: advantage
+      note: to swim or climb
 ---
+- Advantage on Athletics checks made to swim or climb.
