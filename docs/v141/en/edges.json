@@ -998,7 +998,13 @@
     "name": "The Free Hand",
     "mechanics": [
       {
-        "type": "free-hand-fs"
+        "type": "global-note",
+        "subType": "power",
+        "value": "Free Hand",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_the-free-hand"
+        }
       }
     ],
     "type": "fighting-styles",
