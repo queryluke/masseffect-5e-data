@@ -22,7 +22,7 @@ flavor: >-
   Although many were built, most were mysteriously lost en route to Andromeda.
 mechanics:
   - type: Other
-    name: Toggle Optics
+    name: Toggle Deep Space Explorer Helmet Optics
     shortDesc: Toggle your darkvision or infrared-vision on or off, or toggle between the two.
     toggle:
       id: advanced-optics-toggle

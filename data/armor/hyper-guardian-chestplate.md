@@ -12,4 +12,26 @@ tags:
 andromeda: false
 set: hyper-guardian
 rarity: uncommon
+name: HyperGuardian Chestplate
+flavor: >-
+  HyperGuardian hardsuits were built by Kassa Fabrication as a civilian-friendly
+  alternative to the Colossus line intended for private security in heavy-fire
+  situations or extreme environmental conditions. The Initiative considered the
+  bulky and unbreakable HyperGuardian a perfect choice for protecting vulnerable
+  new colonies.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 10
+    regen:
+      type: flat
+      value: 5
+  - type: thermal-clip-capacity
+    value: 6
+  - type: medi-gel-capacity
+    value: 2
 ---
+- 10 shields (regen 5).
+- You are considered proficient with this armor even if you lack proficiency with heavy
+armor.

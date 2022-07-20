@@ -132,6 +132,9 @@ mechanics:
     selections: integer # default 1
     total: integer # default 1
     max: integer #default 1, max 2
+  - type: asi-minimum
+    ability: enum abilities
+    minimum: int
 # Proficiencies
   - type: enum [skill, weapon, armor, saving-throw, tool, expertise] #note that 'saving-throw' has a double meaning. Could be rectified by adding -prof to the end of these
     value: enum [types of that prof]
@@ -377,6 +380,8 @@ mechanics:
 - type: prof-choice # need to retrofit or add this, for combined choices like fast learner and skilled
 - type: imprinted-enemies # can be model choice
 - type: advanced-medigel-application #d6 for medigel
+- type: ignore-armor-proficiency # see hyper guardian chestplate, n7 armor, requires additional mechanics on character sheet to impose disadvantage
+- type: exhaustion-increase # could be exhaustion or indoctrination, see initiative helmet
 
 # IDEAS
 - type: companion
