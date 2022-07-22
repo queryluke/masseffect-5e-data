@@ -358,6 +358,8 @@ mechanics:
     value: int
   - type: medi-gel-capacity
     value: int
+  - type: weapon-slots
+    value: int
 # weapon heat
   - type: weapon-heat-increase
     multiplier: float
@@ -369,6 +371,9 @@ mechanics:
     abilityMod: boolean #damageOnly
     dieIncrease: int #damageOnly
     rerollIfLessThan: int #damageOnly
+# Minimum hit die roll
+  - type: min-hit-die-roll
+    bonus: @bonus
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light

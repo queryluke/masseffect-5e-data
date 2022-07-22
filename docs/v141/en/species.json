@@ -267,7 +267,9 @@
         "against": [
           "frightened"
         ],
-        "effect": "advantage"
+        "effect": {
+          "type": "advantage"
+        }
       },
       {
         "name": "Bravery",

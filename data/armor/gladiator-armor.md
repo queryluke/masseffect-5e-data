@@ -13,6 +13,7 @@ set: false
 rarity: uncommon
 name: Gladiator Armor
 flavor: Elkoss Combine's Gladiator Armor is a simple upgrade to most heavy armor.
+mechanics:
   - type: shields
     capacity:
       type: flat

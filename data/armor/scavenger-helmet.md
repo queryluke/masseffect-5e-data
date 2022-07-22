@@ -11,4 +11,19 @@ tags:
 andromeda: false
 set: scavenger
 rarity: rare
+name: Scavenger Helmet
+flavor: >-
+  The Auto-Recycling Technical and Combat Interface Armor-a name only slightly
+  less awkward in the original turian-is better known as the Scavenger Hardsuit.
+  Originally built by Armax Arsenal in the Milky Way, the Scavenger incorporates
+  quarian technology that allows the user to better analyze, interface, and
+  integrate foreign components.
+mechanics:
+  - type: skill-check
+    value: [investigation, science]
+    effect:
+      type: advantage
+      note: when analyzing objects
 ---
+- You have advantage on Intelligence (Investigation) and Intelligence (Science) rolls when analyzing
+objects.

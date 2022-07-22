@@ -11,4 +11,23 @@ tags:
 andromeda: false
 set: partisan
 rarity: uncommon
+name: Partisan Armor
+flavor: >-
+  Batarian State Arms developed a line of armor meant to protect Batarian
+  soldiers for alien diseases and infections.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 15
+    regen:
+      type: flat
+      value: 5
+  - type: thermal-clip-capacity
+    value: 10
+  - type: medi-gel-capacity
+    value: 4
+  - type: grenade-capacity
+    value: 2
 ---
+- 15 shields (regen 5).

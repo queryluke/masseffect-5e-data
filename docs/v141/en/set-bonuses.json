@@ -317,8 +317,8 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours."
+        "text": "Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours.",
+        "mechanics": []
       }
     ],
     "max": 2,
@@ -329,8 +329,16 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "+3 AC"
+        "text": "+3 AC",
+        "mechanics": [
+          {
+            "type": "ac",
+            "bonus": {
+              "type": "flat",
+              "value": 3
+            }
+          }
+        ]
       }
     ],
     "max": 2,
@@ -341,18 +349,47 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "+1 AC."
+        "text": "+1 AC.",
+        "mechanics": [
+          {
+            "type": "ac",
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
       },
       {
         "threshold": 3,
-        "mechanics": [],
-        "text": "+10 Shields, +5 Shield Regen."
+        "text": "+10 Shields, +5 Shield Regen.",
+        "mechanics": [
+          {
+            "type": "shields",
+            "capacity": {
+              "type": "flat",
+              "value": 10
+            },
+            "regen": {
+              "type": "flat",
+              "value": 5
+            }
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount."
+        "text": "Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.",
+        "mechanics": [
+          {
+            "type": "reaction",
+            "name": "Hyper Guardian Armor (Set Bonus 4 of 4)",
+            "resource": {
+              "reset": "short"
+            },
+            "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points."
+          }
+        ]
       }
     ],
     "max": 4,
@@ -363,8 +400,14 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "When you lose hit points, as a reaction, you may expend a charge of medi-gel."
+        "text": "When you lose hit points, as a reaction, you may expend a charge of medi-gel.",
+        "mechanics": [
+          {
+            "type": "reaction",
+            "name": "Inferno Armor Set Bonus (2 of 2)",
+            "shortDesc": "When you take damage, you may expend a medi-gel and apply its effects to yourself."
+          }
+        ]
       }
     ],
     "max": 2,
@@ -375,13 +418,13 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "You have 7 levels of exhaustion, you suffer no negative effects at the first level."
+        "text": "You have 7 levels of exhaustion, you suffer no negative effects at the first level.",
+        "mechanics": []
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "You have 8 levels of exhaustion, you suffer no negative effects at the first two levels."
+        "text": "You have 8 levels of exhaustion, you suffer no negative effects at the first two levels.",
+        "mechanics": []
       }
     ],
     "max": 4,
@@ -392,18 +435,36 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "Your Strength score is 19 while you wear this armor. There is no effect on you if your Strength is 19 or higher without it."
+        "text": "Your Strength score is 19 while you wear this armor. There is no effect on you if your Strength is 19 or higher without it.",
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "str",
+            "minimum": 19
+          }
+        ]
       },
       {
         "threshold": 3,
-        "mechanics": [],
-        "text": "Your Strength score is 21 while you wear this armor. There is no effect on you if your Strength is 21 or higher without it."
+        "text": "Your Strength score is 21 while you wear this armor. There is no effect on you if your Strength is 21 or higher without it.",
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "str",
+            "minimum": 21
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "Your Strength score is 23 while you wear this armor. There is no effect on you if your Strength is 23 or higher without it."
+        "text": "Your Strength score is 23 while you wear this armor. There is no effect on you if your Strength is 23 or higher without it.",
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "str",
+            "minimum": 23
+          }
+        ]
       }
     ],
     "max": 4,
@@ -414,13 +475,25 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack."
+        "text": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack.",
+        "mechanics": [
+          {
+            "type": "other",
+            "name": "Maverick Armor Set Bonus (2 of 4)",
+            "shortDesc": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack."
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit."
+        "text": "Your weapon attacks score a critical hit on a roll of 18–20.",
+        "mechanics": [
+          {
+            "type": "other",
+            "name": "Maverick Armor Set Bonus (4 of 4)",
+            "shortDesc": "Your weapon attacks score a critical hit on a roll of 18–20."
+          }
+        ]
       }
     ],
     "max": 4,
@@ -431,8 +504,23 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "+1 bonus to weapon attack and damage rolls"
+        "text": "+1 bonus to weapon attack and damage rolls",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "model": "weapon"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
       }
     ],
     "max": 2,
@@ -443,13 +531,27 @@
     "bonuses": [
       {
         "threshold": 3,
-        "mechanics": [],
-        "text": "Increase your hit points by 1 for each level you have gained."
+        "text": "Increase your hit points by 1 for each level you have gained.",
+        "mechanics": [
+          {
+            "type": "hp",
+            "bonus": {
+              "type": "level"
+            }
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "Increase your hit points by 1 for each level you have gained."
+        "text": "Increase your hit points by 1 for each level you have gained.",
+        "mechanics": [
+          {
+            "type": "hp",
+            "bonus": {
+              "type": "level"
+            }
+          }
+        ]
       }
     ],
     "max": 4,
@@ -460,8 +562,17 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "You are immune to becoming poisoned and have resistance to poison damage."
+        "text": "You are immune to becoming poisoned and have resistance to poison damage.",
+        "mechanics": [
+          {
+            "type": "condition-immunity",
+            "value": "poisoned"
+          },
+          {
+            "type": "resistance",
+            "value": "poison"
+          }
+        ]
       }
     ],
     "max": 2,
@@ -472,13 +583,28 @@
     "bonuses": [
       {
         "threshold": 3,
-        "mechanics": [],
-        "text": "Any critical hit against you becomes a normal hit."
+        "text": "Any critical hit against you becomes a normal hit.",
+        "mechanics": [
+          {
+            "type": "global-note",
+            "subType": "defenses",
+            "value": "Null Critical"
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "You gain a +5 bonus to initiative as long as you aren't incapacitated."
+        "text": "You gain a +5 bonus to initiative as long as you aren't incapacitated.",
+        "mechanics": [
+          {
+            "type": "initiative",
+            "effect": "bonus",
+            "bonus": {
+              "type": "flat",
+              "value": 5
+            }
+          }
+        ]
       }
     ],
     "max": 4,
@@ -489,8 +615,14 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "When you make a Charisma-based skill check, your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19."
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "cha",
+            "minimum": 19
+          }
+        ],
+        "text": "Your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19."
       }
     ],
     "max": 2,
@@ -501,13 +633,34 @@
     "bonuses": [
       {
         "threshold": 3,
-        "mechanics": [],
-        "text": "When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2)."
+        "text": "When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
+        "mechanics": [
+          {
+            "type": "min-hit-die-roll",
+            "bonus": {
+              "type": "mod",
+              "value": "con",
+              "min": 2
+            }
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "You may jumpstart your shields any number of times. Each time you do, roll a d20. On a roll of 8 or less, your shields malfunction"
+        "text": "You may jumpstart your shields any number of times. Each time you do, roll a d20. On a roll of 8 or less, your shields malfunction",
+        "mechanics": [
+          {
+            "type": "augment",
+            "value": {
+              "model": "armor",
+              "id": "remnant-tasset"
+            },
+            "merge": {
+              "resource": false,
+              "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points. Then roll a d20. On a roll of 8 or less, your shields become 0 and do not regen until you take a short rest."
+            }
+          }
+        ]
       }
     ],
     "max": 4,
@@ -518,8 +671,17 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "You are immune to disease and the poisoned condition and you have resistance to poison damage."
+        "text": "You are immune to disease and the poisoned condition and you have resistance to poison damage.",
+        "mechanics": [
+          {
+            "type": "condition-immunity",
+            "value": "poisoned"
+          },
+          {
+            "type": "resistance",
+            "value": "poison"
+          }
+        ]
       }
     ],
     "max": 2,
@@ -530,13 +692,47 @@
     "bonuses": [
       {
         "threshold": 2,
-        "mechanics": [],
-        "text": "+1 bonus to melee attack and damage rolls."
+        "text": "+1 bonus to melee attack and damage rolls.",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "type": "melee"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
       },
       {
         "threshold": 4,
-        "mechanics": [],
-        "text": "You have resistance to cold and fire damage. You have advantage on stealth checks against thermal sensors and creatures or devices using infrared vision."
+        "text": "You have resistance to cold and fire damage. You have advantage on stealth checks against thermal sensors and creatures or devices using infrared vision.",
+        "mechanics": [
+          {
+            "type": "resistance",
+            "value": "cold"
+          },
+          {
+            "type": "resistance",
+            "value": "fire"
+          },
+          {
+            "type": "skill-check",
+            "value": [
+              "stealth"
+            ],
+            "effect": {
+              "type": "advantage",
+              "note": "against thermal sensors or infrared vision"
+            }
+          }
+        ]
       }
     ],
     "max": 4,

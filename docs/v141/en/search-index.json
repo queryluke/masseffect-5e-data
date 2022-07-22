@@ -464,7 +464,7 @@
       "Classes"
     ],
     "link": "/armor/death-mask",
-    "body": "\n+1 AC.\n+1 on melee attack and damage rolls\n\n",
+    "body": "\n+1 AC.\n+1 bonus to melee attack and damage rolls\n\n",
     "html": false
   },
   {
@@ -560,7 +560,7 @@
       "Classes"
     ],
     "link": "/armor/gladiator-armor",
-    "body": "\n10 shields (regen 5). +1 AC\n\n",
+    "body": "\n10 shields (regen 5).\n+1 AC\n\n",
     "html": false
   },
   {
@@ -716,7 +716,7 @@
       "Classes"
     ],
     "link": "/armor/initiative-gauntlets",
-    "body": "\nIncrease medi-gel capacity by 2.\n\nYou have 7 levels of exhaustion, you suffer no negative effects at the first level. You have 8 levels of exhaustion, you suffer no negative effects at the first two levels.",
+    "body": "\n+2 medi-gel capacity\n\nYou have 7 levels of exhaustion, you suffer no negative effects at the first level. You have 8 levels of exhaustion, you suffer no negative effects at the first two levels.",
     "html": false
   },
   {
@@ -860,7 +860,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-boots",
-    "body": "\nIncrease thermal clip capacity by 4.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
+    "body": "\n+4 thermal clip capacity.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
     "html": false
   },
   {
@@ -872,7 +872,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-vest",
-    "body": "\nIncrease grenade capacity by 2.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
+    "body": "\n+2 grenade capacity.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
     "html": false
   },
   {
@@ -884,7 +884,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-visor",
-    "body": "\nDarkvision .\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
+    "body": "\nDarkvision .\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
     "html": false
   },
   {
@@ -896,7 +896,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-wraps",
-    "body": "\nIncrease thermal clip capacity by 4.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
+    "body": "\n+4 thermal clip capacity.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
     "html": false
   },
   {
@@ -944,7 +944,7 @@
       "Classes"
     ],
     "link": "/armor/n-7-defender-armorsuit",
-    "body": "\n20 shields (regen 10).\n+1 AC.\nIncrease thermal clip capacity by 8.\nIncrease medi-gel capacity by 2.\n\n+1 bonus to weapon attack and damage rolls",
+    "body": "\n20 shields (regen 10).\n+1 AC.\n+8 thermal clip capacity.\n+2 medi-gel capacity.\n\n+1 bonus to weapon attack and damage rolls",
     "html": false
   },
   {
@@ -980,7 +980,7 @@
       "Classes"
     ],
     "link": "/armor/n-7-greaves",
-    "body": "\n5 Shields.\nYou are considered proficient with this armor even if you lack proficiency with medium\narmor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
+    "body": "\n+5 shield capacity.\nYou are considered proficient with this armor even if you lack proficiency with medium\narmor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
     "html": false
   },
   {
@@ -992,7 +992,7 @@
       "Classes"
     ],
     "link": "/armor/n-7-helmet",
-    "body": "\nYou have advantage on initiative rolls. You are considered proficient with this armor even if you\nlack proficiency with medium armor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
+    "body": "\nYou have advantage on initiative rolls.\nYou are considered proficient with this armor even if you lack proficiency with medium armor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
     "html": false
   },
   {
@@ -1004,7 +1004,7 @@
       "Classes"
     ],
     "link": "/armor/onyx-armor",
-    "body": "\n10 shields (regen 5). +1 AC\n\n",
+    "body": "\n10 shields (regen 5).\n+1 AC\n\n",
     "html": false
   },
   {
@@ -1100,7 +1100,7 @@
       "Classes"
     ],
     "link": "/armor/predator-armor",
-    "body": "\nIncrease thermal clip capacity by 4.\nAny critical hit against you becomes a normal hit\n\n",
+    "body": "\n+4 thermal clip capacity.\nAny critical hit against you becomes a normal hit\n\n",
     "html": false
   },
   {
@@ -1112,7 +1112,7 @@
       "Classes"
     ],
     "link": "/armor/reckoner-knight-armet",
-    "body": "\nWhenever you lose hit points, you may use your reaction to expend one medi-gel (provided you have\nany medi-gel remaining).\n\nWhen you make a Charisma-based skill check, your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
+    "body": "\nWhenever you lose hit points, you may use your reaction to expend one medi-gel (provided you have\nany medi-gel remaining).\n\nYour Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
     "html": false
   },
   {
@@ -1124,7 +1124,7 @@
       "Classes"
     ],
     "link": "/armor/reckoner-knight-armorsuit",
-    "body": "\n30 shields (regen 5).\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll\nthe die and must use the new roll, even if the new roll is a 1 or a 2.\n\nWhen you make a Charisma-based skill check, your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
+    "body": "\n30 shields (regen 5).\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll\nthe die and must use the new roll, even if the new roll is a 1 or a 2.\n\nYour Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
     "html": false
   },
   {
@@ -6681,7 +6681,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/active-camo-exe",
-    "body": "The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use a bonus action to toggle this effect on or off.\n",
+    "body": "The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use a free action to toggle this effect on or off.\n",
     "html": false
   },
   {

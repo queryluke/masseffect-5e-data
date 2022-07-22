@@ -19,19 +19,19 @@ flavor: >-
   and ceramic armor plating. Personnel equipped in these suits can enter and
   leave alien biomes without fear of contamination or hostile wildlife.
 mechanics:
-  - type: Other
+  - type: other
     name: Toggle Initiate Helmet Optics
     shortDesc: Toggle your darkvision or infrared-vision on or off, or toggle between the two. Additionally, noxious air is breathable.
     toggle:
-      id: advanced-optics-toggle
+      id: initiative-helmet-toggle
       options:
-        - id: advanced-optics-toggle-darkvision
+        - id: initiate-helmet-toggle-darkvision
           name: Darkvision
           whenOn:
             - type: sense
               sense: darkvision
               distance: 30
-        - id: advanced-optics-toggle-infrared-vision
+        - id: initiate-helmet-toggle-infrared-vision
           name: Infrared Vision
           whenOn:
             - type: sense

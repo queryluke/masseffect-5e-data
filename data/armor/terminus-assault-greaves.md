@@ -11,4 +11,22 @@ tags:
 andromeda: false
 set: terminus-assault
 rarity: uncommon
+name: Terminus Assault Greaves
+flavor: >-
+  The Terminus Armor is environmentally sealed with an independent air supply
+  for use in space and extreme planetary conditions. Its onboard microframe
+  computer runs a suite of battle management software. To prevent detection by
+  passive thermal sensors, body heat is channeled to the base of the feet and
+  dispersed into the ground.
+mechanics:
+  - type: thermal-clip-capacity
+    value: 2
+  - type: grenade-capacity
+    value: 2
+  - type: speed-bonus
+    value: [walk]
+    bonus:
+      type: flat
+      value: 10
 ---
+- Increase your walking speed by <me-distance length='10' />.

@@ -21,19 +21,19 @@ flavor: >-
   formidable kinetic barrier generator, and an array of scientific instruments.
   Although many were built, most were mysteriously lost en route to Andromeda.
 mechanics:
-  - type: Other
+  - type: other
     name: Toggle Deep Space Explorer Helmet Optics
     shortDesc: Toggle your darkvision or infrared-vision on or off, or toggle between the two.
     toggle:
-      id: advanced-optics-toggle
+      id: dse-helmet-toggle
       options:
-        - id: advanced-optics-toggle-darkvision
+        - id: dse-helmet-toggle-darkvision
           name: Darkvision
           whenOn:
             - type: sense
               sense: darkvision
               distance: 30
-        - id: advanced-optics-toggle-infrared-vision
+        - id: dse-helmet-infrared-vision
           name: Infrared Vision
           whenOn:
             - type: sense
