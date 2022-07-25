@@ -363,6 +363,7 @@ mechanics:
 # weapon heat
   - type: weapon-heat-increase
     multiplier: float
+    value: int
 # attack and damage bonuses
   - type: attack-augment
     attackLimit: @attackLimit
@@ -371,9 +372,22 @@ mechanics:
     abilityMod: boolean #damageOnly
     dieIncrease: int #damageOnly
     rerollIfLessThan: int #damageOnly
+    crit: int # hit only
+    addCritDie: int # damage only
 # Minimum hit die roll
   - type: min-hit-die-roll
     bonus: @bonus
+# remove weapon prop
+  - type: adjust-weapon-props
+    add: [enum weapon properties]
+    remove: [enum weapon properties]
+# ammo powers
+  - type: toggle-ammo
+    whenOn:
+      damageType: string
+      primes: string
+      detonates: boolean
+      addDamage: @damage
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light

@@ -8562,7 +8562,7 @@
       "Armor Mod"
     ],
     "link": "/mods/barrier",
-    "body": "The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.\n",
+    "body": "The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for\nbiotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.\n",
     "html": false
   },
   {
@@ -8601,7 +8601,7 @@
       "Armor Mod"
     ],
     "link": "/mods/battlefield-assist-module",
-    "body": "At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus action to cast Defense Matrix (Custom Current). It lasts 1 minute and does not require concentration. You may use this feature once per long rest.\n",
+    "body": "At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus\naction to gain +2 AC and resistance to a damage type of your choice for 1 minute. You may use this feature once per\nlong rest.\n",
     "html": false
   },
   {
@@ -8614,7 +8614,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/beam-emitter",
-    "body": "+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type becomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus action to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the following combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and the beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this targeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.\n",
+    "body": "+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type\nbecomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the\nfollowing combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and\nthe beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this\ntargeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or\nfull cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus\nif you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.\n",
     "html": false
   },
   {
@@ -8627,7 +8627,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/bio-converter",
-    "body": "When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum heat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.\n",
+    "body": "When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum\nheat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.\n",
     "html": false
   },
   {

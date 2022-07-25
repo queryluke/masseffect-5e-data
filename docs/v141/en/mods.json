@@ -228,10 +228,6 @@
           "id": "autogel"
         },
         "type": "reaction",
-        "resource": {
-          "displayType": "medi-gel",
-          "id": "autogel"
-        },
         "shortDesc": "When you lose hit points, you may use one medi-gel on yourself."
       }
     ],
@@ -254,6 +250,15 @@
     ],
     "name": "Auxiliary Shield Emitters",
     "flavor": "Micro-capacitors that release energy to speed up shield regeneration.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<p>Increase your shield regen by 5.</p>\n",
     "id": "auxiliary-shield-emitters"
   },
@@ -273,6 +278,12 @@
     ],
     "name": "Back Holster",
     "flavor": "A back holster designed to hold a larger weapon.",
+    "mechanics": [
+      {
+        "type": "weapon-slots",
+        "value": 2
+      }
+    ],
     "html": "<p>Gain 2 additional weapon slots. If using the Variant: Encumbrance rule, increase your Carry Weight by 10.</p>\n",
     "id": "back-holster"
   },
@@ -292,7 +303,59 @@
     ],
     "name": "Barrier",
     "flavor": "Eezo oscillator provides a biotic-like barrier.",
-    "html": "<p>The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.</p>\n",
+    "mechanics": [
+      {
+        "type": "barrier",
+        "multiclassConversion": 1,
+        "ticks": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "uses": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "dieCount": 1,
+        "dieType": 8
+      }
+    ],
+    "html": "<p>The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for\nbiotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.</p>\n",
     "id": "barrier"
   },
   {
@@ -338,6 +401,14 @@
     ],
     "name": "Battle Telemetry",
     "flavor": "Battle telemetry systems increase the efficiency of your biotic amplifiers and omni-tool.",
+    "mechanics": [
+      {
+        "type": "power-resource-recovery",
+        "dieCount": 1,
+        "dieType": 4,
+        "label": "Battle Telemetry Mod"
+      }
+    ],
     "html": "<p>You regain 1d4 worth of power slots or tech points when you take a short rest.</p>\n",
     "id": "battle-telemetry"
   },
@@ -357,7 +428,170 @@
     ],
     "name": "Battlefield Assist Module",
     "flavor": "A special VI that reroutes all power to your armor's defenses when vital signs are low.",
-    "html": "<p>At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus action to cast Defense Matrix (Custom Current). It lasts 1 minute and does not require concentration. You may use this feature once per long rest.</p>\n",
+    "mechanics": [
+      {
+        "name": "Battlefield Assist Module",
+        "moreInfo": {
+          "model": "mods",
+          "id": "battlefield-assist-module"
+        },
+        "type": "other",
+        "shortDesc": "At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus action to gain +2 AC and resistance to a damage type of your choice for 1 minute.",
+        "toggle": {
+          "id": "battlefield-assist-module-toggle",
+          "whenOn": [
+            {
+              "type": "ac",
+              "bonus": {
+                "type": "flat",
+                "value": 2
+              }
+            }
+          ],
+          "options": [
+            {
+              "id": "battlefield-assist-module-toggle-acid",
+              "name": "Acid",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "acid"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-bludgeoning",
+              "name": "Bludgeoning",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "bludgeoning"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-cold",
+              "name": "Cold",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "cold"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-fire",
+              "name": "Fire",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "fire"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-force",
+              "name": "Force",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "force"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-lightning",
+              "name": "Lightning",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "lightning"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-necrotic",
+              "name": "Necrotic",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "necrotic"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-piercing",
+              "name": "Piercing",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "piercing"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-poison",
+              "name": "Poison",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "poison"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-psychic",
+              "name": "Psychic",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "psychic"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-radiant",
+              "name": "Radiant",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "radiant"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-slashing",
+              "name": "Slashing",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "slashing"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-thunder",
+              "name": "Thunder",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "thunder"
+                }
+              ]
+            }
+          ]
+        },
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "battlefield-assist-module-resource"
+        }
+      }
+    ],
+    "html": "<p>At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus\naction to gain +2 AC and resistance to a damage type of your choice for 1 minute. You may use this feature once per\nlong rest.</p>\n",
     "id": "battlefield-assist-module"
   },
   {
@@ -378,7 +612,29 @@
     ],
     "name": "Beam Emitter",
     "flavor": "The weapon now fires a sustained energy beam that accurately deals rapid damage to the target.",
-    "html": "<p>+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type becomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus action to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the following combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and the beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this targeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.</p>\n",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
+    "html": "<p>+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type\nbecomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the\nfollowing combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and\nthe beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this\ntargeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or\nfull cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus\nif you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.</p>\n",
     "id": "beam-emitter"
   },
   {
@@ -399,7 +655,8 @@
     ],
     "name": "Bio-Converter",
     "flavor": "An experimental thermal clip replacement that vents heat into the user's armor system. While painful, it is very effective at keeping weapons cool and firing.",
-    "html": "<p>When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum heat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.</p>\n",
+    "mechanics": [],
+    "html": "<p>When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum\nheat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.</p>\n",
     "id": "bio-converter"
   },
   {
@@ -418,6 +675,24 @@
     ],
     "name": "Bladed Wristguards",
     "flavor": "Reinforce armor with razor-sharp blades that deal damage to melee attackers.",
+    "mechanics": [
+      {
+        "name": "Bladed Wristguards (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "bladed-wristguards"
+        },
+        "type": "other",
+        "shortDesc": "When you are hit with a melee attack, deal 1d6 piercing damage back at the attacker.",
+        "damage": [
+          {
+            "dieType": 6,
+            "dieCount": 1,
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
     "html": "<p>When you are hit with a melee attack, deal 1d6 piercing damage back at the attacker.</p>\n",
     "id": "bladed-wristguards"
   },
@@ -439,6 +714,41 @@
     ],
     "name": "Burst Fire System",
     "flavor": "Augment the weapons firing system to automatic.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": -2
+        }
+      },
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "dieIncrease": -1
+      },
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "burst-fire"
+        ]
+      },
+      {
+        "type": "weapon-heat-increase",
+        "value": 6
+      }
+    ],
     "html": "<p>The weapon gains 6 heat and the Burst Fire attribute, but you have a -2 penalty with attack rolls and you reduce any damage done by 1 die type (d4s become a d2).</p>\n",
     "id": "burst-fire-system"
   },
@@ -458,6 +768,15 @@
     ],
     "name": "Ceramic Weave",
     "flavor": "Elite personal protection equipment includes a series of interlocking ceramic plates covered in a proprietary tungsten alloy weave for maximum stopping power.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>+1 AC</p>\n",
     "id": "ceramic-weave"
   },
@@ -477,6 +796,12 @@
     ],
     "name": "Chest Holster - Grenades",
     "flavor": "A holster designed to hold combat grenades.",
+    "mechanics": [
+      {
+        "type": "grenade-capacity",
+        "value": 4
+      }
+    ],
     "html": "<p>Increase your grenade capacity by 4</p>\n",
     "id": "chest-holster-grenades"
   },
@@ -496,6 +821,12 @@
     ],
     "name": "Chest Holster - Thermal Clips",
     "flavor": "A holster designed to hold thermal clips.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 8
+      }
+    ],
     "html": "<p>Increase your thermal clip capacity by 8</p>\n",
     "id": "chest-holster-thermal-clips"
   },
@@ -515,6 +846,12 @@
     ],
     "name": "Cleats",
     "flavor": "Copper microfilaments in your boots ground you and abate electrical shock.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "lightning"
+      }
+    ],
     "html": "<p>Resistance to lightning.</p>\n",
     "id": "cleats"
   },
@@ -536,6 +873,23 @@
     ],
     "name": "Combat Sensor",
     "flavor": "Scanning radar that alerts you when enemies are within your vicinity.",
+    "mechanics": [
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "name": "Combat Sensor (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "combat-sensor"
+        },
+        "type": "other",
+        "shortDesc": "You and any of your companions within <me-distance length=\"30\" /> of you can't be surprised, except when incapacitated. The sensor awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+      }
+    ],
     "html": "<p>While this weapon is equipped, you have advantage on initiative rolls. In addition, you and any of your companions\nwithin <me-distance length=\"30\" /> of you can't be surprised, except when incapacitated. The sensor awakens you and your companions within range if any of you are sleeping naturally when combat begins.</p>\n",
     "id": "combat-sensor"
   },
@@ -553,6 +907,18 @@
     ],
     "name": "Concentration Mod",
     "flavor": "Biometric sensors and auto-targeting software adjust to the user's pulse and breath rate, assisting aim.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "crit": 19
+      }
+    ],
     "html": "<p>If you reduce your speed to 0 for the turn, ranged attack rolls with this weapon score critical hits on rolls of 19 &amp; 20.</p>\n",
     "id": "concentration-mod"
   },
