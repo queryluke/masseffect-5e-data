@@ -936,6 +936,21 @@
     ],
     "name": "Counterweight",
     "flavor": "Further balance your weapon making it easier to strike in combat.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>+1 on melee attack rolls made with this weapon.</p>\n",
     "id": "counterweight"
   },
@@ -953,7 +968,19 @@
     ],
     "name": "Cranial Trauma System",
     "flavor": "Increase headshot lethality by balancing barrel calibration so that ammunition pierces bone and explodes in soft tissue.",
-    "html": "<p>Roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack made with this weapon.</p>\n",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "addCritDie": 1
+      }
+    ],
+    "html": "<p>Roll one additional weapon damage die when determining the extra damage for a critical hit with a ranged attack made with this weapon.</p>\n",
     "id": "cranial-trauma-system"
   },
   {
@@ -975,6 +1002,22 @@
     ],
     "name": "Cryo Ammo",
     "flavor": "Fire supercooled projectiles.",
+    "mechanics": [
+      {
+        "type": "toggle-weapon-augment",
+        "name": "Cryo Ammo",
+        "damageType": "cold",
+        "primes": "cold",
+        "primesLength": "until the end of its next turn",
+        "notes": [
+          {
+            "type": "tooltip",
+            "tooltipText": "Hit: reduce the target's movement speed by 1/2 until the end of its next turn",
+            "text": "Movement: 1/2"
+          }
+        ]
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes cold. Successful ranged weapon attacks cause the target to become primed (cold) and reduce its movement speed by half until the end of its next turn.</p>\n",
     "id": "cryo-ammo"
   },
@@ -998,6 +1041,15 @@
     ],
     "name": "Disruptor Ammo",
     "flavor": "Fire statically charged projectiles.",
+    "mechanics": [
+      {
+        "type": "toggle-weapon-augment",
+        "name": "Disruptor Ammo",
+        "primes": "lightning",
+        "primesLength": "until the end of its next turn",
+        "detonates": true
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes lightning, Successful ranged attacks can detonate primed targets or cause the target to become primed (lightning) until the end of its next turn.</p>\n",
     "id": "disruptor-ammo"
   },
@@ -1017,6 +1069,29 @@
     ],
     "name": "EC Counter",
     "flavor": "Uses an electrical conduit to automatically counter-attack melee combatants.",
+    "mechanics": [
+      {
+        "name": "EC Counter",
+        "moreInfo": {
+          "model": "mods",
+          "id": "ec-counter"
+        },
+        "type": "other",
+        "shortDesc": "Once per round, when you are hit with a melee attack, the attacking creature suffers 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn.",
+        "dc": {
+          "base": 10,
+          "proficient": false,
+          "save": "CON"
+        },
+        "damage": [
+          {
+            "dieType": 4,
+            "dieCount": 2,
+            "type": "lightning"
+          }
+        ]
+      }
+    ],
     "html": "<p>Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).</p>\n",
     "id": "ec-counter"
   },

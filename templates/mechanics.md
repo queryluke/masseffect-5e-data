@@ -32,6 +32,13 @@ toggle:
   whenOn: [whenable]
   whenOff: [whenable]
 
+note:
+  type: enum (text, html, tooltip, icon)
+  icon: enum (mdi-icons) # icon only
+  text: string
+  tooltipText: string # tooltip only
+  color: string (vuetify colors) # icon only
+
 whenable:
   type: string, resource or a mechanic type
   # if resource
@@ -83,6 +90,7 @@ damage:
   modComparison: enum [abilities] #required for max mod
   type: enum [damage types] or hp, sp, tempHp
   bonus: @bonus
+  addDamage: @damage
 
 # used for looking up player selections
 # in theory, all selections are:
@@ -382,12 +390,16 @@ mechanics:
     add: [enum weapon properties]
     remove: [enum weapon properties]
 # ammo powers
-  - type: toggle-ammo
-    whenOn:
-      damageType: string
-      primes: string
-      detonates: boolean
-      addDamage: @damage
+  - type: toggle-weapon-augment
+    name: string
+    hitBonus: int
+    damageType: string
+    primes: string
+    primeLength: string # optional
+    detonates: boolean
+    addDamage: @damage
+    notes: [@note]
+    heatConsumption: string
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
