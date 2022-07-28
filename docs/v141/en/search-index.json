@@ -188,7 +188,7 @@
       "Classes"
     ],
     "link": "/armor/cerberus-ajax-gauntlets",
-    "body": "\n+8 thermal clip capacity.\n\nEquipped weapons have increased heat equal to half its base heat (rounded down). Shield Regen 20",
+    "body": "\nIncrease thermal clip capacity by 8.\n\nEquipped weapons have increased heat equal to half its base heat (rounded down). Shield Regen 20",
     "html": false
   },
   {
@@ -200,7 +200,7 @@
       "Classes"
     ],
     "link": "/armor/cerberus-ajax-greaves",
-    "body": "\n+4 grenade capacity.\n\nEquipped weapons have increased heat equal to half its base heat (rounded down). Shield Regen 20",
+    "body": "\nIncrease your grenade capacity by 4.\n\nEquipped weapons have increased heat equal to half its base heat (rounded down). Shield Regen 20",
     "html": false
   },
   {
@@ -236,7 +236,7 @@
       "Classes"
     ],
     "link": "/armor/cerberus-assault-armor",
-    "body": "\n30 Shields.\n+1 AC.\n+8 thermal clip capacity.\n\n+2 AC",
+    "body": "\n30 Shields.\n+1 AC.\nIncrease thermal clip capacity by 8.\n\n+2 AC",
     "html": false
   },
   {
@@ -248,7 +248,7 @@
       "Classes"
     ],
     "link": "/armor/cerberus-assault-helmet",
-    "body": "\n+10 shield regen\n+1 AC.\n\n+2 AC",
+    "body": "\nShield Regen 15.\n+1 AC.\n\n+2 AC",
     "html": false
   },
   {
@@ -272,7 +272,7 @@
       "Classes"
     ],
     "link": "/armor/cerberus-nightmare-chestpiece",
-    "body": "\n10 shields (regen 10).\n+4 thermal clip capacity.\n\n+1 bonus to melee attack and damage rolls. +1 bonus to melee attack and damage rolls. +1 bonus to melee attack and damage rolls.",
+    "body": "\n10 shields (regen 10).\nIncrease your thermal clip capacity by 4.\n\n+1 bonus to melee attack and damage rolls. +1 bonus to melee attack and damage rolls. +1 bonus to melee attack and damage rolls.",
     "html": false
   },
   {
@@ -344,7 +344,7 @@
       "Classes"
     ],
     "link": "/armor/cerberus-shade-legguards",
-    "body": "\n+4 thermal clip capacity.\n+2 grenade capacity.\n\nOnce per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount. +10 shields. +10 shield regen.",
+    "body": "\nIncrease thermal clip capacity by 4.\nIncrease grenade capacity by 2\n\nOnce per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount. +10 shields. +10 shield regen.",
     "html": false
   },
   {
@@ -464,7 +464,7 @@
       "Classes"
     ],
     "link": "/armor/death-mask",
-    "body": "\n+1 AC.\n+1 bonus to melee attack and damage rolls\n\n",
+    "body": "\n+1 AC.\n+1 on melee attack and damage rolls\n\n",
     "html": false
   },
   {
@@ -560,7 +560,7 @@
       "Classes"
     ],
     "link": "/armor/gladiator-armor",
-    "body": "\n10 shields (regen 5).\n+1 AC\n\n",
+    "body": "\n10 shields (regen 5). +1 AC\n\n",
     "html": false
   },
   {
@@ -716,7 +716,7 @@
       "Classes"
     ],
     "link": "/armor/initiative-gauntlets",
-    "body": "\n+2 medi-gel capacity\n\nYou have 7 levels of exhaustion, you suffer no negative effects at the first level. You have 8 levels of exhaustion, you suffer no negative effects at the first two levels.",
+    "body": "\nIncrease medi-gel capacity by 2.\n\nYou have 7 levels of exhaustion, you suffer no negative effects at the first level. You have 8 levels of exhaustion, you suffer no negative effects at the first two levels.",
     "html": false
   },
   {
@@ -860,7 +860,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-boots",
-    "body": "\n+4 thermal clip capacity.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
+    "body": "\nIncrease thermal clip capacity by 4.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
     "html": false
   },
   {
@@ -872,7 +872,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-vest",
-    "body": "\n+2 grenade capacity.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
+    "body": "\nIncrease grenade capacity by 2.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
     "html": false
   },
   {
@@ -884,7 +884,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-visor",
-    "body": "\nDarkvision .\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
+    "body": "\nDarkvision .\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
     "html": false
   },
   {
@@ -896,7 +896,7 @@
       "Classes"
     ],
     "link": "/armor/maverick-wraps",
-    "body": "\n+4 thermal clip capacity.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Your weapon attacks score a critical hit on a roll of 18–20.",
+    "body": "\nIncrease thermal clip capacity by 4.\n\nRoll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack. Whenever you roll an 18 or higher on a weapon attack roll, consider it a critical hit.",
     "html": false
   },
   {
@@ -944,7 +944,7 @@
       "Classes"
     ],
     "link": "/armor/n-7-defender-armorsuit",
-    "body": "\n20 shields (regen 10).\n+1 AC.\n+8 thermal clip capacity.\n+2 medi-gel capacity.\n\n+1 bonus to weapon attack and damage rolls",
+    "body": "\n20 shields (regen 10).\n+1 AC.\nIncrease thermal clip capacity by 8.\nIncrease medi-gel capacity by 2.\n\n+1 bonus to weapon attack and damage rolls",
     "html": false
   },
   {
@@ -980,7 +980,7 @@
       "Classes"
     ],
     "link": "/armor/n-7-greaves",
-    "body": "\n+5 shield capacity.\nYou are considered proficient with this armor even if you lack proficiency with medium\narmor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
+    "body": "\n5 Shields.\nYou are considered proficient with this armor even if you lack proficiency with medium\narmor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
     "html": false
   },
   {
@@ -992,7 +992,7 @@
       "Classes"
     ],
     "link": "/armor/n-7-helmet",
-    "body": "\nYou have advantage on initiative rolls.\nYou are considered proficient with this armor even if you lack proficiency with medium armor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
+    "body": "\nYou have advantage on initiative rolls. You are considered proficient with this armor even if you\nlack proficiency with medium armor.\n\nIncrease your hit points by 1 for each level you have gained. Increase your hit points by 1 for each level you have gained.",
     "html": false
   },
   {
@@ -1004,7 +1004,7 @@
       "Classes"
     ],
     "link": "/armor/onyx-armor",
-    "body": "\n10 shields (regen 5).\n+1 AC\n\n",
+    "body": "\n10 shields (regen 5). +1 AC\n\n",
     "html": false
   },
   {
@@ -1100,7 +1100,7 @@
       "Classes"
     ],
     "link": "/armor/predator-armor",
-    "body": "\n+4 thermal clip capacity.\nAny critical hit against you becomes a normal hit\n\n",
+    "body": "\nIncrease thermal clip capacity by 4.\nAny critical hit against you becomes a normal hit\n\n",
     "html": false
   },
   {
@@ -1112,7 +1112,7 @@
       "Classes"
     ],
     "link": "/armor/reckoner-knight-armet",
-    "body": "\nWhenever you lose hit points, you may use your reaction to expend one medi-gel (provided you have\nany medi-gel remaining).\n\nYour Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
+    "body": "\nWhenever you lose hit points, you may use your reaction to expend one medi-gel (provided you have\nany medi-gel remaining).\n\nWhen you make a Charisma-based skill check, your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
     "html": false
   },
   {
@@ -1124,7 +1124,7 @@
       "Classes"
     ],
     "link": "/armor/reckoner-knight-armorsuit",
-    "body": "\n30 shields (regen 5).\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll\nthe die and must use the new roll, even if the new roll is a 1 or a 2.\n\nYour Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
+    "body": "\n30 shields (regen 5).\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll\nthe die and must use the new roll, even if the new roll is a 1 or a 2.\n\nWhen you make a Charisma-based skill check, your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19.",
     "html": false
   },
   {
@@ -3711,8 +3711,8 @@
       "3rd level"
     ],
     "link": false,
-    "body": "At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (rounded up), and none of the slots can be 3rd level or higher.\nFor example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.\n",
-    "html": "<p>At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (rounded up), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.</p>\n"
+    "body": "At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.\nFor example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.\n",
+    "html": "<p>At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.</p>\n"
   },
   {
     "id": "biotic-recovery",
@@ -4921,8 +4921,8 @@
       "10th level"
     ],
     "link": false,
-    "body": "At 10th level, when you roll a 1 or 2 on a damage die for a biotic power, you can reroll the die\nand must use the new roll.\n",
-    "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a biotic power, you can reroll the die\nand must use the new roll.</p>\n"
+    "body": "At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die\nand must use the new roll.\n",
+    "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die\nand must use the new roll.</p>\n"
   },
   {
     "id": "power-steal",
@@ -6681,7 +6681,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/active-camo-exe",
-    "body": "The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use a free action to toggle this effect on or off.\n",
+    "body": "The user's omni-tool diverts energy to coat their armor in color-adaptive hard light, using\ndata obtained from the suit's micro-sensors. While not making the wearer truly invisible, this adaptive camouflage helps\nthe user blend into any environment. Wisdom (Perception) checks made to see you have disadvantage and you have\nadvantage on Dexterity (Stealth) checks made to hide. You can use an action toggle this effect off or on as a free action.\n",
     "html": false
   },
   {
@@ -6694,7 +6694,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/all-terrain-exe",
-    "body": "You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain advantage on Strength (Athletics) checks made to climb or swim.\n",
+    "body": "You can spend a free action to flash forge hard light enhancements for your armor, such as climbing spikes\non your boots and gloves, and flexible fins on your boots. While running this program, climbing and swimming don't cost\nyou extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.\n",
     "html": false
   },
   {
@@ -6759,7 +6759,7 @@
       "Grenade"
     ],
     "link": "/gear/cain-trip-mine",
-    "body": "Launch a Cain Trip Mine to a point you can see within . The mine affixes to a solid surface and projects\na -long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.\nA creature can spot the mine with a successful DC 13 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d12\n3,300 credits\n\n\nII\nCommon\n13\n2d12\n4,600 credits\n\n\nIII\nUncommon\n13\n3d12\n5,900 credits\n\n\nIV\nUncommon\n15\n4d12\n7,200 credits\n\n\nV\nRare\n15\n5d12\n8,500 credits\n\n\nVI\nRare\n17\n6d12\n9,800 credits\n\n\nVII\nVery Rare\n17\n7d12\n11,100 credits\n\n\nVIII\nVery Rare\n18\n8d12\n12,400 credits\n\n\nIX\nVery Rare\n18\n9d12\n13,700 credits\n\n\nX\nSpectre\n19\n10d12\n15,000 credits\n\n\n",
+    "body": "Launch a Cain Trip Mine to a point you can see within . The mine affixes to a solid surface and projects\na -long tripwire beam. When a creature or object passes through the tripwire, the mine detonates.\nA creature can spot the mine with a successful DC 13 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 15 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d12\n3,300 credits\n\n\nII\nCommon\n13\n2d12\n4,600 credits\n\n\nIII\nUncommon\n13\n3d12\n5,900 credits\n\n\nIV\nUncommon\n15\n4d12\n7,200 credits\n\n\nV\nRare\n15\n5d12\n8,500 credits\n\n\nVI\nRare\n17\n6d12\n9,800 credits\n\n\nVII\nVery Rare\n17\n7d12\n11,100 credits\n\n\nVIII\nVery Rare\n18\n8d12\n12,400 credits\n\n\nIX\nVery Rare\n18\n9d12\n13,700 credits\n\n\nX\nSpectre\n19\n10d12\n15,000 credits\n\n\n",
     "html": false
   },
   {
@@ -6824,7 +6824,7 @@
       "Heavy Weapon"
     ],
     "link": "/gear/cobra-missile-launcher",
-    "body": "As an Attack, choose a creature within  that you can see and begin targeting. If you remain\ntargeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.\n",
+    "body": "As an Attack, choose a creature within  that you can see and begin targeting. If you remain targeting until the start of your next turn, you may use an Attack to fire a missile at the target, dealing 8d12 thunder damage.\n",
     "html": false
   },
   {
@@ -6863,7 +6863,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/deflector-array-exe",
-    "body": "Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.\nThe user gains +2 to AC while not wearing Medium or Heavy Armor. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)\n",
+    "body": "Developed by technicians who wanted more protection while maintaining light armor, while this program is Active your\nomni-tool generates a form-fitting nano-cloud of hard light atoms around you, invisible to the naked eye. This increases\nthe chances that an incoming bullet or attack will be turned aside by the nano-cloud, acting as an extra layer of protection.\nThe user gains +2 to AC while not wearing Medium or Heavy Armor, or using a Riot Shield. (Anything bulkier than Light\nArmor throws off the cloud's bio-tracking, and renders it ineffective.)\n",
     "html": false
   },
   {
@@ -6902,7 +6902,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/double-time-exe",
-    "body": "While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. Your walking speed increases by ,\nand any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.\n(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)\n",
+    "body": "While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. You double your walking speed, and any attack of\nopportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.\n(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)\n",
     "html": false
   },
   {
@@ -6928,7 +6928,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/experimental-barrier-generator-exe",
-    "body": "Convert 10 omni-gel into 1d4+4 black beads that measure  in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.\nAs an action, you can launch a bead at a target location within . The bead explodes on impact and is destroyed. Each\ncreature within a  radius of where the bead landed must make a DC 13 Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.\nOnly breathable air can pass through the sphere's wall. No attack or other effect penetrate it.\nAn enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.\nThe sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.\nSingle-use: Once you use this program, it deletes itself from your omni-tool.\n",
+    "body": "Convert 10 omni-gel into 1d4+4 black beads that measure  in diameter but weigh nothing. These beads are held\nin place on the user's wrist by the omni-tool's hard light field.\nAs an action, you can launch a bead at a target location within . The bead explodes on impact and is destroyed. Each\ncreature within a  radius of where the bead landed must make a Dexterity saving throw or take 5d4 Force damage.\nA sphere of transparent biotic energy then encloses that area for 1 minute. Any creature that fails its save and is\ncompletely within the area is trapped inside this sphere. Creatures that succeeded their saves or are partially within\nthe area are pushed away from the center of the sphere until they are no longer inside it.\nOnly breathable air can pass through the sphere's wall. No attack or other effect penetrate it.\nAn enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's\nwalking speed.\nThe sphere can be picked up, and its altered mass causes it to weigh only half a kilogram (~ 1lb). regardless of the\nweight of creatures inside.\nSingle-use: Once you use this program, it deletes itself from your omni-tool.\n",
     "html": false
   },
   {
@@ -6941,7 +6941,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/expert-hand-exe",
-    "body": "Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you have advantage on Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.\n",
+    "body": "Your omni-tool optimizes your gauntlets' mobility and sensitivity. Many operators and infiltrators prefer this program,\nas it makes their jobs much easier. While Active, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and\nIntelligence (Electronics) checks made to bypass locks.\n",
     "html": false
   },
   {
@@ -6967,7 +6967,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/flash-hypno-exe",
-    "body": "This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to attempt to charm a sentient creature (Intelligence score of 4 or more) with which you have eye contact\nwithin . It must make a DC 13 Charisma saving\nthrow, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is\ncharmed by you for 1 hour or until your companions do anything harmful to it. The charmed creature\nregards you as a friendly acquaintance. When the effect ends, the creature knows it was charmed by you.\nYour omni-tool regains all expended charges after a long rest, provided that the program is Active.\n",
+    "body": "This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to cast the 'Charm Person' power (save DC 13) on an organic creature within  of you, provided that you and the\ntarget can see each other. Your omni-tool regains all expended charges after a long rest, provided that the program is\nActive.\n",
     "html": false
   },
   {
@@ -7019,7 +7019,7 @@
       "Heavy Weapon"
     ],
     "link": "/gear/geth-spitfire",
-    "body": "As an Attack, begin targeting, releasing a torrent of bullets in a  cone extending from your location and\nconsuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area\nfor the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a\ncreature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn,\nyou may choose to continue targeting, consuming another charge.\n",
+    "body": "As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.\n",
     "html": false
   },
   {
@@ -7266,7 +7266,7 @@
       "Device"
     ],
     "link": "/gear/personal-shield-generator",
-    "body": "A personal shield generator that can provide shields when operators aren't wearing armor. If you are wearing multiple items\nthat provide shields (i.e., a personal shield generator and armor or two personal shield generators), you decide which\nshield capacity and regen values to use. You must use the capacity and regen values from the same item.\n\n\nModel\nRarity\nShields\nRegen\nCredits\n\n\n\n\nI.a\nCommon\n10\n5\n15,000\n\n\nI.b\nUncommon\n10\n10\n23,000\n\n\nII.a\nUncommon\n15\n5\n25,000\n\n\nII.b\nRare\n15\n10\n33,000\n\n\nII.c\nRare\n15\n15\n41,000\n\n\nIII.a\nRare\n20\n5\n35,000\n\n\nIII.b\nRare\n20\n10\n43,000\n\n\nIII.c\nVery Rare\n20\n15\n51,000\n\n\nIV.a\nVery Rare\n25\n5\n45,000\n\n\nIV.b\nVery Rare\n25\n10\n53,000\n\n\nIV.c\nSpectre\n25\n15\n61,000\n\n\nV.a\nSpectre\n30\n5\n55,000\n\n\nV.b\nSpectre\n30\n10\n63,000\n\n\nV.c\nSpectre\n30\n15\n71,000\n\n\n",
+    "body": "A personal shield generator that offers shields outside of wearing armor. Does not stack with armor's shields.\n\n\nModel\nRarity\nShields\nRegen\nCredits\n\n\n\n\nI.a\nCommon\n10\n5\n15,000\n\n\nI.b\nUncommon\n10\n10\n23,000\n\n\nII.a\nUncommon\n15\n5\n25,000\n\n\nII.b\nRare\n15\n10\n33,000\n\n\nII.c\nRare\n15\n15\n41,000\n\n\nIII.a\nRare\n20\n5\n35,000\n\n\nIII.b\nRare\n20\n10\n43,000\n\n\nIII.c\nVery Rare\n20\n15\n51,000\n\n\nIV.a\nVery Rare\n25\n5\n45,000\n\n\nIV.b\nVery Rare\n25\n10\n53,000\n\n\nIV.c\nSpectre\n25\n15\n61,000\n\n\nV.a\nSpectre\n30\n5\n55,000\n\n\nV.b\nSpectre\n30\n10\n63,000\n\n\nV.c\nSpectre\n30\n15\n71,000\n\n\n",
     "html": false
   },
   {
@@ -7305,7 +7305,7 @@
       "Grenade"
     ],
     "link": "/gear/proximity-mine",
-    "body": "Place a proximity mine within . On your turn, you may use a bonus action to arm or\ndisarm the mine, as long as you are within  of it. While armed, any creature that moves within\n of the mine detonates it. If you arm the mine while a creature is within \nof it, it detonates immediately.\nA creature can spot the mine with a successful Wisdom (Perception) check. Additionally, the mine has an AC 10 and\ndetonates when hit by a weapon attack roll.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine suffers\nthunder damage (see below).\nThe mark of this mine determines the DC of its Wisdom (Perception) check, damage, and credits.\n\n\nMark\nRarity\nWisdom (Perception) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d8\n900 credits\n\n\nII\nCommon\n13\n2d8\n1,800 credits\n\n\nIII\nUncommon\n13\n3d8\n2,700 credits\n\n\nIV\nUncommon\n15\n4d8\n3,600 credits\n\n\nV\nRare\n15\n5d8\n4,500 credits\n\n\nVI\nRare\n17\n6d8\n5,400 credits\n\n\nVII\nVery Rare\n17\n7d8\n6,300 credits\n\n\nVIII\nVery Rare\n18\n8d8\n7,200 credits\n\n\nIX\nVery Rare\n18\n9d8\n8,100 credits\n\n\nX\nSpectre\n19\n10d8\n9,000 credits\n\n\n",
+    "body": "Place a proximity mine within . On your turn, you may use a bonus action to arm or\ndisarm the mine, as long as you are within  of it. While armed, any creature that moves within\n of the mine detonates it. If you arm the mine while a creature is within \nof it, it detonates immediately.\nA creature can spot the mine with a successful DC 15 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates.\nAdditionally, a successful ranged attack on the mine (AC 10) will destroy the mine if is it is disarmed or detonate it\nif it is armed.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nsuffers thunder damage (see below).\nThe mark of this mine determines the DC of its Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n11\n1d8\n900 credits\n\n\nII\nCommon\n13\n2d8\n1,800 credits\n\n\nIII\nUncommon\n13\n3d8\n2,700 credits\n\n\nIV\nUncommon\n15\n4d8\n3,600 credits\n\n\nV\nRare\n15\n5d8\n4,500 credits\n\n\nVI\nRare\n17\n6d8\n5,400 credits\n\n\nVII\nVery Rare\n17\n7d8\n6,300 credits\n\n\nVIII\nVery Rare\n18\n8d8\n7,200 credits\n\n\nIX\nVery Rare\n18\n9d8\n8,100 credits\n\n\nX\nSpectre\n19\n10d8\n9,000 credits\n\n\n",
     "html": false
   },
   {
@@ -7318,7 +7318,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/quantum-displacer-exe",
-    "body": "Your omni-tool is equipped with a highly experimental quantum device. You can spend a bonus action to designate\nan open space within , and instantly teleport there.\nYou project one invisibly small molecule into that space, which is quantum entangled with a molecule in your armor.\nSending an energy current through the device will re-unite the molecules instantly, effectively teleporting you to your\ndesignated location. The device is then offline until the end of your next long rest.\n",
+    "body": "Your omni-tool is equipped with a highly experimental quantum device. You can spend a bonus action and 3 omni-gel to designate\nan open space within , and instantly teleport there.\nYou project one invisibly small molecule into that space, which is quantum entangled with a molecule in your armor.\nSending an energy current through the device will re-unite the molecules instantly, effectively teleporting you to your\ndesignated location. The device is then offline until the end of your next long rest.\n",
     "html": false
   },
   {
@@ -7344,7 +7344,7 @@
       "Grenade"
     ],
     "link": "/gear/recon-mine",
-    "body": "Launch a recon mine to a location of your choice within . It first sticks to the target\nlocation then scans creatures within a  cone, relaying tactical weak points about the creature's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to\nits AC and cannot benefit from being invisible. Each creature can only be affected by this penalty once.\nA creature can spot the mine with a successful DC 10 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, the mine has an AC 10 and detonates when hit by a weapon attack roll.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its AC penalty, Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nAC Penalty\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n-1\n11\n2d4\n3,000 credits\n\n\nII\nCommon\n-1\n13\n2d4\n3,500 credits\n\n\nIII\nUncommon\n-1\n13\n4d4\n4,000 credits\n\n\nIV\nUncommon\n-1\n15\n4d4\n4,500 credits\n\n\nV\nRare\n-2\n15\n6d4\n7,000 credits\n\n\nVI\nRare\n-2\n17\n6d4\n7,500 credits\n\n\nVII\nVery Rare\n-3\n17\n6d4\n9,000 credits\n\n\nVIII\nVery Rare\n-3\n18\n7d4\n10,000 credits\n\n\nIX\nVery Rare\n-3\n18\n8d4\n11,000 credits\n\n\nX\nSpectre\n-4\n19\n8d4\n13,000 credits\n\n\n",
+    "body": "Launch a recon mine to a location of your choice within . It first sticks to the target\nlocation then scans creatures within a  cone, relaying tactical weak points about the creature's\narmor and location. After your turn ends, any hostile creature that walks through the scanning cone suffers a penalty to\nits AC and cannot benefit from being invisible. Each creature can only be affected by this penalty once.\nA creature can spot the mine with a successful DC 10 Wisdom (Perception) check.\nTo disarm the mine, a creature must pass an Intelligence (Electronics) check. If the check fails, the mine detonates, and\nthe creature that made the check automatically fails its saving throw. Additionally, a successful ranged attack on the\nmine (AC 10) will detonate it. You may also use a bonus action on your turn to detonate the mine.\nWhen the mine detonates, each creature within a -radius sphere centred on the mine must\nmake a DC 13 Dexterity saving throw. A creature suffers thunder damage (see below) on a failed save\nor half as much damage on a successful one.\nThe mark of this mine determines the DC of its AC penalty, Intelligence (Electronics) check, damage, and credits.\n\n\nMark\nRarity\nAC Penalty\nIntelligence (Electronics) DC\nDamage\nCredits\n\n\n\n\nI\nCommon\n-1\n11\n2d4\n3,000 credits\n\n\nII\nCommon\n-1\n13\n2d4\n3,500 credits\n\n\nIII\nUncommon\n-1\n13\n4d4\n4,000 credits\n\n\nIV\nUncommon\n-1\n15\n4d4\n4,500 credits\n\n\nV\nRare\n-2\n15\n6d4\n7,000 credits\n\n\nVI\nRare\n-2\n17\n6d4\n7,500 credits\n\n\nVII\nVery Rare\n-3\n17\n6d4\n9,000 credits\n\n\nVIII\nVery Rare\n-3\n18\n7d4\n10,000 credits\n\n\nIX\nVery Rare\n-3\n18\n8d4\n11,000 credits\n\n\nX\nSpectre\n-4\n19\n8d4\n13,000 credits\n\n\n",
     "html": false
   },
   {
@@ -7357,7 +7357,7 @@
       "Shield"
     ],
     "link": "/gear/riot-shield",
-    "body": "When you wield a shield in one hand, it increases your Armor Class by 2. You can benefit from only one shield at a time. A wielded shield (singular)\nis different from your kinetic barrier (shields, plural).\n",
+    "body": "Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time. A wielded shield (singular)\nis different from your kinetic barrier (shields, plural).\n",
     "html": false
   },
   {
@@ -7422,7 +7422,7 @@
       "Heavy Weapon"
     ],
     "link": "/gear/sync-laser",
-    "body": "As an Attack, choose a -by- rectangle within\n and begin targeting. If you remain targeting until the start of your next turn, call down\nan orbital strike at the target location. Each creature within the rectangle must make a DC 16 Dexterity saving throw.\nOn a failed save, a creature takes 8d12 thunder damage. On a success, a creature takes half damage.\n",
+    "body": "As an Attack, choose a -by- rectangle and begin\ntargeting. If you remain targeting until the start of your next turn, call down an orbital strike at the target location.\nEach creature within the rectangle must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 8d12\nthunder damage. On a success, a creature takes half damage.\n",
     "html": false
   },
   {
@@ -7474,7 +7474,7 @@
       "Omni-tool Program"
     ],
     "link": "/gear/thermic-overvent-exe",
-    "body": "You can use an action to overheat every heat-generating element within your omni-tool, overriding\nsafety protocols and using the omni-gel as propellant. You create three fire rays from your outstretched hand, each\nwith a range of . You can hurl them at one target or several. Make a ranged power attack\nfor each ray. On a hit, the target takes 2d6 fire damage. When you make the attacks, make them with a modifier of +5\nto the attack roll. The omni-tool then needs time to compensate and repair itself, rendering this program inoperative\nuntil the end of a long rest.\nUnstable: When you acquire this program, it can be used 1d6 times before the code becomes too unstable to use.\n",
+    "body": "You can use an action to spend 1 omni-gel and overheat every heat-generating element within your omni-tool, overriding\nsafety protocols and using the omni-gel as propellant. You create three fire rays from your outstretched hand, each\nwith a range of . You can hurl them at one target or several. Make a ranged power attack\nfor each ray. On a hit, the target takes 2d6 fire damage. When you make the attacks, make them with a modifier of +5\nto the attack roll. The omni-tool then needs time to compensate and repair itself, rendering this program inoperative\nuntil the end of a long rest.\nUnstable: When you acquire this program, it can be used 1d6 times before the code becomes too unstable to use.\n",
     "html": false
   },
   {
@@ -7638,8 +7638,8 @@
       "Player's Manual"
     ],
     "link": false,
-    "body": "To survive in the galaxy, your character needs to wear armor. Not only does armor abate damage from extremely powerful,\nfuturistic weapons but armor also supplies shield points, also called shields.\nArmor Stats\nArmor Proficiency. Just like 5th edition, anyone can put on armor. However, only those proficient in the armor type\nknow how to wear it effectively. Your class gives you proficiency with certain types of armor (light, medium, or heavy).\nIf you are wearing 2 or more pieces of armor that you lack proficiency with, you have disadvantage on any ability check,\nsaving throw, or Attack roll that involves Strength or Dexterity. If you are wearing 4 pieces of armor you lack\nproficiency with, you cannot cast powers.\nArmor Class (AC). Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.\nShield Points. All armor chest pieces provide some amount of shield points.\nSee the Combat &gt; Shields for more information.\nConsumable Capacities. Each armor type, except headwear has compartments for certain mission-critical gear. Chest armor\nhas 6 thermal clip slots, and 2 medi-gel slots. Leg armor has 2 thermal clip slots and 2 grenade slots. Arm armor has 2 thermal clip slots and 2 medi-gel slots.\nBecause body armor is a combination of chest, legs, and arms, it's resulting totals are 10 thermal clip, 4 medi-gel, and 2 grenade slots.\nAn armor piece will indicate if it has an increase in any of these capacities.\nMix &amp; Match new\nUnlike D&amp;D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:\nHead, Chest, Arms, and Legs.\nYour base AC is 10 and each piece of armor provides an AC bonus depending on its type and placement as listed in\nthe Armor / AC table.\n\n\nArmor / AC\n\n\nPlacement/Type\nLight\nMedium\nHeavy\n\n\n\n\nChest\n+1 AC\n+2 AC\n+3 AC\n\n\nArms\nNo bonus\n+1 AC\n+2 AC\n\n\nLegs\nNo bonus\n+1 AC\n+2 AC\n\n\nHead\nUnless otherwise listed, headwear provides no bonus to AC.\n\n\nAdditionally, there are bonuses and limitations for the combination of armor types you are wearing,\nexplained in the Armor Bonuses and Limitations table.\n\n\nArmor Bonuses and Limitations\n\n\nIf you are wearing...\nDexterity Bonus to AC\nStrength\nStealth\n\n\n\n\n3+ pieces of Heavy armor\n-\nStr 16\nDisadvantage\n\n\n2 pieces of Heavy armor\n-\nStr 15\nDisadvantage\n\n\n1 piece of Heavy armor\n-\nStr 13\nDisadvantage\n\n\n3+ pieces of Medium armor\nMax +2\nStr 13\nDisadvantage\n\n\n2 pieces of Medium armor\nMax +2\nStr 12\n-\n\n\n1 piece of Medium armor\nMax +2\n-\n-\n\n\nLight or no armor\n+ Dex modifier\n-\n-\n\n\nBody Armor is considered three pieces (arms, chest, and legs)\n\n\nBody Armor. Body armor is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body\narmor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're\nwearing the Duelist body armor, you cannot replace the legs from it with the Lockdown Greaves. This rule is, of course, flexible,\nas GMs might allow this type of tinkering in exchange for time, credits, and/or skill checks.\nHeavier Armor. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the\nArmor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor\nreduces the wearer’s speed by  unless the wearer has a Strength score equal to or higher than the listed score.\nFor simplicity's sake, you cannot mix armor within placements. I.e., you cannot have a heavy piece of on your right arm\nand a light piece of armor on your left.\nVariant: Encumbrance\nIf you are using the Variant: Encumbrance rules,\nuse the Armor Piece Weights table to determine the total weight of the armor you're wearing.\n\n\nPlacement/Type\nLight\nMedium\nHeavy\n\n\n\n\nChest\n3kg\n6kg\n10kg\n\n\nArms\n1kg\n2kg\n3kg\n\n\nLegs\n1kg\n2kg\n3kg\n\n\nHead\nAll headwear weighs 2kg\n\n\nSet Bonuses\nSome armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors\ncomponent pieces working together for a unified integration. Armor with the same base name is part of a set, e.g. the Colossus greaves, chestplate,\ngauntlets, and helmet are all part of the Colossus set.\nIf an armor piece is part of a set and has a set bonus, each armor piece will indicate the bonus you receive from wearing\na certain number of items in that set. Note: You only receive the benefit once per set and the benefit ends immediately if you fall below the threshold.\nSET BONUS EXAMPLE\nMedium armor with a set bonus of...\n\nSet Bonus (2 of 4): +1 AC\nSet Bonus (4 of 4): +1 AC\n\nIf you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated\nusing the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you do not gain +1 AC\nfor the head and +1 AC for the chest. As soon as you remove either the helmet or the chest\napiece, you loose the +1 AC bonus from the set.\nEnvironmental Protection new\nAll armor provides basic environmental protection from the vacuum of space or hazardous atmospheres. Armor supplies enough\nair and heat to the wearer for 8 hours of activity or 16 hours if the operative remains motionless. Your GM may require\nthat your character wear a helmet to gain this benefit, or they may use the bubble rule and claim that all armor suits\ncan cast an energy &quot;bubble&quot; around your characters head to keep air in and the environment out.\nGetting Into and Out of Armor\nThe time it takes to don or doff armor depends on the armor's category.\nDon. This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.\nDoff. This is the time it takes to take off armor. If you have help, reduce this time by half.\n\n\nCategory\nDon\nDoff\n\n\n\n\nLight Armor\n1 minute\n1 minute\n\n\nMedium Armor\n5 minutes\n1 minute\n\n\nHeavy Armor\n10 minutes\n5 minutes\n\n\n\n",
-    "html": "<p>To survive in the galaxy, your character needs to wear armor. Not only does armor abate damage from extremely powerful,\nfuturistic weapons but armor also supplies <strong>shield points</strong>, also called shields.</p>\n<h3>Armor Stats</h3>\n<p><strong>Armor Proficiency</strong>. Just like 5th edition, anyone can put on armor. However, only those proficient in the armor type\nknow how to wear it effectively. Your class gives you proficiency with certain types of armor (light, medium, or heavy).\nIf you are wearing 2 or more pieces of armor that you lack proficiency with, you have disadvantage on any ability check,\nsaving throw, or Attack roll that involves Strength or Dexterity. If you are wearing 4 pieces of armor you lack\nproficiency with, you cannot cast powers.</p>\n<p><strong>Armor Class (AC)</strong>. Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.</p>\n<p><strong>Shield Points</strong>. All armor chest pieces provide some amount of shield points.\nSee the <nuxt-link to=\"/manual/combat#shields\">Combat &gt; Shields</nuxt-link> for more information.</p>\n<p><strong>Consumable Capacities</strong>. Each armor type, except headwear has compartments for certain mission-critical gear. Chest armor\nhas 6 thermal clip slots, and 2 medi-gel slots. Leg armor has 2 thermal clip slots and 2 grenade slots. Arm armor has 2 thermal clip slots and 2 medi-gel slots.\nBecause body armor is a combination of chest, legs, and arms, it's resulting totals are 10 thermal clip, 4 medi-gel, and 2 grenade slots.\nAn armor piece will indicate if it has an increase in any of these capacities.</p>\n<h3>Mix &amp; Match <v-chip color=\"info\" small>new</v-chip></h3>\n<p>Unlike D&amp;D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:\n<strong>Head</strong>, <strong>Chest</strong>, <strong>Arms</strong>, and <strong>Legs</strong>.</p>\n<p>Your base AC is 10 and each piece of armor provides an AC bonus depending on its type and placement as listed in\nthe Armor / AC table.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\" colspan=\"4\"><strong>Armor / AC</strong></th>\n</tr>\n<tr>\n<th style=\"text-align:left\">Placement/Type</th>\n<th style=\"text-align:center\">Light</th>\n<th style=\"text-align:center\">Medium</th>\n<th style=\"text-align:center\">Heavy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">Chest</td>\n<td style=\"text-align:center\">+1 AC</td>\n<td style=\"text-align:center\">+2 AC</td>\n<td style=\"text-align:center\">+3 AC</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Arms</td>\n<td style=\"text-align:center\">No bonus</td>\n<td style=\"text-align:center\">+1 AC</td>\n<td style=\"text-align:center\">+2 AC</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Legs</td>\n<td style=\"text-align:center\">No bonus</td>\n<td style=\"text-align:center\">+1 AC</td>\n<td style=\"text-align:center\">+2 AC</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Head</td>\n<td style=\"text-align:center\" colspan=\"3\">Unless otherwise listed, headwear provides no bonus to AC.</td>\n</tr>\n</tbody>\n</template></v-simple-table><p>Additionally, there are bonuses and limitations for the combination of armor types you are wearing,\nexplained in the Armor Bonuses and Limitations table.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\" colspan=\"4\"><strong>Armor Bonuses and Limitations</strong></th>\n</tr>\n<tr>\n<th style=\"text-align:left\">If you are wearing...</th>\n<th style=\"text-align:center\">Dexterity Bonus to AC</th>\n<th style=\"text-align:center\">Strength</th>\n<th style=\"text-align:center\">Stealth</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">3+ pieces of Heavy armor</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">Str 16</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">2 pieces of Heavy armor</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">Str 15</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">1 piece of Heavy armor</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">Str 13</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">3+ pieces of Medium armor</td>\n<td style=\"text-align:center\">Max +2</td>\n<td style=\"text-align:center\">Str 13</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">2 pieces of Medium armor</td>\n<td style=\"text-align:center\">Max +2</td>\n<td style=\"text-align:center\">Str 12</td>\n<td style=\"text-align:center\">-</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">1 piece of Medium armor</td>\n<td style=\"text-align:center\">Max +2</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">-</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Light or no armor</td>\n<td style=\"text-align:center\">+ Dex modifier</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">-</td>\n</tr>\n<tr>\n<td style=\"text-align:left\" colspan=\"3\"><em>Body Armor is considered three pieces (arms, chest, and legs)</em></td>\n</tr>\n</tbody>\n</template></v-simple-table><p><strong>Body Armor</strong>. Body armor is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body\narmor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're\nwearing the Duelist body armor, you cannot replace the legs from it with the Lockdown Greaves. This rule is, of course, flexible,\nas GMs might allow this type of tinkering in exchange for time, credits, and/or skill checks.</p>\n<p><strong>Heavier Armor</strong>. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the\nArmor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor\nreduces the wearer’s speed by <me-distance length=\"10\" /> unless the wearer has a Strength score equal to or higher than the listed score.</p>\n<p>For simplicity's sake, you cannot mix armor <em>within</em> placements. I.e., you cannot have a heavy piece of on your right arm\nand a light piece of armor on your left.</p>\n<h3>Variant: Encumbrance</h3>\n<p>If you are using the <nuxt-link to=\"/manual/using-ability-scores#strength\">Variant: Encumbrance</nuxt-link> rules,\nuse the Armor Piece Weights table to determine the total weight of the armor you're wearing.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\">Placement/Type</th>\n<th style=\"text-align:center\">Light</th>\n<th style=\"text-align:center\">Medium</th>\n<th style=\"text-align:center\">Heavy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">Chest</td>\n<td style=\"text-align:center\">3kg</td>\n<td style=\"text-align:center\">6kg</td>\n<td style=\"text-align:center\">10kg</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Arms</td>\n<td style=\"text-align:center\">1kg</td>\n<td style=\"text-align:center\">2kg</td>\n<td style=\"text-align:center\">3kg</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Legs</td>\n<td style=\"text-align:center\">1kg</td>\n<td style=\"text-align:center\">2kg</td>\n<td style=\"text-align:center\">3kg</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Head</td>\n<td style=\"text-align:center\" colspan=\"3\">All headwear weighs 2kg</td>\n</tr>\n</tbody>\n</template></v-simple-table><h3>Set Bonuses</h3>\n<p>Some armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors\ncomponent pieces working together for a unified integration. Armor with the same base name is part of a set, e.g. the <strong>Colossus</strong> greaves, chestplate,\ngauntlets, and helmet are all part of the Colossus set.</p>\n<p>If an armor piece is part of a set and has a set bonus, each armor piece will indicate the bonus you receive from wearing\na certain number of items in that set. <em>Note: You only receive the benefit once per set</em> and the benefit ends immediately if you fall below the threshold.</p>\n<v-alert value type=\"info\"><p><strong>SET BONUS EXAMPLE</strong></p>\n<p>Medium armor with a set bonus of...</p>\n<ul>\n<li>Set Bonus (2 of 4): +1 AC</li>\n<li>Set Bonus (4 of 4): +1 AC</li>\n</ul>\n<p>If you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated\nusing the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you <em>do not</em> gain +1 AC\nfor the head <em>and</em> +1 AC for the chest. As soon as you remove either the helmet or the chest\napiece, you loose the +1 AC bonus from the set.</p>\n</v-alert><h3>Environmental Protection <v-chip color=\"info\" small>new</v-chip></h3>\n<p>All armor provides basic environmental protection from the vacuum of space or hazardous atmospheres. Armor supplies enough\nair and heat to the wearer for 8 hours of activity or 16 hours if the operative remains motionless. Your GM may require\nthat your character wear a helmet to gain this benefit, or they may use the <strong>bubble rule</strong> and claim that all armor suits\ncan cast an energy &quot;bubble&quot; around your characters head to keep air in and the environment out.</p>\n<h3>Getting Into and Out of Armor</h3>\n<p>The time it takes to don or doff armor depends on the armor's category.</p>\n<p><strong>Don</strong>. This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.</p>\n<p><strong>Doff</strong>. This is the time it takes to take off armor. If you have help, reduce this time by half.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Category</th>\n<th>Don</th>\n<th>Doff</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Light Armor</td>\n<td>1 minute</td>\n<td>1 minute</td>\n</tr>\n<tr>\n<td>Medium Armor</td>\n<td>5 minutes</td>\n<td>1 minute</td>\n</tr>\n<tr>\n<td>Heavy Armor</td>\n<td>10 minutes</td>\n<td>5 minutes</td>\n</tr>\n</tbody>\n</template></v-simple-table><p><me-source-reference pages=\"62-63\"></me-source-reference></p>\n"
+    "body": "To survive in the galaxy, your character needs to wear armor. Not only does armor abate damage from extremely powerful,\nfuturistic weapons but armor also supplies shield points, also called shields.\nArmor Stats\nArmor Proficiency. Just like 5th edition, anyone can put on armor. However, only those proficient in the armor type\nknow how to wear it effectively. Your class gives you proficiency with certain types of armor (light, medium, or heavy).\nIf you are wearing 2 or more pieces of armor that you lack proficiency with, you have disadvantage on any ability check,\nsaving throw, or Attack roll that involves Strength or Dexterity. If you are wearing 4 pieces of armor you lack\nproficiency with, you cannot cast powers.\nArmor Class (AC). Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.\nShield Points. All armor chest pieces provide some amount of shield points.\nSee the Combat &gt; Shields for more information.\nConsumable Capacities. All armor has slots and hidden compartments for mission-critical gear: 10 thermal clips, 4 medi-gel, and 2 grenades.\nThe armor will indicate if it has an increase in any of these capacities. Armor mods can also increase these capacities.\nMix &amp; Match new\nUnlike D&amp;D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:\nHead, Chest, Arms, and Legs.\nYour base AC is 10 and each piece of armor provides an AC bonus depending on its type and placement as listed in\nthe Armor / AC table.\n\n\nArmor / AC\n\n\nPlacement/Type\nLight\nMedium\nHeavy\n\n\n\n\nChest\n+1 AC\n+2 AC\n+3 AC\n\n\nArms\nNo bonus\n+1 AC\n+2 AC\n\n\nLegs\nNo bonus\n+1 AC\n+2 AC\n\n\nHead\nUnless otherwise listed, headware provides no bonus to AC.\n\n\nAdditionally, there are bonuses and limitations for the combination of armor types you are wearing,\nexplained in the Armor Bonuses and Limitations table.\n\n\nArmor Bonuses and Limitations\n\n\nIf you are wearing...\nDexterity Bonus to AC\nStrength\nStealth\n\n\n\n\n3+ pieces of Heavy armor\n-\nStr 16\nDisadvantage\n\n\n2 pieces of Heavy armor\n-\nStr 15\nDisadvantage\n\n\n1 piece of Heavy armor\n-\nStr 13\nDisadvantage\n\n\n3+ pieces of Medium armor\nMax +2\nStr 13\nDisadvantage\n\n\n2 pieces of Medium armor\nMax +2\nStr 12\n-\n\n\n1 piece of Medium armor\nMax +2\n-\n-\n\n\nLight or no armor\n+ Dex modifier\n-\n-\n\n\nBody Armor is considered three pieces (arms, chest, and legs)\n\n\nBody Armor. Body armor is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body\narmor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're\nwearing the Duelist body armor, you cannot replace the legs from it with the Lockdown Greaves. This rule is, of course, flexible,\nas GMs might allow this type of tinkering in exchange for time, credits, and/or skill checks.\nHeavier Armor. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the\nArmor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor\nreduces the wearer’s speed by  unless the wearer has a Strength score equal to or higher than the listed score.\nFor simplicity's sake, you cannot mix armor within placements. I.e., you cannot have a heavy piece of on your right arm\nand a light piece of armor on your left.\nVariant: Encumbrance\nIf you are using the Variant: Encumbrance rules,\nuse the Armor Piece Weights table to determine the total weight of the armor you're wearing.\n\n\nPlacement/Type\nLight\nMedium\nHeavy\n\n\n\n\nChest\n3kg\n6kg\n10kg\n\n\nArms\n1kg\n2kg\n3kg\n\n\nLegs\n1kg\n2kg\n3kg\n\n\nHead\nAll headware weighs 2kg\n\n\nSet Bonuses\nSome armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors\ncomponent pieces working together for a unified integration. Armor with the same base name is part of a set, e.g. the Colossus greaves, chestplate,\ngauntlets, and helmet are all part of the Colossus set.\nIf an armor piece is part of a set and has a set bonus, each armor piece will indicate the bonus you receive from wearing\na certain number of items in that set. Note: You only receive the benefit once per set and the benefit ends immediately if you fall below the threshold.\nSET BONUS EXAMPLE\nMedium armor with a set bonus of...\n\nSet Bonus (2 of 4): +1 AC\nSet Bonus (4 of 4): +1 AC\n\nIf you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated\nusing the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you do not gain +1 AC\nfor the head and +1 AC for the chest. As soon as you remove either the helmet or the chest\napiece, you loose the +1 AC bonus from the set.\nEnvironmental Protection new\nAll armor provides basic environmental protection from the vacuum of space or hazardous atmospheres. Armor supplies enough\nair and heat to the wearer for 8 hours of activity or 16 hours if the operative remains motionless. Your GM may require\nthat your character wear a helmet to gain this benefit, or they may use the bubble rule and claim that all armor suits\ncan cast an energy &quot;bubble&quot; around your characters head to keep air in and the environment out.\nGetting Into and Out of Armor\nThe time it takes to don or doff armor depends on the armor's category.\nDon. This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.\nDoff. This is the time it takes to take off armor. If you have help, reduce this time by half.\n\n\nCategory\nDon\nDoff\n\n\n\n\nLight Armor\n1 minute\n1 minute\n\n\nMedium Armor\n5 minutes\n1 minute\n\n\nHeavy Armor\n10 minutes\n5 minutes\n\n\n\n",
+    "html": "<p>To survive in the galaxy, your character needs to wear armor. Not only does armor abate damage from extremely powerful,\nfuturistic weapons but armor also supplies <strong>shield points</strong>, also called shields.</p>\n<h3>Armor Stats</h3>\n<p><strong>Armor Proficiency</strong>. Just like 5th edition, anyone can put on armor. However, only those proficient in the armor type\nknow how to wear it effectively. Your class gives you proficiency with certain types of armor (light, medium, or heavy).\nIf you are wearing 2 or more pieces of armor that you lack proficiency with, you have disadvantage on any ability check,\nsaving throw, or Attack roll that involves Strength or Dexterity. If you are wearing 4 pieces of armor you lack\nproficiency with, you cannot cast powers.</p>\n<p><strong>Armor Class (AC)</strong>. Armor protects its wearer from attacks. The armor you wear determines your base Armor Class.</p>\n<p><strong>Shield Points</strong>. All armor chest pieces provide some amount of shield points.\nSee the <nuxt-link to=\"/manual/combat#shields\">Combat &gt; Shields</nuxt-link> for more information.</p>\n<p><strong>Consumable Capacities</strong>. All armor has slots and hidden compartments for mission-critical gear: 10 thermal clips, 4 medi-gel, and 2 grenades.\nThe armor will indicate if it has an increase in any of these capacities. Armor mods can also increase these capacities.</p>\n<h3>Mix &amp; Match <v-chip color=\"info\" small>new</v-chip></h3>\n<p>Unlike D&amp;D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:\n<strong>Head</strong>, <strong>Chest</strong>, <strong>Arms</strong>, and <strong>Legs</strong>.</p>\n<p>Your base AC is 10 and each piece of armor provides an AC bonus depending on its type and placement as listed in\nthe Armor / AC table.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\" colspan=\"4\"><strong>Armor / AC</strong></th>\n</tr>\n<tr>\n<th style=\"text-align:left\">Placement/Type</th>\n<th style=\"text-align:center\">Light</th>\n<th style=\"text-align:center\">Medium</th>\n<th style=\"text-align:center\">Heavy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">Chest</td>\n<td style=\"text-align:center\">+1 AC</td>\n<td style=\"text-align:center\">+2 AC</td>\n<td style=\"text-align:center\">+3 AC</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Arms</td>\n<td style=\"text-align:center\">No bonus</td>\n<td style=\"text-align:center\">+1 AC</td>\n<td style=\"text-align:center\">+2 AC</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Legs</td>\n<td style=\"text-align:center\">No bonus</td>\n<td style=\"text-align:center\">+1 AC</td>\n<td style=\"text-align:center\">+2 AC</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Head</td>\n<td style=\"text-align:center\" colspan=\"3\">Unless otherwise listed, headware provides no bonus to AC.</td>\n</tr>\n</tbody>\n</template></v-simple-table><p>Additionally, there are bonuses and limitations for the combination of armor types you are wearing,\nexplained in the Armor Bonuses and Limitations table.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\" colspan=\"4\"><strong>Armor Bonuses and Limitations</strong></th>\n</tr>\n<tr>\n<th style=\"text-align:left\">If you are wearing...</th>\n<th style=\"text-align:center\">Dexterity Bonus to AC</th>\n<th style=\"text-align:center\">Strength</th>\n<th style=\"text-align:center\">Stealth</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">3+ pieces of Heavy armor</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">Str 16</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">2 pieces of Heavy armor</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">Str 15</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">1 piece of Heavy armor</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">Str 13</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">3+ pieces of Medium armor</td>\n<td style=\"text-align:center\">Max +2</td>\n<td style=\"text-align:center\">Str 13</td>\n<td style=\"text-align:center\">Disadvantage</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">2 pieces of Medium armor</td>\n<td style=\"text-align:center\">Max +2</td>\n<td style=\"text-align:center\">Str 12</td>\n<td style=\"text-align:center\">-</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">1 piece of Medium armor</td>\n<td style=\"text-align:center\">Max +2</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">-</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Light or no armor</td>\n<td style=\"text-align:center\">+ Dex modifier</td>\n<td style=\"text-align:center\">-</td>\n<td style=\"text-align:center\">-</td>\n</tr>\n<tr>\n<td style=\"text-align:left\" colspan=\"3\"><em>Body Armor is considered three pieces (arms, chest, and legs)</em></td>\n</tr>\n</tbody>\n</template></v-simple-table><p><strong>Body Armor</strong>. Body armor is a special type of armor piece that consists of 3 pieces of armor: Chest, Arms, and Legs. Body\narmor is completely integrated (all or none), therefore, you cannot swap out pieces from other sets. I.e., if you're\nwearing the Duelist body armor, you cannot replace the legs from it with the Lockdown Greaves. This rule is, of course, flexible,\nas GMs might allow this type of tinkering in exchange for time, credits, and/or skill checks.</p>\n<p><strong>Heavier Armor</strong>. Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely. If the\nArmor Bonuses and Limitations table shows “Str 12” or “Str 16” in the Strength column for an armor type, the armor\nreduces the wearer’s speed by <me-distance length=\"10\" /> unless the wearer has a Strength score equal to or higher than the listed score.</p>\n<p>For simplicity's sake, you cannot mix armor <em>within</em> placements. I.e., you cannot have a heavy piece of on your right arm\nand a light piece of armor on your left.</p>\n<h3>Variant: Encumbrance</h3>\n<p>If you are using the <nuxt-link to=\"/manual/using-ability-scores#strength\">Variant: Encumbrance</nuxt-link> rules,\nuse the Armor Piece Weights table to determine the total weight of the armor you're wearing.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th style=\"text-align:left\">Placement/Type</th>\n<th style=\"text-align:center\">Light</th>\n<th style=\"text-align:center\">Medium</th>\n<th style=\"text-align:center\">Heavy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">Chest</td>\n<td style=\"text-align:center\">3kg</td>\n<td style=\"text-align:center\">6kg</td>\n<td style=\"text-align:center\">10kg</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Arms</td>\n<td style=\"text-align:center\">1kg</td>\n<td style=\"text-align:center\">2kg</td>\n<td style=\"text-align:center\">3kg</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Legs</td>\n<td style=\"text-align:center\">1kg</td>\n<td style=\"text-align:center\">2kg</td>\n<td style=\"text-align:center\">3kg</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">Head</td>\n<td style=\"text-align:center\" colspan=\"3\">All headware weighs 2kg</td>\n</tr>\n</tbody>\n</template></v-simple-table><h3>Set Bonuses</h3>\n<p>Some armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors\ncomponent pieces working together for a unified integration. Armor with the same base name is part of a set, e.g. the <strong>Colossus</strong> greaves, chestplate,\ngauntlets, and helmet are all part of the Colossus set.</p>\n<p>If an armor piece is part of a set and has a set bonus, each armor piece will indicate the bonus you receive from wearing\na certain number of items in that set. <em>Note: You only receive the benefit once per set</em> and the benefit ends immediately if you fall below the threshold.</p>\n<v-alert value type=\"info\"><p><strong>SET BONUS EXAMPLE</strong></p>\n<p>Medium armor with a set bonus of...</p>\n<ul>\n<li>Set Bonus (2 of 4): +1 AC</li>\n<li>Set Bonus (4 of 4): +1 AC</li>\n</ul>\n<p>If you are wearing the head and chest pieces, you gain +0 AC from the helmet and +2 AC from the chest piece (as calculated\nusing the Armor / AC table). In addition you gain +1 AC from wearing 2 pieces of the set. Note, you <em>do not</em> gain +1 AC\nfor the head <em>and</em> +1 AC for the chest. As soon as you remove either the helmet or the chest\napiece, you loose the +1 AC bonus from the set.</p>\n</v-alert><h3>Environmental Protection <v-chip color=\"info\" small>new</v-chip></h3>\n<p>All armor provides basic environmental protection from the vacuum of space or hazardous atmospheres. Armor supplies enough\nair and heat to the wearer for 8 hours of activity or 16 hours if the operative remains motionless. Your GM may require\nthat your character wear a helmet to gain this benefit, or they may use the <strong>bubble rule</strong> and claim that all armor suits\ncan cast an energy &quot;bubble&quot; around your characters head to keep air in and the environment out.</p>\n<h3>Getting Into and Out of Armor</h3>\n<p>The time it takes to don or doff armor depends on the armor's category.</p>\n<p><strong>Don</strong>. This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.</p>\n<p><strong>Doff</strong>. This is the time it takes to take off armor. If you have help, reduce this time by half.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Category</th>\n<th>Don</th>\n<th>Doff</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Light Armor</td>\n<td>1 minute</td>\n<td>1 minute</td>\n</tr>\n<tr>\n<td>Medium Armor</td>\n<td>5 minutes</td>\n<td>1 minute</td>\n</tr>\n<tr>\n<td>Heavy Armor</td>\n<td>10 minutes</td>\n<td>5 minutes</td>\n</tr>\n</tbody>\n</template></v-simple-table><p><me-source-reference pages=\"62-63\"></me-source-reference></p>\n"
   },
   {
     "id": "background",
@@ -8562,7 +8562,7 @@
       "Armor Mod"
     ],
     "link": "/mods/barrier",
-    "body": "The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for\nbiotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.\n",
+    "body": "The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for biotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.\n",
     "html": false
   },
   {
@@ -8601,7 +8601,7 @@
       "Armor Mod"
     ],
     "link": "/mods/battlefield-assist-module",
-    "body": "At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus\naction to gain +2 AC and resistance to a damage type of your choice for 1 minute. You may use this feature once per\nlong rest.\n",
+    "body": "At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus action to cast Defense Matrix (Custom Current). It lasts 1 minute and does not require concentration. You may use this feature once per long rest.\n",
     "html": false
   },
   {
@@ -8614,7 +8614,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/beam-emitter",
-    "body": "+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type\nbecomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the\nfollowing combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and\nthe beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this\ntargeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or\nfull cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus\nif you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.\n",
+    "body": "+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type becomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus action to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the following combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and the beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this targeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.\n",
     "html": false
   },
   {
@@ -8627,7 +8627,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/bio-converter",
-    "body": "When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum\nheat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.\n",
+    "body": "When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum heat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.\n",
     "html": false
   },
   {
@@ -8757,7 +8757,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/cranial-trauma-system",
-    "body": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a ranged attack made with this weapon.\n",
+    "body": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack made with this weapon.\n",
     "html": false
   },
   {
@@ -8796,7 +8796,7 @@
       "Armor Mod"
     ],
     "link": "/mods/ec-counter",
-    "body": "Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10\nConstitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).\n",
+    "body": "Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).\n",
     "html": false
   },
   {
@@ -8861,7 +8861,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/energy-channel",
-    "body": "When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and regain 5 shield points. You cannot use this if you have 0 shield points.\n",
+    "body": "When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and remove 5 shield points. You cannot use this if you have 0 shield points.\n",
     "html": false
   },
   {
@@ -8978,7 +8978,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/extended-grip",
-    "body": "The weapon loses the Finesse and Light properties. Add the Two-handed, Reach, and Versatile properties.\n",
+    "body": "The weapon loses the Finesse and Light properties. If the weapon has the Versatile property, remove it and add the Two-handed and Reach properties. Otherwise, add the Versatile property and increase the damage dice by one die type for a Versatile attack.\n",
     "html": false
   },
   {
@@ -9030,7 +9030,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/gyroscope",
-    "body": "The weapon gains the Thrown property and gains +2 to hit with a ranged weapon attack.\n",
+    "body": "The weapon gains the Thrown property. If it already has the Thrown property, it gains +1 to hit with a ranged weapon attack.\n",
     "html": false
   },
   {
@@ -9368,7 +9368,7 @@
       "Armor Mod"
     ],
     "link": "/mods/personal-disruptor-torpedoes",
-    "body": "Choose a target location within . Creatures within a\n of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.\n",
+    "body": "Choose a target location within . Creatures within a\n of the target must make a Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.\n",
     "html": false
   },
   {
@@ -9420,7 +9420,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/poisoned-alloys",
-    "body": "Requires a melee weapon that deals slashing or piercing damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.\n",
+    "body": "Requires a melee weapon that deals slashing or puncture damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.\n",
     "html": false
   },
   {
@@ -9680,7 +9680,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/single-fire-system",
-    "body": "The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +1 bonus to damage.\n",
+    "body": "The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +2 bonus to damage.\n",
     "html": false
   },
   {
@@ -9758,7 +9758,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/stunner",
-    "body": "In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 lightning damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.\n",
+    "body": "In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.\n",
     "html": false
   },
   {
@@ -9875,7 +9875,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/vintage-heat-sink",
-    "body": "This weapons gains the vented property.\n",
+    "body": "This weapons heat becomes a die, based on its current heat. 1-4: d4, 5-6: d6, 7-8: d8, 9-10: d10, 11+: d12. Whenever you make a ranged attack with the weapon, spin down the die 1 face. If you make a Burst Fire attack, spin down the die 2 faces instead. Every round that you don't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired again this combat.\n",
     "html": false
   },
   {
@@ -10754,7 +10754,7 @@
       "Tech"
     ],
     "link": "/powers/submission-net",
-    "body": "Shoot a swarm of miniature pylons to a target location within range. Each creature within a -radius,\n-high cylinder of the target\nlocation must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,\nbecoming restrained and cannot cast tech powers.\nUntil the power ends, the area is considered difficult terrain. A creature that enters the cylinder for the first time\non its turn or ends its turn there must also make the Dexterity saving throw.\nA creature restrained by submission net may use its action to make a Strength (Athletics) check against your power save\nDC to escape the net. On each attempt, the creature takes 1d6 lightning damage as it struggles against the net. On a\nsuccess, the creature is no longer restrained.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, increase the radius of the\nnet by  for each power slot about the 2nd.\n  Electrified Net: If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.  Anti-Tech: If a creature you can see begins to cast a tech power, you can use your reaction to cast submission net.",
+    "body": "Shoot a swarm of miniature pylons to a target location within range. Each creature within a  cylinder of the target\nlocation must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,\nbecoming restrained and cannot cast tech powers.\nUntil the power ends, the area is considered difficult terrain. A creature that enters the cylinder for the first time\non its turn or ends its turn there must also make the Dexterity saving throw.\nA creature restrained by submission net may use its action to make a Strength (Athletics) check against your power save\nDC to escape the net. On each attempt, the creature takes 1d6 lightning damage as it struggles against the net. On a\nsuccess, the creature is no longer restrained.\nAt Higher Levels: When you cast this power using a power slot of 3rd level or higher, increase the size of the\nnet by  for each power slot about the 2nd.\n  Electrified Net: If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.  Anti-Tech: If a creature you can see begins to cast a tech power, you can use your reaction to cast submission net.",
     "html": false
   },
   {
@@ -14876,19 +14876,6 @@
     "link": false,
     "body": "This weapon requires two hands when you attack with it. Takes up 2 weapon slots.\n",
     "html": "<p>This weapon requires two hands when you attack with it. Takes up 2 weapon slots.</p>\n"
-  },
-  {
-    "id": "vented",
-    "title": "Vented",
-    "type": "manual",
-    "qualifiers": [
-      "Player's Manual",
-      "Appendix",
-      "Weapon Properties"
-    ],
-    "link": false,
-    "body": "This weapon does not use thermal clips. Its description indicates the number of times it can be fired before overheating.\n",
-    "html": "<p>This weapon does not use thermal clips. Its description indicates the number of times it can be fired before overheating.</p>\n"
   },
   {
     "id": "versatile",

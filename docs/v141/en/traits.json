@@ -290,40 +290,34 @@
     ],
     "mechanics": [
       {
-        "name": "Toggle Optics",
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "name": "Toggle darkvision",
         "moreInfo": {
           "model": "traits",
           "id": "advanced-optics"
         },
         "type": "bonus-action",
-        "shortDesc": "Toggle your darkvision or infrared-vision on or off, or toggle between the two.",
-        "toggle": {
-          "id": "advanced-optics-toggle",
-          "options": [
-            {
-              "id": "advanced-optics-toggle-darkvision",
-              "name": "Darkvision",
-              "whenOn": [
-                {
-                  "type": "sense",
-                  "sense": "darkvision",
-                  "distance": 60
-                }
-              ]
-            },
-            {
-              "id": "advanced-optics-toggle-infrared-vision",
-              "name": "Infrared Vision",
-              "whenOn": [
-                {
-                  "type": "sense",
-                  "sense": "infrared-vision",
-                  "distance": 60
-                }
-              ]
-            }
-          ]
-        }
+        "baseGroup": true,
+        "shortDesc": "Toggle your darkvision on or off"
+      },
+      {
+        "name": "Toggle infrared vision",
+        "moreInfo": {
+          "model": "traits",
+          "id": "advanced-optics"
+        },
+        "type": "bonus-action",
+        "baseGroup": true,
+        "shortDesc": "Toggle your infrared vision on or off"
       }
     ],
     "html": "<p>Your optic sensors have two additional optic modes: darkvision 24m (60ft) and infrared vision 24m (60ft). You can\ntoggle these modes on or off (or between the two) as a bonus action.</p>\n",
@@ -1273,11 +1267,15 @@
     "id": "imprinted-enemies"
   },
   {
-    "name": "Infrared Vision",
     "species": [
       "geth"
     ],
     "mechanics": [
+      {
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
       {
         "name": "Toggle infrared vision",
         "moreInfo": {
@@ -1285,19 +1283,11 @@
           "id": "infrared-vision-60"
         },
         "type": "bonus-action",
-        "shortDesc": "Toggle your infrared vision on or off",
-        "toggle": {
-          "id": "infrared-vision-60",
-          "whenOn": [
-            {
-              "type": "sense",
-              "sense": "infrared-vision",
-              "distance": 60
-            }
-          ]
-        }
+        "baseGroup": true,
+        "shortDesc": "Toggle your infrared vision on or off"
       }
     ],
+    "name": "Infrared Vision",
     "html": "<p>Your optic sensors have built-in enhancements. As a bonus action on each of your turns, you can toggle your\ninfrared vision on or off.</p>\n<p>While on, your sight becomes a gradient map of the heat produced by your surroundings (hotter\nobjects appear brighter and cooler objects appear darker; you cannot discern color). You can see creatures and objects\nin darkness as well as creatures and objects hidden by technological means within <me-distance :length=\"60\" />,\nas long those elements are few degrees cooler or warmer than its surroundings.</p>\n",
     "id": "infrared-vision-60"
   },
@@ -2259,7 +2249,7 @@
           "id": "self-destruct"
         },
         "type": "reaction",
-        "layout": "stats-right",
+        "layout": "statsRight",
         "range": {
           "short": 0,
           "aoe": {
@@ -2310,16 +2300,13 @@
       },
       {
         "type": "attack-augment",
-        "attackLimit": {
-          "model": "weapon",
-          "modelTypes": [
-            "shotgun"
-          ]
+        "augment": "notes",
+        "limits": {
+          "modelType": "shotgun"
         },
-        "augmentTypes": [
-          "damage"
-        ],
-        "rerollIfLessThan": 2
+        "value": [
+          "Reroll 1"
+        ]
       }
     ],
     "html": "<p>You are proficient with Shotguns and when you roll a 1 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",

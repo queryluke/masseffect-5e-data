@@ -473,17 +473,12 @@
     "name": "Biotic Aptitude",
     "mechanics": [
       {
-        "type": "attack-augment",
-        "attackLimit": {
-          "model": "power",
-          "modelTypes": [
-            "biotic"
-          ]
+        "type": "power-augment",
+        "augment": "damage",
+        "limits": {
+          "type": "biotic"
         },
-        "augmentTypes": [
-          "damage"
-        ],
-        "bonus": {
+        "value": {
           "type": "powercastingMod",
           "value": "adept"
         }
@@ -652,14 +647,12 @@
             },
             {
               "type": "attack-augment",
-              "attackLimit": {
-                "type": "melee",
-                "model": "weapon"
+              "augment": "damage",
+              "limits": {
+                "attack": "melee",
+                "model": "weapons"
               },
-              "augmentTypes": [
-                "damage"
-              ],
-              "bonus": {
+              "value": {
                 "type": "flat",
                 "value": 4
               }
@@ -843,20 +836,16 @@
     "name": "Biotic Recovery",
     "mechanics": [
       {
-        "type": "power-resource-recovery",
-        "bonus": {
+        "type": "ps-recovery",
+        "max": {
           "type": "level",
           "value": "vanguard",
-          "multiplier": 0.3333,
-          "min": 1,
-          "ceil": true
-        },
-        "limit": "slots",
-        "label": "Biotic Recovery: Nemesis",
-        "maxSlot": 3
+          "multiplier": 0.33,
+          "min": 1
+        }
       }
     ],
-    "html": "<p>At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (rounded up), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.</p>\n",
+    "html": "<p>At 3rd level, you have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than a third of your vanguard level (minimum 1), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 10th-level vanguard, you can recover up to 4 levels worth of power slots. You can recover either\ntwo 2nd-level power slots, one 2nd-level and two 1st-level power slots, or four first-level power slots.</p>\n",
     "id": "biotic-recovery-nemesis"
   },
   {
@@ -865,17 +854,14 @@
     "name": "Biotic Recovery",
     "mechanics": [
       {
-        "type": "power-resource-recovery",
-        "bonus": {
+        "type": "ps-recovery",
+        "max": {
           "type": "level",
           "value": "adept",
           "multiplier": 0.5,
           "min": 1,
           "ceil": true
-        },
-        "limit": "slots",
-        "label": "Biotic Recovery: Adept",
-        "maxSlot": 3
+        }
       }
     ],
     "html": "<p>You have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish\na short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal\nto or less than half your adept level (rounded up), and none of the slots can be 3rd level or higher.</p>\n<p>For example, if you’re a 4th-level adept, you can recover up to two levels worth of power slots. You can recover either\na 2nd-level power slot or two 1st-level power slots.</p>\n",
@@ -2437,15 +2423,22 @@
     "mechanics": [
       {
         "type": "attack-augment",
-        "attackLimit": {
-          "type": "melee",
-          "model": "weapon"
+        "augment": "damage",
+        "limits": {
+          "attack": "melee"
         },
-        "augmentTypes": [
-          "damage",
-          "hit"
-        ],
-        "bonus": {
+        "value": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "attack-augment",
+        "augment": "attack",
+        "limits": {
+          "attack": "melee"
+        },
+        "value": {
           "type": "flat",
           "value": 1
         }
@@ -2847,20 +2840,16 @@
     "name": "Potent Biotics",
     "mechanics": [
       {
-        "type": "attack-augment",
-        "attackLimit": {
-          "model": "power",
-          "modelTypes": [
-            "biotic"
-          ]
-        },
-        "augmentTypes": [
-          "damage"
-        ],
-        "rerollIfLessThan": 3
+        "type": "global-note",
+        "subType": "action",
+        "value": "Potent Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "potent-biotics"
+        }
       }
     ],
-    "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a biotic power, you can reroll the die\nand must use the new roll.</p>\n",
+    "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a power that deals necrotic damage, you can reroll the die\nand must use the new roll.</p>\n",
     "id": "potent-biotics"
   },
   {
@@ -3490,15 +3479,13 @@
     "name": "Recharge (1d4)",
     "mechanics": [
       {
-        "type": "power-resource-recovery",
+        "type": "tp-recharge",
         "dieCount": 1,
         "dieType": 4,
         "bonus": {
           "type": "mod",
           "value": "int"
-        },
-        "limit": "points",
-        "label": "Engineer Recharge"
+        }
       }
     ],
     "html": "<p>Beginning at 7th level, you've created a small reserve battery for your omni-tool, allowing you to regain some spent\ntech points. Once per long rest, you can spend 1 minute cycling the power of your omni-tool gaining tech points equal to\n1d4 + your Intelligence modifier. Your total tech points cannot exceed the tech points column for your engineer level\n(as indicated on the engineer progression table).</p>\n",
@@ -4807,6 +4794,16 @@
                 "id": "brute-force",
                 "name": "Brute Force",
                 "whenOn": [
+                  {
+                    "type": "attack-augment",
+                    "augment": "notes",
+                    "limits": {
+                      "attack": "melee"
+                    },
+                    "value": [
+                      "+1d8 bldg dmg"
+                    ]
+                  },
                   {
                     "type": "augment",
                     "value": {

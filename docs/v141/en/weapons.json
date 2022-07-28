@@ -252,8 +252,7 @@
     "properties": [
       "burst-fire",
       "special",
-      "two-handed",
-      "vented"
+      "two-handed"
     ],
     "name": "Collector Assault Rifle",
     "html": "<p>The Collector Assault Rifle does not use thermal clips. Instead, use a d8 to track the &quot;heat&quot;.\nWhenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you\ndon't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If\nyou ever spin down the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
@@ -278,8 +277,7 @@
       "special",
       "two-handed",
       "burst-fire",
-      "light",
-      "vented"
+      "light"
     ],
     "name": "Collector SMG",
     "html": "<p>The Collector SMG does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you\nmake a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
@@ -302,8 +300,7 @@
     "andromeda": false,
     "properties": [
       "two-handed",
-      "burst-fire",
-      "vented"
+      "burst-fire"
     ],
     "name": "Collector Sniper Rifle",
     "html": "<p>The Collector Sniper Rifle does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;.\nWhenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you\ndon't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If\nyou ever spin down the die to 0, the weapon jams and cannot be fired again this combat. If you make\na Burst Fire attack, spin down the die by 2.</p>\n",
@@ -423,8 +420,7 @@
     "properties": [
       "double-tap",
       "light",
-      "burst-fire",
-      "vented"
+      "burst-fire"
     ],
     "name": "Equalizer",
     "html": "<p>When you hit a target beyond normal range, it takes half damage.</p>\n<p>The Equalizer does not use thermal clips. Instead, use a d8 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n",
@@ -588,8 +584,7 @@
       "two-handed",
       "special",
       "heavy",
-      "double-tap",
-      "vented"
+      "double-tap"
     ],
     "name": "Inferno",
     "html": "<p>The Inferno does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n",
@@ -1271,8 +1266,7 @@
     "andromeda": false,
     "properties": [
       "burst-fire",
-      "two-handed",
-      "vented"
+      "two-handed"
     ],
     "name": "M-7 Lancer",
     "html": "<p>Somewhat of a relic and hard to come by, the M-7 does not use thermal clips. Instead, use a d8 to\ntrack the &quot;heat&quot;. Whenever you make a ranged attack with the weapon, spin down the die 1 face.\nEvery round that you don't fire the weapon, spin the die up 2 faces. This represents the weapon\ninternally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n",
@@ -1856,8 +1850,7 @@
     "andromeda": true,
     "properties": [
       "two-handed",
-      "special",
-      "vented"
+      "special"
     ],
     "name": "P.A.W.",
     "html": "<p>The P.A.W. does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n<p>After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target\nat each of the following combat phases: the end of your turn, the beginning of the target's turn,\nthe end of the target's turn, and the beginning of your turn. Each time you deal damage, spin down\nyour heat dice. In addition to standard targeting rules, this targeting condition can end when this\nweapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target\nuses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you\nare proficient with this weapon type), or you use a bonus action on your turn to end the\ncondition.</p>\n",
@@ -1881,8 +1874,7 @@
     "properties": [
       "burst-fire",
       "special",
-      "two-handed",
-      "vented"
+      "two-handed"
     ],
     "name": "Particle Rifle",
     "html": "<p>The Particle Rifle does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you\nmake a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire\nattack, spin down the die by 2.</p>\n",
@@ -2161,8 +2153,7 @@
       "two-handed",
       "heavy",
       "hip-fire",
-      "special",
-      "vented"
+      "special"
     ],
     "name": "Scattershot",
     "html": "<p>The Scattershot does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;. Whenever you make\na ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
@@ -2209,8 +2200,7 @@
     "properties": [
       "two-handed",
       "heavy",
-      "special",
-      "vented"
+      "special"
     ],
     "name": "Shadow",
     "html": "<p>The Shadow does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n<p>After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target\nat each of the following combat phases: the end of your turn, the beginning of the target's turn,\nthe end of the target's turn, and the beginning of your turn. Each time you deal damage, spin down\nyour heat dice. In addition to standard targeting rules, this targeting condition can end when this\nweapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target\nuses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you\nare proficient with this weapon type), or you use a bonus action on your turn to end the\ncondition.</p>\n",
@@ -2397,8 +2387,7 @@
       "two-handed",
       "heavy",
       "special",
-      "burst-fire",
-      "vented"
+      "burst-fire"
     ],
     "name": "Sweeper",
     "html": "<p>The Sweeper does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. This represents the weapon internally cooling off. If you ever spin down the\ndie to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire attack,\nspin down the die by 2.</p>\n",

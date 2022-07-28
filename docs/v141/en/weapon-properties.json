@@ -96,12 +96,6 @@
     "id": "two-handed"
   },
   {
-    "is_new": true,
-    "name": "Vented",
-    "html": "<p>This weapon does not use thermal clips. Its description indicates the number of times it can be fired before overheating.</p>\n",
-    "id": "vented"
-  },
-  {
     "is_new": false,
     "name": "Versatile",
     "html": "<p>This weapon can be used with one or two hands. A damage value in parentheses appears with the\nproperty--the damage when the weapon is used with two hands to make a melee attack.</p>\n",

@@ -848,15 +848,12 @@
     "name": "Ambidextrous",
     "mechanics": [
       {
-        "type": "attack-augment",
-        "attackLimit": {
-          "model": "weapon",
-          "special": "twf"
+        "type": "twf-augment",
+        "augment": "damage",
+        "limits": {
+          "model": "weapons"
         },
-        "augmentTypes": [
-          "damage"
-        ],
-        "abilityMod": true
+        "value": "abilityMod"
       }
     ],
     "type": "fighting-styles",
@@ -867,15 +864,12 @@
     "name": "Assault",
     "mechanics": [
       {
-        "type": "attack-augment",
-        "attackLimit": {
-          "model": "weapon",
-          "special": "bf"
+        "type": "bf-augment",
+        "augment": "dc",
+        "limits": {
+          "model": "weapons"
         },
-        "augmentTypes": [
-          "dc"
-        ],
-        "bonus": {
+        "value": {
           "type": "flat",
           "value": 2
         }
@@ -890,19 +884,18 @@
     "mechanics": [
       {
         "type": "attack-augment",
-        "attackLimit": {
-          "type": "melee"
+        "augment": "damage",
+        "limits": {
+          "attack": "melee",
+          "model": "weapons"
         },
-        "augmentTypes": [
-          "damage"
-        ],
-        "bonus": {
+        "value": {
           "type": "proficiency"
         }
       }
     ],
     "type": "fighting-styles",
-    "html": "<p>Add your proficiency bonus to your melee damage rolls.</p>\n",
+    "html": "<p>Add your proficiency bonus to your melee attack damage rolls.</p>\n",
     "id": "FS_brawler"
   },
   {
@@ -910,16 +903,13 @@
     "mechanics": [
       {
         "type": "attack-augment",
-        "attackLimit": {
-          "model": "weapon",
-          "modelTypes": [
-            "shotgun"
-          ]
+        "augment": "notes",
+        "limits": {
+          "modelType": "shotgun"
         },
-        "augmentTypes": [
-          "damage"
-        ],
-        "rerollIfLessThan": 3
+        "value": [
+          "Reroll 1 or 2"
+        ]
       }
     ],
     "type": "fighting-styles",
@@ -998,13 +988,7 @@
     "name": "The Free Hand",
     "mechanics": [
       {
-        "type": "global-note",
-        "subType": "power",
-        "value": "Free Hand",
-        "moreInfo": {
-          "model": "edges",
-          "id": "FS_the-free-hand"
-        }
+        "type": "free-hand-fs"
       }
     ],
     "type": "fighting-styles",
@@ -3538,9 +3522,19 @@
         "type": "asi",
         "amount": 2,
         "ability": "int"
+      },
+      {
+        "type": "sense",
+        "sense": "infrared-vision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
       }
     ],
-    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT</p>",
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT</p><div class=\"text-subtitle-1\">Senses</div><p>infrared-vision <me-distance length=\"60\" />, darkvision <me-distance length=\"60\" /></p>",
     "type": "exalted-lineages"
   },
   {
