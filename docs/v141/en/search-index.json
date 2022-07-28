@@ -8796,7 +8796,7 @@
       "Armor Mod"
     ],
     "link": "/mods/ec-counter",
-    "body": "Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).\n",
+    "body": "Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10\nConstitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).\n",
     "html": false
   },
   {
@@ -8861,7 +8861,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/energy-channel",
-    "body": "When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and remove 5 shield points. You cannot use this if you have 0 shield points.\n",
+    "body": "When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and regain 5 shield points. You cannot use this if you have 0 shield points.\n",
     "html": false
   },
   {
@@ -8978,7 +8978,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/extended-grip",
-    "body": "The weapon loses the Finesse and Light properties. If the weapon has the Versatile property, remove it and add the Two-handed and Reach properties. Otherwise, add the Versatile property and increase the damage dice by one die type for a Versatile attack.\n",
+    "body": "The weapon loses the Finesse and Light properties. Add the Two-handed, Reach, and Versatile properties.\n",
     "html": false
   },
   {
@@ -9030,7 +9030,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/gyroscope",
-    "body": "The weapon gains the Thrown property. If it already has the Thrown property, it gains +1 to hit with a ranged weapon attack.\n",
+    "body": "The weapon gains the Thrown property and gains +2 to hit with a ranged weapon attack.\n",
     "html": false
   },
   {
@@ -9368,7 +9368,7 @@
       "Armor Mod"
     ],
     "link": "/mods/personal-disruptor-torpedoes",
-    "body": "Choose a target location within . Creatures within a\n of the target must make a Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.\n",
+    "body": "Choose a target location within . Creatures within a\n of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.\n",
     "html": false
   },
   {
@@ -9420,7 +9420,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/poisoned-alloys",
-    "body": "Requires a melee weapon that deals slashing or puncture damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.\n",
+    "body": "Requires a melee weapon that deals slashing or piercing damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.\n",
     "html": false
   },
   {
@@ -9680,7 +9680,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/single-fire-system",
-    "body": "The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +2 bonus to damage.\n",
+    "body": "The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +1 bonus to damage.\n",
     "html": false
   },
   {
@@ -9758,7 +9758,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/stunner",
-    "body": "In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.\n",
+    "body": "In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 lightning damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.\n",
     "html": false
   },
   {
@@ -9875,7 +9875,7 @@
       "Weapon Mod"
     ],
     "link": "/mods/vintage-heat-sink",
-    "body": "This weapons heat becomes a die, based on its current heat. 1-4: d4, 5-6: d6, 7-8: d8, 9-10: d10, 11+: d12. Whenever you make a ranged attack with the weapon, spin down the die 1 face. If you make a Burst Fire attack, spin down the die 2 faces instead. Every round that you don't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired again this combat.\n",
+    "body": "This weapons gains the vented property.\n",
     "html": false
   },
   {

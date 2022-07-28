@@ -26,6 +26,16 @@ mechanics:
       For the next minute, you may walk up walls, upside down, and gain immunity to being lifted
       if the surface you are walking on is made of metal. Otherwise, gain advantage on saving throws
       to become lifted.
+    toggle:
+      id: lockdown-greaves
+      whenOn:
+        - type: condition-immunity
+          value: lifted
+          note: when you are on a metal surface
+        - type: saving-throw
+          against: [lifted]
+          effect:
+            type: advantage
 ---
 - As a bonus action, the wearer can activate the effect of the greaves to stick to the surface they
 are walking on, provided it's made of metal. This can aid them in walking up walls, upside down,

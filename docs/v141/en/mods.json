@@ -1004,8 +1004,7 @@
     "flavor": "Fire supercooled projectiles.",
     "mechanics": [
       {
-        "type": "toggle-weapon-augment",
-        "name": "Cryo Ammo",
+        "type": "weapon-augment",
         "damageType": "cold",
         "primes": "cold",
         "primesLength": "until the end of its next turn",
@@ -1015,7 +1014,9 @@
             "tooltipText": "Hit: reduce the target's movement speed by 1/2 until the end of its next turn",
             "text": "Movement: 1/2"
           }
-        ]
+        ],
+        "toggle": true,
+        "name": "Cryo Ammo"
       }
     ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes cold. Successful ranged weapon attacks cause the target to become primed (cold) and reduce its movement speed by half until the end of its next turn.</p>\n",
@@ -1043,11 +1044,12 @@
     "flavor": "Fire statically charged projectiles.",
     "mechanics": [
       {
-        "type": "toggle-weapon-augment",
-        "name": "Disruptor Ammo",
+        "type": "weapon-augment",
         "primes": "lightning",
         "primesLength": "until the end of its next turn",
-        "detonates": true
+        "detonates": true,
+        "toggle": true,
+        "name": "Disruptor Ammo"
       }
     ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes lightning, Successful ranged attacks can detonate primed targets or cause the target to become primed (lightning) until the end of its next turn.</p>\n",
@@ -1092,7 +1094,7 @@
         ]
       }
     ],
-    "html": "<p>Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).</p>\n",
+    "html": "<p>Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10\nConstitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).</p>\n",
     "id": "ec-counter"
   },
   {
@@ -1111,6 +1113,16 @@
     ],
     "name": "Echo Cancel",
     "flavor": "Specifically attuned mass effect fields in your armor's boots that are keyed to sound waves.",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "stealth",
+        "effect": {
+          "type": "advantage",
+          "note": "that rely on remaining silent"
+        }
+      }
+    ],
     "html": "<p>Your footsteps make no noise and you have advantage on Dexterity (Stealth) checks that rely on remaining silent.</p>\n",
     "id": "echo-cancel"
   },
@@ -1132,6 +1144,23 @@
     ],
     "name": "Electrical Conduits",
     "flavor": "Augment the weapons firing system to arc lightning.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "shortRangeMax": 30,
+        "longRangeMax": 60
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ],
+        "add": [
+          "arc"
+        ]
+      }
+    ],
     "html": "<p>The weapon loses the Burst Fire and Double Tap properties and gains the Arc property. If its range is\nfarther than <me-distance length=\"30\" num-only />/<me-distance length=\"60\" />, its range becomes\n<me-distance length=\"30\" num-only />/<me-distance length=\"60\" />.</p>\n",
     "id": "electrical-conduits"
   },
@@ -1176,6 +1205,15 @@
     ],
     "name": "Energized Plating",
     "flavor": "A prototype upgrade designed specifically for heavy combat use, it provides maximum protection for the user",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        }
+      }
+    ],
     "html": "<p>+3 AC</p>\n",
     "id": "energized-plating"
   },
@@ -1194,7 +1232,25 @@
     ],
     "name": "Energy Channel",
     "flavor": "Divert power from your kinetic barrier into an electric discharge.",
-    "html": "<p>When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and remove 5 shield points. You cannot use this if you have 0 shield points.</p>\n",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "notes"
+        ],
+        "notes": [
+          {
+            "type": "tooltip",
+            "text": "+5 lightning, regen 5",
+            "tooltipText": "Hit: deal 5 additional lightning damage and regain 5 shield points. Requires at least 1 shield point"
+          }
+        ]
+      }
+    ],
+    "html": "<p>When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and regain 5 shield points. You cannot use this if you have 0 shield points.</p>\n",
     "id": "energy-channel"
   },
   {
@@ -1213,6 +1269,17 @@
     ],
     "name": "Enviro-Systems",
     "flavor": "An activatable hermetic seal against vacuum or underwater pressure. While most armors act as space-suits, they aren't necessarily graded for more than a few hours of vacuum exposure, nor are they graded for underwater performance where water pressure can be crushing.",
+    "mechanics": [
+      {
+        "name": "Enviro-Systems (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "enviro-systems"
+        },
+        "type": "other",
+        "shortDesc": "As a free action, activate an enviro-suit, allowing you to breath in any environment for up to 24 hours."
+      }
+    ],
     "html": "<p>As a free action, you gain Water Breathing and the ability to breathe indefinitely in zero-oxygen environments for the next 24 hours. If you are not wearing a helmet, the suit creates a hard light helmet that equalizes pressure around your head.</p>\n",
     "id": "enviro-systems"
   },
@@ -1232,6 +1299,16 @@
     ],
     "name": "Environmental Regulators",
     "flavor": "Temperature controls use liquid nitrogen and plasma to keep your suit at a constant temperature.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "fire"
+      },
+      {
+        "type": "resistance",
+        "value": "cold"
+      }
+    ],
     "html": "<p>Resistance to fire and cold damage.</p>\n",
     "id": "environmental-regulators"
   },
@@ -1251,6 +1328,17 @@
     ],
     "name": "Equilibrium Regulator",
     "flavor": "Stabilizes your HUD while running which allows you to take quick shots while running.",
+    "mechanics": [
+      {
+        "name": "Equilibrium Regulator (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "equilibrium-regulator"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you take the Dash action on your turn, you can use a bonus action to make one weapon attack."
+      }
+    ],
     "html": "<p>When you take the Dash action on your turn, you can use a bonus action to make one weapon attack.</p>\n",
     "id": "equilibrium-regulator"
   },
@@ -1270,6 +1358,40 @@
     ],
     "name": "ER Jetpack",
     "flavor": "An advanced jetpack that can be used for longer than the standard version, but takes longer to recharge.",
+    "mechanics": [
+      {
+        "name": "ER Jetpack (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "er-jetpack"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Gain a flying speed of <me-distance length=\"15\" /> for 10 minutes.",
+        "resource": {
+          "id": "er-jetpack-resource",
+          "reset": "long"
+        },
+        "toggle": {
+          "id": "er-jetpack-toggle",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "er-jetpack-resource",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 15
+            }
+          ]
+        }
+      }
+    ],
     "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 10 minutes.\nThis device cannot be used again until you finish a long rest.</p>\n",
     "id": "er-jetpack"
   },
@@ -1291,6 +1413,19 @@
     ],
     "name": "Explosive Ammo",
     "flavor": "Fire exploding projectiles",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "addDamage": {
+          "dieCount": 1,
+          "dieType": 8,
+          "type": "thunder"
+        },
+        "heatConsumption": 2,
+        "toggle": true,
+        "name": "Explosive Ammo"
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: Successful ranged attacks deal an additional 1d8 thunder damage, but each attack drains 2 heat.</p>\n",
     "id": "explosive-ammo"
   },
@@ -1311,6 +1446,21 @@
     ],
     "name": "Extended Barrel I",
     "flavor": "Lengthens barrel, creating greater bullet velocity and impact.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>+1 on damage rolls made with this weapon.</p>\n",
     "id": "extended-barrel-i"
   },
@@ -1331,6 +1481,21 @@
     ],
     "name": "Extended Barrel II",
     "flavor": "Lengthens barrel, creating greater bullet velocity and impact.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
     "html": "<p>+2 on damage rolls made with this weapon.</p>\n",
     "id": "extended-barrel-ii"
   },
@@ -1351,6 +1516,21 @@
     ],
     "name": "Extended Barrel III",
     "flavor": "Lengthens barrel, creating greater bullet velocity and impact.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        }
+      }
+    ],
     "html": "<p>+3 on damage rolls made with this weapon.</p>\n",
     "id": "extended-barrel-iii"
   },
@@ -1368,7 +1548,21 @@
     ],
     "name": "Extended Grip",
     "flavor": "This grip adheres to any existing weapon providing additional power or reach.",
-    "html": "<p>The weapon loses the Finesse and Light properties. If the weapon has the Versatile property, remove it and add the Two-handed and Reach properties. Otherwise, add the Versatile property and increase the damage dice by one die type for a Versatile attack.</p>\n",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "finesse",
+          "light"
+        ],
+        "add": [
+          "two-handed",
+          "reach",
+          "versatile"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Finesse and Light properties. Add the Two-handed, Reach, and Versatile properties.</p>\n",
     "id": "extended-grip"
   },
   {
@@ -1389,6 +1583,12 @@
     ],
     "name": "Extended Magazine",
     "flavor": "Increases magazine capacity, allowing more shots before reload.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 1
+      }
+    ],
     "html": "<p>The weapon gains additional heat equal to its base heat.</p>\n",
     "id": "extended-magazine"
   },
@@ -1408,6 +1608,28 @@
     ],
     "name": "Focus Modulator",
     "flavor": "Your headwear filters out distracting movement and sounds from sources other than your target.",
+    "mechanics": [
+      {
+        "name": "Focus Modulator (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "focus-modulator"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "focus-modulator"
+        },
+        "range": {
+          "short": 90
+        },
+        "shortDesc": "Choose a creature you can see within <me-distance length=\"90\" />. For the next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it."
+      }
+    ],
     "html": "<p>As a bonus action, you choose a creature you can see within <me-distance length=\"90\" />. For the next minute,\nyou deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have\nadvantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature\n3 times per long rest.</p>\n",
     "id": "focus-modulator"
   },
@@ -1429,6 +1651,32 @@
     ],
     "name": "Grenade Launcher",
     "flavor": "Augment the weapons firing system to explosive projectiles.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "heatConsumption": 2,
+        "damageType": "thunder",
+        "damageMultiplier": 2,
+        "onlyShortRange": true,
+        "addAoe": {
+          "type": "sphere",
+          "size": 10
+        },
+        "dc": {
+          "base": 13,
+          "proficient": false,
+          "save": "dex"
+        },
+        "toggle": false
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
     "html": "<p>The weapon loses the Burst Fire and Double Tap property. Its damage type becomes thunder. When you attack\nwith this weapon choose a target location within the weapon's normal range. Each creature within <me-distance length=\"10\" />\nof the target must make a DC 13 Dexterity saving throw. On a failed save, a target takes thunder damage equal to\ntwice the weapon's damage, or half as much on a successful one. Each attack costs 2 heat.</p>\n",
     "id": "grenade-launcher"
   },
@@ -1446,7 +1694,15 @@
     ],
     "name": "Gyroscope",
     "flavor": "A small device that uses mass effect fields to stabilize the weapon when in flight.",
-    "html": "<p>The weapon gains the Thrown property. If it already has the Thrown property, it gains +1 to hit with a ranged weapon attack.</p>\n",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "thrown"
+        ]
+      }
+    ],
+    "html": "<p>The weapon gains the Thrown property and gains +2 to hit with a ranged weapon attack.</p>\n",
     "id": "gyroscope"
   },
   {
@@ -1465,6 +1721,28 @@
     ],
     "name": "Hardened Weave",
     "flavor": "A complex filament network of element zero microcores combined with advanced firewall technology provides protection against both biotic and tech attacks.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "cold"
+      },
+      {
+        "type": "resistance",
+        "value": "fire"
+      },
+      {
+        "type": "resistance",
+        "value": "force"
+      },
+      {
+        "type": "resistance",
+        "value": "lightning"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic"
+      }
+    ],
     "html": "<p>Resistance to cold, fire, force, lightning, and necrotic damage types.</p>\n",
     "id": "hardened-weave"
   },
@@ -1486,6 +1764,12 @@
     ],
     "name": "Heat Sink",
     "flavor": "Greatly improves your weapons cooling capacity.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 2
+      }
+    ],
     "html": "<p>The weapon gains additional heat equal to double its base heat.</p>\n",
     "id": "heat-sink"
   },
@@ -1534,6 +1818,28 @@
     ],
     "name": "High-Caliber Barrel I",
     "flavor": "Superior kinetic coils increase shot penetration and damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage",
+          "notes"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        },
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignore 1/2 cover"
+          }
+        ]
+      }
+    ],
     "html": "<p>+1 on damage rolls made with this weapon. Ignores half cover.</p>\n",
     "id": "high-caliber-barrel-i"
   },
@@ -1556,6 +1862,28 @@
     ],
     "name": "High-Caliber Barrel II",
     "flavor": "Superior kinetic coils increase shot penetration and damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage",
+          "notes"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        },
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignore 1/2 cover"
+          }
+        ]
+      }
+    ],
     "html": "<p>+2 on damage rolls made with this weapon. Ignores half cover.</p>\n",
     "id": "high-caliber-barrel-ii"
   },
@@ -1578,6 +1906,28 @@
     ],
     "name": "High-Caliber Barrel III",
     "flavor": "Superior kinetic coils increase shot penetration and damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage",
+          "notes"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        },
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignore 1/2 cover"
+          }
+        ]
+      }
+    ],
     "html": "<p>+3 on damage rolls made with this weapon. Ignores half cover.</p>\n",
     "id": "high-caliber-barrel-iii"
   },
@@ -1599,6 +1949,18 @@
     ],
     "name": "High-Velocity Barrel I",
     "flavor": "Increase bullet velocity to ensure bullets pierce armor.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 2
+      }
+    ],
     "html": "<p>When you roll a 1 on a damage die for an attack you make with this weapon, you can reroll the die and must use the new roll, even if the new roll is a 1.</p>\n",
     "id": "high-velocity-barrel-i"
   },
@@ -1620,6 +1982,18 @@
     ],
     "name": "High-Velocity Barrel II",
     "flavor": "Increase bullet velocity to ensure bullets pierce armor.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
     "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with this weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
     "id": "high-velocity-barrel-ii"
   },
@@ -1639,6 +2013,12 @@
     ],
     "name": "Hip Caddy - Grenades",
     "flavor": "A simple device designed to hold combat grenades.",
+    "mechanics": [
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      }
+    ],
     "html": "<p>Increase your grenade capacity by 2</p>\n",
     "id": "hip-caddy-grenades"
   },
@@ -1658,6 +2038,12 @@
     ],
     "name": "Hip Caddy - Thermal Clips",
     "flavor": "A simple device designed to hold additional thermal clips.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 4
+      }
+    ],
     "html": "<p>Increase your thermal clip capacity by 4.</p>\n",
     "id": "hip-caddy-thermal-clips"
   },
@@ -1677,6 +2063,12 @@
     ],
     "name": "Hip Holster",
     "flavor": "An additional hip holster designed to hold a small weapon.",
+    "mechanics": [
+      {
+        "type": "weapon-slots",
+        "value": 1
+      }
+    ],
     "html": "<p>Gain 1 additional weapon slot. If using the Variant: Encumbrance rule, increase your Carry Weight by 5.</p>\n",
     "id": "hip-holster"
   },
@@ -1694,6 +2086,21 @@
     ],
     "name": "Honed Strike",
     "flavor": "Improve the strike of your weapon to deal additional damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>+1 on damage rolls made with this weapon.</p>\n",
     "id": "honed-strike"
   },
@@ -1717,6 +2124,23 @@
     ],
     "name": "Incendiary Ammo",
     "flavor": "Fire super-heated plasma.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "fire",
+        "primes": "fire",
+        "primeLength": "until the end of its next turn",
+        "addDamage": [
+          {
+            "dieCount": 1,
+            "dieType": 4,
+            "type": "fire"
+          }
+        ],
+        "toggle": true,
+        "name": "Incendiary Ammo"
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes fire. Successful ranged attacks deal an additional 1d4 fire damage and the target becomes primed (fire) until the end of its next turn.</p>\n",
     "id": "incendiary-ammo"
   },
@@ -1736,6 +2160,40 @@
     ],
     "name": "Jetpack",
     "flavor": "This propulsion device generates mass effect fields for lift and gyroscopic attitude adjusters to maneuver the wearer for a short duration.",
+    "mechanics": [
+      {
+        "name": "Jetpack (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "jetpack"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Gain a flying speed of <me-distance length=\"15\" /> for 1 minute.",
+        "resource": {
+          "id": "jetpack-resource",
+          "reset": "short"
+        },
+        "toggle": {
+          "id": "jetpack-toggle",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "jetpack-resource",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 15
+            }
+          ]
+        }
+      }
+    ],
     "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 1 minute. This device\ncannot be used again until you finish a short rest.</p>\n",
     "id": "jetpack"
   },
@@ -1755,6 +2213,17 @@
     ],
     "name": "Jump Jets",
     "flavor": "Quickly compresses the atmosphere and ejects it from boosters built into the soles of the boots, allowing for longer jumps and brief hovering.",
+    "mechanics": [
+      {
+        "name": "Jump Jets (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "jump-jets"
+        },
+        "type": "other",
+        "shortDesc": "Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump until the start of your next turn, at which point, you fall slowly back to the ground, taking half of your movement speed for this turn."
+      }
+    ],
     "html": "<p>Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump until the start of your next turn, at which point, you fall slowly back to the ground, taking half of your movement speed for this turn.</p>\n",
     "id": "jump-jets"
   },
@@ -1774,6 +2243,13 @@
     ],
     "name": "Life Support Webbing",
     "flavor": "A net of micro-stimulants and medi-gel in order to increase the chances of survival for aid workers and military personnel working in hostile environments.",
+    "mechanics": [
+      {
+        "type": "gradient-condition-increase",
+        "condition": "exhaustion",
+        "value": 1
+      }
+    ],
     "html": "<p>Increases your maximum exhaustion by 1 level. At the first level, you suffer no negative effects.</p>\n",
     "id": "life-support-webbing"
   },
@@ -1793,6 +2269,19 @@
     ],
     "name": "Long Barrel",
     "flavor": "Long barrels allows normally short range weapons to operate at greater distances, but with trade-offs in handling.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "shortRangeMultiplier": 2,
+        "longRangeMultiplier": 2
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "hip-fire"
+        ]
+      }
+    ],
     "html": "<p>The weapon loses the Hip Fire property. Double the weapon's normal and long range.</p>\n",
     "id": "long-barrel"
   },
@@ -1812,6 +2301,22 @@
     ],
     "name": "Mag Latches",
     "flavor": "Powerful magnets keep you grounded.",
+    "mechanics": [
+      {
+        "type": "condition-immunity",
+        "value": "lifted",
+        "note": "when you are on a metal surface"
+      },
+      {
+        "type": "saving-throw",
+        "against": [
+          "lifted"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
     "html": "<p>If you are standing on a metal surface, you are immune to being lifted. Otherwise, if you would make a saving throw against being lifted, you have advantage.</p>\n",
     "id": "mag-latches"
   },
@@ -1833,6 +2338,12 @@
     ],
     "name": "Magazine Upgrade",
     "flavor": "Increases magazine capacity, allowing more shots before reload.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 0.5
+      }
+    ],
     "html": "<p>The weapon gains additional heat equal to half its base heat (rounded down).</p>\n",
     "id": "magazine-upgrade"
   },
@@ -1852,6 +2363,14 @@
     ],
     "name": "Medi-gel Regulator",
     "flavor": "Circulates medi-gel through your body, increasing vitality.",
+    "mechanics": [
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level"
+        }
+      }
+    ],
     "html": "<p>Gain 1 additional hit point for each level you have gained.</p>\n",
     "id": "medi-gel-regulator"
   },
@@ -1872,6 +2391,22 @@
     ],
     "name": "Microservos",
     "flavor": "Microservos coordinate your melee strikes.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "type": "melee"
+        },
+        "augmentTypes": [
+          "damage",
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
     "html": "<p>+2 bonus to melee attack and damage rolls</p>\n",
     "id": "microservos"
   },
@@ -1891,6 +2426,13 @@
     ],
     "name": "Night Sight",
     "flavor": "A standard night-vision mod issued to infantry across the galaxy.",
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 90
+      }
+    ],
     "html": "<p>You gain darkvision <me-distance length=\"90\" />.</p>\n",
     "id": "night-sight"
   },
@@ -1910,6 +2452,12 @@
     ],
     "name": "Offhand Ammo Pack",
     "flavor": "A simple but popular modification favored among mercenary groups and military personnel on active assignment.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 2
+      }
+    ],
     "html": "<p>Increase your thermal clip capacity by 2</p>\n",
     "id": "offhand-ammo-pack"
   },
@@ -1927,6 +2475,30 @@
     ],
     "name": "Omni-Blade Attachment",
     "flavor": "Attach an omni-blade (bayonet) to the weapon.",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Omni-blade Attachment",
+          "noMod": false,
+          "type": "natural-melee",
+          "damage": {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "piercing"
+          },
+          "range": 5,
+          "properties": [
+            "finesse"
+          ],
+          "moreInfo": {
+            "model": "mods",
+            "id": "omni-blade-attachment"
+          }
+        }
+      }
+    ],
     "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. It has the finesse property and successful melee attacks deal 1d8 piercing damage.</p>\n",
     "id": "omni-blade-attachment"
   },
@@ -1946,6 +2518,7 @@
     ],
     "name": "Ordinance Packs",
     "flavor": "Co-developed by the Rahael Group and Beckmann Financial to solve the issue of munitions storage for Heavy Weapon class engagement tools.",
+    "mechanics": [],
     "html": "<p>Your heavy weapons have 2 additional charges.</p>\n",
     "id": "ordinance-packs"
   },
@@ -1965,7 +2538,40 @@
     ],
     "name": "Personal Disruptor Torpedoes",
     "flavor": "A \"micro gravitic\" personal weapon that effectively fires small disruptor torpedoes.",
-    "html": "<p>Choose a target location within <me-distance length=\"90\" />. Creatures within a\n<me-distance length=\"10\" /> of the target must make a Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.</p>\n",
+    "mechanics": [
+      {
+        "name": "Personal Disruptor Torpedoes",
+        "moreInfo": {
+          "model": "mods",
+          "id": "personal-disruptor-torpedoes"
+        },
+        "type": "action",
+        "range": {
+          "short": 90,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "dc": {
+          "save": "dex",
+          "base": 15,
+          "proficient": false
+        },
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 12,
+            "type": "force"
+          }
+        ],
+        "resource": {
+          "reset": "short",
+          "id": "personal-disruptor-torpedoes"
+        }
+      }
+    ],
+    "html": "<p>Choose a target location within <me-distance length=\"90\" />. Creatures within a\n<me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.</p>\n",
     "id": "personal-disruptor-torpedoes"
   },
   {
@@ -1986,6 +2592,20 @@
     ],
     "name": "Phasic Ammo",
     "flavor": "Fire projectiles that vibrate rapidly, allowing them to bypass kinetic barriers.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "hitBonus": -2,
+        "notes": [
+          {
+            "type": "text",
+            "text": "bypasses shields"
+          }
+        ],
+        "toggle": true,
+        "name": "Phasic Ammo"
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: -2 on ranged weapon damage rolls, but all damage done bypasses shields.</p>\n",
     "id": "phasic-ammo"
   },
@@ -2005,6 +2625,17 @@
     ],
     "name": "Piercing Ammo",
     "flavor": "Capacitor boosts kinetic coil generators, increasing shot penetration.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "ignores piercing resistance"
+          }
+        ]
+      }
+    ],
     "html": "<p>Damage done by this weapon cannot be reduced by piercing damage resistance.</p>\n",
     "id": "piercing-ammo"
   },
@@ -2026,6 +2657,32 @@
     ],
     "name": "Plasma Charge System",
     "flavor": "Augment the weapons firing system to plasma rounds.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "radiant",
+        "notes": [
+          {
+            "type": "tooltip",
+            "tooltipText": "Hit or miss, each creature within 2 meters of the target takes 2d10 radiant damage. Use a bonus action to charge the weapon before firing, consuming 2 heat. If charged, increase the hit or miss radiant damage to 4d10.",
+            "text": "Plasma Charge",
+            "html": true
+          }
+        ],
+        "addDamage": {
+          "dieCount": 2,
+          "dieType": 10,
+          "type": "radiant"
+        }
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
     "html": "<p>The weapon loses the Burst Fire and Double Tap property. Its damage type becomes radiant.\nHit or miss, each creature within <me-distance length=\"5\" /> of the target takes 2d10 radiant damage.\nUse a bonus action to charge the weapon before firing, consuming 2 heat. If charged, increase the hit or miss radiant\ndamage to 4d10.</p>\n",
     "id": "plasma-charge-system"
   },
@@ -2043,7 +2700,18 @@
     ],
     "name": "Poisoned Alloys",
     "flavor": "For millenia, beings have been dipping their blades in poison, allowing the simplest wound to cripple their enemy. With advancements in metalwork and weaponsmithing, now the blade can be infused with poison.",
-    "html": "<p>Requires a melee weapon that deals slashing or puncture damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.</p>\n",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "DC 13 CON or poisoned"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Requires a melee weapon that deals slashing or piercing damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.</p>\n",
     "id": "poisoned-alloys"
   },
   {
@@ -2061,6 +2729,7 @@
     ],
     "name": "Power Magnifier",
     "flavor": "Generator designed to enhance the effectiveness of tech or biotic attacks.",
+    "mechanics": [],
     "html": "<p>+1 on power damage rolls while holding this weapon.</p>\n",
     "id": "power-magnifier"
   },
@@ -2081,6 +2750,14 @@
     ],
     "name": "Precision Scope",
     "flavor": "Simple 4x optical scope to enhance stability while zoomed.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "hitBonus": 1,
+        "shortRangeMultiplier": 2,
+        "longRangeMultiplier": 2
+      }
+    ],
     "html": "<p>Double the weapon's normal and long range. +1 on ranged attack rolls made with this weapon.</p>\n",
     "id": "precision-scope"
   },
@@ -2098,6 +2775,20 @@
     ],
     "name": "Probability Modulator",
     "flavor": "An advanced VI embedded in the strike of the weapon that reads kinetic vibrations and learns to increase the probability of vicious blows.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "models": [
+            "weapon"
+          ]
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "crit": 19
+      }
+    ],
     "html": "<p>Attacks made with this weapon score a critical hit on a roll of 19 or 20.</p>\n",
     "id": "probability-modulator"
   },
@@ -2117,6 +2808,35 @@
     ],
     "name": "QR Jetpack",
     "flavor": "A better model of the standard jetpack that has a larger battery reserve, allowing for more uses before recharging.",
+    "mechanics": [
+      {
+        "name": "QR Jetpack (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "qr-jetpack"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Gain a flying speed of <me-distance length=\"15\" /> for 1 minute.",
+        "resource": {
+          "id": "qr-jetpack-resource",
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 3
+          }
+        },
+        "toggle": {
+          "id": "qr-jetpack-toggle",
+          "whenOn": [
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 15
+            }
+          ]
+        }
+      }
+    ],
     "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 1 minute. You\nmay use this 3 times per short rest.</p>\n",
     "id": "qr-jetpack"
   },
@@ -2137,6 +2857,17 @@
     ],
     "name": "Quick Release Magazine",
     "flavor": "State of the art thermal clip housing allows for faster ejection and insertion.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "BA: reload"
+          }
+        ]
+      }
+    ],
     "html": "<p>You may reload this weapon as a bonus action.</p>\n",
     "id": "quick-release-magazine"
   },
@@ -2156,6 +2887,17 @@
     ],
     "name": "Reactive Kinetic Compensator",
     "flavor": "A vi-response program that generates a burst of hard light between the layers of the user's armor to reduce trauma from otherwise-lethal hits.",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Null Critical",
+        "moreInfo": {
+          "model": "mod",
+          "id": "reactive-kinetic-compensator"
+        }
+      }
+    ],
     "html": "<p>Any critical hit against you becomes a normal hit.</p>\n",
     "id": "reactive-kinetic-compensator"
   },
@@ -2177,6 +2919,7 @@
     ],
     "name": "Rebalanced Field Coils",
     "flavor": "A specialized thermal clip that expunges kinetic energy into projectiles after a number of shots.",
+    "mechanics": [],
     "html": "<p>+1 on damage rolls made with this weapon if its current heat is less than half its maximum heat</p>\n",
     "id": "rebalanced-field-coils"
   },
@@ -2196,6 +2939,21 @@
     ],
     "name": "Recharge Capacitor",
     "flavor": "Microwells store part of the energy directed at the armor and use it to jump start the kinetic barrier recharge cycle.",
+    "mechanics": [
+      {
+        "name": "Recharge Capacitor (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "recharge-capacitor"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "id": "recharge-capacitor"
+        },
+        "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points."
+      }
+    ],
     "html": "<p>Once per short rest, as a reaction to taking damage, you may jump-start your shield regen and immediately gain shield points equal to your regen amount.</p>\n",
     "id": "recharge-capacitor"
   },
@@ -2215,6 +2973,21 @@
     ],
     "name": "Revive AI",
     "flavor": "This AI monitors your vitals and attempts to stabilize you if become incapacitated.",
+    "mechanics": [
+      {
+        "name": "Revive AI (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "revive-ai"
+        },
+        "type": "other",
+        "shortDesc": "If you fall below 0 hit points you immediately become stabilized.",
+        "resource": {
+          "reset": "long",
+          "id": "revive-ai"
+        }
+      }
+    ],
     "html": "<p>Once per long rest, if you fall below 0 hit points you immediately become stabilized.</p>\n",
     "id": "revive-ai"
   },
@@ -2234,6 +3007,23 @@
     ],
     "name": "Savant Biotic Amp",
     "flavor": "One of the most powerful biotic amps on the market. Serrice Council amps are incredibly rare—and highly prized—items on the galactic market.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "models": [
+            "power"
+          ],
+          "modelTypes": [
+            "biotic"
+          ]
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
     "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a biotic power, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
     "id": "savant-biotic-amp"
   },
@@ -2255,6 +3045,35 @@
     ],
     "name": "Seeking Plasma System",
     "flavor": "Augment the weapons firing system to seeking plasma rounds.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "fire",
+        "notes": [
+          {
+            "type": "text",
+            "text": "Auto-hit"
+          }
+        ],
+        "heatConsumption": 2
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire"
+        ]
+      },
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "dieIncrease": -1
+      }
+    ],
     "html": "<p>The weapon loses the Burst Fire property. Its damage type becomes fire. Reduce any damage done by 1 die type (d4s become a d2). Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see the target.</p>\n",
     "id": "seeking-plasma-system"
   },
@@ -2274,6 +3093,15 @@
     ],
     "name": "Sentry System",
     "flavor": "A software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<p>Increase your shield points by 5.</p>\n",
     "id": "sentry-system"
   },
@@ -2293,6 +3121,15 @@
     ],
     "name": "Shield Battery",
     "flavor": "An increased shield battery for your kinetic barrier.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<p>Increase your shield points by 5.</p>\n",
     "id": "shield-battery"
   },
@@ -2312,6 +3149,15 @@
     ],
     "name": "Shield Capacity",
     "flavor": "Micro-harmonic oscillators to reduce stress on the kinetic barriers ensuring suit integrity when faced with incoming projectiles.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
     "html": "<p>Increase your shield points by 5.</p>\n",
     "id": "shield-capacity"
   },
@@ -2331,6 +3177,15 @@
     ],
     "name": "Shield Interface",
     "flavor": "Advanced VI systems monitor incoming enemy fire to redirect energy to vulnerable points, maximizing the effectiveness of a suit's kinetic barrier shields.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 15
+        }
+      }
+    ],
     "html": "<p>Increase your shield points by 15.</p>\n",
     "id": "shield-interface"
   },
@@ -2350,6 +3205,15 @@
     ],
     "name": "Shield Modulator",
     "flavor": "A series of ultra-efficient storage cells augment the existing power in the operation of the wearer's kinetic barrier.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 10
+        }
+      }
+    ],
     "html": "<p>Increase your shield points by 10.</p>\n",
     "id": "shield-modulator"
   },
@@ -2369,6 +3233,12 @@
     ],
     "name": "Shock absorbers",
     "flavor": "Made for explosive mining on asteroids, these shock absorbers distribute energy from powerful blasts, reducing damage to the wearer.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "thunder"
+      }
+    ],
     "html": "<p>Resistance to thunder.</p>\n",
     "id": "shock-absorbers"
   },
@@ -2387,6 +3257,32 @@
     ],
     "name": "Shotgun Choke",
     "flavor": "This barrel extension tightens the spread of the shotgun's pellets increasing its effective firing distance and damage, but decreasing its close-quarters capabilities.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "hip-fire"
+        ]
+      },
+      {
+        "type": "weapon-augment",
+        "shortRangeMultiplier": 2,
+        "longRangeMultiplier": 2
+      }
+    ],
     "html": "<p>The weapon loses the Hip Fire property. Double the weapon's normal and long range. +1 to weapon damage rolls made with this weapon.</p>\n",
     "id": "shotgun-choke"
   },
@@ -2405,6 +3301,20 @@
     ],
     "name": "Shredder Ammo",
     "flavor": "Shoot pellets covered in Tungsten for increased damage.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "slashing",
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignores slashing resistance"
+          }
+        ],
+        "toggle": true,
+        "name": "Shredder Ammo"
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes slashing. Damage done by this weapon cannot be reduced by slashing damage resistance.</p>\n",
     "id": "shredder-ammo"
   },
@@ -2426,7 +3336,31 @@
     ],
     "name": "Single Fire System",
     "flavor": "Augment the weapons firing system to single fire.",
-    "html": "<p>The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +2 bonus to damage.</p>\n",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit",
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        },
+        "dieIncrease": 1
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +1 bonus to damage.</p>\n",
     "id": "single-fire-system"
   },
   {
@@ -2446,6 +3380,21 @@
     ],
     "name": "Stability Damper I",
     "flavor": "Distributes recoil with a sliding system of counterweights compatible with kinetic coil generators, reducing weapon kickback.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<p>+1 on ranged attack rolls made with this weapon.</p>\n",
     "id": "stability-damper-i"
   },
@@ -2466,6 +3415,21 @@
     ],
     "name": "Stability Damper II",
     "flavor": "Distributes recoil with a sliding system of counterweights compatible with kinetic coil generators, reducing weapon kickback.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
     "html": "<p>+2 on ranged attack rolls made with this weapon.</p>\n",
     "id": "stability-damper-ii"
   },
@@ -2486,6 +3450,21 @@
     ],
     "name": "Stability Damper III",
     "flavor": "Distributes recoil with a sliding system of counterweights compatible with kinetic coil generators, reducing weapon kickback.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        }
+      }
+    ],
     "html": "<p>+3 on ranged attack rolls made with this weapon.</p>\n",
     "id": "stability-damper-iii"
   },
@@ -2507,6 +3486,30 @@
     ],
     "name": "Sticky Grenade Launcher",
     "flavor": "Augment the weapons firing system to a sticky grenade launcher.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "thunder",
+        "addDamage": {
+          "dieCount": 3,
+          "dieType": 6,
+          "type": "thunder"
+        },
+        "notes": [
+          {
+            "type": "tooltip",
+            "text": "Miss: explosion",
+            "tooltipText": "On a miss, the grenade lands 4 meters beyond the target. At the end of your turn, each creature within 2 meters of the grenade must succeed on a DC 10 Dexterity saving throw or take 3d6 thunder damage."
+          }
+        ]
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire"
+        ]
+      }
+    ],
     "html": "<p>The weapon loses the Burst Fire property. Its damage type becomes thunder. On a hit, the target takes an\nadditional 3d6 thunder damage and becomes prone. On a miss, the grenade lands <me-distance length=\"10\" /> beyond the\ntarget. At the end of your turn, each creature within <me-distance length=\"5\" /> of the grenade must succeed on a\nDC 10 Dexterity saving throw or take 3d6 thunder damage.</p>\n",
     "id": "sticky-grenade-launcher"
   },
@@ -2526,6 +3529,18 @@
     ],
     "name": "Stimulator Conduits",
     "flavor": "Incorporates a series of beryllium and tungsten braces and micro-servos to support and enhance the natural movements of the wearer for short periods of time.",
+    "mechanics": [
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 15
+        }
+      }
+    ],
     "html": "<p>Increase your walking speed by <me-distance length=\"15\" />.</p>\n",
     "id": "stimulator-conduits"
   },
@@ -2544,7 +3559,32 @@
     ],
     "name": "Stunner",
     "flavor": "Small attachment to muzzle, causing shock damage to meleed targets.",
-    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 bludgeoning + 1d4 piercing damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.</p>\n",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Stunner",
+          "noMod": false,
+          "type": "natural-melee",
+          "damage": {
+            "dieCount": 1,
+            "dieType": 6,
+            "type": "lightning"
+          },
+          "range": 5,
+          "properties": [],
+          "notes": [
+            "Hit: auto-fails CON save to maintain powers"
+          ],
+          "moreInfo": {
+            "model": "mods",
+            "id": "stunner"
+          }
+        }
+      }
+    ],
+    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 lightning damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.</p>\n",
     "id": "stunner"
   },
   {
@@ -2563,6 +3603,17 @@
     ],
     "name": "Tactical Holsters",
     "flavor": "Magnetic clips that use VI sensors to lock and unlock holstered weapons into position, greatly increasing the time needed to exchange weapons in combat.",
+    "mechanics": [
+      {
+        "name": "Tactical Holsters (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "tactical-holsters"
+        },
+        "type": "other",
+        "shortDesc": "You can holster one weapon then draw another weapon as a free action."
+      }
+    ],
     "html": "<p>You can holster one weapon then draw another weapon as a free action.</p>\n",
     "id": "tactical-holsters"
   },
@@ -2582,6 +3633,12 @@
     ],
     "name": "Teflon Coating",
     "flavor": "A spray of Teflon that reflects multiple types of radiation.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "radiant"
+      }
+    ],
     "html": "<p>Resistance to radiant damage.</p>\n",
     "id": "teflon-coating"
   },
@@ -2601,6 +3658,12 @@
     ],
     "name": "Thermal Armor",
     "flavor": "Heat regulators keep your armor warm in the coldest environments.",
+    "mechanics": [
+      {
+        "type": "condition-immunity",
+        "value": "frozen"
+      }
+    ],
     "html": "<p>You are immune to being frozen.</p>\n",
     "id": "thermal-armor"
   },
@@ -2619,6 +3682,17 @@
     ],
     "name": "Thermal Scope",
     "flavor": "Detects creatures using thermal signatures.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "Infrared Vision"
+          }
+        ]
+      }
+    ],
     "html": "<p>Looking through the scope gives the wielder Infrared Vision. When making a ranged weapon attack, you may choose whether or not to use Infrared Vision.</p>\n",
     "id": "thermal-scope"
   },
@@ -2639,6 +3713,25 @@
     ],
     "name": "Toxic Resistance",
     "flavor": "Specially-sealed body armor and biotoxin blood filters provide increased protection against radiation, gases, and a host of other toxins.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "acid"
+      },
+      {
+        "type": "poison",
+        "value": "acid"
+      },
+      {
+        "type": "saving-throw",
+        "against": [
+          "poisoned"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
     "html": "<p>Resistance to acid and poison damage. You have advantage on Constitution saving throws that would cause you to be poisoned.</p>\n",
     "id": "toxic-resistance"
   },
@@ -2660,6 +3753,17 @@
     ],
     "name": "Ultralight Materials II",
     "flavor": "Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "two-handed"
+        ],
+        "add": [
+          "light"
+        ]
+      }
+    ],
     "html": "<p>Reduces the weapon's weight by one half. If the weapon has the Heavy property, remove it. If the weapon does not have the heavy property it gains the Light property. If the weapon has the two-handed property, remove it.</p>\n",
     "id": "ultralight-materials-ii"
   },
@@ -2681,6 +3785,14 @@
     ],
     "name": "Ultralight Materials",
     "flavor": "Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "light"
+        ]
+      }
+    ],
     "html": "<p>Reduces the weapon's weight by one half. If the weapon has the Heavy property, remove it. If the weapon does not have the heavy property it gains the Light property.</p>\n",
     "id": "ultralight-materials"
   },
@@ -2700,6 +3812,23 @@
     ],
     "name": "Umbra AI",
     "flavor": "By detecting the focal point of the wearer's eyes and enhancing the image at that location, the visor helps direct a biotic power or a shot from an omni-tool exactly where the wearer is looking.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "models": [
+            "power"
+          ],
+          "modelTypes": [
+            "tech"
+          ]
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
     "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a tech power, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
     "id": "umbra-ai"
   },
@@ -2721,7 +3850,15 @@
     ],
     "name": "Vintage Heat Sink",
     "flavor": "Augment the weapons heat displacement with a vintage recharge module.",
-    "html": "<p>This weapons heat becomes a die, based on its current heat. 1-4: d4, 5-6: d6, 7-8: d8, 9-10: d10, 11+: d12. Whenever you make a ranged attack with the weapon, spin down the die 1 face. If you make a Burst Fire attack, spin down the die 2 faces instead. Every round that you don't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "vented"
+        ]
+      }
+    ],
+    "html": "<p>This weapons gains the vented property.</p>\n",
     "id": "vintage-heat-sink"
   },
   {
@@ -2740,6 +3877,30 @@
     ],
     "name": "Voice Modulator",
     "flavor": "Includes an advanced audio processing package that allows unprecedented clarity and resonance for spoken communication.",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "persuasion",
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "flat",
+            "value": 2
+          }
+        }
+      },
+      {
+        "type": "skill-check",
+        "value": "intimidation",
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "flat",
+            "value": 2
+          }
+        }
+      }
+    ],
     "html": "<p>+2 to Persuasion and Intimidation checks</p>\n",
     "id": "voice-modulator"
   },
@@ -2763,6 +3924,21 @@
     ],
     "name": "Warp Ammo",
     "flavor": "Fire tiny dark matter charges.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "necrotic",
+        "detonates": true,
+        "notes": [
+          {
+            "type": "text",
+            "text": "Hit: -2 barrier ticks, cannot be reduced by barrier"
+          }
+        ],
+        "toggle": true,
+        "name": "Warp Ammo"
+      }
+    ],
     "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes necrotic damage. Successful ranged attacks detonate primed targets and a target with an active barrier will have 2 barrier ticks removed and cannot benefit from the barriers damage reduction for this attack.</p>\n",
     "id": "warp-ammo"
   },
@@ -2782,6 +3958,16 @@
     ],
     "name": "Zoom Enhance",
     "flavor": "Fine-tuned lenses that fit over your armor's optics, enhancing your ability to see minute details.",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "investigation",
+        "effect": {
+          "type": "advantage",
+          "note": "rely on sight while searching and area or studying an object"
+        }
+      }
+    ],
     "html": "<p>You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying\nan object within a range of <me-distance length=\"5\" />.</p>\n",
     "id": "zoom-enhance"
   }

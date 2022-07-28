@@ -368,30 +368,30 @@ mechanics:
     value: int
   - type: weapon-slots
     value: int
-# weapon heat
+# weapon heat (weapon mod only)
   - type: weapon-heat-increase
     multiplier: float
     value: int
 # attack and damage bonuses
   - type: attack-augment
     attackLimit: @attackLimit
-    augmentTypes: [enum damage, dc, hit, range]
+    augmentTypes: [enum damage, dc, hit, range, notes]
     bonus: @bonus
     abilityMod: boolean #damageOnly
     dieIncrease: int #damageOnly
     rerollIfLessThan: int #damageOnly
     crit: int # hit only
     addCritDie: int # damage only
+    notes: [@note]
 # Minimum hit die roll
   - type: min-hit-die-roll
     bonus: @bonus
-# remove weapon prop
+# weapon props (weapon mod only)
   - type: adjust-weapon-props
     add: [enum weapon properties]
     remove: [enum weapon properties]
-# ammo powers
-  - type: toggle-weapon-augment
-    name: string
+# ammo powers (weapon mod only)
+  - type: weapon-augment
     hitBonus: int
     damageType: string
     primes: string
@@ -400,6 +400,19 @@ mechanics:
     addDamage: @damage
     notes: [@note]
     heatConsumption: string
+    damageMultiplier: boolean
+    onlyShortRange: boolean
+    dc: @dc (removes weapon attack)
+    toggle: boolean # is toggleable or not
+    name: string #required if toggle
+    shortRangeMax: int
+    longRangeMax: int
+    shortRangeMultiplier: int
+    longRangeMultiplier: int
+# weapon range maximum (weapon mod only)
+  - type: weapon-range-maximum
+    shortRange: int
+    longRange: int
 
 # NOT IMPLEMENTED
 - type: dual-wielder # +1 ac if 2 melee equipped, twf with non-light
@@ -412,7 +425,9 @@ mechanics:
 - type: imprinted-enemies # can be model choice
 - type: advanced-medigel-application #d6 for medigel
 - type: ignore-armor-proficiency # see hyper guardian chestplate, n7 armor, requires additional mechanics on character sheet to impose disadvantage
-- type: exhaustion-increase # could be exhaustion or indoctrination, see initiative helmet
+- type: gradient-condition-increase # could be exhaustion or indoctrination, see initiative helmet/life support webbing
+  condition: enum [exhaustion, indoctrination]
+  value: int
 
 # IDEAS
 - type: companion

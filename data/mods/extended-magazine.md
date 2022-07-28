@@ -12,4 +12,10 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
+name: Extended Magazine
+flavor: Increases magazine capacity, allowing more shots before reload.
+mechanics:
+  - type: weapon-heat-increase
+    multiplier: 1
 ---
+The weapon gains additional heat equal to its base heat.
