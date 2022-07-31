@@ -615,17 +615,7 @@
         "id": "reactive",
         "name": "Reactive",
         "text": "When you are hit by a ranged attack while the this power is active, you may use your reaction to deal the cold damage to a creature within <me-distance length=\"5\" /> of you.",
-        "mechanics": [
-          {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "reaction",
-                "reaction": "when you are hit by a ranged attack"
-              }
-            ]
-          }
-        ]
+        "mechanics": []
       },
       {
         "id": "cold-aura",
@@ -730,11 +720,6 @@
               {
                 "length": 1,
                 "unit": "action"
-              },
-              {
-                "length": 1,
-                "unit": "reaction",
-                "reaction": "After using remote deploy, when a creature enters this power's cone"
               }
             ]
           }
@@ -886,17 +871,7 @@
         "id": "retribution",
         "name": "Retribution",
         "text": "As a reaction to taking damage, you may expend all of your remaining biotic orbs. For each expended orb, make a ranged power attack on a target you can see within range. You can direct all attacks to hit one creature or several.",
-        "mechanics": [
-          {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "reaction",
-                "reaction": "when you suffer damage"
-              }
-            ]
-          }
-        ]
+        "mechanics": []
       }
     ],
     "html": "<p>Summon 3 biotic orbs that float around you, fueling your biotic energies. As an action, you may expend an orb and make a\nranged power attack on a creature within <me-distance length=\"90\" />. On a hit, deal 2d10 force damage.</p>\n<p>As an action, you may expend 3 orbs to cast a power using your highest available power slot. Casting a power in this way\ndoes not consume the power slot.</p>\n<p><strong>At Higher Levels</strong>: When you cast this power using a power slot of 3rd level or higher, the number of orbs increases by\n2 for each slot level above the 2nd.</p>\n",
@@ -1220,13 +1195,6 @@
         "text": "If a creature comes within <me-distance length=\"5\" /> of the wall, you can use your reaction to make a pocket of negatively charged space near the creature's location. It must pass a Strength saving throw or become lifted until the end of your next turn.",
         "mechanics": [
           {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "reaction",
-                "reaction": "which you use when a creature comes within <me-distance length=\"5\" /> of the wall."
-              }
-            ],
             "dc": {
               "save": "str"
             }
@@ -1237,16 +1205,7 @@
         "id": "shifting-wall",
         "name": "Shifting Wall",
         "text": "As a bonus action, you can either move the wall up to <me-distance length=\"15\" /> in any direction, rotate the wall up to 180 degrees, or reshape the wall within the parameters listed above.",
-        "mechanics": [
-          {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "bonus_action"
-              }
-            ]
-          }
-        ]
+        "mechanics": []
       }
     ],
     "html": "<p>With an immense positive charge, create an invisible mass effect field that acts as a wall at a point you choose within\nrange. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free\nfloating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to <me-distance length=\"10\" />,\nor you can shape a flat surface made up of ten <me-distance length=\"10\" adj/>-by-<me-distance length=\"10\" adj/>- panels.\nEach panel must be contiguous with another panel. In any form, the wall is <me-distance length=\"1\" tiny /> thick.\nIt lasts for the duration. If the wall cuts through a creature's space when it appears, the\ncreature is pushed to one side of the wall (your choice which side).</p>\n<p>Nothing can physically pass through the wall. It is immune to all damage.</p>\n",
@@ -2061,17 +2020,7 @@
         "id": "cripple",
         "name": "Cripple",
         "text": "If the affected creature would make a saving throw or attack roll, as a reaction you may increase the severity of Dark Channel. The affected creature must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
-        "mechanics": [
-          {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "reaction",
-                "reaction": "which you take when your dark channel target makes a saving throw or attack roll"
-              }
-            ]
-          }
-        ]
+        "mechanics": []
       },
       {
         "id": "improved-damage",
@@ -3871,14 +3820,6 @@
         "text": "As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage and is no longer affected by the swarm.",
         "mechanics": [
           {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "bonus_action"
-              }
-            ]
-          },
-          {
             "damage": [
               {},
               {
@@ -4896,12 +4837,6 @@
           "length": 1,
           "unit": "action"
         },
-        "altCasting": [
-          {
-            "length": 1,
-            "unit": "bonus_action"
-          }
-        ],
         "attack": {
           "type": "ranged",
           "wp": "power",
@@ -6282,12 +6217,6 @@
         "text": "If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.",
         "mechanics": [
           {
-            "altCasting": [
-              {
-                "length": 1,
-                "unit": "bonus_action"
-              }
-            ],
             "damage": [
               {
                 "dieCount": 2,

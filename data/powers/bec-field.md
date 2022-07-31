@@ -61,11 +61,7 @@ advancements:
     name: Reactive
     text: >-
       When you are hit by a ranged attack while the this power is active, you may use your reaction to deal the cold damage to a creature within <me-distance length="5" /> of you.
-    mechanics:
-      - altCasting:
-          - length: 1
-            unit: reaction
-            reaction: 'when you are hit by a ranged attack'
+    mechanics: []
   - id: cold-aura
     name: Cold Aura
     text: >-

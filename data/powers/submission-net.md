@@ -50,10 +50,7 @@ advancements:
     name: Electrified Net
     text: If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.
     mechanics:
-      - altCasting:
-          - length: 1
-            unit: bonus_action
-        damage:
+      - damage:
           - dieCount: 2
             dieType: 6
             type: lightning

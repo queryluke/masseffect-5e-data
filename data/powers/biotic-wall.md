@@ -29,19 +29,12 @@ advancements:
     name: Lifting Wall
     text: If a creature comes within <me-distance length="5" /> of the wall, you can use your reaction to make a pocket of negatively charged space near the creature's location. It must pass a Strength saving throw or become lifted until the end of your next turn.
     mechanics:
-      - altCasting:
-          - length: 1
-            unit: reaction
-            reaction: which you use when a creature comes within <me-distance length="5" /> of the wall.
-        dc:
+      - dc:
           save: str
   - id: shifting-wall
     name: Shifting Wall
     text: As a bonus action, you can either move the wall up to <me-distance length="15" /> in any direction, rotate the wall up to 180 degrees, or reshape the wall within the parameters listed above.
-    mechanics:
-      - altCasting:
-        - length: 1
-          unit: bonus_action
+    mechanics: []
 ---
 With an immense positive charge, create an invisible mass effect field that acts as a wall at a point you choose within
 range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free
