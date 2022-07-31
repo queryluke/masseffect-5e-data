@@ -2537,15 +2537,6 @@
           "id": "omni-shield",
           "whenOn": [
             {
-              "type": "resource",
-              "id": "omni-shield",
-              "method": "add",
-              "value": {
-                "type": "flat",
-                "value": 1
-              }
-            },
-            {
               "type": "ac",
               "bonus": {
                 "type": "flat",
@@ -2570,13 +2561,21 @@
               "attack": {
                 "type": "melee",
                 "proficient": true,
-                "mod": "str"
+                "mod": false,
+                "bonus": {
+                  "type": "powercastingMod",
+                  "value": "sentinel"
+                }
               },
               "damage": [
                 {
                   "dieCount": 1,
                   "dieType": 12,
-                  "type": "bludgeoning"
+                  "type": "bludgeoning",
+                  "bonus": {
+                    "type": "powercastingMod",
+                    "value": "sentinel"
+                  }
                 }
               ],
               "notes": [
@@ -2588,19 +2587,11 @@
               }
             }
           ]
-        },
-        "resource": {
-          "reset": "short",
-          "max": {
-            "type": "flat",
-            "value": 1
-          },
-          "id": "omni-shield"
         }
       }
     ],
     "name": "Omni-Shield",
-    "html": "<p>Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.</p>\n<p>While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a\nhit creature backward <me-distance length=\"5\" />.</li>\n</ul>\n<br>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n",
+    "html": "<p>Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool. You can end Omni-shield at any point as a free action.</p>\n<p>While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 1d12 bludgeoning damage and you may shove the creature <me-distance length=\"5\" />.</li>\n</ul>\n",
     "id": "omni-shield-1"
   },
   {
@@ -2624,7 +2615,6 @@
             "whenOn": [
               {},
               {},
-              {},
               {
                 "type": false
               }
@@ -2643,13 +2633,21 @@
                     "attack": {
                       "type": "melee",
                       "proficient": true,
-                      "mod": "str"
+                      "mod": false,
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
+                      }
                     },
                     "damage": [
                       {
                         "dieCount": 1,
                         "dieType": 12,
-                        "type": "bludgeoning"
+                        "type": "bludgeoning",
+                        "bonus": {
+                          "type": "powercastingMod",
+                          "value": "sentinel"
+                        }
                       }
                     ],
                     "notes": [
@@ -2675,17 +2673,25 @@
                     "attack": {
                       "type": "melee",
                       "proficient": true,
-                      "mod": "str"
+                      "mod": false,
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
+                      }
                     },
                     "damage": [
                       {
-                        "dieCount": 1,
-                        "dieType": 12,
-                        "type": "bludgeoning"
+                        "dieCount": 4,
+                        "dieType": 10,
+                        "type": "fire",
+                        "bonus": {
+                          "type": "powercastingMod",
+                          "value": "sentinel"
+                        }
                       }
                     ],
                     "notes": [
-                      "Hit: 3d10 fire damage, detonate primed conditions, and shove creature <me-distance length=\"5\" />."
+                      "Hit: detonates"
                     ],
                     "moreInfo": {
                       "model": "class-features",
@@ -2711,17 +2717,32 @@
                     "attack": {
                       "type": "melee",
                       "proficient": true,
-                      "mod": "str"
+                      "mod": false,
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
+                      }
+                    },
+                    "dc": {
+                      "save": "str",
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
+                      }
                     },
                     "damage": [
                       {
-                        "dieCount": 1,
-                        "dieType": 12,
-                        "type": "bludgeoning"
+                        "dieCount": 2,
+                        "dieType": 8,
+                        "type": "cold",
+                        "bonus": {
+                          "type": "powercastingMod",
+                          "value": "sentinel"
+                        }
                       }
                     ],
                     "notes": [
-                      "Hit: 1d8 cold damage, shove creature <me-distance length=\"5\" />, and DC 13 STR save or frozen."
+                      "Hit: DC {{ dc }} STR save or frozen."
                     ],
                     "moreInfo": {
                       "model": "class-features",
@@ -2739,7 +2760,7 @@
         }
       }
     ],
-    "html": "<p>Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.</p>\n<p><strong>Fire Shield</strong>. Gain all the benefits of Omni-Shield. In addition, a target hit by a Fire Shield attack takes 3d10 fire damage.\nThis damage detonates primed targets, but you are immune to any detonating effects.</p>\n<p><strong>Cryo Shield</strong>. Gain all the benefits of Omni-Shield. In addition, a target hit by a Cryo Shield attack takes 1d8 cold\ndamage and must succeed on a DC 13 Strength saving throw or become <me-condition id=\"frozen\"/> until the end its next turn.</p>\n",
+    "html": "<p>Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.</p>\n<p><strong>Fire Shield</strong>.</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 4d10 fire damage and detonates primed targets.</li>\n</ul>\n<p><strong>Cryo Shield</strong>.</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become <me-condition id=\"frozen\"/> until the end its next turn.</li>\n</ul>\n",
     "id": "omni-shield-2"
   },
   {
@@ -4858,7 +4879,7 @@
         }
       }
     ],
-    "html": "<p>In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.\nAt 7th level, when you activate\ntech armor, you can choose to run a different VI package instead. When you activate an alternate package, you\ndo not gain hit points, instead, you and any friendly creature within <me-distance length=\"30\" /> of you gain\nthe effect of the package for 1 hour. You may only have one tech armor active at once.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Package</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Defensive</td>\n<td>This is the standard Tech Armor package. It does not affect allies.</td>\n</tr>\n<tr>\n<td>Anti-biotic</td>\n<td>Resistance to force and necrotic damage.</td>\n</tr>\n<tr>\n<td>Anti-tech</td>\n<td>Resistance to fire and cold damage.</td>\n</tr>\n<tr>\n<td>Grounded</td>\n<td>Resistance to lightning damage.</td>\n</tr>\n<tr>\n<td>Reactive</td>\n<td>Add your powercasting modifier to Strength or Dexterity saving throws.</td>\n</tr>\n<tr>\n<td>Speed</td>\n<td>Increase speed by <me-distance length=\"15\" />. Can take the Disengage action as a bonus action.</td>\n</tr>\n<tr>\n<td>Regen</td>\n<td>Regenerate shield points equal to your powercasting modifier on the start of each of your turns.</td>\n</tr>\n<tr>\n<td>Inspiring Music</td>\n<td>Advantage on saving throws against becoming frightened or charmed.</td>\n</tr>\n<tr>\n<td>Brute force</td>\n<td>Creatures within your aura deal an additional 1d8 bludgeoning damage with melee attacks.</td>\n</tr>\n<tr>\n<td>Negation Field</td>\n<td>Creatures within your aura can't be primed.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "html": "<p>In addition to the standard defensive VI, you've augmented your Tech Armor to run different VI packages.</p>\n<p>At 7th level, when you activate tech armor, you can choose to run a different VI package instead. When you activate an\nalternate package, you do not gain hit points. Instead, you and any friendly creature within <me-distance length=\"30\" /> of you gain\nthe effect of the package for 1 hour. You may only have one tech armor active at once.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Package</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Defensive</td>\n<td>This is the standard Tech Armor package. It does not affect friendly creatures within <me-distance length=\"30\" />.</td>\n</tr>\n<tr>\n<td>Anti-biotic</td>\n<td>Resistance to force and necrotic damage.</td>\n</tr>\n<tr>\n<td>Anti-tech</td>\n<td>Resistance to fire and cold damage.</td>\n</tr>\n<tr>\n<td>Grounded</td>\n<td>Resistance to lightning damage.</td>\n</tr>\n<tr>\n<td>Reactive</td>\n<td>Add your powercasting modifier to Strength or Dexterity saving throws.</td>\n</tr>\n<tr>\n<td>Speed</td>\n<td>Increase speed by <me-distance length=\"15\" />. Can take the Disengage action as a bonus action.</td>\n</tr>\n<tr>\n<td>Regen</td>\n<td>Regenerate shield points equal to your powercasting modifier on the start of each of your turns.</td>\n</tr>\n<tr>\n<td>Inspiring Music</td>\n<td>Advantage on saving throws against becoming frightened or charmed.</td>\n</tr>\n<tr>\n<td>Brute force</td>\n<td>Friendly creatures within your aura deal an additional 1d8 bludgeoning damage with melee attacks.</td>\n</tr>\n<tr>\n<td>Negation Field</td>\n<td>Friendly creatures within your aura can't be primed.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "tech-aura-1"
   },
   {

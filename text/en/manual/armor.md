@@ -103,7 +103,7 @@ that your character wear a helmet to gain this benefit, or they may use the __bu
 can cast an energy "bubble" around your characters head to keep air in and the environment out.
 
 ### Getting Into and Out of Armor
-The time it takes to don or doff armor depends on the armor's category.
+The time it takes to don or doff armor depends on the armor you are wearing.
 
 __Don__. This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.
 
@@ -114,5 +114,11 @@ Category | Don | Doff
 Light Armor | 1 minute | 1 minute
 Medium Armor | 5 minutes | 1 minute
 Heavy Armor | 10 minutes | 5 minutes
+
+If you are wearing multiple categories of armor (light legs, heavy chest, etc), the time is takes to Don/Doff is based on the
+average time for all the pieces you are wearing. For example, if you are wearing no helmet, light arms, medium legs, and heavy chest armor
+the total time would be:
+
+(0 minutes (head) + 1 minute (arms) + 5 minutes (legs) + 10 minutes (chest)) / 4 = 4 minutes
 
 <me-source-reference pages="62-63"></me-source-reference>

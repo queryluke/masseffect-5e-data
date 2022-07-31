@@ -8,12 +8,6 @@ mechanics:
     toggle:
       id: omni-shield
       whenOn:
-        - type: resource
-          id: omni-shield
-          method: add
-          value:
-            type: flat
-            value: 1
         - type: ac
           bonus:
             type: flat
@@ -32,34 +26,30 @@ mechanics:
           attack:
             type: melee
             proficient: true
-            mod: str
+            mod: false
+            bonus:
+              type: powercastingMod
+              value: sentinel
           damage:
             - dieCount: 1
               dieType: 12
               type: bludgeoning
+              bonus:
+                type: powercastingMod
+                value: sentinel
           notes:
             - 'Hit: shove creature <me-distance length="5" />'
           moreInfo:
             model: class-features
             id: omni-shield-1
-    resource:
-      reset: short
-      max:
-        type: flat
-        value: 1
-      id: omni-shield
 name: Omni-Shield
 ---
 Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out
-of your omni-tool that lasts one minute. You can end Omni-shield at any point as a free action.
+of your omni-tool. You can end Omni-shield at any point as a free action.
 
 While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:
 
 * +1 AC.
 * If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
-* As an attack action, you may make a melee attack roll. On a hit, deal 1d12 bludgeoning damage. You may shove a
-hit creature backward <me-distance length="5" />.
-
-<br>
-
-Once you use this feature, you must finish a short or long rest before you can use it again.
+* As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
+On a hit, it deals 1d12 bludgeoning damage and you may shove the creature <me-distance length="5" />.
