@@ -10,4 +10,18 @@ tags:
 andromeda: false
 set: false
 rarity: uncommon
+name: Elanus Goliath Gauntlets
+flavor: >-
+  Arm plating with micro servos that coordinate muscle movements when resistance
+  is encountered.
+mechanics:
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
+  - type: saving-throw
+    value: [str]
+    effect:
+      type: advantage
 ---
+- Advantage on Strength checks and saving throws.

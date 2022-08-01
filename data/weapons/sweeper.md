@@ -17,4 +17,5 @@ properties:
   - heavy
   - special
   - burst-fire
+  - vented
 ---

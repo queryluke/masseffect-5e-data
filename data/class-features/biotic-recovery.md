@@ -3,13 +3,16 @@ level: 1
 klass: adept
 name: Biotic Recovery
 mechanics:
-  - type: ps-recovery
-    max:
+  - type: power-resource-recovery
+    bonus:
       type: level
       value: adept
       multiplier: 0.5
       min: 1
       ceil: true
+    limit: slots
+    label: 'Biotic Recovery: Adept'
+    maxSlot: 3
 ---
 You have learned to regain some of your biotic energy by meditating and calming your mind. Once per day when you finish
 a short rest, you can choose expended power slots to recover. The power slots can have a combined level that is equal

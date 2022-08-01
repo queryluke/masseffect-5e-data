@@ -11,20 +11,18 @@ mechanics:
           bonus:
             type: flat
             value: 5
-        - type: power-augment
-          augment: attack
-          value:
+        - type: attack-augment
+          attackLimit:
+            model: power
+          augmentTypes: [hit, dc]
+          bonus:
             type: flat
             value: 1
-        - type: power-augment
-          augment: damage
-          value:
-            type: dieIncrease
-        - type: power-augment
-          augment: dc
-          value:
-            type: flat
-            value: 1
+        - type: attack-augment
+          attackLimit:
+            model: power
+          augmentTypes: [damage]
+          dieIncrease: 1
     resource: {}
     shortDesc: >-
       For 1 minute, your speed increases by <me-distance length="5" />, you gain +1 to power attack rolls,

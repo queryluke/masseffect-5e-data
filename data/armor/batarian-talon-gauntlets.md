@@ -11,4 +11,23 @@ tags:
 andromeda: false
 set: false
 rarity: uncommon
+name: Batarian Talon Gauntlets
+flavor: >-
+  A set of spiked, clawed gauntlets that give the appearance of their wearer
+  possessing demonic hands.
+mechanics:
+  - type: global-note
+    subType: action
+    attack: melee
+    value: +1 slashing dmg
+  - type: skill-check
+    value: intimidation
+    effect:
+      type: advantage
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
 ---
+- Add 1 point of Slashing damage to all melee damage rolls. Advantage on Intimidation skill
+checks.

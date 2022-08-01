@@ -17,18 +17,17 @@ mechanics:
         dieType: 8
         type: bludgeoning
   - type: attack-augment
-    augment: range
-    limits:
-      attack: melee
-    value:
+    attackLimit:
+      type: melee
+    augmentTypes: [damage]
+    rerollIfLessThan: 2
+  - type: attack-augment
+    attackLimit:
+      type: melee
+    augmentTypes: [range]
+    bonus:
       type: flat
       value: 5
-  - type: attack-augment
-    augment: notes
-    limits:
-      attack: melee
-    value:
-      - Reroll 1
 prerequisite: Elcor
 prereq:
   - type: species

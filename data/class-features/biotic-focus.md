@@ -16,11 +16,11 @@ mechanics:
             type: flat
             value: 30
         - type: attack-augment
-          augment: damage
-          limits:
-            attack: melee
-            model: weapons
-          value:
+          attackLimit:
+            type: melee
+            model: weapon
+          augmentTypes: [damage]
+          bonus:
             type: flat
             value: 4
         - type: saving-throw

@@ -15,7 +15,6 @@ mechanics:
         whenOn:
           - {}
           - {}
-          - {}
           - type: false
         options:
           - id: omni-shield
@@ -28,11 +27,17 @@ mechanics:
                 attack:
                   type: melee
                   proficient: true
-                  mod: str
+                  mod: false
+                  bonus:
+                    type: powercastingMod
+                    value: sentinel
                 damage:
                   - dieCount: 1
                     dieType: 12
                     type: bludgeoning
+                    bonus:
+                      type: powercastingMod
+                      value: sentinel
                 notes:
                   - 'Hit: shove creature <me-distance length="5" />.'
                 moreInfo:
@@ -48,13 +53,19 @@ mechanics:
                 attack:
                   type: melee
                   proficient: true
-                  mod: str
+                  mod: false
+                  bonus:
+                    type: powercastingMod
+                    value: sentinel
                 damage:
-                  - dieCount: 1
-                    dieType: 12
-                    type: bludgeoning
+                  - dieCount: 4
+                    dieType: 10
+                    type: fire
+                    bonus:
+                      type: powercastingMod
+                      value: sentinel
                 notes:
-                  - 'Hit: 3d10 fire damage, detonate primed conditions, and shove creature <me-distance length="5" />.'
+                  - 'Hit: detonates'
                 moreInfo:
                   model: class-features
                   id: omni-shield-1
@@ -71,13 +82,24 @@ mechanics:
                 attack:
                   type: melee
                   proficient: true
-                  mod: str
+                  mod: false
+                  bonus:
+                    type: powercastingMod
+                    value: sentinel
+                dc:
+                  save: str
+                  bonus:
+                    type: powercastingMod
+                    value: sentinel
                 damage:
-                  - dieCount: 1
-                    dieType: 12
-                    type: bludgeoning
+                  - dieCount: 2
+                    dieType: 8
+                    type: cold
+                    bonus:
+                      type: powercastingMod
+                      value: sentinel
                 notes:
-                  - 'Hit: 1d8 cold damage, shove creature <me-distance length="5" />, and DC 13 STR save or frozen.'
+                  - 'Hit: DC {{ dc }} STR save or frozen.'
                 moreInfo:
                   model: class-features
                   id: omni-shield-1
@@ -87,8 +109,14 @@ mechanics:
 ---
 Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.
 
-__Fire Shield__. Gain all the benefits of Omni-Shield. In addition, a target hit by a Fire Shield attack takes 3d10 fire damage.
-This damage detonates primed targets, but you are immune to any detonating effects.
+__Fire Shield__.
+* +1 AC.
+* If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
+* As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
+On a hit, it deals 4d10 fire damage and detonates primed targets.
 
-__Cryo Shield__. Gain all the benefits of Omni-Shield. In addition, a target hit by a Cryo Shield attack takes 1d8 cold
-damage and must succeed on a DC 13 Strength saving throw or become <me-condition id="frozen"/> until the end its next turn.
+__Cryo Shield__.
+* +1 AC.
+* If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
+* As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
+On a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become <me-condition id="frozen"/> until the end its next turn.

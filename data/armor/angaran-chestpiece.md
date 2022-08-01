@@ -12,4 +12,23 @@ tags:
 andromeda: true
 set: angaran
 rarity: rare
+name: Angaran Chestpiece
+flavor: >-
+  This armor integrates angaran hardware with Initiative software, resulting in
+  a sturdy hardsuit that utilizes technologies unique to the Heleus Cluster.
+  Various adjustments have been made to the design to accommodate non-angaran
+  biology.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 15
+    regen:
+      type: flat
+      value: 15
+  - type: thermal-clip-capacity
+    value: 6
+  - type: medi-gel-capacity
+    value: 2
 ---
+- 15 shields (regen 15)

@@ -19,6 +19,7 @@ mechanics:
         value: 1
     attack:
       type: ranged
+      wp: weapon
       proficient: true
       mod: dex
     dc: false

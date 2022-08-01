@@ -1,6 +1,6 @@
 {
   "name": "masseffect-5e-data",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Contains all data for the Mass Effect 5e TTRPG system",
   "scripts": {
     "build": "node build-data.js && node build-index.js",

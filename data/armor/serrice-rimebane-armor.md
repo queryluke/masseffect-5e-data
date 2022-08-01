@@ -11,4 +11,26 @@ tags:
 andromeda: false
 set: false
 rarity: rare
+name: Serrice Rimebane Armor
+flavor: >-
+  Chest plating with auxiliary power cells that defrost spots of crystalline ice
+  caused by cryo rounds on impact.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 5
+    regen:
+      type: flat
+      value: 5
+  - type: thermal-clip-capacity
+    value: 6
+  - type: medi-gel-capacity
+    value: 2
+  - type: resistance
+    value: cold
+  - type: condition-immunity
+    value: frozen
 ---
+- Resistance to cold damage.
+- Immunity from the frozen condition.

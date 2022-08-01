@@ -50,10 +50,7 @@ advancements:
     name: Electrified Net
     text: If you have a submission net deployed, you can use your bonus action to send electric currents through it. Each creature within the net takes 2d6 lightning damage.
     mechanics:
-      - altCasting:
-          - length: 1
-            unit: bonus_action
-        damage:
+      - damage:
           - dieCount: 2
             dieType: 6
             type: lightning
@@ -66,7 +63,8 @@ advancements:
             unit: reaction
             reaction: when a creature you see casts a tech power
 ---
-Shoot a swarm of miniature pylons to a target location within range. Each creature within a <me-distance length="10" adj /> cylinder of the target
+Shoot a swarm of miniature pylons to a target location within range. Each creature within a <me-distance length="10" adj />-radius,
+<me-distance length="10" adj />-high cylinder of the target
 location must make a Dexterity saving throw. Any creature that fails the saving throw is trapped in an electrified net,
 becoming <me-condition id="restrained"/> and cannot cast tech powers.
 
@@ -77,5 +75,5 @@ A creature restrained by submission net may use its action to make a Strength (A
 DC to escape the net. On each attempt, the creature takes 1d6 lightning damage as it struggles against the net. On a
 success, the creature is no longer restrained.
 
-__At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, increase the size of the
+__At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, increase the radius of the
 net by <me-distance length="5" /> for each power slot about the 2nd.

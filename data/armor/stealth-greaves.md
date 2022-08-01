@@ -10,4 +10,18 @@ tags:
 andromeda: false
 set: false
 rarity: uncommon
+name: Stealth Greaves
+flavor: Greaves that secrete a highly advanced lubricant in the joints.
+mechanics:
+  - type: thermal-clip-capacity
+    value: 2
+  - type: grenade-capacity
+    value: 2
+  - type: skill-check
+    value: [stealth]
+    effect:
+      type: advantage
+      note: 'when this check relies on moving silently'
 ---
+- While you wear these greaves, your steps make no sound, regardless of the surface you are moving
+across. You also have advantage on Stealth checks that rely on moving silently.

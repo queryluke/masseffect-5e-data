@@ -11,4 +11,30 @@ tags:
 andromeda: false
 set: false
 rarity: uncommon
+name: Predator Armor
+flavor: >-
+  Standard issue armor for Turian infantry. The interlocking plates provide
+  increased protection against potentially fatal wounds.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 5
+    regen:
+      type: flat
+      value: 5
+  - type: thermal-clip-capacity
+    value: 14
+  - type: medi-gel-capacity
+    value: 4
+  - type: grenade-capacity
+    value: 2
+  - type: global-note
+    subType: defenses
+    value: Null Critical
+    moreInfo:
+      model: armor
+      id: predator-armor
 ---
+- +4 thermal clip capacity.
+- Any critical hit against you becomes a normal hit

@@ -3,7 +3,7 @@ name: Self Destruct
 species: [hardware-loki]
 mechanics:
   - type: reaction
-    layout: statsRight
+    layout: stats-right
     range:
       short: 0
       aoe:

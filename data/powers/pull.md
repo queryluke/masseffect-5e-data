@@ -13,11 +13,9 @@ mechanics:
   - castingTime:
       length: 1
       unit: action
-    altCasting:
-      - length: 1
-        unit: bonus_action
     attack:
       type: ranged
+      wp: power
       proficient: true
     dc: false
     damage: false

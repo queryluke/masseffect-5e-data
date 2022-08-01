@@ -11,4 +11,13 @@ tags:
 andromeda: false
 set: partisan
 rarity: uncommon
+name: Partisan Helmet
+flavor: >-
+  Batarian State Arms developed a line of armor meant to protect Batarian
+  soldiers for alien diseases and infections.
+mechanics:
+  - type: sense
+    sense: [darkvision]
+    distance: 60
 ---
+- Darkvision <me-distance length='60' />.

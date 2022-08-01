@@ -18,6 +18,7 @@ mechanics:
         reaction: which you take when you are dealt damage
     attack:
       type: melee
+      wp: weapon
       proficient: true
       mod: str
     dc: false

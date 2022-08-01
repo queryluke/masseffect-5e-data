@@ -10,4 +10,12 @@ availability:
   - light
   - medium
   - heavy
+name: Shield Battery
+flavor: An increased shield battery for your kinetic barrier.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 5
 ---
+Increase your shield points by 5.

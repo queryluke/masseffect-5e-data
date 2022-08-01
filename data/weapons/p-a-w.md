@@ -15,4 +15,5 @@ andromeda: true
 properties:
   - two-handed
   - special
+  - vented
 ---

@@ -13,6 +13,7 @@ mechanics:
       unit: action
     attack:
       type: ranged
+      wp: power
       proficient: true
     dc: false
     damage:
@@ -32,11 +33,7 @@ advancements:
   - id: cripple
     name: Cripple
     text: If the affected creature would make a saving throw or attack roll, as a reaction you may increase the severity of Dark Channel. The affected creature must roll a d4 and subtract the number rolled from the attack roll or saving throw.
-    mechanics:
-      - altCasting:
-          - length: 1
-            unit: reaction
-            reaction: which you take when your dark channel target makes a saving throw or attack roll
+    mechanics: []
   - id: improved-damage
     name: Improved Damage
     text: Increase the damage die type to d10

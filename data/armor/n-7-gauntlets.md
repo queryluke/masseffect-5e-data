@@ -11,4 +11,15 @@ tags:
 andromeda: false
 set: n-7
 rarity: rare
+name: N7 Gauntlets
+flavor: >-
+  A combination of fabric armor with kinetic padding and plates of ablative
+  ceramic for protection.
+mechanics:
+  - type: thermal-clip-capacity
+    value: 2
+  - type: medi-gel-capacity
+    value: 2
 ---
+- You are considered proficient with this armor even if you lack proficiency with medium
+armor.

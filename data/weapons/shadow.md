@@ -16,4 +16,5 @@ properties:
   - two-handed
   - heavy
   - special
+  - vented
 ---

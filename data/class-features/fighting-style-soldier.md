@@ -11,7 +11,7 @@ At 1st level, choose a fighting style from the list below.
 
 __Ambidextrous.__ When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 
-__Assault.__ When you make a Burst Fire attack, the DC of the saving throw is 17.
+__Assault.__ When you make a Burst Fire attack, increase the DC by 2.
 
 __Brawler.__ Add your proficiency bonus to your melee attack damage rolls.
 

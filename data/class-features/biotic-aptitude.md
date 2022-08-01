@@ -3,11 +3,12 @@ level: 3
 klass: adept
 name: Biotic Aptitude
 mechanics:
-  - type: power-augment
-    augment: damage
-    limits:
-      type: biotic
-    value:
+  - type: attack-augment
+    attackLimit:
+      model: power
+      modelTypes: [biotic]
+    augmentTypes: [damage]
+    bonus:
       type: powercastingMod
       value: adept
 ---

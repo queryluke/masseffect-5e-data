@@ -13,4 +13,25 @@ tags:
 andromeda: false
 set: cerberus-nightmare
 rarity: spectre
+name: Cerberus Nightmare Chestpiece
+flavor: >-
+  Nightmare armor is worn by Cerberus Phantoms expecting long-range conflicts.
+  Powerful capacitors deliver punishing energy to the Phantom's weapons, and
+  circulating coolant in its gloves allows for more shots before a given thermal
+  clip overheats. The remaining energy focuses on shield strength and
+  regeneration time to help survivability.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 10
+    regen:
+      type: flat
+      value: 10
+  - type: thermal-clip-capacity
+    value: 10
+  - type: medi-gel-capacity
+    value: 2
 ---
+- 10 shields (regen 10).
+- +4 thermal clip capacity.

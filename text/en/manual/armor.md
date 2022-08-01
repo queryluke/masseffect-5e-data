@@ -17,8 +17,10 @@ __Armor Class (AC)__. Armor protects its wearer from attacks. The armor you wear
 __Shield Points__. All armor chest pieces provide some amount of shield points.
 See the [Combat > Shields](/manual/combat#shields) for more information.
 
-__Consumable Capacities__. All armor has slots and hidden compartments for mission-critical gear: 10 thermal clips, 4 medi-gel, and 2 grenades.
-The armor will indicate if it has an increase in any of these capacities. Armor mods can also increase these capacities.
+__Consumable Capacities__. Each armor type, except headwear has compartments for certain mission-critical gear. Chest armor
+has 6 thermal clip slots, and 2 medi-gel slots. Leg armor has 2 thermal clip slots and 2 grenade slots. Arm armor has 2 thermal clip slots and 2 medi-gel slots.
+Because body armor is a combination of chest, legs, and arms, it's resulting totals are 10 thermal clip, 4 medi-gel, and 2 grenade slots.
+An armor piece will indicate if it has an increase in any of these capacities.
 
 ### Mix & Match <v-chip color="info" small>new</v-chip>
 Unlike D&D 5th edition, armor in Mass Effect 5e can be mixed between armor placements on the body. There are 4 armor placements:
@@ -33,7 +35,7 @@ the Armor / AC table.
 | Chest | +1 AC | +2 AC | +3 AC |
 | Arms | No bonus | +1 AC | +2 AC |
 | Legs | No bonus | +1 AC | +2 AC |
-| Head | Unless otherwise listed, headware provides no bonus to AC. |||
+| Head | Unless otherwise listed, headwear provides no bonus to AC. |||
 
 Additionally, there are bonuses and limitations for the combination of armor types you are wearing,
 explained in the Armor Bonuses and Limitations table.
@@ -71,7 +73,7 @@ use the Armor Piece Weights table to determine the total weight of the armor you
 |Chest|3kg|6kg|10kg|
 |Arms|1kg|2kg|3kg|
 |Legs|1kg|2kg|3kg|
-|Head|All headware weighs 2kg|||
+|Head|All headwear weighs 2kg|||
 
 ### Set Bonuses
 Some armor can provide a set bonus, which are additional benefits you receive from wearing multiple pieces from the same set, signifying the armors
@@ -101,7 +103,7 @@ that your character wear a helmet to gain this benefit, or they may use the __bu
 can cast an energy "bubble" around your characters head to keep air in and the environment out.
 
 ### Getting Into and Out of Armor
-The time it takes to don or doff armor depends on the armor's category.
+The time it takes to don or doff armor depends on the armor you are wearing.
 
 __Don__. This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.
 
@@ -112,5 +114,11 @@ Category | Don | Doff
 Light Armor | 1 minute | 1 minute
 Medium Armor | 5 minutes | 1 minute
 Heavy Armor | 10 minutes | 5 minutes
+
+If you are wearing multiple categories of armor (light legs, heavy chest, etc), the time is takes to Don/Doff is based on the
+average time for all the pieces you are wearing. For example, if you are wearing no helmet, light arms, medium legs, and heavy chest armor
+the total time would be:
+
+(0 minutes (head) + 1 minute (arms) + 5 minutes (legs) + 10 minutes (chest)) / 4 = 4 minutes
 
 <me-source-reference pages="62-63"></me-source-reference>

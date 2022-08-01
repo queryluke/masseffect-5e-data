@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Attack",
+    "type": "action",
+    "html": "<p>The most common action to take in combat is the Attack action, whether you are swinging a\nomni-blade, firing an gun, or brawling with your fists.</p>\n<p>With this action, you make one melee or ranged attack or cast a power that has an Attack casting time.</p>\n<p>Certain features, such as the Extra Attack feature of the soldier, allow you to make more than\none attack with this action.</p>\n",
+    "id": "attack"
+  },
+  {
+    "name": "Dash",
+    "type": "action",
+    "html": "<p>When you take the Dash action, you gain extra movement for the current turn. The increase equals your\nspeed, after applying any modifiers.</p>\n<p>Any increase or decrease to your speed changes this additional movement by the same amount.</p>\n",
+    "id": "dash"
+  },
+  {
+    "name": "Disengage",
+    "type": "action",
+    "html": "<p>If you take the Disengage action, your movement doesn't provoke opportunity\nattacks for the rest of the turn.</p>\n<p><strong>Shield Regen</strong>. If you take the Disengage action and take no damage until the start of your next turn,\nyour shields begin to regenerate and you gain shield points equal to your armor's regen.\nYou continue to gain shield points equal to your regen stat at the start of each of your turns.\nIf you take damage or you reach your maximum shield point capacity, the regeneration ends.</p>\n",
+    "id": "disengage"
+  },
+  {
+    "name": "Dodge",
+    "type": "action",
+    "html": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next\nturn, any attack roll made against you has disadvantage if you can see the attacker, and you\nmake Dexterity saving throws with advantage. You lose this benefit if you are incapacitated or\nif your speed drops to 0.</p>\n<p><strong>Shield Regen</strong>. If you take the Dodge action and take no damage until the start of your next turn,\nyour shields begin to regenerate and you gain shield points equal to your armor's regen.\nYou continue to gain shield points equal to your regen stat at the start of each of your turns.\nIf you take damage or you reach your maximum shield point capacity, the regeneration ends.</p>\n",
+    "id": "dodge"
+  },
+  {
+    "name": "Grapple",
+    "type": "action",
+    "html": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special\nmelee attack, a grapple. If you're able to make multiple attacks with the Attack action, this\nattack replaces one of them.</p>\n<p>The target of your grapple must be no more than one size larger than you and must be within your\nreach. Using at least one free hand, you try to seize the target by making a grapple check instead\nof an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics)\nor Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed,\nyou subject the target to the <me-condition id=\"grappled\" /> condition. The condition\nspecifies the things that end it, and you can release the target whenever you like\n(no action required).</p>\n<p><strong>Escaping a Grapple</strong>. A grappled creature can use its action to escape. To do so, it must\nsucceed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength\n(Athletics) check.</p>\n<p><strong>Moving a Grappled Creature</strong>. When you move, you can drag or carry the grappled creature\nwith you, but your speed is halved, unless the creature is two or more sizes smaller than you.</p>\n",
+    "id": "grapple"
+  },
+  {
+    "name": "Help",
+    "type": "action",
+    "html": "<p>When you take the Help action, the creature you aid gains advantage on the next ability check\nit makes to perform the task you are helping with, provided that it makes the check before the\nstart of your next turn.</p>\n<p>Alternatively, you can aid a friendly creature in attacking a creature within <me-distance length=\"5\" />\nof you. If your ally attacks the target before your next turn, the first attack roll is made with\nadvantage.</p>\n",
+    "id": "help"
+  },
+  {
+    "name": "Hide",
+    "type": "action",
+    "html": "<p>When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide,\nfollowing the rules for hiding. If you succeed, you gain certain benefits, as described in\n<nuxt-link to=\"/manual/combat#making-an-attack\">Making an Attack &gt; Unseen Attackers and Targets</nuxt-link>.</p>\n<p><strong>Shield Regen</strong>. If you take the Disengage action and take no damage until the start of your next turn,\nyour shields begin to regenerate and you gain shield points equal to your armor's regen.\nYou continue to gain shield points equal to your regen stat at the start of each of your turns.\nIf you take damage or you reach your maximum shield point capacity, the regeneration ends.</p>\n",
+    "id": "hide"
+  },
+  {
+    "name": "Improvise",
+    "type": "action",
+    "html": "<p>Your character can do things not covered by the actions in list here, such as hacking,\nintimidating enemies, sensing weaknesses in technological, or calling for a cease fire.\nThe only limits to the actions you can attempt are your imagination and your character's\nability scores.</p>\n<p>When you describe an action not detailed elsewhere in the rules, the GM tells you whether\nthat action is possible and what kind of roll you need to make, if any,\nto determine success or failure.</p>\n",
+    "id": "improvise"
+  },
+  {
+    "name": "Opportunity Attack",
+    "type": "reaction",
+    "shortDesc": "When a hostile creature that you can see moves out of your reach.",
+    "html": "<p>You can make an opportunity attack when a hostile creature that you can see moves out of your\nreach. To make the opportunity attack, you use your reaction to make one melee attack\nagainst the provoking creature. The attack occurs right before the creature leaves your reach</p>\n",
+    "id": "opportunity-attack"
+  },
+  {
+    "name": "Ready",
+    "type": "action",
+    "html": "<p>Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To\ndo so, you can take the Ready action on your turn, which lets you act using your reaction before the\nstart of your next turn.</p>\n<p>First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the\naction you will take in response to that trigger, or you choose to move up to your speed in\nresponse to it. Examples include &quot;If the husk steps on the descends the dragon's tooth,\nI'll throw a grenade at it,&quot; and &quot;If the banshee teleports steps next to me, I cast Nova.&quot;</p>\n<p>When the trigger occurs, you can either take your reaction right after the trigger finishes or\nignore the trigger. Remember that you can take only one reaction per round.</p>\n<p>When you ready a power, you cast it as normal but hold off on the final physical mnenomics or\nomni-tool process, which you release with your reaction when the trigger occurs. To be\nreadied, a power must have a casting time of 1 action, and holding onto the power\nrequires concentration. If your concentration is broken, the power dissipates without taking effect.</p>\n",
+    "id": "ready"
+  },
+  {
+    "name": "Reload",
+    "type": "action",
+    "html": "<p>Most ranged weapons have a heat property which indicates the number of times it can be fired before the thermal clip\nmust be exchanged. When you take the Reload Action, you expend a Thermal Clip from your inventory and insert it into\nthe weapon you're currently holding, returning the weapon's heat to its maximum value.</p>\n",
+    "id": "reload"
+  },
+  {
+    "name": "Search",
+    "type": "action",
+    "html": "<p>When you take the Search action, you devote your attention to finding something. Depending on the\nnature of your search, the GM might have you make a Wisdom (Perception) check or\nan Intelligence (Investigation) check.</p>\n",
+    "id": "search"
+  },
+  {
+    "name": "Shove",
+    "type": "action",
+    "html": "<p>Using the Attack action, you can make a special melee attack to shove a creature, either to knock\nit prone or push it away from you. If you're able to make multiple attacks with the Attack action,\nthis attack replaces one of them.</p>\n<p>The target must be no more than one size larger than you and must be within your reach.\nInstead of making an attack roll, you make a Strength (Athletics) check contested by the\ntarget's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).\nYou succeed automatically if the target is incapacitated. If you succeed,\nyou either knock the target prone or push it <me-distance length=\"5\" /> away from you.</p>\n",
+    "id": "shove"
+  },
+  {
+    "name": "Use an Object",
+    "type": "action",
+    "html": "<p>You normally interact with an object while doing something else, such as when you draw a weapon as\npart of an attack. When an object requires your action for its use, you take the Use an Object\naction. This action is also useful when you want to interact with more than one object\non your turn.</p>\n<p>Common examples of using an object include:</p>\n<ul>\n<li>Throwing a grenade</li>\n<li>Firing a Heavy Weapon</li>\n<li>Using Medi-gel</li>\n</ul>\n",
+    "id": "use-an-object"
+  }
+]

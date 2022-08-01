@@ -2,12 +2,11 @@
 name: Brawler
 mechanics:
   - type: attack-augment
-    augment: damage
-    limits:
-      attack: melee
-      model: weapons
-    value:
+    attackLimit:
+      type: melee
+    augmentTypes: [damage]
+    bonus:
       type: proficiency
 type: fighting-styles
 ---
-Add your proficiency bonus to your melee attack damage rolls.
+Add your proficiency bonus to your melee damage rolls.

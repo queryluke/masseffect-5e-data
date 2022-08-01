@@ -4,9 +4,10 @@ mechanics:
   - type: asi
     ability: dex
     amount: 1
-  - type: dt-augment
-    augment: damage
-    limits:
-      model: weapons
-    value: abilityMod
+  - type: attack-augment
+    attackLimit:
+      model: weapon
+      special: dt
+    augmentTypes: [damage]
+    abilityMod: true
 ---

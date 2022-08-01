@@ -11,4 +11,20 @@ tags:
 andromeda: false
 set: n-7
 rarity: rare
+name: N7 Greaves
+flavor: >-
+  Dual layer of fabric armor and kinetic padding beneath thick plates of
+  ablative ceramic and lined with additional kinetic barriers.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 5
+  - type: thermal-clip-capacity
+    value: 2
+  - type: grenade-capacity
+    value: 2
 ---
+- +5 shield capacity.
+- You are considered proficient with this armor even if you lack proficiency with medium
+armor.

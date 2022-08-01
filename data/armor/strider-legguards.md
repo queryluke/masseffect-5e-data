@@ -11,4 +11,24 @@ tags:
 andromeda: false
 set: false
 rarity: uncommon
+name: Strider Legguards
+flavor: >-
+  Greaves that use a set of mass effect field generators to alter the wearer's
+  gravity, making certain maneuvers much more manageable.
+mechanics:
+  - type: thermal-clip-capacity
+    value: 2
+  - type: grenade-capacity
+    value: 2
+  - type: skill-check
+    value: [acrobatics]
+    effect:
+      type: advantage
+  - type: speed-bonus
+    value: [walk]
+    bonus:
+      type: flat
+      value: 15
 ---
+- Advantage on Acrobatics checks.
+- Increase your walking speed by <me-distance length='15' />.

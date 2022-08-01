@@ -12,4 +12,22 @@ tags:
 andromeda: false
 set: colossus
 rarity: rare
+name: Colossus Chestplate
+flavor: >-
+  A bulky, heavy armor set that is difficult to wear for those not in superior
+  shape. But considered the galaxy's best defensive suit.
+mechanics:
+  - type: shields
+    capacity:
+      type: flat
+      value: 10
+    regen:
+      type: flat
+      value: 5
+  - type: thermal-clip-capacity
+    value: 6
+  - type: medi-gel-capacity
+    value: 2
 ---
+- Requires STR 18.
+- 10 shields (regen 5).

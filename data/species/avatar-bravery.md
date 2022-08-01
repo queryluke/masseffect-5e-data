@@ -4,7 +4,8 @@ species: prothean
 mechanics:
   - type: saving-throw
     against: [frightened]
-    effect: advantage
+    effect:
+      type: advantage
   - type: reaction
     shortDesc: >-
       Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use

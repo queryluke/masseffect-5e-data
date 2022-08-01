@@ -53,9 +53,6 @@ advancements:
       - altCasting:
           - length: 1
             unit: action
-          - length: 1
-            unit: reaction
-            reaction: After using remote deploy, when a creature enters this power's cone
 ---
 Draw and fire your antipersonnel cannon, colloquially called "the beehive". It ejects superheated shrapnel in a <me-distance length="15" adj/> cone,
 originating from you. Each creature caught in the blast must make Dexterity saving throw. The DC of this saving throw is

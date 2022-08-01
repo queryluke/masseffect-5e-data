@@ -1,0 +1,3754 @@
+[
+  {
+    "name": "Armorsmith",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "armorsmiths-workbench"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_armorsmith"
+  },
+  {
+    "name": "Assassin",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "acrobatics"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_assassin"
+  },
+  {
+    "name": "Astronomy",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "starship-system-navigation"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_astronomy"
+  },
+  {
+    "name": "Biology",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "medical-kit"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_biology"
+  },
+  {
+    "name": "Blackmailer",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "deception"
+      },
+      {
+        "type": "skill",
+        "value": "intimidation"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_blackmailer"
+  },
+  {
+    "name": "Brewer",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "brewers-supplies"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_brewer"
+  },
+  {
+    "name": "Chemist",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "chemists-supplies"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_chemist"
+  },
+  {
+    "name": "Chemistry",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "chemists-supplies",
+          "brewers-supplies"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_chemistry"
+  },
+  {
+    "name": "Computer Science",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "starship-system-ews"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_computer-science"
+  },
+  {
+    "name": "Cook",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "cooks-utensils"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_cook"
+  },
+  {
+    "name": "Engineering",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "tinkers-tools"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_engineering"
+  },
+  {
+    "name": "Fence",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "deception"
+      },
+      {
+        "type": "skill",
+        "value": "persuasion"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_fence"
+  },
+  {
+    "name": "Gambler",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "deception"
+      },
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_gambler"
+  },
+  {
+    "name": "Gang Member",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "intimidation"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_gang-member"
+  },
+  {
+    "name": "General Studies",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "brewers-supplies",
+          "hacking-tools",
+          "starship-system-ssc"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_general-studies"
+  },
+  {
+    "name": "Mechanic",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "tinkers-tools",
+          "starship"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_mechanic"
+  },
+  {
+    "name": "Painter",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "painters-supplies"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_painter"
+  },
+  {
+    "name": "Philosophy",
+    "mechanics": [
+      {
+        "type": "tool-choice",
+        "limit": [
+          "musical-instrument",
+          "gaming-set"
+        ],
+        "options": true
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_philosophy"
+  },
+  {
+    "name": "Physics",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "starship-system-drive"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_physics"
+  },
+  {
+    "name": "Pickpocket",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "stealth"
+      },
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_pickpocket"
+  },
+  {
+    "name": "Smuggler",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "sleight-of-hand"
+      },
+      {
+        "type": "skill",
+        "value": "vehicle-handling"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_smuggler"
+  },
+  {
+    "name": "Tailor",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "tailors-tools"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_tailor"
+  },
+  {
+    "name": "Thief",
+    "mechanics": [
+      {
+        "type": "skill",
+        "value": "perception"
+      },
+      {
+        "type": "skill",
+        "value": "stealth"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_thief"
+  },
+  {
+    "name": "Weaponsmith",
+    "mechanics": [
+      {
+        "type": "tool",
+        "value": "weaponsmiths-workbench"
+      }
+    ],
+    "type": "subgrounds",
+    "html": "",
+    "id": "BG_weaponsmith"
+  },
+  {
+    "name": "Disarming Attack",
+    "mechanics": [
+      {
+        "name": "Disarming Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_disarming-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_disarming-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "str"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or drop an object you choose."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target, forcing it to drop\none item of your choice that it’s holding. You add the barrier tick die to the attack’s damage roll, and the target\nmust make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</p>\n",
+    "id": "BMM_disarming-attack"
+  },
+  {
+    "name": "Distracting Attack",
+    "mechanics": [
+      {
+        "name": "Distracting Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_distracting-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_distracting-attack"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to give your allies an opening. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to distract the creature, giving your\nallies an opening. You add the barrier tick to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</p>\n",
+    "id": "BMM_distracting-attack"
+  },
+  {
+    "name": "Feinting Attack",
+    "mechanics": [
+      {
+        "name": "Feinting Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_feinting-attack"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_feinting-attack"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "Your next melee attack roll on a target within <me-distance length=\"2\" abbr /> has advantage. If that attack hits, add <strong>{{ damage }}</strong> to the attack’s damage roll."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>You can expend one barrier tick and use a bonus action on your turn to feint, choosing one creature within <me-distance length=\"2\" /> of\nyou as your target. You have advantage on your next melee attack roll against that creature. If that attack hits, add the barrier tick to the attack’s damage roll.</p>\n",
+    "id": "BMM_feinting-attack"
+  },
+  {
+    "name": "Goading Attack",
+    "mechanics": [
+      {
+        "name": "Goading Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_goading-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_goading-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "wis"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to goad the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save or have disadvantage on all attack rolls against targets other than you until the end of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to goad the target into\nattacking you. You add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw.\nOn a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</p>\n",
+    "id": "BMM_goading-attack"
+  },
+  {
+    "name": "Lift Attack",
+    "mechanics": [
+      {
+        "name": "Lift Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_lift-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_lift-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "dex"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to lift it. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Medium or smaller, it must succeed on a <strong>DC {{ dc }} DEX</strong> save or become lifted until the end of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to lift a Medium or smaller size\ncreature or object. You add the barrier tick to the attack’s damage roll, the target must make a Dexterity\nsaving throw. On a failed save, the target is lifted until the end of your next turn.</p>\n",
+    "id": "BMM_lift-attack"
+  },
+  {
+    "name": "Menacing Attack",
+    "mechanics": [
+      {
+        "name": "Menacing Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_menacing-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_menacing-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "wis"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to frighten the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save or becomes <me-condition id=\"frightened\" /> of your until the end of your next turn."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to frighten the target.\nYou add the barrier tick to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save,\nit is <me-condition id=\"frightened\" /> of you until the end of your next turn.</p>\n",
+    "id": "BMM_menacing-attack"
+  },
+  {
+    "name": "Pushing Attack",
+    "mechanics": [
+      {
+        "name": "Pushing Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_pushing-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_pushing-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "str"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Large or smaller, if must succeed on a <strong>DC {{ dc }} STR</strong> save or be pushed up to <me-distance length=\"20\" /> away from you."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to drive the target back. You\nadd the barrier tick to the attack's damage roll, and if the target is Large or smaller, it must make a\nStrength saving throw. On a failed save, you push the target up to <me-distance length=\"20\" /> away from you.</p>\n",
+    "id": "BMM_pushing-attack"
+  },
+  {
+    "name": "Riposte",
+    "mechanics": [
+      {
+        "name": "Riposte",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_riposte"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_riposte"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add <strong>{{ damage }}</strong> to the attack’s damage roll."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee\nattack against the creature. If you hit, you add the barrier tick to the attack's damage roll.</p>\n",
+    "id": "BMM_riposte"
+  },
+  {
+    "name": "Sweeping Attack",
+    "mechanics": [
+      {
+        "name": "Sweeping Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_sweeping-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_sweeping-attack"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie",
+            "type": "force"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature. Choose another creature within <me-distance length=\"5\" /> of the original target and within your reach. If the original attack roll would hit the second creature, it takes <strong>{{ damage }} force</strong>damage."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature\nwith the same attack. Choose another creature within <me-distance length=\"5\" /> of the original target and within\nyour reach. If the original attack roll would hit the second creature, it takes force damage equal to the number you roll on your barrier tick.</p>\n",
+    "id": "BMM_sweeping-attack"
+  },
+  {
+    "name": "Trip Attack",
+    "mechanics": [
+      {
+        "name": "Trip Attack",
+        "moreInfo": {
+          "model": "edges",
+          "id": "BMM_trip-attack"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "BMM_trip-attack"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "bonus": {
+            "type": "powercastingMod",
+            "value": "vanguard"
+          },
+          "save": "str"
+        },
+        "damage": [
+          {
+            "dieCount": "barrierDie"
+          }
+        ],
+        "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or become <me-condition id=\"prone\" />."
+      }
+    ],
+    "type": "maneuvers",
+    "html": "<p>When you hit a creature with a melee attack, you can expend one barrier tick to attempt to knock the target down.\nYou add the barrier tick to the attack’s damage roll, and if the target is Large or smaller, it must make a\nStrength saving throw. On a failed save, you knock the target <me-condition id=\"prone\" />.</p>\n",
+    "id": "BMM_trip-attack"
+  },
+  {
+    "name": "Advance",
+    "mechanics": [
+      {
+        "name": "Advance",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. If an ally spends all of its movement moving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of opportunity.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Update your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n",
+    "id": "BT_advance"
+  },
+  {
+    "name": "Analysis",
+    "mechanics": [
+      {
+        "name": "Analysis",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus and choose a hostile creature within it. Now, and at the start of each of your turns, you learn if the creature is your equal, superior, or inferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity, Constitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Focus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points.</p>\n",
+    "id": "BT_analysis"
+  },
+  {
+    "name": "Clear the area",
+    "mechanics": [
+      {
+        "name": "Clear the area",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. If an ally hit s a creature in your tactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Pick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.</p>\n",
+    "id": "BT_clear-the-area"
+  },
+  {
+    "name": "Heads Up",
+    "mechanics": [
+      {
+        "name": "Heads Up",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. If an ally in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>If an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n",
+    "id": "BT_heads-up"
+  },
+  {
+    "name": "Pin Down",
+    "mechanics": [
+      {
+        "name": "Pin Down",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. When a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use a reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes 0, it falls prone and remains in your tactical focus.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>When a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n",
+    "id": "BT_pin-down"
+  },
+  {
+    "name": "Recon",
+    "mechanics": [
+      {
+        "name": "Recon",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-focus"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Set your tactical focus. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured, or heavily obscured.",
+        "range": {
+          "short": 60,
+          "aoe": {
+            "type": "cube",
+            "size": 15
+          }
+        }
+      }
+    ],
+    "type": "bastion-tactics",
+    "html": "<p>Your VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n",
+    "id": "BT_recon"
+  },
+  {
+    "name": "None",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 2
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "str",
+          "dex",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      {
+        "type": "skill-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "type": "exalted-lineages",
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>\n+2 CON\n",
+    "id": "EXL_kett"
+  },
+  {
+    "name": "Ambidextrous",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "special": "twf"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "abilityMod": true
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n",
+    "id": "FS_ambidextrous"
+  },
+  {
+    "name": "Assault",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "special": "bf"
+        },
+        "augmentTypes": [
+          "dc"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When you make a Burst Fire attack, increase the DC by 2.</p>\n",
+    "id": "FS_assault"
+  },
+  {
+    "name": "Brawler",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "type": "melee"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "proficiency"
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>Add your proficiency bonus to your melee damage rolls.</p>\n",
+    "id": "FS_brawler"
+  },
+  {
+    "name": "Carnage",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon",
+          "modelTypes": [
+            "shotgun"
+          ]
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n",
+    "id": "FS_carnage"
+  },
+  {
+    "name": "Close-Quarters Shooter",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "attack": "ranged",
+        "value": "Close-Quarters Shooter",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_close-quarters-shooter"
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile creature, you do not have\ndisadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n",
+    "id": "FS_close-quarters-shooter"
+  },
+  {
+    "name": "Defense",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>+1 AC.</p>\n",
+    "id": "FS_defense"
+  },
+  {
+    "name": "Protection",
+    "mechanics": [
+      {
+        "name": "Protection",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_protection"
+        },
+        "type": "reaction",
+        "shortDesc": "When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" /> of you, expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll."
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" /> of you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack hits, the damage is reduced by your barrier tick roll.</p>\n",
+    "id": "FS_protection"
+  },
+  {
+    "name": "Sniper",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "attack": "ranged",
+        "value": "Sniper",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_sniper"
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks made with a sniper rifle.</p>\n",
+    "id": "FS_sniper"
+  },
+  {
+    "name": "The Free Hand",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Free Hand",
+        "moreInfo": {
+          "model": "edges",
+          "id": "FS_the-free-hand"
+        }
+      }
+    ],
+    "type": "fighting-styles",
+    "html": "<p>When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n",
+    "id": "FS_the-free-hand"
+  },
+  {
+    "name": "Careful Power",
+    "mechanics": [
+      {
+        "name": "Careful Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_careful-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_careful-power"
+        },
+        "shortDesc": "Up to {{ powercastingMod:vanguard }} creatures succeed on their saving throw against a power you cast."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from\nthe power's full force. To do so, you spend 1 barrier tick and choose a number of those creatures up to your\npowercasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the power.</p>\n",
+    "id": "NMB_careful-power"
+  },
+  {
+    "name": "Careful Power",
+    "mechanics": [
+      {
+        "name": "Careful Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_distant-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_distant-power"
+        },
+        "shortDesc": "Double the range of a power or increase the range of power with a range of touch to <me-distance length=\"30\" abbr />"
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that has a range of <me-distance length=\"5\" /> or greater, you can spend 1 barrier tick to\ndouble the range of the power. When you cast a power that has a range of touch, you can spend 1 barrier tick to\nmake the range of the power <me-distance length=\"30\" />.</p>\n",
+    "id": "NMB_distant-power"
+  },
+  {
+    "name": "Empowered Power",
+    "mechanics": [
+      {
+        "name": "Empowered Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_empowered-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_empowered-power"
+        },
+        "shortDesc": "Reroll up to {{ powercastingMod:vanguard }} damage die for a power you cast. Can be combined with other metabiotics."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you roll damage for a power, you can spend 1 barrier tick to reroll a number of the damage dice up to your\npowercasting ability modifier (minimum of one). You must use the new rolls. You can use Empowered power even if\nyou have already used a different Metabiotic option during the casting of the power.</p>\n",
+    "id": "NMB_empowered-power"
+  },
+  {
+    "name": "Heightened Power",
+    "mechanics": [
+      {
+        "name": "Heightened Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_heightened-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_heightened-power"
+        },
+        "shortDesc": "Spend 3 barrier ticks to give one target of your cast disadvantage on a saving throw caused by the power."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that forces a creature to make a saving throw to resist\nits effects, you can spend 3 barrier ticks to give one target of the power\ndisadvantage on its first saving throw made against the power.</p>\n",
+    "id": "NMB_heightened-power"
+  },
+  {
+    "name": "Quickened Power",
+    "mechanics": [
+      {
+        "name": "Quickened Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_quickened-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_quickened-power"
+        },
+        "shortDesc": "Spend 2 barrier ticks to change the casting time of one power to a bonus action (the chosen power's casting time must be 1 action)."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that has a casting time of 1 action, you can spend 2\nbarrier ticks to change the casting time to 1 bonus action for this casting.</p>\n",
+    "id": "NMB_quickened-power"
+  },
+  {
+    "name": "Twinned Power",
+    "mechanics": [
+      {
+        "name": "Twinned Power",
+        "moreInfo": {
+          "model": "edges",
+          "id": "NMB_twinned-power"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "NMB_twinned-power"
+        },
+        "shortDesc": "When you cast a power that doesn't have a range of self and is incapable of targeting more than one creature at the power's current level, you can spend a number of barrier ticks equal to the power's level to target a second creature in range with the same power."
+      }
+    ],
+    "type": "metabiotics",
+    "html": "<p>When you cast a power that doesn't have a range of self and is incapable of\ntargeting more than one creature at the power's current level, you can spend a\nnumber of barrier ticks equal to the power's level to target a second creature\nin range with the same power.</p>\n",
+    "id": "NMB_twinned-power"
+  },
+  {
+    "name": "Angara",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "electrogenesis"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Constitution score increases by 1, to a maximum of 20.</li>\n<li>Gain the Electrogenesis trait.</li>\n</ul>\n",
+    "id": "PG_angara"
+  },
+  {
+    "name": "Asari",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "innate-biotics"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Wisdom score increases by 1, to a maximum of 20.</li>\n<li>Gain the Innate Biotics trait.</li>\n</ul>\n",
+    "id": "PG_asari"
+  },
+  {
+    "name": "Awakened Collector",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "wings"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Dexterity score increases by 1, to a maximum of 20.</li>\n<li>Gain the Wings trait.</li>\n</ul>\n",
+    "id": "PG_awakened-collector"
+  },
+  {
+    "name": "Batarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "four-eyes"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your one ability score of your choice by 1, to a maximum of 20.</li>\n<li>Gain the Four Eyes trait.</li>\n</ul>\n",
+    "id": "PG_batarian"
+  },
+  {
+    "name": "Drell",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "burst-of-speed"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Dexterity score increases by 1, to a maximum of 20.</li>\n<li>Gain the Burst of Speed trait.</li>\n</ul>\n",
+    "id": "PG_drell"
+  },
+  {
+    "name": "Elcor",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "dense-build"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Strength score increases by 1, to a maximum of 20.</li>\n<li>Gain the Dense Build trait.</li>\n</ul>\n",
+    "id": "PG_elcor"
+  },
+  {
+    "name": "Hanar",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "amphibious",
+          "bioluminescence"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Strength score increases by 1, to a maximum of 20.</li>\n<li>Gain the Amphibious and Bioluminescence traits.</li>\n</ul>\n",
+    "id": "PG_hanar"
+  },
+  {
+    "name": "Batarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "selections": 2
+      }
+    ],
+    "html": "<ul>\n<li>Increase two ability scores of your choice by 1 or one ability score of your choice by 2, to a maximum of 20.</li>\n</ul>\n",
+    "id": "PG_human"
+  },
+  {
+    "name": "Krogan",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "blood-rage"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Constitution score increases by 1, to a maximum of 20.</li>\n<li>Gain the Blood Rage trait.</li>\n</ul>\n",
+    "id": "PG_krogan"
+  },
+  {
+    "name": "Prothean",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "all-seeing-eyes"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Wisdom score increases by 1, to a maximum of 20.</li>\n<li>Gain the All-Seeing Eyes trait.</li>\n</ul>\n",
+    "id": "PG_prothean"
+  },
+  {
+    "name": "Quarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "int",
+          "con"
+        ]
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "mind-shielding-unit",
+              "burst-of-speed",
+              "darkvision-60",
+              "toughness"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Intelligence or Constitution score by 1, to a maximum of 20.</li>\n<li>Gain one of the following traits: Mind Shielding Unit, Burst of Speed, Darkvision, or Toughness.</li>\n</ul>\n",
+    "id": "PG_quarian"
+  },
+  {
+    "name": "Salarian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "amphibious",
+          "photographic-memory"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Your Intelligence score increases by 1, to a maximum of 20.</li>\n<li>Gain the Amphibious and Photographic Memory traits.</li>\n</ul>\n",
+    "id": "PG_salarian"
+  },
+  {
+    "name": "Turian",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "dex",
+          "con"
+        ]
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "thilium-skin"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Dexterity or Constitution score by 1, to a maximum of 20.</li>\n<li>Gain the Thulium Skin trait.</li>\n</ul>\n",
+    "id": "PG_turian"
+  },
+  {
+    "name": "Volus",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "lucky"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Wisdom score by 1, to a maximum of 20.</li>\n<li>Gain the Lucky trait.</li>\n</ul>\n",
+    "id": "PG_volus"
+  },
+  {
+    "name": "Vorcha",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "non-differentiated-cells"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>Gain the Non-differentiated Cells trait.</li>\n</ul>\n",
+    "id": "PG_vorcha"
+  },
+  {
+    "name": "Yahg",
+    "type": "premium-genetics",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "traits",
+        "set": [
+          "predator-eyes"
+        ]
+      }
+    ],
+    "html": "<ul>\n<li>Increase your Strength score by 1, to a maximum of 20.</li>\n<li>Gain the Predator Eyes trait.</li>\n</ul>\n",
+    "id": "PG_yahg"
+  },
+  {
+    "name": "Cold",
+    "type": "primers",
+    "mechanics": [
+      {
+        "dc": {
+          "base": 15,
+          "save": "str"
+        },
+        "shortDesc": "Each creature within a <me-distance length=\"10\" adj /> radius, including the primed target, must pass a DC {{ dc }} Strength saving throw. On a failed save a creature is <me-condition id=\"frozen\" /> until the end of its next turn."
+      },
+      {
+        "dc": {
+          "base": 16
+        }
+      },
+      {
+        "dc": {
+          "base": 17
+        }
+      },
+      {
+        "dc": {
+          "base": 18
+        }
+      }
+    ],
+    "html": "<p>Each creature within a <me-distance length=\"10\" adj /> radius, including the primed target, must pass a\nDC 15 Strength saving throw. On a failed save a creature is <me-condition id=\"frozen\" /> until the end of its next turn. The DC of the saving\nthrow increases by 1 at 5th (16), 11th (17), and 17th (18) level.</p>\n",
+    "id": "PRIME_cold"
+  },
+  {
+    "name": "Fire",
+    "type": "primers",
+    "mechanics": [
+      {
+        "range": {
+          "aoe": {
+            "size": 10,
+            "shape": "sphere"
+          }
+        },
+        "damage": {
+          "dieCount": 1,
+          "dieType": 6,
+          "type": "fire"
+        },
+        "shortDesc": "Each creature within a <me-distance length=\"10\" adj /> radius, including the primed target, catch fire, taking {{ damage }} damage . Each creature continues to burn for 1 minute, taking {{ damage }} damage at the start of its turn. A creature that is on fire can use its action put out the fire."
+      },
+      {
+        "damage": {
+          "dieCount": 3
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 4
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 5
+        }
+      }
+    ],
+    "html": "<p>Each creature within a <me-distance length=\"10\" adj /> radius, including the primed target, catch fire,\ntaking 1d6 fire damage. Each creature continues to burn for 1 minute, taking 1d6 fire damage at the start of its\nturn. A creature that is on fire can use its action put out the fire. The fire damage increases by 1d6 at 5th (2d6),\n11th (3d6), and 17th (4d6) level.</p>\n",
+    "id": "PRIME_fire"
+  },
+  {
+    "name": "Force",
+    "type": "primers",
+    "mechanics": [
+      {
+        "damage": {
+          "dieCount": 2,
+          "dieType": 6,
+          "type": "force"
+        },
+        "shortDesc": "Detonated creature suffers {{ damage }} damage, is knocked back <me-distance length=\"15\" />, and becomes becomes <me-condition id=\"prone\" />."
+      },
+      {
+        "damage": {
+          "dieCount": 3
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 4
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 5
+        }
+      }
+    ],
+    "html": "<p>When a creature that is primed: force detonates, it suffers 2d6 force damage, is knocked back\n<me-distance length=\"15\" /> and becomes <me-condition id=\"prone\" />. The force damage increases by 1d6 at 5th (3d6), 11th (4d6), and 17th (5d6) level.</p>\n",
+    "id": "PRIME_force"
+  },
+  {
+    "name": "Lightning",
+    "type": "primers",
+    "mechanics": [
+      {
+        "damage": {
+          "dieCount": 3,
+          "dieType": 4,
+          "type": "lightning"
+        },
+        "range": {
+          "aoe": {
+            "size": 10,
+            "shape": "sphere"
+          }
+        },
+        "shortDesc": "Each creature within a <me-distance length=\"10\" adj /> radius, including the primed target, suffers {{ damage }} damage."
+      },
+      {
+        "damage": {
+          "dieCount": 4
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 5
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 6
+        }
+      }
+    ],
+    "html": "<p>Each creature within a <me-distance length=\"10\" adj /> radius, including the primed target,\nsuffers 3d4 lightning damage. The lightning damage increases by 1d4 at 5th (4d4), 11th (5d4), and 17th (6d4) level.</p>\n",
+    "id": "PRIME_lightning"
+  },
+  {
+    "name": "Necrotic",
+    "type": "primers",
+    "mechanics": [
+      {
+        "damage": {
+          "dieCount": 1,
+          "dieType": 12,
+          "type": "necrotic"
+        },
+        "dc": {
+          "base": 13,
+          "save": "con"
+        },
+        "shortDesc": "Detonated creature suffers {{ damage }} damage and must succeed on a DC 13 Constitution saving throw or becomes <me-condition id=\"stunned\" /> until the end of its next turn."
+      },
+      {
+        "damage": {
+          "dieCount": 2
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 3
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 4
+        }
+      }
+    ],
+    "html": "<p>When a creature that is primed: necrotic detonates, it suffers 1d12 necrotic damage and must succeed on a\nDC 13 Constitution saving throw or becomes <me-condition id=\"stunned\" /> until the end of its next turn.</p>\n",
+    "id": "PRIME_necrotic"
+  },
+  {
+    "name": "Beguile",
+    "type": "benefits",
+    "threshold": 30,
+    "prereq": {
+      "paragon": {
+        "within": 10
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Beguile",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_beguile"
+        },
+        "type": "action",
+        "layout": "stats-right",
+        "resource": {
+          "id": "REP_beguile"
+        },
+        "range": {
+          "short": 120
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        },
+        "shortDesc": "Monolog for 1 minute, causing creatures of your choice within {{ range }} to make a DC {{ dc }} Wisdom saving throw. A creature has advantage if you or your companions are fighting it. A creature with Intelligence 3 or lower succeeds. On a failure, a creature has disadvantage on attack rolls against creatures other than you and Wisdom (Perception) checks to perceive creatures other than you."
+      }
+    ],
+    "html": "<p>You can start monologing for up to 1 minute, causing creatures of your choice that you can see within range and that\ncan hear you to make a Wisdom saving throw. Any creature with an Intelligence of 3 or lower succeeds on this\nsaving throw automatically, and if you or your companions are fighting a creature, it has advantage on the\nsave. On a failed save, the target has disadvantage on attack rolls against any creature other than you and\nWisdom (Perception) checks made to perceive any creature other than you until you stop talking or until the\ntarget can no longer hear you. The effect also ends if you are incapacitated or can no longer speak.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_beguile"
+  },
+  {
+    "name": "Calm Emotions",
+    "type": "benefits",
+    "threshold": 30,
+    "prereq": {
+      "paragon": {
+        "min": 20,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Calm Emotions",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_calm-emotions"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_calm-emotions"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "cha"
+        },
+        "shortDesc": "Each sentient creature that can hear you must make on a DC {{ dc }} CHA saving throw; creatures can choose to fail automatically. For each failure, choose to end the charmed or frightened condition or make the creature indifferent about creatures of your choice (the indifference lasts 1 minute and ends if the target is attacked or harmed or witnesses its allies being attacked or harmed)."
+      }
+    ],
+    "html": "<p>You attempt to suppress strong emotions in a group of people. Each sentient creature (Intelligence 4 more) that can\nhear you must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature\nfails its saving throw, choose one of the following two effects.</p>\n<p>You can suppress any effect causing a target to be charmed or frightened, immediately ending the condition.</p>\n<p>Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This\nindifference ends if the target is attacked or harmed or if it witnesses any of its allies being harmed.\nThe indifference lasts at least 1 minute, unless the GM rules otherwise.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_calm-emotions"
+  },
+  {
+    "name": "Compel",
+    "type": "benefits",
+    "threshold": 100,
+    "prereq": {
+      "paragon": {
+        "min": 70,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Compel",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_compel"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_compel"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        },
+        "shortDesc": "A sentient creature that can see or hear you must succeed on a DC {{ dc }} WIS saving throw or be charmed by you for the next hour. If you or your allies are fighting the creature, it has advantage of this save. While charmed, the creature does its best to obey your commands. Whenever it takes damage, it makes a new saving throw."
+      }
+    ],
+    "html": "<p>You attempt to compel a sentient creature (Intelligence of 4 or more) that you can see and that can hear you.\nIt must succeed on a Wisdom saving throw or be charmed by you for the next hour. If you or creatures that are friendly\nto you are fighting it, it has advantage on the saving throw.</p>\n<p>While the creature is charmed, you can issue commands to it while you are conscious (no action required), which it\ndoes its best to obey. You can specify a simple and general course of action, such as &quot;Attack that creature,&quot;\n&quot;Run over there,&quot; or &quot;Fetch that object.&quot; If the creature completes the order and doesn't receive further direction\nfrom you, it defends and preserves itself to the best of its ability.</p>\n<p>Each time the target takes damage, it makes a new Wisdom saving throw. If the saving throw succeeds, it is no longer charmed.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_compel"
+  },
+  {
+    "name": "Convince",
+    "type": "benefits",
+    "threshold": 15,
+    "prereq": {
+      "paragon": {
+        "min": 10,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Convince",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_convince"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_convince"
+        },
+        "shortDesc": "Roll a d6 and add to a Charisma (Persuasion) check"
+      }
+    ],
+    "html": "<p>When you make Charisma (Persuasion) check, you may roll a d6 and add the number rolled to the result.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_convince"
+  },
+  {
+    "name": "Fear",
+    "type": "benefits",
+    "threshold": 30,
+    "prereq": {
+      "renegade": {
+        "min": 20,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Fear",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_fear"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_fear"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        },
+        "shortDesc": "Each sentient creature that can see or hear you must succeed on a DC {{ dc }} WIS saving throw or become frightened of you for 1 minute. The creature may use its action to make another WIS saving throw on each of its turns."
+      }
+    ],
+    "html": "<p>You attempt to frighten a sentient creature (Intelligence 4 or more) that can see or hear you. It must succeed on a\nWisdom saving throw or it becomes frightened of you for 1 minute. The creature may use its action to make another\nWisdom saving throw on each of its turns. On a successful save, it is no longer frightened of you.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_fear"
+  },
+  {
+    "name": "Frightening Presence",
+    "type": "benefits",
+    "threshold": 100,
+    "prereq": {
+      "renegade": {
+        "min": 70,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Frightening Presence",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_frightening-presence"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_frightening-presence"
+        },
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "cha",
+          "save": "wis"
+        },
+        "shortDesc": "For the next hour, whenever a sentient creature comes within <me-distance length=\"60\" abbr /> of you, it must succeed on a DC {{ dc }} WIS saving throw or become frightened of you. The creature remains frightened while it can see you or is within <me-distance length=\"60\" /> of you. While frightened by you, the creature must use its movement to move to the nearest safe spot from which it can't see you. If the creature moves more than <me-distance length=\"60\" /> from you and can't see you, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of you or moves within <me-distance length=\"60\" /> of you."
+      }
+    ],
+    "html": "<p>Your presence can cause even the most battle hardened veterans to quiver. For the next hour when a sentient\ncreature (Intelligence 4 or more) can see you and comes within <me-distance length=\"60\" /> of you, the creature must\nsucceed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see you or is\nwithin <me-distance length=\"60\" /> of you. While frightened by you, the creature must use its movement to move to the nearest safe\nspot from which it can't see you. If the creature moves more than <me-distance length=\"60\" /> from you and can't see you, the creature\nis no longer frightened, but the creature becomes frightened again if it regains sight of you or moves within\n<me-distance length=\"60\" /> of you.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_frightening-presence"
+  },
+  {
+    "name": "Glibness",
+    "type": "benefits",
+    "threshold": 100,
+    "prereq": {
+      "paragon": {
+        "within": 20
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Glibness",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_glibness"
+        },
+        "type": "action",
+        "resource": {
+          "id": "REP_glibness"
+        },
+        "shortDesc": "For the next hour, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, effects that would determine if you are telling the truth indicate that you are being truthful."
+      }
+    ],
+    "html": "<p>For the next hour, when you make a Charisma check, you can replace the number you roll with a 15. Additionally,\nno matter what you say, effects that would determine if you are telling the truth indicate that you are being truthful.</p>\n<p>You may use this benefit once per long rest.</p>\n",
+    "id": "REP_glibness"
+  },
+  {
+    "name": "Matter over Mind",
+    "type": "benefits",
+    "threshold": 60,
+    "prereq": {
+      "renegade": {
+        "min": 40,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Matter over Mind",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_matter-over-mind"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_matter-over-mind"
+        },
+        "shortDesc": "On failed Strength or Dexterity check, reroll the check and add your Charisma plus the original modifier (STR or DEX) to the roll."
+      }
+    ],
+    "html": "<p>When you fail an Strength or Dexterity check, you can reroll the die and add your Charisma modifier, in addition\nto the original modifier, to the new roll. You must use the now roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_matter-over-mind"
+  },
+  {
+    "name": "Not by my Hand",
+    "type": "benefits",
+    "threshold": 60,
+    "prereq": {
+      "paragon": {
+        "within": 15
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Not by my Hand",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_not-by-my-hand"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_not-by-my-hand"
+        },
+        "shortDesc": "Whenever a creature that can see or hear you makes an ability check, it gains +{{ chaMod }}."
+      },
+      {
+        "name": "Not by my Hand",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_not-by-my-hand"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_not-by-my-hand"
+        },
+        "shortDesc": "Whenever you take the Help action, the creature you aid gains a +{{ chaMod }} bonus to the roll, in addition to advantage."
+      }
+    ],
+    "html": "<p>When another creature that can see or hear you makes an ability check, you may add your Charisma modifier to the roll.\nAlternatively, in combat, whenever you take the Help action, you may add your Charisma modifier to the first attack\nroll or the next ability check the creature you aid makes before the start of your next turn.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_not-by-my-hand"
+  },
+  {
+    "name": "Obfuscate",
+    "type": "benefits",
+    "threshold": 15,
+    "prereq": {
+      "paragon": {
+        "within": 5
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Obfuscate",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_obfuscate"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_obfuscate"
+        },
+        "shortDesc": "When you fail a Charisma (Deception) check, reroll the die and use the new roll."
+      }
+    ],
+    "html": "<p>When you fail a Charisma (Deception) check, you can reroll the die, and you must use the new roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_obfuscate"
+  },
+  {
+    "name": "Pen before Sword",
+    "type": "benefits",
+    "threshold": 60,
+    "prereq": {
+      "paragon": {
+        "min": 40,
+        "greaterThan": "renegade"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Pen before Sword",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_pen-before-sword"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_pen-before-sword"
+        },
+        "shortDesc": "On failed Wisdom or Intelligence check, reroll the check and add your Charisma plus the original modifier (WIS or INT) to the roll."
+      }
+    ],
+    "html": "<p>When you fail an Intelligence or Wisdom check, you can reroll the die and add your Charisma modifier, in addition\nto the original modifier, to the new roll. You must use the now roll.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_pen-before-sword"
+  },
+  {
+    "name": "Presence",
+    "type": "benefits",
+    "threshold": 15,
+    "prereq": {
+      "renegade": {
+        "min": 10,
+        "greaterThan": "paragon"
+      }
+    },
+    "mechanics": [
+      {
+        "name": "Presence",
+        "moreInfo": {
+          "model": "edges",
+          "id": "REP_presence"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "cha"
+          },
+          "id": "REP_presence"
+        },
+        "shortDesc": "Treat a roll of 9 or lower as a 10 on a Charisma (Intimidation) check"
+      }
+    ],
+    "html": "<p>When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
+    "id": "REP_presence"
+  },
+  {
+    "name": "Assault Rifles",
+    "mechanics": [
+      {
+        "name": "Weapon of Choice: Assault Rifles",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_assault-rifles"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you attack with an assault rifle, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_assault-rifles"
+        }
+      },
+      {
+        "name": "Assault Rifle (parry)",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_assault-rifles"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a melee attack and holding an assault rifle, add {{ damage }} to your AC. If the attack still hits, take half damage.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_assault-rifles"
+        }
+      }
+    ],
+    "type": "weapon-of-choice",
+    "html": "<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with an assault rifle, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with an assault rifle, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding an assault rifle, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
+    "id": "WOC_assault-rifles"
+  },
+  {
+    "name": "Heavy Pistols",
+    "mechanics": [
+      {
+        "name": "Weapon of Choice: Heavy Pistols",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_heavy-pistols"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you attack with a heavy pistol, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_heavy-pistols"
+        }
+      },
+      {
+        "name": "Heavy Pistol (parry)",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_heavy-pistols"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a melee attack and holding a heavy pistol, add {{ damage }} to your AC. If the attack still hits, take half damage.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_heavy-pistols"
+        }
+      }
+    ],
+    "type": "weapon-of-choice",
+    "html": "<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with a heavy pistol, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a heavy pistol, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding a heavy pistol, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
+    "id": "WOC_heavy-pistols"
+  },
+  {
+    "name": "Melee Weapons",
+    "mechanics": [
+      {
+        "name": "Weapon of Choice: Melee Weapons",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_melee-weapons"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you attack with a melee weapon, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_melee-weapons"
+        }
+      },
+      {
+        "name": "Melee Weapon (parry)",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_melee-weapons"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a melee attack and holding a melee weapon, add {{ damage }} to your AC. If the attack still hits, take half damage.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_melee-weapons"
+        }
+      }
+    ],
+    "type": "weapon-of-choice",
+    "html": "<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with a melee weapon, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a melee weapon, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding a melee weapon, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
+    "id": "WOC_melee-weapons"
+  },
+  {
+    "name": "Shotguns",
+    "mechanics": [
+      {
+        "name": "Weapon of Choice: Shotguns",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_shotguns"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you attack with a shotgun, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_shotguns"
+        }
+      },
+      {
+        "name": "Shotgun (parry)",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_shotguns"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a melee attack and holding a shotgun, add {{ damage }} to your AC. If the attack still hits, take half damage.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_shotguns"
+        }
+      }
+    ],
+    "type": "weapon-of-choice",
+    "html": "<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with a shotgun, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a shotgun, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding a shotgun, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
+    "id": "WOC_shotguns"
+  },
+  {
+    "name": "SMGs",
+    "mechanics": [
+      {
+        "name": "Weapon of Choice: SMGs",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_smgs"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you attack with a SMG, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_smgs"
+        }
+      },
+      {
+        "name": "SMG (parry)",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_smgs"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a melee attack and holding a SMG, add {{ damage }} to your AC. If the attack still hits, take half damage.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_smgs"
+        }
+      }
+    ],
+    "type": "weapon-of-choice",
+    "html": "<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with a SMG, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a SMG, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding a SMG, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
+    "id": "WOC_smgs"
+  },
+  {
+    "name": "Sniper Rifles",
+    "mechanics": [
+      {
+        "name": "Weapon of Choice: Sniper Rifles",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_sniper-rifles"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you attack with a sniper rifle, add {{ damage }} to the attack or damage roll. If you choose the damage roll, the creature has disadvantage on CON saves to maintain powers.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_sniper-rifles"
+        }
+      },
+      {
+        "name": "Sniper Rifle (parry)",
+        "moreInfo": {
+          "model": "edges",
+          "id": "WOC_sniper-rifles"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "limit": "soldier",
+              "value": {
+                "3": 8,
+                "10": 10,
+                "18": 12
+              }
+            },
+            "label": "Superiority Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a melee attack and holding a sniper rifle, add {{ damage }} to your AC. If the attack still hits, take half damage.",
+        "resource": {
+          "reset": "short",
+          "label": "d8s / short rest",
+          "max": {
+            "type": "progressive",
+            "limit": "soldier",
+            "value": {
+              "3": 4,
+              "10": 5,
+              "18": 6
+            }
+          },
+          "id": "WOC_sniper-rifles"
+        }
+      }
+    ],
+    "type": "weapon-of-choice",
+    "html": "<p>You can expend superiority dice to gain a number of different benefits:</p>\n<ul>\n<li>When you make a weapon attack against a creature with a sniper rifle, you can expend one superiority die to add\nit to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of\nthe attack are applied.</li>\n<li>When you damage a creature with a sniper rifle, you can expend one superiority die to add\nit to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution\nsaving throw to maintain concentration, it has disadvantage on that save.</li>\n<li>When you are hit by a melee attack, if you are currently holding a sniper rifle, you can expend one superiority\ndie as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</li>\n</ul>\n",
+    "id": "WOC_sniper-rifles"
+  },
+  {
+    "id": "EXL_angara",
+    "name": "Angara",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "cha"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "resistance",
+        "value": "lightning",
+        "note": "to your hit points"
+      },
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CHA, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>lightning (to your hit points), cold (to your hit points)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-acceptace",
+    "name": "Ardat-Yakshi (Acceptance)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 3,
+        "selections": 3,
+        "max": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-chaste",
+    "name": "Ardat-Yakshi (Chaste)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "dex",
+          "str",
+          "int",
+          "cha",
+          "con"
+        ]
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-embrace",
+    "name": "Ardat-Yakshi (Embrace)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 DEX, +1 CON, +1 INT, +1 WIS, +1 CHA</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_ay-disposition-growing-power",
+    "name": "Ardat-Yakshi (Variant: Growing Power)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lifestage-maiden",
+    "name": "Asari (Maiden)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 2
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CHA, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lifestage-matriarch",
+    "name": "Asari (Matriarch)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS, +1 INT, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lifestage-matron",
+    "name": "Asari (Matron)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS, +1 CHA, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_awakened-collector",
+    "name": "Awakened Collector",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 30,
+        "note": "if you end your movement in the air, you fall to the ground at the end of your turn"
+      },
+      {
+        "type": "resistance",
+        "value": "fall"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 WIS</p><div class=\"text-subtitle-1\">Resistances</div><p>fall</p><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"30\" /> (if you end your movement in the air, you fall to the ground at the end of your turn)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_batarian",
+    "name": "Batarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 DEX, +1 CON, +1 INT, +1 WIS, +1 CHA</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_drell",
+    "name": "Drell",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_elcor",
+    "name": "Elcor",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 STR, +1 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_mobile-platform-hopper",
+    "name": "Geth (Hopper)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "climb",
+        "distance": 20,
+        "note": "equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages."
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 DEX, +2 INT</p><div class=\"text-subtitle-1\">Speeds</div><p>climbing <me-distance length=\"20\" /> (equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages.)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_mobile-platform-juggernaut",
+    "name": "Geth (Juggernaut)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_mobile-platform-trooper",
+    "name": "Geth (Trooper)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hanar",
+    "name": "Hanar",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS, +1 INT</p><div class=\"text-subtitle-1\">Speeds</div><p>swiming <me-distance length=\"30\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_human",
+    "name": "Human",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "cha"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 DEX, +1 CON, +1 INT, +1 WIS, +1 CHA</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_human-variant",
+    "name": "Human (Human Variant)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-anointed",
+    "name": "Kett (Anointed)",
+    "mechanics": [],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-ascendant",
+    "name": "Kett (Ascendant)",
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 4
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"4\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-chosen",
+    "name": "Kett (Chosen)",
+    "mechanics": [],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_exaltation-destined",
+    "name": "Kett (Destined)",
+    "mechanics": [],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_krogan",
+    "name": "Krogan",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CON, +1 STR</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_tankbred",
+    "name": "Krogan (Tank-Bred)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 CON, +1 STR</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-bravery",
+    "name": "Prothean (Bravery)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-humor",
+    "name": "Prothean (Humor)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CHA, +2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-leadership",
+    "name": "Prothean (Leadership)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_prothean-no-avatar",
+    "name": "Prothean (No Avatar)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "sense",
+        "sense": "truesight",
+        "note": "when you take the Search action, lasts until action is resolved"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p><div class=\"text-subtitle-1\">Senses</div><p>truesight <me-distance length=\"undefined\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-sacrifice",
+    "name": "Prothean (Sacrifice)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-strength",
+    "name": "Prothean (Strength)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-tranquility",
+    "name": "Prothean (Tranquility)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_avatar-vengeance",
+    "name": "Prothean (Vengeance)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-cerebral",
+    "name": "Quarian (Cerebral)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 INT, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-muscular",
+    "name": "Quarian (Muscular)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "options": true
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-ocular",
+    "name": "Quarian (Ocular)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "wis",
+          "int"
+        ],
+        "options": true
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 CON</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_cybernetic-augmentation-visceral",
+    "name": "Quarian (Visceral)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +1 INT, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_salarian",
+    "name": "Salarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_lystheni",
+    "name": "Salarian (Lystheni)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "resistance",
+        "value": "poison"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 STR, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>poison</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-combat-officer",
+    "name": "Turian (Combat Officer)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CHA, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-demolitions",
+    "name": "Turian (Demolitions)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-engineering-corps",
+    "name": "Turian (Engineering Corps)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 INT, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-field-medics",
+    "name": "Turian (Field Medics)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 WIS, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-infantry",
+    "name": "Turian (Infantry)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 STR, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_turian-non-hierarchy",
+    "name": "Turian (Non-Hierarchy)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "resistance",
+        "value": "radiant",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CON, +1 DEX</p><div class=\"text-subtitle-1\">Resistances</div><p>radiant (to your hit points)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_military-doctrine-recon",
+    "name": "Turian (Recon)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 DEX, +1 CON, +1 DEX</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hardware-aiu",
+    "name": "Unshackled AI (Alliance Infiltration Unit)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 DEX, +2 INT</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hardware-hologram",
+    "name": "Unshackled AI (Hologram)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+1 CHA, +2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_hardware-loki",
+    "name": "Unshackled AI (LOKI)",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex",
+          "con",
+          "wis",
+          "cha"
+        ],
+        "options": true
+      },
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_volus",
+    "name": "Volus",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 WIS, +1 INT</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-aquatic",
+    "name": "Vorcha (Aquatic)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Speeds</div><p>swiming <me-distance length=\"30\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-desert",
+    "name": "Vorcha (Desert)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON, +1 CON</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-frozen",
+    "name": "Vorcha (Frozen)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "resistance",
+        "value": "cold",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>cold (to your hit points)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-high-gravity",
+    "name": "Vorcha (High-Gravity)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON, +1 STR</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-underground",
+    "name": "Vorcha (Underground)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      },
+      {
+        "type": "sense",
+        "sense": "blindsight",
+        "distance": 30
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" />, blindsight <me-distance length=\"30\" /></p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-volcanic",
+    "name": "Vorcha (Volcanic)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "resistance",
+        "value": "fire",
+        "note": "to your hit points"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Resistances</div><p>fire (to your hit points)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_adaptation-zero-gravity",
+    "name": "Vorcha (Zero-gravity)",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "fly",
+        "distance": 5,
+        "note": "while lifted or in zero-g"
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 DEX, +1 CON</p><div class=\"text-subtitle-1\">Speeds</div><p>flying <me-distance length=\"5\" /> (while lifted or in zero-g)</p>",
+    "type": "exalted-lineages"
+  },
+  {
+    "id": "EXL_yahg",
+    "name": "Yahg",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 60
+      }
+    ],
+    "html": "<div class=\"text-subtitle-1\">Ability Score Increase</div><p>+2 STR, +1 CON</p><div class=\"text-subtitle-1\">Senses</div><p>darkvision <me-distance length=\"60\" /></p>",
+    "type": "exalted-lineages"
+  }
+]

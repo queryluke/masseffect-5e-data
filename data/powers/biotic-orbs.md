@@ -15,6 +15,7 @@ mechanics:
       unit: action
     attack:
       type: ranged
+      wp: power
       proficient: true
     dc: false
     damage:
@@ -58,11 +59,7 @@ advancements:
     name: Retribution
     text: >-
       As a reaction to taking damage, you may expend all of your remaining biotic orbs. For each expended orb, make a ranged power attack on a target you can see within range. You can direct all attacks to hit one creature or several.
-    mechanics:
-      - altCasting:
-          - length: 1
-            unit: reaction
-            reaction: when you suffer damage
+    mechanics: []
 ---
 Summon 3 biotic orbs that float around you, fueling your biotic energies. As an action, you may expend an orb and make a
 ranged power attack on a creature within <me-distance length="90" />. On a hit, deal 2d10 force damage.

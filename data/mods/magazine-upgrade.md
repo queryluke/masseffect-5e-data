@@ -12,4 +12,10 @@ availability:
   - smg
   - shotgun
   - sniper_rifle
+name: Magazine Upgrade
+flavor: Increases magazine capacity, allowing more shots before reload.
+mechanics:
+  - type: weapon-heat-increase
+    multiplier: 0.5
 ---
+The weapon gains additional heat equal to half its base heat (rounded down).
