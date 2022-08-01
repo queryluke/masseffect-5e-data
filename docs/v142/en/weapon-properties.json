@@ -8,7 +8,7 @@
   {
     "is_new": true,
     "name": "Burst Fire",
-    "html": "<p>This weapon can be used to make a normal single-target attack, or can be used to target a <me-distance\nlength=\"10\" adj /> cube within its normal range. Each creature in the area must succeed on a DC 15\nDexterity saving throw or suffer the weapon's normal damage. This action uses 3 heat.</p>\n",
+    "html": "<p>This weapon can be used to make a normal single-target attack, or can be used to target a <me-distance\nlength=\"10\" adj /> cube within its normal range. Each creature in the area must succeed on a\nDexterity saving throw or suffer the weapon's normal damage. The DC of the saving throw is equal to 8 + your Dexterity\nmodifier. Add your proficiency bonus to the DC if you are proficient with the weapon. This action uses 3 heat.</p>\n",
     "id": "burst-fire"
   },
   {
