@@ -1,7 +1,7 @@
 ---
 placement: head
 type: light
-cost: 11000
+cost: 32725
 manufacturer: nexus-exiles
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/6/6f/MEA_Maverick_Ambusher_Helmet.png/revision/latest/scale-to-width-down/350?cb=20180511230908
@@ -10,7 +10,7 @@ tags:
   - set_bonus
 andromeda: true
 set: maverick
-rarity: uncommon
+rarity: rare
 name: Maverick Visor
 flavor: >-
   There's nothing elegant about this patchwork hardsuit. It mixes various

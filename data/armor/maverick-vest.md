@@ -1,7 +1,7 @@
 ---
 placement: chest
 type: light
-cost: 11850
+cost: 31875
 manufacturer: nexus-exiles
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/f/f4/MEA_Maverick_Skirmisher_Chest.png/revision/latest/scale-to-width-down/350?cb=20180511231323
@@ -10,7 +10,7 @@ tags:
   - set_bonus
 andromeda: true
 set: maverick
-rarity: uncommon
+rarity: rare
 name: Maverick Vest
 flavor: >-
   There's nothing elegant about this patchwork hardsuit. It mixes various

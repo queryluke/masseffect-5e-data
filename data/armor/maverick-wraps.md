@@ -1,7 +1,7 @@
 ---
 placement: arms
 type: light
-cost: 5050
+cost: 25925
 manufacturer: nexus-exiles
 image: >-
   https://vignette.wikia.nocookie.net/masseffect/images/d/de/MEA_Maverick_Ambusher_Arms.png/revision/latest/scale-to-width-down/350?cb=20180511230822
@@ -10,7 +10,7 @@ tags:
   - set_bonus
 andromeda: true
 set: maverick
-rarity: uncommon
+rarity: rare
 name: Maverick Wraps
 flavor: >-
   There's nothing elegant about this patchwork hardsuit. It mixes various

@@ -9,7 +9,7 @@ tags:
   - attack_bonus
 andromeda: false
 set: false
-rarity: rare
+rarity: spectre
 name: Umbra Visor
 flavor: >-
   A next-generation night-vision device that assists targeting. By detecting the
