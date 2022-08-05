@@ -15,6 +15,7 @@ subsets:
     html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 2d4 + 2 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
+        layout: attack
         name: Standard Medi-gel
         group: Medi-gel
         resource:
@@ -36,6 +37,7 @@ subsets:
     html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 4d4 + 4 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
+        layout: attack
         group: Medi-gel
         name: Enhanced Medi-gel
         resource:
@@ -57,6 +59,7 @@ subsets:
     html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 8d4 + 8 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
+        layout: attack
         group: Medi-gel
         name: Superior Medi-gel
         resource:
@@ -78,6 +81,7 @@ subsets:
     html: You may administer this medi-gel to yourself or a willing creature within <me-distance length="5" /> to regain 10d4 + 20 hit points. Administering the medi-gel takes an action.
     mechanics:
       - type: action
+        layout: attack
         group: Medi-gel
         name: Ultimate Medi-gel
         resource:

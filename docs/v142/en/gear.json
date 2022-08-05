@@ -4224,6 +4224,7 @@
         "mechanics": [
           {
             "type": "action",
+            "layout": "attack",
             "name": "Standard Medi-gel",
             "group": "Medi-gel",
             "resource": {
@@ -4256,6 +4257,7 @@
         "mechanics": [
           {
             "type": "action",
+            "layout": "attack",
             "group": "Medi-gel",
             "name": "Enhanced Medi-gel",
             "resource": {
@@ -4288,6 +4290,7 @@
         "mechanics": [
           {
             "type": "action",
+            "layout": "attack",
             "group": "Medi-gel",
             "name": "Superior Medi-gel",
             "resource": {
@@ -4320,6 +4323,7 @@
         "mechanics": [
           {
             "type": "action",
+            "layout": "attack",
             "group": "Medi-gel",
             "name": "Ultimate Medi-gel",
             "resource": {
