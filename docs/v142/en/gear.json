@@ -4230,7 +4230,6 @@
               "id": "medi-gel-standard",
               "displayType": "gear-consumable"
             },
-            "shortDesc": "Regain {{ damage }} hit points.",
             "damage": [
               {
                 "dieCount": 2,
@@ -4263,7 +4262,6 @@
               "id": "medi-gel-enhanced",
               "displayType": "gear-consumable"
             },
-            "shortDesc": "Regain {{ damage }} hit points.",
             "damage": [
               {
                 "dieCount": 4,
@@ -4296,7 +4294,6 @@
               "id": "medi-gel-superior",
               "displayType": "gear-consumable"
             },
-            "shortDesc": "Regain {{ damage }} hit points.",
             "damage": [
               {
                 "dieCount": 8,
@@ -4329,7 +4326,6 @@
               "id": "medi-gel-ultimate",
               "displayType": "gear-consumable"
             },
-            "shortDesc": "Regain {{ damage }} hit points.",
             "damage": [
               {
                 "dieCount": 10,

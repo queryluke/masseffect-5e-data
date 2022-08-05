@@ -20,7 +20,6 @@ subsets:
         resource:
           id: medi-gel-standard
           displayType: gear-consumable
-        shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 2
             dieType: 4
@@ -42,7 +41,6 @@ subsets:
         resource:
           id: medi-gel-enhanced
           displayType: gear-consumable
-        shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 4
             dieType: 4
@@ -64,7 +62,6 @@ subsets:
         resource:
           id: medi-gel-superior
           displayType: gear-consumable
-        shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 8
             dieType: 4
@@ -86,7 +83,6 @@ subsets:
         resource:
           id: medi-gel-ultimate
           displayType: gear-consumable
-        shortDesc: Regain {{ damage }} hit points.
         damage:
           - dieCount: 10
             dieType: 4
