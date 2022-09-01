@@ -12,15 +12,13 @@
 
 # resource (e.g., x per rest)
 resource:
-  displayType: enum [heat, counter, checkbox, hit-dice, omni-gel, barrier, barrier-ticks, medi-gel] # default checkbox
-  medigelType: string # medigel only
-  reset: enum [short, long, manual, off] # 'manual' will display a "reload" button, default long, "off" will have no toggles
+  displayType: enum [heat, counter, checkbox, hit-dice, omni-gel, barrier-ticks, gear-consumable] # default checkbox
+  reset: enum [short, long, manual, off, cast] # 'manual' will display a "reload" button, default long, "off" will have no toggles
   resetTo: enum [min, max] #optional, default min
   max: @bonus
   increment: integer # default 1, for when a single click uses 2
   id: string # a uuid to track the resources. Allows for sharing resources
   label: string #default is '/ [short or long] rest'
-  trigger: enum [shield-regen]
 
 toggle:
   id: string # toggleable id
