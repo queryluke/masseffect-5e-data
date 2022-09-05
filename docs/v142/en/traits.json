@@ -892,9 +892,13 @@
     ],
     "mechanics": [
       {
-        "type": "model",
-        "model": "power",
+        "type": "powers",
         "value": "overload",
+        "provider": {
+          "model": "species",
+          "id": "kett"
+        },
+        "castAt": 1,
         "resource": {
           "max": {
             "type": "flat",
@@ -902,9 +906,7 @@
           },
           "id": "electromagnetic-blast"
         },
-        "append": {
-          "mod": "wis"
-        }
+        "mod": "wis"
       }
     ],
     "html": "<p>You know the Overload power and it doesn’t count against your powers known or\nprepared. Once per long rest, you may cast a 1-tech-point version of it. Wisdom\nis your powercasting modifier for it.</p>\n<p>You cannot learn an advancement for it, but you may prepare another version of\nOverload with advancements as you class permits.</p>\n",

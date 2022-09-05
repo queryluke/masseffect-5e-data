@@ -3,15 +3,17 @@ name: Electromagnetic Blast
 species:
   - exaltation-ascendant
 mechanics:
-  - type: model
-    model: power
+  - type: powers
     value: overload
+    provider:
+      model: species
+      id: kett
+    castAt: 1
     resource:
       max:
         type: flat
         value: 1
-    append:
-      mod: wis
+    mod: wis
 ---
 You know the Overload power and it doesn’t count against your powers known or
 prepared. Once per long rest, you may cast a 1-tech-point version of it. Wisdom
