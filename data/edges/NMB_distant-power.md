@@ -1,5 +1,5 @@
 ---
-name: Careful Power
+name: Distant Power
 mechanics:
   - type: other
     resource:
