@@ -20,7 +20,7 @@ often, the operatives spend time trying to solve a puzzle, bypass an obstacle, f
 current situation. All along, the operatives explore the galaxy, making decisions about which way to travel and what
 they’ll try to do next.
 
-Aissions vary in length and complexity. A short mission might present only a few challenges, and it might take no
+Missions vary in length and complexity. A short mission might present only a few challenges, and it might take no
 more than a single game session to complete. A long mission can involve hundreds of combats, interactions, and other
 challenges, and take dozens of sessions to play through, stretching over weeks or months of real time. Usually, the end
 of a mission is marked by the operatives heading back to some form of 'home base' to rest and enjoy the spoils of
