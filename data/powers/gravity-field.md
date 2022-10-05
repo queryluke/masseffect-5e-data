@@ -40,9 +40,9 @@ advancements:
     text: A creature takes 1d6 necrotic damage per power level when it enters the gravity field for the first time on a turn or ends its turn there.
     mechanics:
       - damage:
-          dieCount: 1
-          dieType: 6
-          type: necrotic
+          - dieCount: 1
+            dieType: 6
+            type: necrotic
 ---
 You create a field of unstable gravity in a <me-distance length="15" adj/> cube starting from a point within range.  For the duration, this
 space becomes difficult terrain.
