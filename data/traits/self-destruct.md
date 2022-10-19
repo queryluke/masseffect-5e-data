@@ -35,7 +35,7 @@ After you use your this trait, you cannot do so again until you’ve successfull
 The process takes 4 hours and 5,000 credits worth of explosives.
 
 ##### Variant: Aftermath
-After you use your this trait, roll a d8 and consult the Self Destruct Aftermath table. The result of the d8
+After you use this trait, roll a d8 and consult the Self Destruct Aftermath table. The result of the d8
 indicates the parts of your hardware that are irreparable and must be replaced. When you are stabilized or healed you
 suffer the effect listed in the table which persists until you can purchase or find replacement parts and install them.
 Typically installation requires 4 hours of work and a successful DC 15 Intelligence (Engineering) or (Electronics) check.
