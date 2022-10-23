@@ -7,7 +7,7 @@ bonuses:
     mechanics:
       - type: attack-augment
         attackLimit:
-          model: weapon
+          model: power
         augmentTypes: [dc, hit]
         bonus:
           type: flat
