@@ -45,30 +45,17 @@ advancements:
     text: Lance deals an additional 2d4 lightning damage. This damage increases by 2d4 for each power slot level above the first.
     mechanics:
       - damage:
-          - {}
-          - dieCount: 2
-            dieType: 4
-            type: lightning
+          - dieCount: [3, 2]
+            dieType: [8, 4]
+            type: [force, lightning]
       - damage:
-          - {}
-          - dieCount: 4
-            dieType: 4
-            type: lightning
+          - dieCount: [5, 4]
       - damage:
-          - {}
-          - dieCount: 6
-            dieType: 4
-            type: lightning
+          - dieCount: [7, 6]
       - damage:
-          - {}
-          - dieCount: 8
-            dieType: 4
-            type: lightning
+          - dieCount: [9, 8]
       - damage:
-          - {}
-          - dieCount: 10
-            dieType: 4
-            type: lightning
+          - dieCount: [11, 10]
   - id: improved-damage
     name: Improved Damage
     text: Increase the damage die type to d12.
