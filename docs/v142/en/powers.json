@@ -3936,7 +3936,9 @@
             "damage": [
               {},
               {
-                "dieCount": 4
+                "dieCount": 4,
+                "dieType": 4,
+                "type": "lightning"
               }
             ]
           },
@@ -3944,7 +3946,9 @@
             "damage": [
               {},
               {
-                "dieCount": 6
+                "dieCount": 6,
+                "dieType": 4,
+                "type": "lightning"
               }
             ]
           },
@@ -3952,7 +3956,9 @@
             "damage": [
               {},
               {
-                "dieCount": 8
+                "dieCount": 8,
+                "dieType": 4,
+                "type": "lightning"
               }
             ]
           },
@@ -3960,7 +3966,9 @@
             "damage": [
               {},
               {
-                "dieCount": 10
+                "dieCount": 10,
+                "dieType": 4,
+                "type": "lightning"
               }
             ]
           }

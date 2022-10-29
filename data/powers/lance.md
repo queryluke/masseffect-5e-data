@@ -52,15 +52,23 @@ advancements:
       - damage:
           - {}
           - dieCount: 4
+            dieType: 4
+            type: lightning
       - damage:
           - {}
           - dieCount: 6
+            dieType: 4
+            type: lightning
       - damage:
           - {}
           - dieCount: 8
+            dieType: 4
+            type: lightning
       - damage:
           - {}
           - dieCount: 10
+            dieType: 4
+            type: lightning
   - id: improved-damage
     name: Improved Damage
     text: Increase the damage die type to d12.
