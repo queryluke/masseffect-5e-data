@@ -363,7 +363,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or drop an object you choose."
@@ -391,7 +396,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to give your allies an opening. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
@@ -419,7 +429,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "Your next melee attack roll on a target within <me-distance length=\"2\" abbr /> has advantage. If that attack hits, add <strong>{{ damage }}</strong> to the attack’s damage roll."
@@ -456,7 +471,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to goad the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save or have disadvantage on all attack rolls against targets other than you until the end of your next turn."
@@ -493,7 +513,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to lift it. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Medium or smaller, it must succeed on a <strong>DC {{ dc }} DEX</strong> save or become lifted until the end of your next turn."
@@ -530,7 +555,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to frighten the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save or becomes <me-condition id=\"frightened\" /> of your until the end of your next turn."
@@ -567,7 +597,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Large or smaller, if must succeed on a <strong>DC {{ dc }} STR</strong> save or be pushed up to <me-distance length=\"20\" /> away from you."
@@ -595,7 +630,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee attack against the creature. If you hit, you add <strong>{{ damage }}</strong> to the attack’s damage roll."
@@ -623,7 +663,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie",
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            },
             "type": "force"
           }
         ],
@@ -661,7 +706,12 @@
         },
         "damage": [
           {
-            "dieCount": "barrierDie"
+            "dieCount": {
+              "type": "barrierDieCount"
+            },
+            "dieType": {
+              "type": "barrierDieType"
+            }
           }
         ],
         "shortDesc": "When you hit a creature with a melee attack, you can expend one barrier tick to disarm the target. Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} STR</strong> save or become <me-condition id=\"prone\" />."

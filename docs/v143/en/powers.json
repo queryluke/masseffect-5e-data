@@ -3924,59 +3924,56 @@
         "mechanics": [
           {
             "damage": [
+              {},
               {
-                "dieCount": [
-                  3,
-                  2
-                ],
-                "dieType": [
-                  8,
-                  4
-                ],
-                "type": [
-                  "force",
-                  "lightning"
-                ]
+                "dieCount": 2,
+                "dieType": 4,
+                "type": "lightning",
+                "addTo": "base"
               }
             ]
           },
           {
             "damage": [
+              {},
               {
-                "dieCount": [
-                  5,
-                  4
-                ]
+                "dieCount": 4,
+                "dieType": 4,
+                "type": "lightning",
+                "addTo": "base"
               }
             ]
           },
           {
             "damage": [
+              {},
               {
-                "dieCount": [
-                  7,
-                  6
-                ]
+                "dieCount": 6,
+                "dieType": 4,
+                "type": "lightning",
+                "addTo": "base"
               }
             ]
           },
           {
             "damage": [
+              {},
               {
-                "dieCount": [
-                  9,
-                  8
-                ]
+                "dieCount": 8,
+                "dieType": 4,
+                "type": "lightning",
+                "addTo": "base"
               }
             ]
           },
           {
             "damage": [
+              {},
               {
-                "dieCount": [
-                  11,
-                  10
-                ]
+                "dieCount": 10,
+                "dieType": 4,
+                "type": "lightning",
+                "addTo": "base"
               }
             ]
           }
@@ -4428,7 +4425,10 @@
         },
         "damage": [
           {
-            "dieCount": "barrierRemaining",
+            "dieCount": {
+              "type": "barrierTicks",
+              "value": "current"
+            },
             "dieType": 8,
             "type": "force"
           }
@@ -4452,21 +4452,57 @@
       {
         "damage": [
           {
-            "dieCount": "barrierRemaining + 1"
+            "dieCount": {
+              "type": "multi",
+              "value": [
+                {
+                  "type": "barrierTicks",
+                  "value": "current"
+                },
+                {
+                  "type": "flat",
+                  "value": 1
+                }
+              ]
+            }
           }
         ]
       },
       {
         "damage": [
           {
-            "dieCount": "barrierRemaining + 2"
+            "dieCount": {
+              "type": "multi",
+              "value": [
+                {
+                  "type": "barrierTicks",
+                  "value": "current"
+                },
+                {
+                  "type": "flat",
+                  "value": 2
+                }
+              ]
+            }
           }
         ]
       },
       {
         "damage": [
           {
-            "dieCount": "barrierRemaining + 3"
+            "dieCount": {
+              "type": "multi",
+              "value": [
+                {
+                  "type": "barrierTicks",
+                  "value": "current"
+                },
+                {
+                  "type": "flat",
+                  "value": 3
+                }
+              ]
+            }
           }
         ]
       }

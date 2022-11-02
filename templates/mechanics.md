@@ -53,14 +53,17 @@ bonus:
     # mod = string (abilities)
     # proficiency = null
     # level = null (for all levels), or string (klass-id) for klass levels
-    # hp = null
+    # hp = max, current # TODO
     # progressive = object { [level]: value }
     # modComparison = array of abilities
     # dice = object { dieCount: @bonus, dieType: @bonus }
-    # TODO
     # powercastingMod = string, klass-id
     # resource = string, resource-id
     # multi = array of bonus
+    # barrierDieCount = null
+    # barrierDieType = null
+    # barrierTicks = max, current
+    # shields = max, current
   multiplier: float
   min: integer # default 0
   round: up or down, default down
@@ -82,13 +85,11 @@ attackLimit:
   special: twf, bf, dt
 
 damage:
-  dieCount: integer (0 = special)
-  dieType: integer
+  dieCount: integer or @bonus
+  dieType: integer or @bonus
   mod: enum [str, dex, con, int, wis, cha, max] # optional
-  modComparison: enum [abilities] #required for max mod
   type: enum [damage types] or hp, sp, tempHp
   bonus: @bonus
-  addDamage: @damage
 
 # used for looking up player selections
 # in theory, all selections are:

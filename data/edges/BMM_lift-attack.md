@@ -14,7 +14,10 @@ mechanics:
         value: vanguard
       save: dex
     damage:
-      - dieCount: barrierDie
+      - dieCount:
+          type: barrierDieCount
+        dieType:
+          type: barrierDieType
     shortDesc: >-
       When you hit a creature with a melee attack, you can expend one barrier tick to lift it.
       Add <strong>{{ damage }}</strong> to the attack’s damage roll. If the target is Medium or smaller,

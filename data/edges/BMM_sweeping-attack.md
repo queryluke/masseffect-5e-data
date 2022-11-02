@@ -7,7 +7,10 @@ mechanics:
       displayType: barrier-ticks
       label: 'Barrier Ticks'
     damage:
-      - dieCount: barrierDie
+      - dieCount:
+          type: barrierDieCount
+        dieType:
+          type: barrierDieType
         type: force
     shortDesc: >-
       When you hit a creature with a melee attack, you can expend one barrier tick to attempt to damage another creature.

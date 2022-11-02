@@ -7,7 +7,10 @@ mechanics:
       displayType: barrier-ticks
       label: 'Barrier Ticks'
     damage:
-      - dieCount: barrierDie
+      - dieCount:
+          type: barrierDieCount
+        dieType:
+          type: barrierDieType
     shortDesc: >-
       When you hit a creature with a melee attack, you can expend one barrier tick to give your allies an opening.
       Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the next attack roll against the target by an

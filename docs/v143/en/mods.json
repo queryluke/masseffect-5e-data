@@ -1419,7 +1419,8 @@
         "addDamage": {
           "dieCount": 1,
           "dieType": 8,
-          "type": "thunder"
+          "type": "thunder",
+          "addTo": "all"
         },
         "heatConsumption": 2,
         "toggle": true,
@@ -2134,7 +2135,8 @@
           {
             "dieCount": 1,
             "dieType": 4,
-            "type": "fire"
+            "type": "fire",
+            "addTo": "all"
           }
         ],
         "toggle": true,
@@ -2672,7 +2674,8 @@
         "addDamage": {
           "dieCount": 2,
           "dieType": 10,
-          "type": "radiant"
+          "type": "radiant",
+          "addTo": "all"
         }
       },
       {
@@ -3493,7 +3496,8 @@
         "addDamage": {
           "dieCount": 3,
           "dieType": 6,
-          "type": "thunder"
+          "type": "thunder",
+          "addTo": "all"
         },
         "notes": [
           {
