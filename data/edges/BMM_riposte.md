@@ -7,7 +7,10 @@ mechanics:
       displayType: barrier-ticks
       label: 'Barrier Ticks'
     damage:
-      - dieCount: barrierDie
+      - dieCount:
+          type: barrierDieCount
+        dieType:
+          type: barrierDieType
     shortDesc: >-
       When a creature misses you with a melee attack, you can use your reaction and expend one barrier tick to make a melee
       attack against the creature. If you hit, you add <strong>{{ damage }}</strong> to the attack’s damage roll.

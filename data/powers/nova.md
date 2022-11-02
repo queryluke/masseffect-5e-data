@@ -17,7 +17,9 @@ mechanics:
       proficient: true
       save: dex
     damage:
-      - dieCount: barrierRemaining
+      - dieCount:
+          type: barrierTicks
+          value: current
         dieType: 8
         type: force
     conditions: false
@@ -33,11 +35,29 @@ mechanics:
     detonates: true
     primes: false
   - damage:
-      - dieCount: barrierRemaining + 1
+      - dieCount:
+          type: multi
+          value:
+            - type: barrierTicks
+              value: current
+            - type: flat
+              value: 1
   - damage:
-      - dieCount: barrierRemaining + 2
+      - dieCount:
+          type: multi
+          value:
+            - type: barrierTicks
+              value: current
+            - type: flat
+              value: 2
   - damage:
-      - dieCount: barrierRemaining + 3
+      - dieCount:
+          type: multi
+          value:
+            - type: barrierTicks
+              value: current
+            - type: flat
+              value: 3
 advancements:
   - id: improved-damage
     name: Improved Damage

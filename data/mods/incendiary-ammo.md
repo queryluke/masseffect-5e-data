@@ -25,6 +25,7 @@ mechanics:
       - dieCount: 1
         dieType: 4
         type: fire
+        addTo: all
     toggle: true
     name: Incendiary Ammo
 ---

@@ -14,7 +14,10 @@ mechanics:
         value: vanguard
       save: wis
     damage:
-      - dieCount: barrierDie
+      - dieCount:
+          type: barrierDieCount
+        dieType:
+          type: barrierDieType
     shortDesc: >-
       When you hit a creature with a melee attack, you can expend one barrier tick to goad the target.
       Add <strong>{{ damage }}</strong> to the attack’s damage roll, and the target must succeed on a <strong>DC {{ dc }} WIS</strong> save

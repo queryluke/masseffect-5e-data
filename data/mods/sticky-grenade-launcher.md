@@ -21,6 +21,7 @@ mechanics:
       dieCount: 3
       dieType: 6
       type: thunder
+      addTo: all
     notes:
       - type: tooltip
         text: 'Miss: explosion'

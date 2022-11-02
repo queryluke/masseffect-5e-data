@@ -7,7 +7,10 @@ mechanics:
       displayType: barrier-ticks
       label: 'Barrier Ticks'
     damage:
-      - dieCount: barrierDie
+      - dieCount:
+          type: barrierDieCount
+        dieType:
+          type: barrierDieType
     shortDesc: >-
       Your next melee attack roll on a target within <me-distance length="2" abbr /> has advantage.
       If that attack hits, add <strong>{{ damage }}</strong> to the attack’s damage roll.

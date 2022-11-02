@@ -20,6 +20,7 @@ mechanics:
       dieCount: 1
       dieType: 8
       type: thunder
+      addTo: all
     heatConsumption: 2
     toggle: true
     name: Explosive Ammo

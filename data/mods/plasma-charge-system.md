@@ -29,6 +29,7 @@ mechanics:
       dieCount: 2
       dieType: 10
       type: radiant
+      addTo: all
   - type: adjust-weapon-props
     remove: [burst-fire, double-tap]
 ---
