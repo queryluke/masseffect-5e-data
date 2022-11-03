@@ -15,7 +15,7 @@ and Persuasion skills reflect aptitude in certain kinds of Charisma checks (see 
   - Blend into a crowd to get a sense of key topics of conversation
 
 ### Reputation Ability
-Your Paragon and Renegade benefits use Charisma to determine saving throw DCs.
+When setting the saving throw DC of a reputation benefit. The DC = __8 + your proficiency bonus + your Charisma modifier__.
 
 ### Powercasting Ability
 In Mass Effect 5e, Charisma is not used as a powercasting ability. The debate about which classes should
