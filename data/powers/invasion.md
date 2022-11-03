@@ -84,7 +84,7 @@ Unleash a VI-controlled machine swarm at a creature or object within range. Two 
 to as many as two other targets, each of which must be within <me-distance length="15" /> of the first target. A target can be a creature or an
 object and can be targeted by only one of the swarms.
 
-A target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic and has disadvantage on
+A target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic damage and has disadvantage on
 attack rolls until the power ends. A creature affected by the swarm can use its action to make a Constitution check
 against your power save DC. On a success, it breaks free of the swarm.
 
