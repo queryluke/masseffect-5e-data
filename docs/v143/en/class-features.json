@@ -2553,8 +2553,12 @@
               }
             },
             {
-              "type": "action",
+              "type": "attack",
               "name": "Omni-Shield Attack",
+              "modelType": {
+                "model": "weapon",
+                "type": "melee"
+              },
               "range": {
                 "short": 5
               },
@@ -2591,7 +2595,7 @@
       }
     ],
     "name": "Omni-Shield",
-    "html": "<p>Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool. You can end Omni-shield at any point as a free action.</p>\n<p>While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 1d12 bludgeoning damage and you may shove the creature <me-distance length=\"5\" />.</li>\n</ul>\n",
+    "html": "<p>Starting at 3rd level, you've mastered the omni-shield. As a bonus action, create a large kinetic shield out\nof your omni-tool. You can end Omni-shield at any point as a free action.</p>\n<p>While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instead, gain the following:</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>You can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 1d12 bludgeoning damage and you may shove the creature <me-distance length=\"5\" />.</li>\n</ul>\n",
     "id": "omni-shield-1"
   },
   {
@@ -2625,8 +2629,12 @@
                 "name": "Omni-Shield",
                 "whenOn": [
                   {
-                    "type": "action",
+                    "type": "attack",
                     "name": "Omni-Shield Attack",
+                    "modelType": {
+                      "model": "weapon",
+                      "type": "melee"
+                    },
                     "range": {
                       "short": 5
                     },
@@ -2665,8 +2673,12 @@
                 "name": "Fire Shield",
                 "whenOn": [
                   {
-                    "type": "action",
+                    "type": "attack",
                     "name": "Fire-Shield Attack",
+                    "modelType": {
+                      "model": "weapon",
+                      "type": "melee"
+                    },
                     "range": {
                       "short": 5
                     },
@@ -2696,10 +2708,12 @@
                     "moreInfo": {
                       "model": "class-features",
                       "id": "omni-shield-1",
-                      "additional": {
-                        "model": "class-features",
-                        "id": "omni-shield-2"
-                      }
+                      "additional": [
+                        {
+                          "model": "class-features",
+                          "id": "omni-shield-2"
+                        }
+                      ]
                     }
                   }
                 ]
@@ -2709,8 +2723,12 @@
                 "name": "Cryo Shield",
                 "whenOn": [
                   {
-                    "type": "action",
+                    "type": "attack",
                     "name": "Cryo-Shield Attack",
+                    "modelType": {
+                      "model": "weapon",
+                      "type": "melee"
+                    },
                     "range": {
                       "short": 5
                     },
@@ -2747,10 +2765,12 @@
                     "moreInfo": {
                       "model": "class-features",
                       "id": "omni-shield-1",
-                      "additional": {
-                        "model": "class-features",
-                        "id": "omni-shield-2"
-                      }
+                      "additional": [
+                        {
+                          "model": "class-features",
+                          "id": "omni-shield-2"
+                        }
+                      ]
                     }
                   }
                 ]
@@ -2760,7 +2780,7 @@
         }
       }
     ],
-    "html": "<p>Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.</p>\n<p><strong>Fire Shield</strong>.</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 4d10 fire damage and detonates primed targets.</li>\n</ul>\n<p><strong>Cryo Shield</strong>.</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become <me-condition id=\"frozen\"/> until the end its next turn.</li>\n</ul>\n",
+    "html": "<p>Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.</p>\n<p><strong>Fire Shield</strong>.</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>You can make a melee weapon attack with your fire shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 4d10 fire damage and detonates primed targets.</li>\n</ul>\n<p><strong>Cryo Shield</strong>.</p>\n<ul>\n<li>+1 AC.</li>\n<li>If a creature within <me-distance length=\"5\" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.</li>\n<li>You can make a melee weapon attack with your cryo shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.\nOn a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become <me-condition id=\"frozen\"/> until the end its next turn.</li>\n</ul>\n",
     "id": "omni-shield-2"
   },
   {

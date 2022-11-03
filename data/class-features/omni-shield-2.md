@@ -20,8 +20,11 @@ mechanics:
           - id: omni-shield
             name: Omni-Shield
             whenOn:
-              - type: action
+              - type: attack
                 name: Omni-Shield Attack
+                modelType:
+                  model: weapon
+                  type: melee
                 range:
                   short: 5
                 attack:
@@ -46,8 +49,11 @@ mechanics:
           - id: fire-shield
             name: Fire Shield
             whenOn:
-              - type: action
+              - type: attack
                 name: Fire-Shield Attack
+                modelType:
+                  model: weapon
+                  type: melee
                 range:
                   short: 5
                 attack:
@@ -70,13 +76,16 @@ mechanics:
                   model: class-features
                   id: omni-shield-1
                   additional:
-                    model: class-features
-                    id: omni-shield-2
+                    - model: class-features
+                      id: omni-shield-2
           - id: cryo-shield
             name: Cryo Shield
             whenOn:
-              - type: action
+              - type: attack
                 name: Cryo-Shield Attack
+                modelType:
+                  model: weapon
+                  type: melee
                 range:
                   short: 5
                 attack:
@@ -104,19 +113,19 @@ mechanics:
                   model: class-features
                   id: omni-shield-1
                   additional:
-                    model: class-features
-                    id: omni-shield-2
+                    - model: class-features
+                      id: omni-shield-2
 ---
 Starting at 14th level, you can transform your omni-shield into a fire shield or cryo shield.
 
 __Fire Shield__.
 * +1 AC.
 * If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
-* As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
+* You can make a melee weapon attack with your fire shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
 On a hit, it deals 4d10 fire damage and detonates primed targets.
 
 __Cryo Shield__.
 * +1 AC.
 * If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
-* As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
+* You can make a melee weapon attack with your cryo shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
 On a hit, it deals 2d8 cold damage and detonates primed targets and the target must succeed on a Strength saving throw against your powercasting DC or become <me-condition id="frozen"/> until the end its next turn.

@@ -19,8 +19,11 @@ mechanics:
           moreInfo:
             model: class-features
             id: omni-shield-1
-        - type: action
+        - type: attack
           name: Omni-Shield Attack
+          modelType:
+            model: weapon
+            type: melee
           range:
             short: 5
           attack:
@@ -51,5 +54,5 @@ While Omni-Shield is deployed you cannot use another omni-* melee weapon. Instea
 
 * +1 AC.
 * If a creature within <me-distance length="5" /> of you is attacked, you may use your reaction to impose disadvantage on that attack.
-* As an action, you can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
+* You can make a melee weapon attack with your omni-shield. You are proficient with this attack and add your powercasting modifier to the attack and damage rolls.
 On a hit, it deals 1d12 bludgeoning damage and you may shove the creature <me-distance length="5" />.
