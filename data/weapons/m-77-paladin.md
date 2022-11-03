@@ -1,4 +1,5 @@
 ---
+name: M-77 Paladin
 rarity: spectre
 type: heavy_pistol
 cost: 55500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - double-tap
   - light
+slots: 1
 ---

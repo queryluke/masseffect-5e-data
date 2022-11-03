@@ -1,4 +1,5 @@
 ---
+name: M-96 Mattock
 rarity: uncommon
 type: assault_rifle
 cost: 14500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - double-tap
   - two-handed
+slots: 2
 ---

@@ -1,4 +1,5 @@
 ---
+name: N7 Piranha
 rarity: uncommon
 type: shotgun
 cost: 15000
@@ -16,4 +17,7 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---
+When fired make a single attack roll against all creatures in a <me-distance length="10" /> cone. 
+All creatures with AC less than the attack are hit.

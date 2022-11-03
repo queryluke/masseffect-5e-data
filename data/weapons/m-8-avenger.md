@@ -1,4 +1,5 @@
 ---
+name: M-8 Avenger
 rarity: common
 type: assault_rifle
 cost: 7500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - burst-fire
   - two-handed
+slots: 2
 ---

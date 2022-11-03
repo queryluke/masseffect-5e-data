@@ -1,4 +1,5 @@
 ---
+name: M-90 Indra
 rarity: spectre
 type: sniper_rifle
 cost: 59000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - two-handed
   - burst-fire
+slots: 2
 ---

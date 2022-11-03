@@ -1,4 +1,5 @@
 ---
+name: Pathfinder Observer
 rarity: rare
 type: sniper_rifle
 cost: 39000
@@ -14,4 +15,8 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/0/0c/Pathfinder-Obs
 andromeda: false
 properties:
   - two-handed
+slots: 2
 ---
+Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to 
+subsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus 
+resets to 0.

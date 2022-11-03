@@ -1,4 +1,5 @@
 ---
+name: Acolyte
 rarity: uncommon
 type: heavy_pistol
 cost: 13500
@@ -14,4 +15,8 @@ image: https://vignette3.wikia.nocookie.net/masseffect/images/b/b9/ME3_Acolyte_P
 andromeda: false
 properties:
   - light
+slots: 1
 ---
+Damage done by this weapon cannot be reduced by using barrier ticks. Use a bonus action to charge 
+the weapon before firing, consuming 2 heat. On a hit, it deals an additional 2d6 force 
+damage.

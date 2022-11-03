@@ -1,4 +1,5 @@
 ---
+name: Sidewinder
 rarity: rare
 type: heavy_pistol
 cost: 36500
@@ -14,4 +15,5 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_Sidewinder
 andromeda: true
 properties:
   - double-tap
+slots: 1
 ---

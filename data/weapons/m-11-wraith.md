@@ -1,4 +1,5 @@
 ---
+name: M-11 Wraith
 rarity: rare
 type: shotgun
 cost: 40500
@@ -16,4 +17,5 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---

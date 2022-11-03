@@ -1,4 +1,5 @@
 ---
+name: Chakram Launcher
 rarity: uncommon
 type: assault_rifle
 cost: 14500
@@ -15,4 +16,7 @@ andromeda: false
 properties:
   - recoil
   - two-handed
+slots: 2
 ---
+Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an 
+additional 1d8 piercing and 2d4 thunder damage.

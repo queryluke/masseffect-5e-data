@@ -1,4 +1,5 @@
 ---
+name: M-358 Talon
 rarity: spectre
 type: heavy_pistol
 cost: 57000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - double-tap
   - light
+slots: 1
 ---

@@ -1,4 +1,5 @@
 ---
+name: M-4 Shuriken
 rarity: common
 type: smg
 cost: 8000
@@ -16,4 +17,5 @@ properties:
   - hip-fire
   - burst-fire
   - light
+slots: 1
 ---

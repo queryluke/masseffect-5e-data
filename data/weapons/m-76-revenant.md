@@ -1,4 +1,5 @@
 ---
+name: M-76 Revenant
 rarity: uncommon
 type: assault_rifle
 cost: 17500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - burst-fire
   - two-handed
+slots: 2
 ---

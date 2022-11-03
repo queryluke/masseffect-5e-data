@@ -1,4 +1,5 @@
 ---
+name: Krysae Sniper Rifle
 rarity: uncommon
 type: sniper_rifle
 cost: 15000
@@ -16,4 +17,6 @@ properties:
   - two-handed
   - hip-fire
   - double-tap
+slots: 2
 ---
++2 damage to synth-organic enemies

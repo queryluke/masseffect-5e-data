@@ -1,4 +1,5 @@
 ---
+name: Soned
 rarity: spectre
 type: assault_rifle
 cost: 60000
@@ -15,4 +16,5 @@ andromeda: true
 properties:
   - two-handed
   - heavy
+slots: 2
 ---

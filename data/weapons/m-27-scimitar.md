@@ -1,4 +1,5 @@
 ---
+name: M-27 Scimitar
 rarity: common
 type: shotgun
 cost: 8000
@@ -17,4 +18,5 @@ properties:
   - hip-fire
   - double-tap
   - recoil
+slots: 2
 ---

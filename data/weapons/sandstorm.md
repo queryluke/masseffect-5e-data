@@ -1,4 +1,5 @@
 ---
+name: Sandstorm
 rarity: rare
 type: assault_rifle
 cost: 37500
@@ -15,4 +16,5 @@ andromeda: true
 properties:
   - double-tap
   - two-handed
+slots: 2
 ---

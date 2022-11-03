@@ -1,4 +1,5 @@
 ---
+name: M-12 Locust
 rarity: rare
 type: smg
 cost: 37500
@@ -16,4 +17,5 @@ properties:
   - hip-fire
   - burst-fire
   - light
+slots: 1
 ---

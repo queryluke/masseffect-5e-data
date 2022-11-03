@@ -1,4 +1,5 @@
 ---
+name: M-15 Vindicator
 rarity: uncommon
 type: assault_rifle
 cost: 15500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - burst-fire
   - two-handed
+slots: 2
 ---

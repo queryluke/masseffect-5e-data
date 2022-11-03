@@ -1,4 +1,5 @@
 ---
+name: M-22 Eviscerator
 rarity: uncommon
 type: shotgun
 cost: 19000
@@ -16,4 +17,5 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---

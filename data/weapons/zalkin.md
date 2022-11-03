@@ -1,4 +1,5 @@
 ---
+name: Zalkin
 rarity: uncommon
 type: assault_rifle
 cost: 15000
@@ -15,4 +16,5 @@ andromeda: true
 properties:
   - two-handed
   - double-tap
+slots: 2
 ---

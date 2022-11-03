@@ -1,4 +1,5 @@
 ---
+name: M-25 Hornet
 rarity: uncommon
 type: smg
 cost: 15000
@@ -17,4 +18,5 @@ properties:
   - hip-fire
   - burst-fire
   - light
+slots: 1
 ---

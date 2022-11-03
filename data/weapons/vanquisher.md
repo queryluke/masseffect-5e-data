@@ -1,4 +1,5 @@
 ---
+name: Vanquisher
 rarity: uncommon
 type: sniper_rifle
 cost: 17000
@@ -14,4 +15,5 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/e/e8/MEA_Vanquisher
 andromeda: true
 properties:
   - two-handed
+slots: 2
 ---

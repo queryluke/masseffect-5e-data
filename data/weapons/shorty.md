@@ -1,4 +1,5 @@
 ---
+name: Shorty
 rarity: spectre
 type: shotgun
 cost: 61000
@@ -18,4 +19,5 @@ properties:
   - recoil
   - hip-fire
   - burst-fire
+slots: 2
 ---

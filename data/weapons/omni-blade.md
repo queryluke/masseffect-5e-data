@@ -1,4 +1,5 @@
 ---
+name: Omni-Blade
 rarity: common
 type: melee
 cost: 7500
@@ -16,4 +17,7 @@ properties:
   - light
   - finesse
   - special
+slots: 0
 ---
+Drawing the Omni-Blade is a free action. Having this weapon equipped does not require a weapon 
+slot.

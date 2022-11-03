@@ -1,4 +1,5 @@
 ---
+name: Rozerad
 rarity: spectre
 type: smg
 cost: 57500
@@ -15,4 +16,5 @@ andromeda: true
 properties:
   - burst-fire
   - double-tap
+slots: 1
 ---

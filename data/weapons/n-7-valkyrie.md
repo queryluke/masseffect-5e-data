@@ -1,4 +1,5 @@
 ---
+name: N7 Valkyrie
 rarity: rare
 type: assault_rifle
 cost: 39000
@@ -14,4 +15,5 @@ image: https://vignette1.wikia.nocookie.net/masseffect/images/0/08/ME3_N7_Valkyr
 andromeda: false
 properties:
   - two-handed
+slots: 2
 ---

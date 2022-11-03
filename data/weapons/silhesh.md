@@ -1,4 +1,5 @@
 ---
+name: Silhesh
 rarity: spectre
 type: heavy_pistol
 cost: 53500
@@ -15,4 +16,7 @@ andromeda: true
 properties:
   - double-tap
   - light
+slots: 1
 ---
+Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see 
+the target.

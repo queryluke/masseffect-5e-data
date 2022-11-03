@@ -1,4 +1,5 @@
 ---
+name: Kishock Harpoon Gun
 rarity: rare
 type: sniper_rifle
 cost: 40500
@@ -14,4 +15,8 @@ image: https://vignette4.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_H
 andromeda: false
 properties:
   - two-handed
+slots: 2
 ---
+A target hit by this weapon makes a Constitution (DC 13) saving throw. On a failed save, the target 
+takes an additional 3d6 damage at the start of their turn due to blood loss (this damage bypasses 
+shields).

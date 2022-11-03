@@ -1,4 +1,5 @@
 ---
+name: Pathfinder Pioneer
 rarity: rare
 type: assault_rifle
 cost: 37000
@@ -15,4 +16,8 @@ andromeda: false
 properties:
   - burst-fire
   - two-handed
+slots: 2
 ---
+Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to 
+subsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus 
+resets to 0.

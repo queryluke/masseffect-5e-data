@@ -1,4 +1,5 @@
 ---
+name: M-29 Incisor
 rarity: rare
 type: sniper_rifle
 cost: 40500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - two-handed
   - burst-fire
+slots: 2
 ---

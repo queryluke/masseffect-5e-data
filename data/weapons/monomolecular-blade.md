@@ -1,4 +1,5 @@
 ---
+name: Monomolecular Blade
 rarity: common
 type: melee
 cost: 8500
@@ -15,4 +16,10 @@ andromeda: false
 properties:
   - versatile
   - finesse
+slots: 1
+versatile:
+  dieCount: 2
+  dieType: 6
+  type: slashing
 ---
+Versatile (2d6)

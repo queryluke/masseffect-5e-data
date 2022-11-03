@@ -1,4 +1,5 @@
 ---
+name: Hesh
 rarity: rare
 type: shotgun
 cost: 37500
@@ -16,4 +17,5 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---

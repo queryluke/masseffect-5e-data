@@ -1,4 +1,5 @@
 ---
+name: Ruzad
 rarity: uncommon
 type: shotgun
 cost: 17000
@@ -18,4 +19,11 @@ properties:
   - recoil
   - special
   - heavy
+slots: 2
+versatile:
+  dieCount: 1
+  dieType: 10
+  type: slashing
 ---
+In addition to its other properties, this weapon is also considered a melee weapon, dealing 1d10 slashing damage on a successful
+melee attack.

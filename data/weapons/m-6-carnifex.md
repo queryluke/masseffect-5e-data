@@ -1,4 +1,5 @@
 ---
+name: M-6 Carnifex
 rarity: rare
 type: heavy_pistol
 cost: 34500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - double-tap
   - light
+slots: 1
 ---

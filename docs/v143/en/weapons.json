@@ -1,5 +1,6 @@
 [
   {
+    "name": "Acolyte",
     "rarity": "uncommon",
     "type": "heavy_pistol",
     "cost": 13500,
@@ -17,11 +18,12 @@
     "properties": [
       "light"
     ],
-    "name": "Acolyte",
+    "slots": 1,
     "html": "<p>Damage done by this weapon cannot be reduced by using barrier ticks. Use a bonus action to charge\nthe weapon before firing, consuming 2 heat. On a hit, it deals an additional 2d6 force\ndamage.</p>\n",
     "id": "acolyte"
   },
   {
+    "name": "Adas Anti-Synthetic Rifle ",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 17000,
@@ -41,11 +43,12 @@
       "special",
       "two-handed"
     ],
-    "name": "Adas Anti-Synthetic Rifle ",
+    "slots": 2,
     "html": "<p>Deals an additional 1d6 lightning damage to synthetic targets.</p>\n",
     "id": "adas-anti-synthetic-rifle"
   },
   {
+    "name": "Arc Pistol",
     "rarity": "uncommon",
     "type": "heavy_pistol",
     "cost": 13500,
@@ -65,11 +68,12 @@
       "light",
       "special"
     ],
-    "name": "Arc Pistol",
+    "slots": 1,
     "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 2d6 lightning damage.</p>\n",
     "id": "arc-pistol"
   },
   {
+    "name": "Asari Huntress Sword",
     "rarity": "rare",
     "type": "melee",
     "cost": 34500,
@@ -88,11 +92,12 @@
       "finesse",
       "light"
     ],
-    "name": "Asari Huntress Sword",
+    "slots": 1,
     "html": "<p>Kinetic energy from successful melee attacks grant a minor biotic boost. When you hit with an attack\nusing this weapon, as a bonus action, you may cast a biotic cantrip.</p>\n",
     "id": "asari-huntress-sword"
   },
   {
+    "name": "AT-12 Raider",
     "rarity": "uncommon",
     "type": "shotgun",
     "cost": 19000,
@@ -113,11 +118,12 @@
       "two-handed",
       "recoil"
     ],
-    "name": "AT-12 Raider",
+    "slots": 2,
     "html": "",
     "id": "at-12-raider"
   },
   {
+    "name": "Black Widow",
     "rarity": "spectre",
     "type": "sniper_rifle",
     "cost": 63000,
@@ -137,11 +143,12 @@
       "burst-fire",
       "heavy"
     ],
-    "name": "Black Widow",
+    "slots": 2,
     "html": "<p>Ignores half cover. On a hit, if the target is not behind cover, it takes an additional 1d4\ndamage.</p>\n",
     "id": "black-widow"
   },
   {
+    "name": "Blood Pack Punisher",
     "rarity": "rare",
     "type": "smg",
     "cost": 37500,
@@ -161,11 +168,12 @@
       "burst-fire",
       "recoil"
     ],
-    "name": "Blood Pack Punisher",
+    "slots": 1,
     "html": "<p>+1 to hit targets within normal range</p>\n",
     "id": "blood-pack-punisher"
   },
   {
+    "name": "Cerberus Harrier ",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 17000,
@@ -185,11 +193,12 @@
       "recoil",
       "two-handed"
     ],
-    "name": "Cerberus Harrier ",
+    "slots": 2,
     "html": "",
     "id": "cerberus-harrier"
   },
   {
+    "name": "Chakram Launcher",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 14500,
@@ -208,11 +217,12 @@
       "recoil",
       "two-handed"
     ],
-    "name": "Chakram Launcher",
+    "slots": 2,
     "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 1d8 piercing and 2d4 thunder damage.</p>\n",
     "id": "chakram-launcher"
   },
   {
+    "name": "Charger",
     "rarity": "common",
     "type": "smg",
     "cost": 8000,
@@ -230,11 +240,12 @@
     "properties": [
       "burst-fire"
     ],
-    "name": "Charger",
+    "slots": 1,
     "html": "",
     "id": "charger"
   },
   {
+    "name": "Collector Assault Rifle",
     "rarity": "spectre",
     "type": "assault_rifle",
     "cost": 60000,
@@ -255,11 +266,12 @@
       "two-handed",
       "vented"
     ],
-    "name": "Collector Assault Rifle",
+    "slots": 2,
     "html": "<p>The Collector Assault Rifle does not use thermal clips. Instead, use a d8 to track the &quot;heat&quot;.\nWhenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you\ndon't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If\nyou ever spin down the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
     "id": "collector-assault-rifle"
   },
   {
+    "name": "Collector SMG",
     "rarity": "spectre",
     "type": "smg",
     "cost": 59000,
@@ -281,11 +293,12 @@
       "light",
       "vented"
     ],
-    "name": "Collector SMG",
+    "slots": 2,
     "html": "<p>The Collector SMG does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you\nmake a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
     "id": "collector-smg"
   },
   {
+    "name": "Collector Sniper Rifle",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 36500,
@@ -305,11 +318,12 @@
       "burst-fire",
       "vented"
     ],
-    "name": "Collector Sniper Rifle",
+    "slots": 2,
     "html": "<p>The Collector Sniper Rifle does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;.\nWhenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you\ndon't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If\nyou ever spin down the die to 0, the weapon jams and cannot be fired again this combat. If you make\na Burst Fire attack, spin down the die by 2.</p>\n",
     "id": "collector-sniper-rifle"
   },
   {
+    "name": "Cyclone",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 17000,
@@ -329,11 +343,12 @@
       "heavy",
       "burst-fire"
     ],
-    "name": "Cyclone",
+    "slots": 2,
     "html": "",
     "id": "cyclone"
   },
   {
+    "name": "Dhan",
     "rarity": "spectre",
     "type": "shotgun",
     "cost": 63500,
@@ -354,11 +369,12 @@
       "heavy",
       "recoil"
     ],
-    "name": "Dhan",
+    "slots": 2,
     "html": "",
     "id": "dhan"
   },
   {
+    "name": "Disciple",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 35000,
@@ -378,11 +394,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "Disciple",
+    "slots": 2,
     "html": "<p>On a hit, the target must make a Constitution saving throw (DC 8) or becomes <me-condition id=\"stunned\" />.</p>\n",
     "id": "disciple"
   },
   {
+    "name": "Electric Firaan",
     "rarity": "rare",
     "type": "melee",
     "cost": 32500,
@@ -401,11 +418,12 @@
       "finesse",
       "light"
     ],
-    "name": "Electric Firaan",
+    "slots": 1,
     "html": "<p>When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.\nIf the target maintaining a concentration power, it automatically fails its saving throw to maintain\nthat power. An angara wielding this weapon deals an additional 2d4 lightning damage instead of\n1d4.</p>\n",
     "id": "electric-firaan"
   },
   {
+    "name": "Equalizer",
     "rarity": "rare",
     "type": "heavy_pistol",
     "cost": 34500,
@@ -426,11 +444,12 @@
       "burst-fire",
       "vented"
     ],
-    "name": "Equalizer",
+    "slots": 1,
     "html": "<p>When you hit a target beyond normal range, it takes half damage.</p>\n<p>The Equalizer does not use thermal clips. Instead, use a d8 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n",
     "id": "equalizer"
   },
   {
+    "name": "Executioner Pistol",
     "rarity": "spectre",
     "type": "heavy_pistol",
     "cost": 63000,
@@ -446,11 +465,12 @@
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/9/95/ME3_Executioner_Pistol.png/revision/latest?cb=20121029075230",
     "andromeda": false,
     "properties": [],
-    "name": "Executioner Pistol",
+    "slots": 1,
     "html": "",
     "id": "executioner-pistol"
   },
   {
+    "name": "Geth Plasma Shotgun",
     "rarity": "spectre",
     "type": "shotgun",
     "cost": 61000,
@@ -470,11 +490,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "Geth Plasma Shotgun",
+    "slots": 2,
     "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 2d10 radiant damage.</p>\n",
     "id": "geth-plasma-shotgun"
   },
   {
+    "name": "Geth Plasma SMG",
     "rarity": "spectre",
     "type": "smg",
     "cost": 60000,
@@ -494,11 +515,12 @@
       "burst-fire",
       "recoil"
     ],
-    "name": "Geth Plasma SMG",
+    "slots": 1,
     "html": "",
     "id": "geth-plasma-smg"
   },
   {
+    "name": "Geth Pulse Rifle",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 37000,
@@ -517,11 +539,12 @@
       "burst-fire",
       "two-handed"
     ],
-    "name": "Geth Pulse Rifle",
+    "slots": 2,
     "html": "",
     "id": "geth-pulse-rifle"
   },
   {
+    "name": "Graal Spike Thrower",
     "rarity": "uncommon",
     "type": "shotgun",
     "cost": 17000,
@@ -541,11 +564,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "Graal Spike Thrower",
+    "slots": 2,
     "html": "<p>When you hit an organic target with an attack, it takes an additional 2d6 damage at the start of its\nturn due to blood loss (this damage bypasses shields).</p>\n",
     "id": "graal-spike-thrower"
   },
   {
+    "name": "Hesh",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 37500,
@@ -565,11 +589,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "Hesh",
+    "slots": 2,
     "html": "",
     "id": "hesh"
   },
   {
+    "name": "Inferno",
     "rarity": "spectre",
     "type": "sniper_rifle",
     "cost": 57000,
@@ -591,11 +616,12 @@
       "double-tap",
       "vented"
     ],
-    "name": "Inferno",
+    "slots": 2,
     "html": "<p>The Inferno does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n",
     "id": "inferno"
   },
   {
+    "name": "Isharay",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 43500,
@@ -614,11 +640,12 @@
       "two-handed",
       "heavy"
     ],
-    "name": "Isharay",
+    "slots": 2,
     "html": "<p>This weapon cannot be reloaded with a bonus action.</p>\n",
     "id": "isharay"
   },
   {
+    "name": "Javelin",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 36500,
@@ -638,11 +665,12 @@
       "special",
       "heavy"
     ],
-    "name": "Javelin",
+    "slots": 2,
     "html": "<p>Ignores half and three-quarters cover</p>\n",
     "id": "javelin"
   },
   {
+    "name": "Kahjean Venom Dagger",
     "rarity": "rare",
     "type": "melee",
     "cost": 32500,
@@ -662,11 +690,12 @@
       "light",
       "thrown"
     ],
-    "name": "Kahjean Venom Dagger",
+    "slots": 1,
     "html": "<p>When you hit with an attack using this weapon, the target must make a DC 11 Constitution saving\nthrow, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.\nIf the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1\nhour, even after regaining hit points, and is paralyzed while poisoned in this way.</p>\n",
     "id": "kahjean-venom-dagger"
   },
   {
+    "name": "Kett Carfalon",
     "rarity": "rare",
     "type": "melee",
     "cost": 34500,
@@ -684,11 +713,17 @@
     "properties": [
       "versatile"
     ],
-    "name": "Kett Carfalon",
+    "slots": 1,
+    "versatile": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "slashing"
+    },
     "html": "<p>Versatile (1d10). When you deal damage with this weapon, you gain hit points equal to half the\ndamage dealt. Hit point gained this way cannot be more than your hit point maximum.</p>\n",
     "id": "kett-carfalon"
   },
   {
+    "name": "Kett Vakarsh",
     "rarity": "spectre",
     "type": "melee",
     "cost": 54500,
@@ -704,11 +739,12 @@
     "image": null,
     "andromeda": true,
     "properties": [],
-    "name": "Kett Vakarsh",
+    "slots": 1,
     "html": "<p>When you hit a target with this weapon it becomes primed (fire) until the end of your next\nturn.</p>\n",
     "id": "kett-vakarsh"
   },
   {
+    "name": "Kishock Harpoon Gun",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 40500,
@@ -726,11 +762,12 @@
     "properties": [
       "two-handed"
     ],
-    "name": "Kishock Harpoon Gun",
+    "slots": 2,
     "html": "<p>A target hit by this weapon makes a Constitution (DC 13) saving throw. On a failed save, the target\ntakes an additional 3d6 damage at the start of their turn due to blood loss (this damage bypasses\nshields).</p>\n",
     "id": "kishock-harpoon-gun"
   },
   {
+    "name": "Krogan Warhammer",
     "rarity": "rare",
     "type": "melee",
     "cost": 37000,
@@ -750,11 +787,17 @@
       "heavy",
       "versatile"
     ],
-    "name": "Krogan Warhammer",
+    "slots": 2,
+    "versatile": {
+      "dieCount": 1,
+      "dieType": 12,
+      "type": "bludgeoning"
+    },
     "html": "<p>When you hit with an attack using this weapon, the target must succeed on a Strength saving throw\n(DC = 8+Proficiency Bonus+ Strength modifier) or is knocked prone. If wielded by a Krogan or another\ncreature with a minimum Strength ability score of 18, this weapon becomes Versatile (1d12 for\none-handed attacks)</p>\n",
     "id": "krogan-warhammer"
   },
   {
+    "name": "Krysae Sniper Rifle",
     "rarity": "uncommon",
     "type": "sniper_rifle",
     "cost": 15000,
@@ -774,11 +817,12 @@
       "hip-fire",
       "double-tap"
     ],
-    "name": "Krysae Sniper Rifle",
+    "slots": 2,
     "html": "<p>+2 damage to synth-organic enemies</p>\n",
     "id": "krysae-sniper-rifle"
   },
   {
+    "name": "L-89 Halberd",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 37000,
@@ -797,11 +841,12 @@
       "double-tap",
       "two-handed"
     ],
-    "name": "L-89 Halberd",
+    "slots": 2,
     "html": "",
     "id": "l-89-halberd"
   },
   {
+    "name": "Lanat",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 39000,
@@ -821,11 +866,12 @@
       "heavy",
       "special"
     ],
-    "name": "Lanat",
+    "slots": 2,
     "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an\nadditional 2d8 fire damage.</p>\n",
     "id": "lanat"
   },
   {
+    "name": "M-11 Suppressor",
     "rarity": "uncommon",
     "type": "heavy_pistol",
     "cost": 13500,
@@ -845,11 +891,12 @@
       "double-tap",
       "light"
     ],
-    "name": "M-11 Suppressor",
+    "slots": 1,
     "html": "",
     "id": "m-11-suppressor"
   },
   {
+    "name": "M-11 Wraith",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 40500,
@@ -869,11 +916,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "M-11 Wraith",
+    "slots": 2,
     "html": "",
     "id": "m-11-wraith"
   },
   {
+    "name": "M-12 Locust",
     "rarity": "rare",
     "type": "smg",
     "cost": 37500,
@@ -893,11 +941,12 @@
       "burst-fire",
       "light"
     ],
-    "name": "M-12 Locust",
+    "slots": 1,
     "html": "",
     "id": "m-12-locust"
   },
   {
+    "name": "M-13 Raptor",
     "rarity": "uncommon",
     "type": "sniper_rifle",
     "cost": 14500,
@@ -917,11 +966,12 @@
       "double-tap",
       "hip-fire"
     ],
-    "name": "M-13 Raptor",
+    "slots": 2,
     "html": "",
     "id": "m-13-raptor"
   },
   {
+    "name": "M-15 Vindicator",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 15500,
@@ -940,11 +990,12 @@
       "burst-fire",
       "two-handed"
     ],
-    "name": "M-15 Vindicator",
+    "slots": 2,
     "html": "",
     "id": "m-15-vindicator"
   },
   {
+    "name": "M-22 Eviscerator",
     "rarity": "uncommon",
     "type": "shotgun",
     "cost": 19000,
@@ -964,11 +1015,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "M-22 Eviscerator",
+    "slots": 2,
     "html": "",
     "id": "m-22-eviscerator"
   },
   {
+    "name": "M-23 Katana",
     "rarity": "common",
     "type": "shotgun",
     "cost": 10000,
@@ -988,11 +1040,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "M-23 Katana",
+    "slots": 2,
     "html": "",
     "id": "m-23-katana"
   },
   {
+    "name": "M-25 Hornet",
     "rarity": "uncommon",
     "type": "smg",
     "cost": 15000,
@@ -1013,11 +1066,12 @@
       "burst-fire",
       "light"
     ],
-    "name": "M-25 Hornet",
+    "slots": 1,
     "html": "",
     "id": "m-25-hornet"
   },
   {
+    "name": "M-27 Scimitar",
     "rarity": "common",
     "type": "shotgun",
     "cost": 8000,
@@ -1038,11 +1092,12 @@
       "double-tap",
       "recoil"
     ],
-    "name": "M-27 Scimitar",
+    "slots": 2,
     "html": "",
     "id": "m-27-scimitar"
   },
   {
+    "name": "M-29 Incisor",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 40500,
@@ -1061,11 +1116,12 @@
       "two-handed",
       "burst-fire"
     ],
-    "name": "M-29 Incisor",
+    "slots": 2,
     "html": "",
     "id": "m-29-incisor"
   },
   {
+    "name": "M-3 Predator",
     "rarity": "common",
     "type": "heavy_pistol",
     "cost": 5500,
@@ -1084,11 +1140,12 @@
       "double-tap",
       "light"
     ],
-    "name": "M-3 Predator",
+    "slots": 1,
     "html": "",
     "id": "m-3-predator"
   },
   {
+    "name": "M-300 Claymore",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 43500,
@@ -1109,11 +1166,12 @@
       "heavy",
       "recoil"
     ],
-    "name": "M-300 Claymore",
+    "slots": 2,
     "html": "",
     "id": "m-300-claymore"
   },
   {
+    "name": "M-358 Talon",
     "rarity": "spectre",
     "type": "heavy_pistol",
     "cost": 57000,
@@ -1132,11 +1190,12 @@
       "double-tap",
       "light"
     ],
-    "name": "M-358 Talon",
+    "slots": 1,
     "html": "",
     "id": "m-358-talon"
   },
   {
+    "name": "M-37 Falcon",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 14500,
@@ -1155,11 +1214,12 @@
       "double-tap",
       "two-handed"
     ],
-    "name": "M-37 Falcon",
+    "slots": 2,
     "html": "<p>Instead of making a ranged weapon attack, the target makes a Dexterity saving throw (DC 8 + DEX\nmodifier). Do not add your DEX modifier to a Double Tap attack. If you are proficient with Assault\nRifles, add your proficiency bonus to the DC. On a failed save, the target takes 1d8 thunder damage,\nor half as much on a successful one.</p>\n",
     "id": "m-37-falcon"
   },
   {
+    "name": "M-4 Shuriken",
     "rarity": "common",
     "type": "smg",
     "cost": 8000,
@@ -1179,11 +1239,12 @@
       "burst-fire",
       "light"
     ],
-    "name": "M-4 Shuriken",
+    "slots": 1,
     "html": "",
     "id": "m-4-shuriken"
   },
   {
+    "name": "M-5 Phalanx",
     "rarity": "common",
     "type": "heavy_pistol",
     "cost": 5500,
@@ -1203,11 +1264,12 @@
       "hip-fire",
       "light"
     ],
-    "name": "M-5 Phalanx",
+    "slots": 1,
     "html": "",
     "id": "m-5-phalanx"
   },
   {
+    "name": "M-55 Argus",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 16500,
@@ -1227,11 +1289,12 @@
       "recoil",
       "two-handed"
     ],
-    "name": "M-55 Argus",
+    "slots": 2,
     "html": "",
     "id": "m-55-argus"
   },
   {
+    "name": "M-6 Carnifex",
     "rarity": "rare",
     "type": "heavy_pistol",
     "cost": 34500,
@@ -1250,11 +1313,12 @@
       "double-tap",
       "light"
     ],
-    "name": "M-6 Carnifex",
+    "slots": 1,
     "html": "",
     "id": "m-6-carnifex"
   },
   {
+    "name": "M-7 Lancer",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 37000,
@@ -1274,11 +1338,12 @@
       "two-handed",
       "vented"
     ],
-    "name": "M-7 Lancer",
+    "slots": 2,
     "html": "<p>Somewhat of a relic and hard to come by, the M-7 does not use thermal clips. Instead, use a d8 to\ntrack the &quot;heat&quot;. Whenever you make a ranged attack with the weapon, spin down the die 1 face.\nEvery round that you don't fire the weapon, spin the die up 2 faces. This represents the weapon\ninternally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n",
     "id": "m-7-lancer"
   },
   {
+    "name": "M-76 Revenant",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 17500,
@@ -1297,11 +1362,12 @@
       "burst-fire",
       "two-handed"
     ],
-    "name": "M-76 Revenant",
+    "slots": 2,
     "html": "",
     "id": "m-76-revenant"
   },
   {
+    "name": "M-77 Paladin",
     "rarity": "spectre",
     "type": "heavy_pistol",
     "cost": 55500,
@@ -1320,11 +1386,12 @@
       "double-tap",
       "light"
     ],
-    "name": "M-77 Paladin",
+    "slots": 1,
     "html": "",
     "id": "m-77-paladin"
   },
   {
+    "name": "M-8 Avenger",
     "rarity": "common",
     "type": "assault_rifle",
     "cost": 7500,
@@ -1343,11 +1410,12 @@
       "burst-fire",
       "two-handed"
     ],
-    "name": "M-8 Avenger",
+    "slots": 2,
     "html": "",
     "id": "m-8-avenger"
   },
   {
+    "name": "M-9 Tempest",
     "rarity": "uncommon",
     "type": "smg",
     "cost": 17000,
@@ -1367,11 +1435,12 @@
       "burst-fire",
       "light"
     ],
-    "name": "M-9 Tempest",
+    "slots": 1,
     "html": "",
     "id": "m-9-tempest"
   },
   {
+    "name": "M-90 Indra",
     "rarity": "spectre",
     "type": "sniper_rifle",
     "cost": 59000,
@@ -1390,11 +1459,12 @@
       "two-handed",
       "burst-fire"
     ],
-    "name": "M-90 Indra",
+    "slots": 2,
     "html": "",
     "id": "m-90-indra"
   },
   {
+    "name": "M-92 Mantis",
     "rarity": "common",
     "type": "sniper_rifle",
     "cost": 12000,
@@ -1412,11 +1482,12 @@
     "properties": [
       "two-handed"
     ],
-    "name": "M-92 Mantis",
+    "slots": 2,
     "html": "",
     "id": "m-92-mantis"
   },
   {
+    "name": "M-96 Mattock",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 14500,
@@ -1435,11 +1506,12 @@
       "double-tap",
       "two-handed"
     ],
-    "name": "M-96 Mattock",
+    "slots": 2,
     "html": "",
     "id": "m-96-mattock"
   },
   {
+    "name": "M-97 Viper",
     "rarity": "uncommon",
     "type": "sniper_rifle",
     "cost": 16500,
@@ -1458,11 +1530,12 @@
       "two-handed",
       "double-tap"
     ],
-    "name": "M-97 Viper",
+    "slots": 2,
     "html": "<p>You can reload this weapon as a bonus action.</p>\n",
     "id": "m-97-viper"
   },
   {
+    "name": "M-98 Widow",
     "rarity": "uncommon",
     "type": "sniper_rifle",
     "cost": 23000,
@@ -1481,11 +1554,12 @@
       "two-handed",
       "heavy"
     ],
-    "name": "M-98 Widow",
+    "slots": 2,
     "html": "<p>Ignores half cover. On a hit, if the target is not behind cover, it takes an additional 1d4\ndamage.</p>\n",
     "id": "m-98-widow"
   },
   {
+    "name": "M-99 Saber",
     "rarity": "spectre",
     "type": "assault_rifle",
     "cost": 60500,
@@ -1505,11 +1579,12 @@
       "special",
       "two-handed"
     ],
-    "name": "M-99 Saber",
+    "slots": 2,
     "html": "<p>Custom made for its owner. When you purchase this weapon, you may choose one of the following:\nIncrease damage of this weapon to d8,  reloading this weapon is a bonus action, or +2 on ranged\nattack rolls made with the weapon.</p>\n",
     "id": "m-99-saber"
   },
   {
+    "name": "Monomolecular Blade",
     "rarity": "common",
     "type": "melee",
     "cost": 8500,
@@ -1528,11 +1603,17 @@
       "versatile",
       "finesse"
     ],
-    "name": "Monomolecular Blade",
+    "slots": 1,
+    "versatile": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "slashing"
+    },
     "html": "<p>Versatile (2d6)</p>\n",
     "id": "monomolecular-blade"
   },
   {
+    "name": "N7 Crusader",
     "rarity": "spectre",
     "type": "shotgun",
     "cost": 61000,
@@ -1554,11 +1635,12 @@
       "heavy",
       "recoil"
     ],
-    "name": "N7 Crusader",
+    "slots": 2,
     "html": "",
     "id": "n-7-crusader"
   },
   {
+    "name": "N7 Eagle",
     "rarity": "rare",
     "type": "heavy_pistol",
     "cost": 35000,
@@ -1577,11 +1659,12 @@
       "burst-fire",
       "light"
     ],
-    "name": "N7 Eagle",
+    "slots": 1,
     "html": "",
     "id": "n-7-eagle"
   },
   {
+    "name": "N7 Hurricane",
     "rarity": "spectre",
     "type": "smg",
     "cost": 60500,
@@ -1600,11 +1683,12 @@
       "hip-fire",
       "burst-fire"
     ],
-    "name": "N7 Hurricane",
+    "slots": 1,
     "html": "",
     "id": "n-7-hurricane"
   },
   {
+    "name": "N7 Piranha",
     "rarity": "uncommon",
     "type": "shotgun",
     "cost": 15000,
@@ -1624,11 +1708,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "N7 Piranha",
+    "slots": 2,
     "html": "<p>When fired make a single attack roll against all creatures in a <me-distance length=\"10\" /> cone.\nAll creatures with AC less than the attack are hit.</p>\n",
     "id": "n-7-piranha"
   },
   {
+    "name": "N7 Typhoon",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 39000,
@@ -1649,11 +1734,12 @@
       "recoil",
       "two-handed"
     ],
-    "name": "N7 Typhoon",
+    "slots": 2,
     "html": "<p>AC +1 when holding this weapon.</p>\n",
     "id": "n-7-typhoon"
   },
   {
+    "name": "N7 Valiant",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 39000,
@@ -1672,11 +1758,12 @@
       "two-handed",
       "double-tap"
     ],
-    "name": "N7 Valiant",
+    "slots": 2,
     "html": "",
     "id": "n-7-valiant"
   },
   {
+    "name": "N7 Valkyrie",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 39000,
@@ -1694,11 +1781,12 @@
     "properties": [
       "two-handed"
     ],
-    "name": "N7 Valkyrie",
+    "slots": 2,
     "html": "",
     "id": "n-7-valkyrie"
   },
   {
+    "name": "Naladen",
     "rarity": "spectre",
     "type": "sniper_rifle",
     "cost": 59000,
@@ -1717,11 +1805,12 @@
       "two-handed",
       "special"
     ],
-    "name": "Naladen",
+    "slots": 2,
     "html": "<p>Hit or miss, each creature within a <me-distance length=\"10\" /> radius of the target takes 1d4 fire\ndamage.</p>\n",
     "id": "naladen"
   },
   {
+    "name": "Omni-Blade",
     "rarity": "common",
     "type": "melee",
     "cost": 7500,
@@ -1741,11 +1830,12 @@
       "finesse",
       "special"
     ],
-    "name": "Omni-Blade",
+    "slots": 0,
     "html": "<p>Drawing the Omni-Blade is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
     "id": "omni-blade"
   },
   {
+    "name": "Omni-Hammer",
     "rarity": "common",
     "type": "melee",
     "cost": 8500,
@@ -1764,11 +1854,12 @@
       "light",
       "special"
     ],
-    "name": "Omni-Hammer",
+    "slots": 0,
     "html": "<p>Drawing the Omni-Hammer is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
     "id": "omni-hammer"
   },
   {
+    "name": "Omni-Taser",
     "rarity": "common",
     "type": "melee",
     "cost": 5500,
@@ -1788,11 +1879,12 @@
       "light",
       "special"
     ],
-    "name": "Omni-Taser",
+    "slots": 0,
     "html": "<p>Drawing the Omni-Taser is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
     "id": "omni-taser"
   },
   {
+    "name": "Omni-Torch",
     "rarity": "common",
     "type": "melee",
     "cost": 6500,
@@ -1811,11 +1903,12 @@
       "light",
       "special"
     ],
-    "name": "Omni-Torch",
+    "slots": 0,
     "html": "<p>Drawing the Omni-Torch is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
     "id": "omni-torch"
   },
   {
+    "name": "Omni-Whip",
     "rarity": "rare",
     "type": "melee",
     "cost": 35000,
@@ -1835,11 +1928,12 @@
       "reach",
       "special"
     ],
-    "name": "Omni-Whip",
+    "slots": 0,
     "html": "<p>Drawing the Omni-Whip is a free action. Having this weapon equipped does not require a weapon\nslot.</p>\n",
     "id": "omni-whip"
   },
   {
+    "name": "P.A.W.",
     "rarity": "spectre",
     "type": "assault_rifle",
     "cost": 59000,
@@ -1859,11 +1953,12 @@
       "special",
       "vented"
     ],
-    "name": "P.A.W.",
+    "slots": 2,
     "html": "<p>The P.A.W. does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n<p>After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target\nat each of the following combat phases: the end of your turn, the beginning of the target's turn,\nthe end of the target's turn, and the beginning of your turn. Each time you deal damage, spin down\nyour heat dice. In addition to standard targeting rules, this targeting condition can end when this\nweapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target\nuses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you\nare proficient with this weapon type), or you use a bonus action on your turn to end the\ncondition.</p>\n",
     "id": "p-a-w"
   },
   {
+    "name": "Particle Rifle",
     "rarity": "spectre",
     "type": "assault_rifle",
     "cost": 61000,
@@ -1884,11 +1979,12 @@
       "two-handed",
       "vented"
     ],
-    "name": "Particle Rifle",
+    "slots": 2,
     "html": "<p>The Particle Rifle does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you\nmake a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire\nattack, spin down the die by 2.</p>\n",
     "id": "particle-rifle"
   },
   {
+    "name": "Pathfinder Deep Impact",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 37000,
@@ -1908,11 +2004,12 @@
       "hip-fire",
       "recoil"
     ],
-    "name": "Pathfinder Deep Impact",
+    "slots": 2,
     "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
     "id": "pathfinder-deep-impact"
   },
   {
+    "name": "Pathfinder Observer",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 39000,
@@ -1930,11 +2027,12 @@
     "properties": [
       "two-handed"
     ],
-    "name": "Pathfinder Observer",
+    "slots": 2,
     "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
     "id": "pathfinder-observer"
   },
   {
+    "name": "Pathfinder Pioneer",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 37000,
@@ -1953,11 +2051,12 @@
       "burst-fire",
       "two-handed"
     ],
-    "name": "Pathfinder Pioneer",
+    "slots": 2,
     "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
     "id": "pathfinder-pioneer"
   },
   {
+    "name": "Pathfinder Ranger",
     "rarity": "rare",
     "type": "smg",
     "cost": 37000,
@@ -1976,11 +2075,12 @@
       "burst-fire",
       "hip-fire"
     ],
-    "name": "Pathfinder Ranger",
+    "slots": 1,
     "html": "<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to\nsubsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus\nresets to 0.</p>\n",
     "id": "pathfinder-ranger"
   },
   {
+    "name": "Phaeston",
     "rarity": "common",
     "type": "assault_rifle",
     "cost": 8000,
@@ -1999,11 +2099,12 @@
       "burst-fire",
       "two-handed"
     ],
-    "name": "Phaeston",
+    "slots": 2,
     "html": "",
     "id": "phaeston"
   },
   {
+    "name": "Reegar Carbine",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 36500,
@@ -2024,11 +2125,12 @@
       "arc",
       "special"
     ],
-    "name": "Reegar Carbine",
+    "slots": 2,
     "html": "",
     "id": "reegar-carbine"
   },
   {
+    "name": "Remnant Cryo-Gauntlet",
     "rarity": "spectre",
     "type": "melee",
     "cost": 53500,
@@ -2044,11 +2146,12 @@
     "image": null,
     "andromeda": true,
     "properties": [],
-    "name": "Remnant Cryo-Gauntlet",
+    "slots": 1,
     "html": "<p>When you hit a target with this weapon it becomes primed (cold) until the end of your next turn and\nmust succeed on a DC 10 Strength saving throw or become frozen until the end of your next turn. If\nyou critically hit with this weapon, the target automatically fails its saving throw.</p>\n",
     "id": "remnant-cryo-gauntlet"
   },
   {
+    "name": "Rozerad",
     "rarity": "spectre",
     "type": "smg",
     "cost": 57500,
@@ -2067,11 +2170,12 @@
       "burst-fire",
       "double-tap"
     ],
-    "name": "Rozerad",
+    "slots": 1,
     "html": "",
     "id": "rozerad"
   },
   {
+    "name": "Ruzad",
     "rarity": "uncommon",
     "type": "shotgun",
     "cost": 17000,
@@ -2093,11 +2197,17 @@
       "special",
       "heavy"
     ],
-    "name": "Ruzad",
-    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. It has the\nVersatile property. Successful melee attacks deal 1d10 (2d6) slashing damage.</p>\n",
+    "slots": 2,
+    "versatile": {
+      "dieCount": 1,
+      "dieType": 10,
+      "type": "slashing"
+    },
+    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon, dealing 1d10 slashing damage on a successful\nmelee attack.</p>\n",
     "id": "ruzad"
   },
   {
+    "name": "Sandstorm",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 37500,
@@ -2116,11 +2226,12 @@
       "double-tap",
       "two-handed"
     ],
-    "name": "Sandstorm",
+    "slots": 2,
     "html": "",
     "id": "sandstorm"
   },
   {
+    "name": "Sawblade",
     "rarity": "rare",
     "type": "melee",
     "cost": 35500,
@@ -2138,11 +2249,12 @@
     "properties": [
       "two-handed"
     ],
-    "name": "Sawblade",
+    "slots": 2,
     "html": "<p>When you hit an organic target with an attack, it takes an additional 2d6 damage at the start of its\nturn due to blood loss (this damage bypasses shields).</p>\n",
     "id": "sawblade"
   },
   {
+    "name": "Scattershot",
     "rarity": "rare",
     "type": "shotgun",
     "cost": 39000,
@@ -2164,11 +2276,12 @@
       "special",
       "vented"
     ],
-    "name": "Scattershot",
+    "slots": 2,
     "html": "<p>The Scattershot does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;. Whenever you make\na ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the\nweapon, spin the die up 1 face. This represents the weapon internally cooling off. If you ever spin\ndown the die to 0, the weapon jams and cannot be fired again this combat.</p>\n",
     "id": "scattershot"
   },
   {
+    "name": "Scorpion",
     "rarity": "rare",
     "type": "heavy_pistol",
     "cost": 33500,
@@ -2187,11 +2300,12 @@
       "special",
       "double-tap"
     ],
-    "name": "Scorpion",
+    "slots": 1,
     "html": "<p>Missed shots adhere to nearby surfaces and do 1d4 thunder damage to the target.</p>\n",
     "id": "scorpion"
   },
   {
+    "name": "Shadow",
     "rarity": "rare",
     "type": "sniper_rifle",
     "cost": 39000,
@@ -2212,11 +2326,12 @@
       "special",
       "vented"
     ],
-    "name": "Shadow",
+    "slots": 2,
     "html": "<p>The Shadow does not use thermal clips. Instead, use a d4 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. If you ever spin down the die to 0, the weapon jams and cannot be fired\nagain this combat.</p>\n<p>After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target\nat each of the following combat phases: the end of your turn, the beginning of the target's turn,\nthe end of the target's turn, and the beginning of your turn. Each time you deal damage, spin down\nyour heat dice. In addition to standard targeting rules, this targeting condition can end when this\nweapon's heat becomes 0, when the targeted creature gains three-quarter or full cover, the target\nuses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus if you\nare proficient with this weapon type), or you use a bonus action on your turn to end the\ncondition.</p>\n",
     "id": "shadow"
   },
   {
+    "name": "Shorty",
     "rarity": "spectre",
     "type": "shotgun",
     "cost": 61000,
@@ -2238,11 +2353,12 @@
       "hip-fire",
       "burst-fire"
     ],
-    "name": "Shorty",
+    "slots": 2,
     "html": "",
     "id": "shorty"
   },
   {
+    "name": "Sidewinder",
     "rarity": "rare",
     "type": "heavy_pistol",
     "cost": 36500,
@@ -2260,11 +2376,12 @@
     "properties": [
       "double-tap"
     ],
-    "name": "Sidewinder",
+    "slots": 1,
     "html": "",
     "id": "sidewinder"
   },
   {
+    "name": "Silhesh",
     "rarity": "spectre",
     "type": "heavy_pistol",
     "cost": 53500,
@@ -2283,11 +2400,12 @@
       "double-tap",
       "light"
     ],
-    "name": "Silhesh",
+    "slots": 1,
     "html": "<p>Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see\nthe target.</p>\n",
     "id": "silhesh"
   },
   {
+    "name": "Soned",
     "rarity": "spectre",
     "type": "assault_rifle",
     "cost": 60000,
@@ -2306,11 +2424,12 @@
       "two-handed",
       "heavy"
     ],
-    "name": "Soned",
+    "slots": 2,
     "html": "",
     "id": "soned"
   },
   {
+    "name": "Sovoa",
     "rarity": "spectre",
     "type": "assault_rifle",
     "cost": 59000,
@@ -2329,11 +2448,12 @@
       "two-handed",
       "special"
     ],
-    "name": "Sovoa",
+    "slots": 2,
     "html": "<p>Instead of making a ranged weapon attack, target an area within normal or long range of this weapon.\nEach creature within a <me-distance length=\"10\" /> radius of the target makes a Dexterity saving\nthrow. The DC of this saving throw equals 8 + your Dexterity modifier + your proficiency bonus (if\nyou are proficient with Assault Rifles). A creature takes thunder damage equal to the weapon's\ndamage on a failed save or half as much on a successful one. Each creature within the radius has\nadvantage on the saving throw the target area is beyond the normal range of this\nweapon.</p>\n",
     "id": "sovoa"
   },
   {
+    "name": "Striker Assault Rifle",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 36500,
@@ -2352,11 +2472,12 @@
       "recoil",
       "two-handed"
     ],
-    "name": "Striker Assault Rifle",
+    "slots": 2,
     "html": "<p>After making a ranged attack with the Striker, you may choose to enter the Targeting condition. At\nthe start of your next turn, all ranged attacks made with the Striker deal an additional 1d12\ndamage, at the cost of 2 heat per attack. This bonus continues to stack at the start of your turn\nuntil the targeting condition ends or until the Striker must be reloaded. For example, the 3rd round\nwould deal 3d12 for 3 heat per attack, etc.</p>\n",
     "id": "striker-assault-rifle"
   },
   {
+    "name": "Stun Baton",
     "rarity": "uncommon",
     "type": "melee",
     "cost": 13500,
@@ -2374,11 +2495,12 @@
     "properties": [
       "light"
     ],
-    "name": "Stun Baton",
+    "slots": 1,
     "html": "<p>When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.\nIf the target maintaining a concentration power, it automatically fails its saving throw to maintain\nthat power.</p>\n",
     "id": "stun-baton"
   },
   {
+    "name": "Sweeper",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 39000,
@@ -2400,11 +2522,12 @@
       "burst-fire",
       "vented"
     ],
-    "name": "Sweeper",
+    "slots": 2,
     "html": "<p>The Sweeper does not use thermal clips. Instead, use a d6 to track the &quot;heat&quot;. Whenever you make a\nranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon,\nspin the die up 1 face. This represents the weapon internally cooling off. If you ever spin down the\ndie to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire attack,\nspin down the die by 2.</p>\n",
     "id": "sweeper"
   },
   {
+    "name": "Thokin",
     "rarity": "rare",
     "type": "assault_rifle",
     "cost": 37500,
@@ -2423,11 +2546,12 @@
       "two-handed",
       "special"
     ],
-    "name": "Thokin",
+    "slots": 2,
     "html": "<p>Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see\nthe target.</p>\n",
     "id": "thokin"
   },
   {
+    "name": "Ushior",
     "rarity": "spectre",
     "type": "heavy_pistol",
     "cost": 61000,
@@ -2443,11 +2567,12 @@
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/a1/MEA_Ushior_MP.png/revision/latest?cb=20180530220429",
     "andromeda": true,
     "properties": [],
-    "name": "Ushior",
+    "slots": 1,
     "html": "",
     "id": "ushior"
   },
   {
+    "name": "Vanquisher",
     "rarity": "uncommon",
     "type": "sniper_rifle",
     "cost": 17000,
@@ -2465,11 +2590,12 @@
     "properties": [
       "two-handed"
     ],
-    "name": "Vanquisher",
+    "slots": 2,
     "html": "",
     "id": "vanquisher"
   },
   {
+    "name": "Venom Shotgun",
     "rarity": "spectre",
     "type": "shotgun",
     "cost": 61000,
@@ -2490,11 +2616,12 @@
       "special",
       "recoil"
     ],
-    "name": "Venom Shotgun",
+    "slots": 2,
     "html": "<p>Use a bonus action to charge the weapon before firing, consuming 2 heat. It deals an additional<br>\n2d10 thunder damage. Instead of making a ranged weapon attack, target a creature that makes a\nDexterity saving throw (DC13). On a successful save, it takes half as much damage.</p>\n",
     "id": "venom-shotgun"
   },
   {
+    "name": "X5 Ghost",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 15000,
@@ -2513,11 +2640,12 @@
       "two-handed",
       "burst-fire"
     ],
-    "name": "X5 Ghost",
+    "slots": 2,
     "html": "<p>Whenever you make an attack with this weapon, if your previous action, reaction, or bonus action was\nan attack with this weapon, you gain a +1 bonus to the attack roll. Possesses recording and sensor\nfunctions so it can be left behind as a &quot;black box&quot; by doomed explorers.</p>\n",
     "id": "x-5-ghost"
   },
   {
+    "name": "Zalkin",
     "rarity": "uncommon",
     "type": "assault_rifle",
     "cost": 15000,
@@ -2536,7 +2664,7 @@
       "two-handed",
       "double-tap"
     ],
-    "name": "Zalkin",
+    "slots": 2,
     "html": "",
     "id": "zalkin"
   }

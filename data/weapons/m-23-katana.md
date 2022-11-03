@@ -1,4 +1,5 @@
 ---
+name: M-23 Katana
 rarity: common
 type: shotgun
 cost: 10000
@@ -16,4 +17,5 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---

@@ -1,4 +1,5 @@
 ---
+name: Javelin
 rarity: rare
 type: sniper_rifle
 cost: 36500
@@ -16,4 +17,6 @@ properties:
   - two-handed
   - special
   - heavy
+slots: 2
 ---
+Ignores half and three-quarters cover

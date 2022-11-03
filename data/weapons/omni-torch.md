@@ -1,4 +1,5 @@
 ---
+name: Omni-Torch
 rarity: common
 type: melee
 cost: 6500
@@ -15,4 +16,7 @@ andromeda: false
 properties:
   - light
   - special
+slots: 0
 ---
+Drawing the Omni-Torch is a free action. Having this weapon equipped does not require a weapon 
+slot.

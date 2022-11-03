@@ -1,4 +1,5 @@
 ---
+name: Cyclone
 rarity: uncommon
 type: assault_rifle
 cost: 17000
@@ -16,4 +17,5 @@ properties:
   - two-handed
   - heavy
   - burst-fire
+slots: 2
 ---

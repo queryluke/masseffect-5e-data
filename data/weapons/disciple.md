@@ -1,4 +1,5 @@
 ---
+name: Disciple
 rarity: rare
 type: shotgun
 cost: 35000
@@ -16,4 +17,6 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---
+On a hit, the target must make a Constitution saving throw (DC 8) or becomes <me-condition id="stunned" />.

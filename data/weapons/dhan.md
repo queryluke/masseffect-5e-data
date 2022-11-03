@@ -1,4 +1,5 @@
 ---
+name: Dhan
 rarity: spectre
 type: shotgun
 cost: 63500
@@ -17,4 +18,5 @@ properties:
   - hip-fire
   - heavy
   - recoil
+slots: 2
 ---

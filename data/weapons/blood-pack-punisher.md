@@ -1,4 +1,5 @@
 ---
+name: Blood Pack Punisher
 rarity: rare
 type: smg
 cost: 37500
@@ -16,4 +17,6 @@ properties:
   - hip-fire
   - burst-fire
   - recoil
+slots: 1
 ---
++1 to hit targets within normal range

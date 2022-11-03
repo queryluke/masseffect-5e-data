@@ -1,4 +1,5 @@
 ---
+name: Naladen
 rarity: spectre
 type: sniper_rifle
 cost: 59000
@@ -15,4 +16,7 @@ andromeda: true
 properties:
   - two-handed
   - special
+slots: 2
 ---
+Hit or miss, each creature within a <me-distance length="10" /> radius of the target takes 1d4 fire 
+damage.

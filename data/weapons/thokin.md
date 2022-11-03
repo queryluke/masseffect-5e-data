@@ -1,4 +1,5 @@
 ---
+name: Thokin
 rarity: rare
 type: assault_rifle
 cost: 37500
@@ -15,4 +16,7 @@ andromeda: true
 properties:
   - two-handed
   - special
+slots: 2
 ---
+Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see 
+the target.

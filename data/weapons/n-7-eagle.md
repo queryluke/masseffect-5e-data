@@ -1,4 +1,5 @@
 ---
+name: N7 Eagle
 rarity: rare
 type: heavy_pistol
 cost: 35000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - burst-fire
   - light
+slots: 1
 ---

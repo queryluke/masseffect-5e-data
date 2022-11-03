@@ -1,4 +1,5 @@
 ---
+name: Geth Pulse Rifle
 rarity: rare
 type: assault_rifle
 cost: 37000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - burst-fire
   - two-handed
+slots: 2
 ---

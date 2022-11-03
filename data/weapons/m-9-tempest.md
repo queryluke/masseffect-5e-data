@@ -1,4 +1,5 @@
 ---
+name: M-9 Tempest
 rarity: uncommon
 type: smg
 cost: 17000
@@ -16,4 +17,5 @@ properties:
   - hip-fire
   - burst-fire
   - light
+slots: 1
 ---

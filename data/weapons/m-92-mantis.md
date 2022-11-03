@@ -1,4 +1,5 @@
 ---
+name: M-92 Mantis
 rarity: common
 type: sniper_rifle
 cost: 12000
@@ -14,4 +15,5 @@ image: https://vignette2.wikia.nocookie.net/masseffect/images/7/7b/ME3_Mantis_Sn
 andromeda: false
 properties:
   - two-handed
+slots: 2
 ---

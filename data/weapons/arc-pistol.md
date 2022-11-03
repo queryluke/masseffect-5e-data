@@ -1,4 +1,5 @@
 ---
+name: Arc Pistol
 rarity: uncommon
 type: heavy_pistol
 cost: 13500
@@ -16,4 +17,7 @@ properties:
   - arc
   - light
   - special
+slots: 1
 ---
+Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an 
+additional 2d6 lightning damage.

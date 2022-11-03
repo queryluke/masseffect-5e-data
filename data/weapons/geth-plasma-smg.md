@@ -1,4 +1,5 @@
 ---
+name: Geth Plasma SMG
 rarity: spectre
 type: smg
 cost: 60000
@@ -16,4 +17,5 @@ properties:
   - special
   - burst-fire
   - recoil
+slots: 1
 ---

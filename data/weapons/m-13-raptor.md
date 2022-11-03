@@ -1,4 +1,5 @@
 ---
+name: M-13 Raptor
 rarity: uncommon
 type: sniper_rifle
 cost: 14500
@@ -16,4 +17,5 @@ properties:
   - two-handed
   - double-tap
   - hip-fire
+slots: 2
 ---

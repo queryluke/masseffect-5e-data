@@ -1,4 +1,5 @@
 ---
+name: "Cerberus Harrier "
 rarity: uncommon
 type: assault_rifle
 cost: 17000
@@ -16,4 +17,5 @@ properties:
   - burst-fire
   - recoil
   - two-handed
+slots: 2
 ---

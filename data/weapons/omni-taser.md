@@ -1,4 +1,5 @@
 ---
+name: Omni-Taser
 rarity: common
 type: melee
 cost: 5500
@@ -16,4 +17,7 @@ properties:
   - finesse
   - light
   - special
+slots: 0
 ---
+Drawing the Omni-Taser is a free action. Having this weapon equipped does not require a weapon 
+slot.

@@ -1,4 +1,5 @@
 ---
+name: Isharay
 rarity: rare
 type: sniper_rifle
 cost: 43500
@@ -15,4 +16,6 @@ andromeda: true
 properties:
   - two-handed
   - heavy
+slots: 2
 ---
+This weapon cannot be reloaded with a bonus action.

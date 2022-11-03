@@ -1,4 +1,5 @@
 ---
+name: M-3 Predator
 rarity: common
 type: heavy_pistol
 cost: 5500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - double-tap
   - light
+slots: 1
 ---

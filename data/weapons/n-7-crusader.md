@@ -1,4 +1,5 @@
 ---
+name: N7 Crusader
 rarity: spectre
 type: shotgun
 cost: 61000
@@ -18,4 +19,5 @@ properties:
   - double-tap
   - heavy
   - recoil
+slots: 2
 ---

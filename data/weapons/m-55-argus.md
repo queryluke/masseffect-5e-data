@@ -1,4 +1,5 @@
 ---
+name: M-55 Argus
 rarity: uncommon
 type: assault_rifle
 cost: 16500
@@ -16,4 +17,5 @@ properties:
   - burst-fire
   - recoil
   - two-handed
+slots: 2
 ---

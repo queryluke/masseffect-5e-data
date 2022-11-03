@@ -1,4 +1,5 @@
 ---
+name: N7 Valiant
 rarity: rare
 type: sniper_rifle
 cost: 39000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - two-handed
   - double-tap
+slots: 2
 ---

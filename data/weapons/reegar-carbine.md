@@ -1,4 +1,5 @@
 ---
+name: Reegar Carbine
 rarity: rare
 type: shotgun
 cost: 36500
@@ -17,4 +18,5 @@ properties:
   - hip-fire
   - arc
   - special
+slots: 2
 ---

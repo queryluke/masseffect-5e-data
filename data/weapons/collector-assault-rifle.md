@@ -1,4 +1,5 @@
 ---
+name: Collector Assault Rifle
 rarity: spectre
 type: assault_rifle
 cost: 60000
@@ -17,4 +18,9 @@ properties:
   - special
   - two-handed
   - vented
+slots: 2
 ---
+The Collector Assault Rifle does not use thermal clips. Instead, use a d8 to track the "heat". 
+Whenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you 
+don't fire the weapon, spin the die up 1 face. This represents the weapon internally cooling off. If 
+you ever spin down the die to 0, the weapon jams and cannot be fired again this combat.

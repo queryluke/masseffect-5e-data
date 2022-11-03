@@ -1,4 +1,5 @@
 ---
+name: M-98 Widow
 rarity: uncommon
 type: sniper_rifle
 cost: 23000
@@ -15,4 +16,7 @@ andromeda: false
 properties:
   - two-handed
   - heavy
+slots: 2
 ---
+Ignores half cover. On a hit, if the target is not behind cover, it takes an additional 1d4 
+damage.

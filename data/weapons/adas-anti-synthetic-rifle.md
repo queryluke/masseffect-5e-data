@@ -1,4 +1,5 @@
 ---
+name: "Adas Anti-Synthetic Rifle "
 rarity: uncommon
 type: assault_rifle
 cost: 17000
@@ -16,4 +17,6 @@ properties:
   - arc
   - special
   - two-handed
+slots: 2
 ---
+Deals an additional 1d6 lightning damage to synthetic targets.

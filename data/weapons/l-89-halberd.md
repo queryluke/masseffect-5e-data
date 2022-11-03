@@ -1,4 +1,5 @@
 ---
+name: L-89 Halberd
 rarity: rare
 type: assault_rifle
 cost: 37000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - double-tap
   - two-handed
+slots: 2
 ---

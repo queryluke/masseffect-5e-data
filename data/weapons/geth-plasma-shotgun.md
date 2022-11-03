@@ -1,4 +1,5 @@
 ---
+name: Geth Plasma Shotgun
 rarity: spectre
 type: shotgun
 cost: 61000
@@ -16,4 +17,7 @@ properties:
   - two-handed
   - hip-fire
   - recoil
+slots: 2
 ---
+Use a bonus action to charge the weapon before firing, consuming 2 heat. On a hit, it deals an 
+additional 2d10 radiant damage.

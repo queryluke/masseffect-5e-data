@@ -1,4 +1,5 @@
 ---
+name: M-5 Phalanx
 rarity: common
 type: heavy_pistol
 cost: 5500
@@ -16,4 +17,5 @@ properties:
   - double-tap
   - hip-fire
   - light
+slots: 1
 ---

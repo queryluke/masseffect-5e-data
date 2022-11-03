@@ -1,4 +1,5 @@
 ---
+name: M-97 Viper
 rarity: uncommon
 type: sniper_rifle
 cost: 16500
@@ -15,4 +16,6 @@ andromeda: false
 properties:
   - two-handed
   - double-tap
+slots: 2
 ---
+You can reload this weapon as a bonus action.

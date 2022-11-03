@@ -1,4 +1,5 @@
 ---
+name: N7 Hurricane
 rarity: spectre
 type: smg
 cost: 60500
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - hip-fire
   - burst-fire
+slots: 1
 ---

@@ -1,4 +1,5 @@
 ---
+name: Omni-Hammer
 rarity: common
 type: melee
 cost: 8500
@@ -15,4 +16,7 @@ andromeda: false
 properties:
   - light
   - special
+slots: 0
 ---
+Drawing the Omni-Hammer is a free action. Having this weapon equipped does not require a weapon 
+slot.

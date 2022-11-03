@@ -1,4 +1,5 @@
 ---
+name: Phaeston
 rarity: common
 type: assault_rifle
 cost: 8000
@@ -15,4 +16,5 @@ andromeda: false
 properties:
   - burst-fire
   - two-handed
+slots: 2
 ---

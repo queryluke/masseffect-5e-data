@@ -1,4 +1,5 @@
 ---
+name: AT-12 Raider
 rarity: uncommon
 type: shotgun
 cost: 19000
@@ -17,4 +18,5 @@ properties:
   - hip-fire
   - two-handed
   - recoil
+slots: 2
 ---

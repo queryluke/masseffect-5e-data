@@ -1,4 +1,5 @@
 ---
+name: M-300 Claymore
 rarity: rare
 type: shotgun
 cost: 43500
@@ -17,4 +18,5 @@ properties:
   - hip-fire
   - heavy
   - recoil
+slots: 2
 ---

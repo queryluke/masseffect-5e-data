@@ -1,4 +1,5 @@
 ---
+name: Scorpion
 rarity: rare
 type: heavy_pistol
 cost: 33500
@@ -15,4 +16,6 @@ andromeda: false
 properties:
   - special
   - double-tap
+slots: 1
 ---
+Missed shots adhere to nearby surfaces and do 1d4 thunder damage to the target.

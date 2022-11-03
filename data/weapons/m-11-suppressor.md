@@ -1,4 +1,5 @@
 ---
+name: M-11 Suppressor
 rarity: uncommon
 type: heavy_pistol
 cost: 13500
@@ -16,4 +17,5 @@ properties:
   - silent
   - double-tap
   - light
+slots: 1
 ---

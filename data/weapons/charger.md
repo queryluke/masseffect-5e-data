@@ -1,4 +1,5 @@
 ---
+name: Charger
 rarity: common
 type: smg
 cost: 8000
@@ -14,4 +15,5 @@ image: https://vignette.wikia.nocookie.net/masseffect/images/f/f8/MEA_Charger_MP
 andromeda: false
 properties:
   - burst-fire
+slots: 1
 ---
