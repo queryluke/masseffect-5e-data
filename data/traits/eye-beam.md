@@ -8,7 +8,8 @@ mechanics:
       name: Eye Beam
       notes: []
       properties: []
-      range: 90
+      range:
+        short: 90
       damage:
         dieCount: 1
         dieType: 10

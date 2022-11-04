@@ -17,7 +17,12 @@ andromeda: false
 properties:
   - light
 slots: 1
+addDamages:
+  - dieCount: 1
+    dieType: 4
+    type: lightning
+    addTo: base
 ---
-When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage. 
-If the target maintaining a concentration power, it automatically fails its saving throw to maintain 
+When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.
+If the target is maintaining a concentration power, it automatically fails its saving throw to maintain
 that power.

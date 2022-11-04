@@ -8,7 +8,8 @@ mechanics:
       type: natural-melee
       notes: []
       properties: []
-      range: 5
+      range:
+        short: 5
       damage:
         dieCount: 1
         dieType: 4

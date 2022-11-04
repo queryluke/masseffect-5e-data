@@ -21,7 +21,8 @@ mechanics:
         dieCount: 1
         dieType: 8
         type: piercing
-      range: 5
+      range:
+        short: 5
       properties: [finesse]
       moreInfo:
         model: mods

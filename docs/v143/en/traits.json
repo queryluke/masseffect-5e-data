@@ -506,7 +506,9 @@
           "name": "Bite",
           "notes": [],
           "properties": [],
-          "range": 5,
+          "range": {
+            "short": 5
+          },
           "damage": {
             "dieCount": 1,
             "dieType": 6,
@@ -941,7 +943,9 @@
             "On a hit, target can't take reactions until the start of its next turn"
           ],
           "properties": [],
-          "range": 5,
+          "range": {
+            "short": 5
+          },
           "damage": {
             "dieCount": 1,
             "dieType": 8,
@@ -1088,7 +1092,9 @@
           "name": "Eye Beam",
           "notes": [],
           "properties": [],
-          "range": 90,
+          "range": {
+            "short": 90
+          },
           "damage": {
             "dieCount": 1,
             "dieType": 10,
@@ -2623,7 +2629,9 @@
           "damageModOverride": "noMod",
           "name": "Tentacles",
           "type": "natural-melee",
-          "range": 5,
+          "range": {
+            "short": 5
+          },
           "damage": {
             "dieCount": 1,
             "dieType": 8,
@@ -2659,7 +2667,9 @@
           "name": "Thick Frontal Plate",
           "notes": null,
           "properties": [],
-          "range": 5,
+          "range": {
+            "short": 5
+          },
           "damage": {
             "dieCount": 1,
             "dieType": 6,

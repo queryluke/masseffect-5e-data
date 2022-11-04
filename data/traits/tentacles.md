@@ -8,7 +8,8 @@ mechanics:
       damageModOverride: noMod
       name: Tentacles
       type: natural-melee
-      range: 5
+      range:
+        short: 5
       damage:
         dieCount: 1
         dieType: 8

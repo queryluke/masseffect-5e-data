@@ -12,7 +12,10 @@
       "dieType": 6,
       "type": "force"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/b/b9/ME3_Acolyte_Pistol.png/revision/latest?cb=20120714073045",
     "andromeda": false,
     "properties": [
@@ -35,7 +38,10 @@
       "dieType": 6,
       "type": "lightning"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/9/9e/ME3_Adas_Anti-Synthetic_Assault_Rifle.png/revision/latest/scale-to-width-down/200?cb=20120809190433",
     "andromeda": false,
     "properties": [
@@ -60,7 +66,10 @@
       "dieType": 6,
       "type": "lightning"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/e/e8/ME3_Arc_Heavy_Pistol.png/revision/latest?cb=20120317185747",
     "andromeda": false,
     "properties": [
@@ -85,7 +94,9 @@
       "dieType": 8,
       "type": "slashing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -109,7 +120,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 5,
+    "range": {
+      "short": 5,
+      "long": 10
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/3/3f/ME3_Raider_Shotgun.png/revision/latest?cb=20120317200919",
     "andromeda": false,
     "properties": [
@@ -135,7 +149,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 250,
+    "range": {
+      "short": 500,
+      "long": 1500
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/4/44/ME3_Black_Widow_Sniper_Rifle.png/revision/latest?cb=20120317191926",
     "andromeda": false,
     "properties": [
@@ -160,7 +177,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 45
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/1/17/ME3_Blood_Pack_Punisher_Smg.png/revision/latest?cb=20120809190511",
     "andromeda": false,
     "properties": [
@@ -185,7 +205,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/0/0d/ME3_Cerberus_Harrier.png/revision/latest?cb=20120530214013",
     "andromeda": false,
     "properties": [
@@ -210,7 +233,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/5/56/ME3_Chakram_Assault_Rifle.png/revision/latest?cb=20120317175958",
     "andromeda": false,
     "properties": [
@@ -234,7 +260,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 45
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/MEA_Charger_MP.png/revision/latest?cb=20180528214708",
     "andromeda": false,
     "properties": [
@@ -257,7 +286,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/f/f8/ME3_Collector_Assault_Rifle.png/revision/latest/scale-to-width-down/350?cb=20120317180554",
     "andromeda": false,
     "properties": [
@@ -283,7 +315,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/68/ME3_Collector_SMG.png/revision/latest/scale-to-width-down/350?cb=20121009204046",
     "andromeda": false,
     "properties": [
@@ -310,7 +345,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/40/ME3_Collector_Sniper_Rifle.png/revision/latest/scale-to-width-down/200?cb=20121009204028",
     "andromeda": false,
     "properties": [
@@ -335,7 +373,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/50/MEA_Cyclone_MP.png/revision/latest?cb=20180530231207",
     "andromeda": false,
     "properties": [
@@ -360,7 +401,10 @@
       "dieType": 8,
       "type": "fire"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/60/MEA_Dhan_MP.png/revision/latest?cb=20180607231027",
     "andromeda": true,
     "properties": [
@@ -386,7 +430,10 @@
       "dieType": 4,
       "type": "bludgeoning"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/6/6a/ME3_Disciple_Shotgun.png/revision/latest?cb=20120317201011",
     "andromeda": false,
     "properties": [
@@ -411,7 +458,9 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": true,
     "properties": [
@@ -435,7 +484,10 @@
       "dieType": 8,
       "type": "force"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ab/MEA_Equalizer_MP.png/revision/latest?cb=20180529214418",
     "andromeda": true,
     "properties": [
@@ -461,7 +513,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/9/95/ME3_Executioner_Pistol.png/revision/latest?cb=20121029075230",
     "andromeda": false,
     "properties": [],
@@ -482,7 +537,10 @@
       "dieType": 10,
       "type": "radiant"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 30
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/b/b9/ME3_Geth_Plasma_Shotgun.png/revision/latest?cb=20120317201115",
     "andromeda": false,
     "properties": [
@@ -507,7 +565,10 @@
       "dieType": 4,
       "type": "radiant"
     },
-    "range": 45,
+    "range": {
+      "short": 30,
+      "long": 90
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/9/9c/ME3_Geth_Plasma_SMG.png/revision/latest?cb=20120411201332",
     "andromeda": false,
     "properties": [
@@ -532,7 +593,10 @@
       "dieType": 6,
       "type": "radiant"
     },
-    "range": 100,
+    "range": {
+      "short": 120,
+      "long": 360
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/9/92/ME3_Geth_Pulse_Assault_Rifle.png/revision/latest?cb=20120317181047",
     "andromeda": false,
     "properties": [
@@ -556,7 +620,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 20,
+    "range": {
+      "short": 20,
+      "long": 40
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/b/b1/ME3_Graal_Spike_Thrower_Shotgun.png/revision/latest?cb=20120317201204",
     "andromeda": false,
     "properties": [
@@ -581,7 +648,10 @@
       "dieType": 4,
       "type": "fire"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/b9/MEA_Hesh_MP.png/revision/latest?cb=20180607231426",
     "andromeda": true,
     "properties": [
@@ -606,7 +676,10 @@
       "dieType": 6,
       "type": "force"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/MEA_Inferno_MP.png/revision/latest?cb=20180602003100",
     "andromeda": true,
     "properties": [
@@ -633,7 +706,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2b/MEA_Isharay_MP.png/revision/latest?cb=20180602003240",
     "andromeda": true,
     "properties": [
@@ -657,7 +733,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 250,
+    "range": {
+      "short": 500,
+      "long": 1500
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/7/7b/ME3_Javelin_Sniper_Rifle.png/revision/latest?cb=20120317192031",
     "andromeda": false,
     "properties": [
@@ -682,7 +761,9 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -707,7 +788,9 @@
       "dieType": 8,
       "type": "slashing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": true,
     "properties": [
@@ -735,7 +818,9 @@
       "dieType": 8,
       "type": "fire"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": true,
     "properties": [],
@@ -756,7 +841,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png/revision/latest?cb=20120411201323",
     "andromeda": false,
     "properties": [
@@ -779,7 +867,9 @@
       "dieType": 6,
       "type": "bludgeoning"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -809,7 +899,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/2/2f/ME3_Krysae_Sniper_Rifle.png/revision/latest?cb=20120530214006",
     "andromeda": false,
     "properties": [
@@ -834,7 +927,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/8/83/MEA_L-89_Halberd_MP.png/revision/latest?cb=20180530231330",
     "andromeda": false,
     "properties": [
@@ -858,7 +954,10 @@
       "dieType": 8,
       "type": "fire"
     },
-    "range": 100,
+    "range": {
+      "short": 120,
+      "long": 360
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0a/MEA_Lanat_MP.png/revision/latest?cb=20180602003544",
     "andromeda": true,
     "properties": [
@@ -883,7 +982,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/8/84/ME3_Suppressor.png/revision/latest?cb=20130227094606",
     "andromeda": false,
     "properties": [
@@ -908,7 +1010,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 30
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/4/45/ME3_Wraith_Shotgun.png/revision/latest?cb=20120317200422",
     "andromeda": false,
     "properties": [
@@ -933,7 +1038,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Locust_Smg.png/revision/latest?cb=20120317184530",
     "andromeda": false,
     "properties": [
@@ -958,7 +1066,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/7/70/ME3_Raptor_Sniper_Rifle.png/revision/latest?cb=20120317191426",
     "andromeda": false,
     "properties": [
@@ -983,7 +1094,10 @@
       "dieType": 10,
       "type": "piercing"
     },
-    "range": 125,
+    "range": {
+      "short": 120,
+      "long": 360
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/7/7d/ME3_Vindicator_Assault_Rifle.png/revision/latest?cb=20120317173921",
     "andromeda": false,
     "properties": [
@@ -1007,7 +1121,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 30
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/e/e0/ME3_Eviscerator_Shotgun.png/revision/latest?cb=20120317200519",
     "andromeda": false,
     "properties": [
@@ -1032,7 +1149,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/a/a2/ME3_Katana_Shotgun.png/revision/latest?cb=20120317200552",
     "andromeda": false,
     "properties": [
@@ -1057,7 +1177,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 20,
+    "range": {
+      "short": 20,
+      "long": 60
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/6/66/ME3_Hornet_Smg.png/revision/latest?cb=20120317184337",
     "andromeda": false,
     "properties": [
@@ -1083,7 +1206,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/0/0d/ME3_Scimitar_Shotgun.png/revision/latest?cb=20120317200715",
     "andromeda": false,
     "properties": [
@@ -1109,7 +1235,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/ME3_Incisor_Sniper_Rifle.png/revision/latest?cb=20120317191319",
     "andromeda": false,
     "properties": [
@@ -1133,7 +1262,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/c/c8/ME3_Predator_Heavy_Pistol.png/revision/latest?cb=20120317185446",
     "andromeda": false,
     "properties": [
@@ -1157,7 +1289,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/a/a2/ME3_Claymore_Shotgun.png/revision/latest?cb=20120317200800",
     "andromeda": false,
     "properties": [
@@ -1183,7 +1318,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/9/99/ME3_Talon_Heavy_Pistol.png/revision/latest?cb=20120317185721",
     "andromeda": false,
     "properties": [
@@ -1207,7 +1345,10 @@
       "dieType": 8,
       "type": "thunder"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/8/8a/ME3_Falcon_Assault_Rifle.png/revision/latest?cb=20120317172936",
     "andromeda": false,
     "properties": [
@@ -1231,7 +1372,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 30
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/8/8b/ME3_Shuriken_Smg.png/revision/latest?cb=20120317184559",
     "andromeda": false,
     "properties": [
@@ -1256,7 +1400,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/a/ae/ME3_Phalanx_Heavy_Pistol.png/revision/latest?cb=20120317185535",
     "andromeda": false,
     "properties": [
@@ -1281,7 +1428,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png/revision/latest?cb=20120317173420",
     "andromeda": false,
     "properties": [
@@ -1306,7 +1456,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/8/88/ME3_Carnifex_Heavy_Pistol.png/revision/latest?cb=20120317185613",
     "andromeda": false,
     "properties": [
@@ -1330,7 +1483,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/c/c6/ME3_Lancer_AS.png/revision/latest?cb=20130227094559",
     "andromeda": false,
     "properties": [
@@ -1355,7 +1511,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/1/17/ME3_Revenant_Assault_Rifle.png/revision/latest?cb=20120317174455",
     "andromeda": false,
     "properties": [
@@ -1379,7 +1538,10 @@
       "dieType": 10,
       "type": "piercing"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/4/43/ME3_Paladin_Heavy_Pistol.png/revision/latest?cb=20120317185630",
     "andromeda": false,
     "properties": [
@@ -1403,7 +1565,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/2/29/ME3_Avenger_Assault_Rifle.png/revision/latest?cb=20120317171316",
     "andromeda": false,
     "properties": [
@@ -1427,7 +1592,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/1/14/ME3_Tempest_Smg.png/revision/latest?cb=20120317184648",
     "andromeda": false,
     "properties": [
@@ -1452,7 +1620,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/b/b6/ME3_Indra_Sniper_Rifle.png/revision/latest?cb=20120317191212",
     "andromeda": false,
     "properties": [
@@ -1476,7 +1647,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/7/7b/ME3_Mantis_Sniper_Rifle.png/revision/latest?cb=20120317191621",
     "andromeda": false,
     "properties": [
@@ -1499,7 +1673,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 100,
+    "range": {
+      "short": 120,
+      "long": 360
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/9/93/ME3_Mattock_Assault_Rifle.png/revision/latest?cb=20120317182842",
     "andromeda": false,
     "properties": [
@@ -1523,7 +1700,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 250,
+    "range": {
+      "short": 500,
+      "long": 1500
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/5/52/ME3_Viper_Sniper_Rifle.png/revision/latest?cb=20120317191749",
     "andromeda": false,
     "properties": [
@@ -1547,7 +1727,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/1/1d/ME3_Widow_Sniper_Rifle.png/revision/latest?cb=20120317191850",
     "andromeda": false,
     "properties": [
@@ -1571,7 +1754,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 125,
+    "range": {
+      "short": 120,
+      "long": 360
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/6/65/ME3_Saber_Assault_Rifle.png/revision/latest?cb=20120317175044",
     "andromeda": false,
     "properties": [
@@ -1596,7 +1782,9 @@
       "dieType": 10,
       "type": "slashing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -1625,7 +1813,10 @@
       "dieType": 10,
       "type": "piercing"
     },
-    "range": 20,
+    "range": {
+      "short": 20,
+      "long": 40
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/3/3a/ME3_N7_Crusader_Shotgun.png/revision/latest?cb=20120317201234",
     "andromeda": false,
     "properties": [
@@ -1652,7 +1843,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png/revision/latest?cb=20120317185811",
     "andromeda": false,
     "properties": [
@@ -1676,7 +1870,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 45
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/e/e9/ME3_N7_Hurricane_Smg.png/revision/latest?cb=20120317184439",
     "andromeda": false,
     "properties": [
@@ -1700,7 +1897,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/c/c4/ME3_Piranha_Assault_Shotgun.png/revision/latest?cb=20120714073110",
     "andromeda": false,
     "properties": [
@@ -1725,7 +1925,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/a/ab/ME3_Typhoon_Assault_Rifle.png/revision/latest?cb=20120714073139",
     "andromeda": false,
     "properties": [
@@ -1751,7 +1954,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 250,
+    "range": {
+      "short": 500,
+      "long": 1500
+    },
     "image": "https://vignette4.wikia.nocookie.net/masseffect/images/1/14/ME3_N7_Valiant_Sniper_Rifle.png/revision/latest?cb=20120317192204",
     "andromeda": false,
     "properties": [
@@ -1775,7 +1981,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/0/08/ME3_N7_Valkyrie_Assault_Rifle.png/revision/latest?cb=20120317181450",
     "andromeda": false,
     "properties": [
@@ -1798,7 +2007,10 @@
       "dieType": 8,
       "type": "fire"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/6f/MEA_Naladen_MP.png/revision/latest?cb=20180602004109",
     "andromeda": true,
     "properties": [
@@ -1822,7 +2034,9 @@
       "dieType": 8,
       "type": "slashing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -1847,7 +2061,9 @@
       "dieType": 10,
       "type": "bludgeoning"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -1871,7 +2087,9 @@
       "dieType": 4,
       "type": "lightning"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -1896,7 +2114,9 @@
       "dieType": 6,
       "type": "fire"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -1920,7 +2140,9 @@
       "dieType": 4,
       "type": "lightning"
     },
-    "range": 10,
+    "range": {
+      "short": 10
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -1945,7 +2167,10 @@
       "dieType": 8,
       "type": "force"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/01/MEA_P.A.W._MP.png/revision/latest?cb=20180530231855",
     "andromeda": true,
     "properties": [
@@ -1970,7 +2195,10 @@
       "dieType": 10,
       "type": "radiant"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/61/ME3_Particle_Assault_Rifle.png/revision/latest/scale-to-width-down/350?cb=20120317181936",
     "andromeda": false,
     "properties": [
@@ -1996,7 +2224,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/77/Pathfinder-Deep_Impact.png/revision/latest?cb=20180224220127",
     "andromeda": false,
     "properties": [
@@ -2021,7 +2252,10 @@
       "dieType": 8,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0c/Pathfinder-Observer.png/revision/latest?cb=20180224230425",
     "andromeda": false,
     "properties": [
@@ -2044,7 +2278,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 100,
+    "range": {
+      "short": 120,
+      "long": 360
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2e/Pathfinder-Pioneer.png/revision/latest/scale-to-width-down/350?cb=20180224004738",
     "andromeda": false,
     "properties": [
@@ -2068,7 +2305,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 20,
+    "range": {
+      "short": 20,
+      "long": 60
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/5/59/Pathfinder-Ranger.png/revision/latest?cb=20180223205449",
     "andromeda": false,
     "properties": [
@@ -2092,7 +2332,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/1/11/ME3_Phaeston_Assault_Rifle.png/revision/latest?cb=20120317182349",
     "andromeda": false,
     "properties": [
@@ -2116,7 +2359,10 @@
       "dieType": 12,
       "type": "lightning"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 30
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/6/60/ME3_Reegar_Carbine.png/revision/latest?cb=20120530214009",
     "andromeda": false,
     "properties": [
@@ -2142,7 +2388,9 @@
       "dieType": 6,
       "type": "cold"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": true,
     "properties": [],
@@ -2163,7 +2411,10 @@
       "dieType": 4,
       "type": "fire"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 45
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/MEA_Rozerad_MP.png/revision/latest?cb=20180530010046",
     "andromeda": true,
     "properties": [
@@ -2187,7 +2438,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 10,
+    "range": {
+      "short": 10,
+      "long": 20
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/7b/MEA_Ruzad_MP.png/revision/latest?cb=20180529181034",
     "andromeda": false,
     "properties": [
@@ -2219,7 +2473,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 200,
+    "range": {
+      "short": 300,
+      "long": 900
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/MEA_Sandstorm_MP.png/revision/latest?cb=20180530232139",
     "andromeda": true,
     "properties": [
@@ -2243,7 +2500,9 @@
       "dieType": 10,
       "type": "slashing"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
@@ -2266,7 +2525,10 @@
       "dieType": 8,
       "type": "force"
     },
-    "range": 35,
+    "range": {
+      "short": 30,
+      "long": 60
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/70/MEA_Scattershot_MP.png/revision/latest?cb=20180607232101",
     "andromeda": true,
     "properties": [
@@ -2293,7 +2555,10 @@
       "dieType": 6,
       "type": "thunder"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette3.wikia.nocookie.net/masseffect/images/4/40/ME3_Scorpion_Heavy_Pistol.png/revision/latest?cb=20120317185843",
     "andromeda": false,
     "properties": [
@@ -2317,7 +2582,10 @@
       "dieType": 8,
       "type": "force"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shadow_MP.png/revision/latest?cb=20180602004449",
     "andromeda": true,
     "properties": [
@@ -2343,7 +2611,10 @@
       "dieType": 10,
       "type": "piercing"
     },
-    "range": 15,
+    "range": {
+      "short": 15,
+      "long": 30
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shorty_MP.png/revision/latest?cb=20180607232226",
     "andromeda": true,
     "properties": [
@@ -2370,7 +2641,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/7/78/MEA_Sidewinder_MP.png/revision/latest?cb=20180530053144",
     "andromeda": true,
     "properties": [
@@ -2393,7 +2667,10 @@
       "dieType": 6,
       "type": "fire"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/b/be/MEA_Silhesh_MP.png/revision/latest?cb=20180530061830",
     "andromeda": true,
     "properties": [
@@ -2417,7 +2694,10 @@
       "dieType": 4,
       "type": "fire"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/0/0e/MEA_Soned_MP.png/revision/latest?cb=20180530232308",
     "andromeda": true,
     "properties": [
@@ -2441,7 +2721,10 @@
       "dieType": 8,
       "type": "thunder"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sovoa_MP.png/revision/latest?cb=20180530232548",
     "andromeda": true,
     "properties": [
@@ -2465,7 +2748,10 @@
       "dieType": 12,
       "type": "piercing"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 75
+    },
     "image": "https://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Striker_Assault_Rifle.png/revision/latest?cb=20120411201310",
     "andromeda": false,
     "properties": [
@@ -2489,13 +2775,23 @@
       "dieType": 6,
       "type": "bludgeoning"
     },
-    "range": 5,
+    "range": {
+      "short": 5
+    },
     "image": null,
     "andromeda": false,
     "properties": [
       "light"
     ],
     "slots": 1,
+    "addDamages": [
+      {
+        "dieCount": 1,
+        "dieType": 4,
+        "type": "lightning",
+        "addTo": "base"
+      }
+    ],
     "html": "<p>When you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.\nIf the target maintaining a concentration power, it automatically fails its saving throw to maintain\nthat power.</p>\n",
     "id": "stun-baton"
   },
@@ -2512,7 +2808,10 @@
       "dieType": 8,
       "type": "force"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sweeper_MP.png/revision/latest?cb=20180530232437",
     "andromeda": true,
     "properties": [
@@ -2539,7 +2838,10 @@
       "dieType": 4,
       "type": "fire"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/ac/MEA_Thokin_MP.png/revision/latest?cb=20180530232714",
     "andromeda": true,
     "properties": [
@@ -2563,7 +2865,10 @@
       "dieType": 10,
       "type": "fire"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/a/a1/MEA_Ushior_MP.png/revision/latest?cb=20180530220429",
     "andromeda": true,
     "properties": [],
@@ -2584,7 +2889,10 @@
       "dieType": 6,
       "type": "piercing"
     },
-    "range": 150,
+    "range": {
+      "short": 150,
+      "long": 450
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/e/e8/MEA_Vanquisher_MP.png/revision/latest?cb=20180602004611",
     "andromeda": true,
     "properties": [
@@ -2607,7 +2915,10 @@
       "dieType": 10,
       "type": "thunder"
     },
-    "range": 25,
+    "range": {
+      "short": 25,
+      "long": 50
+    },
     "image": "https://vignette1.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317",
     "andromeda": false,
     "properties": [
@@ -2633,7 +2944,10 @@
       "dieType": 4,
       "type": "piercing"
     },
-    "range": 75,
+    "range": {
+      "short": 90,
+      "long": 270
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/3/38/MEA_X5_Ghost_MP.png/revision/latest?cb=20180530232855",
     "andromeda": false,
     "properties": [
@@ -2657,7 +2971,10 @@
       "dieType": 4,
       "type": "fire"
     },
-    "range": 50,
+    "range": {
+      "short": 60,
+      "long": 180
+    },
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/2/2a/MEA_Zalkin_MP.png/revision/latest?cb=20180530233017",
     "andromeda": true,
     "properties": [

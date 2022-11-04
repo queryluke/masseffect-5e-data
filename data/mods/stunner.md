@@ -22,7 +22,8 @@ mechanics:
         dieCount: 1
         dieType: 6
         type: lightning
-      range: 5
+      range:
+        short: 5
       properties: []
       notes:
         - 'Hit: auto-fails CON save to maintain powers'

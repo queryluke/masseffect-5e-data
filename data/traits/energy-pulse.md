@@ -10,7 +10,8 @@ mechanics:
       notes:
         - On a hit, target can't take reactions until the start of its next turn
       properties: []
-      range: 5
+      range:
+        short: 5
       damage:
         dieCount: 1
         dieType: 8
