@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: thunder
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sovoa_MP.png/revision/latest?cb=20180530232548
 andromeda: true
 properties:

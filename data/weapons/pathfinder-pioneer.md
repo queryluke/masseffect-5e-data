@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 100
+range:
+  short: 120
+  long: 360
 image: https://vignette.wikia.nocookie.net/masseffect/images/2/2e/Pathfinder-Pioneer.png/revision/latest/scale-to-width-down/350?cb=20180224004738
 andromeda: false
 properties:

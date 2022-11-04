@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 10
   type: piercing
-range: 15
+range:
+  short: 15
+  long: 30
 image: https://vignette.wikia.nocookie.net/masseffect/images/e/ea/MEA_Shorty_MP.png/revision/latest?cb=20180607232226
 andromeda: true
 properties:

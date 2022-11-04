@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 12
   type: piercing
-range: 250
+range:
+  short: 500
+  long: 1500
 image: https://vignette2.wikia.nocookie.net/masseffect/images/4/44/ME3_Black_Widow_Sniper_Rifle.png/revision/latest?cb=20120317191926
 andromeda: false
 properties:

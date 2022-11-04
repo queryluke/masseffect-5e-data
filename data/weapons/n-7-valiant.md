@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: piercing
-range: 250
+range:
+  short: 500
+  long: 1500
 image: https://vignette4.wikia.nocookie.net/masseffect/images/1/14/ME3_N7_Valiant_Sniper_Rifle.png/revision/latest?cb=20120317192204
 andromeda: false
 properties:

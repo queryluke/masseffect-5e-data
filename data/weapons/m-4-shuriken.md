@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 4
   type: piercing
-range: 10
+range:
+  short: 10
+  long: 30
 image: https://vignette1.wikia.nocookie.net/masseffect/images/8/8b/ME3_Shuriken_Smg.png/revision/latest?cb=20120317184559
 andromeda: false
 properties:

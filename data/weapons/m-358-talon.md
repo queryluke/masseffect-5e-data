@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette1.wikia.nocookie.net/masseffect/images/9/99/ME3_Talon_Heavy_Pistol.png/revision/latest?cb=20120317185721
 andromeda: false
 properties:

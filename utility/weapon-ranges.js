@@ -24,7 +24,7 @@ const newRanges = {
 for (const file of files) {
     const fc = fm(fs.readFileSync(`${path}/${file}`, 'utf8'))
     let item = Object.assign(fc.attributes, {})
-    const range = item.range
+    const range = item.range.toString()
     const newRange = {}
     if (newRanges[range]) {
       newRange.short = newRanges[range]
@@ -38,7 +38,7 @@ for (const file of files) {
     item = {...item, range: newRange }
     let content = '---\n'
     content += YAML.stringify(item)
-    content += `---\r\n${item.body}`
+    content += `---\r\n${fc.body}`
     fs.writeFileSync(`../data/weapons/${file}`, content)
 }
 console.log(ranges)

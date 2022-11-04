@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 10
   type: radiant
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette.wikia.nocookie.net/masseffect/images/6/61/ME3_Particle_Assault_Rifle.png/revision/latest/scale-to-width-down/350?cb=20120317181936
 andromeda: false
 properties:

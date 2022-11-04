@@ -10,7 +10,8 @@ damage:
   dieCount: 1
   dieType: 8
   type: fire
-range: 5
+range:
+  short: 5
 image: null
 andromeda: true
 properties: []

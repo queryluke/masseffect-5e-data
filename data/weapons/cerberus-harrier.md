@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 150
+range:
+  short: 150
+  long: 450
 image: https://vignette1.wikia.nocookie.net/masseffect/images/0/0d/ME3_Cerberus_Harrier.png/revision/latest?cb=20120530214013
 andromeda: false
 properties:

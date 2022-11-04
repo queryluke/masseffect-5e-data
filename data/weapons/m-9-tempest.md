@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette2.wikia.nocookie.net/masseffect/images/1/14/ME3_Tempest_Smg.png/revision/latest?cb=20120317184648
 andromeda: false
 properties:

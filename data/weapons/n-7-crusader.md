@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 10
   type: piercing
-range: 20
+range:
+  short: 20
+  long: 40
 image: https://vignette2.wikia.nocookie.net/masseffect/images/3/3a/ME3_N7_Crusader_Shotgun.png/revision/latest?cb=20120317201234
 andromeda: false
 properties:

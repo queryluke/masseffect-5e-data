@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: piercing
-range: 200
+range:
+  short: 300
+  long: 900
 image: https://vignette.wikia.nocookie.net/masseffect/images/0/0c/Pathfinder-Observer.png/revision/latest?cb=20180224230425
 andromeda: false
 properties:

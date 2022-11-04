@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 4
   type: piercing
-range: 75
+range:
+  short: 90
+  long: 270
 image: https://vignette.wikia.nocookie.net/masseffect/images/3/38/MEA_X5_Ghost_MP.png/revision/latest?cb=20180530232855
 andromeda: false
 properties:

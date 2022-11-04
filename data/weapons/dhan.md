@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 8
   type: fire
-range: 10
+range:
+  short: 10
+  long: 20
 image: https://vignette.wikia.nocookie.net/masseffect/images/6/60/MEA_Dhan_MP.png/revision/latest?cb=20180607231027
 andromeda: true
 properties:

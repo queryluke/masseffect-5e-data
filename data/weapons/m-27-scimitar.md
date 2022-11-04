@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 4
   type: piercing
-range: 10
+range:
+  short: 10
+  long: 20
 image: https://vignette4.wikia.nocookie.net/masseffect/images/0/0d/ME3_Scimitar_Shotgun.png/revision/latest?cb=20120317200715
 andromeda: false
 properties:

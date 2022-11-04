@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 20
+range:
+  short: 20
+  long: 40
 image: https://vignette1.wikia.nocookie.net/masseffect/images/b/b1/ME3_Graal_Spike_Thrower_Shotgun.png/revision/latest?cb=20120317201204
 andromeda: false
 properties:

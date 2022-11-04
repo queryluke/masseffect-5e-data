@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 10
   type: thunder
-range: 25
+range:
+  short: 25
+  long: 50
 image: https://vignette1.wikia.nocookie.net/masseffect/images/7/76/ME3_Venom_Shotgun.png/revision/latest?cb=20121029075317
 andromeda: false
 properties:

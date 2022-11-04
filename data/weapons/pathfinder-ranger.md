@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 20
+range:
+  short: 20
+  long: 60
 image: https://vignette.wikia.nocookie.net/masseffect/images/5/59/Pathfinder-Ranger.png/revision/latest?cb=20180223205449
 andromeda: false
 properties:

@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 4
   type: piercing
-range: 200
+range:
+  short: 300
+  long: 900
 image: https://vignette1.wikia.nocookie.net/masseffect/images/2/2f/ME3_Krysae_Sniper_Rifle.png/revision/latest?cb=20120530214006
 andromeda: false
 properties:

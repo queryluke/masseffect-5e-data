@@ -10,7 +10,9 @@ damage:
   dieCount: 1
   dieType: 8
   type: force
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette.wikia.nocookie.net/masseffect/images/a/ab/MEA_Equalizer_MP.png/revision/latest?cb=20180529214418
 andromeda: true
 properties:

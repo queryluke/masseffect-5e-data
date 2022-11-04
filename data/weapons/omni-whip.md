@@ -10,7 +10,8 @@ damage:
   dieCount: 2
   dieType: 4
   type: lightning
-range: 10
+range:
+  short: 10
 image: null
 andromeda: false
 properties:

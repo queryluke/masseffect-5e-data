@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 4
   type: piercing
-range: 50
+range:
+  short: 60
+  long: 180
 image: https://vignette1.wikia.nocookie.net/masseffect/images/0/01/ME3_N7_Eagle_Heavy_Pistol.png/revision/latest?cb=20120317185811
 andromeda: false
 properties:

@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: piercing
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette.wikia.nocookie.net/masseffect/images/6/68/ME3_Collector_SMG.png/revision/latest/scale-to-width-down/350?cb=20121009204046
 andromeda: false
 properties:

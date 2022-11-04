@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 6
   type: piercing
-range: 150
+range:
+  short: 150
+  long: 450
 image: https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/ME3_Incisor_Sniper_Rifle.png/revision/latest?cb=20120317191319
 andromeda: false
 properties:

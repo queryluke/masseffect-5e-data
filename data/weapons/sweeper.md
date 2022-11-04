@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: force
-range: 50
+range:
+  short: 60
+  long: 180
 image: https://vignette.wikia.nocookie.net/masseffect/images/4/49/MEA_Sweeper_MP.png/revision/latest?cb=20180530232437
 andromeda: true
 properties:

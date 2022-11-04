@@ -10,7 +10,9 @@ damage:
   dieCount: 1
   dieType: 8
   type: piercing
-range: 150
+range:
+  short: 150
+  long: 450
 image: https://vignette3.wikia.nocookie.net/masseffect/images/7/70/ME3_Raptor_Sniper_Rifle.png/revision/latest?cb=20120317191426
 andromeda: false
 properties:

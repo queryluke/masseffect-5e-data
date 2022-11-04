@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 6
   type: piercing
-range: 200
+range:
+  short: 300
+  long: 900
 image: https://vignette4.wikia.nocookie.net/masseffect/images/d/db/ME3_Kishock_Harpoon_Gun.png/revision/latest?cb=20120411201323
 andromeda: false
 properties:

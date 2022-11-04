@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 4
   type: piercing
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette2.wikia.nocookie.net/masseffect/images/1/17/ME3_Revenant_Assault_Rifle.png/revision/latest?cb=20120317174455
 andromeda: false
 properties:

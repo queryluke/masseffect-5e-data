@@ -10,7 +10,8 @@ damage:
   dieCount: 1
   dieType: 10
   type: bludgeoning
-range: 5
+range:
+  short: 5
 image: null
 andromeda: false
 properties:

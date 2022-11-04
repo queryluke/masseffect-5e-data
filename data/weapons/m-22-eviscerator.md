@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: piercing
-range: 15
+range:
+  short: 15
+  long: 30
 image: https://vignette3.wikia.nocookie.net/masseffect/images/e/e0/ME3_Eviscerator_Shotgun.png/revision/latest?cb=20120317200519
 andromeda: false
 properties:

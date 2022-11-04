@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 4
   type: piercing
-range: 25
+range:
+  short: 25
+  long: 75
 image: https://vignette2.wikia.nocookie.net/masseffect/images/f/fb/ME3_Locust_Smg.png/revision/latest?cb=20120317184530
 andromeda: false
 properties:

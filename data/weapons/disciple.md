@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 4
   type: bludgeoning
-range: 10
+range:
+  short: 10
+  long: 20
 image: https://vignette4.wikia.nocookie.net/masseffect/images/6/6a/ME3_Disciple_Shotgun.png/revision/latest?cb=20120317201011
 andromeda: false
 properties:

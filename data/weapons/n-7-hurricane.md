@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 6
   type: piercing
-range: 15
+range:
+  short: 15
+  long: 45
 image: https://vignette4.wikia.nocookie.net/masseffect/images/e/e9/ME3_N7_Hurricane_Smg.png/revision/latest?cb=20120317184439
 andromeda: false
 properties:

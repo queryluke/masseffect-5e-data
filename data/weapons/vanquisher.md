@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 6
   type: piercing
-range: 150
+range:
+  short: 150
+  long: 450
 image: https://vignette.wikia.nocookie.net/masseffect/images/e/e8/MEA_Vanquisher_MP.png/revision/latest?cb=20180602004611
 andromeda: true
 properties:

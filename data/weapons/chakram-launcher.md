@@ -10,7 +10,9 @@ damage:
   dieCount: 1
   dieType: 8
   type: piercing
-range: 200
+range:
+  short: 300
+  long: 900
 image: https://vignette3.wikia.nocookie.net/masseffect/images/5/56/ME3_Chakram_Assault_Rifle.png/revision/latest?cb=20120317175958
 andromeda: false
 properties:

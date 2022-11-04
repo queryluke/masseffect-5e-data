@@ -10,7 +10,8 @@ damage:
   dieCount: 1
   dieType: 4
   type: piercing
-range: 5
+range:
+  short: 5
 image: null
 andromeda: true
 properties:

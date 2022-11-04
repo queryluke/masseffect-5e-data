@@ -10,7 +10,9 @@ damage:
   dieCount: 1
   dieType: 12
   type: piercing
-range: 50
+range:
+  short: 60
+  long: 180
 image: https://vignette2.wikia.nocookie.net/masseffect/images/9/95/ME3_Argus_Assault_Rifle.png/revision/latest?cb=20120317173420
 andromeda: false
 properties:

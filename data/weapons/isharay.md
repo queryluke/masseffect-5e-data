@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 8
   type: piercing
-range: 200
+range:
+  short: 300
+  long: 900
 image: https://vignette.wikia.nocookie.net/masseffect/images/2/2b/MEA_Isharay_MP.png/revision/latest?cb=20180602003240
 andromeda: true
 properties:

@@ -10,7 +10,9 @@ damage:
   dieCount: 2
   dieType: 8
   type: piercing
-range: 200
+range:
+  short: 300
+  long: 900
 image: https://vignette2.wikia.nocookie.net/masseffect/images/7/7b/ME3_Mantis_Sniper_Rifle.png/revision/latest?cb=20120317191621
 andromeda: false
 properties:

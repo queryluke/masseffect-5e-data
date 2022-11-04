@@ -10,7 +10,9 @@ damage:
   dieCount: 3
   dieType: 8
   type: piercing
-range: 10
+range:
+  short: 10
+  long: 20
 image: https://vignette4.wikia.nocookie.net/masseffect/images/a/a2/ME3_Claymore_Shotgun.png/revision/latest?cb=20120317200800
 andromeda: false
 properties:
