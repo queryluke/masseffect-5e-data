@@ -1729,7 +1729,39 @@
     "set": false,
     "rarity": "uncommon",
     "name": "Freedom Armor",
-    "flavor": "Cerberus designed freedom armor to look and feel like standard clothing while providing protection to their agents. - type: shields\n  capacity:\n    type: flat\n    value: 5\n  regen:\n    type: flat\n    value: 5\n- type: thermal-clip-capacity\n  value: 10\n- type: medi-gel-capacity\n  value: 4\n- type: grenade-capacity\n  value: 2\n- type: ac\n  bonus:\n    type: flat\n    value: 1",
+    "flavor": "Cerberus designed freedom armor to look and feel like standard clothing while providing protection to their agents.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        },
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      },
+      {
+        "type": "thermal-clip-capacity",
+        "value": 10
+      },
+      {
+        "type": "medi-gel-capacity",
+        "value": 4
+      },
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      },
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
     "html": "<ul>\n<li>+1 AC</li>\n</ul>\n",
     "id": "freedom-armor"
   },

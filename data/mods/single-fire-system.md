@@ -18,10 +18,14 @@ mechanics:
   - type: attack-augment
     attackLimit:
       model: weapon
-    augmentTypes: [hit, damage]
+    augmentTypes: [hit]
     bonus:
       type: flat
       value: 2
+  - type: attack-augment
+    attackLimit:
+      model: weapon
+    augmentTypes: [damage]
     dieIncrease: 1
   - type: adjust-weapon-props
     remove: [burst-fire, double-tap]
