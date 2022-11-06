@@ -18,10 +18,10 @@ mechanics:
   - type: weapon-augment
     damageType: thunder
     addDamage:
-      dieCount: 3
-      dieType: 6
-      type: thunder
-      addTo: all
+      - dieCount: 3
+        dieType: 6
+        type: thunder
+        addTo: all
     notes:
       - type: tooltip
         text: 'Miss: explosion'

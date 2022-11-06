@@ -17,10 +17,10 @@ flavor: Fire exploding projectiles
 mechanics:
   - type: weapon-augment
     addDamage:
-      dieCount: 1
-      dieType: 8
-      type: thunder
-      addTo: all
+      - dieCount: 1
+        dieType: 8
+        type: thunder
+        addTo: all
     heatConsumption: 2
     toggle: true
     name: Explosive Ammo
