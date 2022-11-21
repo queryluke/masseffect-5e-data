@@ -5,7 +5,7 @@ subclass: outrider
 mechanics:
   - type: global-note
     subType: action
-    value: Mounted
+    value: Mount/Dismount
     moreInfo:
       model: class-features
       id: master-in-the-saddle

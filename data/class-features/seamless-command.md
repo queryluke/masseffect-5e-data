@@ -7,7 +7,7 @@ mechanics:
     value: 2
   - type: global-note
     subType: action
-    value: Seamless Comman
+    value: Seamless Command
     moreInfo:
       model: class-features
       id: seamless-command

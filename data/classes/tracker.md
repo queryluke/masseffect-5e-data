@@ -12,7 +12,7 @@ profs:
     has:
       - heavy_pistol
     choices:
-      items: [melee,shotgun,sniper_rifles]
+      items: [melee,shotgun,sniper_rifle]
       count: 2
   tool:
     has:

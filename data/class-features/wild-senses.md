@@ -4,7 +4,10 @@ klass: tracker
 mechanics:
   - type: global-note
     subType: action
-    name: Wild Senses
+    value: Wild Senses
+    moreInfo:
+      model: class-features
+      id: wild-senses
 name: Wild Senses
 ---
 At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a

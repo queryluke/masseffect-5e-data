@@ -5,7 +5,7 @@ subclass: outrider
 mechanics:
   - type: global-note
     subType: action
-    value: 'Ride On: 1d8'
+    value: 'Ride On (1d8)'
     moreInfo:
       model: class-features
       id: ride-on

@@ -3,6 +3,7 @@ level: 1
 klass: tracker
 mechanics:
   - type: powercasting-points
+    options: true
     multiclassConversion: 0.5
     known: false
     prepared:

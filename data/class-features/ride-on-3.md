@@ -1,5 +1,5 @@
 ---
-level: 3
+level: 14
 klass: tracker
 subclass: outrider
 mechanics:
@@ -13,3 +13,4 @@ mechanics:
 name: Ride On!
 noFeatureDisplay: true
 ---
+The extra damage from your Ride On! feature increases to 3d8.

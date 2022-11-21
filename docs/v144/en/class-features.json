@@ -200,6 +200,62 @@
     "id": "advanced-weapon-holsters"
   },
   {
+    "level": 10,
+    "klass": "vanguard",
+    "subclass": "cardinal",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Amplify",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "amplify"
+        }
+      },
+      {
+        "type": "powers",
+        "value": "overload",
+        "provider": {
+          "model": "subclass",
+          "id": "cardinal"
+        },
+        "castAt": 2,
+        "mod": "wis",
+        "merge": {
+          "damage": [
+            {
+              "type": "force"
+            }
+          ],
+          "primes": "force",
+          "resource": {
+            "reset": "off",
+            "label": "Focus Points",
+            "id": "cardinal-focus-points",
+            "max": {
+              "type": "progressive",
+              "limit": "vanguard",
+              "value": {
+                "3": 2,
+                "6": 3,
+                "10": 4,
+                "14": 5,
+                "18": 6
+              }
+            }
+          },
+          "notes": [
+            "Costs 2 focus points"
+          ]
+        }
+      }
+    ],
+    "name": "Amplify",
+    "html": "<p>Your energies now adversely affect your victim's fortitude, allowing for other comrades to go in for the kill with ease.</p>\n<p>At 10th level, any creature you hit with Volt and they fail their dexterity saving throw, they will also be afflicted\nto take additional damage equal to your Wisdom modifier for the next 3 attacks against them. The maximum duration this\neffect can last is until the end of your next turn.</p>\n<p>Additionally, your Volt may be upcasted by spending 2 Focus Points to cast the Volt version of Overload at 2nd level.</p>\n",
+    "id": "amplify"
+  },
+  {
     "name": "Animal Companion",
     "level": 1,
     "klass": "tracker",
@@ -210,6 +266,35 @@
     ],
     "html": "<p>The most crucial part of any tracker.\nStarting at level 1, you gain a special beast companion, one that you perhaps created yourself, bought at an auction,\ngot assigned to you, or found in the wild and tamed yourself. Choose the type of animal companion from Synthetic, Brute,\nAll-Round, and Recon. If you choose All-Round, you may also select a type of movement speed from Swimming, Burrowing\nand Climbing. Your beast gains a swimming or climbing speed equal to its walking speed, or Burrowing equal to half.</p>\n<p>The beast obeys your commands as best as it can. It moves on your turn. You can command it to move however you want\n(No action required). You can use a bonus action to command it to Hide, Dodge, Dash or Disengage.</p>\n<p>To command it to attack, you must use your action to do so. You may only give one command to your beast per turn.\nFor example, if you command your beast to Hide using your bonus action, you may no longer order it to attack using your action.</p>\n<p>Add your proficiency bonus to the beast’s AC, attack rolls, and damage rolls, as well as to any saving throws and skills\nit is proficient in. Like any creature, it can spend Hit Dice during a short rest to regain hit points. Whenever you\nlevel up, your beast's hit points increase the same way yours do. Roll its hit die and add its constitution\nmodifier, and add the total to its total hit points.</p>\n<p>Whenever you gain the Ability Score Improvement feature, you may also increase one score of your beast by 2, or two\nscores by 1. Beyond this, all beasts are proficient in Light Armor and start out wearing Light Body Armor. This also\ncomes with a small biotic bubble that can make the head of the beast airtight and provide it with oxygen,\nletting it breathe in oxygenless areas. Whenever you find armor, you are able to modify it to fit your beast at the\ncost of 3 omni gel for light armor, 5 for medium and 8 for heavy armor, or 1 for a helmet.</p>\n<p>When your beast is reduced to 0 hit points, it makes death saving throws like a player character would. If your beast\ndies, you can spend 24 hours in a natural environment to bond with a new one if your beast is organic, or spend that\nsame amount of time and 20 omni-gel to create a new synthetic one, or 5 if you still have the body.</p>\n<p>As an action on your turn, you can spend one medi-gel that your beast is carrying to have your beast recover hit\npoints equal to 2d4+ your wisdom modifier. The healing increases to 4d4 at level 5, 6d4 at level 11, and 8d4 at level 15.</p>\n",
     "id": "animal-companion"
+  },
+  {
+    "level": 14,
+    "klass": "vanguard",
+    "subclass": "cardinal",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "rend",
+          "limit": [
+            "natural-weapon"
+          ]
+        },
+        "merge": {
+          "value": {
+            "html": "<p>On a killing blow with this weapon, you gain 1 Focus Point. You also gain 1 Focus Point when you roll an 8, 9, or 10 on the damage die with a single-handed attack or a 5 or 6 on either damage die with a two-handed attack. You cannot raise your Focus Points past your current maximum with this weapon.</p> <p>Attacks with this weapon will add your current Focus Points to this melee weapon's attack and damage rolls.</p> <p>Whenever you land a successful hit with your Cardinal Blades, you may spend 1 Focus Point to deal half of the total damage result (rounded down) to all creatures within a <me-distance length=\"15\" /> cone originating from your target in the direction you are currently facing when making this attack.</p>",
+            "notes": [
+              "+FP to Atk & Dmg rolls",
+              "On hit, 1 FP = 1/2 DMG to each creature within <me-distance length=\"15\" abbr />"
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Arc Wave",
+    "html": "<p>Your mastery of the Cardinal Blades have now given you the capability to push your focus to unleash further\nenergy against the prey's pack.</p>\n<p>At 14th level, whenever you land a successful hit with your Cardinal Blades, you may spend 1 Focus Point to deal\nhalf of the total damage result (rounded down) to all creatures within a <me-distance length=\"15\" /> cone originating from your target\nin the direction you are currently facing when making this attack.</p>\n<p>In Addition, your Cardinal Blades will now gain a Focus Point if you roll an 8-10 result\non the damage die (Or a 5-6 on either d6 when using Versatile)</p>\n",
+    "id": "arc-wave"
   },
   {
     "level": 3,
@@ -803,6 +888,78 @@
     ],
     "html": "<p>Starting at 10th level, the effects of brutal critical and zero-sum can be applied to your biotic powers\nthat require a power attack roll.</p>\n",
     "id": "biotic-fury"
+  },
+  {
+    "level": 10,
+    "klass": "vanguard",
+    "subclass": "cardinal",
+    "mechanics": [
+      {
+        "name": "Biotic Ghost",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-ghost"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Spend 3 focus points to create a biotic copy of yourself within <me-distance length=\"5\" />. This ghost acts after your turn as its own version of you, under your control. It cannot cast powers of 1st-level or higher and cannot be targeted or damaged. At the start of your next turn, if the ghost is within <me-distance length=\"20\" /> of you, you may choose to switch positions with your ghost, after that, the ghost dissipates.",
+        "resource": {
+          "reset": "off",
+          "label": "Costs 3 Focus Points",
+          "max": {
+            "type": "progressive",
+            "limit": "vanguard",
+            "value": {
+              "3": 2,
+              "6": 3,
+              "10": 4,
+              "14": 5,
+              "18": 6
+            }
+          },
+          "id": "cardinal-focus-points"
+        }
+      },
+      {
+        "type": "powers",
+        "value": "overload",
+        "provider": {
+          "model": "subclass",
+          "id": "cardinal"
+        },
+        "castAt": 3,
+        "mod": "wis",
+        "merge": {
+          "damage": [
+            {
+              "type": "force"
+            }
+          ],
+          "primes": "force",
+          "resource": {
+            "reset": "off",
+            "label": "Focus Points",
+            "id": "cardinal-focus-points",
+            "max": {
+              "type": "progressive",
+              "limit": "vanguard",
+              "value": {
+                "3": 2,
+                "6": 3,
+                "10": 4,
+                "14": 5,
+                "18": 6
+              }
+            }
+          },
+          "notes": [
+            "Costs 3 focus points"
+          ]
+        }
+      }
+    ],
+    "name": "Biotic Ghost",
+    "html": "<p>Through mastery of the Exalted Prophets' meditation methods, you are able to push enough energy out to have a\ntemporary version of yourself to unleash in order to overwhelm your prey.</p>\n<p>At 18th level, as a Bonus Action you may spend 3 Focus Points to create a biotic copy of yourself with a range of\n<me-distance length=\"5\" />, this ghost acts after your turn as its own version of you, under your control. However,\nit is unable to cast powers (But it can cast cantrips that you have learned) and cannot be targeted or damaged. At the\nstart of your next turn, if the ghost is within <me-distance length=\"20\" /> of you, you may choose to switch\npositions with your ghost, after that, the ghost dissipates.</p>\n<p>In addition, your Volt can now be upcasted to the 3rd level Volt version of Overload by spending 3 Focus Points</p>\n",
+    "id": "biotic-ghost"
   },
   {
     "level": 14,
@@ -2098,6 +2255,51 @@
     "id": "fitness"
   },
   {
+    "level": 3,
+    "klass": "vanguard",
+    "subclass": "cardinal",
+    "mechanics": [
+      {
+        "name": "Focus Points",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "focus-points"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "long",
+          "label": "Resets to 0 on long rest",
+          "resetTo": "min",
+          "max": {
+            "type": "progressive",
+            "limit": "vanguard",
+            "value": {
+              "3": 2,
+              "6": 3,
+              "10": 4,
+              "14": 5,
+              "18": 6
+            }
+          },
+          "id": "cardinal-focus-points",
+          "shortDesc": "Focus Points are used for your Cardinal Blades features."
+        }
+      },
+      {
+        "name": "Focus Points",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "focus-points"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Convert up to {{ conMod }} Barrier Tick(s) into Focus Points"
+      }
+    ],
+    "name": "Focus Points",
+    "html": "<p>Through their meditation, their mental focus allows them to channel their own energy into offence and allow for\nfurther more advanced abilities as they grow and master their gifts.</p>\n<p>Starting at 3rd level, you gain a new resource called Focus Points that start at 0. Focus Points are used for your\nCardinal Blades and other abilities at later levels.</p>\n<p>As a Bonus Action, you may convert a number of Barrier Ticks into Focus Points up to your Constitution Modifier.</p>\n<p>Your maximum Focus Points start at 2. At 6th level, this maximum increases to 3, then to 4 at 10th, 5 at 14th and 6\nat 18th level.</p>\n<p>Your focus Points reset to 0 on a long rest.</p>\n",
+    "id": "focus-points"
+  },
+  {
     "level": 10,
     "klass": "adept",
     "subclass": "blackstar",
@@ -2794,7 +2996,7 @@
       {
         "type": "global-note",
         "subType": "action",
-        "value": "Mounted",
+        "value": "Mount/Dismount",
         "moreInfo": {
           "model": "class-features",
           "id": "master-in-the-saddle"
@@ -3758,6 +3960,7 @@
     "mechanics": [
       {
         "type": "powercasting-points",
+        "options": true,
         "multiclassConversion": 0.5,
         "known": false,
         "prepared": {
@@ -4120,6 +4323,46 @@
     "id": "remote-detonation"
   },
   {
+    "level": 3,
+    "klass": "vanguard",
+    "subclass": "cardinal",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Cardinal Blades",
+          "type": "natural-melee",
+          "range": {
+            "short": 5
+          },
+          "damage": {
+            "dieCount": 1,
+            "dieType": 10,
+            "type": "slashing"
+          },
+          "properties": [
+            "versatile",
+            "finesse",
+            "special"
+          ],
+          "versatile": {
+            "dieCount": 2,
+            "dieType": 6,
+            "type": "slashing"
+          },
+          "html": "<p>On a killing blow with this weapon, you gain 1 Focus Point. You cannot raise your Focus Points past your current maximum with this weapon.</p> <p>Attacks with this weapon will add your current Focus Points to this melee weapon's attack and damage rolls.</p>",
+          "notes": [
+            "+FP to Atk & Dmg rolls"
+          ]
+        }
+      }
+    ],
+    "name": "Rend",
+    "html": "<p>With months upon months of meditation, the Cardinal's own biotics manifest into their own set of unique blades\nthat come from free hands, like omni-weapons do.</p>\n<p>At 3rd level, you gain the &quot;Cardinal Blades&quot;, a set of unique blades emitted from your own biotic energy, coming from\nyour specially crafted gauntlets that have been passed down to you from within your clan, from generation to generation.</p>\n<p>On a killing blow with this weapon, you gain 1 Focus Point. You cannot raise your Focus Points past your current\nmaximum with this weapon. Attacks with this weapon will add your current Focus Points to this melee weapon's\nattack and damage rolls.</p>\n<p>Like Omni-weapons, drawing one/them is a free action. Having this weapon equipped does not require a weapon slot.</p>\n",
+    "id": "rend"
+  },
+  {
     "level": 2,
     "klass": "engineer",
     "subclass": "medic",
@@ -4225,17 +4468,17 @@
           "global-note"
         ],
         "merge": {
-          "value": "Ride On: 2d8"
+          "value": "Ride On (2d8)"
         }
       }
     ],
     "name": "Ride On!",
     "noFeatureDisplay": true,
-    "html": "",
+    "html": "<p>The extra damage from your Ride On! feature increases to 2d8.</p>\n",
     "id": "ride-on-2"
   },
   {
-    "level": 3,
+    "level": 14,
     "klass": "tracker",
     "subclass": "outrider",
     "mechanics": [
@@ -4255,7 +4498,7 @@
     ],
     "name": "Ride On!",
     "noFeatureDisplay": true,
-    "html": "",
+    "html": "<p>The extra damage from your Ride On! feature increases to 3d8.</p>\n",
     "id": "ride-on-3"
   },
   {
@@ -4266,7 +4509,7 @@
       {
         "type": "global-note",
         "subType": "action",
-        "value": "Ride On: 1d8",
+        "value": "Ride On (1d8)",
         "moreInfo": {
           "model": "class-features",
           "id": "ride-on"
@@ -4380,7 +4623,7 @@
       {
         "type": "global-note",
         "subType": "action",
-        "value": "Seamless Comman",
+        "value": "Seamless Command",
         "moreInfo": {
           "model": "class-features",
           "id": "seamless-command"
@@ -6262,6 +6505,68 @@
     "id": "vengeance"
   },
   {
+    "level": 6,
+    "klass": "vanguard",
+    "subclass": "cardinal",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "overload",
+        "provider": {
+          "model": "subclass",
+          "id": "cardinal"
+        },
+        "castAt": 1,
+        "mod": "wis",
+        "merge": {
+          "damage": [
+            {
+              "type": "force"
+            }
+          ],
+          "primes": "force",
+          "notes": [
+            "Costs 1 Focus Point"
+          ],
+          "resource": {
+            "id": "cardinal-focus-points",
+            "reset": "off",
+            "label": "Focus Points",
+            "max": {
+              "type": "progressive",
+              "limit": "vanguard",
+              "value": {
+                "3": 2,
+                "6": 3,
+                "10": 4,
+                "14": 5,
+                "18": 6
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "rend",
+          "limit": [
+            "natural-weapon"
+          ]
+        },
+        "merge": {
+          "value": {
+            "html": "<p>On a killing blow with this weapon, you gain 1 Focus Point. You also gain 1 Focus Point when you roll a 9 or 10 on the damage die with a single-handed attack or a 6 on either damage die with a two-handed attack. You cannot raise your Focus Points past your current maximum with this weapon.</p> <p>Attacks with this weapon will add your current Focus Points to this melee weapon's attack and damage rolls.</p>"
+          }
+        }
+      }
+    ],
+    "name": "Volt",
+    "html": "<p>Your gifts of focussing your energy have now allowed you to push it out as a bolt of biotic lightning.</p>\n<p>At 6th level, as an Action, you may spend a Focus Point to cast a 1st level Overload at a target within <me-distance length=\"30\" />.\nThe damage type of this overload is force damage and the Primed condition becomes force instead of lightning.</p>\n<p>Additionally, your Cardinal Blades can now potentially charge Focus Points on a successful weapon attack. If you roll\na 9-10 on the d10 damage die (Or a 6 on either d6 when using Versatile), you also gain one Focus Point.</p>\n",
+    "id": "volt"
+  },
+  {
     "level": 3,
     "klass": "soldier",
     "subclass": "weapon-master",
@@ -6302,7 +6607,11 @@
       {
         "type": "global-note",
         "subType": "action",
-        "name": "Wild Senses"
+        "value": "Wild Senses",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "wild-senses"
+        }
       }
     ],
     "name": "Wild Senses",
