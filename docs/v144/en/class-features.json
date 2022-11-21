@@ -272,6 +272,33 @@
     "id": "assault-protocol"
   },
   {
+    "name": "Banish",
+    "level": 17,
+    "klass": "infiltrator",
+    "subclass": "stalker",
+    "mechanics": [
+      {
+        "name": "Banish",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "banish"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "banish"
+        },
+        "shortDesc": "You may attack two additional times on top of your regular Attack(s)"
+      }
+    ],
+    "html": "<p>The prey could be hurt, it could be staggering, or it could be on its last legs, but you need to take it down now.\nThe teachings given to you have allowed you to temporarily overcharge your weapon to burst down the prey before\nit gets away or it calls for help.</p>\n<p>At 17th level, you may use this feature to Attack two additional times on top of your regular Attack(s)\nthis turn. You may use this ability three times per long rest.</p>\n",
+    "id": "banish"
+  },
+  {
     "level": 1,
     "klass": "adept",
     "mechanics": [
@@ -1011,6 +1038,25 @@
     ],
     "html": "<p>Starting at 18th level, whenever a creature within <me-distance length=\"60\" /> that you can see makes a weapon attack or casts a power, you can use your reaction to\ncast charge, targeting that creature. Resolve any effects caused by charge before the creature takes its action. The creature\nmay choose to make a different action this turn.</p>\n",
     "id": "blitz"
+  },
+  {
+    "name": "Blood Trail",
+    "level": 13,
+    "klass": "infiltrator",
+    "subclass": "stalker",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Blood Trail",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "blood-trail"
+        }
+      }
+    ],
+    "html": "<p>When a creature is freshly wounded, you can almost taste the the meal of a fresh kill, pushing you to bring the\nprey down as soon as possible.</p>\n<p>At 13th level, you gain +2 to hit and +1d8 to damage rolls on all ranged weapon attacks on any creatures\nthat have already taken any damage between the end of your last turn and the start of this turn.</p>\n",
+    "id": "blood-trail"
   },
   {
     "level": 10,
@@ -2222,6 +2268,29 @@
     ],
     "html": "<p>Starting at 10th level, when your heavy weapon runs out of ammo, you can jerry-rig an additional charge for 2 omni-gel.</p>\n",
     "id": "heavy-weapon-hack"
+  },
+  {
+    "name": "Highlander",
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "stalker",
+    "mechanics": [
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      },
+      {
+        "name": "Highlander",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "highlander"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Throw a grenade or mine to a point within <me-distance length=\"30\" /> of you. This Grenade or Mine is not primed to explode. It is treated as an explosive object, and may be detonated using your Remote Detonation feature."
+      }
+    ],
+    "html": "<p>The Night Stalkers always begin their development by having extra holsters to be easily attachable on their armor of\nchoosing to carry more equipment to be out in the wilderness for longer.</p>\n<p>At 3rd level, your maximum grenade capacity increases by 2.</p>\n<p>As a Bonus Action, you may throw a Grenade or Mine to a point within <me-distance length=\"30\" /> of you. This\nGrenade or Mine is not primed to explode. It is treated as an explosive object, and may be detonated using your\nRemote Detonation feature.</p>\n",
+    "id": "highlander"
   },
   {
     "level": 10,
@@ -4023,6 +4092,34 @@
     "id": "reliable-talent"
   },
   {
+    "name": "Remote Detonation",
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "stalker",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Remote Detonation",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "remote-detonation"
+        }
+      },
+      {
+        "name": "Remote Detonation",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "remote-detonation"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Detonate a grenade, mine, or explosive object that is not being worn or carried within the short ranged of the weapon you a wielding. The explosion radius is increased by <me-distance length=\"5\" />. If you are currently hidden this turn, you will remain hidden with your current Stealth result without needing to roll a new Stealth check."
+      }
+    ],
+    "html": "<p>You've also gotten the knack for triggering traps with more control on when they go off and how.</p>\n<p>At 3rd level, any Grenade, Mine or explosive object (GM's discretion) within short range of your equipped ranged\nweapon that is not being carried by a creature, you may use a Bonus Action or Attack to detonate the\nobject with an increased explosion radius of <me-distance length=\"5\" />. If you are currently hidden this turn,\nyou will remain hidden with your current Stealth result without needing to roll a new Stealth check.</p>\n<p>Remote Detonation does not cost heat to use, however your equipped weapon's heat must be higher than 0.</p>\n",
+    "id": "remote-detonation"
+  },
+  {
     "level": 2,
     "klass": "engineer",
     "subclass": "medic",
@@ -4647,6 +4744,33 @@
     "name": "Steady Aim",
     "html": "<p>At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:</p>\n<ul>\n<li>The attacks ignore half and three-quarters cover.</li>\n<li>On a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.</li>\n</ul>\n<br>\n<p>This effect lasts 1 minute or until you use Steady Aim on a different target.</p>\n<p>You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</p>\n",
     "id": "steady-aim"
+  },
+  {
+    "name": "Sting",
+    "level": 9,
+    "klass": "infiltrator",
+    "subclass": "stalker",
+    "mechanics": [
+      {
+        "name": "Sting",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sting"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "sting"
+        },
+        "shortDesc": "Whenever you hit a creature with a ranged weapon attack on your turn, you may take the Hide action as a free action."
+      }
+    ],
+    "html": "<p>The ways of the Night Stalkers teach one to keep hidden at all times, never to be caught unawares, taking cover at\nlightning speed after shooting to keep the prey guessing on where that last shot came from.</p>\n<p>At 9th level, you may perform the Hide action as a free action after successfully hitting a creature with a ranged\nweapon attack during your turn. You may use this ability three times per long rest.</p>\n",
+    "id": "sting"
   },
   {
     "level": 7,
