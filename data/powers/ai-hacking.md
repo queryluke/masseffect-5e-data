@@ -8,6 +8,7 @@ tags:
 classes:
   - engineer
   - infiltrator
+  - tracker
 mechanics:
   - castingTime:
       unit: action

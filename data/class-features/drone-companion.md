@@ -3,6 +3,8 @@ level: 2
 klass: engineer
 subclass: drone-jockey
 name: Drone Companion
+mechanics:
+  - type: companion
 ---
 At 2nd level, you've learned to construct a drone companion. With 8 hours of work and the expenditure of 5000 credits worth of materials,
 you augment one of your drone's VI into a rudimentary AI, then create a synthetic body, transferring the AI into the body.

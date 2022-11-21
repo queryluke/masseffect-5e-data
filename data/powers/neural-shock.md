@@ -6,6 +6,7 @@ type: tech
 classes:
   - engineer
   - infiltrator
+  - tracker
 tags:
   - debuff
 mechanics:

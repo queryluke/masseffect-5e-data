@@ -7,6 +7,7 @@ tags:
 classes:
   - engineer
   - infiltrator
+  - tracker
 type: tech
 mechanics:
   - castingTime:

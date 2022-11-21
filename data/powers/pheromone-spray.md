@@ -7,6 +7,7 @@ classes:
   - engineer
   - sentinel
   - infiltrator
+  - tracker
 tags:
   - control
 mechanics:

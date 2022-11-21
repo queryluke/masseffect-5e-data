@@ -429,6 +429,8 @@ mechanics:
   value: int
 
 # IDEAS
+- type: ??? # some way to "auto-upgrade" a selection at a certain level (see tracker affinity)
+- short/long rest note
 - type: companion
   options:
     - @companion

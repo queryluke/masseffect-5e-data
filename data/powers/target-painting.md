@@ -7,6 +7,7 @@ classes:
   - engineer
   - infiltrator
   - sentinel
+  - tracker
 tags:
   - debuff
 mechanics:

@@ -7,6 +7,7 @@ classes:
   - infiltrator
   - soldier
   - vanguard
+  - tracker
 tags:
   - damage
 mechanics:

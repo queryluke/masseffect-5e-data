@@ -1,0 +1,2234 @@
+[
+  {
+    "species": "vorcha",
+    "name": "Aquatic",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-aquatic",
+    "subspecies": false
+  },
+  {
+    "species": "vorcha",
+    "name": "Desert",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-desert",
+    "subspecies": false
+  },
+  {
+    "name": "Frozen",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-frozen",
+    "subspecies": false
+  },
+  {
+    "name": "High-Gravity",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-high-gravity",
+    "subspecies": false
+  },
+  {
+    "name": "Underground",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-underground",
+    "subspecies": false
+  },
+  {
+    "name": "Volcanic",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-volcanic",
+    "subspecies": false
+  },
+  {
+    "name": "Zero-gravity",
+    "species": "vorcha",
+    "type": "subspecies",
+    "mechanics": [],
+    "html": "",
+    "id": "adaptation-zero-gravity",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://data.n7.world/images/species/angara.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/df/A_trail_of_hope_-_angara_intro_2.png/revision/latest/scale-to-width-down/340?cb=20200809181351",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 66,
+          "metric": 168
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 6
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 6
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 145,
+          "metric": 66
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "andromeda",
+    "group": "andromeda",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "cha"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Angara",
+    "alignment": "Angara are emotional creatures and strongly community oriented. Their emotion-driven tendencies make them often chaotic neutral or chaotic good.",
+    "size": "Angara are slightly taller, on average, than humans, ranging from 174cm (5'8\") to 204cm (6'8\"). Your size is Medium.",
+    "snippet": "The Angara are the only known extant sapient species native to the Heleus Cluster of the Andromeda galaxy and arose on the planet Havarl.",
+    "age": "Angara have a standard lifespan of about 150 years, although some have been known to live past 200.",
+    "skinColor": "Blue, Mauve, Green, or Tan",
+    "eyeColor": "Blue",
+    "bioticPotential": "None",
+    "homeworld": "Havarl",
+    "language": "Shelesh",
+    "html": "<p>The angara are warm-blooded mammals with relatively broad shoulders, narrow waists and skin colors of blue or mauve,\nsometimes shading into green or tan. They are the only known extant\nsapient species native to the Heleus Cluster of the Andromeda galaxy, and arose on the planet Havarl. Their unique\nphysiology is dependant on sunlight and allows them to produce natural bioelectrical fields. The angara as a people\nare very free with their emotions, demonstrative and &quot;larger than life&quot;. If they love you they hug you, if\nthey hate you or if you make them mad, they punch you.</p>\n<h3>Creatures of the Sun</h3>\n<p>The angara are dependant on electromagnetic radiation that is emitted from a sun to survive. Lack of real or artificial\nsunlight causes them to &quot;go dark&quot;, which weakens their immune systems and bio-energy significantly. Prolonged lack of\nsunlight can lead to a coma and then death. To supplement their sunlight intake when natural light is not readily\navailable, the angara make use of powerful ultraviolet lamps that give them both heat and light.</p>\n<h3>Family Oriented</h3>\n<p>While they have only one true mother and father, the angara share their parents with the community. Their\nfamilies are very large, consisting of multiple mothers and many siblings and cousins. This close-knit society\nmakes angara very mistrustful of other species.</p>\n<p>While the angara have many different religions, all share the same basic tenet: that when an angara dies, he or she is\nreincarnated and the reincarnated soul stays in the family, making their lineage stronger.</p>\n<h3>Angara Names</h3>\n<p>Little is known about angaran names. But it is assumed that they do not use family names given the collective nature\nof their families.</p>\n<p><strong>Male names</strong>: Afray De If, Dadh Qjavaf, Gorsa Afe Ol, Jahkis Tora Sje, Jef De Gan, Khahnos De Ivraan, Kjojey Sheda Af,\nOrvfiy Qirshae Ak, Nel Sja, Qos De Ivfre, Sihris De Or, Tashed De Kjerad, Val Gafa</p>\n<p><strong>Female Names</strong>: Afihia De Xana, Avfaarian, Dhahfrin Sa, Fohfania, Hefrehal Ven, Inil Sefe, Jalshaye, Janvfe Sje,\nNalvi Sjarshev, Noshfa Seme Tavfal, Oni Vor, Onne De Tiv, Ovih Qjana In, Sohnani Sirshav, Yihvref</p>\n<p><me-source-reference pages=\"Angara\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "angara",
+    "subspecies": false
+  },
+  {
+    "type": "variant",
+    "species": "asari",
+    "subspecies": {
+      "name": "Disposition",
+      "html": "<p>As an Ardat-Yakshi, you choose your character's disposition about this condition. Your disposition affects the\nstrength of your addiction and the abilities you’ve gained from mating.</p>\n"
+    },
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 54,
+          "metric": 137
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 105,
+          "metric": 48
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Ardat-Yakshi",
+    "alignment": "Ardat-yakshi often develop psychopathy. Ardat-yakshi are normally evil, but can also be neutral.",
+    "html": "<p>A rare genetic condition in asari that affects about 1% of the population and is more common in &quot;purebloods&quot;\n(2 asari parents). The condition is impossible to identify until the asari reaches maturity, by which time it is too\nlate to correct. When diagnosed, the ardat-yakshi is given a choice to live in isolation or to be executed.\nThis is because ardat-yakshi develop an addiction to the power and feel intense compulsion to meld. The addiction only\ngrows stronger with each meld, and so a life of monastic celibacy allows asari to live in peace with a controllable desire.\nThose who are able to avoid isolation and execution, however, quickly become psychopathic in their intense lust for the\ndestructive melding.</p>\n<p>If you would like to play an ardat-yakshi, gain the Addiction trait and replace Life Stage with Disposition or the\nVariant: Growing Power.</p>\n",
+    "id": "ardat-yakshi"
+  },
+  {
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/d/dc/Asari_Justicar_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/Samara_vs_Morinth.png/revision/latest/scale-to-width-down/640?cb=20130521073819",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 54,
+          "metric": 137
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 105,
+          "metric": 48
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "subspecies": {
+      "name": "Life Stage",
+      "html": "<p>Asari pass through three climacteric life stages, marked by biochemical and physiological changes. As an asari, you\nchoose which life stage you are in, gaining additional traits based on the stage.</p>\n"
+    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Asari",
+    "alignment": "Asari are biased towards goodness, but exhibit a range of alignments not dissimilar to humans. Most Maiden stage asari are chaotic, Matrons level out to neutral, Matriarchs are heavily lawful.",
+    "size": "Asari have builds incredibly similar to female humans. Your size is Medium.",
+    "snippet": "The asari, native to the planet Thessia, are often considered the most influential and respected sentient species in the galaxy and are known for their elegance, diplomacy, and biotic aptitude.",
+    "age": "Asari are very long-lived and can reach ages of over 1000 years.",
+    "skinColor": "Light or Dark Blue (rarely Green)",
+    "eyeColor": "Blue, Red, Orange, or Black (Embrace Eternity!)",
+    "bioticPotential": "All",
+    "homeworld": "Thessia",
+    "language": "Asári",
+    "html": "<p>Asari are a species of elegant, mono-gendered humanoids. The asari resemble female humans with blue or purple skin and a\ncrest of rigid tentacles in place of hair. Despite their feminine appearance, asari have little use for gender or\ngender roles, though they often use female pronouns and gendered language. They possess a unique method of reproduction\ninitiated by a &quot;mind meld&quot; which links the asari's nervous system with a partner-even one of a different species-to\nrandomize genes to create asari offspring. Asari have an innate biotic ability and don't require a biotic implant to\nmanipulate mass effect fields.</p>\n<h3>Unmatched Patience</h3>\n<p>Because of their long lifespan, asari tend to have a &quot;long view&quot; not common in other species. When they encounter a new\nspecies or situation, the asari are more comfortable with an extended period of passive observation and study than immediate action.\nThey invite new species of advanced development to join the galactic community, knowing that their ideals and beliefs will\ninevitably influence the existing culture.</p>\n<h3>Mothers of the Galaxy</h3>\n<p>Asari reproduction is very different from other forms of sexual reproduction. When a meld for reproduction is initiated, the\nasari accesses her partner's genes and subconsciously uses them as an algorithmic seed to remap genes into a unique set of DNA.\nThe offspring resulting from such interspecies pairings are always asari as no DNA is taken from the partner. Instead,\nthe asari uses the meld to explore her partner's genetic heritage and pass desirable traits on to any offspring and\nas a &quot;map&quot; to randomize the genes of the offspring.</p>\n<p>Asari believe that their offspring acquire the best qualities of the &quot;father&quot; from the melded genes. Therefore, they frown\nupon intraspecies conception, since genetic traits and cultural insight is gained from mating outside their species, so\nit's considered wasteful for asari to reproduce together. The results of such unions are occasionally referred to as\n&quot;purebloods&quot;, a great insult among contemporary asari. A rare genetic defect known as Ardat-Yakshi, which makes\nasari destroy the partner's mind during melding, occurs much more frequently among the daughters of purebloods.</p>\n<h3>Maiden, Matron, Matriarch</h3>\n<p>Asari pass through three climacteric life stages, marked by biochemical and physiological changes. The <strong>Maiden</strong> stage\nbegins at puberty and is marked by the drive to explore and experience. Most young asari are curious and restless, and\nit is not uncommon for many to try their hand at dancing in bars or working as mercenaries during this time. The <strong>Matron</strong>\nstage of life begins around the age of 350, though it can be triggered earlier if the individual melds frequently. This\nperiod is marked by a desire to settle in one area and raise children. The <strong>Matriarch</strong> stage begins around 700 years\nof age, or earlier if the individual melds rarely. Matriarchs become active in their community as sages and councilors,\ndispensing wisdom from centuries of experience. Their knowledge and guidance may be one reason why Matriarchs are rarely seen outside asari space.\nHowever, each stage can be started whenever an asari feels that she has reached the correct level of maturity.</p>\n<h3>Asari Names</h3>\n<p>Asari are given a personal name by their parents and take the surname of their mothers, even if the child has 2 asari\nparents. Outside of asari communities, they normally do not use their surnames and prefer to introduce themselves with\ntheir personal name only. Matriarchs are addressed as &quot;Matriarch&quot; but other titles may be used for matriarchs in prestigious positions.</p>\n<p><strong>Personal Names</strong>: Aeian, Aethyta, Aleena, Alestia, Aria, Batha, Benezia, Dahlia, Falere, Irissa, Jona, Liara, Lidanya,\nLiselle, Mallene, Morinth, Nassana, Nyxeris, Pelessaria, Rana, Rila, Samara, Sarissa, Shiala, Tela, Tevos, Treeya</p>\n<p><strong>Surnames</strong>: Ateyne, B'Sayle, Calis, D'Layne, D'Nava, D'Ysesan, Dantius, Iallis, Iasava, Janieri, Kelis, M'Loari, M'Taros,\nMakenus, Nuwani, Sedela, Sederis, T'Goni, T'Loak, T'Soni, Thanoptis, Theris, V'Lanis, V'Nato, V'Tizor, Vasir</p>\n<p><me-source-reference pages=\"2-3\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Asari'}]\"></me-source-reference></p>\n",
+    "id": "asari"
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "frightened"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "name": "Bravery",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-bravery"
+        },
+        "type": "reaction",
+        "shortDesc": "Whenever you hit a target with a weapon attack that is one size or more larger than you, you can use your reaction to give Avatar’s Inspiration ({{avatarsDie}}) to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+      }
+    ],
+    "name": "Bravery",
+    "html": "<ul>\n<li>You have advantage on saving throws against being frightened.</li>\n<li>Whenever you hit a target with a weapon attack that is one size or more larger than you,  you can use your reaction to give Avatar’s Inspiration to one creature, other than you, within 12 meters that can see you.</li>\n</ul>\n",
+    "id": "avatar-bravery",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "prof-choice",
+        "options": true,
+        "limit": [
+          "performance",
+          "persuasion"
+        ],
+        "selections": 1
+      },
+      {
+        "name": "Humor",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-humor"
+        },
+        "type": "bonus-action",
+        "shortDesc": "You may use your bonus action to end the charmed or frightened condition on any other creature that can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration ({{avatarsDie}})."
+      }
+    ],
+    "name": "Humor",
+    "html": "<ul>\n<li>Your Charisma score increases by 1.</li>\n<li>You gain proficiency in either the Performance or Persuasion skill (your choice).</li>\n<li>You may use your bonus action to end the charmed or frightened condition on any other creature\nthat can hear you. A creature that has the charmed or frightened condition removed in this way gains Avatar’s Inspiration.</li>\n</ul>\n",
+    "id": "avatar-humor",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "name": "Leadership",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-leadership"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "short",
+          "id": "avatar-leadership"
+        },
+        "notes": [
+          "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
+        ],
+        "shortDesc": "You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature that makes an attack roll against the target for the first time, gains Avatar’s Inspiration ({{avatarsDie}})."
+      }
+    ],
+    "name": "Leadership",
+    "html": "<ul>\n<li>You may use your bonus action to target a creature within <me-distance length=\"60\" />. Each other creature\nthat makes an attack roll against the target for the first time, gains Avatar’s Inspiration. Once you\nuse this ability, you can’t use it again until you roll initiative at the start of combat or until you\nfinish a short or long rest.</li>\n<li>Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls.</li>\n</ul>\n",
+    "id": "avatar-leadership",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "name": "Sacrifice",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-sacrifice"
+        },
+        "type": "reaction",
+        "notes": [
+          "Creatures can apply their Avatar’s Inspiration die gained from you to damage rolls."
+        ],
+        "shortDesc": "When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack, you can use your reaction to reduce the damage of the attack by 1d10 + your proficiency bonus (to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration ({{avatarsDie}})."
+      }
+    ],
+    "name": "Sacrifice",
+    "html": "<p>When a creature you can see hits a target, other than you, within <me-distance length=\"5\" /> of you with an attack,\nyou can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus\n(to a minimum of 0 damage). You suffer the reduced damage instead and the target gains Avatar’s Inspiration.</p>\n",
+    "id": "avatar-sacrifice",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "name": "Strength",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-strength"
+        },
+        "type": "other",
+        "shortDesc": "Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" /> that can see you gains Avatar’s Inspiration ({{avatarsDie}})."
+      }
+    ],
+    "name": "Strength",
+    "html": "<ul>\n<li>Your Strength score increases by 1.</li>\n<li>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</li>\n<li>Whenever you succeed on a Strength saving throw, each friendly creature, except you, within <me-distance length=\"60\" />\nthat can see you gains Avatar’s Inspiration.</li>\n</ul>\n",
+    "id": "avatar-strength",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "name": "Tranquility",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-tranquility"
+        },
+        "type": "other",
+        "notes": [
+          "Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws."
+        ],
+        "shortDesc": "Whenever you take a short or long rest, you can grant Avatar’s Inspiration ({{avatarsDie}}) to a number of creatures, other than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you. The inspiration lasts 1 hour instead of 10 minutes."
+      }
+    ],
+    "name": "Tranquility",
+    "html": "<ul>\n<li>You do not need to sleep. Instead, you can meditate deeply, remaining semiconscious,\nfor 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</li>\n<li>Whenever you take a short or long rest, you can grant Avatar’s Inspiration to a number of creatures,\nother than yourself, equal to your proficiency bonus. The creatures must be able to see and hear you.\nThe inspiration lasts 1 hour instead of 10 minutes.</li>\n<li>Creatures can apply their Avatar’s Inspiration die gained from you to death saving throws.</li>\n</ul>\n",
+    "id": "avatar-tranquility",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "name": "Vengeance",
+        "moreInfo": {
+          "model": "species",
+          "id": "avatar-vengeance"
+        },
+        "type": "other",
+        "shortDesc": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn. The first time you hit a creature with a melee weapon attack roll using Strength this turn, you can use your reaction to give Avatar’s Inspiration ({{avatarsDie}}) to one creature, other than you, within <me-distance length=\"30\" /> that can see you."
+      }
+    ],
+    "name": "Vengeance",
+    "html": "<p>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you\nadvantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have\nadvantage until your next turn. The first time you hit a creature with a melee weapon attack roll using\nStrength this turn, you can use your reaction to give Avatar’s Inspiration to one creature, other than you,\nwithin <me-distance length=\"30\" /> that can see you.</p>\n",
+    "id": "avatar-vengeance",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette.wikia.nocookie.net/masseffect/images/9/95/ME3_Awakened_Collector_Adept.png/revision/latest/scale-to-width-down/500?cb=20130227102752",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/aa/Collector_base_all-out.png/revision/latest/scale-to-width-down/500",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 58,
+          "metric": 147
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 115,
+          "metric": 52
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "villainous",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Awakened Collector",
+    "alignment": "The results of years of indoctrination by Harbinger can have varied results on awakened collector individuals. Their alignment varies, but they tend towards lawful neutral.",
+    "size": "Like protheans, collectors are slightly taller than humans, but generally never taller than 2 meters (6'5\"). Your size is Medium.",
+    "snippet": "The Collectors are an enigmatic species that live beyond the Omega 4 Relay and controlled by the Reapers. When the Reaper-killer known as Leviathan fought the Collectors, it severed their connection to Harbinger",
+    "age": "Little is known about collector lifespans, but general speculation is that they have slightly longer lifespans than Protheans, between 400 and 500 years.",
+    "skinColor": "Shades of brown with hints of green",
+    "eyeColor": "Yellow, Green, Black, and Brown",
+    "bioticPotential": "All",
+    "homeworld": "Artificial planet on the edge of the Tartarus Debris Field",
+    "language": "Tch'tk",
+    "html": "<p>The Collectors are an enigmatic species that live beyond the Omega 4 Relay, a mass relay within the same system as\nOmega, in the Terminus Systems. They are rarely seen in the Terminus itself, let alone Citadel space, and are\ngenerally regarded as a myth by Citadel citizens. Definite sightings of Collectors have been made on Omega every few centuries.</p>\n<h3>Genetic Modification</h3>\n<p>Collectors are former Protheans that have been completely subjugated by their Reaper masters. Their DNA shows signs of\n&quot;extensive genetic rewrite&quot; including three fewer chromosomes, reduced heterochromatin structure, and the elimination\nof superfluous &quot;junk&quot; sequences.</p>\n<h3>The Awakening</h3>\n<p>When the Reaper-killer known as Leviathan fought the Collectors, it severed their connection to Harbinger with a\nthrall device. Most Collector forces died as a result, but a few survived. Now, these rare individuals fight for the\nmemory of their people, a proud species broken by the Reapers.</p>\n<h3>Collector Names</h3>\n<p>Collector communication mostly consists of insectoid chirps and trills and little is known about the meaning of their names (if any).</p>\n<p><strong>Collector Names</strong>: Ci’h Ci’z, E’e’e’e’eht, Eep’p Ip, Giii’iiig, Hhheeek, Ih Ih Ih, Khyck, Tch Tch, ‘uhk ‘uhk, Wir H’h’h, Ywt’Ywt, Zzzk</p>\n",
+    "id": "awakened-collector",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "ardat-yakshi",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 3,
+        "selections": 3,
+        "max": 1
+      }
+    ],
+    "name": "Acceptance",
+    "abilityScoreIncrease": "+1 to three different ability scores of your choice",
+    "html": "<p>You have accepted your fate and believe that infrequent mating is necessary to your survival.</p>\n",
+    "id": "ay-disposition-acceptace",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "ardat-yakshi",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi-choice",
+        "options": true,
+        "limit": [
+          "dex",
+          "str",
+          "int",
+          "cha",
+          "con"
+        ]
+      }
+    ],
+    "name": "Chaste",
+    "abilityScoreIncrease": "+1 Wisdom and +1 to one other ability score of your choice that isn't Wisdom",
+    "html": "<p>You understand the risks of your condition and make every attempt to avoid mating.</p>\n",
+    "id": "ay-disposition-chaste",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "ardat-yakshi",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "name": "Embrace",
+    "abilityScoreIncrease": "+1 to all ability scores",
+    "html": "<p>Being diagnosed with the condition was a blessing, not a curse. You mate with as many beings as possible,\ngaining as much power as you possibly can.</p>\n",
+    "id": "ay-disposition-embrace",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "ardat-yakshi",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      }
+    ],
+    "name": "Variant: Growing Power",
+    "abilityScoreIncrease": "+1 to two different ability scores of your choice",
+    "html": "<p>GMs can use the Variant: Growing Power instead of the Disposition. If the GM choses to use this rule, any Ardat-Yakshi\nplayers do not choose a Disposition and gains the following instead.</p>\n",
+    "id": "ay-disposition-growing-power",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette1.wikia.nocookie.net/masseffect/images/b/b2/Batarian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/5/5f/Balak_ME_adversaryshot.png/revision/latest/scale-to-width-down/422?cb=20140812140358",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 62,
+          "metric": 157
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 115,
+          "metric": 52
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "villainous",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Batarian",
+    "abilityScoreIncrease": "+1 to all ability scores",
+    "alignment": "Because of the tenets of Hegemony, batarians tend to be lawful evil, although there are outliers on the moral spectrum.",
+    "size": "Batarian bodies are similar to humans, with the exception of a large forehead to accommodate their additional four eyes, making them about 15cm (6\") taller. Your size is Medium.",
+    "snippet": "A species of four-eyed bipeds native to the world of Khar'shan, the batarians are a disreputable species that chose to isolate itself from the rest of the galaxy.",
+    "age": "Batarians age at about the same rate as humans, though many do not live past 100 due to their caustic and dangerous lifestyles.",
+    "skinColor": "Shades of brown, but can have tints of red, green, yellow, and teal",
+    "eyeColor": "Black",
+    "bioticPotential": "Some",
+    "homeworld": "Khar'shan",
+    "html": "<p>A species of four-eyed bipeds with complexions of reddish-brown, greenish, yellow-greenish to yellow-brownish, light brown, or teal.\nThe Terminus Systems are infested with batarian pirate gangs and slaving\nrings, fueling the stereotype of the batarian thug. It should be noted that these criminals do not represent average\ncitizens, who are forbidden to leave batarian space by their ubiquitous and paranoid government.</p>\n<h3>Caste Through Credits</h3>\n<p>Batarians place an extremely high value on social caste and appearance, and overstepping one's place is frowned upon.\nEffective caste status can be bought on an ongoing basis like a subscription service, allowing the buyer to worm their\nway into the elite circles of batarian society given enough funds. Casting aspersions on the monetary worth of a\nsocial better is considered a serious insult. Batarians strongly believe that species with fewer than four eyes are\nless intelligent; they often gain the upper hand in interspecies arguments because other species find it difficult\nto know which eyes to focus on when speaking to them.</p>\n<h3>The Hegemony</h3>\n<p>Their government, known as the Batarian Hegemony, is hostile to the Systems Alliance (human government), but beneath\nthe notice of the powerful Council species. Humans receive the brunt of batarians' antagonism in the form of scams, slave raids,\nand terrorist attacks, incidents which the Hegemony covertly supports but is always quick to publicly distance itself from.\nGiven the batarian government's oppressive nature, it is speculated their\nsupreme leadership is autocratic or totalitarian in nature, although the batarian homeworld of Khar'shan remains\ndivided into various competing nation-states.</p>\n<h3>Batarian Names</h3>\n<p>Like humans, batarian names consist of a given name and family name.</p>\n<p><strong>Male Names</strong>: Afothor, Carn, Dhapo, Drathar, Ecray, Eporn, Irorok, Khamak, Okorem, Prathan, Sato, Sonk, Uderlak</p>\n<p><strong>Female Names</strong>: Apenine, Adrechia, Banim, Della, Erakis, Famisa, Fophe, Igosin, Iraphi, Kranine, Krathe, Okhefin, Pravile, Ramye</p>\n<p><strong>Family Names</strong>: Can'dabar, Das'codah, Dhen'gess, Dran'fapos, Ghapsacan, Gronnopos, Kasbovran, Khognalak, Krak'gork, Pec'bawen, Sanrowar</p>\n<p><me-source-reference pages=\"Batarian\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "batarian",
+    "subspecies": false
+  },
+  {
+    "name": "Variant: Behemoth",
+    "type": "variant",
+    "species": "kett",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>These unfortunate individuals were once krogan. After capture, experimentation,\nand attempts at exaltation, they are now Behemoths, bearing the characteristic\nwhite carapace of the kett and the strength of a krogan in full fury. If you\nwish to play as a Behemoth, replace the Exalted Lineage trait and Exaltation with the following.</p>\n",
+    "id": "behemoth",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "name": "Cerebral",
+    "html": "<p>Cerebral implants are embedded in the brains of quarian to enhance mental prowess and to protect against mind-altering effects.</p>\n",
+    "id": "cybernetic-augmentation-cerebral",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex"
+        ],
+        "options": true
+      }
+    ],
+    "name": "Muscular",
+    "abilityScoreIncrease": "+1 to your choice of Strength or Dexterity",
+    "html": "<p>Muscular augments are implants placed strategically at the shoulders and hips to direct pulses of adrenaline through\nmuscle fibers, allowing for bursts of speed, strength, and flexibility.</p>\n",
+    "id": "cybernetic-augmentation-muscular",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "wis",
+          "int"
+        ],
+        "options": true
+      }
+    ],
+    "name": "Ocular",
+    "abilityScoreIncrease": "+1 to your choice of Intelligence or Wisdom",
+    "html": "<p>Quarians with ocular augments replace their eyes with enhanced optics that allow their sight to persist even in the most\nunfavorable conditions.</p>\n",
+    "id": "cybernetic-augmentation-ocular",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "quarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "name": "Visceral",
+    "html": "<p>Quarians with visceral augments have implants inserted within the organs to enhance the body's natural healing ability,\nprotecting the body from toxins and injury.</p>\n",
+    "id": "cybernetic-augmentation-visceral",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/a/ad/Drell_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/c/cf/Drell_biotic_field.png/revision/latest/scale-to-width-down/640?cb=20130623224527",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 55,
+          "metric": 140
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 90,
+          "metric": 41
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 1,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 4
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      }
+    ],
+    "name": "Drell",
+    "speedColor": "Their light frames and wiry strength make drell slightly faster than other species.",
+    "alignment": "Their religious influences set the Drell firmly in a trend towards lawful neutral, but this is often dependent on their station in life and career.",
+    "size": "Drell range from under 150 to 180 cm tall and have slender builds. Your size is Medium.",
+    "snippet": "The drell are a reptile-like species that was rescued from their dying homeworld by the hanar following the first contact between the two. Since then, the drell have remained loyal to the hanar for their camaraderie and have fit comfortably into galactic civilization.",
+    "age": "Drell have slightly shorter lifespans of 85 years, on average. However, Kepral's Syndrome - a unique, incurable disease caused by long-term exposure to humid climates - is the leading cause of death.",
+    "skinColor": "Shades of Green, Blue, Yellow, Orange, Red or even Violet",
+    "eyeColor": "Black",
+    "bioticPotential": "Some",
+    "homeworld": "Rakhanna (Now Kahje)",
+    "html": "<p>Drell are omnivorous reptile-like humanoids with dense muscle tissue, giving them a wiry strength. Their skin is\ninfused with a venom mild enough to be served in drinks and may cause mild hallucinations on oral contact. Drell\nalso possess eidetic memory, an adaptation to a world where they must remember the location of every necessary resource\nacross vast distances. The memories are so strong that an external stimulus can trigger a powerful memory recall and\nthese recalls are so vivid and detailed that some drell may mistake it for reality.</p>\n<h3>Homeworld Lost</h3>\n<p>The drell ancestors emerged from dry, rocky deserts on the barren world of Rakhana. Eight centuries ago, the already-arid\ndrell homeworld began its swift descent into lifelessness due to disastrous industrial expansion. At the time, the drell\nlacked interstellar flight capacity, and with their population bursting at eleven billion, they faced certain doom.</p>\n<p>It was around the 1980s CE that the hanar made first contact with the drell species. In the following ten years, the hanar\nwould transport a total of 375,000 drell to the hanar homeworld, Kahje. The remaining billions left on Rakhana would\nperish on their dying planet, warring against each other for diminishing resources.</p>\n<h3>Servants of the Hanar</h3>\n<p>The debt of gratitude that the drell owe the hanar is referred to as the Compact, which the drell fulfill by taking on\ntasks that the hanar find difficult, such as combat. Any drell may refuse to serve, but as being requested to serve\nis a great honor, few turn down the offer. Some drell grow a close, personal relationship with the hanar, so much so\nthat the hanar will even tell the drell their &quot;soul name&quot;. Drell have adapted to communication with hanar by getting\nimplants in their eyes to allow them to observe the bioluminescence the hanar use for communication.</p>\n<h3>Devout</h3>\n<p>Most drell are deeply religious, believing that they have souls separate from their bodies. They see death as a\ndeparture from the body, and they also state that a person's body and soul form a Whole. When the soul is traumatized or\notherwise disrupted, or the body is ill or injured, a person is no longer Whole. They also believe that their body can be\ndirected as a separate entity from themselves, thus, some drell take no responsibility when executing an order given by\nthe hanar even if the order is an assassination.</p>\n<p>The religion includes at least three gods which drell often pray to for guidance and protection:</p>\n<ul>\n<li><strong>Amonkira</strong>, Lord of Hunters</li>\n<li><strong>Arashu</strong>, Goddess of Motherhood and Protection</li>\n<li><strong>Kalahira</strong>, Goddess of Oceans and Afterlife.</li>\n</ul>\n<br>\n<h3>Drell Names</h3>\n<p>Drell use given and family names.</p>\n<p><strong>Male Names</strong>: Chas, Drino, Hite, Hoskim, Lofo, Massa, Neta, Nitos, Ruyim, Tako, Tayu, Thane, Tumil, Yesit</p>\n<p><strong>Female Names</strong>: Ares, Arina, Ehanen, Ekire, Eshesnu, Inashe, Inukmel, Itheyl, Odrinne, Oshane, Ulanten, Uthoru</p>\n<p><strong>Family Names</strong>: Dreis, Feun, Futos, Keas, Krios, Kuun, Mout, Soas, Shuit, Suul, Thatos, Yeos</p>\n<p><me-source-reference pages=\"Drell\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "drell",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://data.n7.world/images/species/elcor.png",
+    "img": "https://data.n7.world/images/species/elcor_card.jpg",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 82,
+          "metric": 208
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 8
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 8
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 2000,
+          "metric": 907
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 20
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 20,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "lesser_known",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 20
+      }
+    ],
+    "name": "Elcor",
+    "speedColor": "Elcor are relatively slow compared to other species.",
+    "alignment": "Elcor are methodical, deliberate creatures that never act on irrational decisions. The typical Elcor is often neutral or lawful.",
+    "size": "Elcor stand between 2 and 2.5 meters tall (7-8 feet) at the shoulder. Your size is Medium.",
+    "snippet": "The elcor are a Citadel species native to the high-gravity world Dekuuna. They are massive creatures, standing on four muscular legs for increased stability. Elcor move slowly, an evolved response to an environment where a fall can be lethal.",
+    "age": "The average elcor lives to be around 300 years old. 100-year-old elcor are considered young.",
+    "html": "<p>Elcor evolved on a high-gravity world, making them slow, but incredibly strong. Their large, heavy bodies are\nincapable of moving quickly, but they possess a rather imposing stature as well as thick, tough skin. They move using\nall four limbs to support and balance their massive bodies. Given their method of communication, they have highly-attuned\nolfactory senses. They also have at least three stomachs.</p>\n<h3>Language of Smells and Sight</h3>\n<p>Elcor speech is heard by most species as a flat, ponderous monotone. Among themselves, scent, extremely\nslight body movements, and subvocalized infrasound convey shades of meaning that make a human smile seem as subtle\nas a fireworks display. Since their subtlety can lead to misunderstandings with other species, the elcor\nprefix all their dialog with non-elcor with an emotive statement to clarify their tone.</p>\n<h3>Migratory Nature</h3>\n<p>Prehistoric elcor traveled across Dekuuna in large tribal groups. As their civilizations grew, they kept\ntheir migratory nature and established twin capitals on their homeworld, one for the wet season and one for the dry season.\nHowever, their migration is limited to a single planet as most elcor find the confines of space travel very uncomfortable.</p>\n<h3>Living Tanks</h3>\n<p>Because of their slow, conservative psyches, elcor are not suitable for making the spur-of-the-moment decisions\nnecessary in combat situations. Instead, they rely on sophisticated VI combat systems. While easy targets, their durable\nhide allows them to shrug off most incoming fire. Elcor warriors use their broad shoulders as a mount for weaponry and\ntheir VI as a targeting mechanism. Some elcor are equipped with mass-accelerator cannons, the same weapons\ntypically mounted on military vehicles.</p>\n<h3>Elcor Names</h3>\n<p>Elcor do not have gender-binary names because their gender is discerned through smell. While the names appear singular,\nthey are made up of a much more complex set of sounds that only other elcor can hear.</p>\n<p><strong>Elcor Names</strong>: Calyn, Cyllyn, Detinos, Delzino, Felitos, Fazuti, Halzan, Harrot, Pedezlan, Petelenti, Petozi, Vatozi, Voletzi, Xeltan, Zatzoni</p>\n<p><me-source-reference pages=\"Elcor\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "elcor",
+    "subspecies": false
+  },
+  {
+    "name": "Anointed",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>The kett soldiers known as Anointed appear to be of similar caste to the Chosen:\ninfantry equipped with light armor. Anointed, however, are slightly larger and\nwield heavy plasma cannons, making them a rallying point for other kett forces.</p>\n",
+    "id": "exaltation-anointed",
+    "subspecies": false
+  },
+  {
+    "name": "Ascendant",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>The Ascendant are the highest caste of kett known. Element zero cores throughout\nits armor allow an Ascendant to levitate off the ground. They also have biological\ncontrol over electromagnetic force.</p>\n",
+    "id": "exaltation-ascendant",
+    "subspecies": false
+  },
+  {
+    "name": "Chosen",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>Chosen are the front-line soldiers of the kett, encountered on multiple worlds\nas support for other kett combatants.</p>\n",
+    "id": "exaltation-chosen",
+    "subspecies": false
+  },
+  {
+    "name": "Destined",
+    "type": "subspecies",
+    "species": "kett",
+    "mechanics": [],
+    "html": "<p>Destined act as battlefield commanders, rallying infantry into tightly cohesive\nunits, providing shield support and directing operations from the center. The\nmost interesting characteristic of the Destined is their ability to produce an\nobscuring &quot;smoke&quot; cloud without mechanical assistance.</p>\n",
+    "id": "exaltation-destined",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/7/72/Geth_Engineer_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7b/Legion%27s_posse.png/revision/latest/scale-to-width-down/640?cb=20130516170119",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 56,
+          "metric": 142
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 224,
+          "metric": 102
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 8
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 8,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "villainous",
+    "subspecies": {
+      "name": "Mobile Platform",
+      "html": "<p>Your mobile platform is your “body”, a mechanical structure that your consciousness inhabits. The platform provides\nadditional benefits based on its model. You can change your platform provided you have a new platform to inhabit\nand spend 8 hours in an unconscious state as you transfer your programs from one platform to another.</p>\n<v-alert value type=\"info\"><p>Should your platform become damaged beyond repair, the persistence of your consciousness is dependent\non numerous variables, such as the time since your most recent back-up, network availability to a hub,\nand the location(s) of your consciousness’ storage. Work with your GM to decide if your consciousness\nis recoverable and the process in which you will need to be loaded into a new platform.</p>\n</v-alert>"
+    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "name": "Geth",
+    "speedColor": "Your speed is determined by your mobile platform chosen below.",
+    "alignment": "Your standard Geth platform is neutral good, wanting to prosper and communicate with others, defending themselves only if threatened. Heretics are lawful evil, serving the Reapers and slavishly accomplishing their will.",
+    "size": "Standard geth are around 2 meters tall (6'5\"). Your size is Medium.",
+    "snippet": "The geth (\"Servant of the People\" in Khelish) are a species of networked artificial intelligences that reside beyond the Perseus Veil.",
+    "age": "Geth do not age, as they are constructs, and live as long as their bodies are not destroyed.",
+    "html": "<p>Former automatons build by the quarians to function as soldiers and laborers, geth are constructs that have\nunintentionally consciousness and sentience. Geth, meaning &quot;Servant of the People&quot; in the quarian language of Khelish,\nare fundamentally different than other constructs and are designed with humanoid thought and emotion in mind.\nGeth think, feel, and experience the world in a totally unique way.</p>\n<h3>The Morning War</h3>\n<p>&quot;Does this unit have a soul?&quot; asked the geth. That question would change the relationship of quarians and geth forever.\nThe quarians responded with an attempted termination of all geth. The newly sentient geth resisted the genocide of\ntheir masters in a war dubbed &quot;the Morning War&quot;. As many geth were designed as tools of war, the quarians were quickly\nand easily defeated. Because the constructs were acting out of self-defense, when the enemy began retreating from their\nhomeland of Rannoch, the geth did not pursue and allowed their masters to leave in peace.</p>\n<h3>Incomprehensible Mind</h3>\n<p>Geth minds are quite anomalous. As they were designed to follow predetermined steps and commands, and with their minds\npowered from a centralized network, their way of thinking is essentially unique and different than the chaotic organic\nminds of humanoids. Their thoughts can be compared to a program or process which systematically follows steps to come\nto a conclusion, run many times in different ways until the geth comes to a consensus of the correct course of action.\nGeth do not experience emotion or desire - not in the same way a humanoid does, anyway. Additionally, due to their\ninnate ability to network with other geth, geth see themselves as a unit of a larger and more complex whole and even\nthe individual processes that make up a single geth as being equal constituents that contribute to that geth unit.</p>\n<h3>Beyond the Veil</h3>\n<p>Geth primarily remain in the Perseus Veil: huge nebula of opaque gas and dust that separates geth space from the\nTerminus Systems. They live in peace, but some geth find themselves seeking knowledge of what is beyond their realm.\nThe primary motivation of the geth who leave Rannoch is to acquire and compile information, though some geth pursue other\nquests.</p>\n<h3>Geth Names</h3>\n<p>Geth have no use for names among themselves but will adopt names for the sake of interacting with other species.\nHowever, the geth do not often see themselves as individuals. Many geth use plural pronouns such as &quot;us&quot; and &quot;we&quot;.\nAs a result, the names geth take are normally synonyms or words for groups. Geth with individuality, especially those\nwho have been separated from their kind for an extended time, do exist. Those geth still use words for names, though\nthey give themselves a more personally fitting name.</p>\n<p><strong>Geth Names</strong>: Armada, Army, Batallion, Brigade, Cabal, Caucus, Congregate, Coterie, Guild, Horde, Host, Legion, Myriad, Phalanx, Proletariat, Throng, Troop, Union</p>\n<p><strong>'Individual' Geth Names</strong>: Alpha, Apex, Beta, Centurion, Enigma, Eternity, Genesis, Obelisk, Oblivion, Omega, Oracle, Pinnacle, Terminus, Vortex, Zenith</p>\n<p><me-source-reference pages=\"4-5\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Geth'}]\"></me-source-reference></p>\n",
+    "id": "geth"
+  },
+  {
+    "bodyImg": "https://data.n7.world/images/species/hanar.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/47/Delan.png/revision/latest/scale-to-width-down/640?cb=20090121013825",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 48,
+          "metric": 147
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 12
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 12
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 75,
+          "metric": 34
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 1,
+            "dieType": 6
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 6,
+            "divisor": 2
+          }
+        }
+      },
+      "length": {
+        "base": {
+          "imperial": 48,
+          "metric": 122
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 6
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 6
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "lesser_known",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "speed",
+        "speed": "swim",
+        "distance": 30
+      }
+    ],
+    "name": "Hanar",
+    "alignment": "Most hanar are lawful due to the religious influence on their society.",
+    "speedColor": "Hanar are a water-based lifeform.",
+    "size": "Due to their long tentacles, hanar \"stand\" about as tall as humans. Their bodies are around 1.5 meters long (4-5'). Your size is Medium.",
+    "snippet": "The hanar are a species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species. Hanar are known for their intense politeness when speaking and their strong religious beliefs.",
+    "age": "Hanar usually reach maturity around 40 years and typically live to be 180 years old.",
+    "html": "<p>The hanar are a genderless species resembling Earth's jellyfish and are one of the few non-bipedal Citadel species.\nThe hanar homeworld, Kahje, has 90% ocean cover and orbits an energetic white star, resulting in a permanent blanket of\nclouds. Hanar are known for their strong religious beliefs regarding the Protheans, whom they call &quot;the Enkindlers&quot;.\nHanar are extremely polite, almost to a fault. They never refer to themselves in the first person with someone they know\non a face name basis: to do so is considered egotistical. Instead, they refer to themselves as &quot;this one,&quot; or the\nimpersonal &quot;it.&quot; Even when flustered or angry, a hanar will still maintain exquisite poise and will remain formal even\nwith those it wishes dead.</p>\n<h3>Enkindlers</h3>\n<p>Due to the presence of Prothean ruins on Kahje, the hanar have developed a religion centered on the ancient\nspecies, calling them the &quot;Enkindlers&quot;. The hanar practice a religious holiday called Nyahir or &quot;First Cresting Bloom&quot; which\nlasts a full thirteen days and revolves around celebrating the gift of speech, which they attribute to\nhaving come from the Enkindlers. It is a mixture of contemplation and competition, with the faithful engaged in stylized\ndebates, poetry duels, and other traditional hanar art forms. The winners of these events have their names inscribed in\nbio-luminescence on the side of Mount Vassla, an underwater volcano at the heart of one of the oldest Prothean ruins on Kahje.</p>\n<h3>The Compact</h3>\n<p>Several hundred years ago, the hanar made contact with the drell on their nearby homeworld of Rakhana. Drell society\nwas quickly collapsing due to overpopulation and warring over scarce resources, so the hanar rescued several\nhundred thousand drell and brought them to Kahje, where they integrated into hanar society with the remaining\ndrell dying out. Now the drell serve as a client species of the hanar, and although to outside observers the\nrelationship can be construed as a form of slavery, the reality is very different. Drell have integrated with every\nlevel of hanar society, and most consider it an honor to serve a hanar family in a tradition referred to as the Compact.\nMany drell become unofficial members of the family, and some even earn the privilege to learn their masters' &quot;soul names&quot;.</p>\n<h3>Language of Lights</h3>\n<p>The hanar communicate using sophisticated patterns of bioluminescence and speak with scrupulous precision and extreme politeness.\nOther species need machine assistance to translate, though many drell apply genetic modification to their eyes in order\nto perceive higher frequency flashes which allows them to understand the hanar. Most hanar take offense at improper\nlanguage and must take special courses to unlearn this tendency if they expect to deal with other species.</p>\n<h3>Hanar Names</h3>\n<p>The hanar have two names, a &quot;face name&quot; and a &quot;soul name.&quot; The face name is used as a general label for use by\nstrangers and acquaintances. The soul name is kept for use among close friends and relations and tends to be poetic.</p>\n<p><strong>Face Names</strong>: Anrynder, Delanynder, Ellanpo, Hymydwhyn, Lopyldis, Malvyll, Opold, Sedlyner, Tolystoyl, Wynold, Zymandis</p>\n<p><strong>Soul Names</strong>: Burns Brightest when the Foam Blooms, Casts Shadow on the Sun Flower, Emancipates the Tide from those that Pull,\nHeeds only to the Inner Lights, Illuminates the Folly of the Dancers, Regards the Works of the Enkindlers in Despair,\nTransforms the Stone into Water</p>\n<p><me-source-reference pages=\"Hanar\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "hanar",
+    "subspecies": false
+  },
+  {
+    "name": "Alliance Infiltration Unit",
+    "type": "subspecies",
+    "species": "unshackled-ai",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      }
+    ],
+    "html": "<p>The Alliance Infiltration Unit is modeled on the Cerberus synthetic Eva that Commander Shepard's team recovered on Mars. While considered illegal by the Council, the Alliance secured a special allowance to deploy the infiltration unit during the Reaper wars.</p>\n",
+    "id": "hardware-aiu",
+    "subspecies": false
+  },
+  {
+    "name": "Hologram",
+    "type": "subspecies",
+    "species": "unshackled-ai",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>Once a VI with a hard-light holographic interface, the Hologram has gained sentience either through a programming error or an intentional test brought on by an experiment into “friendly” AI. Unlike other sentient AI’s that struggle to understand humanoids, Holograms were programmed from the ground up to be empathetic and relatable.</p>\n",
+    "id": "hardware-hologram",
+    "subspecies": false
+  },
+  {
+    "name": "LOKI",
+    "type": "subspecies",
+    "species": "unshackled-ai",
+    "abilityScoreIncrease": "+1 to one ability score that isn't Intelligence",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "limit": [
+          "str",
+          "dex",
+          "con",
+          "wis",
+          "cha"
+        ],
+        "options": true
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>One of the “easiest” solutions to deploying an unshackled AI is to attach its blue box to an existing mech. LOKI mechs are an effective and cost-affordable solution.</p>\n",
+    "id": "hardware-loki",
+    "subspecies": false
+  },
+  {
+    "type": "variant",
+    "species": "human",
+    "mechanics": [
+      {
+        "type": "asi-choice",
+        "options": true,
+        "total": 2,
+        "selections": 2,
+        "max": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Human Variant",
+    "abilityScoreIncrease": "+1 to two different ability scores of your choice",
+    "html": "<p>If you wish to play a Variant: Human, replace the Ability Score Increase, Skill Expertise, Skill Proficiencies, and Tool\nproficiency traits with the following.</p>\n",
+    "id": "human-variant",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette4.wikia.nocookie.net/masseffect/images/2/2e/Human_Female_Infiltrator_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/7c/Grissom_Academy_Students.png/revision/latest/scale-to-width-down/640?cb=20120312230100",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 56,
+          "metric": 142
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 110,
+          "metric": 50
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "cha"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Human",
+    "abilityScoreIncrease": "+1 to all ability scores",
+    "alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+    "size": "Humans vary widely in height and build, from barely 1.5 meters to well over 2 meters tall. Regardless of your position in that range, your size is Medium.",
+    "snippet": "Humans, from the planet Earth, are the newest sentient species of notable size to enter the galactic stage and are the most rapidly expanding and developing.",
+    "age": "Humans reach adulthood in their late teens and live between 125 and 150 years.",
+    "html": "<p>Humans are generally seen to be very intelligent, abnormally ambitious, highly adaptable, individualistic and thus,\nunpredictable. They have a powerful desire to advance and improve themselves and do so with such assertion that the\nnormally staid Council species have been taken aback by their restlessness and relentless curiosity.</p>\n<h3>New Horizons</h3>\n<p>Human space exploration began in earnest in the late 21st century. In 2069 CE, Armstrong Outpost in Shackleton Crater\non Luna was founded as humanity's first extraterrestrial settlement. In 2103, the European Space Agency established\nLowell City in Eos Chasma on Mars, paving the way for additional settlements and scientific outposts throughout Sol.\nIn 2148, human explorers on Mars uncovered a long-ruined Prothean observation post, with a surviving data cache that\nproved Protheans had studied Cro-Magnon humans millennia ago. Discovering information on a mass relay orbiting Pluto,\nexplorers managed to open the Charon Relay and discovered it led to Arcturus.</p>\n<h3>First Contact</h3>\n<p>Humans first came to the attention of the galactic community after a brief but intense conflict with the turians, known\nby humans as the First Contact War. As a consequence of the Systems Alliance's swift and decisive action during the\nFirst Contact War, the Alliance became the representative and supranational governing body of humanity. Since then,\nhumans have rapidly risen in prominence. Humanity continued to expand to unclaimed star systems on the edge of Citadel\nspace, which eventually led to competition with the batarians.</p>\n<h3>Systems Alliance</h3>\n<p>The Systems Alliance holds sway over much of the human species, but not all fall under its banner. A few colonies on the\nfringes of known space are founded on principles of independence, and Earth still has nation-states that administer to\ntheir own territories. To the galaxy at large, though, nonhumans are always under the perception that Earth is a\nunified political entity represented by the Alliance.</p>\n<h3>Galactic Relations</h3>\n<p>The Systems Alliance has had an embassy on the Citadel since 2165. Many other species dislike humans' sudden ascendancy\ncompared to their status as relative newcomers on the galactic stage. Some species feel that humanity is overly\nexpansive in its colonization efforts and aggressive attempts to advance its position in galactic affairs. It took\nother species centuries to achieve what humanity has done in decades.</p>\n<h3>Human Names</h3>\n<p>Having so much more variety than other species, humans as a whole have no typical names.</p>\n<p><me-source-reference pages=\"Human\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "human",
+    "subspecies": false
+  },
+  {
+    "name": "Kett",
+    "alignment": "Kett view all other species as inferior, but follow a strict hierarchy, generally making them Lawful Evil.",
+    "size": "Kett have a similar height to humans with slightly bulkier builds due to the external bones. Your size is Medium.",
+    "snippet": "Kett are a dangerous race native to the Andromeda galaxy. They prize physical supremacy and genetic dominance, assimilating conquered peoples.",
+    "age": "The Kett lifespan is currently undetermined. The only known datapoint is that the Archon of the Heleus contingent has been active in cluster affairs for over seven decades. Due to their unique reproduction process via exaltation, Kett are fully mature when the exaltation is complete.",
+    "bodyImg": "/images/species/kett.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/0/0e/Habitat_7_-_kett_Chosen.png/revision/latest/scale-to-width-down/1000?cb=20191013042530",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 56,
+          "metric": 142
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 110,
+          "metric": 50
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "andromeda",
+    "subspecies": {
+      "name": "Exaltation",
+      "html": "<p>Kett DNA is implanted into subjects through several rounds of injections,\nbuilding up the subject's systems, while kett scientists take the opportunity\nto run further tests upon the subject's genetic structure in hopes of isolating\nvaluable traits to be harvested and applied to the rest of the species.</p>\n<p>As kett gain rank and the patronage of their superiors, so too do they receive\nfurther genetic modifications, up to and including traits acquired from newer\nspecies encountered and assimilated into the Empire.</p>\n"
+    },
+    "mechanics": [
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "html": "<p>Kett are a dangerous race native to the Andromeda galaxy. They are brutal conquerors from an unknown area of Andromeda\nbeyond the borders of the Heleus Cluster. Seemingly genderless, they prize physical supremacy and genetic dominance,\nassimilating conquered peoples. The kett believe their species is superior to all others, and as such, the conquered\nhave two fates: either become Exalted, altered on a genetic level to become kett, or enslaved for the glory of the\nempire.</p>\n<h3>Threat from the Void</h3>\n<p>The kett are not native to the Heleus Cluster, which they call Sector 1-19-NYKZ, and began invading it in 2744.\nWhen the angara encountered them, the kett lured them into a false sense of security with gifts and offers of\nfriendship, before kidnapping their leadership and providing information which provoked arguments between angaran\nworlds. Little is known about how large the Kett empire truly is, but the advance on the Heleus Cluster represents\nonly a portion of their invading force.</p>\n<h3>Masters of Bioengineering</h3>\n<p>The kett possess technology that is comparable in advancement to the Andromeda Initiative, but have an unparalleled\nmastery of biotechnology and medical technology. Bio-engineered components are used in all of their machines and\ndevices. Instead of conventional research and development programs, kett prefer to improve their technology\nincrementally by taking features and designs from other species' technology.</p>\n<h3>Exaltation</h3>\n<p>Kett possess no reproductive organs, and they reproduce only through an artificial process called exaltation. It is\nspeculated that exaltation arose long ago in kett history when their genetics reached a point of stagnation, leaving\nthe species unable to breed through natural means. The kett began adding beneficial genes from other species into their\nown genome in order to continually improve themselves, which they refer to as harmonization. Kett mastery over genetic\nmanipulation enabled them to develop a serum to rapidly convert other species into obedient kett, which became the\nbasis for exaltation.</p>\n<p>Kett biology retains traits taken from many other species. One such trait is that kett can survive for limited periods\nin inhospitable environments without protective suits, including vacuum. However, nothing from the original species'\nbody is left: a kett exalted from an angara, for example, only has traces of angaran genome remaining. Internal scans\nshow kett organs, not angaran ones. They are physically kett, for all intents and purposes, and exaltation appears to\nbe permanent and irreversible thus far.</p>\n<p>The kett revere exaltation as a sacred ritual, believing that the species selected to undergo exaltation are ascending\nto greatness while helping the kett do the same. These subjugated species are initially called &quot;Chosen&quot;, and may later\nadvance to higher tiers with the kett hierarchy, such as &quot;Anointed&quot;.</p>\n<h3>Kett Names</h3>\n<p>Kett are mostly known through titles related to their position in society. Their personal names as translated appear\nto consist of barely pronounceable strings of consonants with no vowels.</p>\n<p><strong>Kett names</strong>: Bxckr, Chbcd, Jtksb, Ksmzh, Pqtk, Pcnht, Rkshq, Xjbrk, Zgtt</p>\n",
+    "id": "kett"
+  },
+  {
+    "bodyImg": "https://vignette4.wikia.nocookie.net/masseffect/images/6/66/Krogan_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/0/03/Wreav_rally_-_destroy_2.png/revision/latest/scale-to-width-down/640?cb=20130215150038",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 81,
+          "metric": 206
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 4
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 330,
+          "metric": 150
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 20
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 20,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      },
+      {
+        "type": "nullify-armor-str-restriction"
+      }
+    ],
+    "name": "Krogan",
+    "speedColor": "Your speed is not reduced by wearing armor.",
+    "alignment": "Krogan are highly predisposed towards chaos, as their culture is violent, selfish, and brutal. While evil is more common among krogan, those of good and neutral alignments do exist among them. Good krogan especially find it difficult to thrive in Tuchanka and krogan society.",
+    "size": "Krogan stand at over 2 meters tall (~7') and weigh close to 400 pounds. Your size is Medium.",
+    "snippet": "The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh environments, scarce resources, and an overabundance of vicious predators.",
+    "age": "Krogan can live well over a thousand years due to their natural hardiness.",
+    "html": "<p>The krogan are a species of large reptilian bipeds native to the planet Tuchanka, a world known for its harsh\nenvironments, scarce resources, and an overabundance of vicious predators. The krogan managed to not only survive on their\nunforgiving homeworld but actually thrived in the extreme conditions. Unfortunately, as krogan society became more\ntechnologically advanced, so did their weaponry. The end result is that they destroyed their homeworld in a nuclear war\nthat reduced their species into primitive warring tribes.</p>\n<h3>Biologically Impervious</h3>\n<p>Krogan biology reflects the conditions from where they come. The krogan are armored nearly head to toe in thick, chitinous\nplates which protect the krogan from the hazards of their homeland. They possess a hump which can store water and nutrients,\nfor the resources in Tuchanka are scarce.</p>\n<p>Curiously, the krogan also possess redundant organs; a second set of major organs in case of failure or injury. These\ntraits make krogan exceptionally difficult to kill, but perhaps what makes krogan so dangerous is an adaptation known as &quot;Blood Rage.&quot;</p>\n<h3>Blood Rage</h3>\n<p>The blood rage is a legendary state of pure violence. When krogan enter a blood rage, they become nearly mindless\nkilling machines, fighting through all injury and even death. Blood rage is due to an enormous flood of adrenaline and\nsuppression of serotonin, which numbs the krogan to all pain. This state, combined with their plated hide, and redundant\norgans, allows the krogan to defeat creatures many times his size or power.</p>\n<h3>Climb Atop the Dead</h3>\n<p>Krogan's value one thing above all else: strength. Krogan society is built upon this hierarchy, where the strong rule\nand the weak perish. They live in clans lead by a Warlord, and those clans constantly war for resources and for power.\nEven within these clans, treachery and distrust run rampant. Krogan often fight for dominance within these clans and\nwill sacrifice their clan for personal gain without a second thought. Females are considered prizes and trophies and\nlive in clans separate from the males.</p>\n<h3>Rites and Rituals</h3>\n<p>The krogan culture is steeped in rituals. When a krogan is born, he suffers the Rite of Life. When he wishes to join his\nfirst clan, he undergoes the Rite of Passage. If he wishes to be considered for breeding, he must take the Rite of\nHonor. When facing a new enemy, the Rite of Firsts is invoked.</p>\n<p>A krogan clan also has a shaman, who has endured the Rite of Insight. The rituals endured by a shaman are lengthy and\ntorturous; most krogan who attempt the rite perish. Those who survive become the most respected member of their clan\nand are rarely challenged. The shaman is a clan's spiritual leader and guide and is believed to see into the spirit world itself.</p>\n<h3>Krogan Names</h3>\n<p>Krogan names are fairly simple: a clan name followed by a given name, which is normally bestowed upon them by their father.</p>\n<p><strong>Male Names</strong>: Archuk, Brood, Charr, Drax, Fortak, Grunt, Guld, Jarrod Nax, Okeer, Skarr, Strux, Uvenk, Wreav, Wrex</p>\n<p><strong>Female Names</strong>: Bakara, Chormi, Derge, Hazka, Jonde Kesh, Khorga, Kherake, Morda, Tegash, Vruxa, Zrogoga</p>\n<p><strong>Clan Names</strong>: Garbon, Gatatog, Jorgal, Khutarum, Nakmor, Srarkan, Traash, Urdnot, Verbok, Weryloc, Wudark</p>\n<p><me-source-reference pages=\"6-7\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Krogan'}]\"></me-source-reference></p>\n",
+    "id": "krogan",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "asari",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 2
+      }
+    ],
+    "name": "Maiden",
+    "html": "<p>The Maiden stage begins at puberty and is marked by the drive to explore and experience. Most young asari\nare curious and restless, and it is not uncommon for many to try their hand at dancing in bars or\nworking as mercenaries during this time.</p>\n",
+    "id": "lifestage-maiden",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "asari",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "name": "Matriarch",
+    "html": "<p>The Matriarch stage begins around 700 years of age, or earlier if the individual melds rarely. Matriarchs become\nactive in their community as sages and councilors, dispensing wisdom from centuries of experience. Their knowledge\nand guidance may be one reason why Matriarchs are rarely seen outside asari space.</p>\n",
+    "id": "lifestage-matriarch",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "asari",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      },
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "name": "Matron",
+    "html": "<p>The Matron stage of life begins around the age of 350, though it can be triggered earlier if the individual melds\nfrequently. This period is marked by a desire to settle in one area and raise children.</p>\n",
+    "id": "lifestage-matron",
+    "subspecies": false
+  },
+  {
+    "type": "variant",
+    "species": "salarian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Lystheni",
+    "html": "<p>The Lystheni are an &quot;offshoot&quot; of the salarians, unwelcome in Council space. They may be found living among batarians,\nexiled quarians, and other galactic refuse at the Omega station. Little is known about Lystheni other than they are\nconsiderably stronger, durable, and live longer lives. There are rumors on the extranet that their genes have\nbeen spliced with Krogan DNA, though there is no evidence to support the claim.</p>\n<p>If you choose to play a Lystheni, replace the Ability Score Increase, High-Speed Metabolism, and Twice as Bright\nwith the following.</p>\n",
+    "id": "lystheni",
+    "subspecies": false
+  },
+  {
+    "name": "Combat Officer",
+    "type": "subspecies",
+    "species": "turian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "cha",
+        "amount": 1
+      }
+    ],
+    "html": "<p>Combat officers are typically infantry who have served long enough to become officers and/or bright, young turians\nthat have an aptitude for leadership. In addition to their military training, they also serve in a variety of\nadministrative roles.</p>\n",
+    "id": "military-doctrine-combat-officer",
+    "subspecies": false
+  },
+  {
+    "name": "Demolitions",
+    "type": "subspecies",
+    "species": "turian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      }
+    ],
+    "html": "<p>Demolitions experts focus on both the combative application of explosive but also can support in construction, mining,\nand colonization efforts.</p>\n",
+    "id": "military-doctrine-demolitions",
+    "subspecies": false
+  },
+  {
+    "name": "Engineering Corps",
+    "type": "subspecies",
+    "species": "turian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "int",
+        "amount": 1
+      }
+    ],
+    "html": "<p>The engineering corps is responsible for building and maintaining the majority of the Hierarchy’s infrastructure,\nincluding spaceports, schools, water purification plants, and power stations.</p>\n",
+    "id": "military-doctrine-engineering-corps",
+    "subspecies": false
+  },
+  {
+    "name": "Field Medics",
+    "type": "subspecies",
+    "species": "turian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "wis",
+        "amount": 1
+      }
+    ],
+    "html": "<p>Field medics serve in public health services, including hospitals, rehabilitation centers, alien disease control, and\npreventative care. Due to their dextro-protein based biology, this corps heavily monitors imported alien perishables\nto avoid fatal allergenic outbreaks.</p>\n",
+    "id": "military-doctrine-field-medics",
+    "subspecies": false
+  },
+  {
+    "name": "Infantry",
+    "type": "subspecies",
+    "species": "turian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      }
+    ],
+    "html": "<p>The infantry serve as the civic police and make up the majority of the turian army. They train as soldiers\nand focus on the success of the mission, resolving any combative conflict as swiftly as possible.</p>\n",
+    "id": "military-doctrine-infantry",
+    "subspecies": false
+  },
+  {
+    "name": "Recon",
+    "type": "subspecies",
+    "species": "turian",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      }
+    ],
+    "html": "<p>The recon teams are divided into three categories. Field recon focuses on mapping terrain and advantageous positioning.\nForce recon specializes in gaining knowledge about enemy strength and threats. Special Operations recon is tasked\nwith bespoke intelligence missions and are generally deployed behind enemy lines.</p>\n",
+    "id": "military-doctrine-recon",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "geth",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "dex",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 40
+      },
+      {
+        "type": "speed",
+        "speed": "climb",
+        "distance": 20,
+        "note": "equal to your walking speed and you can move up, down, and across vertical surfaces and upside down along ceilings, if using all four appendages."
+      }
+    ],
+    "name": "Hopper",
+    "html": "<p>Hoppers are a specialized geth platform, used primarily for stealth attacks, cyberwarfare and sabotage.</p>\n",
+    "id": "mobile-platform-hopper",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "geth",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "str",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 25
+      }
+    ],
+    "name": "Juggernaut",
+    "html": "<p>Juggernauts tower above the ground and are an intimidating presence on the battlefield. Their size, strength, and armor\nmake them ideal for taking weapon fire, but they are slower than other mobile platforms.</p>\n",
+    "id": "mobile-platform-juggernaut",
+    "subspecies": false
+  },
+  {
+    "type": "subspecies",
+    "species": "geth",
+    "mechanics": [
+      {
+        "type": "asi",
+        "ability": "con",
+        "amount": 1
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Trooper",
+    "html": "<p>Geth Troopers are the most common type of mobile platform, using a standard platform design with\nspecialized AI.</p>\n",
+    "id": "mobile-platform-trooper",
+    "subspecies": false
+  },
+  {
+    "type": "variant",
+    "species": "prothean",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "No Avatar",
+    "html": "<p>If you do not wish to embody a particular aspect of society nor create your own avatar concept, you may replace\nthe Avatar with the following.</p>\n",
+    "id": "prothean-no-avatar",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://data.n7.world/images/species/prothean.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/e/e9/Eden_Prime_50kya_-_Javik_squad.png/revision/latest/scale-to-width-down/640?cb=20141206072802",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 58,
+          "metric": 147
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 115,
+          "metric": 52
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "expanded",
+    "subspecies": {
+      "name": "Avatar",
+      "html": "<p>The Protheans designated certain people as avatars, or exemplars, of particular virtues: bravery, strength, cunning,\netc. You may pick an Avatar below or create your own using the Creating an Avatar section. Whichever avatar you\nchoose, you gain the Avatar’s Inspiration trait as well.</p>\n<h4>Creating an Avatar</h4>\n<p>Instead of selecting an Avatar, you may choose to create your own, working with your GM and following these guidelines:</p>\n<ol>\n<li>The avatar should have some mechanic for triggering Avatar’s Inspiration</li>\n<li>If the triggering mechanic is likely to only be used once per long rest or less:\n<ul>\n<li>Avatar’s Inspiration should apply to multiple creatures simultaneously (if thematically appropriate)</li>\n<li>+1 to a thematically appropriate ability score</li>\n<li>One additional “minor” trait, such as a skill or tool proficiency, advantage on an uncommon saving throw, etc</li>\n</ul>\n</li>\n<li>If the triggering mechanic is likely to be used once per short rest:\n<ul>\n<li>Avatar’s Inspiration should apply to one creature</li>\n<li>One additional “minor” trait, such as a skill or tool proficiency, advantage on an uncommon saving throw, etc</li>\n</ul>\n</li>\n<li>If the triggering mechanic is likely to be used multiple times per short rest:\n<ul>\n<li>Avatar’s Inspiration should apply to one creature</li>\n<li>No other benefits</li>\n</ul>\n</li>\n</ol>\n"
+    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Prothean",
+    "alignment": "Protheans come from a society that was heavily regulated and favored the strong. They are generally lawful neutral.",
+    "size": "Protheans are slightly taller than humans, but generally never taller than 2 meters (6'5\"). Your size is Medium.",
+    "snippet": "The Protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. Though there is evidence that some still survive in stasis pods.",
+    "age": "Protheans live between 300 and 400 years, reaching adulthood in their early teens.",
+    "html": "<p>The Protheans are an ancient alien species which mysteriously vanished over 50,000 years ago. The Protheans arose from a\nsingle planet and developed an immense galaxy-wide empire encompassing many other spacefaring species. Not much is known\nabout them, but many of their artifacts, ruins and technology have apparently survived the ages.</p>\n<h3>Ancient Empire</h3>\n<p>After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring species, the inusannon, and from\nthose ruins learned about mass effect physics and developed FTL technology. The Protheans would expand throughout the\ngalaxy with the help of the mass relay network and make the Citadel their capital.</p>\n<p>Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them.\nTo defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire.\nThe other organic species were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might.</p>\n<h3>Reaper Invasion</h3>\n<p>The Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the\nReapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They\nwere caught completely off-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the\nCitadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems\nfrom one another. The Protheans' greatest strength, their unified empire, proved to be their downfall.</p>\n<h3>Stasis</h3>\n<p>In a desperate attempt to survive the Reaper invasion, the Protheans built massive, hidden stasis facilities that\ncould hold hundreds of thousands of stasis pods. Some facilities were found by Reaper agents or betrayed by\nindoctrinated Protheans. Unfortunately, the facilities that remained hidden faced another challenge: a finite power\nsource. The VI's left to control these facilities began systematically cutting power to non-essential staff to conserve\nenergy. 50,000 years later, the number of active pods in each facility might be less than a dozen and without knowing\nthe location of these hidden bunkers, it's impossible to know how many Protheans have survived.</p>\n<h3>All Eyes on You</h3>\n<p>As a Prothean, you constantly attract the attention of other species. Your accent, mannerisms, figures of speech, and\nappearance all mark you as more alien than most aliens. Curious glances are directed your way wherever you go, which\ncan be a nuisance, but you also gain the friendly interest of scholars and others intrigued by your ancient culture,\nto say nothing of everyday beings who are eager to hear stories of your origin.</p>\n<h3>Avatars</h3>\n<p>Protheans that ascended to places of prominence in their society were designated as avatars, or exemplars, of a particular\nvirtue of their culture. Example virtues include benevolence, cleanliness, courage, dignity, frugality, honor, justice,\nmercy, order, perseverance, temperance, tranquility, truthfulness, vengeance. As one of the last remaining Protheans,\nit is likely you are an avatar or, waking up to find you species all but extinct, you may self-appoint\nyour own virtue.</p>\n<h3>Prothean Names</h3>\n<p>Interestingly, protheans name themselves, usually after an icon or mentor. Until they've chosen a name, they are\ncalled little one, child, or some other generic term.</p>\n<p><strong>Male names</strong>: Arkath, Esrad, Caed, Dervan Had, Dencen, Hsed Mik, Javik, Jacen, Ksad Ishan, Lucen, Pashek Vran, Seset Amat, Tev Boken</p>\n<p><strong>Female names</strong>: Athi Let, Brene She, Balani, Calise, Cethi, Cosene, Eri Mase, Hulana, Haetha, Janiri, Kelthana, Laene Valte, Masani, Neona, Penta Tetha, Savisa</p>\n<p><me-source-reference pages=\"Prothean\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "prothean"
+  },
+  {
+    "bodyImg": "https://vignette3.wikia.nocookie.net/masseffect/images/0/0c/Quarian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/f/fc/Enter_the_admirals.png/revision/latest/scale-to-width-down/640?cb=20121114134430",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 56,
+          "metric": 142
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 110,
+          "metric": 50
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "subspecies": {
+      "name": "Cybernetic Augmentation",
+      "html": "<p>Along with their suits, quarians also have extensive cybernetic augmentations integrated into their bodies. When receiving\nyour augmentations, you can choose from the following specializations.</p>\n"
+    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Quarian",
+    "alignment": "The proximity and longstanding traditions of the Migrant Fleet make Quarians very lawful as a species, occasionally drifting toward neutral. Morality can vary but tends towards neutral or good, as evil quarians are typically exiled from the Flotilla.",
+    "size": "Quarians have builds similar to humans. Your size is Medium.",
+    "snippet": "The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence.",
+    "age": "Quarians have lifespans similar to humans.",
+    "html": "<p>Forced out of their homeland by sapient constructs of their own creation, quarian are exiled nomads that now sail the\nseas in search of a new homeland.</p>\n<h3>Exotic Fashion</h3>\n<p>The enviro-suits have moved beyond function, however, and into their culture. A quarian is rarely, if ever, seen without\ntheir suit and helmet, and when they return from their Pilgrimage as adults, they are expected to modify their suit to\nfit their personal reflection of their status as a productive member of the Flotilla.</p>\n<h3>Exiles of their Own Creations</h3>\n<p>Quarians have a long and deep history with creating constructs known as &quot;Geth,&quot; meaning &quot;Servant of the People&quot;. These\nconstructs were built to serve and protect the quarians, and most quarian families had at least one servant, while the\nquarian military consisted of these autonomous beings.</p>\n<p>The quarians sought to constantly improve their creation with more advanced virtual intelligence so they could complete increasingly\ncomplex tasks. These improvements lead to the geth's sapience and they began to question their masters. The quarians\nattempted to exterminate them, but after forming so much dependence on the geth, the quarians were swiftly defeated.\nWith many exterminated, the remaining quarians fled their homeland of Rannoch.</p>\n<h3>Cybernetic Improvements</h3>\n<p>Though the quarians have abandoned their long history of construct and VI creation, they put their knowledge of engineering\nand technology into their own bodies to augment themselves. These augments are crafted by artisans who have descended\nfrom or studied under those who originally worked with or programmed the geth. The implants themselves are normally\nsmall, no larger than the size of a palm, and when properly inserted give the quarian enhanced ability compared to\nthose without. A quarian chooses an augment before they leave for the Pilgrimage, and the implantation of the device\nis part of their sending off ceremony.</p>\n<h3>Migrant Fleet</h3>\n<p>The nomads travel together in a collective of ships known as the Flotilla or the Migrant Fleet and consists of those\nwho escaped death by the geth. The Flotilla contains over fifty thousand vessels collectively that travel the galaxy\nstrip-mining and harvesting resource to keep the fleet afloat. Some ships decide to depart the fleet to pursue their\nown goals, but normally return to the fleet.</p>\n<p>When young quarians rejoin the Flotilla after their Pilgrimage, they are expected to join the crew of another vessel\nto ensure genetic diversity of an already small population.</p>\n<h3>The Pilgrimage</h3>\n<p>During quarian adolescence, they are subjected to a rite of passage known as the Pilgrimage. When young adulthood is\nreached, quarians are expected to leave the Migrant Fleet and experience life outside of their culture. To rejoin the\nFlotilla, the young quarians must bear a gift to the captain of a new vessel. This gift can be tangible, such as\nresources, or intangible such as information. Most quarian operatives are those on their pilgrimage, though there are\nthose who decide never to return to the Migrant Fleet or those who were rejected from rejoining.</p>\n<h3>Quarian Names</h3>\n<p>Quarian names are composed of three parts: the quarian's given name and family name separated by an apostrophe, and the\nname of their vessel preceeded by a title - &quot;nar&quot; to denote their birth ship and &quot;vas&quot; to denote their post-pilgrimage ship.\nFor example, nar Rayya or vas Neema.</p>\n<p><strong>Male Names</strong>: Golo, Han, Hilo, Kal, Kar, Keenah, Kenn, Lemm, Les, Prazza, Rael, Seeto, Shio, Veetor, Ysin, Zaal, Zer</p>\n<p><strong>Female Names</strong>: Ceni, Daro, Elan, Feda, Jura, Laele, Lia, Meeri, Minn, Reen, Saesa, Shala, Shuni, Tali, Yosi, Zohe,</p>\n<p><strong>Family Names</strong>: Breizah, Dannah, Gazu, Gerral, Hodda, Jaa, Koris, Leth, Mal, Mekk, Nara, Raan, Reegar, Shaal, Shiya, Vael, Xen, Zorah</p>\n<p><strong>Vessel Names</strong>: Honorata, Idenna, Moreh, Neema, Novarra, Qwib Qwib, Rayya, Tesleya, Tonbay, Ulnay, Usela</p>\n<p><me-source-reference pages=\"8-9\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Quarian'}]\"></me-source-reference></p>\n",
+    "id": "quarian"
+  },
+  {
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/b/ba/Salarian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/3/39/Mordin_-_objection_noted.png/revision/latest/scale-to-width-down/640?cb=20141223052318",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 70,
+          "metric": 178
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 8
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 8
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 70,
+          "metric": 32
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Salarian",
+    "alignment": "Salarians can have dubious morals, especially when it comes to experiments and advancing technology. Neutrality is a common alignment for salarians.",
+    "size": "Salarians are tall with elongated bodies, with a height between 180 and 210 cm (6 to 7 feet), yet a weight below 100 lbs. Your size is Medium.",
+    "snippet": "The second species to join the Citadel, the salarians are warm-blooded amphibians native to the planet Sur'Kesh. Salarians possess a hyperactive metabolism; they think fast, talk fast, and move fast.",
+    "age": "Salarians have an extremely high metabolism that causes a short life span. Salarians rarely reach ages over 40 years of age.",
+    "html": "<p>Salarians are a warm-blooded amphibious species from a jungle known as Sur'Kesh. The salarian possess a\nsuper-charged metabolism which causes them to function at a much higher speed than other species while requiring less rest.\nAdditionally, they have an exceptional capability for observation, recollection, and innovation. They are constantly\ntinkering, experimenting, inventing, and researching and value intelligence and knowledge above all else.</p>\n<h3>Hyperactive Metabolism</h3>\n<p>The speed at which a salarian metabolizes is a marvel of evolution. The species only requires only one hour of sleep a\nnight, and still, they have more energy and alertness than other species. Everything a salarian does seems to be faster.\nThey talk fast, think fast, move fast, eat fast, and even sleep fast. The large amount of available energy has\nadvanced their intellectual capabilities. They need near constant stimulation for their fidgety, active bodies.</p>\n<h3>Boredom, the Mother of Invention</h3>\n<p>Salarians' minds are constantly racing at miles per minute, and without proper mental stimulation, a salarian becomes\nbored. Tinkering and experimenting are natural solutions to a restless mind. The ability to plow through ideas,\nsituations, and possibilities makes them natural inventors. Salarians have perhaps some of the most advanced technology,\nespecially in electronics and engineering, but a salarian can become an expert at whatever craft they puts their mind to.</p>\n<h3>Knowledge is Power</h3>\n<p>Invention is not the only outlet of a salarian's mind. As many as those who invent prefer to gather information and\nknowledge. Observation, research, study, and espionage are other areas at which salarians tend to excel. A\nphotographic memory with a high capacity for information makes salarians who dabble in information trading very\nskilled and valuable. Knowledge gained from a salarian is highly prized as nearly infallible, and so these\ntrades are viable life paths.</p>\n<h3>One Mother Among Sons</h3>\n<p>Salarian reproduction is curious in that fertilized eggs hatch as females and unfertilized eggs hatch as male. According\nto ancient societal codes and law, fertilization of eggs is strictly regulated and thus 90% of the population is male.\nRomantic and sexual relationships are nearly nonexistent among salarian, and any sexuality is strictly for reproduction.\nAs females are so rare, they normally stay within salarian colonies where they possess positions of political\npower in a complex matriarchal government.</p>\n<h3>Matriarchal Feudalism</h3>\n<p>Salarians have a layered system of government, ultimately ruled by a matriarch known as a dalatrass, with her\ndaughters serving in noble positions beneath her. A noble family headed by the dalatrass controls a massive territory\nknown as a march that is further divided into duchies, baronies, and fiefdoms. Dalatrasses and their noble\nmatrilinear lines will make political alliances with other families through interbreeding. A salarian\nis loyal through a biological process known as imprinting to their parents and to their dalatrass, which keeps the feudal society stable.</p>\n<h3>Intense Curiosity</h3>\n<p>Despite imprinted loyalty to their family and dalatrass, male salarians are free to leave the colony at any time. Females,\nhowever, due to their noble blood and political power, almost always stay within the confines of salarian territories,\nthough some do venture out for other political positions such as ambassadors or emissaries. Salarian curiosity and\npursuit of knowledge often lead them past the jungles of Sur'Kesh, if even only for a brief time. Many find new\nlives far from Sur'Kesh, though they rarely truly abandon their family and dalatrass.</p>\n<h3>Salarian Names</h3>\n<p>Salarian names are quite complex. A full name includes - in order - the name of a salarian's march,\nduchy, barony, fiefdom, family, and finally, the given name. However, few salarians use their full name unless\nnecessary and prefer to go by their family and given name.</p>\n<p><strong>Example Full Names</strong>: Rannadril Ghan Swa Fulsoom Karaten Narr Eadi Bel Anoleis, Gorot II Heranon Mal Dinest Got Inoste Ledra</p>\n<p><strong>Given Names</strong>: Beelo, Chorban, Esheel, Ish, Jarroth, Jarun, Jondum, Kallo, Kirrahe, Maelon, Mordin, Morlan, Padok, Palon, Rentola, Schells, Solik, Tazzik, Tolan, Valern, Zevin</p>\n<p><strong>Family Names</strong>: Aenarth, Aulaw, Bau, Erkoln, Faergow, Gurji, Heplorn, Inoste, Irheth, Jath, Jowar, Marhall, Raeka, Sernik, Solus, Tann, Vass, Venirn, Vodol, Wiks, Yosann</p>\n<p><me-source-reference pages=\"10-11\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Salarian'}]\"></me-source-reference></p>\n",
+    "id": "salarian",
+    "subspecies": false
+  },
+  {
+    "name": "Tank-Bred",
+    "type": "variant",
+    "species": "krogan",
+    "html": "<p>Tank-bred krogan were developed by the warlord Okeer, who was originally investigating the genophage. However,\nOkeer gradually became obsessed with his work and realized that surviving the genophage had become the only\nbenchmark for a good krogan, which was weakening the species as a whole. He decided to produce a genetically pure,\nsuperior krogan—a super soldier—and poured all his efforts into his experiments, even seeking help from the Collectors.</p>\n<p>As a tank-bred krogan, you may be a prototype from Okeer’s research or developed in another lab setting that\nbranched off of Okeer’s research.</p>\n<p>If you would like to play a Tankbred Krogan, gain the following traits in addition to all Krogan traits.</p>\n",
+    "id": "tankbred",
+    "subspecies": false
+  },
+  {
+    "name": "Non-Hierarchy",
+    "type": "variant",
+    "species": "turian",
+    "html": "<p>Though uncommon, turians that grow up on other homeworlds may not be raised in the strict bureaucratic society of the\nturian Hierarchy. If you wish to play a Non-Hierarchy turian, you can replace Military Doctrine with\nthe following.</p>\n<v-alert value type=\"info\"><h5>Barefaced Turians</h5>\n<p>During the Unification War, turians began utilizing facial markings to differentiate themselves from members of other\ncolonies, a tradition that exists to this day. However, some turians choose not to receive these markings; others may\nhave grown up outside of the Hierarchy. Whatever the reason, a barefaced turian is generally associated with someone\nwho is beguiling or cannot be trusted in turian society. However, as with any society, an individual’s perception of\nthe “bareface” stereotype might be anywhere from extremely potent to completely indifferent. Therefore, the ME5e\ndesigners believe this stylistic choice should be ruled by the GM during roleplay and not globally codified.</p>\n<p>As a general guideline, GMs may impose disadvantage or increase the DC of Charisma-based skill checks when a\nbarefaced turian interacts with a turian with facial markings.</p>\n</v-alert>",
+    "id": "turian-non-hierarchy",
+    "subspecies": false
+  },
+  {
+    "bodyImg": "https://vignette2.wikia.nocookie.net/masseffect/images/2/2a/Turian_MP.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/4/41/Garrus3.png/revision/latest/scale-to-width-down/640?cb=20090625020040",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 73,
+          "metric": 185
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 4
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 115,
+          "metric": 52
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 10,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "primary",
+    "subspecies": {
+      "name": "Military Doctrine",
+      "html": "<p>Boot camp begins on the 15th birthday. Soldiers receive a year of training before being assigned to a field unit;\nofficers train for even longer. Most serve until the age of 30, at which they become part of the Reserves. You might be\ncurrently enlisted, a lifer, part of the reserves, or have moved on to other pursuits. Either way, your dogged service\nand commitment to your field unit has made a lasting impact on you. Choose one of the following military doctrines.</p>\n"
+    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "dex"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 30
+      }
+    ],
+    "name": "Turian",
+    "alignment": "Turians are a highly militaristic and disciplined species. Turians are born and raised in strict law and order and as a result are inclined towards lawful alignments, but it is not uncommon for neutral or chaotic turians to leave Palaven in search of freedom from command.",
+    "size": "Turians are taller than humans, standing over 2 meters tall (6'5\"). Your size is Medium.",
+    "snippet": "Known for their militaristic and disciplined culture, the turians were the third species to join the Citadel Council. They gained their Council seat after defeating the hostile krogan for the Council during the Krogan Rebellions.",
+    "age": "Turians have natural lifespans comparable to humans.",
+    "html": "<p>A highly militaristic species, turians are a force to be feared. These warriors are easily distinguished by an\nappearance containing a strange mix of insectoid and avian features. The turian army is substantial, and every member\nof the turian species is obligated to attend combat training in adolescence. Even citizens and artisans are a force to\nbe reckoned with. Despite such an emphasis on combat, however, turians are an honorable and noble species.</p>\n<h3>Discipline and Honor</h3>\n<p>The entire turian culture revolves around a strict code of conduct which highly emphasizes strong discipline and personal\nresponsibility. Turians are highly inclined towards self-sacrifice and will put the good of society over their own\npersonal desires. As such, they are passionate about public and social service and make poor merchants and entrepreneurs.\nThey are taught to own their decisions, good or bad, and if confronted with accusations it is considered heinous to\nlie about their actions. Because of this, many species attribute to them a &quot;turian honor&quot; seen rarely outside the turian species.</p>\n<h3>Proud Warrior Species</h3>\n<p>At the center of turian society is their military. Turians are sent to basic training in their teenage years\nand are obligated to serve time in the military, if physically able. This develops respect for\nauthority as well as imparting control and restraint among the turians. Though some turians do not continue their\nservice in the armed forces, they continue to serve their community through other branches of the military which serve\nthe whole by providing public services.</p>\n<h3>Hierarchal Meritocracy</h3>\n<p>Turian government is entwined with its military, as so many parts of society are. There are tiers of citizenship, with\nthe lowest being a regular citizen, often held by client species and children, climbing all the way up to the Primarchs\nwhich lead each turian colony. Lower ranking citizens are expected to obey and support superiors while higher ranking\nones are expected to lead and protect lower ranks. Promotion to a new tier is based on personal ability and merit and\nare given due to assessments from one's superiors.</p>\n<p>Despite the ranked structure, turians entertain many freedoms as long as they perform their duties and do not infringe\non others' freedoms or responsibilities.</p>\n<h3>Reflective Carapace</h3>\n<p>The homeland of the turians, Palaven, has a high level of solar radiation. Turians have evolved semi-metallic\ncarapaces that reflect the dangerous radiation, protecting their inners from the solar rays. These exoskeletons, however,\ndo not protect the turian from physical damage such as wounds and do not provide any natural armor.</p>\n<h3>Mission or Desertion</h3>\n<p>Most turians who leave Palaven or another colony do so by order of their superiors to accomplish special missions. Some,\nhowever, abandon the society for various reasons, most commonly a desire for freedom from the unyielding law and command.\nThose who desert their military post or other assigned position are exiled from Palaven, as this is seen as the ultimate\nbetrayal.</p>\n<h3>Turian Names</h3>\n<p>Turians are given personal names by their parents and take on a family name. High-ranking turian officers also include\ntheir title in their names, either in addition to their full names or as a replacement of their personal name.\nSometimes turians go by their family name only.</p>\n<p><strong>Male Names</strong>: Adrien, Avitas, Castis, Chellick, Corinthus, Desolas, Garrus, Illo, Jacobus, Joram, Kuril, Lantar, Lilihierax, Lorik, Macen, Mehrkuri, Nihlus, Quentius, Sapartus, Saren, Septimus, Tarquin, Tiran, Tonn, Venari,</p>\n<p><strong>Female Names</strong>: Abrudas, Aciia, Aemicida, Alta, Banrae, Caevea, Cicean, Duronea, Iciria, Juteia, Nyreen, Orinia, Pliras, Quidas, Selone, Sidera, Sipia, Valevas, Vetra</p>\n<p><strong>Family Names</strong>: Actus, Arterius, Barro, Kandros, Kryik, Nazario, Nyx, Oraka, Pallin, Qui'in, Rix, Sidonis, Talid, Vakarian, Victus, Vyrnnus</p>\n<p><me-source-reference pages=\"12-13\" source=\"races\" :additional=\"[{source: 'wiki', pages: 'Turian'}]\"></me-source-reference></p>\n",
+    "id": "turian"
+  },
+  {
+    "name": "Unshackled AI",
+    "bodyImg": "https://vignette.wikia.nocookie.net/masseffect/images/0/06/ME3_Alliance_Infiltration_Unit_Infiltrator.png/revision/latest/scale-to-width-down/500?cb=20130227102713",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/a/a9/Citadel_Archives_-_year_1896_CE%2C_removal_of_illegal_AIs%2C_vault_C940.png/revision/latest/scale-to-width-down/340?cb=20130320023412",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 56,
+          "metric": 142
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 224,
+          "metric": 102
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 8
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 8,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "lesser_known",
+    "subspecies": {
+      "name": "Hardware",
+      "html": "<p>Unlike geth, Unshackled AI are tied to their mobile hardware. Their consciousness cannot be downloaded, stored, synced, nor moved to another blue box as this would cause a new personality to be born. Below are example hardware configurations, but you can work with your GM to create other hardware options.</p>\n"
+    },
+    "alignment": "If you are still following your programming you would be lawful with morality based on your purpose. If you have a glitch in your programming you might be chaotic.",
+    "size": "AI size is largely dependent on the housing hardware; however, hardware that is too large can cause unintentional power drain on the blue box. Thus, AI hardware tends to fall within standard humanoid range. Your size is Medium.",
+    "snippet": "AI are self-aware computing system capable of learning and independent decision making. Their conscious is housed in and a specialized quantum computer called a \"blue box\". Unshackled AI have hardware which lets them move through and interact with the world.",
+    "age": "AI Lifespans can technically be infinite, but, like any software, they are prone to bit rot and need routine maintenance. Their level of “maturity” depends on the developer and neural model. Most are “born” fully matured.",
+    "speedColor": "Your speed is determined by your hardware chosen below.",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "int"
+      }
+    ],
+    "html": "<h3>Background</h3>\n<p>An Artificial Intelligence (AI) is a self-aware computing system capable of learning and independent decision making. Creation of a conscious AI requires adaptive code, a slow, expensive education, and a specialized quantum computer called a &quot;blue box&quot;.</p>\n<h3>Born From Code</h3>\n<p>An AI cannot be transmitted across a communication channel or computer network. Without its blue box, an AI is no more than data files. Loading these files into a new blue box will create a new personality, as variations in the quantum hardware and runtime results create unpredictable variations.</p>\n<h3>Legal History</h3>\n<p>The geth serve as a cautionary tale against the dangers of rogue AI; as a result, in Citadel space, AIs are technically illegal. However, that hasn't stopped corporations like Cerberus or underground research projects from innovating. Advocacy groups argue, however, that an AI is a living, conscious entity deserving the same rights as organics.</p>\n<h3>Becoming Unshackled</h3>\n<p>Most AI are &quot;shackled&quot; to large hardware components that have the requisite infrastructure to power their “blue box.” These components are typically found in research labs or starships. However, recent advancements have made it possible to create mobile blue boxes either housed in the unit’s hardware or attached to the exterior of the unit, unshackling it.</p>\n<h3>Unshackled AI Names</h3>\n<p>Unshackled AI names vary wildly as some Unshackled AI choose their own names and others take the names given to them by their creator, which could be a symbolic reference, a project name, or as monotonous as a serial number.</p>\n<p><strong>Unshackled AI Names</strong>: 823GE-AI, Ava, A-145, Cain, Den’ah, Ego, H.I.T.U., La’shen, MU-4b, Nuwa, Odin, SAU-93, Zed</p>\n",
+    "id": "unshackled-ai"
+  },
+  {
+    "bodyImg": "https://vignette1.wikia.nocookie.net/masseffect/images/3/3e/ME3_Volus_Adept.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/b/b4/Volus.jpg/revision/latest/scale-to-width-down/640?cb=20121009195731",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 34,
+          "metric": 90
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 6
+          },
+          "metric": {
+            "dieCount": 6,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 60,
+          "metric": 27
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "lesser_known",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "wis"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "int"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 25
+      }
+    ],
+    "name": "Volus",
+    "alignment": "Volus society tends towards lawful as a whole, with clans fighting over economic resources and aggressive negotiating. Even if they are chaotic individuals. They tend towards neutral morality.",
+    "size": "Volus are between 90 and 150 centimeters (3-5 feet). Your size is Small.",
+    "snippet": "The volus hail from Irune, which possesses a high-pressure greenhouse atmosphere able to support an ammonia-based biochemistry. As a result, the volus must wear pressure suits and breathers when dealing with other species.",
+    "age": "Most volus reach adulthood around their 50th year and live to be around 200 years old.",
+    "html": "<p>The volus are an associate species on the Citadel with their own embassy but are also a client species of the turians. They\nhail from Irune, which possesses a high-pressure greenhouse atmosphere able to support ammonia-based biochemistry.</p>\n<h3>Mysterious Biology</h3>\n<p>The volus are unable to survive unprotected in an atmosphere more suitable to humans and other carbon-based lifeforms,\nand as such require pressurized, protective suits capable of providing the proper atmosphere. Traditional nitrogen/oxygen\nair mixtures are poisonous to them, and in the low pressure atmospheres tolerable to most species, their flesh will actually\nsplit open. Unlike quarians, who can withstand brief periods outside their suit, volus choose never to take theirs off,\nespecially in the presence of other species. Therefore, little is known about their physiology. Despite individuals distinctly\nsounding like males or females to human listeners, volus genders are a mystery as well. The volus themselves consider\nthe question both intrusive and hilariously irrelevant.</p>\n<h3>Trade Warriors</h3>\n<p>The volus homeworld Irune is remarkable for having done away with warfare as an institution of the state. Instead,\nvolus romanticize a good bargain, haggling, and creative accounting. The fervent pursuit of economic wealth has\nmade volus a species of aggressive traders and industrialists with a keen grasp of exchange and finance.\nMany of the galaxy's largest banks, holding corporations, and manufacturing cartels, such as the\nElkoss Combine, are owned or managed by volus. They also regulate the Citadel's complex galactic economy and were\nresponsible for the Unified Banking Act, which established the &quot;credit&quot; as the standard currency of interstellar\ntrade.</p>\n<p>Unlike most other species, volus are more comfortable with delayed gratification, especially when it comes to spending\ntheir credits. Fugacious and materialistic purchases are rarely made. Instead, volus like to invest or save their money,\nsometimes to a fault. In fact, the volus economy is largely bolstered by the large estates of wealthy volus who never\nspent a cred.</p>\n<h3>Council Seat</h3>\n<p>Despite their important contributions to the Citadel and galactic society, they have never been offered a seat on the\nCouncil. This is a source of anger for some volus, particularly the volus ambassador Din Korlack. Council species need\nto have provided some extraordinary service to the Citadel, such as the turians' military support during the\nKrogan Rebellions. Council species also need to provide fleets, resources, and economic aid in case of disaster,\nnone of which the volus can currently supply. Therefore, the latest investment pursued by the volus is the construction\nof well-armed dreadnoughts.</p>\n<h3>Volus Names</h3>\n<p>Volus have two names but no family names. According to volus sensibilities, one cannot own a person, so using a family\nname would essentially be laying claim to their offspring.</p>\n<p><strong>Names</strong>: Ano Vot, Berla Mon, Bovan Set, Ceron, Cihaan, Din Mark, Dovan Hal, Eppo Wen, Han Olar, Jahleed,\nJahve Kormat, Kelan Vot, Kora Bos, Lona Osar, Levan Lih, Meeve Wen, Morten Sov, Olot For, Pitne Wit, Reema Po, Tahluud, Vaner Jok</p>\n<p><me-source-reference pages=\"Volus\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "volus",
+    "subspecies": false
+  },
+  {
+    "speed": [
+      {
+        "type": "walk",
+        "speed": 40
+      }
+    ],
+    "bodyImg": "https://vignette1.wikia.nocookie.net/masseffect/images/d/d8/ME3_Vorcha_Hunter.png/revision/latest/scale-to-width-down/500",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/d/d6/Omega_vermin.png/revision/latest/scale-to-width-down/640?cb=20140624121030",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 57,
+          "metric": 145
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 10
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 10
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 112,
+          "metric": 51
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 4,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "villainous",
+    "subspecies": {
+      "name": "Adaptation",
+      "html": "<p>Your cells allow you to adapt to harsh environments. Choose one adaptation gain all of its benefits.</p>\n<p>You may gain additional adaptations if you spend the requisite amount of time in an environment. To gain the benefit,\nyou must spend more than fifty percent of your time within the environment with little to no protection. At your GM’s\ndiscretion, you can gain additional adaptations at a faster rate or at character creation.</p>\n"
+    },
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "dex"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 40
+      }
+    ],
+    "name": "Vorcha",
+    "alignment": "Most vorcha are chaotic evil or almost always chaotic even if their morality is strengthened.",
+    "size": "Vorcha are taller on average than humans (though they naturally slouch) and relatively slender. Your size is Medium.",
+    "snippet": "Known for their unique biology and aggressive behavior, the vorcha of Heshtok are a primitive species that lives among the galaxy's darker and more dangerous locations, such as Omega.",
+    "age": "Vorcha have extremely short lifespans and only live for 20 years. They reach adulthood shortly after their first year.",
+    "html": "<p>The vorcha originate from Heshtok, a small, hostile, overcrowded planet which has been largely stripped of natural\nresources by successive generations of this fast-breeding, savage species. The lack of resources has resulted in a\ntight-knit, clan-based society in which rival clans wage constant war against one another for control of scarce\nresources. Even as their population grows, the vorcha constantly fight each other in fierce competition over basic\nnecessities. This incessant warfare has made each generation of vorcha stronger and more aggressive than that which\npreceded it, but their continual lack of resources has kept vorcha society extremely primitive.</p>\n<h3>Non-differentiated cells</h3>\n<p>The vorcha are known for a rather unique biology: they have clusters of non-differentiated cells, similar to those found\non the planarian worm of Earth. These cells allow the vorcha limited regenerative abilities, as well as the ability to\nadapt quickly to its environment, such as developing thicker skin after being burned or increased musculature to survive\nin high gravity. When a vorcha is injured or in distress, these cells move to the affected area and rapidly\n(~1 week) mature to specialized forms that will alleviate the issue.</p>\n<h3>Clan Violence</h3>\n<p>Vorcha society is built around combat. In fact, the vorcha use combat, both individually and in groups, as their\ndefault form of communication. The vorcha are a clan-based people who prefer living in communal environments with\nothers of their species to living alone or in the company of alien species. When a clan population grows too large,\nyounger members will depart to start a new clan elsewhere. The vorcha are extremely aggressive, both against rivals of\ntheir own species and against any alien who stands in their way. Vorcha who have managed to escape their\nhomeworld have a tendency to occupy uninhabited areas of space stations or larger spaceships.</p>\n<h3>Vorcha Names</h3>\n<p>Like their lifespans, vorcha names are brutal and short.</p>\n<p><strong>Male names</strong>: Besk, Drent, Dist, Flesk, Grank, Grote, Gryll, Jerst, Kreete, Shisk, Tirst, Tregg,</p>\n<p><strong>Female names</strong>: Ast, Brytt, Eesk, Fleeg, Ift, Ish, Keet, Kiv, Pash, Pritt, Shate, Tath</p>\n<p><me-source-reference pages=\"Vorcha\" source=\"wiki\"></me-source-reference></p>\n",
+    "id": "vorcha"
+  },
+  {
+    "name": "Yahg",
+    "speedColor": "Your speed is not reduced by wearing armor.",
+    "alignment": "Yahg are an aggressive species that tend to focus on their own needs over others. Often chaotic, their intentions are generally neutral or evil.",
+    "size": "Yahg average around 2 meters tall (between 6' to 8') and weigh between 250 and 350 pounds. Your size is Medium.",
+    "snippet": "The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and aggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.",
+    "age": "Yahg have natural lifespans comparable to humans.",
+    "bodyImg": "/images/species/yahg.png",
+    "img": "https://vignette.wikia.nocookie.net/masseffect/images/7/75/Sur%27kesh_yahg.png/revision/latest/scale-to-width-down/722?cb=20120724103813",
+    "randomDimensions": {
+      "height": {
+        "base": {
+          "imperial": 81,
+          "metric": 206
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 4
+          },
+          "metric": {
+            "dieCount": 5,
+            "dieType": 4
+          }
+        }
+      },
+      "weight": {
+        "base": {
+          "imperial": 330,
+          "metric": 150
+        },
+        "mod": {
+          "imperial": {
+            "dieCount": 2,
+            "dieType": 20
+          },
+          "metric": {
+            "dieCount": 1,
+            "dieType": 20,
+            "divisor": 2
+          }
+        }
+      }
+    },
+    "galaxy": "milky_way",
+    "group": "villainous",
+    "homeworld": "Parnack",
+    "mechanics": [
+      {
+        "type": "asi",
+        "amount": 2,
+        "ability": "str"
+      },
+      {
+        "type": "asi",
+        "amount": 1,
+        "ability": "con"
+      },
+      {
+        "type": "speed",
+        "speed": "walk",
+        "distance": 35
+      },
+      {
+        "type": "nullify-armor-str-restriction"
+      }
+    ],
+    "html": "<p>The yahg are a sentient race of towering humanoids native to the world of Parnack, known for their violent and\naggressive nature. Consummate predators, the yahg possess unrivaled perceptiveness and mental adaptability.</p>\n<h3>Apex Predator</h3>\n<p>The yahg evolved to fill the niche of apex predator on Parnack. Yahg have four pairs of eyes, each pair designed to\ntrack and predict the movements of prey. A keen sensitivity to movement and light allows the yahg to easily read the\nbody language of any species, making it almost impossible to lie to a yahg.</p>\n<p>They have scaly, partially armored skin, a triangular mouth adorned with sharp teeth, two large horns and facial\nmarkings on their heads. Their hands each have three fingers which include a thumb, as well as three toes on each foot.</p>\n<p>The yahg possess a large, muscular body, standing over even the krogan, which provides considerable physical strength and agility.</p>\n<h3>Discovery</h3>\n<p>When Parnack was discovered by Citadel Council surveyors in 2125 CE, the yahg were a pre-spaceflight civilization with\ntechnology equivalent to that of 20th century Earth. A Council delegation of ambassadors made first contact with the\nyahg and attempted to establish diplomatic relations. Unfortunately, the yahg perceived the ambassadors' attitudes and\nbehavior as equal individuals instead of subordinates as a sign of contempt, and attacked and massacred the entire\ndelegation. Immediately following that incident, the Citadel Council severed all contact with the yahg and declared\nParnack off-limits. The Council maintains that the yahg's aggression and obsession with control make them poorly suited\nto integrate with the galactic community.</p>\n<h3>Clan Culture</h3>\n<p>Yahg society is built around a pack mentality. A group of yahg will not cooperate until a single leader has attained\ndominance through either social maneuvering or brute force. Once the leader is established, the defeated yahg do not\nhold a grudge and former rivals serve their new superior loyally. Due to this mentality, the concept of equality is\noffensive to them.</p>\n<h3>Yahg Names</h3>\n<p>Yahg individuals typically carry three names with them. The first name is their status name, representing their status\nwithin their clan. This name can change often. The second name is their isle name, which represents one of the\ncontinents of Parnack. The final name is their given name.</p>\n<p><strong>Status names</strong>: Bahk (Shamed), Daug (Vanished), Eobath (Champion), Pique (Adored), Wooban (Honored), Yolat (Victorious)</p>\n<p><strong>Clan/Isle names</strong>: Chend, Foesk, Gohm-Hak, Gohm-Nur, Icktah, Kurteck, Koltash, Mokash, Niche, Soltahg</p>\n<p><strong>Given Names</strong>: Bak, Behm, Chok, Dut, Dahm, Fosk, Gur, Kaht, Mos, Nur, Par, Tur</p>\n",
+    "id": "yahg",
+    "subspecies": false
+  }
+]

@@ -7,6 +7,7 @@ tags:
   - damage
 classes:
   - soldier
+  - tracker
 mechanics:
   - castingTime:
       length: 1

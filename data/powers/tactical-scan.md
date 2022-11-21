@@ -6,6 +6,7 @@ type: combat
 classes:
   - infiltrator
   - soldier
+  - tracker
 tags:
   - debuff
 mechanics:

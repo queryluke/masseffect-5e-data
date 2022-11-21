@@ -1,0 +1,116 @@
+[
+  {
+    "is_new": true,
+    "name": "Arc",
+    "html": "<p>Deals lightning damage. On a hit, deals half of the damage dealt to 1 additional creature within\n<me-distance length=\"5\" /> of the hit target. If there is more than one creature within <me-distance \nlength=\"5\" /> of the initial target, choose the second target randomly.</p>\n",
+    "id": "arc"
+  },
+  {
+    "is_new": true,
+    "name": "Burst Fire",
+    "html": "<p>This weapon can be used to make a normal single-target attack, or can be used to target a <me-distance\nlength=\"10\" adj /> cube within its normal range. Each creature in the area must succeed on a\nDexterity saving throw or suffer the weapon's normal damage. The DC of the saving throw is equal to 8 + your Dexterity\nmodifier. Add your proficiency bonus to the DC if you are proficient with the weapon. This action uses 3 heat.</p>\n",
+    "id": "burst-fire"
+  },
+  {
+    "is_new": true,
+    "name": "Double Tap",
+    "html": "<p>When you make a ranged attack with this weapon, you can use your bonus action to make a second\nranged attack. You do not add your ability modifier to the damage of the bonus attack, unless that\nmodifier is negative. The second attack may be on the same or a different target.</p>\n",
+    "id": "double-tap"
+  },
+  {
+    "is_new": false,
+    "name": "Finesse",
+    "html": "<p>When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity\nmodifier for the attack and damage rolls. You must use the same modifier for both\nrolls.</p>\n",
+    "id": "finesse"
+  },
+  {
+    "is_new": true,
+    "name": "Heat",
+    "html": "<p>The number of times a weapon can be fired before it must be reloaded. If the weapon has a heat of 1\nand you fire it, you must reload the weapon with a fresh thermal clip before firing it again.\nReloading takes an action.</p>\n",
+    "id": "heat"
+  },
+  {
+    "is_new": false,
+    "name": "Heavy",
+    "html": "<p>Requires a minimum Strength score of 15. Creatures with a Strength score lower than 15 have\ndisadvantage on attack rolls with heavy weapons as its size and bulk is to cumbersome to use\neffectively.</p>\n",
+    "id": "heavy"
+  },
+  {
+    "is_new": true,
+    "name": "Hip Fire",
+    "html": "<p>When making a ranged attack on a target creature within <me-distance length=\"5\" />, you do not have\ndisadvantage on the attack roll.</p>\n",
+    "id": "hip-fire"
+  },
+  {
+    "is_new": false,
+    "name": "Light",
+    "html": "<p>A light weapon is small and easy to handle, making it ideal for use when fighting with two\nweapons.</p>\n",
+    "id": "light"
+  },
+  {
+    "is_new": true,
+    "name": "Melee",
+    "html": "<p>Damage resulting from melee weapon attacks by-pass shields.</p>\n",
+    "id": "melee"
+  },
+  {
+    "is_new": false,
+    "name": "Range",
+    "html": "<p>A weapon that can be used to make a ranged attack has a range in parentheses. The range lists two\nnumbers. The first is the weapon's normal range in <me-distance length=\"0\" />, and the second\nindicates the weapon's long range. When attacking a target beyond normal range, you have\ndisadvantage on the attack roll. You can't attack a target beyond the weapon's long\nrange.</p>\n",
+    "id": "range"
+  },
+  {
+    "is_new": false,
+    "name": "Reach",
+    "html": "<p>This weapon adds <me-distance length=\"5\" /> to your reach when you attack with it, as well as when\ndetermining your reach for opportunity attacks with it.</p>\n",
+    "id": "reach"
+  },
+  {
+    "is_new": true,
+    "name": "Recoil",
+    "html": "<p>A weapon with the Recoil property generates a lot of kickback when fired. You use your choice of\nyour Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier\nfor both rolls.</p>\n",
+    "id": "recoil"
+  },
+  {
+    "is_new": true,
+    "name": "Silent",
+    "html": "<p>Makes no noise when used to make an attack roll.</p>\n",
+    "id": "silent"
+  },
+  {
+    "is_new": false,
+    "name": "Special",
+    "html": "<p>A weapon with the special property has unusual rules governing its use explained in the weapon\nnotes. Additionally, special weapons cannot be improved by weapon mods.</p>\n",
+    "id": "special"
+  },
+  {
+    "is_new": false,
+    "name": "Thrown",
+    "html": "<p>If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon\nis a melee weapon, you use the same ability modifier for that attack roll and damage roll that you\nwould use for a melee attack with the weapon.</p>\n",
+    "id": "thrown"
+  },
+  {
+    "is_new": false,
+    "name": "Two-handed",
+    "html": "<p>This weapon requires two hands when you attack with it. Takes up 2 weapon slots.</p>\n",
+    "id": "two-handed"
+  },
+  {
+    "is_new": true,
+    "name": "Vented",
+    "html": "<p>This weapon does not use thermal clips. Its description indicates the number of times it can be fired before overheating.</p>\n",
+    "id": "vented"
+  },
+  {
+    "is_new": false,
+    "name": "Versatile",
+    "html": "<p>This weapon can be used with one or two hands. A damage value in parentheses appears with the\nproperty--the damage when the weapon is used with two hands to make a melee attack.</p>\n",
+    "id": "versatile"
+  },
+  {
+    "is_new": false,
+    "name": "Weight",
+    "html": "<p>The weight in kilograms. Primarily used for the Variant: Encumbrance rule.</p>\n",
+    "id": "weight"
+  }
+]

@@ -6,6 +6,7 @@ type: combat
 classes:
   - soldier
   - vanguard
+  - tracker
 tags:
   - buff
 mechanics:

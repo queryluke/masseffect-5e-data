@@ -9,6 +9,7 @@ classes:
   - engineer
   - infiltrator
   - sentinel
+  - tracker
 mechanics:
   - castingTime:
       length: 1

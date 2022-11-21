@@ -28,6 +28,7 @@ is reflected by higher-than-average ability scores.
 |Infiltrator|Dexterity 13 and Intelligence 13|
 |Sentinel|Intelligence 13 or Wisdom 13|
 |Soldier|Strength 13 or Dexterity 13|
+|Tracker|Wisdom 13 and either Intelligence or Charisma 13|
 |Vanguard|Strength 13 and Wisdom 13|
 
 
@@ -61,6 +62,7 @@ proficiencies, as shown in the Multiclassing Proficiencies table.
 |Infiltrator|Sniper Rifles and Melee Weapons|
 |Sentinel|Medium Armor, Heavy Armor, and choose 1 weapon type from Assault Rifles, Melee, Shotguns, or SMGs|
 |Soldier|2 weapon types, Medium Armor, Heavy Armor|
+|Tracker|Medium Armor and the Perception skill|
 |Vanguard|Shotguns, Medium Armor|
 
 ### Class Features

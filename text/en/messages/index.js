@@ -41,7 +41,8 @@ module.exports = {
         cg: 'chaotic good',
         cn: 'chaotic neutral',
         ce: 'chaotic evil',
-        u: 'unaligned'
+        u: 'unaligned',
+        tracker: 'same as the Tracker'
     },
     aoe_types: {
       sphere: 'sphere',
@@ -377,6 +378,7 @@ module.exports = {
         infiltrator: 'Subclass Feature',
         sentinel: 'Subclass Feature',
         soldier: 'Subclass Feature',
+        tracker: 'Subclass Feature',
         vanguard: 'Subclass Feature',
     },
     tags_title: 'Tags',
