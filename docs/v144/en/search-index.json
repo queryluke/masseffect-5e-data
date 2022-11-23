@@ -4151,6 +4151,21 @@
     "html": "<p>At 2nd level, you know one combat power of your choice from the tracker power list. You learn additional combat powers\nof your choice at higher levels, as shown in the Combat Powers column of the Tracker table.</p>\n<p>Instead of learning a new combat power, you may instead learn the advanced version of a combat power you already know.</p>\n"
   },
   {
+    "id": "combat-presence",
+    "title": "Combat Presence",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Legionnaire",
+      "10th level"
+    ],
+    "link": false,
+    "body": "Your skills further develop to work with a partner to neutralise a threat, like the Legion did back home.\nAt 10th level, as a Bonus Action, you may perform a Help Action on an allied creature within  of a\ncreature that's also within  of you.\n",
+    "html": "<p>Your skills further develop to work with a partner to neutralise a threat, like the Legion did back home.</p>\n<p>At 10th level, as a Bonus Action, you may perform a Help Action on an allied creature within <me-distance length=\"5\" /> of a\ncreature that's also within <me-distance length=\"5\" /> of you.</p>\n"
+  },
+  {
     "id": "combat-training",
     "title": "Combat Training",
     "type": "character",
@@ -4808,6 +4823,21 @@
     "html": "<p>The Night Stalkers always begin their development by having extra holsters to be easily attachable on their armor of\nchoosing to carry more equipment to be out in the wilderness for longer.</p>\n<p>At 3rd level, your maximum grenade capacity increases by 2.</p>\n<p>As a Bonus Action, you may throw a Grenade or Mine to a point within <me-distance length=\"30\" /> of you. This\nGrenade or Mine is not primed to explode. It is treated as an explosive object, and may be detonated using your\nRemote Detonation feature.</p>\n"
   },
   {
+    "id": "hold-your-ground",
+    "title": "Hold Your Ground",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Legionnaire",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "Starting from 3rd level, you may reduce your movement to 0 for this turn, if you do, your wielded ranged weapon may be\ntreated as having the Double-Tap property on this turn only. Additionally, if you're wielding an SMG, your short and\nlong range are doubled.\n",
+    "html": "<p>Starting from 3rd level, you may reduce your movement to 0 for this turn, if you do, your wielded ranged weapon may be\ntreated as having the Double-Tap property on this turn only. Additionally, if you're wielding an SMG, your short and\nlong range are doubled.</p>\n"
+  },
+  {
     "id": "improved-barrier-1",
     "title": "Improved Barrier",
     "type": "character",
@@ -4968,6 +4998,36 @@
     "html": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.</p>\n"
   },
   {
+    "id": "judgement",
+    "title": "Judgement",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Legionnaire",
+      "7th level"
+    ],
+    "link": false,
+    "body": "Your might and ability to hold your ground against difficult odds start to weaken the resolve of lesser\ngangs and other troublemakers.\nAt 7th level, whenever a failed attack roll is made against you (The attack missed), you may use a reaction to make\nthat same enemy creature succeed on a Wisdom saving throw (DC= 8 + Constitution modifier + Proficiency Bonus) or become\nFrightened of you for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of\ntheir next turns. On a success, they're no longer Frightened.\nAdditionally, if you have 0 charges of Justice when you roll for initiative, you regain one use of Justice.\n",
+    "html": "<p>Your might and ability to hold your ground against difficult odds start to weaken the resolve of lesser\ngangs and other troublemakers.</p>\n<p>At 7th level, whenever a failed attack roll is made against you (The attack missed), you may use a reaction to make\nthat same enemy creature succeed on a Wisdom saving throw (DC= 8 + Constitution modifier + Proficiency Bonus) or become\nFrightened of you for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of\ntheir next turns. On a success, they're no longer Frightened.</p>\n<p>Additionally, if you have 0 charges of Justice when you roll for initiative, you regain one use of Justice.</p>\n"
+  },
+  {
+    "id": "justice-feature",
+    "title": "Justice",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Legionnaire",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "You've developed a special omni-tool program, given to you by your predecessors that allows you to use your\nomni-tool as a sort of grappling hook to stop perpetrators from escaping from you.\nAt 3rd level, you gain the Justice Combat Power, this does not count towards your total Combat Powers.\n",
+    "html": "<p>You've developed a special omni-tool program, given to you by your predecessors that allows you to use your\nomni-tool as a sort of grappling hook to stop perpetrators from escaping from you.</p>\n<p>At 3rd level, you gain the Justice Combat Power, this does not count towards your total Combat Powers.</p>\n"
+  },
+  {
     "id": "killshot",
     "title": "Killshot",
     "type": "character",
@@ -5052,6 +5112,21 @@
     "link": false,
     "body": "Starting at 10th level, you become able to inspire those around you to fearlessly charge into battle. After rolling\ninitiative, select a number of allied creatures equal to up to your Charisma modifier (Minimum of 1). Until the\nend of their next turn, those creatures have their movement speed doubled the first time they move.\n",
     "html": "<p>Starting at 10th level, you become able to inspire those around you to fearlessly charge into battle. After rolling\ninitiative, select a number of allied creatures equal to up to your Charisma modifier (Minimum of 1). Until the\nend of their next turn, those creatures have their movement speed doubled the first time they move.</p>\n"
+  },
+  {
+    "id": "lock-on",
+    "title": "Lock On",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Legionnaire",
+      "15th level"
+    ],
+    "link": false,
+    "body": "Your nerves have become more steeled when holding your ground against a potential horde, allowing you to focus your\naim better against the victims of your wrath.\nAt 15th level, whenever you're using Hold Your Ground or attacking with an SMG, all of your attacks this round\nwill gain a +1 to hit and +1d4 to damage rolls.\n",
+    "html": "<p>Your nerves have become more steeled when holding your ground against a potential horde, allowing you to focus your\naim better against the victims of your wrath.</p>\n<p>At 15th level, whenever you're using Hold Your Ground or attacking with an SMG, all of your attacks this round\nwill gain a +1 to hit and +1d4 to damage rolls.</p>\n"
   },
   {
     "id": "makeshift-grenades-1",
@@ -6213,6 +6288,21 @@
     "link": false,
     "body": "Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.\n",
     "html": "<p>Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>\n"
+  },
+  {
+    "id": "total-combat",
+    "title": "Total Combat",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Legionnaire",
+      "18th level"
+    ],
+    "link": false,
+    "body": "When you plant your feet and hold your ground, all those that stand against you can truly feel the wrath of the\nLegion at your side.\nAt 18th level, whenever you use Hold Your Ground or attacking with an SMG, you may use a Grenade as a Bonus Action.\n",
+    "html": "<p>When you plant your feet and hold your ground, all those that stand against you can truly feel the wrath of the\nLegion at your side.</p>\n<p>At 18th level, whenever you use Hold Your Ground or attacking with an SMG, you may use a Grenade as a Bonus Action.</p>\n"
   },
   {
     "id": "tracker-affinity-improvement",
@@ -11230,6 +11320,18 @@
     ],
     "link": "/powers/invasion",
     "body": "Unleash a VI-controlled machine swarm at a creature or object within range. Two swarms then spread from that target\nto as many as two other targets, each of which must be within  of the first target. A target can be a creature or an\nobject and can be targeted by only one of the swarms.\nA target must make a Constitution saving throw. On a failed save, the target takes 1d8 psychic damage and has disadvantage on\nattack rolls until the power ends. A creature affected by the swarm can use its action to make a Constitution check\nagainst your power save DC. On a success, it breaks free of the swarm.\nAt Higher Levels: When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d8\nand the range the swarms can spread increases by 2m for each slot level above 1st.\n  Exploding Swarm: As a bonus action, you can target a creature affected by one of your swarms and detonate it. The target takes 3d8 thunder damage and is no longer affected by the swarm.  Plague: Three swarms spread from the initial target to as many as three other targets. When you cast this power using a power slot of 2nd level or higher, the number of swarms increases by 1 for each power slot above the 1st.",
+    "html": false
+  },
+  {
+    "id": "justice",
+    "title": "Justice",
+    "type": "power",
+    "qualifiers": [
+      "Power",
+      "Combat"
+    ],
+    "link": "/powers/justice",
+    "body": "Using a special program installed on your omni-tool, a long grappling hook fires from it towards a creature within range.\nMake a ranged weapon attack roll on a creature within range, if you hit your target, you pull your target to a space\nwithin  of you on the square closest to their original location and deal your equipped\nmelee weapon on your main hand or equipped omni-weapon's damage + 2d6 bonus damage.\nYou may use this omni-tool's grappling hook three times until the special power supply runs out and you must spend a\nlong rest to recharge the equipment in order to use them again.\nThis bonus damages increases at 5th level (4d6), 11th level (6d6) and 17th level (8d6).\n  Brutal: You pull yourself to the target creature instead of pulling your target to you (Utilising the same rules as if you were pulling, moving to the closest point from your original location), you may then perform an Attack as a Bonus Action after using this power.  Neutralise: Your attack does not pull anymore, instead you'll temporarily attach to your enemy with your Justice hook and send a high powered shock through your omni-tool. The damage type of this attack changes to lightning and loses your equipped weapon's damage. If this attack hits an organic creature, that creature must succeed on a Constitution saving throw (DC = 8 + Dexterity modifier + Proficiency bonus) or become stunned until the end of their next turn.",
     "html": false
   },
   {

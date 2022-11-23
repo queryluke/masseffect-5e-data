@@ -1558,6 +1558,25 @@
     "id": "combat-power-tacker"
   },
   {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "legionnaire",
+    "name": "Combat Presence",
+    "mechanics": [
+      {
+        "name": "Help",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "combat-presence"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Perform a Help Action on an allied creature within <me-distance length=\"5\" /> of a creature that's also within <me-distance length=\"5\" /> of you."
+      }
+    ],
+    "html": "<p>Your skills further develop to work with a partner to neutralise a threat, like the Legion did back home.</p>\n<p>At 10th level, as a Bonus Action, you may perform a Help Action on an allied creature within <me-distance length=\"5\" /> of a\ncreature that's also within <me-distance length=\"5\" /> of you.</p>\n",
+    "id": "combat-presence"
+  },
+  {
     "level": 2,
     "klass": "adept",
     "subclass": "commando",
@@ -2495,6 +2514,25 @@
     "id": "highlander"
   },
   {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "legionnaire",
+    "name": "Hold Your Ground",
+    "mechanics": [
+      {
+        "name": "Hold Your Ground",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "hold-your-ground"
+        },
+        "type": "other",
+        "shortDesc": "Reduce your movement speed to 0 this turn to give a ranged weapon you are wielding the Double-Tap property until the end of your turn. If the weapon is an SMG, its short and long range are doubled."
+      }
+    ],
+    "html": "<p>Starting from 3rd level, you may reduce your movement to 0 for this turn, if you do, your wielded ranged weapon may be\ntreated as having the Double-Tap property on this turn only. Additionally, if you're wielding an SMG, your short and\nlong range are doubled.</p>\n",
+    "id": "hold-your-ground"
+  },
+  {
     "level": 10,
     "klass": "vanguard",
     "subclass": "battle-master",
@@ -2664,6 +2702,40 @@
     ],
     "html": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make\nthat doesn't already include your proficiency bonus.</p>\n",
     "id": "jack-of-all-trades"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "legionnaire",
+    "name": "Judgement",
+    "mechanics": [
+      {
+        "name": "Judgement",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "judgement"
+        },
+        "type": "reaction",
+        "shortDesc": "Whenever another creature make an attack roll against you and misses, you may use you reaction to for the attacking creature to make a {{ 8 + conMod + profBonus }} Wisdom saving throw. On a failed save, the creature becomes frightened of your for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of their next turns. On a success, they're no longer frightened."
+      }
+    ],
+    "html": "<p>Your might and ability to hold your ground against difficult odds start to weaken the resolve of lesser\ngangs and other troublemakers.</p>\n<p>At 7th level, whenever a failed attack roll is made against you (The attack missed), you may use a reaction to make\nthat same enemy creature succeed on a Wisdom saving throw (DC= 8 + Constitution modifier + Proficiency Bonus) or become\nFrightened of you for 1 minute. The affected creature may roll another Wisdom saving throw at the end of each of\ntheir next turns. On a success, they're no longer Frightened.</p>\n<p>Additionally, if you have 0 charges of Justice when you roll for initiative, you regain one use of Justice.</p>\n",
+    "id": "judgement"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "legionnaire",
+    "name": "Justice",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "justice",
+        "klass": "soldier"
+      }
+    ],
+    "html": "<p>You've developed a special omni-tool program, given to you by your predecessors that allows you to use your\nomni-tool as a sort of grappling hook to stop perpetrators from escaping from you.</p>\n<p>At 3rd level, you gain the Justice Combat Power, this does not count towards your total Combat Powers.</p>\n",
+    "id": "justice-feature"
   },
   {
     "level": 17,
@@ -2915,6 +2987,25 @@
     "name": "Leading the Charge",
     "html": "<p>Starting at 10th level, you become able to inspire those around you to fearlessly charge into battle. After rolling\ninitiative, select a number of allied creatures equal to up to your Charisma modifier (Minimum of 1). Until the\nend of their next turn, those creatures have their movement speed doubled the first time they move.</p>\n",
     "id": "leading-the-charge"
+  },
+  {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "legionnaire",
+    "name": "Lock On",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Lock On",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "lock-on"
+        }
+      }
+    ],
+    "html": "<p>Your nerves have become more steeled when holding your ground against a potential horde, allowing you to focus your\naim better against the victims of your wrath.</p>\n<p>At 15th level, whenever you're using Hold Your Ground or attacking with an SMG, all of your attacks this round\nwill gain a +1 to hit and +1d4 to damage rolls.</p>\n",
+    "id": "lock-on"
   },
   {
     "level": 3,
@@ -6137,6 +6228,25 @@
     ],
     "html": "<p>Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>\n",
     "id": "tireless-spirit"
+  },
+  {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "legionnaire",
+    "name": "Total Combat",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Total Combat",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "total-combat"
+        }
+      }
+    ],
+    "html": "<p>When you plant your feet and hold your ground, all those that stand against you can truly feel the wrath of the\nLegion at your side.</p>\n<p>At 18th level, whenever you use Hold Your Ground or attacking with an SMG, you may use a Grenade as a Bonus Action.</p>\n",
+    "id": "total-combat"
   },
   {
     "level": 6,
