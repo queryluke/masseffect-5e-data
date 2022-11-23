@@ -7,6 +7,7 @@ classes:
   - engineer
   - sentinel
   - infiltrator
+  - explorer
 tags:
   - control
   - damage

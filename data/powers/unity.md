@@ -7,6 +7,7 @@ classes:
   - engineer
   - sentinel
   - tracker
+  - explorer
 tags:
   - heal
 mechanics:

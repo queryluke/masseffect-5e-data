@@ -76,7 +76,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "reactionQualifier": false,
     "mechanics": [
@@ -196,7 +197,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -313,7 +315,8 @@
       "infiltrator",
       "soldier",
       "vanguard",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -424,7 +427,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -644,7 +648,8 @@
     ],
     "classes": [
       "infiltrator",
-      "soldier"
+      "soldier",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -892,7 +897,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -975,7 +981,8 @@
     ],
     "classes": [
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -1168,7 +1175,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -1336,7 +1344,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -1649,7 +1658,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -1737,7 +1747,8 @@
       "engineer",
       "infiltrator",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -1934,7 +1945,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -2196,7 +2208,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -2249,7 +2262,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -2477,7 +2491,8 @@
     ],
     "classes": [
       "engineer",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -2578,7 +2593,8 @@
       "engineer",
       "infiltrator",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -2784,7 +2800,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -2967,7 +2984,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "movement"
@@ -3102,7 +3120,8 @@
     "classes": [
       "tracker",
       "sentinel",
-      "engineer"
+      "engineer",
+      "explorer"
     ],
     "tags": [
       "debuff"
@@ -3310,7 +3329,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "tags": [
       "buff"
@@ -3766,7 +3786,8 @@
       "engineer",
       "infiltrator",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -3859,7 +3880,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "tags": [
       "damage",
@@ -4103,7 +4125,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -4254,7 +4277,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage",
@@ -4348,7 +4372,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "control"
@@ -4399,7 +4424,8 @@
     "type": "tech",
     "classes": [
       "engineer",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "tags": [
       "protection"
@@ -4552,7 +4578,8 @@
       "infiltrator",
       "soldier",
       "vanguard",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -4790,7 +4817,8 @@
     "classes": [
       "tracker",
       "sentinel",
-      "infiltrator"
+      "infiltrator",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -4977,7 +5005,8 @@
     "classes": [
       "engineer",
       "infiltrator",
-      "sentinel"
+      "sentinel",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -5081,7 +5110,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -5144,7 +5174,8 @@
       "engineer",
       "sentinel",
       "infiltrator",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "control"
@@ -5324,7 +5355,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "mechanics": [
       {
@@ -5678,7 +5710,8 @@
       "engineer",
       "infiltrator",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -5930,7 +5963,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -6232,7 +6266,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -6370,7 +6405,8 @@
     "classes": [
       "engineer",
       "sentinel",
-      "infiltrator"
+      "infiltrator",
+      "explorer"
     ],
     "tags": [
       "control",
@@ -6486,7 +6522,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "control",
@@ -6545,7 +6582,8 @@
     "classes": [
       "infiltrator",
       "soldier",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "buff"
@@ -6703,7 +6741,8 @@
       "engineer",
       "infiltrator",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "control"
@@ -6816,7 +6855,8 @@
     "classes": [
       "infiltrator",
       "soldier",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "debuff"
@@ -6878,7 +6918,8 @@
       "engineer",
       "infiltrator",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "debuff"
@@ -7017,7 +7058,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -7117,7 +7159,8 @@
     "classes": [
       "infiltrator",
       "soldier",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "protection"
@@ -7251,7 +7294,8 @@
     "classes": [
       "engineer",
       "sentinel",
-      "tracker"
+      "tracker",
+      "explorer"
     ],
     "tags": [
       "heal"
@@ -7389,7 +7433,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage"
@@ -7586,7 +7631,8 @@
     "classes": [
       "adept",
       "sentinel",
-      "vanguard"
+      "vanguard",
+      "explorer"
     ],
     "tags": [
       "damage"

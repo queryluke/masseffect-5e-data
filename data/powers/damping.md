@@ -10,6 +10,7 @@ classes:
   - engineer
   - infiltrator
   - sentinel
+  - explorer
 mechanics:
   - castingTime:
       length: 1

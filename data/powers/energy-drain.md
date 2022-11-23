@@ -8,6 +8,7 @@ tags:
 classes:
   - engineer
   - sentinel
+  - explorer
 mechanics:
   - castingTime:
       length: 1

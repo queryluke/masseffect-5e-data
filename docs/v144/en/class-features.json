@@ -23,6 +23,35 @@
     "id": "a-touch-of-force"
   },
   {
+    "level": 3,
+    "klass": "explorer",
+    "subclass": "path-of-the-voidhopper",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Acceleration",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "acceleration"
+        }
+      },
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 15
+        }
+      }
+    ],
+    "name": "Acceleration",
+    "html": "<p>At 3rd level, your focus is on positioning and distraction rather than standing your ground. Your movement speed\nincreases by half. If you move half or more of your movement in a turn, you gain a bonus +1 to AC, as your\nquick feet make you unpredictable to your enemies.</p>\n",
+    "id": "acceleration"
+  },
+  {
     "level": 18,
     "klass": "sentinel",
     "subclass": "juggernaut",
@@ -357,6 +386,25 @@
     "id": "assault-protocol"
   },
   {
+    "level": 15,
+    "klass": "explorer",
+    "subclass": "path-of-cyber",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Atomic Reactions",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "atomic-reactions"
+        }
+      }
+    ],
+    "name": "Atomic Reactions",
+    "html": "<p>At 15th level, your enemies are considered Vulnerable to the elemental damage of your Tech Ace during your turn.\nIn addition, they have disadvantage on any saves your Tech Ace forces them to roll.</p>\n",
+    "id": "atomic-reactions"
+  },
+  {
     "name": "Banish",
     "level": 17,
     "klass": "infiltrator",
@@ -439,8 +487,67 @@
       }
     ],
     "name": "Barrier",
-    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
+    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Explorer, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
     "id": "barrier-adept"
+  },
+  {
+    "level": 1,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "barrier",
+        "multiclassConversion": 0.5,
+        "ticks": [
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          7,
+          7,
+          8,
+          8,
+          8,
+          9,
+          9,
+          9
+        ],
+        "uses": [
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          6
+        ],
+        "dieCount": 1,
+        "dieType": 8
+      }
+    ],
+    "name": "Barrier",
+    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Explorer, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 5th,\n5 at 10th, and 6 at 17th.</p>\n",
+    "id": "barrier-explorer"
   },
   {
     "level": 1,
@@ -498,7 +605,7 @@
       }
     ],
     "name": "Barrier",
-    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
+    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Explorer, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
     "id": "barrier-sentinel"
   },
   {
@@ -557,7 +664,7 @@
       }
     ],
     "name": "Barrier",
-    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
+    "html": "<p>As an action or bonus action, you create a biotic barrier around you that reduces incoming damage and fuels certain\nbiotic abilities. You gain barrier ticks equal to the Barrier Ticks column shown on your class progression table. Your total\nbarrier ticks cannot exceed the amount listed in the Barrier Ticks column of your class progression table, and any barrier\nticks gained in excess of this number are lost.</p>\n<p>Whenever you would take damage while barrier is active, remove 1 barrier tick and reduce the damage by 1d8. Then, apply\nany remaining damage to other hit pools like tech armor, shields, temporary hit points, or hit points.</p>\n<p>Barrier lasts 1 minute. It ends early if you are knocked unconscious or have no barrier ticks remaining.\nYou can also end barrier at any time as a free action. When Barrier ends, you lose any remaining barrier ticks.</p>\n<p>Once you have used barrier the maximum number of times for your combined Adept, Explorer, Sentinel, and/or Vanguard levels,\nyou must finish a short rest before you can use it again. You may use barrier 2 times at 1st level, 3 at 3rd, 4 at 6th,\n5 at 12th, and 6 at 17th.</p>\n",
     "id": "barrier-vanguard"
   },
   {
@@ -1178,6 +1285,24 @@
     "id": "blindsense"
   },
   {
+    "level": 6,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Blink",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "blink"
+        }
+      }
+    ],
+    "name": "Blink",
+    "html": "<p>You learn how to use your biotic power to blink short distances. At 6th level you can use your movement action to\nblink. If you do, you only move half of your movement rate, but your movement does not provoke attack of opportunities\nduring your turn. In addition, you may phase through 2 meters of solid matter per movement. If you end your\nmovement inside of a solid structure, you are shunted to the nearest open space and suffer 1d10 damage per\n2 meters you had to move to be out of the surface.</p>\n<p>You can blink your entire movement rate at 18th level</p>\n",
+    "id": "blink"
+  },
+  {
     "level": 18,
     "klass": "vanguard",
     "subclass": "shock-trooper",
@@ -1293,6 +1418,24 @@
     "id": "bonus-proficiencies-tracker-bm"
   },
   {
+    "level": 2,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Boost Weapon",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "boost-weapon"
+        }
+      }
+    ],
+    "name": "Boost Weapon",
+    "html": "<p>By channeling either power from your Omni-tool or from your biotic reserves, you can boost the damage of your Personal\nArmament. When you make an attack, you may spend a spell slot. If you do, your shot deals an extra 1d8, plus 1d8\ndamage per spell level spent. If you spent a Biotic Spell, you deal Necrotic Damage. If you spent a Tech Power,\nyou deal Lightning Damage. This damage can detonate primed targets.</p>\n",
+    "id": "boost-weapon"
+  },
+  {
     "level": 9,
     "klass": "vanguard",
     "name": "Brutal Critical",
@@ -1358,6 +1501,24 @@
     ],
     "html": "<p>At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n",
     "id": "brutal-critical-3"
+  },
+  {
+    "level": 14,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Burst Savant",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "burst-savant"
+        }
+      }
+    ],
+    "name": "Burst Savant",
+    "html": "<p>You learn how to make the most of the awesome power of Detonations. At 14th level, whenever you detonate a target, or\nwhenever a target you primed gets detonated, you add your Intelligence modifier to the damage dealt.</p>\n",
+    "id": "burst-savant"
   },
   {
     "level": 10,
@@ -1657,6 +1818,34 @@
     "id": "cunning-action"
   },
   {
+    "level": 5,
+    "klass": "explorer",
+    "subclass": "path-of-cyber",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Cyclonic Shields",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cyclonic-shields"
+        }
+      },
+      {
+        "name": "Cyclonic Shields + Tech Ace",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cyclonic-shields"
+        },
+        "type": "reaction",
+        "shortDesc": "When your Barrier reduces the damage of an incoming attack to 0, you may use your reaction to cast your Tech Ace against your attacker."
+      }
+    ],
+    "name": "Cyclonic Shields",
+    "html": "<p>At 5th level, your shields don't take double damage from Lightning damage. When your Barrier reduces the damage of an\nincoming attack to 0, you may use your reaction to cast your Tech Ace against your attacker.</p>\n",
+    "id": "cyclonic-shields"
+  },
+  {
     "level": 2,
     "klass": "vanguard",
     "name": "Danger Sense",
@@ -1714,6 +1903,52 @@
     "id": "death-strike"
   },
   {
+    "level": 3,
+    "klass": "explorer",
+    "subclass": "path-of-eezo",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose a Biotic Cantrip",
+        "model": "powers",
+        "options": true,
+        "hide": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          },
+          {
+            "attr": "classes",
+            "value": [
+              "explorer"
+            ]
+          },
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Deep Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "deep-biotics"
+        }
+      }
+    ],
+    "name": "Deep Biotics",
+    "html": "<p>At 3rd level, your brain is beginning to attune more finely to the Element Zero in your system. You gain another cantrip\nslot that must be occupied by a Biotic Cantrip. When you use a Biotic Cantrip, you bump up the die by one.\nA d12 instead gives the spell a +2 damage modifier per d12 rolled.</p>\n",
+    "id": "deep-biotics"
+  },
+  {
     "level": 15,
     "klass": "soldier",
     "subclass": "weapon-master",
@@ -1731,6 +1966,14 @@
     ],
     "html": "<p>Starting at the 15th level, when you score a critical hit with your Weapon of Choice, you gain a bonus to that\nweapon's damage roll equal to your soldier level.</p>\n",
     "id": "devastating-critical"
+  },
+  {
+    "level": 10,
+    "klass": "explorer",
+    "mechanics": [],
+    "name": "Diagnostic Drone",
+    "html": "<p>Your skill with using VI's and tech allow you to recharge a few of your spells. At 10th level, whenever you take a\nshort rest, you can choose spend a few minutes tinkering with your Omni-tool and focusing to recover half your expended\nspell slots. These recovered spell slots must be split evenly between Biotic and Tech.\nOnce you use this feature, you must complete a long rest before using it again.</p>\n<p>At 20th level, you can use this feature twice per long rest.</p>\n",
+    "id": "diagnostic-drone"
   },
   {
     "level": 10,
@@ -2040,6 +2283,24 @@
     "id": "expertise-sentinel-guardian-2"
   },
   {
+    "level": 3,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Explorer's Ingenuity",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "explorers-ingenuity"
+        }
+      }
+    ],
+    "name": "Explorer's Ingenuity",
+    "html": "<p>Your quick thinking lets you apply creative solutions to incoming problems. At 3rd level, select one of your saving\nthrows that isn't Intelligence. You may add your Intelligence modifier to that saving throw if you'd be affected by an\neffect you can see. At 7th, 11th, 15th and 19th level, you select another non-Intelligence saving throw to\napply your modifier to. At 11th level, you can spend a reaction to also grant this benefit to an ally within\n10 meters of your position that you can see.</p>\n",
+    "id": "explorers-ingenuity"
+  },
+  {
     "level": 6,
     "klass": "adept",
     "subclass": "commando",
@@ -2075,6 +2336,20 @@
     ],
     "html": "<p>Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-engineer-mastermind"
+  },
+  {
+    "level": 5,
+    "klass": "explorer",
+    "subclass": "path-of-war",
+    "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
+    "html": "<p>At 5th level, you can make one extra attack when you take the Attack action.</p>\n",
+    "id": "extra-attack-explorer-path-of-war"
   },
   {
     "level": 5,
@@ -2206,6 +2481,20 @@
   },
   {
     "level": 2,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
+    "name": "Fighting Style",
+    "html": "<p>At 2nd level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, increase the DC by 2.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n<p><strong>The Free Hand.</strong> When holding no more than one light, non-two-handed weapon, you gain a +2 bonus to hit with ranged power attacks.</p>\n<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within <me-distance length=\"5\" />\nof you, you can use your reaction and expend one barrier tick to impose disadvantage on the attack roll. If the attack\nhits, the damage is reduced by your barrier tick roll.</p>\n<p><strong>Sniper.</strong> If no hostile creature is within <me-distance length=\"30\" /> of you, gain +2 to damage rolls on attacks\nmade with a sniper rifle.</p>\n",
+    "id": "fighting-style-explorer"
+  },
+  {
+    "level": 2,
     "klass": "sentinel",
     "mechanics": [
       {
@@ -2272,6 +2561,36 @@
     ],
     "html": "<p>Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by <me-distance length=\"5\" />.</p>\n",
     "id": "fitness"
+  },
+  {
+    "level": 15,
+    "klass": "explorer",
+    "subclass": "path-of-the-voidhopper",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "explorer",
+          "id": "blink",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "flickering-strikes"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Flickering Strikes",
+    "html": "<p>At 15th level, your fine tuned control of your Blink allows you to drop in and out of your movement to\nbetter hit your targets. When you use Blink during your turns, if you use your Momentum feature to attack two\ndifferent targets, you can make a third attack against a different target as part of that same attack action.</p>\n",
+    "id": "flickering-strikes"
   },
   {
     "level": 3,
@@ -2597,6 +2916,14 @@
     "id": "improved-barrier-commando"
   },
   {
+    "level": 11,
+    "klass": "explorer",
+    "mechanics": [],
+    "name": "Improved Boost",
+    "html": "<p>At 11th level, your tinkering with your weapon has turned it into a weapon of destruction when you wield it. Your\nPersonal Armament deals 1d8 extra damage. The dame type can be Lightning or Necrotic, which you choose every time you\ncomplete a long rest. This damage can detonate primed targets.</p>\n",
+    "id": "improved-boost"
+  },
+  {
     "level": 10,
     "klass": "tracker",
     "subclass": "beast-master",
@@ -2625,6 +2952,21 @@
     "name": "Improved Efficiency",
     "html": "<p>At 11th level, you can cast a 2 tech point version of your selected Engineer's Efficiency power without expending\nany tech points.</p>\n",
     "id": "improved-efficiency"
+  },
+  {
+    "level": 3,
+    "klass": "explorer",
+    "subclass": "path-of-war",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
+    "name": "Improved Style",
+    "html": "<p>At 9th level, you can choose another Fighting Style. Alternatively, you can select your fighting Style again,\nwhich improves it in the following ways:</p>\n<p><strong>Improved Ambidextrous</strong>: Whenever you make a reaction attack, you can make an attack with both of your weapons. You can also reload two weapons with the same action.</p>\n<p><strong>Improved Assault</strong>: When you make a Burst Fire attack, the DC of the saving throw increases by an additional +1 per creature in the area of effect.</p>\n<p><strong>Improved Brawler</strong>: Any enemy you hit with a melee attack has their speed halved for the rest of the round. If you hit a target with an attack of opportunity with a melee weapon, their speed becomes 0 instead.</p>\n<p><strong>Improved Carnage</strong>: When you reroll a die that landed on a 1 or a 2, you an roll twice and pick the highest result.</p>\n<p><strong>Improved Close Quarters Shooter</strong>: When making a ranged attack while you are within 2m of a hostile creature, you now gain advantage on the attack roll against it. Your ranged attacks now igore full cover against targets within 10m of you.</p>\n<p><strong>Improved Defense</strong>: You gain an additional +1 AC while wearing armor.</p>\n<p><strong>Improved Free Hand</strong>: You may benefit from the bonus of this style when wielding any weapon.</p>\n<p><strong>Improved Protection</strong>: Your ally gains resistance to the damage type of the triggering attack.</p>\n<p><strong>Improved Sniper</strong>: Your bonus to damage becomes +4</p>\n",
+    "id": "improved-style"
   },
   {
     "level": 14,
@@ -2682,6 +3024,25 @@
     "name": "Indomitable (3)",
     "html": "<p>At 17th level, you can use Indomitable three times between long rests.</p>\n",
     "id": "indomitable-3"
+  },
+  {
+    "level": 9,
+    "klass": "explorer",
+    "subclass": "path-of-the-voidhopper",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Intangible",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "intangible"
+        }
+      }
+    ],
+    "name": "Intangible",
+    "html": "<p>At 9th level, your molecules are so loose you gain some measure of protection even when you stop. Whenever you're the\ntarget of an attack and you moved at least half your speed on your last turn, you can use your reaction to roll a d6.\nOn a 3 or lower, the attack misses you. You can use this feature after the attack has been rolled.</p>\n",
+    "id": "intangible"
   },
   {
     "level": 20,
@@ -3199,6 +3560,25 @@
     "id": "metabiotics-3"
   },
   {
+    "level": 15,
+    "klass": "explorer",
+    "subclass": "path-of-eezo",
+    "mechanics": [
+      {
+        "name": "Mind Barrage",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "mind-barrage"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you use the attack action, you may cast a Biotic Cantrip as a bonus action against the same target. If you do, you may reroll any 1s that come up on the damage roll once."
+      }
+    ],
+    "name": "Mind Barrage",
+    "html": "<p>At 15th level, when you use the attack action, you may cast a Biotic Cantrip as a bonus action against the same target.\nIf you do, you may reroll any 1s that come up on the damage roll once.</p>\n",
+    "id": "mind-barrage"
+  },
+  {
     "level": 13,
     "klass": "infiltrator",
     "subclass": "saboteur",
@@ -3216,6 +3596,56 @@
     ],
     "html": "<p>Starting at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a\ncreature within <me-distance length=\"5\" /> of you is granting you cover against that attack, you can use your reaction to have the attack target\nthat creature instead of you.</p>\n",
     "id": "misdirection"
+  },
+  {
+    "level": 5,
+    "klass": "explorer",
+    "subclass": "path-of-the-voidhopper",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Momentum",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "momentum"
+        }
+      }
+    ],
+    "name": "Momentum",
+    "html": "<p>At 5th level, you can attack twice instead of once when you take the attack action, but only if you moved half or\nmore of your movement during your turn.</p>\n",
+    "id": "momentum"
+  },
+  {
+    "level": 9,
+    "klass": "explorer",
+    "subclass": "path-of-eezo",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "force"
+      },
+      {
+        "type": "resistance",
+        "value": "psychic"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic"
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Neural Dampening",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "neural-dampening"
+        }
+      }
+    ],
+    "name": "Neural Dampening",
+    "html": "<p>At 9th level, you gain resistance to Psychic, Necrotic and Force damage, and an enemy that deals Psychic, Necrotic or\nForce damage to you must make a saving throw vs your powercasting modifier or take half of the damage it dealt to you.\nThis return damage is not reduced by resistance, but it does not bypass immunities.</p>\n",
+    "id": "neural-dampening"
   },
   {
     "level": 3,
@@ -3578,6 +4008,14 @@
     "id": "paint-by-number"
   },
   {
+    "level": 2,
+    "klass": "explorer",
+    "mechanics": [],
+    "name": "Personal Armament",
+    "html": "<p>While not as focused as a Soldier, your expertise in combat lends itself to expertly tweaking one of your armaments.\nAt level 2, you select one weapon you currently own. By spending eight hours preparing and tinkering with the weapon,\nyou gain a series of benefits, the first of which is the ability to use complex algorithms to help with aiming.\nYou use your Intelligence modifier in your To Hit and Damage rolls, instead of the usual modifier, and you ignore\nthe physical requirements to wield it.</p>\n",
+    "id": "personal-armament"
+  },
+  {
     "level": 10,
     "klass": "adept",
     "subclass": "disruptor",
@@ -3872,6 +4310,71 @@
     "name": "Powercasting",
     "html": "<h3>Preparing and casting powers</h3>\n<p>The Engineer table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of these\nengineer powers, you must expend a number of tech points equal to the power’s level or higher. You regain all\nexpended tech points when you finish a long rest.</p>\n<p>You are limited in the number of tech points you can spend to cast a power as indicated in the Tech Point Limit column\nof the Engineer table.</p>\n<p>For example, a 9th-level engineer can cast powers for 1, 2, or 3 tech points.</p>\n<p>You prepare the list of engineer powers that are available for you to cast, choosing from the engineer power list.\nWhen you do so, choose a number of engineer powers equal to your Intelligence modifier + your engineer level\n(minimum of one power).</p>\n<p>You may prepare the advanced version of a power for the cost of 2 regular versions. Whenever you cast the power,\nyou cast the advanced version of it. You may only prepare one advanced version for each power.</p>\n<p>For example, if you are a 4th-level engineer with an Intelligence of 16, your list of prepared powers can be one of the following:</p>\n<ul>\n<li>seven regular powers</li>\n<li>one advanced power and five regular powers,</li>\n<li>two advanced powers and three regular powers,</li>\n<li>three advanced powers and one regular power</li>\n</ul>\n<br>\n<p>You can also change your list of prepared powers when you finish a long rest. Preparing a new list of engineer powers\nrequires time spent to program them into your omni-tool: at least 1 minute per power level for each power on your list.</p>\n<h3>Powercasting Ability</h3>\n<p>Engineers use a highly modified Omni-tool that requires a keen intellect to maintain. As an engineer, you use your\nIntelligence whenever a power refers to your powercasting ability. In addition, you use your Intelligence modifier when\nsetting the saving throw DC for a tech power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n",
     "id": "powercasting-engineer"
+  },
+  {
+    "level": 1,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "powercasting-slots",
+        "multiclassConversion": 0.5,
+        "known": false,
+        "prepared": {
+          "levelMultiplier": 0.5,
+          "modBonus": true
+        },
+        "slots": {
+          "1": [
+            2,
+            4,
+            6,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "2": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        "mod": "int"
+      }
+    ],
+    "name": "Powercasting",
+    "html": "<h3>Power Slots</h3>\n<p>The Explorer table shows how many spell slots you have. The table also shows what the level of those slots is; all of\nyour spell slots are the same level. To cast one of your sentinel spells of 1st level or higher, you must expend a\nspell slot. You regain all expended spell slots when you finish a long rest.</p>\n<p>For example, when you are 5th level, you have two 2nd-level spell slots. To cast the 1st-level spell Lance,\nyou must spend one of those slots, and you cast it as a 2nd-level spell.</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>An Explorer always knows all of the spells in their spell list. However, they cannot have all of them prepared at the same time.</p>\n<p>At the tail end of each long rest, an Explorer can chose up to half his Explorer level+his intelligence modifier spells.\nHe considers those spells as his prepared spells for the day, and may cast them using the spell slots at their disposal.</p>\n<p>Your prepared spells list must be equally split between Biotic Spells and Tech Spells. If the number of prepared spells\nyou have is odd, you may chose what kind of spell the spell that remains is after splitting the list\nbetween biotic and tech equally.</p>\n<p>When you select your spells, you may choose to spend one prepared spell to instead prepare an advanced version of a\nspell you are preparing. You may only have one advancement per spell.</p>\n<h3>Powercasting Ability</h3>\n<p>Explorers use a unique L5x biotic implant that integrates with the operative's omni-tool maximizes their innate talents.\nAs an explorer, the amount of information needed to process and optimize these systems makes your Spellcasting Ability\nIntelligence.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n",
+    "id": "powercasting-explorer"
   },
   {
     "level": 1,
@@ -4271,6 +4774,25 @@
     "id": "primal-biotics"
   },
   {
+    "level": 5,
+    "klass": "explorer",
+    "subclass": "path-of-eezo",
+    "mechanics": [
+      {
+        "name": "Opportunity Attack (cantrip)",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "quick-reaction"
+        },
+        "type": "reaction",
+        "shortDesc": "When an enemy provokes an Opportunity Attack, instead of using a weapon attack, you may instead cast a biotic cantrip against it."
+      }
+    ],
+    "name": "Quick Reaction",
+    "html": "<p>At 5th level, when an enemy provokes an Opportunity Attack, instead of using a weapon attack, you may instead cast a biotic cantrip against it.</p>\n",
+    "id": "quick-reaction"
+  },
+  {
     "level": 15,
     "klass": "soldier",
     "subclass": "gladiator",
@@ -4620,6 +5142,44 @@
     "name": "Ride On!",
     "html": "<p>You and your beast are of one mind, and perfectly adjusted to each others strengths, weaknesses, and weights. Starting\nat 3rd level, you gain the ability to mount creatures that are the same size as you. Furthermore, when mounted, both\nyou and your beast's attack deal an additional 1d8 damage when hitting an attack. This damage occurs once per turn,\nper creature.</p>\n<p>The damage increases to 2d8 at level 7, and 3d8 at level 14.</p>\n<p>Additionally, while mounted, you may add your Charisma to your initiative checks.</p>\n<p>Finally, when you use a bonus action to order your beast to take the Dash action, you may still command your beast to attack.</p>\n",
     "id": "ride-on"
+  },
+  {
+    "level": 9,
+    "klass": "explorer",
+    "subclass": "path-of-cyber",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "mod",
+          "value": "int"
+        },
+        "regen": {
+          "type": "mod",
+          "value": "int"
+        }
+      },
+      {
+        "name": "Router Tech",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "router-tech"
+        },
+        "type": "reaction",
+        "shortDesc": "Whenever an ally within <me-distance length=\"25\" /> takes damage to their shields, you can use your reaction to immediately boost their shield capacitors, fully restoring their shields.",
+        "resource": {
+          "id": "router-tech",
+          "reset": "long",
+          "max": {
+            "type": "mod",
+            "value": "int"
+          }
+        }
+      }
+    ],
+    "name": "Router Tech",
+    "html": "<p>At 9th level your Maximum Shields and Shield Regen increase by a value equal to your Intelligence modifier.\nIn addition, whenever an ally within <me-distance length=\"25\" /> takes damage to their shields, you can use your\nreaction to immediately boost their shield capacitors, fully restoring their shields. You can use this feature a\nnumber of times equal to your Intelligence modifier (min. of 1) and regain all expended uses on a long rest.</p>\n",
+    "id": "router-tech"
   },
   {
     "level": 17,
@@ -5459,6 +6019,53 @@
     "id": "tactical-reload"
   },
   {
+    "level": 3,
+    "klass": "explorer",
+    "subclass": "path-of-cyber",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose one power",
+        "model": "powers",
+        "options": true,
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "cryo-blast",
+              "incinerate",
+              "overload"
+            ]
+          }
+        ],
+        "hide": true,
+        "append": {
+          "klass": "explorer",
+          "alwaysCastable": {
+            "type": "progressive",
+            "limit": "explorer",
+            "value": {
+              "3": 1
+            }
+          }
+        }
+      },
+      {
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "valueLookup": {
+            "model": "class-features",
+            "id": "tech-ace"
+          }
+        }
+      }
+    ],
+    "name": "Tech Ace",
+    "html": "<p>At 3rd level, your tools are calibrated enough that you can rely on them without fear. Choose one spell between\nIncinerate, Cryo Blast and Overload. You always have this spell prepared. You may cast the 1 tech point version of that\nspell without expending a 1st level spell slot. This spell is hereafter known as your Tech Ace.\nWhen you receive the 10th level improvement to your cantrips, you can also select an advancement for your Tech Ace</p>\n",
+    "id": "tech-ace"
+  },
+  {
     "level": 1,
     "klass": "sentinel",
     "mechanics": [
@@ -6200,6 +6807,88 @@
   },
   {
     "level": 10,
+    "klass": "explorer",
+    "name": "The Right Cantrip for the Job",
+    "mechanics": [
+      {
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "valueLookup": {
+            "model": "class-features",
+            "id": "the-right-cantrip-for-the-job"
+          }
+        }
+      }
+    ],
+    "html": "<p>At 10th level, you can choose one augmentation for each cantrip.</p>\n",
+    "id": "the-right-cantrip-for-the-job-2"
+  },
+  {
+    "level": 1,
+    "klass": "explorer",
+    "name": "The Right Cantrip for the Job",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose a Biotic Cantrip",
+        "model": "powers",
+        "options": true,
+        "hide": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          },
+          {
+            "attr": "classes",
+            "value": [
+              "explorer"
+            ]
+          },
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model-choice",
+        "label": "Choose a Combat Cantrip",
+        "model": "powers",
+        "options": true,
+        "hide": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          },
+          {
+            "attr": "classes",
+            "value": [
+              "explorer"
+            ]
+          },
+          {
+            "attr": "type",
+            "value": [
+              "combat"
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<p>Your expertise in multiple fields allows you to creatively apply your powers, and if you can't, you can quickly find\none that does fit to your situation.</p>\n<p>You have 2 cantrip slots. Each slot must always be occupied by a cantrip of different origin - one Combat and one Biotic.\nOn a Short Rest, you can change any of the two to any other cantrip.</p>\n<p>At 10th level, you can choose one augmentation for each.</p>\n<p>In addition, when you finish a short rest, you can select 3 non-Intelligence based skills. Your skillful execution\nallows you to add your Intelligence modifier to those skills, in addition to the standard modifier.</p>\n<p>All of the biotic cantrips available to the Sentinel are available to the Explorer. All of the combat cantrips\navailable to the Infiltrator are available to the Explorer.</p>\n",
+    "id": "the-right-cantrip-for-the-job"
+  },
+  {
+    "level": 10,
     "klass": "soldier",
     "subclass": "gladiator",
     "name": "Tireless Spirit",
@@ -6228,6 +6917,52 @@
     ],
     "html": "<p>Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>\n",
     "id": "tireless-spirit"
+  },
+  {
+    "level": 3,
+    "klass": "explorer",
+    "subclass": "path-of-war",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose a Combat Cantrip",
+        "model": "powers",
+        "options": true,
+        "hide": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          },
+          {
+            "attr": "classes",
+            "value": [
+              "explorer"
+            ]
+          },
+          {
+            "attr": "type",
+            "value": [
+              "combat"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "2x Cantrip Charges",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tools-of-destruction"
+        }
+      }
+    ],
+    "name": "Tools of Destruction",
+    "html": "<p>At 3rd level, your systems are focused on combat. You gain another cantrip slot that must be occupied by a Combat\nCantrip. You double the uses of your Combat Cantrips before needing to recharge them.</p>\n",
+    "id": "tools-of-destruction"
   },
   {
     "level": 18,
@@ -6459,6 +7194,103 @@
     "name": "Training Regimens",
     "html": "<p>No one ever stops learning, least of all the pets in the employ of a skilled Tracker.</p>\n<p>Starting at 2nd level, your pet is able to learn two training regimens, choosing from the list below.</p>\n<p>If a regimen has prerequisites, you must meet them to learn it. You can learn the regimen at the same time that you\nmeet its prerequisites. A level prerequisite refers to your level in this class.</p>\n<p>You gain 2 training regimens at level 2, gaining another at levels 5, 7, 9, 11, 13, 15, 17 and 19.</p>\n<p>When you gain a level in the Tracker class, you may replace one of the regimen you've taught your pet with another.</p>\n<me-edge-list id=\"training-regimens\" />\n",
     "id": "training-regimens"
+  },
+  {
+    "level": 15,
+    "klass": "explorer",
+    "subclass": "path-of-war",
+    "mechanics": [
+      {
+        "name": "Trigger Rush",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "trigger-rush"
+        },
+        "type": "reaction",
+        "shortDesc": "When you bring an enemy to 0 hit points with a weapon attack, you can use your reaction to fire another attack against a creature within range of your weapon."
+      }
+    ],
+    "name": "Trigger Rush",
+    "html": "<p>At 15th level, when you bring an enemy to 0 hit points with a weapon attack, you can use your reaction to fire another\nattack against a creature within range of your weapon.</p>\n",
+    "id": "trigger-rush"
+  },
+  {
+    "level": 20,
+    "klass": "explorer",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose a Biotic Cantrip",
+        "model": "powers",
+        "options": true,
+        "hide": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          },
+          {
+            "attr": "classes",
+            "value": [
+              "explorer"
+            ]
+          },
+          {
+            "attr": "type",
+            "value": [
+              "biotic"
+            ]
+          }
+        ],
+        "append": {
+          "klass": "explorer"
+        }
+      },
+      {
+        "type": "model-choice",
+        "label": "Choose a Combat Cantrip",
+        "model": "powers",
+        "options": true,
+        "hide": true,
+        "limits": [
+          {
+            "attr": "level",
+            "value": [
+              0
+            ]
+          },
+          {
+            "attr": "classes",
+            "value": [
+              "explorer"
+            ]
+          },
+          {
+            "attr": "type",
+            "value": [
+              "combat"
+            ]
+          }
+        ],
+        "append": {
+          "klass": "explorer"
+        }
+      },
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "True Explorer",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "true-explorer"
+        }
+      }
+    ],
+    "name": "True Explorer",
+    "html": "<p>Your abilities have reached their peak, and the galaxy is ripe for your exploring. You double the number of cantrips\nyou select every short rest with The Right Cantrip for the Job.</p>\n<p>In addition, whenever you detonate a primed target, you can use your reaction to reprime the target in the same kind\nof priming it had before you detonated it.</p>\n",
+    "id": "true-explorer"
   },
   {
     "level": 20,

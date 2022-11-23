@@ -8,6 +8,7 @@ tags:
 classes:
   - infiltrator
   - soldier
+  - explorer
 mechanics:
   - castingTime:
       length: 1

@@ -8,6 +8,7 @@ classes:
   - soldier
   - vanguard
   - tracker
+  - explorer
 tags:
   - damage
 mechanics:

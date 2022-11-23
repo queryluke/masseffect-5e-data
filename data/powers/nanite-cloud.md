@@ -6,6 +6,7 @@ type: tech
 classes:
   - engineer
   - sentinel
+  - explorer
 tags:
   - protection
 mechanics:

@@ -10,6 +10,7 @@ classes:
   - soldier
   - vanguard
   - tracker
+  - explorer
 mechanics:
   - castingTime:
       unit: attack

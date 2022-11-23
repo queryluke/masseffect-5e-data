@@ -7,6 +7,7 @@ classes:
   - infiltrator
   - soldier
   - tracker
+  - explorer
 tags:
   - debuff
 mechanics:

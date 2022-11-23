@@ -7,6 +7,7 @@ classes:
   - adept
   - sentinel
   - vanguard
+  - explorer
 tags:
   - control
 mechanics:

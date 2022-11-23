@@ -7,6 +7,7 @@ classes:
   - engineer
   - infiltrator
   - sentinel
+  - explorer
 tags:
   - buff
 mechanics:

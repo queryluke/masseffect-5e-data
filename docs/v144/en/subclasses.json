@@ -112,6 +112,34 @@
     "id": "outrider"
   },
   {
+    "klass": "explorer",
+    "author": "Spageddy",
+    "name": "Path of Cyber",
+    "html": "<p>The latest tech, the latest gadget, the latest advantage. You look for and develop creative new tools for your travels,\nand they give you the edge you need.</p>\n",
+    "id": "path-of-cyber"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spageddy",
+    "name": "Path of Eezo",
+    "html": "<p>Your focus is on biotics and the manipulation of the world around you. You learn how to improve your biotics to truly\nmake a your brain your most valuable tool.</p>\n",
+    "id": "path-of-eezo"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spageddy",
+    "name": "Path of the Voidhopper",
+    "html": "<p>You took the path of least resistance: the one which doesn't exist. As a Voidhopper, you focus your biotic prowess\ninto the difficult yet awesome power of Blinking, rushing in between adversaries and leaving them confused as to your\nwhereabouts.</p>\n<p><strong>Addendum</strong>: Whenever a feature of the Voidhopper states you need to move half your speed, it also means you\ncannot end your movement in the same square that you started in.</p>\n",
+    "id": "path-of-the-voidhopper"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spageddy",
+    "name": "Path of War",
+    "html": "<p>You are an expert in armed combat and the use of machines of war. Your Path is rife with violence, but not without\nit's own beauities and discoveries.</p>\n",
+    "id": "path-of-war"
+  },
+  {
     "klass": "infiltrator",
     "name": "Saboteur",
     "html": "<p>Saboteurs are tech savvy infiltrators that use cloak and dagger tactics to control the outcome of battles.</p>\n",

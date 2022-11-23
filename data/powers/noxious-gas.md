@@ -8,6 +8,7 @@ classes:
   - tracker
   - sentinel
   - infiltrator
+  - explorer
 tags:
   - damage
 mechanics:

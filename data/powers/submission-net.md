@@ -8,6 +8,7 @@ classes:
   - infiltrator
   - sentinel
   - tracker
+  - explorer
 tags:
   - control
 mechanics:
