@@ -26,6 +26,13 @@
     "id": "beast-master"
   },
   {
+    "klass": "engineer",
+    "name": "Biohacker",
+    "author": "Spageddy",
+    "html": "<p>Your experiments with machines have transcended beyond just electronics and weapons. To you, the ultimate expression of\ntechnology, and your love letter to what you do, comes from within. You learned how to improve your own body to be the\nultimate expression of your technological expertise.</p>\n",
+    "id": "biohacker"
+  },
+  {
     "klass": "adept",
     "name": "Blackstar",
     "html": "<p>Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting\nfriends and gain unique benefits to biotic control powers like Lift, Singularity, and Stasis.</p>\n",
@@ -152,6 +159,13 @@
     "name": "Path of War",
     "html": "<p>You are an expert in armed combat and the use of machines of war. Your Path is rife with violence, but not without\nit's own beauities and discoveries.</p>\n",
     "id": "path-of-war"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Pistolero",
+    "author": "Spageddy",
+    "html": "<p>Sometimes a big iron at your hip is all you need to face down the horrors of the galaxy. You specialize in the use of\nsmall arms, particularly pistols, to make a name for yourself in the galaxy.</p>\n",
+    "id": "pistolero"
   },
   {
     "klass": "infiltrator",

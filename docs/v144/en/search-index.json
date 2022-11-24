@@ -3610,6 +3610,21 @@
     "html": "<p>At 14th level, your companion can use its action to make an attack against each creature within <me-distance length=\"5\" /> of it or each\ncreature within <me-distance length=\"5\" /> of you. It makes a separate attack roll for each target.</p>\n"
   },
   {
+    "id": "at-your-hip",
+    "title": "At Your Hip",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Pistolero",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, all of the heavy pistols you are wielding have the Hip Fire property.\n",
+    "html": "<p>At 3rd level, all of the heavy pistols you are wielding have the Hip Fire property.</p>\n"
+  },
+  {
     "id": "atomic-powers",
     "title": "Atomic Powers",
     "type": "character",
@@ -4122,6 +4137,21 @@
     "link": false,
     "body": "By channeling either power from your Omni-tool or from your biotic reserves, you can boost the damage of your Personal\nArmament. When you make an attack, you may spend a spell slot. If you do, your shot deals an extra 1d8, plus 1d8\ndamage per spell level spent. If you spent a Biotic Spell, you deal Necrotic Damage. If you spent a Tech Power,\nyou deal Lightning Damage. This damage can detonate primed targets.\n",
     "html": "<p>By channeling either power from your Omni-tool or from your biotic reserves, you can boost the damage of your Personal\nArmament. When you make an attack, you may spend a spell slot. If you do, your shot deals an extra 1d8, plus 1d8\ndamage per spell level spent. If you spent a Biotic Spell, you deal Necrotic Damage. If you spent a Tech Power,\nyou deal Lightning Damage. This damage can detonate primed targets.</p>\n"
+  },
+  {
+    "id": "brain-boost",
+    "title": "Brain Boost",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "Biohacker",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 2nd level, you gain Expertise with either Engineering or Medicine.\n",
+    "html": "<p>At 2nd level, you gain Expertise with either Engineering or Medicine.</p>\n"
   },
   {
     "id": "brutal-critical-1",
@@ -4922,6 +4952,21 @@
     "html": "<p>Constant exercise has made your body much more resilient. At 2nd level, your hit point maximum increases by 2,\nand it increases by 1 again whenever you gain a level in this class. In addition, your walking speed increases by <me-distance length=\"5\" />.</p>\n"
   },
   {
+    "id": "five-round-rapid",
+    "title": "Five Round Rapid",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Pistolero",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 17th level, when you take the Attack action with a Heavy Pistol, you can chose to fire your pistol a number of times\nequal to your proficiency modifier. These shots can be aimed at one person or at several, and Sneak Attack can be\napplied once to each person you aim at if they fulfill the conditions for Sneak Attack.\nOnce you use this feature, your weapon runs out of Heat (no matter how much heat remained in your weapon) and must\nbe reloaded and cooled down using an action on your next turn. You must use an action to do this: it cannot be\nreduced to a bonus action by any means, and it can't be done as part of the Attack action via Lightning Reload.\nUntil you take this special reload action, your pistol is jammed and cannot fire.\n",
+    "html": "<p>At 17th level, when you take the Attack action with a Heavy Pistol, you can chose to fire your pistol a number of times\nequal to your proficiency modifier. These shots can be aimed at one person or at several, and Sneak Attack can be\napplied once to each person you aim at if they fulfill the conditions for Sneak Attack.</p>\n<p>Once you use this feature, your weapon runs out of Heat (no matter how much heat remained in your weapon) and must\nbe reloaded and cooled down using an action on your next turn. You must use an action to do this: it cannot be\nreduced to a bonus action by any means, and it can't be done as part of the Attack action via Lightning Reload.\nUntil you take this special reload action, your pistol is jammed and cannot fire.</p>\n"
+  },
+  {
     "id": "flickering-strikes",
     "title": "Flickering Strikes",
     "type": "character",
@@ -5204,6 +5249,21 @@
     "html": "<p>At 11th level, you can cast a 2 tech point version of your selected Engineer's Efficiency power without expending\nany tech points.</p>\n"
   },
   {
+    "id": "improved-muscular-boost",
+    "title": "Improved Muscular Boost",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "Biohacker",
+      "14th level"
+    ],
+    "link": false,
+    "body": "At 14th level, when you use your Intelligence modifier on a melee attack roll, you now add your full proficiency\nmodifier and your full Intelligence modifier to the roll. Your speed also increases by .\n",
+    "html": "<p>At 14th level, when you use your Intelligence modifier on a melee attack roll, you now add your full proficiency\nmodifier and your full Intelligence modifier to the roll. Your speed also increases by <me-distance length=\"10\" />.</p>\n"
+  },
+  {
     "id": "improved-style",
     "title": "Improved Style",
     "type": "character",
@@ -5436,6 +5496,21 @@
     "html": "<p>Starting at 10th level, you become able to inspire those around you to fearlessly charge into battle. After rolling\ninitiative, select a number of allied creatures equal to up to your Charisma modifier (Minimum of 1). Until the\nend of their next turn, those creatures have their movement speed doubled the first time they move.</p>\n"
   },
   {
+    "id": "lightning-reload",
+    "title": "Lightning Reload",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Pistolero",
+      "9th level"
+    ],
+    "link": false,
+    "body": "At 9th level, your hands have become so quick that they seem to be a blur to the outside. When you roll Initiative,\nyou can draw a Heavy Pistol as part of the dice roll. In addition, you can reload your weapon as part of the Attack action.\n",
+    "html": "<p>At 9th level, your hands have become so quick that they seem to be a blur to the outside. When you roll Initiative,\nyou can draw a Heavy Pistol as part of the dice roll. In addition, you can reload your weapon as part of the Attack action.</p>\n"
+  },
+  {
     "id": "lock-on",
     "title": "Lock On",
     "type": "character",
@@ -5479,6 +5554,21 @@
     "link": false,
     "body": "At 15th level, you can have 4 grenades programmed into your Omni-tool at once.\nIn addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.\n",
     "html": "<p>At 15th level, you can have 4 grenades programmed into your Omni-tool at once.</p>\n<p>In addition, you can create a grenade with this ability as a bonus action and you can use a grenade as an attack action.</p>\n"
+  },
+  {
+    "id": "marrow-boost",
+    "title": "Marrow Boost",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "Biohacker",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, you gain immunity to the poisoned condition and to poison damage. Additionally, whenever you\nspend a hit die, you can add your Intelligence modifier to the number of hit points you recover for each hit die roll.\n",
+    "html": "<p>At 10th level, you gain immunity to the poisoned condition and to poison damage. Additionally, whenever you\nspend a hit die, you can add your Intelligence modifier to the number of hit points you recover for each hit die roll.</p>\n"
   },
   {
     "id": "master-in-the-saddle",
@@ -5586,6 +5676,21 @@
     "html": "<p>At 14th level, learn an additional metabiotic option.</p>\n"
   },
   {
+    "id": "metabolic-boost",
+    "title": "Metabolic Boost",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "Biohacker",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 2nd level, your body has been implanted with machines that help your survival. You gain 2 extra hit points,\nand every time you gain an engineer level, you receive 1 extra hit point.\n",
+    "html": "<p>At 2nd level, your body has been implanted with machines that help your survival. You gain 2 extra hit points,\nand every time you gain an engineer level, you receive 1 extra hit point.</p>\n"
+  },
+  {
     "id": "mind-barrage",
     "title": "Mind Barrage",
     "type": "character",
@@ -5629,6 +5734,21 @@
     "link": false,
     "body": "At 5th level, you can attack twice instead of once when you take the attack action, but only if you moved half or\nmore of your movement during your turn.\n",
     "html": "<p>At 5th level, you can attack twice instead of once when you take the attack action, but only if you moved half or\nmore of your movement during your turn.</p>\n"
+  },
+  {
+    "id": "muscular-boost",
+    "title": "Muscular Boost",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "Biohacker",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, the implants along your body supplement your physical strength. When you make an attack that uses\nStrength, you instead can chose to use your Intelligence for both the attack and damage roll. If you do so for a\nmelee attack, you can add half of your proficiency bonus and half of your intelligence bonus again to the damage roll.\n",
+    "html": "<p>At 6th level, the implants along your body supplement your physical strength. When you make an attack that uses\nStrength, you instead can chose to use your Intelligence for both the attack and damage roll. If you do so for a\nmelee attack, you can add half of your proficiency bonus and half of your intelligence bonus again to the damage roll.</p>\n"
   },
   {
     "id": "napalm-burst",
@@ -5749,6 +5869,21 @@
     "link": false,
     "body": "At 18th level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\ntargeting, you may target and fire on the same turn.\n",
     "html": "<p>At 18th level, you become a heavy weapon artist and a targeting laser is your paintbrush. When using a Heavy Weapon that requires a round of\n<me-condition id=\"targeting\" />, you may target and fire on the same turn.</p>\n"
+  },
+  {
+    "id": "peak-performance",
+    "title": "Peak Performance",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Engineer",
+      "Biohacker",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, your Constitution score increases by 2, and it's cap also increases by 2. When you take the attack\naction that would use your Intelligence for the attack and damage roll, you can attack twice.\n",
+    "html": "<p>At 18th level, your Constitution score increases by 2, and it's cap also increases by 2. When you take the attack\naction that would use your Intelligence for the attack and damage roll, you can attack twice.</p>\n"
   },
   {
     "id": "personal-armament",
@@ -6435,6 +6570,21 @@
     "html": "<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.</p>\n<p>You don't need advantage on the attack roll if another enemy of the target is within <me-distance length=\"5\" /> of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.</p>\n<p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.</p>\n"
   },
   {
+    "id": "start-blastin",
+    "title": "Start Blastin'",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Pistolero",
+      "13th level"
+    ],
+    "link": false,
+    "body": "At 13th level, when you take the Attack action, you can fire twice with a Heavy Pistol, but both shots must be aimed\nat different targets. You can apply Sneak Attack to each target if they each fulfill the conditions for Sneak Attack.\n",
+    "html": "<p>At 13th level, when you take the Attack action, you can fire twice with a Heavy Pistol, but both shots must be aimed\nat different targets. You can apply Sneak Attack to each target if they each fulfill the conditions for Sneak Attack.</p>\n"
+  },
+  {
     "id": "steady-aim",
     "title": "Steady Aim",
     "type": "character",
@@ -6448,6 +6598,21 @@
     "link": false,
     "body": "At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:\n\nThe attacks ignore half and three-quarters cover.\nOn a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.\n\n\nThis effect lasts 1 minute or until you use Steady Aim on a different target.\nYou can use this feature three times. You regain all expended uses of it when you finish a short or long rest.\n",
     "html": "<p>At the 3rd level, your aim with a sniper rifle becomes deadly. As a bonus action on your turn, you can overclock\nyour targeting system to take careful aim at a creature you can see that is within range of a sniper rifle you're wielding.\nYour ranged attacks with the sniper rifle gain two benefits against the target:</p>\n<ul>\n<li>The attacks ignore half and three-quarters cover.</li>\n<li>On a hit, the weapon deals additional damage to the target equal to 2 + half your infiltrator level.</li>\n</ul>\n<br>\n<p>This effect lasts 1 minute or until you use Steady Aim on a different target.</p>\n<p>You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</p>\n"
+  },
+  {
+    "id": "steady-hand",
+    "title": "Steady Hand",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Pistolero",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you gain another way of using your Cunning Action. If you do not move during your turn, you can use\nCunning Action to gain advantage on the next ranged attack you make with a Heavy Pistol\n",
+    "html": "<p>At 3rd level, you gain another way of using your Cunning Action. If you do not move during your turn, you can use\nCunning Action to gain advantage on the next ranged attack you make with a Heavy Pistol</p>\n"
   },
   {
     "id": "sting",
