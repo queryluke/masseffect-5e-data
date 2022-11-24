@@ -1,5 +1,101 @@
 [
   {
+    "name": "Constitution",
+    "mechanics": [
+      {
+        "name": "Fuel",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fuel"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "armiger-fuel",
+          "max": {
+            "type": "multi",
+            "value": [
+              {
+                "type": "mod",
+                "value": "con"
+              },
+              {
+                "type": "proficiency"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "type": "armiger-fuel",
+    "html": "",
+    "id": "AF_constitution"
+  },
+  {
+    "name": "Dexterity",
+    "mechanics": [
+      {
+        "name": "Fuel",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fuel"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "armiger-fuel",
+          "max": {
+            "type": "multi",
+            "value": [
+              {
+                "type": "mod",
+                "value": "dex"
+              },
+              {
+                "type": "proficiency"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "type": "armiger-fuel",
+    "html": "",
+    "id": "AF_dexterity"
+  },
+  {
+    "name": "Strength",
+    "mechanics": [
+      {
+        "name": "Fuel",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fuel"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "short",
+          "id": "armiger-fuel",
+          "max": {
+            "type": "multi",
+            "value": [
+              {
+                "type": "mod",
+                "value": "str"
+              },
+              {
+                "type": "proficiency"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "type": "armiger-fuel",
+    "html": "",
+    "id": "AF_strength"
+  },
+  {
     "name": "Armorsmith",
     "mechanics": [
       {
@@ -2084,6 +2180,41 @@
     ],
     "html": "<p>When a creature that is primed: necrotic detonates, it suffers 1d12 necrotic damage and must succeed on a\nDC 13 Constitution saving throw or becomes <me-condition id=\"stunned\" /> until the end of its next turn.</p>\n",
     "id": "PRIME_necrotic"
+  },
+  {
+    "name": "Radiant",
+    "type": "primers",
+    "mechanics": [
+      {
+        "damage": {
+          "dieCount": 3,
+          "dieType": 4,
+          "type": "radiant"
+        },
+        "dc": {
+          "base": 15,
+          "save": "con"
+        },
+        "shortDesc": "Each creature within <me-distance length=\"10\" /> of the detonated creature suffers {{ damage }} damage must succeed on DC 15 Constitution saving throw or become <me-condition id=\"poisoned\" /> for 1 hour."
+      },
+      {
+        "damage": {
+          "dieCount": 4
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 5
+        }
+      },
+      {
+        "damage": {
+          "dieCount": 6
+        }
+      }
+    ],
+    "html": "<p>A creature that is primed: radiant is also <me-condition id=\"poisoned\" /> until the primed: radiant condition ends.\nWhen a creature that is primed: radiant detonates, each creature within <me-distance length=\"10\" /> of it suffers\n3d4 radiant damage and must succeed on DC 15 Constitution saving throw or become <me-condition id=\"poisoned\" /> for 1 hour.</p>\n",
+    "id": "PRIME_radiant"
   },
   {
     "name": "Beguile",

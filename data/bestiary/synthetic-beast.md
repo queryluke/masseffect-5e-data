@@ -40,7 +40,7 @@ entries:
         - {dieCount: '1', dieType: '6', mod: true, type: bludgeoning}
       target: one
       id: maul
-cr: '000125'
+cr: '00125'
 shields:
   capacity: 10
 ---

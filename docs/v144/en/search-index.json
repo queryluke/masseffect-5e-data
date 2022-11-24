@@ -3506,6 +3506,21 @@
     "html": "<p>You've outfitted your armor with special rigs that make carrying weapons a cinch.</p>\n<p>At 3rd level, you have 2 additional weapon slots that are capable of holstering two-handed weapons.\nIf using the Encumbrance (Variant) rule, your carry weight is doubled.</p>\n"
   },
   {
+    "id": "afterburner",
+    "title": "Afterburner",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Armiger",
+      "15th level"
+    ],
+    "link": false,
+    "body": "At 15th level, you can spend 1 unit of Fuel to double your speed until the end of your round. Alternatively, as a\nreaction when you make a Dexterity saving throw, you can use 2 units of Fuel to automatically pass the saving throw.\n",
+    "html": "<p>At 15th level, you can spend 1 unit of Fuel to double your speed until the end of your round. Alternatively, as a\nreaction when you make a Dexterity saving throw, you can use 2 units of Fuel to automatically pass the saving throw.</p>\n"
+  },
+  {
     "id": "amplify",
     "title": "Amplify",
     "type": "character",
@@ -3550,6 +3565,21 @@
     "html": "<p>Your mastery of the Cardinal Blades have now given you the capability to push your focus to unleash further\nenergy against the prey's pack.</p>\n<p>At 14th level, whenever you land a successful hit with your Cardinal Blades, you may spend 1 Focus Point to deal\nhalf of the total damage result (rounded down) to all creatures within a <me-distance length=\"15\" /> cone originating from your target\nin the direction you are currently facing when making this attack.</p>\n<p>In Addition, your Cardinal Blades will now gain a Focus Point if you roll an 8-10 result\non the damage die (Or a 5-6 on either d6 when using Versatile)</p>\n"
   },
   {
+    "id": "armiger-rush",
+    "title": "Armiger Rush",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Armiger",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you learn the Havoc Strike combat power. If you already know it, instead learn one advancement to it.\nIf you already know one advancement of it, you know both advancements and can use either of them when you cast this\ncantrip. Instead of using a charge when you cast it, you can use 1 unit of Fuel to cast it instead.\n",
+    "html": "<p>At 3rd level, you learn the Havoc Strike combat power. If you already know it, instead learn one advancement to it.\nIf you already know one advancement of it, you know both advancements and can use either of them when you cast this\ncantrip. Instead of using a charge when you cast it, you can use 1 unit of Fuel to cast it instead.</p>\n"
+  },
+  {
     "id": "assault-armor",
     "title": "Assault Armor",
     "type": "character",
@@ -3578,6 +3608,21 @@
     "link": false,
     "body": "At 14th level, your companion can use its action to make an attack against each creature within  of it or each\ncreature within  of you. It makes a separate attack roll for each target.\n",
     "html": "<p>At 14th level, your companion can use its action to make an attack against each creature within <me-distance length=\"5\" /> of it or each\ncreature within <me-distance length=\"5\" /> of you. It makes a separate attack roll for each target.</p>\n"
+  },
+  {
+    "id": "atomic-powers",
+    "title": "Atomic Powers",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Nuclear",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "At 2nd level, when you learn a power, you can chose to learn an Atomic version of that power. Instead of dealing it's\nnormal damage, it now deals Radiant damage. You also add your proficiency modifier to spells that deal Radiant Damage.\n",
+    "html": "<p>At 2nd level, when you learn a power, you can chose to learn an Atomic version of that power. Instead of dealing it's\nnormal damage, it now deals Radiant damage. You also add your proficiency modifier to spells that deal Radiant Damage.</p>\n"
   },
   {
     "id": "atomic-reactions",
@@ -4178,6 +4223,21 @@
     "link": false,
     "body": "Starting at 14th level, your capabilities of overwhelming the enemy with a sudden charge extends to your allies.\nCreatures have had their movement speed increased by Leading the Charge gain the effects of Shock Cavalry for as\nlong as their movement speed is increased.\nThe DC for your allies attempting to frighten targets is the same as your DC. A creature can only be\nfrightened by the effects of Shock Cavalry once, and cannot be frightened of multiple users of Shock Cavalry.\n",
     "html": "<p>Starting at 14th level, your capabilities of overwhelming the enemy with a sudden charge extends to your allies.\nCreatures have had their movement speed increased by Leading the Charge gain the effects of Shock Cavalry for as\nlong as their movement speed is increased.</p>\n<p>The DC for your allies attempting to frighten targets is the same as your DC. A creature can only be\nfrightened by the effects of Shock Cavalry once, and cannot be frightened of multiple users of Shock Cavalry.</p>\n"
+  },
+  {
+    "id": "chain-reaction",
+    "title": "Chain Reaction",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Nuclear",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within  equal to the level of the power cast. Cantrips are treated as 1st level\nspells for this effect only.\n",
+    "html": "<p>At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within <me-distance length=\"25\" /> equal to the level of the power cast. Cantrips are treated as 1st level\nspells for this effect only.</p>\n"
   },
   {
     "id": "combat-heuristics",
@@ -4922,6 +4982,36 @@
     "html": "<p>The first time you make an attack or cast a single target spell against a creature, it does not automatically reveal\nyour position. Make a Dexterity (Stealth) check contested by the targets Wisdom (Perception) check. On a success, you remain hidden.</p>\n"
   },
   {
+    "id": "fuel",
+    "title": "Fuel",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Armiger",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you modified your armor to install the Armiger's signature JumpPack, and also install the system to\nprovide it with Fuel. Your armor automatically regenerates Fuel when you take a short or long rest, and the amount of\nFuel you have in your tank is equal to your proficiency modifier + a physical modifier of your\nchoosing (Dex, Str, Con. You make this choice when you choose this subclass and it cannot be changed).\n",
+    "html": "<p>At 3rd level, you modified your armor to install the Armiger's signature JumpPack, and also install the system to\nprovide it with Fuel. Your armor automatically regenerates Fuel when you take a short or long rest, and the amount of\nFuel you have in your tank is equal to your proficiency modifier + a physical modifier of your\nchoosing (Dex, Str, Con. You make this choice when you choose this subclass and it cannot be changed).</p>\n"
+  },
+  {
+    "id": "fusion",
+    "title": "Fusion",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Nuclear",
+      "14th level"
+    ],
+    "link": false,
+    "body": "At 14th level, you can chose to become primed-radiant in exchange for doubling the damage of your\nRadiant powers until you are detonated.\nOnce you use this feature, you can't use it again until you finish a long rest.\n",
+    "html": "<p>At 14th level, you can chose to become <me-condition id=\"primed\" sub=\"radiant\" /> in exchange for doubling the damage of your\nRadiant powers until you are detonated.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+  },
+  {
     "id": "give-command",
     "title": "Give Command",
     "type": "character",
@@ -5541,6 +5631,21 @@
     "html": "<p>At 5th level, you can attack twice instead of once when you take the attack action, but only if you moved half or\nmore of your movement during your turn.</p>\n"
   },
   {
+    "id": "napalm-burst",
+    "title": "Napalm Burst",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Armiger",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, when you spend a unit of Fuel to use your Havoc Strike, you can spend an additional\n2 Fuel to have every creature in the radius of impact make a Dexterity Saving throw\n(DC= 8+ Proficiency+the modifier you chose at 3rd level) or become Primed (fire) until the end of their next turn.\n",
+    "html": "<p>At 7th level, when you spend a unit of Fuel to use your Havoc Strike, you can spend an additional\n2 Fuel to have every creature in the radius of impact make a Dexterity Saving throw\n(DC= 8+ Proficiency+the modifier you chose at 3rd level) or become Primed (fire) until the end of their next turn.</p>\n"
+  },
+  {
     "id": "neural-dampening",
     "title": "Neural Dampening",
     "type": "character",
@@ -5802,6 +5907,21 @@
     "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n"
   },
   {
+    "id": "quick-burn",
+    "title": "Quick Burn",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Armiger",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, you can spend fuel to cast Havoc Strike as a bonus action. The number of Fuel spent is equal to the number of damage dice that Havoc Strike deals\n",
+    "html": "<p>At 10th level, you can spend fuel to cast Havoc Strike as a bonus action. The number of Fuel spent is equal to the number of damage dice that Havoc Strike deals</p>\n"
+  },
+  {
     "id": "quick-reaction",
     "title": "Quick Reaction",
     "type": "character",
@@ -5815,6 +5935,21 @@
     "link": false,
     "body": "At 5th level, when an enemy provokes an Opportunity Attack, instead of using a weapon attack, you may instead cast a biotic cantrip against it.\n",
     "html": "<p>At 5th level, when an enemy provokes an Opportunity Attack, instead of using a weapon attack, you may instead cast a biotic cantrip against it.</p>\n"
+  },
+  {
+    "id": "radiation-poisoning",
+    "title": "Radiation Poisoning",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Adept",
+      "Nuclear",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, your powers that deal Radiant damage also force your opponent to make a save against your Power Save DC\nor be primed-radiant.\n",
+    "html": "<p>At 6th level, your powers that deal Radiant damage also force your opponent to make a save against your Power Save DC\nor be <me-condition id=\"primed\" sub=\"radiant\" />.</p>\n"
   },
   {
     "id": "rapid-strike",
@@ -6034,6 +6169,21 @@
     "link": false,
     "body": "You and your beast are of one mind, and perfectly adjusted to each others strengths, weaknesses, and weights. Starting\nat 3rd level, you gain the ability to mount creatures that are the same size as you. Furthermore, when mounted, both\nyou and your beast's attack deal an additional 1d8 damage when hitting an attack. This damage occurs once per turn,\nper creature.\nThe damage increases to 2d8 at level 7, and 3d8 at level 14.\nAdditionally, while mounted, you may add your Charisma to your initiative checks.\nFinally, when you use a bonus action to order your beast to take the Dash action, you may still command your beast to attack.\n",
     "html": "<p>You and your beast are of one mind, and perfectly adjusted to each others strengths, weaknesses, and weights. Starting\nat 3rd level, you gain the ability to mount creatures that are the same size as you. Furthermore, when mounted, both\nyou and your beast's attack deal an additional 1d8 damage when hitting an attack. This damage occurs once per turn,\nper creature.</p>\n<p>The damage increases to 2d8 at level 7, and 3d8 at level 14.</p>\n<p>Additionally, while mounted, you may add your Charisma to your initiative checks.</p>\n<p>Finally, when you use a bonus action to order your beast to take the Dash action, you may still command your beast to attack.</p>\n"
+  },
+  {
+    "id": "riot-strike",
+    "title": "Riot Strike",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Armiger",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, you halve the amount of fuel needed to cast Havoc Strike as a bonus action. Your Havoc\nStrike now also detonates targets caught in the radius. You are immune to detonations caused by your Havoc Strike.\n",
+    "html": "<p>At 18th level, you halve the amount of fuel needed to cast Havoc Strike as a bonus action. Your Havoc\nStrike now also detonates targets caught in the radius. You are immune to detonations caused by your Havoc Strike.</p>\n"
   },
   {
     "id": "router-tech",

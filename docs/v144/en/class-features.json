@@ -229,6 +229,52 @@
     "id": "advanced-weapon-holsters"
   },
   {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "armiger",
+    "mechanics": [
+      {
+        "name": "Afterburner",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "afterburner"
+        },
+        "type": "other",
+        "shortDesc": "Spend 1 Fuel double your speed until the end of your round.",
+        "resource": {
+          "reset": "short",
+          "id": "armiger-fuel",
+          "max": {
+            "type": "resource",
+            "value": "armiger-fuel",
+            "useMax": true
+          }
+        }
+      },
+      {
+        "name": "Afterburner",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "afterburner"
+        },
+        "type": "reaction",
+        "shortDesc": "Spend 2 fuel to automatically succeed on a Dexterity saving throw.",
+        "resource": {
+          "reset": "short",
+          "id": "armiger-fuel",
+          "max": {
+            "type": "resource",
+            "value": "armiger-fuel",
+            "useMax": true
+          }
+        }
+      }
+    ],
+    "name": "Afterburner",
+    "html": "<p>At 15th level, you can spend 1 unit of Fuel to double your speed until the end of your round. Alternatively, as a\nreaction when you make a Dexterity saving throw, you can use 2 units of Fuel to automatically pass the saving throw.</p>\n",
+    "id": "afterburner"
+  },
+  {
     "level": 10,
     "klass": "vanguard",
     "subclass": "cardinal",
@@ -327,6 +373,26 @@
   },
   {
     "level": 3,
+    "klass": "soldier",
+    "subclass": "armiger",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "havoc-strike",
+        "klass": "soldier",
+        "merge": {
+          "notes": [
+            "Cast w/ 1 Fuel"
+          ]
+        }
+      }
+    ],
+    "name": "Armiger Rush",
+    "html": "<p>At 3rd level, you learn the Havoc Strike combat power. If you already know it, instead learn one advancement to it.\nIf you already know one advancement of it, you know both advancements and can use either of them when you cast this\ncantrip. Instead of using a charge when you cast it, you can use 1 unit of Fuel to cast it instead.</p>\n",
+    "id": "armiger-rush"
+  },
+  {
+    "level": 3,
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Assault Armor",
@@ -384,6 +450,25 @@
     ],
     "html": "<p>At 14th level, your companion can use its action to make an attack against each creature within <me-distance length=\"5\" /> of it or each\ncreature within <me-distance length=\"5\" /> of you. It makes a separate attack roll for each target.</p>\n",
     "id": "assault-protocol"
+  },
+  {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "nuclear",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Atomic Powers",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "atomic-powers"
+        }
+      }
+    ],
+    "name": "Atomic Powers",
+    "html": "<p>At 2nd level, when you learn a power, you can chose to learn an Atomic version of that power. Instead of dealing it's\nnormal damage, it now deals Radiant damage. You also add your proficiency modifier to spells that deal Radiant Damage.</p>\n",
+    "id": "atomic-powers"
   },
   {
     "level": 15,
@@ -1595,6 +1680,25 @@
     "id": "cavalry-charge"
   },
   {
+    "level": 10,
+    "klass": "adept",
+    "subclass": "nuclear",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Chain Reaction",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "chain-reaction"
+        }
+      }
+    ],
+    "name": "Chain Reaction",
+    "html": "<p>At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within <me-distance length=\"25\" /> equal to the level of the power cast. Cantrips are treated as 1st level\nspells for this effect only.</p>\n",
+    "id": "chain-reaction"
+  },
+  {
     "level": 3,
     "klass": "infiltrator",
     "subclass": "saboteur",
@@ -2677,6 +2781,45 @@
   },
   {
     "level": 3,
+    "klass": "soldier",
+    "subclass": "armiger",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "armiger-fuel",
+        "hide": true
+      }
+    ],
+    "name": "Fuel",
+    "html": "<p>At 3rd level, you modified your armor to install the Armiger's signature JumpPack, and also install the system to\nprovide it with Fuel. Your armor automatically regenerates Fuel when you take a short or long rest, and the amount of\nFuel you have in your tank is equal to your proficiency modifier + a physical modifier of your\nchoosing (Dex, Str, Con. You make this choice when you choose this subclass and it cannot be changed).</p>\n",
+    "id": "fuel"
+  },
+  {
+    "level": 14,
+    "klass": "adept",
+    "subclass": "nuclear",
+    "mechanics": [
+      {
+        "name": "Fusion",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fusion"
+        },
+        "type": "other",
+        "shortDesc": "Become <me-condition id=\"primed\" sub=\"radiant\" />. Double the damage of your Radiant powers until you are detonated.",
+        "resource": {
+          "reset": "long",
+          "id": "fusion"
+        }
+      }
+    ],
+    "name": "Fusion",
+    "html": "<p>At 14th level, you can chose to become <me-condition id=\"primed\" sub=\"radiant\" /> in exchange for doubling the damage of your\nRadiant powers until you are detonated.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
+    "id": "fusion"
+  },
+  {
+    "level": 3,
     "klass": "tracker",
     "subclass": "beast-master",
     "mechanics": [
@@ -3615,6 +3758,44 @@
     "name": "Momentum",
     "html": "<p>At 5th level, you can attack twice instead of once when you take the attack action, but only if you moved half or\nmore of your movement during your turn.</p>\n",
     "id": "momentum"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "armiger",
+    "mechanics": [
+      {
+        "name": "Napalm Burst",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "napalm-burst"
+        },
+        "type": "other",
+        "shortDesc": "When you spend a unit of Fuel to use your Havoc Strike, you can spend an additional 2 Fuel to have every creature in the radius of impact make a DC {{ dc }} Dexterity Saving throw or become Primed (fire) until the end of their next turn.",
+        "dc": {
+          "base": 8,
+          "proficient": false,
+          "save": "dex",
+          "bonus": {
+            "type": "resource",
+            "value": "armiger-fuel",
+            "useMax": true
+          }
+        },
+        "resource": {
+          "reset": "short",
+          "id": "armiger-fuel",
+          "max": {
+            "type": "resource",
+            "value": "armiger-fuel",
+            "useMax": true
+          }
+        }
+      }
+    ],
+    "name": "Napalm Burst",
+    "html": "<p>At 7th level, when you spend a unit of Fuel to use your Havoc Strike, you can spend an additional\n2 Fuel to have every creature in the radius of impact make a Dexterity Saving throw\n(DC= 8+ Proficiency+the modifier you chose at 3rd level) or become Primed (fire) until the end of their next turn.</p>\n",
+    "id": "napalm-burst"
   },
   {
     "level": 9,
@@ -4774,6 +4955,25 @@
     "id": "primal-biotics"
   },
   {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "armiger",
+    "mechanics": [
+      {
+        "name": "Quick Burn",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "quick-burn"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Spend fuel to cast Havoc Strike as a bonus action. The number of Fuel spent is equal to the number of damage dice that Havoc Strike deals"
+      }
+    ],
+    "name": "Quick Burn",
+    "html": "<p>At 10th level, you can spend fuel to cast Havoc Strike as a bonus action. The number of Fuel spent is equal to the number of damage dice that Havoc Strike deals</p>\n",
+    "id": "quick-burn"
+  },
+  {
     "level": 5,
     "klass": "explorer",
     "subclass": "path-of-eezo",
@@ -4791,6 +4991,25 @@
     "name": "Quick Reaction",
     "html": "<p>At 5th level, when an enemy provokes an Opportunity Attack, instead of using a weapon attack, you may instead cast a biotic cantrip against it.</p>\n",
     "id": "quick-reaction"
+  },
+  {
+    "level": 6,
+    "klass": "adept",
+    "subclass": "nuclear",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Primed: Radiant",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "radiation-poisoning"
+        }
+      }
+    ],
+    "name": "Radiation Poisoning",
+    "html": "<p>At 6th level, your powers that deal Radiant damage also force your opponent to make a save against your Power Save DC\nor be <me-condition id=\"primed\" sub=\"radiant\" />.</p>\n",
+    "id": "radiation-poisoning"
   },
   {
     "level": 15,
@@ -5142,6 +5361,55 @@
     "name": "Ride On!",
     "html": "<p>You and your beast are of one mind, and perfectly adjusted to each others strengths, weaknesses, and weights. Starting\nat 3rd level, you gain the ability to mount creatures that are the same size as you. Furthermore, when mounted, both\nyou and your beast's attack deal an additional 1d8 damage when hitting an attack. This damage occurs once per turn,\nper creature.</p>\n<p>The damage increases to 2d8 at level 7, and 3d8 at level 14.</p>\n<p>Additionally, while mounted, you may add your Charisma to your initiative checks.</p>\n<p>Finally, when you use a bonus action to order your beast to take the Dash action, you may still command your beast to attack.</p>\n",
     "id": "ride-on"
+  },
+  {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "armiger",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "armiger-rush"
+        },
+        "merge": {
+          "merge": {
+            "detonates": true
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "quick-burn"
+        },
+        "merge": {
+          "shortDesc": "Spend fuel to cast Havoc Strike as a bonus action. The number of Fuel spent is equal to half the number of damage dice that Havoc Strike deals.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "riot-strike"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Riot Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "riot-strike"
+        }
+      }
+    ],
+    "name": "Riot Strike",
+    "html": "<p>At 18th level, you halve the amount of fuel needed to cast Havoc Strike as a bonus action. Your Havoc\nStrike now also detonates targets caught in the radius. You are immune to detonations caused by your Havoc Strike.</p>\n",
+    "id": "riot-strike"
   },
   {
     "level": 9,

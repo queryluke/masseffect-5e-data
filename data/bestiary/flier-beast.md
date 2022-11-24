@@ -34,7 +34,7 @@ entries:
         - {dieCount: '1', dieType: '4', mod: true, type: slashing}
       target: one
       id: claw
-cr: '000125'
+cr: '00125'
 shields:
   capacity: 5
   regen: 5

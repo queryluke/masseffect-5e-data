@@ -1,5 +1,12 @@
 [
   {
+    "klass": "soldier",
+    "name": "Armiger",
+    "author": "Spageddy",
+    "html": "<p>Trained by the Armiger Legion, your combat style revolves around staying in the air and raining down death to your enemies.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "armiger"
+  },
+  {
     "klass": "sentinel",
     "name": "Bastion",
     "html": "<p>Bastion sentinels are battlefield leaders. They can easily turn the tides by calling out orders, inspiring troops, and synchronizing troop movements.</p>\n",
@@ -103,6 +110,13 @@
     "name": "Nemesis",
     "html": "<p>Nemesis vanguards prefer distance and using biotic powers. While they lack the raw power of an adept, they're more crafty and harder to take down.</p>\n",
     "id": "nemesis"
+  },
+  {
+    "klass": "adept",
+    "name": "Nuclear",
+    "author": "Spageddy",
+    "html": "<p>You don't care much about the slow decay or gravitic assaults of standard biotics. To you, battle is won on the\nfission of a single atom, and the chain reaction takes care of the rest.</p>\n",
+    "id": "nuclear"
   },
   {
     "klass": "tracker",

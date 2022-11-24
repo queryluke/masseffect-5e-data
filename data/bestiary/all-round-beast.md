@@ -34,7 +34,7 @@ entries:
         - {dieCount: '1', dieType: '8', mod: true, type: piercing}
       target: one
       id: melee-strike
-cr: '000125'
+cr: '00125'
 shields:
   capacity: 5
   regen: 5

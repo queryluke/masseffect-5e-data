@@ -33,7 +33,7 @@ entries:
         - {dieCount: '1', dieType: '10', mod: true, type: bludgeoning}
       target: one
       id: gore
-cr: '000125'
+cr: '00125'
 shields:
   capacity: 5
   regen: 5
