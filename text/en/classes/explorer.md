@@ -1,7 +1,7 @@
 ---
 name: Explorer
 homebrew: true
-author: Spageddy
+author: Spagheddy
 snippet: >-
   Be it unknown tech, thunderous combat or explosive biotics, you can deal with any situation that comes your way.
 profs:

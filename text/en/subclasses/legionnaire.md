@@ -1,5 +1,6 @@
 ---
 name: Legionnaire
+author: Tech Knight
 ---
 The Legionnaires, known to few outside of the colony as the "Legion of Judgement" became the police force that
 maintained order within the remains of the original colony after the main conflict ended. They rule with a fair but

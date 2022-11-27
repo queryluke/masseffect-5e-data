@@ -1,6 +1,5 @@
 ---
 name: Stalker
-klass: infiltrator
 author: Tech Knight
 ---
 The last of the three factions that took residence within the most dangerous forests of Chasca - the "Night Stalkers" -

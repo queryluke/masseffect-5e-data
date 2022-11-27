@@ -1,4 +1,4 @@
 ---
 klass: explorer
-author: Spageddy
+author: Spagheddy
 ---

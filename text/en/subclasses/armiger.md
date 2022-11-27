@@ -1,6 +1,6 @@
 ---
 name: Armiger
-author: Spageddy
+author: Spagheddy
 ---
 Trained by the Armiger Legion, your combat style revolves around staying in the air and raining down death to your enemies.
 

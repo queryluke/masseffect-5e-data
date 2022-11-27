@@ -915,6 +915,40 @@
     "id": "biotic-attacks"
   },
   {
+    "level": 6,
+    "klass": "adept",
+    "subclass": "justicar",
+    "mechanics": [
+      {
+        "name": "Biotic Bubble",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-bubble"
+        },
+        "type": "action",
+        "resource": {
+          "max": {
+            "type": "powercastingMod",
+            "value": "adept"
+          },
+          "reset": "long",
+          "id": "biotic-bubble"
+        },
+        "range": {
+          "short": 0,
+          "aoe": {
+            "type": "sphere",
+            "size": 20
+          }
+        },
+        "shortDesc": "Push out a Biotic Bubble for 1 minute or until you leave it's area. It occupies an <me-distance length=\"20\" adj /> burst, centred around you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't fulfill the requisites for recharging shields. <br> When you cast powers while inside the Biotic Bubble, you add your Powercasting Modifier to their damage rolls. This benefit only applies to you."
+      }
+    ],
+    "name": "Biotic Bubble",
+    "html": "<p>At 6th level, as an action, you can push out a Biotic Bubble. It occupies an <me-distance length=\"20\" adj /> burst, centred\naround you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't\nfulfill the requisites for recharging shields.</p>\n<p>Additionally, when you cast powers while inside the Biotic Bubble, you add your Powercasting Modifier to their damage\nrolls. This benefit only applies to you.</p>\n<p>Your Bubble lasts for 1 minute or until you leave it's area. You can use Bubble a number of times equal to your\npowercasting modifier , and you regain all uses when you finish a long rest.</p>\n",
+    "id": "biotic-bubble"
+  },
+  {
     "level": 3,
     "klass": "vanguard",
     "subclass": "shock-trooper",
@@ -987,6 +1021,67 @@
     ],
     "html": "<p>At 14th level, you've increased your mastery with biotic powers that control the battlefield. Gain the following\nbenefits to the powers below:</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Power</th>\n<th>Improvement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lift</td>\n<td>When casting Lift, you are considered to have both advancement options.</td>\n</tr>\n<tr>\n<td>Pull</td>\n<td>When you cast Pull, you may target 2 creatures. Make a ranged power attack for each target.</td>\n</tr>\n<tr>\n<td>Singularity</td>\n<td>Large or smaller objects and creatures are affected by Singularity.</td>\n</tr>\n<tr>\n<td>Stasis</td>\n<td>Targets have disadvantage on their saving throw.</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "biotic-control"
+  },
+  {
+    "level": 6,
+    "klass": "vanguard",
+    "subclass": "cabal",
+    "mechanics": [
+      {
+        "name": "Biotic Focus",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-focus-cabal"
+        },
+        "type": "bonus-action",
+        "shortDesc": "For the next minute, your walking speed increases by <me-distance length=\"30\" />, +4 to all melee weapon damage rolls, and you have advantage on Strength and Dexterity saving throws.",
+        "toggle": {
+          "id": "biotic-focus",
+          "whenOn": [
+            {
+              "type": "speed-bonus",
+              "value": [
+                "walk"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 30
+              }
+            },
+            {
+              "type": "attack-augment",
+              "attackLimit": {
+                "type": "melee",
+                "model": "weapon"
+              },
+              "augmentTypes": [
+                "damage"
+              ],
+              "bonus": {
+                "type": "flat",
+                "value": 4
+              }
+            },
+            {
+              "type": "saving-throw",
+              "value": [
+                "str",
+                "dex"
+              ],
+              "effect": {
+                "type": "advantage"
+              }
+            }
+          ]
+        },
+        "resource": {
+          "id": "biotic-focus-cabal"
+        }
+      }
+    ],
+    "name": "Biotic Focus",
+    "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your walking speed increases by <me-distance length=\"30\" />.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
+    "id": "biotic-focus-cabal"
   },
   {
     "level": 6,
@@ -1558,6 +1653,33 @@
     "id": "brain-boost"
   },
   {
+    "level": 7,
+    "klass": "sentinel",
+    "subclass": "warlord",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "power-slam"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "breach-resistances"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Breach Resistances",
+    "html": "<p>At 7th level, the added force of your melee strikes from your Power Slam sunders armor under it's blows. While you\nhave Tech Armor active, whenever you hit an enemy with a power and melee attack from Power Slam, you ignore their\nresistances, and treat immunities as resistance for that attack only. If your enemy has no\nresistances, then, for 1 minute after your attack lands, they lose 1 point of AC.</p>\n",
+    "id": "breach-resistances"
+  },
+  {
     "level": 9,
     "klass": "vanguard",
     "name": "Brutal Critical",
@@ -1641,6 +1763,31 @@
     "name": "Burst Savant",
     "html": "<p>You learn how to make the most of the awesome power of Detonations. At 14th level, whenever you detonate a target, or\nwhenever a target you primed gets detonated, you add your Intelligence modifier to the damage dealt.</p>\n",
     "id": "burst-savant"
+  },
+  {
+    "level": 18,
+    "klass": "vanguard",
+    "subclass": "cabal",
+    "mechanics": [
+      {
+        "name": "Cabal Cloak",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "cabal-cloak"
+        },
+        "type": "action",
+        "shortDesc": "Spend 2 barrier ticks to become invisible until you make your next attack roll, or for 1 minute, whichever is shortest. When you break your cloak by making an attack, you don't become visible until the end of your turn.",
+        "resource": {
+          "reset": "off",
+          "displayType": "barrier-ticks",
+          "label": "Barrier Ticks",
+          "id": "cabal-cloak"
+        }
+      }
+    ],
+    "name": "Cabal Cloak",
+    "html": "<p>At 18th level, you can spend two uses of your Barrier feature as an action to turn invisible until you make your\nnext attack roll, or for 1 minute, whichever is shortest. When you break your cloak by making an\nattack, you don't become visible until the end of your turn.</p>\n",
+    "id": "cabal-cloak"
   },
   {
     "level": 10,
@@ -1734,6 +1881,25 @@
     "name": "Chain Reaction",
     "html": "<p>At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within <me-distance length=\"25\" /> equal to the level of the power cast. Cantrips are treated as 1st level\nspells for this effect only.</p>\n",
     "id": "chain-reaction"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "migrant-marine",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Combat Analytics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "combat-analytics"
+        }
+      }
+    ],
+    "name": "Combat Analytics",
+    "html": "<p>At 7th level, your scanning suite provides you with feedback against your enemies' fighting style, letting you better\nprotect from their advances. Whenever an enemy you have marked with Tactical Sweep hits an attack against you, or\nyou fail a saving throw against them, you gain +1 to your AC or to the type of save that you failed.\nThis bonus stacks, up to a maximum of your Intelligence modifier (minimum +1). This bonus lasts until the\nend of your next turn.</p>\n",
+    "id": "combat-analytics"
   },
   {
     "level": 3,
@@ -2134,6 +2300,34 @@
     ],
     "html": "<p>At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your tech powers.\nWhen you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against\na power you cast before the end of your next turn.</p>\n",
     "id": "disrupting-attack"
+  },
+  {
+    "level": 9,
+    "klass": "infiltrator",
+    "subclass": "devotee-of-the-old-ways",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "against": [
+          "poisoned"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Divine Health",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "divine-health"
+        }
+      }
+    ],
+    "name": "Divine Health",
+    "html": "<p>At 9th level, your faith in your gods strengthens your bond to the physical world. You have advantage on death saving\nthrows. In addition, you gain advantage on saving throws to resist the poisoned condition, and against the effects of Detonations.</p>\n",
+    "id": "divine-health"
   },
   {
     "level": 2,
@@ -2677,6 +2871,25 @@
     "id": "fighting-style-vanguard"
   },
   {
+    "level": 6,
+    "klass": "engineer",
+    "subclass": "stg",
+    "mechanics": [
+      {
+        "name": "Find Target",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "find-target"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Designate one enemy to be your Target. Against your Target, you gain a +{{ intMod }} bonus to damage when you use your Engineer's Efficiency spell, and your Target has disadvantage against any saving throws your Engineer's Efficiency has, if it has any."
+      }
+    ],
+    "name": "Find Target",
+    "html": "<p>At 6th level, you can designate one enemy per turn to be your Target as a bonus action. Against your Target, you gain a\nbonus to damage equal to your Intelligence modifier when you use your Engineer's Efficiency spell, and your\nTarget has disadvantage against any saving throws your Engineer's Efficiency has, if it has any.</p>\n",
+    "id": "find-target"
+  },
+  {
     "level": 2,
     "klass": "adept",
     "subclass": "commando",
@@ -2916,6 +3129,35 @@
     "name": "Giving Chase",
     "html": "<p>You and your beast are hot on the trail, and not keen on giving up. Starting at 7th level,\nas a bonus action, you double your or your beast's movement speed towards a creature that has been\nscanned with your Recon Scan.</p>\n",
     "id": "giving-chase"
+  },
+  {
+    "level": 14,
+    "klass": "sentinel",
+    "subclass": "warlord",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "power-slam"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "groundshaker"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Groundshaker",
+    "html": "<p>At 14th level, if you do not move before using Power Slam, you can chose to slam the ground instead of an enemy\nfor your attack. If you do so, enemies within a <me-distance length=\"10\" /> burst centred on you must make a\nDexterity saving throw against your Powercasting DC or be knocked prone and take the damage of the power you\ndischarged. If they succeed on the saving throw, they still take half of the damage of the spell you discharged.</p>\n",
+    "id": "groundshaker"
   },
   {
     "level": 7,
@@ -3262,6 +3504,25 @@
     "id": "indomitable-3"
   },
   {
+    "level": 14,
+    "klass": "vanguard",
+    "subclass": "cabal",
+    "mechanics": [
+      {
+        "name": "Intangible",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "intangible-cabal"
+        },
+        "type": "reaction",
+        "shortDesc": "When an attack is directed against you, halve the damage you'd take from the attack."
+      }
+    ],
+    "name": "Intangible",
+    "html": "<p>At 14th level, when an attack is directed against you, you can spend your reaction to phase part of your body out of\nsync, letting part of the attack's force pass you by harmlessly, halving the damage you'd take from the attack.</p>\n",
+    "id": "intangible-cabal"
+  },
+  {
     "level": 9,
     "klass": "explorer",
     "subclass": "path-of-the-voidhopper",
@@ -3341,6 +3602,34 @@
     "name": "Killshot",
     "html": "<p>At 17th level, your proficiency with sniper rifles is beyond measure allowing you to target the weakest points of your enemy.\nWhen you apply your sneak attack damage to an attack made with a sniper rifle, add 3d6 to the damage roll.</p>\n",
     "id": "killshot"
+  },
+  {
+    "level": 10,
+    "klass": "sentinel",
+    "subclass": "warlord",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "power-slam"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "krogan-charge"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Krogan Charge",
+    "html": "<p>At 10th level, if you move <me-distance length=\"15\" /> before your Power Slam, increase the damage die of both the\npower damage and the weapon damage by one. If you move <me-distance length=\"25\" /> before your Power Slam, in addition\nto the damage die increase, your attack can crit on a roll of 19 or 20, if a roll of 19 would allow you to hit the enemy's AC.</p>\n<p>This movement needs to be in a straight line.</p>\n",
+    "id": "krogan-charge"
   },
   {
     "level": 11,
@@ -3721,6 +4010,35 @@
     "name": "Marrow Boost",
     "html": "<p>At 10th level, you gain immunity to the poisoned condition and to poison damage. Additionally, whenever you\nspend a hit die, you can add your Intelligence modifier to the number of hit points you recover for each hit die roll.</p>\n",
     "id": "marrow-boost"
+  },
+  {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "justicar",
+    "mechanics": [
+      {
+        "type": "weapon",
+        "value": "assault_rifle"
+      },
+      {
+        "type": "armor",
+        "value": "medium"
+      },
+      {
+        "type": "override-weapon-attack-mod",
+        "mod": "pc",
+        "klass": "adept"
+      },
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level"
+        }
+      }
+    ],
+    "name": "Martial Adept",
+    "html": "<p>At 2nd level, you receive training in Assault Rifles and Medium Armor. You can use your Powercasting Modifier instead\nof your standard modifer for attack and damage with weapons. You also gain 2 hit points, and an additional 1\nhit point per level up.</p>\n",
+    "id": "martial-adept"
   },
   {
     "level": 7,
@@ -4396,6 +4714,88 @@
     "id": "personal-armament"
   },
   {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "migrant-marine",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tactical-sweep",
+          "limit": [
+            "powers"
+          ]
+        },
+        "merge": {
+          "merge": {
+            "notes": [
+              "Targets up to {{ intMod }} targets",
+              "Learn damage resistances, immunities, vulnerabilities"
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tactical-sweep",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "type": "other"
+        }
+      },
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "3x Vulnerability",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "piercing-sweep"
+        }
+      }
+    ],
+    "name": "Piercing Sweep",
+    "html": "<p>At 15th level, you don't need to spend a bonus action to switch targets with Tactical Sweep. Additionally, when you use\nTactical Sweep, you learn any damage immunities, damage resistances and vulnerabilities that your targets have.\nAgainst targets marked by Tactical Sweep, vulnerability triples the damage they receive instead of doubling it.</p>\n",
+    "id": "piercing-sweep"
+  },
+  {
+    "level": 10,
+    "klass": "vanguard",
+    "subclass": "cabal",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "venom-training",
+          "limit": [
+            "natural-weapon"
+          ]
+        },
+        "merge": {
+          "value": {
+            "damage": {
+              "dieCount": 2
+            },
+            "html": "<p>When you take the Attack Action to use your Venom Gauntlets, you can teleport up to <me-distance length=\"15\" />\n   before every attack you make.</p>\n<p>If you attack two different targets with each of the attacks provided by your\n   Attack action, you can make a third attack against another different target.</p>",
+            "notes": [
+              "Can be used for Two-Weapon Fighting",
+              "Teleport <me-distance length=\"15\" />"
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Poison Strike",
+    "html": "<p>At 10th level, when you take the Attack Action to use your Venom Gauntlets, you can teleport up to <me-distance length=\"15\" />\nbefore every attack you make. If you attack two different targets with each of the attacks provided by your\nAttack action, you can make a third attack against another different target.</p>\n<p>The damage of your Venom Gauntlets increases to 2d8 poison damage.</p>\n",
+    "id": "poison-strike"
+  },
+  {
     "level": 10,
     "klass": "adept",
     "subclass": "disruptor",
@@ -4417,6 +4817,25 @@
     ],
     "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a biotic power, you can reroll the die\nand must use the new roll.</p>\n",
     "id": "potent-biotics"
+  },
+  {
+    "level": 3,
+    "klass": "sentinel",
+    "subclass": "warlord",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Power Slam",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "power-slam"
+        }
+      }
+    ],
+    "name": "Power Slam",
+    "html": "<p>At 3rd level, when you cast an offensive power (like Incinerate or Warp) or a biotic cantrip that does damage, you can\ntransfer that power onto a melee weapon you are wielding. As part of that same action, you can swing your weapon at\nan adjacent opponent. If you miss, the power does nothing and you lose the power slot if you used one. If you hit, the\ntarget takes damage both from the weapon attack and the power discharged.</p>\n<p>Even if the power affects multiple opponents or an area, when used like this, the spell only affects the target of the\nmelee attack.</p>\n",
+    "id": "power-slam"
   },
   {
     "level": 18,
@@ -5127,6 +5546,65 @@
     "id": "powercasting-vanguard"
   },
   {
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "devotee-of-the-old-ways",
+    "mechanics": [
+      {
+        "name": "Payer (Kalahira)",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "prayer"
+        },
+        "type": "bonus-action",
+        "range": {
+          "short": 4
+        },
+        "shortDesc": "Stabilize a dying creature within <me-distance length=\"10\" />."
+      },
+      {
+        "name": "Payer (Arashu)",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "prayer"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Choose one ally. Until the end of their next turn, the first attack roll each turn against them has disadvantage."
+      },
+      {
+        "name": "Payer (Amonkira)",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "prayer"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you score a critical hit during the turn you spoke this prayer, you add your level to the damage of any critical hits you make."
+      }
+    ],
+    "name": "Payer",
+    "html": "<p>At 3rd level, you can use your cunning action to whisper a short prayer to a god of your choosing. Chose one of the following effects:</p>\n<p><strong>Kalahira</strong>: The Goddess of Oceans hears your prayer and staves off death from an ally. If there's an ally nearby currently dying within <me-distance length=\"10\" />, you stabilize them automatically.</p>\n<p><strong>Arashu</strong>: The Goddess of Protection hears your prayer and helps prevent damage to an ally of yours. When you say this prayer, choose one ally. Until the end of their next turn, the first attack roll each turn against them has disadvantage.</p>\n<p><strong>Amonkira</strong>: The Lord of Hunters hears your prayer, and guides your shots to hit their mark with deadly accuracy. When you score a critical hit during the turn you spoke this prayer, you add your level to the damage of any critical hits you make.</p>\n",
+    "id": "prayer"
+  },
+  {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "migrant-marine",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Predictive Calculations",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "predictive-calculations"
+        }
+      }
+    ],
+    "name": "Predictive Calculations",
+    "html": "<p>At 18th level, when you hit a target you have marked with Tactical Sweep, you gain a stacking +1 bonus on attack rolls\nfor subsequent attacks against that target, until they die or you switch targets, up to a maximum of your Intelligence modifier.</p>\n",
+    "id": "predictive-calculations"
+  },
+  {
     "level": 20,
     "klass": "vanguard",
     "name": "Primal Biotics",
@@ -5306,6 +5784,34 @@
     "name": "Recon Tracking",
     "html": "<p>When you choose this specialization at 3rd level, you gain the Recon Scan combat power. This does not count towards\nyour total combat powers known.</p>\n<p>If you already know the Recon Scan combat power, you may choose an advancement instead.</p>\n",
     "id": "recon-tracking"
+  },
+  {
+    "level": 10,
+    "klass": "adept",
+    "subclass": "justicar",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "biotic-bubble"
+        },
+        "merge": {
+          "shortDesc": "Push out a Biotic Bubble for 1 minute or until you leave it's area. It occupies an <me-distance length=\"20\" /> burst, centred around you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't fulfill the requisites for recharging shields. <br> When you cast powers while inside the Biotic Bubble, you add your Powercasting Modifier to their damage rolls. This benefit only applies to you. <br> You can expend Barrier ticks to prevent damage being dealt to your allies inside of the bubble. Whenever you or your allies reduce damage via Barrier while inside the Bubble, the enemy that fired off the attack takes damage equal to double the roll of the Barrier die, bypassing shields.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "reflective-bubble"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Reflective Bubble",
+    "html": "<p>At 10th level, while you're inside of the Biotic Bubble, you can expend Barrier ticks to prevent damage being dealt\nto your allies inside of the bubble. Whenever you or your allies reduce damage via Barrier while inside the Bubble,\nthe enemy that fired off the attack takes damage equal to double the roll of the Barrier die, bypassing shields.</p>\n",
+    "id": "reflective-bubble"
   },
   {
     "level": 11,
@@ -5550,7 +6056,7 @@
         "type": "initiative",
         "effect": {
           "type": "bonus",
-          "value": {
+          "bonus": {
             "type": "mod",
             "value": "cha"
           }
@@ -6060,6 +6566,25 @@
     "id": "sneak-attack"
   },
   {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "migrant-marine",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Soft Spots",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "soft-spots"
+        }
+      }
+    ],
+    "name": "Soft Spots",
+    "html": "<p>At 10th level, enemies that you scan with Tactical Sweep take extra damage when hit by one of your attacks. Whenever\nyour attacks hit against an enemy you marked with Tactical Sweep, you deal bonus damage equal to your Intelligence Modifier (minimum +1)</p>\n",
+    "id": "soft-spots"
+  },
+  {
     "level": 13,
     "klass": "infiltrator",
     "subclass": "pistolero",
@@ -6213,6 +6738,54 @@
     "id": "strength-before-death"
   },
   {
+    "level": 2,
+    "klass": "engineer",
+    "subclass": "stg",
+    "mechanics": [
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "mod",
+            "value": "int"
+          }
+        }
+      },
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Strike First",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "strike-first"
+        }
+      }
+    ],
+    "name": "Strike First",
+    "html": "<p>At 2nd level, you gain a bonus to your initiative rolls equal to your Intelligence modifier. During your first turn,\nyour attack rolls for powers have advantage. This applies to any surprise round you participate in as well as your first round of each combat.</p>\n",
+    "id": "strike-first"
+  },
+  {
+    "level": 18,
+    "klass": "engineer",
+    "subclass": "stg",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Strike Last",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "strike-last"
+        }
+      }
+    ],
+    "name": "Strike Last",
+    "html": "<p>At 18th level, can take two turns during the first round of any combat. You take your first turn at your normal\ninitiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</p>\n",
+    "id": "strike-last"
+  },
+  {
     "level": 20,
     "klass": "infiltrator",
     "mechanics": [
@@ -6310,6 +6883,25 @@
     "name": "Synchronized Assault",
     "html": "<p>Starting at 18th level, you gain the ability to unleash a devastating combination of your allies' abilities. As a\nbonus action, select up to five allies within <me-distance length=\"120\" />. They can use their reactions to immediately take actions.</p>\n<p>Once you use this ability, you cannot use it again until you complete a long rest.</p>\n",
     "id": "synchronized-assault"
+  },
+  {
+    "level": 10,
+    "klass": "engineer",
+    "subclass": "stg",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Tactical Acumen",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-acumen"
+        }
+      }
+    ],
+    "name": "Tactical Acumen",
+    "html": "<p>At 10th level, when an enemy within <me-distance length=\"50\" /> of you dies, your haptic feedback restores some\npower to you omni-tool, granting you 1 Tech Point that must be spent before the end of your next turn. This ability\ntriggers as many times as enemies die before your next turn, but all points not spent are lost at the end of your next turn.</p>\n",
+    "id": "tactical-acumen"
   },
   {
     "level": 14,
@@ -6522,6 +7114,35 @@
     ],
     "html": "<p>By 7th level, you're so familiar with guns that reloading them is nothing more than muscle memory. When you take\nthe Attack action on your turn, you can use one of your attacks to reload a weapon your are wielding.</p>\n",
     "id": "tactical-reload"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "migrant-marine",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "tactical-scan",
+        "klass": "soldier",
+        "merge": {
+          "notes": [
+            "Targets up to {{ intMod }} targets"
+          ]
+        }
+      },
+      {
+        "name": "Tactical Sweep",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tactical-sweep"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Choose a creature targeted by your tactical scan and receive the bonuses of the power against that creature."
+      }
+    ],
+    "name": "Tactical Sweep",
+    "html": "<p>At 3rd level, you learn the Tactical Scan combat power. If you already know the Tactical Scan combat power, you\ninstead learn one advancement for it. Instead of only one target, you can target up to your Intelligence modifier\nenemies when you use Tactical Scan, and you can make your Insight check using your Intelligence modifier for this power\nonly. You only receive your bonuses from Tactical Scan against one enemy at a time, but you can switch\nwho that enemy is as a bonus action, without the need to recast the spell.</p>\n",
+    "id": "tactical-sweep"
   },
   {
     "level": 3,
@@ -7489,6 +8110,40 @@
     "id": "total-combat"
   },
   {
+    "level": 14,
+    "klass": "engineer",
+    "subclass": "stg",
+    "mechanics": [
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "engineer",
+          "id": "find-target"
+        },
+        "merge": {
+          "shortDesc": "Designate one enemy to be your Target. Against your Target, you gain a +{{ intMod }} bonus to damage when you use your Engineer's Efficiency spell and roll two more damage die than normal on the power roll, and your Target has disadvantage against any saving throws your Engineer's Efficiency has, if it has any.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "track-and-kill"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Strike First",
+    "html": "<p>At 14th level, when you use your Engineer's Efficiency against your Target, you can roll two more damage die than normal on the power roll.</p>\n<p>In addition, you roll all initiative rolls with advantage.</p>\n",
+    "id": "track-and-kill"
+  },
+  {
     "level": 6,
     "klass": "tracker",
     "mechanics": [
@@ -7718,6 +8373,87 @@
     "name": "Trigger Rush",
     "html": "<p>At 15th level, when you bring an enemy to 0 hit points with a weapon attack, you can use your reaction to fire another\nattack against a creature within range of your weapon.</p>\n",
     "id": "trigger-rush"
+  },
+  {
+    "level": 17,
+    "klass": "infiltrator",
+    "subclass": "devotee-of-the-old-ways",
+    "mechanics": [
+      {
+        "name": "Ture Devotion",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "true-devotion"
+        },
+        "type": "other",
+        "shortDesc": "During a long rest, attune to either Kalahira, Arashu, or Amonkira. You cannot attune to a single god twice in a row: you need to change the god you are attuned to during your long rests.",
+        "toggle": {
+          "id": "devotee-true-devotion",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "devotee-true-devotion-resource",
+              "method": "add",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            }
+          ],
+          "options": [
+            {
+              "id": "devotee-true-devotion-kalahira",
+              "name": "Kalahira",
+              "whenOn": [
+                {
+                  "type": "global-note",
+                  "subType": "defenses",
+                  "value": "Kalahira Devotion",
+                  "moreInfo": {
+                    "model": "class-features",
+                    "id": "true-devotion"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "devotee-true-devotion-arashu",
+              "name": "Arashu",
+              "whenOn": [
+                {
+                  "type": "ac",
+                  "bonus": {
+                    "type": "mod",
+                    "value": "wis"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "devotee-true-devotion-amonkira",
+              "name": "Amonkira",
+              "whenOn": [
+                {
+                  "type": "global-note",
+                  "subType": "action",
+                  "value": "Amonkira Devotion",
+                  "moreInfo": {
+                    "model": "class-features",
+                    "id": "true-devotion"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "resource": {
+          "id": "devotee-true-devotion-resource"
+        }
+      }
+    ],
+    "name": "True Devotion",
+    "html": "<p>At 17th level, you are truly devoted to your gods. Choose one god to attune per Long Rest. Each god provides you\none of these major benefits:</p>\n<p><strong>Kalahira</strong>: When an enemy within <me-distance length=\"50\" /> of you dies, you regain 1d4 + Wisdom modifier shield points.\nIf your shields are already full, you instead gain that many Temporary Hit Points that last until your next short rest.</p>\n<p><strong>Arashu</strong>: You add your Wisdom bonus to your AC.</p>\n<p><strong>Amonkira</strong>: When you roll an attack with advantage, you may reroll one of the die once.</p>\n<p>You cannot attune to a single god twice in a row: you need to change the god you are attuned to during your long rests.</p>\n",
+    "id": "true-devotion"
   },
   {
     "level": 20,
@@ -7952,6 +8688,39 @@
     "id": "vengeance"
   },
   {
+    "level": 3,
+    "klass": "vanguard",
+    "subclass": "cabal",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Venom Gauntlets",
+          "type": "natural-melee",
+          "range": {
+            "short": 5
+          },
+          "damage": {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "poison"
+          },
+          "properties": [
+            "finesse",
+            "special"
+          ],
+          "notes": [
+            "Can be used for Two-Weapon Fighting"
+          ]
+        }
+      }
+    ],
+    "name": "Venom Training",
+    "html": "<p>You are trained in the Cabal's signature style of biotics. When you gain this feature at 3rd level, you integrate a\nspecial melee weapon onto your armor: the Cabal Venom Gauntlets. These weapons have the Special and Finesse tags, and\ndeal 1d8 Poison damage on a hit. When you wear Venom Gauntlets, you wear them as a pair, and can thus make an extra\nattack as a bonus action when you use your action to make an attack with them.</p>\n",
+    "id": "venom-training"
+  },
+  {
     "level": 6,
     "klass": "vanguard",
     "subclass": "cardinal",
@@ -8014,6 +8783,51 @@
     "id": "volt"
   },
   {
+    "level": 14,
+    "klass": "adept",
+    "subclass": "justicar",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "biotic-bubble"
+        },
+        "merge": {
+          "range": {
+            "aoe": {
+              "size": 30
+            }
+          },
+          "damage": [
+            {
+              "dieCount": 1,
+              "dieType": 10,
+              "type": "necrotic",
+              "bonus": {
+                "type": "powercastingMod",
+                "value": "adept"
+              }
+            }
+          ],
+          "shortDesc": "Push out a Biotic Bubble for 1 minute or until you leave it's area. It occupies a <me-distance length=\"30\" adj /> burst, centred around you. Allies inside of the Bubble recharge their shields at the end of every turn, even if they don't fulfill the requisites for recharging shields. <br><br> When you cast powers while inside the Biotic Bubble, you add your Powercasting Modifier to their damage rolls. This benefit only applies to you. <br><br> You can expend Barrier ticks to prevent damage being dealt to your allies inside of the bubble. Whenever you or your allies reduce damage via Barrier while inside the Bubble, the enemy that fired off the attack takes damage equal to double the roll of the Barrier die, bypassing shields. <br><br> Whenever an enemy wanders inside of the range of the barrier, starts its turn there, or is damaged by the effect of Reflective Bubble, they take 1d10+{{wisMod}} necrotic damage and are <me-condition id=\"primed\" sub=\"necrotic\" /> while inside the bubble, or for one turn if they are outside.",
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "warp-bubble"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Warp Bubble",
+    "html": "<p>At 14th level, the area of the barrier increases to a <me-distance length=\"30\" adj /> burst. Whenever an enemy wanders\ninside of the range of the barrier, starts its turn there, or is damaged by the effect of Reflective Bubble, they take\n1d10+your Wisdom modifier necrotic damage and are <me-condition id=\"primed\" sub=\"necrotic\" /> while inside the bubble, or for one\nturn if they are outside.</p>\n",
+    "id": "warp-bubble"
+  },
+  {
     "level": 3,
     "klass": "soldier",
     "subclass": "weapon-master",
@@ -8064,6 +8878,176 @@
     "name": "Wild Senses",
     "html": "<p>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a\ncreature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.</p>\n<p>You are also aware of the location of any invisible creature within 12 meters of you, provided that the creature\nisn’t hidden from you and you aren’t blinded or deafened.</p>\n",
     "id": "wild-senses"
+  },
+  {
+    "level": 18,
+    "klass": "sentinel",
+    "subclass": "warlord",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "power-slam"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "worldbreaker"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Worldbreaker",
+    "html": "<p>At 18th level, when you use a power slot to fuel a Power Slam, instead of disappearing when you strike someone, the\npower remains on your hammer until the end of your next turn. You can use the same power without spending a power slot\nagain next turn, after which the power is finally discharged.</p>\n",
+    "id": "worldbreaker"
+  },
+  {
+    "level": 13,
+    "klass": "infiltrator",
+    "subclass": "devotee-of-the-old-ways",
+    "mechanics": [
+      {
+        "name": "Zeal",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "zeal"
+        },
+        "type": "other",
+        "shortDesc": "During a short rest, choose Kalahira, Arashu, or Amonkira and replace the effect of their Prayer with the effect of their Zealous Prayer.",
+        "toggle": {
+          "id": "devotee-zealous-prayer",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "devotee-zealous-prayer-resource",
+              "method": "add",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            }
+          ],
+          "options": [
+            {
+              "id": "devotee-zealous-prayer-kalahira",
+              "name": "Kalahira",
+              "whenOn": [
+                {
+                  "type": "augment",
+                  "value": {
+                    "model": "infiltrator",
+                    "id": "prayer",
+                    "limit": [
+                      "bonus-action"
+                    ],
+                    "instances": [
+                      0
+                    ]
+                  },
+                  "merge": {
+                    "type": "reaction",
+                    "name": "Zealous Prayer (Kalahira)",
+                    "shortDesc": "When an ally within <me-distance length=\"25\" /> of you loses their last hit point, they are reduced to to 1 hit point instead. This effect only works once per long rest per ally.",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "zeal"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "devotee-zealous-prayer-arashu",
+              "name": "Arashu",
+              "whenOn": [
+                {
+                  "type": "augment",
+                  "value": {
+                    "model": "infiltrator",
+                    "id": "prayer",
+                    "limit": [
+                      "bonus-action"
+                    ],
+                    "instances": [
+                      1
+                    ]
+                  },
+                  "merge": {
+                    "type": "reaction",
+                    "name": "Zealous Prayer (Arashu)",
+                    "shortDesc": "When an ally within <me-distance length=\"25\" /> suffers a hit from an attack roll, grant them a {{ wisMod }} bonus to their AC. This can only work once per short rest per ally.",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "zeal"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "devotee-zealous-prayer-amonkira",
+              "name": "Amonkira",
+              "whenOn": [
+                {
+                  "type": "augment",
+                  "value": {
+                    "model": "infiltrator",
+                    "id": "prayer",
+                    "limit": [
+                      "bonus-action"
+                    ],
+                    "instances": [
+                      2
+                    ]
+                  },
+                  "merge": {
+                    "type": "reaction",
+                    "name": "Zealous Prayer (Amonkira)",
+                    "shortDesc": "When you succeed at an attack roll, deal 1d6+{{level}} bonus damage to your target. This can only work {{ wisMod }} times per short rest.",
+                    "resource": {
+                      "reset": "short",
+                      "max": {
+                        "type": "mod",
+                        "value": "wis"
+                      }
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 1,
+                        "dieType": 6,
+                        "type": null,
+                        "bonus": {
+                          "type": "level"
+                        }
+                      }
+                    ],
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "zeal"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "resource": {
+          "id": "devotee-zealous-prayer-resource",
+          "reset": "short"
+        }
+      }
+    ],
+    "name": "Zeal",
+    "html": "<p>At 13th level, your prayers have become more sincere, and the gods grant you more benefits for them. During a short\nrest, you can chose one of the three gods you worship - Amonkira, Arashu or Kalahira - to become your focus, which\nstrengthens the effects of their respective Prayers.</p>\n<p><strong>Kalahira</strong>: The prayers of a zealous devotee of the Goddess of the Afterlife are a powerful thing.\nWhen an ally within <me-distance length=\"25\" /> of you loses their last hit point, you can spend your reaction to\ncause them to instead be reduced to 1 hit point. This effect only works once per long rest per ally.</p>\n<p><strong>Arashu</strong>: The zealous prayers of Arashu nurture and grow your companions to let them reach new heights. When an ally\nwithin <me-distance length=\"25\" /> suffers a hit from an attack roll, you can spend your reaction to grant them a\nbonus to AC equal to your Wisdom modifier. This can only work once per short rest per ally.</p>\n<p><strong>Amonkira</strong>: Amonkira's prayers make you an even more effective hunter, striking fear into your enemies.\nWhen you succeed at an attack roll, you can use your reaction to cause bonus damage to your target equal to\n1d6+your level. This can only work a number of times equal to your Wisdom modifier per short rest.</p>\n<p>The prayer you focused on becomes the Zealous prayer, and you cannot benefit from the effects of the normal prayer\nfor that god while you have the effects of Zeal on them.</p>\n",
+    "id": "zeal"
   },
   {
     "level": 2,

@@ -12,7 +12,7 @@ mechanics:
   - type: initiative
     effect:
       type: bonus
-      value:
+      bonus:
         type: mod
         value: cha
 name: Ride On!

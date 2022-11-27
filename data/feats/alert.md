@@ -1,7 +1,9 @@
 ---
 mechanics:
   - type: initiative
-    bonus:
-      type: flat
-      value: 5
+    effect:
+      type: bonus
+      bonus:
+        type: flat
+        value: 5
 ---

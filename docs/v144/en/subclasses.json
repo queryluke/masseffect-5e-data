@@ -2,7 +2,7 @@
   {
     "klass": "soldier",
     "name": "Armiger",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "html": "<p>Trained by the Armiger Legion, your combat style revolves around staying in the air and raining down death to your enemies.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving the racial restriction.</p>\n",
     "id": "armiger"
   },
@@ -28,7 +28,7 @@
   {
     "klass": "engineer",
     "name": "Biohacker",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "html": "<p>Your experiments with machines have transcended beyond just electronics and weapons. To you, the ultimate expression of\ntechnology, and your love letter to what you do, comes from within. You learned how to improve your own body to be the\nultimate expression of your technological expertise.</p>\n",
     "id": "biohacker"
   },
@@ -47,6 +47,13 @@
   },
   {
     "klass": "vanguard",
+    "name": "Cabal",
+    "author": "Spagheddy",
+    "html": "<p>&quot;The Intangible Is Unbeatable&quot;. That is the motto of the Turian Cabal corps. Traditionally called &quot;Cabalin&quot;, these\ntroops handle sensitive missions for the Hierarchy, including assassinations. You are part of this elite squad.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "cabal"
+  },
+  {
+    "klass": "vanguard",
     "name": "Cardinal",
     "author": "Tech Knight",
     "html": "<p>In the tropical swamps towards the equator, the &quot;Exalted Prophets&quot; took residence within the swamps and became\nobsessed with the biotic beasts within, to the point of near worship, wanting the gifts of their power for themselves.\nConsuming these beasts for the majority of their lives have given them unique biotic traits, to the point of being\nable to summon weapons using their own biotic amps, their own ferocity making them stronger.</p>\n",
@@ -57,6 +64,13 @@
     "name": "Commando",
     "html": "<p>Commandos don't need heavy weapons because they ARE the heavy weapon. Their features improve both the damage potential\nand output of their biotic powers, making them a deadly force.</p>\n",
     "id": "commando"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Devotee of the Old Ways",
+    "author": "Spagheddy",
+    "html": "<p>Most of your species, when brought under the Compact, started worshipping the Enkindlers, together with their\nHanar masters. You, however, remember the old ways, and you pray for them for your strength. Surprisingly, sometimes... they listen.</p>\n<p><strong>Restricted to Drell</strong>: This subclass is canonically only available to Drell characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "devotee-of-the-old-ways"
   },
   {
     "klass": "adept",
@@ -95,8 +109,16 @@
     "id": "juggernaut"
   },
   {
+    "klass": "adept",
+    "name": "Justicar",
+    "author": "Spagheddy",
+    "html": "<p>Proud and traditional, Justicars take up a life of servitude to their Code. Going around the galaxy and righting\nwrongs, some consider the Justicars extreme. Of course, with such devotion, come great power...</p>\n<p><strong>Restricted to Asari</strong>: This subclass is canonically only available to Asari characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "justicar"
+  },
+  {
     "klass": "soldier",
     "name": "Legionnaire",
+    "author": "Tech Knight",
     "html": "<p>The Legionnaires, known to few outside of the colony as the &quot;Legion of Judgement&quot; became the police force that\nmaintained order within the remains of the original colony after the main conflict ended. They rule with a fair but\niron fist, organising hunts to find food for the colony at a regular interval, while the rest patrol the streets\nto keep the peace. Legionnaires would only leave if they got tired of the colony policing life, searching the\nstars for more glory and honour.</p>\n",
     "id": "legionnaire"
   },
@@ -113,6 +135,13 @@
     "id": "medic"
   },
   {
+    "klass": "soldier",
+    "name": "Migrant Marine",
+    "author": "Spagheddy",
+    "html": "<p>The Migrant Marines are an expeditionary force, used for key precision missions within Geth territory for the\nbetterment of the Floatilla. Be it for research or for gauging enemy strengths, you've optimized your combat tools for\nanalysis: everything has a weak point, and you know how to hit it hard.</p>\n<p><strong>Restricted to Quarian</strong>: This subclass is canonically only available to Quarian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "migrant-marine"
+  },
+  {
     "klass": "vanguard",
     "name": "Nemesis",
     "html": "<p>Nemesis vanguards prefer distance and using biotic powers. While they lack the raw power of an adept, they're more crafty and harder to take down.</p>\n",
@@ -121,7 +150,7 @@
   {
     "klass": "adept",
     "name": "Nuclear",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "html": "<p>You don't care much about the slow decay or gravitic assaults of standard biotics. To you, battle is won on the\nfission of a single atom, and the chain reaction takes care of the rest.</p>\n",
     "id": "nuclear"
   },
@@ -134,28 +163,28 @@
   },
   {
     "klass": "explorer",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "name": "Path of Cyber",
     "html": "<p>The latest tech, the latest gadget, the latest advantage. You look for and develop creative new tools for your travels,\nand they give you the edge you need.</p>\n",
     "id": "path-of-cyber"
   },
   {
     "klass": "explorer",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "name": "Path of Eezo",
     "html": "<p>Your focus is on biotics and the manipulation of the world around you. You learn how to improve your biotics to truly\nmake a your brain your most valuable tool.</p>\n",
     "id": "path-of-eezo"
   },
   {
     "klass": "explorer",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "name": "Path of the Voidhopper",
     "html": "<p>You took the path of least resistance: the one which doesn't exist. As a Voidhopper, you focus your biotic prowess\ninto the difficult yet awesome power of Blinking, rushing in between adversaries and leaving them confused as to your\nwhereabouts.</p>\n<p><strong>Addendum</strong>: Whenever a feature of the Voidhopper states you need to move half your speed, it also means you\ncannot end your movement in the same square that you started in.</p>\n",
     "id": "path-of-the-voidhopper"
   },
   {
     "klass": "explorer",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "name": "Path of War",
     "html": "<p>You are an expert in armed combat and the use of machines of war. Your Path is rife with violence, but not without\nit's own beauities and discoveries.</p>\n",
     "id": "path-of-war"
@@ -163,7 +192,7 @@
   {
     "klass": "infiltrator",
     "name": "Pistolero",
-    "author": "Spageddy",
+    "author": "Spagheddy",
     "html": "<p>Sometimes a big iron at your hip is all you need to face down the horrors of the galaxy. You specialize in the use of\nsmall arms, particularly pistols, to make a name for yourself in the galaxy.</p>\n",
     "id": "pistolero"
   },
@@ -197,6 +226,20 @@
     "author": "Tech Knight",
     "html": "<p>The last of the three factions that took residence within the most dangerous forests of Chasca - the &quot;Night Stalkers&quot; -\nlooked to the location that had the most food and water within a short distance to sustain themselves for\npotentially many generations. The increased challenge of these creatures have given them many avenues to\nimprove their hunting methods, using equipment and stealth to their advantage, up to the point of being able to attack\nand still remain hidden to strike again from the shadows.</p>\n",
     "id": "stalker"
+  },
+  {
+    "klass": "engineer",
+    "name": "STG",
+    "author": "Spagheddy",
+    "html": "<p>Disruption and preemptive strikes are the hallmarks of the Special Tasks Group. Using cunning and technology, you\nseek to capitalize on every advantage you can get, and strike before your enemies even know what hit them.</p>\n<p><strong>Restricted to Salarian</strong>: This subclass is canonically only available to Salarian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "stg"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Warlord",
+    "author": "Spagheddy",
+    "html": "<p>War is in your blood, through all of your hearts. You eat, sleep and eat battle. It is you, and you are determined to prove that you are superior to whoever challenges you.</p>\n<p><strong>Restricted to Krogan</strong>: This subclass is canonically only available to Krogan characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "id": "warlord"
   },
   {
     "klass": "soldier",

@@ -68,7 +68,7 @@ New Powers:
   - Transmute Ohio
   - Greater Baja Blast
 
-People loved the Catapult: Salvo advancement so much, we've made it the only advancement available for every power (don't tell spageddy)
+People loved the Catapult: Salvo advancement so much, we've made it the only advancement available for every power (don't tell Spagheddy)
 
 Mod team agrees: Concussive Shot needed to change. It now deals 20d8 damage per shot.
 
