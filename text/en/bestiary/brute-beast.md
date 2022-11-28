@@ -1,5 +1,6 @@
 ---
 name: Brute Beast
+author: Helios
 entries:
   features:
     - name: Charge

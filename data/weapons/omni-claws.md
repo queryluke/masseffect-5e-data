@@ -1,5 +1,6 @@
 ---
 name: Omni-Claws
+author: Helios
 rarity: common
 type: melee
 cost: 9000

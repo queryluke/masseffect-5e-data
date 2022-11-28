@@ -1,5 +1,5 @@
 ---
-madeBy: Helios
+author: Helios
 name: Recon Scan
 version: 1
 level: 0

@@ -1,5 +1,6 @@
 ---
 name: Synthetic Beast
+author: Helios
 entries:
   features:
     - name: Custom Armor

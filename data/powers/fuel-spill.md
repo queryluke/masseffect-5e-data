@@ -1,5 +1,5 @@
 ---
-madeBy: Helios
+author: Helios
 name: Fuel Spill
 version: 1
 level: 1

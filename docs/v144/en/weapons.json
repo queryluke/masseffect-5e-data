@@ -855,6 +855,33 @@
     "id": "kishock-harpoon-gun"
   },
   {
+    "name": "Klaive",
+    "author": "Helios",
+    "rarity": "uncommon",
+    "type": "melee",
+    "cost": 6500,
+    "manufacturer": null,
+    "weight": 6,
+    "heat": null,
+    "damage": {
+      "dieCount": 2,
+      "dieType": 6,
+      "type": "slashing"
+    },
+    "range": {
+      "short": 5
+    },
+    "image": null,
+    "andromeda": false,
+    "properties": [
+      "two-handed",
+      "finesse"
+    ],
+    "slots": 2,
+    "html": "<p>The experienced Incubi stride into battle wielding strange-looking, two-handed razorblades into battle, known as\nKlaives. While not the best at going through armor, they slice through unprotected flesh like a hot knife through butter.</p>\n",
+    "id": "klaive"
+  },
+  {
     "name": "Krogan Warhammer",
     "rarity": "rare",
     "type": "melee",
@@ -2050,6 +2077,7 @@
   },
   {
     "name": "Omni-Claws",
+    "author": "Helios",
     "rarity": "common",
     "type": "melee",
     "cost": 9000,

@@ -1,5 +1,5 @@
 ---
-madeBy: Helios
+author: Helios
 name: Noxious Gas
 version: 1
 level: 1

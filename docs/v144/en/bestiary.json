@@ -380,6 +380,7 @@
       "regen": 5
     },
     "name": "All-Round Beast",
+    "author": "Helios",
     "html": "",
     "id": "all-round-beast"
   },
@@ -1708,6 +1709,7 @@
       "regen": 5
     },
     "name": "Brute Beast",
+    "author": "Helios",
     "html": "",
     "id": "brute-beast"
   },
@@ -2010,6 +2012,77 @@
     "name": "Centurion",
     "html": "",
     "id": "centurion"
+  },
+  {
+    "image": null,
+    "type": "synthetic",
+    "unit": "mech",
+    "alignment": "nn",
+    "profBonus": 2,
+    "ac": 17,
+    "hp": {
+      "dieCount": 5,
+      "dieType": 6
+    },
+    "abilityScores": {
+      "str": 14,
+      "dex": 10,
+      "con": 14,
+      "int": 12,
+      "wis": 10,
+      "cha": 7
+    },
+    "irv": {
+      "conImm": [
+        "poisoned"
+      ],
+      "damImm": [
+        "acid"
+      ]
+    },
+    "savingThrows": false,
+    "senses": false,
+    "size": "tiny",
+    "skills": false,
+    "speed": {
+      "walk": 12
+    },
+    "entries": {
+      "features": [
+        {
+          "mod": "int",
+          "list": [
+            {
+              "id": "noxious-gas",
+              "perDay": 1
+            },
+            {
+              "id": "fuel-spill",
+              "perDay": 1
+            }
+          ],
+          "id": "innate-powercasting",
+          "name": "Innate Powercasting",
+          "text": "The chemical drone's innate powercasting ability is Intelligence (power save DC 10, +2 to hit with power attacks). Three times per day, it can innately cast noxious gas or fuel spill."
+        }
+      ],
+      "actions": [
+        {
+          "ref": "weapon",
+          "proficient": true,
+          "weaponId": "omni-torch"
+        }
+      ]
+    },
+    "cr": "00500",
+    "shields": {
+      "capacity": 5,
+      "regen": 5
+    },
+    "name": "Chemical Drone",
+    "author": "Helios",
+    "html": "",
+    "id": "chemical-drone"
   },
   {
     "image": "https://vignette.wikia.nocookie.net/masseffect/images/6/69/Collector_Assassin.png/revision/latest/scale-to-width-down/350?cb=20100623060453",
@@ -3647,6 +3720,7 @@
       "regen": 5
     },
     "name": "Flier Beast",
+    "author": "Helios",
     "html": "",
     "id": "flier-beast"
   },
@@ -7743,6 +7817,7 @@
       "capacity": 10
     },
     "name": "Synthetic Beast",
+    "author": "Helios",
     "html": "",
     "id": "synthetic-beast"
   },

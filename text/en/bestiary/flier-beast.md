@@ -1,5 +1,6 @@
 ---
 name: Flier Beast
+author: Helios
 entries:
   features:
     - name: Flyby

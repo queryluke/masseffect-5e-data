@@ -1844,6 +1844,52 @@
     "id": "careful-eyes"
   },
   {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "incubus",
+    "mechanics": [
+      {
+        "name": "Carnal Savagery",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "carnal-savagery"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "long",
+          "id": "carnal-savagery"
+        },
+        "shortDesc": "Select one creature within <me-distance length=\"15\" /> of you. You move up to the creature at high speed, then make a melee weapon attack. Regardless of whether the creature fulfills the conditions, it takes the bonus damage from Power From Pain. Afterwards, select another creature within <me-distance length=\"15\" /> of your new position, and repeat. <br><br> You can repeat this until you’ve attacked a number of creatures equal to your proficiency bonus. You cannot target the same creature with this attack twice. Every time you hit with an attack from this action, Revel in Carnage activates, regardless of whether you scored a critical hit or reduced it to 0 hit points."
+      }
+    ],
+    "name": "Carnal Savagery",
+    "html": "<p>You perfect your killing techniques, and become a spinning top of pain and death, racing across the battlefield.</p>\n<p>Starting at level 18, you gain a new ability. As an action, select one creature within <me-distance length=\"15\" /> of\nyou. You move up to the creature at high speed, then make a melee weapon attack. Regardless of whether the\ncreature fulfills the conditions, it takes the bonus damage from Power From Pain. Afterwards,\nselect another creature within <me-distance length=\"15\" /> of your new position, and repeat.</p>\n<p>You can repeat this until you’ve attacked a number of creatures equal to your proficiency bonus. You cannot\ntarget the same creature with this attack twice. Every time you hit with an attack from this action,\nRevel in Carnage activates, regardless of whether you scored a critical hit or reduced it to 0 hit points.</p>\n<p>You can use this action once. To regain the use of this action, you must complete a long rest.</p>\n",
+    "id": "carnal-savagery"
+  },
+  {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "incubus",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "revel-in-agony",
+          "limit": [
+            "other"
+          ]
+        },
+        "merge": {
+          "shortDesc": "Whenever you score a critical hit or reduce a creature to 0 hit points, you can select any creatures within <me-distance length=\"30\" /> of you. Each creature must make a DC {{ dc }} Wisdom saving throw. On a fail, a creature is frightened of you for 1 minute. A creature can retry the saving throw at the end of its turn, ending the effect on a success."
+        }
+      }
+    ],
+    "name": "Carnival of Carnage",
+    "html": "<p>Revenge might be a dish best served cold, but pain is a dish best shared with everyone.</p>\n<p>Starting at 10th level, whenever Revel in Agony activates, it affects all creatures of your choice within\n<me-distance length=\"30\" /> of you, instead of just 1 target.</p>\n",
+    "id": "carnival-of-carnage"
+  },
+  {
     "level": 14,
     "klass": "tracker",
     "subclass": "outrider",
@@ -1881,6 +1927,19 @@
     "name": "Chain Reaction",
     "html": "<p>At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within <me-distance length=\"25\" /> equal to the level of the power cast. Cantrips are treated as 1st level\nspells for this effect only.</p>\n",
     "id": "chain-reaction"
+  },
+  {
+    "level": 2,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "type": "companion"
+      }
+    ],
+    "name": "Chemical Drone",
+    "html": "<p>Additionally when you pick this subclass at 2nd level, the chemical drone is added to your list of drones available\nfor summoning as per your Drone ability.</p>\n<p>The drone gains access to the same power you chose for Pick your Poison. If you prepared the power with an\nadvancement, your drone is considered to have that same advanced power.</p>\n",
+    "id": "chemical-drone"
   },
   {
     "level": 7,
@@ -2281,6 +2340,49 @@
     "name": "Diagnostic Drone",
     "html": "<p>Your skill with using VI's and tech allow you to recharge a few of your spells. At 10th level, whenever you take a\nshort rest, you can choose spend a few minutes tinkering with your Omni-tool and focusing to recover half your expended\nspell slots. These recovered spell slots must be split evenly between Biotic and Tech.\nOnce you use this feature, you must complete a long rest before using it again.</p>\n<p>At 20th level, you can use this feature twice per long rest.</p>\n",
     "id": "diagnostic-drone"
+  },
+  {
+    "level": 18,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "name": "Dirty Bomb",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "dirty-bomb"
+        },
+        "type": "action",
+        "resource": {
+          "reset": "off",
+          "label": " / 20 omni-gel + 24 hrs downtime",
+          "id": "dirty-bomb"
+        },
+        "range": {
+          "short": 100,
+          "aoe": {
+            "type": "cylinder",
+            "size": 30
+          },
+          "damage": [
+            {
+              "dieCount": 12,
+              "dieType": 6,
+              "type": "acid"
+            },
+            {
+              "dieCount": 5,
+              "dieType": 6,
+              "type": "poison"
+            }
+          ]
+        },
+        "shortDesc": "Fire off a heavy charge full of toxins at a point within <me-distance length=\"100\" /> of you. It explodes upon impact, creating a large cloud of toxic gas and raining down acidic rain upon all creatures in a cylinder with a radius of <me-distance length=\"30\" />, and a height of <me-distance length=\"50\" />. <br><br> All creatures inside the area upon impact must make a Dexterity saving throw, taking 12d6 acid damage on a fail, or half as much on a success. Creatures starting their turn inside the cloud must make a Constitution saving throw. On a failure, they gain a level of exhaustion and take 5d6 poison damage."
+      }
+    ],
+    "name": "Dirty Bomb",
+    "html": "<p>You devise a recipe and blueprint for an explosive full of all your best ideas, as well a special launcher for it.\nStarting at 18th level, you have created 1 Dirty Bomb, and gain the knowledge and capabilities to create more\nwith time and resources.</p>\n<p>As an action, you fire off a heavy charge full of toxins at a point within <me-distance length=\"100\" /> of you. It\nexplodes upon impact, creating a large cloud of toxic gas and raining down acidic rain upon all creatures in a\ncylinder with a radius of <me-distance length=\"30\" />, and a height of <me-distance length=\"50\" />.</p>\n<p>All creatures inside the area upon impact must make a Dexterity saving throw, taking 12d6 acid damage on a fail,\nor half as much on a success. Creatures starting their turn inside the cloud must make a Constitution saving throw.\nOn a failure, they gain a level of exhaustion and take 5d6 poison damage.</p>\n<p>Once you use this ability, you can create another Dirty Bomb at using 20 omni-gel and 24 hours of downtime. You may only\ncarry one Dirty Bomb on you at a time.</p>\n<p>If authorities catch you with the Dirty Bomb, you will be arrested for crimes against sentient life.</p>\n",
+    "id": "dirty-bomb"
   },
   {
     "level": 10,
@@ -2775,6 +2877,36 @@
     "id": "extra-attack-vanguard"
   },
   {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "incubus",
+    "mechanics": [
+      {
+        "name": "Fearsome Reputation",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fearsome-reputation"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "type": "psychic",
+            "dieCount": false,
+            "bonus": {
+              "type": "level",
+              "multiplier": 0.5,
+              "value": "soldier"
+            }
+          }
+        ],
+        "shortDesc": "When a creature that is frightened of you starts its turn within <me-distance length=\"15\" /> of you, that creature’s movement speed is reduced to 0, and they take {{ damage }} psychic damage. This damage cannot reduced by shields or barriers."
+      }
+    ],
+    "name": "Fearsome Reputation",
+    "html": "<p>Your very presence is enough to send most running for the hills, but those that are truly frightened of you might just\nfind their legs unwilling to respond, and their brains beginning to hurt from the strain of fear itself.</p>\n<p>Starting at 7th level, when a creature that is frightened of you starts its turn within <me-distance length=\"15\" /> of\nyou, that creature’s movement speed is reduced to 0, and they take psychic damage equal to half your Soldier level.\nThis damage cannot reduced by shields or barriers.</p>\n",
+    "id": "fearsome-reputation"
+  },
+  {
     "level": 3,
     "klass": "soldier",
     "subclass": "gladiator",
@@ -3063,6 +3195,33 @@
     "name": "Fuel",
     "html": "<p>At 3rd level, you modified your armor to install the Armiger's signature JumpPack, and also install the system to\nprovide it with Fuel. Your armor automatically regenerates Fuel when you take a short or long rest, and the amount of\nFuel you have in your tank is equal to your proficiency modifier + a physical modifier of your\nchoosing (Dex, Str, Con. You make this choice when you choose this subclass and it cannot be changed).</p>\n",
     "id": "fuel"
+  },
+  {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "incubus",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "power-from-pain"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "further-pain"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Further Pain",
+    "html": "<p>Why let only one individual experience the joy of the pain you inflict? Share it with all!</p>\n<p>Starting at 15th level, you can inflict the bonus damage from Power From Pain two times per turn,\nas long as it targets two different creatures.</p>\n",
+    "id": "further-pain"
   },
   {
     "level": 14,
@@ -3386,6 +3545,19 @@
     "name": "Improved Commander",
     "html": "<p>Starting at 10th level, the size of your Command Dice increases to d10.</p>\n",
     "id": "improved-commander"
+  },
+  {
+    "level": 10,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "type": "companion"
+      }
+    ],
+    "name": "Improved Drone Casting",
+    "html": "<p>Starting at 10th level, the powers cast by your chemical drone are now always cast at 2nd level.</p>\n",
+    "id": "improved-drone-casting"
   },
   {
     "level": 11,
@@ -4714,6 +4886,59 @@
     "id": "personal-armament"
   },
   {
+    "level": 14,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Poison Mastery",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "pick-your-poison-mastery"
+        }
+      }
+    ],
+    "name": "Pick your Poison Mastery",
+    "html": "<p>At 14th level, your mastery of Noxious Gas and/or Fuel Spill show. Depending on your Pick your Poison choice,\nthat power improves in these respective ways:</p>\n<p><strong>Noxious Gas</strong>: When a creature that makes the saving throw fails, not only do they take damage, they must also use\ntheir next action to vomit or hack, as the toxins upset their digestive systems. This effect only occurs if the\nNoxious Cloud is still present at the start of that creature's turn. Creatures with no discernible digestive systems\nto note (Synthetics) are immune to this effect.</p>\n<p><strong>Fuel Spill</strong>: The fuel becomes more viscous and even harder to move in. While covered in it, a creatures movement\nspeed is halved and they gain a -2 penalty to AC and Dexterity saving throws. Additionally, to remove the fuel,\nthey must make a Strength (Athletics) check to remove it.</p>\n",
+    "id": "pick-your-poison-mastery"
+  },
+  {
+    "level": 2,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "label": "Choose one power",
+        "model": "powers",
+        "options": true,
+        "limits": [
+          {
+            "attr": "id",
+            "value": [
+              "fuel-spill",
+              "noxious-gas"
+            ]
+          }
+        ],
+        "hide": true,
+        "append": {
+          "klass": "engineer",
+          "merge": {
+            "notes": [
+              "Up to 3 active areas"
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Pick your Poison",
+    "html": "<p>When you first pick this subclass at 2nd level, choose one of the following powers: Noxious Gas or Fuel Spill.</p>\n<p>You are always considered to have this spell prepared, and it doesn't count towards your total spells known.\nYou also gain proficiency with the chemist's kit.</p>\n<p>Additionally, when you use Fuel Spill or Noxious Gas, you are now able to have a\nmaximum of 3 areas of those powers active at once.</p>\n",
+    "id": "pick-your-poison"
+  },
+  {
     "level": 15,
     "klass": "soldier",
     "subclass": "migrant-marine",
@@ -4817,6 +5042,25 @@
     ],
     "html": "<p>At 10th level, when you roll a 1 or 2 on a damage die for a biotic power, you can reroll the die\nand must use the new roll.</p>\n",
     "id": "potent-biotics"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "incubus",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Power from Pain",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "power-from-pain"
+        }
+      }
+    ],
+    "name": "Power from Pain",
+    "html": "<p>Your greatest strength lies in inflicting pain on others. Especially enemies that are already wounded are prime targets\nfor your agonizing strikes.</p>\n<p>Starting at 3rd level, once per turn when you hit a creature below their maximum hit points, you deal bonus damage\nequal to 1d6 damage of the same type as your weapon’s. This damage scales to 2d6 at level 7, 3d6 at\nlevel 10, 4d6 at level 15, and 5d6 at level 18.</p>\n",
+    "id": "power-from-pain"
   },
   {
     "level": 3,
@@ -5860,6 +6104,25 @@
     "id": "remote-detonation"
   },
   {
+    "level": 10,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "name": "Remote Ignition",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "remote-ignition"
+        },
+        "type": "reaction",
+        "shortDesc": "When a creature enters the area of effect of your Noxious Gas cloud or Fuel Spill, or after casting either of these powers, or seeing it being cast by an ally, you may flick a spark at it with your omni-tool, igniting the cloud or spill."
+      }
+    ],
+    "name": "Remote Ignition",
+    "html": "<p>Having learned the usefulness of setting your creations aflame, you strive to make the utmost use of it.</p>\n<p>Starting at 10th level, when a creature enters the area of effect of your Noxious Gas cloud or Fuel Spill, or\nafter casting either of these powers, or seeing it being cast by an ally, you may use a reaction to fling a\nspark at it with your omni-tool, igniting the cloud or spill.</p>\n",
+    "id": "remote-ignition"
+  },
+  {
     "level": 3,
     "klass": "vanguard",
     "subclass": "cardinal",
@@ -5989,6 +6252,38 @@
     ],
     "html": "<p>At 15th level, when you take damage from a creature that is within <me-distance length=\"5\" /> of you, you can use your reaction to make a melee weapon attack\nagainst that creature.</p>\n",
     "id": "retaliation"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "incubus",
+    "mechanics": [
+      {
+        "type": "skill-or-expertise",
+        "value": [
+          "performance",
+          "intimidation"
+        ]
+      },
+      {
+        "name": "Revel in Agony",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "revel-in-agony"
+        },
+        "type": "other",
+        "dc": {
+          "proficient": true,
+          "base": 8,
+          "mod": "cha",
+          "save": "wis"
+        },
+        "shortDesc": "Whenever you score a critical hit or reduce a creature to 0 hit points, you can select one creature within <me-distance length=\"30\" /> of you. That creature must make a DC {{ dc }} Wisdom saving throw. On a fail, the creature is frightened of you for 1 minute. The creature can retry the saving throw at the end of its turn, ending the effect on a success."
+      }
+    ],
+    "name": "Revel in Agony",
+    "html": "<p>You do not just kill your enemies, no. You eviscerate them, drawing out their screams of pain. But much more interesting\nthan the screams themselves, is the look on the face of that poor individual that you look dead in the eye as you do it.</p>\n<p>Also starting at 3rd level, whenever you score a critical hit or reduce a creature to 0 hit points, you can select one\ncreature within <me-distance length=\"30\" /> of you. That creature must make a Wisdom saving throw\n(DC 8 + your proficiency bonus + your Charisma modifier). On a fail, the creature is frightened of you for\n1 minute. The creature can retry the saving throw at the end of its turn, ending the effect on a success.</p>\n<p>Additionally, you gain proficiency in the Performance and Intimidation skills. If you already have proficiency\nin this skill, you add your proficiency bonus twice whenever you make an ability check with that skill.</p>\n",
+    "id": "revel-in-agony"
   },
   {
     "level": 7,
@@ -8108,6 +8403,29 @@
     ],
     "html": "<p>When you plant your feet and hold your ground, all those that stand against you can truly feel the wrath of the\nLegion at your side.</p>\n<p>At 18th level, whenever you use Hold Your Ground or attacking with an SMG, you may use a Grenade as a Bonus Action.</p>\n",
     "id": "total-combat"
+  },
+  {
+    "level": 6,
+    "klass": "engineer",
+    "subclass": "chemist",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "poison"
+      },
+      {
+        "type": "saving-throw",
+        "against": [
+          "poisoned"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "name": "Toxic Resilience",
+    "html": "<p>Starting at 6th level, your body has built up resistance to all the toxins you work with and expose yourself to.\nYou gain resistance to poison damage, and gain advantage on Constitution saving throws against poison amd natural toxins.</p>\n",
+    "id": "toxic-resilience"
   },
   {
     "level": 14,

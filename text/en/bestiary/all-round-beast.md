@@ -1,5 +1,6 @@
 ---
 name: All-Round Beast
+author: Helios
 entries:
   features:
     - name: Biological Versatility
