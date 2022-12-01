@@ -7,6 +7,7 @@ tags:
   - buff
 classes:
   - engineer
+  - musician
   - infiltrator
   - sentinel
   - explorer

@@ -3550,6 +3550,21 @@
     "html": "<p>Your energies now adversely affect your victim's fortitude, allowing for other comrades to go in for the kill with ease.</p>\n<p>At 10th level, any creature you hit with Volt and they fail their dexterity saving throw, they will also be afflicted\nto take additional damage equal to your Wisdom modifier for the next 3 attacks against them. The maximum duration this\neffect can last is until the end of your next turn.</p>\n<p>Additionally, your Volt may be upcasted by spending 2 Focus Points to cast the Volt version of Overload at 2nd level.</p>\n"
   },
   {
+    "id": "ancient-wisdom",
+    "title": "Ancient Wisdom",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Tradition",
+      "17th level"
+    ],
+    "link": false,
+    "body": "At 17th level, you and your allies can now use Inspiration to add to the result of a saving throw.\nThis feature cannot be used with Arpeggio, and you must declare that you are using\nAncient Wisdom before the result of the roll is revealed.\n",
+    "html": "<p>At 17th level, you and your allies can now use Inspiration to add to the result of a saving throw.\nThis feature cannot be used with Arpeggio, and you must declare that you are using\nAncient Wisdom before the result of the roll is revealed.</p>\n"
+  },
+  {
     "id": "animal-companion",
     "title": "Animal Companion",
     "type": "character",
@@ -3592,6 +3607,20 @@
     "link": false,
     "body": "At 3rd level, you learn the Havoc Strike combat power. If you already know it, instead learn one advancement to it.\nIf you already know one advancement of it, you know both advancements and can use either of them when you cast this\ncantrip. Instead of using a charge when you cast it, you can use 1 unit of Fuel to cast it instead.\n",
     "html": "<p>At 3rd level, you learn the Havoc Strike combat power. If you already know it, instead learn one advancement to it.\nIf you already know one advancement of it, you know both advancements and can use either of them when you cast this\ncantrip. Instead of using a charge when you cast it, you can use 1 unit of Fuel to cast it instead.</p>\n"
+  },
+  {
+    "id": "arpeggio",
+    "title": "Arpeggio",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "14th level"
+    ],
+    "link": false,
+    "body": "At 14th level, when you spend a bonus action to grant an ally an Inspiration, you can spend two\nInspiration die to give your ally access to two Inspiration die. Your ally can only use one die per roll.\n",
+    "html": "<p>At 14th level, when you spend a bonus action to grant an ally an Inspiration, you can spend two\nInspiration die to give your ally access to two Inspiration die. Your ally can only use one die per roll.</p>\n"
   },
   {
     "id": "assault-armor",
@@ -4579,6 +4608,20 @@
     "html": "<p>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is\nsurprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a\nfailed save, double the damage of your attack against the creature.</p>\n"
   },
   {
+    "id": "deck-charger",
+    "title": "Deck Charger",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "5th level"
+    ],
+    "link": false,
+    "body": "At 5th level, you recover your Inspiration dice on a short rest, instead of a long rest.\n",
+    "html": "<p>At 5th level, you recover your Inspiration dice on a short rest, instead of a long rest.</p>\n"
+  },
+  {
     "id": "deep-biotics",
     "title": "Deep Biotics",
     "type": "character",
@@ -4725,6 +4768,20 @@
     "link": false,
     "body": "At 18th level, your companion gains 10 shield points and 5 regen. Additionally, whenever an attacker that your\ncompanion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.\n",
     "html": "<p>At 18th level, your companion gains 10 shield points and 5 regen. Additionally, whenever an attacker that your\ncompanion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.</p>\n"
+  },
+  {
+    "id": "efficient-inspiration",
+    "title": "Efficient Inspiration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, when a feature lets you or your allies roll an Inspiration die, they\ncan roll twice and take the better result for the situation.\n",
+    "html": "<p>At 18th level, when a feature lets you or your allies roll an Inspiration die, they\ncan roll twice and take the better result for the situation.</p>\n"
   },
   {
     "id": "elusive",
@@ -5045,6 +5102,21 @@
     "html": "<p>Your very presence is enough to send most running for the hills, but those that are truly frightened of you might just\nfind their legs unwilling to respond, and their brains beginning to hurt from the strain of fear itself.</p>\n<p>Starting at 7th level, when a creature that is frightened of you starts its turn within <me-distance length=\"15\" /> of\nyou, that creature’s movement speed is reduced to 0, and they take psychic damage equal to half your Soldier level.\nThis damage cannot reduced by shields or barriers.</p>\n"
   },
   {
+    "id": "feedback",
+    "title": "Feedback",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Techno",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, you can generate a shrill, piercing sound that distracts and harries your enemies when they need to focus.\nYou can chose to expend a use of Inspiration as a reaction to an ally being targeted by an attack or when an enemy\nis subject to a saving throw. You must chose to use this feature before the attack is made or the saving throw is rolled.\nWhen you do so, you roll the Inspiration die and your enemy subtracts that amount from their roll.\n",
+    "html": "<p>At 7th level, you can generate a shrill, piercing sound that distracts and harries your enemies when they need to focus.\nYou can chose to expend a use of Inspiration as a reaction to an ally being targeted by an attack or when an enemy\nis subject to a saving throw. You must chose to use this feature before the attack is made or the saving throw is rolled.\nWhen you do so, you roll the Inspiration die and your enemy subtracts that amount from their roll.</p>\n"
+  },
+  {
     "id": "fighting-spirit",
     "title": "Fighting Spirit",
     "type": "character",
@@ -5174,6 +5246,20 @@
     "link": false,
     "body": "At 15th level, your fine tuned control of your Blink allows you to drop in and out of your movement to\nbetter hit your targets. When you use Blink during your turns, if you use your Momentum feature to attack two\ndifferent targets, you can make a third attack against a different target as part of that same attack action.\n",
     "html": "<p>At 15th level, your fine tuned control of your Blink allows you to drop in and out of your movement to\nbetter hit your targets. When you use Blink during your turns, if you use your Momentum feature to attack two\ndifferent targets, you can make a third attack against a different target as part of that same attack action.</p>\n"
+  },
+  {
+    "id": "flow",
+    "title": "Flow",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "9th level"
+    ],
+    "link": false,
+    "body": "At 9th level, your music has you and your allies on their feet, ready for action.\nWhile you have at least one Inspiration die available, you and your allies increase your movement speed by\n. In addition, when you see a creature provoke an attack of opportunity from movement,\nyou can use your reaction to negate that attack of opportunity.\n",
+    "html": "<p>At 9th level, your music has you and your allies on their feet, ready for action.</p>\n<p>While you have at least one Inspiration die available, you and your allies increase your movement speed by\n<me-distance length=\"5\" />. In addition, when you see a creature provoke an attack of opportunity from movement,\nyou can use your reaction to negate that attack of opportunity.</p>\n"
   },
   {
     "id": "focus-points",
@@ -5326,6 +5412,21 @@
     "html": "<p>At 7th level, you're able to shrug off hits that would normally devastate others. While your tech armor\nis active, you have +1 AC and any critical hit against you becomes a normal hit.</p>\n"
   },
   {
+    "id": "haunting-melody",
+    "title": "Haunting Melody",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Operatic",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, your mournful voice confuses those who try and impose their will on you. Creatures have\ndisadvantage on Intimidation, Persuasion or Deception checks to try and influence you if can speak eloquently.\nIf your mouth is gagged, or you are otherwise incapable of being heard, this ability is void.\n",
+    "html": "<p>At 3rd level, your mournful voice confuses those who try and impose their will on you. Creatures have\ndisadvantage on Intimidation, Persuasion or Deception checks to try and influence you if can speak eloquently.\nIf your mouth is gagged, or you are otherwise incapable of being heard, this ability is void.</p>\n"
+  },
+  {
     "id": "heavy-barrier",
     "title": "Heavy Barrier",
     "type": "character",
@@ -5383,6 +5484,21 @@
     "link": false,
     "body": "Starting from 3rd level, you may reduce your movement to 0 for this turn, if you do, your wielded ranged weapon may be\ntreated as having the Double-Tap property on this turn only. Additionally, if you're wielding an SMG, your short and\nlong range are doubled.\n",
     "html": "<p>Starting from 3rd level, you may reduce your movement to 0 for this turn, if you do, your wielded ranged weapon may be\ntreated as having the Double-Tap property on this turn only. Additionally, if you're wielding an SMG, your short and\nlong range are doubled.</p>\n"
+  },
+  {
+    "id": "holo-dancer",
+    "title": "Holo-Dancer",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Techno",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you can use you Omni-tool to create a holographic copy of yourself to enhance your performances. You can\nspend a use of Inspiration to activate this feature as a bonus action. You create one clone at 3rd level,\nanother one at 11th level and a third one at 20th level.\nIn combat, the clones occupy the same space you do, but their movements are offset just enough\nto confuse attackers.\nWhen an attacker targets you, before they roll an attack, they must roll a dX, where X is the number of\nHolo-Dancers currently active +1. If the attacker rolls a 1, they have targeted your actual body, and the\nattack proceeds as normal. If they roll any other number, they targeted one of\nyour Holo Dancers. The Dancer absorbs the attack and vanishes.\n",
+    "html": "<p>At 3rd level, you can use you Omni-tool to create a holographic copy of yourself to enhance your performances. You can\nspend a use of Inspiration to activate this feature as a bonus action. You create one clone at 3rd level,\nanother one at 11th level and a third one at 20th level.\nIn combat, the clones occupy the same space you do, but their movements are offset just enough\nto confuse attackers.</p>\n<p>When an attacker targets you, before they roll an attack, they must roll a dX, where X is the number of\nHolo-Dancers currently active +1. If the attacker rolls a 1, they have targeted your actual body, and the\nattack proceeds as normal. If they roll any other number, they targeted one of\nyour Holo Dancers. The Dancer absorbs the attack and vanishes.</p>\n"
   },
   {
     "id": "improved-barrier-1",
@@ -5573,6 +5689,51 @@
     "link": false,
     "body": "At 17th level, you can use Indomitable three times between long rests.\n",
     "html": "<p>At 17th level, you can use Indomitable three times between long rests.</p>\n"
+  },
+  {
+    "id": "inspire-the-masses",
+    "title": "Inspire the Masses",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Tradition",
+      "20th level"
+    ],
+    "link": false,
+    "body": "At 20th level, instead of using a bonus action to target an ally and grant them Inspiration, you can use an\naction to use this feature. Instead of one ally, every creature you consider an ally in a \nradius gains your Inspiration die. Using Inspiration this way consumes 2 uses of Inspiration per use.\n",
+    "html": "<p>At 20th level, instead of using a bonus action to target an ally and grant them Inspiration, you can use an\naction to use this feature. Instead of one ally, every creature you consider an ally in a <me-distance length=\"25\" />\nradius gains your Inspiration die. Using Inspiration this way consumes 2 uses of Inspiration per use.</p>\n"
+  },
+  {
+    "id": "inspire-the-revolution",
+    "title": "Inspire the Revolution",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Techno",
+      "20th level"
+    ],
+    "link": false,
+    "body": "At 20th level, instead of using a bonus action to target an ally and grant them Inspiration, you can use an action\nto use this feature. Instead of an ally, every creature you consider an enemy in a  radius\nhas their AC reduced by one roll of your Inspiration die. This effect lasts for a number of\nrounds equal to your Charisma modifier. Using Inspiration this way consumes 2 uses of Inspiration per use.\n",
+    "html": "<p>At 20th level, instead of using a bonus action to target an ally and grant them Inspiration, you can use an action\nto use this feature. Instead of an ally, every creature you consider an enemy in a <me-distance length=\"25\" /> radius\nhas their AC reduced by one roll of your Inspiration die. This effect lasts for a number of\nrounds equal to your Charisma modifier. Using Inspiration this way consumes 2 uses of Inspiration per use.</p>\n"
+  },
+  {
+    "id": "inspire-the-soul",
+    "title": "Inspire the Soul",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Operatic",
+      "20th level"
+    ],
+    "link": false,
+    "body": "At 20th level, instead of using a bonus action to target an ally and grant them inspiration, you can use an action to\nuse this feature. For number of rounds equal to one roll of your Inspiration die, your allies are bolstered:\nat the beginning of their turn, they gain temporary hit points equal to one roll of your Inspiration die + your\nCharisma Modifier. Additionally, they can add your Charisma to their damage rolls if they are made within\n of you. Using Inspiration this way consumes 2 uses of Inspiration per use.\n",
+    "html": "<p>At 20th level, instead of using a bonus action to target an ally and grant them inspiration, you can use an action to\nuse this feature. For number of rounds equal to one roll of your Inspiration die, your allies are bolstered:\nat the beginning of their turn, they gain temporary hit points equal to one roll of your Inspiration die + your\nCharisma Modifier. Additionally, they can add your Charisma to their damage rolls if they are made within\n<me-distance length=\"50\" /> of you. Using Inspiration this way consumes 2 uses of Inspiration per use.</p>\n"
   },
   {
     "id": "intangible-cabal",
@@ -6035,6 +6196,76 @@
     "html": "<p>At 6th level, the implants along your body supplement your physical strength. When you make an attack that uses\nStrength, you instead can chose to use your Intelligence for both the attack and damage roll. If you do so for a\nmelee attack, you can add half of your proficiency bonus and half of your intelligence bonus again to the damage roll.</p>\n"
   },
   {
+    "id": "musicians-inspiration-2",
+    "title": "Musician's Inspiration (d8)",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "5th level"
+    ],
+    "link": false,
+    "body": "You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within  of you who can hear you. That creature gains one Inspiration die, a d6.\nOnce within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.\nYour Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.\n",
+    "html": "<p>You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within <me-distance length=\"60\" /> of you who can hear you. That creature gains one Inspiration die, a d6.</p>\n<p>Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.</p>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.</p>\n<p>Your Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.</p>\n"
+  },
+  {
+    "id": "musicians-inspiration-3",
+    "title": "Musician's Inspiration (d10)",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "10th level"
+    ],
+    "link": false,
+    "body": "You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within  of you who can hear you. That creature gains one Inspiration die, a d6.\nOnce within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.\nYour Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.\n",
+    "html": "<p>You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within <me-distance length=\"60\" /> of you who can hear you. That creature gains one Inspiration die, a d6.</p>\n<p>Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.</p>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.</p>\n<p>Your Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.</p>\n"
+  },
+  {
+    "id": "musicians-inspiration-4",
+    "title": "Musician's Inspiration (d12)",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "15th level"
+    ],
+    "link": false,
+    "body": "You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within  of you who can hear you. That creature gains one Inspiration die, a d6.\nOnce within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.\nYour Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.\n",
+    "html": "<p>You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within <me-distance length=\"60\" /> of you who can hear you. That creature gains one Inspiration die, a d6.</p>\n<p>Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.</p>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.</p>\n<p>Your Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.</p>\n"
+  },
+  {
+    "id": "musicians-inspiration",
+    "title": "Musician's Inspiration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "1st level"
+    ],
+    "link": false,
+    "body": "You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within  of you who can hear you. That creature gains one Inspiration die, a d6.\nOnce within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.\nYour Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.\n",
+    "html": "<p>You can inspire others through your music. To do so, you use a Bonus Action on your turn to choose one creature other\nthan yourself within <me-distance length=\"60\" /> of you who can hear you. That creature gains one Inspiration die, a d6.</p>\n<p>Once within the next 10 minutes, the target can roll the die and add the number rolled to one ability check or Attack\nroll it makes. The target can wait until after it rolls The D20 before deciding to use the Musician's Inspiration die,\nbut must decide before the GM says whether the roll succeeds or fails. Once the Inspiration die is rolled, it is lost.\nA creature can have only one Inspiration die at a time.</p>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any\nexpended uses when you finish a Long Rest.</p>\n<p>Your Inspiration die changes when you reach certain levels in this class. The die becomes a\nd8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.</p>\n"
+  },
+  {
+    "id": "musicians-touch",
+    "title": "Musician's Touch",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "Music is your life, and you make sure the rest of the galaxy knows it.\nAt 2nd level, you can add double your Proficiency Modifier to your Performance skill. In addition,\nchoose Intimidation, Deception or Persuasion. When you make a skill check with the chosen skill, you can use your\nPerformance skill for the check instead. You can choose another skill at 10th level, and another at 15th.\n",
+    "html": "<p>Music is your life, and you make sure the rest of the galaxy knows it.</p>\n<p>At 2nd level, you can add double your Proficiency Modifier to your Performance skill. In addition,\nchoose Intimidation, Deception or Persuasion. When you make a skill check with the chosen skill, you can use your\nPerformance skill for the check instead. You can choose another skill at 10th level, and another at 15th.</p>\n"
+  },
+  {
     "id": "napalm-burst",
     "title": "Napalm Burst",
     "type": "character",
@@ -6063,6 +6294,21 @@
     "link": false,
     "body": "At 9th level, you gain resistance to Psychic, Necrotic and Force damage, and an enemy that deals Psychic, Necrotic or\nForce damage to you must make a saving throw vs your powercasting modifier or take half of the damage it dealt to you.\nThis return damage is not reduced by resistance, but it does not bypass immunities.\n",
     "html": "<p>At 9th level, you gain resistance to Psychic, Necrotic and Force damage, and an enemy that deals Psychic, Necrotic or\nForce damage to you must make a saving throw vs your powercasting modifier or take half of the damage it dealt to you.\nThis return damage is not reduced by resistance, but it does not bypass immunities.</p>\n"
+  },
+  {
+    "id": "old-tales",
+    "title": "Musician's Inspiration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Tradition",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, your upbringing fills you with stories to tell. You can use your Musician's Touch in History checks as\nwell. Additionally, you can use your Inspiration a number of extra times equal to your Wisdom modifier (minimum +1)\n",
+    "html": "<p>At 3rd level, your upbringing fills you with stories to tell. You can use your Musician's Touch in History checks as\nwell. Additionally, you can use your Inspiration a number of extra times equal to your Wisdom modifier (minimum +1)</p>\n"
   },
   {
     "id": "omni-shield-1",
@@ -6360,6 +6606,20 @@
     "html": "<h3>Preparing and casting powers</h3>\n<p>The Infiltrator table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of these\ninfiltrator powers, you must expend a number of tech points equal to the power’s level or higher. You regain all\nexpended tech points when you finish a long rest.</p>\n<p>You are limited in the number of tech points you can spend to cast a power as indicated in the Tech Point Limit column\nof the Infiltrator table.</p>\n<p>For example, a 9th-level infiltrator can cast powers for 1 or 2 tech points.</p>\n<p>You prepare the list of infiltrator powers that are available for you to cast, choosing from the infiltrator power list.\nWhen you do so, choose a number of infiltrator powers equal to your Intelligence modifier + half your infiltrator level\n(minimum of one power).</p>\n<p>You may prepare the advanced version of a power for the cost of 2 regular versions. Whenever you cast the power,\nyou cast the advanced version of it. You may only prepare one advanced version for each power.</p>\n<p>For example, if you are a 9th-level infiltrator with an Intelligence of 16, your list of prepared powers can be one of the following:</p>\n<ul>\n<li>seven regular powers</li>\n<li>one advanced power and five regular powers,</li>\n<li>two advanced powers and three regular powers,</li>\n<li>three advanced powers and one regular power</li>\n</ul>\n<br>\n<p>You can also change your list of prepared powers when you finish a long rest. Preparing a new list of infiltrator powers\nrequires time spent to program them into your omni-tool: at least 1 minute per power level for each power on your list.</p>\n<h3>Powercasting Ability</h3>\n<p>Infiltrators use a highly modified Omni-tool that requires a keen intellect to maintain. As an Infiltrator, you use your\nIntelligence whenever a power refers to your powercasting ability. In addition, you use your Intelligence modifier when\nsetting the saving throw DC for a tech power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n"
   },
   {
+    "id": "powercasting-musician",
+    "title": "Powercasting",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "1st level"
+    ],
+    "link": false,
+    "body": "Preparing and casting powers\nThe Musician table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of\nthese musician powers, you must expend a number of tech points equal to the power’s level or higher. You regain\nall expended tech points when you finish a long rest.\nYou are limited in the number of tech points you can spend to cast a power as indicated in the Tech Point Limit\ncolumn of the Musician table.\nFor example, a 9th-level musician can cast powers for 1, or 2 tech points.\nYou prepare the list of musician powers that are available for you to cast, choosing from the musician power list.\nWhen you do so, choose a number of musician powers equal to your Charisma modifier + your musician level (minimum of one power).\nYou may prepare the advanced version of a power for the cost of 2 regular versions. You may only prepare one advanced version for each power.\nFor example, if you are a 4th-level musician with a Charisma of 16, your list of prepared powers can be one of the following:\n\nseven regular powers\none advanced power and five regular powers\ntwo advanced powers and three regular powers\nthree advanced powers and one regular power\n\n\nYou can also change your list of prepared powers when you finish a long rest. Preparing a new list of musician powers\nrequires time spent to program them into your omni-tool: at least 1 minute per power level for each power on your list.\nPowercasting Ability\nAs a musician, you use your Charisma whenever a power refers to your powercasting ability. In addition, you use your\nCharisma modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.\nPower save DC = 8 + your proficiency bonus + your Charisma modifier\nPower attack modifier = your proficiency bonus + your Charisma modifier\n",
+    "html": "<h3>Preparing and casting powers</h3>\n<p>The Musician table shows how many tech points you have to cast your powers of 1st level and higher. To cast one of\nthese musician powers, you must expend a number of tech points equal to the power’s level or higher. You regain\nall expended tech points when you finish a long rest.</p>\n<p>You are limited in the number of tech points you can spend to cast a power as indicated in the Tech Point Limit\ncolumn of the Musician table.</p>\n<p>For example, a 9th-level musician can cast powers for 1, or 2 tech points.</p>\n<p>You prepare the list of musician powers that are available for you to cast, choosing from the musician power list.\nWhen you do so, choose a number of musician powers equal to your Charisma modifier + your musician level (minimum of one power).</p>\n<p>You may prepare the advanced version of a power for the cost of 2 regular versions. You may only prepare one advanced version for each power.</p>\n<p>For example, if you are a 4th-level musician with a Charisma of 16, your list of prepared powers can be one of the following:</p>\n<ul>\n<li>seven regular powers</li>\n<li>one advanced power and five regular powers</li>\n<li>two advanced powers and three regular powers</li>\n<li>three advanced powers and one regular power</li>\n</ul>\n<br>\n<p>You can also change your list of prepared powers when you finish a long rest. Preparing a new list of musician powers\nrequires time spent to program them into your omni-tool: at least 1 minute per power level for each power on your list.</p>\n<h3>Powercasting Ability</h3>\n<p>As a musician, you use your Charisma whenever a power refers to your powercasting ability. In addition, you use your\nCharisma modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>\n"
+  },
+  {
     "id": "powercasting-sentinel",
     "title": "Powercasting",
     "type": "character",
@@ -6444,6 +6704,20 @@
     "link": false,
     "body": "At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.\n",
     "html": "<p>At 20th level, your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>\n"
+  },
+  {
+    "id": "pump-up",
+    "title": "Pump Up",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, you can help your allies succeed, even when the odds are against them. When an ally within \nof you rolls any check with disadvantage, you can use your reaction to negate the disadvantage.\n",
+    "html": "<p>At 6th level, you can help your allies succeed, even when the odds are against them. When an ally within <me-distance length=\"30\" />\nof you rolls any check with disadvantage, you can use your reaction to negate the disadvantage.</p>\n"
   },
   {
     "id": "quick-burn",
@@ -6902,6 +7176,21 @@
     "html": "<p>At 13th level, whenever you activate Tactical Cloak you may teleport to a target location within <me-distance length=\"30\" />. You must be able to see the location\nand it cannot be occupied by a creature or object. This movement does not provoke an attack of opportunity.</p>\n<p>When you arrive at the target location, you may use your reaction to make one melee attack on a creature or object within\nrange. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your\nSneak Attack against the same target more than once in a turn.</p>\n<p>The teleportation can be used to free you from movement impairing effects such as grapple, restrained, lifted, etc.</p>\n"
   },
   {
+    "id": "sharpen-the-mind",
+    "title": "Sharpen the Mind",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Operatic",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, your voice warns your allies of troubles and makes them more wary of whatever might happen to them.\nWhen an ally is targeted by an attack you can see, and they have an Inspiration die available, they can expend the\nInspiration to roll the Inspiration die and add that roll to their AC as a reaction. This bonus lasts until the\nbeginning of their next turn.\n",
+    "html": "<p>At 7th level, your voice warns your allies of troubles and makes them more wary of whatever might happen to them.\nWhen an ally is targeted by an attack you can see, and they have an Inspiration die available, they can expend the\nInspiration to roll the Inspiration die and add that roll to their AC as a reaction. This bonus lasts until the\nbeginning of their next turn.</p>\n"
+  },
+  {
     "id": "shield-boost",
     "title": "Shield Boost",
     "type": "character",
@@ -7034,6 +7323,35 @@
     "html": "<p>At 10th level, enemies that you scan with Tactical Sweep take extra damage when hit by one of your attacks. Whenever\nyour attacks hit against an enemy you marked with Tactical Sweep, you deal bonus damage equal to your Intelligence Modifier (minimum +1)</p>\n"
   },
   {
+    "id": "soothing-music",
+    "title": "Soothing Music",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, your allies are soothed or pumped up by the music you play for them during relaxation.\nWhen you finish a short rest, you and your allies add one roll of your Inspiration die to the amount of hit points\nthey recovered. If they don't spend hit die during a short rest, they can recover one roll of\nyour Inspiration die + their Constitution modifier hit points.\n",
+    "html": "<p>At 3rd level, your allies are soothed or pumped up by the music you play for them during relaxation.</p>\n<p>When you finish a short rest, you and your allies add one roll of your Inspiration die to the amount of hit points\nthey recovered. If they don't spend hit die during a short rest, they can recover one roll of\nyour Inspiration die + their Constitution modifier hit points.</p>\n"
+  },
+  {
+    "id": "sorrowful-song",
+    "title": "Sorrowful Song",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Operatic",
+      "17th level"
+    ],
+    "link": false,
+    "body": "At 17th level, you can spend one use of Inspiration as an action to target an enemy. Do not roll the Inspiration die.\nWhen you use this ability, the enemy must succeed a Charisma saving throw of DC equal to your Powercasting DC or be\nstunned until the end of your next round.\n",
+    "html": "<p>At 17th level, you can spend one use of Inspiration as an action to target an enemy. Do not roll the Inspiration die.\nWhen you use this ability, the enemy must succeed a Charisma saving throw of DC equal to your Powercasting DC or be\n<me-condition id=\"stunned\" /> until the end of your next round.</p>\n"
+  },
+  {
     "id": "start-blastin",
     "title": "Start Blastin'",
     "type": "character",
@@ -7152,6 +7470,21 @@
     "link": false,
     "body": "At 18th level, can take two turns during the first round of any combat. You take your first turn at your normal\ninitiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.\n",
     "html": "<p>At 18th level, can take two turns during the first round of any combat. You take your first turn at your normal\ninitiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</p>\n"
+  },
+  {
+    "id": "strobe",
+    "title": "Strobe",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Techno",
+      "17th level"
+    ],
+    "link": false,
+    "body": "At 17th level, when you roll initiative, you can chose to spend a use of Inspiration to blast the battlefield in a\ndazzling display of lights and sound. When you do so, your enemies within  of you have\ndisadvantage on their Initiative rolls. If all enemies affected roll single digit numbers, your party gains a surprise round.\n",
+    "html": "<p>At 17th level, when you roll initiative, you can chose to spend a use of Inspiration to blast the battlefield in a\ndazzling display of lights and sound. When you do so, your enemies within <me-distance length=\"50\" /> of you have\ndisadvantage on their Initiative rolls. If all enemies affected roll single digit numbers, your party gains a surprise round.</p>\n"
   },
   {
     "id": "stroke-of-luck",
@@ -7882,6 +8215,51 @@
     "html": "<p>You are trained in the Cabal's signature style of biotics. When you gain this feature at 3rd level, you integrate a\nspecial melee weapon onto your armor: the Cabal Venom Gauntlets. These weapons have the Special and Finesse tags, and\ndeal 1d8 Poison damage on a hit. When you wear Venom Gauntlets, you wear them as a pair, and can thus make an extra\nattack as a bonus action when you use your action to make an attack with them.</p>\n"
   },
   {
+    "id": "voice-of-ages",
+    "title": "Voice of Ages",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Tradition",
+      "11th level"
+    ],
+    "link": false,
+    "body": "At 11th level, you have permanent advantage on social checks when trying to influence members of your own species.\n",
+    "html": "<p>At 11th level, you have permanent advantage on social checks when trying to influence members of your own species.</p>\n"
+  },
+  {
+    "id": "voice-of-royalty",
+    "title": "Voice of Royalty",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Operatic",
+      "11th level"
+    ],
+    "link": false,
+    "body": "At 11th level, you have permanent advantage on social checks against creatures of a high social standing.\nYour GM determines if the creature counts as having a high social standing: when in doubt, someone with a\nprestigious job or of high affluence is considered of &quot;higher social standing&quot; for the purposes of this ability.\n",
+    "html": "<p>At 11th level, you have permanent advantage on social checks against creatures of a high social standing.\nYour GM determines if the creature counts as having a high social standing: when in doubt, someone with a\nprestigious job or of high affluence is considered of &quot;higher social standing&quot; for the purposes of this ability.</p>\n"
+  },
+  {
+    "id": "voice-of-the-night",
+    "title": "Voice of the Night",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Techno",
+      "11th level"
+    ],
+    "link": false,
+    "body": "At 11th level, you have permanent advantage on social checks when in an urban setting. An urban setting is any\ncivilized settlement big enough to have a sizeable nightlife, like the Citadel or Illium. A small\ncolony on a Terminus world does not count for this purpose.\n",
+    "html": "<p>At 11th level, you have permanent advantage on social checks when in an urban setting. An urban setting is any\ncivilized settlement big enough to have a sizeable nightlife, like the Citadel or Illium. A small\ncolony on a Terminus world does not count for this purpose.</p>\n"
+  },
+  {
     "id": "volt",
     "title": "Volt",
     "type": "character",
@@ -7895,6 +8273,21 @@
     "link": false,
     "body": "Your gifts of focussing your energy have now allowed you to push it out as a bolt of biotic lightning.\nAt 6th level, as an Action, you may spend a Focus Point to cast a 1st level Overload at a target within .\nThe damage type of this overload is force damage and the Primed condition becomes force instead of lightning.\nAdditionally, your Cardinal Blades can now potentially charge Focus Points on a successful weapon attack. If you roll\na 9-10 on the d10 damage die (Or a 6 on either d6 when using Versatile), you also gain one Focus Point.\n",
     "html": "<p>Your gifts of focussing your energy have now allowed you to push it out as a bolt of biotic lightning.</p>\n<p>At 6th level, as an Action, you may spend a Focus Point to cast a 1st level Overload at a target within <me-distance length=\"30\" />.\nThe damage type of this overload is force damage and the Primed condition becomes force instead of lightning.</p>\n<p>Additionally, your Cardinal Blades can now potentially charge Focus Points on a successful weapon attack. If you roll\na 9-10 on the d10 damage die (Or a 6 on either d6 when using Versatile), you also gain one Focus Point.</p>\n"
+  },
+  {
+    "id": "war-chanter",
+    "title": "War Chanter",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "Tradition",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, you and your allies can use Inspiration to add to the damage of an attack roll.\n",
+    "html": "<p>At 7th level, you and your allies can use Inspiration to add to the damage of an attack roll.</p>\n"
   },
   {
     "id": "warp-bubble",
@@ -7955,6 +8348,20 @@
     "link": false,
     "body": "You gain another superiority die (6 total) at 18th level and the die type becomes a d12.\n",
     "html": "<p>You gain another superiority die (6 total) at 18th level and the die type becomes a d12.</p>\n"
+  },
+  {
+    "id": "wild-crowd",
+    "title": "Wild Crowd",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Musician",
+      "13th level"
+    ],
+    "link": false,
+    "body": "At 13th level, your inspiration is tenacious. When an ally within  uses Inspiration,\nbut fails to succeed on the check, they don't spend the Inspiration given to them.\nThis effect can only happen once per ally per short rest.\n",
+    "html": "<p>At 13th level, your inspiration is tenacious. When an ally within <me-distance length=\"30\" /> uses Inspiration,\nbut fails to succeed on the check, they don't spend the Inspiration given to them.\nThis effect can only happen once per ally per short rest.</p>\n"
   },
   {
     "id": "wild-senses",

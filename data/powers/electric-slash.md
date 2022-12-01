@@ -7,6 +7,7 @@ tags:
   - damage
 classes:
   - engineer
+  - musician
   - infiltrator
   - tracker
 mechanics:

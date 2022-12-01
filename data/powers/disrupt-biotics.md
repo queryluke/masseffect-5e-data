@@ -7,6 +7,7 @@ tags:
   - control
 classes:
   - engineer
+  - musician
   - infiltrator
   - sentinel
   - explorer

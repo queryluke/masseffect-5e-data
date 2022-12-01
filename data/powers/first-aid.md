@@ -7,6 +7,7 @@ tags:
   - heal
 classes:
   - engineer
+  - musician
   - infiltrator
   - sentinel
   - tracker

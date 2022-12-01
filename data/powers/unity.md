@@ -5,6 +5,7 @@ level: 2
 type: tech
 classes:
   - engineer
+  - musician
   - sentinel
   - tracker
   - explorer

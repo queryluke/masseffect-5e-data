@@ -7,6 +7,7 @@ tags:
   - debuff
 classes:
   - engineer
+  - musician
   - infiltrator
   - sentinel
   - tracker

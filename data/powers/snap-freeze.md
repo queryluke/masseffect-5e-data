@@ -5,6 +5,7 @@ level: 3
 type: tech
 classes:
   - engineer
+  - musician
   - sentinel
   - infiltrator
   - explorer

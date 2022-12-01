@@ -6,6 +6,7 @@ tags:
   - buff
 classes:
   - engineer
+  - musician
   - infiltrator
   - tracker
 type: tech

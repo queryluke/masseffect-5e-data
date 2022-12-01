@@ -8,6 +8,7 @@ classes:
   - tracker
   - sentinel
   - engineer
+  - musician
   - explorer
 tags:
   - debuff

@@ -5,6 +5,7 @@ level: 1
 type: tech
 classes:
   - engineer
+  - musician
   - sentinel
   - explorer
 tags:

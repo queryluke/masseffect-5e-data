@@ -169,6 +169,13 @@
     "id": "nuclear"
   },
   {
+    "klass": "musician",
+    "name": "Operatic",
+    "author": "Spagheddy",
+    "html": "<p>Your voice carries years of pitch training and carefull study. Your haunting melodies touch deeply into the emotions\nof others, bringing in joy or sorrow in unimaginable scale.</p>\n",
+    "id": "operatic"
+  },
+  {
     "klass": "tracker",
     "name": "Outrider",
     "author": "Helios",
@@ -247,6 +254,20 @@
     "author": "Spagheddy",
     "html": "<p>Disruption and preemptive strikes are the hallmarks of the Special Tasks Group. Using cunning and technology, you\nseek to capitalize on every advantage you can get, and strike before your enemies even know what hit them.</p>\n<p><strong>Restricted to Salarian</strong>: This subclass is canonically only available to Salarian characters. Consult with your DM about waiving the racial restriction.</p>\n",
     "id": "stg"
+  },
+  {
+    "klass": "musician",
+    "name": "Techno",
+    "author": "Spagheddy",
+    "html": "<p>You embrace modernity. Your music is loud and bombastic, cutting edge and hip. People flock to watch your presentations,\nand you've learned to integrate various displays of technical prowess that dazzle the mind, sometimes forever.</p>\n",
+    "id": "techno"
+  },
+  {
+    "klass": "musician",
+    "name": "Tradition",
+    "author": "Spagheddy",
+    "html": "<p>Your species' old stories and myths fuels your drive to inspire others. You seek to bring a bit of your culture to the\ngalactic front, and tales of bravery and camaraderie rescue hearts from the deepest pits of despair.</p>\n",
+    "id": "tradition"
   },
   {
     "klass": "sentinel",

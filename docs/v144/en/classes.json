@@ -866,6 +866,120 @@
   },
   {
     "primaryAbility": [
+      "cha"
+    ],
+    "hitDie": 6,
+    "profs": {
+      "armor": {
+        "has": [
+          "light"
+        ],
+        "text": "Light Armor"
+      },
+      "weapon": {
+        "has": [
+          "heavy_pistol"
+        ],
+        "choices": {
+          "items": [
+            "melee",
+            "shotgun",
+            "sniper_rifle",
+            "smg"
+          ],
+          "count": 2
+        },
+        "text": "Heavy Pistols, and choose one from Melee, SMGs, Sniper Rifles, and Shotguns"
+      },
+      "skill": {
+        "has": [
+          "performance"
+        ],
+        "choices": {
+          "items": [
+            "acrobatics",
+            "athletics",
+            "deception",
+            "electronics",
+            "engineering",
+            "history",
+            "intimidation",
+            "persuasion",
+            "science",
+            "sleight-of-hand",
+            "vehicle-handling"
+          ],
+          "count": 3
+        },
+        "text": "Performance and choose three from Acrobatics, Athletics, Deception, Electronics, Engineering, History, Intimidation, Persuasion, Science, Sleight of Hand, and Vehicle Handling"
+      },
+      "saving-throw": {
+        "has": [
+          "cha",
+          "wis"
+        ],
+        "text": "Charisma, Wisdom"
+      }
+    },
+    "startingEquipment": [
+      {
+        "choices": {
+          "items": [
+            "omni-blade",
+            "omni-hammer",
+            "riot-shield"
+          ],
+          "count": 1
+        },
+        "text": "(a) Omni-Blade (b) Omni-Hammer or (c) Riot Shield"
+      },
+      {
+        "choices": {
+          "items": [
+            "m-3-predator",
+            "m-92-mantis",
+            "m-23-katana",
+            "m-6-shuriken"
+          ],
+          "count": 1
+        },
+        "text": "(a) M-3 Predator or (b) M-92 Mantis or (c) M-23 Katana or (d) M-6 Shuriken"
+      },
+      {
+        "choices": {
+          "items": [
+            "stock-light-armor"
+          ],
+          "count": 1
+        },
+        "text": "Light Stock Armor"
+      }
+    ],
+    "progression": {
+      "subclass": [
+        3,
+        7,
+        11,
+        17,
+        20
+      ],
+      "abi": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ]
+    },
+    "name": "Musician",
+    "homebrew": true,
+    "author": "Spagheddy",
+    "snippet": "Musicians are beings who dedicate their lives to inspiring others.",
+    "html": "<p>While infiltrators may excel at taking down high priority sapient targets, Trackers are experts at finding all sorts of\nother prey. Be it footprints, remains of their food, scratches or markings on trees or whatever else, they are\nrelentless when it comes to finding whatever beast, or man, it is they are pursuing.</p>\n",
+    "id": "musician"
+  },
+  {
+    "primaryAbility": [
       "wis",
       "int"
     ],

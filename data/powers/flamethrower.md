@@ -5,6 +5,7 @@ version: 1
 type: tech
 classes:
   - engineer
+  - musician
   - infiltrator
   - sentinel
   - explorer
