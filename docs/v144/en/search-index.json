@@ -6684,6 +6684,21 @@
     "html": "<h3>Cantrips</h3>\n<p>At 1st level, you know four cantrips of your choice from the adept power list. You learn additional adept cantrips of\nyour choice at higher levels, as shown in the Cantrips column of the Adept table.</p>\n<p>Instead of learning a new cantrip, you may instead learn the advanced version of a cantrip you already know.</p>\n<h3>Power Slots</h3>\n<p>The Adept table shows how many power slots you have to cast your powers of 1st level and higher. To cast one of these\nadept powers, you must expend a slot of the power’s level or higher. You regain all expended power slots when you finish\na long rest.</p>\n<p>For example, if you know the 1st-level power lance and have a 1st-level and a 2nd-level power slot available, you can\ncast lance using either slot.</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>You know three 1st-level powers of your choice from the adept power list.</p>\n<p>The powers Known column of the Adept table shows when you learn more adept powers of your choice. Each of these powers\nmust be of a level for which you have power slots. For instance, when you reach 5th level in this class, you can learn\none new power of 1st or 2nd level.</p>\n<p>Additionally, when you learn a new power, you may instead choose one of the powers you know and learn an advanced\nversion of it. You select one of the advancement options listed in the power description. Whenever you cast the power,\nyou cast the advanced version of it. You can only learn one advancement for each power.</p>\n<h3>Powercasting Ability</h3>\n<p>Adepts have an L5x biotic implant which requires conscious control over their nervous system. As an Adept, you use your\nWisdom whenever a power refers to your powercasting ability. In addition, you use your Wisdom modifier when setting the\nsaving throw DC for a biotic power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>\n"
   },
   {
+    "id": "powercasting-engi-knight",
+    "title": "Powercasting",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "Casting powers\nThe Engi Knight Powers table shows how many Tech Points you have to cast your powers of 1st level or higher. To cast one\nof these powers using the Engineer's power list, you must expend a number of Tech Points equal to the power's level or\nhigher. You regain all expended Tech Points when you finish a long rest.\nYou are limited in the number of Tech Points you can spend to use a power as indicated in the Tech Point\nLimit column of the Engi Knight table.\nFor example, a 9th level Engi Knight can cast powers for 1 or 2 Tech Points\nPowers Known of 1st Level and Higher\nStarting at 3rd level, you know two 1st-level powers of your choice from the Engineer power list. The Powers Known\ncolumn of the Engi Knight table shows when you learn more Engineer powers of your choice. Each of these powers must\nbe of a level for which you have Tech Points. For instance, when you reach 10th level in this subclass,\nyou can learn one new power of 1st or 2nd level.\nEngi Knights cannot use advancements to Engineer Powers, nor can your choice of learned powers be changed after\nlearning them as your AI is utilising these abilities on the Soldier's behalf, not the Soldier\nmaintaining the Omni-tool like an Engineer would.\nPowercasting Ability\nEngi Knights use a modified Omni-tool, maintained by your onboard Armor/Suit AI. As a Engi Knight, you use your\nIntelligence whenever a Tech Power refers to your Powercasting ability. In addition, you use your Intelligence\nmodifier when setting the saving throw DC for a Tech Power you cast and when making an attack roll with one.\nPower save DC = 8 + your proficiency bonus + your Intelligence modifier\nPower attack modifier = your proficiency bonus + your Intelligence modifier\nEngi Knight Powers\n\n\nLevel\nPowers Known\nTech Points\nTech Point Limit\n\n\n\n\n3rd\n2\n2\n1\n\n\n4th\n3\n3\n1\n\n\n5th\n3\n3\n1\n\n\n6th\n3\n3\n1\n\n\n7th\n4\n6\n1\n\n\n8th\n5\n6\n1\n\n\n9th\n5\n8\n2\n\n\n10th\n6\n10\n2\n\n\n11th\n7\n10\n2\n\n\n12th\n7\n10\n2\n\n\n13th\n8\n12\n2\n\n\n14th\n9\n12\n2\n\n\n15th\n9\n12\n2\n\n\n16th\n10\n14\n2\n\n\n17th\n10\n16\n3\n\n\n18th\n10\n16\n3\n\n\n19th\n11\n20\n3\n\n\n20th\n12\n20\n3\n\n\n",
+    "html": "<h3>Casting powers</h3>\n<p>The Engi Knight Powers table shows how many Tech Points you have to cast your powers of 1st level or higher. To cast one\nof these powers using the Engineer's power list, you must expend a number of Tech Points equal to the power's level or\nhigher. You regain all expended Tech Points when you finish a long rest.</p>\n<p>You are limited in the number of Tech Points you can spend to use a power as indicated in the Tech Point\nLimit column of the Engi Knight table.</p>\n<p>For example, a 9th level Engi Knight can cast powers for 1 or 2 Tech Points</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>Starting at 3rd level, you know two 1st-level powers of your choice from the Engineer power list. The Powers Known\ncolumn of the Engi Knight table shows when you learn more Engineer powers of your choice. Each of these powers must\nbe of a level for which you have Tech Points. For instance, when you reach 10th level in this subclass,\nyou can learn one new power of 1st or 2nd level.</p>\n<p>Engi Knights cannot use advancements to Engineer Powers, nor can your choice of learned powers be changed after\nlearning them as your AI is utilising these abilities on the Soldier's behalf, not the Soldier\nmaintaining the Omni-tool like an Engineer would.</p>\n<h3>Powercasting Ability</h3>\n<p>Engi Knights use a modified Omni-tool, maintained by your onboard Armor/Suit AI. As a Engi Knight, you use your\nIntelligence whenever a Tech Power refers to your Powercasting ability. In addition, you use your Intelligence\nmodifier when setting the saving throw DC for a Tech Power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n<h3>Engi Knight Powers</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Powers Known</th>\n<th>Tech Points</th>\n<th>Tech Point Limit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3rd</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>5</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>5</td>\n<td>8</td>\n<td>2</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>8</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>10</td>\n<td>14</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>11</td>\n<td>20</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>12</td>\n<td>20</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>"
+  },
+  {
     "id": "powercasting-engineer",
     "title": "Powercasting",
     "type": "character",
@@ -7858,6 +7873,21 @@
     "html": "<p>At 3rd level, your tools are calibrated enough that you can rely on them without fear. Choose one spell between\nIncinerate, Cryo Blast and Overload. You always have this spell prepared. You may cast the 1 tech point version of that\nspell without expending a 1st level spell slot. This spell is hereafter known as your Tech Ace.\nWhen you receive the 10th level improvement to your cantrips, you can also select an advancement for your Tech Ace</p>\n"
   },
   {
+    "id": "tech-annihilation",
+    "title": "Tech Annihilation",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, your Tech Strike and Tech Avenger damage dice increases from d8s to d10s, this includes the Blazing\nStrike's extra damage after the attack.\nAdditionally, you recover 1 Tech Point whenever your Melee Weapon attack results on a critical hit on any\ncreature or a killing blow on a creature that is medium sized or larger. This includes regular Melee Weapon attacks.\n",
+    "html": "<p>At 18th level, your Tech Strike and Tech Avenger damage dice increases from d8s to d10s, this includes the Blazing\nStrike's extra damage after the attack.</p>\n<p>Additionally, you recover 1 Tech Point whenever your Melee Weapon attack results on a critical hit on any\ncreature or a killing blow on a creature that is medium sized or larger. This includes regular Melee Weapon attacks.</p>\n"
+  },
+  {
     "id": "tech-armor",
     "title": "Tech Armor",
     "type": "character",
@@ -7915,6 +7945,66 @@
     "link": false,
     "body": "At 18th level, increase the distance of your Tech Aura packages to .\n",
     "html": "<p>At 18th level, increase the distance of your Tech Aura packages to <me-distance length=\"60\" />.</p>\n"
+  },
+  {
+    "id": "tech-avenger",
+    "title": "Tech Avenger",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, you always have the B.E.C Field power prepared (it does not count against your Powers Known in the\nEngi Knight Powers table). If you have B.E.C Field known in your list of powers, you may learn another Engineer Power.\nAdditionally, you can now have two Tech Strike programs installed at once.\nAfter you have completed a long rest, you may choose an installed Tech Strike to focus your omni-tool's\nresource allocation to provide additional capabilities based on your chosen focus.\nTech Avenger Focus Upgrade\nFrostbite Strike: On top of the cold damage, the attacking creature will also be primed-cold until the end of your next turn.\nBlazing Strike: The damage type changes to fire and the attacking creature will also be primed-fire until the end of your next turn.\nStorm Strike: The damage type changes to lightning and will also be primed-lightning until the end of your next turn.\nRegardless of your chosen focus upgrade, you have immunity on any detonations on primes caused by your B.E.C Field.\nYou will gain additional bonuses with your chosen Tech Strike focus at 10th and 15th level.\n",
+    "html": "<p>At 7th level, you always have the B.E.C Field power prepared (it does not count against your Powers Known in the\nEngi Knight Powers table). If you have B.E.C Field known in your list of powers, you may learn another Engineer Power.</p>\n<p>Additionally, you can now have two Tech Strike programs installed at once.</p>\n<p>After you have completed a long rest, you may choose an installed Tech Strike to focus your omni-tool's\nresource allocation to provide additional capabilities based on your chosen focus.</p>\n<h4>Tech Avenger Focus Upgrade</h4>\n<p><strong>Frostbite Strike</strong>: On top of the cold damage, the attacking creature will also be <me-condition id=\"primed\" sub=\"cold\" /> until the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: The damage type changes to fire and the attacking creature will also be <me-condition id=\"primed\" sub=\"fire\" /> until the end of your next turn.</p>\n<p><strong>Storm Strike</strong>: The damage type changes to lightning and will also be <me-condition id=\"primed\" sub=\"lightning\" /> until the end of your next turn.</p>\n<p>Regardless of your chosen focus upgrade, you have immunity on any detonations on primes caused by your B.E.C Field.</p>\n<p>You will gain additional bonuses with your chosen Tech Strike focus at 10th and 15th level.</p>\n"
+  },
+  {
+    "id": "tech-obliteration",
+    "title": "Tech Obliteration",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, your onboard AI has improved your omni-tool's power output for your strikes.\nYour Tech Strike damage dice will now double on critical hits.\nAdditionally, you do not need to spend short or long rests installing Tech Strike programs anymore as your AI has\nmanaged to master the omni-tool's minimum processing requirements. You now permanently have all three Tech Strike\nprograms installed at once.\nYour chosen focus as part of Tech Avenger will now provide the following additional benefit:\nFrostbite Strike: You have resistance to cold damage\nBlazing Strike: You have resistance to fire damage\nStorm Strike: You have resistance to lightning damage\n",
+    "html": "<p>At 10th level, your onboard AI has improved your omni-tool's power output for your strikes.\nYour Tech Strike damage dice will now double on critical hits.</p>\n<p>Additionally, you do not need to spend short or long rests installing Tech Strike programs anymore as your AI has\nmanaged to master the omni-tool's minimum processing requirements. You now permanently have all three Tech Strike\nprograms installed at once.</p>\n<p>Your chosen focus as part of Tech Avenger will now provide the following additional benefit:</p>\n<p><em><strong>Frostbite Strike</strong></em>: You have resistance to cold damage</p>\n<p><em><strong>Blazing Strike</strong></em>: You have resistance to fire damage</p>\n<p><em><strong>Storm Strike</strong></em>: You have resistance to lightning damage</p>\n"
+  },
+  {
+    "id": "tech-onslaught",
+    "title": "Tech Onslaught",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "15th level"
+    ],
+    "link": false,
+    "body": "At 15th level, using further inspiration from Galaxy of Fantasy and with the help of your AI, you are now able to dash\nfurther in towards danger or to a safe distance without risking crashing into obstacles. Whenever you use your\nAdrenaline Rush, you can move up to  to an unoccupied space you can see, unaffected by\nAttacks of Opportunity. This movement can occur before or after you perform your additional Action and does not\ncount towards your current Movement during your turn.\nIn addition, your chosen focus as part of Tech Avenger will now provide this final additional upgrade:\nFrostbite Strike: You may spend an additional Tech Point to add a further 1d8 damage to the total,\nthe creature then has to pass a Strength saving throw or become Frozen until start of your next turn. In addition, all\nother creatures within  of your target (Except yourself) will have their\nmovement reduced by  for their next turn and are primed-cold\nuntil the end of your next turn.\nBlazing Strike: As a Bonus Action, you may spend 1 Tech Point to vent high amounts of heat from your\nomni-tool and armor. All creatures within  of you must succeed on a Dexterity\nSaving throw or take 2d8 fire damage and be primed-fire until the\nend of your next turn. Half damage on a success.\nStorm Strike: In addition to normal Storm Strike, you may spend an additional Tech Point to cause a\n line of lightning to unleash from your weapon's strike going in the direction your target\nwas in, all creatures in the AoE (Including your attacked target) must succeed on a Dexterity saving throw or\ntake 2d8 lightning damage and become Primed(Lightning) until the end of your next turn. This line can change direction\nonce, minimum after  (Like Shockwave's Controlled Shockwave advancement).\nYou cannot change the direction to hit creatures a second time.\nRegardless of your chosen focus, you have immunity to any detonation caused by primes inflicted from this ability\n",
+    "html": "<p>At 15th level, using further inspiration from Galaxy of Fantasy and with the help of your AI, you are now able to dash\nfurther in towards danger or to a safe distance without risking crashing into obstacles. Whenever you use your\nAdrenaline Rush, you can move up to <me-distance length=\"30\" /> to an unoccupied space you can see, unaffected by\nAttacks of Opportunity. This movement can occur before or after you perform your additional Action and does not\ncount towards your current Movement during your turn.</p>\n<p>In addition, your chosen focus as part of Tech Avenger will now provide this final additional upgrade:</p>\n<p><strong>Frostbite Strike</strong>: You may spend an additional Tech Point to add a further 1d8 damage to the total,\nthe creature then has to pass a Strength saving throw or become Frozen until start of your next turn. In addition, all\nother creatures within <me-distance length=\"10\" /> of your target (Except yourself) will have their\nmovement reduced by <me-distance length=\"10\" /> for their next turn and are <me-condition id=\"primed\" sub=\"cold\" />\nuntil the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: As a Bonus Action, you may spend 1 Tech Point to vent high amounts of heat from your\nomni-tool and armor. All creatures within <me-distance length=\"10\" /> of you must succeed on a Dexterity\nSaving throw or take 2d8 fire damage and be <me-condition id=\"primed\" sub=\"fire\" /> until the\nend of your next turn. Half damage on a success.</p>\n<p><strong>Storm Strike</strong>: In addition to normal Storm Strike, you may spend an additional Tech Point to cause a\n<me-distance length=\"30\" /> line of lightning to unleash from your weapon's strike going in the direction your target\nwas in, all creatures in the AoE (Including your attacked target) must succeed on a Dexterity saving throw or\ntake 2d8 lightning damage and become Primed(Lightning) until the end of your next turn. This line can change direction\nonce, minimum after <me-distance length=\"15\" /> (Like Shockwave's Controlled Shockwave advancement).\nYou cannot change the direction to hit creatures a second time.</p>\n<p>Regardless of your chosen focus, you have immunity to any detonation caused by primes inflicted from this ability</p>\n"
+  },
+  {
+    "id": "tech-strike",
+    "title": "Tech Strike",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "Starting from 3rd level, once per turn during a Melee Weapon attack, spending a minimum of 1 Tech Point, you can use\nyour omni-tool to enhance your wielded weapon's strike, limited to your Tech Point limit.\nYou may only have one Tech Strike program installed to your omni-tool per short or long rest.\nLike Melee Weapon attacks, this bonus damage also bypasses shields, but the damage dice from Tech Strike does not\ndouble on a critical hit. If you are using the Primers and Detonators ruleset, you have immunity to all\ndetonation effects of primes caused by your Tech Strike.\nThe Tech Strike can be upcasted, spending additional Tech Points to add 1d8 of the chosen strike's element to the\nattack's damage, per Tech Point spent. Upcasting does not increase the Blazing Strike's extra damage on the creature's next turn.\nTech Strike Programs\nFrostbite Strike: Your attack adds 2d8 Cold Damage, and the creature's movement is reduced by \nfor its next turn. The attack also inflicts the primed-cold condition until the end of your next turn.\nBlazing Strike: Your attack adds 2d8 Fire Damage, and your attack ignites the creature's wound for an extra\n1d8 fire damage on its next turn. The attack also inflicts the primed-fire condition until the end of your next turn.\nStorm Strike: Your attack adds 2d8 Lightning Damage, then the lightning will arc to another creature within \nof your choosing for half of the bonus lightning damage result. The attack also inflicts the primed-lightning\ncondition until the end of your next turn.\n",
+    "html": "<p>Starting from 3rd level, once per turn during a Melee Weapon attack, spending a minimum of 1 Tech Point, you can use\nyour omni-tool to enhance your wielded weapon's strike, limited to your Tech Point limit.</p>\n<p>You may only have one Tech Strike program installed to your omni-tool per short or long rest.</p>\n<p>Like Melee Weapon attacks, this bonus damage also bypasses shields, but the damage dice from Tech Strike does not\ndouble on a critical hit. If you are using the Primers and Detonators ruleset, you have immunity to all\ndetonation effects of primes caused by your Tech Strike.</p>\n<p>The Tech Strike can be upcasted, spending additional Tech Points to add 1d8 of the chosen strike's element to the\nattack's damage, per Tech Point spent. Upcasting does not increase the Blazing Strike's extra damage on the creature's next turn.</p>\n<h3>Tech Strike Programs</h3>\n<p><strong>Frostbite Strike:</strong> Your attack adds 2d8 Cold Damage, and the creature's movement is reduced by <me-distance length=\"15\" />\nfor its next turn. The attack also inflicts the <me-condition id=\"primed\" sub=\"cold\" /> condition until the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: Your attack adds 2d8 Fire Damage, and your attack ignites the creature's wound for an extra\n1d8 fire damage on its next turn. The attack also inflicts the <me-condition id=\"primed\" sub=\"fire\" /> condition until the end of your next turn.</p>\n<p><strong>Storm Strike</strong>: Your attack adds 2d8 Lightning Damage, then the lightning will arc to another creature within <me-distance length=\"5\" />\nof your choosing for half of the bonus lightning damage result. The attack also inflicts the <me-condition id=\"primed\" sub=\"lightning\" />\ncondition until the end of your next turn.</p>\n"
   },
   {
     "id": "teleporting-dodge",
@@ -8288,6 +8378,21 @@
     "link": false,
     "body": "By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.\n",
     "html": "<p>By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.</p>\n"
+  },
+  {
+    "id": "unnatural-reflexes",
+    "title": "Unnatural Reflexes",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Engi Knight",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, your AI has learned more about your own body's capabilities after spending extensive time understanding\nyour physiology. When an attack against you would result in a hit, as a Reaction, you may spend\n1 Tech Point to reduce the attack roll by 1d6.\n",
+    "html": "<p>At 7th level, your AI has learned more about your own body's capabilities after spending extensive time understanding\nyour physiology. When an attack against you would result in a hit, as a Reaction, you may spend\n1 Tech Point to reduce the attack roll by 1d6.</p>\n"
   },
   {
     "id": "unyielding-assault",

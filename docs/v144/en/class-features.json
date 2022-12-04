@@ -6154,6 +6154,96 @@
     "id": "powercasting-adept"
   },
   {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "type": "powercasting-points",
+        "multiclassConversion": 0.33,
+        "known": [
+          0,
+          0,
+          2,
+          3,
+          3,
+          3,
+          4,
+          5,
+          5,
+          6,
+          7,
+          7,
+          8,
+          9,
+          9,
+          10,
+          10,
+          10,
+          11,
+          12
+        ],
+        "prepared": false,
+        "points": [
+          0,
+          0,
+          2,
+          3,
+          3,
+          3,
+          6,
+          6,
+          8,
+          10,
+          10,
+          10,
+          12,
+          12,
+          12,
+          14,
+          16,
+          16,
+          20,
+          20
+        ],
+        "limit": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3
+        ],
+        "mod": "int"
+      },
+      {
+        "type": "use-class-for-power-list",
+        "klass": "engineer"
+      },
+      {
+        "type": "prevent-advancements"
+      }
+    ],
+    "name": "Powercasting",
+    "html": "<h3>Casting powers</h3>\n<p>The Engi Knight Powers table shows how many Tech Points you have to cast your powers of 1st level or higher. To cast one\nof these powers using the Engineer's power list, you must expend a number of Tech Points equal to the power's level or\nhigher. You regain all expended Tech Points when you finish a long rest.</p>\n<p>You are limited in the number of Tech Points you can spend to use a power as indicated in the Tech Point\nLimit column of the Engi Knight table.</p>\n<p>For example, a 9th level Engi Knight can cast powers for 1 or 2 Tech Points</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>Starting at 3rd level, you know two 1st-level powers of your choice from the Engineer power list. The Powers Known\ncolumn of the Engi Knight table shows when you learn more Engineer powers of your choice. Each of these powers must\nbe of a level for which you have Tech Points. For instance, when you reach 10th level in this subclass,\nyou can learn one new power of 1st or 2nd level.</p>\n<p>Engi Knights cannot use advancements to Engineer Powers, nor can your choice of learned powers be changed after\nlearning them as your AI is utilising these abilities on the Soldier's behalf, not the Soldier\nmaintaining the Omni-tool like an Engineer would.</p>\n<h3>Powercasting Ability</h3>\n<p>Engi Knights use a modified Omni-tool, maintained by your onboard Armor/Suit AI. As a Engi Knight, you use your\nIntelligence whenever a Tech Power refers to your Powercasting ability. In addition, you use your Intelligence\nmodifier when setting the saving throw DC for a Tech Power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n<h3>Engi Knight Powers</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Powers Known</th>\n<th>Tech Points</th>\n<th>Tech Point Limit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3rd</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>5</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>5</td>\n<td>8</td>\n<td>2</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>8</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>10</td>\n<td>14</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>11</td>\n<td>20</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>12</td>\n<td>20</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "powercasting-engi-knight"
+  },
+  {
     "level": 1,
     "klass": "engineer",
     "mechanics": [
@@ -8551,6 +8641,155 @@
     "id": "tech-ace"
   },
   {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "Tech Annihilation",
+        "subType": "action",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-annihilation"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-strike",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "tech-annihilation"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-avenger",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "tech-annihilation"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-avenger",
+          "limit": [
+            "other"
+          ]
+        },
+        "merge": {
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {
+                    "merge": {
+                      "notes": [
+                        {},
+                        "Spend 1 TP: +1d10 DMG and target must succeed on STR save or become <me-condition id=\"frozen\" /> and each creature within <me-distance length=\"10\" /> has movement reduced by <me-distance length=\"10\" /> + <me-condition id=\"primed\" sub=\"cold\" /> until the end of your next turn"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "type": "bonus-action",
+                    "range": {
+                      "short": 0,
+                      "aoe": {
+                        "type": "sphere",
+                        "size": 10
+                      }
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 2,
+                        "dieType": 10,
+                        "type": "fire"
+                      }
+                    ],
+                    "dc": {
+                      "base": 8,
+                      "proficient": "ture",
+                      "save": "dex",
+                      "mod": "int"
+                    },
+                    "shortDesc": "Spend 1 Tech Point. All creatures within <me-distance length=\"10\" /> of you must succeed on a {{ dc }} DEX Save or take {{ damage }} fire damage and be <me-condition id=\"primed\" sub=\"fire\" /> until the end of your next turn. Half damage on a success."
+                  }
+                ]
+              },
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "moreInfo": {
+                      "additional": [
+                        {
+                          "model": "class-features",
+                          "id": "tech-annihilation"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-obliteration"
+              },
+              {
+                "model": "class-features",
+                "id": "tech-annihilation"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Tech Annihilation",
+    "html": "<p>At 18th level, your Tech Strike and Tech Avenger damage dice increases from d8s to d10s, this includes the Blazing\nStrike's extra damage after the attack.</p>\n<p>Additionally, you recover 1 Tech Point whenever your Melee Weapon attack results on a critical hit on any\ncreature or a killing blow on a creature that is medium sized or larger. This includes regular Melee Weapon attacks.</p>\n",
+    "id": "tech-annihilation"
+  },
+  {
     "level": 1,
     "klass": "sentinel",
     "mechanics": [
@@ -9266,6 +9505,382 @@
     "id": "tech-aura-3"
   },
   {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "Tech Avenger",
+        "value": "Tech Avenger",
+        "moreInfo": [
+          {
+            "model": "class-features",
+            "id": "tech-avenger"
+          }
+        ]
+      },
+      {
+        "name": "Tech Strike Focus",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-avenger"
+        },
+        "type": "other",
+        "toggle": {
+          "id": "tech-strike-focus",
+          "options": [
+            {
+              "id": "tech-strike-focus-none",
+              "name": "None",
+              "whenOn": [
+                {
+                  "type": "powers",
+                  "value": "bec-field",
+                  "provider": {
+                    "model": "subclass",
+                    "id": "engi-knight"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tech-strike-focus-cold",
+              "name": "Frostbite Strike",
+              "whenOn": [
+                {
+                  "type": "powers",
+                  "value": "bec-field",
+                  "provider": {
+                    "model": "class-features",
+                    "id": "tech-avenger"
+                  },
+                  "merge": {
+                    "primed": "cold",
+                    "notes": [
+                      "Immune to detonations on this primer"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tech-strike-focus-fire",
+              "name": "Blazing Strike",
+              "whenOn": [
+                {
+                  "type": "powers",
+                  "value": "bec-field",
+                  "provider": {
+                    "model": "class-features",
+                    "id": "tech-avenger"
+                  },
+                  "merge": {
+                    "damage": [
+                      {},
+                      {
+                        "type": "fire"
+                      }
+                    ],
+                    "primed": "fire",
+                    "notes": [
+                      "Immune to detonations on this primer"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tech-strike-focus-lightning",
+              "name": "Storm Strike",
+              "whenOn": [
+                {
+                  "type": "powers",
+                  "value": "bec-field",
+                  "provider": {
+                    "model": "subclasses",
+                    "id": "engi-knight"
+                  },
+                  "merge": {
+                    "damage": [
+                      {},
+                      {
+                        "type": "lightning"
+                      }
+                    ],
+                    "primed": "lightning",
+                    "notes": [
+                      "Immune to detonations on this primer"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "name": "Tech Avenger",
+    "html": "<p>At 7th level, you always have the B.E.C Field power prepared (it does not count against your Powers Known in the\nEngi Knight Powers table). If you have B.E.C Field known in your list of powers, you may learn another Engineer Power.</p>\n<p>Additionally, you can now have two Tech Strike programs installed at once.</p>\n<p>After you have completed a long rest, you may choose an installed Tech Strike to focus your omni-tool's\nresource allocation to provide additional capabilities based on your chosen focus.</p>\n<h4>Tech Avenger Focus Upgrade</h4>\n<p><strong>Frostbite Strike</strong>: On top of the cold damage, the attacking creature will also be <me-condition id=\"primed\" sub=\"cold\" /> until the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: The damage type changes to fire and the attacking creature will also be <me-condition id=\"primed\" sub=\"fire\" /> until the end of your next turn.</p>\n<p><strong>Storm Strike</strong>: The damage type changes to lightning and will also be <me-condition id=\"primed\" sub=\"lightning\" /> until the end of your next turn.</p>\n<p>Regardless of your chosen focus upgrade, you have immunity on any detonations on primes caused by your B.E.C Field.</p>\n<p>You will gain additional bonuses with your chosen Tech Strike focus at 10th and 15th level.</p>\n",
+    "id": "tech-avenger"
+  },
+  {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-avenger",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-obliteration"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-strike",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-obliteration"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-avenger",
+          "limit": [
+            "other"
+          ]
+        },
+        "merge": {
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {},
+                  {
+                    "type": "resistance",
+                    "value": "cold"
+                  }
+                ]
+              },
+              {
+                "whenOn": [
+                  {},
+                  {
+                    "type": "resistance",
+                    "value": "fire"
+                  }
+                ]
+              },
+              {
+                "whenOn": [
+                  {},
+                  {
+                    "type": "resistance",
+                    "value": "lightning"
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-obliteration"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Tech Obliteration",
+    "html": "<p>At 10th level, your onboard AI has improved your omni-tool's power output for your strikes.\nYour Tech Strike damage dice will now double on critical hits.</p>\n<p>Additionally, you do not need to spend short or long rests installing Tech Strike programs anymore as your AI has\nmanaged to master the omni-tool's minimum processing requirements. You now permanently have all three Tech Strike\nprograms installed at once.</p>\n<p>Your chosen focus as part of Tech Avenger will now provide the following additional benefit:</p>\n<p><em><strong>Frostbite Strike</strong></em>: You have resistance to cold damage</p>\n<p><em><strong>Blazing Strike</strong></em>: You have resistance to fire damage</p>\n<p><em><strong>Storm Strike</strong></em>: You have resistance to lightning damage</p>\n",
+    "id": "tech-obliteration"
+  },
+  {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-strike",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-obliteration"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-avenger",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "tech-onslaught"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tech-avenger",
+          "limit": [
+            "other"
+          ]
+        },
+        "merge": {
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {
+                    "merge": {
+                      "notes": [
+                        {},
+                        "Spend 1 TP: +1d8 DMG and target must succeed on STR save or become <me-condition id=\"frozen\" /> and each creature within <me-distance length=\"10\" /> has movement reduced by <me-distance length=\"10\" /> + <me-condition id=\"primed\" sub=\"cold\" /> until the end of your next turn"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "type": "bonus-action",
+                    "name": "Tech Onslaught (Blazing Strike)",
+                    "layout": "stats-right",
+                    "range": {
+                      "short": 0,
+                      "aoe": {
+                        "type": "sphere",
+                        "size": 10
+                      }
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 2,
+                        "dieType": 8,
+                        "type": "fire"
+                      }
+                    ],
+                    "dc": {
+                      "base": 8,
+                      "proficient": "ture",
+                      "save": "dex",
+                      "mod": "int"
+                    },
+                    "shortDesc": "Spend 1 Tech Point. All creatures within <me-distance length=\"10\" /> of you must succeed on a {{ dc }} DEX Save or take {{ damage }} fire damage and be <me-condition id=\"primed\" sub=\"fire\" /> until the end of your next turn. Half damage on a success."
+                  }
+                ]
+              },
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "type": "global-note",
+                    "subType": "action",
+                    "value": "Tech Onslaught (Storm Strike)",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "tech-onslaught"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-obliteration"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Tech Onslaught",
+    "html": "<p>At 15th level, using further inspiration from Galaxy of Fantasy and with the help of your AI, you are now able to dash\nfurther in towards danger or to a safe distance without risking crashing into obstacles. Whenever you use your\nAdrenaline Rush, you can move up to <me-distance length=\"30\" /> to an unoccupied space you can see, unaffected by\nAttacks of Opportunity. This movement can occur before or after you perform your additional Action and does not\ncount towards your current Movement during your turn.</p>\n<p>In addition, your chosen focus as part of Tech Avenger will now provide this final additional upgrade:</p>\n<p><strong>Frostbite Strike</strong>: You may spend an additional Tech Point to add a further 1d8 damage to the total,\nthe creature then has to pass a Strength saving throw or become Frozen until start of your next turn. In addition, all\nother creatures within <me-distance length=\"10\" /> of your target (Except yourself) will have their\nmovement reduced by <me-distance length=\"10\" /> for their next turn and are <me-condition id=\"primed\" sub=\"cold\" />\nuntil the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: As a Bonus Action, you may spend 1 Tech Point to vent high amounts of heat from your\nomni-tool and armor. All creatures within <me-distance length=\"10\" /> of you must succeed on a Dexterity\nSaving throw or take 2d8 fire damage and be <me-condition id=\"primed\" sub=\"fire\" /> until the\nend of your next turn. Half damage on a success.</p>\n<p><strong>Storm Strike</strong>: In addition to normal Storm Strike, you may spend an additional Tech Point to cause a\n<me-distance length=\"30\" /> line of lightning to unleash from your weapon's strike going in the direction your target\nwas in, all creatures in the AoE (Including your attacked target) must succeed on a Dexterity saving throw or\ntake 2d8 lightning damage and become Primed(Lightning) until the end of your next turn. This line can change direction\nonce, minimum after <me-distance length=\"15\" /> (Like Shockwave's Controlled Shockwave advancement).\nYou cannot change the direction to hit creatures a second time.</p>\n<p>Regardless of your chosen focus, you have immunity to any detonation caused by primes inflicted from this ability</p>\n",
+    "id": "tech-onslaught"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Tech Strike",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-strike"
+        }
+      }
+    ],
+    "name": "Tech Strike",
+    "html": "<p>Starting from 3rd level, once per turn during a Melee Weapon attack, spending a minimum of 1 Tech Point, you can use\nyour omni-tool to enhance your wielded weapon's strike, limited to your Tech Point limit.</p>\n<p>You may only have one Tech Strike program installed to your omni-tool per short or long rest.</p>\n<p>Like Melee Weapon attacks, this bonus damage also bypasses shields, but the damage dice from Tech Strike does not\ndouble on a critical hit. If you are using the Primers and Detonators ruleset, you have immunity to all\ndetonation effects of primes caused by your Tech Strike.</p>\n<p>The Tech Strike can be upcasted, spending additional Tech Points to add 1d8 of the chosen strike's element to the\nattack's damage, per Tech Point spent. Upcasting does not increase the Blazing Strike's extra damage on the creature's next turn.</p>\n<h3>Tech Strike Programs</h3>\n<p><strong>Frostbite Strike:</strong> Your attack adds 2d8 Cold Damage, and the creature's movement is reduced by <me-distance length=\"15\" />\nfor its next turn. The attack also inflicts the <me-condition id=\"primed\" sub=\"cold\" /> condition until the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: Your attack adds 2d8 Fire Damage, and your attack ignites the creature's wound for an extra\n1d8 fire damage on its next turn. The attack also inflicts the <me-condition id=\"primed\" sub=\"fire\" /> condition until the end of your next turn.</p>\n<p><strong>Storm Strike</strong>: Your attack adds 2d8 Lightning Damage, then the lightning will arc to another creature within <me-distance length=\"5\" />\nof your choosing for half of the bonus lightning damage result. The attack also inflicts the <me-condition id=\"primed\" sub=\"lightning\" />\ncondition until the end of your next turn.</p>\n",
+    "id": "tech-strike"
+  },
+  {
     "level": 14,
     "klass": "vanguard",
     "subclass": "nemesis",
@@ -9965,6 +10580,33 @@
     ],
     "html": "<p>By 20th level, your control over mass rivals no other. Your Wisdom score increases by 4 and your maximum Wisdom is now 24.</p>\n",
     "id": "unmatched-biotics"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "engi-knight",
+    "mechanics": [
+      {
+        "name": "Unnatural Reflexes",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "unnatural-reflexes"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieType": 6,
+            "dieCount": 1,
+            "type": false,
+            "label": "Reflex Die"
+          }
+        ],
+        "shortDesc": "When an attack against you would result in a hit, you may spend 1 Tech Point to reduce the attack roll by 1d6."
+      }
+    ],
+    "name": "Unnatural Reflexes",
+    "html": "<p>At 7th level, your AI has learned more about your own body's capabilities after spending extensive time understanding\nyour physiology. When an attack against you would result in a hit, as a Reaction, you may spend\n1 Tech Point to reduce the attack roll by 1d6.</p>\n",
+    "id": "unnatural-reflexes"
   },
   {
     "level": 14,
