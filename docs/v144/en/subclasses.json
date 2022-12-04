@@ -3,7 +3,7 @@
     "klass": "soldier",
     "name": "Armiger",
     "author": "Spagheddy",
-    "html": "<p>Trained by the Armiger Legion, your combat style revolves around staying in the air and raining down death to your enemies.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>Trained by the Armiger Legion, your combat style revolves around staying in the air and raining down death to your enemies.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "armiger"
   },
   {
@@ -49,7 +49,7 @@
     "klass": "vanguard",
     "name": "Cabal",
     "author": "Spagheddy",
-    "html": "<p>&quot;The Intangible Is Unbeatable&quot;. That is the motto of the Turian Cabal corps. Traditionally called &quot;Cabalin&quot;, these\ntroops handle sensitive missions for the Hierarchy, including assassinations. You are part of this elite squad.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>&quot;The Intangible Is Unbeatable&quot;. That is the motto of the Turian Cabal corps. Traditionally called &quot;Cabalin&quot;, these\ntroops handle sensitive missions for the Hierarchy, including assassinations. You are part of this elite squad.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "cabal"
   },
   {
@@ -76,7 +76,7 @@
     "klass": "infiltrator",
     "name": "Devotee of the Old Ways",
     "author": "Spagheddy",
-    "html": "<p>Most of your species, when brought under the Compact, started worshipping the Enkindlers, together with their\nHanar masters. You, however, remember the old ways, and you pray for them for your strength. Surprisingly, sometimes... they listen.</p>\n<p><strong>Restricted to Drell</strong>: This subclass is canonically only available to Drell characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>Most of your species, when brought under the Compact, started worshipping the Enkindlers, together with their\nHanar masters. You, however, remember the old ways, and you pray for them for your strength. Surprisingly, sometimes... they listen.</p>\n<p><strong>Restricted to Drell</strong>: This subclass is canonically only available to Drell characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "devotee-of-the-old-ways"
   },
   {
@@ -126,7 +126,7 @@
     "klass": "adept",
     "name": "Justicar",
     "author": "Spagheddy",
-    "html": "<p>Proud and traditional, Justicars take up a life of servitude to their Code. Going around the galaxy and righting\nwrongs, some consider the Justicars extreme. Of course, with such devotion, come great power...</p>\n<p><strong>Restricted to Asari</strong>: This subclass is canonically only available to Asari characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>Proud and traditional, Justicars take up a life of servitude to their Code. Going around the galaxy and righting\nwrongs, some consider the Justicars extreme. Of course, with such devotion, come great power...</p>\n<p><strong>Restricted to Asari</strong>: This subclass is canonically only available to Asari characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "justicar"
   },
   {
@@ -152,8 +152,15 @@
     "klass": "soldier",
     "name": "Migrant Marine",
     "author": "Spagheddy",
-    "html": "<p>The Migrant Marines are an expeditionary force, used for key precision missions within Geth territory for the\nbetterment of the Floatilla. Be it for research or for gauging enemy strengths, you've optimized your combat tools for\nanalysis: everything has a weak point, and you know how to hit it hard.</p>\n<p><strong>Restricted to Quarian</strong>: This subclass is canonically only available to Quarian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>The Migrant Marines are an expeditionary force, used for key precision missions within Geth territory for the\nbetterment of the Floatilla. Be it for research or for gauging enemy strengths, you've optimized your combat tools for\nanalysis: everything has a weak point, and you know how to hit it hard.</p>\n<p><strong>Restricted to Quarian</strong>: This subclass is canonically only available to Quarian characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "migrant-marine"
+  },
+  {
+    "klass": "soldier",
+    "name": "Nanobreaker",
+    "author": "Spagheddy",
+    "html": "<p>Your body has been imrpoved by the use of nanotechnology. You can do things with your naked body people in power armor\ncarrying heavy weapons would only dream off. And when they ask what that power is, all you need to is say... &quot;Nanomachines, son.&quot;</p>\n<p><strong>Restricted to Organics</strong>: This subclass is thematically only available to organic species. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "nanobreaker"
   },
   {
     "klass": "vanguard",
@@ -211,6 +218,13 @@
     "id": "path-of-war"
   },
   {
+    "klass": "adept",
+    "name": "Phasic",
+    "author": "Spagheddy",
+    "html": "<p>Your biotics are specialized to pass through energy fields without problem. With study and intent, you can even\nphase them through matter to attack targets from within.</p>\n",
+    "id": "phasic"
+  },
+  {
     "klass": "infiltrator",
     "name": "Pistolero",
     "author": "Spagheddy",
@@ -252,7 +266,7 @@
     "klass": "engineer",
     "name": "STG",
     "author": "Spagheddy",
-    "html": "<p>Disruption and preemptive strikes are the hallmarks of the Special Tasks Group. Using cunning and technology, you\nseek to capitalize on every advantage you can get, and strike before your enemies even know what hit them.</p>\n<p><strong>Restricted to Salarian</strong>: This subclass is canonically only available to Salarian characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>Disruption and preemptive strikes are the hallmarks of the Special Tasks Group. Using cunning and technology, you\nseek to capitalize on every advantage you can get, and strike before your enemies even know what hit them.</p>\n<p><strong>Restricted to Salarian</strong>: This subclass is canonically only available to Salarian characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "stg"
   },
   {
@@ -273,7 +287,7 @@
     "klass": "sentinel",
     "name": "Warlord",
     "author": "Spagheddy",
-    "html": "<p>War is in your blood, through all of your hearts. You eat, sleep and eat battle. It is you, and you are determined to prove that you are superior to whoever challenges you.</p>\n<p><strong>Restricted to Krogan</strong>: This subclass is canonically only available to Krogan characters. Consult with your DM about waiving the racial restriction.</p>\n",
+    "html": "<p>War is in your blood, through all of your hearts. You eat, sleep and eat battle. It is you, and you are determined to prove that you are superior to whoever challenges you.</p>\n<p><strong>Restricted to Krogan</strong>: This subclass is canonically only available to Krogan characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "warlord"
   },
   {

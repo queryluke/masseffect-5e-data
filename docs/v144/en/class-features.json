@@ -3494,6 +3494,61 @@
     "id": "hardened-tech-armor"
   },
   {
+    "name": "Hardened",
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "nanobreaker",
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 14,
+        "mod": "con"
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "nanite-combat",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "dieCount": 2
+            }
+          ],
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "value": "hardened"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "resistance",
+        "value": "bludgeoning",
+        "note": "while not wearing armor"
+      },
+      {
+        "type": "resistance",
+        "value": "piercing",
+        "note": "while not wearing armor"
+      },
+      {
+        "type": "resistance",
+        "value": "slashing",
+        "note": "while not wearing armor"
+      }
+    ],
+    "html": "<p>At 10th level, your nanomachine advancements make you even more resilient to trauma, allowing you to hit harder and last longer.</p>\n<p>When not wearing armor or wielding a shield, you gain resistance to bludgeoning, slashing and piercing damage.</p>\n<ul>\n<li>Your unarmed strikes now deal 2d8 bludgeoning damage instead of 1d8.</li>\n<li>Your Nanite Armor's AC is now 14+Con Modifier</li>\n</ul>\n",
+    "id": "hardened"
+  },
+  {
     "level": 3,
     "klass": "musician",
     "subclass": "operatic",
@@ -4846,6 +4901,269 @@
     "id": "musicians-touch"
   },
   {
+    "name": "Nanite Apotheosis",
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "nanobreaker",
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 16,
+        "mod": "con"
+      },
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 15
+        }
+      },
+      {
+        "type": "speed-note",
+        "note": "Your long jump and high jump distance is tripled"
+      },
+      {
+        "name": "Nanite Apothesis (regen)",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "nanite-apotheosis"
+        },
+        "type": "other",
+        "shortDesc": "Whenever you are conscious and below half your hit point maximum, regain {{ 5 + conMod }} hit points per turn until you are at or above half of your hit points."
+      },
+      {
+        "name": "Nanite Apothesis (unarmed strikes)",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "nanite-apotheosis"
+        },
+        "type": "other",
+        "shortDesc": "Your unarmed strikes deal an extra 1d8 fire, lightning, or force damage. You can change the damage type when you take a long rest.",
+        "toggle": {
+          "id": "nanite-apotheosis",
+          "options": [
+            {
+              "id": "nanite-apotheosis-fire",
+              "name": "Fire",
+              "whenOn": [
+                {
+                  "type": "augment",
+                  "value": {
+                    "model": "soldier",
+                    "id": "nanite-combat",
+                    "limit": [
+                      "attack"
+                    ]
+                  },
+                  "merge": {
+                    "damage": [
+                      {},
+                      {
+                        "dieCount": 1,
+                        "dieType": 8,
+                        "type": "fire",
+                        "addTo": "base"
+                      }
+                    ],
+                    "moreInfo": {
+                      "additional": [
+                        {},
+                        {
+                          "model": "class-features",
+                          "id": "nanite-apotheosis"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "nanite-apotheosis-lightning",
+              "name": "Lightning",
+              "whenOn": [
+                {
+                  "type": "augment",
+                  "value": {
+                    "model": "soldier",
+                    "id": "nanite-combat",
+                    "limit": [
+                      "attack"
+                    ]
+                  },
+                  "merge": {
+                    "damage": [
+                      {},
+                      {
+                        "dieCount": 1,
+                        "dieType": 8,
+                        "type": "lightning",
+                        "addTo": "base"
+                      }
+                    ],
+                    "moreInfo": {
+                      "additional": [
+                        {},
+                        {
+                          "model": "class-features",
+                          "id": "nanite-apotheosis"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "nanite-apotheosis-fire",
+              "name": "Force",
+              "whenOn": [
+                {
+                  "type": "augment",
+                  "value": {
+                    "model": "soldier",
+                    "id": "nanite-combat",
+                    "limit": [
+                      "attack"
+                    ]
+                  },
+                  "merge": {
+                    "damage": [
+                      {},
+                      {
+                        "dieCount": 1,
+                        "dieType": 8,
+                        "type": "force",
+                        "addTo": "base"
+                      }
+                    ],
+                    "moreInfo": {
+                      "additional": [
+                        {},
+                        {
+                          "model": "class-features",
+                          "id": "nanite-apotheosis"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>At 18th level, your nanoamchines are so adapted to you you couldn't fathom living without them. In turn, they make you\nmore than superhuman in combat.</p>\n<ul>\n<li>Whenever you're conscious and below half your hit point maximum, regain 5 + Con hit points per turn until you are at or above half of your hit points.</li>\n<li>Your speed increases by 6 meters</li>\n<li>Your long jump and high jump distance triples</li>\n<li>Your unarmed attacks deal 1d8 extra damage. This extra damage is either Fire, Lightning or Force damage, and you can change it when you take a long rest.</li>\n<li>Your Nanite Armor's AC is now 16+ Con modifier.</li>\n</ul>\n",
+    "id": "nanite-apotheosis"
+  },
+  {
+    "name": "Nanite Armor",
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "nanobreaker",
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 12,
+        "mod": "con"
+      }
+    ],
+    "html": "<p>At 3rd level, your nanomachines harden in response to physical trauma, protecting you from physical damage. When you\naren't wearing any armor and not using a Riot Shield, your AC is equal to 12+ your Constitution Modifier.</p>\n<p>In addition, you can install mods into your own person. Doing so costs twice as much omni-gel as it would normally\ncost to install an armor mod normally, and you can't use credits for this process. You can install 2 chest mods,\none helmet mod, one arm mod and one leg mod.</p>\n",
+    "id": "nanite-armor"
+  },
+  {
+    "name": "Nanite Combat",
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "nanobreaker",
+    "mechanics": [
+      {
+        "name": "Unarmed Strike*",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "nanite-combat"
+        },
+        "type": "attack",
+        "modelType": {
+          "model": "weapon",
+          "type": "melee"
+        },
+        "range": {
+          "short": 5
+        },
+        "attack": {
+          "type": "melee",
+          "proficient": true,
+          "bonus": {
+            "type": "modComparison",
+            "value": [
+              "dex",
+              "str"
+            ]
+          }
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "bludgeoning",
+            "bonus": {
+              "type": "modComparison",
+              "value": [
+                "dex",
+                "str"
+              ]
+            }
+          }
+        ],
+        "notes": [
+          "* - while note wearing armor or wielding a riot shield"
+        ]
+      }
+    ],
+    "html": "<p>Also 3rd level, your hardening nanomachines let your bare handed attacks strike as hard as gunshots. Your unarmed\nstrikes deal 1d8 damage when you're unarmored and not using a Riot Shield. You can chose to use your Strength or your\nDexterity modifier for these attacks, but you must use the same modifier for both rolls.</p>\n<p>You can use your bonus action when making an attack roll with unarmed strikes to make another unarmed strike.</p>\n",
+    "id": "nanite-combat"
+  },
+  {
+    "name": "Nano Shielding",
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "nanobreaker",
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 13,
+        "mod": "con"
+      },
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "level",
+          "value": "soldier"
+        },
+        "regen": {
+          "type": "proficiency"
+        },
+        "additive": false
+      },
+      {
+        "name": "Nano Shielding",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "nano-shielding"
+        },
+        "type": "other",
+        "shortDesc": "You have a special shield capacity equal to your Soldier level that is not vulnerable to Lightning damage and melee weapons do not bypass it. Every turn at the beginning of your turn, you recover {{ profBonus }} shield points, even if you attacked in the previous round."
+      }
+    ],
+    "html": "<p>At 7th level, your nanomachines emit an electromagnetic field strong enough to project a shield around you. You gain a\nspecial kind of shield, with shield points equal to your Soldier level. These shields are not considered\nvulnerable to Lightning damage, and melee weapons do not bypass it. Every turn at the beginning of your turn,\nyou recover your Proficiency modifier shield points, even if you attacked in the previous round.</p>\n<p>Your Nanite Armor's AC is now 13+Con Modifier.</p>\n",
+    "id": "nano-shielding"
+  },
+  {
     "level": 7,
     "klass": "soldier",
     "subclass": "armiger",
@@ -5350,6 +5668,59 @@
     "id": "personal-armament"
   },
   {
+    "name": "Phase Body",
+    "level": 6,
+    "klass": "adept",
+    "subclass": "phasic",
+    "mechanics": [
+      {
+        "name": "Phase Body",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "phase-body"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 6,
+            "label": "Phase Die"
+          }
+        ],
+        "resource": {
+          "id": "phase-body",
+          "reset": "long",
+          "max": {
+            "type": "mod",
+            "value": "wis"
+          }
+        },
+        "shortDesc": "If your barrier is up and you would take damage from an area of effect power or an attack, roll a d6. On a roll of 4 or more, you avoid the damage completely."
+      }
+    ],
+    "html": "<p>At 6th level, you gain a special reaction you can use only when your barrier is up. If you would take damage\nfrom an area of effect power or an attack, you can use your reaction to roll 1d6. If you roll a 4 or more,\nyou avoid the damage completely. You can use this reaction a number of times equal to your\nWisdom modifier, and regain all uses on a long rest.</p>\n",
+    "id": "phase-body"
+  },
+  {
+    "name": "Phase Through Matter",
+    "level": 2,
+    "klass": "adept",
+    "subclass": "phasic",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Phasic Powers",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "phase-through-matter"
+        }
+      }
+    ],
+    "html": "<p>At 2nd level, your powers are tuned to bypass shields. When you cast a power or a cantrip, you can chose to\nlower it's damage die by one size. If you do so, the damage of the power ignores shields and barrier.</p>\n",
+    "id": "phase-through-matter"
+  },
+  {
     "level": 14,
     "klass": "engineer",
     "subclass": "chemist",
@@ -5401,6 +5772,33 @@
     "name": "Pick your Poison",
     "html": "<p>When you first pick this subclass at 2nd level, choose one of the following powers: Noxious Gas or Fuel Spill.</p>\n<p>You are always considered to have this spell prepared, and it doesn't count towards your total spells known.\nYou also gain proficiency with the chemist's kit.</p>\n<p>Additionally, when you use Fuel Spill or Noxious Gas, you are now able to have a\nmaximum of 3 areas of those powers active at once.</p>\n",
     "id": "pick-your-poison"
+  },
+  {
+    "name": "Piercing Power",
+    "level": 10,
+    "klass": "adept",
+    "subclass": "phasic",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "phase-through-matter"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "piercing-power"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 10th level, your powers can pierce through organic matter and keep going. When you cast a power and chose to reduce\nit's damage die size to make it bypass shields, the power also targets another target behind your primary target.\nAlternatively, you can chose to instead make your power phase through solid non organic matter, allowing it to bypass all cover.</p>\n",
+    "id": "piercing-power"
   },
   {
     "level": 15,
@@ -8086,6 +8484,26 @@
     "id": "tactical-sweep"
   },
   {
+    "name": "Tank Through",
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "nanobreaker",
+    "mechanics": [
+      {
+        "type": "natural-armor",
+        "base": 15,
+        "mod": "con"
+      },
+      {
+        "type": "type",
+        "name": "Tank Through",
+        "shortDesc": "Halve an attack's damage aimed against you."
+      }
+    ],
+    "html": "<p>At 15th level, your nanomachines can resist wounds that would kill off most normal people. You can chose to use your\nreaction to halve an attack's damage aimed against you.</p>\n<p>Your Nanite Armor's AC is now 15+Con Modifier</p>\n",
+    "id": "tank-through"
+  },
+  {
     "level": 3,
     "klass": "explorer",
     "subclass": "path-of-cyber",
@@ -9683,6 +10101,34 @@
     "name": "Venom Training",
     "html": "<p>You are trained in the Cabal's signature style of biotics. When you gain this feature at 3rd level, you integrate a\nspecial melee weapon onto your armor: the Cabal Venom Gauntlets. These weapons have the Special and Finesse tags, and\ndeal 1d8 Poison damage on a hit. When you wear Venom Gauntlets, you wear them as a pair, and can thus make an extra\nattack as a bonus action when you use your action to make an attack with them.</p>\n",
     "id": "venom-training"
+  },
+  {
+    "name": "Vital Power Strike",
+    "level": 14,
+    "klass": "adept",
+    "subclass": "phasic",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "phase-through-matter"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "vital-power-strike"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 14th level, you learn how to aim for your target's vitals when you cast a power. When you cast a power and chose\nto reduce it's damage die size to make it bypass shields, the power crits on a roll of 19 or 20. You cannot use\nthis feature in tandem with Piercing Power: you must chose which feature to use before you roll your power attack roll.</p>\n",
+    "id": "vital-power-strike"
   },
   {
     "level": 11,
