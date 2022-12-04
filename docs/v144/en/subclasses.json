@@ -46,6 +46,13 @@
     "id": "bloodhound"
   },
   {
+    "klass": "engineer",
+    "name": "Bowman",
+    "author": "Spagheddy",
+    "html": "<p>You are a specialist with the Omni-Bow, able to utilize your technical expertise and your combat\nacumen to bring a more civilized weapon to a more advanced age.</p>\n",
+    "id": "bowman"
+  },
+  {
     "klass": "vanguard",
     "name": "Cabal",
     "author": "Spagheddy",
@@ -97,6 +104,13 @@
     "author": "Tech Knight",
     "html": "<p>After the Morning War, the Geth were feared as the monsters in the darkness to Quarian children. One Quarian, during\nhis pilgrimage was exposed to a video game called Galaxy of Fantasy, and was inspired to become the hero that defended\nthe helpless against the Geth and beyond. He tinkered with his omni-tool for years to try and make his bladed weapons\nbetter than anything ever seen before, but two things were holding him back from realising the true potential of his\nvision; Power Optimisation and Stabilty.</p>\n<p>It was impossible for a creature of flesh and bone to be able to master the fast corrections needed to stop his Omni-tool\nfrom overloading from extensive use, and a VI didn't seem to be enough for the task. In order to fix this problem, he\nhad to turn to the most forbidden practices among his people; designing a new Artificial Intelligence for his armor and\nomni-tool.</p>\n<p>&quot;While you were looking for gifts on your pilgrimage, I was studying the convergence of the blade and the Omni-tool.&quot;</p>\n<p>You can work with your GM to give your AI a personality if you wish, but given the amount of processing power required\nto optimise and stabilise your Omni-tool, it won't be any real assistance to tasks outside of combat, it'll just be an\nAI that can perform VI-level tasks or to simply talk to.</p>\n",
     "id": "engi-knight"
+  },
+  {
+    "klass": "adept",
+    "name": "Fury",
+    "author": "Spagheddy",
+    "html": "<p>Terrifying and elusive, Furies are highly skilled biotic combatants. Unlike other kinds of Adept, these warrior prefer\nto be closer to their target, unleashing devastating assaults before blinking away with nothing but a thought.</p>\n<p><strong>Restricted to Human</strong>: This subclass is canonically only available to Human characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "fury"
   },
   {
     "klass": "soldier",
@@ -237,6 +251,13 @@
     "author": "Spagheddy",
     "html": "<p>Sometimes a big iron at your hip is all you need to face down the horrors of the galaxy. You specialize in the use of\nsmall arms, particularly pistols, to make a name for yourself in the galaxy.</p>\n",
     "id": "pistolero"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Ravager",
+    "author": "Tech Knight",
+    "html": "<p>Maybe it was an accident, maybe it was due to messing with their L3 implants. Whatever the reason, their implants have\nbeen damaged at some point in their life and has caused some strange side effects with their powers that can only be\nmatched by their ferocity in battle. Ravagers are unpredictable once they power up for the bloodbath ahead.</p>\n",
+    "id": "ravager"
   },
   {
     "klass": "infiltrator",

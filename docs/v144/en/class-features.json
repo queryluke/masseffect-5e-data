@@ -546,6 +546,25 @@
     "id": "atomic-reactions"
   },
   {
+    "level": 18,
+    "klass": "engineer",
+    "subclass": "bowman",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "Ballista",
+        "subType": "power",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "ballista"
+        }
+      }
+    ],
+    "name": "Ballista",
+    "html": "<p>At 18th level, your Bowshot now adds your proficiency modifier to their damage, in the form of the\nelemental effect of your Engineer's Efficiency spell.</p>\n",
+    "id": "ballista"
+  },
+  {
     "name": "Banish",
     "level": 17,
     "klass": "infiltrator",
@@ -950,6 +969,25 @@
     ],
     "html": "<p>At 6th level, you choose one biotic cantrip you know and one biotic power of 1st level you know.\nYou may cast either power as an attack.</p>\n<p>By spending 8 hours training, you can exchange one or both of the powers you chose for different powers of the same levels.</p>\n",
     "id": "biotic-attacks"
+  },
+  {
+    "level": 3,
+    "klass": "vanguard",
+    "subclass": "ravager",
+    "name": "Biotic Awareness",
+    "mechanics": [
+      {
+        "name": "Biotic Awareness",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-awareness"
+        },
+        "type": "action",
+        "shortDesc": "You can sense any biotic users or creatures within <me-distance length=\"60\" />, even if they're stealthed, so long as they're not behind full cover."
+      }
+    ],
+    "html": "<p>At 3rd level, your implants have the capability to react to other biotics in the area, like a hazy sixth sense.\nAs an action, you can sense any biotic users or creatures within <me-distance length=\"60\" />, even if they're\nstealthed, so long as they're not behind full cover.</p>\n",
+    "id": "biotic-awareness"
   },
   {
     "level": 6,
@@ -1507,6 +1545,62 @@
     "id": "biotic-surge"
   },
   {
+    "level": 3,
+    "klass": "vanguard",
+    "subclass": "ravager",
+    "name": "Biotic Wrath",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Biotic Wrath",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-wrath"
+        }
+      }
+    ],
+    "html": "<p>At 3rd level, as you begin powering up for battle, your implant reacts strangely and surges in different ways.\nWhenever you activate your barrier, roll a d8. Consult the Biotic Wrath effects (D8) table as to\nthe additional ability your barrier will give you.</p>\n<p>This effect lasts until your barrier is depleted to 0 ticks or expired after its usual 1 minute duration.</p>\n<h5>Biotic Wrath Effects</h5>\n<p><strong>1</strong>: <em>Your Barrier has surged in power and density, and any bullet or attack that impacts the barrier will strike back at any attacker.</em></p>\n<p>Any time you roll your barrier to reduce damage from a weapon attack, the attacking creature will take force damage equal to your damage reduction roll result.</p>\n<p><strong>2</strong>: <em>A small ongoing surge of biotic energy emits from your barrier into a sort of biotically charged micro-storm.\nYou are able to channel this energy around you to strike unsuspecting foes while on your own rampage.</em></p>\n<p>A spark of unstable biotic energy appears within <me-distance length=\"5\" /> of one of creature of your choice within\n<me-distance length=\"30\" />, at the end of your current turn, each creature within <me-distance length=\"5\" /> of the\ntargeted location must make a Dex save using your power save DC or take 1d8 force damage. While\nyour barrier is active on every other turn, this spark can be used again as a bonus action.</p>\n<p>At 10th level, the spark's damage increases to 2d8.</p>\n<p><strong>3</strong>: <em>Your barrier becomes eclipsed with a secondary wave of biotic energy that arcs around you in a partially protective bubble.</em></p>\n<p>While your barrier is active, all ranged attacks originating from beyond <me-distance length=\"30\" /> away from you will have disadvantage when targeting you.</p>\n<p>At 10th level, this protection also applies to all allied creatures within <me-distance length=\"5\" /> of you at the time of the attack.</p>\n<p><strong>4</strong>: <em>Your barrier's energy matches with your battle hardened rage and is ready to unleash upon all that rush to fight you face to face.</em></p>\n<p>While your barrier is active, you may spend 1 barrier tick to cast Nova as a Bonus Action, but locked to only 1 barrier\ntick when calculating damage. This version of Nova ignores the requirement to spend all barrier ticks and does not\nuse any advancements, if known.</p>\n<p><strong>5</strong>: <em>Your equipped weapon temporarily becomes one with your biotic energy coursing within you.</em></p>\n<p>When you perform a weapon attack while your barrier is active, you may change your damage to Force for the attack.\nIf you hit the target creature and it is categorised large or smaller, they must then succeed on a Strength saving\nthrow against your Powercasting save DC or be pushed back <me-distance length=\"10\" /> and become knocked prone.\nThis effect can only be applied to one weapon per turn.</p>\n<p>At 10th level, your enhanced weapon will also inflict an additional 1d8 force damage.</p>\n<p><strong>6</strong>: <em>Your barrier warps and is always changing shape, making it able to lash out at foes far away.</em></p>\n<p>While your barrier is active, you may spend 1 Barrier Tick to cast Phase Disruptor at a range of <me-distance length=\"50\" />\nas a Bonus Action and add your Powercasting modifier to the damage. This version of Phase Disruptor does not\nbenefit from advancements, if known and is locked to one barrier tick when calculating amount of beams.</p>\n<p>At 10th level, you may spend 2 barrier ticks to fire two beams with Phase Disruptor</p>\n<p><strong>7</strong>: <em>Your Barrier lashes out with unstable energy and takes essence from your foes to power it further beyond normal means.</em></p>\n<p>At the time of starting your barrier, each creature of your choice within <me-distance length=\"30\" /> of you must\nsucceed on a Constitution saving throw or take 1d12 Necrotic damage. You will also gain temporary hit points equal to\n1d12 plus your Vanguard level.</p>\n<p><strong>8</strong>: <em>You're able to channel extra energy into your barrier for more defense in the form of a vortex, surrounding you like a micro biotic tornado.</em></p>\n<p>You have a bonus of +1 to your total AC.</p>\n<p>As a Bonus Action, you may spend 1 Barrier tick to activate the vortex, performing the Dodge action. This Dodge bonus\naction also coincides with kickstarting shield regeneration, as per normal rules.</p>\n<p>At 10th level, you gain a +1 bonus to all saving throws in addition to your AC bonus.</p>\n",
+    "id": "biotic-wrath"
+  },
+  {
+    "level": 10,
+    "klass": "adept",
+    "subclass": "fury",
+    "name": "Blast Zone",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "Blast Zone",
+        "subType": "defenses",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "blast-zone"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "furycasting"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "blast-zone"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 10th level, you are immune to the effects of detonations you trigger. In addition, you may spend your reaction to\nadd your Wisdom modifier to a detonation you triggered via a power you Furycast.</p>\n",
+    "id": "blast-zone"
+  },
+  {
     "level": 14,
     "klass": "infiltrator",
     "name": "Blindsense",
@@ -1598,6 +1692,33 @@
     "name": "Bloodseeker",
     "html": "<p>Starting at 10th level, your beast is able to follow up on your targeting and chases with the same, if not more ferocity.</p>\n<p>When you affect a creature with Shot in the Heel, your beast can use it reaction to immediately move up to its\nmovement speed towards the affected creature, and if it has a weapon that is in range, it can make one attack against that creature.</p>\n",
     "id": "bloodseeker"
+  },
+  {
+    "level": 6,
+    "klass": "vanguard",
+    "subclass": "ravager",
+    "name": "Bolstering Biotics",
+    "mechanics": [
+      {
+        "name": "Bolstering Biotics",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "bolstering-biotics"
+        },
+        "type": "action",
+        "damage": [
+          {
+            "dieType": 3,
+            "dieCount": 1,
+            "type": false,
+            "label": "Bolster Die"
+          }
+        ],
+        "shortDesc": "Touch a creature and that creature rolls a d3 (roll a d6 and halve the result, rounded up). That creature regains an expended Biotic Power slot of the number rolled or lower (Sentinels however will simply regain a single expended power slot, no roll required). Once a creature receives this benefit, that creature can't receive it again until after a long rest."
+      }
+    ],
+    "html": "<p>At 6th level, the surge of your biotic powers has become wild enough to arc into others and rejuvenate their own stamina\nto use more biotics when they need them.</p>\n<p>As an Action, you can touch a creature and that creature rolls a d3 (roll a d6 and halve the result, rounded up). That creature\nregains an expended Biotic Power slot of the number rolled or lower (Sentinels however will simply regain a single\nexpended power slot, no roll required). Once a creature receives this benefit, that creature can't\nreceive it again until after a long rest.</p>\n",
+    "id": "bolstering-biotics"
   },
   {
     "level": 18,
@@ -1998,6 +2119,33 @@
     "id": "combat-analytics"
   },
   {
+    "level": 6,
+    "klass": "adept",
+    "subclass": "fury",
+    "name": "Combat Blink",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "furycasting"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "combat-blink"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 6th level, when you Furycast a power, your movement speed increases by <me-distance length=\"15\" />, and this\nextra movement does not provoke attacks of opportunity.</p>\n",
+    "id": "combat-blink"
+  },
+  {
     "level": 3,
     "klass": "infiltrator",
     "subclass": "saboteur",
@@ -2153,6 +2301,25 @@
     ],
     "html": "<p>Commandos train with both weapons and biotics, giving you a much wider arsenal. At 2nd level, you gain proficiency with one additional weapon type of your choice.</p>\n",
     "id": "combat-training"
+  },
+  {
+    "level": 14,
+    "klass": "vanguard",
+    "subclass": "ravager",
+    "name": "Controlled Surge",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Controlled Surge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "controlled-surge"
+        }
+      }
+    ],
+    "html": "<p>At 14th level, your body is starting to truly acclimatise to the changes that have happened to your L3 implant. Whenever\nyou roll on the Biotic Wrath table, you now roll two d8s and choose one of the two results rolled from\nthe Biotic Wrath table. If you roll doubles (e.g. Two 4s), you may freely choose which effect takes place.</p>\n",
+    "id": "controlled-surge"
   },
   {
     "level": 6,
@@ -2566,6 +2733,25 @@
     "name": "Efficient Inspiration",
     "html": "<p>At 18th level, when a feature lets you or your allies roll an Inspiration die, they\ncan roll twice and take the better result for the situation.</p>\n",
     "id": "efficient-inspiration"
+  },
+  {
+    "level": 10,
+    "klass": "engineer",
+    "subclass": "bowman",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "Elemental Quiver",
+        "subType": "power",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "elemental-quiver"
+        }
+      }
+    ],
+    "name": "Elemental Quiver",
+    "html": "<p>At 10th level, you can blend other powers into your arrows. The power with which you have selected your\nEngineer's Eficiency now affects some properties of your arrows. These choices are made per arrow,\nand can be taken after the arrow hits (no action required).</p>\n<p><strong>Incinerate</strong>: You can spend 1 tech point to Prime (Fire) your target, 1 tech point to give your a -2 to any to hit rolls it makes until the end of it's next turn, or 1 tech point to detonate the Prime (Fire) condition</p>\n<p><strong>Cryo Blast</strong>: You can spend 1 tech point to Prime (Cold) your target, 1 tech point to halve your target's movement speed, or 3 to give your target the Frozen condition</p>\n<p><strong>Overload</strong>: You can spend 1 tech point to Prime (Lightning) your target, 1 tech point to deal minimum damage to an adjacent target, or 3 to do both and Prime (Lightning) both targets.</p>\n",
+    "id": "elemental-quiver"
   },
   {
     "level": 18,
@@ -3353,6 +3539,25 @@
     "name": "Further Pain",
     "html": "<p>Why let only one individual experience the joy of the pain you inflict? Share it with all!</p>\n<p>Starting at 15th level, you can inflict the bonus damage from Power From Pain two times per turn,\nas long as it targets two different creatures.</p>\n",
     "id": "further-pain"
+  },
+  {
+    "level": 2,
+    "klass": "adept",
+    "subclass": "fury",
+    "name": "Furycasting",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Furycasting",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "furycasting"
+        }
+      }
+    ],
+    "html": "<p>At 2nd level, you can focus your biotic abilities to make them more powerful, but you sacrifice distance to your\ntarget to do it. When you cast a power that deals damage, if it isn't already a melee power attack, you may chose to\nturn it into a melee power attack. If you do so, the attack bypasses shields, and you gain +1 to the damage\nroll of the power per damage die rolled.</p>\n",
+    "id": "furycasting"
   },
   {
     "level": 14,
@@ -5276,6 +5481,21 @@
     "id": "old-tales"
   },
   {
+    "level": 2,
+    "klass": "engineer",
+    "subclass": "bowman",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "bowshot",
+        "klass": "engineer"
+      }
+    ],
+    "name": "Omni-Bow",
+    "html": "<p>At 2nd level, you gain access to the Omni-Bow. The Omni-Bow is a special Omni-Tool weapon that can fire flash-forged\narrows at high speeds. With your Omni-Bow, you can make a special attack once per turn, which is represented as a power, Bowshot.</p>\n<p>Attacking with Bowshot counts as the Casting a Power action, not the Attack Action.</p>\n",
+    "id": "omni-bow"
+  },
+  {
     "level": 3,
     "klass": "sentinel",
     "subclass": "guardian",
@@ -7091,6 +7311,35 @@
     "id": "reflective-bubble"
   },
   {
+    "level": 14,
+    "klass": "adept",
+    "subclass": "fury",
+    "name": "Relentless Biotic Assault",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "adept",
+          "id": "furycasting"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "relentless-biotic-assault"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 14th level, when you Furycast a power, you may chose to take the remaining energy from the casting and cast the\npower again, albeit in a more weakened form. As a bonus action, you may cast the spell again, with the same parameters\nof the first casting, except that you halve the damage die you roll.</p>\n",
+    "id": "relentless-biotic-assault"
+  },
+  {
     "level": 11,
     "klass": "infiltrator",
     "name": "Reliable Talent",
@@ -7246,6 +7495,25 @@
     ],
     "html": "<p>At 14th level, when you summon a Repair drone, you summon an improved version of it. It gains twice its hit points\nand shields, +2 AC, and can cast the First Aid ability 5 times per day and casts a 2 tech point version of it.</p>\n",
     "id": "repair-drone-2"
+  },
+  {
+    "level": 14,
+    "klass": "engineer",
+    "subclass": "bowman",
+    "mechanics": [
+      {
+        "name": "Repeater",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "repeater"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Use your bowshot on a creature already targeted by bowshot this turn."
+      }
+    ],
+    "name": "Repeater",
+    "html": "<p>At 14th level, when you use Bowshot, you can also chose to use your bonus action to fire an additional arrow.\nThis arrow cannot be aimed at a new target, and must strike a creature already targeted by Bowshot this turn.</p>\n",
+    "id": "repeater"
   },
   {
     "level": 20,
@@ -8900,6 +9168,23 @@
     "name": "Tech Armor",
     "html": "<p>You've bolstered your armor with a powerful, defense-oriented AI. As a bonus action or as a reaction to taking damage,\nactivate your Tech Armor.</p>\n<p>When activated, tech armor creates a new kinetic barrier with additional hit points equal to the sum of your sentinel level\nand powercasting modifier, multiplied by 2. When you have tech armor hit points and take damage, the tech armor hit points\nare lost first, and any leftover damage carries over to your shields and/or normal hit points. Tech armor lasts 1 minute\nor until it has 0 hit points remaining.</p>\n<p>While tech armor is active, you can use your action to overload it. Each creature within <me-distance length=\"10\" /> must make a Constitution\nsaving throw. On a failed save, a creature takes force damage equal to the remaining hit points of your tech armor,\nor half as much on a successful one.</p>\n<p>You can use Tech Armor twice between long rests.</p>\n",
     "id": "tech-armor"
+  },
+  {
+    "level": 6,
+    "klass": "engineer",
+    "subclass": "bowman",
+    "mechanics": [
+      {
+        "type": "advancements-choice",
+        "options": true,
+        "limit": {
+          "value": "bowshot"
+        }
+      }
+    ],
+    "name": "Tech Arrows",
+    "html": "<p>At 6th level, you learn how to improve your Omni-Bow's projectiles. Choose one of omni-bows advancements.</p>\n",
+    "id": "tech-arrows"
   },
   {
     "level": 7,
@@ -10561,6 +10846,25 @@
     "id": "uncanny-dodge"
   },
   {
+    "level": 18,
+    "klass": "vanguard",
+    "subclass": "ravager",
+    "name": "Unlimited Power",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Unlimited Power",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "unlimited-power"
+        }
+      }
+    ],
+    "html": "<p>At 18th level, you've mastered using your unstable barrier in both defense and offense. Whenever you make a successful\nattack roll on an enemy within <me-distance length=\"5\" /> of you, you may spend one barrier tick to add your barrier's\ndamage reduction roll (2d8) as bonus Force damage. On a critical hit, this force damage dice also doubles.</p>\n",
+    "id": "unlimited-power"
+  },
+  {
     "level": 20,
     "klass": "adept",
     "name": "Unmatched Biotics",
@@ -10607,6 +10911,25 @@
     "name": "Unnatural Reflexes",
     "html": "<p>At 7th level, your AI has learned more about your own body's capabilities after spending extensive time understanding\nyour physiology. When an attack against you would result in a hit, as a Reaction, you may spend\n1 Tech Point to reduce the attack roll by 1d6.</p>\n",
     "id": "unnatural-reflexes"
+  },
+  {
+    "level": 10,
+    "klass": "vanguard",
+    "subclass": "ravager",
+    "name": "Unstable Power",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Unstable Power",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "unstable-power"
+        }
+      }
+    ],
+    "html": "<p>At 10th level, the energies within you are becoming harder and harder to contain as your power grows. Whenever you take\ndamage or fail a saving throw while your barrier is active, you may choose to roll on the Biotic Wrath table and\nimmediately produce the new effect, this will replace your current Biotic Wrath effect.</p>\n",
+    "id": "unstable-power"
   },
   {
     "level": 14,
