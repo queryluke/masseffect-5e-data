@@ -44,7 +44,7 @@ __Power save DC__ = 8 + your proficiency bonus + your Intelligence modifier
 
 __Power attack modifier__ = your proficiency bonus + your Intelligence modifier
 
-### Engi Knight Powers
+#### Engi Knight Powers
 
 Level|Powers Known|Tech Points|Tech Point Limit
 --|--|--

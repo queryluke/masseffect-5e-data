@@ -362,6 +362,59 @@
     "id": "animal-companion"
   },
   {
+    "level": 18,
+    "klass": "experiment",
+    "subclass": "reaper",
+    "name": "Apex Augments",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "apex-augments"
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "attack-augment"
+          ]
+        },
+        "merge": {
+          "bonus": {
+            "value": 5
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "apex-augments"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 18th level, the true power of the Reaper's augmentations shows itself to you now. You now count as an Indoctrinated\ndevice for the purposes of Indoctrinating other people around you. In addition, your augments improve.\nThis only applies to your Main Augment.</p>\n<p><strong>Apex Weaponry</strong>: Your weapon deals an additional 1d8 radiant damage. Whenever you damage an enemy with your weapon,\nthat enemy takes half the damage you dealt again at the start of their next turn.</p>\n<p><strong>Apex Processor</strong>: You gain proficiency in all saving throws. You regenerate hit points equal to 5 + your constitution\nmodifier each turn as long as you are below half your max hit points and still have at least one hit point.</p>\n<p><strong>Apex Plating</strong>: You become resistant to Slashing, Piercing, Bludgeoning and Psychic damage. You are\nimmune to critical hits.</p>\n<p>You become Indoctrinated 5, and you are not immune to this Indoctrination level's negative effects.</p>\n",
+    "id": "apex-augments"
+  },
+  {
     "level": 14,
     "klass": "vanguard",
     "subclass": "cardinal",
@@ -544,6 +597,74 @@
     "name": "Atomic Reactions",
     "html": "<p>At 15th level, your enemies are considered Vulnerable to the elemental damage of your Tech Ace during your turn.\nIn addition, they have disadvantage on any saves your Tech Ace forces them to roll.</p>\n",
     "id": "atomic-reactions"
+  },
+  {
+    "level": 9,
+    "klass": "experiment",
+    "name": "Augment Boost",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "augment-boosts"
+      }
+    ],
+    "html": "<p>At 9th level, you've been with your Main Augment enough that you feel even more comfortable while using it.\nDepending on your choice of Augment at 3rd level, you gain new features.</p>\n<p><strong>Boosted Weaponry</strong>: If your weapon was melee, you can now either grant it the Reach property or change it's damage type to Lightning or Fire. If your weapon was ranged, you can give it the Arc property or change it's damage type to Force or Radiant. You can change your choice at the end of each short rest.</p>\n<p><strong>Boosted Processor</strong>: Your processor now grants you expertise in one other skill of your choice, and you have advantage on Wisdom and Dexterity saving throws.</p>\n<p><strong>Boosted Plating</strong>: Whenever you would suffer physical damage (slashing, bludgeoning or piercing) to your health, you subtract an amount of damage from each hit equal to your proficiency modifier.</p>\n",
+    "id": "augment-boost"
+  },
+  {
+    "level": 6,
+    "klass": "experiment",
+    "subclass": "reaper",
+    "name": "Aura of Dominance",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Aura of Dominance",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "aura-of-dominance"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "attack-augment"
+          ]
+        },
+        "merge": {
+          "bonus": {
+            "value": 2
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "aura-of-dominance"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 6th level, your indoctrination works it's way into the minds of people around you. It's a pervasive paranoia that\nslowly takes over other's cognitive behaviour. While within <me-distance length=\"25\" /> of you, creatures reduce their movement\nspeed by <me-distance length=\"10\" />. Any creature that starts it's turn frightened in this\nspace has it's speed reduced to 0 instead. This area increases to encapsulate <me-distance length=\"50\" /> at 12th level.</p>\n<p>You become Indoctrinated 2.</p>\n",
+    "id": "aura-of-dominance"
   },
   {
     "level": 18,
@@ -990,6 +1111,25 @@
     "id": "biotic-awareness"
   },
   {
+    "level": 14,
+    "klass": "experiment",
+    "subclass": "biotic",
+    "name": "Biotic Blitz",
+    "mechanics": [
+      {
+        "name": "Biotic Blitz",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-blitz"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Whenever you use a cantrip as part of your Attack action, you can chose to target a second target within range of the cantrip. This target must be different from the one you cast your cantrip against. As a bonus action, you can cast the cantrip against that target, but the target does not take any damage from Exploit: Edge that you may apply normally."
+      }
+    ],
+    "html": "<p>At 14th level, whenever you use a cantrip as part of your Attack action, you can chose to target a second\ntarget within range of the cantrip. This target must be different from the one you cast your cantrip against.\nAs a bonus action, you can cast the cantrip against that target, but the target does not take any damage\nfrom Exploit: Edge that you may apply normally.</p>\n",
+    "id": "biotic-blitz"
+  },
+  {
     "level": 6,
     "klass": "adept",
     "subclass": "justicar",
@@ -1218,6 +1358,25 @@
     "name": "Biotic Focus",
     "html": "<p>At 6th level, you can use a bonus action to focus your biotic energies into your muscles granting additional\nspeed and strength. You gain the following benefits for 1 minute:</p>\n<ul>\n<li>Your walking speed increases by <me-distance length=\"30\" />.</li>\n<li>+4 to all melee weapon damage rolls.</li>\n<li>You have advantage on Strength and Dexterity saving throws.</li>\n</ul>\n<br>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "biotic-focus"
+  },
+  {
+    "level": 6,
+    "klass": "experiment",
+    "subclass": "biotic",
+    "name": "Biotic Furor",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Biotic Furor",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-furor"
+        }
+      }
+    ],
+    "html": "<p>At 6th level, when you make an attack action on your turn, you can substitute one of the attacks\nyou make with one biotic cantrip. If you do so, it's range is reduced by half, and you don't\ngain the benefit of any enhancements that you might have for that cantrip.</p>\n",
+    "id": "biotic-furor"
   },
   {
     "level": 10,
@@ -2388,6 +2547,15 @@
     "id": "cunning-action"
   },
   {
+    "level": 1,
+    "klass": "experiment",
+    "subclass": "cybernetic",
+    "name": "Cybernetic Scar",
+    "mechanics": [],
+    "html": "<p>Beggining at 1st level, you can take a long rest in half the time appropriate for your species, and you do not\nneed to sleep: you can enter a powered down state where you're still aware of your surroundings.</p>\n",
+    "id": "cybernetic-scar"
+  },
+  {
     "level": 5,
     "klass": "explorer",
     "subclass": "path-of-cyber",
@@ -2879,6 +3047,24 @@
     "id": "ever-ready"
   },
   {
+    "level": 20,
+    "klass": "experiment",
+    "name": "Evolutionary Apex",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Evolutionary Apex",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "evolutionary-apex"
+        }
+      }
+    ],
+    "html": "<p>At 20th level, whenever you roll your Exploit Die for a feature, you can roll the die twice and choose which number to use.</p>\n",
+    "id": "evolutionary-apex"
+  },
+  {
     "level": 7,
     "klass": "adept",
     "name": "Expert Biotic",
@@ -2982,6 +3168,442 @@
     "id": "expertise-sentinel-guardian-2"
   },
   {
+    "level": 2,
+    "klass": "experiment",
+    "subclass": "cybernetic",
+    "name": "Exploit: Bolt",
+    "mechanics": [
+      {
+        "name": "Exploit: Bolt",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-bolt"
+        },
+        "type": "other",
+        "shortDesc": "When you use Exploit: Edge, you can choose to have the additional damage be lightning damage (instead of the same damage the weapon would normally apply). You may also choose to have the weapon's normal damage become lightning for the duration of your Exploit: Edge."
+      }
+    ],
+    "html": "<p>At 2nd level, when you use Exploit: Edge, you can choose to have the additional damage be\nlightning damage (instead of the same damage the weapon would normally apply). You may also choose to\nhave the weapon's normal damage become lightning for the duration of your Exploit: Edge.</p>\n",
+    "id": "exploit-bolt"
+  },
+  {
+    "level": 17,
+    "klass": "experiment",
+    "name": "Exploit: Clot",
+    "mechanics": [
+      {
+        "name": "Exploit: Clot",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-clot"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ],
+        "shortDesc": "When you take damage roll your Exploit die once. You expend that many hit die to recover hit points equal to the amount you roll on those hit die."
+      }
+    ],
+    "html": "<p>At 17th level, when you take damage, you can spend your reaction to roll your Exploit die once.\nYou expend that many hit die to recover hit points equal to the amount you roll on those hit die.</p>\n",
+    "id": "exploit-clot"
+  },
+  {
+    "level": 10,
+    "klass": "experiment",
+    "subclass": "biotic",
+    "name": "Exploit: Disrupt",
+    "mechanics": [
+      {
+        "name": "Exploit: Disrupt",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-disrupt"
+        },
+        "type": "action",
+        "range": {
+          "short": 75
+        },
+        "shortDesc": "Target one enemy within range, expend a power slot, and roll your exploit die. The target loses powers depending on the roll of your Exploit die. A caster with power slots loses power slots from their highest to their lowest, using up the number you rolled per slot. A caster with Tech Points looses an amount of tech points equal to double the number you rolled. <br><br> When you use Exploit: Disrupt, you cannot cast a cantrip or a power for an amount of turns equal to the number you rolled on your exploit die, as your own implants shut down momentarily.",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ]
+      }
+    ],
+    "html": "<p>At 10th level, as an action, you can target one enemy you can see within <me-distance length=\"75\" /> of you.\nExpend one power slot and roll your Exploit die once. The target loses powers depending on the roll of your\nExploit die. A caster with power slots loses power slots from their highest to their lowest, using up the\nnumber you rolled per slot (ie a third level power slot takes 3 off the number, a second level takes 2 off, and so on).\nA caster with Tech Points looses an amount of tech points equal to double the number you rolled.</p>\n<p>When you use Exploit: Disrupt, you cannot cast a cantrip or a power for an amount of turns equal to the number you\nrolled on your exploit die, as your own implants shut down momentarily.</p>\n",
+    "id": "exploit-disrupt"
+  },
+  {
+    "level": 2,
+    "klass": "experiment",
+    "name": "Exploit: Edge",
+    "mechanics": [
+      {
+        "name": "Exploit: Edge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-edge"
+        },
+        "type": "other",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ],
+        "shortDesc": "At the end of a short or long rest, you may choose a weapon you posses and roll your Exploit Die. The chosen weapon gains a bonus to damage rolls equal to the roll and your hit point maximum is reduced by the amount equal to the result of your Exploit Die roll."
+      }
+    ],
+    "html": "<p>Also at 2nd level, you can leverage part of your biology into stronger attacks at the cost of your own well being. At\nthe end of a short or long rest, you may choose a weapon you posses and roll your Exploit Die, gaining the following effects:</p>\n<ul>\n<li>The chosen weapon gains a bonus to damage rolls equal to one roll of your Exploit Die. This damage is the same type the weapon normally deals.</li>\n<li>Your hit point maximum is reduced by the amount equal to the result of your Exploit Die roll.</li>\n</ul>\n<p>Both effects last until you finish a short or long rest or until you use this feature again at the end of a short or long rest.</p>\n",
+    "id": "exploit-edge"
+  },
+  {
+    "level": 2,
+    "klass": "experiment",
+    "subclass": "reaper",
+    "name": "Exploit: Excruciate",
+    "mechanics": [
+      {
+        "name": "Exploit: Excruciate",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-excruciate"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 0,
+            "dieType": false,
+            "type": "psychic",
+            "bonus": {
+              "type": "multi",
+              "value": [
+                {
+                  "type": "proficiency"
+                },
+                {
+                  "type": "level",
+                  "value": "experiment",
+                  "multiplier": 0.5
+                }
+              ]
+            }
+          }
+        ],
+        "shortDesc": "When you are targeted by a power, you can use your reaction to cause feedback to the caster, dealing {{ damage }} Psychic damage to them. This effect occurs even if the spell misses."
+      }
+    ],
+    "html": "<p>Your implants grant you a modicum of protection against most powers. When you are targeted by a power, you can use\nyour reaction to cause feedback to the caster, dealing half your Experiment level + your proficiency modifier Psychic\ndamage to them. This effect occurs even if the spell misses.</p>\n",
+    "id": "exploit-excruciate"
+  },
+  {
+    "level": 7,
+    "klass": "experiment",
+    "name": "Exploit: Guard",
+    "mechanics": [
+      {
+        "name": "Exploit: Guard",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-guard"
+        },
+        "type": "reaction",
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "con",
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ],
+        "shortDesc": "When you are forced to make a saving throw roll you Exploit Die and add the result to your roll. For a number of turns equal to one roll of your Exploit Die, you succeed on a {{ dc }} Constitution saving throw or be Poisoned for that turn. You cannot use Exploit: Guard to gain a bonus on the saving throw against this effect."
+      }
+    ],
+    "html": "<p>At 7th level, you can use your changes to protect against incoming effects. When you are forced to roll a saving throw,\nyou can spend your reaction to grant yourself a bonus on the saving throw equal to one roll of your Exploit Die.\nHowever, using your augmentations like this is taxing on your body. For a number of turns equal to one roll of your\nExploit Die, you must make a Constitution saving throw vs your Exploit DC or be Poisoned for that turn.\nYou cannot use Exploit: Guard to gain a bonus on the saving throw against this effect.</p>\n",
+    "id": "exploit-guard"
+  },
+  {
+    "level": 10,
+    "klass": "experiment",
+    "subclass": "cybernetic",
+    "name": "Exploit: Overheat",
+    "mechanics": [
+      {
+        "name": "Exploit: Overheat",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-overheat"
+        },
+        "type": "action",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ],
+        "resource": {
+          "reset": "short",
+          "id": "exploit-overheat"
+        }
+      }
+    ],
+    "html": "<p>At 10th level, as an action, you can choose a target within <me-distance length=\"80\" /> of yourself who is either\nusing a weapon that requires thermal clips or who is using armor. If a target is both using a thermal clip powered\nweapon and wearing armor, you choose which to affect. Roll your Exploit Die. If you chose to target a\nweapon, that weapon jams and needs to be cleared as an action next round. If you chose to target armor,\nit's servos lock up, cutting the target's movement in half until it spends an action rebooting it.\nWhichever the case, your target takes your Exploit Die + your Constitution modifier damage and is Primed Fire.</p>\n<p>You can use this exploit once per short rest without issue. If you try and use it again without properly cooling\ndown yourself, you take damage equal to the damage you dealt to your foe, and you become Primed Fire.</p>\n",
+    "id": "exploit-overheat"
+  },
+  {
+    "level": 2,
+    "klass": "experiment",
+    "subclass": "biotic",
+    "name": "Exploit: Pound",
+    "mechanics": [
+      {
+        "name": "Exploit: Pound",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-pound"
+        },
+        "type": "other",
+        "shortDesc": "When you apply Exploit: Edge to one of your weapons, you can chose to instead have the damage be Force damage instead of the same damage the weapon would normally apply."
+      },
+      {
+        "type": "global-note",
+        "value": "Exploit: Pound",
+        "subType": "power",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-pound"
+        }
+      }
+    ],
+    "html": "<p>At 2nd level, when you apply Exploit: Edge to one of your weapons, you can chose to instead have the\ndamage be Force damage instead of the same damage the weapon would normally apply.</p>\n<p>Additionally, when you cast a cantrip, you can roll your Exploit Die and add it as damage to the\ndamage roll of your cantrip. The damage dealt this way is the same as the damage type of the\ncantrip, and it is only applied once (lingering effects don't enjoy this bonus)</p>\n",
+    "id": "exploit-pound"
+  },
+  {
+    "level": 15,
+    "klass": "experiment",
+    "name": "Exploit: Shred",
+    "mechanics": [
+      {
+        "name": "Exploit: Shred",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-shred"
+        },
+        "type": "bonus-action",
+        "dc": {
+          "base": 8,
+          "proficient": true,
+          "mod": "con",
+          "save": "con"
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ],
+        "shortDesc": "When you hit an enemy with a weapon that has your Exploit: Edge applied to it, use a bonus action. Then the target makes a {{ dc }} Constitution saving throw. On a failure, roll an Exploit Die, and your enemy subtracts half of the number rolled from either their AC or their attack rolls for the next minute. Your enemy gets a new save to end the effect early at the end of every one of their turns. <br><br> Every time you use Exploit: Shred, you take necrotic damage equal to double the number you rolled on your Exploit die, as using your features as violently as this damages your physiology."
+      }
+    ],
+    "html": "<p>At 15th level, when you hit an enemy with a weapon that has your Exploit: Edge applied to it, you can spend a\nbonus action to shred the target's defense or offense. Your target makes a Constitution saving throw: on a failure,\nroll an Exploit Die, and your enemy subtracts half of the number rolled from either their AC or their attack rolls\nfor the next minute. Your enemy gets a new save to end the effect early at the end of every one of their turns.</p>\n<p>Every time you use Exploit: Shred, you take necrotic damage equal to double the number you rolled on\nyour Exploit die, as using your features as violently as this damages your physiology.</p>\n",
+    "id": "exploit-shred"
+  },
+  {
+    "level": 10,
+    "klass": "experiment",
+    "subclass": "reaper",
+    "name": "Exploit: Torture",
+    "mechanics": [
+      {
+        "name": "Exploit: Torture",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploit-torture"
+        },
+        "type": "action",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              }
+            },
+            "type": "psychic",
+            "bonus": {
+              "type": "level",
+              "value": "experiment",
+              "multiplier": 0.5
+            }
+          }
+        ],
+        "dc": {
+          "base": 11,
+          "proficient": true,
+          "mod": "con",
+          "save": "wis"
+        },
+        "shortDesc": "Chose up to {{ profBonus }} creatures in a <me-distance length=\"25\" abbr /> radius that you can see. These creatures must make a DC {{ dc }} Wisdom Saving throw. On a failure, they become Frightened and at the end of each of their turns, must make the saving throw again or take psychic damage equal to one roll of your Exploit Die + half your Experiment level. On a success, the effect ends for that creature. This is a Concentration effect."
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "attack-augment"
+          ]
+        },
+        "merge": {
+          "bonus": {
+            "value": 3
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "exploit-torture"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 10th level, as an action, you can chose up to your proficiency modifier creatures in a <me-distance length=\"25\" abbr />\nradius that you can see. These creatures must make a Wisdom Saving throw with a DC equal to your Exploit DC plus your\nIndoctrinated level. On a failure, they become Frightened and at the end of each of their turns, must make the\nsaving throw again or take psychic damage equal to one roll of your Exploit Die + half your Experiment level.\nOn a success, the effect ends for that creature. This is a Concentration effect.</p>\n<p>When this effect ends on all victims, the neural feedback produced by the effect washes over your implants and\noverwhelms your mind. You take psychic damage equal to one roll of you Exploit die per target you affected, and you\nbecome Confused until the end of your next turn.</p>\n<p>You become Indoctrinated 3.</p>\n",
+    "id": "exploit-torture"
+  },
+  {
+    "level": 2,
+    "klass": "experiment",
+    "name": "Exploits",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Exploits",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "exploits"
+        },
+        "progressionColumn": {
+          "label": "Exploit Die",
+          "values": [
+            null,
+            "1d4",
+            "1d4",
+            "1d4",
+            "1d6",
+            "1d6",
+            "1d6",
+            "1d6",
+            "1d8",
+            "1d8",
+            "1d8",
+            "1d8",
+            "1d10",
+            "1d10",
+            "1d10",
+            "1d10",
+            "1d12",
+            "1d12",
+            "1d12",
+            "1d12"
+          ],
+          "order": 11
+        }
+      }
+    ],
+    "html": "<p>At 2nd level, your body has adapted somewhat to the augmentations that have been put inside of your body. You gain an\nExploit Die, shown in the class table for the Experiment. It starts out as a 1d4 and increases as you gain levels in\nthe Experiment class. Your class features use the die shown in the table when they call for an Exploit Die roll</p>\n<p>Whenever one of your class features require a saving throw, the DC for it is 8 + your proficiency + your Constitution Modifier.</p>\n",
+    "id": "exploits"
+  },
+  {
     "level": 3,
     "klass": "explorer",
     "mechanics": [
@@ -3035,6 +3657,32 @@
     ],
     "html": "<p>Beginning at 6th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n",
     "id": "extra-attack-engineer-mastermind"
+  },
+  {
+    "level": 11,
+    "klass": "experiment",
+    "name": "Extra Attack (2)",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 3
+      }
+    ],
+    "html": "<p>Beginning at 11th level, you can attack three times instead of once whenever you take the Attack action on your turn.</p>\n",
+    "id": "extra-attack-experiment-2"
+  },
+  {
+    "level": 5,
+    "klass": "experiment",
+    "name": "Extra Attack",
+    "mechanics": [
+      {
+        "type": "extra-attack",
+        "value": 2
+      }
+    ],
+    "html": "<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.\nYou gain another attack when you take the Attack action at 11th level.</p>\n",
+    "id": "extra-attack-experiment"
   },
   {
     "level": 5,
@@ -3168,6 +3816,71 @@
     "id": "fearsome-reputation"
   },
   {
+    "level": 14,
+    "klass": "experiment",
+    "subclass": "reaper",
+    "name": "Feeblemind",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Feeblemind",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "feeblemind"
+        }
+      },
+      {
+        "type": "skill-check",
+        "value": [
+          "intimidation"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "attack-augment"
+          ]
+        },
+        "merge": {
+          "bonus": {
+            "value": 4
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "experiment",
+          "id": "reaper-scar",
+          "limit": [
+            "global-note"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "feeblemind"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "html": "<p>At 14th level, when you cause Psychic damage to a target, the target must roll a Charisma saving throw with a\nDC of 8 or have their Intelligence, Wisdom and Charisma scores reduced by 1. This effect is cumulative,\nup to your proficiency modifier, and lasts until the end of the encounter.</p>\n<p>You roll all of your Intimidation checks with advantage.</p>\n<p>You become Indoctrinated 4. You are not immune to this Indoctrination level's negative effect.</p>\n",
+    "id": "feeblemind"
+  },
+  {
     "level": 7,
     "klass": "musician",
     "subclass": "techno",
@@ -3235,6 +3948,20 @@
     "name": "Fighting Spirit",
     "html": "<p>Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on\nyour turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so,\nyou also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this\nclass, increasing to 10 at 10th level and 15 at 15th level.</p>\n<p>You can use this feature three times, and you regain all expended uses of it when you finish a long rest.</p>\n",
     "id": "fighting-spirit"
+  },
+  {
+    "level": 1,
+    "klass": "experiment",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      }
+    ],
+    "name": "Fighting Style",
+    "html": "<p>At 1st level, choose a fighting style from the list below.</p>\n<p><strong>Ambidextrous.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>\n<p><strong>Assault.</strong> When you make a Burst Fire attack, increase the DC by 2.</p>\n<p><strong>Brawler.</strong> Add your proficiency bonus to your melee attack damage rolls.</p>\n<p><strong>Carnage.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a shotgun, you can reroll the die and must use the new roll.</p>\n<p><strong>Close-Quarters Shooter.</strong> When making a ranged attack while you are within <me-distance length=\"5\" /> of a hostile\ncreature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half-cover against targets within <me-distance length=\"30\" /> of you.</p>\n<p><strong>Defense.</strong> +1 AC.</p>\n",
+    "id": "fighting-style-experiment"
   },
   {
     "level": 2,
@@ -4635,6 +5362,68 @@
     "id": "lock-on"
   },
   {
+    "level": 6,
+    "klass": "experiment",
+    "subclass": "cybernetic",
+    "name": "Magnetic Shield",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Magnetic Shield",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "magnetic-shield"
+        }
+      },
+      {
+        "name": "Magnetic Shield",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "magnetic-shield"
+        },
+        "type": "reaction",
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": {
+              "type": "progressive",
+              "value": {
+                "1": 4,
+                "5": 6,
+                "9": 8,
+                "13": 10,
+                "17": 12
+              },
+              "bonus": {
+                "type": "level",
+                "value": "experiment"
+              }
+            },
+            "label": "Exploit Die"
+          }
+        ],
+        "shortDesc": "When you are hit by a projectile weapon reduce the damage taken from the weapon by one roll of your Exploit die + your Experiment level. If you reduce the damage of the attack to 0, you slingshot the projectile back at the attacker. Roll the attack with the same bonuses that your attacker used on the attack roll against you."
+      }
+    ],
+    "html": "<p>At 6th level, your shields are no longer vulnerable to Lightning damage. When you are hit by a\nprojectile weapon, you can use your reaction to reduce the damage taken from the weapon by one roll of your\nExploit die + your Experiment level. If you reduce the damage of the attack to 0, you slingshot the\nprojectile back at the attacker. Roll the attack with the same bonuses that your attacker used on the\nattack roll against you.</p>\n",
+    "id": "magnetic-shield"
+  },
+  {
+    "level": 3,
+    "klass": "experiment",
+    "name": "Main Augment",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "main-augments"
+      }
+    ],
+    "html": "<p>At 3rd level, you have gained enough control over your new biology that your Main Augment can manifest itself fully</p>\n<p>You can choose your Main Augment from the following list, each with their own advantages that cater to a specific\nstyle of play.</p>\n<p><strong>Integrated Weaponry</strong>: Your body has integrated weapons located somewhere.\nThis can vary from a bionic arm that you are now used to enough to swing, or blades that only now you've\ngrown used to. Choose a physical damage type: Bludgeoning, Slashing, or Piercing. This is the base damage of your\nweapon. Next, chose if it is a melee weapon or a ranged weapon. You make attack rolls with this weapon using your\nConstitution Modifier. If you chose a melee weapon, it deals 2d6 + your Constitution Modifier damage. If it is a\nranged weapon, it deals 1d8 + your Constitution Modifier damage, and has a range of <me-distance length=\"50\" abbr/>/<me-distance length=\"100\" abbr/>.</p>\n<p><strong>Integrated Processor</strong>: You have an integrated processor installed inside of your brain, that helps\nmodulate responses to your nervous system and parses information for you, allowing you to better focus on your\ntasks. You gain proficiency in Dexterity and Wisdom saving throws, and you gain Expertise in two skills you are already proficient in.</p>\n<p><strong>Integrated Plating</strong>: Your body has been implanted with experimental plating underneath the skin,\nthat help you stay alive. You gain a bonus to your AC equal to your Constitution modifier if you are wearing Light Armor.</p>\n",
+    "id": "main-augment"
+  },
+  {
     "level": 3,
     "klass": "soldier",
     "subclass": "havoc",
@@ -5809,6 +6598,25 @@
     "id": "opportunist"
   },
   {
+    "level": 14,
+    "klass": "experiment",
+    "subclass": "cybernetic",
+    "name": "Organohacking",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Organohacking",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "organohacking"
+        }
+      }
+    ],
+    "html": "<p>At 14th level, your mastery over the technology within you makes it easier to affect synthetics and computers.\nWhen you critically hit a creature with a weapon using Exploit: Edge's Lightning damage, it must succeed on an\nIntelligence saving throw vs your Exploit DC. On a failure, the creature's implants or mechanical processors are\nhacked, and the target becomes Confused. At the end of it's rounds, the creature can make a new Intelligence\nsaving throw to end the effect, which lasts for 1 minute at most.</p>\n",
+    "id": "organohacking"
+  },
+  {
     "level": 13,
     "klass": "infiltrator",
     "subclass": "sniper",
@@ -6374,6 +7182,123 @@
     "id": "powercasting-adept"
   },
   {
+    "level": 1,
+    "klass": "experiment",
+    "subclass": "biotic",
+    "name": "Biotic Scar",
+    "mechanics": [
+      {
+        "type": "powercasting-slots",
+        "multiclassConversion": 0.25,
+        "known": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          7,
+          7,
+          7
+        ],
+        "prepared": false,
+        "slots": {
+          "1": [
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        "mod": "con"
+      },
+      {
+        "type": "cantrips",
+        "known": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "type": "use-class-for-cantrip-list",
+        "klass": "adept"
+      },
+      {
+        "type": "use-class-for-power-list",
+        "klass": "vanguard"
+      }
+    ],
+    "html": "<p>Beggining at 1st level, you gain a small power list. Your powers use your Constitution modifier as your\npowercasting modifier, and you regain all power slots used on a long rest. You can choose from the\ncantrips available to the Adept, and from the spells available to the Vanguard</p>\n<h4>Biotic Experiment Powercasting</h4>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Cantrips Known</th>\n<th>Powers Known</th>\n<th>Lvl 1</th>\n<th>Lvl 2</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>1</td>\n<td>0</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>1</td>\n<td>0</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>2</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>3</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>4</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>4</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "id": "powercasting-biotic-scar"
+  },
+  {
     "level": 3,
     "klass": "soldier",
     "subclass": "engi-knight",
@@ -6460,7 +7385,7 @@
       }
     ],
     "name": "Powercasting",
-    "html": "<h3>Casting powers</h3>\n<p>The Engi Knight Powers table shows how many Tech Points you have to cast your powers of 1st level or higher. To cast one\nof these powers using the Engineer's power list, you must expend a number of Tech Points equal to the power's level or\nhigher. You regain all expended Tech Points when you finish a long rest.</p>\n<p>You are limited in the number of Tech Points you can spend to use a power as indicated in the Tech Point\nLimit column of the Engi Knight table.</p>\n<p>For example, a 9th level Engi Knight can cast powers for 1 or 2 Tech Points</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>Starting at 3rd level, you know two 1st-level powers of your choice from the Engineer power list. The Powers Known\ncolumn of the Engi Knight table shows when you learn more Engineer powers of your choice. Each of these powers must\nbe of a level for which you have Tech Points. For instance, when you reach 10th level in this subclass,\nyou can learn one new power of 1st or 2nd level.</p>\n<p>Engi Knights cannot use advancements to Engineer Powers, nor can your choice of learned powers be changed after\nlearning them as your AI is utilising these abilities on the Soldier's behalf, not the Soldier\nmaintaining the Omni-tool like an Engineer would.</p>\n<h3>Powercasting Ability</h3>\n<p>Engi Knights use a modified Omni-tool, maintained by your onboard Armor/Suit AI. As a Engi Knight, you use your\nIntelligence whenever a Tech Power refers to your Powercasting ability. In addition, you use your Intelligence\nmodifier when setting the saving throw DC for a Tech Power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n<h3>Engi Knight Powers</h3>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Powers Known</th>\n<th>Tech Points</th>\n<th>Tech Point Limit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3rd</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>5</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>5</td>\n<td>8</td>\n<td>2</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>8</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>10</td>\n<td>14</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>11</td>\n<td>20</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>12</td>\n<td>20</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "html": "<h3>Casting powers</h3>\n<p>The Engi Knight Powers table shows how many Tech Points you have to cast your powers of 1st level or higher. To cast one\nof these powers using the Engineer's power list, you must expend a number of Tech Points equal to the power's level or\nhigher. You regain all expended Tech Points when you finish a long rest.</p>\n<p>You are limited in the number of Tech Points you can spend to use a power as indicated in the Tech Point\nLimit column of the Engi Knight table.</p>\n<p>For example, a 9th level Engi Knight can cast powers for 1 or 2 Tech Points</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>Starting at 3rd level, you know two 1st-level powers of your choice from the Engineer power list. The Powers Known\ncolumn of the Engi Knight table shows when you learn more Engineer powers of your choice. Each of these powers must\nbe of a level for which you have Tech Points. For instance, when you reach 10th level in this subclass,\nyou can learn one new power of 1st or 2nd level.</p>\n<p>Engi Knights cannot use advancements to Engineer Powers, nor can your choice of learned powers be changed after\nlearning them as your AI is utilising these abilities on the Soldier's behalf, not the Soldier\nmaintaining the Omni-tool like an Engineer would.</p>\n<h3>Powercasting Ability</h3>\n<p>Engi Knights use a modified Omni-tool, maintained by your onboard Armor/Suit AI. As a Engi Knight, you use your\nIntelligence whenever a Tech Power refers to your Powercasting ability. In addition, you use your Intelligence\nmodifier when setting the saving throw DC for a Tech Power you cast and when making an attack roll with one.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n<h4>Engi Knight Powers</h4>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Powers Known</th>\n<th>Tech Points</th>\n<th>Tech Point Limit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3rd</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>5</td>\n<td>6</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>5</td>\n<td>8</td>\n<td>2</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>7</td>\n<td>10</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>8</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>9</td>\n<td>12</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>10</td>\n<td>14</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>10</td>\n<td>16</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>11</td>\n<td>20</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>12</td>\n<td>20</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "powercasting-engi-knight"
   },
   {
@@ -7084,6 +8009,21 @@
     "id": "predictive-calculations"
   },
   {
+    "level": 18,
+    "klass": "experiment",
+    "subclass": "biotic",
+    "name": "Primal Augments",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "primal-augments"
+      }
+    ],
+    "html": "<p>At 18th level, your raw biotic potence interfaces perfectly with your augments, granting them new abilities. This only applies to your Main Augment.</p>\n<p><strong>Primal Weaponry</strong>: Your weapon deals an additional 1d8 necrotic damage. If your weapon is melee, it gains a reach of <me-distance length=\"5\" />. This can stack with the Reach property you can give it. If your weapon is ranged, double it's range.</p>\n<p><strong>Primal Processor</strong>: You gain proficiency in Intelligence and Charisma Saving throws, and you become resistant to Psychic damage. Any creature who causes you Psychic damage takes Psychic damage equal to one roll of your Exploit die.</p>\n<p><strong>Primal Plating</strong>: You become resistant to Necrotic, Radiant and Force damage. When you are hit by a biotic spell, roll a 1d20. On a roll of 16 or higher, you regain one spell slot.</p>\n",
+    "id": "primal-augments"
+  },
+  {
     "level": 20,
     "klass": "vanguard",
     "name": "Primal Biotics",
@@ -7203,6 +8143,36 @@
     ],
     "html": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.</p>\n",
     "id": "rapid-strike"
+  },
+  {
+    "level": 1,
+    "klass": "experiment",
+    "subclass": "reaper",
+    "name": "Reaper Scar",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Reaper Scar",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "reaper-scar"
+        }
+      },
+      {
+        "type": "attack-augment",
+        "augmentTypes": [
+          "damage",
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>You become Indoctrinated 1. You can never be immune to the Indoctrinated condition caused by this subclass. However, as your\nIndoctrination level goes up, you become more attuned to your abilities. You gain a bonus to your attack,\ndamage and healing rolls equal to the level of your Indoctrinated condition. In addition, you are\nimmune to the negative effects of the Indoctrinated condition.</p>\n",
+    "id": "reaper-scar"
   },
   {
     "level": 7,
@@ -7883,6 +8853,20 @@
   },
   {
     "level": 13,
+    "klass": "experiment",
+    "name": "Secondary Augment",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "main-augments"
+      }
+    ],
+    "html": "<p>At 13th level, you can choose another augmentation from the list of Augments available to you at 3rd level.\nYou gain the basic benefits of the augment, without Augment Boost.</p>\n<p><strong>Integrated Weaponry</strong>: Your body has integrated weapons located somewhere.\nThis can vary from a bionic arm that you are now used to enough to swing, or blades that only now you've\ngrown used to. Choose a physical damage type: Bludgeoning, Slashing, or Piercing. This is the base damage of your\nweapon. Next, chose if it is a melee weapon or a ranged weapon. You make attack rolls with this weapon using your\nConstitution Modifier. If you chose a melee weapon, it deals 2d6 + your Constitution Modifier damage. If it is a\nranged weapon, it deals 1d8 + your Constitution Modifier damage, and has a range of <me-distance length=\"50\" abbr/>/<me-distance length=\"100\" abbr/>.</p>\n<p><strong>Integrated Processor</strong>: You have an integrated processor installed inside of your brain, that helps\nmodulate responses to your nervous system and parses information for you, allowing you to better focus on your\ntasks. You gain proficiency in Dexterity and Wisdom saving throws, and you gain Expertise in two skills you are already proficient in.</p>\n<p><strong>Integrated Plating</strong>: Your body has been implanted with experimental plating underneath the skin,\nthat help you stay alive. You gain a bonus to your AC equal to your Constitution modifier if you are wearing Light Armor.</p>\n",
+    "id": "secondary-augment"
+  },
+  {
+    "level": 13,
     "klass": "infiltrator",
     "subclass": "shadow",
     "name": "Shadow Strike",
@@ -8537,6 +9521,21 @@
     ],
     "html": "<p>Starting at 6th level, you can focus your barrier into the impact of your charge power. When you deal damage to a creature\nwith your charge cantrip, you can spend 1 barrier tick to attempt a stunning strike. The target must succeed on a Constitution\nsaving throw or be <me-condition id=\"stunned\"/> until the end of your next turn.</p>\n",
     "id": "stunning-strike"
+  },
+  {
+    "level": 18,
+    "klass": "experiment",
+    "subclass": "cybernetic",
+    "name": "Supercharged Augments",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "supercharged-augments"
+      }
+    ],
+    "html": "<p>At 18th level, your augments improve due to the symbiosis between your implants and your body. This only applies to your Main Augment.</p>\n<p><strong>Supercharged Weaponry</strong>: Your weapons deal an additional 1d8 thunder damage. If your weapon is melee, it deals the\nsame damage to shields that it would deal to health (efectively dealing the same damage to both shields and health). If your weapon is ranged, it bypasses shields.</p>\n<p><strong>Supercharged Processors</strong>: Your walking speed increases by <me-distance length=\"15\" />. You gain expertise in one other skill of your choice, and you cannot become Confused or Stunned.</p>\n<p><strong>Supercharged Plating</strong>: You become resistant to Lightning damage. Whenever an enemy hits you in melee range, it takes Lightning damage equal to one roll of your Exploit Die + your Experiment level.</p>\n",
+    "id": "supercharged-augments"
   },
   {
     "level": 18,

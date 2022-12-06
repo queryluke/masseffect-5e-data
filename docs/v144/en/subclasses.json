@@ -33,6 +33,13 @@
     "id": "biohacker"
   },
   {
+    "klass": "experiment",
+    "name": "Biotic",
+    "author": "Spagheddy",
+    "html": "<p>You were forcefully exposed to eezo, or had biotic nodes implanted into your nervous system. You are not quite a biotic,\nbut you can manipulate Mass Effect fields in a crude, almost primal manner, that makes the difference merely academic\nto your allies, and non-existent to your enemies.</p>\n",
+    "id": "biotic"
+  },
+  {
     "klass": "adept",
     "name": "Blackstar",
     "html": "<p>Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting\nfriends and gain unique benefits to biotic control powers like Lift, Singularity, and Stasis.</p>\n",
@@ -78,6 +85,13 @@
     "name": "Commando",
     "html": "<p>Commandos don't need heavy weapons because they ARE the heavy weapon. Their features improve both the damage potential\nand output of their biotic powers, making them a deadly force.</p>\n",
     "id": "commando"
+  },
+  {
+    "klass": "experiment",
+    "name": "Cybernetic",
+    "author": "Spagheddy",
+    "html": "<p>Something implanted you. Something put metal inside your flesh, and you've learned to embrace it. Embrace the new\nelectricity running along your systems, giving you options and helping your exploits. You are more machine than man, and you love it.</p>\n",
+    "id": "cybernetic"
   },
   {
     "klass": "infiltrator",
@@ -258,6 +272,13 @@
     "author": "Tech Knight",
     "html": "<p>Maybe it was an accident, maybe it was due to messing with their L3 implants. Whatever the reason, their implants have\nbeen damaged at some point in their life and has caused some strange side effects with their powers that can only be\nmatched by their ferocity in battle. Ravagers are unpredictable once they power up for the bloodbath ahead.</p>\n",
     "id": "ravager"
+  },
+  {
+    "klass": "experiment",
+    "name": "Reaper",
+    "author": "Spagheddy",
+    "html": "<p>Your implants come from a race beyond organic understanding. In exchange for your servitude, you were given\nawesome power. Now, you act as the harbinger for your benefactors.</p>\n",
+    "id": "reaper"
   },
   {
     "klass": "infiltrator",

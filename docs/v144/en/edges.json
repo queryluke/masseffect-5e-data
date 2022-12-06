@@ -1,5 +1,459 @@
 [
   {
+    "name": "Apex Plating",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "slashing"
+      },
+      {
+        "type": "resistance",
+        "value": "piercing"
+      },
+      {
+        "type": "resistance",
+        "value": "bludgeoning"
+      },
+      {
+        "type": "resistance",
+        "value": "psychic"
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Critical Immunity",
+        "moreInfo": {
+          "model": "edges",
+          "id": "AA_plating"
+        }
+      }
+    ],
+    "type": "apex-augments",
+    "html": "<p>You become resistant to Slashing, Piercing, Bludgeoning and Psychic damage. You are\nimmune to critical hits.</p>\n",
+    "id": "AA_plating"
+  },
+  {
+    "name": "Apex Processor",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "int"
+      },
+      {
+        "type": "saving-throw",
+        "value": "cha"
+      },
+      {
+        "type": "saving-throw",
+        "value": "str"
+      },
+      {
+        "type": "saving-throw",
+        "value": "dex"
+      },
+      {
+        "type": "saving-throw",
+        "value": "con"
+      },
+      {
+        "type": "saving-throw",
+        "value": "wis"
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Apex Processor",
+        "moreInfo": {
+          "model": "edges",
+          "id": "AA_processor"
+        }
+      }
+    ],
+    "type": "apex-augments",
+    "html": "<p>You gain proficiency in all saving throws. You regenerate hit points equal to 5 + your constitution\nmodifier each turn as long as you are below half your max hit points and still have at least one hit point.</p>\n",
+    "id": "AA_processor"
+  },
+  {
+    "name": "Apex Weaponry (melee)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "edges",
+                "id": "AA_weaponry-melee"
+              }
+            ]
+          },
+          "notes": [
+            {},
+            {
+              "type": "tooltip",
+              "text": "1/2 dmg @ SoT",
+              "tooltipText": "Whenever you damage an enemy with your weapon, that enemy takes half the damage you dealt again at the start of their next turn."
+            }
+          ],
+          "damage": [
+            {},
+            {
+              "dieCount": 1,
+              "dieType": 8,
+              "type": "radiant",
+              "addTo": "base"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "apex-augments",
+    "html": "<p>Your weapon deals an additional 1d8 radiant damage. Whenever you damage an enemy with your weapon, that enemy takes half the damage you dealt again at the start of their next turn.</p>\n",
+    "id": "AA_weaponry-melee"
+  },
+  {
+    "name": "Apex Weaponry (ranged)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "edges",
+                "id": "AA_weaponry-ranged"
+              }
+            ]
+          },
+          "notes": [
+            {},
+            {
+              "type": "tooltip",
+              "text": "1/2 dmg @ SoT",
+              "tooltipText": "Whenever you damage an enemy with your weapon, that enemy takes half the damage you dealt again at the start of their next turn."
+            }
+          ],
+          "damage": [
+            {},
+            {
+              "dieCount": 1,
+              "dieType": 8,
+              "type": "radiant",
+              "addTo": "base"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "apex-augments",
+    "html": "<p>Your weapon deals an additional 1d8 radiant damage. Whenever you damage an enemy with your weapon, that enemy takes half the damage you dealt again at the start of their next turn.</p>\n",
+    "id": "AA_weaponry-ranged"
+  },
+  {
+    "name": "Boosted Plating",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Plating Boost",
+        "moreInfo": {
+          "model": "edges",
+          "id": "AB_plating"
+        }
+      }
+    ],
+    "type": "augment-boosts",
+    "html": "<p>Whenever you would suffer physical damage (slashing, bludgeoning or piercing) to your health, you subtract an amount of damage from each hit equal to your proficiency modifier.</p>\n",
+    "id": "AB_plating"
+  },
+  {
+    "name": "Boosted Processor",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "wis",
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "saving-throw",
+        "value": "dex",
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "type": "expertise-choice",
+        "profType": "skill",
+        "options": true,
+        "selections": 1
+      }
+    ],
+    "type": "augment-boosts",
+    "html": "<p>Your processor now grants you expertise in one other skill of your choice, and you have advantage on Wisdom and Dexterity saving throws.</p>\n",
+    "id": "AB_processor"
+  },
+  {
+    "name": "Boosted Weaponry (melee)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "resource": {
+            "reset": "short",
+            "id": "integrated-weaponry-toggle-resource"
+          },
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "edges",
+                "id": "AB_weaponry-melee"
+              }
+            ]
+          },
+          "toggle": {
+            "id": "integrated-weaponry-toggle",
+            "whenOn": [
+              {
+                "type": "resource",
+                "id": "integrated-weaponry-toggle-resource",
+                "method": "set",
+                "value": {
+                  "type": "flat",
+                  "value": 1
+                }
+              }
+            ],
+            "options": [
+              {
+                "id": "integrated-weaponry-toggle-reach",
+                "name": "Reach",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "main-augments",
+                      "id": "MA_weaponry-melee",
+                      "limit": [
+                        "attack"
+                      ]
+                    },
+                    "merge": {
+                      "range": {
+                        "short": 10
+                      },
+                      "notes": [
+                        "Reach"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "integrated-weaponry-toggle-lightning",
+                "name": "Lightning",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "main-augments",
+                      "id": "MA_weaponry-melee",
+                      "limit": [
+                        "attack"
+                      ]
+                    },
+                    "merge": {
+                      "damage": [
+                        {
+                          "type": "lightning"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "integrated-weaponry-toggle-fire",
+                "name": "Fire",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "main-augments",
+                      "id": "MA_weaponry-melee",
+                      "limit": [
+                        "attack"
+                      ]
+                    },
+                    "merge": {
+                      "damage": [
+                        {
+                          "type": "fire"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "type": "augment-boosts",
+    "html": "<p>You can now either grant it the Reach property or change it's damage type to Lightning or Fire.\nYou can change your choice at the end of each short rest.</p>\n",
+    "id": "AB_weaponry-melee"
+  },
+  {
+    "name": "Boosted Weaponry (ranged)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "resource": {
+            "reset": "short",
+            "id": "integrated-weaponry-toggle-resource"
+          },
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "edges",
+                "id": "AB_weaponry-ranged"
+              }
+            ]
+          },
+          "toggle": {
+            "id": "integrated-weaponry-toggle",
+            "whenOn": [
+              {
+                "type": "resource",
+                "id": "integrated-weaponry-toggle-resource",
+                "method": "set",
+                "value": {
+                  "type": "flat",
+                  "value": 1
+                }
+              }
+            ],
+            "options": [
+              {
+                "id": "integrated-weaponry-toggle-arc",
+                "name": "Arc",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "main-augments",
+                      "id": "MA_weaponry-ranged",
+                      "limit": [
+                        "attack"
+                      ]
+                    },
+                    "merge": {
+                      "damage": [
+                        {
+                          "type": "lightning"
+                        }
+                      ],
+                      "notes": [
+                        {
+                          "type": "tooltip",
+                          "text": "Arc",
+                          "tooltipText": "On a hit, deals half of the damage dealt to 1 additional creature within <me-distance length=\"5\" /> of the hit target. If there is more than one creature within <me-distance length=\"5\" /> of the initial target, choose the second target randomly.",
+                          "isHtml": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "integrated-weaponry-toggle-force",
+                "name": "Force",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "main-augments",
+                      "id": "MA_weaponry-ranged",
+                      "limit": [
+                        "attack"
+                      ]
+                    },
+                    "merge": {
+                      "damage": [
+                        {
+                          "type": "force"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "integrated-weaponry-toggle-radiant",
+                "name": "Radiant",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "main-augments",
+                      "id": "MA_weaponry-ranged",
+                      "limit": [
+                        "attack"
+                      ]
+                    },
+                    "merge": {
+                      "damage": [
+                        {
+                          "type": "radiant"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "type": "augment-boosts",
+    "html": "<p>You can give it the Arc property or change it's damage type to Force or\nRadiant. You can change your choice at the end of each short rest.</p>\n",
+    "id": "AB_weaponry-ranged"
+  },
+  {
     "name": "Constitution",
     "mechanics": [
       {
@@ -1533,6 +1987,262 @@
     "id": "FS_the-free-hand"
   },
   {
+    "name": "Bludgeoning",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "type": "bludgeoning"
+            }
+          ]
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "type": "bludgeoning"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "integrated-weaponry-damage",
+    "html": "",
+    "id": "IWD_bludgeoning"
+  },
+  {
+    "name": "Piercing",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "type": "piercing"
+            }
+          ]
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "type": "piercing"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "integrated-weaponry-damage",
+    "html": "",
+    "id": "IWD_piercing"
+  },
+  {
+    "name": "Slashing",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "type": "slashing"
+            }
+          ]
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "damage": [
+            {
+              "type": "slashing"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "integrated-weaponry-damage",
+    "html": "",
+    "id": "IWD_slashing"
+  },
+  {
+    "name": "Integrated Plating",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "mod",
+          "value": "con"
+        }
+      }
+    ],
+    "type": "main-augments",
+    "html": "<p>Your body has been implanted with experimental plating underneath the skin, that help you stay alive. You gain a\nbonus to your AC equal to your Constitution modifier if you are wearing Light Armor.</p>\n",
+    "id": "MA_plating"
+  },
+  {
+    "name": "Integrated Processor",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "dex"
+      },
+      {
+        "type": "saving-throw",
+        "value": "wis"
+      },
+      {
+        "type": "expertise-choice",
+        "options": true,
+        "limit": "acquired",
+        "selections": 2
+      }
+    ],
+    "type": "main-augments",
+    "html": "<p>You have an integrated processor installed inside of your brain, that helps modulate responses to your nervous\nsystem and parses information for you, allowing you to better focus on your tasks. You gain proficiency in\nDexterity and Wisdom saving throws, and you gain Expertise in two skills you are already proficient in.</p>\n",
+    "id": "MA_processor"
+  },
+  {
+    "name": "Integrated Weaponry (melee)",
+    "mechanics": [
+      {
+        "name": "Integrated Weaponry",
+        "moreInfo": {
+          "model": "edges",
+          "id": "MA_weaponry-melee"
+        },
+        "type": "attack",
+        "modelType": {
+          "model": "weapon",
+          "type": "melee"
+        },
+        "range": {
+          "short": 5
+        },
+        "attack": {
+          "type": "melee",
+          "proficient": true,
+          "bonus": {
+            "type": "mod",
+            "value": "con"
+          }
+        },
+        "damage": [
+          {
+            "dieCount": 2,
+            "dieType": 6,
+            "bonus": {
+              "type": "mod",
+              "value": "con"
+            }
+          }
+        ]
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "integrated-weaponry-damage"
+      }
+    ],
+    "type": "main-augments",
+    "html": "<p>Your body has integrated weapons located somewhere. This can vary from a bionic arm that you are now used to enough\nto swing, or blades that only now you've grown used to. Choose a physical damage type: Bludgeoning, Slashing, or Piercing. This is the base damage of your weapon.\nYou make attack rolls with this weapon using your Constitution Modifier. It deals 2d6 + your Constitution Modifier damage.</p>\n",
+    "id": "MA_weaponry-melee"
+  },
+  {
+    "name": "Integrated Weaponry (ranged)",
+    "mechanics": [
+      {
+        "name": "Integrated Weaponry",
+        "moreInfo": {
+          "model": "edges",
+          "id": "MA_weaponry-ranged"
+        },
+        "type": "attack",
+        "modelType": {
+          "model": "weapon",
+          "type": "ranged"
+        },
+        "range": {
+          "short": 50,
+          "long": 100
+        },
+        "attack": {
+          "type": "ranged",
+          "proficient": true,
+          "bonus": {
+            "type": "mod",
+            "value": "con"
+          }
+        },
+        "damage": [
+          {
+            "dieCount": 1,
+            "dieType": 8,
+            "bonus": {
+              "type": "mod",
+              "value": "con"
+            }
+          }
+        ]
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "integrated-weaponry-damage"
+      }
+    ],
+    "type": "main-augments",
+    "html": "<p>Your body has integrated weapons located somewhere. This can vary from a bionic arm that you are now used to enough\nto swing, or blades that only now you've grown used to. Choose a physical damage type: Bludgeoning, Slashing, or Piercing.\nThis is the base damage of your weapon. You make attack rolls with this weapon using your Constitution Modifier. It\ndeals 1d8 + your Constitution Modifier damage, and has a range of <me-distance length=\"50\" abbr/>/<me-distance length=\"100\" abbr />.</p>\n",
+    "id": "MA_weaponry-ranged"
+  },
+  {
     "name": "Careful Power",
     "mechanics": [
       {
@@ -1669,6 +2379,162 @@
     "type": "metabiotics",
     "html": "<p>When you cast a power that doesn't have a range of self and is incapable of\ntargeting more than one creature at the power's current level, you can spend a\nnumber of barrier ticks equal to the power's level to target a second creature\nin range with the same power.</p>\n",
     "id": "NMB_twinned-power"
+  },
+  {
+    "name": "Primal Plating",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "radiant"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic"
+      },
+      {
+        "type": "resistance",
+        "value": "force"
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Primal Plating",
+        "moreInfo": {
+          "model": "edges",
+          "id": "PA_plating"
+        }
+      }
+    ],
+    "type": "primal-augments",
+    "html": "<p>You become resistant to Necrotic, Radiant and Force damage. When you are hit by a biotic spell,\nroll a 1d20. On a roll of 16 or higher, you regain one spell slot.</p>\n",
+    "id": "PA_plating"
+  },
+  {
+    "name": "Primal Processor",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "int"
+      },
+      {
+        "type": "saving-throw",
+        "value": "cha"
+      },
+      {
+        "type": "resistance",
+        "value": "psychic"
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Primal Processor",
+        "moreInfo": {
+          "model": "edges",
+          "id": "PA_processor"
+        }
+      }
+    ],
+    "type": "primal-augments",
+    "html": "<p>You gain proficiency in Intelligence and Charisma Saving throws, and you become resistant to Psychic damage.\nAny creature who causes you Psychic damage takes Psychic damage equal to one roll of your Exploit die.</p>\n",
+    "id": "PA_processor"
+  },
+  {
+    "name": "Primal Weaponry (melee)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "edges",
+                "id": "PA_weaponry-melee"
+              }
+            ]
+          },
+          "range": {
+            "short": 10
+          },
+          "damage": [
+            {},
+            {
+              "dieCount": 1,
+              "dieType": 8,
+              "type": "necrotic",
+              "addTo": "base"
+            }
+          ],
+          "toggle": {
+            "options": [
+              {
+                "whenOn": [
+                  {
+                    "merge": {
+                      "range": {
+                        "short": 15
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "type": "primal-augments",
+    "html": "<p>Your weapon deals an additional 1d8 necrotic damage. It gains a reach of <me-distance length=\"5\" />.\nThis can stack with the Reach property you can give it.</p>\n",
+    "id": "PA_weaponry-melee"
+  },
+  {
+    "name": "Primal Weaponry (ranged)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "edges",
+                "id": "PA_weaponry-ranged"
+              }
+            ]
+          },
+          "range": {
+            "short": 100,
+            "long": 200
+          },
+          "damage": [
+            {},
+            {
+              "dieCount": 1,
+              "dieType": 8,
+              "type": "necrotic",
+              "addTo": "base"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "primal-augments",
+    "html": "<p>Your weapon deals an additional 1d8 necrotic damage. Double it's range.</p>\n",
+    "id": "PA_weaponry-ranged"
   },
   {
     "name": "Angara",
@@ -2609,6 +3475,143 @@
     ],
     "html": "<p>When you make Charisma (Intimidation) check and roll a 9 or lower, you can treat the roll as a 10.</p>\n<p>You may use this benefit between long rests a number of times equal to your Charisma modifier (minimum of once).</p>\n",
     "id": "REP_presence"
+  },
+  {
+    "name": "Supercharged Plating",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "lightning"
+      },
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Supercharge Plating",
+        "moreInfo": {
+          "model": "edges",
+          "id": "SA_plating"
+        }
+      }
+    ],
+    "type": "supercharged-augments",
+    "html": "<p>You become resistant to Lightning damage. Whenever an enemy hits you in melee range, it takes\nLightning damage equal to one roll of your Exploit Die + your Experiment level.</p>\n",
+    "id": "SA_plating"
+  },
+  {
+    "name": "Supercharged Processor",
+    "mechanics": [
+      {
+        "type": "expertise-choice",
+        "profType": "skill",
+        "options": true,
+        "selections": 1
+      },
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 15
+        }
+      },
+      {
+        "type": "condition-immunity",
+        "value": "stunned"
+      }
+    ],
+    "type": "supercharged-augments",
+    "html": "<p>Your walking speed increases by <me-distance length=\"15\" />. You gain expertise in one other skill of your choice, and you cannot become Confused or Stunned.</p>\n",
+    "id": "SA_processor"
+  },
+  {
+    "name": "Supercharged Weaponry (melee)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-melee",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "edges",
+                "id": "SA_weaponry-melee"
+              }
+            ]
+          },
+          "notes": [
+            {},
+            {
+              "type": "tooltip",
+              "text": "shields*",
+              "tooltipText": "Deals the same damage to shields that it would deal to health (efectively dealing the same damage to both shields and health)"
+            }
+          ],
+          "damage": [
+            {},
+            {
+              "dieCount": 1,
+              "dieType": 8,
+              "type": "thunder",
+              "addTo": "base"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "supercharged-augments",
+    "html": "<p>Your weapon deals an additional 1d8 thunder damage deals the same damage to shields that it would deal\nto health (efectively dealing the same damage to both shields and health)</p>\n",
+    "id": "SA_weaponry-melee"
+  },
+  {
+    "name": "Supercharged Weaponry (ranged)",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "main-augments",
+          "id": "MA_weaponry-ranged",
+          "limit": [
+            "attack"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "edges",
+                "id": "SA_weaponry-ranged"
+              }
+            ]
+          },
+          "notes": [
+            {},
+            "bypass shields"
+          ],
+          "damage": [
+            {},
+            {
+              "dieCount": 1,
+              "dieType": 8,
+              "type": "thunder",
+              "addTo": "base"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "supercharged-augments",
+    "html": "<p>Your weapon deals an additional 1d8 thunder damage and bypasses shields.</p>\n",
+    "id": "SA_weaponry-ranged"
   },
   {
     "name": "Arctic",
