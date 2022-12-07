@@ -7,6 +7,13 @@
     "id": "armiger"
   },
   {
+    "klass": "engineer",
+    "name": "Armorer",
+    "author": "Spagheddy",
+    "html": "<p>Taking inspiration in armored warriors throughout history - or from that one popular comic book from Earth -\nyou put your technical expertise to the test and create a special suit of armor for yourself.</p>\n",
+    "id": "armorer"
+  },
+  {
     "klass": "sentinel",
     "name": "Bastion",
     "html": "<p>Bastion sentinels are battlefield leaders. They can easily turn the tides by calling out orders, inspiring troops, and synchronizing troop movements.</p>\n",
@@ -143,6 +150,13 @@
     "name": "Havoc",
     "html": "<p>GUNS!!! GRENADES!!! EXPLOSIONS!!!</p>\n",
     "id": "havoc"
+  },
+  {
+    "klass": "engineer",
+    "name": "Holosmith",
+    "author": "Spagheddy",
+    "html": "<p>Experience has taught you that hard light hurts just as much as blades, if not more. You've made it your life mission\nto improve on the designs of existing omni-weaponry, and also decided that it's no fun to just hand your\ncreations over to bruiser.</p>\n",
+    "id": "holosmith"
   },
   {
     "klass": "soldier",
@@ -331,6 +345,13 @@
     "author": "Spagheddy",
     "html": "<p>Your species' old stories and myths fuels your drive to inspire others. You seek to bring a bit of your culture to the\ngalactic front, and tales of bravery and camaraderie rescue hearts from the deepest pits of despair.</p>\n",
     "id": "tradition"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Valkyrie",
+    "author": "Spagheddy",
+    "html": "<p>You've been fighting long enough to know that, without allies, you're screwed. As such, you've adapted a fighting\nstyle to help protect your friends in their most dire hours.</p>\n",
+    "id": "valkyrie"
   },
   {
     "klass": "sentinel",
