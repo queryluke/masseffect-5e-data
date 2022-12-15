@@ -220,6 +220,34 @@
     "id": "advanced-tech-armor"
   },
   {
+    "level": 14,
+    "klass": "sentinel",
+    "subclass": "field-medic",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "trauma-suite"
+        },
+        "merge": {
+          "shortDesc": "Create a Trauma Suite on up to two willing allies within <me-distance length=\"75\" /> of you for 1 minute. <br><br> You can cast First Aid on that ally as a Bonus Action instead of a normal action. You can affect all creatures currently benefiting from Trauma Suite at the same time at no additional action or power slot cost. <br><br> When you use your Transfusion ability, if you need to use your health to power that feature, you have resistance to the damage it deals to your health. <br><br> If an ally affected by Trauma Suite ally reaches zero hit points, the Trauma Suite shuts off and the ally is stabilized.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "advanced-trauma-suites"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Advanced Trauma Suites",
+    "html": "<p>At 14th level, when you use Trauma Suite, you can now create two Suites per use of Tech Armor. These are subject to\nall normal limitations and rulings of the normal Trauma Suites. In addition, your Trauma Suite gains new properties</p>\n<ul>\n<li>When you cast First Aid, you can affect all creatures currently benefiting from Trauma Suite at the same time at no additional action or power slot cost</li>\n<li>When you use your Transfusion ability, if you need to use your health to power that feature, you have resistance to the damage it deals to your health</li>\n</ul>\n",
+    "id": "advanced-trauma-suites"
+  },
+  {
     "level": 3,
     "klass": "soldier",
     "subclass": "havoc",
@@ -1882,6 +1910,25 @@
     "name": "Bloodseeker",
     "html": "<p>Starting at 10th level, your beast is able to follow up on your targeting and chases with the same, if not more ferocity.</p>\n<p>When you affect a creature with Shot in the Heel, your beast can use it reaction to immediately move up to its\nmovement speed towards the affected creature, and if it has a weapon that is in range, it can make one attack against that creature.</p>\n",
     "id": "bloodseeker"
+  },
+  {
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "brawler",
+    "mechanics": [
+      {
+        "name": "Body Blow",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "body-blow"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you make an attack roll with an unarmed strike on your turn and hit, you can spend your bonus action to attempt a Body Blow. If you do, roll the attack again, using the same modifiers, against the same AC number of the target. If you hit this second attack, it deals no damage, but the target is <me-condition id=\"stunned\" /> for 1 round. If your Body Blow roll is a critical hit, the target is instead <me-condition id=\"paralyzed\" /> for 1 round."
+      }
+    ],
+    "name": "Body Blow",
+    "html": "<p>Also at 3rd level, when you make an attack roll with an unarmed strike on your turn and hit, you can spend your\nbonus action to attempt a Body Blow. If you do, roll the attack again, using the same modifiers, against the\nsame AC number of the target. If you hit this second attack, it deals no damage, but the target is <me-condition id=\"stunned\" /> for 1 round.\nIf your Body Blow roll is a critical hit, the target is instead <me-condition id=\"paralyzed\" /> for 1 round.</p>\n",
+    "id": "body-blow"
   },
   {
     "level": 6,
@@ -4603,6 +4650,25 @@
     "id": "giving-chase"
   },
   {
+    "level": 9,
+    "klass": "infiltrator",
+    "subclass": "brawler",
+    "mechanics": [
+      {
+        "name": "Grab and Toss",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "grab-and-toss"
+        },
+        "type": "reaction",
+        "shortDesc": "When an enemy moves within your threatened area make an attack roll against the target: on a hit, deal damage to it equal to half of your Sneak Attack dice, and the target must succeed a Dexterity saving throw equal to your Save DC or be knocked prone. You can also use this reaction if a stunned or paralyzed enemy is adjacent to you at the end of your turn. <br><br> Instead of knocking your target prone, you can instead chose to deafen them or blind them. In this case, the save changes to a constitution saving throw, and they are blind or deaf for 1 minute if they fail."
+      }
+    ],
+    "name": "Grab and Toss",
+    "html": "<p>At 9th level, you can use your reaction when an enemy moves within your threatened area to try and throw them to the\nground. Make an attack roll against the target: on a hit, deal damage to it equal to half of your Sneak Attack dice,\nand the target must succeed a Dexterity saving throw equal to your Save DC or be knocked prone. You can also use\nthis reaction if a stunned or paralyzed enemy is adjacent to you at the end of your turn.</p>\n<p>Instead of knocking your target prone, you can instead chose to deafen them or blind them. In this case, the\nsave changes to a constitution saving throw, and they are blind or deaf for 1 minute if they fail.</p>\n",
+    "id": "grab-and-toss"
+  },
+  {
     "level": 14,
     "klass": "sentinel",
     "subclass": "warlord",
@@ -4746,6 +4812,25 @@
     "name": "Haunting Melody",
     "html": "<p>At 3rd level, your mournful voice confuses those who try and impose their will on you. Creatures have\ndisadvantage on Intimidation, Persuasion or Deception checks to try and influence you if can speak eloquently.\nIf your mouth is gagged, or you are otherwise incapable of being heard, this ability is void.</p>\n",
     "id": "haunting-melody"
+  },
+  {
+    "level": 7,
+    "klass": "sentinel",
+    "subclass": "field-medic",
+    "mechanics": [
+      {
+        "name": "Healing Nanites",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "healing-nanites"
+        },
+        "type": "other",
+        "shortDesc": "You exude an aura of nanites within a <me-distance length=\"25\" /> radius of you and your ally under the effects of Trauma suite. When one of your allies recovers hit points while inside of this area, they recover an additional amount of hit points equal to your proficiency modifier."
+      }
+    ],
+    "name": "Healing Nanites",
+    "html": "<p>At 7th level, you exude an aura of nanites within a <me-distance length=\"25\" /> radius of you and your ally under the\neffects of Trauma suite. When one of your allies recovers hit points while inside of this area, they recover an\nadditional amount of hit points equal to your proficiency modifier.</p>\n",
+    "id": "healing-nanites"
   },
   {
     "level": 10,
@@ -5919,6 +6004,38 @@
     "id": "martial-adept"
   },
   {
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "brawler",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Martial Arts",
+          "type": "natural-melee",
+          "range": {
+            "short": 5
+          },
+          "damage": {
+            "dieCount": 1,
+            "dieType": 6,
+            "type": "bludgeoning"
+          },
+          "properties": [
+            "light",
+            "finesse",
+            "special"
+          ],
+          "html": "At 3rd level, you gain an unarmed strike. It deals 1d6 bludgeoning damage, has the Special, Finesse and Light properties, and you can't be disarmed of it. You can flavour this unarmed strike as you want, meaning you can still use it even if both your hands are tied up. Your unarmed strikes are treated as weapons for the purposes of Sneak Attack. <br><br> You can also use Acrobatics instead of Athletics to grapple targets."
+        }
+      }
+    ],
+    "name": "Martial Arts",
+    "html": "<p>At 3rd level, you gain an unarmed strike. It deals 1d6 bludgeoning damage, has the Special, Finesse and Light properties,\nand you can't be disarmed of it. You can flavour this unarmed strike as you want, meaning you can still use it even if\nboth your hands are tied up. Your unarmed strikes are treated as weapons for the purposes of Sneak Attack.</p>\n<p>You can also use Acrobatics instead of Athletics to grapple targets.</p>\n",
+    "id": "martial-arts"
+  },
+  {
     "level": 18,
     "klass": "engineer",
     "subclass": "holosmith",
@@ -6598,6 +6715,51 @@
     "name": "Napalm Burst",
     "html": "<p>At 7th level, when you spend a unit of Fuel to use your Havoc Strike, you can spend an additional\n2 Fuel to have every creature in the radius of impact make a Dexterity Saving throw\n(DC= 8+ Proficiency+the modifier you chose at 3rd level) or become Primed (fire) until the end of their next turn.</p>\n",
     "id": "napalm-burst"
+  },
+  {
+    "level": 17,
+    "klass": "infiltrator",
+    "subclass": "brawler",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "martial-arts"
+        },
+        "merge": {
+          "value": {
+            "notes": [
+              "You can change their damage type from bludgeoning to slashing or piercing",
+              "Crit on 18+"
+            ],
+            "html": "At 3rd level, you gain an unarmed strike. It deals 1d6 bludgeoning damage, has the Special, Finesse and Light properties, and you can't be disarmed of it. You can flavour this unarmed strike as you want, meaning you can still use it even if both your hands are tied up. Your unarmed strikes are treated as weapons for the purposes of Sneak Attack. <br><br> You can also use Acrobatics instead of Athletics to grapple targets. <br><br> At 13th level, you can use reactions twice per round instead of only once. In addition, your unarmed strikes now deal 2d6 damage, and you can change their damage type from bludgeoning to slashing or piercing. <br><br> At 17th level, your unarmed strikes critically succeed on a roll of 18 or higher."
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "body-blow"
+        },
+        "merge": {
+          "shortDesc": "When you make an attack roll with an unarmed strike on your turn and hit, you can spend your bonus action to attempt a Body Blow. If you do, roll the attack again, using the same modifiers, against the same AC number of the target. If you hit this second attack, it deals no damage, but the target is <me-condition id=\"stunned\" /> for 1 round. If your Body Blow roll is a critical hit, the target is instead <me-condition id=\"paralyzed\" /> for 1 round. <br><br> When you successfully Body Blow someone, you can choose to move that creature to another space that's adjacent to you. <br><br> Your Body Blow strikes can critically succeed on a roll of 16 or higher. These attacks are only considered critical successes if they would hit the target's AC.",
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "nerve-cluster-strikes"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Nerve Cluster Strikes",
+    "html": "<p>At 17th level, your unarmed strikes critically succeed on a roll of 18 or higher. In addition, your Body Blow strikes\ncan critically succeed on a roll of 16 or higher. These attacks are only considered critical successes if they would hit the target's AC.</p>\n",
+    "id": "nerve-cluster-strikes"
   },
   {
     "level": 9,
@@ -8745,6 +8907,61 @@
     "id": "reflective-bubble"
   },
   {
+    "level": 13,
+    "klass": "infiltrator",
+    "subclass": "brawler",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "2 Reactions",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "reflexive-attacks"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "martial-arts"
+        },
+        "merge": {
+          "value": {
+            "damage": {
+              "dieCount": 2
+            },
+            "notes": [
+              "You can change their damage type from bludgeoning to slashing or piercing."
+            ],
+            "html": "At 3rd level, you gain an unarmed strike. It deals 1d6 bludgeoning damage, has the Special, Finesse and Light properties, and you can't be disarmed of it. You can flavour this unarmed strike as you want, meaning you can still use it even if both your hands are tied up. Your unarmed strikes are treated as weapons for the purposes of Sneak Attack. <br><br> You can also use Acrobatics instead of Athletics to grapple targets. <br><br> At 13th level, you can use reactions twice per round instead of only once. In addition, your unarmed strikes now deal 2d6 damage, and you can change their damage type from bludgeoning to slashing or piercing."
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "body-blow"
+        },
+        "merge": {
+          "shortDesc": "When you make an attack roll with an unarmed strike on your turn and hit, you can spend your bonus action to attempt a Body Blow. If you do, roll the attack again, using the same modifiers, against the same AC number of the target. If you hit this second attack, it deals no damage, but the target is <me-condition id=\"stunned\" /> for 1 round. If your Body Blow roll is a critical hit, the target is instead <me-condition id=\"paralyzed\" /> for 1 round. <br><br> When you successfully Body Blow someone, you can choose to move that creature to another space that's adjacent to you.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "reflexive-attacks"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Reflexive Attacks",
+    "html": "<p>At 13th level, you can use reactions twice per round instead of only once. In addition, your unarmed strikes now\ndeal 2d6 damage, and you can change their damage type from bludgeoning to slashing or piercing.</p>\n<p>When you successfully Body Blow someone, you can choose to move that creature to another space that's adjacent to you.</p>\n",
+    "id": "reflexive-attacks"
+  },
+  {
     "level": 14,
     "klass": "adept",
     "subclass": "fury",
@@ -10118,6 +10335,35 @@
     "name": "Supply Pylon",
     "html": "<p>By 18th level, you can call in a <me-distance length=\"5\" /> tall by <me-distance length=\"2\" /> wide supply pylon to a location within <me-distance length=\"10\" />. At the start of your next turn, the pylon arrives. If any creature is\nstanding in the targeted location, the creature must make a Dexterity saving throw with advantage.\nOn a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone.</p>\n<p>The pylon contains 5 resources from the following list, which you choose when you call the pylon:</p>\n<ul>\n<li>1 heavy weapon ammo charges</li>\n<li>10 thermal clips</li>\n<li>A battery capable to quickly recharging your Omni-tool, recovering 5 tech points</li>\n<li>A stim pack capable of staving off biotic fatigue, recovering 5 levels worth of power slots</li>\n<li>4 enhanced medi-gel</li>\n<li>2 Mk II Frag grenades</li>\n<li>2 Mk II Lift Grenades</li>\n<li>2 Mk IV Flashbang</li>\n<li>2 Mk IV Smoke grenades</li>\n</ul>\n<p>Once the pylon has landed, friendly creatures (including you) within melee range of the pylon can use their action to collect\none of the resources you chose.</p>\n<p>Once you use this feature, you cannot use it again until you finish a long rest and restock the pylon with 5 omni-gel.</p>\n",
     "id": "supply-pylon"
+  },
+  {
+    "level": 18,
+    "klass": "sentinel",
+    "subclass": "field-medic",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "trauma-suite"
+        },
+        "merge": {
+          "shortDesc": "Create a Trauma Suite on up to four willing allies within <me-distance length=\"75\" /> of you for 1 minute. <br><br> While all four of your Trauma Suites are deployed, your allies heal for 1d8 more damage whenever they heal hit points. <br><br> You can cast First Aid on that ally as a Bonus Action instead of a normal action. You can affect all creatures currently benefiting from Trauma Suite at the same time at no additional action or power slot cost. <br><br> When you use your Transfusion ability, if you need to use your health to power that feature, you have resistance to the damage it deals to your health. <br><br> When an ally wearing a Trauma Suite takes damage, the ally can decide to pass on half of the damage they took to another ally wearing a Trauma Suite. The ally takes that damage, and cannot diminish it with Barrier. <br><br> If an ally affected by Trauma Suite ally reaches zero hit points, the Trauma Suite shuts off and the ally is stabilized.",
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "supreme-trauma-suite"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Supreme Trauma Suites",
+    "html": "<p>At 18th level, when you use Trauma Suite, you can now create 4 suites per use of Tech Armor. These are subject to all\nthe normal limitations of the normal Trauma Suites. In addition, your Trauma Suite gains new properties.</p>\n<ul>\n<li>When an ally wearing a Trauma Suite takes damage, the ally can decide to pass on half of the damage they took to another ally wearing a Trauma Suite. The ally takes that damage, and cannot diminish it with Barrier.</li>\n<li>While all four of your Trauma Suites are deployed, your allies heal for 1d8 more damage whenever they heal hit points.</li>\n</ul>\n",
+    "id": "supreme-trauma-suite"
   },
   {
     "level": 18,
@@ -12309,6 +12555,56 @@
     ],
     "html": "<p>At 3rd level, you can now target your Charge cantrip at an ally. When you do so, your ally does not take the\ndamage of the charge. Instead, if you have a barrier active and with 2 or more ticks, you can chose to\ntransfer one tick to your ally. This effect does not allow your ally to use the Tactical Barrier and\nHeavy Barrier class features, unless they themselves have those features.</p>\n",
     "id": "transfer-barrier"
+  },
+  {
+    "level": 10,
+    "klass": "sentinel",
+    "subclass": "field-medic",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "power",
+        "value": "Transfusion",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "transfusion"
+        }
+      }
+    ],
+    "name": "Transfusion",
+    "html": "<p>At 10th level, when you cast First Aid, you can drain 2Xd8 points of your shields to improve the healing of First\naid by Xd8. If you don't have shield points, you can inflict this damage to your health instead, as you force your\narmor to overheat to fuel this boost. X can be a number between 1 and your maximum proficiency modifier.</p>\n",
+    "id": "transfusion"
+  },
+  {
+    "level": 3,
+    "klass": "sentinel",
+    "subclass": "field-medic",
+    "mechanics": [
+      {
+        "name": "Trauma Suite",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "trauma-suite"
+        },
+        "type": "other",
+        "shortDesc": "Create a Trauma Suite on a willing ally within <me-distance length=\"75\" /> of you for 1 minute. While active, you may cast First Aid on the ally as a bonus action. If the ally reaches zero hit points, the Trauma Suite shuts off and your ally is stabilized.",
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "tech-armor"
+        }
+      },
+      {
+        "type": "powers",
+        "value": "first-aid",
+        "klass": "sentinel"
+      }
+    ],
+    "name": "Trauma Suite",
+    "html": "<p>Your omni-tool's software is calibrated for first aid actions. At 3rd level, you gain access to the First Aid\nSentinel Power. This power doesn't count against your powers known, and you can cast it as you would any Sentinel power.</p>\n<p>You can also spend a use of your Tech Armor to create a Trauma Suite on a willing ally within <me-distance length=\"75\" />\nof you. The trauma suite doesn't grant your ally the usual benefits of Tech Armor, but it provides them with other benefits.</p>\n<ul>\n<li>You can cast First Aid on that ally as a Bonus Action instead of a normal action.</li>\n<li>If your ally reaches zero hit points, the Trauma Suite shuts off and your ally is stabilized.</li>\n</ul>\n<p>In standard circumstances, Trauma Suite lasts for one minute.</p>\n",
+    "id": "trauma-suite"
   },
   {
     "level": 15,
