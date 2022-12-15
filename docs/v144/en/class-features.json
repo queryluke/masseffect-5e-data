@@ -275,6 +275,37 @@
     "id": "afterburner"
   },
   {
+    "level": 13,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "infiltrator",
+          "id": "venom-arsenal"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "amplified-venom"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "immunity",
+        "value": "poison"
+      }
+    ],
+    "name": "Amplified Venom",
+    "html": "<p>At 13th level, your toxins are imperceptible to normal analysis. If you kill someone using Poison damage or a\npoison outside of combat, that target doesn't show signs of being poisoned.</p>\n<p>You now completely ignore Immunity to Poison damage, and are now able to poison Synthetic and Synthorganic enemies.</p>\n",
+    "id": "amplified-venom"
+  },
+  {
     "level": 10,
     "klass": "vanguard",
     "subclass": "cardinal",
@@ -1952,6 +1983,50 @@
     "id": "boost-weapon"
   },
   {
+    "level": 7,
+    "klass": "sentinel",
+    "subclass": "warleader",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-barricade"
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {
+                "shortDesc": "You and adjacent allies gain half cover. If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. <br><br> When an ally makes a ranged weapon attack while Barricade is active and they are receiving the cover bonus, they gain a bonus to hit their target equal to your powercasting modifier.",
+                "moreInfo": {
+                  "additional": [
+                    {
+                      "model": "class-features",
+                      "id": "brace"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "brace"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Brace",
+    "html": "<p>At 7th level, your allies can now brace their weapons on the Barricade when they are adjacent to it. When an ally\nmakes a ranged weapon attack while Barricade is active and they are receiving the cover bonus, they gain a bonus\nto hit their target equal to your powercasting modifier.</p>\n",
+    "id": "brace"
+  },
+  {
     "level": 3,
     "klass": "engineer",
     "subclass": "biohacker",
@@ -2089,6 +2164,55 @@
     ],
     "html": "<p>At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n",
     "id": "brutal-critical-3"
+  },
+  {
+    "level": 18,
+    "klass": "sentinel",
+    "subclass": "warleader",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-barricade"
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {
+                "shortDesc": "You and allies within <me-distance length=\"10\" /> gain half cover. If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. <br><br> If the barricade would be hit, you can instead chose to take 1d4 damage to prevent it from being hit. The damage increases by 1d4 each time you use this feature per casting of Tech Barricade This damage does not bypass shields, but cannot be reduced by Barrier. <br><br> When an ally makes a ranged weapon attack while Barricade is active and they are receiving the cover bonus, they gain a bonus to hit their target equal to your powercasting modifier. <br><br> Allies within the area gain +6 to STR, DEX, and CON saving throws.",
+                "moreInfo": {
+                  "additional": [
+                    {},
+                    {},
+                    {
+                      "model": "class-features",
+                      "id": "bulwark"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "bulwark"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Bulwark",
+    "html": "<p>At 18th level, the benefit of Barricade extends to 4 meters around you, instead of only adjacent squares. In addition,\nwhen an ally is within Barricade's area of effect, they add your proficiency modifier to their physical saving throws\n(Strength, Dexterity, Constitution).</p>\n",
+    "id": "bulwark"
   },
   {
     "level": 14,
@@ -4348,6 +4472,25 @@
     "id": "fuel"
   },
   {
+    "level": 18,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Fulminate",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "fulminate"
+        }
+      }
+    ],
+    "name": "Fulminate",
+    "html": "<p>At 18th level, your poisons are deadly. When you deal Poison damage with your Sneak Toxin or Injection features, your\ntarget takes half of the damage again on the beginning of their next turn.</p>\n",
+    "id": "fulminate"
+  },
+  {
     "level": 15,
     "klass": "soldier",
     "subclass": "incubus",
@@ -4603,6 +4746,52 @@
     "name": "Haunting Melody",
     "html": "<p>At 3rd level, your mournful voice confuses those who try and impose their will on you. Creatures have\ndisadvantage on Intimidation, Persuasion or Deception checks to try and influence you if can speak eloquently.\nIf your mouth is gagged, or you are otherwise incapable of being heard, this ability is void.</p>\n",
     "id": "haunting-melody"
+  },
+  {
+    "level": 10,
+    "klass": "sentinel",
+    "subclass": "warleader",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-barricade"
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {
+                "shortDesc": "You and adjacent allies gain half cover. If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. <br><br> If the barricade would be hit, you can instead chose to take 1d4 damage to prevent it from being hit. The damage increases by 1d4 each time you use this feature per casting of Tech Barricade This damage does not bypass shields, but cannot be reduced by Barrier. <br><br> When an ally makes a ranged weapon attack while Barricade is active and they are receiving the cover bonus, they gain a bonus to hit their target equal to your powercasting modifier.",
+                "moreInfo": {
+                  "additional": [
+                    {},
+                    {
+                      "model": "class-features",
+                      "id": "heavy-barricade"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "heavy-barricade"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Heavy Barricade",
+    "html": "<p>At 10th level, you can reroute the power from your shields or, in extreme cases, your own well being to power the\nBarricade. If the barricade would be hit, you can instead chose to take 1d4 damage to prevent it from being hit. The\ndamage increases by 1d4 each time you use this feature per casting of Tech Barricade This damage does not bypass\nshields, but cannot be reduced by Barrier.</p>\n",
+    "id": "heavy-barricade"
   },
   {
     "level": 11,
@@ -4984,6 +5173,31 @@
     "name": "Indomitable (3)",
     "html": "<p>At 17th level, you can use Indomitable three times between long rests.</p>\n",
     "id": "indomitable-3"
+  },
+  {
+    "level": 9,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "name": "Injection",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "injection"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "injection"
+        },
+        "shortDesc": "If you haven't used your Sneak Attack this round, you can use your Cunning Action to fire off a dart of poison towards an enemy within 30 feet. This dart deals damage equal to your sneak attack damage, is Poison damage, and applies a Toxin if you so chose. Targets hit by Injection have disadvantage on any saving throws against Toxin effects."
+      }
+    ],
+    "name": "Injection",
+    "html": "<p>At 9th level, instead of striking with your Sneak Attack, you can use your poisons by themselves. If you haven't used\nyour Sneak Attack this round, you can use your Cunning Action to fire off a dart of poison towards an enemy within\n30 feet. This dart deals damage equal to your sneak attack damage, is Poison damage, and applies a Toxin\nif you so chose. Targets hit by Injection have disadvantage on any saving throws against Toxin effects.</p>\n<p>You can use this feature a number of times equal to your Proficiency bonus per long rest.</p>\n",
+    "id": "injection"
   },
   {
     "level": 20,
@@ -8457,6 +8671,52 @@
     "id": "recon-tracking"
   },
   {
+    "level": 14,
+    "klass": "sentinel",
+    "subclass": "warleader",
+    "mechanics": [
+      {
+        "name": "Reflecting Barricade",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "reflecting-barricade"
+        },
+        "type": "reaction",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-barricade"
+        },
+        "merge": {
+          "toggle": {
+            "whenOn": [
+              {},
+              {},
+              {},
+              {
+                "type": "reaction",
+                "name": "Reflecting Barricade",
+                "shortDesc": "When your Barricade is hit or you prevent it from being hit with your Heavy Barricade ability, you can use your reaction to send the attack back at it's source. Add your powercasting modifier to the original attack roll, and compare it to the attacker's AC. If it's higher, the attacker is hit, and rolls damage as normal."
+              }
+            ]
+          },
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "reflecting-barricade"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Reflecting Barricade",
+    "html": "<p>At 14th level, when your Barricade is hit or you prevent it from being hit with your Heavy Barricade ability, you can\nuse your reaction to send the attack back at it's source. Add your powercasting modifier to the original attack roll,\nand compare it to the attacker's AC. If it's higher, the attacker is hit, and rolls damage as normal.</p>\n",
+    "id": "reflecting-barricade"
+  },
+  {
     "level": 10,
     "klass": "adept",
     "subclass": "justicar",
@@ -9367,6 +9627,75 @@
     "name": "Sneak Attack",
     "html": "<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.</p>\n<p>You don't need advantage on the attack roll if another enemy of the target is within <me-distance length=\"5\" /> of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.</p>\n<p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.</p>\n",
     "id": "sneak-attack"
+  },
+  {
+    "level": 9,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "sneak-toxin"
+      }
+    ],
+    "name": "Sneak Toxin",
+    "html": "<p>At 9th level, learn another toxin.</p>\n<me-edge-list id=\"sneak-toxin\" />\n",
+    "id": "sneak-toxin-2"
+  },
+  {
+    "level": 13,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "sneak-toxin"
+      }
+    ],
+    "name": "Sneak Toxin",
+    "html": "<p>At 13th level, learn another toxin.</p>\n<me-edge-list id=\"sneak-toxin\" />\n",
+    "id": "sneak-toxin-3"
+  },
+  {
+    "level": 18,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "sneak-toxin"
+      }
+    ],
+    "name": "Sneak Toxin",
+    "html": "<p>At 18th level, learn another toxin.</p>\n<me-edge-list id=\"sneak-toxin\" />\n",
+    "id": "sneak-toxin-4"
+  },
+  {
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Sneak Toxin",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "sneak-toxin"
+        }
+      },
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "sneak-toxin"
+      }
+    ],
+    "name": "Sneak Toxin",
+    "html": "<p>At 3rd level, you can change your sneak attack damage poison damage. Additionally, when you do so, you can forego a\nnumber of Sneak Attack Dice to apply one Toxin to your target. When you gain this class feature, you learn one\nToxin from the Toxin list.</p>\n<p>At 9th, 13th and 18th level, you learn a new Toxin from the list.</p>\n<me-edge-list id=\"sneak-toxin\" />\n",
+    "id": "sneak-toxin"
   },
   {
     "level": 10,
@@ -11160,6 +11489,81 @@
     "id": "tech-avenger"
   },
   {
+    "level": 2,
+    "klass": "sentinel",
+    "subclass": "warleader",
+    "mechanics": [
+      {
+        "name": "Activate Tech Barricade",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "tech-barricade"
+        },
+        "type": "bonus-action",
+        "toggle": {
+          "id": "tech-armor",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "tech-armor",
+              "method": "add",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "resource",
+              "id": "tech-barricade",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 0
+              }
+            },
+            {
+              "type": "other",
+              "name": "Tech Barricade",
+              "shortDesc": "You and adjacent allies gain half cover. If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit.",
+              "moreInfo": {
+                "model": "class-features",
+                "id": "tech-barricade"
+              },
+              "resource": {
+                "reset": "off",
+                "label": "Hits",
+                "max": {
+                  "type": "multi",
+                  "value": [
+                    {
+                      "type": "level",
+                      "multiplier": 0.33,
+                      "value": "sentinel"
+                    },
+                    {
+                      "type": "powercastingMod",
+                      "value": "sentinel"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "resource": {
+          "max": {
+            "type": "flat",
+            "value": 2
+          },
+          "id": "tech-armor"
+        }
+      }
+    ],
+    "name": "Tech Barricade",
+    "html": "<p>At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.\nWhen you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of\nhalf cover. The bonus remains for as long as your Tech Barrier would have held up.</p>\n<p>If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. The\nbarricade can take a number of hits before breaking equal to your Sentinel Level divided by 3, plus your powercasting modifier</p>\n",
+    "id": "tech-barricade"
+  },
+  {
     "level": 10,
     "klass": "soldier",
     "subclass": "engi-knight",
@@ -12325,6 +12729,25 @@
     "name": "Vengeance",
     "html": "<p>Starting at 7th level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.</p>\n<p>If the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n",
     "id": "vengeance"
+  },
+  {
+    "level": 3,
+    "klass": "infiltrator",
+    "subclass": "poisoner",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Venom Arsenal",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "venom-arsenal"
+        }
+      }
+    ],
+    "name": "Venom Arsenal",
+    "html": "<p>At 3rd level, you gain proficiency and expertise in the Poisoner's Kit. If you are already proficient in the Poisoner's\nKit, gain Expertise for it and proficiency in another kit of your choice. If you have both, you gain proficiency and\nexpertise on another kit of your choice. Additionally, you cannot poison yourself by accident when using the poisoner's kit.</p>\n<p>When you deal Poison damage, ignore resistance to Poison Damage. Treat Immunity to Poison damage as Resistance to Poison damage.</p>\n",
+    "id": "venom-arsenal"
   },
   {
     "level": 3,

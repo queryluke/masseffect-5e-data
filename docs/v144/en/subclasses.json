@@ -281,6 +281,13 @@
     "id": "pistolero"
   },
   {
+    "klass": "infiltrator",
+    "name": "Poisoner",
+    "author": "Spagheddy",
+    "html": "<p>You know that poisoning is a subtle art that takes time and effort to learn. Fortunately, you have both,\nand have learned to create potent poisons that can affect even the hardiest of targets.</p>\n",
+    "id": "poisoner"
+  },
+  {
     "klass": "vanguard",
     "name": "Ravager",
     "author": "Tech Knight",
@@ -352,6 +359,13 @@
     "author": "Spagheddy",
     "html": "<p>You've been fighting long enough to know that, without allies, you're screwed. As such, you've adapted a fighting\nstyle to help protect your friends in their most dire hours.</p>\n",
     "id": "valkyrie"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Warleader",
+    "author": "Spagheddy",
+    "html": "<p>Your Tech Armor becomes more than a simple personal protection: now, it's protection extends to your allies as well,\nprotecting them from the heat of battle. You become the force multiplier most others wish they could be.</p>\n",
+    "id": "warleader"
   },
   {
     "klass": "sentinel",

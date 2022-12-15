@@ -3614,6 +3614,141 @@
     "id": "SA_weaponry-ranged"
   },
   {
+    "name": "Death Toxin",
+    "mechanics": [
+      {
+        "name": "Death Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_death-toxin"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "mod",
+            "value": "int"
+          },
+          "id": "ST_death-toxin"
+        }
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p><em>Prerequisite: 18th level Infiltrator, Vulnerability Toxin</em></p>\n<p>You can chose to forego all of your sneak attack dice. The DC of this poison is 10, and the opponent rolls a d20. If it rolls 10 or under, it is reduced to -1 hit points.</p>\n<p>A creature targeted by this toxin is then immune to it's effects for the next 24 hours. You can only use this Toxin a number of times per long rest equal to your Intelligence modifier.</p>\n",
+    "id": "ST_death-toxin"
+  },
+  {
+    "name": "Hallucinating Toxin",
+    "mechanics": [
+      {
+        "name": "Hallucinating Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_halucinating-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p><em>Prerequisite: 9th level Infiltrator, Mind Addling Toxin</em></p>\n<p>You can chose to forego any number of sneak attack dice. If the target fails the saving throw, they have disadvantage\non any attack roll, skill check or Wisdom saving throw for the next number of\nrounds equal to the amount of dice you sacrificed.</p>\n",
+    "id": "ST_halucinating-toxin"
+  },
+  {
+    "name": "Hindering Toxin",
+    "mechanics": [
+      {
+        "name": "Hindering Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_hindering-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p>You can chose to forego any number of sneak attack dice to reduce the target's speed by <me-distance length=\"5\" /> per die if they fail the saving throw.</p>\n",
+    "id": "ST_hindering-toxin"
+  },
+  {
+    "name": "Mind-Addling Toxin",
+    "mechanics": [
+      {
+        "name": "Mind-Addling Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_mind-addling-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p>You can chose to forego any number of sneak attack dice. If the target fails the saving throw, they have\ndisadvantage on any concentration check for the next number of rounds equal to the amount of dice you sacrificed.</p>\n",
+    "id": "ST_mind-addling-toxin"
+  },
+  {
+    "name": "Neural Toxin",
+    "mechanics": [
+      {
+        "name": "Neural Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_neural-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p><em>Prerequisite: 13th Infiltrator Level</em></p>\n<p>You can chose to forego any number of sneak attack dice. If the target fails the saving throw and can cast tech powers,\nit loses a number of tech points equal to the amount of dice you sacrificed.</p>\n",
+    "id": "ST_neural-toxin"
+  },
+  {
+    "name": "Paralyzing Toxin",
+    "mechanics": [
+      {
+        "name": "Paralyzing Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_paralyzing-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p><em>Prerequisite: Hindering Toxin</em></p>\n<p>You can chose to forego any number of sneak attack dice. If the target fails the saving throw, they are paralyzed\nfor a number of rounds equal to the number of dice you sacrificed.</p>\n",
+    "id": "ST_paralyzing-toxin"
+  },
+  {
+    "name": "Polonium Toxin",
+    "mechanics": [
+      {
+        "name": "Polonium Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_polonium-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p><em>Prerequisite: 13th Infiltrator Level</em></p>\n<p>You can chose to forego any number of sneak attack dice. If the target fails the saving throw can cast biotic powers,\nit loses one power slot of a level equal to half the amount of dice you sacrificed.</p>\n",
+    "id": "ST_polonium-toxin"
+  },
+  {
+    "name": "Vulnerability Toxin",
+    "mechanics": [
+      {
+        "name": "Vulnerability Toxin",
+        "moreInfo": {
+          "model": "edges",
+          "id": "ST_vulnerability-toxin"
+        },
+        "type": "other"
+      }
+    ],
+    "type": "sneak-toxin",
+    "html": "<p><em>Prerequisite: 9th level Infiltrator</em></p>\n<p>You can chose to forego half of your sneak attack dice. If the target fails the saving throw, they are considered\nvulnerable to the next attack they receive.</p>\n",
+    "id": "ST_vulnerability-toxin"
+  },
+  {
     "name": "Arctic",
     "mechanics": [
       {

@@ -3535,6 +3535,21 @@
     "html": "<p>At 15th level, you can spend 1 unit of Fuel to double your speed until the end of your round. Alternatively, as a\nreaction when you make a Dexterity saving throw, you can use 2 units of Fuel to automatically pass the saving throw.</p>\n"
   },
   {
+    "id": "amplified-venom",
+    "title": "Amplified Venom",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "13th level"
+    ],
+    "link": false,
+    "body": "At 13th level, your toxins are imperceptible to normal analysis. If you kill someone using Poison damage or a\npoison outside of combat, that target doesn't show signs of being poisoned.\nYou now completely ignore Immunity to Poison damage, and are now able to poison Synthetic and Synthorganic enemies.\n",
+    "html": "<p>At 13th level, your toxins are imperceptible to normal analysis. If you kill someone using Poison damage or a\npoison outside of combat, that target doesn't show signs of being poisoned.</p>\n<p>You now completely ignore Immunity to Poison damage, and are now able to poison Synthetic and Synthorganic enemies.</p>\n"
+  },
+  {
     "id": "amplify",
     "title": "Amplify",
     "type": "character",
@@ -4361,6 +4376,21 @@
     "html": "<p>By channeling either power from your Omni-tool or from your biotic reserves, you can boost the damage of your Personal\nArmament. When you make an attack, you may spend a spell slot. If you do, your shot deals an extra 1d8, plus 1d8\ndamage per spell level spent. If you spent a Biotic Spell, you deal Necrotic Damage. If you spent a Tech Power,\nyou deal Lightning Damage. This damage can detonate primed targets.</p>\n"
   },
   {
+    "id": "brace",
+    "title": "Brace",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Warleader",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, your allies can now brace their weapons on the Barricade when they are adjacent to it. When an ally\nmakes a ranged weapon attack while Barricade is active and they are receiving the cover bonus, they gain a bonus\nto hit their target equal to your powercasting modifier.\n",
+    "html": "<p>At 7th level, your allies can now brace their weapons on the Barricade when they are adjacent to it. When an ally\nmakes a ranged weapon attack while Barricade is active and they are receiving the cover bonus, they gain a bonus\nto hit their target equal to your powercasting modifier.</p>\n"
+  },
+  {
     "id": "brain-boost",
     "title": "Brain Boost",
     "type": "character",
@@ -4446,6 +4476,21 @@
     "link": false,
     "body": "At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.\n",
     "html": "<p>At 17th level, you can roll three additional damage die when determining the extra damage for a critical hit with\na melee attack.</p>\n"
+  },
+  {
+    "id": "bulwark",
+    "title": "Bulwark",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Warleader",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, the benefit of Barricade extends to 4 meters around you, instead of only adjacent squares. In addition,\nwhen an ally is within Barricade's area of effect, they add your proficiency modifier to their physical saving throws\n(Strength, Dexterity, Constitution).\n",
+    "html": "<p>At 18th level, the benefit of Barricade extends to 4 meters around you, instead of only adjacent squares. In addition,\nwhen an ally is within Barricade's area of effect, they add your proficiency modifier to their physical saving throws\n(Strength, Dexterity, Constitution).</p>\n"
   },
   {
     "id": "burst-savant",
@@ -5837,6 +5882,21 @@
     "html": "<p>At 3rd level, you modified your armor to install the Armiger's signature JumpPack, and also install the system to\nprovide it with Fuel. Your armor automatically regenerates Fuel when you take a short or long rest, and the amount of\nFuel you have in your tank is equal to your proficiency modifier + a physical modifier of your\nchoosing (Dex, Str, Con. You make this choice when you choose this subclass and it cannot be changed).</p>\n"
   },
   {
+    "id": "fulminate",
+    "title": "Fulminate",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, your poisons are deadly. When you deal Poison damage with your Sneak Toxin or Injection features, your\ntarget takes half of the damage again on the beginning of their next turn.\n",
+    "html": "<p>At 18th level, your poisons are deadly. When you deal Poison damage with your Sneak Toxin or Injection features, your\ntarget takes half of the damage again on the beginning of their next turn.</p>\n"
+  },
+  {
     "id": "further-pain",
     "title": "Further Pain",
     "type": "character",
@@ -5970,6 +6030,21 @@
     "link": false,
     "body": "At 3rd level, your mournful voice confuses those who try and impose their will on you. Creatures have\ndisadvantage on Intimidation, Persuasion or Deception checks to try and influence you if can speak eloquently.\nIf your mouth is gagged, or you are otherwise incapable of being heard, this ability is void.\n",
     "html": "<p>At 3rd level, your mournful voice confuses those who try and impose their will on you. Creatures have\ndisadvantage on Intimidation, Persuasion or Deception checks to try and influence you if can speak eloquently.\nIf your mouth is gagged, or you are otherwise incapable of being heard, this ability is void.</p>\n"
+  },
+  {
+    "id": "heavy-barricade",
+    "title": "Heavy Barricade",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Warleader",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, you can reroute the power from your shields or, in extreme cases, your own well being to power the\nBarricade. If the barricade would be hit, you can instead chose to take 1d4 damage to prevent it from being hit. The\ndamage increases by 1d4 each time you use this feature per casting of Tech Barricade This damage does not bypass\nshields, but cannot be reduced by Barrier.\n",
+    "html": "<p>At 10th level, you can reroute the power from your shields or, in extreme cases, your own well being to power the\nBarricade. If the barricade would be hit, you can instead chose to take 1d4 damage to prevent it from being hit. The\ndamage increases by 1d4 each time you use this feature per casting of Tech Barricade This damage does not bypass\nshields, but cannot be reduced by Barrier.</p>\n"
   },
   {
     "id": "heavy-barrier",
@@ -6249,6 +6324,21 @@
     "link": false,
     "body": "At 17th level, you can use Indomitable three times between long rests.\n",
     "html": "<p>At 17th level, you can use Indomitable three times between long rests.</p>\n"
+  },
+  {
+    "id": "injection",
+    "title": "Injection",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "9th level"
+    ],
+    "link": false,
+    "body": "At 9th level, instead of striking with your Sneak Attack, you can use your poisons by themselves. If you haven't used\nyour Sneak Attack this round, you can use your Cunning Action to fire off a dart of poison towards an enemy within\n30 feet. This dart deals damage equal to your sneak attack damage, is Poison damage, and applies a Toxin\nif you so chose. Targets hit by Injection have disadvantage on any saving throws against Toxin effects.\nYou can use this feature a number of times equal to your Proficiency bonus per long rest.\n",
+    "html": "<p>At 9th level, instead of striking with your Sneak Attack, you can use your poisons by themselves. If you haven't used\nyour Sneak Attack this round, you can use your Cunning Action to fire off a dart of poison towards an enemy within\n30 feet. This dart deals damage equal to your sneak attack damage, is Poison damage, and applies a Toxin\nif you so chose. Targets hit by Injection have disadvantage on any saving throws against Toxin effects.</p>\n<p>You can use this feature a number of times equal to your Proficiency bonus per long rest.</p>\n"
   },
   {
     "id": "inspire-the-masses",
@@ -7681,6 +7771,21 @@
     "html": "<p>When you choose this specialization at 3rd level, you gain the Recon Scan combat power. This does not count towards\nyour total combat powers known.</p>\n<p>If you already know the Recon Scan combat power, you may choose an advancement instead.</p>\n"
   },
   {
+    "id": "reflecting-barricade",
+    "title": "Reflecting Barricade",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Warleader",
+      "14th level"
+    ],
+    "link": false,
+    "body": "At 14th level, when your Barricade is hit or you prevent it from being hit with your Heavy Barricade ability, you can\nuse your reaction to send the attack back at it's source. Add your powercasting modifier to the original attack roll,\nand compare it to the attacker's AC. If it's higher, the attacker is hit, and rolls damage as normal.\n",
+    "html": "<p>At 14th level, when your Barricade is hit or you prevent it from being hit with your Heavy Barricade ability, you can\nuse your reaction to send the attack back at it's source. Add your powercasting modifier to the original attack roll,\nand compare it to the attacker's AC. If it's higher, the attacker is hit, and rolls damage as normal.</p>\n"
+  },
+  {
     "id": "reflective-bubble",
     "title": "Reflective Bubble",
     "type": "character",
@@ -8194,6 +8299,66 @@
     "link": false,
     "body": "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.\nYou don't need advantage on the attack roll if another enemy of the target is within  of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.\n",
     "html": "<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can\ndeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must\nbe made with a melee or ranged weapon.</p>\n<p>You don't need advantage on the attack roll if another enemy of the target is within <me-distance length=\"5\" /> of it, that enemy isn't incapacitated,\nand you don't have disadvantage on the attack roll.</p>\n<p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the\nInfiltrator table.</p>\n"
+  },
+  {
+    "id": "sneak-toxin-2",
+    "title": "Sneak Toxin",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "9th level"
+    ],
+    "link": false,
+    "body": "At 9th level, learn another toxin.\n\n",
+    "html": "<p>At 9th level, learn another toxin.</p>\n<me-edge-list id=\"sneak-toxin\" />\n"
+  },
+  {
+    "id": "sneak-toxin-3",
+    "title": "Sneak Toxin",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "13th level"
+    ],
+    "link": false,
+    "body": "At 13th level, learn another toxin.\n\n",
+    "html": "<p>At 13th level, learn another toxin.</p>\n<me-edge-list id=\"sneak-toxin\" />\n"
+  },
+  {
+    "id": "sneak-toxin-4",
+    "title": "Sneak Toxin",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, learn another toxin.\n\n",
+    "html": "<p>At 18th level, learn another toxin.</p>\n<me-edge-list id=\"sneak-toxin\" />\n"
+  },
+  {
+    "id": "sneak-toxin",
+    "title": "Sneak Toxin",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you can change your sneak attack damage poison damage. Additionally, when you do so, you can forego a\nnumber of Sneak Attack Dice to apply one Toxin to your target. When you gain this class feature, you learn one\nToxin from the Toxin list.\nAt 9th, 13th and 18th level, you learn a new Toxin from the list.\n\n",
+    "html": "<p>At 3rd level, you can change your sneak attack damage poison damage. Additionally, when you do so, you can forego a\nnumber of Sneak Attack Dice to apply one Toxin to your target. When you gain this class feature, you learn one\nToxin from the Toxin list.</p>\n<p>At 9th, 13th and 18th level, you learn a new Toxin from the list.</p>\n<me-edge-list id=\"sneak-toxin\" />\n"
   },
   {
     "id": "soft-spots",
@@ -8775,6 +8940,21 @@
     "html": "<p>At 7th level, you always have the B.E.C Field power prepared (it does not count against your Powers Known in the\nEngi Knight Powers table). If you have B.E.C Field known in your list of powers, you may learn another Engineer Power.</p>\n<p>Additionally, you can now have two Tech Strike programs installed at once.</p>\n<p>After you have completed a long rest, you may choose an installed Tech Strike to focus your omni-tool's\nresource allocation to provide additional capabilities based on your chosen focus.</p>\n<h4>Tech Avenger Focus Upgrade</h4>\n<p><strong>Frostbite Strike</strong>: On top of the cold damage, the attacking creature will also be <me-condition id=\"primed\" sub=\"cold\" /> until the end of your next turn.</p>\n<p><strong>Blazing Strike</strong>: The damage type changes to fire and the attacking creature will also be <me-condition id=\"primed\" sub=\"fire\" /> until the end of your next turn.</p>\n<p><strong>Storm Strike</strong>: The damage type changes to lightning and will also be <me-condition id=\"primed\" sub=\"lightning\" /> until the end of your next turn.</p>\n<p>Regardless of your chosen focus upgrade, you have immunity on any detonations on primes caused by your B.E.C Field.</p>\n<p>You will gain additional bonuses with your chosen Tech Strike focus at 10th and 15th level.</p>\n"
   },
   {
+    "id": "tech-barricade",
+    "title": "Tech Barricade",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Warleader",
+      "2nd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.\nWhen you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of\nhalf cover. The bonus remains for as long as your Tech Barrier would have held up.\nIf an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. The\nbarricade can take a number of hits before breaking equal to your Sentinel Level divided by 3, plus your powercasting modifier\n",
+    "html": "<p>At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.\nWhen you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of\nhalf cover. The bonus remains for as long as your Tech Barrier would have held up.</p>\n<p>If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. The\nbarricade can take a number of hits before breaking equal to your Sentinel Level divided by 3, plus your powercasting modifier</p>\n"
+  },
+  {
     "id": "tech-obliteration",
     "title": "Tech Obliteration",
     "type": "character",
@@ -9311,6 +9491,21 @@
     "link": false,
     "body": "Starting at 7th level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.\nIf the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.\nOnce you use this feature, you can't use it again until you finish a long rest.\n",
     "html": "<p>Starting at 7th level, you can overcome grievous injuries. When you would make a death\nsaving throw, you can instead spring back to your feet with a burst of adrenaline. You immediately stand up (if you so\nchoose), and you regain hit points equal to half your hit point maximum. Then, you may draw any weapon you are carrying,\nchoose a target a creature within that weapon's normal range, and make 2 attacks with the weapon.</p>\n<p>If the target creature is the same one that reduced you to 0 or fewer hit points, you have advantage on both attack rolls.</p>\n<p>Once you use this feature, you can't use it again until you finish a long rest.</p>\n"
+  },
+  {
+    "id": "venom-arsenal",
+    "title": "Venom Arsenal",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Infiltrator",
+      "Poisoner",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you gain proficiency and expertise in the Poisoner's Kit. If you are already proficient in the Poisoner's\nKit, gain Expertise for it and proficiency in another kit of your choice. If you have both, you gain proficiency and\nexpertise on another kit of your choice. Additionally, you cannot poison yourself by accident when using the poisoner's kit.\nWhen you deal Poison damage, ignore resistance to Poison Damage. Treat Immunity to Poison damage as Resistance to Poison damage.\n",
+    "html": "<p>At 3rd level, you gain proficiency and expertise in the Poisoner's Kit. If you are already proficient in the Poisoner's\nKit, gain Expertise for it and proficiency in another kit of your choice. If you have both, you gain proficiency and\nexpertise on another kit of your choice. Additionally, you cannot poison yourself by accident when using the poisoner's kit.</p>\n<p>When you deal Poison damage, ignore resistance to Poison Damage. Treat Immunity to Poison damage as Resistance to Poison damage.</p>\n"
   },
   {
     "id": "venom-training",
