@@ -3977,6 +3977,21 @@
     "html": "<p>At 3rd level, you learn the charge cantrip. If you have already learned it, you may learn a new cantrip instead.</p>\n<p>The distance of charge is now <me-distance length=\"60\" />. When you use your action to cast charge, you may use a bonus action to shove or make one\nweapon attack against the target. You gain +5 to the attack’s damage roll or shove the target <me-distance length=\"15\" />. To shove a target this\nway, it must be no more than one size larger than you.</p>\n"
   },
   {
+    "id": "biotic-bullets",
+    "title": "Biotic Bullets",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Warp Gunner",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you have gained the ability to permeate the bullets of your thermal clip with biotic energies.\nEvery time you reload your weapon, and whenever you finish a short rest, half of your Heat from that reload (rounded up)\nis made of Biotic Bullets.\nThe damage type of these bullets is Force instead of the normal damage type of your gun. Biotic Bullets can detonate primed targets.\n",
+    "html": "<p>At 3rd level, you have gained the ability to permeate the bullets of your thermal clip with biotic energies.\nEvery time you reload your weapon, and whenever you finish a short rest, half of your Heat from that reload (rounded up)\nis made of Biotic Bullets.</p>\n<p>The damage type of these bullets is Force instead of the normal damage type of your gun. Biotic Bullets can detonate primed targets.</p>\n"
+  },
+  {
     "id": "biotic-concentration",
     "title": "Biotic Concentration",
     "type": "character",
@@ -4921,6 +4936,21 @@
     "html": "<p>At 3rd level, your brain is beginning to attune more finely to the Element Zero in your system. You gain another cantrip\nslot that must be occupied by a Biotic Cantrip. When you use a Biotic Cantrip, you bump up the die by one.\nA d12 instead gives the spell a +2 damage modifier per d12 rolled.</p>\n"
   },
   {
+    "id": "destructive-charging",
+    "title": "Destructive Charging",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Holo-Operative",
+      "15th level"
+    ],
+    "link": false,
+    "body": "At 15th level, when your hologram is destroyed, you can recharge your shields by taking advantage of the freed up\nRAM from your omni-tool. When your hologram is destroyed because it took damage, you can recharge your\nshields by 2d6 + your Constitution modifier. If this would bring you above your shield's max value, the\noverflowing shield points are instead transformed into temporary health points, which persist for 1 hour.\nYou can use this feature a number of times equal to your proficiency modifier, and regain all uses when you finish a long rest.\n",
+    "html": "<p>At 15th level, when your hologram is destroyed, you can recharge your shields by taking advantage of the freed up\nRAM from your omni-tool. When your hologram is destroyed because it took damage, you can recharge your\nshields by 2d6 + your Constitution modifier. If this would bring you above your shield's max value, the\noverflowing shield points are instead transformed into temporary health points, which persist for 1 hour.</p>\n<p>You can use this feature a number of times equal to your proficiency modifier, and regain all uses when you finish a long rest.</p>\n"
+  },
+  {
     "id": "devastating-critical",
     "title": "Devastating Critical",
     "type": "character",
@@ -5633,6 +5663,21 @@
     "html": "<p>Beginning at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn.</p>\n"
   },
   {
+    "id": "farsight-exe",
+    "title": "Farsight.exe",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Holo-Operative",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, your hologram is advanced enough to send you an image feed of what it can see. While you have your\nhologram out, your omni-tool displays to you a feed of what your hologram is seeing, allowing you to\nobserve the world through it's &quot;senses&quot;.\nYou can also use an action to focus your senses and improve you hologram. When you do this, you are blinded and\ndeafened, but can see and hear normally from your hologram's position. In addition, when you do this,\nyour hologram can move up to  from your position, instead of .\n",
+    "html": "<p>At 7th level, your hologram is advanced enough to send you an image feed of what it can see. While you have your\nhologram out, your omni-tool displays to you a feed of what your hologram is seeing, allowing you to\nobserve the world through it's &quot;senses&quot;.</p>\n<p>You can also use an action to focus your senses and improve you hologram. When you do this, you are blinded and\ndeafened, but can see and hear normally from your hologram's position. In addition, when you do this,\nyour hologram can move up to <me-distance length=\"750\" /> from your position, instead of <me-distance length=\"25\" />.</p>\n"
+  },
+  {
     "id": "fearsome-reputation",
     "title": "Fearsome Reputation",
     "type": "character",
@@ -6032,6 +6077,21 @@
     "html": "<p>At 14th level, if you do not move before using Power Slam, you can chose to slam the ground instead of an enemy\nfor your attack. If you do so, enemies within a <me-distance length=\"10\" /> burst centred on you must make a\nDexterity saving throw against your Powercasting DC or be knocked prone and take the damage of the power you\ndischarged. If they succeed on the saving throw, they still take half of the damage of the spell you discharged.</p>\n"
   },
   {
+    "id": "gun-frenzy",
+    "title": "Gun Frenzy",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Warp Gunner",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.\n",
+    "html": "<p>At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.</p>\n"
+  },
+  {
     "id": "hardened-tech-armor",
     "title": "Hardened Tech Armor",
     "type": "character",
@@ -6166,6 +6226,21 @@
     "html": "<p>Starting from 3rd level, you may reduce your movement to 0 for this turn, if you do, your wielded ranged weapon may be\ntreated as having the Double-Tap property on this turn only. Additionally, if you're wielding an SMG, your short and\nlong range are doubled.</p>\n"
   },
   {
+    "id": "holo-bulwark",
+    "title": "Holo Bulwark",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Holo-Operative",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, your hologram can take blows that were aimed at other people. Before an attack roll against a creature\nthat is not you within  of your hologram is made, you can spend your reaction to have the\nhologram teleport in front of that creature and take the blow. The hologram appears within \nof the creature you chose, and the attack roll is resolved against the hologram as normal.\nYou can use this feature once, and regain it's use when you finish a short or long rest.\n",
+    "html": "<p>At 10th level, your hologram can take blows that were aimed at other people. Before an attack roll against a creature\nthat is not you within <me-distance length=\"25\" /> of your hologram is made, you can spend your reaction to have the\nhologram teleport in front of that creature and take the blow. The hologram appears within <me-distance length=\"5\" />\nof the creature you chose, and the attack roll is resolved against the hologram as normal.</p>\n<p>You can use this feature once, and regain it's use when you finish a short or long rest.</p>\n"
+  },
+  {
     "id": "holo-dancer",
     "title": "Holo-Dancer",
     "type": "character",
@@ -6179,6 +6254,51 @@
     "link": false,
     "body": "At 3rd level, you can use you Omni-tool to create a holographic copy of yourself to enhance your performances. You can\nspend a use of Inspiration to activate this feature as a bonus action. You create one clone at 3rd level,\nanother one at 11th level and a third one at 20th level.\nIn combat, the clones occupy the same space you do, but their movements are offset just enough\nto confuse attackers.\nWhen an attacker targets you, before they roll an attack, they must roll a dX, where X is the number of\nHolo-Dancers currently active +1. If the attacker rolls a 1, they have targeted your actual body, and the\nattack proceeds as normal. If they roll any other number, they targeted one of\nyour Holo Dancers. The Dancer absorbs the attack and vanishes.\n",
     "html": "<p>At 3rd level, you can use you Omni-tool to create a holographic copy of yourself to enhance your performances. You can\nspend a use of Inspiration to activate this feature as a bonus action. You create one clone at 3rd level,\nanother one at 11th level and a third one at 20th level.\nIn combat, the clones occupy the same space you do, but their movements are offset just enough\nto confuse attackers.</p>\n<p>When an attacker targets you, before they roll an attack, they must roll a dX, where X is the number of\nHolo-Dancers currently active +1. If the attacker rolls a 1, they have targeted your actual body, and the\nattack proceeds as normal. If they roll any other number, they targeted one of\nyour Holo Dancers. The Dancer absorbs the attack and vanishes.</p>\n"
+  },
+  {
+    "id": "holo-fury",
+    "title": "Holo Fury",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Holo-Operative",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, when you take the Attack action and have a Hologram out, you can make an additional attack from the\nhologram's position. When you gain the Extra Attack feature, you can make one attack in addition to your standard\nnumber of attacks per turn (at 5th level, you can attack three times per action. At 11th, 4 times, and at 20th, 5 times).\nYou can use this feature a number of times equal to your proficiency modifier. You regain all uses of this feature when you take a long rest.\n",
+    "html": "<p>At 3rd level, when you take the Attack action and have a Hologram out, you can make an additional attack from the\nhologram's position. When you gain the Extra Attack feature, you can make one attack in addition to your standard\nnumber of attacks per turn (at 5th level, you can attack three times per action. At 11th, 4 times, and at 20th, 5 times).</p>\n<p>You can use this feature a number of times equal to your proficiency modifier. You regain all uses of this feature when you take a long rest.</p>\n"
+  },
+  {
+    "id": "holo-legion",
+    "title": "Holo-Legion",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Holo-Operative",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, you can use your bonus action to create two holograms with your Hologram ability, and you can have a\ntotal of two holograms active at once. If you try to create a third hologram, the oldest one you have is destroyed.\nAnything that could be done from one hologram's position can be done from either position.\nIn addition, when you roll initiative and don't have a use of Holo Fury remaining,\nyou regain one use of Holo Fury. If you have two holograms out,\nHolo Fury allows you to make an additional extra attack on your attack action.\n",
+    "html": "<p>At 18th level, you can use your bonus action to create two holograms with your Hologram ability, and you can have a\ntotal of two holograms active at once. If you try to create a third hologram, the oldest one you have is destroyed.\nAnything that could be done from one hologram's position can be done from either position.</p>\n<p>In addition, when you roll initiative and don't have a use of Holo Fury remaining,\nyou regain one use of Holo Fury. If you have two holograms out,\nHolo Fury allows you to make an additional extra attack on your attack action.</p>\n"
+  },
+  {
+    "id": "hologram",
+    "title": "Hologram",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Holo-Operative",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you can create a lifelike hologram of yourself within  of your current\nlocation as a bonus action. The hologram stays active until you dismiss it (no action required), it is hit or you try\nand create another hologram. On your turn, you can command your hologram to move  in any\ndirection (no action required). If your hologram is more than  from you at the end\nof your turn, it is automatically dismissed.\nThe hologram has an AC of 14+Your Proficiency Modifier, has 1 hit point, and is immune to all\nconditions and priming. If it has to make a saving throw, it uses your modifiers for that saving throw.\n\n\nWhen you take the attack action on your turn, or cast a Combat Power that necessitates you aim or target\nan area, you can make your attacks or draw that area from your hologram's position: the damage of the\nattack turns to Lightning.\n\n\nWhen a creature moves through the Hologram's threatened area (all adjacent squares to it), you can use your reaction\nto make an opportunity attack against the target. This attack deals 1d6+your strength or dexterity modifier Lightning\ndamage, and is considered a melee attack.\n\n\n",
+    "html": "<p>At 3rd level, you can create a lifelike hologram of yourself within <me-distance length=\"15\" /> of your current\nlocation as a bonus action. The hologram stays active until you dismiss it (no action required), it is hit or you try\nand create another hologram. On your turn, you can command your hologram to move <me-distance length=\"25\" /> in any\ndirection (no action required). If your hologram is more than <me-distance length=\"25\" /> from you at the end\nof your turn, it is automatically dismissed.</p>\n<p>The hologram has an AC of 14+Your Proficiency Modifier, has 1 hit point, and is immune to all\nconditions and priming. If it has to make a saving throw, it uses your modifiers for that saving throw.</p>\n<ul>\n<li>\n<p>When you take the attack action on your turn, or cast a Combat Power that necessitates you aim or target\nan area, you can make your attacks or draw that area from your hologram's position: the damage of the\nattack turns to Lightning.</p>\n</li>\n<li>\n<p>When a creature moves through the Hologram's threatened area (all adjacent squares to it), you can use your reaction\nto make an opportunity attack against the target. This attack deals 1d6+your strength or dexterity modifier Lightning\ndamage, and is considered a melee attack.</p>\n</li>\n</ul>\n"
   },
   {
     "id": "improved-barrier-1",
@@ -8941,6 +9061,21 @@
     "html": "<p>At 15th level, your nanomachines can resist wounds that would kill off most normal people. You can chose to use your\nreaction to halve an attack's damage aimed against you.</p>\n<p>Your Nanite Armor's AC is now 15+Con Modifier</p>\n"
   },
   {
+    "id": "tear-apart",
+    "title": "Tear Apart",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Warp Gunner",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, your Biotic Bullets are strong enough to rip against an organic's flesh and a synthetic's metal. When\nyou hit a creature out of cover with a Biotic Bullet, you deal an additional 1d4 force damage.\nThis damage scales to 1d6 at 14th level, and 1d8 at 18th level.\n",
+    "html": "<p>At 10th level, your Biotic Bullets are strong enough to rip against an organic's flesh and a synthetic's metal. When\nyou hit a creature out of cover with a Biotic Bullet, you deal an additional 1d4 force damage.</p>\n<p>This damage scales to 1d6 at 14th level, and 1d8 at 18th level.</p>\n"
+  },
+  {
     "id": "tech-ace",
     "title": "Tech Ace",
     "type": "character",
@@ -9598,6 +9733,21 @@
     "html": "<p>At 10th level, the energies within you are becoming harder and harder to contain as your power grows. Whenever you take\ndamage or fail a saving throw while your barrier is active, you may choose to roll on the Biotic Wrath table and\nimmediately produce the new effect, this will replace your current Biotic Wrath effect.</p>\n"
   },
   {
+    "id": "unstable-warp",
+    "title": "Unstable Warp",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Warp Gunner",
+      "14th level"
+    ],
+    "link": false,
+    "body": "At 14th level, your attacks that use Biotic Bullets can crit on a roll of 19 or 20.\nThis has no effect if a roll of 19 would still miss the target's AC.\nIn addition, your shots now Prime (Necrotic)\n",
+    "html": "<p>At 14th level, your attacks that use Biotic Bullets can crit on a roll of 19 or 20.\nThis has no effect if a roll of 19 would still miss the target's AC.</p>\n<p>In addition, your shots now Prime (Necrotic)</p>\n"
+  },
+  {
     "id": "unyielding-assault",
     "title": "Unyielding Assault",
     "type": "character",
@@ -9626,6 +9776,21 @@
     "link": false,
     "body": "At 3rd level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.\n",
     "html": "<p>At 3rd level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.</p>\n"
+  },
+  {
+    "id": "vaporizer",
+    "title": "Vaporizer",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Warp Gunner",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, all of your bullets are considered Biotic Bullets. In addition, when you cast a power that uses a\nvanguard power slot, you can now make two attacks as your bonus action.\n",
+    "html": "<p>At 18th level, all of your bullets are considered Biotic Bullets. In addition, when you cast a power that uses a\nvanguard power slot, you can now make two attacks as your bonus action.</p>\n"
   },
   {
     "id": "vengeance",
@@ -9791,6 +9956,21 @@
     "link": false,
     "body": "At 14th level, the area of the barrier increases to a  burst. Whenever an enemy wanders\ninside of the range of the barrier, starts its turn there, or is damaged by the effect of Reflective Bubble, they take\n1d10+your Wisdom modifier necrotic damage and are primed-necrotic while inside the bubble, or for one\nturn if they are outside.\n",
     "html": "<p>At 14th level, the area of the barrier increases to a <me-distance length=\"30\" adj /> burst. Whenever an enemy wanders\ninside of the range of the barrier, starts its turn there, or is damaged by the effect of Reflective Bubble, they take\n1d10+your Wisdom modifier necrotic damage and are <me-condition id=\"primed\" sub=\"necrotic\" /> while inside the bubble, or for one\nturn if they are outside.</p>\n"
+  },
+  {
+    "id": "warp-burst",
+    "title": "Warp Burst",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Warp Gunner",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, while your gun still has Biotic Bullets in it's current magazine, it is treated as having the Double Tap\nproperty, as you use your biotics to help the gun vent heat and cycle it's action more seamlessly.\nIn addition, whenever you cast a vanguard biotic power from a power slot, you can use your bonus action to\nmake a single attack against a target you can see.\n",
+    "html": "<p>At 6th level, while your gun still has Biotic Bullets in it's current magazine, it is treated as having the Double Tap\nproperty, as you use your biotics to help the gun vent heat and cycle it's action more seamlessly.</p>\n<p>In addition, whenever you cast a vanguard biotic power from a power slot, you can use your bonus action to\nmake a single attack against a target you can see.</p>\n"
   },
   {
     "id": "weapon-of-choice-1",

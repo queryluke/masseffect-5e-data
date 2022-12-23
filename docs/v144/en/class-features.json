@@ -1255,6 +1255,30 @@
     "id": "biotic-bull-rush"
   },
   {
+    "level": 3,
+    "klass": "vanguard",
+    "subclass": "warp-gunner",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Biotic Bullets",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "biotic-bullets"
+        }
+      },
+      {
+        "type": "weapon-choice",
+        "profType": "weapon",
+        "options": true
+      }
+    ],
+    "name": "Biotic Bullets",
+    "html": "<p>At 3rd level, you have gained the ability to permeate the bullets of your thermal clip with biotic energies.\nEvery time you reload your weapon, and whenever you finish a short rest, half of your Heat from that reload (rounded up)\nis made of Biotic Bullets.</p>\n<p>The damage type of these bullets is Force instead of the normal damage type of your gun. Biotic Bullets can detonate primed targets.</p>\n",
+    "id": "biotic-bullets"
+  },
+  {
     "level": 14,
     "klass": "adept",
     "subclass": "disruptor",
@@ -2908,6 +2932,43 @@
   {
     "level": 15,
     "klass": "soldier",
+    "subclass": "holo-operative",
+    "mechanics": [
+      {
+        "name": "Destructive Charging",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "destructive-charging"
+        },
+        "type": "other",
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "destructive-charging"
+        },
+        "damage": [
+          {
+            "dieType": 6,
+            "dieCount": 2,
+            "type": "shields",
+            "bonus": {
+              "type": "mod",
+              "value": "con"
+            }
+          }
+        ],
+        "shortDesc": "When your hologram is destroyed because it took damage, you can recharge your shields by {{ damage }}. If this would bring you above your shield's max value, the overflowing shield points are instead transformed into temporary health points, which persist for 1 hour."
+      }
+    ],
+    "name": "Destructive Charging",
+    "html": "<p>At 15th level, when your hologram is destroyed, you can recharge your shields by taking advantage of the freed up\nRAM from your omni-tool. When your hologram is destroyed because it took damage, you can recharge your\nshields by 2d6 + your Constitution modifier. If this would bring you above your shield's max value, the\noverflowing shield points are instead transformed into temporary health points, which persist for 1 hour.</p>\n<p>You can use this feature a number of times equal to your proficiency modifier, and regain all uses when you finish a long rest.</p>\n",
+    "id": "destructive-charging"
+  },
+  {
+    "level": 15,
+    "klass": "soldier",
     "subclass": "weapon-master",
     "name": "Devastating Critical",
     "mechanics": [
@@ -4048,6 +4109,25 @@
   {
     "level": 7,
     "klass": "soldier",
+    "subclass": "holo-operative",
+    "mechanics": [
+      {
+        "name": "Farsight.exe",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "farsight-exe"
+        },
+        "type": "action",
+        "shortDesc": "Become blinded and deafened. You can see and hear normally from your hologram's position and your hologram can move up to <me-distance length=\"750\" /> from your position."
+      }
+    ],
+    "name": "Farsight.exe",
+    "html": "<p>At 7th level, your hologram is advanced enough to send you an image feed of what it can see. While you have your\nhologram out, your omni-tool displays to you a feed of what your hologram is seeing, allowing you to\nobserve the world through it's &quot;senses&quot;.</p>\n<p>You can also use an action to focus your senses and improve you hologram. When you do this, you are blinded and\ndeafened, but can see and hear normally from your hologram's position. In addition, when you do this,\nyour hologram can move up to <me-distance length=\"750\" /> from your position, instead of <me-distance length=\"25\" />.</p>\n",
+    "id": "farsight-exe"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
     "subclass": "incubus",
     "mechanics": [
       {
@@ -4698,6 +4778,35 @@
     "id": "groundshaker"
   },
   {
+    "level": 10,
+    "klass": "vanguard",
+    "subclass": "warp-gunner",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bullets"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "gun-frenzy"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Gun Frenzy",
+    "html": "<p>At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.</p>\n",
+    "id": "gun-frenzy"
+  },
+  {
     "level": 7,
     "klass": "sentinel",
     "subclass": "juggernaut",
@@ -4968,6 +5077,33 @@
     "id": "hold-your-ground"
   },
   {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "holo-operative",
+    "mechanics": [
+      {
+        "name": "Holo Bulwark",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "holo-bulwark"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "holo-bulwark"
+        },
+        "shortDesc": "Before an attack roll against a creature that is not you within <me-distance length=\"25\" /> of your hologram is made, you can spend your reaction to have the hologram teleport in front of that creature and take the blow. The hologram appears within <me-distance length=\"5\" /> of the creature you chose, and the attack roll is resolved against the hologram as normal."
+      }
+    ],
+    "name": "Holo Bulwark",
+    "html": "<p>At 10th level, your hologram can take blows that were aimed at other people. Before an attack roll against a creature\nthat is not you within <me-distance length=\"25\" /> of your hologram is made, you can spend your reaction to have the\nhologram teleport in front of that creature and take the blow. The hologram appears within <me-distance length=\"5\" />\nof the creature you chose, and the attack roll is resolved against the hologram as normal.</p>\n<p>You can use this feature once, and regain it's use when you finish a short or long rest.</p>\n",
+    "id": "holo-bulwark"
+  },
+  {
     "level": 3,
     "klass": "musician",
     "subclass": "techno",
@@ -5007,6 +5143,94 @@
     "name": "Holo-Dancer",
     "html": "<p>At 3rd level, you can use you Omni-tool to create a holographic copy of yourself to enhance your performances. You can\nspend a use of Inspiration to activate this feature as a bonus action. You create one clone at 3rd level,\nanother one at 11th level and a third one at 20th level.\nIn combat, the clones occupy the same space you do, but their movements are offset just enough\nto confuse attackers.</p>\n<p>When an attacker targets you, before they roll an attack, they must roll a dX, where X is the number of\nHolo-Dancers currently active +1. If the attacker rolls a 1, they have targeted your actual body, and the\nattack proceeds as normal. If they roll any other number, they targeted one of\nyour Holo Dancers. The Dancer absorbs the attack and vanishes.</p>\n",
     "id": "holo-dancer"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "holo-operative",
+    "mechanics": [
+      {
+        "name": "Holo Fury",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "holo-fury"
+        },
+        "type": "other",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "holo-fury"
+        },
+        "shortDesc": "When you take the Attack action and have a Hologram out, you can make an additional attack from the hologram's position."
+      }
+    ],
+    "name": "Holo Fury",
+    "html": "<p>At 3rd level, when you take the Attack action and have a Hologram out, you can make an additional attack from the\nhologram's position. When you gain the Extra Attack feature, you can make one attack in addition to your standard\nnumber of attacks per turn (at 5th level, you can attack three times per action. At 11th, 4 times, and at 20th, 5 times).</p>\n<p>You can use this feature a number of times equal to your proficiency modifier. You regain all uses of this feature when you take a long rest.</p>\n",
+    "id": "holo-fury"
+  },
+  {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "holo-operative",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "hologram"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "holo-legion"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "holo-fury"
+        },
+        "merge": {
+          "shortDesc": "Regain one use when you roll initiative <br><br> When you take the Attack action and have a Hologram out, you can make an additional attack from the hologram's position. If you have two holograms out, make an additional extra attack on your attack action.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "holo-legion"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Holo-Legion",
+    "html": "<p>At 18th level, you can use your bonus action to create two holograms with your Hologram ability, and you can have a\ntotal of two holograms active at once. If you try to create a third hologram, the oldest one you have is destroyed.\nAnything that could be done from one hologram's position can be done from either position.</p>\n<p>In addition, when you roll initiative and don't have a use of Holo Fury remaining,\nyou regain one use of Holo Fury. If you have two holograms out,\nHolo Fury allows you to make an additional extra attack on your attack action.</p>\n",
+    "id": "holo-legion"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "holo-operative",
+    "mechanics": [
+      {
+        "name": "Hologram",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "hologram"
+        },
+        "type": "bonus-action"
+      }
+    ],
+    "name": "Hologram",
+    "html": "<p>At 3rd level, you can create a lifelike hologram of yourself within <me-distance length=\"15\" /> of your current\nlocation as a bonus action. The hologram stays active until you dismiss it (no action required), it is hit or you try\nand create another hologram. On your turn, you can command your hologram to move <me-distance length=\"25\" /> in any\ndirection (no action required). If your hologram is more than <me-distance length=\"25\" /> from you at the end\nof your turn, it is automatically dismissed.</p>\n<p>The hologram has an AC of 14+Your Proficiency Modifier, has 1 hit point, and is immune to all\nconditions and priming. If it has to make a saving throw, it uses your modifiers for that saving throw.</p>\n<ul>\n<li>\n<p>When you take the attack action on your turn, or cast a Combat Power that necessitates you aim or target\nan area, you can make your attacks or draw that area from your hologram's position: the damage of the\nattack turns to Lightning.</p>\n</li>\n<li>\n<p>When a creature moves through the Hologram's threatened area (all adjacent squares to it), you can use your reaction\nto make an opportunity attack against the target. This attack deals 1d6+your strength or dexterity modifier Lightning\ndamage, and is considered a melee attack.</p>\n</li>\n</ul>\n",
+    "id": "hologram"
   },
   {
     "level": 10,
@@ -10687,6 +10911,34 @@
     "id": "tank-through"
   },
   {
+    "level": 10,
+    "klass": "vanguard",
+    "subclass": "warp-gunner",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bullets"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "tear-apart"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Tear Apart",
+    "html": "<p>At 10th level, your Biotic Bullets are strong enough to rip against an organic's flesh and a synthetic's metal. When\nyou hit a creature out of cover with a Biotic Bullet, you deal an additional 1d4 force damage.</p>\n<p>This damage scales to 1d6 at 14th level, and 1d8 at 18th level.</p>\n",
+    "id": "tear-apart"
+  },
+  {
     "level": 3,
     "klass": "explorer",
     "subclass": "path-of-cyber",
@@ -12925,6 +13177,37 @@
   },
   {
     "level": 14,
+    "klass": "vanguard",
+    "subclass": "warp-gunner",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bullets",
+          "limit": "global-note"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "unstable-warp"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Unstable Warp",
+    "html": "<p>At 14th level, your attacks that use Biotic Bullets can crit on a roll of 19 or 20.\nThis has no effect if a roll of 19 would still miss the target's AC.</p>\n<p>In addition, your shots now Prime (Necrotic)</p>\n",
+    "id": "unstable-warp"
+  },
+  {
+    "level": 14,
     "klass": "sentinel",
     "subclass": "juggernaut",
     "name": "Unyielding Assault",
@@ -12994,6 +13277,49 @@
     "name": "Up Close and Personal",
     "html": "<p>At 3rd level, when you apply your sneak attack damage from an attack made with a melee weapon, increase the damage die to d8.</p>\n",
     "id": "up-close-and-personal"
+  },
+  {
+    "level": 18,
+    "klass": "vanguard",
+    "subclass": "warp-gunner",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bullets",
+          "limit": "global-note"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "vaporizer"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "warp-burst",
+          "limit": "bonus-action"
+        },
+        "merge": {
+          "shortDesc": "When you cast a vanguard biotic power from a power slot, you can use your bonus action to make two attacks against a target you can see."
+        }
+      }
+    ],
+    "name": "Vaporizer",
+    "html": "<p>At 18th level, all of your bullets are considered Biotic Bullets. In addition, when you cast a power that uses a\nvanguard power slot, you can now make two attacks as your bonus action.</p>\n",
+    "id": "vaporizer"
   },
   {
     "level": 7,
@@ -13310,6 +13636,42 @@
     "name": "Warp Bubble",
     "html": "<p>At 14th level, the area of the barrier increases to a <me-distance length=\"30\" adj /> burst. Whenever an enemy wanders\ninside of the range of the barrier, starts its turn there, or is damaged by the effect of Reflective Bubble, they take\n1d10+your Wisdom modifier necrotic damage and are <me-condition id=\"primed\" sub=\"necrotic\" /> while inside the bubble, or for one\nturn if they are outside.</p>\n",
     "id": "warp-bubble"
+  },
+  {
+    "level": 6,
+    "klass": "vanguard",
+    "subclass": "warp-gunner",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "vanguard",
+          "id": "biotic-bullets"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "warp-burst"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "Warp Burst",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "warp-burst"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you cast a vanguard biotic power from a power slot, you can use your bonus action to make a single attack against a target you can see."
+      }
+    ],
+    "name": "Warp Burst",
+    "html": "<p>At 6th level, while your gun still has Biotic Bullets in it's current magazine, it is treated as having the Double Tap\nproperty, as you use your biotics to help the gun vent heat and cycle it's action more seamlessly.</p>\n<p>In addition, whenever you cast a vanguard biotic power from a power slot, you can use your bonus action to\nmake a single attack against a target you can see.</p>\n",
+    "id": "warp-burst"
   },
   {
     "level": 3,

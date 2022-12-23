@@ -166,6 +166,13 @@
     "id": "havoc"
   },
   {
+    "klass": "soldier",
+    "name": "Holo-Operative",
+    "author": "Spagheddy",
+    "html": "<p>They can't hit what they can't figure out is real. The Holo-Operative specializes in creating holograms of himself to\nconfuse and harry their enemies, and as they become more proficient and deadly, their holograms follow suit. Eventually, their enemies might find that even lights can kill.</p>\n",
+    "id": "holo-operative"
+  },
+  {
     "klass": "engineer",
     "name": "Holosmith",
     "author": "Spagheddy",
@@ -387,6 +394,13 @@
     "author": "Spagheddy",
     "html": "<p>War is in your blood, through all of your hearts. You eat, sleep and eat battle. It is you, and you are determined to prove that you are superior to whoever challenges you.</p>\n<p><strong>Restricted to Krogan</strong>: This subclass is canonically only available to Krogan characters. Consult with your DM about waiving this restriction.</p>\n",
     "id": "warlord"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Warp Gunner",
+    "author": "Spagheddy",
+    "html": "<p>Your combat doctrine eschews heavier biotic assaults in favour of complimenting your shooting and your weapon\nskills. Your shots are even deadlier, and the biotic energies permeating your guns can rip other people apart.</p>\n",
+    "id": "warp-gunner"
   },
   {
     "klass": "soldier",
