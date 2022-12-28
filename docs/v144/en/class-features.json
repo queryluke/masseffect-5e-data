@@ -588,6 +588,62 @@
     "id": "assault-armor"
   },
   {
+    "level": 18,
+    "klass": "sentinel",
+    "subclass": "artillerist",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "assault-mastery"
+              }
+            ]
+          },
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {
+                    "type": "global-note",
+                    "value": "Assault Mastery",
+                    "subType": "power",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "assault-mastery"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Assault Mastery",
+    "html": "<p>At 18th level, you are a walking siege engine. When you expend a power slot to cast a power while Tech Cannon active,\nit now counts as two levels higher than their actual level. In addition, once per short rest, you can cast two\npowers with a single action. You take recoil damage equal to twice the level of your maximum power level. You cannot\ncast powers granted by your L5n Implant feature this way.</p>\n",
+    "id": "assault-mastery"
+  },
+  {
     "level": 14,
     "klass": "engineer",
     "subclass": "drone-jockey",
@@ -3864,6 +3920,60 @@
     ],
     "html": "<p>At 10th level, as an action, you can chose up to your proficiency modifier creatures in a <me-distance length=\"25\" abbr />\nradius that you can see. These creatures must make a Wisdom Saving throw with a DC equal to your Exploit DC plus your\nIndoctrinated level. On a failure, they become Frightened and at the end of each of their turns, must make the\nsaving throw again or take psychic damage equal to one roll of your Exploit Die + half your Experiment level.\nOn a success, the effect ends for that creature. This is a Concentration effect.</p>\n<p>When this effect ends on all victims, the neural feedback produced by the effect washes over your implants and\noverwhelms your mind. You take psychic damage equal to one roll of you Exploit die per target you affected, and you\nbecome Confused until the end of your next turn.</p>\n<p>You become Indoctrinated 3.</p>\n",
     "id": "exploit-torture"
+  },
+  {
+    "level": 14,
+    "klass": "sentinel",
+    "subclass": "artillerist",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "exploit-weakness"
+              }
+            ]
+          },
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {},
+                  {
+                    "type": "bonus-action",
+                    "name": "Exploit Weakness",
+                    "shortDesc": "Change the damage type of the power you cast with your Tech Cannon. Tech spells can change their damage type to Lightning, Fire, Cold or Poison. Biotic spells can change their damage type to Necrotic, Force, or Psychic.",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "exploit-weakness"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Exploit Weakness",
+    "html": "<p>Beginning at 14th level, you can use a bonus action on your turn to change the damage type of the power you cast\nwith your Tech Cannon. Tech spells can change their damage type to Lightning, Fire, Cold or Poison. Biotic\nspells can change their damage type to Necrotic, Force, or Psychic.</p>\n",
+    "id": "exploit-weakness"
   },
   {
     "level": 2,
@@ -8949,6 +9059,56 @@
     "id": "rapid-strike"
   },
   {
+    "level": 7,
+    "klass": "sentinel",
+    "subclass": "artillerist",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {
+                "model": "class-features",
+                "id": "reactive-destruction"
+              }
+            ]
+          },
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {},
+                  {
+                    "type": "reaction",
+                    "name": "Attack of Opportunity (Tech Cannon)",
+                    "shortDesc": "You can use a power or cantrip instead of a weapon attack as an attack of opportunity.",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "reactive-destruction"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Reactive Destruction",
+    "html": "<p>At 7th level, when your Tech Cannon is active, you can use a power or cantrip instead of a weapon attack as an attack of opportunity.</p>\n",
+    "id": "reactive-destruction"
+  },
+  {
     "level": 1,
     "klass": "experiment",
     "subclass": "reaper",
@@ -9849,6 +10009,58 @@
     "name": "Shield Boost",
     "html": "<p>At 10th level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n",
     "id": "shield-boost"
+  },
+  {
+    "level": 10,
+    "klass": "sentinel",
+    "subclass": "artillerist",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {},
+              {},
+              {
+                "model": "class-features",
+                "id": "shield-feedback"
+              }
+            ]
+          },
+          "toggle": {
+            "options": [
+              {},
+              {
+                "whenOn": [
+                  {},
+                  {},
+                  {
+                    "type": "global-note",
+                    "value": "Shield Feedback",
+                    "subType": "power",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "shield-feedback"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Shield Feedback",
+    "html": "<p>At 10th level, you can redirect some power from your cannon back into your omni-tool and shields. When you use your\naction to cast a power, your shield recovers an amount of shield points equal to the level of the power. If you cast\na cantrip, it instead regains points equal to the number of die rolled in the cantrip.</p>\n",
+    "id": "shield-feedback"
   },
   {
     "level": 3,
@@ -12060,6 +12272,144 @@
     "name": "Tech Barricade",
     "html": "<p>At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.\nWhen you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of\nhalf cover. The bonus remains for as long as your Tech Barrier would have held up.</p>\n<p>If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. The\nbarricade can take a number of hits before breaking equal to your Sentinel Level divided by 3, plus your powercasting modifier</p>\n",
     "id": "tech-barricade"
+  },
+  {
+    "level": 3,
+    "klass": "sentinel",
+    "subclass": "artillerist",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "sentinel",
+          "id": "tech-armor",
+          "limit": [
+            "bonus-action"
+          ]
+        },
+        "merge": {
+          "name": "Activate Tech Armor/Cannon",
+          "shortDesc": "When you would activate your tech armor, you may activate tech cannon instead.",
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "tech-cannon"
+              }
+            ]
+          },
+          "toggle": {
+            "id": "tech-armor",
+            "whenOn": [
+              {
+                "type": false
+              },
+              {
+                "type": "resource",
+                "id": "tech-armor",
+                "method": "add",
+                "value": {
+                  "type": "flat",
+                  "value": 1
+                }
+              },
+              {
+                "type": false
+              }
+            ],
+            "options": [
+              {
+                "id": "tech-armor-option",
+                "name": "Tech Armor",
+                "whenOn": [
+                  {
+                    "type": "augment",
+                    "value": {
+                      "model": "sentinel",
+                      "id": "tech-armor",
+                      "limit": [
+                        "bonus-action"
+                      ]
+                    },
+                    "merge": {
+                      "shortDesc": "Tech Armor active for 1 minute."
+                    }
+                  },
+                  {
+                    "type": "resource",
+                    "id": "tech-armor-hp",
+                    "method": "set",
+                    "value": {
+                      "type": "multi",
+                      "value": [
+                        {
+                          "type": "level",
+                          "value": "sentinel",
+                          "multiplier": 2
+                        },
+                        {
+                          "type": "powercastingMod",
+                          "value": "sentinel",
+                          "multiplier": 2
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "name": "Detonate Tech Armor",
+                    "range": {
+                      "short": 0,
+                      "aoe": {
+                        "type": "sphere",
+                        "size": 10
+                      }
+                    },
+                    "dc": {
+                      "base": 8,
+                      "proficient": true,
+                      "bonus": {
+                        "type": "powercastingMod",
+                        "value": "sentinel"
+                      },
+                      "save": "con"
+                    },
+                    "damage": [
+                      {
+                        "dieCount": 0,
+                        "type": "force",
+                        "bonus": {
+                          "type": "resource",
+                          "value": "tech-armor-hp"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "tech-cannon-option",
+                "name": "Tech Cannon",
+                "whenOn": [
+                  {
+                    "type": "global-note",
+                    "value": "Tech Cannon",
+                    "subType": "power",
+                    "moreInfo": {
+                      "model": "class-features",
+                      "id": "tech-cannon"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Tech Cannon",
+    "html": "<p>At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you chose to do so, you don't gain the\nTemporary Hit Points your armor would give you. Instead, your power slots are treated as one level higher when you\ncast them for the duration of Tech Armor. When you cast a Cantrip while Tech Canon is active,\nyou roll one more damage die of equal size and add that to the damage.</p>\n<p>Maintaining Tech Canon is difficult. Whenever it's on, you can't\nconcentrate on a power for more than 1 turn, and when you take health damage, you must roll a DC 10 concentration\ncheck to avoid a preemptive shut off. The DC grows by 1 each time you succeed the save, and resets when Tech Cannon ends.</p>\n",
+    "id": "tech-cannon"
   },
   {
     "level": 10,

@@ -3683,6 +3683,21 @@
     "html": "<p>Starting at 3rd level, your Tech Armor is rigged for keeping the action on you. When\nyou activate tech armor, you project a distracting holographic image (your choice) and each hostile creature within <me-distance length=\"60\" />\nthat can see you must make a Wisdom saving throw (DC = 8 + proficiency bonus + powercasting modifier). On a failure,\na creature is compelled to attack you while your Tech Armor is active. A creature that is compelled to attack you always\ntargets you when it makes a weapon or power attack.</p>\n<p>Each time a creature that is compelled to attack you takes damage from a source other than you, it makes a new Wisdom saving\nthrow against the power. If the saving throw succeeds, the creature is no longer compelled to attack you and is immune to\nAssault Armor for the next 24 hours.</p>\n<p>Synthetic creatures have advantage on the Wisdom saving throw.</p>\n"
   },
   {
+    "id": "assault-mastery",
+    "title": "Assault Mastery",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Artillerist",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, you are a walking siege engine. When you expend a power slot to cast a power while Tech Cannon active,\nit now counts as two levels higher than their actual level. In addition, once per short rest, you can cast two\npowers with a single action. You take recoil damage equal to twice the level of your maximum power level. You cannot\ncast powers granted by your L5n Implant feature this way.\n",
+    "html": "<p>At 18th level, you are a walking siege engine. When you expend a power slot to cast a power while Tech Cannon active,\nit now counts as two levels higher than their actual level. In addition, once per short rest, you can cast two\npowers with a single action. You take recoil damage equal to twice the level of your maximum power level. You cannot\ncast powers granted by your L5n Implant feature this way.</p>\n"
+  },
+  {
     "id": "assault-protocol",
     "title": "Assault Protocol",
     "type": "character",
@@ -5460,6 +5475,21 @@
     "link": false,
     "body": "At 10th level, as an action, you can chose up to your proficiency modifier creatures in a \nradius that you can see. These creatures must make a Wisdom Saving throw with a DC equal to your Exploit DC plus your\nIndoctrinated level. On a failure, they become Frightened and at the end of each of their turns, must make the\nsaving throw again or take psychic damage equal to one roll of your Exploit Die + half your Experiment level.\nOn a success, the effect ends for that creature. This is a Concentration effect.\nWhen this effect ends on all victims, the neural feedback produced by the effect washes over your implants and\noverwhelms your mind. You take psychic damage equal to one roll of you Exploit die per target you affected, and you\nbecome Confused until the end of your next turn.\nYou become Indoctrinated 3.\n",
     "html": "<p>At 10th level, as an action, you can chose up to your proficiency modifier creatures in a <me-distance length=\"25\" abbr />\nradius that you can see. These creatures must make a Wisdom Saving throw with a DC equal to your Exploit DC plus your\nIndoctrinated level. On a failure, they become Frightened and at the end of each of their turns, must make the\nsaving throw again or take psychic damage equal to one roll of your Exploit Die + half your Experiment level.\nOn a success, the effect ends for that creature. This is a Concentration effect.</p>\n<p>When this effect ends on all victims, the neural feedback produced by the effect washes over your implants and\noverwhelms your mind. You take psychic damage equal to one roll of you Exploit die per target you affected, and you\nbecome Confused until the end of your next turn.</p>\n<p>You become Indoctrinated 3.</p>\n"
+  },
+  {
+    "id": "exploit-weakness",
+    "title": "Exploit Weakness",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Artillerist",
+      "14th level"
+    ],
+    "link": false,
+    "body": "Beginning at 14th level, you can use a bonus action on your turn to change the damage type of the power you cast\nwith your Tech Cannon. Tech spells can change their damage type to Lightning, Fire, Cold or Poison. Biotic\nspells can change their damage type to Necrotic, Force, or Psychic.\n",
+    "html": "<p>Beginning at 14th level, you can use a bonus action on your turn to change the damage type of the power you cast\nwith your Tech Cannon. Tech spells can change their damage type to Lightning, Fire, Cold or Poison. Biotic\nspells can change their damage type to Necrotic, Force, or Psychic.</p>\n"
   },
   {
     "id": "exploits",
@@ -7909,6 +7939,21 @@
     "html": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack\nagainst a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the\nsame target as a bonus action.</p>\n"
   },
   {
+    "id": "reactive-destruction",
+    "title": "Reactive Destruction",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Artillerist",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, when your Tech Cannon is active, you can use a power or cantrip instead of a weapon attack as an attack of opportunity.\n",
+    "html": "<p>At 7th level, when your Tech Cannon is active, you can use a power or cantrip instead of a weapon attack as an attack of opportunity.</p>\n"
+  },
+  {
     "id": "reaper-scar",
     "title": "Reaper Scar",
     "type": "character",
@@ -8422,6 +8467,21 @@
     "link": false,
     "body": "At 10th level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.\nOnce you use this feature, you must finish a short or long rest before you can use it again.\n",
     "html": "<p>At 10th level, you can use your action to restore some of your party's shields.\nChoose up to 5 friendly creatures with shields you can see. Hack into their armor system and use a brute\nforce algorithm to overload their kinetic barrier. Roll 4d8. Each creature immediately gains that many shield points,\neven if their total shield point capacity is less than the amount rolled.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>\n"
+  },
+  {
+    "id": "shield-feedback",
+    "title": "Shield Feedback",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Artillerist",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, you can redirect some power from your cannon back into your omni-tool and shields. When you use your\naction to cast a power, your shield recovers an amount of shield points equal to the level of the power. If you cast\na cantrip, it instead regains points equal to the number of die rolled in the cantrip.\n",
+    "html": "<p>At 10th level, you can redirect some power from your cannon back into your omni-tool and shields. When you use your\naction to cast a power, your shield recovers an amount of shield points equal to the level of the power. If you cast\na cantrip, it instead regains points equal to the number of die rolled in the cantrip.</p>\n"
   },
   {
     "id": "shock-cavalry",
@@ -9208,6 +9268,21 @@
     "link": false,
     "body": "At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.\nWhen you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of\nhalf cover. The bonus remains for as long as your Tech Barrier would have held up.\nIf an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. The\nbarricade can take a number of hits before breaking equal to your Sentinel Level divided by 3, plus your powercasting modifier\n",
     "html": "<p>At 3rd level, when you use Tech Armor, you can instead chose to activate an omni-barricade for you and your teammates.\nWhen you do so, you don't gain the normal benefits of Tech Armor, but any allies adjacent to you gain the benefits of\nhalf cover. The bonus remains for as long as your Tech Barrier would have held up.</p>\n<p>If an attack misses a target behind the Barricade because of this bonus, that means the barricade took a hit. The\nbarricade can take a number of hits before breaking equal to your Sentinel Level divided by 3, plus your powercasting modifier</p>\n"
+  },
+  {
+    "id": "tech-cannon",
+    "title": "Tech Cannon",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Sentinel",
+      "Artillerist",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you chose to do so, you don't gain the\nTemporary Hit Points your armor would give you. Instead, your power slots are treated as one level higher when you\ncast them for the duration of Tech Armor. When you cast a Cantrip while Tech Canon is active,\nyou roll one more damage die of equal size and add that to the damage.\nMaintaining Tech Canon is difficult. Whenever it's on, you can't\nconcentrate on a power for more than 1 turn, and when you take health damage, you must roll a DC 10 concentration\ncheck to avoid a preemptive shut off. The DC grows by 1 each time you succeed the save, and resets when Tech Cannon ends.\n",
+    "html": "<p>At 3rd level, you can choose to create a Tech Cannon instead of Tech Armor. When you chose to do so, you don't gain the\nTemporary Hit Points your armor would give you. Instead, your power slots are treated as one level higher when you\ncast them for the duration of Tech Armor. When you cast a Cantrip while Tech Canon is active,\nyou roll one more damage die of equal size and add that to the damage.</p>\n<p>Maintaining Tech Canon is difficult. Whenever it's on, you can't\nconcentrate on a power for more than 1 turn, and when you take health damage, you must roll a DC 10 concentration\ncheck to avoid a preemptive shut off. The DC grows by 1 each time you succeed the save, and resets when Tech Cannon ends.</p>\n"
   },
   {
     "id": "tech-obliteration",
