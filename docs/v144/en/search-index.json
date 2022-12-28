@@ -5186,6 +5186,21 @@
     "html": "<p>Starting at 3rd level, you're able to optimize a basic tech power. Choose one of the following\ntech powers: Cryo Blast, Incinerate, or Overload. You always have this power prepared. You may cast a 1 tech point version\nof this power without expending any tech points. If you cast the power at a high level, you must spend all tech points as normal.</p>\n<p>You can prepare the advanced version of the selected power at the cost of 1 prepared power.</p>\n<p>At 11th level, you can cast a 2 tech point version of this power without expending any tech points.</p>\n<p>With 8 hours of programming your omni-tool, you can exchange the selected power with either Cryo Blast, Incinerate, or Overload.</p>\n"
   },
   {
+    "id": "enlightened-fist",
+    "title": "Enlightened Fist",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Void Fist",
+      "6th level"
+    ],
+    "link": false,
+    "body": "At 6th level, you can use the Biotic Punch cantrip as an attack. You add your Wisdom modifier to the damage of all melee power attacks.\n",
+    "html": "<p>At 6th level, you can use the Biotic Punch cantrip as an attack. You add your Wisdom modifier to the damage of all melee power attacks.</p>\n"
+  },
+  {
     "id": "eternal-watch",
     "title": "Eternal Watch",
     "type": "character",
@@ -5213,6 +5228,21 @@
     "link": false,
     "body": "At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.\n",
     "html": "<p>At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage,\nyou instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>\n"
+  },
+  {
+    "id": "event-horizon",
+    "title": "Event Horizon",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Void Fist",
+      "14th level"
+    ],
+    "link": false,
+    "body": "At 14th level, your biotics emanate in a field around you. The terrain in a  radius\naround you is considered difficult terrain to your enemies. In addition, while you do not\nhave any armor, you add your Charisma modifier to all of your saving throws.\n",
+    "html": "<p>At 14th level, your biotics emanate in a field around you. The terrain in a <me-distance length=\"15\" adj /> radius\naround you is considered difficult terrain to your enemies. In addition, while you do not\nhave any armor, you add your Charisma modifier to all of your saving throws.</p>\n"
   },
   {
     "id": "ever-ready",
@@ -6090,6 +6120,21 @@
     "link": false,
     "body": "At 9th level, you can use your reaction when an enemy moves within your threatened area to try and throw them to the\nground. Make an attack roll against the target: on a hit, deal damage to it equal to half of your Sneak Attack dice,\nand the target must succeed a Dexterity saving throw equal to your Save DC or be knocked prone. You can also use\nthis reaction if a stunned or paralyzed enemy is adjacent to you at the end of your turn.\nInstead of knocking your target prone, you can instead chose to deafen them or blind them. In this case, the\nsave changes to a constitution saving throw, and they are blind or deaf for 1 minute if they fail.\n",
     "html": "<p>At 9th level, you can use your reaction when an enemy moves within your threatened area to try and throw them to the\nground. Make an attack roll against the target: on a hit, deal damage to it equal to half of your Sneak Attack dice,\nand the target must succeed a Dexterity saving throw equal to your Save DC or be knocked prone. You can also use\nthis reaction if a stunned or paralyzed enemy is adjacent to you at the end of your turn.</p>\n<p>Instead of knocking your target prone, you can instead chose to deafen them or blind them. In this case, the\nsave changes to a constitution saving throw, and they are blind or deaf for 1 minute if they fail.</p>\n"
+  },
+  {
+    "id": "grasping-hand-of-the-universe",
+    "title": "Grasping Hand of the Universe",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Void Fist",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, your Biotic Punch's reach increases to . When you hit a non\nadjacent target, you can move them  towards you. You can also make\nTrip and Shove maneuvers at that distance.\n",
+    "html": "<p>At 18th level, your Biotic Punch's reach increases to <me-distance length=\"25\" />. When you hit a non\nadjacent target, you can move them <me-distance length=\"10\" /> towards you. You can also make\nTrip and Shove maneuvers at that distance.</p>\n"
   },
   {
     "id": "groundshaker",
@@ -9986,6 +10031,36 @@
     "link": false,
     "body": "At 11th level, you have permanent advantage on social checks when in an urban setting. An urban setting is any\ncivilized settlement big enough to have a sizeable nightlife, like the Citadel or Illium. A small\ncolony on a Terminus world does not count for this purpose.\n",
     "html": "<p>At 11th level, you have permanent advantage on social checks when in an urban setting. An urban setting is any\ncivilized settlement big enough to have a sizeable nightlife, like the Citadel or Illium. A small\ncolony on a Terminus world does not count for this purpose.</p>\n"
+  },
+  {
+    "id": "void-body",
+    "title": "Void Body",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Void Fist",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, your biotics nurture and protect your physical form. When wearing Light Armor, you can add your Wisdom modifier to your AC, in addition to your normal AC granted by Armor.\nYou can use your Wisdom modifier instead of Strength for any skill check you make.\n",
+    "html": "<p>At 3rd level, your biotics nurture and protect your physical form. When wearing Light Armor, you can add your Wisdom modifier to your AC, in addition to your normal AC granted by Armor.</p>\n<p>You can use your Wisdom modifier instead of Strength for any skill check you make.</p>\n"
+  },
+  {
+    "id": "void-strike",
+    "title": "Void Strike",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Vanguard",
+      "Void Fist",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, you treat any 1's you roll on the damage roll of a Biotic Punch as 2's. Your Biotic Punch now has a Range of 4 meters.\n",
+    "html": "<p>At 10th level, you treat any 1's you roll on the damage roll of a Biotic Punch as 2's. Your Biotic Punch now has a Range of 4 meters.</p>\n"
   },
   {
     "id": "volt",
