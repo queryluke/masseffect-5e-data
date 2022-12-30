@@ -6,6 +6,8 @@ type: combat
 classes:
   - infiltrator
   - soldier
+  - tracker
+  - explorer
 tags:
   - protection
 mechanics:

@@ -7,7 +7,9 @@ tags:
   - control
 classes:
   - engineer
+  - musician
   - infiltrator
+  - tracker
 mechanics:
   - castingTime:
       length: 1

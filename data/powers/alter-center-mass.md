@@ -9,6 +9,7 @@ classes:
   - adept
   - sentinel
   - vanguard
+  - explorer
 reactionQualifier: false
 mechanics:
   - castingTime:

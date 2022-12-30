@@ -9,6 +9,7 @@ classes:
   - adept
   - sentinel
   - vanguard
+  - explorer
 mechanics:
   - castingTime:
       length: 1

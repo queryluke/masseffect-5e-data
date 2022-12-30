@@ -14,7 +14,7 @@ bonuses:
   - threshold: 4
     text: +10 shields. +10 shield regen.
     mechanics:
-      - type: shield-capacity
+      - type: shields
         capacity:
           type: flat
           value: 10

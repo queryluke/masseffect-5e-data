@@ -5,6 +5,8 @@ level: 3
 type: tech
 classes:
   - engineer
+  - musician
+  - tracker
 tags:
   - summon
 mechanics:

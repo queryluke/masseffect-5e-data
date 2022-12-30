@@ -5,8 +5,11 @@ level: 1
 type: tech
 classes:
   - engineer
+  - musician
   - sentinel
   - infiltrator
+  - tracker
+  - explorer
 tags:
   - control
 mechanics:

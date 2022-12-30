@@ -7,8 +7,11 @@ tags:
   - damage
 classes:
   - engineer
+  - musician
   - infiltrator
   - sentinel
+  - tracker
+  - explorer
 mechanics:
   - castingTime:
       length: 1

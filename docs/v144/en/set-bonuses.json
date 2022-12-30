@@ -1,0 +1,742 @@
+[
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "mechanics": [],
+        "showNote": true,
+        "text": "If a target is primed fire, cold or lightning by one of your powers and the condition ends \"at the start of your next turn\", instead the condition ends at the end of your next turn."
+      },
+      {
+        "threshold": 4,
+        "showNote": true,
+        "mechanics": [],
+        "text": "When one of your drones hits with a weapon attack, add twice your proficiency bonus to the damage roll."
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "angaran"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "model": "power",
+              "modelTypes": [
+                "biotic",
+                "tech"
+              ]
+            },
+            "augmentTypes": [
+              "damage"
+            ],
+            "rerollIfLessThan": 2
+          }
+        ],
+        "text": "When you roll a 1 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1."
+      },
+      {
+        "threshold": 4,
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "model": "power",
+              "modelTypes": [
+                "biotic",
+                "tech"
+              ]
+            },
+            "augmentTypes": [
+              "damage"
+            ],
+            "rerollIfLessThan": 2
+          }
+        ],
+        "text": "When you roll a 1 or 2 on a damage die for an attack you make with a biotic or tech power, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2."
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "blood-dragon"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "mechanics": [
+          {
+            "type": "weapon-heat-increase",
+            "multiplier": 0.5
+          }
+        ],
+        "text": "Equipped weapons have increased heat equal to half its base heat (rounded down)."
+      },
+      {
+        "threshold": 4,
+        "mechanics": [
+          {
+            "type": "shields",
+            "regen": {
+              "type": "flat",
+              "value": 15
+            }
+          }
+        ],
+        "text": "Shield Regen 20"
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "cerberus-ajax"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "+2 AC",
+        "mechanics": [
+          {
+            "type": "ac",
+            "bonus": {
+              "type": "flat",
+              "value": 2
+            }
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "cerberus-assault"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "+1 bonus to melee attack and damage rolls.",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "type": "melee"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 3,
+        "text": "+1 bonus to melee attack and damage rolls.",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "type": "melee"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "+1 bonus to melee attack and damage rolls.",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "type": "melee"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "cerberus-nightmare"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.",
+        "mechanics": [
+          {
+            "type": "reaction",
+            "name": "Cerberus Shade Armor Bonus (2 of 4)",
+            "resource": {
+              "reset": "short"
+            },
+            "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points."
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "+10 shields. +10 shield regen.",
+        "mechanics": [
+          {
+            "type": "shields",
+            "capacity": {
+              "type": "flat",
+              "value": 10
+            },
+            "regen": {
+              "type": "flat",
+              "value": 10
+            }
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "cerberus-shade"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "You gain a +2 bonus to power attack rolls and to the saving throw DCs of your powers.",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "model": "power"
+            },
+            "augmentTypes": [
+              "dc",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 2
+            }
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "cerberus-spirit"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "Once per long rest, when you fall below 0 hit points, you immediately become stabilized.",
+        "mechanics": [
+          {
+            "type": "other",
+            "name": "Collector Armor Set Bonus",
+            "resource": {
+              "reset": "long"
+            },
+            "shortDesc": "Once per long rest, when you fall below 0 hit points, you immediately become stabilized."
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "collector"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "Resistance to necrotic and cold damage.",
+        "mechanics": [
+          {
+            "type": "resistance",
+            "value": "necrotic"
+          },
+          {
+            "type": "resistance",
+            "value": "cold"
+          }
+        ]
+      },
+      {
+        "threshold": 3,
+        "text": "Resistance to fire and force damage.",
+        "mechanics": [
+          {
+            "type": "resistance",
+            "value": "fire"
+          },
+          {
+            "type": "resistance",
+            "value": "force"
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "Resistance to lightning damage.",
+        "mechanics": [
+          {
+            "type": "resistance",
+            "value": "lightning"
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "colossus"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours.",
+        "mechanics": []
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "deep-space-explorer"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "+3 AC",
+        "mechanics": [
+          {
+            "type": "ac",
+            "bonus": {
+              "type": "flat",
+              "value": 3
+            }
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "heleus"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "+1 AC.",
+        "mechanics": [
+          {
+            "type": "ac",
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 3,
+        "text": "+10 Shields, +5 Shield Regen.",
+        "mechanics": [
+          {
+            "type": "shields",
+            "capacity": {
+              "type": "flat",
+              "value": 10
+            },
+            "regen": {
+              "type": "flat",
+              "value": 5
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "Once per short rest, as a reaction to taking damage, you may jumpstart your shield regen and immediately gain shield points equal to your regen amount.",
+        "mechanics": [
+          {
+            "type": "reaction",
+            "name": "Hyper Guardian Armor (Set Bonus 4 of 4)",
+            "resource": {
+              "reset": "short"
+            },
+            "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points."
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "hyper-guardian"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "When you lose hit points, as a reaction, you may expend a charge of medi-gel.",
+        "mechanics": [
+          {
+            "type": "reaction",
+            "name": "Inferno Armor Set Bonus (2 of 2)",
+            "shortDesc": "When you take damage, you may expend a medi-gel and apply its effects to yourself."
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "inferno"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "You have 7 levels of exhaustion, you suffer no negative effects at the first level.",
+        "mechanics": []
+      },
+      {
+        "threshold": 4,
+        "text": "You have 8 levels of exhaustion, you suffer no negative effects at the first two levels.",
+        "mechanics": []
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "initiative"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "Your Strength score is 19 while you wear this armor. There is no effect on you if your Strength is 19 or higher without it.",
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "str",
+            "minimum": 19
+          }
+        ]
+      },
+      {
+        "threshold": 3,
+        "text": "Your Strength score is 21 while you wear this armor. There is no effect on you if your Strength is 21 or higher without it.",
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "str",
+            "minimum": 21
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "Your Strength score is 23 while you wear this armor. There is no effect on you if your Strength is 23 or higher without it.",
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "str",
+            "minimum": 23
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "kett"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack.",
+        "mechanics": [
+          {
+            "type": "other",
+            "name": "Maverick Armor Set Bonus (2 of 4)",
+            "shortDesc": "Roll one additional weapon damage die when determining the extra damage for a critical hit with a weapon attack."
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "Your weapon attacks score a critical hit on a roll of 18–20.",
+        "mechanics": [
+          {
+            "type": "other",
+            "name": "Maverick Armor Set Bonus (4 of 4)",
+            "shortDesc": "Your weapon attacks score a critical hit on a roll of 18–20."
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "maverick"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "+1 bonus to weapon attack and damage rolls",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "model": "weapon"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "n-7-defender"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 3,
+        "text": "Increase your hit points by 1 for each level you have gained.",
+        "mechanics": [
+          {
+            "type": "hp",
+            "bonus": {
+              "type": "level"
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "Increase your hit points by 1 for each level you have gained.",
+        "mechanics": [
+          {
+            "type": "hp",
+            "bonus": {
+              "type": "level"
+            }
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "n-7"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "You are immune to becoming poisoned and have resistance to poison damage.",
+        "mechanics": [
+          {
+            "type": "condition-immunity",
+            "value": "poisoned"
+          },
+          {
+            "type": "resistance",
+            "value": "poison"
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "partisan"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 3,
+        "text": "Any critical hit against you becomes a normal hit.",
+        "mechanics": [
+          {
+            "type": "global-note",
+            "subType": "defenses",
+            "value": "Null Critical"
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "You gain a +5 bonus to initiative as long as you aren't incapacitated.",
+        "mechanics": [
+          {
+            "type": "initiative",
+            "effect": "bonus",
+            "bonus": {
+              "type": "flat",
+              "value": 5
+            }
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "pathfinder"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "mechanics": [
+          {
+            "type": "asi-minimum",
+            "ability": "cha",
+            "minimum": 19
+          }
+        ],
+        "text": "Your Charisma is considered to be a 19. This has no effect if your Charisma is higher than 19."
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "reckoner-knight"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 3,
+        "text": "When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
+        "mechanics": [
+          {
+            "type": "min-hit-die-roll",
+            "bonus": {
+              "type": "mod",
+              "value": "con",
+              "min": 2
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "You may jumpstart your shields any number of times. Each time you do, roll a d20. On a roll of 8 or less, your shields malfunction",
+        "mechanics": [
+          {
+            "type": "augment",
+            "value": {
+              "model": "armor",
+              "id": "remnant-tasset"
+            },
+            "merge": {
+              "resource": false,
+              "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points. Then roll a d20. On a roll of 8 or less, your shields become 0 and do not regen until you take a short rest."
+            }
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "remnant"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "You are immune to disease and the poisoned condition and you have resistance to poison damage.",
+        "mechanics": [
+          {
+            "type": "condition-immunity",
+            "value": "poisoned"
+          },
+          {
+            "type": "resistance",
+            "value": "poison"
+          }
+        ]
+      }
+    ],
+    "max": 2,
+    "html": "",
+    "id": "scavenger"
+  },
+  {
+    "bonuses": [
+      {
+        "threshold": 2,
+        "text": "+1 bonus to melee attack and damage rolls.",
+        "mechanics": [
+          {
+            "type": "attack-augment",
+            "attackLimit": {
+              "type": "melee"
+            },
+            "augmentTypes": [
+              "damage",
+              "hit"
+            ],
+            "bonus": {
+              "type": "flat",
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "threshold": 4,
+        "text": "You have resistance to cold and fire damage. You have advantage on stealth checks against thermal sensors and creatures or devices using infrared vision.",
+        "mechanics": [
+          {
+            "type": "resistance",
+            "value": "cold"
+          },
+          {
+            "type": "resistance",
+            "value": "fire"
+          },
+          {
+            "type": "skill-check",
+            "value": [
+              "stealth"
+            ],
+            "effect": {
+              "type": "advantage",
+              "note": "against thermal sensors or infrared vision"
+            }
+          }
+        ]
+      }
+    ],
+    "max": 4,
+    "html": "",
+    "id": "terminus-assault"
+  }
+]

@@ -8,6 +8,7 @@ tags:
   - buff
 classes:
   - soldier
+  - tracker
 mechanics:
   - castingTime:
       length: 1

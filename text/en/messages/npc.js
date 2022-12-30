@@ -63,7 +63,8 @@ module.exports = {
         n_7: 'N7',
         rachni: 'Rachni',
         reaper: 'Reaper',
-        thorian: 'Thorian'
+        thorian: 'Thorian',
+        tracker: 'Tracker Beast'
     },
     uses: '0 uses | {n} use | {n} uses',
     uses_per_day: '{amount}/Day',

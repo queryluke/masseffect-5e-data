@@ -9,6 +9,8 @@ classes:
   - infiltrator
   - soldier
   - vanguard
+  - tracker
+  - explorer
 mechanics:
   - castingTime:
       unit: attack

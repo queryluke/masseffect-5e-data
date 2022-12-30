@@ -1,0 +1,439 @@
+[
+  {
+    "klass": "soldier",
+    "name": "Armiger",
+    "author": "Spagheddy",
+    "html": "<p>Trained by the Armiger Legion, your combat style revolves around staying in the air and raining down death to your enemies.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "armiger"
+  },
+  {
+    "klass": "engineer",
+    "name": "Armorer",
+    "author": "Spagheddy",
+    "html": "<p>Taking inspiration in armored warriors throughout history - or from that one popular comic book from Earth -\nyou put your technical expertise to the test and create a special suit of armor for yourself.</p>\n",
+    "id": "armorer"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Artillerist",
+    "author": "Spagheddy",
+    "html": "<p>You learned that, maybe, staying on the defensive is not the best idea. Instead of creating armor with your proficiency, you can alternate between hardened protection, or a lethal, awe inspiring bombardment of spells.</p>\n",
+    "id": "artillerist"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Bastion",
+    "html": "<p>Bastion sentinels are battlefield leaders. They can easily turn the tides by calling out orders, inspiring troops, and synchronizing troop movements.</p>\n",
+    "id": "bastion"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Battle Master",
+    "html": "<p>Battle masters use their barrier to execute unique maneuvers on the battlefield, controlling and harrying enemy forces.</p>\n",
+    "id": "battle-master"
+  },
+  {
+    "klass": "tracker",
+    "name": "Beast Master",
+    "author": "Helios",
+    "html": "",
+    "id": "beast-master"
+  },
+  {
+    "klass": "engineer",
+    "name": "Biohacker",
+    "author": "Spagheddy",
+    "html": "<p>Your experiments with machines have transcended beyond just electronics and weapons. To you, the ultimate expression of\ntechnology, and your love letter to what you do, comes from within. You learned how to improve your own body to be the\nultimate expression of your technological expertise.</p>\n",
+    "id": "biohacker"
+  },
+  {
+    "klass": "experiment",
+    "name": "Biotic",
+    "author": "Spagheddy",
+    "html": "<p>You were forcefully exposed to eezo, or had biotic nodes implanted into your nervous system. You are not quite a biotic,\nbut you can manipulate Mass Effect fields in a crude, almost primal manner, that makes the difference merely academic\nto your allies, and non-existent to your enemies.</p>\n",
+    "id": "biotic"
+  },
+  {
+    "klass": "adept",
+    "name": "Blackstar",
+    "html": "<p>Blackstars prefer controlling the battlefield over raw power. They can shape their biotic powers to avoid hurting\nfriends and gain unique benefits to biotic control powers like Lift, Singularity, and Stasis.</p>\n",
+    "id": "blackstar"
+  },
+  {
+    "klass": "tracker",
+    "name": "Bloodhound",
+    "author": "Helios",
+    "html": "<p>Nose to the ground, eye on the scanners, ears perked, all senses opened. Focusing on your surroundings, you make sure that whatever target you selected doesn't get away once you have its trail.</p>\n",
+    "id": "bloodhound"
+  },
+  {
+    "klass": "engineer",
+    "name": "Bowman",
+    "author": "Spagheddy",
+    "html": "<p>You are a specialist with the Omni-Bow, able to utilize your technical expertise and your combat\nacumen to bring a more civilized weapon to a more advanced age.</p>\n",
+    "id": "bowman"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Brawler",
+    "author": "Spagheddy",
+    "html": "<p>Who needs weapons? Training has given you plenty of ways to beffudle and defeat your enemies using only your body's natural capabilities.</p>\n",
+    "id": "brawler"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Cabal",
+    "author": "Spagheddy",
+    "html": "<p>&quot;The Intangible Is Unbeatable&quot;. That is the motto of the Turian Cabal corps. Traditionally called &quot;Cabalin&quot;, these\ntroops handle sensitive missions for the Hierarchy, including assassinations. You are part of this elite squad.</p>\n<p><strong>Restricted to Turians</strong>: This subclass is canonically only available to Turian characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "cabal"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Cardinal",
+    "author": "Tech Knight",
+    "html": "<p>In the tropical swamps towards the equator, the &quot;Exalted Prophets&quot; took residence within the swamps and became\nobsessed with the biotic beasts within, to the point of near worship, wanting the gifts of their power for themselves.\nConsuming these beasts for the majority of their lives have given them unique biotic traits, to the point of being\nable to summon weapons using their own biotic amps, their own ferocity making them stronger.</p>\n",
+    "id": "cardinal"
+  },
+  {
+    "klass": "engineer",
+    "name": "Chemist",
+    "author": "Helios",
+    "html": "<p>While other engineers might frown upon the use of chemicals in combat, saying that they're so much better than you\nbecause their combat powers are 'under control' and 'not volatile' or 'not a war crime', you truly understand\nthe magnificence of chemical warfare.</p>\n",
+    "id": "chemist"
+  },
+  {
+    "klass": "adept",
+    "name": "Commando",
+    "html": "<p>Commandos don't need heavy weapons because they ARE the heavy weapon. Their features improve both the damage potential\nand output of their biotic powers, making them a deadly force.</p>\n",
+    "id": "commando"
+  },
+  {
+    "klass": "experiment",
+    "name": "Cybernetic",
+    "author": "Spagheddy",
+    "html": "<p>Something implanted you. Something put metal inside your flesh, and you've learned to embrace it. Embrace the new\nelectricity running along your systems, giving you options and helping your exploits. You are more machine than man, and you love it.</p>\n",
+    "id": "cybernetic"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Devotee of the Old Ways",
+    "author": "Spagheddy",
+    "html": "<p>Most of your species, when brought under the Compact, started worshipping the Enkindlers, together with their\nHanar masters. You, however, remember the old ways, and you pray for them for your strength. Surprisingly, sometimes... they listen.</p>\n<p><strong>Restricted to Drell</strong>: This subclass is canonically only available to Drell characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "devotee-of-the-old-ways"
+  },
+  {
+    "klass": "adept",
+    "name": "Disruptor",
+    "html": "<p>Disruptors have learned to tap into dark energy, improving biotic abilities that tear apart their adversaries from\nwithin. They also specialize in maintaining powers with intense focus.</p>\n",
+    "id": "disruptor"
+  },
+  {
+    "klass": "engineer",
+    "name": "Drone Jockey",
+    "html": "<p>A drone jockey forms a bond with their mechanical companion, giving it a body, name and increasing its potency on the battlefield.</p>\n",
+    "id": "drone-jockey"
+  },
+  {
+    "klass": "soldier",
+    "name": "Engi Knight",
+    "author": "Tech Knight",
+    "html": "<p>After the Morning War, the Geth were feared as the monsters in the darkness to Quarian children. One Quarian, during\nhis pilgrimage was exposed to a video game called Galaxy of Fantasy, and was inspired to become the hero that defended\nthe helpless against the Geth and beyond. He tinkered with his omni-tool for years to try and make his bladed weapons\nbetter than anything ever seen before, but two things were holding him back from realising the true potential of his\nvision; Power Optimisation and Stabilty.</p>\n<p>It was impossible for a creature of flesh and bone to be able to master the fast corrections needed to stop his Omni-tool\nfrom overloading from extensive use, and a VI didn't seem to be enough for the task. In order to fix this problem, he\nhad to turn to the most forbidden practices among his people; designing a new Artificial Intelligence for his armor and\nomni-tool.</p>\n<p>&quot;While you were looking for gifts on your pilgrimage, I was studying the convergence of the blade and the Omni-tool.&quot;</p>\n<p>You can work with your GM to give your AI a personality if you wish, but given the amount of processing power required\nto optimise and stabilise your Omni-tool, it won't be any real assistance to tasks outside of combat, it'll just be an\nAI that can perform VI-level tasks or to simply talk to.</p>\n",
+    "id": "engi-knight"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Field Medic",
+    "author": "Spagheddy",
+    "html": "<p>Instead of providing yourself with defenses, you know how to best utilize the technology you've been using to help your\nallies recover from grievous injury.</p>\n",
+    "id": "field-medic"
+  },
+  {
+    "klass": "adept",
+    "name": "Fury",
+    "author": "Spagheddy",
+    "html": "<p>Terrifying and elusive, Furies are highly skilled biotic combatants. Unlike other kinds of Adept, these warrior prefer\nto be closer to their target, unleashing devastating assaults before blinking away with nothing but a thought.</p>\n<p><strong>Restricted to Human</strong>: This subclass is canonically only available to Human characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "fury"
+  },
+  {
+    "klass": "soldier",
+    "name": "Gladiator",
+    "html": "<p>Gladiators are pure-combatants, focused on winning at all costs and being nearly impossible to take down.</p>\n",
+    "id": "gladiator"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Guardian",
+    "html": "<p>Guardians support and buff party members by utilizing different AI packages from their Tech Armor ability and protecting them with their Omni-Shield. They're also one of the most skilled classes, gaining the Expertise feature twice.</p>\n",
+    "id": "guardian"
+  },
+  {
+    "klass": "soldier",
+    "name": "Havoc",
+    "html": "<p>GUNS!!! GRENADES!!! EXPLOSIONS!!!</p>\n",
+    "id": "havoc"
+  },
+  {
+    "klass": "soldier",
+    "name": "Holo-Operative",
+    "author": "Spagheddy",
+    "html": "<p>They can't hit what they can't figure out is real. The Holo-Operative specializes in creating holograms of himself to\nconfuse and harry their enemies, and as they become more proficient and deadly, their holograms follow suit. Eventually, their enemies might find that even lights can kill.</p>\n",
+    "id": "holo-operative"
+  },
+  {
+    "klass": "engineer",
+    "name": "Holosmith",
+    "author": "Spagheddy",
+    "html": "<p>Experience has taught you that hard light hurts just as much as blades, if not more. You've made it your life mission\nto improve on the designs of existing omni-weaponry, and also decided that it's no fun to just hand your\ncreations over to bruiser.</p>\n",
+    "id": "holosmith"
+  },
+  {
+    "klass": "soldier",
+    "name": "Incubus",
+    "author": "Helios",
+    "html": "<p>If there is anything the Incubi despise, it’s mediocrity. Perfectionists to the extreme, the Incubi continuously\nstrive to make their art better and better, most often at the expense of any unlucky soul that comes across their path.</p>\n",
+    "id": "incubus"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Juggernaut",
+    "html": "<p>Juggernauts are living tanks and nearly impossible to take down. Their tech armor upgrades make sure they can take a hit, or one hundred, without so much as a scratch.</p>\n",
+    "id": "juggernaut"
+  },
+  {
+    "klass": "adept",
+    "name": "Justicar",
+    "author": "Spagheddy",
+    "html": "<p>Proud and traditional, Justicars take up a life of servitude to their Code. Going around the galaxy and righting\nwrongs, some consider the Justicars extreme. Of course, with such devotion, come great power...</p>\n<p><strong>Restricted to Asari</strong>: This subclass is canonically only available to Asari characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "justicar"
+  },
+  {
+    "klass": "soldier",
+    "name": "Legionnaire",
+    "author": "Tech Knight",
+    "html": "<p>The Legionnaires, known to few outside of the colony as the &quot;Legion of Judgement&quot; became the police force that\nmaintained order within the remains of the original colony after the main conflict ended. They rule with a fair but\niron fist, organising hunts to find food for the colony at a regular interval, while the rest patrol the streets\nto keep the peace. Legionnaires would only leave if they got tired of the colony policing life, searching the\nstars for more glory and honour.</p>\n",
+    "id": "legionnaire"
+  },
+  {
+    "klass": "engineer",
+    "name": "Mastermind",
+    "html": "<p>Masterminds are highly-intellectual and skilled individuals, using strategy and perfectly timed attacks to win in battle.</p>\n",
+    "id": "mastermind"
+  },
+  {
+    "klass": "engineer",
+    "name": "Medic",
+    "html": "<p>The name says it all. As a medic, you'll be one on the field that can dress a wound and get your comrades back into fighting shape.</p>\n",
+    "id": "medic"
+  },
+  {
+    "klass": "soldier",
+    "name": "Migrant Marine",
+    "author": "Spagheddy",
+    "html": "<p>The Migrant Marines are an expeditionary force, used for key precision missions within Geth territory for the\nbetterment of the Floatilla. Be it for research or for gauging enemy strengths, you've optimized your combat tools for\nanalysis: everything has a weak point, and you know how to hit it hard.</p>\n<p><strong>Restricted to Quarian</strong>: This subclass is canonically only available to Quarian characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "migrant-marine"
+  },
+  {
+    "klass": "soldier",
+    "name": "Nanobreaker",
+    "author": "Spagheddy",
+    "html": "<p>Your body has been imrpoved by the use of nanotechnology. You can do things with your naked body people in power armor\ncarrying heavy weapons would only dream off. And when they ask what that power is, all you need to is say... &quot;Nanomachines, son.&quot;</p>\n<p><strong>Restricted to Organics</strong>: This subclass is thematically only available to organic species. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "nanobreaker"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Nemesis",
+    "html": "<p>Nemesis vanguards prefer distance and using biotic powers. While they lack the raw power of an adept, they're more crafty and harder to take down.</p>\n",
+    "id": "nemesis"
+  },
+  {
+    "klass": "adept",
+    "name": "Nuclear",
+    "author": "Spagheddy",
+    "html": "<p>You don't care much about the slow decay or gravitic assaults of standard biotics. To you, battle is won on the\nfission of a single atom, and the chain reaction takes care of the rest.</p>\n",
+    "id": "nuclear"
+  },
+  {
+    "klass": "musician",
+    "name": "Operatic",
+    "author": "Spagheddy",
+    "html": "<p>Your voice carries years of pitch training and carefull study. Your haunting melodies touch deeply into the emotions\nof others, bringing in joy or sorrow in unimaginable scale.</p>\n",
+    "id": "operatic"
+  },
+  {
+    "klass": "tracker",
+    "name": "Outrider",
+    "author": "Helios",
+    "html": "<p>Your favourite place during battle is on the back of a powerful beast. You rush through underbrush covered jungles and dangerous slippery ice fields with ease and you're always the first into the fray. You and your beast share this ideology of 'Get in, bring the pain, get out.'</p>\n",
+    "id": "outrider"
+  },
+  {
+    "klass": "soldier",
+    "name": "Painkiller",
+    "author": "Spagheddy",
+    "html": "<p>One gun in each hand. Surrounded. Under the pounding rain. Everything hurts and everything seems pointless. But at least, you know how to tilt the odds in your favour.</p>\n",
+    "id": "painkiller"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spagheddy",
+    "name": "Path of Cyber",
+    "html": "<p>The latest tech, the latest gadget, the latest advantage. You look for and develop creative new tools for your travels,\nand they give you the edge you need.</p>\n",
+    "id": "path-of-cyber"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spagheddy",
+    "name": "Path of Eezo",
+    "html": "<p>Your focus is on biotics and the manipulation of the world around you. You learn how to improve your biotics to truly\nmake a your brain your most valuable tool.</p>\n",
+    "id": "path-of-eezo"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spagheddy",
+    "name": "Path of the Voidhopper",
+    "html": "<p>You took the path of least resistance: the one which doesn't exist. As a Voidhopper, you focus your biotic prowess\ninto the difficult yet awesome power of Blinking, rushing in between adversaries and leaving them confused as to your\nwhereabouts.</p>\n<p><strong>Addendum</strong>: Whenever a feature of the Voidhopper states you need to move half your speed, it also means you\ncannot end your movement in the same square that you started in.</p>\n",
+    "id": "path-of-the-voidhopper"
+  },
+  {
+    "klass": "explorer",
+    "author": "Spagheddy",
+    "name": "Path of War",
+    "html": "<p>You are an expert in armed combat and the use of machines of war. Your Path is rife with violence, but not without\nit's own beauities and discoveries.</p>\n",
+    "id": "path-of-war"
+  },
+  {
+    "klass": "adept",
+    "name": "Phasic",
+    "author": "Spagheddy",
+    "html": "<p>Your biotics are specialized to pass through energy fields without problem. With study and intent, you can even\nphase them through matter to attack targets from within.</p>\n",
+    "id": "phasic"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Pistolero",
+    "author": "Spagheddy",
+    "html": "<p>Sometimes a big iron at your hip is all you need to face down the horrors of the galaxy. You specialize in the use of\nsmall arms, particularly pistols, to make a name for yourself in the galaxy.</p>\n",
+    "id": "pistolero"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Poisoner",
+    "author": "Spagheddy",
+    "html": "<p>You know that poisoning is a subtle art that takes time and effort to learn. Fortunately, you have both,\nand have learned to create potent poisons that can affect even the hardiest of targets.</p>\n",
+    "id": "poisoner"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Ravager",
+    "author": "Tech Knight",
+    "html": "<p>Maybe it was an accident, maybe it was due to messing with their L3 implants. Whatever the reason, their implants have\nbeen damaged at some point in their life and has caused some strange side effects with their powers that can only be\nmatched by their ferocity in battle. Ravagers are unpredictable once they power up for the bloodbath ahead.</p>\n",
+    "id": "ravager"
+  },
+  {
+    "klass": "experiment",
+    "name": "Reaper",
+    "author": "Spagheddy",
+    "html": "<p>Your implants come from a race beyond organic understanding. In exchange for your servitude, you were given\nawesome power. Now, you act as the harbinger for your benefactors.</p>\n",
+    "id": "reaper"
+  },
+  {
+    "klass": "soldier",
+    "name": "Reaver/Enforcer",
+    "author": "Spagheddy",
+    "html": "<p>Focusing on using your Blade Armor, you developed a brutal and swift fighting style all about closing distances quickly and expanding your uses of Blade Armor.</p>\n",
+    "id": "reaver-enforcer"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Saboteur",
+    "html": "<p>Saboteurs are tech savvy infiltrators that use cloak and dagger tactics to control the outcome of battles.</p>\n",
+    "id": "saboteur"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Shadow",
+    "html": "<p>Shadow Infiltrators are melee specialists that make heavy use of their tactical cloak and stealth to close the distance between themselves and their target.</p>\n",
+    "id": "shadow"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Shock Trooper",
+    "html": "<p>Shock troopers like to fight up close and personal, using charge to dash around the battlefield and ripping enemies apart with shotgun blasts.</p>\n",
+    "id": "shock-trooper"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Sniper",
+    "html": "<p>Snipers are ranged specialists that have an affinity for sniper rifles.</p>\n",
+    "id": "sniper"
+  },
+  {
+    "klass": "infiltrator",
+    "name": "Stalker",
+    "author": "Tech Knight",
+    "html": "<p>The last of the three factions that took residence within the most dangerous forests of Chasca - the &quot;Night Stalkers&quot; -\nlooked to the location that had the most food and water within a short distance to sustain themselves for\npotentially many generations. The increased challenge of these creatures have given them many avenues to\nimprove their hunting methods, using equipment and stealth to their advantage, up to the point of being able to attack\nand still remain hidden to strike again from the shadows.</p>\n",
+    "id": "stalker"
+  },
+  {
+    "klass": "engineer",
+    "name": "STG",
+    "author": "Spagheddy",
+    "html": "<p>Disruption and preemptive strikes are the hallmarks of the Special Tasks Group. Using cunning and technology, you\nseek to capitalize on every advantage you can get, and strike before your enemies even know what hit them.</p>\n<p><strong>Restricted to Salarian</strong>: This subclass is canonically only available to Salarian characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "stg"
+  },
+  {
+    "klass": "musician",
+    "name": "Techno",
+    "author": "Spagheddy",
+    "html": "<p>You embrace modernity. Your music is loud and bombastic, cutting edge and hip. People flock to watch your presentations,\nand you've learned to integrate various displays of technical prowess that dazzle the mind, sometimes forever.</p>\n",
+    "id": "techno"
+  },
+  {
+    "klass": "musician",
+    "name": "Tradition",
+    "author": "Spagheddy",
+    "html": "<p>Your species' old stories and myths fuels your drive to inspire others. You seek to bring a bit of your culture to the\ngalactic front, and tales of bravery and camaraderie rescue hearts from the deepest pits of despair.</p>\n",
+    "id": "tradition"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Valkyrie",
+    "author": "Spagheddy",
+    "html": "<p>You've been fighting long enough to know that, without allies, you're screwed. As such, you've adapted a fighting\nstyle to help protect your friends in their most dire hours.</p>\n",
+    "id": "valkyrie"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Void Fist",
+    "author": "Spagheddy",
+    "html": "<p>Biotics have been a part of you since the beggining of your life. You have accepted that fact. However, now you've also trained with them enough that they are more powerfull than any other weapon. You have reached a point where you've accepted your gift, and it takes you to new heights, both spiritual and physical.</p>\n",
+    "id": "void-fist"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Warleader",
+    "author": "Spagheddy",
+    "html": "<p>Your Tech Armor becomes more than a simple personal protection: now, it's protection extends to your allies as well,\nprotecting them from the heat of battle. You become the force multiplier most others wish they could be.</p>\n",
+    "id": "warleader"
+  },
+  {
+    "klass": "sentinel",
+    "name": "Warlord",
+    "author": "Spagheddy",
+    "html": "<p>War is in your blood, through all of your hearts. You eat, sleep and eat battle. It is you, and you are determined to prove that you are superior to whoever challenges you.</p>\n<p><strong>Restricted to Krogan</strong>: This subclass is canonically only available to Krogan characters. Consult with your DM about waiving this restriction.</p>\n",
+    "id": "warlord"
+  },
+  {
+    "klass": "vanguard",
+    "name": "Warp Gunner",
+    "author": "Spagheddy",
+    "html": "<p>Your combat doctrine eschews heavier biotic assaults in favour of complimenting your shooting and your weapon\nskills. Your shots are even deadlier, and the biotic energies permeating your guns can rip other people apart.</p>\n",
+    "id": "warp-gunner"
+  },
+  {
+    "klass": "soldier",
+    "name": "Weapon Master",
+    "html": "<p>Weapon masters train extensively in the art of a single weapon, giving them powerful advantages when using a weapon of that type.</p>\n",
+    "id": "weapon-master"
+  }
+]

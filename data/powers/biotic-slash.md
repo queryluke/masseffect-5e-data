@@ -9,6 +9,7 @@ tags:
 classes:
   - sentinel
   - vanguard
+  - explorer
 mechanics:
   - castingTime:
       length: 1

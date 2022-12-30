@@ -1,0 +1,3996 @@
+[
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 50000,
+    "manufacturer": "alliance",
+    "tags": [
+      "resistance"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Ablative Coating",
+    "flavor": "Ablative coating is designed to chip away when impacted, redirecting the energy of incoming projectiles away from the body.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "piercing"
+      }
+    ],
+    "html": "<p>Resistance to piercing damage.</p>\n",
+    "id": "ablative-coating"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 40000,
+    "manufacturer": "ariake-technologies",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Adrenaline Regulator",
+    "flavor": "Biofeedback system regulating wearer's adrenaline surges.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "type": "melee",
+          "model": "weapon",
+          "modelTypes": [
+            "melee"
+          ]
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
+    "id": "adrenaline-regulator"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 30000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Advanced Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "slots": 2,
+        "max": 2
+      }
+    ],
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two ranged\nweapons that do not have the two-handed property. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "advanced-shoulder-mounts"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 40000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Aerial Performance Optimizer",
+    "flavor": "Enhance your jet pack or jump jet armor modification with an advanced aerial lubricant and stabilizer.",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "+2 w/ Jump Jet or Jetpack",
+        "moreInfo": {
+          "model": "mods",
+          "id": "aerial-performance-optimizer"
+        }
+      }
+    ],
+    "html": "<p>Requires a Jump Jet or Jetpack mod also be installed. When you are hovering (via Jump Jets) or flying (via Jetpack), you have a +2 bonus to all attack and damage rolls.</p>\n",
+    "id": "aerial-performance-optimizer"
+  },
+  {
+    "name": "Amplifier Plates",
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 12000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "flavor": "Includes an internal micro-control system to maximize resources.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "power"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>+1 bonus to power damage rolls</p>\n",
+    "id": "amplifier-plates"
+  },
+  {
+    "name": "Archon AI",
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 30000,
+    "manufacturer": "rosenkov-materials",
+    "tags": [
+      "power_regen"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "flavor": "An efficient algorithm to balance processing power for biotic amps and omni-tools. A heads-up display and voice command software allows users to micromanage the systems, reducing the cooldown period between energy expenditures.",
+    "mechanics": [
+      {
+        "type": "power-resource-recovery",
+        "dieCount": 1,
+        "dieType": 4,
+        "label": "Archon AI"
+      }
+    ],
+    "html": "<p>You regain 1d4 worth of power slots or tech points when you take a short rest.</p>\n",
+    "id": "archon-ai"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 50000,
+    "manufacturer": "rosenkov-materials",
+    "tags": [
+      "ac"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Asymmetric Defense Layer",
+    "flavor": "Offering increased protection where it's needed most, Rosenkov Materials' proprietary coating process increases stopping power of standard ceramic armor.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
+    "html": "<p>+2 AC</p>\n",
+    "id": "asymmetric-defense-layer"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 8000,
+    "manufacturer": "any",
+    "tags": [
+      "heal"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Autogel",
+    "flavor": "Microprocessors in this interface monitor vital functions and release small localized doses of medi-gel to accelerate the healing process. Manually timed heavy doses of medi-gel can be released in response to major trauma.",
+    "mechanics": [
+      {
+        "name": "Autogel",
+        "moreInfo": {
+          "model": "mods",
+          "id": "autogel"
+        },
+        "type": "reaction",
+        "shortDesc": "When you lose hit points, you may use one medi-gel on yourself."
+      }
+    ],
+    "html": "<p>When you lose hit points, as a reaction, you may expend a charge of medi-gel.</p>\n",
+    "id": "autogel"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 8000,
+    "manufacturer": "kassa-fabrication",
+    "tags": [
+      "shield_regen"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Auxiliary Shield Emitters",
+    "flavor": "Micro-capacitors that release energy to speed up shield regeneration.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "regen": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
+    "html": "<p>Increase your shield regen by 5.</p>\n",
+    "id": "auxiliary-shield-emitters"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 6000,
+    "manufacturer": "any",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Back Holster",
+    "flavor": "A back holster designed to hold a larger weapon.",
+    "mechanics": [
+      {
+        "type": "weapon-slots",
+        "value": 2
+      }
+    ],
+    "html": "<p>Gain 2 additional weapon slots. If using the Variant: Encumbrance rule, increase your Carry Weight by 10.</p>\n",
+    "id": "back-holster"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 24000,
+    "manufacturer": "armali-council",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Barrier",
+    "flavor": "Eezo oscillator provides a biotic-like barrier.",
+    "mechanics": [
+      {
+        "type": "barrier",
+        "multiclassConversion": 1,
+        "ticks": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "uses": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "dieCount": 1,
+        "dieType": 8
+      }
+    ],
+    "html": "<p>The armor contains a mass effect barrier with 3 barrier ticks. You cannot use these additional barrier ticks for\nbiotic powers, they are only for damage reduction. The barrier ticks recharge after a short rest.</p>\n",
+    "id": "barrier"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 5000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Basic Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "proficient": true,
+        "slots": 2,
+        "max": 2
+      }
+    ],
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate one two-handed ranged weapon or two\nranged weapons that do not have the two-handed property. You must be proficient with any weapons you equip.\nThis is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "basic-shoulder-mounts"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 30000,
+    "manufacturer": "rosenkov-materials",
+    "tags": [
+      "power_regen"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Battle Telemetry",
+    "flavor": "Battle telemetry systems increase the efficiency of your biotic amplifiers and omni-tool.",
+    "mechanics": [
+      {
+        "type": "power-resource-recovery",
+        "dieCount": 1,
+        "dieType": 4,
+        "label": "Battle Telemetry Mod"
+      }
+    ],
+    "html": "<p>You regain 1d4 worth of power slots or tech points when you take a short rest.</p>\n",
+    "id": "battle-telemetry"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 38000,
+    "manufacturer": "devlon-industries",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Battlefield Assist Module",
+    "flavor": "A special VI that reroutes all power to your armor's defenses when vital signs are low.",
+    "mechanics": [
+      {
+        "name": "Battlefield Assist Module",
+        "moreInfo": {
+          "model": "mods",
+          "id": "battlefield-assist-module"
+        },
+        "type": "other",
+        "shortDesc": "At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus action to gain +2 AC and resistance to a damage type of your choice for 1 minute.",
+        "toggle": {
+          "id": "battlefield-assist-module-toggle",
+          "whenOn": [
+            {
+              "type": "ac",
+              "bonus": {
+                "type": "flat",
+                "value": 2
+              }
+            }
+          ],
+          "options": [
+            {
+              "id": "battlefield-assist-module-toggle-acid",
+              "name": "Acid",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "acid"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-bludgeoning",
+              "name": "Bludgeoning",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "bludgeoning"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-cold",
+              "name": "Cold",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "cold"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-fire",
+              "name": "Fire",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "fire"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-force",
+              "name": "Force",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "force"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-lightning",
+              "name": "Lightning",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "lightning"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-necrotic",
+              "name": "Necrotic",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "necrotic"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-piercing",
+              "name": "Piercing",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "piercing"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-poison",
+              "name": "Poison",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "poison"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-psychic",
+              "name": "Psychic",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "psychic"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-radiant",
+              "name": "Radiant",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "radiant"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-slashing",
+              "name": "Slashing",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "slashing"
+                }
+              ]
+            },
+            {
+              "id": "battlefield-assist-module-toggle-thunder",
+              "name": "Thunder",
+              "whenOn": [
+                {
+                  "type": "resistance",
+                  "value": "thunder"
+                }
+              ]
+            }
+          ]
+        },
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 1
+          },
+          "id": "battlefield-assist-module-resource"
+        }
+      }
+    ],
+    "html": "<p>At the start of your turn, if you have less than one-quarter of your hit points remaining, you can use a bonus\naction to gain +2 AC and resistance to a damage type of your choice for 1 minute. You may use this feature once per\nlong rest.</p>\n",
+    "id": "battlefield-assist-module"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 52000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Beam Emitter",
+    "flavor": "The weapon now fires a sustained energy beam that accurately deals rapid damage to the target.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
+    "html": "<p>+2 on ranged attack rolls made with this weapon. It loses the Burst Fire and Double Tap properties and its damage type\nbecomes radiant. After successfully hitting a target with a ranged attack with this weapon, you may use your bonus\naction to begin targeting. Until the targeting condition ends, you deal weapon damage to the target at each of the\nfollowing combat phases: the end of your turn, the beginning of the target's turn, the end of the target's turn, and\nthe beginning of your turn. Each time you deal damage, remove 1 heat. In addition to standard targeting rules, this\ntargeting condition can end when this weapon's heat becomes 0, when the targeted creature gains three-quarter or\nfull cover, the target uses an action and succeeds on an opposed Dexterity check (you may add your proficiency bonus\nif you are proficient with this weapon type), or you use a bonus action on your turn to end the condition.</p>\n",
+    "id": "beam-emitter"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 33000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Bio-Converter",
+    "flavor": "An experimental thermal clip replacement that vents heat into the user's armor system. While painful, it is very effective at keeping weapons cool and firing.",
+    "mechanics": [],
+    "html": "<p>When this weapon's heat becomes 0, it immediately gains X heat and you take Xd4 fire damage where X is the maximum\nheat of the weapon. This damage bypasses shields and barriers and cannot be reduced in any way.</p>\n",
+    "id": "bio-converter"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 5000,
+    "manufacturer": "batarian-state-arms",
+    "tags": [
+      "special"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Bladed Wristguards",
+    "flavor": "Reinforce armor with razor-sharp blades that deal damage to melee attackers.",
+    "mechanics": [
+      {
+        "name": "Bladed Wristguards (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "bladed-wristguards"
+        },
+        "type": "other",
+        "shortDesc": "When you are hit with a melee attack, deal 1d6 piercing damage back at the attacker.",
+        "damage": [
+          {
+            "dieType": 6,
+            "dieCount": 1,
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "html": "<p>When you are hit with a melee attack, deal 1d6 piercing damage back at the attacker.</p>\n",
+    "id": "bladed-wristguards"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 13000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Burst Fire System",
+    "flavor": "Augment the weapons firing system to automatic.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": -2
+        }
+      },
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "dieIncrease": -1
+      },
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "burst-fire"
+        ]
+      },
+      {
+        "type": "weapon-heat-increase",
+        "value": 6
+      }
+    ],
+    "html": "<p>The weapon gains 6 heat and the Burst Fire attribute, but you have a -2 penalty with attack rolls and you reduce any damage done by 1 die type (d4s become a d2).</p>\n",
+    "id": "burst-fire-system"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 20000,
+    "manufacturer": "kassa-fabrication",
+    "tags": [
+      "ac"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Ceramic Weave",
+    "flavor": "Elite personal protection equipment includes a series of interlocking ceramic plates covered in a proprietary tungsten alloy weave for maximum stopping power.",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>+1 AC</p>\n",
+    "id": "ceramic-weave"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 6000,
+    "manufacturer": "elkoss-combine",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Chest Holster - Grenades",
+    "flavor": "A holster designed to hold combat grenades.",
+    "mechanics": [
+      {
+        "type": "grenade-capacity",
+        "value": 4
+      }
+    ],
+    "html": "<p>Increase your grenade capacity by 4</p>\n",
+    "id": "chest-holster-grenades"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 2000,
+    "manufacturer": "elkoss-combine",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Chest Holster - Thermal Clips",
+    "flavor": "A holster designed to hold thermal clips.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 8
+      }
+    ],
+    "html": "<p>Increase your thermal clip capacity by 8</p>\n",
+    "id": "chest-holster-thermal-clips"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": "cerberus-skunkworks",
+    "tags": [
+      "resistance"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Cleats",
+    "flavor": "Copper microfilaments in your boots ground you and abate electrical shock.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "lightning"
+      }
+    ],
+    "html": "<p>Resistance to lightning.</p>\n",
+    "id": "cleats"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Combat Sensor",
+    "flavor": "Scanning radar that alerts you when enemies are within your vicinity.",
+    "mechanics": [
+      {
+        "type": "initiative",
+        "effect": {
+          "type": "advantage"
+        }
+      },
+      {
+        "name": "Combat Sensor (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "combat-sensor"
+        },
+        "type": "other",
+        "shortDesc": "You and any of your companions within <me-distance length=\"30\" /> of you can't be surprised, except when incapacitated. The sensor awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+      }
+    ],
+    "html": "<p>While this weapon is equipped, you have advantage on initiative rolls. In addition, you and any of your companions\nwithin <me-distance length=\"30\" /> of you can't be surprised, except when incapacitated. The sensor awakens you and your companions within range if any of you are sleeping naturally when combat begins.</p>\n",
+    "id": "combat-sensor"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 12000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "body",
+    "availability": [
+      "sniper_rifle"
+    ],
+    "name": "Concentration Mod",
+    "flavor": "Biometric sensors and auto-targeting software adjust to the user's pulse and breath rate, assisting aim.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "crit": 19
+      }
+    ],
+    "html": "<p>If you reduce your speed to 0 for the turn, ranged attack rolls with this weapon score critical hits on rolls of 19 &amp; 20.</p>\n",
+    "id": "concentration-mod"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 5000,
+    "manufacturer": "",
+    "tags": [
+      "attack_bonus"
+    ],
+    "placement": "grip",
+    "availability": [
+      "melee"
+    ],
+    "name": "Counterweight",
+    "flavor": "Further balance your weapon making it easier to strike in combat.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>+1 on melee attack rolls made with this weapon.</p>\n",
+    "id": "counterweight"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 8000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "heavy_pistol"
+    ],
+    "name": "Cranial Trauma System",
+    "flavor": "Increase headshot lethality by balancing barrel calibration so that ammunition pierces bone and explodes in soft tissue.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "addCritDie": 1
+      }
+    ],
+    "html": "<p>Roll one additional weapon damage die when determining the extra damage for a critical hit with a ranged attack made with this weapon.</p>\n",
+    "id": "cranial-trauma-system"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "damage_augment",
+      "primes"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Cryo Ammo",
+    "flavor": "Fire supercooled projectiles.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "cold",
+        "primes": "cold",
+        "primesLength": "until the end of its next turn",
+        "notes": [
+          {
+            "type": "tooltip",
+            "tooltipText": "Hit: reduce the target's movement speed by 1/2 until the end of its next turn",
+            "text": "Movement: 1/2"
+          }
+        ],
+        "toggle": true,
+        "name": "Cryo Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes cold. Successful ranged weapon attacks cause the target to become primed (cold) and reduce its movement speed by half until the end of its next turn.</p>\n",
+    "id": "cryo-ammo"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "damage_augment",
+      "primes",
+      "detonates"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Disruptor Ammo",
+    "flavor": "Fire statically charged projectiles.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "primes": "lightning",
+        "primesLength": "until the end of its next turn",
+        "detonates": true,
+        "toggle": true,
+        "name": "Disruptor Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes lightning, Successful ranged attacks can detonate primed targets or cause the target to become primed (lightning) until the end of its next turn.</p>\n",
+    "id": "disruptor-ammo"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 22000,
+    "manufacturer": "armax-arsenal",
+    "tags": [
+      "special"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "EC Counter",
+    "flavor": "Uses an electrical conduit to automatically counter-attack melee combatants.",
+    "mechanics": [
+      {
+        "name": "EC Counter",
+        "moreInfo": {
+          "model": "mods",
+          "id": "ec-counter"
+        },
+        "type": "other",
+        "shortDesc": "Once per round, when you are hit with a melee attack, the attacking creature suffers 2d4 lightning damage and must succeed on a DC 10 Constitution saving throw or becomes stunned until the start of your next turn.",
+        "dc": {
+          "base": 10,
+          "proficient": false,
+          "save": "CON"
+        },
+        "damage": [
+          {
+            "dieType": 4,
+            "dieCount": 2,
+            "type": "lightning"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Whenever you are hit with a melee attack, the attacking creature takes 2d4 lightning damage and must succeed on a DC 10\nConstitution saving throw or becomes stunned until the start of your next turn. This effect can only happen once per round (every 6 seconds).</p>\n",
+    "id": "ec-counter"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 4000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "ability_skill_bonus"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Echo Cancel",
+    "flavor": "Specifically attuned mass effect fields in your armor's boots that are keyed to sound waves.",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "stealth",
+        "effect": {
+          "type": "advantage",
+          "note": "that rely on remaining silent"
+        }
+      }
+    ],
+    "html": "<p>Your footsteps make no noise and you have advantage on Dexterity (Stealth) checks that rely on remaining silent.</p>\n",
+    "id": "echo-cancel"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 15000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Electrical Conduits",
+    "flavor": "Augment the weapons firing system to arc lightning.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "shortRangeMax": 30,
+        "longRangeMax": 60
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ],
+        "add": [
+          "arc"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire and Double Tap properties and gains the Arc property. If its range is\nfarther than <me-distance length=\"30\" num-only />/<me-distance length=\"60\" />, its range becomes\n<me-distance length=\"30\" num-only />/<me-distance length=\"60\" />.</p>\n",
+    "id": "electrical-conduits"
+  },
+  {
+    "rarity": "very_rare",
+    "type": "armor",
+    "cost": 60000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "medium",
+      "heavy"
+    ],
+    "name": "Elite Heavy Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "slots": 4,
+        "max": 2
+      }
+    ],
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons.\nThis is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "elite-heavy-shoulder-mounts"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 90000,
+    "manufacturer": "cerberus-skunkworks",
+    "tags": [
+      "ac"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Energized Plating",
+    "flavor": "A prototype upgrade designed specifically for heavy combat use, it provides maximum protection for the user",
+    "mechanics": [
+      {
+        "type": "ac",
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        }
+      }
+    ],
+    "html": "<p>+3 AC</p>\n",
+    "id": "energized-plating"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 32000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage",
+      "special"
+    ],
+    "placement": "strike",
+    "availability": [
+      "melee"
+    ],
+    "name": "Energy Channel",
+    "flavor": "Divert power from your kinetic barrier into an electric discharge.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "notes"
+        ],
+        "notes": [
+          {
+            "type": "tooltip",
+            "text": "+5 lightning, regen 5",
+            "tooltipText": "Hit: deal 5 additional lightning damage and regain 5 shield points. Requires at least 1 shield point"
+          }
+        ]
+      }
+    ],
+    "html": "<p>When you hit with a melee attack with this weapon, you may deal 5 additional lightning damage and regain 5 shield points. You cannot use this if you have 0 shield points.</p>\n",
+    "id": "energy-channel"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 6000,
+    "manufacturer": "devlon-industries",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Enviro-Systems",
+    "flavor": "An activatable hermetic seal against vacuum or underwater pressure. While most armors act as space-suits, they aren't necessarily graded for more than a few hours of vacuum exposure, nor are they graded for underwater performance where water pressure can be crushing.",
+    "mechanics": [
+      {
+        "name": "Enviro-Systems (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "enviro-systems"
+        },
+        "type": "other",
+        "shortDesc": "As a free action, activate an enviro-suit, allowing you to breath in any environment for up to 24 hours."
+      }
+    ],
+    "html": "<p>As a free action, you gain Water Breathing and the ability to breathe indefinitely in zero-oxygen environments for the next 24 hours. If you are not wearing a helmet, the suit creates a hard light helmet that equalizes pressure around your head.</p>\n",
+    "id": "enviro-systems"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 62500,
+    "manufacturer": "devlon-industries",
+    "tags": [
+      "resistance"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Environmental Regulators",
+    "flavor": "Temperature controls use liquid nitrogen and plasma to keep your suit at a constant temperature.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "fire"
+      },
+      {
+        "type": "resistance",
+        "value": "cold"
+      }
+    ],
+    "html": "<p>Resistance to fire and cold damage.</p>\n",
+    "id": "environmental-regulators"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 30000,
+    "manufacturer": "alliance",
+    "tags": [
+      "special"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Equilibrium Regulator",
+    "flavor": "Stabilizes your HUD while running which allows you to take quick shots while running.",
+    "mechanics": [
+      {
+        "name": "Equilibrium Regulator (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "equilibrium-regulator"
+        },
+        "type": "bonus-action",
+        "shortDesc": "When you take the Dash action on your turn, you can use a bonus action to make one weapon attack."
+      }
+    ],
+    "html": "<p>When you take the Dash action on your turn, you can use a bonus action to make one weapon attack.</p>\n",
+    "id": "equilibrium-regulator"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 150000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "movement"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "ER Jetpack",
+    "flavor": "An advanced jetpack that can be used for longer than the standard version, but takes longer to recharge.",
+    "mechanics": [
+      {
+        "name": "ER Jetpack (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "er-jetpack"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Gain a flying speed of <me-distance length=\"15\" /> for 10 minutes.",
+        "resource": {
+          "id": "er-jetpack-resource",
+          "reset": "long"
+        },
+        "toggle": {
+          "id": "er-jetpack-toggle",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "er-jetpack-resource",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 15
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 10 minutes.\nThis device cannot be used again until you finish a long rest.</p>\n",
+    "id": "er-jetpack"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 15000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Explosive Ammo",
+    "flavor": "Fire exploding projectiles",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "addDamage": [
+          {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "thunder",
+            "addTo": "all"
+          }
+        ],
+        "heatConsumption": 2,
+        "toggle": true,
+        "name": "Explosive Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: Successful ranged attacks deal an additional 1d8 thunder damage, but each attack drains 2 heat.</p>\n",
+    "id": "explosive-ammo"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 5000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "sniper_rifle"
+    ],
+    "name": "Extended Barrel I",
+    "flavor": "Lengthens barrel, creating greater bullet velocity and impact.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>+1 on damage rolls made with this weapon.</p>\n",
+    "id": "extended-barrel-i"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 12500,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "sniper_rifle"
+    ],
+    "name": "Extended Barrel II",
+    "flavor": "Lengthens barrel, creating greater bullet velocity and impact.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
+    "html": "<p>+2 on damage rolls made with this weapon.</p>\n",
+    "id": "extended-barrel-ii"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 25000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "sniper_rifle"
+    ],
+    "name": "Extended Barrel III",
+    "flavor": "Lengthens barrel, creating greater bullet velocity and impact.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        }
+      }
+    ],
+    "html": "<p>+3 on damage rolls made with this weapon.</p>\n",
+    "id": "extended-barrel-iii"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 8000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "grip",
+    "availability": [
+      "melee"
+    ],
+    "name": "Extended Grip",
+    "flavor": "This grip adheres to any existing weapon providing additional power or reach.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "finesse",
+          "light"
+        ],
+        "add": [
+          "two-handed",
+          "reach",
+          "versatile"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Finesse and Light properties. Add the Two-handed, Reach, and Versatile properties.</p>\n",
+    "id": "extended-grip"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "additional_heat"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Extended Magazine",
+    "flavor": "Increases magazine capacity, allowing more shots before reload.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 1
+      }
+    ],
+    "html": "<p>The weapon gains additional heat equal to its base heat.</p>\n",
+    "id": "extended-magazine"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 40000,
+    "manufacturer": "ariake-technologies",
+    "tags": [
+      "special"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Focus Modulator",
+    "flavor": "Your headwear filters out distracting movement and sounds from sources other than your target.",
+    "mechanics": [
+      {
+        "name": "Focus Modulator (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "focus-modulator"
+        },
+        "type": "bonus-action",
+        "resource": {
+          "reset": "long",
+          "max": {
+            "type": "flat",
+            "value": 3
+          },
+          "id": "focus-modulator"
+        },
+        "range": {
+          "short": 90
+        },
+        "shortDesc": "Choose a creature you can see within <me-distance length=\"90\" />. For the next minute, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it."
+      }
+    ],
+    "html": "<p>As a bonus action, you choose a creature you can see within <me-distance length=\"90\" />. For the next minute,\nyou deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have\nadvantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. You can use this feature\n3 times per long rest.</p>\n",
+    "id": "focus-modulator"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 48000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Grenade Launcher",
+    "flavor": "Augment the weapons firing system to explosive projectiles.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "heatConsumption": 2,
+        "damageType": "thunder",
+        "damageMultiplier": 2,
+        "onlyShortRange": true,
+        "addAoe": {
+          "type": "sphere",
+          "size": 10
+        },
+        "dc": {
+          "base": 13,
+          "proficient": false,
+          "save": "dex"
+        },
+        "toggle": false
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire and Double Tap property. Its damage type becomes thunder. When you attack\nwith this weapon choose a target location within the weapon's normal range. Each creature within <me-distance length=\"10\" />\nof the target must make a DC 13 Dexterity saving throw. On a failed save, a target takes thunder damage equal to\ntwice the weapon's damage, or half as much on a successful one. Each attack costs 2 heat.</p>\n",
+    "id": "grenade-launcher"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 10000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "grip",
+    "availability": [
+      "melee"
+    ],
+    "name": "Gyroscope",
+    "flavor": "A small device that uses mass effect fields to stabilize the weapon when in flight.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "thrown"
+        ]
+      }
+    ],
+    "html": "<p>The weapon gains the Thrown property and gains +2 to hit with a ranged weapon attack.</p>\n",
+    "id": "gyroscope"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 250000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "resistance"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Hardened Weave",
+    "flavor": "A complex filament network of element zero microcores combined with advanced firewall technology provides protection against both biotic and tech attacks.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "cold"
+      },
+      {
+        "type": "resistance",
+        "value": "fire"
+      },
+      {
+        "type": "resistance",
+        "value": "force"
+      },
+      {
+        "type": "resistance",
+        "value": "lightning"
+      },
+      {
+        "type": "resistance",
+        "value": "necrotic"
+      }
+    ],
+    "html": "<p>Resistance to cold, fire, force, lightning, and necrotic damage types.</p>\n",
+    "id": "hardened-weave"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 40000,
+    "manufacturer": "",
+    "tags": [
+      "additional_heat"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Heat Sink",
+    "flavor": "Greatly improves your weapons cooling capacity.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 2
+      }
+    ],
+    "html": "<p>The weapon gains additional heat equal to double its base heat.</p>\n",
+    "id": "heat-sink"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": null,
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "medium",
+      "heavy"
+    ],
+    "name": "Heavy Shoulder Mounts",
+    "flavor": "Originally designed for Elcor battlesuits, these hydraulic mounts allow you to equip and fire ranged weapons from your shoulder.",
+    "mechanics": [
+      {
+        "type": "shoulder-mounts",
+        "proficient": true,
+        "slots": 4,
+        "max": 2
+      }
+    ],
+    "html": "<p>You must spend 10 minutes during a short rest to equip and calibrate up to two ranged weapons You must be\nproficient with any weapons you equip. This is considered light activity.</p>\n<p>While you have one or more ranged weapons equipped in these mounts, you may make ranged attack\nrolls with the weapons as normal, but you use your Intelligence modifier for the attack and damage\nrolls. Additionally, the weapons cannot be dropped or removed against your will and do not take\nup any of your armor’s weapon slots.</p>\n<p>Reloading mounted weapons is no different than a weapon you are wielding.</p>\n<p>Your armor can only have one <strong>shoulder mounts</strong> mod installed at once.</p>\n",
+    "id": "heavy-shoulder-mounts"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 12000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage",
+      "special"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "High-Caliber Barrel I",
+    "flavor": "Superior kinetic coils increase shot penetration and damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage",
+          "notes"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        },
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignore 1/2 cover"
+          }
+        ]
+      }
+    ],
+    "html": "<p>+1 on damage rolls made with this weapon. Ignores half cover.</p>\n",
+    "id": "high-caliber-barrel-i"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 19500,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage",
+      "special"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "High-Caliber Barrel II",
+    "flavor": "Superior kinetic coils increase shot penetration and damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage",
+          "notes"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        },
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignore 1/2 cover"
+          }
+        ]
+      }
+    ],
+    "html": "<p>+2 on damage rolls made with this weapon. Ignores half cover.</p>\n",
+    "id": "high-caliber-barrel-ii"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 32000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage",
+      "special"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "High-Caliber Barrel III",
+    "flavor": "Superior kinetic coils increase shot penetration and damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage",
+          "notes"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        },
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignore 1/2 cover"
+          }
+        ]
+      }
+    ],
+    "html": "<p>+3 on damage rolls made with this weapon. Ignores half cover.</p>\n",
+    "id": "high-caliber-barrel-iii"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "damage_reroll"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "High-Velocity Barrel I",
+    "flavor": "Increase bullet velocity to ensure bullets pierce armor.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 2
+      }
+    ],
+    "html": "<p>When you roll a 1 on a damage die for an attack you make with this weapon, you can reroll the die and must use the new roll, even if the new roll is a 1.</p>\n",
+    "id": "high-velocity-barrel-i"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 50000,
+    "manufacturer": "",
+    "tags": [
+      "damage_reroll"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "High-Velocity Barrel II",
+    "flavor": "Increase bullet velocity to ensure bullets pierce armor.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with this weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
+    "id": "high-velocity-barrel-ii"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 3000,
+    "manufacturer": "armax-arsenal",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Hip Caddy - Grenades",
+    "flavor": "A simple device designed to hold combat grenades.",
+    "mechanics": [
+      {
+        "type": "grenade-capacity",
+        "value": 2
+      }
+    ],
+    "html": "<p>Increase your grenade capacity by 2</p>\n",
+    "id": "hip-caddy-grenades"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 1000,
+    "manufacturer": "armax-arsenal",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Hip Caddy - Thermal Clips",
+    "flavor": "A simple device designed to hold additional thermal clips.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 4
+      }
+    ],
+    "html": "<p>Increase your thermal clip capacity by 4.</p>\n",
+    "id": "hip-caddy-thermal-clips"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 3000,
+    "manufacturer": "any",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Hip Holster",
+    "flavor": "An additional hip holster designed to hold a small weapon.",
+    "mechanics": [
+      {
+        "type": "weapon-slots",
+        "value": 1
+      }
+    ],
+    "html": "<p>Gain 1 additional weapon slot. If using the Variant: Encumbrance rule, increase your Carry Weight by 5.</p>\n",
+    "id": "hip-holster"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 5000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "strike",
+    "availability": [
+      "melee"
+    ],
+    "name": "Honed Strike",
+    "flavor": "Improve the strike of your weapon to deal additional damage.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>+1 on damage rolls made with this weapon.</p>\n",
+    "id": "honed-strike"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "damage_augment",
+      "extra_damage",
+      "primes"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Incendiary Ammo",
+    "flavor": "Fire super-heated plasma.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "fire",
+        "primes": "fire",
+        "primeLength": "until the end of its next turn",
+        "addDamage": [
+          {
+            "dieCount": 1,
+            "dieType": 4,
+            "type": "fire",
+            "addTo": "all"
+          }
+        ],
+        "toggle": true,
+        "name": "Incendiary Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes fire. Successful ranged attacks deal an additional 1d4 fire damage and the target becomes primed (fire) until the end of its next turn.</p>\n",
+    "id": "incendiary-ammo"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 60000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "movement"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Jetpack",
+    "flavor": "This propulsion device generates mass effect fields for lift and gyroscopic attitude adjusters to maneuver the wearer for a short duration.",
+    "mechanics": [
+      {
+        "name": "Jetpack (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "jetpack"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Gain a flying speed of <me-distance length=\"15\" /> for 1 minute.",
+        "resource": {
+          "id": "jetpack-resource",
+          "reset": "short"
+        },
+        "toggle": {
+          "id": "jetpack-toggle",
+          "whenOn": [
+            {
+              "type": "resource",
+              "id": "jetpack-resource",
+              "method": "set",
+              "value": {
+                "type": "flat",
+                "value": 1
+              }
+            },
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 15
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 1 minute. This device\ncannot be used again until you finish a short rest.</p>\n",
+    "id": "jetpack"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 22500,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "movement"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Jump Jets",
+    "flavor": "Quickly compresses the atmosphere and ejects it from boosters built into the soles of the boots, allowing for longer jumps and brief hovering.",
+    "mechanics": [
+      {
+        "name": "Jump Jets (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "jump-jets"
+        },
+        "type": "other",
+        "shortDesc": "Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump until the start of your next turn, at which point, you fall slowly back to the ground, taking half of your movement speed for this turn."
+      }
+    ],
+    "html": "<p>Your jump distance is tripled. If you jump straight up, you can hover at the apex of your jump until the start of your next turn, at which point, you fall slowly back to the ground, taking half of your movement speed for this turn.</p>\n",
+    "id": "jump-jets"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": "sirta-foundation",
+    "tags": [
+      "special"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Life Support Webbing",
+    "flavor": "A net of micro-stimulants and medi-gel in order to increase the chances of survival for aid workers and military personnel working in hostile environments.",
+    "mechanics": [
+      {
+        "type": "gradient-condition-increase",
+        "condition": "exhaustion",
+        "value": 1
+      }
+    ],
+    "html": "<p>Increases your maximum exhaustion by 1 level. At the first level, you suffer no negative effects.</p>\n",
+    "id": "life-support-webbing"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 8000,
+    "manufacturer": "",
+    "tags": [
+      "increased_range"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "heavy_pistol",
+      "smg",
+      "shotgun"
+    ],
+    "name": "Long Barrel",
+    "flavor": "Long barrels allows normally short range weapons to operate at greater distances, but with trade-offs in handling.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "shortRangeMultiplier": 2,
+        "longRangeMultiplier": 2
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "hip-fire"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Hip Fire property. Double the weapon's normal and long range.</p>\n",
+    "id": "long-barrel"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 50000,
+    "manufacturer": "any",
+    "tags": [
+      "special"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Mag Latches",
+    "flavor": "Powerful magnets keep you grounded.",
+    "mechanics": [
+      {
+        "type": "condition-immunity",
+        "value": "lifted",
+        "note": "when you are on a metal surface"
+      },
+      {
+        "type": "saving-throw",
+        "against": [
+          "lifted"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "html": "<p>If you are standing on a metal surface, you are immune to being lifted. Otherwise, if you would make a saving throw against being lifted, you have advantage.</p>\n",
+    "id": "mag-latches"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 8000,
+    "manufacturer": "",
+    "tags": [
+      "additional_heat"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Magazine Upgrade",
+    "flavor": "Increases magazine capacity, allowing more shots before reload.",
+    "mechanics": [
+      {
+        "type": "weapon-heat-increase",
+        "multiplier": 0.5
+      }
+    ],
+    "html": "<p>The weapon gains additional heat equal to half its base heat (rounded down).</p>\n",
+    "id": "magazine-upgrade"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 60000,
+    "manufacturer": "alliance",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Medi-gel Regulator",
+    "flavor": "Circulates medi-gel through your body, increasing vitality.",
+    "mechanics": [
+      {
+        "type": "hp",
+        "bonus": {
+          "type": "level"
+        }
+      }
+    ],
+    "html": "<p>Gain 1 additional hit point for each level you have gained.</p>\n",
+    "id": "medi-gel-regulator"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 30000,
+    "manufacturer": "ariake-technologies",
+    "tags": [
+      "extra_damage",
+      "attack_bonus"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Microservos",
+    "flavor": "Microservos coordinate your melee strikes.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "type": "melee"
+        },
+        "augmentTypes": [
+          "damage",
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
+    "html": "<p>+2 bonus to melee attack and damage rolls</p>\n",
+    "id": "microservos"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 10000,
+    "manufacturer": "alliance",
+    "tags": [
+      "vision"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Night Sight",
+    "flavor": "A standard night-vision mod issued to infantry across the galaxy.",
+    "mechanics": [
+      {
+        "type": "sense",
+        "sense": "darkvision",
+        "distance": 90
+      }
+    ],
+    "html": "<p>You gain darkvision <me-distance length=\"90\" />.</p>\n",
+    "id": "night-sight"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 500,
+    "manufacturer": "elkoss-combine",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Offhand Ammo Pack",
+    "flavor": "A simple but popular modification favored among mercenary groups and military personnel on active assignment.",
+    "mechanics": [
+      {
+        "type": "thermal-clip-capacity",
+        "value": 2
+      }
+    ],
+    "html": "<p>Increase your thermal clip capacity by 2</p>\n",
+    "id": "offhand-ammo-pack"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 10000,
+    "manufacturer": "",
+    "tags": [
+      "melee_attacks"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "assault_rifle"
+    ],
+    "name": "Omni-Blade Attachment",
+    "flavor": "Attach an omni-blade (bayonet) to the weapon.",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Omni-blade Attachment",
+          "noMod": false,
+          "type": "natural-melee",
+          "damage": {
+            "dieCount": 1,
+            "dieType": 8,
+            "type": "piercing"
+          },
+          "range": {
+            "short": 5
+          },
+          "properties": [
+            "finesse"
+          ],
+          "moreInfo": {
+            "model": "mods",
+            "id": "omni-blade-attachment"
+          }
+        }
+      }
+    ],
+    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. It has the finesse property and successful melee attacks deal 1d8 piercing damage.</p>\n",
+    "id": "omni-blade-attachment"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 10000,
+    "manufacturer": "jormungand-technology",
+    "tags": [
+      "item_capacity"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Ordinance Packs",
+    "flavor": "Co-developed by the Rahael Group and Beckmann Financial to solve the issue of munitions storage for Heavy Weapon class engagement tools.",
+    "mechanics": [],
+    "html": "<p>Your heavy weapons have 2 additional charges.</p>\n",
+    "id": "ordinance-packs"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 25000,
+    "manufacturer": "jormungand-technology",
+    "tags": [
+      "special"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Personal Disruptor Torpedoes",
+    "flavor": "A \"micro gravitic\" personal weapon that effectively fires small disruptor torpedoes.",
+    "mechanics": [
+      {
+        "name": "Personal Disruptor Torpedoes",
+        "moreInfo": {
+          "model": "mods",
+          "id": "personal-disruptor-torpedoes"
+        },
+        "type": "action",
+        "range": {
+          "short": 90,
+          "aoe": {
+            "type": "sphere",
+            "size": 10
+          }
+        },
+        "dc": {
+          "save": "dex",
+          "base": 15,
+          "proficient": false
+        },
+        "damage": [
+          {
+            "dieCount": 3,
+            "dieType": 12,
+            "type": "force"
+          }
+        ],
+        "resource": {
+          "reset": "short",
+          "id": "personal-disruptor-torpedoes"
+        }
+      }
+    ],
+    "html": "<p>Choose a target location within <me-distance length=\"90\" />. Creatures within a\n<me-distance length=\"10\" /> of the target must make a DC 15 Dexterity saving throw. On a failed save, a creature\ntakes 3d12 force damage, or have as much damage on a successful one. You must finish a short rest,\nallowing the weapon to recharge before using it again.</p>\n",
+    "id": "personal-disruptor-torpedoes"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 15000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Phasic Ammo",
+    "flavor": "Fire projectiles that vibrate rapidly, allowing them to bypass kinetic barriers.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "hitBonus": -2,
+        "notes": [
+          {
+            "type": "text",
+            "text": "bypasses shields"
+          }
+        ],
+        "toggle": true,
+        "name": "Phasic Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: -2 on ranged weapon damage rolls, but all damage done bypasses shields.</p>\n",
+    "id": "phasic-ammo"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "ignore_resistance"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "sniper_rifle"
+    ],
+    "name": "Piercing Ammo",
+    "flavor": "Capacitor boosts kinetic coil generators, increasing shot penetration.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "ignores piercing resistance"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Damage done by this weapon cannot be reduced by piercing damage resistance.</p>\n",
+    "id": "piercing-ammo"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 69000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Plasma Charge System",
+    "flavor": "Augment the weapons firing system to plasma rounds.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "radiant",
+        "notes": [
+          {
+            "type": "tooltip",
+            "tooltipText": "Hit or miss, each creature within 2 meters of the target takes 2d10 radiant damage. Use a bonus action to charge the weapon before firing, consuming 2 heat. If charged, increase the hit or miss radiant damage to 4d10.",
+            "text": "Plasma Charge",
+            "html": true
+          }
+        ],
+        "addDamage": [
+          {
+            "dieCount": 2,
+            "dieType": 10,
+            "type": "radiant",
+            "addTo": "all"
+          }
+        ]
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire and Double Tap property. Its damage type becomes radiant.\nHit or miss, each creature within <me-distance length=\"5\" /> of the target takes 2d10 radiant damage.\nUse a bonus action to charge the weapon before firing, consuming 2 heat. If charged, increase the hit or miss radiant\ndamage to 4d10.</p>\n",
+    "id": "plasma-charge-system"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 15000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "strike",
+    "availability": [
+      "melee"
+    ],
+    "name": "Poisoned Alloys",
+    "flavor": "For millenia, beings have been dipping their blades in poison, allowing the simplest wound to cripple their enemy. With advancements in metalwork and weaponsmithing, now the blade can be infused with poison.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "DC 13 CON or poisoned"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Requires a melee weapon that deals slashing or piercing damage. When you hit with a melee attack with this weapon, the target must make a DC 13 Constiution saving throw or become poisoned for 1 hour.</p>\n",
+    "id": "poisoned-alloys"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 12000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "body",
+    "availability": [
+      "heavy_pistol",
+      "smg"
+    ],
+    "name": "Power Magnifier",
+    "flavor": "Generator designed to enhance the effectiveness of tech or biotic attacks.",
+    "mechanics": [],
+    "html": "<p>+1 on power damage rolls while holding this weapon.</p>\n",
+    "id": "power-magnifier"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 10000,
+    "manufacturer": "",
+    "tags": [
+      "increased_range",
+      "attack_bonus"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg"
+    ],
+    "name": "Precision Scope",
+    "flavor": "Simple 4x optical scope to enhance stability while zoomed.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "hitBonus": 1,
+        "shortRangeMultiplier": 2,
+        "longRangeMultiplier": 2
+      }
+    ],
+    "html": "<p>Double the weapon's normal and long range. +1 on ranged attack rolls made with this weapon.</p>\n",
+    "id": "precision-scope"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 42000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "strike",
+    "availability": [
+      "melee"
+    ],
+    "name": "Probability Modulator",
+    "flavor": "An advanced VI embedded in the strike of the weapon that reads kinetic vibrations and learns to increase the probability of vicious blows.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "models": [
+            "weapon"
+          ]
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "crit": 19
+      }
+    ],
+    "html": "<p>Attacks made with this weapon score a critical hit on a roll of 19 or 20.</p>\n",
+    "id": "probability-modulator"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 120000,
+    "manufacturer": "elanus-risk-control-services",
+    "tags": [
+      "movement"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "QR Jetpack",
+    "flavor": "A better model of the standard jetpack that has a larger battery reserve, allowing for more uses before recharging.",
+    "mechanics": [
+      {
+        "name": "QR Jetpack (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "qr-jetpack"
+        },
+        "type": "bonus-action",
+        "shortDesc": "Gain a flying speed of <me-distance length=\"15\" /> for 1 minute.",
+        "resource": {
+          "id": "qr-jetpack-resource",
+          "reset": "short",
+          "max": {
+            "type": "flat",
+            "value": 3
+          }
+        },
+        "toggle": {
+          "id": "qr-jetpack-toggle",
+          "whenOn": [
+            {
+              "type": "speed",
+              "speed": "fly",
+              "distance": 15
+            }
+          ]
+        }
+      }
+    ],
+    "html": "<p>As a bonus action, activate the jetpack to gain a flying speed of <me-distance length=\"15\" /> for 1 minute. You\nmay use this 3 times per short rest.</p>\n",
+    "id": "qr-jetpack"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 15000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "sniper_rifle"
+    ],
+    "name": "Quick Release Magazine",
+    "flavor": "State of the art thermal clip housing allows for faster ejection and insertion.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "BA: reload"
+          }
+        ]
+      }
+    ],
+    "html": "<p>You may reload this weapon as a bonus action.</p>\n",
+    "id": "quick-release-magazine"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 20000,
+    "manufacturer": "armax-arsenal",
+    "tags": [
+      "null_critical"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Reactive Kinetic Compensator",
+    "flavor": "A vi-response program that generates a burst of hard light between the layers of the user's armor to reduce trauma from otherwise-lethal hits.",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "defenses",
+        "value": "Null Critical",
+        "moreInfo": {
+          "model": "mod",
+          "id": "reactive-kinetic-compensator"
+        }
+      }
+    ],
+    "html": "<p>Any critical hit against you becomes a normal hit.</p>\n",
+    "id": "reactive-kinetic-compensator"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 18000,
+    "manufacturer": "",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Rebalanced Field Coils",
+    "flavor": "A specialized thermal clip that expunges kinetic energy into projectiles after a number of shots.",
+    "mechanics": [],
+    "html": "<p>+1 on damage rolls made with this weapon if its current heat is less than half its maximum heat</p>\n",
+    "id": "rebalanced-field-coils"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": "alliance",
+    "tags": [
+      "shield_jumpstart"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Recharge Capacitor",
+    "flavor": "Microwells store part of the energy directed at the armor and use it to jump start the kinetic barrier recharge cycle.",
+    "mechanics": [
+      {
+        "name": "Recharge Capacitor (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "recharge-capacitor"
+        },
+        "type": "reaction",
+        "resource": {
+          "reset": "short",
+          "id": "recharge-capacitor"
+        },
+        "shortDesc": "When you take damage, gain {{ shieldRegen }} shield points."
+      }
+    ],
+    "html": "<p>Once per short rest, as a reaction to taking damage, you may jump-start your shield regen and immediately gain shield points equal to your regen amount.</p>\n",
+    "id": "recharge-capacitor"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 35000,
+    "manufacturer": "sirta-foundation",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Revive AI",
+    "flavor": "This AI monitors your vitals and attempts to stabilize you if become incapacitated.",
+    "mechanics": [
+      {
+        "name": "Revive AI (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "revive-ai"
+        },
+        "type": "other",
+        "shortDesc": "If you fall below 0 hit points you immediately become stabilized.",
+        "resource": {
+          "reset": "long",
+          "id": "revive-ai"
+        }
+      }
+    ],
+    "html": "<p>Once per long rest, if you fall below 0 hit points you immediately become stabilized.</p>\n",
+    "id": "revive-ai"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 40000,
+    "manufacturer": "serrice-council",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Savant Biotic Amp",
+    "flavor": "One of the most powerful biotic amps on the market. Serrice Council amps are incredibly rare—and highly prized—items on the galactic market.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "models": [
+            "power"
+          ],
+          "modelTypes": [
+            "biotic"
+          ]
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a biotic power, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
+    "id": "savant-biotic-amp"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 75000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Seeking Plasma System",
+    "flavor": "Augment the weapons firing system to seeking plasma rounds.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "fire",
+        "notes": [
+          {
+            "type": "text",
+            "text": "Auto-hit"
+          }
+        ],
+        "heatConsumption": 2
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire"
+        ]
+      },
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "dieIncrease": -1
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire property. Its damage type becomes fire. Reduce any damage done by 1 die type (d4s become a d2). Each attack costs 2 heat. Weapon attacks made with this weapon cannot miss as long as you can see the target.</p>\n",
+    "id": "seeking-plasma-system"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 10000,
+    "manufacturer": "alliance",
+    "tags": [
+      "shields"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Sentry System",
+    "flavor": "A software application that optimizes an armor suit's microframe computer. When the Sentry system is running, more power can be devoted to shield management.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
+    "html": "<p>Increase your shield points by 5.</p>\n",
+    "id": "sentry-system"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 10000,
+    "manufacturer": "any",
+    "tags": [
+      "shields"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Shield Battery",
+    "flavor": "An increased shield battery for your kinetic barrier.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
+    "html": "<p>Increase your shield points by 5.</p>\n",
+    "id": "shield-battery"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 10000,
+    "manufacturer": "armax-arsenal",
+    "tags": [
+      "shields"
+    ],
+    "placement": "arms",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Shield Capacity",
+    "flavor": "Micro-harmonic oscillators to reduce stress on the kinetic barriers ensuring suit integrity when faced with incoming projectiles.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 5
+        }
+      }
+    ],
+    "html": "<p>Increase your shield points by 5.</p>\n",
+    "id": "shield-capacity"
+  },
+  {
+    "rarity": "spectre",
+    "type": "armor",
+    "cost": 50000,
+    "manufacturer": "alliance",
+    "tags": [
+      "shields"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Shield Interface",
+    "flavor": "Advanced VI systems monitor incoming enemy fire to redirect energy to vulnerable points, maximizing the effectiveness of a suit's kinetic barrier shields.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 15
+        }
+      }
+    ],
+    "html": "<p>Increase your shield points by 15.</p>\n",
+    "id": "shield-interface"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 25000,
+    "manufacturer": "armax-arsenal",
+    "tags": [
+      "shields"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Shield Modulator",
+    "flavor": "A series of ultra-efficient storage cells augment the existing power in the operation of the wearer's kinetic barrier.",
+    "mechanics": [
+      {
+        "type": "shields",
+        "capacity": {
+          "type": "flat",
+          "value": 10
+        }
+      }
+    ],
+    "html": "<p>Increase your shield points by 10.</p>\n",
+    "id": "shield-modulator"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": "devlon-industries",
+    "tags": [
+      "resistance"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Shock absorbers",
+    "flavor": "Made for explosive mining on asteroids, these shock absorbers distribute energy from powerful blasts, reducing damage to the wearer.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "thunder"
+      }
+    ],
+    "html": "<p>Resistance to thunder.</p>\n",
+    "id": "shock-absorbers"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 12500,
+    "manufacturer": "",
+    "tags": [
+      "increased_range",
+      "extra_damage"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "shotgun"
+    ],
+    "name": "Shotgun Choke",
+    "flavor": "This barrel extension tightens the spread of the shotgun's pellets increasing its effective firing distance and damage, but decreasing its close-quarters capabilities.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "hip-fire"
+        ]
+      },
+      {
+        "type": "weapon-augment",
+        "shortRangeMultiplier": 2,
+        "longRangeMultiplier": 2
+      }
+    ],
+    "html": "<p>The weapon loses the Hip Fire property. Double the weapon's normal and long range. +1 to weapon damage rolls made with this weapon.</p>\n",
+    "id": "shotgun-choke"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "damage_augment",
+      "ignore_resistance"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "shotgun"
+    ],
+    "name": "Shredder Ammo",
+    "flavor": "Shoot pellets covered in Tungsten for increased damage.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "slashing",
+        "notes": [
+          {
+            "type": "text",
+            "text": "Ignores slashing resistance"
+          }
+        ],
+        "toggle": true,
+        "name": "Shredder Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes slashing. Damage done by this weapon cannot be reduced by slashing damage resistance.</p>\n",
+    "id": "shredder-ammo"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 15000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Single Fire System",
+    "flavor": "Augment the weapons firing system to single fire.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      },
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "dieIncrease": 1
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire",
+          "double-tap"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire and Double Tap properties. +2 bonus to weapon attack rolls. Increase any damage done by 1 die type, d12s become a +1 bonus to damage.</p>\n",
+    "id": "single-fire-system"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 5000,
+    "manufacturer": "",
+    "tags": [
+      "attack_bonus"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Stability Damper I",
+    "flavor": "Distributes recoil with a sliding system of counterweights compatible with kinetic coil generators, reducing weapon kickback.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 1
+        }
+      }
+    ],
+    "html": "<p>+1 on ranged attack rolls made with this weapon.</p>\n",
+    "id": "stability-damper-i"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 12500,
+    "manufacturer": "",
+    "tags": [
+      "attack_bonus"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Stability Damper II",
+    "flavor": "Distributes recoil with a sliding system of counterweights compatible with kinetic coil generators, reducing weapon kickback.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 2
+        }
+      }
+    ],
+    "html": "<p>+2 on ranged attack rolls made with this weapon.</p>\n",
+    "id": "stability-damper-ii"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 25000,
+    "manufacturer": "",
+    "tags": [
+      "attack_bonus"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Stability Damper III",
+    "flavor": "Distributes recoil with a sliding system of counterweights compatible with kinetic coil generators, reducing weapon kickback.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "model": "weapon"
+        },
+        "augmentTypes": [
+          "hit"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 3
+        }
+      }
+    ],
+    "html": "<p>+3 on ranged attack rolls made with this weapon.</p>\n",
+    "id": "stability-damper-iii"
+  },
+  {
+    "rarity": "spectre",
+    "type": "weapon",
+    "cost": 65000,
+    "manufacturer": "",
+    "tags": [
+      "augmentation"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Sticky Grenade Launcher",
+    "flavor": "Augment the weapons firing system to a sticky grenade launcher.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "thunder",
+        "addDamage": [
+          {
+            "dieCount": 3,
+            "dieType": 6,
+            "type": "thunder",
+            "addTo": "all"
+          }
+        ],
+        "notes": [
+          {
+            "type": "tooltip",
+            "text": "Miss: explosion",
+            "tooltipText": "On a miss, the grenade lands 4 meters beyond the target. At the end of your turn, each creature within 2 meters of the grenade must succeed on a DC 10 Dexterity saving throw or take 3d6 thunder damage."
+          }
+        ]
+      },
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "burst-fire"
+        ]
+      }
+    ],
+    "html": "<p>The weapon loses the Burst Fire property. Its damage type becomes thunder. On a hit, the target takes an\nadditional 3d6 thunder damage and becomes prone. On a miss, the grenade lands <me-distance length=\"10\" /> beyond the\ntarget. At the end of your turn, each creature within <me-distance length=\"5\" /> of the grenade must succeed on a\nDC 10 Dexterity saving throw or take 3d6 thunder damage.</p>\n",
+    "id": "sticky-grenade-launcher"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 6000,
+    "manufacturer": "sirta-foundation",
+    "tags": [
+      "movement"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Stimulator Conduits",
+    "flavor": "Incorporates a series of beryllium and tungsten braces and micro-servos to support and enhance the natural movements of the wearer for short periods of time.",
+    "mechanics": [
+      {
+        "type": "speed-bonus",
+        "value": [
+          "walk"
+        ],
+        "bonus": {
+          "type": "flat",
+          "value": 15
+        }
+      }
+    ],
+    "html": "<p>Increase your walking speed by <me-distance length=\"15\" />.</p>\n",
+    "id": "stimulator-conduits"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 25000,
+    "manufacturer": "",
+    "tags": [
+      "melee_attacks"
+    ],
+    "placement": "barrel",
+    "availability": [
+      "heavy_pistol",
+      "smg"
+    ],
+    "name": "Stunner",
+    "flavor": "Small attachment to muzzle, causing shock damage to meleed targets.",
+    "mechanics": [
+      {
+        "type": "natural-weapon",
+        "replacesUnarmedStrike": false,
+        "value": {
+          "name": "Stunner",
+          "noMod": false,
+          "type": "natural-melee",
+          "damage": {
+            "dieCount": 1,
+            "dieType": 6,
+            "type": "lightning"
+          },
+          "range": {
+            "short": 5
+          },
+          "properties": [],
+          "notes": [
+            "Hit: auto-fails CON save to maintain powers"
+          ],
+          "moreInfo": {
+            "model": "mods",
+            "id": "stunner"
+          }
+        }
+      }
+    ],
+    "html": "<p>In addition to its other properties, this weapon is also considered a melee weapon. Successful melee attacks deal 1d6 lightning damage and if the target is maintaining a concentration power it automatically fails its saving throw to maintain the power.</p>\n",
+    "id": "stunner"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 8000,
+    "manufacturer": "alliance",
+    "tags": [
+      "special"
+    ],
+    "placement": "legs",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Tactical Holsters",
+    "flavor": "Magnetic clips that use VI sensors to lock and unlock holstered weapons into position, greatly increasing the time needed to exchange weapons in combat.",
+    "mechanics": [
+      {
+        "name": "Tactical Holsters (mod)",
+        "moreInfo": {
+          "model": "mods",
+          "id": "tactical-holsters"
+        },
+        "type": "other",
+        "shortDesc": "You can holster one weapon then draw another weapon as a free action."
+      }
+    ],
+    "html": "<p>You can holster one weapon then draw another weapon as a free action.</p>\n",
+    "id": "tactical-holsters"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": "devlon-industries",
+    "tags": [
+      "resistance"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Teflon Coating",
+    "flavor": "A spray of Teflon that reflects multiple types of radiation.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "radiant"
+      }
+    ],
+    "html": "<p>Resistance to radiant damage.</p>\n",
+    "id": "teflon-coating"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 35000,
+    "manufacturer": "devlon-industries",
+    "tags": [
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Thermal Armor",
+    "flavor": "Heat regulators keep your armor warm in the coldest environments.",
+    "mechanics": [
+      {
+        "type": "condition-immunity",
+        "value": "frozen"
+      }
+    ],
+    "html": "<p>You are immune to being frozen.</p>\n",
+    "id": "thermal-armor"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "sniper_rifle"
+    ],
+    "name": "Thermal Scope",
+    "flavor": "Detects creatures using thermal signatures.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "notes": [
+          {
+            "type": "text",
+            "text": "Infrared Vision"
+          }
+        ]
+      }
+    ],
+    "html": "<p>Looking through the scope gives the wielder Infrared Vision. When making a ranged weapon attack, you may choose whether or not to use Infrared Vision.</p>\n",
+    "id": "thermal-scope"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 37500,
+    "manufacturer": "batarian-state-arms",
+    "tags": [
+      "resistance",
+      "special"
+    ],
+    "placement": "chest",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Toxic Resistance",
+    "flavor": "Specially-sealed body armor and biotoxin blood filters provide increased protection against radiation, gases, and a host of other toxins.",
+    "mechanics": [
+      {
+        "type": "resistance",
+        "value": "acid"
+      },
+      {
+        "type": "poison",
+        "value": "acid"
+      },
+      {
+        "type": "saving-throw",
+        "against": [
+          "poisoned"
+        ],
+        "effect": {
+          "type": "advantage"
+        }
+      }
+    ],
+    "html": "<p>Resistance to acid and poison damage. You have advantage on Constitution saving throws that would cause you to be poisoned.</p>\n",
+    "id": "toxic-resistance"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "reduced_weight"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Ultralight Materials II",
+    "flavor": "Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "remove": [
+          "two-handed"
+        ],
+        "add": [
+          "light"
+        ]
+      }
+    ],
+    "html": "<p>Reduces the weapon's weight by one half. If the weapon has the Heavy property, remove it. If the weapon does not have the heavy property it gains the Light property. If the weapon has the two-handed property, remove it.</p>\n",
+    "id": "ultralight-materials-ii"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 8000,
+    "manufacturer": "",
+    "tags": [
+      "reduced_weight"
+    ],
+    "placement": "body",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Ultralight Materials",
+    "flavor": "Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "light"
+        ]
+      }
+    ],
+    "html": "<p>Reduces the weapon's weight by one half. If the weapon has the Heavy property, remove it. If the weapon does not have the heavy property it gains the Light property.</p>\n",
+    "id": "ultralight-materials"
+  },
+  {
+    "rarity": "rare",
+    "type": "armor",
+    "cost": 40000,
+    "manufacturer": "alliance",
+    "tags": [
+      "extra_damage"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Umbra AI",
+    "flavor": "By detecting the focal point of the wearer's eyes and enhancing the image at that location, the visor helps direct a biotic power or a shot from an omni-tool exactly where the wearer is looking.",
+    "mechanics": [
+      {
+        "type": "attack-augment",
+        "attackLimit": {
+          "models": [
+            "power"
+          ],
+          "modelTypes": [
+            "tech"
+          ]
+        },
+        "augmentTypes": [
+          "damage"
+        ],
+        "rerollIfLessThan": 3
+      }
+    ],
+    "html": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a tech power, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n",
+    "id": "umbra-ai"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "weapon",
+    "cost": 13000,
+    "manufacturer": "",
+    "tags": [
+      "special"
+    ],
+    "placement": "magazine",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Vintage Heat Sink",
+    "flavor": "Augment the weapons heat displacement with a vintage recharge module.",
+    "mechanics": [
+      {
+        "type": "adjust-weapon-props",
+        "add": [
+          "vented"
+        ]
+      }
+    ],
+    "html": "<p>This weapons gains the vented property.</p>\n",
+    "id": "vintage-heat-sink"
+  },
+  {
+    "rarity": "common",
+    "type": "armor",
+    "cost": 12000,
+    "manufacturer": "tyriel-advanced-communications-corporation",
+    "tags": [
+      "ability_skill_bonus"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Voice Modulator",
+    "flavor": "Includes an advanced audio processing package that allows unprecedented clarity and resonance for spoken communication.",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "persuasion",
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "flat",
+            "value": 2
+          }
+        }
+      },
+      {
+        "type": "skill-check",
+        "value": "intimidation",
+        "effect": {
+          "type": "bonus",
+          "bonus": {
+            "type": "flat",
+            "value": 2
+          }
+        }
+      }
+    ],
+    "html": "<p>+2 to Persuasion and Intimidation checks</p>\n",
+    "id": "voice-modulator"
+  },
+  {
+    "rarity": "rare",
+    "type": "weapon",
+    "cost": 20000,
+    "manufacturer": "",
+    "tags": [
+      "damage_augment",
+      "ignore_resistance",
+      "detonates"
+    ],
+    "placement": "ammo",
+    "availability": [
+      "assault_rifle",
+      "heavy_pistol",
+      "smg",
+      "shotgun",
+      "sniper_rifle"
+    ],
+    "name": "Warp Ammo",
+    "flavor": "Fire tiny dark matter charges.",
+    "mechanics": [
+      {
+        "type": "weapon-augment",
+        "damageType": "necrotic",
+        "detonates": true,
+        "notes": [
+          {
+            "type": "text",
+            "text": "Hit: -2 barrier ticks, cannot be reduced by barrier"
+          }
+        ],
+        "toggle": true,
+        "name": "Warp Ammo"
+      }
+    ],
+    "html": "<p>You may use a bonus action to toggle the following effect on or off: damage type becomes necrotic damage. Successful ranged attacks detonate primed targets and a target with an active barrier will have 2 barrier ticks removed and cannot benefit from the barriers damage reduction for this attack.</p>\n",
+    "id": "warp-ammo"
+  },
+  {
+    "rarity": "uncommon",
+    "type": "armor",
+    "cost": 15000,
+    "manufacturer": "sirta-foundation",
+    "tags": [
+      "ability_skill_bonus"
+    ],
+    "placement": "head",
+    "availability": [
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "name": "Zoom Enhance",
+    "flavor": "Fine-tuned lenses that fit over your armor's optics, enhancing your ability to see minute details.",
+    "mechanics": [
+      {
+        "type": "skill-check",
+        "value": "investigation",
+        "effect": {
+          "type": "advantage",
+          "note": "rely on sight while searching and area or studying an object"
+        }
+      }
+    ],
+    "html": "<p>You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying\nan object within a range of <me-distance length=\"5\" />.</p>\n",
+    "id": "zoom-enhance"
+  }
+]

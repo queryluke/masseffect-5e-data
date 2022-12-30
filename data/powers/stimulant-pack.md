@@ -7,6 +7,7 @@ classes:
   - infiltrator
   - soldier
   - vanguard
+  - explorer
 tags:
   - buff
 mechanics:

@@ -9,7 +9,7 @@ mechanics:
     range:
       aoe:
         size: 10
-        shape: sphere
+        type: sphere
     shortDesc: >-
       Each creature within a <me-distance length="10" adj /> radius, including the primed target,
       suffers {{ damage }} damage.

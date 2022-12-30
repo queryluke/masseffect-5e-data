@@ -5,6 +5,7 @@ level: 0
 type: combat
 classes:
   - soldier
+  - tracker
 tags:
   - buff
 mechanics:

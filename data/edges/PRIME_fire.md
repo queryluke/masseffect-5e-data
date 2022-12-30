@@ -5,7 +5,7 @@ mechanics:
   - range:
       aoe:
         size: 10
-        shape: sphere
+        type: sphere
     damage:
       dieCount: 1
       dieType: 6
