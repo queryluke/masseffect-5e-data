@@ -267,6 +267,13 @@
     "id": "outrider"
   },
   {
+    "klass": "soldier",
+    "name": "Painkiller",
+    "author": "Spagheddy",
+    "html": "<p>One gun in each hand. Surrounded. Under the pounding rain. Everything hurts and everything seems pointless. But at least, you know how to tilt the odds in your favour.</p>\n",
+    "id": "painkiller"
+  },
+  {
     "klass": "explorer",
     "author": "Spagheddy",
     "name": "Path of Cyber",
@@ -328,6 +335,13 @@
     "author": "Spagheddy",
     "html": "<p>Your implants come from a race beyond organic understanding. In exchange for your servitude, you were given\nawesome power. Now, you act as the harbinger for your benefactors.</p>\n",
     "id": "reaper"
+  },
+  {
+    "klass": "soldier",
+    "name": "Reaver/Enforcer",
+    "author": "Spagheddy",
+    "html": "<p>Focusing on using your Blade Armor, you developed a brutal and swift fighting style all about closing distances quickly and expanding your uses of Blade Armor.</p>\n",
+    "id": "reaver-enforcer"
   },
   {
     "klass": "infiltrator",

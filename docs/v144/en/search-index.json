@@ -3447,6 +3447,21 @@
     "html": "<p>At 14th level, you learn an additional tactic of your choice.</p>\n"
   },
   {
+    "id": "adrenaline-frenzy",
+    "title": "Adrenaline Frenzy",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Reaver/Enforcer",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, whenever you activate Adrenaline Rush, you gain an additional Bonus Action on your turn.\nYou can use this bonus action only to activate your Barbed Strikes feature. You must strike the\ntarget twice per turn as normal to use your Barbed Strikes feature.\nIn addition, upon activating Adrenaline Rush, you can immediately make the check\nto Lunge at another target before making any attack rolls.\n",
+    "html": "<p>At 18th level, whenever you activate Adrenaline Rush, you gain an additional Bonus Action on your turn.\nYou can use this bonus action only to activate your Barbed Strikes feature. You must strike the\ntarget twice per turn as normal to use your Barbed Strikes feature.</p>\n<p>In addition, upon activating Adrenaline Rush, you can immediately make the check\nto Lunge at another target before making any attack rolls.</p>\n"
+  },
+  {
     "id": "adrenaline-rush-1",
     "title": "Adrenaline Rush",
     "type": "character",
@@ -3815,6 +3830,21 @@
     "link": false,
     "body": "The prey could be hurt, it could be staggering, or it could be on its last legs, but you need to take it down now.\nThe teachings given to you have allowed you to temporarily overcharge your weapon to burst down the prey before\nit gets away or it calls for help.\nAt 17th level, you may use this feature to Attack two additional times on top of your regular Attack(s)\nthis turn. You may use this ability three times per long rest.\n",
     "html": "<p>The prey could be hurt, it could be staggering, or it could be on its last legs, but you need to take it down now.\nThe teachings given to you have allowed you to temporarily overcharge your weapon to burst down the prey before\nit gets away or it calls for help.</p>\n<p>At 17th level, you may use this feature to Attack two additional times on top of your regular Attack(s)\nthis turn. You may use this ability three times per long rest.</p>\n"
+  },
+  {
+    "id": "barbed-strikes",
+    "title": "Barbed Strikes",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Reaver/Enforcer",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, you can use Blade Armor a number of times equal to your proficiency modifier between short rests.\nAdditionally, when you hit two attacks against the same target during a round, you can chose to\nviolently rip the target using a bonus action. When you do so, you deal damage equal to\nBlade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).\n",
+    "html": "<p>At 10th level, you can use Blade Armor a number of times equal to your proficiency modifier between short rests.</p>\n<p>Additionally, when you hit two attacks against the same target during a round, you can chose to\nviolently rip the target using a bonus action. When you do so, you deal damage equal to\nBlade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).</p>\n"
   },
   {
     "id": "barrier-adept",
@@ -4905,6 +4935,21 @@
     "link": false,
     "body": "By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.\n",
     "html": "<p>By 2nd level, creatures can rarely get the upper-hand to escape your biotic powers. Whenever a creature makes a saving\nthrow against a biotic power you cast, it suffers a penalty to its saving throw equal to your proficiency bonus.</p>\n"
+  },
+  {
+    "id": "death-blossom",
+    "title": "Death Blossom",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Painkiller",
+      "18th level"
+    ],
+    "link": false,
+    "body": "At 18th level, when you use the Attack Action, you can also chose to spend your bonus action to make an extra\nattack per attack you would normally make. These extra attacks must come from your off hand weapon.\n",
+    "html": "<p>At 18th level, when you use the Attack Action, you can also chose to spend your bonus action to make an extra\nattack per attack you would normally make. These extra attacks must come from your off hand weapon.</p>\n"
   },
   {
     "id": "death-strike",
@@ -6122,6 +6167,21 @@
     "html": "<p>At 9th level, you can use your reaction when an enemy moves within your threatened area to try and throw them to the\nground. Make an attack roll against the target: on a hit, deal damage to it equal to half of your Sneak Attack dice,\nand the target must succeed a Dexterity saving throw equal to your Save DC or be knocked prone. You can also use\nthis reaction if a stunned or paralyzed enemy is adjacent to you at the end of your turn.</p>\n<p>Instead of knocking your target prone, you can instead chose to deafen them or blind them. In this case, the\nsave changes to a constitution saving throw, and they are blind or deaf for 1 minute if they fail.</p>\n"
   },
   {
+    "id": "grapple-spikes",
+    "title": "Grapple Spikes",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Reaver/Enforcer",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "Also 3rd level, you have learned to use your blade armor to enhance your zone of control. When an enemy\nprovokes an opportunity attack within your reach, you can choose to initiate a grapple with them if you hit with your opportunity attack.\n",
+    "html": "<p>Also 3rd level, you have learned to use your blade armor to enhance your zone of control. When an enemy\nprovokes an opportunity attack within your reach, you can choose to initiate a grapple with them if you hit with your opportunity attack.</p>\n"
+  },
+  {
     "id": "grasping-hand-of-the-universe",
     "title": "Grasping Hand of the Universe",
     "type": "character",
@@ -6165,6 +6225,51 @@
     "link": false,
     "body": "At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.\n",
     "html": "<p>At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.</p>\n"
+  },
+  {
+    "id": "gunslingers-ballad",
+    "title": "Gunslinger's Ballad",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Painkiller",
+      "10th level"
+    ],
+    "link": false,
+    "body": "At 10th level, small arms become instruments of a destructive symphony. When you sacrifice an attack to use\nTactical Reload, you reload both of the weapons you are wielding.\nWhen you use a Bonus Action to attack with an off hand weapon, you can make an additional attack with\nthat same off hand weapon. You may use this ability a number of times per short rest equal to your Proficiency Modifier.\n",
+    "html": "<p>At 10th level, small arms become instruments of a destructive symphony. When you sacrifice an attack to use\nTactical Reload, you reload both of the weapons you are wielding.</p>\n<p>When you use a Bonus Action to attack with an off hand weapon, you can make an additional attack with\nthat same off hand weapon. You may use this ability a number of times per short rest equal to your Proficiency Modifier.</p>\n"
+  },
+  {
+    "id": "hammer-the-gap",
+    "title": "Hammer the Gap",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Painkiller",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, you gain a better understanding of small arms. You gain the Ambidextrous Fighting Style. If you already\nhave that Fighting Style, you may select another fighting style of your choice.\nWhenver you make an attack with a small arm (Heavy Pistol or SMG) on your turn, you gain a\nstacking +1 bonus to all damage rolls for every shot after the first one\n(your first shot is performed at no bonus, the second has +1, the third +2, etc...). This damage lasts until the end of your current turn.\n",
+    "html": "<p>At 7th level, you gain a better understanding of small arms. You gain the Ambidextrous Fighting Style. If you already\nhave that Fighting Style, you may select another fighting style of your choice.</p>\n<p>Whenver you make an attack with a small arm (Heavy Pistol or SMG) on your turn, you gain a\nstacking +1 bonus to all damage rolls for every shot after the first one\n(your first shot is performed at no bonus, the second has +1, the third +2, etc...). This damage lasts until the end of your current turn.</p>\n"
+  },
+  {
+    "id": "hardboiled",
+    "title": "Hardboiled",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Painkiller",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, your constant brushes with death have honed your instincts. You gain Expertise in Insight and\nInvestigation, allowing you to add double your proficiency modifier to skill checks.\n",
+    "html": "<p>At 3rd level, your constant brushes with death have honed your instincts. You gain Expertise in Insight and\nInvestigation, allowing you to add double your proficiency modifier to skill checks.</p>\n"
   },
   {
     "id": "hardened-tech-armor",
@@ -6874,6 +6979,21 @@
     "link": false,
     "body": "Your nerves have become more steeled when holding your ground against a potential horde, allowing you to focus your\naim better against the victims of your wrath.\nAt 15th level, whenever you're using Hold Your Ground or attacking with an SMG, all of your attacks this round\nwill gain a +1 to hit and +1d4 to damage rolls.\n",
     "html": "<p>Your nerves have become more steeled when holding your ground against a potential horde, allowing you to focus your\naim better against the victims of your wrath.</p>\n<p>At 15th level, whenever you're using Hold Your Ground or attacking with an SMG, all of your attacks this round\nwill gain a +1 to hit and +1d4 to damage rolls.</p>\n"
+  },
+  {
+    "id": "lunge",
+    "title": "Lunge",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Reaver/Enforcer",
+      "7th level"
+    ],
+    "link": false,
+    "body": "At 7th level, when you start your turn without a creature within melee range and your Blade Armor is active, you can\ntry to lunge at a creature you can see. Make an Athletics check, opposed by your target's own Athletics check.\nIf you succeed, you can move up to double your movement speed towards your target. If you fail, you move\nonly half your speed towards your target. If you end this movement adjacent to your target, you\ngain advantage on your first melee attack against them this turn.\n",
+    "html": "<p>At 7th level, when you start your turn without a creature within melee range and your Blade Armor is active, you can\ntry to lunge at a creature you can see. Make an Athletics check, opposed by your target's own Athletics check.\nIf you succeed, you can move up to double your movement speed towards your target. If you fail, you move\nonly half your speed towards your target. If you end this movement adjacent to your target, you\ngain advantage on your first melee attack against them this turn.</p>\n"
   },
   {
     "id": "magnetic-shield",
@@ -8338,6 +8458,21 @@
     "html": "<p>At 18th level, you halve the amount of fuel needed to cast Havoc Strike as a bonus action. Your Havoc\nStrike now also detonates targets caught in the radius. You are immune to detonations caused by your Havoc Strike.</p>\n"
   },
   {
+    "id": "ripper",
+    "title": "Ripper",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Reaver/Enforcer",
+      "15th level"
+    ],
+    "link": false,
+    "body": "At 15th level, after using Barbed Strikes, you can make an Athletics check to grapple your target a\ns part of the same bonus action.\n",
+    "html": "<p>At 15th level, after using Barbed Strikes, you can make an Athletics check to grapple your target a\ns part of the same bonus action.</p>\n"
+  },
+  {
     "id": "router-tech",
     "title": "Router Tech",
     "type": "character",
@@ -8542,6 +8677,21 @@
     "link": false,
     "body": "Disrupting the frontlines is your best tactic.\nIf you or your beast hit a creature with an attack after moving at least , and the one\nhitting the target is within  of the target, that creature must then make a Wisdom saving\nthrow against your Powercasting saving throw or become frightened for 1 minute. The creature can retry the saving\nthrow at the end of each of his turns, ending the effect on a success.\n",
     "html": "<p>Disrupting the frontlines is your best tactic.</p>\n<p>If you or your beast hit a creature with an attack after moving at least <me-distance length=\"20\" />, and the one\nhitting the target is within <me-distance length=\"15\" /> of the target, that creature must then make a Wisdom saving\nthrow against your Powercasting saving throw or become frightened for 1 minute. The creature can retry the saving\nthrow at the end of each of his turns, ending the effect on a success.</p>\n"
+  },
+  {
+    "id": "shootdodge",
+    "title": "Shootdodge",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Painkiller",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "Also at 3rd level, you know that the key to winning a gunfight is staying mobile and having more shots down range\nthan the other guy. When you use your Bonus Action to make an attack with a second weapon you are holding,\nyou also perform the Disengage action and can move  in any direction.\n",
+    "html": "<p>Also at 3rd level, you know that the key to winning a gunfight is staying mobile and having more shots down range\nthan the other guy. When you use your Bonus Action to make an attack with a second weapon you are holding,\nyou also perform the Disengage action and can move <me-distance length=\"10\" /> in any direction.</p>\n"
   },
   {
     "id": "shot-in-the-heel",
@@ -10093,6 +10243,21 @@
     "html": "<p>At 7th level, you and your allies can use Inspiration to add to the damage of an attack roll.</p>\n"
   },
   {
+    "id": "war-machine",
+    "title": "War Machine",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Reaver/Enforcer",
+      "3rd level"
+    ],
+    "link": false,
+    "body": "At 3rd level, you learn the Blade Armor combat power. If you already had the Blade Armor combat power,\nchoose one of the advancements available to that power: you learn it instead.\nYou recharge Blade Armor on short rests.\n",
+    "html": "<p>At 3rd level, you learn the Blade Armor combat power. If you already had the Blade Armor combat power,\nchoose one of the advancements available to that power: you learn it instead.</p>\n<p>You recharge Blade Armor on short rests.</p>\n"
+  },
+  {
     "id": "warp-bubble",
     "title": "Warp Bubble",
     "type": "character",
@@ -10194,6 +10359,21 @@
     "link": false,
     "body": "At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a\ncreature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.\nYou are also aware of the location of any invisible creature within 12 meters of you, provided that the creature\nisn’t hidden from you and you aren’t blinded or deafened.\n",
     "html": "<p>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a\ncreature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.</p>\n<p>You are also aware of the location of any invisible creature within 12 meters of you, provided that the creature\nisn’t hidden from you and you aren’t blinded or deafened.</p>\n"
+  },
+  {
+    "id": "wont-quit",
+    "title": "Won't Quit",
+    "type": "character",
+    "qualifiers": [
+      "Character",
+      "Classes",
+      "Soldier",
+      "Painkiller",
+      "15th level"
+    ],
+    "link": false,
+    "body": "You just don’t know when to quit. At 15th level, if you have less than half of your hit points remaining and have at\nleast 1 hit point, at the beginning of your turn you regenerate 1d10+half of your Soldier level.\nYou also gain proficiency in Wisdom saving throws.\n",
+    "html": "<p>You just don’t know when to quit. At 15th level, if you have less than half of your hit points remaining and have at\nleast 1 hit point, at the beginning of your turn you regenerate 1d10+half of your Soldier level.\nYou also gain proficiency in Wisdom saving throws.</p>\n"
   },
   {
     "id": "worldbreaker",

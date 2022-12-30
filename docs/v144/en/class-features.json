@@ -147,6 +147,25 @@
     "id": "additional-tactic-2"
   },
   {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "reaver-enforcer",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Adrenaline Frenzy",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "adrenaline-frenzy"
+        }
+      }
+    ],
+    "name": "Adrenaline Frenzy",
+    "html": "<p>At 18th level, whenever you activate Adrenaline Rush, you gain an additional Bonus Action on your turn.\nYou can use this bonus action only to activate your Barbed Strikes feature. You must strike the\ntarget twice per turn as normal to use your Barbed Strikes feature.</p>\n<p>In addition, upon activating Adrenaline Rush, you can immediately make the check\nto Lunge at another target before making any attack rolls.</p>\n",
+    "id": "adrenaline-frenzy"
+  },
+  {
     "level": 2,
     "klass": "soldier",
     "mechanics": [
@@ -826,6 +845,43 @@
     ],
     "html": "<p>The prey could be hurt, it could be staggering, or it could be on its last legs, but you need to take it down now.\nThe teachings given to you have allowed you to temporarily overcharge your weapon to burst down the prey before\nit gets away or it calls for help.</p>\n<p>At 17th level, you may use this feature to Attack two additional times on top of your regular Attack(s)\nthis turn. You may use this ability three times per long rest.</p>\n",
     "id": "banish"
+  },
+  {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "reaver-enforcer",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "war-machine",
+          "limit": "powers"
+        },
+        "merge": {
+          "merge": {
+            "resource": {
+              "max": {
+                "type": "proficiency"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Barbed Strikes",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "barbed-strikes"
+        },
+        "type": "bonus-action",
+        "value": "Barbed Strikes",
+        "shortDesc": "When you hit two attacks against the same target during a round, you deal damage equal to Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage)."
+      }
+    ],
+    "name": "Barbed Strikes",
+    "html": "<p>At 10th level, you can use Blade Armor a number of times equal to your proficiency modifier between short rests.</p>\n<p>Additionally, when you hit two attacks against the same target during a round, you can chose to\nviolently rip the target using a bonus action. When you do so, you deal damage equal to\nBlade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage).</p>\n",
+    "id": "barbed-strikes"
   },
   {
     "level": 1,
@@ -2900,6 +2956,25 @@
     "id": "dark-biotics"
   },
   {
+    "level": 18,
+    "klass": "soldier",
+    "subclass": "painkiller",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Death Blossom",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "death-blossom"
+        }
+      }
+    ],
+    "name": "Death Blossom",
+    "html": "<p>At 18th level, when you use the Attack Action, you can also chose to spend your bonus action to make an extra\nattack per attack you would normally make. These extra attacks must come from your off hand weapon.</p>\n",
+    "id": "death-blossom"
+  },
+  {
     "level": 17,
     "klass": "infiltrator",
     "subclass": "shadow",
@@ -4929,6 +5004,25 @@
     "id": "grab-and-toss"
   },
   {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "reaver-enforcer",
+    "mechanics": [
+      {
+        "name": "Grapple Spikes",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "grapple-spikes"
+        },
+        "type": "reaction",
+        "shortDesc": "When an enemy provokes an opportunity attack within your reach, you can choose to initiate a grapple with them if you hit with your opportunity attack."
+      }
+    ],
+    "name": "Grapple Spikes",
+    "html": "<p>Also 3rd level, you have learned to use your blade armor to enhance your zone of control. When an enemy\nprovokes an opportunity attack within your reach, you can choose to initiate a grapple with them if you hit with your opportunity attack.</p>\n",
+    "id": "grapple-spikes"
+  },
+  {
     "level": 18,
     "klass": "vanguard",
     "subclass": "void-fist",
@@ -5014,6 +5108,90 @@
     "name": "Gun Frenzy",
     "html": "<p>At 10th level, your Brutal Critical features can be applied to any weapon that is currently firing Biotic Bullets.</p>\n",
     "id": "gun-frenzy"
+  },
+  {
+    "level": 10,
+    "klass": "soldier",
+    "subclass": "painkiller",
+    "mechanics": [
+      {
+        "name": "Gunslinger's Ballad",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "gunslingers-ballad"
+        },
+        "type": "other",
+        "shortDesc": "When you use a Bonus Action to attack with an off hand weapon, you can make an additional attack with that same off hand weapon.",
+        "resource": {
+          "max": {
+            "type": "proficiency"
+          },
+          "id": "gunslingers-ballad"
+        }
+      },
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "tactical-reload"
+        },
+        "merge": {
+          "moreInfo": {
+            "additional": [
+              {
+                "model": "class-features",
+                "id": "hammer-the-gap"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "name": "Gunslinger's Ballad",
+    "html": "<p>At 10th level, small arms become instruments of a destructive symphony. When you sacrifice an attack to use\nTactical Reload, you reload both of the weapons you are wielding.</p>\n<p>When you use a Bonus Action to attack with an off hand weapon, you can make an additional attack with\nthat same off hand weapon. You may use this ability a number of times per short rest equal to your Proficiency Modifier.</p>\n",
+    "id": "gunslingers-ballad"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "painkiller",
+    "mechanics": [
+      {
+        "type": "model-choice",
+        "options": true,
+        "model": "fighting-styles"
+      },
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Hammer the Gap",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "hammer-the-gap"
+        }
+      }
+    ],
+    "name": "Hammer the Gap",
+    "html": "<p>At 7th level, you gain a better understanding of small arms. You gain the Ambidextrous Fighting Style. If you already\nhave that Fighting Style, you may select another fighting style of your choice.</p>\n<p>Whenver you make an attack with a small arm (Heavy Pistol or SMG) on your turn, you gain a\nstacking +1 bonus to all damage rolls for every shot after the first one\n(your first shot is performed at no bonus, the second has +1, the third +2, etc...). This damage lasts until the end of your current turn.</p>\n",
+    "id": "hammer-the-gap"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "painkiller",
+    "mechanics": [
+      {
+        "type": "expertise",
+        "value": "investigation"
+      },
+      {
+        "type": "expertise",
+        "value": "insight"
+      }
+    ],
+    "name": "Hardboiled",
+    "html": "<p>At 3rd level, your constant brushes with death have honed your instincts. You gain Expertise in Insight and\nInvestigation, allowing you to add double your proficiency modifier to skill checks.</p>\n",
+    "id": "hardboiled"
   },
   {
     "level": 7,
@@ -6245,6 +6423,25 @@
     ],
     "html": "<p>Your nerves have become more steeled when holding your ground against a potential horde, allowing you to focus your\naim better against the victims of your wrath.</p>\n<p>At 15th level, whenever you're using Hold Your Ground or attacking with an SMG, all of your attacks this round\nwill gain a +1 to hit and +1d4 to damage rolls.</p>\n",
     "id": "lock-on"
+  },
+  {
+    "level": 7,
+    "klass": "soldier",
+    "subclass": "reaver-enforcer",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "value": "Lunge",
+        "subType": "action",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "lunge"
+        }
+      }
+    ],
+    "name": "Lunge",
+    "html": "<p>At 7th level, when you start your turn without a creature within melee range and your Blade Armor is active, you can\ntry to lunge at a creature you can see. Make an Athletics check, opposed by your target's own Athletics check.\nIf you succeed, you can move up to double your movement speed towards your target. If you fail, you move\nonly half your speed towards your target. If you end this movement adjacent to your target, you\ngain advantage on your first melee attack against them this turn.</p>\n",
+    "id": "lunge"
   },
   {
     "level": 6,
@@ -9847,6 +10044,32 @@
     "id": "riot-strike"
   },
   {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "reaver-enforcer",
+    "mechanics": [
+      {
+        "type": "augment",
+        "value": {
+          "model": "soldier",
+          "id": "barbed-strikes"
+        },
+        "merge": {
+          "shortDesc": "When you hit two attacks against the same target during a round, you deal damage equal to Blade Armor's dice roll to the target, without adding modifiers (such as your Strength or Brawler damage). you can make an Athletics check to grapple your target a s part of the same bonus action.",
+          "moreInfo": {
+            "additional": {
+              "model": "class-features",
+              "id": "ripper"
+            }
+          }
+        }
+      }
+    ],
+    "name": "Ripper",
+    "html": "<p>At 15th level, after using Barbed Strikes, you can make an Athletics check to grapple your target a\ns part of the same bonus action.</p>\n",
+    "id": "ripper"
+  },
+  {
     "level": 9,
     "klass": "explorer",
     "subclass": "path-of-cyber",
@@ -10179,6 +10402,25 @@
     "name": "Shock Cavalry",
     "html": "<p>Disrupting the frontlines is your best tactic.</p>\n<p>If you or your beast hit a creature with an attack after moving at least <me-distance length=\"20\" />, and the one\nhitting the target is within <me-distance length=\"15\" /> of the target, that creature must then make a Wisdom saving\nthrow against your Powercasting saving throw or become frightened for 1 minute. The creature can retry the saving\nthrow at the end of each of his turns, ending the effect on a success.</p>\n",
     "id": "shock-cavalry"
+  },
+  {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "painkiller",
+    "mechanics": [
+      {
+        "type": "global-note",
+        "subType": "action",
+        "value": "Shootdodge",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "shootdodge"
+        }
+      }
+    ],
+    "name": "Shootdodge",
+    "html": "<p>Also at 3rd level, you know that the key to winning a gunfight is staying mobile and having more shots down range\nthan the other guy. When you use your Bonus Action to make an attack with a second weapon you are holding,\nyou also perform the Disengage action and can move <me-distance length=\"10\" /> in any direction.</p>\n",
+    "id": "shootdodge"
   },
   {
     "level": 7,
@@ -14097,6 +14339,26 @@
     "id": "war-chanter"
   },
   {
+    "level": 3,
+    "klass": "soldier",
+    "subclass": "reaver-enforcer",
+    "mechanics": [
+      {
+        "type": "powers",
+        "value": "blade-armor",
+        "klass": "soldier",
+        "merge": {
+          "resource": {
+            "reset": "short"
+          }
+        }
+      }
+    ],
+    "name": "War Machine",
+    "html": "<p>At 3rd level, you learn the Blade Armor combat power. If you already had the Blade Armor combat power,\nchoose one of the advancements available to that power: you learn it instead.</p>\n<p>You recharge Blade Armor on short rests.</p>\n",
+    "id": "war-machine"
+  },
+  {
     "level": 14,
     "klass": "adept",
     "subclass": "justicar",
@@ -14246,6 +14508,41 @@
     "name": "Wild Senses",
     "html": "<p>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a\ncreature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.</p>\n<p>You are also aware of the location of any invisible creature within 12 meters of you, provided that the creature\nisn’t hidden from you and you aren’t blinded or deafened.</p>\n",
     "id": "wild-senses"
+  },
+  {
+    "level": 15,
+    "klass": "soldier",
+    "subclass": "painkiller",
+    "mechanics": [
+      {
+        "type": "saving-throw",
+        "value": "wis"
+      },
+      {
+        "name": "Won't Quit",
+        "moreInfo": {
+          "model": "class-features",
+          "id": "wont-quit"
+        },
+        "type": "other",
+        "shortDesc": "If you have less than half of your hit points remaining and have at least 1 hit point, at the beginning of your turn you regenerate {{ damage }}.",
+        "damage": [
+          {
+            "dieType": 10,
+            "dieCount": 1,
+            "type": "hp",
+            "bonus": {
+              "type": "level",
+              "value": "soldier",
+              "multiplier": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "name": "Won't Quit",
+    "html": "<p>You just don’t know when to quit. At 15th level, if you have less than half of your hit points remaining and have at\nleast 1 hit point, at the beginning of your turn you regenerate 1d10+half of your Soldier level.\nYou also gain proficiency in Wisdom saving throws.</p>\n",
+    "id": "wont-quit"
   },
   {
     "level": 18,
