@@ -20,7 +20,7 @@ mechanics:
         additional:
           - model: class-features
             id: track-and-kill
-name: Strike First
+name: Track and Kill
 ---
 At 14th level, when you use your Engineer's Efficiency against your Target, you can roll two more damage die than normal on the power roll.
 
