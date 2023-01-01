@@ -105,4 +105,6 @@ take 2d8 lightning damage and become Primed(Lightning) until the end of your nex
 once, minimum after <me-distance length="15" /> (Like Shockwave's Controlled Shockwave advancement).
 You cannot change the direction to hit creatures a second time.
 
-Regardless of your chosen focus, you have immunity to any detonation caused by primes inflicted from this ability
+Regardless of your chosen focus, you have immunity to any detonation caused by primes inflicted from this ability.
+
+This above benefit does not require the B.E.C Field Tech Power to be active to use.

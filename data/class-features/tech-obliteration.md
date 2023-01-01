@@ -64,3 +64,5 @@ ___Frostbite Strike___: You have resistance to cold damage
 ___Blazing Strike___: You have resistance to fire damage
 
 ___Storm Strike___: You have resistance to lightning damage
+
+This above benefit does not require the B.E.C Field Tech Power to be active to use
