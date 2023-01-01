@@ -71,15 +71,15 @@ Engi Knight Powers table). If you have B.E.C Field known in your list of powers,
 
 Additionally, you can now have two Tech Strike programs installed at once.
 
-After you have completed a long rest, you may choose an installed Tech Strike to focus your omni-tool's
-resource allocation to provide additional capabilities based on your chosen focus.
+After you have completed a long rest, you may choose an installed Tech Strike to focus your omni-tool's resource
+allocation to provide your B.E.C Field Tech Power additional effects based on your chosen focus.
 
 #### Tech Avenger Focus Upgrade
 __Frostbite Strike__: On top of the cold damage, the attacking creature will also be <me-condition id="primed" sub="cold" /> until the end of your next turn.
 
 __Blazing Strike__: The damage type changes to fire and the attacking creature will also be <me-condition id="primed" sub="fire" /> until the end of your next turn.
 
-__Storm Strike__: The damage type changes to lightning and will also be <me-condition id="primed" sub="lightning" /> until the end of your next turn.
+__Storm Strike__: The damage type changes to lightning and the attacking creature will also be <me-condition id="primed" sub="lightning" /> until the end of your next turn.
 
 Regardless of your chosen focus upgrade, you have immunity on any detonations on primes caused by your B.E.C Field.
 
