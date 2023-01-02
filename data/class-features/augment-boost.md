@@ -10,7 +10,7 @@ mechanics:
 At 9th level, you've been with your Main Augment enough that you feel even more comfortable while using it.
 Depending on your choice of Augment at 3rd level, you gain new features.
 
-__Boosted Weaponry__: If your weapon was melee, you can now either grant it the Reach property or change it's damage type to Lightning or Fire. If your weapon was ranged, you can give it the Arc property or change it's damage type to Force or Radiant. You can change your choice at the end of each short rest.
+__Boosted Weaponry__: If your weapon was melee, you can now either grant it the Reach property or change its damage type to Lightning or Fire. If your weapon was ranged, you can give it the Arc property or change its damage type to Force or Radiant. You can change your choice at the end of each short rest.
 
 __Boosted Processor__: Your processor now grants you expertise in one other skill of your choice, and you have advantage on Wisdom and Dexterity saving throws.
 

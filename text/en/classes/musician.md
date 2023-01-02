@@ -18,6 +18,6 @@ startingEquipment:
   - text: (a) M-3 Predator or (b) M-92 Mantis or (c) M-23 Katana or (d) M-6 Shuriken
   - text: Light Stock Armor
 ---
-While infiltrators may excel at taking down high priority sapient targets, Trackers are experts at finding all sorts of
-other prey. Be it footprints, remains of their food, scratches or markings on trees or whatever else, they are
-relentless when it comes to finding whatever beast, or man, it is they are pursuing.
+As old as stories themselves, Musicians are beings who dedicate their lives to inspiring others. Their outlooks vary:
+cult leaders, entertainers, even war criers. It matters not. All that matters is that they listen to the music
+of the spheres... and through them, others can hear whispers of it.

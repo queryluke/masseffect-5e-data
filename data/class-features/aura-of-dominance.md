@@ -29,9 +29,9 @@ mechanics:
           - model: class-features
             id: aura-of-dominance
 ---
-At 6th level, your indoctrination works it's way into the minds of people around you. It's a pervasive paranoia that
+At 6th level, your indoctrination works its way into the minds of people around you. It's a pervasive paranoia that
 slowly takes over other's cognitive behaviour. While within <me-distance length="25" /> of you, creatures reduce their movement
-speed by <me-distance length="10" />. Any creature that starts it's turn frightened in this
-space has it's speed reduced to 0 instead. This area increases to encapsulate <me-distance length="50" /> at 12th level.
+speed by <me-distance length="10" />. Any creature that starts its turn frightened in this
+space has its speed reduced to 0 instead. This area increases to encapsulate <me-distance length="50" /> at 12th level.
 
 You become Indoctrinated 2.
