@@ -1,5 +1,5 @@
 ---
-level: 10
+level: 18
 klass: vanguard
 subclass: cardinal
 mechanics:

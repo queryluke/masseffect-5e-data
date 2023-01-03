@@ -1,5 +1,5 @@
 ---
-level: 3
+level: 9
 klass: explorer
 subclass: path-of-war
 mechanics:
