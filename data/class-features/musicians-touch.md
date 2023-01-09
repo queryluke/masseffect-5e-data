@@ -3,7 +3,7 @@ level: 2
 klass: musician
 mechanics:
   - type: expertise
-    value: [performance]
+    value: performance
   - type: skill-check
     effect:
       type: null
