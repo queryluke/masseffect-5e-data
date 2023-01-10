@@ -5181,11 +5181,13 @@
     "subclass": "painkiller",
     "mechanics": [
       {
-        "type": "expertise",
+        "type": "skill",
+        "expertise": true,
         "value": "investigation"
       },
       {
-        "type": "expertise",
+        "type": "skill",
+        "expertise": true,
         "value": "insight"
       }
     ],
@@ -7028,7 +7030,8 @@
     "klass": "musician",
     "mechanics": [
       {
-        "type": "expertise",
+        "type": "skill",
+        "expertise": true,
         "value": "performance"
       },
       {

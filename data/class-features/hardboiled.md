@@ -3,9 +3,11 @@ level: 3
 klass: soldier
 subclass: painkiller
 mechanics:
-  - type: expertise
+  - type: skill
+    expertise: true
     value: investigation
-  - type: expertise
+  - type: skill
+    expertise: true
     value: insight
 name: Hardboiled
 ---
