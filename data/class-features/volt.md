@@ -48,6 +48,7 @@ Your gifts of focussing your energy have now allowed you to push it out as a bol
 
 At 6th level, as an Action, you may spend a Focus Point to cast a 1st level Overload at a target within <me-distance length="30" />.
 The damage type of this overload is force damage and the Primed condition becomes force instead of lightning.
+The DC for the Dexterity saving throw is 8 + your proficiency bonus + your Wisdom modifier.
 
 Additionally, your Cardinal Blades can now potentially charge Focus Points on a successful weapon attack. If you roll
 a 9-10 on the d10 damage die (Or a 6 on either d6 when using Versatile), you also gain one Focus Point.

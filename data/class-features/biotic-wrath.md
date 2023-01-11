@@ -41,9 +41,9 @@ At 10th level, this protection also applies to all allied creatures within <me-d
 
 __4__: _Your barrier's energy matches with your battle hardened rage and is ready to unleash upon all that rush to fight you face to face._
 
-While your barrier is active, you may spend 1 barrier tick to cast Nova as a Bonus Action, but locked to only 1 barrier
-tick when calculating damage. This version of Nova ignores the requirement to spend all barrier ticks and does not
-use any advancements, if known.
+While your barrier is active, you may spend 1 barrier tick to cast Nova as a Bonus Action (Even if you don't have this
+cantrip currently prepared), but locked to only 1 barrier tick when calculating damage. This version of Nova
+ignores the requirement to spend all barrier ticks and does not use any advancements, if known.
 
 __5__: _Your equipped weapon temporarily becomes one with your biotic energy coursing within you._
 
@@ -56,9 +56,10 @@ At 10th level, your enhanced weapon will also inflict an additional 1d8 force da
 
 __6__: _Your barrier warps and is always changing shape, making it able to lash out at foes far away._
 
-While your barrier is active, you may spend 1 Barrier Tick to cast Phase Disruptor at a range of <me-distance length="50" />
-as a Bonus Action and add your Powercasting modifier to the damage. This version of Phase Disruptor does not
-benefit from advancements, if known and is locked to one barrier tick when calculating amount of beams.
+While your barrier is active, you may spend 1 Barrier Tick to cast Phase Disruptor (Even if you don't have this
+cantrip currently prepared) at a range of <me-distance length="50" /> as a Bonus Action and add your Powercasting
+modifier to the damage. This version of Phase Disruptor does not benefit from advancements, if known and is locked
+to one barrier tick when calculating amount of beams.
 
 At 10th level, you may spend 2 barrier ticks to fire two beams with Phase Disruptor
 
