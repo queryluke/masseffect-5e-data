@@ -1,5 +1,5 @@
 ---
-level: 3
+level: 17
 klass: infiltrator
 subclass: pistolero
 mechanics:

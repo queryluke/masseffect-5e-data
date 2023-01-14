@@ -11,6 +11,8 @@ got assigned to you, or found in the wild and tamed yourself. Choose the type of
 All-Round, and Recon. If you choose All-Round, you may also select a type of movement speed from Swimming, Burrowing
 and Climbing. Your beast gains a swimming or climbing speed equal to its walking speed, or Burrowing equal to half.
 
+The stat blocks for the beast companions can be found in the [bestiary](/bestiary).
+
 The beast obeys your commands as best as it can. It moves on your turn. You can command it to move however you want
 (No action required). You can use a bonus action to command it to Hide, Dodge, Dash or Disengage.
 
