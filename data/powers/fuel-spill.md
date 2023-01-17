@@ -77,9 +77,8 @@ advancements:
     name: Dense Oil
     text: >-
       Creatures that fail the saving throw now become restrained by the fuel, as its density hinders movement.
-      Additionally, the fuel becomes difficult terrain. If a creature moves into the area for the first time,
-      they must make a Dexterity saving throw or become restrained. To escape, a creature must now use its
-      action to make a Strength check against your power saving DC.
+      If a creature moves into the area for the first time, they must make a Dexterity saving throw or become restrained.
+      To escape, a creature must now use its action to make a Strength check against your power saving DC.
     mechanics: []
 ---
 You use your omni-tool to launch a canister that creates a pool of slick, slippery and flammable fuel within range.
