@@ -3,5 +3,5 @@ mechanics:
   - type: hp
     bonus:
       type: level
-      multiplier: 1
+      multiplier: 2
 ---
