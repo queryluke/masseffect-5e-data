@@ -41,9 +41,8 @@ advancements:
   - id: brutal
     name: Brutal
     text: >-
-      You pull yourself to the target creature instead of pulling your target to you (Utilising
-      the same rules as if you were pulling, moving to the closest point from your original location), you may then
-      perform an Attack as a Bonus Action after using this power.
+      You may pull yourself to the target creature instead of pulling your target to you, if the creature
+      is Medium sized or smaller. You may then also perform an Attack as a Bonus Action after using this power on the same target.
     mechanics: []
   - id: neutralise
     name: Neutralise
@@ -63,9 +62,11 @@ advancements:
           mod: dex
 ---
 Using a special program installed on your omni-tool, a long grappling hook fires from it towards a creature within range.
-Make a ranged weapon attack roll on a creature within range, if you hit your target, you pull your target to a space
-within <me-distance length="5" /> of you on the square closest to their original location and deal your equipped
-melee weapon on your main hand or equipped omni-weapon's damage + 2d6 bonus damage.
+Make a ranged weapon attack roll on a creature within range. On a hit against a Medium sized creature or smaller, you
+pull your target to an empty space within <me-distance length="5" /> of you on the square closest to their original
+location. On a hit against a Large sized creature or larger, pull yourself to the target to an empty space within
+<me-distance length="5" /> of the target closest to your original location. After the movement has occurred,
+deal your equipped main hand melee weapon or equipped omni-weapon's damage + 2d6 bonus damage.
 
 You may use this omni-tool's grappling hook three times until the special power supply runs out and you must spend a
 long rest to recharge the equipment in order to use them again.
