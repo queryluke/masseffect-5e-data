@@ -11,17 +11,13 @@ mechanics:
       id: tech-strike
 name: Tech Strike
 ---
-Starting from 3rd level, once per turn during a Melee Weapon attack, spending a minimum of 1 Tech Point, you can use
-your omni-tool to enhance your wielded weapon's strike, limited to your Tech Point limit.
+Starting from 3rd level, once per turn during a Melee Weapon attack, spending a minimum of 1 Tech Point, you can use your omni-tool to enhance your wielded weapon's strike, limited to your Tech Point limit.
 
 You may only have one Tech Strike program installed to your omni-tool per short or long rest.
 
-Like Melee Weapon attacks, this bonus damage also bypasses shields, but the damage dice from Tech Strike does not
-double on a critical hit. If you are using the Primers and Detonators ruleset, you have immunity to all
-detonation effects of primes caused by your Tech Strike.
+Like Melee Weapon attacks, this bonus damage also bypasses shields, but the damage dice from Tech Strike does not double on a critical hit. Additionally, you are immune to all detonation effects of any primes that are caused by your Tech Strike.
 
-The Tech Strike can be upcasted, spending additional Tech Points to add 1d8 of the chosen strike's element to the
-attack's damage, per Tech Point spent. Upcasting does not increase the Blazing Strike's extra damage on the creature's next turn.
+The Tech Strike can be upcasted, spending additional Tech Points to add 1d8 of the chosen strike's element to the attack's damage, per Tech Point spent. The total amount of Tech Points spent for Tech Strike cannot pass beyond your Tech Point Limit. Upcasting does not increase the Blazing Strike's extra damage on the creature's next turn.
 
 ### Tech Strike Programs
 

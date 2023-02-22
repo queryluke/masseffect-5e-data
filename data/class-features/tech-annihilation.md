@@ -89,4 +89,4 @@ At 18th level, your Tech Strike and Tech Avenger damage dice increases from d8s 
 Strike's extra damage after the attack.
 
 Additionally, you recover 1 Tech Point whenever your Melee Weapon attack results on a critical hit on any
-creature or a killing blow on a creature that is medium sized or larger. This includes regular Melee Weapon attacks.
+creature or a killing blow on a creature that is medium sized or larger.
