@@ -76,7 +76,7 @@ Heavy Ship Armor IV|-|525,000|Heavy Ship Armor III|+4 AC
 Heavy Ship Armor V|-|650,000|Heavy Ship Armor IV|+5 AC
 Luxury Kitchen|Special|50,000|-|When you roll a d6 to determine how many crew become disgruntled, subtract 1 from the roll. <br>__Downtime Activity__ Training in brewer’s supplies, chemist’s supplies, or cook’s utensils
 Medbay|Special|300,000|-|When onboard the ship, players that expend a hit die on a short rest gain the maximum possible hit points.<br>__Downtime Activities__. Practice a Profession or Training in medical kit
-Multi-directional Thrusters I|Helm|200,000|-|+1 Speed and +1 bonus to Maneuver and Hard Maneuver Rolls
+Multi-directional Thrusters I|Helm|20,000|-|+1 Speed and +1 bonus to Maneuver and Hard Maneuver Rolls
 Multi-directional Thrusters II|Helm|40,000|Multi-directional Thrusters I|+2 Speed and +2 bonus to Maneuver and Hard Maneuver Rolls
 Multi-directional Thrusters III|Helm|80,000|Multi-directional Thrusters II|+3 Speed and +3 bonus to Maneuver and Hard Maneuver Rolls
 Multi-directional Thrusters IV|Helm|120,000|Multi-directional Thrusters III|+4 Speed and +4 bonus to Maneuver and Hard Maneuver Rolls
