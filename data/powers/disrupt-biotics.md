@@ -32,7 +32,7 @@ mechanics:
 advancements:
   - id: lockdown
     name: Lockdown
-    text: If you successfully disrupt the power, you overload the target's biotic implant and it cannot cast biotic powers until the end of your next turn.
+    text: If you successfully disrupt the power, you overload the target's biotic implant and it cannot cast biotic powers until the end of its turn.
     mechanics: []
   - id: psychic-strain
     name: Psychic Strain
