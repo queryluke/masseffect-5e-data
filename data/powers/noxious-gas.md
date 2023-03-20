@@ -8,6 +8,7 @@ classes:
   - tracker
   - sentinel
   - infiltrator
+  - engineer
   - explorer
 tags:
   - damage
@@ -113,4 +114,4 @@ Constitution saving throw, or take 2d6 acid damage. The cloud remains there for 
 disperses it. When the power ends (You can do this at any time, even when it's not your turn) the canister stops
 emitting gas and returns to you. You only have 1 canister, and can thus only have 1 gas cloud active at a time.
 
-Higher level casting: When cast at a higher level, the damage increases by 2d6, and the radius increases by <me-distance length="5" abbr /> for each level above 1st.
+__At Higher Levels__. When cast at a higher level, the damage increases by 2d6, and the radius increases by <me-distance length="5" abbr /> for each level above 1st.

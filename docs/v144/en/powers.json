@@ -4929,6 +4929,7 @@
       "tracker",
       "sentinel",
       "infiltrator",
+      "engineer",
       "explorer"
     ],
     "tags": [
@@ -5105,7 +5106,7 @@
         "mechanics": []
       }
     ],
-    "html": "<p>You fire a canister filled with toxic gas, creating a large cloud of greenish gas in an area within range. It spreads\naround corners and the area inside is heavily obscured. All creatures that start their turn inside the gas must make a\nConstitution saving throw, or take 2d6 acid damage. The cloud remains there for 1 minute, or until a strong wind\ndisperses it. When the power ends (You can do this at any time, even when it's not your turn) the canister stops\nemitting gas and returns to you. You only have 1 canister, and can thus only have 1 gas cloud active at a time.</p>\n<p>Higher level casting: When cast at a higher level, the damage increases by 2d6, and the radius increases by <me-distance length=\"5\" abbr /> for each level above 1st.</p>\n",
+    "html": "<p>You fire a canister filled with toxic gas, creating a large cloud of greenish gas in an area within range. It spreads\naround corners and the area inside is heavily obscured. All creatures that start their turn inside the gas must make a\nConstitution saving throw, or take 2d6 acid damage. The cloud remains there for 1 minute, or until a strong wind\ndisperses it. When the power ends (You can do this at any time, even when it's not your turn) the canister stops\nemitting gas and returns to you. You only have 1 canister, and can thus only have 1 gas cloud active at a time.</p>\n<p><strong>At Higher Levels</strong>. When cast at a higher level, the damage increases by 2d6, and the radius increases by <me-distance length=\"5\" abbr /> for each level above 1st.</p>\n",
     "id": "noxious-gas"
   },
   {
