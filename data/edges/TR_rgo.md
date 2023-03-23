@@ -1,5 +1,5 @@
 ---
-name: Warp Fangs
+name: Remote Gun Operating
 mechanics:
   - type: companion
 type: training-regimens

@@ -13,7 +13,7 @@ terrain or while traveling in that terrain. Choose Arctic, Badlands, Desert, Jun
 
 Choose one of the available landscapes, gaining any bonuses from the selected affinity.
 
-The affinity upgrades at level 7. At level 11, you may choose a second one, and at 14th level the second affinity upgrades.
+The affinity upgrades at level 6. At level 11, you may choose a second one, and at 14th level the second affinity upgrades.
 
 Where possible, these bonuses apply to your Beast as well.
 
