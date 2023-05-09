@@ -61,14 +61,21 @@ advancements:
           save: con
           mod: dex
 ---
-Using a special program installed on your omni-tool, a long grappling hook fires from it towards a creature within range.
-Make a ranged weapon attack roll on a creature within range. On a hit against a Medium sized creature or smaller, you
-pull your target to an empty space within <me-distance length="5" /> of you on the square closest to their original
-location. On a hit against a Large sized creature or larger, pull yourself to the target to an empty space within
-<me-distance length="5" /> of the target closest to your original location. After the movement has occurred,
-deal your equipped main hand melee weapon or equipped omni-weapon's damage + 2d6 bonus damage.
 
-You may use this omni-tool's grappling hook three times until the special power supply runs out and you must spend a
-long rest to recharge the equipment in order to use them again.
+Using a special program installed on your omni-tool, a long grappling hook fires from it towards a creature.
+Make a ranged weapon attack roll on a creature within range. On a hit against a Medium sized creature or smaller,
+you pull your target to an empty space within <me-distance length="5" /> of you on the square closest to their
+original location. On a hit against a Large sized creature or larger, pull yourself to the target to an empty space
+within <me-distance length="5" /> of the target closest to your original location. After the movement has
+occurred, deal your equipped main hand melee weapon or equipped omni-weapon's damage + 2d6 bonus damage.
+
+Justice also provides the following uses:
+- Traverse to a higher elevated and empty <me-distance length="5" /> space within range that you can see and is not
+currently obstructed (e.g. behind a glass pane)
+- Attach the omni-tool hook to a Small sized or smaller object that's not currently being carried by any creature
+and pull it to an empty space within <me-distance length="5" /> of you.
+
+You may use this omni-tool's grappling hook three times until the independent power supply runs out and you must
+spend a long rest to recharge the equipment in order to use them again.
 
 This bonus damages increases at 5th level (4d6), 11th level (6d6) and 17th level (8d6).

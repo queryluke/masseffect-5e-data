@@ -1634,7 +1634,7 @@
           "reset": "long",
           "id": "double-time-exe"
         },
-        "shortDesc": "walking speed increases by <me-distance length=\"12\" />, and any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes.",
+        "shortDesc": "walking speed increases by <me-distance length=\"30\" />, and any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes.",
         "toggle": {
           "id": "double-time-exe",
           "whenOn": [
@@ -1652,7 +1652,7 @@
         }
       }
     ],
-    "html": "<p>While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. Your walking speed increases by <me-distance length=\"12\" />,\nand any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.</p>\n<p>(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)</p>\n",
+    "html": "<p>While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to\nyour armor's mobility servos, dramatically increasing your speed. Your walking speed increases by <me-distance length=\"30\" />,\nand any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per\nlong rest.</p>\n<p>(this re-route wasn't intended by any armor manufacturer, the recovery time allows the omni-tool to scan and repair\nthe abuse electronics within the armor.)</p>\n",
     "id": "double-time-exe"
   },
   {
@@ -1790,7 +1790,7 @@
     "name": "Flash_Hypno.exe",
     "installation": true,
     "equippable": true,
-    "html": "<p>This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to attempt to charm a sentient creature (Intelligence score of 4 or more) with which you have eye contact\nwithin <me-distance length=\"12\" />. It must make a DC 13 Charisma saving\nthrow, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is\ncharmed by you for 1 hour or until your companions do anything harmful to it. The charmed creature\nregards you as a friendly acquaintance. When the effect ends, the creature knows it was charmed by you.</p>\n<p>Your omni-tool regains all expended charges after a long rest, provided that the program is Active.</p>\n",
+    "html": "<p>This program activates strobes in the user's visor/eyewear with 3 powerful charges. You can expend 1 charge as an\naction to attempt to charm a sentient creature (Intelligence score of 4 or more) with which you have eye contact\nwithin <me-distance length=\"30\" />. It must make a DC 13 Charisma saving\nthrow, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is\ncharmed by you for 1 hour or until your companions do anything harmful to it. The charmed creature\nregards you as a friendly acquaintance. When the effect ends, the creature knows it was charmed by you.</p>\n<p>Your omni-tool regains all expended charges after a long rest, provided that the program is Active.</p>\n",
     "id": "flash-hypno-exe"
   },
   {

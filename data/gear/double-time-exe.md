@@ -12,7 +12,7 @@ mechanics:
     resource:
       reset: long
     shortDesc: >-
-      walking speed increases by <me-distance length="12" />, and any attack of opportunity made against you is made
+      walking speed increases by <me-distance length="30" />, and any attack of opportunity made against you is made
       at disadvantage. This effect lasts 10 minutes.
     toggle:
       id: double-time-exe
@@ -24,7 +24,7 @@ mechanics:
             value: 30
 ---
 While this program is Active, you can use a bonus action to re-route a third of your omni-tool's processing power to
-your armor's mobility servos, dramatically increasing your speed. Your walking speed increases by <me-distance length="12" />,
+your armor's mobility servos, dramatically increasing your speed. Your walking speed increases by <me-distance length="30" />,
 and any attack of opportunity made against you is made at disadvantage. This effect lasts 10 minutes, and can only be activated once per
 long rest.
 
