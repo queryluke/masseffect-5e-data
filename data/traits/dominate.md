@@ -7,6 +7,7 @@ mechanics:
       model: species
       id: ardat-yakshi
     castAt: 3
+    alwaysCastable: true
     resource: {} # i.e., the defaults
     mod: wis
 ---
