@@ -21,7 +21,7 @@ mechanics:
 ---
 Beggining at 1st level, you gain a small power list. Your powers use your Constitution modifier as your
 powercasting modifier, and you regain all power slots used on a long rest. You can choose from the
-cantrips available to the Adept, and from the spells available to the Vanguard
+cantrips available to the Adept, and from the powers available to the Vanguard
 
 #### Biotic Experiment Powercasting
 

@@ -27,7 +27,7 @@ mechanics:
     shortDesc: >-
       For 1 minute, your speed increases by <me-distance length="5" />, you gain +1 to power attack rolls,
       and whenever you deal damage with a power, increase the die type by 1 (gain +1 if the die is a d12).
-prerequisite: Geth and the ability to cast one tech or biotic spell
+prerequisite: Geth and the ability to cast one tech or biotic power
 prereq:
   - type: species
     limit: [geth]

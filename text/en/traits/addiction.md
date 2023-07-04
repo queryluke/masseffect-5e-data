@@ -22,7 +22,7 @@ Level|Effect
 :::alert
 #### Ardat-Yakshi mating
 
-Whether or not your Ardat-Yakshi can successfully mate is at your DMs discretion. A basic rule is that you must
+Whether or not your Ardat-Yakshi can successfully mate is at your GMs discretion. A basic rule is that you must
 have a viable mate (an organic creature with an Intelligence score of 3 or higher) and you must pass a
 Charisma (Persuasion) or Charisma (Performance) check contested by the creature’s Wisdom (Insight).
 

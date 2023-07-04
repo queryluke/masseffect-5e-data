@@ -20,7 +20,7 @@ name: Pick your Poison
 ---
 When you first pick this subclass at 2nd level, choose one of the following powers: Noxious Gas or Fuel Spill.
 
-You are always considered to have this spell prepared, and it doesn't count towards your total spells known.
+You are always considered to have this power prepared, and it doesn't count towards your total powers known.
 You also gain proficiency with the chemist's kit.
 
 Additionally, when you use Fuel Spill or Noxious Gas, you are now able to have a

@@ -27,7 +27,7 @@ At the beginning of every combat, you roll initiative by making a Dexterity chec
 creatures' turns in combat.
 
 ### Hiding
-The DM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check.
+The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check.
 Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any
 creature that actively searches for signs of your presence.
 

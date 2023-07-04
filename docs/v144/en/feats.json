@@ -268,7 +268,7 @@
         ]
       }
     ],
-    "html": "<p>Your innate biotics have been honed to be even more potent.</p>\n<ul>\n<li>Choose one advancement for both of the cantrips gained from your Innate Biotics. These\nadvancements do not count against your number of cantrips known.</li>\n<li>Once per long rest, you may cast the 1st level power gained from your Innate Biotics trait at\n2nd level without expending a spell slot.</li>\n</ul>\n",
+    "html": "<p>Your innate biotics have been honed to be even more potent.</p>\n<ul>\n<li>Choose one advancement for both of the cantrips gained from your Innate Biotics. These\nadvancements do not count against your number of cantrips known.</li>\n<li>Once per long rest, you may cast the 1st level power gained from your Innate Biotics trait at\n2nd level without expending a power slot.</li>\n</ul>\n",
     "id": "biotic-prodigy"
   },
   {
@@ -729,7 +729,7 @@
         "shortDesc": "For 1 minute, your speed increases by <me-distance length=\"5\" />, you gain +1 to power attack rolls, and whenever you deal damage with a power, increase the die type by 1 (gain +1 if the die is a d12)."
       }
     ],
-    "prerequisite": "Geth and the ability to cast one tech or biotic spell",
+    "prerequisite": "Geth and the ability to cast one tech or biotic power",
     "prereq": [
       {
         "type": "species",

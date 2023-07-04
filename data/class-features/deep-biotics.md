@@ -25,4 +25,4 @@ name: Deep Biotics
 ---
 At 3rd level, your brain is beginning to attune more finely to the Element Zero in your system. You gain another cantrip
 slot that must be occupied by a Biotic Cantrip. When you use a Biotic Cantrip, you bump up the die by one.
-A d12 instead gives the spell a +2 damage modifier per d12 rolled.
+A d12 instead gives the power a +2 damage modifier per d12 rolled.

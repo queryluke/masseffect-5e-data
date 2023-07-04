@@ -16,5 +16,5 @@ transfer that power onto a melee weapon you are wielding. As part of that same a
 an adjacent opponent. If you miss, the power does nothing and you lose the power slot if you used one. If you hit, the
 target takes damage both from the weapon attack and the power discharged.
 
-Even if the power affects multiple opponents or an area, when used like this, the spell only affects the target of the
+Even if the power affects multiple opponents or an area, when used like this, the power only affects the target of the
 melee attack.

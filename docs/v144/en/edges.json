@@ -1691,7 +1691,7 @@
       }
     ],
     "type": "bastion-tactics",
-    "html": "<p>Focus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points.</p>\n",
+    "html": "<p>Focus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the GM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points.</p>\n",
     "id": "BT_analysis"
   },
   {
@@ -2406,7 +2406,7 @@
       }
     ],
     "type": "primal-augments",
-    "html": "<p>You become resistant to Necrotic, Radiant and Force damage. When you are hit by a biotic spell,\nroll a 1d20. On a roll of 16 or higher, you regain one spell slot.</p>\n",
+    "html": "<p>You become resistant to Necrotic, Radiant and Force damage. When you are hit by a biotic power,\nroll a 1d20. On a roll of 16 or higher, you regain one power slot.</p>\n",
     "id": "PA_plating"
   },
   {
@@ -4129,7 +4129,7 @@
       }
     ],
     "type": "training-regimens",
-    "html": "<p><strong>Prerequisite: Organic Beasts only</strong></p>\n<p>Your creature was exposed to element zero during its conception, and has developed biotic nodes inside it,\nallowing it to use biotics to a limited degree.</p>\n<p>Choose 2 biotic cantrips and 2 biotic powers. Your beast gains the abilty to cast the cantrips at will. To cast the\nleveled powers, it must use a power slot it has a available. When taking this Regimen, it gains 2 1st-level power slots.\nIt must complete a long rest before it can cast the leveled powers again.</p>\n<p>The Beast's Wisdom is used as the spellcasting modifier for attack rolls and saving throws.</p>\n<p>Instead of a second power, you may choose an advancement for the one spell instead.</p>\n",
+    "html": "<p><strong>Prerequisite: Organic Beasts only</strong></p>\n<p>Your creature was exposed to element zero during its conception, and has developed biotic nodes inside it,\nallowing it to use biotics to a limited degree.</p>\n<p>Choose 2 biotic cantrips and 2 biotic powers. Your beast gains the abilty to cast the cantrips at will. To cast the\nleveled powers, it must use a power slot it has a available. When taking this Regimen, it gains 2 1st-level power slots.\nIt must complete a long rest before it can cast the leveled powers again.</p>\n<p>The Beast's Wisdom is used as the powercasting modifier for attack rolls and saving throws.</p>\n<p>Instead of a second power, you may choose an advancement for the one power instead.</p>\n",
     "id": "TR_eezo-charged"
   },
   {
@@ -4250,7 +4250,7 @@
       }
     ],
     "type": "training-regimens",
-    "html": "<p><strong>Prerequisite: 7th-level, Eezo Charged OR Technologically Gifted</strong></p>\n<p>Your beast becomes more capable at their powers. Your beast's slots improve to 2nd level. Additionally, it gains 2 new powers known from the spell list from its original Regimen (Adept for Eezo Charged or Engineer for Technologically Gifted). These powers can be either 1st- or 2nd-level powers.</p>\n",
+    "html": "<p><strong>Prerequisite: 7th-level, Eezo Charged OR Technologically Gifted</strong></p>\n<p>Your beast becomes more capable at their powers. Your beast's slots improve to 2nd level. Additionally, it gains 2 new powers known from the power list from its original Regimen (Adept for Eezo Charged or Engineer for Technologically Gifted). These powers can be either 1st- or 2nd-level powers.</p>\n",
     "id": "TR_improved-powercasting"
   },
   {
@@ -4327,7 +4327,7 @@
       }
     ],
     "type": "training-regimens",
-    "html": "<p><strong>Prerequisite: 7th-level, Gun Mount</strong></p>\n<p>You have connected to the VI controlling the weapon on your beast. If you have not moved yet this turn, you can give up your movement to take manual control of the gun on your mount's back. You gain the ability to see through a camera on the gun, and can control and fire it using your omni-tool. While you look through your beast's weapon, you can use your Attack action to fire the weapon. Instead of the base modifier, you use your spell attack modifier to make weapon attacks instead.</p>\n<p>While doing so, your visual focus is completely on looking through the camera, and thus you are blinded as long as you keep looking through the camera.</p>\n",
+    "html": "<p><strong>Prerequisite: 7th-level, Gun Mount</strong></p>\n<p>You have connected to the VI controlling the weapon on your beast. If you have not moved yet this turn, you can give up your movement to take manual control of the gun on your mount's back. You gain the ability to see through a camera on the gun, and can control and fire it using your omni-tool. While you look through your beast's weapon, you can use your Attack action to fire the weapon. Instead of the base modifier, you use your power attack modifier to make weapon attacks instead.</p>\n<p>While doing so, your visual focus is completely on looking through the camera, and thus you are blinded as long as you keep looking through the camera.</p>\n",
     "id": "TR_rgo"
   },
   {

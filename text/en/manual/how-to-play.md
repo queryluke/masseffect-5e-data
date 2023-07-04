@@ -10,7 +10,7 @@ present themselves (how many airlocks lead out of a space station, what’s on a
 ### 2. The players describe what they want to do.
 Sometimes one player speaks for the whole party, saying, “We’ll take the east door,” for example. Other times, different
 operatives do different things: one operative might search a lock box while a second examines an esoteric symbol
-spray-painted on a wall and a third keeps a lookout for thugs. The players don’t need to take turns, but the DM listens
+spray-painted on a wall and a third keeps a lookout for thugs. The players don’t need to take turns, but the GM listens
 to every player and decides how to resolve those actions.
 
 Sometimes, resolving a task is easy. If an operative wants to walk across a room and open a door, the GM might just say
@@ -18,7 +18,7 @@ that the door opens and describe what lies beyond. But the door might be locked,
 other circumstance might make it challenging for an operative to complete a task. In those cases, the GM decides what
 happens, often relying on the roll of a die to determine the results of an action.
 
-### 3. The DM narrates the results of the operatives’ actions.
+### 3. The GM narrates the results of the operatives’ actions.
 
 Describing the results often leads to another decision point, which brings the flow of the game right back to step 1.
 

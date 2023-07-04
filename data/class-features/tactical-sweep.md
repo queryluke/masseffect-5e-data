@@ -18,4 +18,4 @@ At 3rd level, you learn the Tactical Scan combat power. If you already know the 
 instead learn one advancement for it. Instead of only one target, you can target up to your Intelligence modifier
 enemies when you use Tactical Scan, and you can make your Insight check using your Intelligence modifier for this power
 only. You only receive your bonuses from Tactical Scan against one enemy at a time, but you can switch
-who that enemy is as a bonus action, without the need to recast the spell.
+who that enemy is as a bonus action, without the need to recast the power.

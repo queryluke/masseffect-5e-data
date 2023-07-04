@@ -710,7 +710,7 @@
       }
     ],
     "name": "Atomic Powers",
-    "html": "<p>At 2nd level, when you learn a power, you can chose to learn an Atomic version of that power. Instead of dealing it's\nnormal damage, it now deals Radiant damage. You also add your proficiency modifier to spells that deal Radiant Damage.</p>\n",
+    "html": "<p>At 2nd level, when you learn a power, you can chose to learn an Atomic version of that power. Instead of dealing it's\nnormal damage, it now deals Radiant damage. You also add your proficiency modifier to powers that deal Radiant Damage.</p>\n",
     "id": "atomic-powers"
   },
   {
@@ -816,7 +816,7 @@
       }
     ],
     "name": "Ballista",
-    "html": "<p>At 18th level, your Bowshot now adds your proficiency modifier to their damage, in the form of the\nelemental effect of your Engineer's Efficiency spell.</p>\n",
+    "html": "<p>At 18th level, your Bowshot now adds your proficiency modifier to their damage, in the form of the\nelemental effect of your Engineer's Efficiency power.</p>\n",
     "id": "ballista"
   },
   {
@@ -2162,7 +2162,7 @@
       }
     ],
     "name": "Boost Weapon",
-    "html": "<p>By channeling either power from your Omni-tool or from your biotic reserves, you can boost the damage of your Personal\nArmament. When you make an attack, you may spend a spell slot. If you do, your shot deals an extra 1d8, plus 1d8\ndamage per spell level spent. If you spent a Biotic Spell, you deal Necrotic Damage. If you spent a Tech Power,\nyou deal Lightning Damage. This damage can detonate primed targets.</p>\n",
+    "html": "<p>By channeling either power from your Omni-tool or from your biotic reserves, you can boost the damage of your Personal\nArmament. When you make an attack, you may spend a power slot. If you do, your shot deals an extra 1d8, plus 1d8\ndamage per power level spent. If you spent a Biotic power, you deal Necrotic Damage. If you spent a Tech Power,\nyou deal Lightning Damage. This damage can detonate primed targets.</p>\n",
     "id": "boost-weapon"
   },
   {
@@ -2576,7 +2576,7 @@
       }
     ],
     "name": "Chain Reaction",
-    "html": "<p>At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within <me-distance length=\"25\" /> equal to the level of the power cast. Cantrips are treated as 1st level\nspells for this effect only.</p>\n",
+    "html": "<p>At 10th level, when a power you cast deals Radiant damage, it also deals half of it's damage to a number of\ncreatures within <me-distance length=\"25\" /> equal to the level of the power cast. Cantrips are treated as 1st level\npowers for this effect only.</p>\n",
     "id": "chain-reaction"
   },
   {
@@ -3057,7 +3057,7 @@
       }
     ],
     "name": "Deep Biotics",
-    "html": "<p>At 3rd level, your brain is beginning to attune more finely to the Element Zero in your system. You gain another cantrip\nslot that must be occupied by a Biotic Cantrip. When you use a Biotic Cantrip, you bump up the die by one.\nA d12 instead gives the spell a +2 damage modifier per d12 rolled.</p>\n",
+    "html": "<p>At 3rd level, your brain is beginning to attune more finely to the Element Zero in your system. You gain another cantrip\nslot that must be occupied by a Biotic Cantrip. When you use a Biotic Cantrip, you bump up the die by one.\nA d12 instead gives the power a +2 damage modifier per d12 rolled.</p>\n",
     "id": "deep-biotics"
   },
   {
@@ -3121,7 +3121,7 @@
     "klass": "explorer",
     "mechanics": [],
     "name": "Diagnostic Drone",
-    "html": "<p>Your skill with using VI's and tech allow you to recharge a few of your spells. At 10th level, whenever you take a\nshort rest, you can choose spend a few minutes tinkering with your Omni-tool and focusing to recover half your expended\nspell slots. These recovered spell slots must be split evenly between Biotic and Tech.\nOnce you use this feature, you must complete a long rest before using it again.</p>\n<p>At 20th level, you can use this feature twice per long rest.</p>\n",
+    "html": "<p>Your skill with using VI's and tech allow you to recharge a few of your powers. At 10th level, whenever you take a\nshort rest, you can choose spend a few minutes tinkering with your Omni-tool and focusing to recover half your expended\npower slots. These recovered power slots must be split evenly between Biotic and Tech.\nOnce you use this feature, you must complete a long rest before using it again.</p>\n<p>At 20th level, you can use this feature twice per long rest.</p>\n",
     "id": "diagnostic-drone"
   },
   {
@@ -3832,10 +3832,10 @@
             }
           }
         ],
-        "shortDesc": "When you are targeted by a power, you can use your reaction to cause feedback to the caster, dealing {{ damage }} Psychic damage to them. This effect occurs even if the spell misses."
+        "shortDesc": "When you are targeted by a power, you can use your reaction to cause feedback to the caster, dealing {{ damage }} Psychic damage to them. This effect occurs even if the power misses."
       }
     ],
-    "html": "<p>Your implants grant you a modicum of protection against most powers. When you are targeted by a power, you can use\nyour reaction to cause feedback to the caster, dealing half your Experiment level + your proficiency modifier Psychic\ndamage to them. This effect occurs even if the spell misses.</p>\n",
+    "html": "<p>Your implants grant you a modicum of protection against most powers. When you are targeted by a power, you can use\nyour reaction to cause feedback to the caster, dealing half your Experiment level + your proficiency modifier Psychic\ndamage to them. This effect occurs even if the power misses.</p>\n",
     "id": "exploit-excruciate"
   },
   {
@@ -4103,7 +4103,7 @@
                   {
                     "type": "bonus-action",
                     "name": "Exploit Weakness",
-                    "shortDesc": "Change the damage type of the power you cast with your Tech Cannon. Tech spells can change their damage type to Lightning, Fire, Cold or Poison. Biotic spells can change their damage type to Necrotic, Force, or Psychic.",
+                    "shortDesc": "Change the damage type of the power you cast with your Tech Cannon. Tech powers can change their damage type to Lightning, Fire, Cold or Poison. Biotic powers can change their damage type to Necrotic, Force, or Psychic.",
                     "moreInfo": {
                       "model": "class-features",
                       "id": "exploit-weakness"
@@ -4117,7 +4117,7 @@
       }
     ],
     "name": "Exploit Weakness",
-    "html": "<p>Beginning at 14th level, you can use a bonus action on your turn to change the damage type of the power you cast\nwith your Tech Cannon. Tech spells can change their damage type to Lightning, Fire, Cold or Poison. Biotic\nspells can change their damage type to Necrotic, Force, or Psychic.</p>\n",
+    "html": "<p>Beginning at 14th level, you can use a bonus action on your turn to change the damage type of the power you cast\nwith your Tech Cannon. Tech powers can change their damage type to Lightning, Fire, Cold or Poison. Biotic\npowers can change their damage type to Necrotic, Force, or Psychic.</p>\n",
     "id": "exploit-weakness"
   },
   {
@@ -4625,11 +4625,11 @@
           "id": "find-target"
         },
         "type": "bonus-action",
-        "shortDesc": "Designate one enemy to be your Target. Against your Target, you gain a +{{ intMod }} bonus to damage when you use your Engineer's Efficiency spell, and your Target has disadvantage against any saving throws your Engineer's Efficiency has, if it has any."
+        "shortDesc": "Designate one enemy to be your Target. Against your Target, you gain a +{{ intMod }} bonus to damage when you use your Engineer's Efficiency power, and your Target has disadvantage against any saving throws your Engineer's Efficiency has, if it has any."
       }
     ],
     "name": "Find Target",
-    "html": "<p>At 6th level, you can designate one enemy per turn to be your Target as a bonus action. Against your Target, you gain a\nbonus to damage equal to your Intelligence modifier when you use your Engineer's Efficiency spell, and your\nTarget has disadvantage against any saving throws your Engineer's Efficiency has, if it has any.</p>\n",
+    "html": "<p>At 6th level, you can designate one enemy per turn to be your Target as a bonus action. Against your Target, you gain a\nbonus to damage equal to your Intelligence modifier when you use your Engineer's Efficiency power, and your\nTarget has disadvantage against any saving throws your Engineer's Efficiency has, if it has any.</p>\n",
     "id": "find-target"
   },
   {
@@ -4834,7 +4834,7 @@
       }
     ],
     "name": "From the Shadows",
-    "html": "<p>The first time you make an attack or cast a single target spell against a creature, it does not automatically reveal\nyour position. Make a Dexterity (Stealth) check contested by the targets Wisdom (Perception) check. On a success, you remain hidden.</p>\n",
+    "html": "<p>The first time you make an attack or cast a single target power against a creature, it does not automatically reveal\nyour position. Make a Dexterity (Stealth) check contested by the targets Wisdom (Perception) check. On a success, you remain hidden.</p>\n",
     "id": "from-the-shadows"
   },
   {
@@ -5077,7 +5077,7 @@
       }
     ],
     "name": "Groundshaker",
-    "html": "<p>At 14th level, if you do not move before using Power Slam, you can chose to slam the ground instead of an enemy\nfor your attack. If you do so, enemies within a <me-distance length=\"10\" /> burst centred on you must make a\nDexterity saving throw against your Powercasting DC or be knocked prone and take the damage of the power you\ndischarged. If they succeed on the saving throw, they still take half of the damage of the spell you discharged.</p>\n",
+    "html": "<p>At 14th level, if you do not move before using Power Slam, you can chose to slam the ground instead of an enemy\nfor your attack. If you do so, enemies within a <me-distance length=\"10\" /> burst centred on you must make a\nDexterity saving throw against your Powercasting DC or be knocked prone and take the damage of the power you\ndischarged. If they succeed on the saving throw, they still take half of the damage of the power you discharged.</p>\n",
     "id": "groundshaker"
   },
   {
@@ -7995,7 +7995,7 @@
       }
     ],
     "name": "Pick your Poison",
-    "html": "<p>When you first pick this subclass at 2nd level, choose one of the following powers: Noxious Gas or Fuel Spill.</p>\n<p>You are always considered to have this spell prepared, and it doesn't count towards your total spells known.\nYou also gain proficiency with the chemist's kit.</p>\n<p>Additionally, when you use Fuel Spill or Noxious Gas, you are now able to have a\nmaximum of 3 areas of those powers active at once.</p>\n",
+    "html": "<p>When you first pick this subclass at 2nd level, choose one of the following powers: Noxious Gas or Fuel Spill.</p>\n<p>You are always considered to have this power prepared, and it doesn't count towards your total powers known.\nYou also gain proficiency with the chemist's kit.</p>\n<p>Additionally, when you use Fuel Spill or Noxious Gas, you are now able to have a\nmaximum of 3 areas of those powers active at once.</p>\n",
     "id": "pick-your-poison"
   },
   {
@@ -8179,7 +8179,7 @@
       }
     ],
     "name": "Power Slam",
-    "html": "<p>At 3rd level, when you cast an offensive power (like Incinerate or Warp) or a biotic cantrip that does damage, you can\ntransfer that power onto a melee weapon you are wielding. As part of that same action, you can swing your weapon at\nan adjacent opponent. If you miss, the power does nothing and you lose the power slot if you used one. If you hit, the\ntarget takes damage both from the weapon attack and the power discharged.</p>\n<p>Even if the power affects multiple opponents or an area, when used like this, the spell only affects the target of the\nmelee attack.</p>\n",
+    "html": "<p>At 3rd level, when you cast an offensive power (like Incinerate or Warp) or a biotic cantrip that does damage, you can\ntransfer that power onto a melee weapon you are wielding. As part of that same action, you can swing your weapon at\nan adjacent opponent. If you miss, the power does nothing and you lose the power slot if you used one. If you hit, the\ntarget takes damage both from the weapon attack and the power discharged.</p>\n<p>Even if the power affects multiple opponents or an area, when used like this, the power only affects the target of the\nmelee attack.</p>\n",
     "id": "power-slam"
   },
   {
@@ -8506,7 +8506,7 @@
         "klass": "vanguard"
       }
     ],
-    "html": "<p>Beggining at 1st level, you gain a small power list. Your powers use your Constitution modifier as your\npowercasting modifier, and you regain all power slots used on a long rest. You can choose from the\ncantrips available to the Adept, and from the spells available to the Vanguard</p>\n<h4>Biotic Experiment Powercasting</h4>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Cantrips Known</th>\n<th>Powers Known</th>\n<th>Lvl 1</th>\n<th>Lvl 2</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>1</td>\n<td>0</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>1</td>\n<td>0</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>2</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>3</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>4</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>4</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "html": "<p>Beggining at 1st level, you gain a small power list. Your powers use your Constitution modifier as your\npowercasting modifier, and you regain all power slots used on a long rest. You can choose from the\ncantrips available to the Adept, and from the powers available to the Vanguard</p>\n<h4>Biotic Experiment Powercasting</h4>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Level</th>\n<th>Cantrips Known</th>\n<th>Powers Known</th>\n<th>Lvl 1</th>\n<th>Lvl 2</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>1</td>\n<td>0</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>1</td>\n<td>0</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>2</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>3</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>4</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>4</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "powercasting-biotic-scar"
   },
   {
@@ -8724,7 +8724,7 @@
       }
     ],
     "name": "Powercasting",
-    "html": "<h3>Power Slots</h3>\n<p>The Explorer table shows how many spell slots you have. The table also shows what the level of those slots is; all of\nyour spell slots are the same level. To cast one of your sentinel spells of 1st level or higher, you must expend a\nspell slot. You regain all expended spell slots when you finish a long rest.</p>\n<p>For example, when you are 5th level, you have two 2nd-level spell slots. To cast the 1st-level spell Lance,\nyou must spend one of those slots, and you cast it as a 2nd-level spell.</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>An Explorer always knows all of the spells in their spell list. However, they cannot have all of them prepared at the same time.</p>\n<p>At the tail end of each long rest, an Explorer can chose up to half his Explorer level+his intelligence modifier spells.\nHe considers those spells as his prepared spells for the day, and may cast them using the spell slots at their disposal.</p>\n<p>Your prepared spells list must be equally split between Biotic Spells and Tech Spells. If the number of prepared spells\nyou have is odd, you may chose what kind of spell the spell that remains is after splitting the list\nbetween biotic and tech equally.</p>\n<p>When you select your spells, you may choose to spend one prepared spell to instead prepare an advanced version of a\nspell you are preparing. You may only have one advancement per spell.</p>\n<h3>Powercasting Ability</h3>\n<p>Explorers use a unique L5x biotic implant that integrates with the operative's omni-tool maximizes their innate talents.\nAs an explorer, the amount of information needed to process and optimize these systems makes your Spellcasting Ability\nIntelligence.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n",
+    "html": "<h3>Power Slots</h3>\n<p>The Explorer table shows how many power slots you have. The table also shows what the level of those slots is; all of\nyour power slots are the same level. To cast one of your sentinel powers of 1st level or higher, you must expend a\npower slot. You regain all expended power slots when you finish a long rest.</p>\n<p>For example, when you are 5th level, you have two 2nd-level power slots. To cast the 1st-level power Lance,\nyou must spend one of those slots, and you cast it as a 2nd-level power.</p>\n<h3>Powers Known of 1st Level and Higher</h3>\n<p>An Explorer always knows all of the powers in their power list. However, they cannot have all of them prepared at the same time.</p>\n<p>At the tail end of each long rest, an Explorer can chose up to half his Explorer level+his intelligence modifier powers.\nHe considers those powers as his prepared powers for the day, and may cast them using the power slots at their disposal.</p>\n<p>Your prepared powers list must be equally split between Biotic powers and Tech powers. If the number of prepared powers\nyou have is odd, you may chose what kind of power the power that remains is after splitting the list\nbetween biotic and tech equally.</p>\n<p>When you select your powers, you may choose to spend one prepared power to instead prepare an advanced version of a\npower you are preparing. You may only have one advancement per power.</p>\n<h3>Powercasting Ability</h3>\n<p>Explorers use a unique L5x biotic implant that integrates with the operative's omni-tool maximizes their innate talents.\nAs an explorer, the amount of information needed to process and optimize these systems makes your powercasting Ability\nIntelligence.</p>\n<p><strong>Power save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p><strong>Power attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>\n",
     "id": "powercasting-explorer"
   },
   {
@@ -9231,7 +9231,7 @@
         "model": "primal-augments"
       }
     ],
-    "html": "<p>At 18th level, your raw biotic potence interfaces perfectly with your augments, granting them new abilities. This only applies to your Main Augment.</p>\n<p><strong>Primal Weaponry</strong>: Your weapon deals an additional 1d8 necrotic damage. If your weapon is melee, it gains a reach of <me-distance length=\"5\" />. This can stack with the Reach property you can give it. If your weapon is ranged, double its range.</p>\n<p><strong>Primal Processor</strong>: You gain proficiency in Intelligence and Charisma Saving throws, and you become resistant to Psychic damage. Any creature who causes you Psychic damage takes Psychic damage equal to one roll of your Exploit die.</p>\n<p><strong>Primal Plating</strong>: You become resistant to Necrotic, Radiant and Force damage. When you are hit by a biotic spell, roll a 1d20. On a roll of 16 or higher, you regain one spell slot.</p>\n",
+    "html": "<p>At 18th level, your raw biotic potence interfaces perfectly with your augments, granting them new abilities. This only applies to your Main Augment.</p>\n<p><strong>Primal Weaponry</strong>: Your weapon deals an additional 1d8 necrotic damage. If your weapon is melee, it gains a reach of <me-distance length=\"5\" />. This can stack with the Reach property you can give it. If your weapon is ranged, double its range.</p>\n<p><strong>Primal Processor</strong>: You gain proficiency in Intelligence and Charisma Saving throws, and you become resistant to Psychic damage. Any creature who causes you Psychic damage takes Psychic damage equal to one roll of your Exploit die.</p>\n<p><strong>Primal Plating</strong>: You become resistant to Necrotic, Radiant and Force damage. When you are hit by a biotic power, roll a 1d20. On a roll of 16 or higher, you regain one power slot.</p>\n",
     "id": "primal-augments"
   },
   {
@@ -9668,7 +9668,7 @@
         }
       }
     ],
-    "html": "<p>At 14th level, when you Furycast a power, you may chose to take the remaining energy from the casting and cast the\npower again, albeit in a more weakened form. As a bonus action, you may cast the spell again, with the same parameters\nof the first casting, except that you halve the damage die you roll.</p>\n",
+    "html": "<p>At 14th level, when you Furycast a power, you may chose to take the remaining energy from the casting and cast the\npower again, albeit in a more weakened form. As a bonus action, you may cast the power again, with the same parameters\nof the first casting, except that you halve the damage die you roll.</p>\n",
     "id": "relentless-biotic-assault"
   },
   {
@@ -11319,7 +11319,7 @@
         "selections": 3
       }
     ],
-    "html": "<p>At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.</p>\n<p>As a bonus action, you can select an area within <me-distance length=\"60\" /> on the ground that measures <me-distance length=\"15\" /> on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become <me-condition id=\"incapacitated\"/>.</p>\n<p>When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.</p>\n<h5>Tactics</h5>\n<p><strong>Advance</strong>.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n<p><strong>Analysis</strong>.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the DM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points</p>\n<p><strong>Clear the area</strong>.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.</p>\n<p><strong>Heads up</strong>.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n<p><strong>Pin down</strong>.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n<p><strong>Recon</strong>.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n",
+    "html": "<p>At 3rd level, your tactical acumen and predictive VI algorithms allow you to provide direction to your\nallies that can tilt a battle in your favor.</p>\n<p>As a bonus action, you can select an area within <me-distance length=\"60\" /> on the ground that measures <me-distance length=\"15\" /> on each side. This area is your tactical focus.\nIt remains your tactical focus until you use this ability again or you become <me-condition id=\"incapacitated\"/>.</p>\n<p>When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three\ntactics at 3rd level. You gain an additional tactic at 7th and 14th level. Each time you complete a long rest, you can\nswap one of your tactics for a different one.</p>\n<h5>Tactics</h5>\n<p><strong>Advance</strong>.\nUpdate your allies' HUDs and outline optimal routes to your tactical focus. If an ally spends all of its movement\nmoving towards your tactical focus, it doubles its movement, ignores difficult terrain, and does not provoke attacks of\nopportunity.</p>\n<p><strong>Analysis</strong>.\nFocus all of your attention on the movements and capabilities of a single enemy. When you choose this tactic, you\nadditionally choose a single hostile creature within your tactical focus. Beginning when you set your tactical focus\nand at the beginning of each of your subsequent turns, the GM tells you if the creature is your equal, superior, or\ninferior in regard to one of the following characteristics of your choice: One ability score (Strength, Dexterity,\nConstitution, Intelligence, Charisma, or Wisdom), Armor Class, or Current hit points</p>\n<p><strong>Clear the area</strong>.\nPick out weak spots on your targets that force them out of your tactical focus. If an ally hit s a creature in your\ntactical focus with a weapon attack, the ally can move that creature <me-distance length=\"5\" />.</p>\n<p><strong>Heads up</strong>.\nIf an allied creature in your tactical focus must make a Dexterity saving throw it has advantage on that saving throw.</p>\n<p><strong>Pin down</strong>.\nWhen a hostile creature attempts to move out of your tactical focus, two target creatures of your choice can use\na reaction to make an attack of opportunity on the target. If both attacks are successful, the creature's movement becomes\n0, it falls prone and remains in your tactical focus.</p>\n<p><strong>Recon</strong>.\nYour VI focuses on the movement of dust and augments sound from your area of focus, reconstructing a perfect image on your\nand your allies' HUD. Any creature within your tactical focus loses any benefits from being invisible, lightly obscured,\nor heavily obscured.</p>\n",
     "id": "tactical-focus"
   },
   {
@@ -11441,7 +11441,7 @@
       }
     ],
     "name": "Tactical Sweep",
-    "html": "<p>At 3rd level, you learn the Tactical Scan combat power. If you already know the Tactical Scan combat power, you\ninstead learn one advancement for it. Instead of only one target, you can target up to your Intelligence modifier\nenemies when you use Tactical Scan, and you can make your Insight check using your Intelligence modifier for this power\nonly. You only receive your bonuses from Tactical Scan against one enemy at a time, but you can switch\nwho that enemy is as a bonus action, without the need to recast the spell.</p>\n",
+    "html": "<p>At 3rd level, you learn the Tactical Scan combat power. If you already know the Tactical Scan combat power, you\ninstead learn one advancement for it. Instead of only one target, you can target up to your Intelligence modifier\nenemies when you use Tactical Scan, and you can make your Insight check using your Intelligence modifier for this power\nonly. You only receive your bonuses from Tactical Scan against one enemy at a time, but you can switch\nwho that enemy is as a bonus action, without the need to recast the power.</p>\n",
     "id": "tactical-sweep"
   },
   {
@@ -11536,7 +11536,7 @@
       }
     ],
     "name": "Tech Ace",
-    "html": "<p>At 3rd level, your tools are calibrated enough that you can rely on them without fear. Choose one spell between\nIncinerate, Cryo Blast and Overload. You always have this spell prepared. You may cast the 1 tech point version of that\nspell without expending a 1st level spell slot. This spell is hereafter known as your Tech Ace.\nWhen you receive the 10th level improvement to your cantrips, you can also select an advancement for your Tech Ace</p>\n",
+    "html": "<p>At 3rd level, your tools are calibrated enough that you can rely on them without fear. Choose one power between\nIncinerate, Cryo Blast and Overload. You always have this power prepared. You may cast the 1 tech point version of that\npower without expending a 1st level power slot. This power is hereafter known as your Tech Ace.\nWhen you receive the 10th level improvement to your cantrips, you can also select an advancement for your Tech Ace</p>\n",
     "id": "tech-ace"
   },
   {
@@ -13253,7 +13253,7 @@
           "id": "find-target"
         },
         "merge": {
-          "shortDesc": "Designate one enemy to be your Target. Against your Target, you gain a +{{ intMod }} bonus to damage when you use your Engineer's Efficiency spell and roll two more damage die than normal on the power roll, and your Target has disadvantage against any saving throws your Engineer's Efficiency has, if it has any.",
+          "shortDesc": "Designate one enemy to be your Target. Against your Target, you gain a +{{ intMod }} bonus to damage when you use your Engineer's Efficiency power and roll two more damage die than normal on the power roll, and your Target has disadvantage against any saving throws your Engineer's Efficiency has, if it has any.",
           "moreInfo": {
             "additional": [
               {

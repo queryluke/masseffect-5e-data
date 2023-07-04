@@ -1411,7 +1411,7 @@
       {
         "id": "armor-piercing-arrow",
         "name": "Armor Piercing Arrow",
-        "text": "Your Bowshot spell now has a range of <me-distance length=\"200\" />. Targets hit by more than one arrow lose 1 point of AC until the end of their next turn.",
+        "text": "Your Bowshot power now has a range of <me-distance length=\"200\" />. Targets hit by more than one arrow lose 1 point of AC until the end of their next turn.",
         "mechanics": [
           {
             "range": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "html": "<p>You draw your Omni-Bow and shoot at a target you can see within range. Make a ranged power attack against a target\nwithin range. On a hit, your target takes 1d10 + Intelligence piercing damage. This spell does not cost any Tech Points.</p>\n<p>As you gain levels, you can make more shots per turn. You shoot two arrows at 5th level,\nthree arrows at 11th level, and four arrows at 17th level.\nYou can direct the arrows at the same target or at different ones.</p>\n",
+    "html": "<p>You draw your Omni-Bow and shoot at a target you can see within range. Make a ranged power attack against a target\nwithin range. On a hit, your target takes 1d10 + Intelligence piercing damage. This power does not cost any Tech Points.</p>\n<p>As you gain levels, you can make more shots per turn. You shoot two arrows at 5th level,\nthree arrows at 11th level, and four arrows at 17th level.\nYou can direct the arrows at the same target or at different ones.</p>\n",
     "id": "bowshot"
   },
   {

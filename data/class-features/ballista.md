@@ -12,4 +12,4 @@ mechanics:
 name: Ballista
 ---
 At 18th level, your Bowshot now adds your proficiency modifier to their damage, in the form of the
-elemental effect of your Engineer's Efficiency spell.
+elemental effect of your Engineer's Efficiency power.

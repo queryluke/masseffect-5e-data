@@ -13,7 +13,7 @@ mechanics:
     merge:
       shortDesc: >-
         Designate one enemy to be your Target. Against your Target, you gain a
-        +{{ intMod }} bonus to damage when you use your Engineer's Efficiency spell and roll two more damage die than
+        +{{ intMod }} bonus to damage when you use your Engineer's Efficiency power and roll two more damage die than
         normal on the power roll, and your Target has disadvantage against any saving throws your Engineer's
         Efficiency has, if it has any.
       moreInfo:
