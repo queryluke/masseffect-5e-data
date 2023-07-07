@@ -4,7 +4,7 @@ mechanics:
   - type: companion
 type: training-regimens
 ---
-__Prerequisite: 11th-level, Synthetic Beast, Fine Motor Control Servos__
+__Prerequisite: 11th-level, Fine Motor Control Servos__
 
 Your beast gains a new natural weapon that it can use to attack.
 

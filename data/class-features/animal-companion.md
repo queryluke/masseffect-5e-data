@@ -35,4 +35,4 @@ dies, you can spend 24 hours in a natural environment to bond with a new one if 
 same amount of time and 20 omni-gel to create a new synthetic one, or 5 if you still have the body.
 
 As an action on your turn, you can spend one medi-gel that your beast is carrying to have your beast recover hit
-points equal to 2d4+ your wisdom modifier. The healing increases to 4d4 at level 5, 6d4 at level 11, and 8d4 at level 15.
+points equal to 2d4 + your powercasting modifier. The healing increases to 4d4 at level 5, 6d4 at level 11, and 8d4 at level 15.

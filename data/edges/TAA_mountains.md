@@ -11,3 +11,5 @@ mechanics:
 type: tracker-affinity-advancement
 ---
 Your climbing speed now equals your movement speed (or is increased by 4m instead of 2m if you already had one.), and when falling, you take less damage equal to 5x your Tracker level.
+
+While climbing a vertical surface, your hands are considered to be kept free, allowing you to attack with two-handed weapons and other such things that require a free hand.

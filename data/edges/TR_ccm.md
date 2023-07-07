@@ -4,7 +4,7 @@ mechanics:
   - type: companion
 type: training-regimens
 ---
-__Prerequisite: 5th-level, Synthetic Beast__
+__Prerequisite: 5th-level__
 
 You equip your beast with a small foldable exhaust that is capable of sending out a wide blast of damaging blasts,
 such as flames, liquid nitrogen or bursts of electricity. Select one of the following damage types; Fire, Cold,

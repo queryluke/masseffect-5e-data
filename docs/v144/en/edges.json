@@ -3844,7 +3844,7 @@
       }
     ],
     "type": "tracker-affinity-advancement",
-    "html": "<p>Your climbing speed now equals your movement speed (or is increased by 4m instead of 2m if you already had one.), and when falling, you take less damage equal to 5x your Tracker level.</p>\n",
+    "html": "<p>Your climbing speed now equals your movement speed (or is increased by 4m instead of 2m if you already had one.), and when falling, you take less damage equal to 5x your Tracker level.</p>\n<p>While climbing a vertical surface, your hands are considered to be kept free, allowing you to attack with two-handed weapons and other such things that require a free hand.</p>\n",
     "id": "TAA_mountains"
   },
   {
@@ -3871,7 +3871,7 @@
       }
     ],
     "type": "tracker-affinity-advancement",
-    "html": "<p>Your walking speed increases by a further <me-distance length=\"10\" abbr />, and you can take the Dash action as a bonus action.</p>\n",
+    "html": "<p>Your walking speed increases by a further <me-distance length=\"10\" abbr />, and you can take the Dash action as a bonus action.</p>\n<p>Ordering your Beast to use its bonus action action to Dash no longer prevents it from Attacking.</p>\n",
     "id": "TAA_plains"
   },
   {
@@ -3974,11 +3974,11 @@
     "mechanics": [
       {
         "type": "speed-note",
-        "note": "You gain a climbing speed equal to half your walking speed, rounded down. If you already have a climbing speed, increase it by <me-distance length=\"5\" />."
+        "note": "You gain a climbing speed equal to your walking speed. If you already have a climbing speed, increase it by <me-distance length=\"10\" />."
       }
     ],
     "type": "tracker-affinity",
-    "html": "<p>You gain a climbing speed equal to half your walking speed, rounded down. If you already have a climbing speed, increase it by <me-distance length=\"5\" />.</p>\n",
+    "html": "<p>You gain a climbing speed equal to your walking speed. If you already have a climbing speed, increase it by <me-distance length=\"10\" />.</p>\n",
     "id": "TA_mountains"
   },
   {
@@ -4085,7 +4085,7 @@
       }
     ],
     "type": "training-regimens",
-    "html": "<p><strong>Prerequisite: 5th-level, Synthetic Beast</strong></p>\n<p>You equip your beast with a small foldable exhaust that is capable of sending out a wide blast of damaging blasts,\nsuch as flames, liquid nitrogen or bursts of electricity. Select one of the following damage types; Fire, Cold,\nElectric, Acid, Radiant, Thunder. Then check the table below. As an action, you can command your beast to activate the\nC.C.M. it has. The damage, area of effect and any secondary effects are described in the table on the next page.\nFor Acid, a creature only takes damage from 1 of the acid projectiles.</p>\n<p>Your beast can use the C.C.M. three times, after which it must take a long rest to regain its uses. The DC for this ability equals your Powersave DC.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Damage type</th>\n<th>Area/Range</th>\n<th>Damage and Secondary effects</th>\n<th>Save type</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Fire</td>\n<td>6m Cone</td>\n<td>3d6 Fire, and Primed Fire</td>\n<td>Dex</td>\n</tr>\n<tr>\n<td>Cold</td>\n<td>4m Cone</td>\n<td>2d6 cold, movement speed slowed by 4m and Primed cold</td>\n<td>Con</td>\n</tr>\n<tr>\n<td>Lightning</td>\n<td>6m Cone</td>\n<td>3d4 lightning, primed lightning</td>\n<td>Dex</td>\n</tr>\n<tr>\n<td>Thunder</td>\n<td>6m radius around beast</td>\n<td>3d8 thunder, deafened and pushed back 4m, heard up to 120 meters away</td>\n<td>Con</td>\n</tr>\n<tr>\n<td>Radiant</td>\n<td>4m Cone</td>\n<td>2d10 radiant, blinded, creatures that are immune to being blinded do not take damage</td>\n<td>Con</td>\n</tr>\n<tr>\n<td>Acid</td>\n<td>3 points within 6m of beast, 2m radius each</td>\n<td>2d4 acid damage, and on failed save, AC reduced by 1 if wearing armor</td>\n<td>Dex</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
+    "html": "<p><strong>Prerequisite: 5th-level</strong></p>\n<p>You equip your beast with a small foldable exhaust that is capable of sending out a wide blast of damaging blasts,\nsuch as flames, liquid nitrogen or bursts of electricity. Select one of the following damage types; Fire, Cold,\nElectric, Acid, Radiant, Thunder. Then check the table below. As an action, you can command your beast to activate the\nC.C.M. it has. The damage, area of effect and any secondary effects are described in the table on the next page.\nFor Acid, a creature only takes damage from 1 of the acid projectiles.</p>\n<p>Your beast can use the C.C.M. three times, after which it must take a long rest to regain its uses. The DC for this ability equals your Powersave DC.</p>\n<v-simple-table class=\"mb-8\"><template v-slot:default><thead>\n<tr>\n<th>Damage type</th>\n<th>Area/Range</th>\n<th>Damage and Secondary effects</th>\n<th>Save type</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Fire</td>\n<td>6m Cone</td>\n<td>3d6 Fire, and Primed Fire</td>\n<td>Dex</td>\n</tr>\n<tr>\n<td>Cold</td>\n<td>4m Cone</td>\n<td>2d6 cold, movement speed slowed by 4m and Primed cold</td>\n<td>Con</td>\n</tr>\n<tr>\n<td>Lightning</td>\n<td>6m Cone</td>\n<td>3d4 lightning, primed lightning</td>\n<td>Dex</td>\n</tr>\n<tr>\n<td>Thunder</td>\n<td>6m radius around beast</td>\n<td>3d8 thunder, deafened and pushed back 4m, heard up to 120 meters away</td>\n<td>Con</td>\n</tr>\n<tr>\n<td>Radiant</td>\n<td>4m Cone</td>\n<td>2d10 radiant, blinded, creatures that are immune to being blinded do not take damage</td>\n<td>Con</td>\n</tr>\n<tr>\n<td>Acid</td>\n<td>3 points within 6m of beast, 2m radius each</td>\n<td>2d4 acid damage, and on failed save, AC reduced by 1 if wearing armor</td>\n<td>Dex</td>\n</tr>\n</tbody>\n</template></v-simple-table>",
     "id": "TR_ccm"
   },
   {
@@ -4195,7 +4195,7 @@
       }
     ],
     "type": "training-regimens",
-    "html": "<p><strong>Prerequisite: 5th-level, Synthetic Beast</strong></p>\n<p>Whether your beast has gotten a set of omni-hands, a flexible and mobile tail with tiny servos at the end, been given opposable thumbs on its forelegs, or a set of fully humanoid looking hands, your beast has become capable of more capably interacting with physical objects.</p>\n<p>It has the same flexibility and capabilities any sentient organic species has with their hands and opposable thumbs. As such, they can wield weapons the same way organics can. Despite the number of limbs increasing, your beast does not gain additional action.</p>\n<p>With these hands, the beast can perform actions such as reloading and firing ranged weapons, maneuver objects, interact with terminals and keyboards, as well as grappling.</p>\n<p>Finally, your beast becomes proficient with Melee Weapons, and is able to equip omni-weapons.</p>\n",
+    "html": "<p><strong>Prerequisite: 5th-level</strong></p>\n<p>Whether your beast has gotten a set of omni-hands, a flexible and mobile tail with tiny servos at the end, been given opposable thumbs on its forelegs, or a set of fully humanoid looking hands, your beast has become capable of more capably interacting with physical objects.</p>\n<p>It has the same flexibility and capabilities any sentient organic species has with their hands and opposable thumbs. As such, they can wield weapons the same way organics can. Despite the number of limbs increasing, your beast does not gain additional action.</p>\n<p>With these hands, the beast can perform actions such as reloading and firing ranged weapons, maneuver objects, interact with terminals and keyboards, as well as grappling.</p>\n<p>Finally, your beast becomes proficient with Melee Weapons, is able to equip omni-weapons, and gains proficiency in one ranged weapon which you are proficient.</p>\n",
     "id": "TR_fmcs"
   },
   {
@@ -4228,7 +4228,7 @@
       }
     ],
     "type": "training-regimens",
-    "html": "<p><strong>Prerequisite: 11th-level, Synthetic Beast, Fine Motor Control Servos</strong></p>\n<p>Your beast gains a new natural weapon that it can use to attack.</p>\n<p>Sawblade: To hit Str + PB, 3d6 slashing damage.</p>\n<p>The damage of this attack cannot be reduced by slashing resistance. The first time this attack hits an organic creature, the target must make a Constitution saving throw (DC 15). On a fail, the target takes an additional 3d6 damage at the start of its next turn from bleeding. A creature can only suffer this damage once per round.</p>\n",
+    "html": "<p><strong>Prerequisite: 11th-level, Fine Motor Control Servos</strong></p>\n<p>Your beast gains a new natural weapon that it can use to attack.</p>\n<p>Sawblade: To hit Str + PB, 3d6 slashing damage.</p>\n<p>The damage of this attack cannot be reduced by slashing resistance. The first time this attack hits an organic creature, the target must make a Constitution saving throw (DC 15). On a fail, the target takes an additional 3d6 damage at the start of its next turn from bleeding. A creature can only suffer this damage once per round.</p>\n",
     "id": "TR_hfsb"
   },
   {

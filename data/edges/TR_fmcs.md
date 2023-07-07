@@ -4,7 +4,7 @@ mechanics:
   - type: companion
 type: training-regimens
 ---
-__Prerequisite: 5th-level, Synthetic Beast__
+__Prerequisite: 5th-level__
 
 Whether your beast has gotten a set of omni-hands, a flexible and mobile tail with tiny servos at the end, been given opposable thumbs on its forelegs, or a set of fully humanoid looking hands, your beast has become capable of more capably interacting with physical objects.
 
@@ -12,4 +12,4 @@ It has the same flexibility and capabilities any sentient organic species has wi
 
 With these hands, the beast can perform actions such as reloading and firing ranged weapons, maneuver objects, interact with terminals and keyboards, as well as grappling.
 
-Finally, your beast becomes proficient with Melee Weapons, and is able to equip omni-weapons.
+Finally, your beast becomes proficient with Melee Weapons, is able to equip omni-weapons, and gains proficiency in one ranged weapon which you are proficient.
