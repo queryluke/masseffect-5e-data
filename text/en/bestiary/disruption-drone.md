@@ -12,7 +12,7 @@ entries:
   actions:
     - name: Kamikaze Attack
       text: >-
-        The disruption can use its action to immediately reduce its hit points
+        The disruption drone can use its action to immediately reduce its hit points
         to 0.
       id: kamikaze-attack
 ---
