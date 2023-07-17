@@ -88,7 +88,7 @@ The fuel remains on the floor for 10 minutes, after which it has evaporated and 
 remains on the ground, the area is considered difficult terrain.
 
 If the fuel is hit with fire damage, it ignites, turning the pool of fuel into a large fire, dealing
-2d6 fire damage when it ignites, and 2d6 fire damage again when a creature ends its turn in the fire.
+2d6 fire damage when it ignites, and 2d6 fire damage again when a creature ends its turn in the fire or enters into the area for the first time on its turn.
 Creatures doused in fuel catch fire in the same manner, and continue burning for 1 minute or until the creature or
 an ally uses an action to douse themselves.
 
